@@ -1,6 +1,8 @@
 import os
+import re
+from glob import glob
+from os.path import basename, splitext
 
-import bottle
 import markdown2
 import toml
 from bottle import get, run, template
@@ -33,6 +35,8 @@ class Server:
         self.logger = setup_logging("log", log_level=log_level)
         self.md = markdown2.Markdown()
 
+        self._load_spells()
+
         self._load_wsgi_functions()
         self._init_server(
             host=cfg.get("Settings", "host") if host is None else host,
@@ -45,6 +49,20 @@ class Server:
         lock = process_lock.InterProcessLock("server.lock")
         if not lock.acquire(blocking=False):
             raise ChildProcessError("Server process is already running")
+
+    def _load_spells(self):
+        path, d = None, None
+        self.spells = {}
+        print("Loading spells into memory", end='')
+        try:
+            for path in glob("data/spell/*"):
+                print(".", end='')
+                with open(path) as f:
+                    self.spells[splitext(basename(path))[0]] = toml.loads(f.read())
+        except Exception:
+            print(f"Error when trying to process {path}")
+            raise
+        print(" Done.")
 
     def _init_server(self, host=None, port=None, run_as_thread=None):
         if run_as_thread:
@@ -74,9 +92,8 @@ class Server:
 
         @get('/spell/<name>')
         def spell(name):
-            name = name.lower()
-            with open(f"data/spell/{name}.toml") as f:
-                toml_dict = toml.loads(f.read())
+            name = re.sub("\W", "-", name.lower())
+            toml_dict = self.spells[name]
             print(toml_dict)
             return template("spell.tpl", **toml_dict)
 
