@@ -1,6 +1,6 @@
 <h1>{{title}}</h1>
 
-<p>{{"    ".join([c.title() for c in classes])}}</p>
+<p><em>{{!('&nbsp;' * 4).join([c.title() for c in classes])}}</em></p>
 
 <p>Level {{level}} {{school.title()}}{{" (ritual)" if ritual_spell else ""}}</p>
 
