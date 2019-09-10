@@ -10,7 +10,7 @@
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
 <strong>Duration:</strong> 8 hours</p>
 
-<p>{{description}}</p>
+<p>{{!description_md}}</p>
 % if defined('at_higher_levels'):
 
 <p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>

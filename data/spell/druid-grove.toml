@@ -19,6 +19,6 @@ description = """You invoke the spirits of nature to protect an area outdoors or
 * **Additional Spell Effect.** You can place your choice of one of the following magical effects within the warded area: 
  * A constant gust of Wind in two locations of your choice
  * Spike growth in one location of your choice
- * Wind wall in two locations of your choice _
+ * Wind wall in two locations of your choice  
 To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of spike growth is harmless."""
 source = "Xanathar's Guide to Everything, p. 154"

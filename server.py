@@ -5,7 +5,7 @@ from os.path import basename, splitext
 
 import markdown2
 import toml
-from bottle import get, run, template
+from bottle import get, run, template, view
 from fasteners import process_lock
 
 from utils import setup_logging, load_config
@@ -50,20 +50,6 @@ class Server:
         if not lock.acquire(blocking=False):
             raise ChildProcessError("Server process is already running")
 
-    def _load_spells(self):
-        path, d = None, None
-        self.spells = {}
-        print("Loading spells into memory", end='')
-        try:
-            for path in glob("data/spell/*"):
-                print(".", end='')
-                with open(path) as f:
-                    self.spells[splitext(basename(path))[0]] = toml.loads(f.read())
-        except Exception:
-            print(f"Error when trying to process {path}")
-            raise
-        print(" Done.")
-
     def _init_server(self, host=None, port=None, run_as_thread=None):
         if run_as_thread:
             from threading import Thread
@@ -79,6 +65,26 @@ class Server:
         run(host=host, port=port)
         print("Server instance is ending.")
 
+    def _load_spells(self):
+        path = None
+        self.spells = {}
+        print("Loading spells into memory", end='')
+        try:
+            for path in glob("data/spell/*"):
+                print(".", end='')
+                with open(path) as f:
+                    d = toml.loads(f.read())
+                d["description_md"] = self.md.convert(d["description"])
+                self.spells[splitext(basename(path))[0]] = d
+        except Exception:
+            print(f"\nError when trying to process {path}")
+            raise
+        print(" Done.")
+
+    @staticmethod
+    def _new_spell_filter_dict():
+        return dict([(f"level_{i}", []) for i in (["cantrip"] + list(range(1, 10)))])
+
     def _load_wsgi_functions(self):
         """
         Loads functions into the WSGI
@@ -91,11 +97,20 @@ class Server:
             return t
 
         @get('/spell/<name>')
+        @view("spell.tpl")
         def spell(name):
             name = re.sub("\W", "-", name.lower())
-            toml_dict = self.spells[name]
-            print(toml_dict)
-            return template("spell.tpl", **toml_dict)
+            return self.spells[name]
+
+        @get('/all_spells_by_name')
+        @view("spell_filter.tpl")
+        def all_spells_by_name():
+            d = self._new_spell_filter_dict()
+            for k, v in self.spells.items():
+                d["level_" + v["level"]].append(v)
+            d["title"] = "All Spells By Name"
+            print(d["level_cantrip"][0])
+            return d
 
 
 if __name__ == "__main__":
