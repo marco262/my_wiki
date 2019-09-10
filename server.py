@@ -109,7 +109,26 @@ class Server:
             for k, v in self.spells.items():
                 d["level_" + v["level"]].append(v)
             d["title"] = "All Spells By Name"
-            print(d["level_cantrip"][0])
+            return d
+
+        @get('/class_spell_list/<c>')
+        @view("spell_filter.tpl")
+        def class_spell_list(c):
+            d = self._new_spell_filter_dict()
+            for k, v in self.spells.items():
+                if c.lower() in v["classes"]:
+                    d["level_" + v["level"]].append(v)
+            d["title"] = f"{c.title()} Spells"
+            return d
+
+        @get('/concentration_spells')
+        @view("spell_filter.tpl")
+        def class_spell_list():
+            d = self._new_spell_filter_dict()
+            for k, v in self.spells.items():
+                if v["concentration_spell"]:
+                    d["level_" + v["level"]].append(v)
+            d["title"] = "Concentration Spells"
             return d
 
 
