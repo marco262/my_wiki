@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:bandit#bandit-captain"]]

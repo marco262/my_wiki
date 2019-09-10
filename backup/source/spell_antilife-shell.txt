@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 5th_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Self (10-foot radius)'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 hour'
+concentration_spell: concentration_spell
+description: "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.\n\nThe barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.\n\nIf you move so that an affected creature is forced to pass through the barrier, the spell ends."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '213'

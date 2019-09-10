@@ -1,0 +1,3 @@
+[[module ListPages category="spell" order="name desc desc" perPage="250" separate="false"]]
+* %%title_linked%%
+[[/module]]

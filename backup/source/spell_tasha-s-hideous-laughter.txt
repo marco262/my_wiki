@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 1st_level_spell
+school: enchantment_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '30 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'tiny tarts and a feather that is waved in the air'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target had advantage on the saving throw if it's triggered by damage. On a success, the spell ends."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '280'

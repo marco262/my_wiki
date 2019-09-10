@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 6th_level_spell
+school: enchantment_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: material_component
+material_desc: "a snake's tongue and either a bit of honeycomb or a drop of sweet oil"
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '24 hours'
+concentration_spell: '0'
+description: "You suggest a course of activity (limited to a sentence or two) and magically influence up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act automatically negates the effect of the spell.\n\nEach target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.\n\nYou can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn't met before the spell ends, the activity isn't performed.\n\nIf you or any of your companions damage a creature affected by this spell, the spell ends for that creature."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a 7th-level spell slot, the duration is 10 days. When you use an 8th-level spell slot, the duration is 30 days. When you use a 9th-level spell slot, the duration is a year and a day.'
+sourcebook: phb
+page: '258'

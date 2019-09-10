@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 4th_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 bonus action'
+range: Self
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 minute'
+concentration_spell: concentration_spell
+description: "A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.\n\n* **Primal Beast.** Bestial fur covers your body, your facial features become feral, and you gain the following benefits:\n * Your walking speed increases by 10 feet.\n * You gain darkvision with a range of 120 feet.\n * You make Strength—based attack rolls with advantage.\n * Your melee weapon attacks deal an extra 1d6 force damage on a hit.\n* **Great Tree.** Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:\n * You gain 10 temporary hit points.\n * You make Constitution saving throws with advantage.\n * You make Dexterity- and Wisdom-based attack rolls with advantage.\n * While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: xgte
+page: '157'

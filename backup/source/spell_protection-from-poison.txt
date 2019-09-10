@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: paladin_spell
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 2nd_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: '0'
+description: "You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random. For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '270'

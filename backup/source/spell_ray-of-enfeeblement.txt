@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 2nd_level_spell
+school: necromancy_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.\n\nAt the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '271'

@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 7th_level_spell
+school: conjuration_school
+ritual_spell: '0'
+casting_time: '1 hour'
+range: '120 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a holy symbol worth at least 5 gp'
+expensive_material_component: expensive_material_component
+material_component_consumed: '0'
+duration: '24 hours'
+concentration_spell: '0'
+description: "You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.\n\nYou make all decisions about the temple's appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.\n\nThe temple's interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.\n\nThe temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.\n\nIn addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.\n\nFinally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).\n\nThe temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.\n\nCasting this spell on the same spot every day for a year makes this effect permanent."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: xgte
+page: '167'

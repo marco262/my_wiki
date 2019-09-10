@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 4th_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Self'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a bit of phosphorous or a firefly'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '10 minutes'
+concentration_spell: '0'
+description: "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '241'

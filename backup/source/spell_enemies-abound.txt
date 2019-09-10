@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 3rd_level_spell
+school: enchantment_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '120 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 minute'
+concentration_spell: concentration_spell
+description: "You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: xgte
+page: '155'

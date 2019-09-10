@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 6th_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '10 minutes'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp'
+expensive_material_component: expensive_material_component
+material_component_consumed: '0'
+duration: '24 hours'
+concentration_spell: '0'
+description: "You create a ward that protects up to 2,500 square feet of floor space (an area 50 feet square, or one hundred 5-foot squares or twenty-five 10-foot squares). The warded area can be up to 20 feet tall, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them, as long as you can walk into each contiguous area while you are casting the spell.\n\nWhen you cast this spell, you can specify individuals that are unaffected by any or all of the effects that you choose. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.\n\n*Guards and wards* creates the following effects within the warded area.\n\n**Corridors.** Fog fills all the warded corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.\n\n**Doors.** All doors in the warded area are magically locked, as if sealed by an //[[[spell:arcane lock]]]// spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the //[[[spell:minor illusion]]]// spell) to make them appear as plain sections of wall.\n\n**Stairs.** Webs fill all stairs in the warded area from top to bottom, as the //[[[spell:web]]]// spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wars lasts.\n\n**Other Spell Effect.** You can place your choice of one of the following magical effects within the warded area of the stronghold.\n\n* Place //[[[spell:dancing lights]]]// in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.\n* Place //[[[spell:magic mouth]]]// in two locations.\n* Place //[[[spell:stinking cloud]]]// in two locations. The vapors appear in the places you designate; They return within 10 minutes if dispersed by wind while //guards and wards// lasts.\n* Place a constant //[[[spell:gust of wind]]]// in one corridor or room.\n* Place a //[[[spell:suggestion]]]// in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.\n\nThe whole warded area radiates magic. A //[[[spell:dispel magic]]]// cast on a specific effect, if successful, removes only that effect.\n\nYou can create a permanently guarded and warded structure by casting this spell there every day for one year."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '248'

@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: paladin_spell
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 1st_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Instantaneous'
+concentration_spell: '0'
+description: 'A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.'
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.'
+sourcebook: phb
+page: '230'

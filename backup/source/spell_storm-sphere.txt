@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 4th_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '150 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "A 20-foot-radius sphere of whirling air springs into existence centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take 2d6 bludgeoning damage. The sphere's space is difficult terrain.\n\nUntil the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes 4d6 lightning damage.\n\nCreatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th.'
+sourcebook: ee
+page: '22'

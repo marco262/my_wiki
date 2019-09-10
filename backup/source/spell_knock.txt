@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 2nd_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Instantaneous'
+concentration_spell: '0'
+description: "Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.\n\nA target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.\n\nIf you choose a target that is held shut with //[[[spell:arcane lock]]]//, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.\n\nWhen you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '254'

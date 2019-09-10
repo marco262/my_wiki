@@ -1,0 +1,7 @@
+[[module ListPages category="character" order="name" perPage="250" separate="false"]]
+* %%title_linked%%
+[[/module]]
+
+----
+
+[[module NewPage size="30" category="character" button="Create New Character Page"]]

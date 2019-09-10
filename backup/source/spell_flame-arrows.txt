@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: ranger_spell
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 3rd_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 hour'
+concentration_spell: concentration_spell
+description: "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.'
+sourcebook: ee
+page: '18'

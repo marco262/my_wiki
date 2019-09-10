@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 7th_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 bonus action'
+range: '30 feet'
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: Instantaneous
+concentration_spell: '0'
+description: "You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points:\n\n* 50 hit points or fewer: deafened for 1 minute\n* 40 hit points or fewer: deafened and blinded for 10 minutes\n* 30 hit points or fewer: blinded, deafened, and stunned for 1 hour\n* 20 hit points or fewer: killed instantly\n\nRegardless of its current hit points, a celestial, an element, a fey or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a //[[[spell:wish]]]// spell."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '234'

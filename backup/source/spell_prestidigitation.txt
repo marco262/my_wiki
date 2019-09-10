@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: cantrip
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '10 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Up to 1 hour'
+concentration_spell: '0'
+description: "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:\n\n* You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n* You instantaneously light or snuff out a candle, a torch, or a small campfire.\n* You instantaneously clean or soil an object no larger than 1 cubic foot.\n* You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n* You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n* You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '267'

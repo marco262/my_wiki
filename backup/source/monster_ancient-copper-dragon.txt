@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:Copper Dragon#ancient-copper-dragon"]]

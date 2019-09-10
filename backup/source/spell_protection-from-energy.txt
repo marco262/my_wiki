@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: ranger_spell
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 3rd_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '270'

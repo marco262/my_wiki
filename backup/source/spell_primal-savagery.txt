@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: cantrip
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: Self
+verbal_component: '0'
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: Instantaneous
+concentration_spell: '0'
+description: 'You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.'
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'The spell''s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).'
+sourcebook: xgte
+page: '163'

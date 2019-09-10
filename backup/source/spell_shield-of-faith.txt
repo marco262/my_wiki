@@ -1,0 +1,26 @@
+level: 1st_level_spell
+school: abjuration_school
+casting_time: '1 bonus action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a small parchment with a bit of holy text written on it'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 10 minutes'
+concentration_spell: concentration_spell
+ritual_spell: '0'
+description: 'A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.'
+at_higher_levels: '0'
+at_higher_levels_text: ''
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: paladin_spell
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+sourcebook: phb
+page: '275'

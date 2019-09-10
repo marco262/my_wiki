@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:zombie#ogre-zombie"]]

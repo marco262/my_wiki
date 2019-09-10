@@ -1,0 +1,699 @@
+[[module css]]
+table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
+[[/module]]
+
+++ Cantrips
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +cantrip" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 1st Level
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +1st_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 2nd Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +2nd_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 3rd Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +3rd_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 4th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +4th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 5th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +5th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 6th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +6th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 7th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +7th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 8th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +8th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]
+
+++ 9th Level
+
+
+
+[[table]]
+[[row]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; " ]]
+Spell Name
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 45px; " ]]
+Bard
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Cleric
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 50px; "]]
+Druid
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Paladin
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Ranger
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Sorcerer
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Warlock
+[[/hcell]]
+[[hcell style="border: 1px solid gray; background-color: #EEE; padding-top: 3px; padding-bottom: 3px; width: 60px; "]]
+Wizard
+[[/hcell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="name desc desc" category="spell" tags="+ritual_spell +9th_level_spell" separate="yes"]]
+[[table]]
+[[row]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; padding-left: 7px; width: 185px; text-align: left; " ]]
+%%title_linked%%
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 45px; text-align: center; " ]]
+[[iftags +bard_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +cleric_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 50px; text-align: center; " ]]
+[[iftags +druid_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +paladin_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +ranger_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +sorcerer_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +warlock_spell]]X[[/iftags]]
+[[/cell]]
+[[cell style="border: 1px solid gray; padding-top: 3px; padding-bottom: 3px; width: 60px; text-align: center; " ]]
+[[iftags +wizard_spell]]X[[/iftags]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/module]]

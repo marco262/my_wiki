@@ -1,0 +1,26 @@
+level: 1st_level_spell
+school: transmutation_school
+casting_time: '1 action'
+range: '30 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: '0'
+ritual_spell: '0'
+description: 'You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.'
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.'
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+sourcebook: phb
+page: '221'

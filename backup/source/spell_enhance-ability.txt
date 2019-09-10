@@ -1,0 +1,26 @@
+level: 2nd_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: Touch
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'fur or a feather from a beast'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 hour'
+concentration_spell: '0'
+description: "You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains the effect until the spell ends.\n\n**Bear's Endurance.** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.\n\n**Bull's Strength.** The target has advantage on Strength checks, and his or her carrying capacity doubles.\n\n**Cat's Grace.** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.\n\n**Eagle's Splendor.** The target has advantage on Charisma checks.\n\n**Fox's Cunning.** The target has advantage on Intelligence checks.\n\n**Owl's Wisdom.** The target has advantage on Wisdom checks."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.'
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: '0'
+sourcebook: phb
+page: '237'

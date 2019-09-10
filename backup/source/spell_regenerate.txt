@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 7th_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 minute'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a prayer wheel and holy water'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: '0'
+description: "You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).\n\nThe target's severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '271'

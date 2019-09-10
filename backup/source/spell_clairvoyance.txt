@@ -1,0 +1,26 @@
+level: 3rd_level_spell
+school: divination_school
+casting_time: '10 minutes'
+range: '1 mile'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a focus worth at least 100 gold, either a jeweled horn for hearing or a glass eye for seeing'
+expensive_material_component: expensive_material_component
+material_component_consumed: '0'
+duration: 'Concentration, up to 10 minutes'
+concentration_spell: concentration_spell
+ritual_spell: '0'
+description: "You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). \n\nThe sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with.\n\nWhen you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.\n\nA creature that can see the sensor (such as a creature benefiting from see invisibility or true-sight) sees a luminous, intangible orb about the size of your fist."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+sourcebook: phb
+page: '222'

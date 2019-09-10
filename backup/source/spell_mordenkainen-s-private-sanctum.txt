@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 4th_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '10 minutes'
+range: '120 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '24 hours'
+concentration_spell: '0'
+description: "You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.\n\nWhen you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:\n\n* Sound can't pass through the barrier at the edge of the warded area.\n* The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it.\n* Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.\n* Creatures in the area can't be targeted by divination spells.\n* Nothing can teleport into or out of the warded area.\n* Planar travel is blocked within the warded area.\n\nCasting this spell on the same spot every day for a year makes this effect permanent."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.'
+sourcebook: phb
+page: '262'

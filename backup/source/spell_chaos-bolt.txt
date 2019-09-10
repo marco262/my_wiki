@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: '0'
+level: 1st_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '120 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: Instantaneous
+concentration_spell: '0'
+description: "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.\n\n||~ d8 ||~ Damage Type ||\n|| 1 || Acid ||\n|| 2 || Cold ||\n|| 3 || Fire ||\n|| 4 || Force ||\n|| 5 || Lightning ||\n|| 6 || Poison ||\n|| 7 || Psychic ||\n|| 8 || Thunder ||\n\nIf you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.'
+sourcebook: xgte
+page: '151'

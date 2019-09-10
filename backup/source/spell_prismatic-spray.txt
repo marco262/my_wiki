@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 7th_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Self (60-foot cone)'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: Instantaneous
+concentration_spell: '0'
+description: "Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.\n\n# **Red.** The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.\n# **Orange.** The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.\n# **Yellow.** The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.\n# **Green.** The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.\n# **Blue.** The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.\n# **Indigo.** On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.\n# **Violet.** On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)\n# **Special.** The target is struck by two rays. Roll twice more, rerolling any 8."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '267'

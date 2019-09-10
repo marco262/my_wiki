@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 8th_level_spell
+school: evocation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '150 feet'
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: material_component
+material_desc: 'a drop of pitch mixed with a drop of mercury'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '10 minutes'
+concentration_spell: concentration_spell
+description: "Magical darkness spreads from a point you choose within range to fill a 60-foot radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can't see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can't illuminate the area. Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: xgte
+page: '160'

@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: cantrip
+school: divination_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '30 feet'
+verbal_component: '0'
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 round'
+concentration_spell: concentration_spell
+description: "You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '284'

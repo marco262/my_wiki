@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: cantrip
+school: divination_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '248'

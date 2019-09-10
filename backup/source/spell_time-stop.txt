@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 9th_level_spell
+school: transmutation_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Self'
+verbal_component: verbal_component
+somatic_component: '0'
+material_component: '0'
+material_desc: ''
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Instantaneous'
+concentration_spell: '0'
+description: "You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.\n\nThis spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet form the location where you cast it."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '283'

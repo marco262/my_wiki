@@ -1,0 +1,298 @@
+[[module css]]
+table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
+[[/module]]
+
+[[table]]
+[[row]]
+[[iftags bard_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:bard_spells|Bard]]]//[[/cell]][[/iftags]][[iftags cleric_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:cleric_spells|Cleric]]]//[[/cell]][[/iftags]][[iftags druid_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:druid_spells|Druid]]]//[[/cell]][[/iftags]][[iftags paladin_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:paladin_spells|Paladin]]]//[[/cell]][[/iftags]][[iftags ranger_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:ranger_spells|Ranger]]]//[[/cell]][[/iftags]][[iftags sorcerer_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:sorcerer_spells|Sorcerer]]]//[[/cell]][[/iftags]][[iftags warlock_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:warlock_spells|Warlock]]]//[[/cell]][[/iftags]][[iftags wizard_spell]][[cell style="border:0px; padding-right: 15px"]]//[[[class_spell_list:wizard_spells|Wizard]]]//[[/cell]][[/iftags]]
+[[/row]]
+[[/table]]
+
+%%form_data{level}%% %%form_data{school}%%[[iftags +ritual_spell]] (ritual)[[/iftags]]
+**Casting Time:** %%form_data{casting_time}%%
+**Range:** %%form_data{range}%%
+**Components:** [[iftags verbal_component]]V[[/iftags]][[iftags +verbal_component somatic_component material_component]], [[/iftags]][[iftags somatic_component]]S[[/iftags]][[iftags +somatic_component +material_component]], [[/iftags]][[iftags material_component]]M (%%form_data{material_desc}%%)[[/iftags]]
+**Duration:** %%form_data{duration}%%
+
+%%form_data{description}%%[[iftags at_higher_levels]]
+
+**At Higher Levels.** %%form_raw{at_higher_levels_text}%%[[/iftags]]
+
+--------
+
+[[size 70%]]//Source: %%form_data{sourcebook}%%,// [[iftags -homebrew]]p. [[/iftags]]%%form_data{page}%%[[/size]]
+
+--------
+
+[[div style="border:2px solid darkgreen; text-align:center; width:200px;"]]
+[[button set-tags -* +%%form_raw{level}%% +%%form_raw{school}%% +%%form_raw{verbal_component}%% +%%form_raw{somatic_component}%% +%%form_raw{material_component}%% +%%form_raw{school}%% +%%form_raw{expensive_material_component}%% +%%form_raw{material_component_consumed}%% +%%form_raw{concentration_spell}%% +%%form_raw{ritual_spell}%% +%%form_raw{at_higher_levels}%% +%%form_raw{bard_spell}%% +%%form_raw{cleric_spell}%% +%%form_raw{druid_spell}%% +%%form_raw{paladin_spell}%% +%%form_raw{ranger_spell}%% +%%form_raw{sorcerer_spell}%% +%%form_raw{warlock_spell}%% +%%form_raw{wizard_spell}%% +%%form_raw{sourcebook}%% +%%form_raw{melee_spell_attack}%% +%%form_raw{ranged_spell_attack}%% +%%form_raw{strength_save}%% +%%form_raw{dexterity_save}%% +%%form_raw{constitution_save}%% +%%form_raw{intelligence_save}%% +%%form_raw{wisdom_save}%% +%%form_raw{charisma_save}%% text="Set Tags"]]
+[[/div]]
+
+====
+
+[[form]]
+fields:
+ class_spells:
+   label: Class spell:
+   type: static
+ bard_spell:
+   label: Bard
+   type: select
+   values:
+     0: No
+     bard_spell: Yes
+   default: 0
+ cleric_spell:
+   label: Cleric
+   type: select
+   values:
+     0: No
+     cleric_spell: Yes
+   default: 0
+ druid_spell:
+   label: Druid
+   type: select
+   values:
+     0: No
+     druid_spell: Yes
+   default: 0
+ paladin_spell:
+   label: Paladin
+   type: select
+   values:
+     0: No
+     paladin_spell: Yes
+   default: 0
+ ranger_spell:
+   label: Ranger
+   type: select
+   values:
+     0: No
+     ranger_spell: Yes
+   default: 0
+ sorcerer_spell:
+   label: Sorcerer
+   type: select
+   values:
+     0: No
+     sorcerer_spell: Yes
+   default: 0
+ warlock_spell:
+   label: Warlock
+   type: select
+   values:
+     0: No
+     warlock_spell: Yes
+   default: 0
+ wizard_spell:
+   label: Wizard
+   type: select
+   values:
+     0: No
+     wizard_spell: Yes
+   default: 0
+ level:
+   label: Spell Level
+   type: select
+   values:
+     cantrip: Cantrip
+     1st_level_spell: 1st-level
+     2nd_level_spell: 2nd-level
+     3rd_level_spell: 3rd-level
+     4th_level_spell: 4th-level
+     5th_level_spell: 5th-level
+     6th_level_spell: 6th-level
+     7th_level_spell: 7th-level
+     8th_level_spell: 8th-level
+     9th_level_spell: 9th-level
+ school:
+   label: School
+   type: select
+   values:
+     abjuration_school: Abjuration
+     conjuration_school: Conjuration
+     divination_school: Divination
+     enchantment_school: Enchantment
+     evocation_school: Evocation
+     illusion_school: Illusion
+     necromancy_school: Necromancy
+     transmutation_school: Transmutation
+ ritual_spell:
+   label: Ritual?
+   type: select
+   values:
+     0: No
+     ritual_spell: Yes
+   default: 0
+
+ casting_time:
+   label: Casting Time
+   type: text
+   default: 1 action
+ range:
+   label: Range
+   type: text
+   default: 60 feet
+ components:
+   label: Spell Components
+   type: static
+ verbal_component:
+   label: Verbal
+   type: select
+   values:
+     0: No
+     verbal_component: Yes
+   default: 0
+ somatic_component:
+   label: Somatic
+   type: select
+   values:
+     0: No
+     somatic_component: Yes
+   default: 0
+ material_component:
+   label: Material
+   type: select
+   values:
+     0: No
+     material_component: Yes
+   default: 0
+ material_desc:
+   label: What material components?
+   type: text
+ expensive_material_component:
+   label: Expensive?
+   type: select
+   values:
+     0: No
+     expensive_material_component: Yes
+   default: 0
+ material_component_consumed:
+   label: Consumed?
+   type: select
+   values:
+     0: No
+     material_component_consumed: Yes
+   default: 0
+
+ duration:
+   label: Duration
+   type: text
+   default: 1 round
+ concentration_spell:
+   label: Concentration?
+   type: select
+   values:
+     0: No
+     concentration_spell: Yes
+   default: 0
+
+ description:
+   label: Spell Description
+   type: wiki
+   height: 4
+   width: 75
+ at_higher_levels:
+   label: At Higher Levels?
+   type: select
+   values:
+     0: No
+     at_higher_levels: Yes
+   default: 0
+ at_higher_levels_text:
+   label: Text
+   type: wiki
+   height: 4
+   width: 75
+   hint: If there's an 'At Higher Levels' section, add it here
+
+ break1:
+   label: 
+   type: static
+
+ sourcebook:
+   label: Sourcebook
+   type: select
+   values:
+     phb: Player's Handbook
+     dmg: Dungeon Master's Guide
+     ee: Elemental Evil
+     scag: Sword Coast Adventurer's Guide
+     xgte: Xanathar's Guide to Everything
+     llok: Lost Laboratory of Kwalish
+     homebrew: Homebrew
+   default: phb
+ page:
+   label: Page/Source
+   type: text
+
+ break2:
+   label: 
+   type: static
+
+ optional_tags:
+   label: Optional tags. Fill these out as needed.
+   type: static
+
+ melee_spell_attack:
+   label: Melee Spell Attack
+   type: select
+   values:
+     0: No
+     melee_spell_attack: Yes
+   default: 0
+ ranged_spell_attack:
+   label: Ranged Spell Attack
+   type: select
+   values:
+     0: No
+     ranged_spell_attack: Yes
+   default: 0
+ strength_save:
+   label: Strength Save
+   type: select
+   values:
+     0: No
+     strength_save: Yes
+   default: 0
+ dexterity_save:
+   label: Dexterity Save
+   type: select
+   values:
+     0: No
+     dexterity_save: Yes
+   default: 0
+ constitution_save:
+   label: Constitution Save
+   type: select
+   values:
+     0: No
+     constitution_save: Yes
+   default: 0
+ intelligence_save:
+   label: Intelligence Save
+   type: select
+   values:
+     0: No
+     intelligence_save: Yes
+   default: 0
+ wisdom_save:
+   label: Wisdom Save
+   type: select
+   values:
+     0: No
+     wisdom_save: Yes
+   default: 0
+ charisma_save:
+   label: Charisma Save
+   type: select
+   values:
+     0: No
+     charisma_save: Yes
+   default: 0
+
+ confirm:
+   type: static
+   value: After saving the spell, make sure you click the Set Tags button at the bottom of the page.
+
+[[/form]]

@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 3rd_level_spell
+school: illusion_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '120 feet'
+verbal_component: '0'
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a glowing stick of incense or a crystal vial filled with phosphorescent material'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 minute'
+concentration_spell: concentration_spell
+description: "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '252'

@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 5th_level_spell
+school: divination_school
+ritual_spell: ritual_spell
+casting_time: '1 action'
+range: '30 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'pieces of eggshell from two different kinds of creatures'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: '0'
+description: "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '270'

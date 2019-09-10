@@ -1,0 +1,3 @@
+[[module ListPages category="*" pagetype="*" separate="no"]]
+%%linked_title%% ([%%link%%/edit/true Edit])
+[[/module]]

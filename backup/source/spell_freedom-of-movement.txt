@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 4th_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a leather strap, bound around the arm or a similar appendage'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: '0'
+description: "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '244'

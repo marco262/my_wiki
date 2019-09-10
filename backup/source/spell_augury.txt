@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 2nd_level_spell
+school: divination_school
+ritual_spell: ritual_spell
+casting_time: '1 minute'
+range: Self
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'specially marked sticks, bones, or similar tokens worth at least 25 gold'
+expensive_material_component: expensive_material_component
+material_component_consumed: '0'
+duration: Instantaneous
+concentration_spell: '0'
+description: "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. \n\n**The DM chooses from the following possible omens:**\n\n* Weal, for good results\n* Woe, for bad results\n* Weal and woe, for both good and bad results\n* Nothing, for results that aren’t especially good or bad\n\nThe spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '215'

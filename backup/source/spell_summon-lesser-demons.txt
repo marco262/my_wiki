@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 3rd_level_spell
+school: conjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a vial of blood from a humanoid killed within the past 24 hours'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '1 hour'
+concentration_spell: concentration_spell
+description: "You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.\n\n||~ d6 ||~ Demons Summoned ||\n|| 1-2 || Two demons of challenge rating 1 or lower ||\n|| 3-4 || Four demons of challenge rating 1/2 or lower ||\n|| 5-6 || Eight demons of challenge rating 1/4 or lower ||\n\nThe DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.\n\nThe demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.\n\nAs part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons.'
+sourcebook: xgte
+page: '167'

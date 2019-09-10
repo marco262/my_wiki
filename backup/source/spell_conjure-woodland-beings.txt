@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: druid_spell
+paladin_spell: '0'
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 4th_level_spell
+school: conjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '60 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'one holly berry per creature summoned'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 hour'
+concentration_spell: concentration_spell
+description: "You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:\n\n* One fey creature of challenge rating 2 or lower\n* Two fey creatures of challenge rating 1 or lower\n* Four fey creatures of challenge rating 1/2 or lower\n* Eight fey creatures of challenge rating 1/4 or lower\n\nA summoned creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.\n\nThe DM has the creatures' statistics."
+at_higher_levels: at_higher_levels
+at_higher_levels_text: 'When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.'
+sourcebook: phb
+page: '226'

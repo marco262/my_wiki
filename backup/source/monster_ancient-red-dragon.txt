@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:Red Dragon#ancient-red-dragon"]]

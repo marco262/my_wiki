@@ -1,0 +1,26 @@
+bard_spell: bard_spell
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: sorcerer_spell
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 6th_level_spell
+school: divination_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'an ointment for the eyes that costs 25 gp, is made from mushroom powder, saffron, and fat, and is consumed by the spell'
+expensive_material_component: expensive_material_component
+material_component_consumed: material_component_consumed
+duration: '1 hour'
+concentration_spell: '0'
+description: "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '284'

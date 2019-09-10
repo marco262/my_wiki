@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+level: 2nd_level_spell
+school: necromancy_school
+ritual_spell: ritual_spell
+casting_time: '1 action'
+range: Touch
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a pinch of salt and one copper piece placed on each of the corpse''s eyes, which must remain there for the duration'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: '10 days'
+concentration_spell: '0'
+description: "You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.\n\nThe spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as //[[[spell:raise dead]]]//."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '245'

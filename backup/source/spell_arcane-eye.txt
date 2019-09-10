@@ -1,0 +1,26 @@
+level: 4th_level_spell
+school: divination_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: '30 feet'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a bit of bat fur'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 1 hour'
+concentration_spell: concentration_spell
+description: "You create an invisible, magical eye within range that hovers in the air for the duration.\n\nYou mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.\n\nAs an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+bard_spell: '0'
+cleric_spell: '0'
+druid_spell: '0'
+paladin_spell: '0'
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: wizard_spell
+sourcebook: phb
+page: '214'

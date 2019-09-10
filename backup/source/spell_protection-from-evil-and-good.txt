@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: '0'
+paladin_spell: paladin_spell
+ranger_spell: '0'
+sorcerer_spell: '0'
+warlock_spell: warlock_spell
+wizard_spell: wizard_spell
+level: 1st_level_spell
+school: abjuration_school
+ritual_spell: '0'
+casting_time: '1 action'
+range: 'Touch'
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'holy water or powdered silver and iron, which the spell consumes'
+expensive_material_component: '0'
+material_component_consumed: material_component_consumed
+duration: 'Concentration, up to 10 minutes'
+concentration_spell: concentration_spell
+description: "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.\n\nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '270'

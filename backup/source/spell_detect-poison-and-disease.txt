@@ -1,0 +1,26 @@
+bard_spell: '0'
+cleric_spell: cleric_spell
+druid_spell: druid_spell
+paladin_spell: paladin_spell
+ranger_spell: ranger_spell
+sorcerer_spell: '0'
+warlock_spell: '0'
+wizard_spell: '0'
+level: 1st_level_spell
+school: divination_school
+ritual_spell: ritual_spell
+casting_time: '1 action'
+range: Self
+verbal_component: verbal_component
+somatic_component: somatic_component
+material_component: material_component
+material_desc: 'a yew leaf'
+expensive_material_component: '0'
+material_component_consumed: '0'
+duration: 'Concentration, up to 10 minutes'
+concentration_spell: concentration_spell
+description: "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+at_higher_levels: '0'
+at_higher_levels_text: ''
+sourcebook: phb
+page: '231'

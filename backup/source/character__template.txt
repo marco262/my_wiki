@@ -1,0 +1,121 @@
+[[module css]]
+table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
+[[/module]]
+
+%%title%%
+[[[race:%%form_data{race}%%]]] [[[class:%%form_data{class}%%]]] %%form_data{level}%%
+
+
+|| Str || %%form_data{str}%% ||  %%form_data{str_mod}%% ||
+|| Dex || %%form_data{dex}%% ||  %%form_data{dex_mod}%% ||
+|| Con || %%form_data{con}%% ||  %%form_data{con_mod}%% ||
+|| Int || %%form_data{int}%% ||  %%form_data{int_mod}%% ||
+|| Wis || %%form_data{wis}%% ||  %%form_data{wis_mod}%% ||
+|| Cha || %%form_data{cha}%% ||  %%form_data{cha_mod}%% ||
+
+Proficiencies:
+%%form_data{proficiencies}%%
+
+Class Features:
+%%form_data{class_features}%%
+
+Equipment:
+%%form_data{equipment}%%
+
+Spells:
+%%form_data{spells}%%
+
+--------
+
+[[div style="border:2px solid darkgreen; text-align:center; width:200px;"]]
+[[button set-tags -* +%%form_raw{race}%% +%%form_raw{class}%%  text="Set Tags"]]
+[[/div]]
+
+====
+
+[[form]]
+fields: 
+ race:
+   label: Race
+   type: text
+ class:
+   label: Class
+   type: text
+ level:
+   label: Level
+   type: text
+   match: /^\d+$/
+ str:
+   label: Str
+   type: text
+   match: /^\d+$/
+ str_mod:
+   label: Str mod
+   type: text
+   match: /^[+-]?\d+$/
+ dex:
+   label: Dex
+   type: text
+   match: /^\d+$/
+ dex_mod:
+   label: Dex mod
+   type: text
+   match: /^[+-]?\d+$/
+ con:
+   label: Con
+   type: text
+   match: /^\d+$/
+ con_mod:
+   label: Con mod
+   type: text
+   match: /^[+-]?\d+$/
+ int:
+   label: Int
+   type: text
+   match: /^\d+$/
+ int_mod:
+   label: Int mod
+   type: text
+   match: /^[+-]?\d+$/
+ wis:
+   label: Wis
+   type: text
+   match: /^\d+$/
+ wis_mod:
+   label: Wis mod
+   type: text
+   match: /^[+-]?\d+$/
+ cha:
+   label: Cha
+   type: text
+   match: /^\d+$/
+ cha_mod:
+   label: Cha mod
+   type: text
+   match: /^[+-]?\d+$/
+ proficiencies:
+   label: Proficiencies
+   type: wiki
+   height: 4
+   width: 75
+ class_features:
+   label: Class Features
+   type: wiki
+   height: 4
+   width: 75
+ equipment:
+   label: Equipment
+   type: wiki
+   height: 4
+   width: 75
+ spells:
+   label: Spells
+   type: wiki
+   height: 4
+   width: 75
+ background:
+   label: Background
+   type: wiki
+   height: 4
+   width: 75
+[[/form]]

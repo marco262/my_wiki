@@ -1,0 +1,5 @@
+[[module css]]
+table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
+[[/module]]
+
+%%content{1}%%
