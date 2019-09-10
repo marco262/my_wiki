@@ -9,9 +9,10 @@
 <strong>Duration:</strong> 8 hours</p>
 
 <p>{{description}}</p>
+% if defined('at_higher_levels'):
 
 <p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
-
+% end
 <hr />
 
 <p><em>Source: {{source}}</em></p>
