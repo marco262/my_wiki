@@ -1,15 +1,12 @@
-# Python standard libraries
 import os
-from json import dumps
 
-# Library modules
+import bottle
 import markdown2
+import toml
+from bottle import get, run, template
+from fasteners import process_lock
 
 from utils import setup_logging, load_config
-
-# 3rd party modules
-from fasteners import process_lock
-from bottle import get, run
 
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
@@ -30,13 +27,11 @@ class Server:
     interval = None
 
     def __init__(self, host=None, port=None, log_level=None, run_as_thread=None):
-        global logger
-
         self._get_process_lock()
 
         cfg = load_config()
-        logger = setup_logging("log", log_level=log_level)
-        self.markdowner = markdown2.Markdown()
+        self.logger = setup_logging("log", log_level=log_level)
+        self.md = markdown2.Markdown()
 
         self._load_wsgi_functions()
         self._init_server(
@@ -45,7 +40,8 @@ class Server:
             run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is None else run_as_thread
         )
 
-    def _get_process_lock(self):
+    @staticmethod
+    def _get_process_lock():
         lock = process_lock.InterProcessLock("server.lock")
         if not lock.acquire(blocking=False):
             raise ChildProcessError("Server process is already running")
@@ -60,7 +56,8 @@ class Server:
         else:
             self._run_server(host, port)
 
-    def _run_server(self, host, port):
+    @staticmethod
+    def _run_server(host, port):
         run(host=host, port=port)
         print("Server instance is ending.")
 
@@ -71,7 +68,17 @@ class Server:
         @get('/')
         @get('/help')
         def index_help():
-            return self.markdowner.convert("*boo!*\n\n**eek!**")
+            with open("data/spell/aid.toml") as f:
+                t = toml.loads(f.read())
+            return t
+
+        @get('/spell/<name>')
+        def spell(name):
+            name = name.lower()
+            with open(f"data/spell/{name}.toml") as f:
+                toml_dict = toml.loads(f.read())
+            print(toml_dict)
+            return template("spell.tpl", **toml_dict)
 
 
 if __name__ == "__main__":
