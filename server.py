@@ -3,6 +3,8 @@ import os
 from json import dumps
 
 # Library modules
+import markdown2
+
 from utils import setup_logging, load_config
 
 # 3rd party modules
@@ -34,6 +36,7 @@ class Server:
 
         cfg = load_config()
         logger = setup_logging("log", log_level=log_level)
+        self.markdowner = markdown2.Markdown()
 
         self._load_wsgi_functions()
         self._init_server(
@@ -68,7 +71,7 @@ class Server:
         @get('/')
         @get('/help')
         def index_help():
-            return "8=======D"
+            return self.markdowner.convert("*boo!*\n\n**eek!**")
 
 
 if __name__ == "__main__":
