@@ -1,3 +1,5 @@
+<title>Private 5e Wiki - {{title}}</title>
+
 <h1>{{title}}</h1>
 
 <p><em>{{!('&nbsp;' * 4).join([c.title() for c in classes])}}</em></p>
