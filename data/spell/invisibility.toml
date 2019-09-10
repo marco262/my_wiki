@@ -1,0 +1,16 @@
+title = "Invisibility"
+classes = ["bard", "sorcerer", "warlock", "wizard"]
+level = "2"
+school = "illusion"
+concentration_spell = true
+ritual_spell = false
+casting_time = "1 action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "an eyelash encased in gum arabic"
+expensive_material_component = false
+material_component_consumed = false
+duration = "Concentration, up to 1 hour"
+description = """A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell."""
+at_higher_levels = "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+source = "Player's Handbook, p. 254"

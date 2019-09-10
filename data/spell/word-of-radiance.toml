@@ -1,0 +1,16 @@
+title = "Word Of Radiance"
+classes = ["cleric"]
+level = "cantrip"
+school = "evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "5 feet"
+components = ["V", "M"]
+material = "a holy symbol"
+expensive_material_component = false
+material_component_consumed = false
+duration = "Instantaneous"
+description = """You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage."""
+at_higher_levels = "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+source = "Xanathar's Guide to Everything, p. 171"

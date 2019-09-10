@@ -1,0 +1,13 @@
+title = "Inflict Wounds"
+classes = ["cleric"]
+level = "1"
+school = "necromancy"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Touch"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage."""
+at_higher_levels = "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st."
+source = "Player's Handbook, p. 253"

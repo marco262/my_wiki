@@ -1,0 +1,12 @@
+title = "Far Step"
+classes = ["sorcerer", "warlock", "wizard"]
+level = "5"
+school = "conjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "1 bonus action"
+range = "Self"
+components = ["V"]
+duration = "1 minute"
+description = """You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again."""
+source = "Xanathar's Guide to Everything, p. 155"

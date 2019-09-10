@@ -1,0 +1,12 @@
+title = "Purify Food And Drink"
+classes = ["cleric", "druid", "paladin"]
+level = "1"
+school = "transmutation"
+concentration_spell = false
+ritual_spell = true
+casting_time = "1 action"
+range = "10 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease."""
+source = "Player's Handbook, p. 270"

@@ -1,0 +1,12 @@
+title = "Remove Curse"
+classes = ["cleric", "paladin", "warlock", "wizard"]
+level = "3"
+school = "abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Touch"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."""
+source = "Player's Handbook, p. 271"

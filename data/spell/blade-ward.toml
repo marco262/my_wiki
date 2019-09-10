@@ -1,0 +1,12 @@
+title = "Blade Ward"
+classes = ["bard", "sorcerer", "warlock", "wizard"]
+level = "cantrip"
+school = "abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Self"
+components = ["V", "S"]
+duration = "1 Round"
+description = """You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."""
+source = "Player's Handbook, p. 218"

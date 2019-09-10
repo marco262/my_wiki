@@ -1,0 +1,15 @@
+title = "See Invisibility"
+classes = ["bard", "sorcerer", "wizard"]
+level = "2"
+school = "divination"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "a pinch of tale and a small sprinkling of powdered silver"
+expensive_material_component = false
+material_component_consumed = false
+duration = "1 hour"
+description = """For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."""
+source = "Player's Handbook, p. 274"
