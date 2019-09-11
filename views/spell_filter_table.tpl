@@ -14,7 +14,7 @@
     </tr>
     % for s in spells:
     <tr>
-        <td><a href="spell/{{s["title"]}}">{{s["title"]}}</a></td>
+        <td><a href="/spell/{{s["title"]}}">{{s["title"]}}</a></td>
         <td>{{s["school"].title()}}</td>
         <td>{{"X" if "bard" in s["classes"] else ""}}</td>
         <td>{{"X" if "cleric" in s["classes"] else ""}}</td>

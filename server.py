@@ -109,6 +109,7 @@ class Server:
             for k, v in self.spells.items():
                 d["level_" + v["level"]].append(v)
             d["title"] = "All Spells By Name"
+            d["table_template"] = "spell_filter_table.tpl"
             return d
 
         @get('/class_spell_list/<c>')
@@ -119,6 +120,7 @@ class Server:
                 if c.lower() in v["classes"]:
                     d["level_" + v["level"]].append(v)
             d["title"] = f"{c.title()} Spells"
+            d["table_template"] = "spell_filter_table_small.tpl"
             return d
 
         @get('/concentration_spells')
@@ -129,6 +131,18 @@ class Server:
                 if v["concentration_spell"]:
                     d["level_" + v["level"]].append(v)
             d["title"] = "Concentration Spells"
+            d["table_template"] = "spell_filter_table.tpl"
+            return d
+
+        @get('/ritual_spells')
+        @view("spell_filter.tpl")
+        def class_spell_list():
+            d = self._new_spell_filter_dict()
+            for k, v in self.spells.items():
+                if v["ritual_spell"]:
+                    d["level_" + v["level"]].append(v)
+            d["title"] = "Ritual Spells"
+            d["table_template"] = "spell_filter_table.tpl"
             return d
 
 

@@ -2,7 +2,7 @@
 
 <h1>{{title}}</h1>
 
-<p><em>{{!('&nbsp;' * 4).join([c.title() for c in classes])}}</em></p>
+<p><em>{{!('&nbsp;' * 4).join(['<a href="/class_spell_list/{}">{}</a>'.format(c, c.title()) for c in classes])}}</em></p>
 
 <p>Level {{level}} {{school.title()}}{{" (ritual)" if ritual_spell else ""}}</p>
 
