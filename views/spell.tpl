@@ -1,3 +1,5 @@
+% include("header.tpl")
+
 <title>Private 5e Wiki - {{title}}</title>
 
 <h1>{{title}}</h1>
@@ -18,3 +20,5 @@
 <hr />
 
 <p><em>Source: {{source}}</em></p>
+
+% include("footer.tpl")

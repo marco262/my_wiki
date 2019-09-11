@@ -1,3 +1,5 @@
+% include("header.tpl")
+
 <title>Private 5e Wiki - {{title}}</title>
 
 <h1>{{title}}</h1>
@@ -51,3 +53,5 @@
 <h2>9th Level</h2>
 % include(table_template, spells=level_9)
 % end
+
+% include("footer.tpl")
