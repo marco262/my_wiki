@@ -1,4 +1,4 @@
-title = "Toll The Dead"
+title = "Toll the Dead"
 classes = ["cleric", "warlock", "wizard"]
 level = "cantrip"
 school = "necromancy"

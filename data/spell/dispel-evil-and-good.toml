@@ -1,4 +1,4 @@
-title = "Dispel Evil And Good"
+title = "Dispel Evil and Good"
 classes = ["cleric", "paladin"]
 level = "5"
 school = "abjuration"

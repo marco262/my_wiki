@@ -1,4 +1,4 @@
-title = "Purify Food And Drink"
+title = "Purify Food and Drink"
 classes = ["cleric", "druid", "paladin"]
 level = "1"
 school = "transmutation"

@@ -1,4 +1,4 @@
-title = "Find The Path"
+title = "Find the Path"
 classes = ["bard", "cleric", "druid"]
 level = "6"
 school = "divination"

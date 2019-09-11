@@ -1,4 +1,4 @@
-title = "Wall Of Water"
+title = "Wall of Water"
 classes = ["druid", "sorcerer", "wizard"]
 level = "3"
 school = "evocation"

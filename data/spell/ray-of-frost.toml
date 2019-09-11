@@ -1,4 +1,4 @@
-title = "Ray Of Frost"
+title = "Ray of Frost"
 classes = ["sorcerer", "wizard"]
 level = "cantrip"
 school = "evocation"

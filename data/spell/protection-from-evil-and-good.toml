@@ -1,4 +1,4 @@
-title = "Protection From Evil And Good"
+title = "Protection From Evil and Good"
 classes = ["cleric", "paladin", "warlock", "wizard"]
 level = "1"
 school = "abjuration"

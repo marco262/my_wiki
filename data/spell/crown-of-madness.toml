@@ -1,4 +1,4 @@
-title = "Crown Of Madness"
+title = "Crown of Madness"
 classes = ["bard", "sorcerer", "warlock", "wizard"]
 level = "2"
 school = "enchantment"

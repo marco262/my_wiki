@@ -1,4 +1,4 @@
-title = "Zone Of Truth"
+title = "Zone of Truth"
 classes = ["bard", "cleric", "paladin"]
 level = "2"
 school = "enchantment"

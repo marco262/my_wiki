@@ -1,4 +1,4 @@
-title = "Detect Poison And Disease"
+title = "Detect Poison and Disease"
 classes = ["cleric", "druid", "paladin", "ranger"]
 level = "1"
 school = "divination"

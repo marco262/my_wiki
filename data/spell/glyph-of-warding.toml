@@ -1,4 +1,4 @@
-title = "Glyph Of Warding"
+title = "Glyph of Warding"
 classes = ["bard", "cleric", "wizard"]
 level = "3"
 school = "abjuration"

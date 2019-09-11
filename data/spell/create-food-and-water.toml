@@ -1,4 +1,4 @@
-title = "Create Food And Water"
+title = "Create Food and Water"
 classes = ["cleric", "paladin"]
 level = "3"
 school = "conjuration"
