@@ -5,7 +5,7 @@ from os.path import basename, splitext
 
 import markdown2
 import toml
-from bottle import get, run, template, view
+from bottle import get, run, view
 from fasteners import process_lock
 
 from utils import setup_logging, load_config
@@ -125,7 +125,7 @@ class Server:
 
         @get('/concentration_spells')
         @view("spell_filter.tpl")
-        def class_spell_list():
+        def concentration_spell_list():
             d = self._new_spell_filter_dict()
             for k, v in self.spells.items():
                 if v["concentration_spell"]:
@@ -136,7 +136,18 @@ class Server:
 
         @get('/ritual_spells')
         @view("spell_filter.tpl")
-        def class_spell_list():
+        def ritual_spell_list():
+            d = self._new_spell_filter_dict()
+            for k, v in self.spells.items():
+                if v["ritual_spell"]:
+                    d["level_" + v["level"]].append(v)
+            d["title"] = "Ritual Spells"
+            d["table_template"] = "spell_filter_table.tpl"
+            return d
+
+        @get('/feedback')
+        @view("spell_filter.tpl")
+        def feedback():
             d = self._new_spell_filter_dict()
             for k, v in self.spells.items():
                 if v["ritual_spell"]:
