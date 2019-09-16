@@ -1,9 +1,10 @@
 import logging
-import logging.handlers
 import os
 import sys
-from shutil import copyfile
 from configparser import RawConfigParser
+from html.parser import HTMLParser
+from logging.handlers import TimedRotatingFileHandler
+from shutil import copyfile
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -29,9 +30,7 @@ def setup_logging(name, log_level=None, capture_stderr=False):
 
     logger = logging.getLogger(name)
     logger.setLevel(level)
-    handler = logging.handlers.TimedRotatingFileHandler(
-        os.path.join(logs_folder, name + ".log"), when="midnight"
-    )
+    handler = TimedRotatingFileHandler(os.path.join(logs_folder, name + ".log"), when="midnight")
     formatter = logging.Formatter(cfg.get('Logging', 'format'), cfg.get('Logging', 'date format'))
     handler.setFormatter(formatter)
     logger.addHandler(handler)
@@ -64,3 +63,25 @@ def delete_config():
     config_path = "./config.ini"
     os.remove(config_path)
     print(config_path, "has been removed.")
+
+
+# Taken from https://stackoverflow.com/questions/753052/strip-html-from-strings-in-python
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.strict = False
+        self.convert_charrefs= True
+        self.fed = []
+
+    def handle_data(self, d):
+        self.fed.append(d)
+
+    def get_data(self):
+        return ''.join(self.fed)
+
+
+def strip_html(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
