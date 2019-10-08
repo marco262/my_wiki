@@ -1,0 +1,1 @@
+<title>{{title}} - Private 5e Wiki</title>

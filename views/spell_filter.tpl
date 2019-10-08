@@ -1,6 +1,4 @@
-% include("header.tpl")
-
-<title>Private 5e Wiki - {{title}}</title>
+% include("header.tpl", title=title)
 
 <h1>{{title}}</h1>
 
