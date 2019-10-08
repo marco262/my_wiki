@@ -1,6 +1,7 @@
 import os
 import re
 from glob import glob
+from json import dumps
 from os.path import basename, splitext
 
 import markdown2
@@ -91,10 +92,22 @@ class Server:
         """
         @get('/')
         @get('/help')
+        @view('home.tpl')
         def index_help():
-            with open("data/spell/aid.toml") as f:
-                t = toml.loads(f.read())
-            return t
+            return
+
+        @get('/search')
+        @view('search.tpl')
+        def search():
+            return
+
+        @get('/search_results/<search_key>')
+        def search_results(search_key):
+            results = []
+            for k, v in self.spells.items():
+                if search_key in v['title'].lower():
+                    results.append([k, v['title']])
+            return dumps(results)
 
         @get('/spell/<name>')
         @view("spell.tpl")
