@@ -1,5 +1,6 @@
 title = "Antipathy Sympathy"
 classes = ["druid", "wizard"]
+classes_ua = ["bard"]
 level = "8"
 school = "enchantment"
 concentration_spell = false

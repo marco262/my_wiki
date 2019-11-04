@@ -1,5 +1,6 @@
 title = "Tenser's Transformation"
 classes = ["wizard"]
+classes_ua = ["bard"]
 level = "6"
 school = "transmutation"
 concentration_spell = true
