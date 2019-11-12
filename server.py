@@ -1,12 +1,13 @@
 import os
 import re
+from collections import OrderedDict
 from glob import glob
 from json import dumps
 from os.path import basename, splitext
 
 import markdown2
 import toml
-from bottle import get, run, view
+from bottle import get, run, view, route, static_file
 from fasteners import process_lock
 
 from utils import setup_logging, load_config
@@ -74,7 +75,7 @@ class Server:
             for path in glob("data/spell/*"):
                 print(".", end='')
                 with open(path) as f:
-                    d = toml.loads(f.read())
+                    d = toml.loads(f.read(), _dict=OrderedDict)
                 d["description_md"] = self.md.convert(d["description"])
                 self.spells[splitext(basename(path))[0]] = d
         except Exception:
@@ -95,6 +96,10 @@ class Server:
         @view('home.tpl')
         def index_help():
             return
+
+        @route("/static/:path#.+#", name="static")
+        def static(path):
+            return static_file(path, root="static")
 
         @get('/search')
         @view('search.tpl')
