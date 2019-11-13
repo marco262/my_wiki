@@ -1,38 +1,33 @@
-function search() {
+import { ajax_call } from "./utils.js";
+
+var timer;
+
+export function search() {
     let search_key = document.getElementById("search_key").value;
     if (search_key == "") { return; }
-    get_search_results(search_key);
+    ajax_call("/search_results/" + search_key, handle_search_results);
 }
 
-function get_search_results(search_key) {
-    let xhttp;
-    xhttp=new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            handle_search_results(this);
-        }
-    };
-    xhttp.open("GET", "/search_results/" + search_key, true);
-    xhttp.send();
+export function on_key_press(e) {
+    if (e.key == "Enter") {
+        search(this);
+    }
+    clearTimeout(timer);
+    timer = setTimeout(search, 1000);
 }
 
 function handle_search_results(xhttp) {
     let json = JSON.parse(xhttp.responseText);
     console.log(json);
+    let html;
     if (json.length == 0) {
-        html = "<i>No Results</i>"
+        html = "<i>No Results</i>";
     } else {
         html = "<ul>\n";
-        for (i = 0; i < json.length; i++) {
+        for (let i = 0; i < json.length; i++) {
             html += `<li><a href="spell/${json[i][0]}">${json[i][1]}</a></li>\n`;
         }
         html += "</ul>";
     }
     document.getElementById("search_results").innerHTML = html;
-}
-
-function on_key_press(e) {
-    if (e.key == "Enter") {
-        search(this);
-    }
 }
