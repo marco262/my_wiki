@@ -109,10 +109,12 @@ def results_mode(d: dict, mode: Optional[str]) -> Union[str, dict]:
     if mode == Mode.TITLE.value:
         return d["title"]
     if mode == Mode.BRIEF.value:
-        d = deepcopy(d)
-        del d["description"]
-        del d["at_higher_levels"]
-        return d
+        filter_keys = ["description", "at_higher_levels", "description_md"]
+        filtered_dict = {}
+        for k, v in d.items():
+            if k not in filter_keys:
+                filtered_dict[k] = v
+        return filtered_dict
     if mode == Mode.FULL.value:
         return d
     raise ValueError(f"{mode} is not a valid results mode")
