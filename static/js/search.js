@@ -1,6 +1,6 @@
 import { ajax_call } from "./utils.js";
 
-var timer;
+var key_press_timer;
 
 export function search() {
     let search_key = document.getElementById("search_key").value;
@@ -9,11 +9,12 @@ export function search() {
 }
 
 export function on_key_press(e) {
+    clearTimeout(key_press_timer);
     if (e.key == "Enter") {
         search(this);
+        return;
     }
-    clearTimeout(timer);
-    timer = setTimeout(search, 1000);
+    key_press_timer = setTimeout(search, 1000);
 }
 
 function handle_search_results(xhttp) {
