@@ -10,7 +10,7 @@ import toml
 from bottle import get, run, view, route, static_file
 from fasteners import process_lock
 
-from utils import setup_logging, load_config
+from utils import setup_logging, load_config, results_mode
 
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
@@ -106,12 +106,12 @@ class Server:
         def search():
             return
 
-        @get('/search_results/<search_key>')
-        def search_results(search_key):
+        @get('/search_results/<search_key>/<mode>')
+        def search_results(search_key, mode):
             results = []
             for k, v in self.spells.items():
                 if search_key in v['title'].lower():
-                    results.append([k, v['title']])
+                    results.append([k, results_mode(v, mode)])
             return dumps(results)
 
         @get('/spell/<name>')

@@ -2,9 +2,18 @@ import logging
 import os
 import sys
 from configparser import RawConfigParser
+from copy import deepcopy
+from enum import Enum
 from html.parser import HTMLParser
 from logging.handlers import TimedRotatingFileHandler
 from shutil import copyfile
+from typing import Optional, Union
+
+
+class Mode(Enum):
+    TITLE = "TITLE"
+    BRIEF = "BRIEF"
+    FULL = "FULL"
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -85,3 +94,25 @@ def strip_html(html):
     s = MLStripper()
     s.feed(html)
     return s.get_data()
+
+
+def results_mode(d: dict, mode: Optional[str]) -> Union[str, dict]:
+    """
+    Takes in a spell dictionary (or other dict from a TOML file) and returns the contents based on the mode
+    passed in. TITLE returns only the title. BRIEF returns everything but the description. FULL returns the full dict.
+    :param d: dictionary of data
+    :param mode: TITLE (or None), BRIEF, or FULL
+    :return:
+    """
+    if mode is None:
+        mode = Mode.TITLE
+    if mode == Mode.TITLE.value:
+        return d["title"]
+    if mode == Mode.BRIEF.value:
+        d = deepcopy(d)
+        del d["description"]
+        del d["at_higher_levels"]
+        return d
+    if mode == Mode.FULL.value:
+        return d
+    raise ValueError(f"{mode} is not a valid results mode")
