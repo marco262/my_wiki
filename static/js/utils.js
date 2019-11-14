@@ -1,6 +1,6 @@
 export const class_list = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"];
 
-export function ajax_call(url, func, spell_table_header, spell_table_row) {
+export function ajax_call(url, func) {
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
