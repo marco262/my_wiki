@@ -9,3 +9,7 @@ export function ajax_call(url, func) {
     xhttp.open("GET", url, true);
     xhttp.send();
 }
+
+export function title_case(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+}
