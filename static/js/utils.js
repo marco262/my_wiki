@@ -1,8 +1,9 @@
+export const class_list = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"];
+
 export function ajax_call(url, func, spell_table_header, spell_table_row) {
-    let xhttp;
-    xhttp = new XMLHttpRequest();
+    const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+        if (this.readyState === 4 && this.status === 200) {
             func(this);
         }
     };
@@ -14,29 +15,31 @@ export function title_case(s) {
     return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
 }
 
+export function spell_table(spells) {
+    // spells is list of 2-tuples of (url, dict)
+    return `
+    <table border='1'>
+        ${spell_table_header()}
+        ${spells.map(spell => spell_table_row(spell[0], spell[1])).join("\n")}
+    </table>`;
+}
+
 export function spell_table_header() {
-    return `<tr>
+    return `
+    <tr>
         <th>Spell Name</th>
         <th>School</th>
-        <th>Bard</th>
-        <th>Cleric</th>
-        <th>Druid</th>
-        <th>Paladin</th>
-        <th>Ranger</th>
-        <th>Sorcerer</th>
-        <th>Warlock</th>
-        <th>Wizard</th>
+        ${class_list.map(classname => `<th>${title_case(classname)}</th>`).join("\n")}
         <th>Source</th>
-    </tr>\n`
+    </tr>`;
 }
 
 export function spell_table_row(url, dict) {
-    let ar = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"];
-    ar = ar.map(classname => `<td>${dict["classes"].includes(classname) ? "X" : ""}</td>`);
-    return `<tr>
+    return `
+    <tr>
         <td><a href="spell/${url}">${dict["title"]}</a></td>
         <td>${title_case(dict["school"])}</td>
-        ${ar.join("\n")}
+        ${class_list.map(classname => `<td>${dict["classes"].includes(classname) ? "X" : ""}</td>`).join("\n")}
         <td>${dict["source"]}</td>
-    </tr>\n`;
+    </tr>`;
 }
