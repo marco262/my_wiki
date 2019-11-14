@@ -1,4 +1,4 @@
-import { ajax_call, title_case } from "./utils.js";
+import { ajax_call, spell_table_header, spell_table_row} from "./utils.js";
 
 var key_press_timer;
 
@@ -25,38 +25,11 @@ function handle_search_results(xhttp) {
         html = "<i>No Results</i>";
     } else {
         html = "<table border='1'>\n";
-        html += spell_header();
+        html += spell_table_header();
         for (let i = 0; i < json.length; i++) {
-            html += spell_row(json[i][0], json[i][1]);
+            html += spell_table_row(json[i][0], json[i][1]);
         }
         html += "</table>";
     }
     document.getElementById("search_results").innerHTML = html;
-}
-
-function spell_header() {
-    return `<tr>
-        <th>Spell Name</th>
-        <th>School</th>
-        <th>Bard</th>
-        <th>Cleric</th>
-        <th>Druid</th>
-        <th>Paladin</th>
-        <th>Ranger</th>
-        <th>Sorcerer</th>
-        <th>Warlock</th>
-        <th>Wizard</th>
-        <th>Source</th>
-    </tr>\n`
-}
-
-function spell_row(url, dict) {
-    let ar = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"];
-    ar = ar.map(classname => `<td>${dict["classes"].includes(classname) ? "X" : ""}</td>`);
-    return `<tr>
-        <td><a href="spell/${url}">${dict["title"]}</a></td>
-        <td>${title_case(dict["school"])}</td>
-        ${ar.join("\n")}
-        <td>${dict["source"]}</td>
-    </tr>\n`;
 }
