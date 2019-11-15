@@ -1,6 +1,6 @@
 import os
 import re
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 from glob import glob
 from json import dumps
 from os.path import basename, splitext
@@ -105,6 +105,14 @@ class Server:
         @view('search.tpl')
         def search():
             return
+
+        @get('/test_results')
+        def test_results():
+            d = defaultdict(list)
+            for k, v in self.spells.items():
+                if v["concentration_spell"]:
+                    d[v["level"]].append((k, v))
+            return d
 
         @get('/search_results/<search_key>/<mode>')
         def search_results(search_key, mode):

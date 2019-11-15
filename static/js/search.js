@@ -25,7 +25,7 @@ function handle_search_results(xhttp) {
     if (json.length === 0) {
         html = "<i>No Results</i>";
     } else {
-        html = spell_table(json);
+        html = spell_table(json, false);
     }
     document.getElementById("search_results").innerHTML = html;
 }
