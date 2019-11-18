@@ -83,10 +83,6 @@ class Server:
             raise
         print(" Done.")
 
-    @staticmethod
-    def _new_spell_filter_dict():
-        return dict([(f"level_{i}", []) for i in (["cantrip"] + list(range(1, 10)))])
-
     def _load_wsgi_functions(self):
         """
         Loads functions into the WSGI
@@ -136,11 +132,11 @@ class Server:
                     continue
                 if not v["school"] in filter_keys["schools"]:
                     continue
-                if ((filter_keys["concentration"] == "yes" and not v["concentration"]) or
-                    (filter_keys["concentration"] == "no" and v["concentration"])):
+                if ((filter_keys["concentration"] == "yes" and not v["concentration_spell"]) or
+                    (filter_keys["concentration"] == "no" and v["concentration_spell"])):
                     continue
-                if ((filter_keys["ritual"] == "yes" and not v["ritual"]) or
-                    (filter_keys["ritual"] == "no" and v["ritual"])):
+                if ((filter_keys["ritual"] == "yes" and not v["ritual_spell"]) or
+                    (filter_keys["ritual"] == "no" and v["ritual_spell"])):
                     continue
                 if ((filter_keys["verbal"] == "yes" and "V" not in v["components"]) or
                     (filter_keys["verbal"] == "no" and "V" in v["components"])):
@@ -157,6 +153,7 @@ class Server:
                 if ((filter_keys["consumed"] == "yes" and not v["material_component_consumed"]) or
                     (filter_keys["consumed"] == "no" and v["material_component_consumed"])):
                     continue
+                print(k)
                 results[v["level"]].append((k, v))
             d = {
                 "spell_dict": results,
@@ -226,15 +223,8 @@ class Server:
             return d
 
         @get('/feedback')
-        @view("spell_list_page.tpl")
         def feedback():
-            d = self._new_spell_filter_dict()
-            for k, v in self.spells.items():
-                if v["ritual_spell"]:
-                    d["level_" + v["level"]].append(v)
-            d["title"] = "Ritual Spells"
-            d["table_template"] = "spell_list_table.tpl"
-            return d
+            return "Feedback here"
 
 
 if __name__ == "__main__":
