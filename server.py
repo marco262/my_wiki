@@ -129,7 +129,7 @@ class Server:
             return self.spells[name]
 
         @get('/all_spells_by_name')
-        @view("spell_list.tpl")
+        @view("spell_list_page.tpl")
         def all_spells_by_name():
             spells = defaultdict(list)
             for k, v in self.spells.items():
@@ -142,7 +142,7 @@ class Server:
             return d
 
         @get('/class_spell_list/<c>')
-        @view("spell_list.tpl")
+        @view("spell_list_page.tpl")
         def class_spell_list(c):
             spells = defaultdict(list)
             for k, v in self.spells.items():
@@ -156,7 +156,7 @@ class Server:
             return d
 
         @get('/concentration_spells')
-        @view("spell_list.tpl")
+        @view("spell_list_page.tpl")
         def concentration_spell_list():
             spells = defaultdict(list)
             for k, v in self.spells.items():
@@ -170,7 +170,7 @@ class Server:
             return d
 
         @get('/ritual_spells')
-        @view("spell_list.tpl")
+        @view("spell_list_page.tpl")
         def ritual_spell_list():
             spells = defaultdict(list)
             for k, v in self.spells.items():
@@ -184,7 +184,7 @@ class Server:
             return d
 
         @get('/feedback')
-        @view("spell_list.tpl")
+        @view("spell_list_page.tpl")
         def feedback():
             d = self._new_spell_filter_dict()
             for k, v in self.spells.items():
