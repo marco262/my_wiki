@@ -2,7 +2,6 @@ import os
 import re
 from collections import OrderedDict, defaultdict
 from glob import glob
-from json import dumps
 from os.path import basename, splitext
 
 import markdown2
@@ -10,7 +9,7 @@ import toml
 from bottle import get, run, view, route, static_file
 from fasteners import process_lock
 
-from utils import setup_logging, load_config, results_mode
+from utils import setup_logging, load_config
 
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
