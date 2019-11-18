@@ -153,7 +153,6 @@ class Server:
                 if ((filter_keys["consumed"] == "yes" and not v["material_component_consumed"]) or
                     (filter_keys["consumed"] == "no" and v["material_component_consumed"])):
                     continue
-                print(k)
                 results[v["level"]].append((k, v))
             d = {
                 "spell_dict": results,

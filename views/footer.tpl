@@ -1,6 +1,6 @@
 <%
 from bottle import request
-if not request.url.endswith(request.get_header("Host") + "/"):
+if not request.urlparts[2] == "/":
 %>
 <p><a href="/">Home</a></p>
 % end
