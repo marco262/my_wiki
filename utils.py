@@ -118,3 +118,10 @@ def results_mode(d: dict, mode: Optional[str]) -> Union[str, dict]:
     if mode == Mode.FULL.value:
         return d
     raise ValueError(f"{mode} is not a valid results mode")
+
+
+def ordinal(num: str):
+    if not num.isdigit():
+        return num.title()
+    suffix = {"1": "st", "2": "nd", "3": "rd"}
+    return num + suffix.get(num, "th") + " Level"
