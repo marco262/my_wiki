@@ -106,13 +106,13 @@ class Server:
         def search():
             return
 
-        @get('/search_results/<search_key>/<mode>')
+        @get('/search_results/<search_key>')
         @view("spell_list_table.tpl")
-        def search_results(search_key, mode):
+        def search_results(search_key):
             results = []
             for k, v in self.spells.items():
                 if search_key in v['title'].lower():
-                    results.append([k, results_mode(v, mode)])
+                    results.append((k, v))
             d = {
                 "spells": results,
                 "show_classes": True
