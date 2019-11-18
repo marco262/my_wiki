@@ -18,6 +18,7 @@
 
 <p />
 
-<a href="search">Search Spells</a>
+<a href="search">Search Spells</a><br>
+<a href="spell_filter">Spell Filter</a>
 
 % include("footer.tpl")
