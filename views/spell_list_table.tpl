@@ -1,6 +1,6 @@
 % if not get("spells"):
 <i>No Results</i>
-% else
+% else:
 <table border="1">
     <tr>
         <th>Spell Name</th>
