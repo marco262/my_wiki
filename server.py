@@ -2,6 +2,7 @@ import os
 import re
 from collections import OrderedDict, defaultdict
 from glob import glob
+from json import loads
 from os.path import basename, splitext
 
 import markdown2
@@ -115,6 +116,51 @@ class Server:
             d = {
                 "spells": results,
                 "show_classes": True
+            }
+            return d
+
+        @get("/spell_filter")
+        @view("spell_filter.tpl")
+        def spell_filter():
+            return
+
+        @get('/filter_results/<json>')
+        @view("spell_list.tpl")
+        def filter_results(json):
+            filter_keys = loads(json)
+            results = defaultdict(list)
+            for k, v in self.spells.items():
+                if not set(filter_keys["classes"]).intersection(v["classes"]):
+                    continue
+                if not v["level"] in filter_keys["levels"]:
+                    continue
+                if not v["school"] in filter_keys["schools"]:
+                    continue
+                if ((filter_keys["concentration"] == "yes" and not v["concentration"]) or
+                    (filter_keys["concentration"] == "no" and v["concentration"])):
+                    continue
+                if ((filter_keys["ritual"] == "yes" and not v["ritual"]) or
+                    (filter_keys["ritual"] == "no" and v["ritual"])):
+                    continue
+                if ((filter_keys["verbal"] == "yes" and "V" not in v["components"]) or
+                    (filter_keys["verbal"] == "no" and "V" in v["components"])):
+                    continue
+                if ((filter_keys["somatic"] == "yes" and "S" not in v["components"]) or
+                    (filter_keys["somatic"] == "no" and "S" in v["components"])):
+                    continue
+                if ((filter_keys["material"] == "yes" and "M" not in v["components"]) or
+                    (filter_keys["material"] == "no" and "M" in v["components"])):
+                    continue
+                if ((filter_keys["expensive"] == "yes" and not v["expensive_material_component"]) or
+                    (filter_keys["expensive"] == "no" and v["expensive_material_component"])):
+                    continue
+                if ((filter_keys["consumed"] == "yes" and not v["material_component_consumed"]) or
+                    (filter_keys["consumed"] == "no" and v["material_component_consumed"])):
+                    continue
+                results[v["level"]].append((k, v))
+            d = {
+                "spell_dict": results,
+                "show_classes": len(filter_keys["classes"]) > 1
             }
             return d
 
