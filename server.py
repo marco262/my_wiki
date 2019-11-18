@@ -106,21 +106,18 @@ class Server:
         def search():
             return
 
-        @get('/test_results')
-        def test_results():
-            d = defaultdict(list)
-            for k, v in self.spells.items():
-                if v["concentration_spell"]:
-                    d[v["level"]].append((k, v))
-            return d
-
         @get('/search_results/<search_key>/<mode>')
+        @view("spell_list_table.tpl")
         def search_results(search_key, mode):
             results = []
             for k, v in self.spells.items():
                 if search_key in v['title'].lower():
                     results.append([k, results_mode(v, mode)])
-            return dumps(results)
+            d = {
+                "spells": results,
+                "show_classes": True
+            }
+            return d
 
         @get('/spell/<name>')
         @view("spell.tpl")

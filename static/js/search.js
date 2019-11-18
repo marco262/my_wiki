@@ -19,13 +19,5 @@ export function on_key_press(e) {
 }
 
 function handle_search_results(xhttp) {
-    const json = JSON.parse(xhttp.responseText);
-    console.log(json);
-    let html;
-    if (json.length === 0) {
-        html = "<i>No Results</i>";
-    } else {
-        html = spell_table(json, false);
-    }
-    document.getElementById("search_results").innerHTML = html;
+    document.getElementById("search_results").innerHTML = xhttp.responseText;
 }
