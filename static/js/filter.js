@@ -52,7 +52,7 @@ function filter_list(name) {
     let filtered_list = [];
     list.forEach(n => {
         if (n.checked) {
-            filtered_list.push(n.id);
+            filtered_list.push(n.value);
         }
     });
     return filtered_list;
