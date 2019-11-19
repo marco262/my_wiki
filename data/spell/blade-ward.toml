@@ -7,6 +7,6 @@ ritual_spell = false
 casting_time = "1 action"
 range = "Self"
 components = ["V", "S"]
-duration = "1 Round"
+duration = "1 round"
 description = """You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."""
 source = "Player's Handbook, p. 218"
