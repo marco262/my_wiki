@@ -1,26 +1,24 @@
 % include("header.tpl", title="Spell Filter")
 % from utils import ordinal
+% from data.enums import classes, spell_levels, schools
 <h1>Spell Filter</h1>
 
 <table>
     <tr valign="top">
         <td>
         <input type="checkbox" id="checkbox-class-all" checked><i>All/None</i><br>
-        % classes = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
         % for c in classes:
             <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
         % end
         </td>
         <td>
         <input type="checkbox" id="checkbox-level-all" checked><i>All/None</i><br>
-        % levels = ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-        % for l in levels:
+        % for l in spell_levels:
             <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}}<br>
         % end
         </td>
         <td>
         <input type="checkbox" id="checkbox-school-all" checked><i>All/None</i><br>
-        % schools = ["abjuration", "conjuration", "divination", "evocation", "enchantment", "illusion", "necromancy", "transmutation"]
         % for s in schools:
             <input type="checkbox" name="checkbox-school" value="{{s}}" checked>{{s.title()}}<br>
         % end
