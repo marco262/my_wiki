@@ -7,7 +7,7 @@ from os.path import basename, splitext
 
 import markdown2
 import toml
-from bottle import get, run, view, route, static_file
+from bottle import get, run, view, route, static_file, HTTPError
 from fasteners import process_lock
 
 from utils import setup_logging, load_config
@@ -163,8 +163,10 @@ class Server:
         @get('/spell/<name>')
         @view("spell.tpl")
         def spell(name):
-            name = re.sub("\W", "-", name.lower())
-            return self.spells[name]
+            formatted_name = re.sub("\W", "-", name.lower())
+            if formatted_name not in self.spells:
+                raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
+            return self.spells[formatted_name]
 
         @get('/all_spells_by_name')
         @view("spell_list_page.tpl")
