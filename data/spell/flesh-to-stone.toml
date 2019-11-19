@@ -1,5 +1,6 @@
 title = "Flesh to Stone"
 classes = ["warlock", "wizard"]
+classes_ua = ["druid", "sorcerer"]
 level = "6"
 school = "transmutation"
 concentration_spell = true

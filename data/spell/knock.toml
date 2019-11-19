@@ -1,5 +1,6 @@
 title = "Knock"
 classes = ["bard", "sorcerer", "wizard"]
+classes_ua = ["warlock"]
 level = "2"
 school = "transmutation"
 concentration_spell = false

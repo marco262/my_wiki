@@ -1,5 +1,6 @@
 title = "Planar Binding"
 classes = ["bard", "cleric", "druid", "wizard"]
+classes_ua = ["warlock"]
 level = "5"
 school = "abjuration"
 concentration_spell = false

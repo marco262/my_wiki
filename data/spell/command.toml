@@ -1,5 +1,6 @@
 title = "Command"
 classes = ["cleric", "paladin"]
+classes_ua = ["bard"]
 level = "1"
 school = "enchantment"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Aura of Purity"
 classes = ["paladin"]
+classes_ua = ["cleric"]
 level = "4"
 school = "abjuration"
 concentration_spell = true

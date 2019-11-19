@@ -1,5 +1,6 @@
 title = "Mirror Image"
 classes = ["sorcerer", "warlock", "wizard"]
+classes_ua = ["bard"]
 level = "2"
 school = "illusion"
 concentration_spell = false

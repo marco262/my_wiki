@@ -1,5 +1,6 @@
 title = "Prismatic Spray"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["bard"]
 level = "7"
 school = "evocation"
 concentration_spell = false

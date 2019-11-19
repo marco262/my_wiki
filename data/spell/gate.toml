@@ -1,5 +1,6 @@
 title = "Gate"
 classes = ["cleric", "sorcerer", "wizard"]
+classes_ua = ["warlock"]
 level = "9"
 school = "conjuration"
 concentration_spell = true

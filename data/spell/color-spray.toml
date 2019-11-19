@@ -1,5 +1,6 @@
 title = "Color Spray"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["bard"]
 level = "1"
 school = "illusion"
 concentration_spell = false

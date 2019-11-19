@@ -1,5 +1,6 @@
 title = "Cone of Cold"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["druid"]
 level = "5"
 school = "evocation"
 concentration_spell = false

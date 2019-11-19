@@ -1,5 +1,6 @@
 title = "Weird"
 classes = ["wizard"]
+classes_ua = ["warlock"]
 level = "9"
 school = "illusion"
 concentration_spell = true

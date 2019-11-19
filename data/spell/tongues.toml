@@ -1,5 +1,6 @@
 title = "Tongues"
 classes = ["bard", "cleric", "sorcerer", "warlock", "wizard"]
+classes_ua = ["ranger"]
 level = "3"
 school = "divination"
 concentration_spell = false

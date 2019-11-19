@@ -1,5 +1,6 @@
 title = "Branding Smite"
 classes = ["paladin"]
+classes_ua = ["cleric"]
 level = "2"
 school = "evocation"
 concentration_spell = true

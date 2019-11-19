@@ -1,5 +1,6 @@
 title = "Awaken"
 classes = ["bard", "druid"]
+classes_ua = ["ranger"]
 level = "5"
 school = "transmutation"
 concentration_spell = false

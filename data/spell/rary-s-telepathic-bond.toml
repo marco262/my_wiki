@@ -1,5 +1,6 @@
 title = "Rary's Telepathic Bond"
 classes = ["wizard"]
+classes_ua = ["bard"]
 level = "5"
 school = "divination"
 concentration_spell = false

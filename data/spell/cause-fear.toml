@@ -1,5 +1,6 @@
 title = "Cause Fear"
 classes = ["warlock", "wizard"]
+classes_ua = ["bard", "cleric"]
 level = "1"
 school = "necromancy"
 concentration_spell = true

@@ -1,5 +1,6 @@
 title = "Mislead"
 classes = ["bard", "wizard"]
+classes_ua = ["warlock"]
 level = "5"
 school = "illusion"
 concentration_spell = true

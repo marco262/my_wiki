@@ -1,5 +1,6 @@
 title = "Prismatic Wall"
 classes = ["wizard"]
+classes_ua = ["bard"]
 level = "9"
 school = "abjuration"
 concentration_spell = false
