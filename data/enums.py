@@ -1,0 +1,59 @@
+
+casting_times = [
+    "1 action",
+    "1 bonus action",
+    "1 reaction",
+    "1 minutes",
+    "10 minutes",
+    "1 hour",
+    "8 hours", 
+    "12 hours", 
+    "24 hours"
+]
+
+durations = [
+    "Instantaneous", 
+    "1 round",
+    "6 rounds",
+    "1 minute",
+    "10 minutes",
+    "1 hour",
+    "2 hours",
+    "8 hours",
+    "24 hours",
+    "1 day",
+    "7 days",
+    "10 days",
+    "30 days",
+    "Until dispelled",
+    "Special"
+]
+
+ranges = [
+    "Touch",
+    "150 feet",
+    "5 feet",
+    "10 feet",
+    "15 feet",
+    "30 feet",
+    "60 feet",
+    "90 feet",
+    "100 feet",
+    "120 feet",
+    "300 feet",
+    "500 feet",
+    "1 mile",
+    "5 miles",
+    "500 miles",
+    "Sight",
+    "Unlimited",
+    "Special"
+]
+
+shapes = [
+    "Line",
+    "Cone",
+    "Cube",
+    "Sphere",
+    "Hemisphere"
+]
