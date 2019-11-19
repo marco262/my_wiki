@@ -1,5 +1,6 @@
 title = "Searing Smite"
 classes = ["paladin"]
+classes_ua = ["ranger"]
 level = "1"
 school = "evocation"
 concentration_spell = true

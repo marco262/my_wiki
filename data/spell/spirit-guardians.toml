@@ -1,5 +1,6 @@
 title = "Spirit Guardians"
 classes = ["cleric"]
+classes_ua = ["paladin"]
 level = "3"
 school = "conjuration"
 concentration_spell = true

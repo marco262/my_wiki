@@ -1,6 +1,6 @@
 title = "Aura of Vitality"
 classes = ["paladin"]
-classes_ua = ["cleric"]
+classes_ua = ["cleric", "druid"]
 level = "3"
 school = "evocation"
 concentration_spell = true

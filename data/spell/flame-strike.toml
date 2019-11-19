@@ -1,5 +1,6 @@
 title = "Flame Strike"
 classes = ["cleric"]
+classes_ua = ["paladin"]
 level = "5"
 school = "evocation"
 concentration_spell = false

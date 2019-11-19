@@ -1,5 +1,6 @@
 title = "Teleportation Circle"
 classes = ["bard", "sorcerer", "wizard"]
+classes_ua = ["warlock"]
 level = "5"
 school = "conjuration"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Entangle"
 classes = ["druid"]
+classes_ua = ["ranger"]
 level = "1"
 school = "conjuration"
 concentration_spell = true

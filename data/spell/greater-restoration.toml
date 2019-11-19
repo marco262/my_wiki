@@ -1,5 +1,6 @@
 title = "Greater Restoration"
 classes = ["bard", "cleric", "druid"]
+classes_ua = ["ranger"]
 level = "5"
 school = "abjuration"
 concentration_spell = false

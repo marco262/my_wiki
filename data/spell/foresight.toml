@@ -1,5 +1,6 @@
 title = "Foresight"
 classes = ["bard", "druid", "warlock", "wizard"]
+classes_ua = ["sorcerer"]
 level = "9"
 school = "divination"
 concentration_spell = false

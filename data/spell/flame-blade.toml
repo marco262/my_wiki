@@ -1,5 +1,6 @@
 title = "Flame Blade"
 classes = ["druid"]
+classes_ua = ["sorcerer"]
 level = "2"
 school = "evocation"
 concentration_spell = true

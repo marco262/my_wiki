@@ -1,5 +1,6 @@
 title = "Demiplane"
 classes = ["warlock", "wizard"]
+classes_ua = ["sorcerer"]
 level = "8"
 school = "conjuration"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Incendiary Cloud"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["druid"]
 level = "8"
 school = "conjuration"
 concentration_spell = true

@@ -1,5 +1,6 @@
 title = "Speak With Dead"
 classes = ["bard", "cleric"]
+classes_ua = ["wizard"]
 level = "3"
 school = "necromancy"
 concentration_spell = false
