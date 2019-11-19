@@ -10,6 +10,10 @@
         % for c in classes:
             <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
         % end
+        <br>
+        <input type="checkbox" id="checkbox-ua-spells" checked>Include Expanded<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spell lists from<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unearthed Arcana
         </td>
         <td>
         <input type="checkbox" id="checkbox-level-all" checked><i>All/None</i><br>

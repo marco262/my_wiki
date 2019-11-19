@@ -126,7 +126,9 @@ class Server:
             filter_keys = loads(json)
             results = defaultdict(list)
             for k, v in self.spells.items():
-                if not set(filter_keys["classes"]).intersection(v["classes"]):
+                if not (set(filter_keys["classes"]).intersection(v["classes"]) or
+                        (filter_keys["ua_spells"] and set(filter_keys["classes"]).intersection(v.get("classes_ua", [])))
+                ):
                     continue
                 if not v["level"] in filter_keys["levels"]:
                     continue
@@ -156,7 +158,8 @@ class Server:
                 results[v["level"]].append((k, v))
             d = {
                 "spell_dict": results,
-                "show_classes": len(filter_keys["classes"]) > 1
+                "show_classes": len(filter_keys["classes"]) > 1,
+                "ua_spells": filter_keys["ua_spells"]
             }
             return d
 
