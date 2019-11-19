@@ -28,29 +28,33 @@
     </tr>
 </table>
 <br>
-<table>
-<%
-toggles = [
-    ("Concentration Spells:", "concentration"),
-    ("Ritual Spells:", "ritual"),
-    ("Verbal Component:", "verbal"),
-    ("Somatic Component:", "somatic"),
-    ("Material Component:", "material"),
-    ("Expensive Material:", "expensive"),
-    ("Material Consumed:", "consumed")
-]
-for title, name in toggles:
-%>
-    <tr>
-        <td>{{title}}</td>
-        <td>
-            <input type="radio" name="radio-{{name}}" value="both" checked="true">Both
-                <input type="radio" name="radio-{{name}}" value="yes">Yes
-                <input type="radio" name="radio-{{name}}" value="no">No
-        </td>
-    </tr>
-% end
-</table>
+<div id="show-advanced-block" style="font-size: small"><a href="#">Show advanced filter options</a></div>
+<div id="advanced-block" style="display: none">
+    <table>
+    <%
+    toggles = [
+        ("Concentration Spells:", "concentration"),
+        ("Ritual Spells:", "ritual"),
+        ("Verbal Component:", "verbal"),
+        ("Somatic Component:", "somatic"),
+        ("Material Component:", "material"),
+        ("Expensive Material:", "expensive"),
+        ("Material Consumed:", "consumed")
+    ]
+    for title, name in toggles:
+    %>
+        <tr>
+            <td>{{title}}</td>
+            <td>
+                <input type="radio" name="radio-{{name}}" value="both" checked>Both
+                    <input type="radio" name="radio-{{name}}" value="yes">Yes
+                    <input type="radio" name="radio-{{name}}" value="no">No
+            </td>
+        </tr>
+    % end
+    </table>
+    <div id="hide-advanced-block" style="font-size: small"><a href="#">Hide advanced filter options</a></div>
+</div>
 
 <p />
 

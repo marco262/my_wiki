@@ -7,6 +7,8 @@ export function init_events() {
     document.getElementById("checkbox-class-all").onclick = on_click_class_all;
     document.getElementById("checkbox-level-all").onclick = on_click_level_all;
     document.getElementById("checkbox-school-all").onclick = on_click_school_all;
+    document.getElementById("show-advanced-block").onclick = on_click_show_advanced_block;
+    document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced_block;
 }
 
 function filter() {
@@ -45,6 +47,16 @@ function on_click_school_all(e) {
 
 function check_all(name, state) {
     document.getElementsByName("checkbox-" + name).forEach(n => { n.checked = state; });
+}
+
+function on_click_show_advanced_block(e) {
+    document.getElementById("show-advanced-block").style.display = "none";
+    document.getElementById("advanced-block").style.display = "block";
+}
+
+function on_click_hide_advanced_block(e) {
+    document.getElementById("show-advanced-block").style.display = "block";
+    document.getElementById("advanced-block").style.display = "none";
 }
 
 function filter_list(name) {
