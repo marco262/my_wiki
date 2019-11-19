@@ -181,12 +181,13 @@ class Server:
             }
             return d
 
-        @get('/class_spell_list/<c>')
+        @get('/class_spell_list/<c>/<ua_spell>')
         @view("spell_list_page.tpl")
-        def class_spell_list(c):
+        def class_spell_list(c, ua_spell):
             spells = defaultdict(list)
             for k, v in self.spells.items():
-                if c.lower() in v["classes"]:
+                if (c.lower() in v["classes"] or
+                        (ua_spell == "true" and c.lower() in v.get("classes_ua", []))):
                     spells[v["level"]].append((k, v))
             d = {
                 "title": f"{c.title()} Spells",
