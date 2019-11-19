@@ -10,7 +10,7 @@ import toml
 from bottle import get, run, view, route, static_file, HTTPError
 from fasteners import process_lock
 
-from utils import setup_logging, load_config
+from utils import setup_logging, load_config, str_to_bool
 
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
@@ -168,26 +168,27 @@ class Server:
                 raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
             return self.spells[formatted_name]
 
-        @get('/all_spells_by_name')
+        @get('/all_spells_by_name/<ua_spells>')
         @view("spell_list_page.tpl")
-        def all_spells_by_name():
+        def all_spells_by_name(ua_spells):
             spells = defaultdict(list)
             for k, v in self.spells.items():
                 spells[v["level"]].append((k, v))
             d = {
                 "title": "All Spells By Name",
                 "spell_dict": spells,
-                "show_classes": True
+                "show_classes": True,
+                "ua_spells": str_to_bool(ua_spells)
             }
             return d
 
-        @get('/class_spell_list/<c>/<ua_spell>')
+        @get('/class_spell_list/<c>/<ua_spells>')
         @view("spell_list_page.tpl")
-        def class_spell_list(c, ua_spell):
+        def class_spell_list(c, ua_spells):
             spells = defaultdict(list)
             for k, v in self.spells.items():
                 if (c.lower() in v["classes"] or
-                        (ua_spell == "true" and c.lower() in v.get("classes_ua", []))):
+                        (str_to_bool(ua_spells) and c.lower() in v.get("classes_ua", []))):
                     spells[v["level"]].append((k, v))
             d = {
                 "title": f"{c.title()} Spells",
@@ -196,9 +197,9 @@ class Server:
             }
             return d
 
-        @get('/concentration_spells')
+        @get('/concentration_spells/<ua_spells>')
         @view("spell_list_page.tpl")
-        def concentration_spell_list():
+        def concentration_spell_list(ua_spells):
             spells = defaultdict(list)
             for k, v in self.spells.items():
                 if v["concentration_spell"]:
@@ -206,13 +207,14 @@ class Server:
             d = {
                 "title": "Concentration Spells",
                 "spell_dict": spells,
-                "show_classes": True
+                "show_classes": True,
+                "ua_spells": str_to_bool(ua_spells)
             }
             return d
 
-        @get('/ritual_spells')
+        @get('/ritual_spells/<ua_spells>')
         @view("spell_list_page.tpl")
-        def ritual_spell_list():
+        def ritual_spell_list(ua_spells):
             spells = defaultdict(list)
             for k, v in self.spells.items():
                 if v["ritual_spell"]:
@@ -220,7 +222,8 @@ class Server:
             d = {
                 "title": "Ritual Spells",
                 "spell_dict": spells,
-                "show_classes": True
+                "show_classes": True,
+                "ua_spells": str_to_bool(ua_spells)
             }
             return d
 

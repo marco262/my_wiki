@@ -1,3 +1,37 @@
+classes = [
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "sorcerer",
+    "warlock",
+    "wizard"
+]
+
+spell_levels = [
+    "cantrip",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+]
+
+schools = [
+    "abjuration",
+    "conjuration",
+    "divination",
+    "evocation",
+    "enchantment",
+    "illusion",
+    "necromancy",
+    "transmutation"
+]
 
 casting_times = [
     "1 action",

@@ -1,4 +1,4 @@
-% classes = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
+% from data.enums import classes
 % if not get("spells"):
 <i>No Results</i>
 % else:
@@ -25,7 +25,7 @@
         if get("show_classes"):
             for c in classes:
         %>
-        <td>{{"X" if c in s["classes"] or (get("ua_spells") and c in s["classes_ua"]) else ""}}</td>
+        <td>{{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}</td>
         <%
             end
         end
