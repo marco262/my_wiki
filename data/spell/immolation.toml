@@ -1,5 +1,6 @@
 title = "Immolation"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["druid"]
 level = "5"
 school = "evocation"
 concentration_spell = true

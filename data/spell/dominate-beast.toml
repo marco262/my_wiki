@@ -1,5 +1,6 @@
 title = "Dominate Beast"
 classes = ["druid", "sorcerer"]
+classes_ua = ["ranger"]
 level = "4"
 school = "enchantment"
 concentration_spell = true

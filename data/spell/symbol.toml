@@ -1,5 +1,6 @@
 title = "Symbol"
 classes = ["bard", "cleric", "wizard"]
+classes_ua = ["druid"]
 level = "7"
 school = "abjuration"
 concentration_spell = false

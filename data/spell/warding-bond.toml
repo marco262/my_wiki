@@ -1,5 +1,6 @@
 title = "Warding Bond"
 classes = ["cleric"]
+classes_ua = ["paladin", "ranger"]
 level = "2"
 school = "abjuration"
 concentration_spell = false

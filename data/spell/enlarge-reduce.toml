@@ -1,5 +1,6 @@
 title = "Enlarge Reduce"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["bard", "druid"]
 level = "2"
 school = "transmutation"
 concentration_spell = true
@@ -19,6 +20,5 @@ description = """You cause a creature or an object you can see within range to g
 
 **Enlarge.** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category -- from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal 1d4 extra damage.
 
-**Reduce.** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category -- from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).
-"""
+**Reduce.** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category -- from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)."""
 source = "Player's Handbook, p. 237"

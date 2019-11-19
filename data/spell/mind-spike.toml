@@ -1,5 +1,6 @@
 title = "Mind Spike"
 classes = ["sorcerer", "warlock", "wizard"]
+classes_ua = ["bard"]
 level = "2"
 school = "divination"
 concentration_spell = true

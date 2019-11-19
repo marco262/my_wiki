@@ -1,5 +1,6 @@
 title = "Prayer of Healing"
 classes = ["cleric"]
+classes_ua = ["paladin"]
 level = "2"
 school = "evocation"
 concentration_spell = false

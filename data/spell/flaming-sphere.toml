@@ -1,5 +1,6 @@
 title = "Flaming Sphere"
 classes = ["druid", "wizard"]
+classes_ua = ["sorcerer"]
 level = "2"
 school = "conjuration"
 concentration_spell = true

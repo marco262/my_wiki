@@ -1,5 +1,6 @@
 title = "Ceremony"
 classes = ["cleric", "paladin"]
+classes_ua = ["druid"]
 level = "1"
 school = "abjuration"
 concentration_spell = false

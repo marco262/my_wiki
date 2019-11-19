@@ -1,5 +1,6 @@
 title = "Grease"
 classes = ["wizard"]
+classes_ua = ["sorcerer"]
 level = "1"
 school = "conjuration"
 concentration_spell = false

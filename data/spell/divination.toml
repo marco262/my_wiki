@@ -1,5 +1,6 @@
 title = "Divination"
 classes = ["cleric"]
+classes_ua = ["druid", "wizard"]
 level = "4"
 school = "divination"
 concentration_spell = false

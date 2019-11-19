@@ -1,5 +1,6 @@
 title = "Gentle Repose"
 classes = ["cleric", "wizard"]
+classes_ua = ["paladin"]
 level = "2"
 school = "necromancy"
 concentration_spell = false

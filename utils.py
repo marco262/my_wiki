@@ -125,3 +125,7 @@ def ordinal(num: str):
         return num.title()
     suffix = {"1": "st", "2": "nd", "3": "rd"}
     return num + suffix.get(num, "th") + " Level"
+
+
+def str_to_bool(s):
+    return s and str(s).lower()[0] in ["t", "1", "y"]

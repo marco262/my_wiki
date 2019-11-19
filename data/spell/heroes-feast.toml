@@ -1,5 +1,6 @@
 title = "Heroes Feast"
 classes = ["cleric", "druid"]
+classes_ua = ["bard"]
 level = "6"
 school = "conjuration"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Vampiric Touch"
 classes = ["warlock", "wizard"]
+classes_ua = ["sorcerer"]
 level = "3"
 school = "necromancy"
 concentration_spell = true

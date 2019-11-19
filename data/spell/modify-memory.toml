@@ -1,5 +1,6 @@
 title = "Modify Memory"
 classes = ["bard", "wizard"]
+classes_ua = ["warlock"]
 level = "5"
 school = "enchantment"
 concentration_spell = true

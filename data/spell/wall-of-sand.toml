@@ -1,5 +1,6 @@
 title = "Wall of Sand"
 classes = ["wizard"]
+classes_ua = ["druid"]
 level = "3"
 school = "evocation"
 concentration_spell = true

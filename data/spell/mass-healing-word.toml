@@ -1,5 +1,6 @@
 title = "Mass Healing Word"
 classes = ["cleric"]
+classes_ua = ["bard"]
 level = "3"
 school = "evocation"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Phantasmal Killer"
 classes = ["wizard"]
+classes_ua = ["bard"]
 level = "4"
 school = "illusion"
 concentration_spell = true

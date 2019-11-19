@@ -1,5 +1,6 @@
 title = "Tongues"
 classes = ["bard", "cleric", "sorcerer", "warlock", "wizard"]
+classes_ua = ["ranger"]
 level = "3"
 school = "divination"
 concentration_spell = false
@@ -11,7 +12,7 @@ origin = "Touch"
 shape = "None"
 size = "None"
 components = ["V", "M"]
-material = "a small clay m odel of a ziggurat"
+material = "a small clay model of a ziggurat"
 expensive_material_component = false
 material_component_consumed = false
 duration = "1 hour"

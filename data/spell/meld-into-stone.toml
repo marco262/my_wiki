@@ -1,5 +1,6 @@
 title = "Meld Into Stone"
 classes = ["cleric", "druid"]
+classes_ua = ["ranger"]
 level = "3"
 school = "transmutation"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Slow"
 classes = ["sorcerer", "wizard"]
+classes_ua = ["bard"]
 level = "3"
 school = "transmutation"
 concentration_spell = true
