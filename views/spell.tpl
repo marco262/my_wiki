@@ -10,13 +10,11 @@
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
 <strong>Duration:</strong> {{duration}}</p>
 
-<p>{{!description_md}}</p>
+{{!description_md}}
 % if defined('at_higher_levels'):
-
 <p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
-% end
-<hr />
 
+% end
 <p><em>Source: {{source}}</em></p>
 
 % include("footer.tpl")
