@@ -1,5 +1,5 @@
 % include("header.tpl", title="5e Spells Database")
-% from enums import classes
+% from data.enums import classes
 
 <h1>5e Spells Database</h1>
 
