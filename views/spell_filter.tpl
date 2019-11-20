@@ -6,7 +6,7 @@
 <table>
     <tr valign="top">
         <td>
-        <input type="checkbox" id="checkbox-class-all" checked><i>All/None</i><br>
+        <input type="checkbox" name="checkbox-all" value="class" checked><i>All/None</i><br>
         % for c in classes:
             <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
         % end
@@ -16,13 +16,13 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unearthed Arcana
         </td>
         <td>
-        <input type="checkbox" id="checkbox-level-all" checked><i>All/None</i><br>
+        <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
         % for l in spell_levels:
             <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}}<br>
         % end
         </td>
         <td>
-        <input type="checkbox" id="checkbox-school-all" checked><i>All/None</i><br>
+        <input type="checkbox" name="checkbox-all" value="school" checked><i>All/None</i><br>
         % for s in schools:
             <input type="checkbox" name="checkbox-school" value="{{s}}" checked>{{s.title()}}<br>
         % end

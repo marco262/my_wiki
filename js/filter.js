@@ -7,9 +7,7 @@ export function init_events() {
         set_ui_state(JSON.parse(document.cookie));
     }
     document.getElementById("filter_button").onclick = filter;
-    document.getElementById("checkbox-class-all").onclick = on_click_class_all;
-    document.getElementById("checkbox-level-all").onclick = on_click_level_all;
-    document.getElementById("checkbox-school-all").onclick = on_click_school_all;
+    document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
     document.getElementById("show-advanced-block").onclick = on_click_show_advanced_block;
     document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced_block;
 }
@@ -50,20 +48,8 @@ function set_ui_state(d) {
     return d;
 }
 
-function on_click_class_all(e) {
-    check_all("class", e.target.checked);
-}
-
-function on_click_level_all(e) {
-    check_all("level", e.target.checked);
-}
-
-function on_click_school_all(e) {
-    check_all("school", e.target.checked);
-}
-
-function check_all(name, state) {
-    document.getElementsByName("checkbox-" + name).forEach(n => { n.checked = state; });
+function check_all(e) {
+    document.getElementsByName("checkbox-" + e.target.value).forEach(n => n.checked = e.target.checked);
 }
 
 function on_click_show_advanced_block(e) {
