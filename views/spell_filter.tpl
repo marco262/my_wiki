@@ -67,7 +67,7 @@
 <div id="filter_results"><i>Filter results will appear here</i></div>
 
 <script type="module">
-    import { init_events } from "/static/js/filter.js";
+    import { init_events } from "/js/filter.js";
     init_events();
 </script>
 

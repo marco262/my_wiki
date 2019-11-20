@@ -17,7 +17,7 @@
 <div id="search_results"><i>Search results will appear here</i></div>
 
 <script type="module">
-    import {search, on_key_press} from "/static/js/search.js";
+    import {search, on_key_press} from "/js/search.js";
     document.getElementById("search_key").onkeypress = on_key_press;
     document.getElementById("search_button").onclick = search;
 </script>

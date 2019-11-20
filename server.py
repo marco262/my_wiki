@@ -97,6 +97,14 @@ class Server:
         def static(path):
             return static_file(path, root="static")
 
+        @route("/js/:path#.+#", name="js")
+        def static(path):
+            # Try to get minified version of JS file first
+            f = static_file(path + ".min", root="js")
+            if isinstance(f, HTTPError) and f.status_code == 404:
+                f = static_file(path, root="js")
+            return f
+
         @get('/search')
         @view('search.tpl')
         def search():
