@@ -1,6 +1,6 @@
 % include("header.tpl", title="Spell Filter")
 % from utils import ordinal
-% from data.enums import classes, spell_levels, schools
+% from data.enums import classes, spell_levels, schools, sources
 <h1>Spell Filter</h1>
 
 <table>
@@ -25,6 +25,12 @@
         <input type="checkbox" name="checkbox-all" value="school" checked><i>All/None</i><br>
         % for s in schools:
             <input type="checkbox" name="checkbox-school" value="{{s}}" checked>{{s.title()}}<br>
+        % end
+        </td>
+        <td>
+        <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
+        % for o in sources:
+            <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
         % end
         </td>
     </tr>

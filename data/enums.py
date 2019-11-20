@@ -91,3 +91,12 @@ shapes = [
     "Sphere",
     "Hemisphere"
 ]
+
+sources = [
+    "Player's Handbook",
+    "Elemental Evil",
+    "Sword Coast Adventurer's Guide",
+    "Xanathar's Guide to Everything",
+    "Lost Laboratory of Kwalish",
+    "Homebrew"
+]

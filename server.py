@@ -138,9 +138,14 @@ class Server:
                         (filter_keys["ua_spells"] and set(filter_keys["classes"]).intersection(v.get("classes_ua", [])))
                 ):
                     continue
-                if not v["level"] in filter_keys["levels"]:
+                if v["level"] not in filter_keys["levels"]:
                     continue
-                if not v["school"] in filter_keys["schools"]:
+                if v["school"] not in filter_keys["schools"]:
+                    continue
+                for s in filter_keys["sources"]:
+                    if s in v["source"]:
+                        break
+                else:
                     continue
                 if ((filter_keys["concentration"] == "yes" and not v["concentration_spell"]) or
                     (filter_keys["concentration"] == "no" and v["concentration_spell"])):
