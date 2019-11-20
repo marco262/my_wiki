@@ -10,6 +10,7 @@ duration_list = []
 casting_time_list = []
 range_list = []
 shape_list = []
+source_list = []
 
 for path in glob("../data/spell/*"):
     with open(path) as f:
@@ -37,16 +38,22 @@ for path in glob("../data/spell/*"):
     #     print(path)
     # if not range in range_list:
     #     range_list.append(range)
-
-    shape = d["range"]
-    if "Self (" in shape:
-        print(path, shape)
+    #
+    # shape = d["range"]
+    # if "Self (" in shape:
+    #     print(path, shape)
     # if shape not in ["Self", "Sight", "Unlimited", "Special", "Touch"] and not shape.endswith("feet") \
     #         and not shape.endswith("miles") and not shape.endswith("mile") and not shape.endswith("radius)"):
     #     if not shape in shape_list:
     #         shape_list.append(shape)
 
+    source = d["source"]
+    source = source.split(", p")[0]
+    if not source in source_list:
+        source_list.append(source)
+
 # print(duration_list)
 # print(casting_time_list)
 # print(range_list)
-print(shape_list)
+# print(shape_list)
+print(source_list)
