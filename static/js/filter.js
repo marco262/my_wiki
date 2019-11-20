@@ -22,7 +22,7 @@ function filter() {
         json[toggle] = get_radio_group_value(toggle);
     });
     json["ua_spells"] = document.getElementById("checkbox-ua-spells").checked;
-    ajax_call("/filter_results/" + JSON.stringify(json), handle_filter_results);
+    ajax_call("/filter_results", handle_filter_results, {"filter_keys": JSON.stringify(json)});
 }
 
 function on_click(e) {

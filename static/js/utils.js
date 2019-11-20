@@ -1,15 +1,29 @@
 export const class_list = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"];
 export const spell_list = ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
-export function ajax_call(url, func) {
+export function ajax_call(url, func, params=null) {
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
             func(this);
         }
     };
-    xhttp.open("GET", url, true);
-    xhttp.send();
+    xhttp.open(params === null ? "GET" : "POST", url, true);
+    xhttp.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+    if (params === null) {
+        xhttp.send();
+    } else {
+        let post_params;
+        if (typeof params === "string") {
+            post_params = params;
+        } else {
+            post_params = Object.keys(params).map(
+                k => encodeURIComponent(k) + "=" + encodeURIComponent(params[k])
+            ).join("&");
+        }
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhttp.send(post_params);
+    }
 }
 
 export function title_case(s) {

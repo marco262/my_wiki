@@ -7,7 +7,7 @@ from os.path import basename, splitext
 
 import markdown2
 import toml
-from bottle import get, run, view, route, static_file, HTTPError
+from bottle import get, run, view, route, static_file, HTTPError, request, post
 from fasteners import process_lock
 
 from utils import setup_logging, load_config, str_to_bool
@@ -120,10 +120,10 @@ class Server:
         def spell_filter():
             return
 
-        @get('/filter_results/<json>')
+        @post('/filter_results')
         @view("spell_list.tpl")
-        def filter_results(json):
-            filter_keys = loads(json)
+        def filter_results():
+            filter_keys = loads(request.params["filter_keys"])
             results = defaultdict(list)
             for k, v in self.spells.items():
                 if not (set(filter_keys["classes"]).intersection(v["classes"]) or
