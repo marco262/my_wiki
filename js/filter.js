@@ -3,7 +3,9 @@ import { ajax_call } from "./utils.js";
 let key_press_timer;
 
 export function init_events() {
-    set_ui_state(JSON.parse(document.cookie));
+    if (document.cookie !== "") {
+        set_ui_state(JSON.parse(document.cookie));
+    }
     document.getElementById("filter_button").onclick = filter;
     document.getElementById("checkbox-class-all").onclick = on_click_class_all;
     document.getElementById("checkbox-level-all").onclick = on_click_level_all;
