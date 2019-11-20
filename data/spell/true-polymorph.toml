@@ -13,7 +13,7 @@ material_component_consumed = false
 duration = "Concentration, up to 1 hour"
 description = """Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.
 
-Shapechangers aren't affected by this spell. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell. [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf This spell can't affect a target that has 0 hit points.]
+Shapechangers aren't affected by this spell. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell. This spell can't affect a target that has 0 hit points.[[1]](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
 
 **Creature into Creature.** If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality.
 
