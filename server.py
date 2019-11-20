@@ -76,7 +76,9 @@ class Server:
                 print(".", end='')
                 with open(path) as f:
                     d = toml.loads(f.read(), _dict=OrderedDict)
-                d["description_md"] = self.md.convert(d["description"])
+                # Convert wiki links to markdown
+                desc = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](/\1/\2)", d["description"])
+                d["description_md"] = self.md.convert(desc)
                 self.spells[splitext(basename(path))[0]] = d
         except Exception:
             print(f"\nError when trying to process {path}")
