@@ -10,7 +10,7 @@ import toml
 from bottle import get, run, view, route, static_file, HTTPError, request, post
 from fasteners import process_lock
 
-from utils import setup_logging, load_config, str_to_bool
+from utils import setup_logging, load_config, str_to_bool, class_spell
 
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
@@ -134,9 +134,7 @@ class Server:
             filter_keys = loads(request.params["filter_keys"])
             results = defaultdict(list)
             for k, v in self.spells.items():
-                if not (set(filter_keys["classes"]).intersection(v["classes"]) or
-                        (filter_keys["ua_spells"] and set(filter_keys["classes"]).intersection(v.get("classes_ua", [])))
-                ):
+                if not class_spell(v, filter_keys["classes"], filter_keys["ua_spells"]):
                     continue
                 if v["level"] not in filter_keys["levels"]:
                     continue

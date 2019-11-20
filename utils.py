@@ -7,7 +7,7 @@ from enum import Enum
 from html.parser import HTMLParser
 from logging.handlers import TimedRotatingFileHandler
 from shutil import copyfile
-from typing import Optional, Union
+from typing import Optional, Union, List
 
 
 class Mode(Enum):
@@ -129,3 +129,18 @@ def ordinal(num: str):
 
 def str_to_bool(s):
     return s and str(s).lower()[0] in ["t", "1", "y"]
+
+
+def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
+    """
+    Helper function for determining if a spell belongs to any of a list of classes
+    :param spell: The parsed spell dictionary, containing classes and classes_ua fields
+    :param classes: The list of classes to check against
+    :param ua_spells: Whether or not to include the classes_ua field in the spell
+    :return:
+    """
+    if set(classes).intersection(spell["classes"]):
+        return True
+    if ua_spells and set(classes).intersection(spell.get("classes_ua", [])):
+        return True
+    return False
