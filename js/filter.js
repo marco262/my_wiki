@@ -3,6 +3,7 @@ import { ajax_call } from "./utils.js";
 let key_press_timer;
 
 export function init_events() {
+    set_ui_state(JSON.parse(document.cookie));
     document.getElementById("filter_button").onclick = filter;
     document.getElementById("checkbox-class-all").onclick = on_click_class_all;
     document.getElementById("checkbox-level-all").onclick = on_click_level_all;
@@ -13,25 +14,38 @@ export function init_events() {
 
 function filter() {
     clearTimeout(key_press_timer);
-    let json = {};
-    json["classes"] = filter_list("class");
-    json["levels"] = filter_list("level");
-    json["schools"] = filter_list("school");
-    let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
-    toggles.forEach(toggle => {
-        json[toggle] = get_radio_group_value(toggle);
-    });
-    json["ua_spells"] = document.getElementById("checkbox-ua-spells").checked;
-    ajax_call("/filter_results", handle_filter_results, {"filter_keys": JSON.stringify(json)});
-}
-
-function on_click(e) {
-    clearTimeout(key_press_timer);
-    key_press_timer = setTimeout(search, 1000);
+    let json = JSON.stringify(get_ui_state());
+    document.cookie = json;
+    ajax_call("/filter_results", handle_filter_results, {"filter_keys": json});
 }
 
 function handle_filter_results(xhttp) {
     document.getElementById("filter_results").innerHTML = xhttp.responseText;
+}
+
+function get_ui_state() {
+    let d = {};
+    d["classes"] = get_checkboxes("class");
+    d["levels"] = get_checkboxes("level");
+    d["schools"] = get_checkboxes("school");
+    let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
+    toggles.forEach(toggle => {
+        d[toggle] = get_radio_group_value(toggle);
+    });
+    d["ua_spells"] = document.getElementById("checkbox-ua-spells").checked;
+    return d;
+}
+
+function set_ui_state(d) {
+    set_checkboxes("class", d["classes"]);
+    set_checkboxes("level", d["levels"]);
+    set_checkboxes("school", d["schools"]);
+    let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
+    toggles.forEach(toggle => {
+        set_radio_group_value(toggle, d[toggle]);
+    });
+    document.getElementById("checkbox-ua-spells").checked = d["ua_spells"];
+    return d;
 }
 
 function on_click_class_all(e) {
@@ -60,7 +74,7 @@ function on_click_hide_advanced_block(e) {
     document.getElementById("advanced-block").style.display = "none";
 }
 
-function filter_list(name) {
+function get_checkboxes(name) {
     let list = document.getElementsByName("checkbox-" + name);
     let filtered_list = [];
     list.forEach(n => {
@@ -71,11 +85,28 @@ function filter_list(name) {
     return filtered_list;
 }
 
+function set_checkboxes(name, to_set) {
+    let list = document.getElementsByName("checkbox-" + name);
+    list.forEach(n => {
+        n.checked = (to_set.includes(n.value));
+    });
+}
+
 function get_radio_group_value(name) {
     let nodes = document.getElementsByName("radio-" + name);
     for (let i=0; i < nodes.length; i++) {
         if (nodes[i].checked) {
             return nodes[i].value;
+        }
+    }
+}
+
+function set_radio_group_value(name, value) {
+    let nodes = document.getElementsByName("radio-" + name);
+    for (let i=0; i < nodes.length; i++) {
+        if (nodes[i].value === value) {
+            nodes[i].checked = true;
+            return;
         }
     }
 }
