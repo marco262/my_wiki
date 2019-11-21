@@ -1,10 +1,11 @@
-import { ajax_call } from "./utils.js";
+import { ajax_call, getCookie, setCookie } from "./utils.js";
 
 let key_press_timer;
 
 export function init_events() {
-    if (document.cookie !== "") {
-        set_ui_state(JSON.parse(document.cookie));
+    let filter_state = getCookie("filter_state");
+    if (filter_state !== "") {
+        set_ui_state(JSON.parse(filter_state));
     }
     document.getElementById("filter_button").onclick = filter;
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
@@ -15,7 +16,7 @@ export function init_events() {
 function filter() {
     clearTimeout(key_press_timer);
     let json = JSON.stringify(get_ui_state());
-    document.cookie = json;
+    setCookie("filter_state", json);
     ajax_call("/filter_results", handle_filter_results, {"filter_keys": json});
 }
 
