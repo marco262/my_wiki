@@ -1,6 +1,6 @@
 % include("header.tpl", title="Spell Filter")
 % from utils import ordinal
-% from data.enums import classes, spell_levels, schools, sources
+% from data.enums import classes, spell_levels, schools, sources, casting_times
 <h1>Spell Filter</h1>
 
 <table>
@@ -31,6 +31,12 @@
         <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
         % for o in sources:
             <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
+        % end
+        </td>
+        <td>
+        <input type="checkbox" name="checkbox-all" value="casting-time" checked><i>All/None</i><br>
+        % for t in casting_times:
+            <input type="checkbox" name="checkbox-casting-time" value="{{t}}" checked>{{t}}<br>
         % end
         </td>
     </tr>

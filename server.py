@@ -148,6 +148,11 @@ class Server:
                         break
                 else:
                     continue
+                for t in filter_keys["casting_times"]:
+                    if t in v["casting_time"]:
+                        break
+                else:
+                    continue
                 if ((filter_keys["concentration"] == "yes" and not v["concentration_spell"]) or
                     (filter_keys["concentration"] == "no" and v["concentration_spell"])):
                     continue
