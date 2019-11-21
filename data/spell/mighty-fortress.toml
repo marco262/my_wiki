@@ -11,7 +11,7 @@ material = "a diamond worth at least 500 gp, which the spell consumes"
 expensive_material_component = true
 material_component_consumed = false
 duration = "Instantaneous"
-description = """[[f>image spell:mighty-fortress/mighty_fortress.PNG size="small"]]
+description = """![Mighty Fortress top-down diagram >](/static/img/mighty_fortress.png)
 
 A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.
 
@@ -27,5 +27,5 @@ After 7 days or when you cast this spell somewhere else, the fortress harmlessly
 
 Casting this spell on the same spot once every 7 days for a year makes the fortress permanent.
 
-*Editor's Note: A top-down schematic view of the fortress is shown to the right, to give viewers a better idea of the layout. The orange areas are the turrets, and the green area is the keep.*"""
+*Editor's Note: A top-down schematic view of the fortress is shown below, to give viewers a better idea of the layout. The orange areas are the turrets, and the green area is the keep.*"""
 source = "Xanathar's Guide to Everything, p. 161"
