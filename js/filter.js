@@ -11,6 +11,7 @@ export function init_events() {
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
     document.getElementById("show-advanced-block").onclick = on_click_show_advanced_block;
     document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced_block;
+    filter();
 }
 
 function filter() {
