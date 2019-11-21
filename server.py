@@ -15,6 +15,7 @@ from utils import setup_logging, load_config, str_to_bool, class_spell
 VERSION = (0, 0, 1)
 VIEWS_DIR = os.path.join(os.path.dirname(__file__), 'views')
 RESOURCES_DIR = os.path.join(os.path.dirname(__file__), 'resources')
+EXTRAS = ["header-ids", "wiki-tables"]
 
 
 class Server:
@@ -242,6 +243,13 @@ class Server:
                 "ua_spells": str_to_bool(ua_spells)
             }
             return d
+
+        @get('/class/<name>')
+        @view("class.tpl")
+        def dnd_class(name):
+            formatted_name = re.sub("\W", "-", name.lower())
+            path = "data/class/" + formatted_name + ".md"
+            return {"title": name.title(), "text": markdown2.markdown_path(path, extras=EXTRAS)}
 
         @get('/feedback')
         def feedback():

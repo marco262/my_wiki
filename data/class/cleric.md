@@ -2,7 +2,7 @@ Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to
 
 Calling down a curse upon the forces of undeath, a human lifts her holy symbol as light pours from it to drive back the zombies crowding in on her companions. Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.
 
-++ Healers and Warriors
+## Healers and Warriors
 
 Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don't grant this pow er to everyone who seeks it, but only to those chosen to fulfill a high calling.
 
@@ -10,7 +10,7 @@ Harnessing divine magic doesn't rely on study or training. A cleric might learn 
 
 Clerics combine the helpful magic of healing and inspiring their allies with spells that harm and hinder foes. They can provoke awe and dread, lay curses of plague or poison, and even call down flames from heaven to consume their enemies. For those evildoers who will benefit most from a m ace to the head, clerics depend on their com bat training to let them wade into melee with the pow er of the gods on their side.
 
-++ Divine Agents
+## Divine Agents
 
 Not every acolyte or officiant at a temple or shrine is a cleric. Some priests are called to a simple life of temple service, carrying out their gods' will through prayer and sacrifice, not by magic and strength of arms. In some cities, priesthood amounts to a political office, viewed as a stepping stone to higher positions of authority and involving no com m union with a god at all. True clerics are rare in most hierarchies.
 
@@ -18,7 +18,7 @@ When a cleric takes up an adventuring life, it is usually because his or her god
 
 Most adventuring clerics maintain some connection to established temples and orders of their faiths. A temple might ask for a cleric's aid, or a high priest might be in a position to demand it.
 
-+ The Cleric
+# The Cleric
 
 ||~ Level ||~ Proficiency _
 Bonus ||~ Features ||~ Cantrips _
@@ -45,27 +45,27 @@ Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 20th || +6 || Divine Intervention improvement || 5 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
 
 
-++ Creating a Cleric
+## Creating a Cleric
 
 As you create a cleric, the most important question to consider is which deity to serve and what principles you want your character to embody. Appendix B in the Player's Handbook includes lists of many of the gods of the multiverse. Check with your DM to learn which deities are in your campaign.
 
 Once you've chosen a deity, consider your cleric's relationship to that god. Did you enter this service willingly? Or did the god choose you, impelling you into service with no regard for your wishes? How do the temple priests of your faith regard you: as a champion or a troublemaker? What are your ultimate goals? Does your deity have a special task in mind for you? Or are you striving to prove yourself worthy of a great quest?
 
-++ Quick Build
+## Quick Build
 
 You can make a cleric quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Strength or Constitution. Second, choose the [[[background:Acolyte]]] background.
 
-+ Class Features
+# Class Features
 
 As a cleric, you gain the following class features.
 
-++ Hit Points
+## Hit Points
 
 * Hit Dice: 1d8 per cleric level
 * Hit Points at 1st Level: 8 + your Constitution modifier
 * Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per cleric level after 1st
 
-++ Proficiencies
+## Proficiencies
 
 * Armor: Light armor, medium armor, shields
 * Weapons: All simple weapons
@@ -73,7 +73,7 @@ As a cleric, you gain the following class features.
 * Saving Throws: Wisdom, Charisma
 * Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion
 
-++ Equipment
+## Equipment
 
 You start with the following equipment, in addition to the equipment granted by your background:
 
@@ -83,15 +83,15 @@ You start with the following equipment, in addition to the equipment granted by 
 * (a) a priest's pack or (b) an explorer's pack
 * A shield and a holy symbol
 
-++ Spellcasting
+## Spellcasting
 
 As a conduit for divine power, you can cast cleric spells. See [[[general:Spellcasting Rules]]] and the [[[class-spell-list:cleric-spells|cleric spell list]]].
 
-+++ Cantrips
+### Cantrips
 
 At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
 
-+++ Preparing and Casting Spells
+### Preparing and Casting Spells
 
 The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher.[((bibcite errata))] To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
@@ -101,32 +101,32 @@ For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-
 
 You can change your list of prepared spells When you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
-+++ Spellcasting Ability
+### Spellcasting Ability
 
 Wisdom is your spellcasting ability for your cleric spells. The pow er of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
 
 * Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
 * Spell attack modifier = your proficiency bonus + your Wisdom modifier
 
-+++ Ritual Casting
+### Ritual Casting
 
 You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
-+++ Spellcasting Focus
+### Spellcasting Focus
 
 You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.
 
-++ Divine Domain
+## Divine Domain
 
 Choose one [[[class:cleric#divine-domains|domain]]] related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
 
-+++ Domain Spells
+### Domain Spells
 
 Each domain has a list of spells -- its domain spells -- that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.
 
 If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.
 
-++ Channel Divinity
+## Channel Divinity
 
 At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
 
@@ -136,17 +136,17 @@ Some Channel Divinity effects require saving throws. When you use such an effect
 
 Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level. you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
 
-+++ Turn Undead
+### Turn Undead
 
 As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-++ Ability Score Improvement
+## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-++ Destroy Undead
+## Destroy Undead
 
 Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.
 
@@ -157,7 +157,7 @@ Starting at 5th level, when an undead fails its saving throw against your Turn U
 || 14th || 3 or lower ||
 || 17th || 4 or lower ||
 
-++ Divine Intervention
+## Divine Intervention
 
 Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
 
@@ -167,7 +167,7 @@ If your deity intervenes, you can't use this feature again for 7 days. Otherwise
 
 At 20th level, your call for intervention succeeds automatically, no roll required.
 
-+ [[# divine-domains]]Divine Domains
+# [[# divine-domains]]Divine Domains
 
 In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity’s domain. All the domains over which a deity has influence are called the deity’s portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity’s portfolio to emphasize, and you are granted powers related to that domain.
 
@@ -175,7 +175,7 @@ Your choice might correspond to a particular sect dedicated to your deity. Apoll
 
 Each domain’s description gives examples of deities w ho have influence over that domain. Gods are included from the worlds of the Forgotten Realms, Greyhawk, Dragonlance, and Eberron campaign settings, as well as from the Celtic, Greek, Norse, and Egyptian pantheons o f antiquity.
 
-++ Player's Handbook
+## Player's Handbook
 
 * [[[class:Knowledge Domain]]]
 * [[[class:Life Domain]]]
@@ -185,7 +185,7 @@ Each domain’s description gives examples of deities w ho have influence over t
 * [[[class:Trickery Domain]]]
 * [[[class:War Domain]]]
 
-++ Sword Coast Adventurer's Guide
+## Sword Coast Adventurer's Guide
 
 * [[[class:Arcana Domain]]]
 
@@ -194,5 +194,5 @@ Each domain’s description gives examples of deities w ho have influence over t
 //Source: Player's Handbook, p. 56//
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
 [[/bibliography]]
