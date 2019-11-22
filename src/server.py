@@ -252,7 +252,10 @@ class Server:
         def dnd_class(name):
             formatted_name = re.sub("\W", "-", name.lower())
             path = "data/class/" + formatted_name + ".md"
-            return {"title": name.title(), "text": self.md.parse_md_path(path)}
+            try:
+                return {"title": name.title(), "text": self.md.parse_md_path(path)}
+            except FileNotFoundError:
+                raise HTTPError(404, f"I couldn't find \"{name}\".")
 
         @get('/feedback')
         def feedback():
