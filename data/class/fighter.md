@@ -104,7 +104,7 @@ Once you use this feature, you must finish a short or long rest before you can u
 
 ## Martial Archetype
 
-At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player’s Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player's Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
 ## Extra Attack
 
@@ -114,7 +114,7 @@ The number of attacks increases to three when you reach 11th level in this class
 
 ## Indomitable
 
-Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.
+Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.
 
 You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.
 

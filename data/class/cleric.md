@@ -4,15 +4,15 @@ Calling down a curse upon the forces of undeath, a human lifts her holy symbol a
 
 ## Healers and Warriors
 
-Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don't grant this pow er to everyone who seeks it, but only to those chosen to fulfill a high calling.
+Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don't grant this power to everyone who seeks it, but only to those chosen to fulfill a high calling.
 
 Harnessing divine magic doesn't rely on study or training. A cleric might learn formulaic prayers and ancient rites, but the ability to cast cleric spells relies on devotion and an intuitive sense of a deity's wishes.
 
-Clerics combine the helpful magic of healing and inspiring their allies with spells that harm and hinder foes. They can provoke awe and dread, lay curses of plague or poison, and even call down flames from heaven to consume their enemies. For those evildoers who will benefit most from a m ace to the head, clerics depend on their com bat training to let them wade into melee with the pow er of the gods on their side.
+Clerics combine the helpful magic of healing and inspiring their allies with spells that harm and hinder foes. They can provoke awe and dread, lay curses of plague or poison, and even call down flames from heaven to consume their enemies. For those evildoers who will benefit most from a mace to the head, clerics depend on their com bat training to let them wade into melee with the power of the gods on their side.
 
 ## Divine Agents
 
-Not every acolyte or officiant at a temple or shrine is a cleric. Some priests are called to a simple life of temple service, carrying out their gods' will through prayer and sacrifice, not by magic and strength of arms. In some cities, priesthood amounts to a political office, viewed as a stepping stone to higher positions of authority and involving no com m union with a god at all. True clerics are rare in most hierarchies.
+Not every acolyte or officiant at a temple or shrine is a cleric. Some priests are called to a simple life of temple service, carrying out their gods' will through prayer and sacrifice, not by magic and strength of arms. In some cities, priesthood amounts to a political office, viewed as a stepping stone to higher positions of authority and involving no communion with a god at all. True clerics are rare in most hierarchies.
 
 When a cleric takes up an adventuring life, it is usually because his or her god demands it. Pursuing the goals of the gods often involves braving dangers beyond the walls of civilization, smiting evil or seeking holy relics in ancient tombs. Many clerics are also expected to protect their deities' worshipers, which can mean fighting rampaging orcs, negotiating peace between warring nations, or sealing a portal that would allow a demon prince to enter the world.
 
@@ -20,9 +20,7 @@ Most adventuring clerics maintain some connection to established temples and ord
 
 # The Cleric
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency\nBonus ||~ Features ||~ Cantrips\nKnown ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Divine Domain || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Channel Divinity (1/rest), Divine Domain feature || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
@@ -103,7 +101,7 @@ You can change your list of prepared spells When you finish a long rest. Prepari
 
 ### Spellcasting Ability
 
-Wisdom is your spellcasting ability for your cleric spells. The pow er of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
+Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
 
 * Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
 * Spell attack modifier = your proficiency bonus + your Wisdom modifier
@@ -169,11 +167,11 @@ At 20th level, your call for intervention succeeds automatically, no roll requir
 
 # [[# divine-domains]]Divine Domains
 
-In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity’s domain. All the domains over which a deity has influence are called the deity’s portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity’s portfolio to emphasize, and you are granted powers related to that domain.
+In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity's domain. All the domains over which a deity has influence are called the deity's portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity's portfolio to emphasize, and you are granted powers related to that domain.
 
-Your choice might correspond to a particular sect dedicated to your deity. Apollo, for example, could be worshiped in one region as Phoebus (“radiant”) Apollo, emphasizing his influence over the Light domain, and in a different place as Apollo Acesius (“healing”), emphasizing his association with the Life domain. Alternatively, your choice of domain could simply be a matter of personal preference, the aspect o f the deity that appeals to you most.
+Your choice might correspond to a particular sect dedicated to your deity. Apollo, for example, could be worshiped in one region as Phoebus ("radiant") Apollo, emphasizing his influence over the Light domain, and in a different place as Apollo Acesius ("healing"), emphasizing his association with the Life domain. Alternatively, your choice of domain could simply be a matter of personal preference, the aspect o f the deity that appeals to you most.
 
-Each domain’s description gives examples of deities w ho have influence over that domain. Gods are included from the worlds of the Forgotten Realms, Greyhawk, Dragonlance, and Eberron campaign settings, as well as from the Celtic, Greek, Norse, and Egyptian pantheons o f antiquity.
+Each domain's description gives examples of deities who have influence over that domain. Gods are included from the worlds of the Forgotten Realms, Greyhawk, Dragonlance, and Eberron campaign settings, as well as from the Celtic, Greek, Norse, and Egyptian pantheons o f antiquity.
 
 ## Player's Handbook
 

@@ -4,7 +4,7 @@ A half-orc snarls at the latest challenger to her authority over their savage tr
 
 These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.
 
-For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a pow er that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
+For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
 
 ## Primal Instinct
 
@@ -106,9 +106,9 @@ Starting at 2nd level, you can throw aside all concern for defense to attack wit
 
 ## Danger Sense
 
-At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.
+At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.
 
-You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.
+You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.
 
 ## Primal Path
 
@@ -116,7 +116,7 @@ At 3rd level, you choose a [[[class:barbarian#primal-paths|path]]] that shapes t
 
 ## Ability Score Improvement
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 ## Extra Attack
 
@@ -124,13 +124,13 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 ## Fast Movement
 
-Starting at 5th level, your speed increases by 10 feet while you aren’t wearing heavy armor.
+Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.
 
 ## Feral Instinct
 
 By 7th level, your instincts are so honed that you have advantage on initiative rolls.
         
-Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
 ## Brutal Critical
 
@@ -140,7 +140,7 @@ This increases to two additional dice at 13th level and three additional dice at
 
 ## Relentless Rage
 
-Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
+Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
         
 Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.
 

@@ -36,7 +36,7 @@ Your animal companion gains proficiency in two skills of your choice. It also be
 [[div class="phb-sidebar"]]
 **Expanding Companion Options**
 
-Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal m ore than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.
+Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal more than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.
 [[/div]]
 For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.
 
