@@ -5,11 +5,11 @@ from glob import glob
 from json import loads
 from os.path import basename, splitext
 
-import markdown2
 import toml
 from bottle import get, run, view, route, static_file, HTTPError, request, post
 from fasteners import process_lock
 
+from src.markdown_parser import MarkdownParser
 from src.utils import setup_logging, load_config, str_to_bool, class_spell
 
 VERSION = (0, 0, 1)
@@ -36,7 +36,7 @@ class Server:
 
         cfg = load_config()
         self.logger = setup_logging("log", log_level=log_level)
-        self.md = markdown2.Markdown()
+        self.md = MarkdownParser()
 
         self._load_spells()
 
@@ -77,9 +77,7 @@ class Server:
                 print(".", end='')
                 with open(path) as f:
                     d = toml.loads(f.read(), _dict=OrderedDict)
-                # Convert wiki links to markdown
-                desc = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](/\1/\2)", d["description"])
-                d["description_md"] = self.md.convert(desc)
+                d["description_md"] = self.md.parse_md(d["description"])
                 self.spells[splitext(basename(path))[0]] = d
         except Exception:
             print(f"\nError when trying to process {path}")
@@ -254,8 +252,7 @@ class Server:
         def dnd_class(name):
             formatted_name = re.sub("\W", "-", name.lower())
             path = "data/class/" + formatted_name + ".md"
-            text = markdown2.markdown_path(path, extras=EXTRAS)
-            return {"title": name.title(), "text": text}
+            return {"title": name.title(), "text": self.md.parse_md_path(path)}
 
         @get('/feedback')
         def feedback():
