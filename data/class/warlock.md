@@ -174,7 +174,7 @@ At higher levels, you gain more warlock spells of your choice that can be cast i
 
 At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
 
-# [[# otherworldly-patrons]]Otherworldly Patrons
+# Otherworldly Patrons
 
 The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence -- not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return. Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
 
@@ -184,7 +184,7 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 * [[[class:The Fiend]]]
 * [[[class:The Great Old One]]]
 
-# [[# eldritch-invocations]]Eldritch Invocations
+# Eldritch Invocations
 
 If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.
 

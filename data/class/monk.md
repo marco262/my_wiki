@@ -207,7 +207,7 @@ Additionally, you can spend 8 ki points to cast the astral projection spell, wit
 
 At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.
 
-# [[# monastic-traditions]]Monastic Traditions
+# Monastic Traditions
 
 Three traditions of monastic pursuit are common in the monasteries scattered across the multiverse. Most monasteries practice one tradition exclusively, but a few honor the three traditions and instruct each monk according to his or her aptitude and interest. All three traditions rely on the same basic techniques, diverging as the student grows more adept. Thus, a monk need choose a tradition only upon reaching 3rd level.
 

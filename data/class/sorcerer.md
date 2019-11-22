@@ -198,7 +198,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 
 At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.
 
-# [[# sorcerous-origins]]Sorcerous Origins
+# Sorcerous Origins
 
 Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into two categories: a draconic bloodline and wild magic.
 

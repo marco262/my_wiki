@@ -153,7 +153,7 @@ When you reach 20th level, you gain mastery over two powerful spells and can cas
 
 If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
-# [[# arcane-traditions]]Arcane Traditions
+# Arcane Traditions
 
 The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in the worlds of D&D, with various traditions dedicated to its complex study.
 

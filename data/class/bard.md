@@ -178,7 +178,7 @@ You learn two additional spells from any classes at 14th level and again at 18th
 
 At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.
 
-# [[# bard-college]]Bard Colleges
+# Bard Colleges
 
 The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
 
