@@ -67,7 +67,7 @@ export function spell_table_level(spells, show_classes=true) {
     // Creates a single table of spells
     // spells is list of 2-tuples of (url, dict)
     return `
-    <table border='1'>
+    <table>
         ${spell_table_header(show_classes)}
         ${spells.map(spell => spell_table_row(spell[0], spell[1], show_classes)).join("\n")}
     </table>`;

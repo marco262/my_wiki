@@ -2,7 +2,7 @@
 % if not get("spells"):
 <i>No Results</i>
 % else:
-<table border="1">
+<table>
     <tr>
         <th>Spell Name</th>
         <th>School</th>

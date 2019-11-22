@@ -2,7 +2,7 @@
 
 <h1>Spell Search</h1>
 
-<table>
+<table border="0">
     <tr>
         <td>Search Key:</td>
         <td>

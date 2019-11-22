@@ -94,3 +94,12 @@ div.errata{
     border: 1px solid gray;
     background-color: #FEA;
 }
+
+table, tbody, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    margin: 0;
+    padding: 3px;
+}

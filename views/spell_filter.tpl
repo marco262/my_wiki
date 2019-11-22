@@ -3,7 +3,7 @@
 % from data.enums import classes, spell_levels, schools, sources, casting_times
 <h1>Spell Filter</h1>
 
-<table>
+<table border="0">
     <tr valign="top">
         <td>
         <input type="checkbox" name="checkbox-all" value="class" checked><i>All/None</i><br>
@@ -44,7 +44,7 @@
 <br>
 <div id="show-advanced-block" style="font-size: small"><a href="#">Show advanced filter options</a></div>
 <div id="advanced-block" style="display: none">
-    <table>
+    <table border="0">
     <%
     toggles = [
         ("Concentration Spells:", "concentration"),
