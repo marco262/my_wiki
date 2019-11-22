@@ -20,9 +20,7 @@ As adventurers, rogues fall on both sides of the law. Some are hardened criminal
 
 # The Rogue
 
-||~ Level ||~ Proficiency _
- Bonus ||~ Sneak _
-Attack ||~ Features ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Sneak<br>Attack ||~ Features ||
 || 1st || +2 || 1d6 || Expertise, Sneak Attack, Thieves' Cant ||
 || 2nd || +2 || 1d6 || Cunning Action ||
 || 3rd || +2 || 2d6 || Roguish Archetype ||

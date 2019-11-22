@@ -10,13 +10,7 @@ A dragonfire adept is a student devoted to understanding the ways of dragons and
 
 # The Dragonfire Adept
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Cantrips _
-Known ||~ Spells _
-Known ||~ Spell _
-Slots ||~ Slot _
-Level ||~ Invocations _
-Known ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ Spell<br>Slots ||~ Slot<br>Level ||~ Invocations<br>Known ||
 || 1st || +2 || Draconic Patron, Dragon Magic || 2 || 2 || 1 || 1st || -- ||
 || 2nd || +2 || Draconic Invocations || 2 || 3 || 2 || 1st || 2 ||
 || 3rd || +2 || Draconic Patron Feature || 2 || 4 || 2 || 2nd || 2 ||

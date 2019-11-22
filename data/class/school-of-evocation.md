@@ -2,10 +2,7 @@ You focus your study on magic that creates powerful elemental effects such as bi
 
 # The Evoker
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Arcane Recovery _
-Levels ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Arcane Recovery<br>Levels ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || 2 || Spellcasting, Arcane Recovery || 1 || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || 2 || Evocation Savant, Sculpt Spells || 1 || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || 2 || -- || 2 || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

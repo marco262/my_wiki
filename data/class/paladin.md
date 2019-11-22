@@ -22,8 +22,7 @@ cosmic balance away from oblivion.
 
 # The Paladin
 
-||~ Level||~ Proficiency _
-Bonus||~ Features||~ 1st||~ 2nd||~ 3rd||~ 4th||~ 5th||
+||~ Level||~ Proficiency<br>Bonus||~ Features||~ 1st||~ 2nd||~ 3rd||~ 4th||~ 5th||
 ||1st|| +2|| Divine Sense, Lay on Hands|| -- || -- || -- || -- || -- ||
 ||2nd|| +2|| Fighting Style, Spellcasting, Divine Smite|| 2|| -- || -- || -- || -- ||
 ||3rd|| +2|| Divine Health, Sacred Oath|| 3|| -- || -- || -- || -- ||

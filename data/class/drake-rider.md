@@ -5,14 +5,7 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 //Note: This subclass is meant to be used with the [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
 
 # The Drake Rider
-||Level||Proficiency _
-Bonus||Features||Bite _
-Damage||Breath _
-Weapon _
-Damage||Breath _
-Weapon _
-DC||Spells _
-Known||1st||2nd||3rd||4th||5th||
+||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||
 ||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --|| --|| --|| --||
 ||2nd|| +2|| Fighting Style, Spellcasting|| --|| --|| --|| 2|| 2|| --|| --|| --|| --||
 ||3rd|| +2|| Primeval Awareness, Draconic Mount, Blazing Speed, Combat Training||1d6|| -- || --|| 3|| 3|| --|| --|| --|| --||

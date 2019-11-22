@@ -36,9 +36,7 @@ You can make a ranger quickly by following these suggestions. First, make Dexter
 
 # The Ranger
 
-||Level||Proficiency _
-Bonus||Features||Spells _
-Known|| 1st|| 2nd|| 3rd|| 4th|| 5th||
+||Level||Proficiency<br>Bonus||Features||Spells<br>Known|| 1st|| 2nd|| 3rd|| 4th|| 5th||
 ||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --||
 ||2nd|| +2|| Fighting Style, Spellcasting|| 2|| 2|| --|| --|| --|| --||
 ||3rd|| +2|| Ranger Archetype, Primeval Awareness|| 3|| 3|| --|| --|| --|| --||

@@ -1,13 +1,7 @@
 The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.
 
 ## The Eldritch Knight
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ # of _
-Attacks ||~ Action _
-Surge Uses ||~ Indomitable _
-Uses ||~ Cantrips _
-Known ||~ Spells _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ # of<br>Attacks ||~ Action<br>Surge Uses ||~ Indomitable<br>Uses ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||
 || 1st || +2 || Fighting Style, Second Wind || 1 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Action Surge (one use) || 1 || **1** || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || Spellcasting || 1 || 1 || -- || **2** || **3** || **2** || -- || -- || -- ||

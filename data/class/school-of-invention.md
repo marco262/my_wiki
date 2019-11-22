@@ -60,8 +60,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:shocking grasp]]]// ||
 || 8 || //[[[spell:sacred flame]]]// ||
 || 9 || //[[[spell:thorn whip]]]// ||
-|| 10 || Roll twice and cast each cantrip, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action. ||
+|| 10 || Roll twice and cast each cantrip, but if you roll another 10 on either die,<br>you cast nothing, wasting your action. ||
 [[/collapsible]]
 
 [[collapsible show="+ 1st-Level Spells" hide="- Hide 1st-Level Spells"]]
@@ -75,8 +74,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:jump]]]// ||
 || 8 || //[[[spell:magic missile]]]// ||
 || 9 || //[[[spell:thunderwave]]]// ||
-|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action but not the spell slot. ||
+|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 2nd-Level Spells" hide="- Hide 2nd-Level Spells"]]
@@ -90,8 +88,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:Melf's acid arrow]]]// ||
 || 8 || //[[[spell:scorching ray]]]// ||
 || 9 || //[[[spell:shatter]]]// ||
-|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action but not the spell slot. ||
+|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 3rd-Level Spells" hide="- Hide 3rd-Level Spells"]]
@@ -105,8 +102,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:lightning bolt]]]// ||
 || 8 || //[[[spell:sleet storm]]]// ||
 || 9 || //[[[spell:stinking cloud]]]// ||
-|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action but not the spell slot. ||
+|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 4th-Level Spells" hide="- Hide 4th-Level Spells"]]
@@ -120,8 +116,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:phantasmal killer]]]// ||
 || 8 || //[[[spell:stoneskin]]]// ||
 || 9 || //[[[spell:wall of fire]]]// ||
-|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action but not the spell slot. ||
+|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 5th-Level Spells" hide="- Hide 5th-Level Spells"]]
@@ -135,8 +130,7 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 7 || //[[[spell:mass cure wounds]]]// ||
 || 8 || //[[[spell:wall of force]]]// ||
 || 9 || //[[[spell:wall of stone]]]// ||
-|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die, _
-            you cast nothing, wasting your action but not the spell slot. ||
+|| 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 ## Alchemical Casting

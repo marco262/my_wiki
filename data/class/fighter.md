@@ -28,8 +28,7 @@ You can make a fighter quickly by following these suggestions. First, make Stren
 
 # The Fighter
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||
 || 1st || +2 || Fighting Style, Second Wind ||
 || 2nd || +2 || Action Surge (one use) ||
 || 3rd || +2 || Martial Archetype ||

@@ -4,11 +4,7 @@ Changeable as the moon, a druid of this circle might prowl as a great cat one ni
 
 # The Circle of the Moon
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Max Wild _
-Shape CR ||~ Hours in _
-Wild Shape ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Max Wild<br>Shape CR ||~ Hours in<br>Wild Shape ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Druidic, Spellcasting || -- || -- || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Wild Shape, Combat Wildshape, Circle Forms (CR 1) || **1** || **1** || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 1 || 1 || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

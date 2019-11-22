@@ -2,9 +2,7 @@ For some barbarians, rage is a means to an end -- that end being violence. The P
 
 # Path of the Berserker
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Rages ||~ Rage _
-Damage ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
 || 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
 || 2nd || +2 || Reckless Attack, Danger Sense || 2 || +2 ||
 || 3rd || +2 || Frenzy || 3 || +2 ||

@@ -30,10 +30,7 @@ You can make a bard quickly by following these suggestions. First, Charisma shou
 
 # The Bard
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Cantrips _
-Known ||~ Spells _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Bardic Inspiration (d6) || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Jack of All Trades, Song of Rest (d6) || 3 || 5 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || Bard College, Expertise || 3 || 6 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

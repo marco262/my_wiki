@@ -22,11 +22,7 @@ Sorcerers often have obscure or quixotic motivations driving them to adventure. 
 
 # The Sorcerer
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Sorcery _
-Points ||~ Features ||~ Cantrips _
-Known ||~ Spells _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Sorcery<br>Points ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || 2 || -- || Spellcasting, Sorcerous Origin || 4 || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || 2 || 2 || Font of Magic || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || 2 || 3 || Metamagic || 4 || 4 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

@@ -2,11 +2,7 @@ The Circle of the Land is made up of mystics and sages who safeguard ancient kno
 
 # The Circle of the Land
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Max Wild _
-Shape CR ||~ Hours in _
-Wild Shape ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Max Wild<br>Shape CR ||~ Hours in<br>Wild Shape ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Druidic, Spellcasting || -- || -- || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Wild Shape, Natural Recovery || **1/4** || **1** || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || Circle Spells (3rd) || 1/4 || 1 || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

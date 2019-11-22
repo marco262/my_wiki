@@ -1,10 +1,6 @@
 Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.
 
-||~ Level ||~ Proficiency _
- Bonus ||~ Sneak _
-Attack ||~ Features ||~ Cantrips _
- Known ||~ Spells _
- Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Sneak<br>Attack ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||
 || 1st || +2 || 1d6 || Expertise, Sneak Attack, Thieves' Cant || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || 1d6 || Cunning Action || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || 2d6 || Spellcasting, Mage Hand Legerdemain || 3 || 3 || 2 || -- || -- || -- ||

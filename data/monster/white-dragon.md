@@ -223,8 +223,7 @@ The region containing a legendary white dragon's lair is warped by the dragon's 
 
 * Chilly fog lightly obscures the land within 6 miles of the dragon's lair.
 * Freezing precipitation falls within 6 miles of the dragon's lair, sometimes forming blizzard conditions when the dragon is at rest.
-* Icy walls block off areas in the dragon's lair. Each wall is 6 inches thick, and a 10-foot section has AC 5, 15 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. _
-If the dragon wishes to move through a wall, it can do so without slowing down. The portion of the wall the dragon moves through is destroyed, however.
+* Icy walls block off areas in the dragon's lair. Each wall is 6 inches thick, and a 10-foot section has AC 5, 15 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage.<br>If the dragon wishes to move through a wall, it can do so without slowing down. The portion of the wall the dragon moves through is destroyed, however.
 
 If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of 1d10 days.
 
