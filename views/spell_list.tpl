@@ -1,5 +1,5 @@
 <%
-from utils import ordinal
+from src.utils import ordinal
 
 if not spell_dict:
 %>
