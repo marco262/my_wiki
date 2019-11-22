@@ -10,7 +10,7 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || Comfortable || 2 gp ||
 || Wealthy || 4 gp ||
 || Aristocratic || 10 gp minimum ||
- _
+
 **Food, Drink, and Lodging**
 ||~ Item ||~ Cost ||
 |||| //Ale// ||
@@ -37,7 +37,7 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 |||| //Wine// ||
 || * Common (pitcher) || 2 sp ||
 || * Fine (bottle) || 10 gp ||
- _
+
 **Services**
 ||~ Service ||~ Pay ||
 |||| //Coach cab// ||

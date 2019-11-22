@@ -42,7 +42,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 || 6 || I connect everything that happens to me to a grand, cosmic plan. ||
 || 7 || I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings. ||
 || 8 || I am working on a grand philosophical theory and love sharing my ideas. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Greater Good.** My gifts are meant to be shared with all, not used for my own benefit. (Good) ||
@@ -51,7 +50,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 || 4 || **Power.** Solitude and contemplation are paths toward mystical or magical power. (Evil) ||
 || 5 || **Live and Let Live.** Meddling in the affairs of others only causes trouble. (Neutral) ||
 || 6 || **Self-Knowledge.** If you know yourself, there's nothing left to know. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || Nothing is more important than the other members of my hermitage, order, or association. ||
@@ -60,7 +58,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 || 4 || I entered seclusion because I loved someone I could not have. ||
 || 5 || Should my discovery come to light, it could bring ruin to the world. ||
 || 6 || My isolation gave me great insight into a great evil that only I can destroy. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || Now that I've returned to the world, I enjoy its delights a little too much. ||

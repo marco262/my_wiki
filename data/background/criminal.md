@@ -39,7 +39,6 @@ Although your capabilities are not much different from those of a burglar or smu
 || 6 || I don't pay attention to the risks in a situation. Never tell me the odds. ||
 || 7 || The best way to get me to do something is to tell me I can't do it. ||
 || 8 || I blow up at the slightest insult. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Honor.** I don't steal from others in the trade. (Lawful) ||
@@ -48,7 +47,6 @@ Although your capabilities are not much different from those of a burglar or smu
 || 4 || **Greed.** I will do whatever it takes to become wealthy. (Evil) ||
 || 5 || **People.** I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral) ||
 || 6 || **Redemption.** There's a spark of good in everyone. (Good) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I'm trying to pay off an old debt I owe to a generous benefactor. ||
@@ -57,7 +55,6 @@ Although your capabilities are not much different from those of a burglar or smu
 || 4 || I will become the greatest thief that ever lived. ||
 || 5 || I'm guilty of a terrible crime. I hope I can redeem myself for it. ||
 || 6 || Someone I loved died because of a mistake I made. That will never happen again. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || When I see something valuable, I can't think about anything but how to steal it. ||

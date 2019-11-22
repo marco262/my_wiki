@@ -58,7 +58,6 @@ Rather than proficiency with artisan's tools, you might be proficient with navig
 || 6 || I like to talk at length about my profession. ||
 || 7 || I don't part with my money easily and will haggle tirelessly to get the best deal possible. ||
 || 8 || I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful) ||
@@ -67,7 +66,6 @@ Rather than proficiency with artisan's tools, you might be proficient with navig
 || 4 || **Greed.** I'm only in it for the money. (Evil) ||
 || 5 || **People.** I'm committed to the people I care about, not to ideals. (Neutral) ||
 || 6 || **Aspiration.** I work hard to be the best there is at my craft. ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || The workshop where I learned my trade is the most important place in the world to me. ||
@@ -76,7 +74,6 @@ Rather than proficiency with artisan's tools, you might be proficient with navig
 || 4 || I pursue wealth to secure someone's love. ||
 || 5 || One day I will return to my guild and prove that I am the greatest artisan of them all. ||
 || 6 || I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I'll do anything to get my hands on something rare or priceless. ||

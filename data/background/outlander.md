@@ -38,7 +38,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 || 6 || I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them. ||
 || 7 || I feel far more comfortable around animals than people. ||
 || 8 || I was, in fact, raised by wolves. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Change.** Life is like the seasons, in constant change, and we must change with it. (Chaotic) ||
@@ -47,7 +46,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 || 4 || **Might.** The strongest are meant to rule. (Evil) ||
 || 5 || **Nature.** The natural world is more important than all the constructs of civilization. (Neutral) ||
 || 6 || **Glory.** I must earn glory in battle, for myself and my clan. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || My family, clan, or tribe is the most important thing in my life, even when they are far from me. ||
@@ -56,7 +54,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 || 4 || I am the last of my tribe, and it is up to me to ensure their names enter legend. ||
 || 5 || I suffer awful visions of a coming disaster and will do anything to prevent it. ||
 || 6 || It is my duty to provide children to sustain my tribe. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I am too enamored of ale, wine, and other intoxicants. ||

@@ -49,7 +49,6 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 
 ### Reckless Casting tables
 
- _
 [[collapsible show="+ Cantrips" hide="- Hide Cantrips"]]
 ||~ d10 ||~ Cantrip ||
 || 1 || //[[[spell:acid splash]]]// ||

@@ -12,7 +12,7 @@ Capacity ||
 || Mastiff || 25 gp || 40 ft. || 195 lb. ||
 || Pony || 30 gp || 40 ft. || 225 lb. ||
 || Warhorse || 400 gp || 60 ft. || 540 lb. ||
- _
+
 **Tack, Harness, and Drawn Vehicles**
 ||~ Item ||~ Cost ||~ Weight ||
 || Barding || x4 || x2 ||
@@ -30,7 +30,7 @@ Capacity ||
 || Sled || 20 gp || 300 lb. ||
 || Stabling (per day) || 5 sp || -- ||
 || Wagon || 35 gp || 400 lb. ||
- _
+
 **Waterborne Vehicles**
 ||~ Item ||~ Cost ||~ Speed ||
 || Galley || 30,000 gp || 4 mph ||

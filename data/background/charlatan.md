@@ -35,7 +35,6 @@ Charlatans are colorful characters who conceal their true selves behind the mask
 || 6 || Sarcasm and insults are my weapons of choice. ||
 || 7 || I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment. ||
 || 8 || I pocket anything I see that might have some value. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Independence.** I am a free spirit -- no one tells me what to do. (Chaotic) ||
@@ -44,7 +43,6 @@ Charlatans are colorful characters who conceal their true selves behind the mask
 || 4 || **Creativity.** I never run the same con twice. (Chaotic) ||
 || 5 || **Friendship.** Material goods come and go. Bonds of friendship last forever. (Good) ||
 || 6 || **Aspiration.** I'm determined to make something of myself. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about. ||
@@ -53,7 +51,6 @@ Charlatans are colorful characters who conceal their true selves behind the mask
 || 4 || I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me. ||
 || 5 || A powerful person killed someone I love. Some day soon, I'll have my revenge. ||
 || 6 || I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I can't resist a pretty face. ||

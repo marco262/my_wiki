@@ -37,7 +37,6 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 || 6 || Thinking is for other people. I prefer action. ||
 || 7 || I misuse long words in an attempt to sound smarter. ||
 || 8 || I get bored easily. When am I going to get on with my destiny? ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Respect.** People deserve to be treated with dignity and respect. (Good) ||
@@ -46,7 +45,6 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 || 4 || **Might.** If I become strong, I can take what I want --  what I deserve. (Evil) ||
 || 5 || **Sincerity.** There's no good in pretending to be something I'm not. (Neutral) ||
 || 6 || **Destiny.** Nothing and no one can steer me away from my higher calling. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I have a family, but I have no idea where they are. One day, I hope to see them again. ||
@@ -55,7 +53,6 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 || 4 || My tools are symbols of my past life, and I carry them so that I will never forget my roots. ||
 || 5 || I protect those who cannot protect themselves. ||
 || 6 || I wish my childhood sweetheart had come with me to pursue my destiny. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || The tyrant who rules my land will stop at nothing to see me killed. ||

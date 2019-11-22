@@ -25,7 +25,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 || 6 || I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods. ||
 || 7 || I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me. ||
 || 8 || I've spent so long in the temple that I have little practical experience dealing with people in the outside world. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Tradition.** The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful) ||
@@ -34,7 +33,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 || 4 || **Power.** I hope to one day rise to the top of my faith's religious hierarchy. (Lawful) ||
 || 5 || **Faith.** I trust that my deity will guide my actions, I have faith that if I work hard, things will go well. (Lawful) ||
 || 6 || **Aspiration.** I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I would die to recover an ancient relic of my faith that was lost long ago. ||
@@ -43,7 +41,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 || 4 || Everything I do is for the common people. ||
 || 5 || I will do anything to protect the temple where I served. ||
 || 6 || I seek to preserve a sacred text that my enemies consider heretical and seek to destroy. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I judge others harshly, and myself even more severely. ||

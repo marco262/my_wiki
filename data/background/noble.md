@@ -42,7 +42,6 @@ Nobles are born and raised to a very different lifestyle than most people ever e
 || 6 || Despite my noble birth, I do not place myself above other folk. We all have the same blood. ||
 || 7 || My favor, once lost, is lost forever. ||
 || 8 || If you do me an injury, I will crush you, ruin your name, and salt your fields. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Respect.** Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good) ||
@@ -51,7 +50,6 @@ Nobles are born and raised to a very different lifestyle than most people ever e
 || 4 || **Power.** If I can attain more power, no one will tell me what to do. (Evil) ||
 || 5 || **Family.** Blood runs thicker than water. (Any) ||
 || 6 || **Noble Obligation.** It is my duty to protect and care for the people beneath me. (Good) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I will face any challenge to win the approval of my family. ||
@@ -60,7 +58,6 @@ Nobles are born and raised to a very different lifestyle than most people ever e
 || 4 || I am in love with the heir of a family that my family despises. ||
 || 5 || My loyalty to my sovereign is unwavering. ||
 || 6 || The common folk must see me as a hero of the people. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I secretly believe that everyone is beneath me. ||

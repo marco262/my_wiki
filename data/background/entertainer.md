@@ -41,7 +41,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 || 6 || I get bitter if I'm not the center of attention. ||
 || 7 || I'll settle for nothing less than perfection. ||
 || 8 || I change my mood or my mind as quickly as I change key in a song. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Beauty.** When I perform, I make the world better than it was. (Good) ||
@@ -50,7 +49,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 || 4 || **Greed.** I'm only in it for the money and fame. (Evil) ||
 || 5 || **People.** I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral) ||
 || 6 || **Honesty.** Art should reflect the soul; it should come from within and reveal who we really are. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || My instrument is my most treasured possession, and it reminds me of someone I love. ||
@@ -59,7 +57,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 || 4 || I idolize a hero of the old tales and measure my deeds against that person's. ||
 || 5 || I will do anything to prove myself superior to my hated rival. ||
 || 6 || I would do anything for the other members of my old troupe. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I'll do anything to win fame and renown. ||

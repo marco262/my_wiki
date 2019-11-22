@@ -35,7 +35,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 || 6 || I . . . speak . . . slowly . . . when talking . . . to idiots, . . . which . . . almost . . . everyone . . . is . . . compared . . . to me. ||
 || 7 || I am horribly, horribly awkward in social situations. ||
 || 8 || I'm convinced that people are always trying to steal my secrets. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Knowledge.** The path to power and self-improvement is through knowledge. (Neutral) ||
@@ -44,7 +43,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 || 4 || **No Limits.** Nothing should fetter the infinite possibility inherent in all existence. (Chaotic) ||
 || 5 || **Power.** Knowledge is the path to power and domination. (Evil) ||
 || 6 || **Self-Improvement.** The goal of a life of study is the betterment of oneself. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || It is my duty to protect my students. ||
@@ -53,7 +51,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 || 4 || My life's work is a series of tomes related to a specific field of lore. ||
 || 5 || I've been searching my whole life for the answer to a certain question. ||
 || 6 || I sold my soul for knowledge. I hope to do great deeds and win it back. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || I am easily distracted by the promise of information. ||

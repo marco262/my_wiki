@@ -23,7 +23,6 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 || 6 || I think anyone who's nice to me is hiding evil intent. ||
 || 7 || I don't like to bathe. ||
 || 8 || I bluntly say what other people are hinting at or hiding. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Respect.** All people, rich or poor, deserve respect. (Good) ||
@@ -32,7 +31,6 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 || 4 || **Retribution.** The rich need to be shown what life and death are like in the gutters. (Evil) ||
 || 5 || **People.** I help the people who help me -- that's what keeps us alive. (Neutral) ||
 || 6 || **Aspiration.** I'm going to prove that I'm worthy of a better life. ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || My town or city is my home, and I'll fight to defend it. ||
@@ -41,7 +39,6 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 || 4 || I owe a debt I can never repay to the person who took pity on me. ||
 || 5 || I escaped my life of poverty by robbing an important person, and I'm wanted for it. ||
 || 6 || No one else should have to endure the hardships I've been through. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || If I'm outnumbered, I will run away from a fight. ||

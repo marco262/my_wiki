@@ -37,7 +37,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 || 6 || I enjoy being strong and like breaking things. ||
 || 7 || I have a crude sense of humor. ||
 || 8 || I face problems head-on. A simple, direct solution is the best path to success. ||
- _
 
 ||~ d6 ||~ Ideal ||
 || 1 || **Greater Good.** Our lot is to lay down our lives in defense of others. (Good) ||
@@ -46,7 +45,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 || 4 || **Might.** In life as in war, the stronger force wins. (Evil) ||
 || 5 || **Live and Let Live.** Ideals aren't worth killing over or going to war for. (Neutral) ||
 || 6 || **Nation.** My city, nation, or people are all that matter. (Any) ||
- _
 
 ||~ d6 ||~ Bond ||
 || 1 || I would still lay down my life for the people I served with. ||
@@ -55,7 +53,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 || 4 || I'll never forget the crushing defeat my company suffered or the enemies who dealt it. ||
 || 5 || Those who fight beside me are those worth dying for. ||
 || 6 || I fight for those who cannot fight for themselves. ||
- _
 
 ||~ d6 ||~ Flaw ||
 || 1 || The monstrous enemy we faced in battle still leaves me quivering with fear. ||

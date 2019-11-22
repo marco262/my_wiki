@@ -16,8 +16,6 @@ Gods whose portfolios include the Tempest domain -- including Talos, Umberlee, K
 || 7th || //[[[spell:control water]]], [[[spell:ice storm]]]// ||
 || 9th || //[[[spell:destructive wave]]], [[[spell:insect plague]]]// ||
 
- _
-
 ## Bonus Proficiencies
 
 At 1st level, you gain proficiency with martial weapons and heavy armor.
