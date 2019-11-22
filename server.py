@@ -254,7 +254,8 @@ class Server:
         def dnd_class(name):
             formatted_name = re.sub("\W", "-", name.lower())
             path = "data/class/" + formatted_name + ".md"
-            return {"title": name.title(), "text": markdown2.markdown_path(path, extras=EXTRAS)}
+            text = markdown2.markdown_path(path, extras=EXTRAS)
+            return {"title": name.title(), "text": text}
 
         @get('/feedback')
         def feedback():

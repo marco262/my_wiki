@@ -20,7 +20,7 @@ Most adventuring clerics maintain some connection to established temples and ord
 
 # The Cleric
 
-||~ Level ||~ Proficiency\nBonus ||~ Features ||~ Cantrips\nKnown ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Divine Domain || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Channel Divinity (1/rest), Divine Domain feature || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
