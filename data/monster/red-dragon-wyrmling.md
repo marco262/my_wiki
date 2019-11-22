@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:Red Dragon#red-dragon-wyrmling"]]

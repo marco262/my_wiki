@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:elementals#air-elemental"]]

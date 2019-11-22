@@ -1,0 +1,1 @@
+[[module Redirect destination="monster:Black Dragon#young-black-dragon"]]
