@@ -26,7 +26,7 @@ The archetypal Champion focuses on the development of raw physical power honed t
 || 18th || +6 || Survivor || 3 || 2 || 3 || 2 || 18-20 ||
 || 19th || +6 || Ability Score Improvement || 3 || 2 || 3 || 2 || 18-20 ||
 || 20th || +6 || Extra Attack (3) || **4** || 2 || 3 || 2 || 18-20 ||
-^^**Bold** numbers are when that ability improves^^
+<sup>**Bold** numbers are when that ability improves</sup>
 
 ## Improved Critical
 

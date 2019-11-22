@@ -22,7 +22,7 @@ Those who emulate the archetypal Battle Master employ martial techniques passed 
 || 18th || +6 || Superiority Dice (6d12) || 3 || 2 || 3 || 9 || **6d12** ||
 || 19th || +6 || Ability Score Improvement || 3 || 2 || 3 || 9 || 6d12 ||
 || 20th || +6 || Extra Attack (3) || **4** || 2 || 3 || 9 || 6d12 ||
-^^**Bold** numbers are when that ability improves^^
+<sup>**Bold** numbers are when that ability improves</sup>
 
 
 ## Combat Superiority

@@ -325,4 +325,4 @@ Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of p
 || Sack || 1 cubic foot/30 pounds of gear ||
 || Vial || 4 ounces liquid ||
 || Waterskin || 4 pints liquid ||
-^^* You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.^^
+<sup>* You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</sup>

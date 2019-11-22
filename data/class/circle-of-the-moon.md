@@ -26,7 +26,7 @@ Changeable as the moon, a druid of this circle might prowl as a great cat one ni
 || 19th || +6 || Ability Score Improvement || 6 || 9 || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 1 || 1 || 1 ||
 || 20th || +6 || Archdruid || 6 || **10** || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
 
-^^**Bold** numbers are when that ability improves^^
+<sup>**Bold** numbers are when that ability improves</sup>
 
 ## Combat Wildshape
 

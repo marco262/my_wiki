@@ -56,13 +56,10 @@ Certain special mounts, such as a pegasus or griffon, or special vehicles, such 
 **Travel Pace**
 ||||||||||~ Distance Traveled per... ||
 ||~ Pace ||~ Minute ||~ Hour ||~ Day ||~ Effect ||
-|| Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores _
--5 penalty to checks to avoid becoming lost^^1^^ _
-Can't forage^^1^^ ||
+|| Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores<br>-5 penalty to checks to avoid becoming lost<sup>1</sup><br>Can't forage<sup>1</sup> ||
 || Normal || 300 feet || 3 miles || 24 miles || -- ||
-|| Slow || 200 feet || 2 miles || 18 miles || Able to use stealth _
-+5 bonus to checks to avoid becoming lost^^1^^ ||
-^^1^^ //Dungeon Master's Guide, p. 111//
+|| Slow || 200 feet || 2 miles || 18 miles || Able to use stealth<br>+5 bonus to checks to avoid becoming lost<sup>1</sup> ||
+<sup>1</sup> //Dungeon Master's Guide, p. 111//
 
 +++ Special Travel Pace (DMG 242)
 
@@ -269,7 +266,7 @@ A character needs one gallon of water per day, or two gallons per day if the wea
 If the character already has one or more levels of [[[general:conditions#exhaustion|exhaustion]]], the character takes two levels in either case.
 
 +++ Food and Water Needs for Other Creatures
-^^Source: Dungeon Master's Guide, p. 111^^
+<sup>Source: Dungeon Master's Guide, p. 111</sup>
 
 Horses and other creatures require different quantities of food and water per day based on their size. Water needs are doubled if the weather is hot.
 

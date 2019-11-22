@@ -22,7 +22,7 @@ The archetypal Eldritch Knight combines the martial mastery common to all fighte
 || 18th || +6 || Improved War Magic || 3 || 2 || 3 || 3 || 11 || 4 || 3 || 3 || -- ||
 || 19th || +6 || Ability Score Improvement || 3 || 2 || 3 || 3 || **12** || 4 || 3 || 3 || **1** ||
 || 20th || +6 || Extra Attack (3), Learn Spell from Any School || **4** || 2 || 3 || 3 || **13** || 4 || 3 || 3 || 1 ||
-^^**Bold** numbers are when that ability improves^^
+<sup>**Bold** numbers are when that ability improves</sup>
 
 ## Spellcasting
 
