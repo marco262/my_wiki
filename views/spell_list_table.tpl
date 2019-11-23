@@ -1,4 +1,4 @@
-% from data.enums import classes
+% from data.enums import spell_classes
 % if not get("spells"):
 <i>No Results</i>
 % else:
