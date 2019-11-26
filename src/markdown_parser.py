@@ -5,7 +5,7 @@ import re
 
 from markdown2 import Markdown
 
-EXTRAS = ["header-ids", "wiki-tables"]
+EXTRAS = ["header-ids", "wiki-tables", "toc"]
 
 
 class MarkdownParser:

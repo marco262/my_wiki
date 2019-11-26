@@ -253,9 +253,11 @@ class Server:
             formatted_name = re.sub("\W", "-", name.lower())
             path = "data/class/" + formatted_name + ".md"
             try:
-                return {"title": name.title(), "text": self.md.parse_md_path(path)}
+                md = self.md.parse_md_path(path)
             except FileNotFoundError:
                 raise HTTPError(404, f"I couldn't find \"{name}\".")
+            return {"title": name.title(), "text": md, "toc": md.toc_html}
+
 
         @get('/feedback')
         def feedback():
