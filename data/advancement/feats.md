@@ -8,7 +8,7 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 
 + Player's Handbook
 
-//Source: Player's Handbook, p. 165//
+*Source: Player's Handbook, p. 165*
 
 ++ Alert
 
@@ -47,7 +47,7 @@ Thanks to extensive practice with the crossbow, you gain the following benefits:
 
 ++ Defensive Duelist
 
-//Prerequisite: Dexterity 13 or higher//
+*Prerequisite: Dexterity 13 or higher*
 
 When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
 
@@ -74,7 +74,7 @@ Hardy and resilient, you gain the following benefits:
 
 ++ Elemental Adept
 
-//Prerequisite: The ability to cast at least one spell//
+*Prerequisite: The ability to cast at least one spell*
 
 When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.
 
@@ -91,7 +91,7 @@ You know when to hold 'em, when to fold 'em, when to walk away, and when to run.
 
 ++ Grappler[((bibcite errata))]
 
-//Prerequisite: Strength 13 or higher//
+*Prerequisite: Strength 13 or higher*
 
 You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
 * You have advantage on attack rolls against a creature you are grappling.
@@ -111,7 +111,7 @@ You are an able physician, allowing you to mend wounds quickly and get your alli
 
 ++ Heavily Armored
 
-//Prerequisite: Proficiency with medium armor//
+*Prerequisite: Proficiency with medium armor*
 
 You have trained to master the use of heavy armor, gaining the following benefits:
 * Increase your Strength score by 1, to a maximum of 20.
@@ -119,7 +119,7 @@ You have trained to master the use of heavy armor, gaining the following benefit
 
 ++ Heavy Armor Master
 
-//Prerequisite: Proficiency with heavy armor//
+*Prerequisite: Proficiency with heavy armor*
 
 You can use your armor to deflect strikes that would kill others. You gain the following benefits:
 * Increase your Strength score by 1, to a maximum of 20.
@@ -127,7 +127,7 @@ You can use your armor to deflect strikes that would kill others. You gain the f
 
 ++ Inspiring Leader
 
-//Prerequisite: Charisma 13 or higher//
+*Prerequisite: Charisma 13 or higher*
 
 You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.
 
@@ -185,7 +185,7 @@ You have martial training that allows you to perform special combat maneuvers. Y
 
 ++ Medium Armor Master
 
-//Prerequisite: Proficiency with medium armor//
+*Prerequisite: Proficiency with medium armor*
 
 You have practiced moving in medium armor to gain the following benefits:
 * Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.
@@ -200,7 +200,7 @@ You are exceptionally speedy and agile. You gain the following benefits:
 
 ++ Moderately Armored
 
-//Prerequisite: Proficiency with light armor//
+*Prerequisite: Proficiency with light armor*
 
 You have trained to master the use of medium armor and shields, gaining the following benefits:
 * Increase your Strength or Dexterity score by 1, to a maximum of 20.
@@ -236,7 +236,7 @@ Choose one ability score. You gain the following benefits:
 
 ++ Ritual Caster
 
-//Prerequisite: Intelligence or Wisdom 13 or higher//
+*Prerequisite: Intelligence or Wisdom 13 or higher*
 
 You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.
 
@@ -275,7 +275,7 @@ You gain proficiency in any combination of three skills or tools of your choice.
 
 ++ Skulker
 
-//Prerequisite: Dexterity 13 or higher//
+*Prerequisite: Dexterity 13 or higher*
 
 You are expert at slinking through shadows. You gain the following benefits:
 * You can try to hide when you are lightly obscured from the creature from which you are hiding.
@@ -284,7 +284,7 @@ You are expert at slinking through shadows. You gain the following benefits:
 
 ++ Spell Sniper
 
-//Prerequisite: The ability to cast at least one spell//
+*Prerequisite: The ability to cast at least one spell*
 
 You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:
 * When you cast a spell that requires you to make an attack roll, the spell's range is doubled.
@@ -305,7 +305,7 @@ Your hit point maximum increases by an amount equal to twice your level when you
 
 ++ War Caster
 
-//Prerequisite: The ability to cast at least one spell//
+*Prerequisite: The ability to cast at least one spell*
 
 You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:
 * You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.
@@ -320,7 +320,7 @@ You have practiced extensively with a variety of weapons, gaining the following 
 
 + Skill Feats (Unearthed Arcana)
 
-//Source:// https://media.wizards.com/2017/dnd/downloads/UA-SkillFeats.pdf
+*Source:* https://media.wizards.com/2017/dnd/downloads/UA-SkillFeats.pdf
 
 ++ Acrobat
 
@@ -344,7 +344,7 @@ You study the arcane arts, gaining the following benefits:
 
 * Increase your Intelligence score by 1, to a maximum of 20.
 * You gain proficiency in the Arcana skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
-* You learn the //[[[spell:prestidigitation]]]// and //[[[spell:detect magic]]]// spells. You can cast //[[[spell:detect magic]]]// once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
+* You learn the *[[[spell:prestidigitation]]]* and *[[[spell:detect magic]]]* spells. You can cast *[[[spell:detect magic]]]* once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
 
 ++ Brawny
 
@@ -408,7 +408,7 @@ Your extensive study of nature rewards you with the following benefits:
 
 * Increase your Intelligence score by 1, to a maximum of 20.
 * You gain proficiency in the Nature skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
-* You learn the //[[[spell:druidcraft]]]// and //[[[spell:detect poison and disease]]]// spells. You can cast //[[[spell:detect poison and disease]]]// once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
+* You learn the *[[[spell:druidcraft]]]* and *[[[spell:detect poison and disease]]]* spells. You can cast *[[[spell:detect poison and disease]]]* once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
 
 ++ Perceptive
 
@@ -456,7 +456,7 @@ You master wilderness lore, gaining the following benefits:
 
 * Increase your Wisdom score by 1, to a maximum of 20.
 * You gain proficiency in the Survival skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
-* You learn the //[[[spell:alarm]]]// spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
+* You learn the *[[[spell:alarm]]]* spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
 
 ++ Theologian
 
@@ -464,7 +464,7 @@ Your extensive study of religion rewards you with the following benefits:
 
 * Increase your Intelligence score by 1, to a maximum of 20.
 * You gain proficiency in the Religion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
-* You learn the //[[[spell:thaumaturgy]]]// and //[[[spell:detect evil and good]]]// spells. You can cast //[[[spell:detect evil and good]]]// once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
+* You learn the *[[[spell:thaumaturgy]]]* and *[[[spell:detect evil and good]]]* spells. You can cast *[[[spell:detect evil and good]]]* once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
 
 [[bibliography]]
 : errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf

@@ -89,18 +89,18 @@ Drow grow up believing that surface-dwelling races are inferior, worthless excep
 * **Ability Score Increase.** Your Charisma score increases by 1.
 * **Superior Darkvision.** Your darkvision has a radius of 120 feet.
 * **Sunlight Sensitivity.** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
-* **Drow Magic.** You know the //[[[spell:dancing lights]]]//. When you reach 3rd level, you can cast //[[[spell:faerie fire]]]// once. When you reach 5th level, you can also cast //[[[spell:darkness]]]// once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
+* **Drow Magic.** You know the *[[[spell:dancing lights]]]*. When you reach 3rd level, you can cast *[[[spell:faerie fire]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
 * **Drow Weapon Training.** You have proficiency with rapiers, shortswords, and hand crossbows.
 
 ++ Eladrin
 
-//Dungeon Master's Guide, p. 286//
+*Dungeon Master's Guide, p. 286*
 
 Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.
 
 * **Ability Score Increase.** Your Intelligence score increases by 1.
 * **Elf Weapon Training.** You have proficiency with the longsword, shortsword, shortbow, and longbow.
-* **Fey Step.** You can cast the //[[[spell:misty step]]]// spell once using this trait. You regain the ability to do so when you finish
+* **Fey Step.** You can cast the *[[[spell:misty step]]]* spell once using this trait. You regain the ability to do so when you finish
 a short or long rest.
 
 [[bibliography]]

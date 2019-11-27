@@ -24,9 +24,9 @@
 
 **Surprise Attack.** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.
 | has_actions = Replace with double @ to hide
-| actions = **Morningstar.** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one target. //Hit:// 11 (2d8 + 2) piercing damage.
+| actions = **Morningstar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (2d8 + 2) piercing damage.
 
-**Javelin.** //Melee or Ranged Weapon Attack:// +4 to hit, reach 5 ft. or range 30 ft./120ft., one target. //Hit:// 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.
+**Javelin.** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30 ft./120ft., one target. *Hit:* 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@
@@ -64,9 +64,9 @@
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The bugbear makes two melee attacks.
 
-**Morningstar.** //Melee Weapon Attack:// +5 to hit, reach 5 ft., one target. //Hit:// 12 (2d8 + 3) piercing damage.
+**Morningstar.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage.
 
-**Javelin.** //Melee or Ranged Weapon Attack:// +5 to hit, reach 5 ft. or range 30 ft./120ft., one target. //Hit:// 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range.
+**Javelin.** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30 ft./120ft., one target. *Hit:* 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@

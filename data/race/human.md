@@ -116,4 +116,4 @@ It's hard to make generalizations about humans, but your human character has the
 
 ----
 
-//Source: Player's Handbook, p. 29//
+*Source: Player's Handbook, p. 29*

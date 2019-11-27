@@ -71,4 +71,4 @@ Items in parentheses are variants. See the background description for more info.
 
 ----
 
-//Source: Player's Handbook, p. 125//
+*Source: Player's Handbook, p. 125*

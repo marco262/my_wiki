@@ -83,4 +83,4 @@ As an aarakocra, you have certain traits in common with your people. Being able 
 
 ----
 
-//Source: Elemental Evil Player's Companion, p. 3//
+*Source: Elemental Evil Player's Companion, p. 3*

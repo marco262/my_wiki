@@ -171,4 +171,4 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 ----
 
-//Source: Player's Handbook, p. 46//
+*Source: Player's Handbook, p. 46*

@@ -6,11 +6,11 @@ The Fiend lets you choose from an expanded list of spells when you learn a warlo
 
 **Fiend Expanded Spells**
 ||~ Spell Level ||~ Spells ||
-|| 1st || //[[[spell:burning hands]]]//, //[[[spell:command]]]// ||
-|| 2nd || //[[[spell:blindness/deafness]]]//, //[[[spell:scorching ray]]]// ||
-|| 3rd || //[[[spell:fireball]]]//, //[[[spell:stinking cloud]]]// ||
-|| 4th || //[[[spell:fire shield]]]//, //[[[spell:wall of fire]]]// ||
-|| 5th || //[[[spell:flame strike]]]//, //[[[spell:hallow]]]// ||
+|| 1st || *[[[spell:burning hands]]]*, *[[[spell:command]]]* ||
+|| 2nd || *[[[spell:blindness/deafness]]]*, *[[[spell:scorching ray]]]* ||
+|| 3rd || *[[[spell:fireball]]]*, *[[[spell:stinking cloud]]]* ||
+|| 4th || *[[[spell:fire shield]]]*, *[[[spell:wall of fire]]]* ||
+|| 5th || *[[[spell:flame strike]]]*, *[[[spell:hallow]]]* ||
 
 ## Dark One's Blessing
 
@@ -32,7 +32,7 @@ Starting at 14th level, when you hit a creature with an attack, you can use this
 
 ----
 
-//Source: Player's Handbook, p. 109//
+*Source: Player's Handbook, p. 109*
 
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf

@@ -5,13 +5,13 @@ This section describes items that have special rules or require further explanat
 || Abacus || 2 gp || 2 lb. ||
 || Acid (vial) || 25 gp || 1 lb. ||
 || Alchemist's fire (flask) || 50 gp || 1 lb. ||
-|||||| //Ammunition// ||
+|||||| *Ammunition* ||
 || * Arrows (20) || 1 gp || 1 lb. ||
 || * Blowgun needles (50) || 1 gp || 1 lb. ||
 || * Crossbow bolts (20) || 1 gp || 1 1/2 lb. ||
 || * Sling bullets (20) || 4 cp || 1 1/2 lb. ||
 || Antitoxin (vial) || 50 gp || -- ||
-|||||| //Arcane focus// ||
+|||||| *Arcane focus* ||
 || * Crystal || 10 gp || 1 lb. ||
 || * Orb || 20 gp || 3 lb. ||
 || * Rod || 10 gp || 2 lb. ||
@@ -42,7 +42,7 @@ This section describes items that have special rules or require further explanat
 || Clothes, traveler's || 2 gp || 4 lb. ||
 || Component pouch || 25 gp || 2 lb. ||
 || Crowbar || 2 gp || 5 lb. ||
-|||||| //Druidic focus// ||
+|||||| *Druidic focus* ||
 || * Sprig of mistletoe || 1 gp || -- ||
 || * Totem || 1 gp || -- ||
 || * Wooden staff || 5 gp || 4 lb. ||
@@ -53,7 +53,7 @@ This section describes items that have special rules or require further explanat
 || Hammer || 1 gp || 3 lb. ||
 || Hammer, sledge || 2 gp || 10 lb. ||
 || Healer's kit || 5 gp || 3 lb. ||
-|||||| //Holy symbol// ||
+|||||| *Holy symbol* ||
 || * Amulet || 5 gp || 1 lb. ||
 || * Emblem || 5 gp || -- ||
 || * Reliquary || 5 gp || 2 lb. ||

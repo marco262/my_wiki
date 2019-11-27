@@ -32,4 +32,4 @@ Starting at 17th level, you can strike with deadly speed. If you take the Attack
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. 47//
+*Source: Xanathar's Guide to Everything, p. 47*

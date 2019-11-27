@@ -26,7 +26,7 @@
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The elemental makes two slam attacks.
 
-**Slam.** //Melee Weapon Attack:// +8 to hit, reach 5 ft., one target. //Hit:// 14 (2d8 + 5) bludgeoning damage.
+**Slam.** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) bludgeoning damage.
 
 **Whirlwind (Recharge 4-6).** Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.
 
@@ -69,7 +69,7 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The elemental makes two slam attacks.
 
-**Slam.** //Melee Weapon Attack:// +8 to hit, reach 10ft., one target. //Hit:// 14 (2d8 + 5) bludgeoning damage.
+**Slam.** *Melee Weapon Attack:* +8 to hit, reach 10ft., one target. *Hit:* 14 (2d8 + 5) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@
@@ -109,7 +109,7 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The elemental makes two touch attacks.
 
-**Touch.** //Melee Weapon Attack:// +6 to hit, reach 5 ft., one target. //Hit:// 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire , the target takes 5 (1d10) fire damage at the start of each of its turns.
+**Touch.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire , the target takes 5 (1d10) fire damage at the start of each of its turns.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@
@@ -147,7 +147,7 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The elemental makes two slam attacks.
 
-**Slam.** //Melee Weapon Attack:// +7 to hit, reach 5 ft ., one target. //Hit:// 13 (2d8 + 4) bludgeoning damage.
+**Slam.** *Melee Weapon Attack:* +7 to hit, reach 5 ft ., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage.
 
 **Whelm (Recharge 4-6).** Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.
 

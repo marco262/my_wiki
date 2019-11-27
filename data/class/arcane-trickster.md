@@ -26,7 +26,7 @@ Some rogues enhance their fine-honed skills of stealth and agility with magic, l
 
 When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.
 
-**Cantrips.** You learn three cantrips: //[[[spell:mage hand]]]// and two other cantrips of your choice from the [[[class-spell-list:wizard-spells|wizard spell list]]]. You learn another wizard cantrip of your choice at 10th level.
+**Cantrips.** You learn three cantrips: *[[[spell:mage hand]]]* and two other cantrips of your choice from the [[[class-spell-list:wizard-spells|wizard spell list]]]. You learn another wizard cantrip of your choice at 10th level.
 
 **Spell Slots.** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
@@ -47,7 +47,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 ## Mage Hand Legerdemain
 
-Starting at 3rd level, when you cast //[[[spell:mage hand]]]//, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
+Starting at 3rd level, when you cast *[[[spell:mage hand]]]*, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
 
 * You can stow one object the hand is holding in a container worn or carried by another creature.
 * You can retrieve an object in a container worn or carried by another creature.
@@ -63,7 +63,7 @@ Starting at 9th level, if you are hidden from a creature when you cast a spell o
 
 ## Versatile Trickster
 
-At 13th level, you gain the ability to distract targets with your //[[[spell:mage hand]]]//. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.
+At 13th level, you gain the ability to distract targets with your *[[[spell:mage hand]]]*. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.
 
 ## Spell Thief
 
@@ -75,4 +75,4 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 ----
 
-//Source: Player's Handbook, p. 97//
+*Source: Player's Handbook, p. 97*

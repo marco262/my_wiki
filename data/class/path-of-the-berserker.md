@@ -44,4 +44,4 @@ Starting at 14th level, when you take damage from a creature that is within 5 fe
 
 ----
 
-//Source: Player's Handbook, p. 49//
+*Source: Player's Handbook, p. 49*

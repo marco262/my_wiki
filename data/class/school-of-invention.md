@@ -51,85 +51,85 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 
 [[collapsible show="+ Cantrips" hide="- Hide Cantrips"]]
 ||~ d10 ||~ Cantrip ||
-|| 1 || //[[[spell:acid splash]]]// ||
-|| 2 || //[[[spell:chill touch]]]// ||
-|| 3 || //[[[spell:fire bolt]]]// ||
-|| 4 || //[[[spell:light]]]// ||
-|| 5 || //[[[spell:poison spray]]]// ||
-|| 6 || //[[[spell:ray of frost]]]// ||
-|| 7 || //[[[spell:shocking grasp]]]// ||
-|| 8 || //[[[spell:sacred flame]]]// ||
-|| 9 || //[[[spell:thorn whip]]]// ||
+|| 1 || *[[[spell:acid splash]]]* ||
+|| 2 || *[[[spell:chill touch]]]* ||
+|| 3 || *[[[spell:fire bolt]]]* ||
+|| 4 || *[[[spell:light]]]* ||
+|| 5 || *[[[spell:poison spray]]]* ||
+|| 6 || *[[[spell:ray of frost]]]* ||
+|| 7 || *[[[spell:shocking grasp]]]* ||
+|| 8 || *[[[spell:sacred flame]]]* ||
+|| 9 || *[[[spell:thorn whip]]]* ||
 || 10 || Roll twice and cast each cantrip, but if you roll another 10 on either die,<br>you cast nothing, wasting your action. ||
 [[/collapsible]]
 
 [[collapsible show="+ 1st-Level Spells" hide="- Hide 1st-Level Spells"]]
 ||~ d10 ||~ 1st-Level Spell ||
-|| 1 || //[[[spell:burning hands]]]// ||
-|| 2 || //[[[spell:chromatic orb]]]// ||
-|| 3 || //[[[spell:color spray]]]// ||
-|| 4 || //[[[spell:faerie fire]]]// ||
-|| 5 || //[[[spell:false life]]]// ||
-|| 6 || //[[[spell:fog cloud]]]// ||
-|| 7 || //[[[spell:jump]]]// ||
-|| 8 || //[[[spell:magic missile]]]// ||
-|| 9 || //[[[spell:thunderwave]]]// ||
+|| 1 || *[[[spell:burning hands]]]* ||
+|| 2 || *[[[spell:chromatic orb]]]* ||
+|| 3 || *[[[spell:color spray]]]* ||
+|| 4 || *[[[spell:faerie fire]]]* ||
+|| 5 || *[[[spell:false life]]]* ||
+|| 6 || *[[[spell:fog cloud]]]* ||
+|| 7 || *[[[spell:jump]]]* ||
+|| 8 || *[[[spell:magic missile]]]* ||
+|| 9 || *[[[spell:thunderwave]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 2nd-Level Spells" hide="- Hide 2nd-Level Spells"]]
 ||~ d10 ||~ 2nd-Level Spell ||
-|| 1 || //[[[spell:blur]]]// ||
-|| 2 || //[[[spell:darkness]]]// ||
-|| 3 || //[[[spell:enlarge/reduce]]]// ||
-|| 4 || //[[[spell:gust of wind]]]// ||
-|| 5 || //[[[spell:invisibility]]]// ||
-|| 6 || //[[[spell:levitate]]]// ||
-|| 7 || //[[[spell:Melf's acid arrow]]]// ||
-|| 8 || //[[[spell:scorching ray]]]// ||
-|| 9 || //[[[spell:shatter]]]// ||
+|| 1 || *[[[spell:blur]]]* ||
+|| 2 || *[[[spell:darkness]]]* ||
+|| 3 || *[[[spell:enlarge/reduce]]]* ||
+|| 4 || *[[[spell:gust of wind]]]* ||
+|| 5 || *[[[spell:invisibility]]]* ||
+|| 6 || *[[[spell:levitate]]]* ||
+|| 7 || *[[[spell:Melf's acid arrow]]]* ||
+|| 8 || *[[[spell:scorching ray]]]* ||
+|| 9 || *[[[spell:shatter]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 3rd-Level Spells" hide="- Hide 3rd-Level Spells"]]
 ||~ d10 ||~ 3rd-Level Spell ||
-|| 1 || //[[[spell:blink]]]// ||
-|| 2 || //[[[spell:fear]]]// ||
-|| 3 || //[[[spell:feign death]]]// ||
-|| 4 || //[[[spell:fireball]]]// ||
-|| 5 || //[[[spell:fly]]]// ||
-|| 6 || //[[[spell:gaseous form]]]// ||
-|| 7 || //[[[spell:lightning bolt]]]// ||
-|| 8 || //[[[spell:sleet storm]]]// ||
-|| 9 || //[[[spell:stinking cloud]]]// ||
+|| 1 || *[[[spell:blink]]]* ||
+|| 2 || *[[[spell:fear]]]* ||
+|| 3 || *[[[spell:feign death]]]* ||
+|| 4 || *[[[spell:fireball]]]* ||
+|| 5 || *[[[spell:fly]]]* ||
+|| 6 || *[[[spell:gaseous form]]]* ||
+|| 7 || *[[[spell:lightning bolt]]]* ||
+|| 8 || *[[[spell:sleet storm]]]* ||
+|| 9 || *[[[spell:stinking cloud]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 4th-Level Spells" hide="- Hide 4th-Level Spells"]]
 ||~ d10 ||~ 4th-Level Spell ||
-|| 1 || //[[[spell:blight]]]// ||
-|| 2 || //[[[spell:confusion]]]// ||
-|| 3 || //[[[spell:Evard's black tentacles]]]// ||
-|| 4 || //[[[spell:fire shield]]]// ||
-|| 5 || //[[[spell:greater invisibility]]]// ||
-|| 6 || //[[[spell:ice storm]]]// ||
-|| 7 || //[[[spell:phantasmal killer]]]// ||
-|| 8 || //[[[spell:stoneskin]]]// ||
-|| 9 || //[[[spell:wall of fire]]]// ||
+|| 1 || *[[[spell:blight]]]* ||
+|| 2 || *[[[spell:confusion]]]* ||
+|| 3 || *[[[spell:Evard's black tentacles]]]* ||
+|| 4 || *[[[spell:fire shield]]]* ||
+|| 5 || *[[[spell:greater invisibility]]]* ||
+|| 6 || *[[[spell:ice storm]]]* ||
+|| 7 || *[[[spell:phantasmal killer]]]* ||
+|| 8 || *[[[spell:stoneskin]]]* ||
+|| 9 || *[[[spell:wall of fire]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
 [[collapsible show="+ 5th-Level Spells" hide="- Hide 5th-Level Spells"]]
 ||~ d10 ||~ 5th-Level Spell ||
-|| 1 || //[[[spell:cloudkill]]]// ||
-|| 2 || //[[[spell:cone of cold]]]// ||
-|| 3 || //[[[spell:destructive wave]]]// ||
-|| 4 || //[[[spell:flame strike]]]// ||
-|| 5 || //[[[spell:hold monster]]]// ||
-|| 6 || //[[[spell:insect plague]]]// ||
-|| 7 || //[[[spell:mass cure wounds]]]// ||
-|| 8 || //[[[spell:wall of force]]]// ||
-|| 9 || //[[[spell:wall of stone]]]// ||
+|| 1 || *[[[spell:cloudkill]]]* ||
+|| 2 || *[[[spell:cone of cold]]]* ||
+|| 3 || *[[[spell:destructive wave]]]* ||
+|| 4 || *[[[spell:flame strike]]]* ||
+|| 5 || *[[[spell:hold monster]]]* ||
+|| 6 || *[[[spell:insect plague]]]* ||
+|| 7 || *[[[spell:mass cure wounds]]]* ||
+|| 8 || *[[[spell:wall of force]]]* ||
+|| 9 || *[[[spell:wall of stone]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
 [[/collapsible]]
 
@@ -151,4 +151,4 @@ At 14th level, your ability to improvise magic grows stronger. Whenever you roll
 
 ----
 
-//Source:// https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf
+*Source:* https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf

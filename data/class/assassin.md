@@ -24,4 +24,4 @@ Starting at 17th level, you become a master of instant death. When you attack an
 
 ----
 
-//Source: Player's Handbook, p. 97//
+*Source: Player's Handbook, p. 97*

@@ -12,7 +12,7 @@ At 3rd level, you gain darkvision out to a range of 90 feet. If you already have
 
 You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. Once you gain a deep stalker spell, it counts as a ranger spell for you but doesn't count against the number of ranger spells you know.
 
-//**Deep Stalker Spells**//
+***Deep Stalker Spells***
 
 ||~ Ranger Level ||~ Spells || 
 || 3rd || [[[spell:disguise-self]]] ||
@@ -39,4 +39,4 @@ At 15th level, whenever a creature attacks you and does not have advantage, you 
 
 ----
 
-//Source:// [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]
+*Source:* [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]

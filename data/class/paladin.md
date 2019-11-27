@@ -231,4 +231,4 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 
 ----
 
-//Source: Player's Handbook, p. 82//
+*Source: Player's Handbook, p. 82*

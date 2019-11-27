@@ -476,4 +476,4 @@
 [[/div]]
 [[/div]]
 
-//See [[[general:Monsters Without a CR Tag|this page]]] for all monster pages without a CR tag.//
+*See [[[general:Monsters Without a CR Tag|this page]]] for all monster pages without a CR tag.*

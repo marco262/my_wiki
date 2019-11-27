@@ -38,4 +38,4 @@ Beginning at 17th level, your mastery of the blade lets you turn failure into su
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. 47//
+*Source: Xanathar's Guide to Everything, p. 47*

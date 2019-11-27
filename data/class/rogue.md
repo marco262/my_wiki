@@ -158,4 +158,4 @@ Rogues have many features in common, including their emphasis on perfecting thei
 
 ----
 
-//Source: Player's Handbook, p. 94//
+*Source: Player's Handbook, p. 94*

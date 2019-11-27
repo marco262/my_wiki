@@ -40,4 +40,4 @@ Additionally, once before the spell expires, you can use your action to try to m
 
 ----
 
-//Source: Player's Handbook, p. 117//
+*Source: Player's Handbook, p. 117*

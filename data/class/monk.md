@@ -229,7 +229,7 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 ----
 
-//Source: Player's Handbook, p. 76//
+*Source: Player's Handbook, p. 76*
 
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\

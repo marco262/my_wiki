@@ -41,4 +41,4 @@ Beginning at 18th level, you can channel the dread presence of your dragon ances
 
 ----
 
-//Source: Player's Handbook, p. 102//
+*Source: Player's Handbook, p. 102*

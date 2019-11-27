@@ -21,7 +21,7 @@ Capacity ||
 || Cart || 15 gp || 200 lb. ||
 || Chariot || 250 gp || 100 lb. ||
 || Feed (per day) || 5 cp || 10 lb. ||
-|||||| //Saddle// ||
+|||||| *Saddle* ||
 || Exotic || 60 gp || 40 lb. ||
 || Military || 20 gp || 30 lb. ||
 || Pack || 5 gp || 15 lb. ||

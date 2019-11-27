@@ -49,4 +49,4 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ----
 
-//Source: Player's Handbook, p. 38//
+*Source: Player's Handbook, p. 38*

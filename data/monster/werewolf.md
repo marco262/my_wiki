@@ -26,11 +26,11 @@
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack (Humanoid or Hybrid Form Only).** The werewolf makes two attacks: one with its bite and one with its claws or spear.
 
-**Bite (Wolf or Hybrid Form Only).** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one target. //Hit:// 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
+**Bite (Wolf or Hybrid Form Only).** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
 
-**Claws (Hybrid Form Only).** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one creature. //Hit:// 7 (2d4 + 2) slashing damage.
+**Claws (Hybrid Form Only).** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (2d4 + 2) slashing damage.
 
-**Spear (Humanoid Form Only).** //Melee or Ranged Weapon Attack:// +4 to hit, reach 5 ft. or range 20/60 ft., one creature. //Hit:// 5 (1d6+ 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
+**Spear (Humanoid Form Only).** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6+ 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@

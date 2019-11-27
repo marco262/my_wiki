@@ -40,4 +40,4 @@ At 15th level, you gain one of the following features of your choice.
 
 ----
 
-//Source: Player's Handbook, p. 93//
+*Source: Player's Handbook, p. 93*

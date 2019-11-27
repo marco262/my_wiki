@@ -60,4 +60,4 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 ----
 
-//Source:// https://old.reddit.com/r/UnearthedArcana/comments/cesgu1/the_champion_revised_v20_final_version_probably/
+*Source:* https://old.reddit.com/r/UnearthedArcana/comments/cesgu1/the_champion_revised_v20_final_version_probably/

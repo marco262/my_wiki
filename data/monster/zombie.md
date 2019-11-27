@@ -23,7 +23,7 @@
 | has_special_abilities = Replace with double @ to hide
 | special_abilities = **Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 | has_actions = Replace with double @ to hide
-| actions = **Slam.** //Melee Weapon Attack:// +3 to hit, reach 5 ft., one target. //Hit:// 4 (1d6 + 1) bludgeoning damage.
+| actions = **Slam.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions = 
 | has_reactions = @@
@@ -55,7 +55,7 @@
 | has_special_abilities = Replace with double @ to hide
 | special_abilities = **Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 | has_actions = Replace with double @ to hide
-| actions = **Morningstar.** //Melee Weapon Attack:// +6 to hit, reach 5 ft., one target. //Hit:// 13 (2d8 + 4) bludgeoning damage.
+| actions = **Morningstar.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions = 
 | has_reactions = @@
@@ -88,7 +88,7 @@
 | has_special_abilities = Replace with double @ to hide
 | special_abilities = **Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 | has_actions = Replace with double @ to hide
-| actions = **Bite.** //Melee Weapon Attack:// +3 to hit, reach 5 ft., one target. //Hit:// 14 (4d6) piercing damage.
+| actions = **Bite.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 14 (4d6) piercing damage.
 
 **Eye Ray.** The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.
 

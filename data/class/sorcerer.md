@@ -52,7 +52,7 @@ How do you feel about the magical power coursing through you? Do you embrace it,
 
 ### Quick Build
 
-You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the //[[[spell:light]]]//, //[[[spell:prestidigitation]]]//, //[[[spell:ray of frost]]]//, and //[[[spell:shocking grasp]]]// cantrips, along with the 1st-level spells //[[[spell:shield]]]// and //[[[spell:magic missile]]]//.
+You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the *[[[spell:light]]]*, *[[[spell:prestidigitation]]]*, *[[[spell:ray of frost]]]*, and *[[[spell:shocking grasp]]]* cantrips, along with the 1st-level spells *[[[spell:shield]]]* and *[[[spell:magic missile]]]*.
 
 # Class Features
 
@@ -93,7 +93,7 @@ At 1st level, you know four cantrips of your choice from the [[[class-spell-list
 
 The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell //[[[spell:burning hands]]]// and have a 1st-level and a 2nd-level spell slot available, you can cast //[[[spell:burning hands]]]// using either slot.
+For example, if you know the 1st-level spell *[[[spell:burning hands]]]* and have a 1st-level and a 2nd-level spell slot available, you can cast *[[[spell:burning hands]]]* using either slot.
 
 ### Spells Known of 1st Level and Higher
 
@@ -205,4 +205,4 @@ Different sorcerers claim different origins for their innate magic. Although man
 
 ----
 
-//Source: Player's Handbook, p. 99//
+*Source: Player's Handbook, p. 99*

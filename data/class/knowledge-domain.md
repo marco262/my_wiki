@@ -4,11 +4,11 @@ The gods of knowledge -- including Oghma, Boccob, Gilean, Aureon, and Thoth -- v
 
 ||~ Cleric _
 Level ||~ Spells ||
-|| 1st || //[[[spell:command]]], [[[spell:identify]]]// ||
-|| 3rd || //[[[spell:augury]]], [[[spell:suggestion]]]// ||
-|| 5th || //[[[spell:nondetection]]], [[[spell:speak with dead]]]// ||
-|| 7th || //[[[spell:arcane eye]]], [[[spell:confusion]]]// ||
-|| 9th || //[[[spell:legend lore]]], [[[spell:scrying]]]// ||
+|| 1st || *[[[spell:command]]], [[[spell:identify]]]* ||
+|| 3rd || *[[[spell:augury]]], [[[spell:suggestion]]]* ||
+|| 5th || *[[[spell:nondetection]]], [[[spell:speak with dead]]]* ||
+|| 7th || *[[[spell:arcane eye]]], [[[spell:confusion]]]* ||
+|| 9th || *[[[spell:legend lore]]], [[[spell:scrying]]]* ||
 
 ## Blessings of Knowledge
 
@@ -44,4 +44,4 @@ Once you use this feature, you can't use it again until you finish a short or lo
 
 ----
 
-//Source: Player's Handbook, p. 59//
+*Source: Player's Handbook, p. 59*

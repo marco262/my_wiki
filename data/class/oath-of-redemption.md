@@ -26,11 +26,11 @@ You gain oath spells at the paladin levels listed.
 ### Oath of Redemption Spells
 
 ||~ Paladin Level ||~ Spells ||
-|| 3rd || //[[[spell:sanctuary]]]//, //[[[spell:sleep]]]// ||
-|| 5th || //[[[spell:calm emotions]]]//, //[[[spell:hold person]]]// ||
-|| 9th || //[[[spell:counterspell]]]//, //[[[spell:hypnotic pattern]]]// ||
-|| 13th || //[[[spell:otiluke's resilient sphere]]]//, //[[[spell:stoneskin]]]// ||
-|| 17th || //[[[spell:hold monster]]]//, //[[[spell:wall of force]]]// ||
+|| 3rd || *[[[spell:sanctuary]]]*, *[[[spell:sleep]]]* ||
+|| 5th || *[[[spell:calm emotions]]]*, *[[[spell:hold person]]]* ||
+|| 9th || *[[[spell:counterspell]]]*, *[[[spell:hypnotic pattern]]]* ||
+|| 13th || *[[[spell:otiluke's resilient sphere]]]*, *[[[spell:stoneskin]]]* ||
+|| 17th || *[[[spell:hold monster]]]*, *[[[spell:wall of force]]]* ||
 
 ## Channel Divinity
 
@@ -61,4 +61,4 @@ If you attack a creature, cast a spell on it, or deal damage to it by any means 
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. ??//
+*Source: Xanathar's Guide to Everything, p. ??*

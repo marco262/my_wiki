@@ -20,9 +20,9 @@
 | has_special_abilities = @@
 | special_abilities = 
 | has_actions = Replace with double @ to hide
-| actions = **Scimitar.** //Melee Weapon Attack:// +3 to hit, reach 5 ft., one target. //Hit:// 4 (1d6 + 1) slashing damage.
+| actions = **Scimitar.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage.
 
-**Light Crossbow.** //Ranged Weapon Attack:// +3 to hit, range 80 ft./320ft., one target. //Hit:// 5 (1d8 + 1) piercing damage.
+**Light Crossbow.** *Ranged Weapon Attack:* +3 to hit, range 80 ft./320ft., one target. *Hit:* 5 (1d8 + 1) piercing damage.
 | has_legendary_actions = @@
 | legendary_actions = 
 | has_reactions = @@
@@ -56,9 +56,9 @@
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
 
-**Scimitar.** //Melee Weapon Attack:// +5 to hit, reach 5 ft., one target. //Hit:// 6 (1d6 + 3) slashing damage.
+**Scimitar.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
 
-**Dagger.** //Melee or Ranged Weapon Attack:// +5 to hit, reach 5 ft. or range 20/60 ft., one target. //Hit:// 5 (1d4 + 3) piercing damage.
+**Dagger.** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage.
 | has_legendary_actions = @@
 | legendary_actions = 
 | has_reactions = Replace with double @ to hide

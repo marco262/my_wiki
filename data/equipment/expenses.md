@@ -13,20 +13,20 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 
 **Food, Drink, and Lodging**
 ||~ Item ||~ Cost ||
-|||| //Ale// ||
+|||| *Ale* ||
 || * Gallon || 2 sp ||
 || * Mug || 4 cp ||
 || Banquet (per person) || 10 gp ||
 || Bread, loaf || 2 cp ||
 || Cheese, hunk || 1 sp ||
-|||| //Inn stay (per day)// ||
+|||| *Inn stay (per day)* ||
 || * Squalid || 7 cp ||
 || * Poor || 1 sp ||
 || * Modest || 5 sp ||
 || * Comfortable || 8 sp ||
 || * Wealthy || 2 gp ||
 || * Aristocratic || 4 gp ||
-|||| //Meals (per day)// ||
+|||| *Meals (per day)* ||
 || * Squalid || 3 cp ||
 || * Poor || 6 cp ||
 || * Modest || 3 sp ||
@@ -34,16 +34,16 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || * Wealthy || 8 sp ||
 || * Aristocratic || 2 gp ||
 || Meat, chunk || 3 sp ||
-|||| //Wine// ||
+|||| *Wine* ||
 || * Common (pitcher) || 2 sp ||
 || * Fine (bottle) || 10 gp ||
 
 **Services**
 ||~ Service ||~ Pay ||
-|||| //Coach cab// ||
+|||| *Coach cab* ||
 || * Between towns || 3 cp per mile ||
 || * Within a city || 1 cp ||
-|||| //Hireling// ||
+|||| *Hireling* ||
 || * Skilled || 2 gp per day ||
 || * Untrained || 2 sp per day ||
 || Messenger || 2 cp per mile ||

@@ -50,8 +50,8 @@ At 10th level, you can expend two uses of Wild Shape at the same time to transfo
 
 ## Thousand Forms
 
-By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the //[[[spell:alter self]]]// spell at will.
+By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the *[[[spell:alter self]]]* spell at will.
 
 ----
 
-//Source: Player's Handbook, p. 69//
+*Source: Player's Handbook, p. 69*

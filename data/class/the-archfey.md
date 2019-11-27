@@ -6,11 +6,11 @@ The Archfey lets you choose from an expanded list of spells when you learn a war
 
 **Archfey Expanded Spells**
 ||~ Spell Level ||~ Spells ||
-|| 1st || //[[[spell:faerie fire]]]//, //[[[spell:sleep]]]// ||
-|| 2nd || //[[[spell:calm emotions]]]//, //[[[spell:phantasmal force]]]// ||
-|| 3rd || //[[[spell:blink]]]//, //[[[spell:plant growth]]]// ||
-|| 4th || //[[[spell:dominate beast]]]//, //[[[spell:greater invisibility]]]// ||
-|| 5th || //[[[spell:dominate person]]]//, //[[[spell:seeming]]]// ||
+|| 1st || *[[[spell:faerie fire]]]*, *[[[spell:sleep]]]* ||
+|| 2nd || *[[[spell:calm emotions]]]*, *[[[spell:phantasmal force]]]* ||
+|| 3rd || *[[[spell:blink]]]*, *[[[spell:plant growth]]]* ||
+|| 4th || *[[[spell:dominate beast]]]*, *[[[spell:greater invisibility]]]* ||
+|| 5th || *[[[spell:dominate person]]]*, *[[[spell:seeming]]]* ||
 
 ## Fey Presence
 
@@ -38,4 +38,4 @@ You must finish a short or long rest before you can use this feature again.
 
 ----
 
-//Source: Player's Handbook, p. 108//
+*Source: Player's Handbook, p. 108*

@@ -24,11 +24,11 @@ You gain oath spells at the paladin levels listed.
 ### Oath of the Crown Spells
 
 ||~ Paladin Level ||~ Spells ||
-|| 3rd || //[[[spell:command]]]//, //[[[spell:compelled duel]]]// ||
-|| 5th || //[[[spell:warding bond]]]//, //[[[spell:zone of truth]]]// ||
-|| 9th || //[[[spell:aura of vitality]]]//, //[[[spell:spirit guardians]]]// ||
-|| 13th || //[[[spell:banishment]]]//, //[[[spell:guardian of faith]]]// ||
-|| 17th || //[[[spell:circle of power]]]//, //[[[spell:geas]]]// ||
+|| 3rd || *[[[spell:command]]]*, *[[[spell:compelled duel]]]* ||
+|| 5th || *[[[spell:warding bond]]]*, *[[[spell:zone of truth]]]* ||
+|| 9th || *[[[spell:aura of vitality]]]*, *[[[spell:spirit guardians]]]* ||
+|| 13th || *[[[spell:banishment]]]*, *[[[spell:guardian of faith]]]* ||
+|| 17th || *[[[spell:circle of power]]]*, *[[[spell:geas]]]* ||
 
 ## Channel Divinity
 
@@ -58,4 +58,4 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 
 ----
 
-//Source: Sword Coast Adventurer's Guide, p. 132//
+*Source: Sword Coast Adventurer's Guide, p. 132*

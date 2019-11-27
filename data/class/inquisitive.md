@@ -38,4 +38,4 @@ At 17th level, you learn to exploit a creature's weaknesses by carefully studyin
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. 45//
+*Source: Xanathar's Guide to Everything, p. 45*

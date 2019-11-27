@@ -44,4 +44,4 @@ At 15th level, you gain one of the following features of your choice.
 
 ----
 
-//Source:// [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]
+*Source:* [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]

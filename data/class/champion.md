@@ -52,4 +52,4 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 ----
 
-//Source: Player's Handbook, p. 72//
+*Source: Player's Handbook, p. 72*

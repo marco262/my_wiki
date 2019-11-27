@@ -24,4 +24,4 @@ When you reach 17th level, you have become adept at laying ambushes and quickly 
 
 ----
 
-//Source: Player's Handbook, p. 97//
+*Source: Player's Handbook, p. 97*

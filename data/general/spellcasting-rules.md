@@ -10,7 +10,7 @@ Uncounted thousands of spells have been created over the course of the multivers
 
 ++ Spell Level
 
-Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) //[[[spell:magic missile]]]// at 1st level and the earth-shaking //[[[spell:wish]]]// at 9th. Cantrips -- simple but powerful spells that characters can cast almost by rote -- are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.
+Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) *[[[spell:magic missile]]]* at 1st level and the earth-shaking *[[[spell:wish]]]* at 9th. Cantrips -- simple but powerful spells that characters can cast almost by rote -- are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.
 
 Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level, not 9th level, to cast a 9th-level spell.
 
@@ -71,7 +71,7 @@ The schools of magic help describe spells; they have no rules of their own, alth
 
 **Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life.
 
-Creating the undead through the use of necromancy spells such as //[[[spell:animate dead]]]// is not a good act, and only evil casters use such spells frequently.
+Creating the undead through the use of necromancy spells such as *[[[spell:animate dead]]]* is not a good act, and only evil casters use such spells frequently.
 
 **Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
 [[/div]]
@@ -97,9 +97,9 @@ Certain spells (including spells cast as rituals) require more time to cast: min
 
 ++ Range
 
-The target of a spell must be within the spell's range. For a spell like //[[[spell:magic missile]]]//, the target is a creature. For a spell like //[[[spell:fireball]]]//, the target is the point in space where the ball of fire erupts.
+The target of a spell must be within the spell's range. For a spell like *[[[spell:magic missile]]]*, the target is a creature. For a spell like *[[[spell:fireball]]]*, the target is the point in space where the ball of fire erupts.
 
-Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the //[[[spell:shield]]]// spell, affect only you. These spells have a range of self.
+Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the *[[[spell:shield]]]* spell, affect only you. These spells have a range of self.
 
 Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the spell's effect must be you (see [[[general:spellcasting-rules#areas-of-effect|"Areas of Effect"]]]).
 
@@ -111,7 +111,7 @@ A spell's components are the physical requirements you must meet in order to cas
 
 +++ Verbal (V)
 
-Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the //[[[spell:silence]]]// spell, can't cast a spell with a verbal component.
+Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the *[[[spell:silence]]]* spell, can't cast a spell with a verbal component.
 
 +++ Somatic (S)
 
@@ -175,7 +175,7 @@ Whenever a magic effect is created, the threads of the Weave intertwine, twist, 
 
 ++ [[# areas-of-effect]]Areas of Effect
 
-Spells such as //[[[spell:burning hands]]]// and //[[[spell:cone of cold]]]// cover an area, allowing them to affect multiple creatures at once.
+Spells such as *[[[spell:burning hands]]]* and *[[[spell:cone of cold]]]* cover an area, allowing them to affect multiple creatures at once.
 
 A spell's description specifies its area of effect, which typically has one of five different shapes: cone, cube, cylinder, line, or sphere. Every area of effect has a **point of origin**, a location from which the spell's energy erupts. The rules for each shape specify how you position its point of origin. Typically, a point of origin is a point in space, but some spells have an area whose origin is a creature or an object.
 

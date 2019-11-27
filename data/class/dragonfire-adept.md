@@ -75,7 +75,7 @@ You know two cantrips of your choice from the dragonfire adept spell list. You l
 
 The Dragonfire Adept table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your dragonfire adept spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
 
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell //[[[spell:thunderwave]]]//, you must spend one of those slots, and you cast it as a 3rd-level spell.
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell *[[[spell:thunderwave]]]*, you must spend one of those slots, and you cast it as a 3rd-level spell.
 
 ### Spells Known of 1st Level and Higher
 
@@ -129,15 +129,15 @@ Your choice of draconic patron greatly influences your abilities as you progress
 ### Expanded Spell List
 
 ||~ Spell Level ||~ Spells ||
-|| 1st || //[[[spell:color spray]]]//, //[[[spell:protection from evil and good]]]// ||
-|| 2nd || //[[[spell:calm emotions]]]//, //[[[spell:heat metal]]]// ||
-|| 3rd || //[[[spell:counterspell]]]//, //[[[spell:gaseous form]]]// ||
-|| 4th || //[[[spell:hallucinatory terrain]]]//, //[[[spell:otiluke's resilient sphere]]]// ||
-|| 5th || //[[[spell:bigby's hand]]]//, //[[[spell:contact other plane]]]// ||
+|| 1st || *[[[spell:color spray]]]*, *[[[spell:protection from evil and good]]]* ||
+|| 2nd || *[[[spell:calm emotions]]]*, *[[[spell:heat metal]]]* ||
+|| 3rd || *[[[spell:counterspell]]]*, *[[[spell:gaseous form]]]* ||
+|| 4th || *[[[spell:hallucinatory terrain]]]*, *[[[spell:otiluke's resilient sphere]]]* ||
+|| 5th || *[[[spell:bigby's hand]]]*, *[[[spell:contact other plane]]]* ||
 
 ### Aspect of the Metallic Dragons
 [[div class="phb-sidebar"]]
-//**Breath Weapon**//
+***Breath Weapon***
 
 Conjuration cantrip
 **Casting Time:** 1 action
@@ -185,11 +185,11 @@ At 14th level, you learn to mimic the effects of the mighty breath weapon of Bah
 ### Expanded Spell List
 
 ||~ Spell Level ||~ Spells ||
-|| 1st || //[[[spell:chromatic orb]]]//, //[[[spell: protection from evil and good]]]// ||
-|| 2nd || //[[[spell:crown of madness]]]//, //[[[spell: blindness/deafness]]]// ||
-|| 3rd || //[[[spell:animate dead]]]//, //[[[spell: vampiric touch]]]// ||
-|| 4th || //[[[spell:blight]]]//, //[[[spell: phantasmal killer]]]// ||
-|| 5th || //[[[spell:modify memory]]]//, //[[[spell: planar binding]]]// ||
+|| 1st || *[[[spell:chromatic orb]]]*, *[[[spell: protection from evil and good]]]* ||
+|| 2nd || *[[[spell:crown of madness]]]*, *[[[spell: blindness/deafness]]]* ||
+|| 3rd || *[[[spell:animate dead]]]*, *[[[spell: vampiric touch]]]* ||
+|| 4th || *[[[spell:blight]]]*, *[[[spell: phantasmal killer]]]* ||
+|| 5th || *[[[spell:modify memory]]]*, *[[[spell: planar binding]]]* ||
 
 ### Aspect of the Chromatic Dragons
 
@@ -231,9 +231,9 @@ If a draconic invocation has prerequisites, you must meet them to learn it. You 
 
 ## Baleful Geas
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
-You can cast //[[[spell:geas]]]// once using a dragonfire adept spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:geas]]]* once using a dragonfire adept spell slot. You can't do so again until you finish a long rest.
 
 ## Beguiling Influence
 
@@ -241,9 +241,9 @@ You gain proficiency in the Deception and Persuasion skills.
 
 ## Breath of the Night
 
-//Prerequisite: 12th level//
+*Prerequisite: 12th level*
 
-You can cast //[[[spell:fog cloud]]]// at-will, without expending a spell slot.
+You can cast *[[[spell:fog cloud]]]* at-will, without expending a spell slot.
 
 ## Draconic Knowledge
 
@@ -251,13 +251,13 @@ You gain proficiency in the Arcana and History skills.
 
 ## Draconic Toughness
 
-//Prerequisite: 7th level//
+*Prerequisite: 7th level*
 
-You can cast //[[[spell:false life]]]// on yourself at-will as a 2nd-level spell, without expending a spell slot or material components.
+You can cast *[[[spell:false life]]]* on yourself at-will as a 2nd-level spell, without expending a spell slot or material components.
 
 ## Dragon Wings
 
-//Prerequisite: 12th level//
+*Prerequisite: 12th level*
 
 You gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. This ability works exactly like the Draconic Sorcerer ability Dragon Wings.
 
@@ -275,25 +275,25 @@ When you use your breath weapon, you can choose to make it an entangling blast o
 
 ## Enthralling Voice
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
-You can cast //[[[spell:enthrall]]]// at-will, without expending a spell slot.
+You can cast *[[[spell:enthrall]]]* at-will, without expending a spell slot.
 
 ## Humanoid Shape
 
-//Prerequisite: 15th level//
+*Prerequisite: 15th level*
 
-You can cast //[[[spell:alter self]]]// at-will, without expending a spell slot.
+You can cast *[[[spell:alter self]]]* at-will, without expending a spell slot.
 
 ## Lingering Breath
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
 When you use your breath weapon you can choose to have it linger as a cloud for 1 round. Any creature that enters or ends its turn inside the cloud takes half normal damage and/or feels the effects of the breath weapon, but only for half the normal duration. You can use this ability at-will.
 
 ## Magic Insight
 
-You can cast //[[[spell:detect magic]]]// at will, without expending a spell slot. If you concentrate on a magic item for 1 minute, you learn its properties as if you had cast //[[[spell:]]]//identify on the item.
+You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot. If you concentrate on a magic item for 1 minute, you learn its properties as if you had cast *[[[spell:]]]*identify on the item.
 
 ## Powerful Breath
 
@@ -301,54 +301,54 @@ When you use your Breath Weapon ability, add your Charisma modifier to the damag
 
 ## Sleep Breath
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
 When you use your breath weapon, you can choose to breathe a sleep-inducing gas instead. Your breath weapon deals no damage, and all creatures affected must succeed on a Constitution save or be affected as by the sleep spell. Each creature can attempt a new save each round for the duration (2 rounds) to ignore the sleep effect for that round. You may use this ability at-will.
 
 ## Slow Breath
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
 When you use your breath weapon, you can choose to breathe a magical slow effect instead. Your breath weapon deals no damage and all creatures affected must succeed on a Strength save or be affected as by the slow spell. Each creature can attempt a new save each round for the duration (2 rounds) to ignore the slow effect for that round. You may use this ability at-will.
 
 ## Terrifying Roar
 
-//Prerequisite: 7th level//
+*Prerequisite: 7th level*
 
-You can cast //[[[spell:fear]]]// at will, without expending a spell slot. Your roar has a duration of 2 rounds. Any creature that succeeds on its Wisdom save is immune to your fear spells for 24 hours.
+You can cast *[[[spell:fear]]]* at will, without expending a spell slot. Your roar has a duration of 2 rounds. Any creature that succeeds on its Wisdom save is immune to your fear spells for 24 hours.
 
 ## Voracious Dispelling
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
-You can cast //[[[spell:dispel magic]]]// once using a dragonfire adept spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:dispel magic]]]* once using a dragonfire adept spell slot. You can't do so again until you finish a long rest.
 
 ## Whispers of the Dragon
 
-//Prerequisite: 15th level//
+*Prerequisite: 15th level*
 
-You can cast //[[[spell:suggestion]]]// at-will, without expending a spell slot.
+You can cast *[[[spell:suggestion]]]* at-will, without expending a spell slot.
 
 ## Wingstorm
 
-//Prerequisite: 15th level, Dragon Wings invocation//
+*Prerequisite: 15th level, Dragon Wings invocation*
 
-While flying with your Dragon Wings, you can cast //[[[spell:gust of wind]]]// at-will, without expending a spell slot as a bonus action. The gust only lasts 1 round each use.
+While flying with your Dragon Wings, you can cast *[[[spell:gust of wind]]]* at-will, without expending a spell slot as a bonus action. The gust only lasts 1 round each use.
 
 # Dragonfire Adept Spell List
 
-|| 0th || //[[[spell:blade ward]]]//, //[[[spell:dancing lights]]]//, //[[[spell:friends]]]//, //[[[spell:light]]]//, //[[[spell:mage hand]]]//, //[[[spell:message]]]//, //[[[spell:minor illusion]]]//, //[[[spell:prestidigitation]]]//, //[[[spell:thaumaturgy]]]//, //[[[spell:true strike]]]//, //[[[spell:vicious mockery]]]// ||
-|| 1st || //[[[spell:charm person]]]//, //[[[spell:comprehend languages]]]//, //[[[spell:disguise self]]]//, //[[[spell:expeditious retreat]]]//, //[[[spell:feather fall]]]//, //[[[spell:grease]]]//, //[[[spell:illusory script]]]//, //instill vulnerability*//, //[[[spell:magic missile]]]//, //[[[spell:ray of sickness]]]//, //[[[spell:shield]]]//, //[[[spell:silent image]]]//, //[[[spell:sleep]]]//, //[[[spell:thunderwave]]]// ||
-|| 2nd || //[[[spell:arcane lock]]]//, //[[[spell:cloud of daggers]]]//, //[[[spell:darkness]]]//, //[[[spell:detect thoughts]]]//, //[[[spell:enlarge/reduce]]]//, //[[[spell:hold person]]]//, //[[[spell:invisibility]]]//, //[[[spell:locate object]]]//, //[[[spell:magic mouth]]]//, //[[[spell:mirror image]]]//, //[[[spell:misty step]]]//, //[[[spell:ray of enfeeblement]]]//, //[[[spell:shatter]]]// ||
-|| 3rd || //[[[spell:bestow curse]]]//, //[[[spell:glyph of warding]]]//, //[[[spell:haste]]]//, //[[[spell:hypnotic pattern]]]//, //[[[spell:magic circle]]]//, //[[[spell:remove curse]]]//, //[[[spell:sending]]]//, //[[[spell:sleet storm]]]//, //[[[spell:stinking cloud]]]//, //[[[spell:tongues]]]//, //[[[spell:water breathing]]]// ||
-|| 4th || //[[[spell:banishment]]]//, //[[[spell:dimension door]]]//, //[[[spell:fire shield]]]//, //[[[spell:ice storm]]]//, //[[[spell:stoneskin]]]//, //[[[spell:wall of fire]]]// ||
-|| 5th || //[[[spell:cloudkill]]]//, //[[[spell:creation]]]//, //[[[spell:hold monster]]]//, //[[[spell:legend lore]]]//, //[[[spell:scrying]]]//, //[[[spell:telekinesis]]]// ||
-|| 6th || //[[[spell:arcane gate]]]//, //[[[spell:contingency]]]//, //[[[spell:globe of invulnerability]]]//, //[[[spell:guards and wards]]]//, //[[[spell:mass suggestion]]]//, //[[[spell:true seeing]]]// ||
-|| 7th || //[[[spell:etherealness]]]//, //[[[spell:plane shift]]]//, //[[[spell:prismatic spray]]]//, //[[[spell:project image]]]//, //[[[spell:reverse gravity]]]//, //[[[spell:teleport]]]// ||
-|| 8th || //[[[spell:dominate monster]]]//, //[[[spell:feeblemind]]]//, //[[[spell:glibness]]]//, //[[[spell:mind blank]]]//, //[[[spell:power word stun]]]// ||
-|| 9th || //[[[spell:foresight]]]//, //[[[spell:power word kill]]]//, //[[[spell:shapechange]]]//, //[[[spell:time stop]]]//, //[[[spell:true polymorph]]]// ||
+|| 0th || *[[[spell:blade ward]]]*, *[[[spell:dancing lights]]]*, *[[[spell:friends]]]*, *[[[spell:light]]]*, *[[[spell:mage hand]]]*, *[[[spell:message]]]*, *[[[spell:minor illusion]]]*, *[[[spell:prestidigitation]]]*, *[[[spell:thaumaturgy]]]*, *[[[spell:true strike]]]*, *[[[spell:vicious mockery]]]* ||
+|| 1st || *[[[spell:charm person]]]*, *[[[spell:comprehend languages]]]*, *[[[spell:disguise self]]]*, *[[[spell:expeditious retreat]]]*, *[[[spell:feather fall]]]*, *[[[spell:grease]]]*, *[[[spell:illusory script]]]*, *instill vulnerability**, *[[[spell:magic missile]]]*, *[[[spell:ray of sickness]]]*, *[[[spell:shield]]]*, *[[[spell:silent image]]]*, *[[[spell:sleep]]]*, *[[[spell:thunderwave]]]* ||
+|| 2nd || *[[[spell:arcane lock]]]*, *[[[spell:cloud of daggers]]]*, *[[[spell:darkness]]]*, *[[[spell:detect thoughts]]]*, *[[[spell:enlarge/reduce]]]*, *[[[spell:hold person]]]*, *[[[spell:invisibility]]]*, *[[[spell:locate object]]]*, *[[[spell:magic mouth]]]*, *[[[spell:mirror image]]]*, *[[[spell:misty step]]]*, *[[[spell:ray of enfeeblement]]]*, *[[[spell:shatter]]]* ||
+|| 3rd || *[[[spell:bestow curse]]]*, *[[[spell:glyph of warding]]]*, *[[[spell:haste]]]*, *[[[spell:hypnotic pattern]]]*, *[[[spell:magic circle]]]*, *[[[spell:remove curse]]]*, *[[[spell:sending]]]*, *[[[spell:sleet storm]]]*, *[[[spell:stinking cloud]]]*, *[[[spell:tongues]]]*, *[[[spell:water breathing]]]* ||
+|| 4th || *[[[spell:banishment]]]*, *[[[spell:dimension door]]]*, *[[[spell:fire shield]]]*, *[[[spell:ice storm]]]*, *[[[spell:stoneskin]]]*, *[[[spell:wall of fire]]]* ||
+|| 5th || *[[[spell:cloudkill]]]*, *[[[spell:creation]]]*, *[[[spell:hold monster]]]*, *[[[spell:legend lore]]]*, *[[[spell:scrying]]]*, *[[[spell:telekinesis]]]* ||
+|| 6th || *[[[spell:arcane gate]]]*, *[[[spell:contingency]]]*, *[[[spell:globe of invulnerability]]]*, *[[[spell:guards and wards]]]*, *[[[spell:mass suggestion]]]*, *[[[spell:true seeing]]]* ||
+|| 7th || *[[[spell:etherealness]]]*, *[[[spell:plane shift]]]*, *[[[spell:prismatic spray]]]*, *[[[spell:project image]]]*, *[[[spell:reverse gravity]]]*, *[[[spell:teleport]]]* ||
+|| 8th || *[[[spell:dominate monster]]]*, *[[[spell:feeblemind]]]*, *[[[spell:glibness]]]*, *[[[spell:mind blank]]]*, *[[[spell:power word stun]]]* ||
+|| 9th || *[[[spell:foresight]]]*, *[[[spell:power word kill]]]*, *[[[spell:shapechange]]]*, *[[[spell:time stop]]]*, *[[[spell:true polymorph]]]* ||
 
-//**Instill Vulnerability**//
+***Instill Vulnerability***
 
 1st-level Necromancy
 **Casting Time:** 1 bonus action
@@ -366,4 +366,4 @@ A remove curse cast on the target ends this spell early.
 
 ----
 
-//Source:// http://www.giantitp.com/forums/showsinglepost.php?p=18015365&postcount=1
+*Source:* http://www.giantitp.com/forums/showsinglepost.php?p=18015365&postcount=1

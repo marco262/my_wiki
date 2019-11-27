@@ -1,11 +1,11 @@
 Gods of trickery -- such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki -- are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
 
 **Trickery Domain Spells**
-||1st||//[[[spell:charm person]]]//, //[[[spell:disguise self]]]//||
-||3rd||//[[[spell:mirror image]]]//, //[[[spell:pass without trace]]]//||
-||5th||//[[[spell:blink]]]//, //[[[spell:dispel magic]]]//||
-||7th||//[[[spell:dimension door]]]//, //[[[spell:polymorph]]]//||
-||9th||//[[[spell:dominate person]]]//, //[[[spell:modify memory]]]//||
+||1st||*[[[spell:charm person]]]*, *[[[spell:disguise self]]]*||
+||3rd||*[[[spell:mirror image]]]*, *[[[spell:pass without trace]]]*||
+||5th||*[[[spell:blink]]]*, *[[[spell:dispel magic]]]*||
+||7th||*[[[spell:dimension door]]]*, *[[[spell:polymorph]]]*||
+||9th||*[[[spell:dominate person]]]*, *[[[spell:modify memory]]]*||
 
 # Blessing of the Trickster
 
@@ -35,4 +35,4 @@ At 17th level, you can create up to four duplicates of yourself, instead of one,
 
 ----
 
-//Source: Player's Handbook, p. 62//
+*Source: Player's Handbook, p. 62*

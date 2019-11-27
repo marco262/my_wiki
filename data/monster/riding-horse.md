@@ -20,7 +20,7 @@
 | has_special_abilities = @@
 | special_abilities = 
 | has_actions = Replace with double @ to hide
-| actions = **Hooves.** //Melee Weapon Attack:// +5 to hit, reach 5 ft., one target. //Hit:// 8 (2d4 + 3) bludgeoning damage.
+| actions = **Hooves.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@

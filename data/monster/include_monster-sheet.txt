@@ -10,7 +10,7 @@
 [[/row]]
 [[row]]
 [[cell style="font-size: 90%; padding: 0px 5px 0px 5px; " colspan="6"]]
-//{$size} {$type}, {$alignment}//
+*{$size} {$type}, {$alignment}*
 [[/cell]]
 [[/row]]
 

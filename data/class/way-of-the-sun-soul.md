@@ -22,9 +22,9 @@ When you gain the Extra Attack feature, this special attack can be used for any 
 ## Searing Arc Strike
 [[div class="errata"]]
 **Editor's Note:** This is the only ability in this subclass that does fire damage instead of radiant. Talk to your GM about possibly changing its damage type.
-[[/div]]At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the //[[[spell:burning hands]]]// spell as a bonus action.
+[[/div]]At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the *[[[spell:burning hands]]]* spell as a bonus action.
 
-You can spend additional ki points to cast //[[[spell:burning hands]]]// as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
+You can spend additional ki points to cast *[[[spell:burning hands]]]* as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
 
 ## Searing Sunburst
 
@@ -43,4 +43,4 @@ If a creature hits you with a melee attack while this light shines, you can use 
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. 35//
+*Source: Xanathar's Guide to Everything, p. 35*

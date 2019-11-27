@@ -19,7 +19,7 @@ Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly 
 
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as the //[[[spell:banishment]]]// spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the table below.
+After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as the *[[[spell:banishment]]]* spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the table below.
 
 ||~ Cleric Level ||~ Banishes Creatures of CR ... ||
 ||5th||1/2||
@@ -39,4 +39,4 @@ At 17th level, you chose four spells from the [[[class-spell-list:wizard-spells|
 
 ----
 
-//Source: Sword Coast Adventurer's Guide, p. 125//
+*Source: Sword Coast Adventurer's Guide, p. 125*

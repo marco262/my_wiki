@@ -36,4 +36,4 @@ At 17th level, you gain the ability to make an overwhelming number of attacks ag
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. ??//
+*Source: Xanathar's Guide to Everything, p. ??*

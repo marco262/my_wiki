@@ -104,4 +104,4 @@ Once you use this trait, you can't use it again until you finish a long rest.
 
 ----
 
-//Source: Volo's Guide to Monsters, p. 104//
+*Source: Volo's Guide to Monsters, p. 104*

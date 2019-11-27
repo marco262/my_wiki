@@ -18,4 +18,4 @@ At 14th level, you have mastered the art of weaving spellcasting and weapon use 
 
 ----
 
-//Source: Player's Handbook, p. 55//
+*Source: Player's Handbook, p. 55*

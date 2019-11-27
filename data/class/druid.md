@@ -196,7 +196,7 @@ At a local scale, druids are organized into circles that share certain perspecti
 
 ----
 
-//Source: Player's Handbook, p. 64//
+*Source: Player's Handbook, p. 64*
 
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\

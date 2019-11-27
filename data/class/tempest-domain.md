@@ -4,17 +4,17 @@ Gods whose portfolios include the Tempest domain -- including Talos, Umberlee, K
 [[div class="errata"]]
 **Alternate Domain Spells**
 ||~ Cleric Level ||~ Spells ||
-|| 1st || //[[[spell:fog cloud]]], [[[spell:thunderwave]]]// ||
-|| 3rd || //[[[spell:warding wind]]], [[[spell:shatter]]]// ||
-|| 5th || //[[[spell:call lightning]]], [[[spell:thunder step]]]// ||
-|| 7th || //[[[spell:storm sphere]]], [[[spell:ice storm]]]// ||
-|| 9th || //[[[spell:destructive wave]]], [[[spell:control winds]]]// ||[[/div]]
+|| 1st || *[[[spell:fog cloud]]], [[[spell:thunderwave]]]* ||
+|| 3rd || *[[[spell:warding wind]]], [[[spell:shatter]]]* ||
+|| 5th || *[[[spell:call lightning]]], [[[spell:thunder step]]]* ||
+|| 7th || *[[[spell:storm sphere]]], [[[spell:ice storm]]]* ||
+|| 9th || *[[[spell:destructive wave]]], [[[spell:control winds]]]* ||[[/div]]
 ||~ Cleric Level ||~ Spells ||
-|| 1st || //[[[spell:fog cloud]]], [[[spell:thunderwave]]]// ||
-|| 3rd || //[[[spell:gust of wind]]], [[[spell:shatter]]]// ||
-|| 5th || //[[[spell:call lightning]]], [[[spell:sleet storm]]]// ||
-|| 7th || //[[[spell:control water]]], [[[spell:ice storm]]]// ||
-|| 9th || //[[[spell:destructive wave]]], [[[spell:insect plague]]]// ||
+|| 1st || *[[[spell:fog cloud]]], [[[spell:thunderwave]]]* ||
+|| 3rd || *[[[spell:gust of wind]]], [[[spell:shatter]]]* ||
+|| 5th || *[[[spell:call lightning]]], [[[spell:sleet storm]]]* ||
+|| 7th || *[[[spell:control water]]], [[[spell:ice storm]]]* ||
+|| 9th || *[[[spell:destructive wave]]], [[[spell:insect plague]]]* ||
 
 ## Bonus Proficiencies
 
@@ -43,4 +43,4 @@ At 17th level, you have a flying speed equal to your current walking speed whene
 
 ----
 
-//Source: Player's Handbook, p. 62//
+*Source: Player's Handbook, p. 62*

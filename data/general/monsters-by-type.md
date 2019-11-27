@@ -82,4 +82,4 @@
 %%title_linked%%
 [[/module]]
 
-//See [[[general:monster-pages-without-type-tag|this page]]] for a list of all monster pages without a creature type tag.//
+*See [[[general:monster-pages-without-type-tag|this page]]] for a list of all monster pages without a creature type tag.*

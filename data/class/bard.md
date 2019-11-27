@@ -26,7 +26,7 @@ Did you serve an apprenticeship, studying under a master, following the more exp
 
 ## Quick Build
 
-You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the [[[background:Entertainer]]] background. Third, choose the //[[[spell:dancing lights]]]// and //[[[spell:vicious mockery]]]// cantrips, along with the following 1st-level spells: //[[[spell:charm person]]]//, //[[[spell:detect magic]]]//, //[[[spell:healing word]]]//, and //[[[spell:thunderwave]]]//.
+You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the [[[background:Entertainer]]] background. Third, choose the *[[[spell:dancing lights]]]* and *[[[spell:vicious mockery]]]* cantrips, along with the following 1st-level spells: *[[[spell:charm person]]]*, *[[[spell:detect magic]]]*, *[[[spell:healing word]]]*, and *[[[spell:thunderwave]]]*.
 
 # The Bard
 
@@ -186,7 +186,7 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
 ----
 
-//Source: Player's Handbook, p. 51//
+*Source: Player's Handbook, p. 51*
 
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\

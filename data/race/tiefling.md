@@ -55,12 +55,12 @@ Here "once per day" means you must finish a long rest to cast the spell again wi
 * **Speed.** Your base walking speed is 30 feet.
 * **Darkvision.** Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 * **Hellish Resistance.** You have resistance to fire damage.
-* **Infernal Legacy.** You know the //[[[spell:thaumaturgy]]]//. When you reach 3rd level, you can cast //[[[spell:hellish rebuke]]]// once. When you reach 5th level, you can also cast //[[[spell:darkness]]]// once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
+* **Infernal Legacy.** You know the *[[[spell:thaumaturgy]]]*. When you reach 3rd level, you can cast *[[[spell:hellish rebuke]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
 * **Languages.** You can speak, read, and write Common and Infernal.
 
 ----
 
-//Source: Player's Handbook, p. 42//
+*Source: Player's Handbook, p. 42*
 
 [[bibliography]]
 : errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf

@@ -2,7 +2,7 @@ Drakes are distant cousins of dragons, but where dragons are proud, solitary, an
 
 You have raised a Drake from hatchling and formed a special bond with it, to the point of being magically connected to them. Your Drake is now large enough to become your steed and well-trained enough to carry you into battle.
 
-//Note: This subclass is meant to be used with the [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
+*Note: This subclass is meant to be used with the [http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
 
 # The Drake Rider
 ||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||
@@ -62,7 +62,7 @@ The stat block for your Drake is below:
 | has_special_abilities = @@
 | special_abilities = 
 | has_actions = Replace with double @ to hide
-| actions = **Bite.** //Melee Weapon Attack:// +6 to hit, reach 10 ft., one target. //Hit:// 7 (1d6 + 4) piercing damage.
+| actions = **Bite.** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
 | has_legendary_actions = @@
 | legendary_actions = 
 | has_reactions = @@
@@ -126,4 +126,4 @@ At 15th level, your Drake is able to use its Drake Fire more often. At the start
 
 ----
 
-//Source: Homebrew//
+*Source: Homebrew*

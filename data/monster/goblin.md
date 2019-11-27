@@ -22,9 +22,9 @@
 | has_special_abilities = Replace with double @ to hide
 | special_abilities = **Nimble Escape.** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
 | has_actions = Replace with double @ to hide
-| actions = **Scimitar.** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one target. //Hit:// 5 (1d6 + 2) slashing damage.
+| actions = **Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
 
-**Shortbow.** //Ranged Weapon Attack:// +4 to hit, range 80 ft./320ft., one target. //Hit:// 5 (1d6 + 2) piercing damage.
+**Shortbow.** *Ranged Weapon Attack:* +4 to hit, range 80 ft./320ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@
@@ -58,9 +58,9 @@
 | has_actions = Replace with double @ to hide
 | actions = **Multiattack.** The goblin makes two attacks with its scimitar. The second attack has disadvantage.
 
-**Scimitar.** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one target. //Hit:// 5 (1d6 + 2) slashing damage.
+**Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
 
-**Shortbow.** //Melee or Ranged Weapon Attack:// +4 to hit, reach 5 ft. or range 30 ft./120ft., one target. //Hit:// 5 (1d6 + 2) piercing damage.
+**Shortbow.** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30 ft./120ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = Replace with double @ to hide

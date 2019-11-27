@@ -235,7 +235,7 @@ Alternatively, you can aid a friendly creature in attacking a creature within 5 
 
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
 
-//Editor's Note: The following excerpts have been taken from elsewhere in the PHB and compiled here for easy reference://
+*Editor's Note: The following excerpts have been taken from elsewhere in the PHB and compiled here for easy reference:*
 
 > **Hiding**
 > 
@@ -453,11 +453,11 @@ The damage types follow, with examples to help a DM assign a damage type to a ne
 
 **Psychic.** Mental abilities such as a mind flayer's psionic blast deal psychic damage.
 
-**Radiant.** Radiant damage, dealt by a cleric's //[[[spell:flame strike]]]// spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power.
+**Radiant.** Radiant damage, dealt by a cleric's *[[[spell:flame strike]]]* spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power.
 
 **Slashing.** Swords, axes, and monsters' claws deal slashing damage.
 
-**Thunder.** A concussive burst of sound, such as the effect of the //[[[spell:thunderwave]]]// spell, deals thunder damage.
+**Thunder.** A concussive burst of sound, such as the effect of the *[[[spell:thunderwave]]]* spell, deals thunder damage.
 
 ++ Damage Resistance and Vulnerability
 
@@ -471,7 +471,7 @@ Multiple instances of resistance or vulnerability that affect the same damage ty
 
 ++ Healing
 
-Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points (as explained in chapter 8), and magical methods such as a //[[[spell:cure wounds]]]// spell or a //[[[general:equipment#potion-of-healing|potion of healing]]]// can remove damage in an instant.
+Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points (as explained in chapter 8), and magical methods such as a *[[[spell:cure wounds]]]* spell or a *[[[general:equipment#potion-of-healing|potion of healing]]]* can remove damage in an instant.
 
 When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.
 

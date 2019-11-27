@@ -4,7 +4,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 [[row]]
 [[cell style="width: 28%; "]]
 ||~ Item ||~ Cost ||~ Weight ||
-|||||| //Artisan's tools// ||
+|||||| *Artisan's tools* ||
 || Alchemist's supplies || 50 gp || 8 lb. ||
 || Brewer's supplies || 20 gp || 9 lb. ||
 || Calligrapher's supplies || 10 gp || 5 lb. ||
@@ -24,13 +24,13 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 || Woodcarver's tools || 1 gp || 5 lb. ||
 || Disguise kit || 25 gp || 3 lb. ||
 || Forgery kit || 15 gp || 5 lb. ||
-|||||| //Gaming set// ||
+|||||| *Gaming set* ||
 || Dice set || 1 sp || -- ||
 || Dragonchess set || 1 gp || 1/2 lb. ||
 || Playing card set || 5 sp || -- ||
 || Three-Dragon Ante set || 1 gp || -- ||
 || Herbalism kit || 5 gp || 3 lb. ||
-|||||| //Musical instrument// ||
+|||||| *Musical instrument* ||
 || Bagpipes || 30 gp || 6 lb. ||
 || Drum || 6 gp || 3 lb. ||
 || Dulcimer || 25 gp || 10 lb. ||

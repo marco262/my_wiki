@@ -22,7 +22,7 @@
 
 **Keen Hearing and Sight.** The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.
 | has_actions = Replace with double @ to hide
-| actions = **Talons.** //Melee Weapon Attack:// +3 to hit, reach 5 ft., one target. //Hit:// 1 slashing damage.
+| actions = **Talons.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@

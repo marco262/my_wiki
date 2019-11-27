@@ -23,9 +23,9 @@
 
 **Pack Tactics.** The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
 | has_actions = Replace with double @ to hide
-| actions = **Dagger.** //Melee Weapon Attack:// +4 to hit, reach 5 ft., one target. //Hit:// 4 (1d4 + 2) piercing damage.
+| actions = **Dagger.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
-**Sling.** //Ranged Weapon Attack:// +4 to hit, range 30 ft./120ft., one target. //Hit:// 4 (1d4 + 2) bludgeoning damage.
+**Sling.** *Ranged Weapon Attack:* +4 to hit, range 30 ft./120ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@
@@ -58,9 +58,9 @@
 
 **Pack Tactics.** The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
 | has_actions = Replace with double @ to hide
-| actions = **Dagger.** //Melee Weapon Attack:// +5 to hit, reach 5 ft., one target. //Hit:// 5 (1d4 + 3) piercing damage.
+| actions = **Dagger.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage.
 
-**Dropped Rock.** //Ranged Weapon Attack:// +5 to hit, one target directly below the kobold. //Hit:// 6 (1d6 + 3) bludgeoning damage.
+**Dropped Rock.** *Ranged Weapon Attack:* +5 to hit, one target directly below the kobold. *Hit:* 6 (1d6 + 3) bludgeoning damage.
 | has_legendary_actions = @@
 | legendary_actions =
 | has_reactions = @@

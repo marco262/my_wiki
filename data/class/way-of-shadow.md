@@ -18,4 +18,4 @@ At 17th level, you can exploit a creature's momentary distraction when it is hit
 
 ----
 
-//Source: Player's Handbook, p. 80//
+*Source: Player's Handbook, p. 80*

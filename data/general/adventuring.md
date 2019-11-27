@@ -3,7 +3,7 @@ table.wiki-content-table { margin-left: 0px; }
 [[/module]]
 [[f>toc]]
 
-Delving into the ancient Tomb of Horrors, slipping through the back alleys of Waterdeep, hacking a fresh trail through the thick jungles on the Isle of Dread -- these are the things that //**Dungeons & Dragons**// adventures are made of. Your character in the game might explore forgotten ruins and uncharted lands, uncover dark secrets and sinister plots, and slay foul monsters. And if all goes well, your character will survive to claim rich rewards before embarking on a new adventure.
+Delving into the ancient Tomb of Horrors, slipping through the back alleys of Waterdeep, hacking a fresh trail through the thick jungles on the Isle of Dread -- these are the things that ***Dungeons & Dragons*** adventures are made of. Your character in the game might explore forgotten ruins and uncharted lands, uncover dark secrets and sinister plots, and slay foul monsters. And if all goes well, your character will survive to claim rich rewards before embarking on a new adventure.
 
 This chapter covers the basics of the adventuring life, from the mechanics of movement to the complexities of social interaction. The rules for resting are also in this chapter, along with a discussion of the activities your character might pursue between adventures.
 
@@ -51,7 +51,7 @@ For each additional hour of travel beyond 8 hours, the characters cover the dist
 
 Characters in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel (see chapter 5), and they don't suffer penalties for a fast pace or gain benefits from a slow pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day.
 
-Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a //carpet of flying//, allow you to travel more swiftly. The //Dungeon Master's Guide// contains more information on special methods of travel.
+Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a *carpet of flying*, allow you to travel more swiftly. The *Dungeon Master's Guide* contains more information on special methods of travel.
 
 **Travel Pace**
 ||||||||||~ Distance Traveled per... ||
@@ -59,13 +59,13 @@ Certain special mounts, such as a pegasus or griffon, or special vehicles, such 
 || Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores<br>-5 penalty to checks to avoid becoming lost<sup>1</sup><br>Can't forage<sup>1</sup> ||
 || Normal || 300 feet || 3 miles || 24 miles || -- ||
 || Slow || 200 feet || 2 miles || 18 miles || Able to use stealth<br>+5 bonus to checks to avoid becoming lost<sup>1</sup> ||
-<sup>1</sup> //Dungeon Master's Guide, p. 111//
+<sup>1</sup> *Dungeon Master's Guide, p. 111*
 
 +++ Special Travel Pace (DMG 242)
 
 The rules on travel pace in the Player's Handbook assume that a group of travelers adopts a pace that, over time, is unaffected by the individual members' walking speeds. The difference between walking speeds can be significant during combat, but during an overland journey, the difference vanishes as travelers pause to catch their breath, the faster ones wait for the slower ones, and one traveler's quickness is matched by another traveler's endurance.
 
-A character bestride a phantom steed, soaring through the air on a //carpet of flying//, or riding a sailboat or a steam-powered gnomish contraption doesn't travel at a normal rate, since the magic, engine, or wind doesn't tire the way a creature does and the air doesn't contain the types of obstructions found on land. When a creature is traveling with a flying speed or with a speed granted by magic, an engine, or a natural force (such as wind or a water current), translate that speed into travel rates using the following rules:
+A character bestride a phantom steed, soaring through the air on a *carpet of flying*, or riding a sailboat or a steam-powered gnomish contraption doesn't travel at a normal rate, since the magic, engine, or wind doesn't tire the way a creature does and the air doesn't contain the types of obstructions found on land. When a creature is traveling with a flying speed or with a speed granted by magic, an engine, or a natural force (such as wind or a water current), translate that speed into travel rates using the following rules:
 
 * In 1 minute, you can move a number of feet equal to your speed times 10.
 * In 1 hour, you can move a number of miles equal to your speed divided by 10.
@@ -73,9 +73,9 @@ A character bestride a phantom steed, soaring through the air on a //carpet of f
 * For a fast pace, increase the rate of travel by one-third.
 * For a slow pace, multiply the rate by two-thirds.
 
-For example, a character under the effect of a //[[[spell:wind walk]]]// spell gains a flying speed of 300 feet. In 1 minute, the character can move 3,000 feet at a normal pace, 4,000 feet at a fast pace, or 2,000 feet at a slow pace. The character can also cover 20, 30, or 40 miles in an hour. The spell lasts for 8 hours, allowing the character to travel 160, 240, or 320 miles in a day.
+For example, a character under the effect of a *[[[spell:wind walk]]]* spell gains a flying speed of 300 feet. In 1 minute, the character can move 3,000 feet at a normal pace, 4,000 feet at a fast pace, or 2,000 feet at a slow pace. The character can also cover 20, 30, or 40 miles in an hour. The spell lasts for 8 hours, allowing the character to travel 160, 240, or 320 miles in a day.
 
-Similarly, a //[[[spell:phantom steed]]]// spell creates a magical mount with a speed of 100 feet that doesn't tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
+Similarly, a *[[[spell:phantom steed]]]* spell creates a magical mount with a speed of 100 feet that doesn't tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
 
 +++ [[# difficult-terrain]]Difficult Terrain
 

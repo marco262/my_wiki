@@ -29,7 +29,7 @@ Damage ||
 || 20th || +6 || Primal Champion || Unlimited || +4 ||
 
 ## Spirit Seeker
-Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the //[[[spell:beast sense]]]// and //[[[spell:speak with animals]]]// spells, but only as [[[general:spellcasting-rules#rituals|rituals]]].
+Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the *[[[spell:beast sense]]]* and *[[[spell:speak with animals]]]* spells, but only as [[[general:spellcasting-rules#rituals|rituals]]].
 
 ## Totem Spirit
 
@@ -63,7 +63,7 @@ At 6th level, you gain a magical benefit based on the totem animal of your choic
 
 ## Spirit Walker
 
-At 10th level, you can cast the //[[[spell:commune with nature]]]// spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.
+At 10th level, you can cast the *[[[spell:commune with nature]]]* spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.
 
 ## Totemic Attunement
 
@@ -81,7 +81,7 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 ----
 
-//Source: Player's Handbook, p. 50//
+*Source: Player's Handbook, p. 50*
 
 [[bibliography]]
 : scag : Sword Coast Adventurer's Guide, p. 122

@@ -43,73 +43,73 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Arctic
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:hold person]]], [[[spell:spike growth]]]// ||
-|| 5th || //[[[spell:sleet storm]]], [[[spell:slow]]]// ||
-|| 7th || //[[[spell:freedom of movement]]], [[[spell:ice storm]]]// ||
-|| 9th || //[[[spell:commune with nature]]], [[[spell:cone of cold]]]// ||
+|| 3rd || *[[[spell:hold person]]], [[[spell:spike growth]]]* ||
+|| 5th || *[[[spell:sleet storm]]], [[[spell:slow]]]* ||
+|| 7th || *[[[spell:freedom of movement]]], [[[spell:ice storm]]]* ||
+|| 9th || *[[[spell:commune with nature]]], [[[spell:cone of cold]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Coast
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:mirror image]]], [[[spell:misty step]]]// ||
-|| 5th || //[[[spell:water breathing]]], [[[spell:water walk]]]// ||
-|| 7th || //[[[spell:control water]]], [[[spell:freedom of movement]]]// ||
-|| 9th || //[[[spell:conjure elemental]]], [[[spell:scrying]]]// ||
+|| 3rd || *[[[spell:mirror image]]], [[[spell:misty step]]]* ||
+|| 5th || *[[[spell:water breathing]]], [[[spell:water walk]]]* ||
+|| 7th || *[[[spell:control water]]], [[[spell:freedom of movement]]]* ||
+|| 9th || *[[[spell:conjure elemental]]], [[[spell:scrying]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Desert
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:blur]]], [[[spell:silence]]]// ||
-|| 5th || //[[[spell:create food and water]]], [[[spell:protection from energy]]]// ||
-|| 7th || //[[[spell:blight]]], [[[spell:hallucinatory terrain]]]// ||
-|| 9th || //[[[spell:insect plague]]], [[[spell:wall of stone]]]// ||
+|| 3rd || *[[[spell:blur]]], [[[spell:silence]]]* ||
+|| 5th || *[[[spell:create food and water]]], [[[spell:protection from energy]]]* ||
+|| 7th || *[[[spell:blight]]], [[[spell:hallucinatory terrain]]]* ||
+|| 9th || *[[[spell:insect plague]]], [[[spell:wall of stone]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Forest
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:barkskin]]], [[[spell:spider climb]]]// ||
-|| 5th || //[[[spell:call lightning]]], [[[spell:plant growth]]]// ||
-|| 7th || //[[[spell:divination]]], [[[spell:freedom of movement]]]// ||
-|| 9th || //[[[spell:commune with nature]]], [[[spell:tree stride]]]// ||
+|| 3rd || *[[[spell:barkskin]]], [[[spell:spider climb]]]* ||
+|| 5th || *[[[spell:call lightning]]], [[[spell:plant growth]]]* ||
+|| 7th || *[[[spell:divination]]], [[[spell:freedom of movement]]]* ||
+|| 9th || *[[[spell:commune with nature]]], [[[spell:tree stride]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Grassland
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:invisibility]]], [[[spell:pass without trace]]]// ||
-|| 5th || //[[[spell:daylight]]], [[[spell:haste]]]// ||
-|| 7th || //[[[spell:divination]]], [[[spell:freedom of movement]]]// ||
-|| 9th || //[[[spell:dream]]], [[[spell:insect plague]]]// ||
+|| 3rd || *[[[spell:invisibility]]], [[[spell:pass without trace]]]* ||
+|| 5th || *[[[spell:daylight]]], [[[spell:haste]]]* ||
+|| 7th || *[[[spell:divination]]], [[[spell:freedom of movement]]]* ||
+|| 9th || *[[[spell:dream]]], [[[spell:insect plague]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Mountain
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:spider climb]]], [[[spell:spike growth]]]// ||
-|| 5th || //[[[spell:lightning bolt]]], [[[spell:meld into stone]]]// ||
-|| 7th || //[[[spell:stone shape]]], [[[spell:stoneskin]]]// ||
-|| 9th || //[[[spell:passwall]]], [[[spell:wall of stone]]]// ||
+|| 3rd || *[[[spell:spider climb]]], [[[spell:spike growth]]]* ||
+|| 5th || *[[[spell:lightning bolt]]], [[[spell:meld into stone]]]* ||
+|| 7th || *[[[spell:stone shape]]], [[[spell:stoneskin]]]* ||
+|| 9th || *[[[spell:passwall]]], [[[spell:wall of stone]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Swamp
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:darkness]]], [[[spell:Melf's acid arrow]]]// ||
-|| 5th || //[[[spell:water walk]]], [[[spell:stinking cloud]]]// ||
-|| 7th || //[[[spell:freedom of movement]]], [[[spell:locate creature]]]// ||
-|| 9th || //[[[spell:insect plague]]], [[[spell:scrying]]]// ||
+|| 3rd || *[[[spell:darkness]]], [[[spell:Melf's acid arrow]]]* ||
+|| 5th || *[[[spell:water walk]]], [[[spell:stinking cloud]]]* ||
+|| 7th || *[[[spell:freedom of movement]]], [[[spell:locate creature]]]* ||
+|| 9th || *[[[spell:insect plague]]], [[[spell:scrying]]]* ||
 [[/div]]
 
 [[div style="float: left; width: 50%; margin-bottom: 10px; "]]
 #### Underdark
 ||~ Druid Level ||~ Circle Spells ||
-|| 3rd || //[[[spell:spider climb]]], [[[spell:web]]]// ||
-|| 5th || //[[[spell:gaseous form]]], [[[spell:stinking cloud]]]// ||
-|| 7th || //[[[spell:greater invisibility]]], [[[spell:stone shape]]]// ||
-|| 9th || //[[[spell:cloudkill]]], [[[spell:insect plague]]]// ||
+|| 3rd || *[[[spell:spider climb]]], [[[spell:web]]]* ||
+|| 5th || *[[[spell:gaseous form]]], [[[spell:stinking cloud]]]* ||
+|| 7th || *[[[spell:greater invisibility]]], [[[spell:stone shape]]]* ||
+|| 9th || *[[[spell:cloudkill]]], [[[spell:insect plague]]]* ||
 [[/div]]
 
 ## Land's Stride
@@ -130,4 +130,4 @@ The creature is aware of this effect before it makes its attack against you.
 
 ----
 
-//Source: Player's Handbook, p. 68//
+*Source: Player's Handbook, p. 68*

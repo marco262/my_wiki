@@ -48,4 +48,4 @@ The first time you do so, you suffer no adverse effect. If you use this feature 
 
 ----
 
-//Source: Player's Handbook, p. 117//
+*Source: Player's Handbook, p. 117*

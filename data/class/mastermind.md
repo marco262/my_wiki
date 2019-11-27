@@ -41,4 +41,4 @@ Additionally, no matter what you say, magic that would determine if you are tell
 
 ----
 
-//Source: Xanathar's Guide to Everything, p. 46//
+*Source: Xanathar's Guide to Everything, p. 46*

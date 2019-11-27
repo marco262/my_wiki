@@ -32,7 +32,7 @@ When you reach 3rd level, you augment your martial prowess with the ability to c
 
 **Spell Slots.** The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher.[((bibcite errata))] To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell //[[[spell:shield]]]// and have a 1st-level and a 2nd-level spell slot available, you can cast //[[[spell:shield]]]// using either slot.
+For example, if you know the 1st-level spell *[[[spell:shield]]]* and have a 1st-level and a 2nd-level spell slot available, you can cast *[[[spell:shield]]]* using either slot.
 
 **Spells Known of 1st-Level and Higher.** You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the [[[class-spell-list:wizard spells|wizard spell list]]].
 
@@ -73,7 +73,7 @@ Starting at 18th level, when you use your action to cast a spell, you can make o
 
 ----
 
-//Source: Player's Handbook, p. 74//
+*Source: Player's Handbook, p. 74*
 
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\

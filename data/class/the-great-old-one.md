@@ -8,11 +8,11 @@ The Great Old One lets you choose from an expanded list of spells when you learn
 
 **Great Old One Expanded Spells**
 ||~ Spell Level ||~ Spells ||
-|| 1st || //[[[spell:dissonant whispers]]]//, //[[[spell:Tasha's hideous laughter]]]// ||
-|| 2nd || //[[[spell:detect thoughts]]]//, //[[[spell:phantasmal force]]]// ||
-|| 3rd || //[[[spell:clairvoyance]]]//, //[[[spell:sending]]]// ||
-|| 4th || //[[[spell:dominate beast]]]//, //[[[spell:Evard's black tentacles]]]// ||
-|| 5th || //[[[spell:dominate person]]]//, //[[[spell:telekinesis]]]// ||
+|| 1st || *[[[spell:dissonant whispers]]]*, *[[[spell:Tasha's hideous laughter]]]* ||
+|| 2nd || *[[[spell:detect thoughts]]]*, *[[[spell:phantasmal force]]]* ||
+|| 3rd || *[[[spell:clairvoyance]]]*, *[[[spell:sending]]]* ||
+|| 4th || *[[[spell:dominate beast]]]*, *[[[spell:Evard's black tentacles]]]* ||
+|| 5th || *[[[spell:dominate person]]]*, *[[[spell:telekinesis]]]* ||
 
 ## Awakened Mind
 
@@ -36,4 +36,4 @@ You can communicate telepathically with the charmed creature as long as the two 
 
 ----
 
-//Source: Player's Handbook, p. 109//
+*Source: Player's Handbook, p. 109*

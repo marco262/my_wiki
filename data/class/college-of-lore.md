@@ -24,4 +24,4 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 
 ----
 
-//Source: Player's Handbook, p. 54//
+*Source: Player's Handbook, p. 54*

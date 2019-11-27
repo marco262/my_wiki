@@ -56,7 +56,7 @@ How does your patron communicate with you? If you have a familiar, it might occa
 
 ### Quick Build
 
-You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the [[[background:Charlatan]]] background. Third, choose the //[[[spell:eldritch blast]]]// and //[[[spell:chill touch]]]// cantrips, along with the 1st-level spells //[[[spell:ray of sickness]]]// and //[[[spell:witch bolt]]]//.
+You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the [[[background:Charlatan]]] background. Third, choose the *[[[spell:eldritch blast]]]* and *[[[spell:chill touch]]]* cantrips, along with the 1st-level spells *[[[spell:ray of sickness]]]* and *[[[spell:witch bolt]]]*.
 
 # Class Features
 
@@ -101,7 +101,7 @@ You know two cantrips of your choice from the [[[class-spell-list:warlock-spells
 
 The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
 
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell //[[[spell:thunderwave]]]//, you must spend one of those slots, and you cast it as a 3rd-level spell.
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell *[[[spell:thunderwave]]]*, you must spend one of those slots, and you cast it as a 3rd-level spell.
 
 ### Spells Known of 1st Level and Higher
 
@@ -136,7 +136,7 @@ At 3rd level, your otherworldly patron bestows a gift upon you for your loyal se
 
 ### Pact of the Chain
 
-You learn the //[[[spell:find familiar]]]// spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
+You learn the *[[[spell:find familiar]]]* spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
 
 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own.
 
@@ -184,23 +184,23 @@ If an eldritch invocation has prerequisites, you must meet them to learn it. You
 
 ## Agonizing Blast
 
-//Prerequisite: eldritch blast cantrip//
+*Prerequisite: eldritch blast cantrip*
 
-When you cast //[[[spell:eldritch blast]]]//, add your Charisma modifier to the damage it deals on a hit.
+When you cast *[[[spell:eldritch blast]]]*, add your Charisma modifier to the damage it deals on a hit.
 
 ## Armor of Shadows
 
-You can cast //[[[spell:mage armor]]]// on yourself at will, without expending a spell slot or material components.
+You can cast *[[[spell:mage armor]]]* on yourself at will, without expending a spell slot or material components.
 
 ## Ascendent Step
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
-You can cast //[[[spell:levitate]]]// on yourself at will, without expending a spell slot or material components.
+You can cast *[[[spell:levitate]]]* on yourself at will, without expending a spell slot or material components.
 
 ## Beast Speech
 
-You can cast //[[[spell:speak with animals]]]// at will, without expending a spell slot.
+You can cast *[[[spell:speak with animals]]]* at will, without expending a spell slot.
 
 ## Beguiling Influence
 
@@ -208,13 +208,13 @@ You gain proficiency in the Deception and Persuasion skills.
 
 ## Bewitching Whispers
 
-//Prerequisite: 7th level//
+*Prerequisite: 7th level*
 
-You can cast //[[[spell:compulsion]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:compulsion]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Book of Ancient Secrets
 
-//Prerequisite: Pact of the Tome feature//
+*Prerequisite: Pact of the Tome feature*
 
 You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.
 
@@ -222,9 +222,9 @@ On your adventures, you can add other ritual spells to your Book of Shadows. Whe
 
 ## Chains of Carceri
 
-//Prerequisite: 15th level, Pact of the Chain feature//
+*Prerequisite: 15th level, Pact of the Chain feature*
 
-You can cast //[[[spell:hold monster]]]// at will -- targeting a celestial, fiend, or elemental -- without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
+You can cast *[[[spell:hold monster]]]* at will -- targeting a celestial, fiend, or elemental -- without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
 
 ## Devil's Sight
 
@@ -232,19 +232,19 @@ You can see normally in darkness, both magical and nonmagical, to a distance of 
 
 ## Dreadful Word
 
-//Prerequisite: 7th level//
+*Prerequisite: 7th level*
 
-You can cast //[[[spell:confusion]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
-
-## Eldritch Sight
-
-You can cast //[[[spell:detect magic]]]// at will, without expending a spell slot.
+You can cast *[[[spell:confusion]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Eldritch Sight
 
-//Prerequisite: eldritch blast cantrip//
+You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot.
 
-When you cast //[[[spell:eldritch blast]]]//, its range is 300 feet.
+## Eldritch Sight
+
+*Prerequisite: eldritch blast cantrip*
+
+When you cast *[[[spell:eldritch blast]]]*, its range is 300 feet.
 
 ## Eyes of the Rune Keeper
 
@@ -252,7 +252,7 @@ You can read all writing.
 
 ## Fiendish Vigor
 
-You can cast //[[[spell:false life]]]// on yourself at will as a 1st-level spell, without expending a spell slot or material components.
+You can cast *[[[spell:false life]]]* on yourself at will as a 1st-level spell, without expending a spell slot or material components.
 
 ## Gaze of Two Minds
 
@@ -260,100 +260,100 @@ You can use your action to touch a willing humanoid and perceive through its sen
 
 ## Lifedrinker
 
-//Prerequisite: 12th level, Pact of the Blade feature//
+*Prerequisite: 12th level, Pact of the Blade feature*
 
 When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).
 
 ## Mask of Many Faces
 
-You can cast //[[[spell:disguise self]]]// at will, without expending a spell slot.
+You can cast *[[[spell:disguise self]]]* at will, without expending a spell slot.
 
 ## Master of Myriad Forms
 
-//Prerequisite: 15th level//
+*Prerequisite: 15th level*
 
-You can cast //[[[spell:alter self]]]// at will, without expending a spell slot.
+You can cast *[[[spell:alter self]]]* at will, without expending a spell slot.
 
 ## Minions of Chaos
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
-You can cast //[[[spell:conjure elemental]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:conjure elemental]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Mire the Mind
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
-You can cast //[[[spell:slow]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:slow]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Misty Visions
 
-You can cast //[[[spell:silent image]]]// at will, without expending a spell slot or material components.
+You can cast *[[[spell:silent image]]]* at will, without expending a spell slot or material components.
 
 ## One with Shadows
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
 When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.
 
 ## Otherworldly Leap
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
-You can cast //[[[spell:jump]]]// on yourself at will, without expending a spell slot or material components.
+You can cast *[[[spell:jump]]]* on yourself at will, without expending a spell slot or material components.
 
 ## Repelling Blast
 
-//Prerequisite: eldritch blast cantrip//
+*Prerequisite: eldritch blast cantrip*
 
-When you hit a creature with //[[[spell:eldritch blast]]]//, you can push the creature up to 10 feet away from you in a straight line.
+When you hit a creature with *[[[spell:eldritch blast]]]*, you can push the creature up to 10 feet away from you in a straight line.
 
 ## Sculptor of Flesh
 
-//Prerequisite: 7th level//
+*Prerequisite: 7th level*
 
-You can cast //[[[spell:polymorph]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:polymorph]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Sign of Ill Omen
 
-//Prerequisite: 5th level//
+*Prerequisite: 5th level*
 
-You can cast //[[[spell:bestow curse]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:bestow curse]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Thief of Five Fates
 
-You can cast //[[[spell:bane]]]// once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *[[[spell:bane]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 ## Thirsting Blade
 
-//Prerequisite: 5th level, Pact of the Blade feature//
+*Prerequisite: 5th level, Pact of the Blade feature*
 
 You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.
 
 ## Visions of Distant Realms
 
-//Prerequisite: 15th level//
+*Prerequisite: 15th level*
 
-You can cast //[[[spell:arcane eye]]]// at will, without expending a spell slot.
+You can cast *[[[spell:arcane eye]]]* at will, without expending a spell slot.
 
 ## Voice of the Chain Master
 
-//Prerequisite: Pact of the Chain feature//
+*Prerequisite: Pact of the Chain feature*
 
 You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.
 
 ## Whispers of the Grave
 
-//Prerequisite: 9th level//
+*Prerequisite: 9th level*
 
-You can cast //[[[spell:speak with dead]]]// at will, without expending a spell slot.
+You can cast *[[[spell:speak with dead]]]* at will, without expending a spell slot.
 
 ## Witch Sight
 
-//Prerequisite: 15th level//
+*Prerequisite: 15th level*
 
 You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.
 
 ----
 
-//Source: Player's Handbook, p. 105//
+*Source: Player's Handbook, p. 105*

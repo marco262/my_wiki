@@ -133,4 +133,4 @@ Different fighters choose different approaches to perfecting their fighting prow
 
 ----
 
-//Source: Player's Handbook, p. 70//
+*Source: Player's Handbook, p. 70*

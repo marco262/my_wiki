@@ -25,11 +25,11 @@ You gain oath spells at the paladin levels listed.
 ### Oath of Devotion Spells
 
 ||~ Paladin Level ||~ Spells ||
-|| 3rd || //[[[spell:protection from evil and good]]]//, //[[[spell:sanctuary]]]// ||
-|| 5th || //[[[spell:lesser restoration]]]//, //[[[spell:zone of truth]]]// ||
-|| 9th || //[[[spell:beacon of hope]]]//, //[[[spell:dispel magic]]]// ||
-|| 13th || //[[[spell:freedom of movement]]]//, //[[[spell:guardian of faith]]]// ||
-|| 17th || //[[[spell:commune]]]//, //[[[spell:flame strike]]]// ||
+|| 3rd || *[[[spell:protection from evil and good]]]*, *[[[spell:sanctuary]]]* ||
+|| 5th || *[[[spell:lesser restoration]]]*, *[[[spell:zone of truth]]]* ||
+|| 9th || *[[[spell:beacon of hope]]]*, *[[[spell:dispel magic]]]* ||
+|| 13th || *[[[spell:freedom of movement]]]*, *[[[spell:guardian of faith]]]* ||
+|| 17th || *[[[spell:commune]]]*, *[[[spell:flame strike]]]* ||
 
 ## Channel Divinity
 
@@ -51,7 +51,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 ## Purity of Spirit
 
-Beginning at 15th level, you are always under the effects of a //[[[spell:protection from evil and good]]]// spell.
+Beginning at 15th level, you are always under the effects of a *[[[spell:protection from evil and good]]]* spell.
 
 ## Holy Nimbus
 
@@ -65,4 +65,4 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 ----
 
-//Source: Player's Handbook, p. 85//
+*Source: Player's Handbook, p. 85*
