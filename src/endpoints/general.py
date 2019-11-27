@@ -17,12 +17,16 @@ def load_wsgi_endpoints():
         return static_file(path, root="static")
 
     @get("/js/:path#.+#", name="js")
-    def static(path):
+    def js(path):
         # Try to get minified version of JS file first
         f = static_file(path + ".min", root="js")
         if isinstance(f, HTTPError) and f.status_code == 404:
             f = static_file(path, root="js")
         return f
+
+    @get("/favicon.ico", name="favicon")
+    def favicon():
+        return static_file("favicon.ico", root="static")
 
     @get('/feedback')
     def feedback():
