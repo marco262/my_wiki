@@ -80,7 +80,6 @@ durations = [
 
 ranges = [
     "Touch",
-    "150 feet",
     "5 feet",
     "10 feet",
     "15 feet",
@@ -89,6 +88,7 @@ ranges = [
     "90 feet",
     "100 feet",
     "120 feet",
+    "150 feet",
     "300 feet",
     "500 feet",
     "1 mile",
