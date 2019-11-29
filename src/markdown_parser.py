@@ -12,15 +12,14 @@ class MarkdownParser:
 
     def __init__(self):
         self.markdown_obj = Markdown(extras=EXTRAS)
+        self.markdown_obj.preprocess = self.pre_parsing
 
     def parse_md_path(self, path):
         with open(path) as f:
             return self.parse_md(f.read())
 
     def parse_md(self, text):
-        text = self.pre_parsing(text)
-        text = self.markdown_obj.convert(text)
-        return self.post_parsing(text)
+        return self.markdown_obj.convert(text)
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
@@ -35,7 +34,4 @@ class MarkdownParser:
         text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](/\1/\2#\3)", text)
         # [[[class:cleric]]] -> [cleric](/class/cleric)
         text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](/\1/\2)", text)
-        return text
-
-    def post_parsing(self, text):
         return text
