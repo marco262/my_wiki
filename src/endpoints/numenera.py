@@ -1,14 +1,9 @@
 import re
-from collections import defaultdict, OrderedDict
-from glob import glob
-from json import loads
-from os.path import splitext, basename
+from html import unescape
 
-import toml
-from bottle import get, view, post, request, HTTPError
+from bottle import get, view, HTTPError, template
 
 from src.markdown_parser import MarkdownParser
-from src.utils import class_spell, str_to_bool
 
 MD = None
 
@@ -26,9 +21,11 @@ def load_wsgi_endpoints():
         return {"title": "Numenera", "text": md, "toc": md.toc_html}
 
     @get('/numenera/Mutants_new')
-    @view("numenera/mutants.tpl")
+    @view("numenera/page.tpl")
     def mutants():
-        return {"title": "Mutants"}
+        t = unescape(template("numenera/mutants.tpl"))
+        md = MD.parse_md(t)
+        return {"title": "Mutants", "text": md, "toc": md.toc_html}
 
     @get('/numenera/<name>')
     @view("numenera/page.tpl")

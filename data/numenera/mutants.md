@@ -121,7 +121,7 @@ The following mutations involve dramatic physical changes to the character's app
 
 ## Cosmetic Mutations
 
-Distinctive mutations affect nothing but the appearance of a character. None is so pronounced as to make a character decidedly more or less attractive. They are simply distinguishing alterations.
+Cosmetic mutations affect nothing but the appearance of a character. None is so pronounced as to make a character decidedly more or less attractive. They are simply distinguishing alterations.
 
 <table>
     <tr>
