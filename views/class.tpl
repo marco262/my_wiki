@@ -1,7 +1,7 @@
 % include("header.tpl", title=title)
 <h1>{{title}}</h1>
 
-{{!toc}}
+% include("toc.tpl")
 
 {{!text}}
 % include("footer.tpl")
