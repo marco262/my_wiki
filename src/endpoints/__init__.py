@@ -1,6 +1,6 @@
 from importlib import import_module
 
-MODULE_NAMES = ["general", "dnd"]
+MODULE_NAMES = ["general", "dnd", "numenera"]
 MODULES = [import_module("src.endpoints." + name) for name in MODULE_NAMES]
 
 
