@@ -25,6 +25,11 @@ def load_wsgi_endpoints():
         md = MD.parse_md_path("data/numenera/home.md")
         return {"title": "Numenera", "text": md, "toc": md.toc_html}
 
+    @get('/numenera/Mutants_new')
+    @view("numenera/mutants.tpl")
+    def mutants():
+        return {"title": "Mutants"}
+
     @get('/numenera/<name>')
     @view("numenera/page.tpl")
     def page(name):

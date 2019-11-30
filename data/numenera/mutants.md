@@ -22,7 +22,7 @@ The following mutations do not require any visible changes or distinctions in th
 **26-30 Thick hide:** You gain +1 to Armor.  
 **31-33 Increased lung capacity:** You can hold your breath for five minutes.  
 **34-36 Adhesion pads:** Your hands and feet have naturally adhesive pads and thus are assets in tasks involving climbing, keeping your footing, or retaining your grip.  
-**37-39 Slippery skin:** You secrete a slippery oil, giving you an asset in any task involving slipping from another’s grip, slipping from bonds, squeezing through a small opening, and so on.  
+**37-39 Slippery skin:** You secrete a slippery oil, giving you an asset in any task involving slipping from another's grip, slipping from bonds, squeezing through a small opening, and so on.  
 **40-45 Telekinetic shield:** You reflexively use telekinesis to ward away attacks, giving you an asset in Speed defense tasks.  
 **46-50 Suggestive voice:** Your voice is so perfectly modulated that it is an asset in all interaction tasks.  
 **51-53 Processor dreams:** When you sleep, you process information so that after you wake, you have an asset in any Intellect actions held over from the previous day. For example, if you have to determine whether an unknown plant is poisonous, you could "sleep on it" and make the determination the next day with an asset on the action.  

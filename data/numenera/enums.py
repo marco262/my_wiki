@@ -9,7 +9,7 @@ beneficial_mutations = [
     (34, 36, "Adhesion pads", "Your hands and feet have naturally adhesive pads and thus are assets in tasks "
                               "involving climbing, keeping your footing, or retaining your grip."),
     (37, 39, "Slippery skin", "You secrete a slippery oil, giving you an asset in any task involving slipping from "
-                              "another’s grip, slipping from bonds, squeezing through a small opening, and so on."),
+                              "another's grip, slipping from bonds, squeezing through a small opening, and so on."),
     (40, 45, "Telekinetic shield", "You reflexively use telekinesis to ward away attacks, giving you an asset in "
                                    "Speed defense tasks."),
     (46, 50, "Suggestive voice", "Your voice is so perfectly modulated that it is an asset in all interaction tasks."),
