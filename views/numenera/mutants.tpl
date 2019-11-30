@@ -72,7 +72,7 @@ for i in range(len(m1)):
     first_num_2 = "{:>02}".format("00" if m2[i][0] == 100 else m2[i][0])
     second_num_2 = "-{:>02}".format("00" if m2[i][1] == 100 else m2[i][1]) if m2[i][1] is not None else ""
     text_2 = m2[i][2]
-    if len(m3) > i + 1:
+    if len(m3) > i:
         first_num_3 = "{:>02}".format("00" if m3[i][0] == 100 else m3[i][0])
         second_num_3 = "-{:>02}".format("00" if m3[i][1] == 100 else m3[i][1]) if m3[i][1] is not None else ""
         text_3 = m3[i][2]
