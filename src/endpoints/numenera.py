@@ -6,7 +6,7 @@ from bottle import get, view, HTTPError, template, post, request
 
 from data.numenera import enums
 from src.markdown_parser import MarkdownParser
-from src.numenera_utils import pick_two_mutations
+from src.numenera_utils import pick_two_mutations, pick_mutation
 from src.utils import create_tooltip
 
 MD = None
@@ -51,7 +51,10 @@ def load_wsgi_endpoints():
             output += '    <li><em>{}:</em> {} <strong>OR</strong> {}</li>\n'.format(
                 mutation_list_name.title(), m1_tt, m2_tt
             )
-        output += "</ul>"
+        output += "</ul>\n"
+        output += "\nIf a mutation above gives you an extra beneficial mutation, you also get:<br>"
+        m = pick_mutation(enums.beneficial_mutations)
+        output += "&nbsp;&nbsp;&nbsp;&nbsp;" + create_tooltip(m[2], m[3])
         return output
 
     @get('/numenera/<name>')
