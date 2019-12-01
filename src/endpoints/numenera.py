@@ -43,16 +43,20 @@ def load_wsgi_endpoints():
         else:
             raise ValueError("FARTS lol farts {}".format(selected_option))
         mutation_lists += ["cosmetic", "cosmetic", "cosmetic", "cosmetic"]
-        output = "<ul>\n"
+        output = '<div class="no-border">\n'
+        output += '<table style="margin-left: 1em">\n'
+        td = 'td style="padding-left: 1em; padding-right: 1em"'
         for mutation_list_name in mutation_lists:
+            output += "<tr>"
             m1, m2 = pick_two_mutations(getattr(enums, mutation_list_name + "_mutations"))
             m1_tt = create_tooltip(m1[2], m1[3] if len(m1) > 3 else None)
             m2_tt = create_tooltip(m2[2], m2[3] if len(m2) > 3 else None)
-            output += '    <li><em>{}:</em> {} <strong>OR</strong> {}</li>\n'.format(
-                mutation_list_name.title(), m1_tt, m2_tt
+            output += '    <{3}><em>{0}</em></td><{3}>{1}</td><{3}>OR</td><{3}>{2}</td>\n'.format(
+                mutation_list_name.title(), m1_tt, m2_tt, td
             )
-        output += "</ul>\n"
-        output += "\nIf a mutation above gives you an extra beneficial mutation, you also get:<br>"
+            output += "</tr>\n"
+        output += "</table>\n"
+        output += "<br>\nIf a mutation above gives you an extra beneficial mutation, you also get:<br><br>\n"
         m = pick_mutation(enums.beneficial_mutations)
         output += "&nbsp;&nbsp;&nbsp;&nbsp;" + create_tooltip(m[2], m[3])
         return output

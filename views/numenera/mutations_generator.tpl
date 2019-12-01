@@ -3,7 +3,7 @@
 <h1>Mutant Generator</h1>
 
 <p>This page will let you randomly generate a combination of mutations. Pick your template from the dropdown below.<br/>
-    You can view more details of each mutation on the <a href="/numenera/Mutants/">Mutants</a> page.</p>
+    You can view more details of each mutation on the <a href="/numenera/Mutants">Mutants</a> page.</p>
 
 <div class="no-border">
     <table>
