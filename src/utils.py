@@ -144,3 +144,12 @@ def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
     if ua_spells and set(classes).intersection(spell.get("classes_ua", [])):
         return True
     return False
+
+
+def create_tooltip(text, tooltip_text=None):
+    if tooltip_text is not None:
+        return '''
+        <div class="tooltip">{}
+            <span class="tooltiptext">{}</span>
+        </div>'''.format(text, tooltip_text)
+    return text

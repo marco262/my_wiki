@@ -327,5 +327,5 @@ cosmetic_mutations = [
     (96, None, "Black spittle"),
     (97, 98, "Distinctive odor"),
     (99, None, "Feathers"),
-    (00, None, "Head crest")
+    (100, None, "Head crest")
 ]

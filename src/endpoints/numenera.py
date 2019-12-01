@@ -2,9 +2,12 @@ import re
 from html import unescape
 from os.path import isfile
 
-from bottle import get, view, HTTPError, template
+from bottle import get, view, HTTPError, template, post, request
 
+from data.numenera import enums
 from src.markdown_parser import MarkdownParser
+from src.numenera_utils import pick_two_mutations
+from src.utils import create_tooltip
 
 MD = None
 
@@ -21,10 +24,35 @@ def load_wsgi_endpoints():
         md = MD.parse_md_path("data/numenera/home.md")
         return {"title": "Numenera", "text": md, "toc": md.toc_html}
 
-    @get('/numenera/mutations_generator')
+    @get('/numenera/Mutations Generator')
     @view('numenera/mutations_generator.tpl')
     def home():
         return
+
+    @post("/numenera/mutations_generator_results")
+    def mutations_generator_results():
+        selected_option = request.params["selected"]
+        if selected_option == "2 Beneficial":
+            mutation_lists = ["beneficial", "beneficial"]
+        elif selected_option == "3 Beneficial and 1 Harmful":
+            mutation_lists = ["beneficial", "beneficial", "beneficial", "harmful"]
+        elif selected_option == "1 Powerful and 1 Harmful":
+            mutation_lists = ["powerful", "harmful"]
+        elif selected_option == "1 Powerful, 1 Distinctive, 1 Harmful":
+            mutation_lists = ["powerful", "distinctive", "harmful"]
+        else:
+            raise ValueError("FARTS lol farts {}".format(selected_option))
+        mutation_lists += ["cosmetic", "cosmetic", "cosmetic", "cosmetic"]
+        output = "<ul>\n"
+        for mutation_list_name in mutation_lists:
+            m1, m2 = pick_two_mutations(getattr(enums, mutation_list_name + "_mutations"))
+            m1_tt = create_tooltip(m1[2], m1[3] if len(m1) > 3 else None)
+            m2_tt = create_tooltip(m2[2], m2[3] if len(m2) > 3 else None)
+            output += '    <li><em>{}:</em> {} <strong>OR</strong> {}</li>\n'.format(
+                mutation_list_name.title(), m1_tt, m2_tt
+            )
+        output += "</ul>"
+        return output
 
     @get('/numenera/<name>')
     @view("numenera/page.tpl")

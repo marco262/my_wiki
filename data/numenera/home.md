@@ -1,1 +1,2 @@
-[[[numenera:Mutants]]]
+* [[[numenera:Mutants]]]
+* [[[numenera:Mutations Generator]]]

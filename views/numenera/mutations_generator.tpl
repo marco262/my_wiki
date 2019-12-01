@@ -1,40 +1,35 @@
-% include("header.tpl", title="Spell Search")
+% include("header.tpl", title="Mutant Generator")
 
-<h1>Spell Search</h1>
+<h1>Mutant Generator</h1>
 
-<table border="0">
-    <tr>
-        <td>Search Key:</td>
-        <td>
-            <form action="/numenera/mutations_generator_results">
-                <input list="browsers">
-                <datalist id="browsers">
-                    <option value="Internet Explorer">
-                    <option value="Firefox">
-                    <option value="Chrome">
-                    <option value="Opera">
-                    <option value="Safari">
-                </datalist>
-            </form>
-            <select>
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="audi">Audi</option>
-            </select>
-            <input type="button" value="Search" id="search_button" />
-        </td>
-    </tr>
-</table>
+<p>This page will let you randomly generate a combination of mutations. Pick your template from the dropdown below.<br/>
+    You can view more details of each mutation on the <a href="/numenera/Mutants/">Mutants</a> page.</p>
 
-<p />
+<div class="no-border">
+    <table>
+        <tr>
+            <td>Search Key:</td>
+            <td>
+                <select id="selected_mutation">
+                    <option value="2 Beneficial">2 Beneficial</option>
+                    <option value="3 Beneficial and 1 Harmful">3 Beneficial and 1 Harmful</option>
+                    <option value="1 Powerful and 1 Harmful">1 Powerful and 1 Harmful</option>
+                    <option value="1 Powerful, 1 Distinctive, 1 Harmful">1 Powerful, 1 Distinctive, 1 Harmful</option>
+                </select>
+                <input type="button" value="Generate" id="generate_button"/>
+            </td>
+        </tr>
+    </table>
+</div>
 
-<div id="search_results"><i>Search results will appear here</i></div>
+<p>
+
+<div id="generator_results"><i>Your generated mutations will appear here</i></div>
 
 <script type="module">
-    import {search, on_key_press} from "/js/search.js";
-    document.getElementById("search_key").onkeypress = on_key_press;
-    document.getElementById("search_button").onclick = search;
+    import {generate, on_key_press} from "/js/mutations_generator.js";
+    document.getElementById("selected_mutation").onkeypress = on_key_press;
+    document.getElementById("generate_button").onclick = generate;
 </script>
 
 % include("footer.tpl")
