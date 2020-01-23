@@ -31,7 +31,7 @@ class StreamToLogger(object):
             self.logger.log(self.log_level, line.rstrip())
 
 
-def setup_logging(name, log_level=None, capture_stderr=False):
+def setup_logging(name, log_level=None, capture_stderr=True):
     cfg = load_config()
     level = getattr(logging, cfg.get('Logging', 'level') if log_level is None else log_level)
     logs_folder = './logs'
