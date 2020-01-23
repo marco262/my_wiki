@@ -127,3 +127,5 @@ dmypy.json
 *.lock
 *___jb_old___
 *___jb_tmp___
+
+logs/
