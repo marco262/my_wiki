@@ -8,7 +8,7 @@
         <th>School</th>
         <%
         if get("show_classes"):
-            for c in classes:
+            for c in spell_classes:
         %>
         <th>{{c.title()}}</th>
         <%
@@ -23,7 +23,7 @@
         <td>{{s["school"].title()}}</td>
         <%
         if get("show_classes"):
-            for c in classes:
+            for c in spell_classes:
         %>
         <td>{{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}</td>
         <%
