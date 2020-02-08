@@ -1,4 +1,4 @@
-from bottle import run
+import bottle
 from fasteners import process_lock
 
 from src.endpoints import load_wsgi_endpoints
@@ -20,18 +20,25 @@ class Server:
     server_thread = None
     interval = None
 
-    def __init__(self, host=None, port=None, log_level=None, run_as_thread=None):
+    def __init__(self, host=None, port=None, log_level=None, run_as_thread=None, debug=False):
         self._get_process_lock()
 
         cfg = load_config()
         self.logger = setup_logging("log", log_level=log_level)
 
-        load_wsgi_endpoints()
+        bottle.debug(debug)
+        self.app = bottle.Bottle()
+        load_wsgi_endpoints(self.app)
+
+        if debug:
+            for r in self.app.routes:
+                print(r)
 
         self._init_server(
             host=cfg.get("Settings", "host") if host is None else host,
             port=cfg.getint("Settings", "port") if port is None else port,
-            run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is None else run_as_thread
+            run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is None else run_as_thread,
+            debug=debug
         )
 
     @staticmethod
@@ -40,7 +47,7 @@ class Server:
         if not lock.acquire(blocking=False):
             raise ChildProcessError("Server process is already running")
 
-    def _init_server(self, host=None, port=None, run_as_thread=None):
+    def _init_server(self, host=None, port=None, run_as_thread=None, debug=False):
         if run_as_thread:
             from threading import Thread
             self.server_thread = Thread(name="MyWikiServer", target=self._run_server, args=[host, port],
@@ -48,11 +55,10 @@ class Server:
             self.server_thread.start()
             print("Server thread started.")
         else:
-            self._run_server(host, port)
+            self._run_server(host, port, debug)
 
-    @staticmethod
-    def _run_server(host, port):
-        run(host=host, port=port)
+    def _run_server(self, host, port, debug=False):
+        self.app.run(host=host, port=port, reloader=debug)
         print("Server instance is ending.")
 
 

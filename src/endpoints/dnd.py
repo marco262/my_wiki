@@ -5,7 +5,7 @@ from json import loads
 from os.path import splitext, basename
 
 import toml
-from bottle import get, view, post, request, HTTPError
+from bottle import view, request, HTTPError, Bottle
 
 from src.markdown_parser import MarkdownParser
 from src.utils import class_spell, str_to_bool
@@ -37,13 +37,13 @@ def load_spells():
     print(" Done.")
 
 
-def load_wsgi_endpoints():
-    @get('/search')
+def load_wsgi_endpoints(app: Bottle):
+    @app.get('/search')
     @view('search.tpl')
     def search():
         return
 
-    @get('/search_results/<search_key>')
+    @app.get('/search_results/<search_key>')
     @view("spell_list_table.tpl")
     def search_results(search_key):
         results = []
@@ -56,12 +56,12 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get("/spell_filter")
+    @app.get("/spell_filter")
     @view("spell_filter.tpl")
     def spell_filter():
         return
 
-    @post('/filter_results')
+    @app.post('/filter_results')
     @view("spell_list.tpl")
     def filter_results():
         filter_keys = loads(request.params["filter_keys"])
@@ -112,7 +112,7 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get('/spell/<name>')
+    @app.get('/spell/<name>')
     @view("spell.tpl")
     def spell(name):
         formatted_name = re.sub("\W", "-", name.lower())
@@ -120,7 +120,7 @@ def load_wsgi_endpoints():
             raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
         return SPELLS[formatted_name]
 
-    @get('/all_spells_by_name/<ua_spells>')
+    @app.get('/all_spells_by_name/<ua_spells>')
     @view("spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
         spells = defaultdict(list)
@@ -134,7 +134,7 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get('/class_spell_list/<c>/<ua_spells>')
+    @app.get('/class_spell_list/<c>/<ua_spells>')
     @view("spell_list_page.tpl")
     def class_spell_list(c, ua_spells):
         spells = defaultdict(list)
@@ -149,7 +149,7 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get('/concentration_spells/<ua_spells>')
+    @app.get('/concentration_spells/<ua_spells>')
     @view("spell_list_page.tpl")
     def concentration_spell_list(ua_spells):
         spells = defaultdict(list)
@@ -164,7 +164,7 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get('/ritual_spells/<ua_spells>')
+    @app.get('/ritual_spells/<ua_spells>')
     @view("spell_list_page.tpl")
     def ritual_spell_list(ua_spells):
         spells = defaultdict(list)
@@ -179,7 +179,7 @@ def load_wsgi_endpoints():
         }
         return d
 
-    @get('/class/<name>')
+    @app.get('/class/<name>')
     @view("class.tpl")
     def dnd_class(name):
         formatted_name = re.sub("\W", "-", name.lower())
