@@ -1,22 +1,22 @@
-from bottle import get, view, static_file, HTTPError
+from bottle import view, static_file, HTTPError, Bottle
 
 
 def init():
     pass
 
 
-def load_wsgi_endpoints():
-    @get('/')
-    @get('/help')
+def load_wsgi_endpoints(app: Bottle):
+    @app.get('/')
+    @app.get('/help')
     @view('home.tpl')
     def index_help():
         return
 
-    @get("/static/:path#.+#", name="static")
+    @app.get("/static/:path#.+#", name="static")
     def static(path):
         return static_file(path, root="static")
 
-    @get("/js/:path#.+#", name="js")
+    @app.get("/js/:path#.+#", name="js")
     def js(path):
         # Try to get minified version of JS file first
         f = static_file(path + ".min", root="js")
@@ -24,10 +24,10 @@ def load_wsgi_endpoints():
             f = static_file(path, root="js")
         return f
 
-    @get("/favicon.ico", name="favicon")
+    @app.get("/favicon.ico", name="favicon")
     def favicon():
         return static_file("favicon.ico", root="static")
 
-    @get('/feedback')
+    @app.get('/feedback')
     def feedback():
         return "Feedback here"

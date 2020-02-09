@@ -1,13 +1,18 @@
 import logging
 import os
+import re
 import sys
 from configparser import RawConfigParser
 from copy import deepcopy
 from enum import Enum
+from html import unescape
 from html.parser import HTMLParser
 from logging.handlers import TimedRotatingFileHandler
+from os.path import isfile
 from shutil import copyfile
 from typing import Optional, Union, List
+
+from bottle import template, HTTPError
 
 
 class Mode(Enum):
@@ -144,3 +149,25 @@ def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
     if ua_spells and set(classes).intersection(spell.get("classes_ua", [])):
         return True
     return False
+
+
+def create_tooltip(text, tooltip_text=None):
+    if tooltip_text is not None:
+        return '''
+        <div class="tooltip">{}
+            <span class="tooltiptext">{}</span>
+        </div>'''.format(text, tooltip_text)
+    return text
+
+
+def md_page(page_name, namespace, md_obj):
+    formatted_name = re.sub("\W", "-", page_name.lower())
+    if isfile(f"views/{namespace}/{formatted_name}.tpl"):
+        text = unescape(template(f"views/{namespace}/{formatted_name}.tpl"))
+    elif isfile(f"data/{namespace}/{formatted_name}.md"):
+        with open(f"data/{namespace}/{formatted_name}.md") as f:
+            text = f.read()
+    else:
+        raise HTTPError(404, f"I couldn't find \"{page_name}\".")
+    md = md_obj.parse_md(text)
+    return {"title": page_name.title(), "text": md, "toc": md.toc_html}

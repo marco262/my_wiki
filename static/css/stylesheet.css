@@ -95,8 +95,24 @@ div.errata{
     background-color: #FEA;
 }
 
-table, tbody, th, td {
+/* Enable borders on tables by default (copy default browser border look) */
+
+table, td {
     border: 1px solid black;
+}
+
+table {
+    border-top-color: grey;
+    border-left-color: grey;
+}
+
+th, td {
+    border-bottom-color: grey;
+    border-right-color: grey;
+}
+
+table.no-border, table.no-border th, table.no-border td {
+    border: 0;
 }
 
 th, td {
@@ -117,4 +133,32 @@ div.toc ul {
     list-style-type: none;
     margin: 0 0 0 1em;
     padding: 0 0 0 0;
+}
+
+/* From https://www.w3schools.com/css/css_tooltip.asp */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 3px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
