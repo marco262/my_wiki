@@ -36,4 +36,4 @@ If using this ability grants you a success on the attack, saving throw, or abili
 
 ----
 
-*Source: https://media.wizards.com/2015/downloads/dnd/04_UA_Classics_Revisited.pdf*
+*Source: [https://media.wizards.com/2015/downloads/dnd/04_UA_Classics_Revisited.pdf]()*

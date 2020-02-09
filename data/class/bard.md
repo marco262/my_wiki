@@ -184,6 +184,16 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 * [[[class:College of Lore]]]
 * [[[class:College of Valor]]]
 
+## Xanathar's Guide to Everything
+
+* [[[class:College of Glamour]]]
+* [[[class:College of Swords]]]
+* [[[class:College of Whispers]]]
+
+## Unearthed Arcana
+
+* [[[class:College of Satire]]]
+
 ----
 
 *Source: Player's Handbook, p. 51*
