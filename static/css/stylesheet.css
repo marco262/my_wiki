@@ -97,7 +97,7 @@ div.errata{
 
 /* Enable borders on tables by default (copy default browser border look) */
 
-table, td {
+table, th, td {
     border: 1px solid black;
 }
 
