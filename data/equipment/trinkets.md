@@ -4,7 +4,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 ||~ d100 ||~ Trinket ||
 || 01 || A mummified goblin hand touch ||
 || 02 || A piece of crystal that faintly glows in the moonlight ||
-|| 04 || A diary written in a language you don’t know ||
+|| 04 || A diary written in a language you don't know ||
 || 05 || A brass ring that never tarnishes ||
 || 06 || An old chess piece made from glass graphite, or any other substance or marking ||
 || 07 || A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips ||

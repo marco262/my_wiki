@@ -18,7 +18,7 @@ If you perform for at least 1 minute, you can attempt to inspire wonder in your 
 
 If a target succeeds on its saving throw, the target has no hint that you tried to charm it.
 
-Once you use this feature, you can’t use it again until you finish a short or long rest.
+Once you use this feature, you can't use it again until you finish a short or long rest.
 
 # Mantle of Majesty
 
@@ -26,7 +26,7 @@ At 6th level, you gain the ability to cloak yourself in a fey magic that makes o
 
 Any creature charmed by you automatically fails its saving throw against the Command you cast with this feature.
 
-Once you use this feature, you can’t use it again until you finish a long rest.
+Once you use this feature, you can't use it again until you finish a long rest.
 
 # Unbreakable Majesty
 

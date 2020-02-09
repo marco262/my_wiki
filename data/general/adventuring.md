@@ -208,7 +208,7 @@ At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet 
 ++ Suffocating
 
 [[div class="errata"]]
-**Errata** "If you run out of breath, you can’t regain hit points or be stabilized until you can breathe again." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
+**Errata** "If you run out of breath, you can't regain hit points or be stabilized until you can breathe again." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
 [[/div]]A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).
 
 When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum 1 round). At the start of its next turn, it drops to 0 hit points and is [[[general:conditions#dying|dying]]].
