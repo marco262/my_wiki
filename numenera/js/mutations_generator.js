@@ -1,4 +1,4 @@
-import { ajax_call } from "./utils.js";
+import { ajax_call } from "../../js/utils.js";
 
 let key_press_timer;
 
