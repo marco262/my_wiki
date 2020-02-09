@@ -5,22 +5,20 @@
 <p>This page will let you randomly generate a combination of mutations. Pick your template from the dropdown below.<br/>
     You can view more details of each mutation on the <a href="/numenera/Mutants">Mutants</a> page.</p>
 
-<div class="no-border">
-    <table>
-        <tr>
-            <td>Search Key:</td>
-            <td>
-                <select id="selected_mutation">
-                    <option value="2 Beneficial">2 Beneficial</option>
-                    <option value="3 Beneficial and 1 Harmful">3 Beneficial and 1 Harmful</option>
-                    <option value="1 Powerful and 1 Harmful">1 Powerful and 1 Harmful</option>
-                    <option value="1 Powerful, 1 Distinctive, 1 Harmful">1 Powerful, 1 Distinctive, 1 Harmful</option>
-                </select>
-                <input type="button" value="Generate" id="generate_button"/>
-            </td>
-        </tr>
-    </table>
-</div>
+<table class="no-border">
+    <tr>
+        <td>Search Key:</td>
+        <td>
+            <select id="selected_mutation">
+                <option value="2 Beneficial">2 Beneficial</option>
+                <option value="3 Beneficial and 1 Harmful">3 Beneficial and 1 Harmful</option>
+                <option value="1 Powerful and 1 Harmful">1 Powerful and 1 Harmful</option>
+                <option value="1 Powerful, 1 Distinctive, 1 Harmful">1 Powerful, 1 Distinctive, 1 Harmful</option>
+            </select>
+            <input type="button" value="Generate" id="generate_button"/>
+        </td>
+    </tr>
+</table>
 
 <p>
 

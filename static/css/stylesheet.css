@@ -95,17 +95,29 @@ div.errata{
     background-color: #FEA;
 }
 
-table, tbody, th, td {
+/* Enable borders on tables by default (copy default browser border look) */
+
+table, td {
     border: 1px solid black;
+}
+
+table {
+    border-top-color: grey;
+    border-left-color: grey;
+}
+
+th, td {
+    border-bottom-color: grey;
+    border-right-color: grey;
+}
+
+table.no-border, table.no-border th, table.no-border td {
+    border: 0;
 }
 
 th, td {
     margin: 0;
     padding: 3px;
-}
-
-div.no-border table, table, tbody, thead, tr, th, td {
-    border: 0;
 }
 
 div.toc {

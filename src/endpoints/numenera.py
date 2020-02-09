@@ -3,7 +3,7 @@ from bottle import Bottle, view, request
 from data.numenera import enums
 from src.markdown_parser import MarkdownParser
 from src.numenera_utils import pick_two_mutations, pick_mutation
-from src.utils import create_tooltip
+from src.utils import create_tooltip, md_page
 
 MD = None
 
@@ -21,12 +21,12 @@ def load_wsgi_endpoints(app: Bottle):
         md = MD.parse_md_path("data/numenera/home.md")
         return {"title": "Numenera", "text": md, "toc": md.toc_html}
 
-    @app.get("numenera/Mutations Generator")
+    @app.get("/numenera/Mutations Generator")
     @view("numenera/mutations_generator.tpl")
     def mutations_generator():
         return
 
-    @app.post("numenera/mutations_generator_results")
+    @app.post("/numenera/mutations_generator_results")
     def mutations_generator_results():
         selected_option = request.params["selected"]
         if selected_option == "2 Beneficial":
@@ -41,7 +41,7 @@ def load_wsgi_endpoints(app: Bottle):
             raise ValueError("FARTS lol farts {}".format(selected_option))
         mutation_lists += ["cosmetic", "cosmetic", "cosmetic", "cosmetic"]
         output = '<div class="no-border">\n'
-        output += '<table style="margin-left: 1em">\n'
+        output += '<table class="no-border" style="margin-left: 1em">\n'
         output += '<style>td {padding-left: 1em; padding-right: 1em;}</style>'
         for mutation_list_name in mutation_lists:
             output += "<tr>"
@@ -54,7 +54,13 @@ def load_wsgi_endpoints(app: Bottle):
                       f"    <td>{m2_tt}</td>\n" \
                       f"</tr>\n"
         output += "</table>\n"
+        output += "</div>\n"
         output += "<br>\nIf a mutation above gives you an extra beneficial mutation, you also get:<br><br>\n"
         m = pick_mutation(enums.beneficial_mutations)
         output += "&nbsp;&nbsp;&nbsp;&nbsp;" + create_tooltip(m[2], m[3])
         return output
+
+    @app.get('/numenera/<name>')
+    @view("numenera/page.tpl")
+    def page(name):
+        return md_page(name, "numenera", MD)
