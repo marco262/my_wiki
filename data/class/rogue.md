@@ -153,7 +153,7 @@ Rogues have many features in common, including their emphasis on perfecting thei
 
 * [[[class:Inquisitive]]]
 * [[[class:Mastermind]]]
-* [[[class:Scout]]]
+* [[[class:scout-rogue|Scout]]]
 * [[[class:Swashbuckler]]]
 
 ----

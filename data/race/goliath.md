@@ -1,6 +1,6 @@
 At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.
 
-+ Goliath Features
+# Goliath Features
 
  * **Ability Score Increase.** Your Strength score increases by 2, and your Constitution score increases by 1.
  * **Age.** Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
@@ -12,3 +12,7 @@ At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak re
  * **Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
  * **Mountain Born.** You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates.
  * **Languages.** You can speak, read, and write Common and Giant.
+
+----
+
+*Source: Volo's Guide to Monsters, p. 108*

@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin: 0; }
-[[/module]]
-
 The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
 
 ## The Champion
@@ -34,7 +30,7 @@ Beginning when you choose this archetype at 3rd level, your weapon attacks score
 
 ## Superlative Skill
 
-Beginning at 3rd level, your proficiency bonus is doubled for any ability check you make that uses the Acrobatics or Athletics skill if you are proficient in that skill.
+Beginning at 3rd level, your proficiency bonus is doubled for any ability check you make that uses the Acrobatics or Athletics skill, if you are proficient in that skill.
 
 ## Remarkable Athlete
 
@@ -60,4 +56,4 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 ----
 
-*Source:* https://old.reddit.com/r/UnearthedArcana/comments/cesgu1/the_champion_revised_v20_final_version_probably/
+*Source:* <https://old.reddit.com/r/UnearthedArcana/comments/cesgu1/the_champion_revised_v20_final_version_probably/>

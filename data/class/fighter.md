@@ -127,9 +127,26 @@ Different fighters choose different approaches to perfecting their fighting prow
 * [[[class:Battle Master]]]
 * [[[class:Eldritch Knight]]]
 
+## Sword Coast Adventurer's Guide
+
+* [[[class:Banneret|Purple Dragon Knight / Banneret]]]
+
+## Xanathar's Guide to Everything
+
+* [[[class:Arcane Archer]]]
+* [[[class:Cavalier]]]
+* [[[class:Samurai]]]
+
+## Unearthed Arcana
+
+* [[[class:Brute]]]
+* [[[class:Monster Hunter]]]
+* [[[class:Sharpshooter]]]
+
 ## Homebrew
 
-* [[[class:Champion, Revised]]]
+* [[[class:Champion Revised|Champion, Revised]]]
+* [[[class:Monster Hunter Revised|Monster Hunter, Revised]]]
 
 ----
 
