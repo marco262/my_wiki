@@ -192,6 +192,7 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
 ## Unearthed Arcana
 
+* [[[class:College of Eloquence]]]
 * [[[class:College of Satire]]]
 
 ----

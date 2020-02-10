@@ -229,6 +229,10 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 * [[[class:Oath of Conquest]]]
 * [[[class:Oath of Redemption]]]
 
+## Unearthed Arcana
+
+* [[[class:Oath of Heroism]]]
+
 ----
 
 *Source: Player's Handbook, p. 82*
