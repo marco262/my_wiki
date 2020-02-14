@@ -7,8 +7,9 @@ from os.path import splitext, basename
 import toml
 from bottle import view, request, HTTPError, Bottle
 
-from src.markdown_parser import MarkdownParser
-from src.utils import class_spell, str_to_bool
+from src.common.markdown_parser import MarkdownParser
+from src.common.utils import str_to_bool
+from src.dnd.utils import class_spell
 
 SPELLS = {}
 MD = None

@@ -2,7 +2,7 @@ import bottle
 from fasteners import process_lock
 
 from src import load_wsgi_endpoints
-from src.utils import setup_logging, load_config
+from src.common.utils import setup_logging, load_config
 
 VERSION = (0, 0, 1)
 

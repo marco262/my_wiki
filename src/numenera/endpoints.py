@@ -1,8 +1,8 @@
 from bottle import Bottle, view, request
 from data.numenera import enums
-from src.markdown_parser import MarkdownParser
+from src.common.markdown_parser import MarkdownParser
 from src.numenera.utils import pick_two_mutations, pick_mutation
-from src.utils import create_tooltip, md_page
+from src.common.utils import create_tooltip, md_page
 
 MD = None
 
