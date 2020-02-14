@@ -160,7 +160,7 @@ def create_tooltip(text, tooltip_text=None):
     return text
 
 
-def md_page(page_name, namespace, md_obj):
+def md_page(page_name, namespace, md_obj, build_toc=True):
     formatted_name = re.sub("\W", "-", page_name.lower())
     template_path = f"views/{namespace}/{formatted_name}.tpl"
     md_path = f"data/{namespace}/{formatted_name}.md"
@@ -173,7 +173,10 @@ def md_page(page_name, namespace, md_obj):
     else:
         raise HTTPError(404, f"I couldn't find \"{page_name}\".")
     md = md_obj.parse_md(text)
-    return {"title": page_name.title(), "text": md, "toc": md.toc_html}
+    kwargs = {"title": page_name.title(), "text": md}
+    if build_toc:
+        kwargs["toc"] = md.toc_html
+    return template("common/page.tpl", kwargs)
 
 
 def load_static_endpoints_for_namespace(app: Bottle, namespace: str):

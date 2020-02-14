@@ -14,9 +14,8 @@ def init():
 
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
-    @view("numenera/page.tpl")
     def home():
-        return md_page("home", "numenera", MD)
+        return md_page("home", "numenera", MD, build_toc=False)
 
     @app.get("/Mutations Generator")
     @view("numenera/mutations_generator.tpl")
@@ -58,6 +57,5 @@ def load_wsgi_endpoints(app: Bottle):
         return output
 
     @app.get("/<name>")
-    @view("numenera/page.tpl")
     def page(name):
         return md_page(name, "numenera", MD)
