@@ -11,4 +11,4 @@ path = request.urlparts.path
 % if not path == "/":
 <a href="/">Home</a><br>
 % end
-<a href="/feedback">Report a Problem</a>
+<p><a href="/feedback">Report a Problem</a>

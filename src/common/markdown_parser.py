@@ -32,9 +32,11 @@ class MarkdownParser:
         namespace_domain = "/" + self.namespace if self.namespace else ""
         # Convert wiki links to markdown
         # [[[class:cleric#toc|Table of Contents]]] -> [Table of Contents](/dnd/class/cleric#toc)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]", r"[\3](" + self.namespace + r"/\1/\2)", text)
+        text = re.sub(r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]", r"[\3](" + namespace_domain + r"/\1/\2)", text)
         # [[[class:cleric#domains]]] -> [domains](/dnd/class/cleric#domains)
-        text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](" + self.namespace + r"/\1/\2#\3)", text)
+        text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](" + namespace_domain + r"/\1/\2#\3)", text)
         # [[[class:cleric]]] -> [cleric](/dnd/class/cleric)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + self.namespace + r"/\1/\2)", text)
+        text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + namespace_domain + r"/\1/\2)", text)
+        # [[[Mutants]]] -> [Mutants](/numenera/mutants)
+        text = re.sub(r"\[\[\[(.+?)\]\]\]", r"[\1](" + namespace_domain + r"/\1)", text)
         return text
