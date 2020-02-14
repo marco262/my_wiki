@@ -1,7 +1,7 @@
 import bottle
 from fasteners import process_lock
 
-from src.endpoints import load_wsgi_endpoints
+from src import load_wsgi_endpoints
 from src.utils import setup_logging, load_config
 
 VERSION = (0, 0, 1)
@@ -24,15 +24,18 @@ class Server:
         self._get_process_lock()
 
         cfg = load_config()
-        self.logger = setup_logging("log", log_level=log_level)
+        # Send stderr to logs if we're not running in debug mode
+        self.logger = setup_logging("log", log_level=log_level, capture_stderr=not debug)
 
         bottle.debug(debug)
         self.app = bottle.Bottle()
         load_wsgi_endpoints(self.app)
 
         if debug:
+            print("\nLoaded routes:")
             for r in self.app.routes:
                 print(r)
+            print("")
 
         self._init_server(
             host=cfg.get("Settings", "host") if host is None else host,

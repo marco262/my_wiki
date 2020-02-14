@@ -12,7 +12,7 @@ from os.path import isfile
 from shutil import copyfile
 from typing import Optional, Union, List
 
-from bottle import template, HTTPError
+from bottle import template, HTTPError, Bottle, static_file
 
 
 class Mode(Enum):
@@ -36,7 +36,7 @@ class StreamToLogger(object):
             self.logger.log(self.log_level, line.rstrip())
 
 
-def setup_logging(name, log_level=None, capture_stderr=True):
+def setup_logging(name, log_level=None, capture_stderr=False):
     cfg = load_config()
     level = getattr(logging, cfg.get('Logging', 'level') if log_level is None else log_level)
     logs_folder = './logs'
@@ -162,12 +162,30 @@ def create_tooltip(text, tooltip_text=None):
 
 def md_page(page_name, namespace, md_obj):
     formatted_name = re.sub("\W", "-", page_name.lower())
-    if isfile(f"views/{namespace}/{formatted_name}.tpl"):
-        text = unescape(template(f"views/{namespace}/{formatted_name}.tpl"))
-    elif isfile(f"data/{namespace}/{formatted_name}.md"):
-        with open(f"data/{namespace}/{formatted_name}.md") as f:
+    template_path = f"views/{namespace}/{formatted_name}.tpl"
+    md_path = f"data/{namespace}/{formatted_name}.md"
+
+    if isfile(template_path):
+        text = unescape(template(template_path))
+    elif isfile(md_path):
+        with open(md_path) as f:
             text = f.read()
     else:
         raise HTTPError(404, f"I couldn't find \"{page_name}\".")
     md = md_obj.parse_md(text)
     return {"title": page_name.title(), "text": md, "toc": md.toc_html}
+
+
+def load_static_endpoints_for_namespace(app: Bottle, namespace: str):
+
+    @app.get("/static/<path:path>")
+    def static(path):
+        return static_file(path, root=f"{namespace}/static")
+
+    @app.get("/js/<path:path>")
+    def js(path):
+        # Try to get minified version of JS file first
+        f = static_file(path + ".min", root=f"{namespace}/js")
+        if isinstance(f, HTTPError) and f.status_code == 404:
+            f = static_file(path, root=f"{namespace}/js")
+        return f

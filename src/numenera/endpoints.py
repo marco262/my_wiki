@@ -1,11 +1,10 @@
 from bottle import Bottle, view, request
-from numenera.data import enums
-from numenera.src.utils import pick_two_mutations, pick_mutation
+from data.numenera import enums
 from src.markdown_parser import MarkdownParser
+from src.numenera.utils import pick_two_mutations, pick_mutation
 from src.utils import create_tooltip, md_page
 
 MD = None
-TPL_PATH = {"template_lookup": ["./views", "./numenera/views"]}
 
 
 def init():
@@ -14,19 +13,17 @@ def init():
 
 
 def load_wsgi_endpoints(app: Bottle):
-
-    @app.get("/numenera")
-    @view("page.tpl", **TPL_PATH)
+    @app.get("/")
+    @view("numenera/page.tpl")
     def home():
-        md = MD.parse_md_path("data/numenera/home.md")
-        return {"title": "Numenera", "text": md, "toc": md.toc_html}
+        return md_page("home", "numenera", MD)
 
-    @app.get("/numenera/Mutations Generator")
-    @view("mutations_generator.tpl", **TPL_PATH)
+    @app.get("/Mutations Generator")
+    @view("numenera/mutations_generator.tpl")
     def mutations_generator():
         return
 
-    @app.post("/numenera/mutations_generator_results")
+    @app.post("/mutations_generator_results")
     def mutations_generator_results():
         selected_option = request.params["selected"]
         if selected_option == "2 Beneficial":
@@ -60,7 +57,7 @@ def load_wsgi_endpoints(app: Bottle):
         output += "&nbsp;&nbsp;&nbsp;&nbsp;" + create_tooltip(m[2], m[3])
         return output
 
-    @app.get("/numenera/<name>")
-    @view("page.tpl", **TPL_PATH)
+    @app.get("/<name>")
+    @view("numenera/page.tpl")
     def page(name):
         return md_page(name, "numenera", MD)

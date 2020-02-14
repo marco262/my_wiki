@@ -12,11 +12,11 @@ def load_wsgi_endpoints(app: Bottle):
     def index_help():
         return
 
-    @app.get("/static/:path#.+#", name="static")
+    @app.get("/static/<path:path>", name="static")
     def static(path):
         return static_file(path, root="static")
 
-    @app.get("/js/:path#.+#", name="js")
+    @app.get("/js/<path:path>", name="js")
     def js(path):
         # Try to get minified version of JS file first
         f = static_file(path + ".min", root="js")
