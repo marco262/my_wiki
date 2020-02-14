@@ -1,4 +1,4 @@
-% include("header.tpl", title="Mutant Generator")
+% include("common/header.tpl", title="Mutant Generator")
 
 <h1>Mutant Generator</h1>
 
@@ -30,4 +30,4 @@
     document.getElementById("generate_button").onclick = generate;
 </script>
 
-% include("footer.tpl")
+% include("common/footer.tpl")

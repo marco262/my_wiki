@@ -6,18 +6,16 @@ from os.path import splitext, basename
 
 import toml
 from bottle import view, request, HTTPError, Bottle
+from src import MD
 
 from src.common.markdown_parser import MarkdownParser
 from src.common.utils import str_to_bool
 from src.dnd.utils import class_spell
 
 SPELLS = {}
-MD = None
 
 
 def init():
-    global MD
-    MD = MarkdownParser()
     load_spells()
 
 
@@ -116,7 +114,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/spell/<name>')
     @view("spell.tpl")
     def spell(name):
-        formatted_name = re.sub("\W", "-", name.lower())
+        formatted_name = re.sub(r"\W", "-", name.lower())
         if formatted_name not in SPELLS:
             raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
         return SPELLS[formatted_name]
@@ -183,7 +181,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/class/<name>')
     @view("class.tpl")
     def dnd_class(name):
-        formatted_name = re.sub("\W", "-", name.lower())
+        formatted_name = re.sub(r"\W", "-", name.lower())
         path = "data/class/" + formatted_name + ".md"
         try:
             md = MD.parse_md_path(path)

@@ -1,8 +1,11 @@
 from importlib import import_module
 
 from bottle import Bottle
+from src.common.markdown_parser import MarkdownParser
 
-MODULE_NAMES = ["common", "numenera"]
+MD = MarkdownParser()
+
+MODULE_NAMES = ["common", "dnd", "numenera"]
 
 
 def load_wsgi_endpoints(app: Bottle):

@@ -1,4 +1,4 @@
-% include("header.tpl", title="Spell Filter")
+% include("common/header.tpl", title="Spell Filter")
 % from src.utils import ordinal
 % from data.enums import spell_classes, spell_levels, schools, sources, casting_times
 <h1>Spell Filter</h1>
@@ -79,8 +79,8 @@
 <div id="filter_results"><i>Filter results will appear here</i></div>
 
 <script type="module">
-    import { init_events } from "/js/filter.js";
+    import { init_events } from "/js/dnd/filter.js";
     init_events();
 </script>
 
-% include("footer.tpl")
+% include("common/footer.tpl")

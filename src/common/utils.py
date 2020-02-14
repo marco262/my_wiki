@@ -13,6 +13,9 @@ from bottle import template, HTTPError
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
+from src import MD
+
+
 class StreamToLogger(object):
     """
     Fake file-like stream object that redirects writes to a logger instance.
@@ -112,10 +115,10 @@ def create_tooltip(text, tooltip_text=None):
     return text
 
 
-def md_page(page_name, namespace, md_obj, build_toc=True):
+def md_page(page_name, namespace, build_toc=True):
     formatted_name = re.sub("\W", "-", page_name.lower())
-    template_path = f"views/{namespace}/{formatted_name}.tpl"
-    md_path = f"data/{namespace}/{formatted_name}.md"
+    template_path = f"views{'/' + namespace if namespace else ''}/{formatted_name}.tpl"
+    md_path = f"data{'/' + namespace if namespace else ''}/{formatted_name}.md"
 
     if isfile(template_path):
         text = unescape(template(template_path))
@@ -124,7 +127,7 @@ def md_page(page_name, namespace, md_obj, build_toc=True):
             text = f.read()
     else:
         raise HTTPError(404, f"I couldn't find \"{page_name}\".")
-    md = md_obj.parse_md(text)
+    md = MD.parse_md(text, namespace)
     kwargs = {"title": page_name.title(), "text": md}
     if build_toc:
         kwargs["toc"] = md.toc_html

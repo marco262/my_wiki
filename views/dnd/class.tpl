@@ -1,9 +1,7 @@
 % include("common/header.tpl", title=title)
 <h1>{{title}}</h1>
 
-% if defined("toc"):
 % include("common/toc.tpl")
-% end
 
 {{!text}}
 % include("common/footer.tpl")

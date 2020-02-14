@@ -1,21 +1,17 @@
 from bottle import Bottle, view, request
 from data.numenera import enums
-from src.common.markdown_parser import MarkdownParser
-from src.numenera.utils import pick_two_mutations, pick_mutation
 from src.common.utils import create_tooltip, md_page
-
-MD = None
+from src.numenera.utils import pick_two_mutations, pick_mutation
 
 
 def init():
-    global MD
-    MD = MarkdownParser()
+    pass
 
 
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     def home():
-        return md_page("home", "numenera", MD, build_toc=False)
+        return md_page("Numenera Home", "numenera", build_toc=False)
 
     @app.get("/Mutations Generator")
     @view("numenera/mutations_generator.tpl")
@@ -58,4 +54,4 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/<name>")
     def page(name):
-        return md_page(name, "numenera", MD)
+        return md_page(name, "numenera")

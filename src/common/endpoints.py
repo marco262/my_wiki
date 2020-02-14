@@ -1,4 +1,5 @@
 from bottle import view, static_file, HTTPError, Bottle
+from src.common.utils import md_page
 
 
 def init():
@@ -7,10 +8,8 @@ def init():
 
 def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
-    @app.get('/help')
-    @view('home.tpl')
     def index_help():
-        return
+        return md_page("home", "", build_toc=False)
 
     @app.get("/static/<path:path>", name="static")
     def static(path):

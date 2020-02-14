@@ -1,4 +1,4 @@
-import { ajax_call, getCookie, setCookie } from "./utils.js";
+import { ajax_call, getCookie, setCookie } from "../common/utils.js";
 
 let key_press_timer;
 

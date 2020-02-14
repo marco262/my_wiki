@@ -10,6 +10,8 @@ EXTRAS = ["header-ids", "wiki-tables", "toc"]
 
 class MarkdownParser:
 
+    namespace = ""
+
     def __init__(self):
         self.markdown_obj = Markdown(extras=EXTRAS)
         self.markdown_obj.preprocess = self.pre_parsing
@@ -18,20 +20,21 @@ class MarkdownParser:
         with open(path) as f:
             return self.parse_md(f.read())
 
-    def parse_md(self, text):
+    def parse_md(self, text, namespace=""):
+        self.namespace = namespace
         return self.markdown_obj.convert(text)
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
         return text
 
-    @staticmethod
-    def convert_wiki_links(text):
+    def convert_wiki_links(self, text):
+        namespace_domain = "/" + self.namespace if self.namespace else ""
         # Convert wiki links to markdown
-        # [[[class:cleric#toc|Table of Contents]]] -> [Table of Contents](/class/cleric#toc)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]", r"[\3](/\1/\2)", text)
-        # [[[class:cleric#domains]]] -> [domains](/class/cleric#domains)
-        text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](/\1/\2#\3)", text)
-        # [[[class:cleric]]] -> [cleric](/class/cleric)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](/\1/\2)", text)
+        # [[[class:cleric#toc|Table of Contents]]] -> [Table of Contents](/dnd/class/cleric#toc)
+        text = re.sub(r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]", r"[\3](" + self.namespace + r"/\1/\2)", text)
+        # [[[class:cleric#domains]]] -> [domains](/dnd/class/cleric#domains)
+        text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](" + self.namespace + r"/\1/\2#\3)", text)
+        # [[[class:cleric]]] -> [cleric](/dnd/class/cleric)
+        text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + self.namespace + r"/\1/\2)", text)
         return text

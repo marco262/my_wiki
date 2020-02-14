@@ -1,4 +1,4 @@
-% include("header.tpl", title="5e Spells Database")
+% include("common/header.tpl", title="5e Spells Database")
 % from data.enums import classes, spell_classes
 
 <h1>5e Spells Database</h1>
@@ -38,4 +38,4 @@
 <a href="/search">Search Spells</a><br>
 <a href="/spell_filter">Spell Filter</a>
 
-% include("footer.tpl")
+% include("common/footer.tpl")

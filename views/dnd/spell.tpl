@@ -1,4 +1,4 @@
-% include("header.tpl", title=title)
+% include("common/header.tpl", title=title)
 
 <h1>{{title}}</h1>
 <%
@@ -29,4 +29,4 @@ end
 % end
 <p><em>Source: {{source}}</em></p>
 
-% include("footer.tpl")
+% include("common/footer.tpl")
