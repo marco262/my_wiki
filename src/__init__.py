@@ -5,7 +5,7 @@ from src.common.markdown_parser import MarkdownParser
 
 MD = MarkdownParser()
 
-MODULE_NAMES = ["common", "dnd", "numenera"]
+MODULE_NAMES = ["common", "dnd", "numenera", "dragon_heist"]
 
 
 def load_wsgi_endpoints(app: Bottle):
