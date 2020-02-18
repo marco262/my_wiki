@@ -6,7 +6,7 @@ export function search() {
     clearTimeout(key_press_timer);
     let search_key = document.getElementById("search_key").value;
     if (search_key === "") return;
-    ajax_call("/search_results/" + search_key, handle_search_results);
+    ajax_call("/dnd/search_results/" + search_key, handle_search_results);
 }
 
 export function on_key_press(e) {

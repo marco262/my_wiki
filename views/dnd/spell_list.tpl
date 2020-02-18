@@ -1,5 +1,5 @@
 <%
-from src.utils import ordinal
+from src.common.utils import ordinal
 
 if not spell_dict:
 %>
@@ -12,7 +12,7 @@ else:
 
 <h2>{{ordinal(level)}}</h2>
 <%
-            include("spell_list_table.tpl", spells=spell_dict[level])
+            include("dnd/spell_list_table.tpl", spells=spell_dict[level])
         end
     end
 end

@@ -1,4 +1,4 @@
-% from data.enums import spell_classes
+% from data.dnd.enums import spell_classes
 % if not get("spells"):
 <i>No Results</i>
 % else:
@@ -19,7 +19,7 @@
     </tr>
     % for k, s in spells:
     <tr>
-        <td><a href="/spell/{{k}}">{{s["title"]}}</a></td>
+        <td><a href="/dnd/spell/{{k}}">{{s["title"]}}</a></td>
         <td>{{s["school"].title()}}</td>
         <%
         if get("show_classes"):

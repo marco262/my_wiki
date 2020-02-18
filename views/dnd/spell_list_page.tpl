@@ -1,4 +1,4 @@
 % include("common/header.tpl", title=title)
 <h1>{{title}}</h1>
-% include("spell_list.tpl")
+% include("dnd/spell_list.tpl")
 % include("common/footer.tpl")

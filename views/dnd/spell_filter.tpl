@@ -1,6 +1,6 @@
 % include("common/header.tpl", title="Spell Filter")
-% from src.utils import ordinal
-% from data.enums import spell_classes, spell_levels, schools, sources, casting_times
+% from src.common.utils import ordinal
+% from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times
 <h1>Spell Filter</h1>
 
 <table border="0">

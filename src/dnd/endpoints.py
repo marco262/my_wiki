@@ -9,7 +9,7 @@ from bottle import view, request, HTTPError, Bottle
 from src import MD
 
 from src.common.markdown_parser import MarkdownParser
-from src.common.utils import str_to_bool
+from src.common.utils import str_to_bool, md_page
 from src.dnd.utils import class_spell
 
 SPELLS = {}
@@ -24,7 +24,7 @@ def load_spells():
     path = None
     print("Loading spells into memory", end='')
     try:
-        for path in glob("data/spell/*"):
+        for path in glob("data/dnd/spell/*"):
             print(".", end='')
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
@@ -37,13 +37,17 @@ def load_spells():
 
 
 def load_wsgi_endpoints(app: Bottle):
+    @app.get("/")
+    def home():
+        return md_page("5e Wiki", "dnd", build_toc=False)
+
     @app.get('/search')
-    @view('search.tpl')
+    @view('dnd/search.tpl')
     def search():
         return
 
     @app.get('/search_results/<search_key>')
-    @view("spell_list_table.tpl")
+    @view("dnd/spell_list_table.tpl")
     def search_results(search_key):
         results = []
         for k, v in SPELLS.items():
@@ -56,12 +60,12 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get("/spell_filter")
-    @view("spell_filter.tpl")
+    @view("dnd/spell_filter.tpl")
     def spell_filter():
         return
 
     @app.post('/filter_results')
-    @view("spell_list.tpl")
+    @view("dnd/spell_list.tpl")
     def filter_results():
         filter_keys = loads(request.params["filter_keys"])
         results = defaultdict(list)
@@ -112,7 +116,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/spell/<name>')
-    @view("spell.tpl")
+    @view("dnd/spell.tpl")
     def spell(name):
         formatted_name = re.sub(r"\W", "-", name.lower())
         if formatted_name not in SPELLS:
@@ -120,7 +124,7 @@ def load_wsgi_endpoints(app: Bottle):
         return SPELLS[formatted_name]
 
     @app.get('/all_spells_by_name/<ua_spells>')
-    @view("spell_list_page.tpl")
+    @view("dnd/spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
         spells = defaultdict(list)
         for k, v in SPELLS.items():
@@ -134,7 +138,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/class_spell_list/<c>/<ua_spells>')
-    @view("spell_list_page.tpl")
+    @view("dnd/spell_list_page.tpl")
     def class_spell_list(c, ua_spells):
         spells = defaultdict(list)
         for k, v in SPELLS.items():
@@ -149,7 +153,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/concentration_spells/<ua_spells>')
-    @view("spell_list_page.tpl")
+    @view("dnd/spell_list_page.tpl")
     def concentration_spell_list(ua_spells):
         spells = defaultdict(list)
         for k, v in SPELLS.items():
@@ -164,7 +168,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/ritual_spells/<ua_spells>')
-    @view("spell_list_page.tpl")
+    @view("dnd/spell_list_page.tpl")
     def ritual_spell_list(ua_spells):
         spells = defaultdict(list)
         for k, v in SPELLS.items():
@@ -179,10 +183,10 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/class/<name>')
-    @view("class.tpl")
+    @view("dnd/class.tpl")
     def dnd_class(name):
         formatted_name = re.sub(r"\W", "-", name.lower())
-        path = "data/class/" + formatted_name + ".md"
+        path = "data/dnd/class/" + formatted_name + ".md"
         try:
             md = MD.parse_md_path(path)
         except FileNotFoundError:
