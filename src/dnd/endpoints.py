@@ -1,8 +1,8 @@
 import re
 from collections import defaultdict, OrderedDict
 from glob import glob
-from json import loads
-from os.path import splitext, basename
+from json import loads, load
+from os.path import splitext, basename, isfile
 
 import toml
 from bottle import view, request, HTTPError, Bottle
@@ -192,3 +192,27 @@ def load_wsgi_endpoints(app: Bottle):
         except FileNotFoundError:
             raise HTTPError(404, f"I couldn't find \"{name}\".")
         return {"title": name.title(), "text": md, "toc": md.toc_html}
+
+    @app.get('/characters')
+    @view("dnd/characters.tpl")
+    def characters():
+        path = "data/dnd/characters.json"
+        if not isfile(path):
+            dnd_characters = None
+        else:
+            with open(path) as f:
+                dnd_characters = load(f)
+        return {"title": "Characters", "characters": dnd_characters}
+
+    @app.get('/character/<name>')
+    @view("dnd/character.tpl")
+    def characters(name):
+        path = "data/dnd/characters.json"
+        if not isfile(path):
+            dnd_characters = {}
+        else:
+            with open(path) as f:
+                dnd_characters = load(f)
+        if name not in dnd_characters:
+            raise HTTPError(404, f"I couldn't find \"{name}\".")
+        return dnd_characters[name]
