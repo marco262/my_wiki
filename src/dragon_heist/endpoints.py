@@ -1,4 +1,4 @@
-from bottle import Bottle, template
+from bottle import Bottle, template, view
 
 
 def init():
@@ -14,17 +14,14 @@ def popup_link(link, text):
 
 
 def popup_list(pages):
-    text = "<ul>\n"
-    for page in pages:
-        text += "<li>{}</li>\n".format(popup_link(page[0], page[1]))
-    text += "</ul>\n"
-    return text
+    return "\n".join(["<li>{}</li>".format(popup_link(page[0], page[1])) for page in pages])
 
 
 def load_wsgi_endpoints(app: Bottle):
-    @app.get('/')
+    @app.get()
+    @view("dragon_heist/gmnotes.tpl")
     def home():
-        pages = [
+        images = popup_list([
             ("https://www.worldanvil.com/media/cache/cover/uploads/images/effb94edf3fe17980edfd7e3fcde124f.jpg", "The Dock Ward"),
             ("https://i.redd.it/rrogyk1thlu21.jpg", "Old Xoblob Shop"),
             ("https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/8/87/Svirfneblin.jpg/revision/latest/top-crop/width/360/height/450?cb=20181220044213", "Old Xoblob"),
@@ -41,22 +38,21 @@ def load_wsgi_endpoints(app: Bottle):
             ("https://i.pinimg.com/474x/b4/e3/89/b4e3895b089e8d0b70f1dbb9a4bb3d75.jpg", "Gray ooze"),
             ("https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f0/Intellect_devourer-3e.jpg/revision/latest?cb=20190507141455", "Intellect Devourer"),
             ("https://www.seekpng.com/png/detail/41-413278_four-stories-tall-and-boasting-balconies-a-turret.png", "Trollskull Manor")
-        ]
-        text = "<h3>Images:</h3>\n"
-        text += popup_list(pages)
-        pages = [
+        ])
+        friendly_npcs = popup_list([
             ("https://live.staticflickr.com/7843/46342397195_761a48e73f_b.jpg", "Volothamp Geddarm"),
             ("https://cdna.artstation.com/p/assets/images/images/005/831/352/large/anna-helme-.jpg?1494074377", "Floon Bladmaar"),
             ("https://vignette.wikia.nocookie.net/risenlore/images/4/4f/74fb5130fecd30a69e25f88cc88e755c.jpg/revision/latest?cb=20190423234639", "Renaer Neverember")
-        ]
-        text += "<h3>Friendly NPCs:</h3>\n"
-        text += popup_list(pages)
-        pages = [
+        ])
+        enemy_npcs = popup_list([
             ("https://vignette.wikia.nocookie.net/forgottenrealms/images/6/68/Duergar-5e.jpg/revision/latest?cb=20190315010252", "Zemk, duergar"),
             ("https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/d1/D05961d80krentzea386c80777682a0fbad4e5.jpg/revision/latest?cb=20180916045442", "Krentz, the bandit who got beat up by Yagra"),
             ("https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/0/0b/9251a162d90ca4d7d60199a7ef93a4d6.png/revision/latest/top-crop/width/360/height/450?cb=20181214005233", "Grum'shar, half-orc apprentice wizard"),
             ("https://s3.amazonaws.com/aws-website-sansdrop-pjtrh/img/DnD/Nihiloor.png", "Nihiloor, mind-flayer")
-        ]
-        text += "<h3>Enemy NPCs:</h3>\n"
-        text += popup_list(pages)
-        return template("common/page.tpl", title="Dragon Heist Home", text=text)
+        ])
+        return {
+            "title": "Dragon Heist Home",
+            "images": images,
+            "friendly_npcs": friendly_npcs,
+            "enemy_npcs": enemy_npcs
+        }
