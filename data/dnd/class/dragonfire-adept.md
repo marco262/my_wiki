@@ -59,7 +59,7 @@ You start with the following equipment, in addition to the equipment granted by 
 * (a) a scholar's pack or (b) a dungeoneer's pack
 * Any simple weapon and two daggers
 
-## Otherworldly Patron
+## Draconic Patron
 
 At 1st level, you make a choice to follow the ideals of the metallic dragons in the service of Bahamut or to embrace your darker nature and follow Tiamat and her chromatic dragons. Your choice grants you features at 1st level and again at 3rd, 6th, 10th, and 14th level. Each of these are detailed at the end of the class description.
 
@@ -96,7 +96,7 @@ Charisma is your spellcasting ability for your dragonfire adept spells, so you u
 
 You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your dragonfire adept spells.
 
-## Eldritch Invocations
+## Draconic Invocations
 
 As you awaken your draconic heritage, you acquire additional facets of draconic mysticism that imbue you with an abiding magical ability.
 
@@ -136,30 +136,27 @@ Your choice of draconic patron greatly influences your abilities as you progress
 || 5th || *[[[spell:bigby's hand]]]*, *[[[spell:contact other plane]]]* ||
 
 ### Aspect of the Metallic Dragons
-[[div class="phb-sidebar"]]
-***Breath Weapon***
 
-Conjuration cantrip
-**Casting Time:** 1 action
-**Range:** 15 feet (cone) or 30 feet (line)
-**Components:** None
-**Duration:** Instantaneous
+At 1st level, your choice of Draconic Patron influences your draconic nature at a fundamental level. Choose one type of metallic dragon from the Draconic Nature table. You gain resistance to the damage type associated with your Draconic Nature.
 
-You tap into your draconic nature and unleash a raging torrent of energy. Choose the shape and range of this energy when you use it. All creatures in range must succeed on a Dexterity saving throw or take 1d8 damage. On a successful save, they take half damage. The save DC for this effect is based on your Constitution modifier. The type of damage is determined by your Draconic Patron choice. This damage increases by 1d8 damage at 5th level (2d8), 11th level (3d8), and 17th level (4d8).
-[[/div]]
-At 1st level, your choice of Draconic Patron influences your draconic nature at a fundamental level. You must select a type of metallic dragon that you identify with. Your choices are detailed below. You gain a breath weapon that deals damage of the type indicated. You also grow a thin set of scales that match the color of your chosen dragon. These scales give you an AC of 13 + your Dexterity modifier when you aren't wearing armor.
+You also grow a thin set of scales that match the color of your chosen dragon. These scales give you an AC of 13 + your Dexterity modifier when you aren't wearing armor.
 
+**Draconic Nature**
 
-||~ Dragon Type ||~ Damage Type ||
-|| Brass || Fire ||
-|| Bronze || Acid ||
-|| Copper || Lightning ||
-|| Gold || Fire ||
-|| Silver || Cold ||
+||~ Dragon Type ||~ Damage Type ||~ Breath Weapon ||
+|| Brass || Fire || 5 by 30 ft. line (Dex. save) ||
+|| Bronze || Acid || 5 by 30 ft. line (Dex. save) ||
+|| Copper || Lightning || 5 by 30 ft. line (Dex. save) ||
+|| Gold || Fire || 15 ft. cone (Dex. save) ||
+|| Silver || Cold || 15 ft. cone (Con. save) ||
+
+### Breath Weapon
+
+Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and half as much damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
 ### Energy Expertise
 
-At 3rd level, your mastery of your draconic nature improves enough for a secondary breath weapon type to emerge. Consult the table below to determine your new energy type. You cannot select a different dragon than you selected before. Whenever you use your breath weapon, you can select which of your two energy types to use. In addition, you gain resistance to both energy types.
+At 3rd level, your mastery of your draconic nature improves enough for a secondary breath weapon type to emerge. You gain an additional damage type you can apply to your breath weapon based on your draconic nature from the table below. Whenever you use your breath weapon, you can select which of your two energy types to use. In addition, you gain resistance to both energy types.
 
 ||~ Dragon Type ||~ Damage Type ||
 || Brass || Radiant ||
@@ -174,37 +171,45 @@ At 6th level, as a reaction in response to being hit with an attack you can stif
 
 ### Greater Aspect of Metallic Dragons
 
-At 10th level, you become immune to paralysis and magical effects that render you unconcious. Additionally, your breath weapon's range is doubled. You may add double your proficiency bonus to any Charisma checks when interacting with metallic dragons, even if you would otherwise not be proficient in them.
+At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled. You may add double your proficiency bonus to any Charisma checks when interacting with metallic dragons, even if you would otherwise not be proficient in them.
 
 ### Discorporating Breath of Bahamut
 
-At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust. (see the disintegrate spell for details) Once you use this ability, you can not do so again until you finish a long rest.
+At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust (see the disintegrate spell for details). Once you use this ability, you can not do so again until you finish a long rest.
 
 ## Tiamat
 
 ### Expanded Spell List
 
 ||~ Spell Level ||~ Spells ||
-|| 1st || *[[[spell:chromatic orb]]]*, *[[[spell: protection from evil and good]]]* ||
-|| 2nd || *[[[spell:crown of madness]]]*, *[[[spell: blindness/deafness]]]* ||
-|| 3rd || *[[[spell:animate dead]]]*, *[[[spell: vampiric touch]]]* ||
-|| 4th || *[[[spell:blight]]]*, *[[[spell: phantasmal killer]]]* ||
-|| 5th || *[[[spell:modify memory]]]*, *[[[spell: planar binding]]]* ||
+|| 1st || *[[[spell:chromatic orb]]]*, *[[[spell:protection from evil and good]]]* ||
+|| 2nd || *[[[spell:crown of madness]]]*, *[[[spell:blindness/deafness]]]* ||
+|| 3rd || *[[[spell:animate dead]]]*, *[[[spell:vampiric touch]]]* ||
+|| 4th || *[[[spell:blight]]]*, *[[[spell:phantasmal killer]]]* ||
+|| 5th || *[[[spell:modify memory]]]*, *[[[spell:planar binding]]]* ||
 
 ### Aspect of the Chromatic Dragons
 
-At 1st level, your choice of Draconic Patron influences your draconic nature at a fundamental level. You must select a type of chromatic dragon that you identify with. Your choices are detailed below. You gain a breath weapon that deals damage of the type indicated. You also grow a thin set of scales that match the color of your chosen dragon. These scales give you an AC of 13 + your Dexterity modifier when you aren't wearing armor.
+At 1st level, your choice of Draconic Patron influences your draconic nature at a fundamental level. Choose one type of metallic dragon from the Draconic Nature table. You gain resistance to the damage type associated with your Draconic Nature.
 
-||~ Dragon Type ||~ Damage Type ||
-|| Black || Acid ||
-|| Blue || Lightning ||
-|| Green || Poison ||
-|| Red || Fire ||
-|| White || Cold ||
+You also grow a thin set of scales that match the color of your chosen dragon. These scales give you an AC of 13 + your Dexterity modifier when you aren't wearing armor.
+
+**Draconic Nature**
+
+||~ Dragon Type ||~ Damage Type ||~ Range ||
+|| Black || Acid || 5 by 30 ft. line (Dex. save) ||
+|| Blue || Lightning || 5 by 30 ft. line (Dex. save) ||
+|| Green || Poison || 15 ft. cone (Con. save) ||
+|| Red || Fire || 15 ft. cone (Dex. save) ||
+|| White || Cold || 15 ft. cone (Con. save) ||
+
+### Breath Weapon
+
+Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and half as much damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
 ### Energy Dominance
 
-At 3rd level, your mastery of your draconic nature improves enough for a secondary breath weapon type to emerge. Consult the table below to determine your new energy type. You cannot select a different dragon than you selected before. Whenever you use your breath weapon, you can select which of your two energy types to use. In addition, you gain resistance to both energy types.
+At 3rd level, your mastery of your draconic nature improves enough for a secondary breath weapon type to emerge. You gain an additional damage type you can apply to your breath weapon based on your draconic nature from the table below. Whenever you use your breath weapon, you can select which of your two energy types to use. In addition, you gain resistance to both energy types.
 
 ||~ Dragon Type ||~ Damage Type ||
 || Black || Necrotic ||
@@ -293,7 +298,7 @@ When you use your breath weapon you can choose to have it linger as a cloud for 
 
 ## Magic Insight
 
-You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot. If you concentrate on a magic item for 1 minute, you learn its properties as if you had cast *[[[spell:]]]*identify on the item.
+You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot. If you concentrate on a magic item for 1 minute, you learn its properties as if you had cast *[[[spell:identify]]]* on the item.
 
 ## Powerful Breath
 
@@ -366,4 +371,4 @@ A remove curse cast on the target ends this spell early.
 
 ----
 
-*Source:* http://www.giantitp.com/forums/showsinglepost.php?p=18015365&postcount=1
+*Source:* <http://www.giantitp.com/forums/showsinglepost.php?p=18015365&postcount=1>

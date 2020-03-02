@@ -16,9 +16,10 @@ class MarkdownParser:
         self.markdown_obj = Markdown(extras=EXTRAS)
         self.markdown_obj.preprocess = self.pre_parsing
 
-    def parse_md_path(self, path):
+    def parse_md_path(self, path, namespace=""):
         with open(path) as f:
-            return self.parse_md(f.read())
+            file_contents = f.read()
+        return self.parse_md(file_contents, namespace)
 
     def parse_md(self, text, namespace=""):
         self.namespace = namespace

@@ -25,10 +25,10 @@ def load_spells():
     print("Loading spells into memory", end='')
     try:
         for path in glob("data/dnd/spell/*"):
-            print(".", end='')
+            print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
-            d["description_md"] = MD.parse_md(d["description"])
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
             SPELLS[splitext(basename(path))[0]] = d
     except Exception:
         print(f"\nError when trying to process {path}")
@@ -188,7 +188,7 @@ def load_wsgi_endpoints(app: Bottle):
         formatted_name = re.sub(r"\W", "-", name.lower())
         path = "data/dnd/class/" + formatted_name + ".md"
         try:
-            md = MD.parse_md_path(path)
+            md = MD.parse_md_path(path, namespace="dnd")
         except FileNotFoundError:
             raise HTTPError(404, f"I couldn't find \"{name}\".")
         return {"title": name.title(), "text": md, "toc": md.toc_html}
