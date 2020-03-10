@@ -135,6 +135,14 @@ div.toc ul {
     padding: 0 0 0 0;
 }
 
+a.wiki-link {
+    color: blue;
+}
+
+a.wiki-link-broken {
+    color: red;
+}
+
 /* From https://www.w3schools.com/css/css_tooltip.asp */
 /* Tooltip container */
 .tooltip {
