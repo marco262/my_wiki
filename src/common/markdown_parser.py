@@ -27,6 +27,7 @@ class MarkdownParser:
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
+        text = self.convert_popup_links(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -40,4 +41,10 @@ class MarkdownParser:
         text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + namespace_domain + r"/\1/\2)", text)
         # [[[Mutants]]] -> [Mutants](/numenera/mutants)
         text = re.sub(r"\[\[\[(.+?)\]\]\]", r"[\1](" + namespace_domain + r"/\1)", text)
+        return text
+
+    def convert_popup_links(self, text):
+        pattern = r"\[\[popup (.*?)\]\](.*?)\[\[/popup\]\]"
+        replace = r"""<a href="\1" target="popup" onclick="window.open('\1','popup','width=600,height=600', menubar=yes); return false;">\2</a>"""
+        text = re.sub(pattern, replace, text)
         return text
