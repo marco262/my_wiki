@@ -5,6 +5,7 @@ import os
 import re
 
 from markdown2 import Markdown
+from src.common.utils import title_to_page_name
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = ["header-ids", "wiki-tables", "toc"]
@@ -80,8 +81,7 @@ class MarkdownParser:
     @staticmethod
     def check_for_md_file(path):
         dir, filename = os.path.split(path)
-        filename = str(filename.split("#")[0])
-        filename = re.sub(r"\W", "-", filename.lower())
+        filename = title_to_page_name(filename.split("#")[0])
         path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename + ".md")
         # print(path)
         return os.path.isfile(path)
@@ -92,3 +92,6 @@ class MarkdownParser:
         replace = r"""<a href="\1" target="popup" onclick="window.open('\1','popup','width=600,height=600', menubar=yes); return false;">\2</a>"""
         text = re.sub(pattern, replace, text)
         return text
+
+
+DEFAULT_MARKDOWN_PARSER = MarkdownParser()

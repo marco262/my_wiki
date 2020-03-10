@@ -1,4 +1,4 @@
-from bottle import view, static_file, HTTPError, Bottle
+from bottle import static_file, HTTPError, Bottle
 from src.common.utils import md_page
 
 

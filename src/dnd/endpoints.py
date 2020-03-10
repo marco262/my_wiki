@@ -1,15 +1,13 @@
-import re
 from collections import defaultdict, OrderedDict
 from glob import glob
 from json import loads, load
 from os.path import splitext, basename, isfile
 
 import toml
-from bottle import view, request, HTTPError, Bottle
-from src import MD
 
-from src.common.markdown_parser import MarkdownParser
-from src.common.utils import str_to_bool, md_page
+from bottle import view, request, HTTPError, Bottle
+from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
+from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.utils import class_spell
 
 SPELLS = {}
@@ -118,7 +116,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
     def spell(name):
-        formatted_name = re.sub(r"\W", "-", name.lower())
+        formatted_name = title_to_page_name(name)
         if formatted_name not in SPELLS:
             raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
         return SPELLS[formatted_name]
@@ -185,7 +183,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/class/<name>')
     @view("dnd/class.tpl")
     def dnd_class(name):
-        formatted_name = re.sub(r"\W", "-", name.lower())
+        formatted_name = title_to_page_name(name)
         path = "data/dnd/class/" + formatted_name + ".md"
         try:
             md = MD.parse_md_path(path, namespace="dnd")

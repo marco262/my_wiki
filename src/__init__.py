@@ -1,9 +1,7 @@
 from importlib import import_module
 
 from bottle import Bottle
-from src.common.markdown_parser import MarkdownParser
 
-MD = MarkdownParser()
 
 MODULE_NAMES = ["common", "dnd", "numenera", "dragon_heist"]
 

@@ -13,9 +13,6 @@ from bottle import template, HTTPError
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
-from src import MD
-
-
 class StreamToLogger(object):
     """
     Fake file-like stream object that redirects writes to a logger instance.
@@ -115,8 +112,21 @@ def create_tooltip(text, tooltip_text=None):
     return text
 
 
-def md_page(page_name, namespace, build_toc=True):
-    formatted_name = re.sub("\W", "-", page_name.lower())
+def title_to_page_name(title):
+    """
+    Converts a title (e.g. "Beast Master (Revamped)") to a markdown filename (e.g. "beast-master-revamped")
+    :param title:
+    :return:
+    """
+    return re.sub(r"\W+", "-", title.lower()).strip("-")
+
+
+def md_page(title, namespace, build_toc=True, markdown_parser=None):
+    if markdown_parser is None:
+        # Avoiding circular dependencies
+        from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
+        markdown_parser = DEFAULT_MARKDOWN_PARSER
+    formatted_name = title_to_page_name(title)
     template_path = f"views{'/' + namespace if namespace else ''}/{formatted_name}.tpl"
     md_path = f"data{'/' + namespace if namespace else ''}/{formatted_name}.md"
 
@@ -126,9 +136,9 @@ def md_page(page_name, namespace, build_toc=True):
         with open(md_path) as f:
             text = f.read()
     else:
-        raise HTTPError(404, f"I couldn't find \"{page_name}\".")
-    md = MD.parse_md(text, namespace)
-    kwargs = {"title": page_name.title(), "text": md}
+        raise HTTPError(404, f"I couldn't find \"{title}\".")
+    md = markdown_parser.parse_md(text, namespace)
+    kwargs = {"title": title.title(), "text": md}
     if build_toc:
         kwargs["toc"] = md.toc_html
     return template("common/page.tpl", kwargs)
