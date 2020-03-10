@@ -73,14 +73,16 @@ class MarkdownParser:
         class to "wiki-link-broken".
         """
         for m in re.finditer(r'<a class="wiki-link" href="(.*?)">.*?</a>', text):
-            url = m.group(1).split("#")[0]
-            if not self.check_for_md_file(url):
+            if not self.check_for_md_file(m.group(1)):
                 text = text.replace(m.group(0), m.group(0).replace('class="wiki-link"', 'class="wiki-link-broken"'))
         return text
 
     @staticmethod
     def check_for_md_file(path):
-        path = os.path.join(BASE_DIR, "data", path.lstrip("/") + ".md")
+        dir, filename = os.path.split(path)
+        filename = str(filename.split("#")[0])
+        filename = re.sub(r"\W", "-", filename.lower())
+        path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename + ".md")
         # print(path)
         return os.path.isfile(path)
 
