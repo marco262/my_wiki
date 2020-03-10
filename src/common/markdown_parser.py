@@ -36,13 +36,29 @@ class MarkdownParser:
         namespace_domain = "/" + self.namespace if self.namespace else ""
         # Convert wiki links to markdown
         # [[[class:cleric#toc|Table of Contents]]] -> [Table of Contents](/dnd/class/cleric#toc)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]", r"[\3](" + namespace_domain + r"/\1/\2)", text)
+        text = re.sub(
+            r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]",
+            r'<a class="wiki-link" href="{}/\1/\2">\3</a>'.format(namespace_domain),
+            text
+        )
         # [[[class:cleric#domains]]] -> [domains](/dnd/class/cleric#domains)
-        text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](" + namespace_domain + r"/\1/\2#\3)", text)
+        text = re.sub(
+            r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]",
+            r'<a class="wiki-link" href="{}/\1/\2#\3">\3</a>'.format(namespace_domain),
+            text
+        )
         # [[[class:cleric]]] -> [cleric](/dnd/class/cleric)
-        text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + namespace_domain + r"/\1/\2)", text)
+        text = re.sub(
+            r"\[\[\[(.+?):(.+?)\]\]\]",
+            r'<a class="wiki-link" href="{}/\1/\2">\2</a>'.format(namespace_domain),
+            text
+        )
         # [[[Mutants]]] -> [Mutants](/numenera/Mutants)
-        text = re.sub(r"\[\[\[(.+?)\]\]\]", r"[\1](" + namespace_domain + r"/\1)", text)
+        text = re.sub(
+            r"\[\[\[(.+?)\]\]\]",
+            r'<a class="wiki-link" href="{}/\1">\1</a>'.format(namespace_domain),
+            text
+        )
         return text
 
     def convert_popup_links(self, text):

@@ -18,10 +18,10 @@ class TestMarkdownParser(unittest.TestCase):
         [[[Mutants]]]
         """
         expected = """
-        [Table of Contents](/dnd/class/cleric#toc)
-        [domains](/dnd/class/cleric#domains)
-        [cleric](/dnd/class/cleric)
-        [Mutants](/dnd/Mutants)
+        <a class="wiki-link" href="/dnd/class/cleric#toc">Table of Contents</a>
+        <a class="wiki-link" href="/dnd/class/cleric#domains">domains</a>
+        <a class="wiki-link" href="/dnd/class/cleric">cleric</a>
+        <a class="wiki-link" href="/dnd/Mutants">Mutants</a>
         """
         actual = self.md.convert_wiki_links(pre_markdown)
         self.assertEqual(expected, actual)
