@@ -17,7 +17,7 @@ class MarkdownParser:
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
         # Disable for unit testing
-        if not init_md:
+        if init_md:
             self.markdown_obj = Markdown(extras=EXTRAS)
             self.markdown_obj.preprocess = self.pre_parsing
 
