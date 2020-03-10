@@ -1,10 +1,12 @@
 """
 For parsing *.md files, including special handling of wiki code
 """
+import os
 import re
 
 from markdown2 import Markdown
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = ["header-ids", "wiki-tables", "toc"]
 
 
@@ -12,8 +14,9 @@ class MarkdownParser:
 
     namespace = ""
 
-    def __init__(self, init_md=True):
-        # For unit testing
+    def __init__(self, check_for_broken_links=True, init_md=True):
+        self.check_for_broken_links = check_for_broken_links
+        # Disable for unit testing
         if not init_md:
             self.markdown_obj = Markdown(extras=EXTRAS)
             self.markdown_obj.preprocess = self.pre_parsing
@@ -29,6 +32,8 @@ class MarkdownParser:
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
+        if self.check_for_broken_links:
+            text = self.check_wiki_links(text)
         text = self.convert_popup_links(text)
         return text
 
@@ -61,7 +66,26 @@ class MarkdownParser:
         )
         return text
 
-    def convert_popup_links(self, text):
+    def check_wiki_links(self, text):
+        """
+        Finds links of the form <a class="wiki-link" href="{url}">{name}</a> and checks if their {url} is a valid
+        path for a markdown document in the /data/ directory of this project. If not, it changes the "wiki-link"
+        class to "wiki-link-broken".
+        """
+        for m in re.finditer(r'<a class="wiki-link" href="(.*?)">.*?</a>', text):
+            url = m.group(1).split("#")[0]
+            if not self.check_for_md_file(url):
+                text = text.replace(m.group(0), m.group(0).replace('class="wiki-link"', 'class="wiki-link-broken"'))
+        return text
+
+    @staticmethod
+    def check_for_md_file(path):
+        path = os.path.join(BASE_DIR, "data", path.lstrip("/") + ".md")
+        # print(path)
+        return os.path.isfile(path)
+
+    @staticmethod
+    def convert_popup_links(text):
         pattern = r"\[\[popup (.*?)\]\](.*?)\[\[/popup\]\]"
         replace = r"""<a href="\1" target="popup" onclick="window.open('\1','popup','width=600,height=600', menubar=yes); return false;">\2</a>"""
         text = re.sub(pattern, replace, text)
