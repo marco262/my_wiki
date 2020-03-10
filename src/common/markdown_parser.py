@@ -12,9 +12,11 @@ class MarkdownParser:
 
     namespace = ""
 
-    def __init__(self):
-        self.markdown_obj = Markdown(extras=EXTRAS)
-        self.markdown_obj.preprocess = self.pre_parsing
+    def __init__(self, init_md=True):
+        # For unit testing
+        if not init_md:
+            self.markdown_obj = Markdown(extras=EXTRAS)
+            self.markdown_obj.preprocess = self.pre_parsing
 
     def parse_md_path(self, path, namespace=""):
         with open(path) as f:
@@ -39,7 +41,7 @@ class MarkdownParser:
         text = re.sub(r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]", r"[\3](" + namespace_domain + r"/\1/\2#\3)", text)
         # [[[class:cleric]]] -> [cleric](/dnd/class/cleric)
         text = re.sub(r"\[\[\[(.+?):(.+?)\]\]\]", r"[\2](" + namespace_domain + r"/\1/\2)", text)
-        # [[[Mutants]]] -> [Mutants](/numenera/mutants)
+        # [[[Mutants]]] -> [Mutants](/numenera/Mutants)
         text = re.sub(r"\[\[\[(.+?)\]\]\]", r"[\1](" + namespace_domain + r"/\1)", text)
         return text
 
