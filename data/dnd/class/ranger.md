@@ -212,6 +212,7 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 ## Homebrew
 
 * [[[class:Beast Master (Revamped)]]]
+* [[[class:Drake Rider]]]
 
 ----
 

@@ -219,7 +219,7 @@ Across the wilds, rangers come together to form conclaves -- loose associations 
 
 ## Homebrew
 
-* [[[class:Drake Rider]]]
+* [[[class:Drake Rider (Revised)]]]
 
 ----
 
