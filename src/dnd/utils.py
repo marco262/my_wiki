@@ -44,3 +44,10 @@ def results_mode(d: dict, mode: Optional[str]) -> Union[str, dict]:
     if mode == Mode.FULL.value:
         return d
     raise ValueError(f"{mode} is not a valid results mode")
+
+
+def ability_mod(score: Union[str, int, float]) -> str:
+    mod = str(int((int(score) - 10) / 2))
+    if not mod.startswith("-"):
+        mod = "+" + mod
+    return mod

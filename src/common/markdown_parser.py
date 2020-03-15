@@ -4,6 +4,7 @@ For parsing *.md files, including special handling of wiki code
 import os
 import re
 
+from bottle import template
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name
 
@@ -36,6 +37,7 @@ class MarkdownParser:
         if self.check_for_broken_links:
             text = self.check_wiki_links(text)
         text = self.convert_popup_links(text)
+        text = self.add_includes(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -91,6 +93,26 @@ class MarkdownParser:
         pattern = r"\[\[popup (.*?)\]\](.*?)\[\[/popup\]\]"
         replace = r"""<a href="\1" target="popup" onclick="window.open('\1','popup','width=600,height=600', menubar=yes); return false;">\2</a>"""
         text = re.sub(pattern, replace, text)
+        return text
+
+    def add_includes(self, text):
+        for m in re.finditer(r'\[\[include (.*?)\]\](.*?)\[\[/include\]\]', text, re.DOTALL):
+            template_name = m.group(1)
+
+            def arg_split(arg):
+                k, v = arg.split("=")
+                return k.strip(), v.strip()
+
+            args = {}
+            for arg in m.group(2).strip("\n").split("\n"):
+                k, v = arg.split("=")
+                k, v = k.strip(), v.strip()
+                if v.startswith("!"):
+                    v = self.parse_md(v[1:], namespace=self.namespace)
+                args[k] = v
+
+            t = template(os.path.join(self.namespace, template_name) + ".tpl", args)
+            text = text.replace(m.group(0), t)
         return text
 
 
