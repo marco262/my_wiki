@@ -5,35 +5,36 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 *Note: This subclass is meant to be used with the [http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
 
 # The Drake Rider
-||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||
-||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --|| --|| --|| --||
-||2nd|| +2|| Fighting Style, Spellcasting|| --|| --|| --|| 2|| 2|| --|| --|| --|| --||
-||3rd|| +2|| Primeval Awareness, Draconic Mount, Blazing Speed, Combat Training||1d6|| -- || --|| 3|| 3|| --|| --|| --|| --||
-||4th|| +2|| Ability Score Improvement||1d6|| -- || --|| 3|| 3|| --|| --|| --|| --||
-||5th|| +3|| Drake Fire||1d6||3d6||14|| 4|| 4|| 2|| --|| --|| --||
-||6th|| +3|| Greater Favored Enemy||2d6||3d6||14|| 4|| 4|| 2|| --|| --|| --||
-||7th|| +3|| Draconic Intuition||2d6||3d6||14|| 5|| 4|| 3|| --|| --|| --||
-||8th|| +3|| Ability Score Improvement, Fleet of Foot||2d6||4d6||14|| 5|| 4|| 3|| --|| --|| --||
-||9th|| +4|| --||3d6||4d6||15|| 6|| 4|| 3|| 2|| --|| --||
-||10th|| +4|| Hide in Plain Sight||3d6||4d6||15|| 6|| 4|| 3|| 2|| --|| --||
-||11th|| +4|| Hooked Claws||3d6||5d6||15|| 7|| 4|| 3|| 3|| --|| --||
-||12th|| +4|| Ability Score Improvement||4d6||5d6||15|| 7|| 4|| 3|| 3|| --|| --||
-||13th|| +5|| --||4d6||5d6||16|| 8|| 4|| 3|| 3|| 1|| --||
-||14th|| +5|| Vanish||4d6||6d6||16|| 8|| 4|| 3|| 3|| 1|| --||
-||15th|| +5|| Destructive Fury||5d6||6d6||16|| 9|| 4|| 3|| 3|| 2|| --||
-||16th|| +5|| Ability Score Improvement||5d6||6d6||16|| 9|| 4|| 3|| 3|| 2|| --||
-||17th|| +6|| --||5d6||7d6||17|| 10|| 4|| 3|| 3|| 3|| 1||
-||18th|| +6|| Feral Senses||6d6||7d6||17|| 10|| 4|| 3|| 3|| 3|| 1||
-||19th|| +6|| Ability Score Improvement||6d6||7d6||17|| 11|| 4|| 3|| 3|| 3|| 2||
-||20th|| +6|| Foe Slayer||6d6||10d6||17|| 11|| 4|| 3|| 3|| 3|| 2||
+
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Bite<br>Damage ||~ Breath<br>Weapon<br>Damage ||~ Breath<br>Weapon<br>DC ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||
+|| 1st || +2 || Favored Enemy, Natural Explorer || -- || -- || -- || -- || -- || -- || -- || -- || -- ||
+|| 2nd || +2 || Fighting Style, Spellcasting || -- || -- || -- || 2 || 2 || -- || -- || -- || -- ||
+|| 3rd || +2 || Primeval Awareness, Draconic Mount, Blazing Speed, Combat Training || 1d6 || -- || -- || 3 || 3 || -- || -- || -- || -- ||
+|| 4th || +2 || Ability Score Improvement || 1d6 || -- || -- || 3 || 3 || -- || -- || -- || -- ||
+|| 5th || +3 || Extra Attack || 1d6 || 3d6 || 14 || 4 || 4 || 2 || -- || -- || -- ||
+|| 6th || +3 || Favored Enemy and Natural Explorer improvements || 2d6 || 3d6 || 14 || 4 || 4 || 2 || -- || -- || -- ||
+|| 7th || +3 || Draconic Intuition || 2d6 || 3d6 || 14 || 5 || 4 || 3 || -- || -- || -- ||
+|| 8th || +3 || Ability Score Improvement, Land's Stride || 2d6 || 4d6 || 14 || 5 || 4 || 3 || -- || -- || -- ||
+|| 9th || +4 || -- || 3d6 || 4d6 || 15 || 6 || 4 || 3 || 2 || -- || -- ||
+|| 10th || +4 || Natural Explorer improvement, Hide in Plain Sight || 3d6 || 4d6 || 15 || 6 || 4 || 3 || 2 || -- || -- ||
+|| 11th || +4 || Hooked Claws || 3d6 || 5d6 || 15 || 7 || 4 || 3 || 3 || -- || -- ||
+|| 12th || +4 || Ability Score Improvement || 4d6 || 5d6 || 15 || 7 || 4 || 3 || 3 || -- || -- ||
+|| 13th || +5 || -- || 4d6 || 5d6 || 16 || 8 || 4 || 3 || 3 || 1 || -- ||
+|| 14th || +5 || Favored Enemy improvement, Vanish || 4d6 || 6d6 || 16 || 8 || 4 || 3 || 3 || 1 || -- ||
+|| 15th || +5 || Destructive Fury || 5d6 || 6d6 || 16 || 9 || 4 || 3 || 3 || 2 || -- ||
+|| 16th || +5 || Ability Score Improvement || 5d6 || 6d6 || 16 || 9 || 4 || 3 || 3 || 2 || -- ||
+|| 17th || +6 || -- || 5d6 || 7d6 || 17 || 10 || 4 || 3 || 3 || 3 || 1 ||
+|| 18th || +6 || Feral Senses || 6d6 || 7d6 || 17 || 10 || 4 || 3 || 3 || 3 || 1 ||
+|| 19th || +6 || Ability Score Improvement || 6d6 || 7d6 || 17 || 11 || 4 || 3 || 3 || 3 || 2 ||
+|| 20th || +6 || Foe Slayer || 6d6 || 10d6 || 17 || 11 || 4 || 3 || 3 || 3 || 2 ||
 
 # Draconic Mount
 
-[[div class="phb-sidebar"]]
-**Nightfury**
+<div class="phb-sidebar">
+<p><b>Nightfury</b><p>
 
-The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, its fly speed is increased to 60 ft, it gains thunder resistance, and its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
-[[/div]]
+<p>The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, its fly speed is increased to 60 ft, it gains thunder resistance, and its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.</p>
+</div>
 
 At 3rd level, your Drake is strong enough to enter combat with you.
 
