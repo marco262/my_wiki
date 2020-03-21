@@ -90,8 +90,8 @@ class MarkdownParser:
 
     @staticmethod
     def convert_popup_links(text):
-        pattern = r"\[\[popup (.*?)\]\](.*?)\[\[/popup\]\]"
-        replace = r"""<a href="\1" target="popup" onclick="window.open('\1','popup','width=600,height=600', menubar=yes); return false;">\2</a>"""
+        pattern = r"\[(.*?)\]\(\^(.*?)\)"
+        replace = r"""<a href="\2" target="popup" onclick="window.open('\2','popup','width=600,height=600', menubar=yes); return false;">\1</a>"""
         text = re.sub(pattern, replace, text)
         return text
 
