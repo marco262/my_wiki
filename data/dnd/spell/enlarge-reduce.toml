@@ -1,4 +1,4 @@
-title = "Enlarge Reduce"
+title = "Enlarge/Reduce"
 classes = ["sorcerer", "wizard"]
 classes_ua = ["bard", "druid"]
 level = "2"
