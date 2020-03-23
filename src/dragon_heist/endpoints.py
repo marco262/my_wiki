@@ -11,6 +11,11 @@ def load_wsgi_endpoints(app: Bottle):
     def home():
         redirect("/dragon_heist/GM Notes")
 
+    @app.get("")
+    @view("common/page.tpl")
+    def calendar():
+        return md_page("calendar", "dragon_heist", build_toc=False)
+
     @app.get("<name>")
     @view("common/page.tpl")
     def page(name):

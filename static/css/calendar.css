@@ -1,0 +1,21 @@
+.month {
+    margin-top: 20px;
+    position: relative;
+}
+
+.month-img {
+    position: relative;
+    width: 1400px;
+}
+
+.day {
+    position: absolute;
+    text-align: center;
+    color: orangered;
+    /*border: 1px solid red;*/
+    padding-top: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    width: 116px;
+    height: 108px;
+}
