@@ -1,8 +1,6 @@
 Drakes are distant cousins of dragons, but where dragons are proud, solitary, and fiercely intelligent, drakes are social creatures closer in intelligence to a horse or a dog. Drake riders have learned how to tame these beasts, and even how to train them for combat.
 
-You have raised a Drake from hatchling and formed a special bond with it, to the point of being magically connected to them. Your Drake is now large enough to become your steed and well-trained enough to carry you into battle.
-
-*Note: This subclass is meant to be used with the [http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
+You have raised a Drake from a hatchling and formed a special bond with it, to the point of being magically connected to them. Your Drake is now large enough to become your steed and well-trained enough to carry you into battle.
 
 # The Drake Rider
 
@@ -27,6 +25,19 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 || 18th || +6 || Feral Senses || 6d6 || 7d6 || 17 || 10 || 4 || 3 || 3 || 3 || 1 ||
 || 19th || +6 || Ability Score Improvement || 6d6 || 7d6 || 17 || 11 || 4 || 3 || 3 || 3 || 2 ||
 || 20th || +6 || Foe Slayer || 6d6 || 10d6 || 17 || 11 || 4 || 3 || 3 || 3 || 2 ||
+
+# Drake Rider Magic
+
+Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Drake Rider Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.
+
+### Drake Rider Spells
+
+||~ Ranger Level ||~ Spells ||
+|| 3rd || *[[[spell:feather fall]]]* ||
+|| 5th || *[[[spell:enlarge/reduce]]]* ||
+|| 9th || *[[[spell:protection from energy]]]* ||
+|| 13th || *[[[spell:elemental bane]]]* ||
+|| 17th || *[[[spell:control winds]]]* ||
 
 # Draconic Mount
 
@@ -86,17 +97,13 @@ You and your Drake share an empathic link and can communicate clearly with each 
 
 If your Drake is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your Drake's spirit and use your magic to create a new body for it. You can return a Drake to life in this manner even if you do not possess any part of its body.
 
-# Blazing Speed
-
-While mounted on your Drake, you can use the Dash action to move your Drake up to its speed. This can be used alongside the Drake's own Dash action.
-
 # Combat Training
 
 While mounted on your Drake, you can use a bonus action to command the Drake to use its Bite attack on any creature within its reach. Its Bite attack's damage dice increase as you level up as shown in the Bite Damage column of the Drake Rider table.
 
-# Draconic Intuition
+# Blazing Speed
 
-At 5th level, you've spent enough time in your Drake's company to gain a certain insight into the workings of the minds of draconic creatures. You have advantage on any Animal Handling, Persuasion, or Insight checks when interacting with drakes or dragons. You also have advantage against a dragon's Frightful Presence ability.
+While mounted on your Drake, you can use the Dash action to move your Drake up to its speed. This can be used alongside the Drake's own Dash action.
 
 # Drake Fire
 
