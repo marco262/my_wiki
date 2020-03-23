@@ -90,9 +90,9 @@ class MarkdownParser:
     def check_for_md_file(path):
         dir, filename = os.path.split(path)
         filename = title_to_page_name(filename.split("#")[0])
-        path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename + ".md")
+        path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename)
         # print(path)
-        return os.path.isfile(path)
+        return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
 
     @staticmethod
     def convert_popup_links(text):
