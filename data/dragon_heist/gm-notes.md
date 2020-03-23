@@ -44,6 +44,7 @@
 
 ### Harpers NPCs
 * [Mirt](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/44/Mirt-5e.jpg/revision/latest?cb=20181208035731), Harper contact
+* [Remalia Haventree](^https://outsiderscampaign.files.wordpress.com/2018/06/remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
 
 ### Lords' Alliance NPCs
 * [Jalester Silvermane](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6e/Jalester.jpg/revision/latest/top-crop/width/360/height/450?cb=20190301155331), field agent
@@ -52,7 +53,9 @@
 * [Savra Belabranta](^https://www.worldanvil.com/uploads/images/a8734ae15f9246236f07065a555a5435.jpg), knight
 
 ### Zhentarim NPCs
+* [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
+* [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
 
 ## Enemy NPCs
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
