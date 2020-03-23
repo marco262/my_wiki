@@ -53,3 +53,35 @@ class TestMarkdownParser(unittest.TestCase):
         <a class="wiki-link" href="/dnd/Mutants">Mutants</a>
         """
         self.assertEqual(expected, self.md.check_wiki_links(html))
+
+    def test_parse_accordion(self):
+        pre_markdown = """
+[[accordion Test Title]]
+# Header
+
+* Item 1
+* *Item 2*
+* **Item 3**
+
+Text block
+
+[[/accordion]]
+"""
+        expected = """<button class="accordion-button">Test Title</button>
+<div class="accordion-panel">
+
+<h1 id="header">Header</h1>
+
+<ul>
+<li>Item 1</li>
+<li><em>Item 2</em></li>
+<li><strong>Item 3</strong></li>
+</ul>
+
+<p>Text block</p>
+
+</div>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(pre_markdown)
+        self.assertEqual(expected, actual)

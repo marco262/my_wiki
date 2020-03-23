@@ -8,8 +8,9 @@ def init():
 
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
+    @app.get("/home")
     def home():
-        redirect("/dragon_heist/GM Notes")
+        return md_page("home", "dragon_heist")
 
     @app.get("")
     @view("common/page.tpl")

@@ -141,4 +141,6 @@ def md_page(title, namespace, build_toc=True, markdown_parser=None):
     kwargs = {"title": title.title(), "text": md}
     if build_toc:
         kwargs["toc"] = md.toc_html
+    kwargs["accordion_text"] = markdown_parser.accordion_text
+
     return template("common/page.tpl", kwargs)

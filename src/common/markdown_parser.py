@@ -15,6 +15,7 @@ EXTRAS = ["header-ids", "wiki-tables", "toc", "strike"]
 class MarkdownParser:
 
     namespace = ""
+    accordion_text = False
 
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
@@ -22,6 +23,7 @@ class MarkdownParser:
         if init_md:
             self.markdown_obj = Markdown(extras=EXTRAS)
             self.markdown_obj.preprocess = self.pre_parsing
+            self.markdown_obj.postprocess = self.post_parsing
 
     def parse_md_path(self, path, namespace=""):
         with open(path) as f:
@@ -38,6 +40,10 @@ class MarkdownParser:
             text = self.check_wiki_links(text)
         text = self.convert_popup_links(text)
         text = self.add_includes(text)
+        return text
+
+    def post_parsing(self, text):
+        text = self.parse_accordions(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -113,6 +119,17 @@ class MarkdownParser:
 
             t = template(os.path.join(self.namespace, template_name) + ".tpl", args)
             text = text.replace(m.group(0), t)
+        return text
+
+    def parse_accordions(self, text):
+        self.accordion_text = False
+        for m in re.finditer(r'.*\[\[accordion (.*?)\]\].*', text):
+            self.accordion_text = True
+            text = text.replace(
+                m.group(0),
+                '<button class="accordion-button">{}</button>\n<div class="accordion-panel">'.format(m.group(1))
+            )
+        text = re.sub(".*\[\[/accordion\]\].*", "</div>", text)
         return text
 
 

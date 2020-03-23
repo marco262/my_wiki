@@ -17,10 +17,10 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/js/<path:path>", name="js")
     def js(path):
-        # Try to get minified version of JS file first
-        f = static_file(path + ".min", root="js")
-        if isinstance(f, HTTPError) and f.status_code == 404:
-            f = static_file(path, root="js")
+        # # Try to get minified version of JS file first
+        # f = static_file(path + ".min", root="js")
+        # if isinstance(f, HTTPError) and f.status_code == 404:
+        f = static_file(path, root="js")
         return f
 
     @app.get("/favicon.ico", name="favicon")

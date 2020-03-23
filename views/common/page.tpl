@@ -6,4 +6,11 @@
 % end
 
 {{!text}}
+
+% if accordion_text:
+<script type="module">
+    import { init_accordions } from "/js/common/utils.js";
+    init_accordions();
+</script>
+% end
 % include("common/footer.tpl")
