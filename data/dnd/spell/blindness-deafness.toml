@@ -1,4 +1,4 @@
-title = "Blindness Deafness"
+title = "Blindness/Deafness"
 classes = ["bard", "cleric", "sorcerer", "wizard"]
 level = "2"
 school = "necromancy"
