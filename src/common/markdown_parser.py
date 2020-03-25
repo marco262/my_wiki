@@ -36,8 +36,6 @@ class MarkdownParser:
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
-        if self.check_for_broken_links:
-            text = self.check_wiki_links(text)
         text = self.convert_popup_links(text)
         text = self.add_includes(text)
         return text
@@ -48,48 +46,22 @@ class MarkdownParser:
 
     def convert_wiki_links(self, text):
         namespace_domain = "/" + self.namespace if self.namespace else ""
-        # Convert wiki links to markdown
-        # [[[class:cleric#toc|Table of Contents]]] -> [Table of Contents](/dnd/class/cleric#toc)
-        text = re.sub(
-            r"\[\[\[(.+?):(.+?)\|(.+?)\]\]\]",
-            r'<a class="wiki-link" href="{}/\1/\2">\3</a>'.format(namespace_domain),
-            text
-        )
-        # [[[class:cleric#domains]]] -> [domains](/dnd/class/cleric#domains)
-        text = re.sub(
-            r"\[\[\[(.+?):(.+?)#(.+?)\]\]\]",
-            r'<a class="wiki-link" href="{}/\1/\2#\3">\3</a>'.format(namespace_domain),
-            text
-        )
-        # [[[class:cleric]]] -> [cleric](/dnd/class/cleric)
-        text = re.sub(
-            r"\[\[\[(.+?):(.+?)\]\]\]",
-            r'<a class="wiki-link" href="{}/\1/\2">\2</a>'.format(namespace_domain),
-            text
-        )
-        # [[[Mutants]]] -> [Mutants](/numenera/Mutants)
-        text = re.sub(
-            r"\[\[\[(.+?)\]\]\]",
-            r'<a class="wiki-link" href="{}/\1">\1</a>'.format(namespace_domain),
-            text
-        )
-        return text
-
-    def check_wiki_links(self, text):
-        """
-        Finds links of the form <a class="wiki-link" href="{url}">{name}</a> and checks if their {url} is a valid
-        path for a markdown document in the /data/ directory of this project. If not, it changes the "wiki-link"
-        class to "wiki-link-broken".
-        """
-        for m in re.finditer(r'<a class="wiki-link" href="(.*?)">.*?</a>', text):
-            if not self.check_for_md_file(m.group(1)):
-                text = text.replace(m.group(0), m.group(0).replace('class="wiki-link"', 'class="wiki-link-broken"'))
+        for m in re.finditer(r"\[\[\[((.+?):)?(.+?)(#(.+?))?(\|(.+?))?\]\]\]", text):
+            groups = m.groups()
+            dir = namespace_domain + ("/" + groups[1] if groups[1] else "")
+            filename = groups[2].replace("/", "-")
+            linkname = groups[6] or groups[4] or groups[2]
+            broken_link = not (self.check_for_broken_links and self.check_for_md_file(dir, filename))
+            class_name = "wiki-link" + ("-broken" if broken_link else "")
+            text = text.replace(
+                m.group(0),
+                r'<a class="{}" href="{}/{}">{}</a>'.format(class_name, dir, filename + (groups[3] or ""), linkname)
+            )
         return text
 
     @staticmethod
-    def check_for_md_file(path):
-        dir, filename = os.path.split(path)
-        filename = title_to_page_name(filename.split("#")[0])
+    def check_for_md_file(dir, filename):
+        filename = title_to_page_name(filename)
         path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename)
         # print(path)
         return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
@@ -123,13 +95,13 @@ class MarkdownParser:
 
     def parse_accordions(self, text):
         self.accordion_text = False
-        for m in re.finditer(r'.*\[\[accordion (.*?)\]\].*', text):
+        for m in re.finditer(r".*\[\[accordion (.*?)\]\].*", text):
             self.accordion_text = True
             text = text.replace(
                 m.group(0),
                 '<button class="accordion-button">{}</button>\n<div class="accordion-panel">'.format(m.group(1))
             )
-        text = re.sub(".*\[\[/accordion\]\].*", "</div>", text)
+        text = re.sub(r".*\[\[/accordion\]\].*", "</div>", text)
         return text
 
 
