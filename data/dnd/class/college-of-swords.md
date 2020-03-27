@@ -4,19 +4,20 @@ Their talent with weapons inspires many blades to lead double lives. One blade m
 
 Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.
 
-# Bonus Proficiencies
+## Bonus Proficiencies
 
 When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.
 
 If you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.
-Fighting Style
+
+## Fighting Style
 
 At 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-* **Dueling**<br>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
-* **Two-Weapon Fighting**<br>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+* **Dueling** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+* **Two-Weapon Fighting** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 
-# Blade Flourish
+## Blade Flourish
 
 At 3rd level, you learn to conduct impressive displays of martial prowess and speed.
 
@@ -28,11 +29,11 @@ Whenever you take the Attack action on your turn, your walking speed increases b
 
 **Mobile Flourish.** You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You can also push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on that die. You can then immediately use your reaction to move up to your walking speed to an unoccupied space within 5 feet of the target.
 
-# Extra Attack
+## Extra Attack
 
 Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
-# Master's Flourish
+## Master's Flourish
 
 Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.
 
