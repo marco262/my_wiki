@@ -219,3 +219,38 @@ blockquote {
 	padding: 0 1em;
 	background-color: #f4f4f4;
 }
+
+div#attributes {
+    display: grid;
+    grid-template-columns: 90px 80px;
+}
+
+div#skills {
+    display: grid;
+    grid-template-columns: 20px 20px 140px 20px;
+}
+
+div#skills div.tooltip {
+    text-align: center;
+}
+
+div#skills div.tooltiptext {
+    width: 100px;
+}
+
+div.mod {
+    font-family: 'Courier New', sans-serif;
+    text-align: right;
+}
+
+div.tab-bar {
+    background-color: inherit;
+}
+
+div.tab-link {
+    border: 0;
+}
+
+div.tab-page {
+    
+}

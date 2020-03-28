@@ -1,14 +1,15 @@
 from collections import defaultdict, OrderedDict
 from glob import glob
-from json import loads, load
+from json import loads, load, dump
 from os.path import splitext, basename, isfile
 
 import toml
 
 from bottle import view, request, HTTPError, Bottle
+from data.dnd.enums import skills
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
-from src.dnd.utils import class_spell
+from src.dnd.utils import class_spell, ability_mod, to_mod
 
 SPELLS = {}
 
@@ -32,6 +33,20 @@ def load_spells():
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.")
+
+
+def get_characters():
+    path = "data/dnd/characters.json"
+    if not isfile(path):
+        return {}
+    else:
+        with open(path) as f:
+            return load(f)
+
+
+def save_characters(json):
+    with open("data/dnd/characters.json") as f:
+        dump(json, f)
 
 
 def load_wsgi_endpoints(app: Bottle):
@@ -204,13 +219,30 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/character/<name>')
     @view("dnd/character.tpl")
-    def characters(name):
-        path = "data/dnd/characters.json"
-        if not isfile(path):
-            dnd_characters = {}
-        else:
-            with open(path) as f:
-                dnd_characters = load(f)
-        if name not in dnd_characters:
+    def character(name):
+        characters = get_characters()
+        if name not in characters:
             raise HTTPError(404, f"I couldn't find \"{name}\".")
-        return dnd_characters[name]
+        character_dict = characters[name]
+        proficency_bonus = int((character_dict["level"] - 1) / 4) + 2
+        character_dict["proficiency_bonus"] = proficency_bonus
+        attr_dict = {}
+        for attr, score in character_dict["attributes"].items():
+            attr_dict[attr] = {"score": score, "mod": ability_mod(score)}
+        character_dict["attributes"] = attr_dict
+        skill_list = []
+        for skill, attr in skills:
+            bonus = int(attr_dict[attr]["mod"])
+            if skill in character_dict["proficiencies"]:
+                bonus += proficency_bonus
+            skill_list.append((skill, to_mod(bonus)))
+        character_dict["skills"] = skill_list
+        print(character_dict)
+        return character_dict
+
+    @app.post('/save_character/<name>')
+    @view("dnd/character.tpl")
+    def save_character(name):
+        characters = get_characters()
+        characters[name] = loads(request.params["character_data"])
+        save_characters(characters)

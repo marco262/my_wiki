@@ -2,7 +2,8 @@
   "Amber": {
     "name": "Amber Fanin",
     "race": "Human",
-    "dnd_class": null,
+    "class": "Paladin",
+    "level": 1,
     "attributes": {
       "Strength": 8,
       "Dexterity": 14,
@@ -10,6 +11,10 @@
       "Intelligence": 12,
       "Wisdom": 12,
       "Charisma": 16
-    }
+    },
+    "proficiencies": [
+      "Athletics", "Deception", "Intimidation", "Insight"
+    ],
+    "expertises": []
   }
 }

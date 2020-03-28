@@ -47,7 +47,11 @@ def results_mode(d: dict, mode: Optional[str]) -> Union[str, dict]:
 
 
 def ability_mod(score: Union[str, int, float]) -> str:
-    mod = str(int((int(score) - 10) / 2))
+    return to_mod((int(score) - 10) / 2)
+
+
+def to_mod(num):
+    mod = str(int(num))
     if not mod.startswith("-"):
         mod = "+" + mod
     return mod
