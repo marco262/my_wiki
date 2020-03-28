@@ -3,6 +3,7 @@
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
 * [Trollskull Alley Visitors](https://www.dndbeyond.com/posts/316-visitors-to-trollskull-alley)
 * [Gang activities](/dragon_heist/Gang Activities)
+* [Lif's Seance](/dragon_heist/Lif's Seance)
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
 
 ## Places
@@ -21,6 +22,7 @@
 * [Volothamp Geddarm](^https://live.staticflickr.com/7843/46342397195_761a48e73f_b.jpg)
 * [Floon Bladmaar](^https://cdna.artstation.com/p/assets/images/images/005/831/352/large/anna-helme-.jpg?1494074377)
 * [Renaer Neverember](^https://vignette.wikia.nocookie.net/risenlore/images/4/4f/74fb5130fecd30a69e25f88cc88e755c.jpg/revision/latest?cb=20190423234639)
+* [Yendan Snazzyfeet](^https://i.pinimg.com/236x/2b/6e/78/2b6e7851e5f8053fa0aeb8ebcf927aa3--fantasy-male-fantasy-rpg.jpg)
 
 ## Trollskull Alley NPCs
 * [Lif Erwaren](^https://db4sgowjqfwig.cloudfront.net/images/5138100/ae3c08bfa96dadb022e64a66ccb4e7c4.jpg), poltergeist, ex-owner of Trollskull Manor, ([Flying kitchen utensils](^https://media.istockphoto.com/photos/flying-kitchen-utensils-towards-stunned-chef-picture-id149070075))
@@ -57,6 +59,7 @@
 * [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
 * [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
+* [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
 
 ## Enemy NPCs
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
