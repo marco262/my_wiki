@@ -9,8 +9,12 @@
     {{ cb.day(8, "\nAcquired\nTS Manor") }}
     {{ cb.day(10, "\nSeance\nfor Lif") }}
     {{ cb.day(12, "\nZhent\nMission") }}
-    {{ cb.day(13, "\nBorrowed money\nBought suit", current_day=True) }}
+    {{ cb.day(13, "\nBorrowed money\nBought suit") }}
     {{ cb.day(19, "\nOpera") }}
+    {{ cb.day(22, "\nMaxeene") }}
+    {{ cb.day(26, "\nEmbric attacked") }}
+    {{ cb.day(27, "\nJoined DR") }}
+    {{ cb.day(28, "", current_day=True) }}
     {{ cb.day(30, "\nHouse-\nwarming\nParty") }}
 </div>
 
