@@ -1,6 +1,6 @@
 The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things -- leaves, antlers, or flowers -- to reflect their commitment to preserving life and light in the world.
 
-# The Oath of Devotion
+# The Oath of the Ancients
 
 ||~ Paladin Level ||~ Spells ||
 || 3rd || Tenets of Devotion, Oath Spells, Channel Divinity ||
@@ -21,7 +21,7 @@ The tenets of the Oath of the Ancients have been preserved for uncounted centuri
 
 You gain oath spells at the paladin levels listed.
 
-### Oath of Devotion Spells
+### Oath of the Ancients Spells
 
 ||~ Paladin Level ||~ Spells ||
 || 3rd || *[[[spell:ensnaring strike]]]*, *[[[spell:speak with animals]]]* ||
