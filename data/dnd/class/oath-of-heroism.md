@@ -24,11 +24,11 @@ You gain oath spells at the paladin levels listed in the Oath of Heroism Spells 
 **Oath of Heroism Spells**
 
 ||~ Paladin Level ||~ Spells ||
-|| 3rd || [[[spell:expeditious retreat]]]. [[[spell:guiding bolt]]] ||
-|| 5th || [[[spell:enhance ability]]]. [[[spell:enthrall]]] ||
-|| 9th || [[[spell:haste]]]. [[[spell:protection from energy]]] ||
-|| 13th || [[[spell:compulsion]]]. [[[spell:freedom of movement]]] ||
-|| 17th || [[[spell:commune]]]. [[[spell:conjure volley]]] ||
+|| 3rd || [[[spell:expeditious retreat]]], [[[spell:guiding bolt]]] ||
+|| 5th || [[[spell:enhance ability]]], [[[spell:enthrall]]] ||
+|| 9th || [[[spell:haste]]], [[[spell:protection from energy]]] ||
+|| 13th || [[[spell:compulsion]]], [[[spell:freedom of movement]]] ||
+|| 17th || [[[spell:commune]]], [[[spell:conjure volley]]] ||
 
 ## Channel Divinity
 
