@@ -1,7 +1,7 @@
 title = "Charm Person"
 classes = ["bard", "druid", "sorcerer", "warlock", "wizard"]
 level = "1"
-school = "transmutation"
+school = "enchantment"
 concentration_spell = false
 ritual_spell = false
 casting_time = "1 action"

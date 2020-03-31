@@ -1,7 +1,7 @@
 title = "Vicious Mockery"
 classes = ["bard"]
 level = "cantrip"
-school = "abjuration"
+school = "enchantment"
 concentration_spell = false
 ritual_spell = false
 casting_time = "1 action"
