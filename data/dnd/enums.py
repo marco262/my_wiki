@@ -54,7 +54,7 @@ casting_times = [
     "1 action",
     "1 bonus action",
     "1 reaction",
-    "1 minutes",
+    "1 minute",
     "10 minutes",
     "1 hour",
     "8 hours", 
