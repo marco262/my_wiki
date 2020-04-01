@@ -1,43 +1,55 @@
 % include("common/header.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
-% from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times
+% from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times, durations
 <h1>Spell Filter</h1>
 
 <table border="0">
     <tr valign="top">
         <td>
-        <input type="checkbox" name="checkbox-all" value="class" checked><i>All/None</i><br>
-        % for c in spell_classes:
-            <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
-        % end
-        <br>
-        <input type="checkbox" id="checkbox-ua-spells" checked>Include Expanded<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spell lists from<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unearthed Arcana
+            <b>Class:</b><br>
+            <input type="checkbox" name="checkbox-all" value="class" checked><i>All/None</i><br>
+            % for c in spell_classes:
+                <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
+            % end
+            <br>
+            <input type="checkbox" id="checkbox-ua-spells" checked>Include Expanded<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spell lists from<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unearthed Arcana
         </td>
         <td>
-        <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
-        % for l in spell_levels:
-            <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}}<br>
-        % end
+            <b>Level:</b><br>
+            <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
+            % for l in spell_levels:
+                <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}}<br>
+            % end
         </td>
         <td>
-        <input type="checkbox" name="checkbox-all" value="school" checked><i>All/None</i><br>
-        % for s in schools:
-            <input type="checkbox" name="checkbox-school" value="{{s}}" checked>{{s.title()}}<br>
-        % end
+            <b>School:</b><br>
+            <input type="checkbox" name="checkbox-all" value="school" checked><i>All/None</i><br>
+            % for s in schools:
+                <input type="checkbox" name="checkbox-school" value="{{s}}" checked>{{s.title()}}<br>
+            % end
         </td>
         <td>
-        <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
-        % for o in sources:
-            <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
-        % end
+            <b>Source:</b><br>
+            <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
+            % for o in sources:
+                <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
+            % end
         </td>
         <td>
-        <input type="checkbox" name="checkbox-all" value="casting-time" checked><i>All/None</i><br>
-        % for t in casting_times:
-            <input type="checkbox" name="checkbox-casting-time" value="{{t}}" checked>{{t}}<br>
-        % end
+            <b>Casting Time:</b><br>
+            <input type="checkbox" name="checkbox-all" value="casting-time" checked><i>All/None</i><br>
+            % for t in casting_times:
+                <input type="checkbox" name="checkbox-casting-time" value="{{t}}" checked>{{t}}<br>
+            % end
+        </td>
+        <td>
+            <b>Duration:</b><br>
+            <input type="checkbox" name="checkbox-all" value="duration" checked><i>All/None</i><br>
+            % for t in durations:
+                <input type="checkbox" name="checkbox-duration" value="{{t}}" checked>{{t}}<br>
+            % end
         </td>
     </tr>
 </table>

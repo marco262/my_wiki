@@ -15,11 +15,12 @@ SPELLS = {}
 
 
 def init():
-    load_spells()
+    global SPELLS
+    SPELLS = load_spells()
 
 
 def load_spells():
-    global SPELLS
+    spells = {}
     path = None
     print("Loading spells into memory", end='')
     try:
@@ -28,11 +29,12 @@ def load_spells():
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
-            SPELLS[splitext(basename(path))[0]] = d
+            spells[splitext(basename(path))[0]] = d
     except Exception:
         print(f"\nError when trying to process {path}")
         raise
-    print(" Done.")
+    print(" Done.", flush=True)
+    return spells
 
 
 def get_characters():
@@ -96,6 +98,11 @@ def load_wsgi_endpoints(app: Bottle):
                 continue
             for t in filter_keys["casting_times"]:
                 if t in v["casting_time"]:
+                    break
+            else:
+                continue
+            for t in filter_keys["durations"]:
+                if t in v["duration"]:
                     break
             else:
                 continue

@@ -32,6 +32,7 @@ function get_ui_state() {
     d["schools"] = get_checkboxes("school");
     d["sources"] = get_checkboxes("source");
     d["casting_times"] = get_checkboxes("casting-time");
+    d["durations"] = get_checkboxes("duration");
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
     d["ua_spells"] = document.getElementById("checkbox-ua-spells").checked;
@@ -44,6 +45,7 @@ function set_ui_state(d) {
     set_checkboxes("school", d["schools"]);
     set_checkboxes("source", d["sources"]);
     set_checkboxes("casting-time", d["casting_times"]);
+    set_checkboxes("duration", d["durations"]);
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
     document.getElementById("checkbox-ua-spells").checked = d["ua_spells"];
