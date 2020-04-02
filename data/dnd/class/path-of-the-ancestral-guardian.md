@@ -6,9 +6,9 @@ Barbarians who draw on their ancestral guardians can better fight to protect the
 
 ||~ Barbarian Level ||~ Feature ||
 || 3rd || Ancestral Protectors ||
-|| 9th || Spirit Shield ||
-|| 13th || Consult the Spirits ||
-|| 17th || Vengeful Ancestors ||
+|| 6th || Spirit Shield (2d6) ||
+|| 10th || Consult the Spirits, Spirit Shield (3d6) ||
+|| 14th || Vengeful Ancestors, Spirit Shield (4d6) ||
 
 ## Ancestral Protectors
 
