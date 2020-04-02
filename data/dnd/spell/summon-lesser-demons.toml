@@ -10,7 +10,7 @@ components = ["V", "S", "M"]
 material = "a vial of blood from a humanoid killed within the past 24 hours"
 expensive_material_component = false
 material_component_consumed = false
-duration = "1 hour"
+duration = "Concentration, up to 1 hour"
 description = """You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.
 
 ||~ d6 ||~ Demons Summoned ||

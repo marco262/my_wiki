@@ -7,7 +7,7 @@ ritual_spell = false
 casting_time = "1 action"
 range = "120 feet"
 components = ["V", "S"]
-duration = "1 minute"
+duration = "Concentration, up to 1 minute"
 description = """You call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.
 
 * **Grasses and Undergrowth.** Any area of ground in the cube that is covered by grass or undergrowth is difficult terrain for your enemies.

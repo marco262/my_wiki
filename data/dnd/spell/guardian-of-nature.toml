@@ -7,7 +7,7 @@ ritual_spell = false
 casting_time = "1 bonus action"
 range = "Self"
 components = ["V"]
-duration = "1 minute"
+duration = "Concentration, up to 1 minute"
 description = """A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.
 
 * **Primal Beast.** Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
