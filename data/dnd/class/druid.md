@@ -32,9 +32,7 @@ You can make a druid quickly by following these suggestions. First, Wisdom shoul
 
 # The Druid
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Druidic, Spellcasting || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Wild Shape, Druid Circle || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

@@ -19,9 +19,7 @@ But the lure of knowledge and power calls even the most unadventurous wizards ou
 
 # The Wizard
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Cantrips _
-Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Arcane Recovery || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Arcane Tradition || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||

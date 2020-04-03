@@ -4,9 +4,7 @@ Most barbarian tribes consider a totem animal to be kin to a particular clan. In
 
 # The Barbarian
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Features ||~ Rages ||~ Rage _
-Damage ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
 || 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
 || 2nd || +2 || Reckless Attack, Danger Sense || 2 || +2 ||
 || 3rd || +2 || Spirit Seeker, Totem Spirit || 3 || +2 ||

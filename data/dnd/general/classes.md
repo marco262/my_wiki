@@ -17,17 +17,14 @@ The twelve classes from the Player's Handbook -- listed in the Classes table -- 
 
 ||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
 || [[[class:Barbarian]]] || d12 || Strength, Constitution || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Bard]]] || d8 || Dexterity, Charisma || Light armor, simple weapons, hand crossbows, longswords, rapiers, _
-shortswords ||
+|| [[[class:Bard]]] || d8 || Dexterity, Charisma || Light armor, simple weapons, hand crossbows, longswords, rapiers,<br>shortswords ||
 || [[[class:Cleric]]] || d8 || Wisdom, Charisma || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Druid]]] || d8 || Intelligence, Wisdom || Light and medium armor (nonmetal), shields (nonmetal), clubs, daggers, _
-darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears ||
+|| [[[class:Druid]]] || d8 || Intelligence, Wisdom || Light and medium armor (nonmetal), shields (nonmetal), clubs, daggers,<br>darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears ||
 || [[[class:Fighter]]] || d10 || Strength, Constitution || All armor, shields, simple and martial weapons ||
 || [[[class:Monk]]] || d8 || Strength, Dexterity || Simple weapons, shortswords ||
 || [[[class:Paladin]]] || d10 || Wisdom, Charisma || All armor, shields, simple weapons and martial weapons ||
 || [[[class:Ranger]]] || d10 || Strength, Dexterity || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Rogue]]] || d8 || Dexterity, Intelligence || Light armor, simple weapons, hand crossbows, longswords, rapiers, _
-shortswords ||
+|| [[[class:Rogue]]] || d8 || Dexterity, Intelligence || Light armor, simple weapons, hand crossbows, longswords, rapiers,<br>shortswords ||
 || [[[class:Sorcerer]]] || d6 || Constitution, Charisma || Daggers, darts, slings, quarterstaffs, light crossbows ||
 || [[[class:Warlock]]] || d8 || Wisdom, Charisma || Light armor, simple weapons ||
 || [[[class:Wizard]]] || d6 || Intelligence, Wisdom || Daggers, darts, slings, quarterstaffs, light crossbows ||

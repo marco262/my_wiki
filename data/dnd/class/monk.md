@@ -22,11 +22,7 @@ For a monk, becoming an adventurer means leaving a structured, communal lifestyl
 
 # The Monk
 
-||~ Level ||~ Proficiency _
-Bonus ||~ Martial _
-Arts ||~ Ki _
-Points ||~ Unarmored _
-Movement ||~ Features ||
+||~ Level ||~ Proficiency<br>Bonus ||~ Martial<br>Arts ||~ Ki<br>Points ||~ Unarmored<br>Movement ||~ Features ||
 || 1st || +2 || 1d4 || -- || -- || Unarmored Defense, Martial Arts ||
 || 2nd || +2 || 1d4 || 2 || +10 ft. || Ki, Unarmored Movement ||
 || 3rd || +2 || 1d4 || 3 || +10 ft. || Monastic Tradition, Deflect Missiles ||
@@ -49,14 +45,18 @@ Movement ||~ Features ||
 || 20th || +6 || 1d10 || 20 || +30 ft. || Perfect Self ||
 
 ## Creating a Monk
-[[div class="phb-sidebar"]]
-**Monastic Orders**
 
-The worlds of D&D contain a multitude of monasteries and monastic traditions. In lands with an Asian cultural flavor, such as Shou Lung far to the east of the Forgotten Realms, these monasteries are associated with philosophical traditions and martial arts practice. The Iron Hand School, the Five Stars School, the Northern Fist School, and the Southern Star School of Shou Lung teach different approaches to the physical, mental, and spiritual disciplines of the monk. Some of these monasteries have spread to the western lands of Faerun, particularly in places with large Shou immigrant communities, such as Thesk and Westgate.
+<div class="phb-sidebar">
+<strong>Monastic Orders</strong>
 
-Other monastic traditions are associated with deities who teach the value of physical excellence and mental discipline. In the Forgotten Realms, the order of the Dark Moon is made up of monks dedicated to Shar (goddess of loss), who maintain secret communities in remote hills, back allies, and subterranean hideaways. Monasteries of Ilmater (god of endurance) are named after flowers, and their orders carry the names of great heroes of the faith; the Disciples of Saint Sollars the Twice-Martyred reside in the Monastery of the Yellow Rose near Damara. The monasteries of Eberron combine the study of martial arts with a life of scholarship. Most are devoted to the deities of the Sovereign Host. In the world of Dragonlance, most monks are devoted to Majere, god of meditation and thought. In Greyhawk, many monasteries are dedicated to Xan Yae, the goddess of twilight and the superiority of mind over matter, or to Zuoken, god of mental and physical mastery.
+<p>The worlds of D&D contain a multitude of monasteries and monastic traditions. In lands with an Asian cultural flavor, such as Shou Lung far to the east of the Forgotten Realms, these monasteries are associated with philosophical traditions and martial arts practice. The Iron Hand School, the Five Stars School, the Northern Fist School, and the Southern Star School of Shou Lung teach different approaches to the physical, mental, and spiritual disciplines of the monk. Some of these monasteries have spread to the western lands of Faerun, particularly in places with large Shou immigrant communities, such as Thesk and Westgate.</p>
 
-The evil monks of the Scarlet Brotherhood in the world of Greyhawk derive their fanatic zeal not from devotion to a god but from dedication to the principles of their nation and their race -- the belief that the Suel strand of humanity are meant to rule the world.[[/div]]As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?
+<p>Other monastic traditions are associated with deities who teach the value of physical excellence and mental discipline. In the Forgotten Realms, the order of the Dark Moon is made up of monks dedicated to Shar (goddess of loss), who maintain secret communities in remote hills, back allies, and subterranean hideaways. Monasteries of Ilmater (god of endurance) are named after flowers, and their orders carry the names of great heroes of the faith; the Disciples of Saint Sollars the Twice-Martyred reside in the Monastery of the Yellow Rose near Damara. The monasteries of Eberron combine the study of martial arts with a life of scholarship. Most are devoted to the deities of the Sovereign Host. In the world of Dragonlance, most monks are devoted to Majere, god of meditation and thought. In Greyhawk, many monasteries are dedicated to Xan Yae, the goddess of twilight and the superiority of mind over matter, or to Zuoken, god of mental and physical mastery.</p>
+
+<p>The evil monks of the Scarlet Brotherhood in the world of Greyhawk derive their fanatic zeal not from devotion to a god but from dedication to the principles of their nation and their race -- the belief that the Suel strand of humanity are meant to rule the world.</p>
+</div>
+
+As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?
 
 Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community's rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?
 
@@ -224,8 +224,8 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 ## Homebrew
 
-* [https://drive.google.com/file/d/0B1pdYIcfHauwNDM2My1XeWFYSDA/view Way of the Four Elements (Remastered)]
-* [https://docs.google.com/file/d/1zw55msoKWM4qD6aTkl4_PPnhRs31F8i_vJtPmkvsvl0/view Way of the Kensai]
+* [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/0B1pdYIcfHauwNDM2My1XeWFYSDA/view)
+* [Way of the Kensai](https://docs.google.com/file/d/1zw55msoKWM4qD6aTkl4_PPnhRs31F8i_vJtPmkvsvl0/view)
 
 ----
 

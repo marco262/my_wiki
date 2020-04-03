@@ -26,14 +26,10 @@ table.wiki-content-table { margin: 0; }
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Aarakocra]]] || None || Medium || 25 feet (Fly 50 feet) || Normal || +2 Dexterity, +1 Wisdom || Common, Aarakocra, Auran ||
 || [[[race:Deep Gnome]]] || None || Small || 25 feet (Water: Swim 30 feet) || Darkvision 120 || +2 Intelligence, +1 Dexterity || Common, Gnomish, Undercommon ||
-|| [[[race:Genasi]]] || Air, Earth, Fire, Water || Medium || 30 feet || Normal (Fire: Darkvision 60) || +2 Constitution<br>Air: +1 Dexterity<br>Earth: +1 Strength<br>Fire: +1 Intelligence _
-Water: +1 Wisdom || Common, Primordial ||
+|| [[[race:Genasi]]] || Air, Earth, Fire, Water || Medium || 30 feet || Normal (Fire: Darkvision 60) || +2 Constitution<br>Air: +1 Dexterity<br>Earth: +1 Strength<br>Fire: +1 Intelligence<br>Water: +1 Wisdom || Common, Primordial ||
 || [[[race:Goliath]]] || None || Medium || 30 feet || Normal || +2 Strength, +1 Constitution || Common, Giant ||
 
 + Volo's Guide to Monsters
 
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
-|| [[[race:Aasimar]]] || Protector, Scourge, Fallen || Medium || 30 feet || Darkvision 60 || +2 Charisma _
-Protector: +1 Wisdom _
-Scourge: +1 Constitution _
-Fallen: +1 Strength || Common, Celestial ||
+|| [[[race:Aasimar]]] || Protector, Scourge, Fallen || Medium || 30 feet || Darkvision 60 || +2 Charisma<br>Protector: +1 Wisdom<br>Scourge: +1 Constitution<br>Fallen: +1 Strength || Common, Celestial ||

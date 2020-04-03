@@ -2,8 +2,7 @@
 [[row]]
 [[cell style="width: 38%; "]]
 **Mounts and Other Animals**
-||~ Item ||~ Cost ||~ Speed ||~ Carrying _
-Capacity ||
+||~ Item ||~ Cost ||~ Speed ||~ Carrying<br>Capacity ||
 || Camel || 50 gp || 50 ft. || 480 lb. ||
 || Donkey or mule || 8 gp || 40 ft. || 420 lb. ||
 || Elephant || 200 gp || 40 ft. || 1,320 lb. ||

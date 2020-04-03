@@ -2,8 +2,7 @@ The gods of knowledge -- including Oghma, Boccob, Gilean, Aureon, and Thoth -- v
 
 ## Knowledge Domain Spells
 
-||~ Cleric _
-Level ||~ Spells ||
+||~ Cleric<br>Level ||~ Spells ||
 || 1st || *[[[spell:command]]], [[[spell:identify]]]* ||
 || 3rd || *[[[spell:augury]]], [[[spell:suggestion]]]* ||
 || 5th || *[[[spell:nondetection]]], [[[spell:speak with dead]]]* ||
