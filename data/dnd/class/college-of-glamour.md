@@ -2,7 +2,14 @@ The College of Glamour is the home of bards who mastered their craft in the vibr
 
 The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
-# Mantle of Inspiration
+# The College of Glamour
+
+||~ Bard Level ||~ Spells ||
+|| 3rd || Mantle of Inspiration, Enthralling Performance ||
+|| 6th || Mantle of Majesty ||
+|| 14th || Unbreakable Majesty ||
+
+## Mantle of Inspiration
 
 When you join the College of Glamour at 3rd level, you gain the ability to weave a song of fey magic that imbues your allies with vigor and speed.
 
@@ -10,7 +17,7 @@ As a bonus action, you can expend one use of your Bardic Inspiration to grant yo
 
 The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level.
 
-# Enthralling Performance
+## Enthralling Performance
 
 Starting at 3rd level, you can charge your performance with seductive, fey magic.
 
@@ -20,7 +27,7 @@ If a target succeeds on its saving throw, the target has no hint that you tried 
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
-# Mantle of Majesty
+## Mantle of Majesty
 
 At 6th level, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. As a bonus action, you cast Command, without expending a spell slot, and you take on an appearance of unearthly beauty for 1 minute or until your concentration ends (as if you were concentrating on a spell). During this time, you can cast Command as a bonus action on each of your turns, without expending a spell slot.
 
@@ -28,7 +35,7 @@ Any creature charmed by you automatically fails its saving throw against the Com
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-# Unbreakable Majesty
+## Unbreakable Majesty
 
 At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.
 
