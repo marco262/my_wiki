@@ -14,10 +14,10 @@
 
 ## Zhentarim
 
-1. The party is attacked by a guy high on "magic dust", which is the D&D version of PCP. It gives the effects of Heroism (immune to fear, 5 temp HP every turn). If the players track the source of these drugs down, they find the Zhentarim are responsible.
-    1. Ethel Carpenter, female human in her 40s, ex-city watch.
-    1. Wearing old city watch uniform, picking fights. 
-    1. Has her old sword, but won't use it because she feels she could kill anyone with her bare hands.  
+1. ~~The party is attacked by a guy high on "magic dust", which is the D&D version of PCP. It gives the effects of Heroism (immune to fear, 5 temp HP every turn). If the players track the source of these drugs down, they find the Zhentarim are responsible.~~
+    1. ~~Ethel Carpenter, female human in her 40s, ex-city watch.~~
+    1. ~~Wearing old city watch uniform, picking fights.~~
+    1. ~~Has her old sword, but won't use it because she feels she could kill anyone with her bare hands.~~  
 1. ~~A warehouse nearby is raided and the players witness the City Watch hauling crates of goods out into wagons. This was a storehouse the Zhentarim were using to store their stolen goods before selling it.~~
 1. ~~Embric is attacked in the middle of the night by Zhent assassins because he won't sell weapons exclusively through them.~~
 

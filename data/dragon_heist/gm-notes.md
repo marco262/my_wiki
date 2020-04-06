@@ -2,9 +2,10 @@
 * [Calendar](^/dragon_heist/calendar)
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
 * [Trollskull Alley Visitors](https://www.dndbeyond.com/posts/316-visitors-to-trollskull-alley)
-* [Gang activities](/dragon_heist/Gang Activities)
-* [Lif's Seance](/dragon_heist/Lif's Seance)
+* [[[Gang Activities]]]
+* [[[Lif's Seance]]]
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
+* [[[Housewarming Party]]]
 
 ## Places
 * [The Dock Ward](^https://www.worldanvil.com/media/cache/cover/uploads/images/effb94edf3fe17980edfd7e3fcde124f.jpg)
@@ -32,9 +33,15 @@
 * [Fala Lefaliir](^https://i.pinimg.com/originals/45/1d/4e/451d4eb92ae4fa7becc2e2c142b72fb4.jpg), herbalist, owner of [Corellon's Crown](^https://s3.bioware.ru/forum/monthly_2019_12/a530d950d2eabe9b0f53c23c49e1ad64.jpg.f94871c8ffc0e4ebb09de13ba4970a21.jpg)
 * Vincent Trench ([1](^https://db4sgowjqfwig.cloudfront.net/images/5190829/detective.jpg), [2](^https://i.pinimg.com/736x/1f/16/f3/1f16f3b7a941d5112ca762ef9022d8bc.jpg)), detective, disguised Rak'shasa, owner of [The Tiger's Eye](^https://pbs.twimg.com/media/D68UrRJU0AAk63Z.jpg)
 * [Rishaal the Page-Turner](^https://vignette.wikia.nocookie.net/animus-cycle/images/3/3a/Rishaal.jpg/revision/latest/top-crop/width/360/height/450?cb=20190425031152), mage, owner of the Book Wyrm's Treasure ([1](^https://i.pinimg.com/originals/a5/78/34/a57834c3a8db9a5a2976710407328b4e.jpg), [2](^https://www.itl.cat/pngfile/big/119-1196838_fantasy-place-wallpaper-fantasy-library.jpg))
+
+## Trollskull Alley Adjacent NPCs
+
 * [Anna Gable](^https://artfiles.alphacoders.com/351/35193.jpg) ([grown up](^https://vignette.wikia.nocookie.net/gameideas/images/1/1e/4ONoVx8.png/revision/latest?cb=20180228000656))
+* [Brendaniel Skwik](^https://vignette.wikia.nocookie.net/disney/images/1/16/Profile_-_Linguini.jpeg/revision/latest/top-crop/width/720/height/900?cb=20190414214437)
+* [Lorelai Green](^https://vignette.wikia.nocookie.net/fireemblem/images/1/1e/Mercedes_Heroes.png/revision/latest/scale-to-width-down/1000?cb=20190806045458), human farmer, ex-lover of Lif and current lover of Embric
 
 ## Guild NPCs
+
 * [Broxley Fairkettle](^https://db4sgowjqfwig.cloudfront.net/images/5048113/Broxley.jpg), representative for the Fellowship of Innkeepers
 * [Hammon Kraddoc](^https://db4sgowjqfwig.cloudfront.net/images/5048118/Hammond.jpg), representative for the Vintners', Distillers', and Brewers' Guild
 * [Justyn Rassk](^https://i.pinimg.com/474x/f6/38/02/f63802aa830ea96a9adab1d00929d14e.jpg), representative for the Guild of Butchers
@@ -65,6 +72,7 @@
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
 * [Gazer](^https://vignette.wikia.nocookie.net/forgottenrealms/images/5/58/Gazer-5e.jpg/revision/latest?cb=20171011162621)
 * [Zemk, duergar](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/68/Duergar-5e.jpg/revision/latest?cb=20190315010252)
+* [Bugbear](^https://cdn.obsidianportal.com/assets/111756/zmob_Bugbear_Warrior.jpg)
 * [Krentz, the bandit who got beat up by Yagra](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/d1/D05961d80krentzea386c80777682a0fbad4e5.jpg/revision/latest?cb=20180916045442)
 * [Grum'shar, half-orc apprentice wizard](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/0/0b/9251a162d90ca4d7d60199a7ef93a4d6.png/revision/latest/top-crop/width/360/height/450?cb=20181214005233)
 * [Gray ooze](^https://i.pinimg.com/474x/b4/e3/89/b4e3895b089e8d0b70f1dbb9a4bb3d75.jpg)
