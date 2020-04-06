@@ -50,7 +50,7 @@ export function init_accordions() {
     let acc = document.getElementsByClassName("accordion-button");
     for (let i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
+            this.classList.toggle("accordion-active");
             let panel = this.nextElementSibling;
             if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
@@ -58,5 +58,28 @@ export function init_accordions() {
                 panel.style.maxHeight = panel.scrollHeight + "px";
             }
         });
+    }
+}
+
+export function init_tabs() {
+    let tabs = document.getElementsByClassName("tab-button");
+    for (let i = 0; i < tabs.length; i++) {
+        tabs[i].addEventListener("click", click_tab)
+    }
+}
+
+export function click_tab(event) {
+    // Set all tabs to in-active, then set the target tab to active
+    let tabs = document.getElementsByClassName("tab-button");
+    console.log(tabs);
+    for (let i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("tab-active");
+    }
+    event.target.className += " tab-active";
+    let id = event.target.id;
+    let active_page_id = id.substring(0, id.length - 4) + "-page";
+    let pages = document.getElementsByClassName("tab-page");
+    for (let i = 0; i < pages.length; i++) {
+        pages[i].style.display = (pages[i].id === active_page_id) ? "inline-block" : "none";
     }
 }

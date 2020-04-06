@@ -244,14 +244,15 @@ div.mod {
     text-align: right;
 }
 
-div#attributes-grid {
+div#ability-scores-grid {
     display: grid;
     grid-template-columns: 90px 80px;
+    margin-bottom: 10px;
 }
 
 div#saves-grid {
     display: grid;
-    grid-template-columns: 20px 90px 80px;
+    grid-template-columns: 20px 90px 50px;
 }
 
 div#skills-grid {

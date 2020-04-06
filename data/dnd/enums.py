@@ -118,6 +118,15 @@ sources = [
     "Homebrew"
 ]
 
+ability_scores = [
+    "Strength",
+    "Dexterity",
+    "Constitution",
+    "Intelligence",
+    "Wisdom",
+    "Charisma"
+]
+
 skills = [
     ("Acrobatics", "Dexterity"),
     ("Animal Handling", "Wisdom"),

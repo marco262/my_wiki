@@ -12,9 +12,8 @@
       "Wisdom": 12,
       "Charisma": 16
     },
-    "proficiencies": [
-      "Athletics", "Deception", "Intimidation", "Insight"
-    ],
+    "saves": ["Wisdom", "Charisma"],
+    "skills": ["Athletics", "Deception", "Intimidation", "Insight"],
     "expertises": []
   }
 }

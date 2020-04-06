@@ -1,6 +1,6 @@
 from collections import defaultdict, OrderedDict
 from glob import glob
-from json import loads, load, dump
+from json import loads, load, dump, dumps
 from os.path import splitext, basename, isfile
 
 import toml
@@ -229,23 +229,9 @@ def load_wsgi_endpoints(app: Bottle):
     def character(name):
         characters = get_characters()
         if name not in characters:
-            raise HTTPError(404, f"I couldn't find \"{name}\".")
-        character_dict = characters[name]
-        proficency_bonus = int((character_dict["level"] - 1) / 4) + 2
-        character_dict["proficiency_bonus"] = proficency_bonus
-        attr_dict = {}
-        for attr, score in character_dict["attributes"].items():
-            attr_dict[attr] = {"score": score, "mod": ability_mod(score)}
-        character_dict["attributes"] = attr_dict
-        skill_list = []
-        for skill, attr in skills:
-            bonus = int(attr_dict[attr]["mod"])
-            if skill in character_dict["proficiencies"]:
-                bonus += proficency_bonus
-            skill_list.append((skill, to_mod(bonus)))
-        character_dict["skills"] = skill_list
-        print(character_dict)
-        return character_dict
+            raise HTTPError(404, f"I couldn't find any character named \"{name}\".")
+        print(characters[name])
+        return {"name": name, "json": characters[name]}
 
     @app.post('/save_character/<name>')
     @view("dnd/character.tpl")
