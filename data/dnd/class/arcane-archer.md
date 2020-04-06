@@ -2,7 +2,7 @@ An Arcane Archer studies a unique elven method of archery that weaves magic into
 
 # Arcane Archer Lore
 
-At 3rd level, you learn magical theory or some of the secrets of nature – typical for practitioners of of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the Prestidigitation or Druidcraft cantrip.
+At 3rd level, you learn magical theory or some of the secrets of nature -- typical for practitioners of of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the Prestidigitation or Druidcraft cantrip.
 
 # Arcane Shot
 
