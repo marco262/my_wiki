@@ -21,6 +21,7 @@ const skills = [
 
 let ability_score_mods = {};
 let level = 1;
+let class_features = [];
 
 export function load_json(character_json) {
     load_ability_scores(character_json);
@@ -35,15 +36,15 @@ function load_ability_scores(character_json) {
     document.getElementById("level").innerText = level.toString();
     for (const ability_score in character_json["attributes"]) {
         const score = character_json["attributes"][ability_score];
-        document.getElementById(ability_score.toLowerCase() + "-score").innerText = score;
+        document.getElementById(to_id(ability_score) + "-score").innerText = score;
         const mod = (Math.trunc(score) - 10) / 2;
-        ability_score_mods[ability_score.toLowerCase()] = mod;
-        document.getElementById(ability_score.toLowerCase() + "-mod").innerText = to_mod(mod);
+        ability_score_mods[to_id(ability_score)] = mod;
+        document.getElementById(to_id(ability_score) + "-mod").innerText = to_mod(mod);
     }
-    character_json["saves"].forEach(s => document.getElementById(s.toLowerCase() + "-prof").checked = true);
-    character_json["skills"].forEach(s => {
-        document.getElementById(s.toLowerCase() + "-prof").checked = true
-    });
+    character_json["saves"].forEach(s => document.getElementById(to_id(s) + "-prof").checked = true);
+    character_json["skills"].forEach(s => document.getElementById(to_id(s) + "-prof").checked = true);
+    character_json["expertises"].forEach(s => document.getElementById(to_id(s) + "-ex").checked = true);
+    class_features = character_json["class_features"];
 }
 
 function to_mod(num) {
@@ -54,10 +55,20 @@ function to_mod(num) {
     return mod
 }
 
+function to_id(name) {
+    return name.toLowerCase().replace(/ /g, "-");
+}
+
 
 function calculate_stats() {
-    // Proficiency bonus
+    // Misc
     const prof_bonus = Math.trunc((level - 1) / 4) + 2;
+    document.getElementById("proficiency-bonus").innerText = to_mod(prof_bonus);
+    let initiative = ability_score_mods["dexterity"];
+    if (class_features.includes("Jack of All Trades")) {
+        initiative += Math.trunc(prof_bonus / 2);
+    }
+    document.getElementById("initiative").innerText = to_mod(initiative);
     // Saves
     for (const name in ability_score_mods) {
         let mod = ability_score_mods[name];
@@ -68,13 +79,15 @@ function calculate_stats() {
     }
     // Skills
     for (let i=0; i < skills.length; i++) {
-        let mod = ability_score_mods[skills[i][1].toLowerCase()];
-        const skill_name = skills[i][0].toLowerCase().replace(/ /g, "-");
+        let mod = ability_score_mods[to_id(skills[i][1])];
+        const skill_name = to_id(skills[i][0]);
         if (document.getElementById(skill_name + "-prof").checked) {
             mod += prof_bonus;
-        }
-        if (document.getElementById(skill_name + "-ex").checked) {
-            mod += prof_bonus;
+            if (document.getElementById(skill_name + "-ex").checked) {
+                mod += prof_bonus;
+            }
+        } else if (class_features.includes("Jack of All Trades")) {
+            mod += Math.trunc(prof_bonus / 2);
         }
         document.getElementById(skill_name + "-mod").innerText = to_mod(mod);
     }

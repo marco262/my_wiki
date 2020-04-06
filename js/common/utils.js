@@ -71,7 +71,7 @@ export function init_tabs() {
 export function click_tab(event) {
     // Set all tabs to in-active, then set the target tab to active
     let tabs = document.getElementsByClassName("tab-button");
-    console.log(tabs);
+    // console.log(tabs);
     for (let i = 0; i < tabs.length; i++) {
         tabs[i].classList.remove("tab-active");
     }

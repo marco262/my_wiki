@@ -230,8 +230,7 @@ def load_wsgi_endpoints(app: Bottle):
         characters = get_characters()
         if name not in characters:
             raise HTTPError(404, f"I couldn't find any character named \"{name}\".")
-        print(characters[name])
-        return {"name": name, "json": characters[name]}
+        return {"name": characters[name]["name"], "json": characters[name]}
 
     @app.post('/save_character/<name>')
     @view("dnd/character.tpl")

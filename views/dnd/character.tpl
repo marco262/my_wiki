@@ -6,7 +6,6 @@
     <b>Race:</b> <span id="race"></span><br>
     <b>Class:</b> <span id="class"></span><br>
     <b>Level:</b> <span id="level"></span><br>
-    <b>Proficiency:</b> <span id="proficiency_bonus"></span>
 </p>
 
 <div class="tab-bar">
@@ -36,6 +35,14 @@
         <div id="{{ ability_score.lower() }}-save-label"><i>{{ ability_score }}:</i></div>
         <div class="mod" id="{{ ability_score.lower() }}-save-mod">+0</div>
         % end
+    </div>
+
+    <b>Miscellaneous:</b>
+    <div id="misc-grid">
+        <div><i>Proficiency Bonus:</i></div>
+        <div class="mod" id="proficiency-bonus"></div>
+        <div><i>Initiative:</i></div>
+        <div class="mod" id="initiative"></div>
     </div>
 </div>
 

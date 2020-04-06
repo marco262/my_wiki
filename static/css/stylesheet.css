@@ -253,17 +253,24 @@ div#ability-scores-grid {
 div#saves-grid {
     display: grid;
     grid-template-columns: 20px 90px 50px;
+    margin-bottom: 10px;
+}
+
+div#misc-grid {
+    display: grid;
+    grid-template-columns: 140px 20px;
+    margin-bottom: 10px;
 }
 
 div#skills-grid {
     display: grid;
-    grid-template-columns: 20px 20px 140px 20px;
+    grid-template-columns: 20px 20px 130px 20px;
 }
 
 div#skills div.tooltip {
     text-align: center;
 }
 
-div#skills div.tooltiptext {
+div#saves-grid div.tooltiptext, div#skills-grid div.tooltiptext {
     width: 100px;
 }
