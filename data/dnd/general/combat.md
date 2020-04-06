@@ -259,7 +259,7 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 > 
 > When **a creature can't see you**, you have **advantage** on attack rolls against it.
 > 
-> If you are hidden — both unseen and unheard — when you make an attack, you give away your location when the attack hits or misses.
+> If you are hidden -- both unseen and unheard -- when you make an attack, you give away your location when the attack hits or misses.
 
 ++ Ready
 [[div class="errata"]]

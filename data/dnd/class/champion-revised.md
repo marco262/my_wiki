@@ -48,7 +48,7 @@ In addition, you can choose a second option from the Fighting Style class featur
 
 ## Superior Critical
 
-Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20.
+Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.
 
 ## Survivor
 
