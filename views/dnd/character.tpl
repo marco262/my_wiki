@@ -47,8 +47,8 @@
         <div></div>
         % for skill, ability_score in skills:
         % skill_name = skill.lower().replace(" ", "-")
-        <div><input type="checkbox" class="skill-prof" id="{{ skill_name }}-prof"></div>
-        <div><input type="checkbox" class="skill-ex" id="{{ skill_name }}-ex"></div>
+        <div><input type="checkbox" class="skill-prof-checkbox" id="{{ skill_name }}-prof"></div>
+        <div><input type="checkbox" class="skill-ex-checkbox" id="{{ skill_name }}-ex"></div>
         <div id="{{ skill_name }}-label"><i>{{ skill }}:</i></div>
         <div class="mod" id="{{ skill_name }}-mod">+0</div>
         % end

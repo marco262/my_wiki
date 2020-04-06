@@ -23,7 +23,12 @@ let ability_score_mods = {};
 let level = 1;
 
 export function load_json(character_json) {
-    console.log(character_json);
+    load_ability_scores(character_json);
+    calculate_stats();
+    init_checkboxes();
+}
+
+function load_ability_scores(character_json) {
     document.getElementById("race").innerText = character_json["race"];
     document.getElementById("class").innerText = character_json["class"];
     level = Math.trunc(character_json["level"]);
@@ -39,8 +44,6 @@ export function load_json(character_json) {
     character_json["skills"].forEach(s => {
         document.getElementById(s.toLowerCase() + "-prof").checked = true
     });
-
-    calculate_stats();
 }
 
 function to_mod(num) {
@@ -75,4 +78,29 @@ function calculate_stats() {
         }
         document.getElementById(skill_name + "-mod").innerText = to_mod(mod);
     }
+}
+
+function init_checkboxes() {
+    const classes = ["save-checkbox", "skill-prof-checkbox", "skill-ex-checkbox"];
+    classes.forEach(c => {
+        const checkboxes = document.getElementsByClassName(c);
+        for (let i=0; i < checkboxes.length; i++) {
+            checkboxes[i].addEventListener("change", on_checked);
+        }
+    });
+}
+
+function on_checked(event) {
+    const id = event.currentTarget.id;
+    if (id.endsWith("-prof") && !event.currentTarget.checked) {
+        let secondary_checkbox_id = id.substring(0, id.length - 5) + "-ex";
+        let secondary_checkbox = document.getElementById(secondary_checkbox_id);
+        if (secondary_checkbox) {
+            secondary_checkbox.checked = false;
+        }
+    } else if (id.endsWith("-ex") && event.currentTarget.checked) {
+        let secondary_checkbox_id = id.substring(0, id.length - 3) + "-prof";
+        document.getElementById(secondary_checkbox_id).checked = true;
+    }
+    calculate_stats();
 }
