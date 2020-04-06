@@ -75,23 +75,20 @@ h6 {
     text-decoration: none;
 }
 
-div.phb-sidebar{
+div.phb-sidebar, div.errata {
     float: right;
     width: 30%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: 1px solid gray;
+}
+
+div.phb-sidebar {
     background-color: #CEC;
 }
 
 div.errata{
-    float: right;
-    width: 30%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    border: 1px solid gray;
     background-color: #FEA;
 }
 
@@ -188,7 +185,7 @@ button.accordion-button {
     transition: 0.4s;
 }
 
-.active, button.accordion-button:hover {
+.accordion-active, button.accordion-button:hover {
     background-color: #ccc;
 }
 
@@ -220,12 +217,44 @@ blockquote {
 	background-color: #f4f4f4;
 }
 
-div#attributes {
+div.tab-bar {
+    background-color: inherit;
+}
+
+button.tab-button {
+    border: 0;
+    background-color: lightgray;
+    font-size: 1em;
+}
+
+button.tab-active {
+    color: white;
+    background-color: maroon;
+}
+
+div.tab-page {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid maroon;
+    background-color: #eee;
+}
+
+div.mod {
+    font-family: 'Courier New', sans-serif;
+    text-align: right;
+}
+
+div#attributes-grid {
     display: grid;
     grid-template-columns: 90px 80px;
 }
 
-div#skills {
+div#saves-grid {
+    display: grid;
+    grid-template-columns: 20px 90px 80px;
+}
+
+div#skills-grid {
     display: grid;
     grid-template-columns: 20px 20px 140px 20px;
 }
@@ -236,21 +265,4 @@ div#skills div.tooltip {
 
 div#skills div.tooltiptext {
     width: 100px;
-}
-
-div.mod {
-    font-family: 'Courier New', sans-serif;
-    text-align: right;
-}
-
-div.tab-bar {
-    background-color: inherit;
-}
-
-div.tab-link {
-    border: 0;
-}
-
-div.tab-page {
-    
 }
