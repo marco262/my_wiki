@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/static/css/calendar.css">
 % from src.dragon_heist.calendar_builder import CalendarBuilder
-% cb = CalendarBuilder(150, 121)
+% cb = CalendarBuilder()
 <div class="month" id="kythorn">
     <img class="month-img" src="../static/img/kythorn.png" style="width: 1400px;">
     {{ cb.day(5, "\nMet at\nYawning\nPortal") }}
@@ -17,6 +17,18 @@
     {{ cb.day(28, "", current_day=True) }}
     {{ cb.day(30, "\nHouse-\nwarming\nParty") }}
 </div>
+<div class="month" id="flamerule">
+    <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
+</div>
+<h1>Festival Day: Midsummer</h1>
+<div class="month" id="eleasis">
+    <img class="month-img" src="../static/img/eleasis.png" style="width: 1400px;">
+</div>
+<div class="month" id="elient">
+    <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
+    {{ cb.day(28, "\nOwe Istrid\nHorn 220gp", current_day=True) }}
+</div>
+<h1>Festival Day: High Harvest</h1>
 
 
 # 13th of Elient, they owe Istrid Horn 220gp

@@ -1,6 +1,6 @@
 class CalendarBuilder:
 
-    def __init__(self, top_start, left_start, day_width=115.5, day_height=120):
+    def __init__(self, top_start=148, left_start=100, day_width=120.3, day_height=125.1):
         self.top_start = top_start
         self.left_start = left_start
         self.day_width = day_width

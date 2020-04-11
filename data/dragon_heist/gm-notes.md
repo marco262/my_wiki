@@ -1,4 +1,3 @@
-* [Da party](^/static/img/dnd_party.png)
 * [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Calendar](/dragon_heist/calendar)
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
@@ -10,7 +9,9 @@
 
 ## Images
 
+* [Da party](^/static/img/dnd_party.png)
 * [Fireball Header image](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/f/f0/ChapterThree.jpg/revision/latest?cb=20190122021356)
+* [Day of Wonders Parade](^https://media-waterdeep.cursecdn.com/attachments/4/346/9012.png)
 
 ## Places
 
@@ -24,6 +25,9 @@
 * Trollskull Manor [1](^https://www.seekpng.com/png/detail/41-413278_four-stories-tall-and-boasting-balconies-a-turret.png), [2](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/de/Rkwbhhl78l021.jpg/revision/latest?cb=20181219225432), [3](^https://i.imgur.com/8PCaZrv.png)
 * [Trollskull Alley](^https://i.redd.it/7k86kx3ouhb31.png)
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)
+* [House of Inspired Hands](^https://i.pinimg.com/originals/69/ab/e4/69abe43eff93f1c08cd27dee57b6ed27.jpg)
+* [Sea Maiden's Faire](^https://4.bp.blogspot.com/-_aamJy0qS6U/XMIljDWMINI/AAAAAAAAPOU/1xTC5H03M84HxvqnbFb6W-zmYM8ApiNAgCLcBGAs/s1600/Eyecatcher.jpg)
+* [Gralhund Villa](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/5/5a/16219d9be2b432f31eb9a5a443ac91a5.jpg/revision/latest?cb=20190208223042)
 
 ## Items
 
@@ -111,7 +115,8 @@
 
 ## Misc NPCs
 
-* [City Watch](^https://s3.amazonaws.com/files.d20.io/images/59642840/MOW_In1u400HmhFBql5pdw/max.png?1533246068)
+* City Watch [1](^https://s3.amazonaws.com/files.d20.io/images/59642840/MOW_In1u400HmhFBql5pdw/max.png?1533246068), [2](^)
+* [Griffon Cavalry Rider](^https://i.pinimg.com/originals/48/67/ff/4867ff5e23fc069bcd216b8fc48a92cb.jpg)
 * [Dalakhar](^https://i.pinimg.com/originals/35/26/64/3526642d8248ad6e7111f75cdd5d732f.png), rock gnome thief with Stone of Golorr
 * [Saeth Cromley and Barnibus Blastwind](^https://campaignwiki.org/wiki/Waterdeep/download/watch), City Watch sergeant and mage detective
 * [Valetta](^https://media-waterdeep.cursecdn.com/attachments/thumbnails/4/403/300/390/c1022.png), priestess of Gond
