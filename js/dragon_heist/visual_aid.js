@@ -1,6 +1,7 @@
-import {ajax_call} from "../common/utils";
+import {ajax_call} from "../common/utils.js";
 
 let key_press_timer;
+let last_url = "";
 
 export function init() {
     timer_trigger();
@@ -8,10 +9,18 @@ export function init() {
 
 function timer_trigger() {
     clearTimeout(key_press_timer);
-    ajax_call("/dragon_heist/get_visual_aid/", handle_visual_aid);
+    ajax_call("/dragon_heist/get_visual_aid", handle_visual_aid);
 }
 
 export function handle_visual_aid(xhttp) {
-    console.log(xhttp.json());
-    key_press_timer = setTimeout(timer_trigger, 1000);
+    let response = xhttp.response;
+    let json = JSON.parse(response);
+    let url = json["url"];
+    // console.log(url);
+    if (url !== last_url) {
+        console.log("Setting img src...");
+        document.getElementById("picture").style.backgroundImage = "url('" + url + "')";
+        last_url = url;
+    }
+    key_press_timer = setTimeout(timer_trigger, 5000);
 }
