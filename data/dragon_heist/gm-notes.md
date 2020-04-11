@@ -1,3 +1,4 @@
+* [Da party](^/static/img/dnd_party.png)
 * [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Calendar](/dragon_heist/calendar)
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
