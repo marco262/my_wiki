@@ -1,6 +1,6 @@
 from json import dumps
 
-from bottle import Bottle, view, request, response
+from bottle import Bottle, view, request, response, redirect
 
 from src.common.utils import md_page
 
@@ -20,7 +20,6 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("<name>")
     @view("common/page.tpl")
     def page(name):
-        print("Fuck this shit")
         return md_page(name, "dragon_heist")
 
     @app.get("")
@@ -45,3 +44,4 @@ def load_wsgi_endpoints(app: Bottle):
         url = request.params["url"]
         print("Saved new URL: {!r}".format(url))
         visual_aid_url = url
+        redirect(url)
