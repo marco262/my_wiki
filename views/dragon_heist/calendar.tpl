@@ -19,6 +19,7 @@
 </div>
 <div class="month" id="flamerule">
     <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
+    {{ cb.day(23, "", current_day=True) }}
 </div>
 <h1>Festival Day: Midsummer</h1>
 <div class="month" id="eleasis">
