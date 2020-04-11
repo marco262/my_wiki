@@ -2,6 +2,8 @@
 For parsing *.md files, including special handling of wiki code
 """
 import os
+from urllib.parse import urlencode
+
 import re
 
 from bottle import template
@@ -66,20 +68,24 @@ class MarkdownParser:
         # print(path)
         return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
 
+    # @staticmethod
+    # def convert_popup_links(text):
+    #     pattern = r"\[(.*?)\]\(\^(.*?)\)"
+    #     replace = r"""<a href="\2" target="popup" onclick="window.open('\2','popup','width=600,height=600', menubar=yes); return false;">\1</a>"""
+    #     text = re.sub(pattern, replace, text)
+    #     return text
+
     @staticmethod
     def convert_popup_links(text):
         pattern = r"\[(.*?)\]\(\^(.*?)\)"
-        replace = r"""<a href="\2" target="popup" onclick="window.open('\2','popup','width=600,height=600', menubar=yes); return false;">\1</a>"""
-        text = re.sub(pattern, replace, text)
+        for m in re.finditer(pattern, text, re.DOTALL):
+            replace = "[{}](/dragon_heist/set_visual_aid?{})".format(m.group(1), urlencode({"url": m.group(2)}))
+            text = text.replace(m.group(0), replace)
         return text
 
     def add_includes(self, text):
         for m in re.finditer(r'\[\[include (.*?)\]\](.*?)\[\[/include\]\]', text, re.DOTALL):
             template_name = m.group(1)
-
-            def arg_split(arg):
-                k, v = arg.split("=")
-                return k.strip(), v.strip()
 
             args = {}
             for arg in m.group(2).strip("\n").split("\n"):

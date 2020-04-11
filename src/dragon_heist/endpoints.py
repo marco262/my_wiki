@@ -4,7 +4,7 @@ from bottle import Bottle, view, request, response
 
 from src.common.utils import md_page
 
-visual_aid_url = ""
+visual_aid_url = "https://cdn.discordapp.com/attachments/452549101784006657/531815609667682314/Friendly_Faces.jpg"
 
 
 def init():

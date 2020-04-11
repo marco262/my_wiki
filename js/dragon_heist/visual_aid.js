@@ -18,9 +18,10 @@ export function handle_visual_aid(xhttp) {
     let url = json["url"];
     // console.log(url);
     if (url !== last_url) {
-        console.log("Setting img src...");
+        console.log("Setting img src: " + url);
         document.getElementById("picture").style.backgroundImage = "url('" + url + "')";
+        // document.getElementById("picture").src = url;
         last_url = url;
     }
-    key_press_timer = setTimeout(timer_trigger, 5000);
+    key_press_timer = setTimeout(timer_trigger, 2000);
 }
