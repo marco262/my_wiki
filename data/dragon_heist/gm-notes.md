@@ -7,7 +7,12 @@
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
 * [[[Housewarming Party]]]
 
+## Images
+
+* [Fireball Header image](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/f/f0/ChapterThree.jpg/revision/latest?cb=20190122021356)
+
 ## Places
+
 * [The Dock Ward](^https://www.worldanvil.com/media/cache/cover/uploads/images/effb94edf3fe17980edfd7e3fcde124f.jpg)
 * [Old Xoblob Shop](^https://i.redd.it/rrogyk1thlu21.jpg)
 * [Old Xoblob](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/8/87/Svirfneblin.jpg/revision/latest/top-crop/width/360/height/450?cb=20181220044213)
@@ -20,12 +25,14 @@
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)
 
 ## Friendly NPCs
+
 * [Volothamp Geddarm](^https://live.staticflickr.com/7843/46342397195_761a48e73f_b.jpg)
 * [Floon Bladmaar](^https://cdna.artstation.com/p/assets/images/images/005/831/352/large/anna-helme-.jpg?1494074377)
 * [Renaer Neverember](^https://vignette.wikia.nocookie.net/risenlore/images/4/4f/74fb5130fecd30a69e25f88cc88e755c.jpg/revision/latest?cb=20190423234639)
 * [Yendan Snazzyfeet](^https://i.pinimg.com/236x/2b/6e/78/2b6e7851e5f8053fa0aeb8ebcf927aa3--fantasy-male-fantasy-rpg.jpg)
 
 ## Trollskull Alley NPCs
+
 * [Lif Erwaren](^https://db4sgowjqfwig.cloudfront.net/images/5138100/ae3c08bfa96dadb022e64a66ccb4e7c4.jpg), poltergeist, ex-owner of Trollskull Manor, ([Flying kitchen utensils](^https://media.istockphoto.com/photos/flying-kitchen-utensils-towards-stunned-chef-picture-id149070075))
 * [Talisolvanar "Tally" Fellbranch](^https://db4sgowjqfwig.cloudfront.net/images/4942578/tally.jpg), carpenter, owner of [The Bent Nail](^https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/carpenters-shop-jay-stockhaus.jpg) ([wiki](https://waterdeep.fandom.com/wiki/The_Bent_Nail))
 * [Embric](^https://vignette.wikia.nocookie.net/animus-cycle/images/4/46/Embric.jpg), weaponsmith, co-owner of [Steam and Steel](^https://dnd.chrisburnell.com/images/places/steam-and-steel.webp)
@@ -39,6 +46,8 @@
 * [Anna Gable](^https://artfiles.alphacoders.com/351/35193.jpg) ([grown up](^https://vignette.wikia.nocookie.net/gameideas/images/1/1e/4ONoVx8.png/revision/latest?cb=20180228000656))
 * [Brendaniel Skwik](^https://vignette.wikia.nocookie.net/disney/images/1/16/Profile_-_Linguini.jpeg/revision/latest/top-crop/width/720/height/900?cb=20190414214437)
 * [Lorelai Green](^https://vignette.wikia.nocookie.net/fireemblem/images/1/1e/Mercedes_Heroes.png/revision/latest/scale-to-width-down/1000?cb=20190806045458), human farmer, ex-lover of Lif and current lover of Embric
+* [Jezrynne Hornraven](^https://campaignwiki.org/wiki/Waterdeep/download/jezrynne1), wealthy wife who witnessed the Nimblewright
+* [Martem Trec](^https://campaignwiki.org/wiki/Waterdeep/download/Martem1), child who found the Necklace of Fireballs
 
 ## Guild NPCs
 
@@ -50,23 +59,34 @@
 ## Faction NPCs
 
 ### Force Grey NPCs
+
 * [Vajra Safahr](^https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f9/Vajra-5e.png/revision/latest/top-crop/width/360/height/450?cb=20180925013042), blackstaff of Waterdeep
 
 ### Harpers NPCs
+
 * [Mirt](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/44/Mirt-5e.jpg/revision/latest?cb=20181208035731), Harper contact
 * [Remalia Haventree](^https://outsiderscampaign.files.wordpress.com/2018/06/remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
 
 ### Lords' Alliance NPCs
+
 * [Jalester Silvermane](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6e/Jalester.jpg/revision/latest/top-crop/width/360/height/450?cb=20190301155331), field agent
 
 ### Order of the Gauntlet NPCs
+
 * [Savra Belabranta](^https://www.worldanvil.com/uploads/images/a8734ae15f9246236f07065a555a5435.jpg), knight
 
 ### Zhentarim NPCs
+
+#### Doom Raiders
+
 * [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
 * [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
 * [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
+
+#### Other
+
+* [Urstul Floxin](^https://db4sgowjqfwig.cloudfront.net/images/4970455/132fc9524d0b1d699f359905f9f46312.jpg), would-be assassin of Dalakhar
 
 ## Enemy NPCs
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
@@ -82,7 +102,10 @@
 * [Shard Shunners](^https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d66e72f-13bd-4733-a17c-45a971c3301f/da6zhrc-05bddf52-e7fc-4238-ac09-e6d4407054ab.png/v1/fill/w_772,h_1036,q_70,strp/weredogs_adopts_closed__by_honeydipply_da6zhrc-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM3NCIsInBhdGgiOiJcL2ZcLzRkNjZlNzJmLTEzYmQtNDczMy1hMTdjLTQ1YTk3MWMzMzAxZlwvZGE2emhyYy0wNWJkZGY1Mi1lN2ZjLTQyMzgtYWMwOS1lNmQ0NDA3MDU0YWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5dWjY64bZx9WGy1WAphrAw-JyclISQoxEXXMGqVjge4)
 
 ## Misc NPCs
+
 * [City Watch](^https://s3.amazonaws.com/files.d20.io/images/59642840/MOW_In1u400HmhFBql5pdw/max.png?1533246068)
+* [Dalakhar](^https://i.pinimg.com/originals/35/26/64/3526642d8248ad6e7111f75cdd5d732f.png), rock gnome thief with Stone of Golorr
+* [Saeth Cromley and Barnibus Blastwind](^https://campaignwiki.org/wiki/Waterdeep/download/watch), City Watch sergeant and mage detective
 
 # Faction Missions
 
@@ -97,4 +120,8 @@
 ### Bad Time To Be An Elf
 * [Muleskull Tavern](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/947873/tavern.jpg?1551016890), owned by [Richard Charleston](^https://i.pinimg.com/236x/96/34/02/96340289f99fdbc0e95eda781796d3d6--fantasy-pirate-male-male-pirate.jpg)
 * [Heldar](^https://i.pinimg.com/originals/9c/c0/47/9cc047c12cacae391737a80f5a77cf85.png), half-elf sailor who drinks at Muleskull Tavern
-* Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png)) 
+* Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png))
+
+## Items
+
+* [Necklace of Fireballs](^)
