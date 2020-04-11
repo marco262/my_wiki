@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/static/css/character_sheet.css">
 % include("common/header.tpl", title=name)
 % from data.dnd.enums import ability_scores, skills
 <h1>{{ name }}</h1>
@@ -11,13 +12,14 @@
 <div class="tab-bar">
     <button class="tab-button tab-active" id="stats-tab">Stats</button>
     <button class="tab-button" id="skills-tab">Skills</button>
+    <button class="tab-button" id="combat-tab">Combat</button>
 </div>
 
 <div class="tab-page" id="stats-page" style="display: inline-block;">
     <b>Ability Scores:</b>
     <div id="ability-scores-grid">
         % for ability_score in ability_scores:
-        <div><i>{{ ability_score }}:</i></div>
+        <div><a class="dice-roll" id="{{ ability_score.lower() }}-check">{{ ability_score }}:</div>
         <div class="mod">
             <span id="{{ ability_score.lower() }}-score">10</span>
             (<span id="{{ ability_score.lower() }}-mod">+0</span>)
@@ -36,14 +38,6 @@
         <div class="mod" id="{{ ability_score.lower() }}-save-mod">+0</div>
         % end
     </div>
-
-    <b>Miscellaneous:</b>
-    <div id="misc-grid">
-        <div><i>Proficiency Bonus:</i></div>
-        <div class="mod" id="proficiency-bonus"></div>
-        <div><i>Initiative:</i></div>
-        <div class="mod" id="initiative"></div>
-    </div>
 </div>
 
 <div class="tab-page" id="skills-page">
@@ -59,6 +53,19 @@
         <div id="{{ skill_name }}-label"><i>{{ skill }}:</i></div>
         <div class="mod" id="{{ skill_name }}-mod">+0</div>
         % end
+    </div>
+</div>
+
+<div class="tab-page" id="combat-page">
+    <div id="misc-grid">
+        <div><i>Proficiency Bonus:</i></div>
+        <div class="mod" id="proficiency-bonus"></div>
+        <div><i>Initiative:</i></div>
+        <div class="mod" id="initiative"></div>
+        <div><i>Melee:</i></div>
+        <div class="mod" id="melee-stats"></div>
+        <div><i>Ranged:</i></div>
+        <div class="mod" id="ranged-stats"></div>
     </div>
 </div>
 
