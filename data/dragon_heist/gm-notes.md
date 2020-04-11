@@ -24,6 +24,11 @@
 * [Trollskull Alley](^https://i.redd.it/7k86kx3ouhb31.png)
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)
 
+## Items
+
+* [Necklace of Fireballs](^https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/317/1000/1000/636284755113118340.jpeg)
+* [Nimblewright Detector](^https://s3.amazonaws.com/files.d20.io/images/59811137/sCT9V53GnCDGQvd0nkd_rA/max.png?1533436863)
+
 ## Friendly NPCs
 
 * [Volothamp Geddarm](^https://live.staticflickr.com/7843/46342397195_761a48e73f_b.jpg)
@@ -100,12 +105,19 @@
 * [Intellect Devourer](^https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f0/Intellect_devourer-3e.jpg/revision/latest?cb=20190507141455)
 * [Emmek Frewn, owner of Frewn's Brews](^http://www.artofmtg.com/wp-content/uploads/2019/09/Edgewall-Innkeeper-Throne-of-Eldraine-MtG-Art.jpg)
 * [Shard Shunners](^https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d66e72f-13bd-4733-a17c-45a971c3301f/da6zhrc-05bddf52-e7fc-4238-ac09-e6d4407054ab.png/v1/fill/w_772,h_1036,q_70,strp/weredogs_adopts_closed__by_honeydipply_da6zhrc-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM3NCIsInBhdGgiOiJcL2ZcLzRkNjZlNzJmLTEzYmQtNDczMy1hMTdjLTQ1YTk3MWMzMzAxZlwvZGE2emhyYy0wNWJkZGY1Mi1lN2ZjLTQyMzgtYWMwOS1lNmQ0NDA3MDU0YWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5dWjY64bZx9WGy1WAphrAw-JyclISQoxEXXMGqVjge4)
+* [Yalah & Orond Gralhund](^https://s3.amazonaws.com/files.d20.io/images/59643827/D5OVhJCGrxrEpcOzxvnRjw/max.png?1533246973), owners of the Nimblewright
+* [Hrabbaz](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/85/Krabbaz.png/revision/latest?cb=20181223124829)
 
 ## Misc NPCs
 
 * [City Watch](^https://s3.amazonaws.com/files.d20.io/images/59642840/MOW_In1u400HmhFBql5pdw/max.png?1533246068)
 * [Dalakhar](^https://i.pinimg.com/originals/35/26/64/3526642d8248ad6e7111f75cdd5d732f.png), rock gnome thief with Stone of Golorr
 * [Saeth Cromley and Barnibus Blastwind](^https://campaignwiki.org/wiki/Waterdeep/download/watch), City Watch sergeant and mage detective
+* [Valetta](^https://media-waterdeep.cursecdn.com/attachments/thumbnails/4/403/300/390/c1022.png), priestess of Gond
+* [Nim](^https://i.pinimg.com/originals/7f/c2/d7/7fc2d7045ab2067edd9b3669d0f6cdb3.jpg), nimblewright belonging to the Temple of Gond
+* [Nimblewright](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/68/Nimblewright-5e.png/revision/latest?cb=20180930200419) who set off the Fireball
+* Other nimblewright images: [1](^https://www.scabard.com/user/Varadan/image/Nim.jpg?imaged=260), [2](^https://vignette.wikia.nocookie.net/rythiae/images/b/bc/Nimblewright.jpg/revision/latest/scale-to-width-down/340?cb=20141027112711), [3](^https://i.pinimg.com/originals/5e/8d/47/5e8d47a01cfeff02cbc07c012668c8ae.jpg)
+* [Zardoz Zord](^https://external-preview.redd.it/Rgur7tC-JuNxlL_5nKhwhr4PDAVtKI8P3OQ4k-3sKMc.jpg?auto=webp&s=6854946efd5242e4257f67b9ca9bf919d4821908), owner of the Sea Maidens Faire
 
 # Faction Missions
 
@@ -121,7 +133,3 @@
 * [Muleskull Tavern](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/947873/tavern.jpg?1551016890), owned by [Richard Charleston](^https://i.pinimg.com/236x/96/34/02/96340289f99fdbc0e95eda781796d3d6--fantasy-pirate-male-male-pirate.jpg)
 * [Heldar](^https://i.pinimg.com/originals/9c/c0/47/9cc047c12cacae391737a80f5a77cf85.png), half-elf sailor who drinks at Muleskull Tavern
 * Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png))
-
-## Items
-
-* [Necklace of Fireballs](^)
