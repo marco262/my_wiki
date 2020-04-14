@@ -18,7 +18,9 @@ end
 
 <p>Level {{level}} {{school.title()}}{{" (ritual)" if ritual_spell else ""}}</p>
 
-<p><strong>Casting Time:</strong> {{casting_time}}<br />
+<p>
+<strong>Casting Time:</strong> {{casting_time}}<br />
+<strong>Range:</strong> {{range}}<br />
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
 <strong>Duration:</strong> {{duration}}</p>
 
