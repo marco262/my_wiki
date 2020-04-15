@@ -133,7 +133,7 @@ def md_page(title, namespace, build_toc=True, markdown_parser=None):
     if isfile(template_path):
         text = unescape(template(template_path))
     elif isfile(md_path):
-        with open(md_path) as f:
+        with open(md_path, encoding="utf-8") as f:
             text = f.read()
     else:
         raise HTTPError(404, f"I couldn't find \"{title}\".")

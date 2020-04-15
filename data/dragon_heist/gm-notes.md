@@ -6,6 +6,7 @@
 * [[[Lif's Seance]]]
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
 * [[[Housewarming Party]]]
+* [[[The Teppichverkaufer Family]]]
 
 ## Images
 

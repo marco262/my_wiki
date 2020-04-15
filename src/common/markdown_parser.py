@@ -28,7 +28,7 @@ class MarkdownParser:
             self.markdown_obj.postprocess = self.post_parsing
 
     def parse_md_path(self, path, namespace=""):
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             file_contents = f.read()
         return self.parse_md(file_contents, namespace)
 
