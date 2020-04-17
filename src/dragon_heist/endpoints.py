@@ -1,10 +1,12 @@
 from json import dumps
 
-from bottle import Bottle, view, request, response, redirect
+import bcrypt
 
+from bottle import Bottle, view, request, response, redirect, auth_basic
 from src.common.utils import md_page
 
 visual_aid_url = "/static/img/dnd_party.png"
+set_visual_aid_hash = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
 
 def init():
@@ -39,9 +41,14 @@ def load_wsgi_endpoints(app: Bottle):
         return dumps({"url": visual_aid_url})
 
     @app.get("set_visual_aid")
+    @auth_basic(set_visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_url
         url = request.params["url"]
         print("Saved new URL: {!r}".format(url))
         visual_aid_url = url
         redirect(url)
+
+
+def set_visual_aid_auth_check(username, password):
+    return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), set_visual_aid_hash)
