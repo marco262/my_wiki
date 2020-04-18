@@ -1,14 +1,20 @@
 Gods whose portfolios include the Tempest domain -- including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor -- govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.
 
 ## Tempest Domain Spells
+
 [[div class="errata"]]
+
 **Alternate Domain Spells**
+
 ||~ Cleric Level ||~ Spells ||
 || 1st || *[[[spell:fog cloud]]], [[[spell:thunderwave]]]* ||
 || 3rd || *[[[spell:warding wind]]], [[[spell:shatter]]]* ||
 || 5th || *[[[spell:call lightning]]], [[[spell:thunder step]]]* ||
 || 7th || *[[[spell:storm sphere]]], [[[spell:ice storm]]]* ||
-|| 9th || *[[[spell:destructive wave]]], [[[spell:control winds]]]* ||[[/div]]
+|| 9th || *[[[spell:destructive wave]]], [[[spell:control winds]]]* ||
+
+[[/div]]
+
 ||~ Cleric Level ||~ Spells ||
 || 1st || *[[[spell:fog cloud]]], [[[spell:thunderwave]]]* ||
 || 3rd || *[[[spell:gust of wind]]], [[[spell:shatter]]]* ||

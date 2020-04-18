@@ -44,6 +44,7 @@ class MarkdownParser:
 
     def post_parsing(self, text):
         text = self.parse_accordions(text)
+        text = self.convert_wiki_divs(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -108,6 +109,12 @@ class MarkdownParser:
                 '<button class="accordion-button">{}</button>\n<div class="accordion-panel">'.format(m.group(1))
             )
         text = re.sub(r".*\[\[/accordion\]\].*", "</div>", text)
+        return text
+
+    @staticmethod
+    def convert_wiki_divs(text):
+        text = re.sub(r"<p>\[\[div(.*?)\]\]</p>", r"<div\1>", text)
+        text = re.sub(r"<p>\[\[/div\]\]</p>", "</div>", text)
         return text
 
 

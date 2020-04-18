@@ -14,12 +14,12 @@
     {{ cb.day(22, "\nMaxeene") }}
     {{ cb.day(26, "\nEmbric attacked") }}
     {{ cb.day(27, "\nJoined DR") }}
-    {{ cb.day(28, "") }}
     {{ cb.day(30, "\nHouse-\nwarming\nParty") }}
 </div>
 <div class="month" id="flamerule">
     <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
-    {{ cb.day(23, "", current_day=True) }}
+    {{ cb.day(23, "\nFireball!") }}
+    {{ cb.day(24, "\nMorgue trip", current_day=True) }}
 </div>
 <h1>Festival Day: Midsummer</h1>
 <div class="month" id="eleasis">
@@ -27,9 +27,7 @@
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
-    {{ cb.day(28, "\nOwe Istrid\nHorn 220gp", current_day=True) }}
+    {{ cb.day(28, "\nOwe Istrid\nHorn 220gp") }}
 </div>
+
 <h1>Festival Day: High Harvest</h1>
-
-
-# 13th of Elient, they owe Istrid Horn 220gp
