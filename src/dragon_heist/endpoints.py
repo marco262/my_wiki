@@ -47,7 +47,8 @@ def load_wsgi_endpoints(app: Bottle):
         url = request.params["url"]
         print("Saved new URL: {!r}".format(url))
         visual_aid_url = url
-        redirect(url)
+        if request.params.get("redirect") != "false":
+            redirect(url)
 
 
 def set_visual_aid_auth_check(username, password):

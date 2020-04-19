@@ -8,6 +8,11 @@
 * [[[Housewarming Party]]]
 * [[[The Teppichverkaufer Family]]]
 
+<form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
+    <label for="url">Enter another URL to set as Visual Aid here:</label><br>
+    <input type="text" id="url" name="url"> <input type="submit" value="Submit">
+</form>
+
 ## Images
 
 * [Da party](^/static/img/dnd_party.png)
@@ -28,6 +33,7 @@
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)
 * [House of Inspired Hands](^https://i.pinimg.com/originals/69/ab/e4/69abe43eff93f1c08cd27dee57b6ed27.jpg)
 * [Sea Maiden's Faire](^https://4.bp.blogspot.com/-_aamJy0qS6U/XMIljDWMINI/AAAAAAAAPOU/1xTC5H03M84HxvqnbFb6W-zmYM8ApiNAgCLcBGAs/s1600/Eyecatcher.jpg)
+* [Weirdbottle's Concoctions](^https://i.pinimg.com/originals/cd/db/e5/cddbe5d20bca423d8bde42d93214b847.jpg)
 * [Gralhund Villa](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/5/5a/16219d9be2b432f31eb9a5a443ac91a5.jpg/revision/latest?cb=20190208223042)
 
 ## Items
@@ -94,6 +100,7 @@
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
 * [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
 * [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
+* [Skeemo Weirdbottle](^https://i.pinimg.com/originals/09/70/f5/0970f5d05aa6de40220d1365df4bb522.jpg), Master of Magic
 
 #### Other
 
@@ -113,6 +120,8 @@
 * [Shard Shunners](^https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d66e72f-13bd-4733-a17c-45a971c3301f/da6zhrc-05bddf52-e7fc-4238-ac09-e6d4407054ab.png/v1/fill/w_772,h_1036,q_70,strp/weredogs_adopts_closed__by_honeydipply_da6zhrc-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM3NCIsInBhdGgiOiJcL2ZcLzRkNjZlNzJmLTEzYmQtNDczMy1hMTdjLTQ1YTk3MWMzMzAxZlwvZGE2emhyYy0wNWJkZGY1Mi1lN2ZjLTQyMzgtYWMwOS1lNmQ0NDA3MDU0YWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5dWjY64bZx9WGy1WAphrAw-JyclISQoxEXXMGqVjge4)
 * [Yalah & Orond Gralhund](^https://s3.amazonaws.com/files.d20.io/images/59643827/D5OVhJCGrxrEpcOzxvnRjw/max.png?1533246973), owners of the Nimblewright
 * [Hrabbaz](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/85/Krabbaz.png/revision/latest?cb=20181223124829)
+* [The Black Viper](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/48/TheBlackViper-5e.jpg/revision/latest?cb=20181006212012)
+* [Tomassin Gralhund](^https://data.whicdn.com/images/180006754/original.jpg)
 
 ## Misc NPCs
 
