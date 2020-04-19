@@ -13,7 +13,7 @@ class CalendarBuilder:
     def day(self, day, text, current_day=False):
         top, left = self.get_offsets(day)
         text = text.replace("\n", "<br>")
-        border = ""
+        outline = ""
         if current_day:
-            border = " border: 5px solid green;"
-        return '<div class="day" style="top: {}px; left: {}px;{}">{}</div>'.format(top, left, border, text)
+            outline = " outline: 5px solid green;"
+        return '<div class="day" style="top: {}px; left: {}px;{}">{}</div>'.format(top, left, outline, text)
