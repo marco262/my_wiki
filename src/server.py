@@ -61,7 +61,8 @@ class Server:
             self._run_server(host, port, debug)
 
     def _run_server(self, host, port, debug=False):
-        self.app.run(host=host, port=port, reloader=debug)
+        # self.app.run(host=host, port=port, reloader=debug)
+        self.app.run(host=host, port=port, reloader=True)
         print("Server instance is ending.")
 
 

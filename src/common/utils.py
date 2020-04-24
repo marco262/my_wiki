@@ -121,26 +121,28 @@ def title_to_page_name(title):
     return re.sub(r"\W+", "-", title.lower()).strip("-")
 
 
-def md_page(title, namespace, build_toc=True, markdown_parser=None):
+def md_page(page_title, namespace, build_toc=True, markdown_parser=None, **kwargs):
     if markdown_parser is None:
         # Avoiding circular dependencies
         from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
         markdown_parser = DEFAULT_MARKDOWN_PARSER
-    formatted_name = title_to_page_name(title)
+    formatted_name = title_to_page_name(page_title)
     template_path = f"views{'/' + namespace if namespace else ''}/{formatted_name}.tpl"
     md_path = f"data{'/' + namespace if namespace else ''}/{formatted_name}.md"
 
     if isfile(template_path):
-        text = unescape(template(template_path))
+        text = unescape(template(template_path, **kwargs))
     elif isfile(md_path):
         with open(md_path, encoding="utf-8") as f:
             text = f.read()
     else:
-        raise HTTPError(404, f"I couldn't find \"{title}\".")
+        raise HTTPError(404, f"I couldn't find \"{page_title}\".")
     md = markdown_parser.parse_md(text, namespace)
-    kwargs = {"title": title.title(), "text": md}
+    if "title" not in kwargs:
+        kwargs["title"] = page_title.title()
     if build_toc:
         kwargs["toc"] = md.toc_html
+    kwargs["text"] = md
     kwargs["accordion_text"] = markdown_parser.accordion_text
 
     return template("common/page.tpl", kwargs)
