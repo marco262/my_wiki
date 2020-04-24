@@ -7,6 +7,7 @@
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
 * [[[Housewarming Party]]]
 * [[[The Teppichverkaufer Family]]]
+* [[[Tea Party With Tomassin]]]
 
 <form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
     <label for="url">Enter another URL to set as Visual Aid here:</label><br>
