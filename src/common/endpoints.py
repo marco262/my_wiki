@@ -39,8 +39,8 @@ def load_wsgi_endpoints(app: Bottle):
     def feedback():
         return "Feedback here"
 
-    @app.get("/restart")
-    @view("common/restart")
+    @app.get("/load_changes")
+    @view("common/load_changes")
     def restart():
         print("Pulling from git...", end="")
         repo = Repo()
