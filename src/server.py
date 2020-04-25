@@ -1,6 +1,7 @@
-import bottle
+from bottle_websocket import GeventWebSocketServer
 from fasteners import process_lock
 
+import bottle
 from src import load_wsgi_endpoints
 from src.common.utils import setup_logging, load_config
 
@@ -62,7 +63,7 @@ class Server:
 
     def _run_server(self, host, port, debug=False):
         # self.app.run(host=host, port=port, reloader=debug)
-        self.app.run(host=host, port=port, reloader=True)
+        self.app.run(host=host, port=port, reloader=True, server=GeventWebSocketServer)
         print("Server instance is ending.")
 
 
