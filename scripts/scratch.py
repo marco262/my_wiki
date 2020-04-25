@@ -1,37 +1,64 @@
-import os
+# d = {
+#     1: 1,
+#     2: 1,
+#     3: 1,
+#     4: 1,
+#     5: 1,
+#     6: 2,
+#     7: 2,
+#     8: 2,
+#     9: 2,
+#     10: 2,
+#     11: 2,
+#     12: 2,
+#     13: 3,
+#     14: 3,
+#     15: 4,
+#     16: 4,
+#     17: 5,
+#     18: 5,
+#     19: 10,
+#     20: 20
+# }
+from math import log
 
-from data.dnd.enums import casting_times, durations
-from src.dnd.endpoints import load_spells
+d = {
+    1: 1,
+    2: 1,
+    3: 1,
+    4: 1,
+    5: 1,
+    6: 2,
+    7: 2,
+    8: 2,
+    9: 2,
+    10: 2,
+    11: 3,
+    12: 3,
+    13: 4,
+    14: 4,
+    15: 5,
+    16: 6,
+    17: 7,
+    18: 10,
+    19: 15,
+    20: 30
+}
 
-print(os.getcwd())
-print(os.chdir(".."))
-print(os.getcwd())
+threshold = 0.79
 
-spells = load_spells()
 
-con_consistent = []
-con_inconsistent = []
-no_con_consistent = []
-no_con_inconsistent = []
-for k, spell in spells.items():
-    if spell["concentration_spell"]:
-        if "Concentration" in spell["duration"]:
-            con_consistent.append(spell)
-        else:
-            con_inconsistent.append(spell)
-    else:
-        if "Concentration" in spell["duration"]:
-            no_con_inconsistent.append(spell)
-        else:
-            no_con_consistent.append(spell)
+def percentage_chance(num):
+    return (21 - num) * 0.05
 
-print("Con consistent: {}".format(len(con_consistent)))
-print("Con inconsistent: {}".format(len(con_inconsistent)))
-print("No con consistent: {}".format(len(no_con_consistent)))
-print("No con inconsistent: {}".format(len(no_con_inconsistent)))
 
-for spell in con_inconsistent:
-    print(spell["title"])
-
-for spell in no_con_inconsistent:
-    print(spell["title"])
+print("For a target roll of <A>, if there are <B> attackers, there is a <C> chance that one will hit.")
+for i in range(1, 21):
+    p = percentage_chance(i)
+    number_needed = 1
+    while True:
+        chance_of_at_least_one_hit = 1 - ((1 - p) ** number_needed)
+        if chance_of_at_least_one_hit >= threshold:
+            break
+        number_needed += 1
+    print("{:>2} | {:>2} | {:.1%}".format(i, number_needed, chance_of_at_least_one_hit))
