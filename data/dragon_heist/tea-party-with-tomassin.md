@@ -83,7 +83,7 @@ If Tomassin thinks she's guaranteed to win, she'll try to add wagers to the game
 * Gem of Brightness
 * Mithral Chainmail (In her room on Day 1, worn on Day 2+)
 * Glamoured Studded Leather
-* Elemental Gem
+* Elemental Gem (Yellow diamond -> Earth elemental)
 
 ## Expected Timeline
 
@@ -113,4 +113,4 @@ While the PCs meet with Tomassin, the Gralhund's conflict with the Zhentarim wil
 
 ## Possible Plot Hooks
 
-* In Day 2 or beyond, Urstul will try to convince any PC who comes into contact with him to help him escape. He will claim he's being wrongfully imprisoned by the Gralhunds. 
+* In Day 2 or beyond, Urstul will try to convince any PC who comes into contact with him to help him escape. He will claim he's being wrongfully imprisoned by the Gralhunds.
