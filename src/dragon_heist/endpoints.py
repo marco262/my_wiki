@@ -8,7 +8,7 @@ from geventwebsocket import WebSocketError
 from bottle import Bottle, view, request, response, redirect, auth_basic
 from src.common.utils import md_page
 
-visual_aid_url = "/static/img/dnd_party.png"
+visual_aid_url = "/static/img/visual_aids/dnd_party.png"
 set_visual_aid_hash = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 websocket_list = []
 
@@ -56,6 +56,9 @@ def load_wsgi_endpoints(app: Bottle):
     def set_visual_aid():
         global visual_aid_url, websocket_list
         url = request.params["url"]
+        # Support for locally hosted files
+        if not url.startswith("http"):
+            url = "/static/img/visual_aids/" + url
         print("Saved new URL: {!r}".format(url))
         visual_aid_url = url
         # Update WebSockets

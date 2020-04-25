@@ -16,19 +16,19 @@
 
 ## Images
 
-* [Da party](^/static/img/dnd_party.png)
-* [Fireball Header image](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/f/f0/ChapterThree.jpg/revision/latest?cb=20190122021356)
+* [Da party](^dnd_party.png)
+* [Fireball Header image](^fireball_head_image.webp)
 * [Day of Wonders Parade](^https://media-waterdeep.cursecdn.com/attachments/4/346/9012.png)
 
 ## Places
 
-* [The Dock Ward](^https://www.worldanvil.com/media/cache/cover/uploads/images/effb94edf3fe17980edfd7e3fcde124f.jpg)
-* [Old Xoblob Shop](^https://i.redd.it/rrogyk1thlu21.jpg)
-* [Old Xoblob](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/8/87/Svirfneblin.jpg/revision/latest/top-crop/width/360/height/450?cb=20181220044213)
-* [The Skewered Dragon](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/0/01/41d312aaac79078c70abf4462859da93.jpg/revision/latest?cb=20181212190835)
-* [Zhentarim Hideout](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/939176/skewered.jpg?1548469910)
-* [Zhentarim Logo](^https://db4sgowjqfwig.cloudfront.net/campaigns/135685/assets/573194/zhentarim.png?1459111892)
-* Sewer [1](^https://3.bp.blogspot.com/-vKbLxrhJOwE/VRLhGhg0BjI/AAAAAAAAA_k/nk1uO9KhEY4/s1600/520_1024x1024.jpg), [2](^https://vignette.wikia.nocookie.net/witcher/images/4/4a/Loading_Sewers_day.png/revision/latest?cb=20170511225814), [3](^https://www.worldanvil.com/media/cache/cover/uploads/images/478b9ac0162129dde50e83cb666ac3ce.jpg), [4](^https://i.pinimg.com/originals/81/29/97/812997b3f365f3f89eb5ab33bce3486b.jpg), [5](^https://i.redd.it/xzlwzsdg8ck31.jpg)
+* The Dock Ward [1](^dock_ward_1.webp), [2](^dock_ward_2.jpg)
+* [Old Xoblob's Shop](^old_xoblobs_shop.jpg)
+* [Old Xoblob](^old_xoblob.webp)
+* [The Skewered Dragon](^skewered_dragon.webp)
+* [Zhentarim Hideout](^zhentarim_hideout.jpg)
+* [Zhentarim Logo](^zhentarim_logo.png)
+* Sewer [1](^sewer_1.jpg), [2](^sewer_2.webp), [3](^sewer_3.jpg), [4](^sewer_4.jpg),
 * Trollskull Manor [1](^https://www.seekpng.com/png/detail/41-413278_four-stories-tall-and-boasting-balconies-a-turret.png), [2](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/de/Rkwbhhl78l021.jpg/revision/latest?cb=20181219225432), [3](^https://i.imgur.com/8PCaZrv.png)
 * [Trollskull Alley](^https://i.redd.it/7k86kx3ouhb31.png)
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)
