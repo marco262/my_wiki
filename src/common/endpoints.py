@@ -15,6 +15,9 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
     def index_help():
         repo = Repo()
+        print(repo.active_branch.log())
+        print("")
+        print(repo.active_branch.log_entry(-1))
         last_commit = repo.active_branch.log()[-1]
         commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.time[0]))
         return md_page("home", "common", build_toc=False, commit_history=commit_history)
