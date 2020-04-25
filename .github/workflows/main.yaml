@@ -1,0 +1,10 @@
+on:
+  push
+
+jobs:
+    restart-server
+        - name: Restart Server
+            uses: fjogeleit/http-request-action@master
+            with:
+                url: 'http://mywiki.zapto.org:26262/load_changes'
+                method: 'GET'
