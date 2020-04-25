@@ -14,6 +14,8 @@
     <input type="text" id="url" name="url"> <input type="submit" value="Submit">
 </form>
 
+[Visual aid](/dragon_heist/visual_aid)
+
 ## Images
 
 * [Da party](^dnd_party.png)
