@@ -2,4 +2,4 @@
 * [Numenera Resources](/numenera/)
 * [Dragon Heist](/dragon_heist/)
 
-_[Load newest changes](/restart) | Last {{ commit_history }}_
+_[Load newest changes](/load_changes) | Last {{ commit_history }}_
