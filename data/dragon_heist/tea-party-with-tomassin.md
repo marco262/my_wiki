@@ -29,6 +29,8 @@ _Hobbies_
 * Going to the opera
 * Gossiping
 * Gambling
+* Spending the night at other noble boys' homes (no sex, but she does lead them on to feel like she's in control)
+ * She has to share her room with her younger brothers, which is part of the motivation to spend as much time out of the house as possible
 
 ## What Tomassin Knows
 
@@ -44,6 +46,8 @@ The nimblewright is kept in attic storage above the ballroom. Tomassin has only 
 
 ### Tea Party Conversation
 
+The tea party will happen in Lord Gralhund's Den, as the Parlor is currently being occupied by Urstul Floxin.
+
 Skill challenge. Three successes mean the PCs are able to chat with her as long as they like, and are invited to another tea party the next day. Three failures mean Tomassin ends the tea party early and doesn't invite them back. The PCs will need to make efforts to get back in her good graces.
 
 **Possible rolls**
@@ -58,6 +62,7 @@ Skill challenge. Three successes mean the PCs are able to chat with her as long 
 * Things are tense around the Villa lately.
 * A number of servants and guards have quit (Day 2 or beyond).
 * Yalah has been doing more "business" than usual in the last month.
+* Zhentarim reguarly hang around Gralhund Manor, and have been in Tomassin's way, making her uncomfortable (Day 3, before the fight). 
 
 ### Chess Minigame
 
@@ -72,7 +77,13 @@ If the PC wins, they must make a Persuasion check to not earn Tomassin's ire. If
 
 If Tomassin thinks she's guaranteed to win, she'll try to add wagers to the game. Some possible things she can wager:
 
-* ???
+* Periapt of Health
+* Periapt of Proof Against Poison
+* Periapt of Wound Closure
+* Gem of Brightness
+* Mithral Chainmail (In her room on Day 1, worn on Day 2+)
+* Glamoured Studded Leather
+* Elemental Gem
 
 ## Expected Timeline
 
@@ -80,21 +91,24 @@ While the PCs meet with Tomassin, the Gralhund's conflict with the Zhentarim wil
 
 **Day 1**
 
-* Two guards are posted at the stairs leading to the second floor of Gralhund Villa. No visitors are allowed upstairs for any reason.
-* One guard is posted at Urstul's guest room door. He is under house arrest, but he is still recovering from his wounds so has not forced the matter.
+* One guard is posted at the stairs leading to the second floor of Gralhund Villa. Visitors are not allowed upstairs without an escort.
+* Two guards are posted in the parlor, keeping tabs on Urstul Floxin. He is under house arrest, but he is still recovering from his wounds so has not forced the matter.
+* Both doors to the parlor are locked, and guards will 
 * Some Zhentarim are hanging out upstairs in the servants' quarters.
+* At some point, a servant will deliver three trays of food to the Parlor, needing to knock and be let in.
 
 **Day 2**
 
 * Urstul and Yalah got into a loud fight.
 * Relations between the Zhentarim and the Gralhund staff is strained.
-* A number of guards and staff have quick, sensing something bad will happen soon.
+* A number of guards and staff have quit, sensing something bad will happen soon.
+* Urstul has sent secret messages to the Zhentarim to be ready for a fight the next day.
 
 **Day 3**
 
-* Same as Day 2, but a fight will break out.
-* The fight will start upstairs as Urstul breaks out of his room, attacking the guards and the other Zhents join the fight.
-* The fight eventually spills downstairs as more guards run in to join the fight.
+* The Zhentarim are more active around the house, dressed in cloaks and hiding their faces. The servants and guards unhappy about this as it puts them on edge.
+* The fight will start in the parlor as Urstul attacks the guards. The other Zhents attack any other guards around them, leading to a slaughter.
+* Urstul fights his way upstairs to try and get to the Gralhunds. 
 * If possible, the Zhents will try to take any of the children hostage, including Tomassin.
 
 ## Possible Plot Hooks
