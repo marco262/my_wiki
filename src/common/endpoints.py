@@ -3,7 +3,7 @@ import sys
 from git import Repo
 from time import ctime
 
-from bottle import static_file, Bottle, redirect, view
+from bottle import static_file, Bottle, redirect, view, template
 from src.common.utils import md_page
 
 
@@ -15,12 +15,9 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
     def index_help():
         repo = Repo()
-        print(repo.active_branch.log())
-        print("")
-        print(repo.active_branch.log_entry(-1))
-        last_commit = repo.active_branch.log()[-1]
-        commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.time[0]))
-        return md_page("home", "common", build_toc=False, commit_history=commit_history)
+        last_commit = repo.head.commit
+        commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
+        return md_page("home", "common", build_toc=False, commit_history=commit_history, up_to_date_msg=False)
 
     @app.get("/static/<path:path>", name="static")
     def static(path):
@@ -43,11 +40,17 @@ def load_wsgi_endpoints(app: Bottle):
         return "Feedback here"
 
     @app.get("/load_changes")
-    @view("common/load_changes")
     def restart():
-        print("Pulling from git...", end="")
+        print("Pulling from git...")
         repo = Repo()
+        last_commit = repo.head.commit
+        print("HEAD:", last_commit)
         repo.remote().pull()
-        print(" Done.")
+        new_last_commit = repo.head.commit
+        print("New HEAD:", new_last_commit)
+        if new_last_commit == last_commit:
+            print("No updates found.")
+            return "No updates found."
         print("Waiting for server restart")
         # The bottle server will reload automatically
+        return "Restarting"
