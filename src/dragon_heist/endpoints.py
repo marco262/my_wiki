@@ -46,7 +46,7 @@ def load_wsgi_endpoints(app: Bottle):
         global visual_aid_url
         url = request.params["url"]
         # Support for locally hosted files
-        if not url.startswith("http"):
+        if "/" not in url:
             url = "/static/img/visual_aids/" + url
         print("Saved new URL: {!r}".format(url))
         visual_aid_url = url
