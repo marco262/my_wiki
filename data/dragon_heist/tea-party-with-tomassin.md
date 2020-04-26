@@ -66,7 +66,7 @@ Skill challenge. Three successes mean the PCs are able to chat with her as long 
 
 ### Chess Minigame
 
-Skill challenge, best of three. Contested Intelligence (Chess) checks, each prefaced with another check to possibly gain advantage on the Intelligence (Chess) check:
+Skill challenge, best of five. Contested Intelligence (Chess) checks, each prefaced with another check to possibly gain advantage on the Intelligence (Chess) check:
 
 * History, to identify opening moves
 * Deception, to feint
