@@ -5,6 +5,10 @@ let ws;
 
 export function init() {
     load_websocket();
+    window.addEventListener("beforeunload", event => {
+        console.log("Closing websocket");
+        ws.close();
+    });
 }
 
 function load_websocket() {
