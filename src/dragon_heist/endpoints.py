@@ -41,14 +41,14 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/get_visual_aid', apply=[websocket])
     def get_visual_aid(ws):
         global visual_aid_url, websocket_list
-        print("Opening Websocket {}".format(ws))
+        print("Opening Websocket {}".format(ws), flush=True)
         websocket_list.append(ws)
         try:
             ws.send(dumps({"url": visual_aid_url}))
             while True:
                 sleep(60)
         except WebSocketError:
-            print("Closing Websocket {}".format(ws))
+            print("Closing Websocket {}".format(ws), flush=True)
             websocket_list.remove(ws)
 
     @app.get("set_visual_aid")
@@ -56,16 +56,19 @@ def load_wsgi_endpoints(app: Bottle):
     def set_visual_aid():
         global visual_aid_url, websocket_list
         url = request.params["url"]
-        print("Saved new URL: {!r}".format(url))
+        print("Saved new URL: {!r}".format(url), flush=True)
         visual_aid_url = url
         # Update WebSockets
-        print(websocket_list)
+        print(websocket_list, flush=True)
         for websocket in websocket_list[:]:
+            print(dir(websocket), flush=True)
             try:
-                print("Sending new URL to {}".format(websocket))
+                print("Sending new URL to {}".format(websocket), flush=True)
+                print(websocket.closed, flush=True)
                 websocket.send(dumps({"url": visual_aid_url}))
+                print(websocket.closed, flush=True)
             except WebSocketError:
-                print("Failed to send message to {}. Removing from list".format(websocket))
+                print("Failed to send message to {}. Removing from list".format(websocket), flush=True)
                 websocket_list.remove(websocket)
         if request.params.get("redirect") != "false":
             redirect(url)
