@@ -6,7 +6,7 @@
 * [[[Lif's Seance]]]
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
 * [[[Housewarming Party]]]
-* [[[The Teppichverkaufer Family]]]
+* [[[Trollskull Guests]]]
 * [[[Tea Party With Tomassin]]]
 
 <form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
@@ -108,6 +108,7 @@
 #### Other
 
 * [Urstul Floxin](^https://db4sgowjqfwig.cloudfront.net/images/4970455/132fc9524d0b1d699f359905f9f46312.jpg), would-be assassin of Dalakhar
+  * [Assassin](https://roll20.net/compendium/dnd5e/Assassin#content), with the spells: [Message](/dnd/spell/Message), [True Strike](/dnd/spell/True Strike), [Disguise Self](/dnd/spell/Disguise Self)
 
 ## Enemy NPCs
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
