@@ -1,11 +1,12 @@
 from json import dumps
 
 import bcrypt
+import gevent
 from bottle_websocket import websocket
 from gevent import sleep
 from geventwebsocket import WebSocketError
 
-from bottle import Bottle, view, request, response, redirect, auth_basic
+from bottle import Bottle, view, request, redirect, auth_basic
 from src.common.utils import md_page
 
 visual_aid_url = "/static/img/dnd_party.png"
@@ -47,8 +48,18 @@ def load_wsgi_endpoints(app: Bottle):
             ws.send(dumps({"url": visual_aid_url}))
             while True:
                 sleep(60)
-        except WebSocketError:
-            print("Closing Websocket {}".format(ws), flush=True)
+                # Checking if websocket has been closed by the client
+                with gevent.Timeout(1.0, False):
+                    ws.receive()
+                if ws.closed:
+                    print("WebSocket was closed by the client: {}".format(ws), flush=True)
+                    break
+        except Exception as e:
+            print("Error in WebSocket loop: {}".format(e), flush=True)
+        finally:
+            if not ws.closed:
+                print("Closing WebSocket: {}".format(ws), flush=True)
+                ws.close()
             websocket_list.remove(ws)
 
     @app.get("set_visual_aid")
@@ -61,12 +72,9 @@ def load_wsgi_endpoints(app: Bottle):
         # Update WebSockets
         print(websocket_list, flush=True)
         for websocket in websocket_list[:]:
-            print(dir(websocket), flush=True)
             try:
                 print("Sending new URL to {}".format(websocket), flush=True)
-                print(websocket.closed, flush=True)
                 websocket.send(dumps({"url": visual_aid_url}))
-                print(websocket.closed, flush=True)
             except WebSocketError:
                 print("Failed to send message to {}. Removing from list".format(websocket), flush=True)
                 websocket_list.remove(websocket)
