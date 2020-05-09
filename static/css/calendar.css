@@ -9,11 +9,12 @@
 }
 
 .day {
+    font-size: 11pt;
     position: absolute;
     text-align: center;
     color: orangered;
     /*outline: 1px solid red;*/
-    padding-top: 30px;
+    padding-top: 32px;
     padding-left: 5px;
     padding-right: 5px;
     box-sizing: border-box;

@@ -9,7 +9,7 @@
     {{ cb.day(8, "Acquired TS Manor") }}
     {{ cb.day(10, "Seance for Lif") }}
     {{ cb.day(12, "Zhent Mission") }}
-    {{ cb.day(13, "Borrowed money\nBought suit") }}
+    {{ cb.day(13, "Borrowed money / Bought suit") }}
     {{ cb.day(19, "Opera") }}
     {{ cb.day(22, "Maxeene") }}
     {{ cb.day(26, "Embric attacked") }}
@@ -20,10 +20,11 @@
     <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
     {{ cb.day(23, "Fireball!") }}
     {{ cb.day(24, "Morgue trip") }}
-    {{ cb.day(26, "Delivered Potions\nMet Zardoz Zord") }}
+    {{ cb.day(26, "Delivered Potions / Met Zardoz Zord") }}
     {{ cb.day(27, "Searched North Ward") }}
     {{ cb.day(28, "Tea with Tommasin Gralhund") }}
-    {{ cb.day(29, "More tea with Tommasin Gralhund", current_day=True) }}
+    {{ cb.day(29, "More tea with Tommasin Gralhund") }}
+    {{ cb.day(30, "Even more tea with Tommasin Gralhund", current_day=True) }}
 </div>
 <h1>Festival Day: Midsummer</h1>
 <div class="month" id="eleasis">
