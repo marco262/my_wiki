@@ -78,6 +78,9 @@ def load_wsgi_endpoints(app: Bottle):
             except WebSocketError:
                 print("Failed to send message to {}. Removing from list".format(websocket), flush=True)
                 websocket_list.remove(websocket)
+            except Exception as e:
+                print("Error when sending message to {}. {}".format(websocket, e), flush=True)
+                websocket_list.remove(websocket)
         if request.params.get("redirect") != "false":
             redirect(url)
 
