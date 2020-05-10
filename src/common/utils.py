@@ -56,7 +56,7 @@ def load_config():
     # Check for config file. If it doesn't exist, copy it over
     config_path = os.path.join(config_folder, "config.ini")
     if not os.path.isfile(config_path):
-        dist_config_path = os.path.join(os.path.dirname(__file__), 'config.ini.dist')
+        dist_config_path = "config.ini.dist"
         copyfile(dist_config_path, config_path)
     # Load config file and return it
     cfg = RawConfigParser()
