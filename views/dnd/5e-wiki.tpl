@@ -1,36 +1,30 @@
 % from data.dnd.enums import classes, spell_classes
 
-<h2>Classes</h2>
+## Classes
 
-<ul>
-    % for c in classes:
-    <li><a href="/dnd/class/{{c.lower()}}">{{c.title()}}</a></li>
-    % end
-</ul>
+% for c in classes:
+* [[[class:{{c.title()}}]]]
+% end
 
-<h3>Homebrew classes</h3>
+### Homebrew classes
 
-<ul>
-    <li><a href="/dnd/class/dragonfire-adept">Dragonfire Adept</a></li>
-</ul>
+* [[[class:Dragonfire Adept]]]
 
-<h2>Spells</h2>
+## Advancement
 
-<ul>
-<li><a href="/dnd/all_spells_by_name/true">All Spells By Name</a></li>
-<li><a href="/dnd/concentration_spells/true">Concentration Spells</a></li>
-<li><a href="/dnd/ritual_spells/true">Ritual Spells</a></li>
-</ul>
+* [[[advancement:Feats]]]
 
-<h3>Class Spell Lists</h3>
+## Spells
 
-<ul>
-    % for c in spell_classes:
-    <li><a href="/dnd/class_spell_list/{{c.lower()}}/true">{{c.title()}} Spells</a></li>
-    % end
-</ul>
+* [All Spells By Name](/dnd/all_spells_by_name/true)
+* [Concentration Spells](/dnd/concentration_spells/true)
+* [Ritual Spells](/dnd/ritual_spells/true)
 
-<p>
+### Class Spell Lists
 
-<a href="/dnd/search">Search Spells</a><br>
-<a href="/dnd/spell_filter">Spell Filter</a>
+% for c in spell_classes:
+* [{{c.title()}} Spells](/dnd/class_spell_list/{{c}}/true)
+% end
+
+[Search Spells](/dnd/search)<br>
+[Spell Filter](/dnd/spell_filter)

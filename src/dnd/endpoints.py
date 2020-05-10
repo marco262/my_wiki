@@ -55,6 +55,40 @@ def load_wsgi_endpoints(app: Bottle):
     def home():
         return md_page("5e Wiki", "dnd", build_toc=False)
 
+    # Categories
+
+    @app.get('/class/<name>')
+    @view("dnd/page.tpl")
+    def dnd_class(name):
+        formatted_name = title_to_page_name(name)
+        path = "data/dnd/class/" + formatted_name + ".md"
+        try:
+            md = MD.parse_md_path(path, namespace="dnd")
+        except FileNotFoundError:
+            raise HTTPError(404, f"I couldn't find \"{name}\".")
+        return {"title": name.title(), "text": md, "toc": md.toc_html}
+
+    @app.get('/advancement/<name>')
+    @view("dnd/page.tpl")
+    def advancement(name):
+        formatted_name = title_to_page_name(name)
+        path = "data/dnd/advancement/" + formatted_name + ".md"
+        try:
+            md = MD.parse_md_path(path, namespace="dnd")
+        except FileNotFoundError:
+            raise HTTPError(404, f"I couldn't find \"{name}\".")
+        return {"title": name.title(), "text": md, "toc": md.toc_html}
+
+    @app.get('/spell/<name>')
+    @view("dnd/spell.tpl")
+    def spell(name):
+        formatted_name = title_to_page_name(name)
+        if formatted_name not in SPELLS:
+            raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
+        return SPELLS[formatted_name]
+
+    # Misc Functions
+
     @app.get('/search')
     @view('dnd/search.tpl')
     def search():
@@ -134,14 +168,6 @@ def load_wsgi_endpoints(app: Bottle):
         }
         return d
 
-    @app.get('/spell/<name>')
-    @view("dnd/spell.tpl")
-    def spell(name):
-        formatted_name = title_to_page_name(name)
-        if formatted_name not in SPELLS:
-            raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
-        return SPELLS[formatted_name]
-
     @app.get('/all_spells_by_name/<ua_spells>')
     @view("dnd/spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
@@ -200,17 +226,6 @@ def load_wsgi_endpoints(app: Bottle):
             "ua_spells": str_to_bool(ua_spells)
         }
         return d
-
-    @app.get('/class/<name>')
-    @view("dnd/class.tpl")
-    def dnd_class(name):
-        formatted_name = title_to_page_name(name)
-        path = "data/dnd/class/" + formatted_name + ".md"
-        try:
-            md = MD.parse_md_path(path, namespace="dnd")
-        except FileNotFoundError:
-            raise HTTPError(404, f"I couldn't find \"{name}\".")
-        return {"title": name.title(), "text": md, "toc": md.toc_html}
 
     @app.get('/characters')
     @view("dnd/characters.tpl")
