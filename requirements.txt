@@ -1,5 +1,7 @@
 toml
 bcrypt
 fasteners
-git+ssh://git@github.com:ryanvilbrandt/bottle.git@master
-git+ssh://git@github.com:ryanvilbrandt/python-markdown2.git@master
+GitPython
+git+https://github.com/ryanvilbrandt/bottle.git@master
+git+https://github.com/ryanvilbrandt/python-markdown2.git@master
+bottle_websocket
