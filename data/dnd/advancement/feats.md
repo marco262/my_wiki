@@ -350,7 +350,6 @@ You have practiced extensively with a variety of weapons, gaining the following 
 * Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * You gain proficiency with four simple or martial weapons of your choice.[((bibcite errata))]
 
-
 # Racial Feats
 
 *Source: Xanathar's Guide to Everything, p. 73*
@@ -449,7 +448,7 @@ You manifest scales and claws reminiscent of your draconic ancestors. You gain t
 * Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.
 * You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.
 
-## Drow Hide Magic
+## Drow High Magic
 
 *Prerequisite: Elf (drow)*
 
@@ -556,7 +555,6 @@ Your inner fury burns tirelessly. You gain the following benefits:
 * When you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
 * When jumping a distance of at least 10 feet towards a creature, you can use a bonus action to try to shove the creature. You may use Acrobatics instead of Athletics to do so.
 * You may opt to use your Feline Agility ability to avoid opportunity attacks at the expense of the doubled speed. As before, you can't use the ability again until you move 0 feet on one of your turns.
-
 
 ## Prodigy
 
