@@ -19,18 +19,20 @@
     </tr>
     % for k, s in spells:
     <tr>
-        <td><a href="/dnd/spell/{{k}}">{{s["title"]}}</a></td>
-        <td>{{s["school"].title()}}</td>
+        <td style="min-width: 264px;"><a href="/dnd/spell/{{k}}">{{s["title"]}}</a></td>
+        <td style="min-width: 102px;">{{s["school"].title()}}</td>
         <%
         if get("show_classes"):
             for c in spell_classes:
         %>
-        <td>{{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}</td>
+        <td style="text-align: center;">
+            {{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}
+        </td>
         <%
             end
         end
         %>
-        <td>{{s["source"].split(", p")[0]}}</td>
+        <td style="min-width: 233px;">{{s["source"].split(", p")[0]}}</td>
     <tr>
     % end
 </table>
