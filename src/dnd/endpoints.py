@@ -154,11 +154,11 @@ def load_wsgi_endpoints(app: Bottle):
             if ((filter_keys["material"] == "yes" and "M" not in v["components"]) or
                 (filter_keys["material"] == "no" and "M" in v["components"])):
                 continue
-            if ((filter_keys["expensive"] == "yes" and not v["expensive_material_component"]) or
-                (filter_keys["expensive"] == "no" and v["expensive_material_component"])):
+            if ((filter_keys["expensive"] == "yes" and not v.get("expensive_material_component")) or
+                (filter_keys["expensive"] == "no" and v("expensive_material_component"))):
                 continue
-            if ((filter_keys["consumed"] == "yes" and not v["material_component_consumed"]) or
-                (filter_keys["consumed"] == "no" and v["material_component_consumed"])):
+            if ((filter_keys["consumed"] == "yes" and not v.get("material_component_consumed")) or
+                (filter_keys["consumed"] == "no" and v.get("material_component_consumed"))):
                 continue
             results[v["level"]].append((k, v))
         d = {
