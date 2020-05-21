@@ -93,7 +93,7 @@ class MarkdownParser:
                 k, v = arg.split("=")
                 k, v = k.strip(), v.strip()
                 if v.startswith("!"):
-                    v = self.parse_md(v[1:], namespace=self.namespace)
+                    v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
                 args[k] = v
 
             t = template(os.path.join(self.namespace, template_name) + ".tpl", args)

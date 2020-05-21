@@ -41,13 +41,19 @@ cha_mod = ability_mod(charisma)
     % if defined("senses"):
     <div class="text"><strong>Senses:</strong> {{ senses }}</div>
     % end
+    % if defined("damage_immunities"):
+    <div class="text"><strong>Damage Immunities:</strong> {{ damage_immunities }}</div>
+    % end
+    % if defined("condition_immunities"):
+    <div class="text"><strong>Condition Immunities:</strong> {{ condition_immunities }}</div>
+    % end
     % if defined("languages"):
     <div class="text"><strong>Languages:</strong> {{ languages }}</div>
     % end
     <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
     % if defined("special_abilities"):
     <div class="text-black">
-        {{ special_abilities }}
+        {{! special_abilities }}
     </div>
     % end
     % if defined("actions"):
