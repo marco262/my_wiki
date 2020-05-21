@@ -1,6 +1,7 @@
 from pprint import pprint
 
 classes = [
+    "artificer",
     "barbarian",
     "bard",
     "cleric",
