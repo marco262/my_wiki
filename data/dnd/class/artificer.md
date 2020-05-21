@@ -33,28 +33,36 @@ If your group uses the optional rule on multi classing in the Player's Handbook,
 # The Artificer
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Infusions<br>Known ||~ Infused<br>Items ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||
-|| 1st || +2 || Divine Sense, Lay on Hands || -- || -- || 2 || 2 || -- || -- || -- || -- ||
-|| 2nd || +2 || Fighting Style, Spellcasting, Divine Smite || 4 || 2 || 2 || 2 || -- || -- || -- || -- ||
-|| 3rd || +2 || Divine Health, Sacred Oath || 4 || 2 || 2 || 3 || -- || -- || -- || -- ||
+|| 1st || +2 || Magical Tinkering, Spellcasting || -- || -- || 2 || 2 || -- || -- || -- || -- ||
+|| 2nd || +2 || Infuse Item || 4 || 2 || 2 || 2 || -- || -- || -- || -- ||
+|| 3rd || +2 || Artificer Specialist, The Right Tool for the Job || 4 || 2 || 2 || 3 || -- || -- || -- || -- ||
 || 4th || +2 || Ability Score Improvement || 4 || 2 || 2 || 3 || -- || -- || -- || -- ||
-|| 5th || +3 || Extra Attack || 4 || 2 || 2 || 4 || 2 || -- || -- || -- ||
-|| 6th || +3 || Aura of Protection || 6 || 3 || 2 || 4 || 2 || -- || -- || -- ||
-|| 7th || +3 || Sacred Oath feature || 6 || 3 || 2 || 4 || 3 || -- || -- || -- ||
+|| 5th || +3 || Artificer Specialist feature || 4 || 2 || 2 || 4 || 2 || -- || -- || -- ||
+|| 6th || +3 || Tool Expertise || 6 || 3 || 2 || 4 || 2 || -- || -- || -- ||
+|| 7th || +3 || Flash of Genius || 6 || 3 || 2 || 4 || 3 || -- || -- || -- ||
 || 8th || +3 || Ability Score Improvement || 6 || 3 || 2 || 4 || 3 || -- || -- || -- ||
-|| 9th || +4 || -- || 6 || 3 || 2 || 4 || 3 || 2 || -- || -- ||
-|| 10th || +4 || Aura of Courage || 8 || 4 || 3 || 4 || 3 || 2 || -- || -- ||
-|| 11th || +4 || Improved Divine Smite || 8 || 4 || 3 || 4 || 3 || 3 || -- || -- ||
+|| 9th || +4 || Artificer Specialist feature || 6 || 3 || 2 || 4 || 3 || 2 || -- || -- ||
+|| 10th || +4 || Magic Item Adept || 8 || 4 || 3 || 4 || 3 || 2 || -- || -- ||
+|| 11th || +4 || Spell-Storing Item || 8 || 4 || 3 || 4 || 3 || 3 || -- || -- ||
 || 12th || +4 || Ability Score Improvement || 8 || 4 || 3 || 4 || 3 || 3 || -- || -- ||
 || 13th || +5 || -- || 8 || 4 || 3 || 4 || 3 || 3 || 1 || -- ||
-|| 14th || +5 || Cleansing Touch || 10 || 5 || 4 || 4 || 3 || 3 || 1 || -- ||
-|| 15th || +5 || Sacred Oath feature || 10 || 5 || 4 || 4 || 3 || 3 || 2 || -- ||
+|| 14th || +5 || Magic Item Savant || 10 || 5 || 4 || 4 || 3 || 3 || 1 || -- ||
+|| 15th || +5 || Artificer Specialist feature || 10 || 5 || 4 || 4 || 3 || 3 || 2 || -- ||
 || 16th || +5 || Ability Score Improvement || 10 || 5 || 4 || 4 || 3 || 3 || 2 || -- ||
 || 17th || +6 || -- || 10 || 5 || 4 || 4 || 3 || 3 || 3 || 1 ||
-|| 18th || +6 || Aura improvements || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 1 ||
+|| 18th || +6 || Magic Item Master || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 1 ||
 || 19th || +6 || Ability Score Improvement || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 2 ||
-|| 20th || +6 || Sacred Oath feature || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 2 ||
+|| 20th || +6 || Soul of Artifice || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 2 ||
 
 # Class Features
+
+[[div class="phb-sidebar"]]
+
+**Artificers in Other Worlds**
+
+Eberron is the world most associated with artificers, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular -- the gnome inventor Vi -- has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the lzzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds -- except, perhaps, by the tinker gnomes of Krynn.
+
+[[/div]]
 
 As an artificer, you gain the following class features.
 
@@ -101,6 +109,18 @@ The chosen property lasts indefinitely. As an action, you can touch the object a
 You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.
 
 ## Spellcasting
+
+[[div class="phb-sidebar"]]
+
+**The Magic of Artifice**
+
+As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast cure wounds using alchemist's supplies, you could be quickly producing a salve. If you cast it using tinker's tools, you might have a miniature mechanical spider that binds wounds. When you cast poison spray, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.
+
+The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace cure wounds with heat metal, you might be altering the device you use to heal -- perhaps modifying a tool so that it channels heat instead of healing energy.
+
+Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters.
+
+[[/div]]
 
 You have studied the workings of magic and how to channel it through objects. As a result, you have gained the ability to cast spells. To observers, you don't appear to be casting spells in a conventional way; you look as if you're producing wonders using mundane items or outlandish inventions.
 
@@ -315,7 +335,7 @@ In the tables, an item's entry tells you whether the item requires attunement. S
 
 If you have Xanathar's Guide to Everything, you can choose from among the common magic items in that book when you pick a magic item you can replicate with this infusion.
 
-*Replicable Items (2nd-Level Artificer)*
+**Replicable Items (2nd-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
 || Alchemy jug || No ||
@@ -329,10 +349,10 @@ If you have Xanathar's Guide to Everything, you can choose from among the common
 || Wand of magic detection || No ||
 || Wand of secrets || No ||
 
-*Replicable Items (6th-Level Artificer)*
+**Replicable Items (6th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
-|| Boots of elvenkind || No
+|| Boots of elvenkind || No ||
 || Cloak of elvenkind || Yes ||
 || Cloak of the manta ray || No ||
 || Eyes of charming || Yes ||
@@ -342,7 +362,7 @@ If you have Xanathar's Guide to Everything, you can choose from among the common
 || Ring of water walking || No ||
 || Wand sheath || Yes ||
 
-*Replicable Items (10th-Level Artificer)*
+**Replicable Items (10th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
 || Boots of striding and springing || Yes ||
@@ -367,11 +387,11 @@ If you have Xanathar's Guide to Everything, you can choose from among the common
 || Ventilating lung || Yes ||
 || Winged boots || Yes ||
 
-*Replicable Items (14th-Level Artificer)*
+**Replicable Items (14th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
 || Amulet of health || Yes ||
-|| Arcane propulsion arm (detai led in chapter 5) || Yes ||
+|| Arcane propulsion arm || Yes ||
 || Belt of hill giant strength || Yes ||
 || Boots of levitation || Yes ||
 || Boots of speed || Yes ||
@@ -418,4 +438,4 @@ Artificers pursue many disciplines. Here are specialist options you can choose f
 
 ---
 
-_Source: Eberron: Rising from the Last War, p. 
+_Source: Eberron: Rising from the Last War, p. 54_
