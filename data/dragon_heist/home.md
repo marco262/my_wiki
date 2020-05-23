@@ -39,3 +39,5 @@ But that is a story for another time. This story has more humble beginnings. We 
 * Trollskull Manor [1](https://www.seekpng.com/png/detail/41-413278_four-stories-tall-and-boasting-balconies-a-turret.png), [2](https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/de/Rkwbhhl78l021.jpg/revision/latest?cb=20181219225432), [3](https://i.imgur.com/8PCaZrv.png)
 * [Trollskull Manor Floorplan](https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/9/91/Trollskull-Manor-DM.jpg/revision/latest?cb=20181220001450)
 * [Trollskull Alley](https://i.redd.it/7k86kx3ouhb31.png)
+
+[GM Notes](/dragon_heist/gm_notes/home)

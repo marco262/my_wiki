@@ -2,12 +2,12 @@
 * [Calendar](/dragon_heist/calendar)
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
 * [Trollskull Alley Visitors](https://www.dndbeyond.com/posts/316-visitors-to-trollskull-alley)
-* [[[Gang Activities]]]
-* [[[Lif's Seance]]]
+* [Gang Activities](/dragon_heist/gm_notes/Gang Activities)
+* [Lif's Seance](/dragon_heist/gm_notes/Lif's Seance)
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
-* [[[Housewarming Party]]]
-* [[[Trollskull Guests]]]
-* [[[Tea Party With Tomassin]]]
+* [Housewarming Party](/dragon_heist/gm_notes/Housewarming Party)
+* [Trollskull Guests](/dragon_heist/gm_notes/Trollskull Guests)
+* [Tea Party With Tomassin](/dragon_heist/gm_notes/Tea Party With Tomassin)
 
 <form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
     <label for="url">Enter another URL to set as Visual Aid here:</label><br>
@@ -76,39 +76,7 @@
 * [Justyn Rassk](^https://i.pinimg.com/474x/f6/38/02/f63802aa830ea96a9adab1d00929d14e.jpg), representative for the Guild of Butchers
 * [Ulkoria Stronemarrow](^https://www.rpnation.com/gallery/16cd198adc13eb77682d47f560f9c127.3480/full?d=1444402724), representative for the Watchful Order of Magists and Protectors
 
-## Faction NPCs
-
-### Force Grey NPCs
-
-* [Vajra Safahr](^https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f9/Vajra-5e.png/revision/latest/top-crop/width/360/height/450?cb=20180925013042), blackstaff of Waterdeep
-
-### Harpers NPCs
-
-* [Mirt](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/44/Mirt-5e.jpg/revision/latest?cb=20181208035731), Harper contact
-* [Remalia Haventree](^https://outsiderscampaign.files.wordpress.com/2018/06/remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
-
-### Lords' Alliance NPCs
-
-* [Jalester Silvermane](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6e/Jalester.jpg/revision/latest/top-crop/width/360/height/450?cb=20190301155331), field agent
-
-### Order of the Gauntlet NPCs
-
-* [Savra Belabranta](^https://www.worldanvil.com/uploads/images/a8734ae15f9246236f07065a555a5435.jpg), knight
-
-### Zhentarim NPCs
-
-#### Doom Raiders
-
-* [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
-* [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
-* [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
-* [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
-* [Skeemo Weirdbottle](^https://i.pinimg.com/originals/09/70/f5/0970f5d05aa6de40220d1365df4bb522.jpg), Master of Magic
-
-#### Other
-
-* [Urstul Floxin](^https://db4sgowjqfwig.cloudfront.net/images/4970455/132fc9524d0b1d699f359905f9f46312.jpg), would-be assassin of Dalakhar
-  * [Assassin](https://roll20.net/compendium/dnd5e/Assassin#content), with the spells: [Message](/dnd/spell/Message), [True Strike](/dnd/spell/True Strike), [Disguise Self](/dnd/spell/Disguise Self)
+## [Faction NPCs](/dragon_heist/gm_notes/faction npcs)
 
 ## Enemy NPCs
 * [Kenku](^https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest?cb=20171010191131)
@@ -139,17 +107,6 @@
 * Other nimblewright images: [1](^https://www.scabard.com/user/Varadan/image/Nim.jpg?imaged=260), [2](^https://vignette.wikia.nocookie.net/rythiae/images/b/bc/Nimblewright.jpg/revision/latest/scale-to-width-down/340?cb=20141027112711), [3](^https://i.pinimg.com/originals/5e/8d/47/5e8d47a01cfeff02cbc07c012668c8ae.jpg)
 * [Zardoz Zord](^https://external-preview.redd.it/Rgur7tC-JuNxlL_5nKhwhr4PDAVtKI8P3OQ4k-3sKMc.jpg?auto=webp&s=6854946efd5242e4257f67b9ca9bf919d4821908), owner of the Sea Maidens Faire
 
-# Faction Missions
+# [Faction Missions](/dragon_heist/gm_notes/faction missions)
 
-## Harpers
-
-### A Gift Horse
-
-* [Maxeene](^https://66.media.tumblr.com/0e11570e6874520822c64be125831aa9/tumblr_plte6v5kox1y5be00o1_1280.jpg), a talking horse
-
-## Zhentarim
-
-### Bad Time To Be An Elf
-* [Muleskull Tavern](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/947873/tavern.jpg?1551016890), owned by [Richard Charleston](^https://i.pinimg.com/236x/96/34/02/96340289f99fdbc0e95eda781796d3d6--fantasy-pirate-male-male-pirate.jpg)
-* [Heldar](^https://i.pinimg.com/originals/9c/c0/47/9cc047c12cacae391737a80f5a77cf85.png), half-elf sailor who drinks at Muleskull Tavern
-* Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png))
+# [Spring Encounters](/dragon_heist/gm_notes/spring encounters)

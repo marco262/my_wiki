@@ -121,14 +121,18 @@ def title_to_page_name(title):
     return re.sub(r"\W+", "-", title.lower()).strip("-")
 
 
-def md_page(page_title, namespace, build_toc=True, markdown_parser=None, **kwargs):
+def md_page(page_title, namespace, directory=None, build_toc=True, markdown_parser=None, **kwargs):
     if markdown_parser is None:
         # Avoiding circular dependencies
         from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
         markdown_parser = DEFAULT_MARKDOWN_PARSER
-    formatted_name = title_to_page_name(page_title)
-    template_path = f"views{'/' + namespace if namespace else ''}/{formatted_name}.tpl"
-    md_path = f"data{'/' + namespace if namespace else ''}/{formatted_name}.md"
+    path_name = title_to_page_name(page_title)
+    if directory:
+        path_name = os.path.join(directory, path_name)
+    if namespace:
+        path_name = os.path.join(namespace, path_name)
+    template_path = f"views/{path_name}.tpl"
+    md_path = f"data/{path_name}.md"
 
     if isfile(template_path):
         text = unescape(template(template_path, **kwargs))

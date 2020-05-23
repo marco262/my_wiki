@@ -29,6 +29,12 @@ def load_wsgi_endpoints(app: Bottle):
     def page(name):
         return md_page(name, "dragon_heist")
 
+    @app.get("gm_notes/<name>")
+    @view("common/page.tpl")
+    @auth_basic(set_visual_aid_auth_check)
+    def gm_notes(name):
+        return md_page(name, "dragon_heist", directory="gm_notes")
+
     @app.get("")
     @view("common/page.tpl")
     def calendar():
@@ -66,9 +72,8 @@ def load_wsgi_endpoints(app: Bottle):
     @auth_basic(set_visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_url, websocket_list
-        url = request.params["url"]
-        print("Saved new URL: {!r}".format(url), flush=True)
-        visual_aid_url = url
+        visual_aid_url = request.params["url"]
+        print("Saved new URL: {!r}".format(visual_aid_url), flush=True)
         # Update WebSockets
         print(websocket_list, flush=True)
         for websocket in websocket_list[:]:
@@ -82,7 +87,7 @@ def load_wsgi_endpoints(app: Bottle):
                 print("Error when sending message to {}. {}".format(websocket, e), flush=True)
                 websocket_list.remove(websocket)
         if request.params.get("redirect") != "false":
-            redirect(url)
+            redirect(visual_aid_url)
 
 
 def set_visual_aid_auth_check(username, password):

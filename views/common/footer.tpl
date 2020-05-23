@@ -7,6 +7,8 @@ path = request.urlparts.path
 <a href="/dnd/">D&D Home</a><br>
 % elif not path == "/numenera/" and path.startswith("/numenera/"):
 <a href="/numenera/">Numenera Home</a><br>
+% elif not path == "/dragon_heist/" and path.startswith("/dragon_heist/"):
+<a href="/dragon_heist/">Dragon Heist Home</a><br>
 % end
 % if not path == "/":
 <a href="/">Home</a><br>
