@@ -24,7 +24,7 @@
     {{ cb.day(27, "Searched North Ward") }}
     {{ cb.day(28, "Tea with Tommasin Gralhund") }}
     {{ cb.day(29, "More tea with Tommasin Gralhund") }}
-    {{ cb.day(30, "Even more tea with Tommasin Gralhund", current_day=True) }}
+    {{ cb.day(30, "Tea and Violence") }}
 </div>
 <h1>Festival Day: Midsummer</h1>
 <div class="month" id="eleasis">
