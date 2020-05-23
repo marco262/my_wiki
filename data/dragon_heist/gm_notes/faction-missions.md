@@ -4,9 +4,36 @@
 
 * [Maxeene](^https://66.media.tumblr.com/0e11570e6874520822c64be125831aa9/tumblr_plte6v5kox1y5be00o1_1280.jpg), a talking horse
 
+### Pest Control
+
+* [Felzoun "Darkiron" Thar](^https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6ce963b0-782a-42cc-bdf7-6a4b495f86ce/d42dmqh-f9092362-fdd9-4d1c-a845-7973fbb0164b.jpg/v1/fill/w_900,h_1200,q_75,strp/galmir_the_dwarf_by_oxiso_d42dmqh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjAwIiwicGF0aCI6IlwvZlwvNmNlOTYzYjAtNzgyYS00MmNjLWJkZjctNmE0YjQ5NWY4NmNlXC9kNDJkbXFoLWY5MDkyMzYyLWZkZDktNGQxYy1hODQ1LTc5NzNmYmIwMTY0Yi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.WOUOyyZP5RBGXAS_du82TriG7elEHtkcU-8qxDP-jZw), owner of Felzoun's Folly
+* [Uza Solizeph](^https://db4sgowjqfwig.cloudfront.net/images/5248598/Uza_Solizeph.jpg), distraught cat-owner and amateur monster-trapper
+* [Curiosity & Satisfaction](^https://www.parisperfect.com/blog/wp-content/uploads/2017/11/Shakespeare-and-Company-Kiren.jpg), Uza's bookshop
+* [Fillipa](^https://cf.ltkcdn.net/cats/images/orig/259025-1600x1030-gorgeous-grey-cat-breeds.jpg)
+
+Spellbook reward can be sold for 275gp
+
+### Welcome to the Family
+
+* [Threestrings](^/static/img/visual_aid/threestrings.jpg)
+* [Durnan](^/static/img/visual_aid/durnan.jpg)
+* [Bonnie](^/static/img/visual_aid/bonnie.jpg)
+* [Willifort Crowelle](^https://i.pinimg.com/originals/d9/f6/74/d9f67439fb92920c37d64c007be1ca25.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
+* [Naneatha Lharilstar](^https://www.itl.cat/pngfile/big/152-1524471_beautiful-redhead-wallpaper-victorian-noblewoman.jpg), beautiful human noblewoman (dopperganger)
+* [Cecil Weiss](^https://i.pinimg.com/originals/63/32/33/6332332ba21b3255456ce0e7eaccbf6a.png), male human bard (doppelganger) who makes his livings a musician/actor/playwright 
+* [Venea Shortwick](^https://i.pinimg.com/originals/09/73/4a/09734a9386ba02215098720006fe6871.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall
+
 ## Zhentarim
 
 ### Bad Time To Be An Elf
 * [Muleskull Tavern](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/947873/tavern.jpg?1551016890), owned by [Richard Charleston](^https://i.pinimg.com/236x/96/34/02/96340289f99fdbc0e95eda781796d3d6--fantasy-pirate-male-male-pirate.jpg)
 * [Heldar](^https://i.pinimg.com/originals/9c/c0/47/9cc047c12cacae391737a80f5a77cf85.png), half-elf sailor who drinks at Muleskull Tavern
 * Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png))
+
+### Keep the Change
+
+* [Weirdbottle's Concoctions](^https://i.pinimg.com/originals/cd/db/e5/cddbe5d20bca423d8bde42d93214b847.jpg)
+* [Skeemo Weirdbottle](^https://i.pinimg.com/originals/09/70/f5/0970f5d05aa6de40220d1365df4bb522.jpg), Master of Magic
+* [Black Viper](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/48/TheBlackViper-5e.jpg/revision/latest?cb=20181006212012)
+
+### On Dasher

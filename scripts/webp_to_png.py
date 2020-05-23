@@ -16,12 +16,12 @@ for filepath in glob(dir + "*" + in_ext):
     im = Image.open(filepath)
     if out_ext == ".jpg":
         # Get rid of transparency
-        bg = Image.new("RGBA", im.size, "WHITE")
+        bg = Image.new("RGB", im.size, "WHITE")
         try:
             bg.paste(im, (0, 0), im)
             bg.save(out_filepath)
         except ValueError as e:
-            if e.message == "bad transparency mask":
+            if str(e) == "bad transparency mask":
                 # No transparency actually used in file, so don't bother and just save
                 im.save(out_filepath)
             else:

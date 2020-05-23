@@ -21,7 +21,7 @@
 
 * [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
-* [Istrid Horn](^https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Istrid.png/revision/latest?cb=20190206092640), Master of Trade and Coin
+* [Istrid Horn](^/static/img/visual_aid/istrid_horn.jpg), Master of Trade and Coin
 * [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
 * [Skeemo Weirdbottle](^https://i.pinimg.com/originals/09/70/f5/0970f5d05aa6de40220d1365df4bb522.jpg), Master of Magic
 
