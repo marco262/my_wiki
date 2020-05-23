@@ -19,18 +19,18 @@
 ## Images
 
 * [Da party](^/static/img/visual_aids/dnd_party.png)
-* [Fireball Header image](^/static/img/visual_aids/fireball_head_image.webp)
+* [Fireball Header image](^/static/img/visual_aids/fireball_head_image.jpg)
 * [Day of Wonders Parade](^https://media-waterdeep.cursecdn.com/attachments/4/346/9012.png)
 
 ## Places
 
-* The Dock Ward [1](^/static/img/visual_aids/dock_ward_1.webp), [2](^/static/img/visual_aids/dock_ward_2.jpg)
+* The Dock Ward [1](^/static/img/visual_aids/dock_ward_1.jpg), [2](^/static/img/visual_aids/dock_ward_2.jpg)
 * [Old Xoblob's Shop](^/static/img/visual_aids/old_xoblobs_shop.jpg)
-* [Old Xoblob](^/static/img/visual_aids/old_xoblob.webp)
-* [The Skewered Dragon](^/static/img/visual_aids/skewered_dragon.webp)
+* [Old Xoblob](^/static/img/visual_aids/old_xoblob.jpg)
+* [The Skewered Dragon](^/static/img/visual_aids/skewered_dragon.jpg)
 * [Zhentarim Hideout](^/static/img/visual_aids/zhentarim_hideout.jpg)
 * [Zhentarim Logo](^/static/img/visual_aids/zhentarim_logo.png)
-* Sewer [1](^/static/img/visual_aids/sewer_1.jpg), [2](^/static/img/visual_aids/sewer_2.webp), [3](^/static/img/visual_aids/sewer_3.jpg), [4](^/static/img/visual_aids/sewer_4.jpg),
+* Sewer [1](^/static/img/visual_aids/sewer_1.jpg), [2](^/static/img/visual_aids/sewer_2.jpg), [3](^/static/img/visual_aids/sewer_3.jpg), [4](^/static/img/visual_aids/sewer_4.jpg),
 * Trollskull Manor [1](^https://www.seekpng.com/png/detail/41-413278_four-stories-tall-and-boasting-balconies-a-turret.png), [2](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/de/Rkwbhhl78l021.jpg/revision/latest?cb=20181219225432), [3](^https://i.imgur.com/8PCaZrv.png)
 * [Trollskull Alley](^https://i.redd.it/7k86kx3ouhb31.png)
 * [Another tavern](^https://i.warosu.org/data/tg/img/0403/75/1433386038458.jpg)

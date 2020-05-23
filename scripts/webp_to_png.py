@@ -1,0 +1,31 @@
+import os
+from glob import glob
+from os.path import splitext
+
+from PIL import Image
+
+dir = "../static/img/visual_aids/"
+
+in_ext = ".webp"
+out_ext = ".jpg"
+
+
+for filepath in glob(dir + "*" + in_ext):
+    print(filepath)
+    out_filepath = splitext(filepath)[0] + out_ext
+    im = Image.open(filepath)
+    if out_ext == ".jpg":
+        # Get rid of transparency
+        bg = Image.new("RGBA", im.size, "WHITE")
+        try:
+            bg.paste(im, (0, 0), im)
+            bg.save(out_filepath)
+        except ValueError as e:
+            if e.message == "bad transparency mask":
+                # No transparency actually used in file, so don't bother and just save
+                im.save(out_filepath)
+            else:
+                raise
+    else:
+        im.save(out_filepath)
+    os.remove(filepath)
