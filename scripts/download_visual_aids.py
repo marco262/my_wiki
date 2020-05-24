@@ -11,11 +11,11 @@ output_text = text[:]
 
 for m in re.finditer(r"\[(.*?)\]\(\^(.*?)\)", text):
     url = m.group(2)
-    if not m.group(2).startswith("http"):
+    if not url.startswith("http"):
         # Check that existing links actually point somewhere
-        if not os.path.isfile("../static/img/visual_aids/" + m.group(2)):
-            print("Missing file: " + m.group(2))
-    if m.group(2).startswith("http"):
+        if not os.path.isfile("../static/img/visual_aids/" + url):
+            print("Missing file: " + url)
+    if url.startswith("http"):
         if not m.group(1).isdigit():
             name = m.group(1)
             name = name.lower()
