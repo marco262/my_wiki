@@ -27,12 +27,16 @@
     {{ cb.day(30, "Tea and Violence") }}
 </div>
 <h1>Festival Day: Midsummer</h1>
+
+* Fought gazer in bookstore
+
 <div class="month" id="eleasis">
     <img class="month-img" src="../static/img/eleasis.png" style="width: 1400px;">
+    {{ cb.day(1, "Took in Istrid Horn", current_day=True) }}
+    {{ cb.day(11, "Istrid Horn owes party 180gp") }}
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
-    {{ cb.day(28, "Owe Istrid Horn 220gp") }}
 </div>
 
 <h1>Festival Day: High Harvest</h1>
