@@ -73,6 +73,8 @@ def load_wsgi_endpoints(app: Bottle):
     def set_visual_aid():
         global visual_aid_url, websocket_list
         visual_aid_url = request.params["url"]
+        if not visual_aid_url.startswith("http"):
+            visual_aid_url = "/static/img/visual_aids/" + visual_aid_url
         print("Saved new URL: {!r}".format(visual_aid_url), flush=True)
         # Update WebSockets
         print(websocket_list, flush=True)
