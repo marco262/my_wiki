@@ -1,3 +1,5 @@
+import os
+
 import re
 
 import requests
@@ -8,6 +10,11 @@ with open("../data/dragon_heist/gm_notes/gm-notes.md") as f:
 output_text = text[:]
 
 for m in re.finditer(r"\[(.*?)\]\(\^(.*?)\)", text):
+    url = m.group(2)
+    if not m.group(2).startswith("http"):
+        # Check that existing links actually point somewhere
+        if not os.path.isfile("../static/img/visual_aids/" + m.group(2)):
+            print("Missing file: " + m.group(2))
     if m.group(2).startswith("http"):
         if not m.group(1).isdigit():
             name = m.group(1)
@@ -15,7 +22,6 @@ for m in re.finditer(r"\[(.*?)\]\(\^(.*?)\)", text):
             name = re.sub(r"[^a-z ]", "", name)
             name = name.replace("  ", " ").replace(" ", "_")
             print(name)
-            url = m.group(2)
             r = requests.get(url)
             print(r.status_code)
             if r.status_code == 200:

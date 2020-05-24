@@ -32,7 +32,7 @@
 * [Zhentarim Hideout](^zhentarim_hideout.jpg)
 * [Zhentarim Logo](^zhentarim_logo.png)
 * Sewer [1](^sewer_1.jpg), [2](^sewer_2.jpg), [3](^sewer_3.jpg), [4](^sewer_4.jpg),
-* Trollskull Manor [1](^trollskull_manor_1.jpg), [2](^trollskull_manor_2.jpg), [3](^trollskull_manor_3.jpg)
+* Trollskull Manor [1](^trollskull_manor_1.jpg), [2](^trollskull_manor_2.jpg), [3](^trollskull_manor_3.png)
 * [Trollskull Alley](^trollskull_alley.png)
 * [Another tavern](^another_tavern.jpg)
 * [House of Inspired Hands](^house_of_inspired_hands.jpg)
@@ -64,7 +64,7 @@
 
 ## Trollskull Alley Adjacent NPCs
 
-* [Anna Gable](^anna_gable.jpg) ([grown up](^anna_gable_grown_up.png))
+* [Anna Gable](^anna_gable.jpg) ([grown up](^anna_gable_grown_up.jpg))
 * [Brendaniel Skwik](^brendaniel_skwik.jpg)
 * [Lorelai Green](^lorelai_green.jpg), human farmer, ex-lover of Lif and current lover of Embric
 * [Jezrynne Hornraven](^jezrynne_hornraven.jpg), wealthy wife who witnessed the Nimblewright
@@ -98,7 +98,7 @@
 
 ## Misc NPCs
 
-* [City Watch](^city_watch_1.jpg)
+* [City Watch](^city_watch_1.png)
 * [Griffon Cavalry Rider](^griffon_cavalry_rider.jpg)
 * [Dalakhar](^dalakhar.png), rock gnome thief with Stone of Golorr
 * [Saeth Cromley and Barnibus Blastwind](^saeth_cromley_and_barnibus_blastwind.jpg), City Watch sergeant and mage detective
