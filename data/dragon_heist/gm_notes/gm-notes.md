@@ -1,14 +1,14 @@
-* [Notebook](/dragon_heist/gm_notes/Notebook)
+* [Notebook](Notebook)
 * [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Calendar](/dragon_heist/calendar)
 * [Trollskull Alley NPC ideas](https://thealexandrian.net/wordpress/43319/roleplaying-games/a-night-in-trollskull-manor-part-5-patrons)
 * [Trollskull Alley Visitors](https://www.dndbeyond.com/posts/316-visitors-to-trollskull-alley)
-* [Gang Activities](/dragon_heist/gm_notes/Gang Activities)
-* [Lif's Seance](/dragon_heist/gm_notes/Lif's Seance)
+* [Gang Activities](Gang Activities)
+* [Lif's Seance](Lif's Seance)
 * [Putting Lif to rest](https://www.reddit.com/r/WaterdeepDragonHeist/comments/9hpi1c/putting_lif_the_poltergeist_to_rest_a_checklist/)
-* [Housewarming Party](/dragon_heist/gm_notes/Housewarming Party)
-* [Trollskull Guests](/dragon_heist/gm_notes/Trollskull Guests)
-* [Tea Party With Tomassin](/dragon_heist/gm_notes/Tea Party With Tomassin)
+* [Housewarming Party](Housewarming Party)
+* [Trollskull Guests](Trollskull Guests)
+* [Tea Party With Tomassin](Tea Party With Tomassin)
 
 <form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
     <label for="url">Enter another URL to set as Visual Aid here:</label><br>
@@ -77,7 +77,7 @@
 * [Justyn Rassk](^justyn_rassk.jpg), representative for the Guild of Butchers
 * [Ulkoria Stronemarrow](^ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
 
-## [Faction NPCs](/dragon_heist/gm_notes/faction npcs)
+## [Faction NPCs](Faction NPCs)
 
 ## Enemy NPCs
 * [Kenku](^kenku.jpg)
@@ -108,6 +108,6 @@
 * Other nimblewright images: [1](^other_nimblewright_1.jpg), [2](^other_nimblewright_2.jpg), [3](^other_nimblewright_3.jpg)
 * [Zardoz Zord](^zardoz_zord.jpg), owner of the Sea Maidens Faire
 
-# [Faction Missions](/dragon_heist/gm_notes/faction missions)
+# [Faction Missions](Faction Missions)
 
-# [Spring Encounters](/dragon_heist/gm_notes/spring encounters)
+# [Spring Encounters](Spring Encounters)
