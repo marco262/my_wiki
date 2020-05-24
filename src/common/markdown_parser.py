@@ -51,14 +51,14 @@ class MarkdownParser:
         namespace_domain = "/" + self.namespace if self.namespace else ""
         for m in re.finditer(r"\[\[\[((.+?):)?(.+?)(#(.+?))?(\|(.+?))?\]\]\]", text):
             groups = m.groups()
-            dir = namespace_domain + ("/" + groups[1] if groups[1] else "")
+            directory = namespace_domain + ("/" + groups[1] if groups[1] else "")
             filename = groups[2].replace("/", "-")
             linkname = groups[6] or groups[4] or groups[2]
-            broken_link = not (self.check_for_broken_links and self.check_for_md_file(dir, filename))
+            broken_link = not (self.check_for_broken_links and self.check_for_md_file(directory, filename))
             class_name = "wiki-link" + ("-broken" if broken_link else "")
             text = text.replace(
                 m.group(0),
-                r'<a class="{}" href="{}/{}">{}</a>'.format(class_name, dir, filename + (groups[3] or ""), linkname)
+                f'<a class="{class_name}" href="{directory}/{filename + (groups[3] or "")}">{linkname}</a>'
             )
         return text
 
