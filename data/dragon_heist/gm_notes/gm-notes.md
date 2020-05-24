@@ -84,7 +84,7 @@
 * [Gazer](^https://vignette.wikia.nocookie.net/forgottenrealms/images/5/58/Gazer-5e.jpg/revision/latest?cb=20171011162621)
 * [Zemk, duergar](^https://vignette.wikia.nocookie.net/forgottenrealms/images/6/68/Duergar-5e.jpg/revision/latest?cb=20190315010252)
 * [Bugbear](^https://cdn.obsidianportal.com/assets/111756/zmob_Bugbear_Warrior.jpg)
-* [Krentz, the bandit who got beat up by Yagra](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/d1/D05961d80krentzea386c80777682a0fbad4e5.jpg/revision/latest?cb=20180916045442)
+* [Krentz](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/d/d1/D05961d80krentzea386c80777682a0fbad4e5.jpg/revision/latest?cb=20180916045442), the bandit who got beat up by Yagra
 * [Grum'shar, half-orc apprentice wizard](^https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/0/0b/9251a162d90ca4d7d60199a7ef93a4d6.png/revision/latest/top-crop/width/360/height/450?cb=20181214005233)
 * [Gray ooze](^https://i.pinimg.com/474x/b4/e3/89/b4e3895b089e8d0b70f1dbb9a4bb3d75.jpg)
 * [Nihiloor, mind-flayer](^https://s3.amazonaws.com/aws-website-sansdrop-pjtrh/img/DnD/Nihiloor.png)
