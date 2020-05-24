@@ -22,7 +22,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     @app.get("/home")
     def home():
-        return md_page("home", "dragon_heist")
+        return md_page("Dragon Heist", "dragon_heist")
 
     @app.get("<name>")
     @view("common/page.tpl")

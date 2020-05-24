@@ -40,4 +40,4 @@ But that is a story for another time. This story has more humble beginnings. We 
 * [Trollskull Manor Floorplan](https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/9/91/Trollskull-Manor-DM.jpg/revision/latest?cb=20181220001450)
 * [Trollskull Alley](https://i.redd.it/7k86kx3ouhb31.png)
 
-[GM Notes](/dragon_heist/gm_notes/home)
+[GM Notes](/dragon_heist/gm_notes/GM Notes)
