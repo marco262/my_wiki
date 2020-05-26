@@ -111,3 +111,17 @@
 # [Faction Missions](Faction Missions)
 
 # [Spring Encounters](Spring Encounters)
+
+# Soundboard
+
+|| All || [Play](/dragon_heist/set_audio/play/all/none) || [Pause](/dragon_heist/set_audio/pause/all/none) || [Stop](/dragon_heist/set_audio/stop/all/none) ||
+
+## Music
+
+## Ambience
+
+* Waves [1](/dragon_heist/set_audio/load/ambience/waves1.mp3), [2](/dragon_heist/set_audio/load/ambience/waves2.mp3)
+
+## Effect
+
+* [Sword](/dragon_heist/set_audio/load/effect/WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
