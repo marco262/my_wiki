@@ -143,8 +143,13 @@ function check_for_popup(snd) {
     let failed_to_play = snd.paused;
     console.log(`Failed to play: ${failed_to_play}`);
     if (failed_to_play) {
+        if (navigator.userAgent.indexOf("Firefox") !== -1) {
+            document.getElementById("browser-specific-instructions").innerText =
+                `please set the Autoplay permission for this page to "Allow Audio and Video".`;
+        }
         let popup = document.getElementById("notification-popup");
-        popup.onclick = function () { popup.hidden = true; }
-        popup.hidden = false;
+        popup.onclick = function () { popup.style.top = null; }
+        popup.style.top = "0px";
+        console.log("User-agent header sent: " + navigator.userAgent);
     }
 }

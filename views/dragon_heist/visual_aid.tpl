@@ -1,10 +1,13 @@
+<head>
+    <title>Visual Aid</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/visual_aid.css">
+</head>
 <body style="background-color: white;">
-    <div id="notification-popup" style="position: fixed; margin-left: 100px; " hidden>
-        <div style="width: 0; height: 0; border-left: 20px solid transparent;
-        border-right: 20px solid transparent; border-bottom: 20px solid lightgray;"></div>
-        <div style="width: 400px; height: 130px; background-color: lightgray; padding: 10px;">
-            <p><strong>Audio may not play properly on this page.</strong></p>
-            <p>To allow audio to play, please go into the settings for this page in your browser and enable Audio.</p>
+    <div id="notification-popup">
+        <div id="arrow"></div>
+        <div id="box">
+            <p><strong>Sounds may not play properly on this page.</strong></p>
+            <p>To allow sounds to play, <span id="browser-specific-instructions">please go into the settings for this page and allow Sound/Audio.</span></p>
             <p><em>Click to close</em></p>
         </div>
     </div>

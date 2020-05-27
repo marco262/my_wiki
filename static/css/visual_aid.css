@@ -1,0 +1,22 @@
+#notification-popup {
+    position: fixed;
+    font-size: 1.5em;
+    margin-left: 100px;
+    top: -350px;
+    transition: top 2s;
+}
+
+#notification-popup #arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid lightgray;
+}
+
+#notification-popup #box {
+    width: 500px;
+    background-color: lightgray;
+    padding: 20px;
+    contain: content;
+}
