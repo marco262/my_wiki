@@ -137,6 +137,7 @@ function load_audio(target, url) {
     element.src = url;
     element.load();
     element.play();
+    check_for_popup(element);
 }
 
 function check_for_popup(snd) {
