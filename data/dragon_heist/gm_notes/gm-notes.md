@@ -121,6 +121,7 @@
 ## Ambience
 
 * Waves [1](/dragon_heist/set_audio/load/ambience/waves1.mp3), [2](/dragon_heist/set_audio/load/ambience/waves2.mp3)
+* [Crowd Murmur](/dragon_heist/set_audio/load/ambience/crown_murmur_male.mp3)
 
 ## Effect
 
