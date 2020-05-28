@@ -126,3 +126,8 @@
 ## Effect
 
 * [Sword](/dragon_heist/set_audio/load/effect/WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
+
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>
