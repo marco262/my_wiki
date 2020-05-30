@@ -1,8 +1,12 @@
 export function ajax_call(url, func, params=null) {
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-            func(this);
+        if (this.readyState === 4) {
+            if (this.status === 200) {
+                func(this);
+            } else {
+                console.error(xhttp);
+            }
         }
     };
     xhttp.open(params === null ? "GET" : "POST", url, true);

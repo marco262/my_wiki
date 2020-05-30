@@ -1,31 +1,32 @@
-let websocket_errors = 0;
-let max_websocket_errors = 3;
-let ws = null;
-
-let all_audio = [];
-let music_audio = [];
-let music_counter = 0;
-let ambience_audio = [];
-let ambience_counter = 0;
-let effect_audio = [];
-let effect_counter = 0;
+import { ajax_call } from "../common/utils.js";
 
 export function init() {
     let visual_aid_buttons = document.getElementsByClassName("visual-aid-button");
-    visual_aid_buttons.forEach( function (button) {
-        button.onclick = function () { set_visual_aid(button.name); };
-    })
-    let audio_buttons = document.getElementsByClassName("audio-button");
-    audio_buttons.forEach( function (button) {
-        button.onclick = function () { set_audio(button.name); };
+    Array.prototype.forEach.call(visual_aid_buttons, function (button) {
+        button.onclick = function (event) { set_visual_aid(event, button.value); };
     })
 }
 
-function set_visual_aid(name) {
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", yourUrl, true);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(JSON.stringify({
-        value: value
-    }));
+function set_visual_aid(event, value) {
+    console.log(event);
+    console.log(value);
+    let array = value.split("|");
+    let action = array[0]
+    let params = {
+        "action": action,
+        "debug": event.ctrlKey
+    };
+    if (action === "visual_aid") {
+        params["url"] = array[1];
+    } else {
+        params["target"] = array[1];
+        if (array.length === 3) {
+            params["url"] = array[2];
+        }
+    }
+    ajax_call("/dragon_heist/set_visual_aid", set_visual_aid_response, params)
+}
+
+function set_visual_aid_response(xhttp) {
+    console.log(xhttp);
 }

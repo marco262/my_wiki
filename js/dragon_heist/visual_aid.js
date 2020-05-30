@@ -69,7 +69,7 @@ function handle_websocket(msg) {
     let response = msg.data;
     console.log(response);
     let json = JSON.parse(response);
-    if (json["target"] === "visual_aid") {
+    if (json["action"] === "visual_aid") {
         handle_visual_aid(json["url"]);
     } else {
         handle_audio(json["action"], json["target"], json["url"]);

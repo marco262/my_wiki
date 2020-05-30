@@ -78,9 +78,15 @@ class MarkdownParser:
 
     @staticmethod
     def convert_popup_links(text):
-        pattern = r"\[(.*?)\]\(\^(.*?)\)"
-        for m in re.finditer(pattern, text, re.DOTALL):
-            replace = "[{}](/dragon_heist/set_visual_aid?{})".format(m.group(1), urlencode({"url": m.group(2)}))
+        pattern = r"\[(.*?)\]\(([\^\$])(.*?)\)"
+        for m in re.finditer(pattern, text):
+            if m.group(2) == "^":
+                value = f"visual_aid|{m.group(3)}"
+            elif m.group(2) == "$":
+                value = m.group(3)
+            else:
+                raise ValueError(f"Unknown link flag: {m.group(2)}")
+            replace = f'<button class="visual-aid-button" value="{value}">{m.group(1)}</button>'
             text = text.replace(m.group(0), replace)
         return text
 

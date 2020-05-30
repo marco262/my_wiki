@@ -114,18 +114,18 @@
 
 # Soundboard
 
-|| All || [Play](/dragon_heist/set_audio/play/all/none) || [Pause](/dragon_heist/set_audio/pause/all/none) || [Stop](/dragon_heist/set_audio/stop/all/none) ||
+|| All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||
 
 ## Music
 
 ## Ambience
 
-* Waves [1](/dragon_heist/set_audio/load/ambience/waves1.mp3), [2](/dragon_heist/set_audio/load/ambience/waves2.mp3)
-* [Crowd Murmur](/dragon_heist/set_audio/load/ambience/crown_murmur_male.mp3)
+* Waves [1]($load|ambience|waves1.mp3), [2]($load|ambience|waves2.mp3)
+* [Crowd Murmur]($load|ambience|crown_murmur_male.mp3)
 
 ## Effect
 
-* [Sword](/dragon_heist/set_audio/load/effect/WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
+* [Sword]($load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
 
 <script type="module">
     import {init} from "/js/dragon_heist/gm_notes.js";

@@ -90,27 +90,27 @@ def load_wsgi_endpoints(app: Bottle):
         ws.send(dumps({"target": "visual_aid", "url": visual_aid_url}))
         websocket_loop(ws, websocket_list)
 
-    @app.get("set_visual_aid")
+    @app.post("set_visual_aid")
     @auth_basic(set_visual_aid_auth_check)
     def set_visual_aid():
-        global visual_aid_url, websocket_list
-        visual_aid_url = request.params["url"]
-        if not visual_aid_url.startswith("http"):
-            visual_aid_url = "/static/img/visual_aids/" + visual_aid_url
-        print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
-        payload = {"target": "visual_aid", "url": visual_aid_url}
-        send_to_websockets(payload)
-        if request.params.get("redirect") != "false":
-            redirect(visual_aid_url)
-
-    @app.get("set_audio/<action>/<target>/<url>")
-    @auth_basic(set_visual_aid_auth_check)
-    def set_audio(action, target, url):
-        if not url.startswith("http"):
-            url = "/static/audio/" + url
-        print(f"Sending new {action} URL to {target}: {repr(url)}", flush=True)
-        payload = {"action": action, "target": target, "url": url}
-        send_to_websockets(payload)
+        global visual_aid_url
+        params = dict(request.params)
+        print(params)
+        url = params.get("url")
+        if params["action"] == "visual_aid":
+            if url and not url.startswith("http"):
+                url = "/static/img/visual_aids/" + url
+            visual_aid_url = request.params["url"]
+            print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
+        else:
+            if url and not url.startswith("http"):
+                url = "/static/audio/" + url
+            print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(url)}', flush=True)
+        params["url"] = url
+        if params["debug"] == "true":
+            return url
+        else:
+            send_to_websockets(params)
 
 
 def set_visual_aid_auth_check(username, password):
