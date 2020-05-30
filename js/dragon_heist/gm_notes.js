@@ -17,16 +17,31 @@ function set_visual_aid(event, value) {
         "debug": event.ctrlKey
     };
     if (action === "visual_aid") {
-        params["url"] = array[1];
+        let url = array[1];
+        if (url && !url.startsWith("http")) {
+            url = "/static/img/visual_aids/" + url;
+        }
+        params["url"] = url;
     } else {
         params["target"] = array[1];
         if (array.length === 3) {
-            params["url"] = array[2];
+            let url = array[2];
+            if (url && !url.startsWith("http")) {
+                url = "/static/audio/" + url;
+            }
+            params["url"] = url;
         }
     }
-    ajax_call("/dragon_heist/set_visual_aid", set_visual_aid_response, params)
+    if (event.ctrlKey) {
+        set_visual_aid_response(params["url"]);
+    } else {
+        ajax_call("/dragon_heist/set_visual_aid", null, params)
+    }
 }
 
-function set_visual_aid_response(xhttp) {
-    console.log(xhttp);
+function set_visual_aid_response(url) {
+    console.log(url);
+    if (url) {
+        var new_window = window.open(url, "", "");
+    }
 }

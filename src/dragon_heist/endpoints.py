@@ -87,7 +87,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/visual_aid_websocket', apply=[websocket])
     def visual_aid_websocket(ws):
         global visual_aid_url, websocket_list
-        ws.send(dumps({"target": "visual_aid", "url": visual_aid_url}))
+        ws.send(dumps({"action": "visual_aid", "url": visual_aid_url}))
         websocket_loop(ws, websocket_list)
 
     @app.post("set_visual_aid")
@@ -98,13 +98,13 @@ def load_wsgi_endpoints(app: Bottle):
         print(params)
         url = params.get("url")
         if params["action"] == "visual_aid":
-            if url and not url.startswith("http"):
-                url = "/static/img/visual_aids/" + url
+            # if url and not url.startswith("http"):
+            #     url = "/static/img/visual_aids/" + url
             visual_aid_url = request.params["url"]
             print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
         else:
-            if url and not url.startswith("http"):
-                url = "/static/audio/" + url
+            # if url and not url.startswith("http"):
+            #     url = "/static/audio/" + url
             print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(url)}', flush=True)
         params["url"] = url
         if params["debug"] == "true":

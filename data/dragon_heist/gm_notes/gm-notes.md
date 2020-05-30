@@ -126,6 +126,7 @@
 ## Effect
 
 * [Sword]($load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
+* Woman: [Sobbing]($load|effect|woman_sobbing.mp3), [Begging]($load|effect|woman_begging.mp3) 
 
 <script type="module">
     import {init} from "/js/dragon_heist/gm_notes.js";
