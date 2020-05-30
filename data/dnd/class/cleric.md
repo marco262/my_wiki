@@ -169,9 +169,9 @@ At 20th level, your call for intervention succeeds automatically, no roll requir
 
 In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity's domain. All the domains over which a deity has influence are called the deity's portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity's portfolio to emphasize, and you are granted powers related to that domain.
 
-Your choice might correspond to a particular sect dedicated to your deity. Apollo, for example, could be worshiped in one region as Phoebus ("radiant") Apollo, emphasizing his influence over the Light domain, and in a different place as Apollo Acesius ("healing"), emphasizing his association with the Life domain. Alternatively, your choice of domain could simply be a matter of personal preference, the aspect o f the deity that appeals to you most.
+Your choice might correspond to a particular sect dedicated to your deity. Apollo, for example, could be worshiped in one region as Phoebus ("radiant") Apollo, emphasizing his influence over the Light domain, and in a different place as Apollo Acesius ("healing"), emphasizing his association with the Life domain. Alternatively, your choice of domain could simply be a matter of personal preference, the aspect of the deity that appeals to you most.
 
-Each domain's description gives examples of deities who have influence over that domain. Gods are included from the worlds of the Forgotten Realms, Greyhawk, Dragonlance, and Eberron campaign settings, as well as from the Celtic, Greek, Norse, and Egyptian pantheons o f antiquity.
+Each domain's description gives examples of deities who have influence over that domain. Gods are included from the worlds of the Forgotten Realms, Greyhawk, Dragonlance, and Eberron campaign settings, as well as from the Celtic, Greek, Norse, and Egyptian pantheons of antiquity.
 
 ## Player's Handbook
 
