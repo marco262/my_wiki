@@ -27,6 +27,7 @@ But that is a story for another time. This story has more humble beginnings. We 
 # Resources
 
 * [My D&D 5e wiki, includes classes and spell lists](http://mywiki.zapto.org:26262/dnd/)
+* [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Code Legal](https://media.wizards.com/2018/dnd/dragon/21/DRA21_WDH_Preview_cl.pdf)
 * [Volo's Waterdeep Enchiridion](https://drive.google.com/open?id=1mPgGU0zdhOJNCVpt86yGMJFhJML30Wsu)
 * [Trollskull Manor deed](https://drive.google.com/open?id=1ogzfzHE9kakuMBu0xXsCqEPII6KWYhfX)
