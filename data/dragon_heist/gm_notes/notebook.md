@@ -42,7 +42,7 @@ Modifier to roll: -10
 ## Hidden Calendar items
 
 ## NPC notes
- 
+
 Brendaniel is starting to learn Prestidigitation
 
 ## Expenses
@@ -55,3 +55,14 @@ These are things to take out of the party funds when I remember:
 * Search Nimblewright
 * Doom Raiders Mission
 * Harpers Mission
+* Tommassin asks after Emir, clearly smitten
+* Raenar seeks out the party to explain to them what he found out about the stone
+
+## TODO
+
+* Find more sound effects
+* Make NPC to own troll skull, and come up with desires
+* Come up with upper middle class woman who saved Tom's life. She's been invited to Erwaren's Rest for a full tour
+* Copy Inspired Hands loot to the wiki
+* Finish Missions wiki page 
+* Come up with interaction with Uncle David
