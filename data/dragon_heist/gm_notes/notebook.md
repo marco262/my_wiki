@@ -63,3 +63,8 @@ These are things to take out of the party funds when I remember:
 ## TODO
 
 * Finish Missions wiki page
+
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>
