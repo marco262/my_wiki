@@ -10,7 +10,7 @@
 * [... and Apparatus](^Grinda_garloth_and_apparatus.jpg)
 * [Noska Ur'gray](^noska_urgray.jpg), dwarf enforcer leading Xanathar thugs
 * [Kenku](^kenku.jpg)
-* [Merrow](^merrow.jpg), swimming under the docks with the doods
+* [Merrow](^merrow.jpeg), swimming under the docks with the doods
 
 ## Mausoleum
 
