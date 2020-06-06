@@ -1,3 +1,8 @@
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>
+
 ## Mistshore
 
 * [Mistshore](^mistshore.jpg)

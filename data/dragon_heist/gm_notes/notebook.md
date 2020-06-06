@@ -1,3 +1,8 @@
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>
+
 ### Emir
 
 * AC 16
@@ -63,8 +68,4 @@ These are things to take out of the party funds when I remember:
 ## TODO
 
 * Finish Missions wiki page
-
-<script type="module">
-    import {init} from "/js/dragon_heist/gm_notes.js";
-    init();
-</script>
+* Florence Ableton has two 14 and 16 year old boys
