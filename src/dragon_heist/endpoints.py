@@ -18,6 +18,45 @@ def init():
     pass
 
 
+def websocket_loop(ws, websocket_list):
+    print("Opening Websocket {}".format(ws), flush=True)
+    websocket_list.append(ws)
+    try:
+        while True:
+            sleep(60)
+            # Checking if websocket has been closed by the client
+            with gevent.Timeout(1.0, False):
+                ws.receive()
+            if ws.closed:
+                print("WebSocket was closed by the client: {}".format(ws), flush=True)
+                break
+    except Exception as e:
+        print("Error in WebSocket loop: {}".format(e), flush=True)
+    finally:
+        if not ws.closed:
+            print("Closing WebSocket: {}".format(ws), flush=True)
+            ws.close()
+        try:
+            websocket_list.remove(ws)
+        except ValueError as e:
+            print(e, ws)
+
+
+def send_to_websockets(payload):
+    global websocket_list
+    print(websocket_list, flush=True)
+    for ws in websocket_list[:]:
+        try:
+            print(f"Sending payload {payload} to {ws}", flush=True)
+            ws.send(dumps(payload))
+        except WebSocketError:
+            print(f"Failed to send message to {ws}. Removing from list", flush=True)
+            websocket_list.remove(ws)
+        except Exception as e:
+            print(f"Error when sending message to {ws}. {e}", flush=True)
+            websocket_list.remove(ws)
+
+
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     @app.get("/home")
@@ -45,51 +84,33 @@ def load_wsgi_endpoints(app: Bottle):
     def visual_aid():
         return
 
-    @app.get('/get_visual_aid', apply=[websocket])
-    def get_visual_aid(ws):
+    @app.get('/visual_aid_websocket', apply=[websocket])
+    def visual_aid_websocket(ws):
         global visual_aid_url, websocket_list
-        print("Opening Websocket {}".format(ws), flush=True)
-        websocket_list.append(ws)
-        try:
-            ws.send(dumps({"url": visual_aid_url}))
-            while True:
-                sleep(60)
-                # Checking if websocket has been closed by the client
-                with gevent.Timeout(1.0, False):
-                    ws.receive()
-                if ws.closed:
-                    print("WebSocket was closed by the client: {}".format(ws), flush=True)
-                    break
-        except Exception as e:
-            print("Error in WebSocket loop: {}".format(e), flush=True)
-        finally:
-            if not ws.closed:
-                print("Closing WebSocket: {}".format(ws), flush=True)
-                ws.close()
-            websocket_list.remove(ws)
+        ws.send(dumps({"action": "visual_aid", "url": visual_aid_url}))
+        websocket_loop(ws, websocket_list)
 
-    @app.get("set_visual_aid")
+    @app.post("set_visual_aid")
     @auth_basic(set_visual_aid_auth_check)
     def set_visual_aid():
-        global visual_aid_url, websocket_list
-        visual_aid_url = request.params["url"]
-        if not visual_aid_url.startswith("http"):
-            visual_aid_url = "/static/img/visual_aids/" + visual_aid_url
-        print("Saved new URL: {!r}".format(visual_aid_url), flush=True)
-        # Update WebSockets
-        print(websocket_list, flush=True)
-        for websocket in websocket_list[:]:
-            try:
-                print("Sending new URL to {}".format(websocket), flush=True)
-                websocket.send(dumps({"url": visual_aid_url}))
-            except WebSocketError:
-                print("Failed to send message to {}. Removing from list".format(websocket), flush=True)
-                websocket_list.remove(websocket)
-            except Exception as e:
-                print("Error when sending message to {}. {}".format(websocket, e), flush=True)
-                websocket_list.remove(websocket)
-        if request.params.get("redirect") != "false":
-            redirect(visual_aid_url)
+        global visual_aid_url
+        params = dict(request.params)
+        print(params)
+        url = params.get("url")
+        if params["action"] == "visual_aid":
+            # if url and not url.startswith("http"):
+            #     url = "/static/img/visual_aids/" + url
+            visual_aid_url = request.params["url"]
+            print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
+        else:
+            # if url and not url.startswith("http"):
+            #     url = "/static/audio/" + url
+            print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(url)}', flush=True)
+        params["url"] = url
+        if params["debug"] == "true":
+            return url
+        else:
+            send_to_websockets(params)
 
 
 def set_visual_aid_auth_check(username, password):

@@ -81,3 +81,34 @@ Text block
         md = MarkdownParser()
         actual = md.parse_md(pre_markdown)
         self.assertEqual(expected, actual)
+
+    def test_convert_popup_links(self):
+        text = """
+        * [Ulkoria Stronemarrow](^ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
+
+        ## [Faction NPCs](Faction NPCs)
+        
+        ## Enemy NPCs
+        * [Kenku](^kenku.jpg)
+        * [Gazer](^gazer.jpg)
+        
+        * [Sword]($load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
+        [Pause All]($pause|all)
+        """
+
+        expected = """
+        * <button class="visual-aid-button" value="visual_aid|ulkoria_stronemarrow.jpg">Ulkoria Stronemarrow</button>, representative for the Watchful Order of Magists and Protectors
+
+        ## [Faction NPCs](Faction NPCs)
+        
+        ## Enemy NPCs
+        * <button class="visual-aid-button" value="visual_aid|kenku.jpg">Kenku</button>
+        * <button class="visual-aid-button" value="visual_aid|gazer.jpg">Gazer</button>
+        
+        * <button class="visual-aid-button" value="load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3">Sword</button>
+        <button class="visual-aid-button" value="pause|all">Pause All</button>
+        """
+
+        md = MarkdownParser()
+        actual = md.convert_popup_links(text)
+        self.assertEqual(expected, actual)
