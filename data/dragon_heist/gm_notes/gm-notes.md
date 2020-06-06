@@ -69,6 +69,8 @@
 * [Lorelai Green](^lorelai_green.jpg), human farmer, ex-lover of Lif and current lover of Embric
 * [Jezrynne Hornraven](^jezrynne_hornraven.jpg), wealthy wife who witnessed the Nimblewright
 * [Martem Trec](^martem_trec.jpg), child who found the Necklace of Fireballs
+* [Halgraek Barrelshoulder](^https://www.worldanvil.com/uploads/images/cd7a36d19295661d8de12e8534a58edf.jpg), dwarf who has the troll skull
+* [Brigid Mountainshear](^https://i.pinimg.com/originals/3f/73/fc/3f73fc0e15a4785245f669eb8213b3c1.jpg), Halgraek's mortal enemy (she has a nicer house)
 
 ## Guild NPCs
 

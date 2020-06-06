@@ -51,18 +51,15 @@ These are things to take out of the party funds when I remember:
 
 ## Available Plot Hooks
 
-* Go talk to <NPC> to get troll skull
-* Search Nimblewright
+* Go talk to Halgraek Barrelshoulder to get troll skull
+  * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
 * Doom Raiders Mission
 * Harpers Mission
 * Tommassin asks after Emir, clearly smitten
 * Raenar seeks out the party to explain to them what he found out about the stone
+* [Florence Ableton](^https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg) shows up to Erwaren's Rest to say hello
+* Uncle David shows up to talk with Emir early in the morning over coffee. Disappears when Tom/Guy come downstairs.
 
 ## TODO
 
-* Find more sound effects
-* Make NPC to own troll skull, and come up with desires
-* Come up with upper middle class woman who saved Tom's life. She's been invited to Erwaren's Rest for a full tour
-* Copy Inspired Hands loot to the wiki
-* Finish Missions wiki page 
-* Come up with interaction with Uncle David
+* Finish Missions wiki page

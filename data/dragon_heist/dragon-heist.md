@@ -41,4 +41,12 @@ But that is a story for another time. This story has more humble beginnings. We 
 * [Trollskull Manor Floorplan](https://vignette.wikia.nocookie.net/kingsway-role-playing-group/images/9/91/Trollskull-Manor-DM.jpg/revision/latest?cb=20181220001450)
 * [Trollskull Alley](https://i.redd.it/7k86kx3ouhb31.png)
 
+# Loot
+
+||~ Name ||~ Description ||
+|| Adjustable&nbsp;Stilts || The stilts take 1 minute to put on or remove. They increase the height of any humanoid wearing them by 2 to 5 feet. Each stilt weighs 8 pounds and is 1 foot long when fully collapsed. ||
+|| Backpack&nbsp;Parachute || A humanoid wearing this piece of gear can deploy the parachute as a reaction while falling, or as an action otherwise. The parachute requires at least a 10-foot cube of unoccupied space in which to deploy, and it doesn't open fast enough to slow a fall of less than 60 feet. If it has sufficient time and space to deploy properly, the parachute allows its wearer to land without taking falling damage. Once it has been used, the parachute takes 10 minutes to repack. ||
+|| Barking&nbsp;Box || This metal cube, 6 inches on a side, has a crank on top. Using an action to wind the crank activaLes the box for 8 hours. While activated, the box barks whenever it detects vibrations within 15 feet of it, as long as the box and the source of the vibrations are in contact with the same ground or substance. A switch on one side of the box sets the device to emit either a small dog's bark or a large dog's bark. ||
+|| Matchless&nbsp;Pipe || A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself. ||
+
 [GM Notes](/dragon_heist/gm_notes/GM Notes)
