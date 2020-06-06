@@ -11,10 +11,10 @@ let effect_audio = [];
 let effect_counter = 0;
 
 export function init() {
-    music_audio = document.getElementsByClassName("music");
-    ambience_audio = document.getElementsByClassName("ambience");
-    effect_audio = document.getElementsByClassName("effect");
-    all_audio = music_audio + ambience_audio + effect_audio;
+    music_audio = Array.from(document.getElementsByClassName("music"));
+    ambience_audio = Array.from(document.getElementsByClassName("ambience"));
+    effect_audio = Array.from(document.getElementsByClassName("effect"));
+    all_audio = music_audio.concat(ambience_audio).concat(effect_audio);
 
     load_websocket();
 
@@ -104,17 +104,17 @@ function handle_audio(action, target, url) {
             console.error(`No audio class "${target}"`);
             return;
         }
-        console.log(elements);
-        elements.forEach(e => {
+        for (let e of elements) {
+            console.log(e);
             if (action === "play") {
                 e.play();
             } else if (action === "pause") {
                 e.pause();
             } else if (action === "stop") {
                 e.pause();
-                e.current_time = 0;
+                e.currentTime = 0;
             }
-        })
+        }
     }
 }
 

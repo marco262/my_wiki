@@ -29,6 +29,12 @@
             <audio class="ambience" id="ambience-3" autoplay controls loop>
                 Your browser does not support the audio element.
             </audio>
+            <audio class="ambience" id="ambience-4" autoplay controls loop>
+                Your browser does not support the audio element.
+            </audio>
+            <audio class="ambience" id="ambience-5" autoplay controls loop>
+                Your browser does not support the audio element.
+            </audio>
             <p>Effects</p>
             <audio class="effect" id="effect-1" autoplay controls>
                 Your browser does not support the audio element.
