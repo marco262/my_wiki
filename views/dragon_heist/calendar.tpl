@@ -32,7 +32,9 @@
 
 <div class="month" id="eleasis">
     <img class="month-img" src="../static/img/eleasis.png" style="width: 1400px;">
-    {{ cb.day(1, "Took in Istrid Horn", current_day=True) }}
+    {{ cb.day(1, "Took in Istrid Horn") }}
+    {{ cb.day(2, "Nimblewright") }}
+    {{ cb.day(3, "Met Grinda / Mausoleum", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp") }}
 </div>
 <div class="month" id="elient">

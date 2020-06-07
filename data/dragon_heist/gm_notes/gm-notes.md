@@ -71,6 +71,7 @@
 * [Martem Trec](^martem_trec.jpg), child who found the Necklace of Fireballs
 * [Halgraek Barrelshoulder](^https://www.worldanvil.com/uploads/images/cd7a36d19295661d8de12e8534a58edf.jpg), dwarf who has the troll skull
 * [Brigid Mountainshear](^https://i.pinimg.com/originals/3f/73/fc/3f73fc0e15a4785245f669eb8213b3c1.jpg), Halgraek's mortal enemy (she has a nicer house)
+* [Florence Ableton](^https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg), saved Tom's life, got invited to Erwaren's Rest. Has 14 and 16 year old boys.
 
 ## Guild NPCs
 

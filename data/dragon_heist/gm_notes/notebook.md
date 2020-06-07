@@ -61,12 +61,15 @@ These are things to take out of the party funds when I remember:
 * Doom Raiders Mission
 * Harpers Mission
 * Tommassin asks after Emir, clearly smitten
-* Raenar seeks out the party to explain to them what he found out about the stone
-* [Florence Ableton](^https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg) shows up to Erwaren's Rest to say hello
-* Uncle David shows up to talk with Emir early in the morning over coffee. Disappears when Tom/Guy come downstairs.
+
+* Uncle David will threaten Emir when he's coming back with the treasure if he doesn't take the treasure back to his family
 
 ## TODO
 
 * Finish Missions wiki page
 * Florence Ableton has two 14 and 16 year old boys
-* Add "childish giggle" to soundboard
+* Soundboard:
+  * Childish giggle
+  * Cackle
+  * Sailor Moon transformation theme
+  * Add volume control
