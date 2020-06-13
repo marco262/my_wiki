@@ -215,3 +215,12 @@ blockquote {
 	padding: 0 1em;
 	background-color: #f4f4f4;
 }
+
+.visual-aid-button {
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: underline dotted blue;
+    cursor: pointer;
+}

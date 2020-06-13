@@ -86,7 +86,7 @@ class MarkdownParser:
                 value = m.group(3)
             else:
                 raise ValueError(f"Unknown link flag: {m.group(2)}")
-            replace = f'<button class="visual-aid-button" value="{value}">{m.group(1)}</button>'
+            replace = f'<button class="visual-aid-button" value="{value}" title="{value}">{m.group(1)}</button>'
             text = text.replace(m.group(0), replace)
         return text
 
