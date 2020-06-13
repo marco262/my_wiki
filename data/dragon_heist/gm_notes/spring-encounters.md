@@ -3,6 +3,8 @@
     init();
 </script>
 
+* [Gazer](^gazer.jpg)
+
 ## Mistshore
 
 * [Mistshore](^mistshore.jpg)
@@ -20,10 +22,18 @@
 * [Shiny Steel Key](^shiny_steel_key.jpg)
 * [Elaspra's Shop](^elaspras_shop.jpg)
 * [Elaspra Ulmarr](^elaspra_ulmarr.jpg), dwarven locksmith
-* [Duergar](^duergar.jpg)
+* [Duergar](^duergar.png)
 
 ## Converted Windmill
 
 * [Converted Windmill (Outside)](^converted_windmill_outside.jpg)
 * [Converted Windmill (Inside)](^converted_windmill_inside.jpg)
-* [Volkarr Kibbens](^volkarr_kibbens.png) and [Urlaster Ghann](^urlaster_ghann.png), squatters, hired by Losser Mirklav
+* [Volkarr Kibbens](^volkarr_kibbens.jpg) and [Urlaster Ghann](^urlaster_ghann.png), squatters, hired by Losser Mirklav
+
+## Cellar Complex
+
+* [Losser Mirklav](^losser_mirklav.jpg), halfling necromancer who took the Stone of Golorr
+* [Kenku](^kenku.jpg)
+* [Skeleton](^skeleton.jpeg)
+* [Retchyn](^retchyn.jpg), halfling apprentice to Losser Mirklav
+* [Kreela](^kreela.jpg), halfling apprentice to Losser Mirklav
