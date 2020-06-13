@@ -9,6 +9,10 @@ export function init() {
         console.log(document.getElementById("custom_visual_aid_url"));
         set_visual_aid(event, `visual_aid|${document.getElementById("custom_visual_aid_url").value}`);
     }
+    document.getElementById("custom_audio_button").onclick = function (event) {
+        console.log(document.getElementById("custom_visual_aid_url"));
+        set_visual_aid(event, `load|effect|${document.getElementById("custom_visual_aid_url").value}`);
+    }
 }
 
 function set_visual_aid(event, value) {
