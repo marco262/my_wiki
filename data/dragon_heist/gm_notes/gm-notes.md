@@ -128,6 +128,7 @@ Enter another URL to set as Visual Aid here:
 * [MEGALOVANIA]($load|music|MEGALOVANIA.mp3)
 * [You Are A Pirate]($load|music|Lazy Town You Are A Pirate Music Video.mp3)
 * [Guile Theme]($load|music|guile_theme.mp3)
+* [Sailor Moon Transformation]($load|music|Sailor Moon Transformation.mp3)
 
 ## Ambience
 
@@ -175,6 +176,8 @@ Enter another URL to set as Visual Aid here:
   * [Long Scream 1]($load|effect|woman_scream_long_1.ogg)
   * [Long Scream 2]($load|effect|woman_scream_long_2.ogg)
   * [Three Screams]($load|effect|woman_three_screams.ogg)
+* Cackle [1]($load|effect|Evil creepy high pitched devil-s cackle_AOS00212.mp3), [2]($load|effect|AOS03214_LadyCrazyLaugh1.mp3)
+* [Child giggles]($load|effect|little child laughing 7.mp3)
 * [Child screams]($load|effect|child_screams.mp3)
 * [Vincent Price Laugh]($load|effect|vincent_price_laugh.mp3)
 * ["We Don't Take Too Kindly To Strangers"]($load|effect|we_dont_take_too_kindly.mp3)

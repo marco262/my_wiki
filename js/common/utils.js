@@ -3,7 +3,9 @@ export function ajax_call(url, func, params=null) {
     xhttp.onreadystatechange = function() {
         if (this.readyState === 4) {
             if (this.status === 200) {
-                func(this);
+                if (func) {
+                    func(this);
+                }
             } else {
                 console.error(xhttp);
             }
