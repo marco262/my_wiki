@@ -5,6 +5,10 @@ export function init() {
     Array.prototype.forEach.call(visual_aid_buttons, function (button) {
         button.onclick = function (event) { set_visual_aid(event, button.value); };
     })
+    document.getElementById("custom_visual_aid_button").onclick = function (event) {
+        console.log(document.getElementById("custom_visual_aid_url"));
+        set_visual_aid(event, `visual_aid|${document.getElementById("custom_visual_aid_url").value}`);
+    }
 }
 
 function set_visual_aid(event, value) {

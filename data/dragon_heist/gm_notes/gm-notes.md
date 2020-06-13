@@ -10,10 +10,9 @@
 * [Trollskull Guests](Trollskull Guests)
 * [Tea Party With Tomassin](Tea Party With Tomassin)
 
-<form action="http://mywiki.zapto.org:26262/dragon_heist/set_visual_aid">
-    <label for="url">Enter another URL to set as Visual Aid here:</label><br>
-    <input type="text" id="url" name="url"> <input type="submit" value="Submit">
-</form>
+Enter another URL to set as Visual Aid here:
+
+<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Send</button>
 
 [Visual aid](/dragon_heist/visual_aid)
 
