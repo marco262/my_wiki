@@ -15,13 +15,13 @@ Spellbook reward can be sold for 275gp
 
 ### Welcome to the Family
 
-* [Threestrings](^/static/img/visual_aid/threestrings.jpg)
-* [Durnan](^/static/img/visual_aid/durnan.jpg)
-* [Bonnie](^/static/img/visual_aid/bonnie.jpg)
-* [Willifort Crowelle](^https://i.pinimg.com/originals/d9/f6/74/d9f67439fb92920c37d64c007be1ca25.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
-* [Naneatha Lharilstar](^https://www.itl.cat/pngfile/big/152-1524471_beautiful-redhead-wallpaper-victorian-noblewoman.jpg), beautiful human noblewoman (dopperganger)
-* [Cecil Weiss](^https://i.pinimg.com/originals/63/32/33/6332332ba21b3255456ce0e7eaccbf6a.png), male human bard (doppelganger) who makes his livings a musician/actor/playwright 
-* [Venea Shortwick](^https://i.pinimg.com/originals/09/73/4a/09734a9386ba02215098720006fe6871.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall
+* [Threestrings](^threestrings.jpg)
+* [Durnan](^durnan.jpg)
+* [Bonnie](^bonnie.jpg)
+* [Willifort Crowelle](^willifort_crowelle.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
+* [Naneatha Lharilstar](^naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)
+* [Cecil Weiss](^cecil_weiss.png), male human bard (doppelganger) who makes his livings a musician/actor/playwright 
+* [Vaniel Shortwick](^vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall
 
 ## Zhentarim
 
@@ -37,3 +37,11 @@ Spellbook reward can be sold for 275gp
 * [Black Viper](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/48/TheBlackViper-5e.jpg/revision/latest?cb=20181006212012)
 
 ### On Dasher
+
+* [Blossom Snobeedle](^blossom_snobeedle.jpg)
+* [Dasher Snobeedle](^dasher_snobeedle.jpg), [weredog form](^dasher_snobeedle_weredog.png)
+
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>

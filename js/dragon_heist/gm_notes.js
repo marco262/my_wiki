@@ -1,9 +1,9 @@
 import { ajax_call } from "../common/utils.js";
 
 export function init() {
-    let visual_aid_buttons = document.getElementsByClassName("visual-aid-button");
-    Array.prototype.forEach.call(visual_aid_buttons, function (button) {
-        button.onclick = function (event) { set_visual_aid(event, button.value); };
+    let visual_aid_buttons = document.getElementsByClassName("visual-aid-link");
+    Array.prototype.forEach.call(visual_aid_buttons, function (link) {
+        link.onclick = function (event) { set_visual_aid(event, link.title); };
     })
     document.getElementById("custom_visual_aid_button").onclick = function (event) {
         console.log(document.getElementById("custom_visual_aid_url"));

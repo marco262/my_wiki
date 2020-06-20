@@ -29,3 +29,8 @@
 
 * [Urstul Floxin](^https://db4sgowjqfwig.cloudfront.net/images/4970455/132fc9524d0b1d699f359905f9f46312.jpg), would-be assassin of Dalakhar
   * [Assassin](https://roll20.net/compendium/dnd5e/Assassin#content), with the spells: [Message](/dnd/spell/Message), [True Strike](/dnd/spell/True Strike), [Disguise Self](/dnd/spell/Disguise Self)
+
+<script type="module">
+    import {init} from "/js/dragon_heist/gm_notes.js";
+    init();
+</script>

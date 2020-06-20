@@ -58,9 +58,14 @@ These are things to take out of the party funds when I remember:
 
 * Go talk to Halgraek Barrelshoulder to get troll skull
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
-* Doom Raiders Mission
-* Harpers Mission
+* Doom Raiders Mission, "On Dasher"
+* Harpers Mission, "Welcome to the Family"
 * Tommassin asks after Emir, clearly smitten
+* Ulkoria Stonemarrow answers the call for someone to cast wards on the inn
+* Response to Emir's letter from Uncle David: "Your letter was well-received, but you still have a ways to go to re-earn your family's good favor. (Including his symbol with his signature)"
+* Grinda Garloth received the message about her rat familiar going missing and her family crypt robbed. Will send an animal messenger to send a message back to the party, offering them 100gp if they find where her family's bodies were taken.
+
+---
 
 * Uncle David will threaten Emir when he's coming back with the treasure if he doesn't take the treasure back to his family
 
