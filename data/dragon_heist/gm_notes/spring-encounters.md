@@ -1,6 +1,6 @@
 <script type="module">
-    import {init} from "/js/dragon_heist/gm_notes.js";
-    init();
+    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    init_links();
 </script>
 
 * [Gazer](^gazer.jpg)
@@ -37,3 +37,16 @@
 * [Skeleton](^skeleton.jpeg)
 * [Retchyn](^retchyn.jpg), halfling apprentice to Losser Mirklav
 * [Kreela](^kreela.jpg), halfling apprentice to Losser Mirklav
+
+## Street Chase
+
+[Improved Chase Rules](https://www.hipstersanddragons.com/new-chase-mechanics-5e-dnd/)
+
+[Some additional chase tables](https://olddungeonmaster.com/2015/01/17/dd-5e-quick-reference-chase-rules/)
+
+## Old Tower
+
+[Urchins](^urchins.jpg)
+
+## Alley
+

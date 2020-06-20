@@ -31,6 +31,6 @@
   * [Assassin](https://roll20.net/compendium/dnd5e/Assassin#content), with the spells: [Message](/dnd/spell/Message), [True Strike](/dnd/spell/True Strike), [Disguise Self](/dnd/spell/Disguise Self)
 
 <script type="module">
-    import {init} from "/js/dragon_heist/gm_notes.js";
-    init();
+    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    init_links();
 </script>

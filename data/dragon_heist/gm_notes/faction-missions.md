@@ -42,6 +42,6 @@ Spellbook reward can be sold for 275gp
 * [Dasher Snobeedle](^dasher_snobeedle.jpg), [weredog form](^dasher_snobeedle_weredog.png)
 
 <script type="module">
-    import {init} from "/js/dragon_heist/gm_notes.js";
-    init();
+    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    init_links();
 </script>
