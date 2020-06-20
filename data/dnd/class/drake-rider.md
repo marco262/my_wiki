@@ -101,10 +101,6 @@ If your Drake is ever slain, the magical bond you share allows you to return it 
 
 While mounted on your Drake, you can use a bonus action to command the Drake to use its Bite attack on any creature within its reach. Its Bite attack's damage dice increase as you level up as shown in the Bite Damage column of the Drake Rider table.
 
-# Blazing Speed
-
-While mounted on your Drake, you can use the Dash action to move your Drake up to its speed. This can be used alongside the Drake's own Dash action.
-
 # Drake Fire
 
 At 7th level, while mounted on your Drake, you can use a bonus action to command it to use its breath weapon. Each creature in the breath weapon's area must make a DC 14 saving throw, taking 3d6 damage on a failed save, or half as much damage on a successful one. The type of saving throw and type of damage are determined by your Drake's type, as shown in the Drake Types table.

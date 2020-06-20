@@ -58,6 +58,7 @@ Enter another URL to set as Visual Aid here:
 * [Hammon Kraddoc](^hammon_kraddoc.jpg), representative for the Vintners', Distillers', and Brewers' Guild
 * [Justyn Rassk](^justyn_rassk.jpg), representative for the Guild of Butchers
 * [Ulkoria Stronemarrow](^ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
+* [Ulkoria's Shield Guardian](^shield_guardian.jpeg)
 
 ## [Faction NPCs](Faction NPCs)
 
