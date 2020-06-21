@@ -5,24 +5,24 @@
 
 ### Emir
 
-* AC 16
-* PP 11
-* PI 13
+* Armor Class: 16
+* Passive Per: 11
+* Passive Ins: 13
 
 Worships: Lliira, Sune
 
 ### Tom
 
-* AC 13
-* PP 12
-* PI 11
+* Armor Class: 13
+* Passive Per: 12
+* Passive Ins: 11
 
 Worships: Torm, Tymora
 
 ### Guy
-* AC 15
-* PP 8
-* PI 10
+* Armor Class: 15
+* Passive Per: 8
+* Passive Ins: 10
 
 Worships: Milil, Sune
 
@@ -46,9 +46,10 @@ Modifier to roll: -10
 
 ## Hidden Calendar items
 
+
 ## NPC notes
 
-Brendaniel is starting to learn Prestidigitation
+Brendaniel is starting to learn Prestidigitation and Mage Hand
 
 ## Expenses
 
@@ -61,9 +62,8 @@ These are things to take out of the party funds when I remember:
 * Doom Raiders Mission, "On Dasher"
 * Harpers Mission, "Welcome to the Family"
 * Tommassin asks after Emir, clearly smitten
-* Ulkoria Stonemarrow answers the call for someone to cast wards on the inn
-* Response to Emir's letter from Uncle David: "Your letter was well-received, but you still have a ways to go to re-earn your family's good favor. (Including his symbol with his signature)"
-* Grinda Garloth received the message about her rat familiar going missing and her family crypt robbed. Will send an animal messenger to send a message back to the party, offering them 100gp if they find where her family's bodies were taken.
+* Grinda Garloth has offered 100gp if they find where her family's bodies were taken.
+* Blossom Snobeedle has offered 750gp to "scare Dasher straight"
 
 ---
 
@@ -71,7 +71,6 @@ These are things to take out of the party funds when I remember:
 
 ## TODO
 
-* Finish Missions wiki page
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
