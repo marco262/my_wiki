@@ -45,11 +45,20 @@
             <audio class="effect" id="effect-3" autoplay controls>
                 Your browser does not support the audio element.
             </audio>
+            <p>Youtube Player</p>
+            <p><iframe id="youtube-player"
+                    width="640" height="360"
+                    src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1"
+                    frameborder="0"
+                    style="border: solid 4px #37474F"
+            ></iframe></p>
         </div>
     </div>
     <div id="error-message" hidden></div>
 </body>
+
+<script id="youtube-script" src="/js/dragon_heist/youtube.js"></script>
 <script type="module">
-    import {init} from "/js/dragon_heist/visual_aid.js";
+    import { init } from "/js/dragon_heist/visual_aid.js";
     init();
 </script>

@@ -2,6 +2,16 @@
 || Music || [Play]($play|music|none) || [Pause]($pause|music|none) || [Stop]($stop|music|none) ||
 || Ambience || [Play]($play|ambience|none) || [Pause]($pause|ambience|none) || [Stop]($stop|ambience|none) ||
 || Effect || [Play]($play|effect|none) || [Pause]($pause|effect|none) || [Stop]($stop|effect|none) ||
+|| Youtube || [Play]($play|youtube|none) || [Pause]($pause|youtube|none) || [Stop]($stop|youtube|none) ||
+
+<p><input type="text" id="custom_soundboard_url"><br>
+ 
+<p><button id="custom_music_button">Music</button> 
+<button id="custom_ambient_button">Ambient</button> 
+<button id="custom_effect_button">Effect</button> 
+<button id="custom_youtube_button">Youtube</button> 
+
+[Visual aid](/dragon_heist/visual_aid)
 
 ## Music
 
@@ -11,6 +21,7 @@
 * [You Are A Pirate]($load|music|Lazy Town You Are A Pirate Music Video.mp3)
 * [Guile Theme]($load|music|guile_theme.mp3)
 * [Sailor Moon Transformation]($load|music|Sailor Moon Transformation.mp3)
+* [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
 
 ## Ambience
 
@@ -78,6 +89,7 @@
 * [Evil Laugh]($load|effect|vincent_price_laugh.mp3)
 
 <script type="module">
-    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    import { init_links, init_soundboard } from "/js/dragon_heist/gm_notes.js";
     init_links();
+    init_soundboard();
 </script>

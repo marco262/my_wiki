@@ -88,12 +88,17 @@ function handle_audio(action, target, url) {
         url: <music URL, only needed for load>
      */
     console.log(`Action: ${action}, target: ${target}, url: ${url}`);
+    if (target === "youtube") {
+        youtube_control(action, url);
+        return;
+    }
     if (action === "load") {
         load_audio(target, url);
     } else {
         let elements = [];
         if (target === "all") {
             elements = all_audio;
+            youtube_control(action, url);
         } else if (target === "music") {
             elements = music_audio;
         } else if (target === "ambience") {
@@ -119,7 +124,7 @@ function handle_audio(action, target, url) {
 }
 
 function load_audio(target, url) {
-    console.log(`Load URL ${url} into element ${target}`);
+    console.log(`Loading URL ${url} into element ${target}...`);
     let element;
     if (target === "music") {
         element = music_audio[music_counter];
@@ -153,4 +158,41 @@ function check_for_popup(snd) {
         popup.style.top = "0px";
         console.log("User-agent header sent: " + navigator.userAgent);
     }
+}
+
+function youtube_control(action, url=null) {
+    if (!youtube_player_loaded) {
+        console.log("Youtube player is not initialized yet. Stopping early.");
+        return;
+    }
+    if (action === "play") {
+        youtube_player.playVideo();
+    } else if (action === "pause") {
+        youtube_player.pauseVideo();
+    } else if (action === "stop") {
+        youtube_player.stopVideo();
+    } else if (action === "load") {
+        let id = get_youtube_id(url);
+        console.log(id);
+        youtube_player.loadVideoById(id);
+        youtube_player.seekTo(0);
+    }
+}
+
+function get_youtube_id(url) {
+    let m = url.match(/watch\?(.*)/);
+    if (m && m.length > 1) {
+        let params = m[1].split("&");
+        for (let i in params) {
+            console.log(params[i]);
+            if (params[i].startsWith("v=")) {
+                return params[i].substring(2);
+            }
+        }
+    }
+    m = url.match(/youtu.be\/(.*?)(\?.*)?$/);
+    if (m && m.length > 1) {
+        return m[1];
+    }
+    return url;
 }

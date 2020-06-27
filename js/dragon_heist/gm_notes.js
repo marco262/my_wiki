@@ -9,14 +9,36 @@ export function init_links() {
     })
 }
 
-export function init_custom_visual_aid() {
+export function init_visual_aid() {
     document.getElementById("custom_visual_aid_button").onclick = function (event) {
         console.log(document.getElementById("custom_visual_aid_url"));
         set_visual_aid(event, `visual_aid|${document.getElementById("custom_visual_aid_url").value}`);
     }
-    document.getElementById("custom_audio_button").onclick = function (event) {
-        console.log(document.getElementById("custom_visual_aid_url"));
-        set_visual_aid(event, `load|effect|${document.getElementById("custom_visual_aid_url").value}`);
+}
+
+export function init_soundboard() {
+    document.getElementById("custom_music_button").onclick = function (event) {
+        let url = document.getElementById("custom_soundboard_url").value;
+        console.log(url);
+        set_visual_aid(event, `load|music|${url}`);
+    }
+
+    document.getElementById("custom_ambient_button").onclick = function (event) {
+        let url = document.getElementById("custom_soundboard_url").value;
+        console.log(url);
+        set_visual_aid(event, `load|ambient|${url}`);
+    }
+
+    document.getElementById("custom_effect_button").onclick = function (event) {
+        let url = document.getElementById("custom_soundboard_url").value;
+        console.log(url);
+        set_visual_aid(event, `load|effect|${url}`);
+    }
+
+    document.getElementById("custom_youtube_button").onclick = function (event) {
+        let url = document.getElementById("custom_soundboard_url").value;
+        console.log(url);
+        set_visual_aid(event, `load|youtube|${url}`);
     }
 }
 

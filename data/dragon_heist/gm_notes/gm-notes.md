@@ -5,7 +5,7 @@
 
 Enter another URL to set as Visual Aid here:
 
-<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button> <button id="custom_audio_button">Audio</button>
+<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
 
 [Visual aid](/dragon_heist/visual_aid)
 
@@ -98,7 +98,7 @@ Enter another URL to set as Visual Aid here:
 # [Soundboard](Soundboard)
 
 <script type="module">
-    import {init_links, init_custom_visual_aid} from "/js/dragon_heist/gm_notes.js";
+    import {init_links, init_visual_aid} from "/js/dragon_heist/gm_notes.js";
     init_links();
-    init_custom_visual_aid();
+    init_visual_aid();
 </script>
