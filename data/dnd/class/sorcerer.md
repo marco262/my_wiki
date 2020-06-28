@@ -83,11 +83,11 @@ You start with the following equipment, in addition to the equipment granted by 
 
 ## Spellcasting
 
-An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See the [[[general:Spellcasting Rules]]] and the [[[class-spell-list:sorcerer-spells|sorcerer spell list]]].
+An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See the [[[general:Spellcasting Rules]]] and the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true).
 
 ### Cantrips
 
-At 1st level, you know four cantrips of your choice from the [[[class-spell-list:sorcerer-spells|sorcerer spell list]]]. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.
+At 1st level, you know four cantrips of your choice from the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true). You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.
 
 ### Spell Slots
 
@@ -97,7 +97,7 @@ For example, if you know the 1st-level spell *[[[spell:burning hands]]]* and hav
 
 ### Spells Known of 1st Level and Higher
 
-You know two 1st-level spells of your choice from the [[[class-spell-list:sorcerer-spells|sorcerer spell list]]].
+You know two 1st-level spells of your choice from the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true).
 
 The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 

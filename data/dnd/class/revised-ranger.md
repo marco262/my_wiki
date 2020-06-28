@@ -131,7 +131,7 @@ When you engage in two-weapon fighting, you can add your ability modifier to the
 
 ## Spellcasting
 
-By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See the [[[general:Spellcasting Rules]]] section and the [[[class-spell-list:ranger-spells|ranger spell list]]].
+By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See the [[[general:Spellcasting Rules]]] section and the [ranger spell list](/dnd/class_spell_list/ranger/true).
 
 ### Spell Slots
 
@@ -141,7 +141,7 @@ For example, if you know the 1st-level spell animal friendship and have a 1st-le
 
 ### Spells Known of 1st Level and Higher
 
-You know two 1st-level spells of your choice from the [[[class-spell-list:ranger-spells|ranger spell list]]].
+You know two 1st-level spells of your choice from the [ranger spell list](/dnd/class_spell_list/ranger/true).
 
 The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.
 

@@ -26,13 +26,13 @@ Some rogues enhance their fine-honed skills of stealth and agility with magic, l
 
 When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.
 
-**Cantrips.** You learn three cantrips: *[[[spell:mage hand]]]* and two other cantrips of your choice from the [[[class-spell-list:wizard-spells|wizard spell list]]]. You learn another wizard cantrip of your choice at 10th level.
+**Cantrips.** You learn three cantrips: *[[[spell:mage hand]]]* and two other cantrips of your choice from the [wizard spell list](/dnd/class_spell_list/wizard/true). You learn another wizard cantrip of your choice at 10th level.
 
 **Spell Slots.** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.
 
-**Spells Known of 1st-Level and Higher.** You know three 1st-level [[[class-spell-list:wizard spells]]] of your choice, two of which you must choose from the enchantment and illusion spells on the [[[class-spell-list:wizard-spells|wizard spell list]]].
+**Spells Known of 1st-Level and Higher.** You know three 1st-level [wizard spells](/dnd/class_spell_list/wizard/true) of your choice, two of which you must choose from the enchantment and illusion spells on the [wizard spell list](/dnd/class_spell_list/wizard/true).
 
 The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
 

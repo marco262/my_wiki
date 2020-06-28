@@ -12,7 +12,7 @@ The gods of this domain are often associated with knowledge, as learning and arc
 ||9th||[[[spell:planar binding]]], [[[spell:teleportation circle]]]||
 
 ## Arcane Initiate
-When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the [[[class-spell-list:wizard-spells|Wizard Spell List]]]. For you, these cantrips count as cleric cantrips.
+When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the [wizard spell list](/dnd/class_spell_list/wizard/true). For you, these cantrips count as cleric cantrips.
 
 ## Channel Divinity: Arcane Abjuration
 Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures. As an action, you present your holy symbol and one celestial, elemental, fey, or fiend of your choice with 30 feet of you must make a Wisdom saving throw, provided it can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
@@ -35,7 +35,7 @@ Starting at 6th level, when you restore hit points to an ally with a spell of 1s
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
 ## Arcane Mastery
-At 17th level, you chose four spells from the [[[class-spell-list:wizard-spells|wizard spell list]]], one for each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you. 
+At 17th level, you chose four spells from the [wizard spell list](/dnd/class_spell_list/wizard/true), one for each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you. 
 
 ----
 

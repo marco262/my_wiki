@@ -87,7 +87,7 @@ Your spells are part of your vast repertoire, magic that you can tune to differe
 
 ### Cantrips
 
-You know two cantrips of your choice from the [[[class-spell-list:bard-spells|bard spell list]]]. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.
+You know two cantrips of your choice from the [bard spell list](/dnd/class_spell_list/bard/true). You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.
 
 ### Spell Slots
 
@@ -97,7 +97,7 @@ For example, if you know the 1st-level spell cure wounds and have a 1st-level an
 
 ### Spells Known of 1st Level and Higher
 
-You know four 1st-level spells of your choice from the [[[class-spell-list:bard-spells|bard spell list]]].
+You know four 1st-level spells of your choice from the [bard spell list](/dnd/class_spell_list/bard/true).
 
 The Spells Known column of the Bard table shows when you learn more bard spells of your choice.
 

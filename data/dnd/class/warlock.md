@@ -91,11 +91,11 @@ At 1st level, you have struck a bargain with an [[[class:warlock#otherworldly-pa
 
 ## Pact Magic
 
-Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See the [[[general:spellcasting rules]]] and the [[[class-spell-list:warlock-spells|warlock spell list]]].
+Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See the [[[general:spellcasting rules]]] and the [warlock spell list](/dnd/class_spell_list/warlock/true).
 
 ### Cantrips
 
-You know two cantrips of your choice from the [[[class-spell-list:warlock-spells|warlock spell list]]]. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.
+You know two cantrips of your choice from the [warlock spell list](/dnd/class_spell_list/warlock/true). You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.
 
 ### Spell Slots
 
@@ -105,7 +105,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
 
 ### Spells Known of 1st Level and Higher
 
-At 1st level, you know two 1st-level spells of your choice from the [[[class-spell-list:warlock-spells|warlock spell list]]].
+At 1st level, you know two 1st-level spells of your choice from the [warlock spell list](/dnd/class_spell_list/warlock/true).
 
 The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.
 

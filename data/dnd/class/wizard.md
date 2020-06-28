@@ -94,10 +94,10 @@ If you lose your spellbook, you can use the same procedure to transcribe the spe
 [[/div]]As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. 
 
 ### Cantrips
-At 1st level, you know three cantrips of your choice from the [[[class-spell-list:wizard spells|wizard spell list]]]. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
+At 1st level, you know three cantrips of your choice from the [wizard spell list](/dnd/class_spell_list/wizard/true). You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
 
 ### Spellbook
-At 1st level, you have a spellbook containing six 1st-level [[[class-spell-list:wizard spells|wizard spells]]] of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
+At 1st level, you have a spellbook containing six 1st-level [wizard spells](/dnd/class_spell_list/wizard/true) of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
 
 ### Preparing and Casting Spells
 The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
