@@ -21,7 +21,7 @@ Spellbook reward can be sold for 275gp
 * [Willifort Crowelle](^willifort_crowelle.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
 * [Naneatha Lharilstar](^naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)
 * [Cecil Weiss](^cecil_weiss.png), male human bard (doppelganger) who makes his livings a musician/actor/playwright 
-* [Vaniel Shortwick](^vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall
+* [Vaniel Shortwick](^vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall, part of the [Shard Shunners](shard-shunners)
 
 ## Zhentarim
 
@@ -39,7 +39,7 @@ Spellbook reward can be sold for 275gp
 ### On Dasher
 
 * [Blossom Snobeedle](^blossom_snobeedle.jpg)
-* [Dasher Snobeedle](^dasher_snobeedle.jpg), [weredog form](^dasher_snobeedle_weredog.png)
+* [Dasher Snobeedle](^dasher_snobeedle.jpg) ([weredog form](^dasher_snobeedle_weredog.png)), part of the [Shard Shunners](Shard Shunners)
 
 <script type="module">
     import {init_links} from "/js/dragon_heist/gm_notes.js";
