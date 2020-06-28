@@ -36,10 +36,10 @@
     {{ cb.day(2, "Nimblewright") }}
     {{ cb.day(3, "Met Grinda / Mausoleum") }}
     {{ cb.day(4, "Mommy issues uwu") }}
-    {{ cb.day(5, "", current_day=True) }}
+    {{ cb.day(5, "") }}
     {{ cb.day(6, "Home Security with Ulkoria") }}
+    {{ cb.day(7, "Bringing Dasher Home", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp") }}
-    {{ cb.day(14, "Talk with Dasher") }}
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
