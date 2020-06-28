@@ -18,6 +18,7 @@
 </div>
 <div class="month" id="flamerule">
     <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
+    {{ cb.add_recurring() }}
     {{ cb.day(23, "Fireball!") }}
     {{ cb.day(24, "Morgue trip") }}
     {{ cb.day(26, "Delivered Potions / Met Zardoz Zord") }}
@@ -32,6 +33,7 @@
 
 <div class="month" id="eleasis">
     <img class="month-img" src="../static/img/eleasis.png" style="width: 1400px;">
+    {{ cb.add_recurring() }}
     {{ cb.day(1, "Took in Istrid Horn") }}
     {{ cb.day(2, "Nimblewright") }}
     {{ cb.day(3, "Met Grinda / Mausoleum") }}
@@ -43,6 +45,7 @@
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
+    {{ cb.add_recurring() }}
 </div>
 
 <h1>Festival Day: High Harvest</h1>

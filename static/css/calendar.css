@@ -21,3 +21,9 @@
     width: 120.25px;
     height: 112px;
 }
+
+.neighborhood-watch {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}

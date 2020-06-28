@@ -17,3 +17,13 @@ class CalendarBuilder:
         if current_day:
             outline = " outline: 5px solid green;"
         return '<div class="day" style="top: {}px; left: {}px;{}">{}</div>'.format(top, left, outline, text)
+
+    def add_recurring(self):
+        img_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eye_open_font_awesome.svg/1200px-Eye_open_font_awesome.svg.png"
+        out = ""
+        for i in range(3):
+            top, left = self.get_offsets(i * 10 + 1)
+            top += self.day_height - 43
+            left += 5
+            out += f'<img class="neighborhood-watch" src="{img_url}" style="top: {top}px; left: {left}px;">\n'
+        return out
