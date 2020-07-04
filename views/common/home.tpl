@@ -3,7 +3,8 @@
 * [Dragon Heist](/dragon_heist/)
 
 <div id="last-commit-text">
-    Last commit: {{ commit_history }}
+    <strong>Last commit:</strong> {{ commit_history }}<br>
+    <strong>Last restart:</strong> {{ last_restart }}
 </div>
 <span id="status-text" hidden><em>Already up to date!</em></span>
 

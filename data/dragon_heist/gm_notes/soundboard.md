@@ -22,6 +22,7 @@
 * [Guile Theme]($load|music|guile_theme.mp3)
 * [Sailor Moon Transformation]($load|music|Sailor Moon Transformation.mp3)
 * [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
+* [Wild Thing](load|effect|https://www.youtube.com/watch?v=tFh0J8Ph18U)
 
 ## Ambience
 
@@ -87,6 +88,10 @@
 * [Fuck This Shit I'm Out]($load|effect|fuck-this-shit-im-out.mp3)
 * [Trololol]($load|effect|trololol.mp3)
 * [Evil Laugh]($load|effect|vincent_price_laugh.mp3)
+* [Buddy Holly Slaps The Seal](load|youtube|https://www.youtube.com/watch?v=KduJS8y48jc)
+* [Awooga Awooga Awooga](load|effect|awooga-awooga-awooga.mp3)
+* [Roblox Oof](load|effect|roblox-death-sound_1.mp3)
+* [Sounds from behind Brendaniel's bedroom door](load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s)
 
 <script type="module">
     import { init_links, init_soundboard } from "/js/dragon_heist/gm_notes.js";

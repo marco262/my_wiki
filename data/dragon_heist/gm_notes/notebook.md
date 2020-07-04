@@ -65,13 +65,13 @@ These are things to take out of the party funds when I remember:
 * Go talk to Halgraek Barrelshoulder to get troll skull
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
 * Doom Raiders Mission, "On Dasher"
+  * Blossom Snobeedle has offered 750gp to "scare Dasher straight"
+  * Dasher will pretend to be "scared straight", and will come home to his mother. Then, a few days later, he'll be "killed" by a pack of wild dogs.
 * Harpers Mission, "Welcome to the Family"
-* Tommassin asks after Emir, clearly smitten
+* Tomassin asks after Emir, clearly smitten
+  * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
 * Grinda Garloth has offered 100gp if they find where her family's bodies were taken.
-* Blossom Snobeedle has offered 750gp to "scare Dasher straight"
-* Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
 * Looking for a mentor for Brendaniel. Ulkoria will find a Draconic Sorcerer to tutor Brendaniel
-* Dasher will pretend to be "scared straight", and will come home to his mother. Then, a few days later, he'll be "killed" by a pack of wild dogs.
 
 ---
 

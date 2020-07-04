@@ -1,10 +1,10 @@
-import sys
-
 from git import Repo
 from time import ctime
 
-from bottle import static_file, Bottle, redirect, view, template
+from bottle import static_file, Bottle
 from src.common.utils import md_page
+
+START_TIME = ctime()
 
 
 def init():
@@ -17,7 +17,8 @@ def load_wsgi_endpoints(app: Bottle):
         repo = Repo()
         last_commit = repo.head.commit
         commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
-        return md_page("home", "common", build_toc=False, commit_history=commit_history, up_to_date_msg=False)
+        return md_page("home", "common", build_toc=False, commit_history=commit_history, up_to_date_msg=False,
+                       last_restart=START_TIME)
 
     @app.get("/static/<path:path>", name="static")
     def static(path):
