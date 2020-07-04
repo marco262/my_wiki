@@ -54,7 +54,8 @@ Modifier to roll: -10
 
 ## NPC notes
 
-Brendaniel is starting to learn Prestidigitation and Mage Hand
+Brendaniel is starting to learn Prestidigitation and Mage Hand.
+Brendaniel is a nascent Wild Magic Sorcerer.
 
 ## Expenses
 
