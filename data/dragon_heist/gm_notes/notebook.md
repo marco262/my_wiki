@@ -65,6 +65,8 @@ These are things to take out of the party funds when I remember:
 
 * Go talk to Halgraek Barrelshoulder to get troll skull
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
+  * Halgraek is willing to rent out the trollskull for 10 gp/day
+  * Halgraek is willing to take Gemma Arterton on as a maid as a trial run
 * Doom Raiders Mission, "On Dasher"
   * Blossom Snobeedle has offered 750gp to "scare Dasher straight"
   * Dasher will pretend to be "scared straight", and will come home to his mother. Then, a few days later, he'll be "killed" by a pack of wild dogs.
