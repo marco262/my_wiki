@@ -51,11 +51,15 @@ Modifier to roll: -10
 
 ## Hidden Calendar items
 
+Eleasis 9, morning: Istrid will ask the party what they know about the "wild dog" attack that killed Dasher
+Eleasis 10: Ulkoria hooks Brendaniel up with a sorcerer
 
 ## NPC notes
 
-Brendaniel is starting to learn Prestidigitation and Mage Hand.
-Brendaniel is a nascent Wild Magic Sorcerer.
+Brendaniel:
+ * Nascent Wild Magic Sorcerer
+ * Starting to learn Prestidigitation and Mage Hand
+ * Will learn Catapult
 
 ## Expenses
 
@@ -67,13 +71,11 @@ These are things to take out of the party funds when I remember:
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
   * Halgraek is willing to rent out the trollskull for 10 gp/day
   * Halgraek is willing to take Gemma Arterton on as a maid as a trial run
-* Doom Raiders Mission, "On Dasher"
-  * Blossom Snobeedle has offered 750gp to "scare Dasher straight"
-  * Dasher will pretend to be "scared straight", and will come home to his mother. Then, a few days later, he'll be "killed" by a pack of wild dogs.
 * Harpers Mission, "Welcome to the Family"
 * Tomassin asks after Emir, clearly smitten
   * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
 * Grinda Garloth has offered 100gp if they find where her family's bodies were taken.
+  * Grinda has offered 100gp if they recover the bodies
 * Looking for a mentor for Brendaniel. Ulkoria will find a Draconic Sorcerer to tutor Brendaniel
 
 ---

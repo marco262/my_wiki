@@ -17,6 +17,8 @@ Enter another URL to set as Visual Aid here:
 
 ## Places
 
+### Wards
+
 * Castle Ward [1](^castle_ward_1.jpg), [2](^castle_ward_2.jpg), [3](^castle_ward_3.jpg)
 * City of the Dead [1](^city_of_the_dead_1.jpg), [2](^city_of_the_dead_2.jpg), [3](^city_of_the_dead_3.jpg), [4](^city_of_the_dead_4.jpg), [5](^city_of_the_dead_5.jpg)
 * Dock Ward [1](^dock_ward_1.jpg), [2](^dock_ward_2.jpg)
@@ -24,8 +26,10 @@ Enter another URL to set as Visual Aid here:
 * North Ward [1](^north_ward_1.png), [2](^north_ward_2.jpg), [3](^north_ward_3.jpg)
 * Sea Ward [1](^sea_ward_1.jpg), [2](^sea_ward_2.jpg)
 * Southern Ward [1](^southern_ward_1.jpg), [2](^southern_ward_2.jpg), [3](^southern_ward_3.jpg)
-* Trades Ward [1](^trades_ward_1.jpg), [2](^trades_ward_2.png)  
-<br>
+* Trades Ward [1](^trades_ward_1.png), [2](^trades_ward_2.jpg), [3](^trades_ward_3.png)
+
+### Other
+
 * [Old Xoblob's Shop](^old_xoblobs_shop.jpg)
 * [Old Xoblob](^old_xoblob.jpg)
 * [The Skewered Dragon](^skewered_dragon.jpg)

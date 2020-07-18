@@ -40,7 +40,8 @@
     {{ cb.day(4, "Mommy issues uwu") }}
     {{ cb.day(5, "") }}
     {{ cb.day(6, "Home Security with Ulkoria") }}
-    {{ cb.day(7, "Bringing Dasher Home", current_day=True) }}
+    {{ cb.day(7, "Bringing Dasher Home / Windmill") }}
+    {{ cb.day(8, "Wig Shopping", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp") }}
 </div>
 <div class="month" id="elient">
