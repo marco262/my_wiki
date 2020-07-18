@@ -22,7 +22,7 @@
 * [Guile Theme]($load|music|guile_theme.mp3)
 * [Sailor Moon Transformation]($load|music|Sailor Moon Transformation.mp3)
 * [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
-* [Wild Thing](load|effect|https://www.youtube.com/watch?v=tFh0J8Ph18U)
+* [Wild Thing]($load|effect|https://www.youtube.com/watch?v=tFh0J8Ph18U)
 
 ## Ambience
 

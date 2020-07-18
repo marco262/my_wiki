@@ -12,6 +12,7 @@ Enter another URL to set as Visual Aid here:
 ## Images
 
 * [Da party](^dnd_party.png)
+  * [Les Marquis de Sallies et Kellemage](^marquis_de_sallies.jpg)
 * [Fireball Header image](^fireball_head_image.jpg)
 * [Day of Wonders Parade](^day_of_wonders_parade.png)
 
