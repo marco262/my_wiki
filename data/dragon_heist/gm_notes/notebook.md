@@ -57,6 +57,7 @@ Eleasis 10: Ulkoria hooks Brendaniel up with a sorcerer
 ## NPC notes
 
 Brendaniel:
+
  * Nascent Wild Magic Sorcerer
  * Starting to learn Prestidigitation and Mage Hand
  * Will learn Catapult
