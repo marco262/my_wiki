@@ -38,6 +38,18 @@
 * [Retchyn](^retchyn.jpg), halfling apprentice to Losser Mirklav
 * [Kreela](^kreela.jpg), halfling apprentice to Losser Mirklav
 
+### Dandymops
+
+* Upscale shop, owned by brother and sister, Retchyn and Kreela Lindenbrook
+* Slogan: "Welcome to Dandymops, where our goal is to make sure you leave here at your dandiest"
+* Staffed only by bored teenager in [a powdered wig and fancy dress](^wig_shop_employee.jpg)
+  * The teen was hired within the last few days, and given zero training, which he's a little pissed at
+  * The owners have been gone since that morning, and the employee hasn't seen them all day
+  * Only notable thing would be this creepy dude with pale white eyes and all black who'd come in, and all three of them would go to the back, where the employee would hear a door or something and then they'd be gone for hours.
+* The shop has a huge collection of wigs for all races and styles, but mostly super fancy
+* The hidden door is behind a dwarven beard wig that has bones laced throughout it, and it looks kind of uncomfortable.
+  * The latch is hidden underneath the beard, which causes a door to open leading to stairs going down to a basement.
+
 ## Street Chase
 
 [Improved Chase Rules](https://www.hipstersanddragons.com/new-chase-mechanics-5e-dnd/)
