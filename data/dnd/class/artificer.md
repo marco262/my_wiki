@@ -126,21 +126,21 @@ You have studied the workings of magic and how to channel it through objects. As
 
 ### Tools Required
 
-You produce your artificer spell effects through your tools. You must have a spellcasting focus-specifically thieves' tools or some kind of artisan's tool-in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, "Equipment," in the Player's Handbook for descriptions of these tools.
+You produce your artificer spell effects through your tools. You must have a spellcasting focus -- specifically thieves' tools or some kind of artisan's tool -- in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, "Equipment," in the Player's Handbook for descriptions of these tools.
 
 After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.
 
 ### Cantrips (0-Level Spells)
 
-At 1st level, you know two can trips of your choice from the artificer spell list. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.
+At 1st level, you know two cantrips of your choice from the [artificer spell list](/dnd/class_spell_list/artificer/true). At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.
 
 When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list.
 
 ### Preparing and Casting Spells
 
-The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+The Artificer table shows how many spell slots you have to cast your [artificer spells](/dnd/class_spell_list/artificer/true). To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-You prepare the list of artificer spells that are available for you to cast, choosing from the artificer spell list. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
+You prepare the list of artificer spells that are available for you to cast, choosing from the [artificer spell list](/dnd/class_spell_list/artificer/true). When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
 
 For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
@@ -163,7 +163,7 @@ At 2nd level, you gain the ability to imbue mundane items with certain magical i
 
 ### Infusions Known
 
-When you gain this feature, pick four artificer infusions to learn, choosing from the "Artificer Infusions" section at the end of the class's description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.
+When you gain this feature, pick four [artificer infusions](#infusions) to learn. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.
 
 Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.
 
@@ -435,6 +435,10 @@ Artificers pursue many disciplines. Here are specialist options you can choose f
  * [[[class:Alchemist]]]
  * [[[class:Artillerist]]]
  * [[[class:Battle Smith]]]
+
+## Unearthed Arcana
+
+ * [[[class:Armorer]]]
 
 ---
 
