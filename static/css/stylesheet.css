@@ -1,9 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|PT+Sans:400,400italic,700,700italic|IM+Fell+DW+Pica+SC);
+
 body {
     font-family: 'PT Sans', sans-serif;
-    background-image: url(/static/img/vellum-plain-background-repeating.jpg);
-    background-position: top center;
-    background-repeat: repeat;
+    background: url(/static/img/vellum-plain-background-repeating.jpg) repeat top center;
 }
+
+#content {
+    background-color: cornsilk;
+    margin: -10px auto 0 auto;
+    max-width: 1150px;
+    width: auto;
+}
+
+#banner-image {
+    background: url(/static/img/Banner.jpg) top center;
+    height: 130px;
+    padding: 20px;
+    position: relative;
+}
+
+#wiki-title {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: expanded;
+    color: white;
+    text-decoration: none;
+    line-height: 150px;
+}
+
+#page-content {
+    margin: 20px;
+}
+
+/* top-bar menu (inside #header) */
+
+#top-bar {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+
+#top-bar ul {
+	/*display: block;*/
+	margin: 0;
+    padding: 0;
+	/*list-style: none;*/
+}
+
+#top-bar ul li {
+	list-style: none;
+}
+
+#top-bar ul li ul {
+	display: none;
+}
+
+#top-bar ul li:hover ul {
+    float: left;
+	display: block;
+}
+
+#top-bar a {
+    height: 22px;
+	margin: 0 5px;
+    padding: 0 15px;
+    background-color: #A4121A;
+    color: white;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 90%;
+}
+
+#top-bar a:hover {
+    background-color: white;
+    color: #A4121A
+}
+
+/*#top-bar li ul{*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*width: 12em;*/
+	/*border: 1px solid #EEE;*/
+/*}*/
+
+/*#top-bar  li ul li{*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*!*width: 12em;*!*/
+	/*display: block;*/
+	/*float: none;*/
+/*}*/
+
+
+
+/*#top-bar li a{*/
+	/*text-align: center;*/
+	/*display: block;*/
+	/*margin: 0;*/
+	/*padding: 1px 1em;*/
+	/*text-decoration: none;*/
+/*}*/
+/*#top-bar a:hover {*/
+	/*background-color: #FFF;*/
+	/*text-decoration: underline;*/
+/*}*/
+
+/*#top-bar li ul li a{*/
+	/*width: 10em;*/
+	/*text-align: left;*/
+	/*background-color: #FFF;*/
+	/*border: none;*/
+/*}*/
+/*#top-bar li ul li a:hover{*/
+
+/*}*/
+
+/*#top-bar li ul {*/
+	/*position: absolute;*/
+	/*!*left: -999em;*!*/
+	/*visibility: hidden;*/
+/*}*/
+
+/*#top-bar li:hover ul, #top-bar li.sfhover ul {*/
+	/*!*left: auto;*!*/
+	/*visibility: visible;*/
+/*}*/
+
+/*#top-bar {*/
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*bottom: 0;*/
+    /*z-index:0;*/
+    /*width: 1200px;*/
+/*}*/
+
+/*#top-bar li {*/
+    /*list-style: none;*/
+    /*float: left;*/
+    /*margin: 0 5px;*/
+    /*padding:0;*/
+    /*height: 22px;*/
+/*}*/
+/*#top-bar li ul{*/
+    /*text-align: center;*/
+    /*display: block;*/
+    /*margin: 0;*/
+    /*padding: 0.3em 1em;*/
+    /*text-decoration: none;*/
+/*}*/
+/*#top-bar a:hover {*/
+    /*border-bottom-color:#243356; !* different border color *!*/
+/*}*/
 
 img[alt$=">"] {
     float: right;
@@ -35,6 +183,9 @@ h1{
     font-weight: normal;
     text-decoration: none;
     font-family: 'IM Fell DW Pica SC', serif;
+}
+h1#page-title{
+    font-family: 'Bree Serif', serif;
 }
 h2{
     font-weight: normal;
