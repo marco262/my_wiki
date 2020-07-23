@@ -2,7 +2,8 @@
 
 <div id="content">
     <div id="banner-image">
-        <a href="/">My Wiki</a>
+        <a id="wiki-title" href="/">My Wiki</a>
+        % include("common/top_bar.tpl")
     </div>
     <div id="page-content">
         <h1 id="page-title">{{title}}</h1>
