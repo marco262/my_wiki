@@ -1,5 +1,4 @@
-% include("common/header.tpl", title=title)
-<h1>{{ title }}</h1>
+% rebase("common/base.tpl", title=title)
 % if characters is None:
 <p><i>No characters created yet</i>
 % else:
@@ -9,5 +8,3 @@
     % end
 </ul>
 % end
-
-% include("common/footer.tpl")

@@ -1,6 +1,5 @@
-% include("common/header.tpl", title=title)
+% rebase("common/base.tpl", title=title)
 
-<h1>{{title}}</h1>
 <%
 from data.dnd.enums import classes as class_list
 spell_class_list = []
@@ -30,5 +29,3 @@ end
 
 % end
 <p><em>Source: {{source}}</em></p>
-
-% include("common/footer.tpl")

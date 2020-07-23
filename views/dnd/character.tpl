@@ -1,5 +1,5 @@
+% rebase("common/base.tpl", title=title)
 <link rel="stylesheet" type="text/css" href="/static/css/character_sheet.css">
-% include("common/header.tpl", title=name)
 % from data.dnd.enums import ability_scores, skills
 <h1>{{ name }}</h1>
 
@@ -19,7 +19,7 @@
     <b>Ability Scores:</b>
     <div id="ability-scores-grid">
         % for ability_score in ability_scores:
-        <div><a class="dice-roll" id="{{ ability_score.lower() }}-check">{{ ability_score }}:</div>
+        <div id="{{ ability_score.lower() }}-check">{{ ability_score }}:</div>
         <div class="mod">
             <span id="{{ ability_score.lower() }}-score">10</span>
             (<span id="{{ ability_score.lower() }}-mod">+0</span>)
@@ -32,10 +32,12 @@
         <div class="tooltip" style="text-align: center;">P<div class="tooltiptext">Proficiency</div></div>
         <div></div>
         <div></div>
+        <div></div>
         % for ability_score in ability_scores:
         <div><input type="checkbox" class="save-checkbox" id="{{ ability_score.lower() }}-prof"></div>
         <div id="{{ ability_score.lower() }}-save-label"><i>{{ ability_score }}:</i></div>
         <div class="mod" id="{{ ability_score.lower() }}-save-mod">+0</div>
+        <div><button class="roll-button" value="{{ ability_score.lower() }}-save-mod">Roll</button></div>
         % end
     </div>
 </div>
@@ -69,6 +71,8 @@
     </div>
 </div>
 
+<div id="overlay" hidden></div>
+
 
 <script type="module">
     import { load_json } from "/js/dnd/character-sheet.js";
@@ -76,5 +80,3 @@
     import { init_tabs } from "/js/common/utils.js";
     init_tabs();
 </script>
-
-% include("common/footer.tpl")

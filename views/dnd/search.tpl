@@ -1,4 +1,4 @@
-% include("common/header.tpl", title="Spell Search")
+% rebase("common/base.tpl", title="Spell Search")
 
 <h1>Spell Search</h1>
 
@@ -21,5 +21,3 @@
     document.getElementById("search_key").onkeypress = on_key_press;
     document.getElementById("search_button").onclick = search;
 </script>
-
-% include("common/footer.tpl")

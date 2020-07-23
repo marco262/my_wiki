@@ -1,4 +1,4 @@
-% include("common/header.tpl", title="Spell Filter")
+% rebase("common/base.tpl", title=title)
 % from src.common.utils import ordinal
 % from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times, durations
 <h1>Spell Filter</h1>
@@ -94,5 +94,3 @@
     import { init_events } from "/js/dnd/filter.js";
     init_events();
 </script>
-
-% include("common/footer.tpl")

@@ -1,6 +1,4 @@
-% include("common/header.tpl", title="Mutant Generator")
-
-<h1>Mutant Generator</h1>
+% rebase("common/base.tpl", title="Mutations Generator")
 
 <p>This page will let you randomly generate a combination of mutations. Pick your template from the dropdown below.<br/>
     You can view more details of each mutation on the <a href="/numenera/Mutants">Mutants</a> page.</p>
@@ -29,5 +27,3 @@
     document.getElementById("selected_mutation").onkeypress = on_key_press;
     document.getElementById("generate_button").onclick = generate;
 </script>
-
-% include("common/footer.tpl")

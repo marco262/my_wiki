@@ -1,20 +1,18 @@
-% include("common/header.tpl", title=title)
-
+<title>{{title}} - Private 5e Wiki</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+</head>
+<body>
 <div id="content">
     <div id="banner-image">
         <a id="wiki-title" href="/">My Wiki</a>
         % include("common/top_bar.tpl")
     </div>
-    <div id="page-content">
+    <article id="page-content">
         <h1 id="page-title">{{title}}</h1>
         <hr>
-
-        % include("common/toc.tpl")
-
-        {{!text}}
+        {{ !base }}
         <br>
-    </div>
-
-    % include("common/footer.tpl")
+    </article>
 </div>
-
+</body>
