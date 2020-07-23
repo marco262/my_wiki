@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/static/css/calendar.css">
 <%
 from src.dragon_heist.calendar_builder import CalendarBuilder
-month_width = 1100
+month_width = 1110
 cb = CalendarBuilder(
     month_width=month_width,
     month_height=month_width * 0.4365,
