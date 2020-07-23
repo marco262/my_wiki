@@ -1,10 +1,10 @@
 class CalendarBuilder:
 
-    def __init__(self, top_start=148, left_start=100, day_width=120.3, day_height=125.1):
-        self.top_start = top_start
-        self.left_start = left_start
-        self.day_width = day_width
-        self.day_height = day_height
+    def __init__(self, month_width, month_height, top_start, left_start, day_width, day_height):
+        self.top_start = month_height * top_start
+        self.left_start = month_width * left_start
+        self.day_width = month_width * day_width
+        self.day_height = month_height * day_height
 
     def get_offsets(self, day):
         return self.top_start + ((day - 1) // 10) * self.day_height, \
@@ -23,7 +23,7 @@ class CalendarBuilder:
         out = ""
         for i in range(3):
             top, left = self.get_offsets(i * 10 + 1)
-            top += self.day_height - 43
-            left += 5
+            top += self.day_height - 32
+            left += 4
             out += f'<img class="neighborhood-watch" src="{img_url}" style="top: {top}px; left: {left}px;">\n'
         return out

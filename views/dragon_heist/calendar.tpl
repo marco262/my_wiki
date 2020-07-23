@@ -1,8 +1,18 @@
 <link rel="stylesheet" type="text/css" href="/static/css/calendar.css">
-% from src.dragon_heist.calendar_builder import CalendarBuilder
-% cb = CalendarBuilder()
+<%
+from src.dragon_heist.calendar_builder import CalendarBuilder
+month_width = 1100
+cb = CalendarBuilder(
+    month_width=month_width,
+    month_height=month_width * 0.4365,
+    top_start=0.2422,
+    left_start=0.0714,
+    day_width=0.08595,
+    day_height=0.2055
+)
+%>
 <div class="month" id="kythorn">
-    <img class="month-img" src="../static/img/kythorn.png" style="width: 1400px;">
+    <img class="month-img" src="../static/img/kythorn.png">
     {{ cb.day(5, "Met at Yawning Portal") }}
     {{ cb.day(6, "Saved Renaer") }}
     {{ cb.day(7, "Saved Floon") }}
@@ -17,7 +27,7 @@
     {{ cb.day(30, "House-warming Party") }}
 </div>
 <div class="month" id="flamerule">
-    <img class="month-img" src="../static/img/flamerule.png" style="width: 1400px;">
+    <img class="month-img" src="../static/img/flamerule.png">
     {{ cb.add_recurring() }}
     {{ cb.day(23, "Fireball!") }}
     {{ cb.day(24, "Morgue trip") }}
@@ -32,7 +42,7 @@
 * Fought gazer in bookstore
 
 <div class="month" id="eleasis">
-    <img class="month-img" src="../static/img/eleasis.png" style="width: 1400px;">
+    <img class="month-img" src="../static/img/eleasis.png">
     {{ cb.add_recurring() }}
     {{ cb.day(1, "Took in Istrid Horn") }}
     {{ cb.day(2, "Nimblewright") }}
@@ -46,7 +56,7 @@
     {{ cb.day(12, "Sewer Plague") }}
 </div>
 <div class="month" id="elient">
-    <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
+    <img class="month-img" src="../static/img/elient.png">
     {{ cb.add_recurring() }}
 </div>
 

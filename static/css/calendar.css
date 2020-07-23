@@ -5,25 +5,25 @@
 
 .month-img {
     position: relative;
-    width: 1400px;
+    width: 1100px;
 }
 
 .day {
-    font-size: 11pt;
+    font-size: 1vw;
     position: absolute;
     text-align: center;
     color: orangered;
     /*outline: 1px solid red;*/
-    padding-top: 32px;
+    padding-top: 21px;
     padding-left: 5px;
     padding-right: 5px;
     box-sizing: border-box;
-    width: 120.25px;
-    height: 112px;
+    width: 94.55px;
+    height: 87px;
 }
 
 .neighborhood-watch {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
