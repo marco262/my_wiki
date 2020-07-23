@@ -26,7 +26,6 @@ But that is a story for another time. This story has more humble beginnings. We 
 
 # Resources
 
-* [My D&D 5e wiki, includes classes and spell lists](http://mywiki.zapto.org:26262/dnd/)
 * [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Code Legal](https://media.wizards.com/2018/dnd/dragon/21/DRA21_WDH_Preview_cl.pdf)
 * [Volo's Waterdeep Enchiridion](https://drive.google.com/open?id=1mPgGU0zdhOJNCVpt86yGMJFhJML30Wsu)
@@ -50,3 +49,8 @@ But that is a story for another time. This story has more humble beginnings. We 
 || Matchless&nbsp;Pipe || A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself. ||
 
 [GM Notes](/dragon_heist/gm_notes/GM Notes)
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>

@@ -328,7 +328,7 @@ button.accordion-button {
     color: #444;
     cursor: pointer;
     padding: 10px;
-    width: 65%;
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -340,7 +340,7 @@ button.accordion-button {
     background-color: #ccc;
 }
 
-button.accordion-button:after {
+button.accordion-button:before {
     content: '\002B';
     color: #777;
     font-weight: bold;
@@ -348,7 +348,7 @@ button.accordion-button:after {
     margin-left: 5px;
 }
 
-.active:after {
+button.accordion-active:before {
     content: "\2212";
 }
 
@@ -362,7 +362,6 @@ div.accordion-panel {
 }
 
 blockquote {
-    width: 65%;
 	border: 1px dashed #999;
 	padding: 0 1em;
 	background-color: #f4f4f4;
