@@ -25,7 +25,7 @@ body {
     font-weight: bold;
     font-stretch: expanded;
     color: white;
-    text-decoration: none;
+    text-decoration: none;top
     line-height: 150px;
 }
 
@@ -42,13 +42,14 @@ body {
 }
 
 #top-bar ul {
-	/*display: block;*/
+	display: block;
 	margin: 0;
     padding: 0;
-	/*list-style: none;*/
+	list-style: none;
 }
 
 #top-bar ul li {
+    float: left;
 	list-style: none;
 }
 
