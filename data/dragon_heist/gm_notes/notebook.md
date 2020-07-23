@@ -51,8 +51,8 @@ Modifier to roll: -10
 
 ## Hidden Calendar items
 
-Eleasis 9, morning: Istrid will ask the party what they know about the "wild dog" attack that killed Dasher
-Eleasis 10: Ulkoria hooks Brendaniel up with a sorcerer
+* Eleasis 9, morning: Istrid will ask the party what they know about the "wild dog" attack that killed Dasher
+* Eleasis 10: Ulkoria hooks Brendaniel up with a sorcerer
 
 ## NPC notes
 
@@ -66,6 +66,8 @@ Brendaniel:
 
 These are things to take out of the party funds when I remember:
 
++100gp from Grinda Garloth
+
 ## Available Plot Hooks
 
 * Go talk to Halgraek Barrelshoulder to get troll skull
@@ -75,16 +77,18 @@ These are things to take out of the party funds when I remember:
 * Harpers Mission, "Welcome to the Family"
 * Tomassin asks after Emir, clearly smitten
   * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
-* Grinda Garloth has offered 100gp if they find where her family's bodies were taken.
-  * Grinda has offered 100gp if they recover the bodies
 * Looking for a mentor for Brendaniel. Ulkoria will find a Draconic Sorcerer to tutor Brendaniel
 
 ---
 
 * Uncle David will threaten Emir when he's coming back with the treasure if he doesn't take the treasure back to his family
+  * He wishes to confront Golorr itself, for... reasons?
 
 ## TODO
 
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
+* Add Nelson laugh to soundboard
+* Finish researching Stone of Golorr
+* Determine what the three keys are

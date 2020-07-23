@@ -43,6 +43,7 @@
     {{ cb.day(7, "Bringing Dasher Home / Windmill") }}
     {{ cb.day(8, "Wig Shopping", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp") }}
+    {{ cb.day(12, "Sewer Plague") }}
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png" style="width: 1400px;">
