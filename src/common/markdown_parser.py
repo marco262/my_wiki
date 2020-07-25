@@ -96,13 +96,13 @@ class MarkdownParser:
 
             args = {}
             for arg in m.group(2).strip("\n").split("\n"):
-                k, v = arg.split("=")
+                k, v = arg.split("=", 1)
                 k, v = k.strip(), v.strip()
                 if v.startswith("!"):
                     v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
                 args[k] = v
 
-            t = template(os.path.join(self.namespace, template_name) + ".tpl", args)
+            t = template(template_name + ".tpl", args)
             text = text.replace(m.group(0), t)
         return text
 

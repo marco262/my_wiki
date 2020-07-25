@@ -58,7 +58,7 @@ def load_wsgi_endpoints(app: Bottle):
     # Categories
 
     @app.get('/class/<name>')
-    @view("dnd/page.tpl")
+    @view("common/page.tpl")
     def dnd_class(name):
         formatted_name = title_to_page_name(name)
         path = "data/dnd/class/" + formatted_name + ".md"
@@ -69,7 +69,7 @@ def load_wsgi_endpoints(app: Bottle):
         return {"title": name.title(), "text": md, "toc": md.toc_html}
 
     @app.get('/advancement/<name>')
-    @view("dnd/page.tpl")
+    @view("common/page.tpl")
     def advancement(name):
         formatted_name = title_to_page_name(name)
         path = "data/dnd/advancement/" + formatted_name + ".md"

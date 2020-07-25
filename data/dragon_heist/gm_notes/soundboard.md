@@ -78,6 +78,7 @@
 * ["I Will Kill You"]($load|effect|I_will_kill_you-Grandpa-13673816.mp3)
 * [Laugh Track]($load|effect|laugh_track.mp3)
 * [Crowd Booing]($load|effect|Crowd Boo 1-SoundBible.com-183064743.mp3)
+* [Nelson Laugh]($load|effect|nelson_laugh.mp3)
 
 *Silly*
 

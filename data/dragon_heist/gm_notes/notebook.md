@@ -56,7 +56,7 @@ Modifier to roll: -10
 
 ## NPC notes
 
-Brendaniel:
+[Brendaniel](brendaniel-sqwik):
 
  * Nascent Wild Magic Sorcerer
  * Starting to learn Prestidigitation and Mage Hand
@@ -89,6 +89,4 @@ These are things to take out of the party funds when I remember:
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
-* Add Nelson laugh to soundboard
-* Finish researching Stone of Golorr
-* Determine what the three keys are
+* Add multi-line support to includes
