@@ -12,5 +12,6 @@ A bronze dragon scale, stamped with the private symbol of Dagult Neverember, ref
 
 ### Images
 
+* [Zelifarn](^zelifarn.jpg), a [young bronze dragon](https://roll20.net/compendium/dnd5e/Young%20Bronze%20Dragon#content) living in Deepwater Harbor, looking for treasure
 * [Vault door](^Vault-Door.jpg)
 * [Aurinax](^aurinax.jpg)
