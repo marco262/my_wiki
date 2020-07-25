@@ -144,15 +144,15 @@ You also grow a thin set of scales that match the color of your chosen dragon. T
 **Draconic Nature**
 
 ||~ Dragon Type ||~ Damage Type ||~ Breath Weapon ||
-|| Brass || Fire || 5 by 30 ft. line (Dex. save) ||
-|| Bronze || Acid || 5 by 30 ft. line (Dex. save) ||
-|| Copper || Lightning || 5 by 30 ft. line (Dex. save) ||
-|| Gold || Fire || 15 ft. cone (Dex. save) ||
-|| Silver || Cold || 15 ft. cone (Con. save) ||
+|| Brass || Fire || 5 by 20 ft. line (Dex. save) ||
+|| Bronze || Acid || 5 by 20 ft. line (Dex. save) ||
+|| Copper || Lightning || 5 by 20 ft. line (Dex. save) ||
+|| Gold || Fire || 10 ft. cone (Dex. save) ||
+|| Silver || Cold || 10 ft. cone (Con. save) ||
 
 ### Breath Weapon
 
-Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and half as much damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and no damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
 ### Energy Expertise
 
@@ -171,11 +171,11 @@ At 6th level, as a reaction in response to being hit with an attack you can stif
 
 ### Greater Aspect of Metallic Dragons
 
-At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled. You may add double your proficiency bonus to any Charisma checks when interacting with metallic dragons, even if you would otherwise not be proficient in them.
+At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with metallic dragons.
 
 ### Discorporating Breath of Bahamut
 
-At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust (see the disintegrate spell for details). Once you use this ability, you can not do so again until you finish a long rest.
+At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust (see the disintegrate spell for details). Once you use this ability, you can not do so again until you finish a short rest.
 
 ## Tiamat
 
@@ -197,15 +197,15 @@ You also grow a thin set of scales that match the color of your chosen dragon. T
 **Draconic Nature**
 
 ||~ Dragon Type ||~ Damage Type ||~ Range ||
-|| Black || Acid || 5 by 30 ft. line (Dex. save) ||
-|| Blue || Lightning || 5 by 30 ft. line (Dex. save) ||
-|| Green || Poison || 15 ft. cone (Con. save) ||
-|| Red || Fire || 15 ft. cone (Dex. save) ||
-|| White || Cold || 15 ft. cone (Con. save) ||
+|| Black || Acid || 5 by 20 ft. line (Dex. save) ||
+|| Blue || Lightning || 5 by 20 ft. line (Dex. save) ||
+|| Green || Poison || 10 ft. cone (Con. save) ||
+|| Red || Fire || 10 ft. cone (Dex. save) ||
+|| White || Cold || 10 ft. cone (Con. save) ||
 
 ### Breath Weapon
 
-Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and half as much damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+Your connection to your Draconic Patron lets you use your action to exhale destructive energy. Your dragon type determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your dragon type. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d8 damage on a failed save, and no damage on a successful one. The damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
 ### Energy Dominance
 
@@ -224,11 +224,11 @@ At 6th level, as a reaction in response to being attacked, you can project the f
 
 ### Greater Aspect of Chromatic Dragons
 
-At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled. You may add double your proficiency bonus to any Charisma checks when interacting with chromatic dragons, even if you would otherwise not be proficient in them.
+At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with chromatic dragons.
 
 ### Fivefold Breath of Tiamat
 
-At 14th level, you learn to mimic the effects of the mighty breath weapon of Tiamat. You can, as an action on your turn use your breath weapon 5 times simultaneously. Each breath weapon is resolved independently and can be aimed at different targets. Each breath weapon corresponds to one of the five primary energy types: acid, lightning, poison, fire, and cold. Once you use this feature, you can not do so again until you finish a long rest.
+At 14th level, you learn to mimic the effects of the mighty breath weapon of Tiamat. You can, as an action on your turn use your breath weapon 5 times simultaneously. Each breath weapon is resolved independently and can be aimed at different targets. Each breath weapon corresponds to one of the five primary energy types: acid, lightning, poison, fire, and cold. Once you use this feature, you can not do so again until you finish a short rest.
 
 # Draconic Invocations
 
