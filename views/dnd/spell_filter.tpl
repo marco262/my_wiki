@@ -1,4 +1,4 @@
-% rebase("common/base.tpl", title=title)
+% rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
 % from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times, durations
 <h1>Spell Filter</h1>
