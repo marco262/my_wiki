@@ -79,6 +79,7 @@ As a paladin, you gain the following class features.
 ## Equipment
 
 You start with the following equipment, in addition to the equipment granted by your background:
+
 * (a) a martial weapon and a shield or (b) two martial weapons
 * (a) five javelins or (b) any simple melee weapon
 * (a) a priest's pack or (b) an explorer's pack
