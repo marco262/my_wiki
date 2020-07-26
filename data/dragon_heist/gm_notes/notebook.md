@@ -59,8 +59,9 @@ Modifier to roll: -10
 [Brendaniel](brendaniel-sqwik):
 
  * Nascent Wild Magic Sorcerer
- * Starting to learn Prestidigitation and Mage Hand
- * Will learn Catapult
+ * Learned, Prestidigitation, Mage Hand, and Catapult
+ * Has proficiency in medicine, but nothing else
+ * 0th level commoner with 1st level sorcerer HP
 
 ## Expenses
 
@@ -89,4 +90,4 @@ These are things to take out of the party funds when I remember:
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
-* Add multi-line support to includes
+* Add monster stats to wiki next time I'm prepping for a fight

@@ -51,7 +51,8 @@ cb = CalendarBuilder(
     {{ cb.day(5, "") }}
     {{ cb.day(6, "Home Security with Ulkoria") }}
     {{ cb.day(7, "Bringing Dasher Home / Windmill") }}
-    {{ cb.day(8, "Wig Shopping", current_day=True) }}
+    {{ cb.day(8, "Wig Shopping") }}
+    {{ cb.day(9, "Assault on Trollskull", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp") }}
     {{ cb.day(12, "Sewer Plague") }}
 </div>
