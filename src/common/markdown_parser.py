@@ -94,13 +94,28 @@ class MarkdownParser:
         for m in re.finditer(r'\[\[include (.*?)\]\](.*?)\[\[/include\]\]', text, re.DOTALL):
             template_name = m.group(1)
 
+            rows = m.group(2).strip("\n").split("\n")
+            index = 0
             args = {}
-            for arg in m.group(2).strip("\n").split("\n"):
+            while index < len(rows):
+                arg = rows[index]
                 k, v = arg.split("=", 1)
                 k, v = k.strip(), v.strip()
-                if v.startswith("!"):
+                if v.startswith("!!!"):
+                    # Gather the remaining lines
+                    full_value = v[3:] + "\n"
+                    while True:
+                        index += 1
+                        row = rows[index]
+                        if row.endswith("!!!"):
+                            full_value += row[:-3]
+                            break
+                        full_value += row + "\n"
+                    v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
+                elif v.startswith("!"):
                     v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
                 args[k] = v
+                index += 1
 
             t = template(template_name + ".tpl", args)
             text = text.replace(m.group(0), t)
