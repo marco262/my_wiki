@@ -8,13 +8,15 @@ from bottle import view, request, HTTPError, Bottle
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
+from src.dnd.search import Search
 from src.dnd.utils import class_spell
 
 SPELLS = {}
+SEARCH_OBJ = Search()
 
 
 def init():
-    global SPELLS
+    global SPELLS, SEARCH_OBJ
     SPELLS = load_spells()
 
 
@@ -89,9 +91,14 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Misc Functions
 
-    @app.get('/search')
-    @view('dnd/search.tpl')
-    def search():
+    @app.get('/search/<search_term>')
+    # @view('dnd/search.tpl')
+    def search(search_term):
+        return {"response": SEARCH_OBJ.run(search)}
+
+    @app.get('/find_spell')
+    @view('dnd/find_spell.tpl')
+    def find_spell():
         return
 
     @app.get('/search_results/<search_key>')

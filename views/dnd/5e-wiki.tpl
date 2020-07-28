@@ -26,5 +26,5 @@
 * [{{c.title()}} Spells](/dnd/class_spell_list/{{c}}/true)
 % end
 
-[Search Spells](/dnd/search)<br>
+[Find A Spell](/dnd/find_spell)<br>
 [Spell Filter](/dnd/spell_filter)
