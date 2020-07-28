@@ -3,3 +3,8 @@ export function search() {
     if (search_key === "") return;
     document.location = "/dnd/search/" + search_key;
 }
+
+export function on_key_press(e) {
+    if (e.key === "Enter")
+        search(this);
+}

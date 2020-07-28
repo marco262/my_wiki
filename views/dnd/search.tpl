@@ -21,9 +21,10 @@ Search Key:
 </div>
 
 <script type="module">
-    import {search} from "/js/dnd/search.js";
+    import {search, on_key_press} from "/js/dnd/search.js";
     let search_key_box = document.getElementById("search_key");
     search_key_box.focus();
+    search_key_box.onkeypress = on_key_press;
     % if defined("search_key"):
     search_key_box.value = "{{ search_key }}";
     % end
