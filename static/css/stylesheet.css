@@ -372,3 +372,9 @@ blockquote {
     text-decoration: underline dashed blue;
     cursor: pointer;
 }
+
+.search-result-path {
+    margin-top: -5px;
+    font-style: italic;
+    font-size: 80%;
+}

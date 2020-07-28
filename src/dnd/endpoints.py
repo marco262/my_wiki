@@ -95,10 +95,15 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Misc Functions
 
-    @app.get('/search/<search_term>')
-    # @view('dnd/search.tpl')
-    def search(search_term):
-        return {"response": SEARCH_OBJ.run(search_term)}
+    @app.get('/search')
+    @view('dnd/search.tpl')
+    def search():
+        return {}
+
+    @app.route('/search/<search_term>')
+    @view('dnd/search.tpl')
+    def search_with_results(search_term):
+        return {"search_key": search_term, "search_results": SEARCH_OBJ.run(search_term)}
 
     @app.get('/find_spell')
     @view('dnd/find_spell.tpl')
