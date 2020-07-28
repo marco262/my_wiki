@@ -16,11 +16,13 @@ SEARCH_OBJ = Search()
 
 
 def init():
-    global SPELLS, SEARCH_OBJ
-    SPELLS = load_spells()
+    pass
 
 
 def load_spells():
+    global SPELLS
+    if SPELLS:
+        return SPELLS
     spells = {}
     path = None
     print("Loading spells into memory", end='')
@@ -35,7 +37,8 @@ def load_spells():
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.", flush=True)
-    return spells
+    SPELLS = spells
+    return SPELLS
 
 
 def get_characters():
@@ -85,16 +88,17 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell.tpl")
     def spell(name):
         formatted_name = title_to_page_name(name)
-        if formatted_name not in SPELLS:
+        loaded_spells = load_spells()
+        if formatted_name not in loaded_spells:
             raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
-        return SPELLS[formatted_name]
+        return loaded_spells[formatted_name]
 
     # Misc Functions
 
     @app.get('/search/<search_term>')
     # @view('dnd/search.tpl')
     def search(search_term):
-        return {"response": SEARCH_OBJ.run(search)}
+        return {"response": SEARCH_OBJ.run(search_term)}
 
     @app.get('/find_spell')
     @view('dnd/find_spell.tpl')
@@ -105,7 +109,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_table.tpl")
     def search_results(search_key):
         results = []
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             if search_key in v['title'].lower():
                 results.append((k, v))
         d = {
@@ -124,7 +128,7 @@ def load_wsgi_endpoints(app: Bottle):
     def filter_results():
         filter_keys = loads(request.params["filter_keys"])
         results = defaultdict(list)
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             if not class_spell(v, filter_keys["classes"], filter_keys["ua_spells"]):
                 continue
             if v["level"] not in filter_keys["levels"]:
@@ -179,7 +183,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
         spells = defaultdict(list)
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             spells[v["level"]].append((k, v))
         d = {
             "title": "All Spells By Name",
@@ -193,7 +197,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_page.tpl")
     def class_spell_list(c, ua_spells):
         spells = defaultdict(list)
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             if (c.lower() in v["classes"] or
                     (str_to_bool(ua_spells) and c.lower() in v.get("classes_ua", []))):
                 spells[v["level"]].append((k, v))
@@ -208,7 +212,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_page.tpl")
     def concentration_spell_list(ua_spells):
         spells = defaultdict(list)
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             if v["concentration_spell"]:
                 spells[v["level"]].append((k, v))
         d = {
@@ -223,7 +227,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_page.tpl")
     def ritual_spell_list(ua_spells):
         spells = defaultdict(list)
-        for k, v in SPELLS.items():
+        for k, v in load_spells().items():
             if v["ritual_spell"]:
                 spells[v["level"]].append((k, v))
         d = {
