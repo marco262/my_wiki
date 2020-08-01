@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
-[[/module]]
-
 True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.
 
 Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.
@@ -9,13 +5,14 @@ Many creatures, including wyverns and dragon turtles, have draconic blood. Howev
 Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed. True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.
 
 **Dragon Age Categories**
+
 ||~ Category ||~ Size ||~ Age Range ||
 || Wyrmling || Medium || 5 years or less ||
 || Young || Large || 6-100 years ||
 || Adult || Huge || 101-800 years ||
 || Ancient || Gargantuan || 801 years or more ||
 
-++ Chromatic Dragons
+## Chromatic Dragons
 
 * [[[monster:Black Dragon]]]
 * [[[monster:Blue Dragon]]]
@@ -39,7 +36,7 @@ Tiamat is a gigantic dragon whose five heads reflect the forms of the chromatic 
 
 Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares control of the faith of dragonkind. She also holds a special enmity for Asmodeus, who long ago stripped her of the rule of Avernus and who continues to curb the Dragon Queen's power.
 
-++ Metallic Dragons
+## Metallic Dragons
 
 * [[[monster:Brass Dragon]]]
 * [[[monster:Bronze Dragon]]]
@@ -63,11 +60,11 @@ Some metallic dragons prefer to stay as far away from civilization as possible s
 
 Bahamut seldom interferes in the affairs of mortal creatures, though he makes exceptions to help thwart the machinations of Tiamat the Dragon Queen and her evil brood. Good-aligned clerics and paladins sometimes worship Bahamut for his dedication to justice and protection. As a lesser god, he has the power to grant divine spells.
 
-++ Variant Dragons
+## Variant Dragons
 
 * [[[monster:Dracolich]]]
 * [[[monster:Shadow Dragon]]]
 
-====
+----
 
-Monsters Manual, p. 86
+*Source: Monsters Manual, p. 86*
