@@ -1,6 +1,6 @@
 Wealth appears in many forms in a D&D world. Coins, gemstones, trade goods, art objects, animals, and property can reflect your character's financial well-being. M embers of the peasantry trade in goods, bartering for what they need and paying taxes in grain and cheese. M embers of the nobility trade either in legal rights, such as the rights to a mine, a port, or farmland, or in gold bars, measuring gold by the pound rather than by the coin. Only merchants, adventurers, and those offering professional services for hire commonly deal in coins.
 
-++ Coinage
+## Coinage
 
 Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
 
@@ -22,7 +22,7 @@ A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
 || Gold (gp) || 100 || 10 || 2 || 1 || 1/10 ||
 || Platinum (pp) || 1,000 || 100 || 20 || 10 || 1 ||
 
-++ Selling Treasure
+## Selling Treasure
 
 Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.
 

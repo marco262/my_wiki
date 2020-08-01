@@ -1,6 +1,6 @@
 [[div class="chart"]]
 [[div class="subchart"]]
-+ 0 (0-10 XP)
+# 0 (0-10 XP)
 [[[monster:awakened-shrub|Awakened Shrub]]]
 [[[monster:baboon|Baboon]]]
 [[[monster:badger|Badger]]]
@@ -32,7 +32,7 @@
 [[[monster:Spider|Spider]]]
 [[[monster:Vulture|Vulture]]]
 [[[monster:Weasel|Weasel]]]
-+ 1/8 (25 XP)
+# 1/8 (25 XP)
 [[[monster:bandit|Bandit]]]
 [[[monster:Blood Hawk]]]
 [[[monster:Camel]]]
@@ -56,7 +56,7 @@
 [[[monster:Stirge]]]
 [[[monster:Tribal Warrior]]]
 [[[monster:Twig Blight]]]
-+ 1/4 (50 XP)
+# 1/4 (50 XP)
 [[[monster:Aarakocra]]]
 [[[monster:Acolyte]]]
 [[[monster:Axe Beak]]]
@@ -101,7 +101,7 @@
 [[[monster:Winged Kobold]]]
 [[[monster:Wolf]]]
 [[[monster:Zombie]]]
-+ 1/2 (100 XP)
+# 1/2 (100 XP)
 [[[monster:Ape]]]
 [[[monster:Black Bear]]]
 [[[monster:Cockatrice]]]
@@ -137,7 +137,7 @@
 [[[monster:Warhorse]]]
 [[[monster:Warhorse Skeleton]]]
 [[[monster:Worg]]]
-+ 1 (200 XP)
+# 1 (200 XP)
 [[[monster:Animated Armor]]]
 [[[monster:Brass Dragon Wyrmling]]]
 [[[monster:Brown Bear]]]
@@ -173,7 +173,7 @@
 [[[monster:Thri-kreen]]]
 [[[monster:Tiger]]]
 [[[monster:Yuan-ti Pureblood]]]
-+ 2 (450 XP)
+# 2 (450 XP)
 [[[monster:Allosaurus]]]
 [[[monster:Ankheg]]]
 [[[monster:Awakened Tree]]]
@@ -232,7 +232,7 @@
 [[[monster:Wererat]]]
 [[[monster:White Dragon Wyrmling]]]
 [[[monster:Will-o'-Wisp]]]
-+ 3 (700 XP)
+# 3 (700 XP)
 [[[monster:Ankylosaurus]]]
 [[[monster:Basilisk]]]
 [[[monster:Bearded Devil]]]
@@ -266,7 +266,7 @@
 [[[monster:Winter Wolf]]]
 [[[monster:Yeti]]]
 [[[monster:Yuan-ti Malison]]]
-+ 4 (1,100 XP)
+# 4 (1,100 XP)
 [[[monster:Banshee]]]
 [[[monster:Black Pudding]]]
 [[[monster:Bone Naga]]]
@@ -288,7 +288,7 @@
 [[[monster:Succubus]]]
 [[[monster:Wereboar]]]
 [[[monster:Weretiger]]]
-+ 5 (1,800 XP)
+# 5 (1,800 XP)
 [[[monster:Air Elemental]]]
 [[[monster:Barbed Devil]]]
 [[[monster:Barlgura]]]
@@ -324,7 +324,7 @@
 [[[monster:Wraith]]]
 [[[monster:Xorn]]]
 [[[monster:Young Remorhaz]]]
-+ 6 (2,300 XP)
+# 6 (2,300 XP)
 [[[monster:Chasme]]]
 [[[monster:Chimera]]]
 [[[monster:Cyclops]]]
@@ -341,7 +341,7 @@
 [[[monster:Wyvern]]]
 [[[monster:Young Brass Dragon]]]
 [[[monster:Young White Dragon]]]
-+ 7 (2,900 XP)
+# 7 (2,900 XP)
 [[[monster:Blue Slaad]]]
 [[[monster:Drow Mage]]]
 [[[monster:Giant Ape]]]
@@ -354,7 +354,7 @@
 [[[monster:Young Black Dragon]]]
 [[[monster:Young Copper Dragon]]]
 [[[monster:Yuan-Ti Abomination]]]
-+ 8 (3,900 XP)
+# 8 (3,900 XP)
 [[[monster:Assassin]]]
 [[[monster:Chain Devil]]]
 [[[monster:Cloaker]]]
@@ -370,7 +370,7 @@
 [[[monster:Tyrannosaurus Rex]]]
 [[[monster:Young Bronze Dragon]]]
 [[[monster:Young Green Dragon]]]
-+ 9 (5,000 XP)
+# 9 (5,000 XP)
 [[[monster:Abominable Yeti]]]
 [[[monster:Bone Devil]]]
 [[[monster:Clay Golem]]]
@@ -382,7 +382,7 @@
 [[[monster:Treant]]]
 [[[monster:Young Blue Dragon]]]
 [[[monster:Young Silver Dragon]]]
-+ 10 (5,900 XP)
+# 10 (5,900 XP)
 [[[monster:Aboleth]]]
 [[[monster:Death Slaad]]]
 [[[monster:Deva]]]
@@ -391,7 +391,7 @@
 [[[monster:Yochlol]]]
 [[[monster:Young Gold Dragon]]]
 [[[monster:Young Red Dragon]]] 
-+ 11 (7,200 XP)
+# 11 (7,200 XP)
 [[[monster:Behir]]]
 [[[monster:Dao]]]
 [[[monster:Djinni]]]
@@ -401,11 +401,11 @@
 [[[monster:Marid]]]
 [[[monster:Remorhaz]]]
 [[[monster:Roc]]]
-+ 12 (8,400 XP)
+# 12 (8,400 XP)
 [[[monster:Arcanaloth]]]
 [[[monster:Archmage]]]
 [[[monster:Erinyes]]]
-+ 13 (10,000 XP)
+# 13 (10,000 XP)
 [[[monster:Adult Brass Dragon]]]
 [[[monster:Adult White Dragon]]]
 [[[monster:Beholder (not in lair)]]]
@@ -415,13 +415,13 @@
 [[[monster:Ultroloth]]]
 [[[monster:Vampire]]]
 [[[monster:Young Red Shadow Dragon]]]
-+ 14 (11,500 XP)
+# 14 (11,500 XP)
 [[[monster:Adult Black Dragon]]]
 [[[monster:Adult Copper Dragon]]]
 [[[monster:Beholder (in lair)]]]
 [[[monster:Death Tyrant (not in lair)]]]
 [[[monster:Ice Devil]]]
-+ 15 (13,000 XP)
+# 15 (13,000 XP)
 [[[monster:Adult Bronze Dragon]]]
 [[[monster:Adult Green Dragon]]]
 [[[monster:Death Tyrant (in lair)]]]
@@ -429,14 +429,14 @@
 [[[monster:Purple Worm]]]
 [[[monster:Vampire (spellcaster)]]]
 [[[monster:Vampire (warrior)]]]
-+ 16 (15,000 XP)
+# 16 (15,000 XP)
 [[[monster:Adult Blue Dragon]]]
 [[[monster:Adult Silver Dragon]]]
 [[[monster:Iron Golem]]]
 [[[monster:Marilith]]]
 [[[monster:Mummy Lord (in lair)]]]
 [[[monster:Planetar]]]
-+ 17 (18,000 XP)
+# 17 (18,000 XP)
 [[[monster:Adult Blue Dracolich]]]
 [[[monster:Adult Gold Dragon]]]
 [[[monster:Adult Red Dragon]]]
@@ -444,7 +444,7 @@
 [[[monster:Death Knight]]]
 [[[monster:Dragon Turtle]]]
 [[[monster:Goristro]]]
-+ 18 - 30
+# 18 - 30
 **CR 18 - 20,000 XP**
 [[[monster:Demilich (not in lair)]]]
 **CR 19 - 22,000 XP**

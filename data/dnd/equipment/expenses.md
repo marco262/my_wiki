@@ -50,7 +50,7 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || Road or gate toll || 1 cp ||
 || Ship's passage || 1 sp per mil ||
 [[/div]]
-++ Lifestyle Expenses
+## Lifestyle Expenses
 
 Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.
 [[div class="phb-sidebar"]]
@@ -77,11 +77,11 @@ Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle mig
 
 **Aristocratic.** You live a life of plenty and comfort. You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery. The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant.
 
-++ Food, Drink, and Lodging
+## Food, Drink, and Lodging
 
 The Food, Drink, and Lodging table gives prices for individual food items and a single night's lodging. These prices are included in your total lifestyle expenses.
 
-++ Services
+## Services
 
 Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.
 
@@ -91,7 +91,7 @@ Other hirelings provide more expert or dangerous services. Mercenary soldiers pa
 
 Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, artisan, scribe, and so on. The pay shown is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for menial work that requires no particular skill and can include laborers, porters, maids, and similar workers.
 
-++ Spellcasting Services
+## Spellcasting Services
 
 People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.
 

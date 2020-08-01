@@ -169,23 +169,23 @@ Elementals are incarnations of the elements that make up the universe: air, eart
 
 The strength of the magic and materials that bind an elemental determines how well the elemental functions in a bound form. Golems are elemental spirits bound to physical forms, but weaker materials such as flesh and clay can't bind elemental power sufficiently. Durable materials such as stone and iron require stronger magic, which consequently binds an elemental more securely. Elemental Nature. An elemental doesn't require air, food, drink, or sleep.
 
-++ Air Elemental
+## Air Elemental
 
 An air elemental is a funneling cloud of whirling air with a vague semblance of a face. Although it likes to race across the ground, picking up dust and debris as it goes, it can also fly and attack from above.
 
 An air elemental can turn itself into a screaming cyclone, creating a whirlwind that batters creatures even as it flings them away.
 
-++ Earth Elemental
+## Earth Elemental
 
 An earth elemental plods forward like a walking hill, club-like arms of jagged stone swinging at its sides. Its head and body consist of dirt and stone, occasionally set with chunks of metal, gems, and bright minerals.
 
 Earth elementals glide through rock and earth as though they were liquid. Earthbound creatures have much to fear from an earth elemental, since the elemental can pinpoint the precise location of any foe that stands on solid ground in its vicinity.
 
-++ Fire Elemental
+## Fire Elemental
 
 A faint humanoid shape threads through the core of this wild, moving flame. A fire elemental is a force of capricious devastation. Wherever it moves, it sets its surroundings ablaze, turning the world to ash, smoke, and cinders. Water can halt its destructive progress, causing the fire elemental to shrink back, hissing and smoking in pain and rage.
 
-++ Water Elemental
+## Water Elemental
 
 A water elemental is a cresting wave that rolls across the ground, becoming nearly invisible at it courses through a larger body of water. It engulfs creatures that stand against it, filling their mouths and lungs as easily as it smothers flame.
 

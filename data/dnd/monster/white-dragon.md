@@ -201,7 +201,7 @@ Loose coins and gems are spread across a white dragon's lair, glittering like st
 
 A white dragon's flawless memory means that it knows how it came to possess every coin, gem, and magic item in its hoard, and it associates each item with a specific victory. White dragons are notoriously difficult to bribe, since any offers of treasure are seen as an insult to their ability to simply slay the creature making the offer and seize the treasure on their own.
 
-++ A White Dragon's Lair
+## A White Dragon's Lair
 
 White dragons lair in icy caves and deep subterranean chambers far from the sun. They favor high mountain vales accessible only by flying, caverns in cliff faces, and labyrinthine ice caves in glaciers. White dragons love vertical heights in their caverns, flying up to the ceiling to latch on like bats or slithering down icy crevasses.
 
@@ -209,7 +209,7 @@ A legendary white dragon's innate magic deepens the cold in the area around its 
 
 A white dragon rests on high ice shelves and cliffs in its lair, the floor around it a treacherous morass of broken ice and stone, hidden pits, and slippery slopes. As foes struggle to move toward it, the dragon flies from perch to perch and destroys them with its freezing breath.
 
-++ Lair Actions
+## Lair Actions
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
 
@@ -217,7 +217,7 @@ On initiative count 20 (losing initiative ties), the dragon takes a lair action 
 * Jagged ice shards fall from the ceiling, striking up to three creatures underneath that the dragon can see within 120 feet of it. The dragon makes one ranged attack roll (+7 to hit) against each target. On a hit, the target takes 10 (3d6) piercing damage.
 * The dragon creates an opaque wall of ice on a solid surface it can see within 120 feet of it. The wall can be up to 30 feet long, 30 feet high, and 1 foot thick. When the wall appears, each creature within its area is pushed 5 feet out of the wall's space; appearing on whichever side of the wall it wants. Each 10-foot section of the wall has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. The wall disappears when the dragon uses this lair action again or when the dragon dies.
 
-++ Regional Effects
+## Regional Effects
 
 The region containing a legendary white dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
 

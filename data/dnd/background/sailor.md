@@ -8,23 +8,23 @@ What were your duties on board -- boatswain, captain, navigator, cook, or some o
 **Tool Proficiencies:** Navigator's tools, vehicles (water)
 **Equipment:** A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the [[[equipment:Trinkets]]] table), a set of common clothes, and a belt pouch containing 10 gp
 
-+++ Feature: Ship's Passage
+### Feature: Ship's Passage
 
 When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage.
 
-+++ Variant Sailor: Pirate
+### Variant Sailor: Pirate
 
 You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.
 
 If you decide that your sailing career involved piracy, you can choose the Bad Reputation feature instead of the Ship's Passage feature.
 
-+++ Variant Feature: Bad Reputation
+### Variant Feature: Bad Reputation
 
 If your character has a sailor background, you may select this background feature instead of Ship's Passage.
 
 No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.
 

@@ -19,7 +19,7 @@ The three main rolls of the game -- the ability check, the saving throw, and the
 
 This chapter focuses on how to use [[[general:using-ability-scores#ability-checks|ability checks]]] and [[[general:using-ability-scores#saving-throws|saving throws]]], covering the fundamental activities that creatures attempt in the game. See also: [[[general:combat#attack-rolls|attack rolls]]].
 
-+ Ability Scores and Modifiers
+# Ability Scores and Modifiers
 
 Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.
 
@@ -42,7 +42,7 @@ To determine an ability modifier without consulting the table, subtract 10 from 
 
 Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
 
-+ Advantage and Disadvantage
+# Advantage and Disadvantage
 
 Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
 
@@ -54,7 +54,7 @@ When you have advantage or disadvantage and something in the game, such as the h
 
 You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
-+ Proficiency Bonus
+# Proficiency Bonus
 
 Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
 
@@ -66,7 +66,7 @@ By the same token, if a feature or effect allows you to multiply your proficienc
 
 In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
 
-+ Ability Checks
+# Ability Checks
 
 An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The DM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
 
@@ -83,7 +83,7 @@ For every ability check, the DM decides which of the six abilities is relevant t
 
 To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success -- the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the DM.
 
-++ Contests
+## Contests
 
 Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal -- for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.
 
@@ -91,7 +91,7 @@ Both participants in a contest make ability checks appropriate to their efforts.
 
 If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut.
 
-++ Skills
+## Skills
 
 Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)
 
@@ -133,11 +133,11 @@ Sometimes, the DM might ask for an ability check using a specific skill -- for e
 
 For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
 
-++ Variant: Skills with Different Abilities
+## Variant: Skills with Different Abilities
 
 Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the DM might ask for a check using an unusual combination of ability and skill, or you might ask your DM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your DM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your DM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly, when your half-orc barbarian uses a display of raw strength to intimidate an enemy, your DM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
 
-++ [[# passive-checks]]Passive Checks
+## [[# passive-checks]]Passive Checks
 
 A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the DM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
 
@@ -151,13 +151,13 @@ For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perc
 
 The rules on hiding in the "Dexterity" section below rely on [[[general:passive checks]]], as do the [[[general:exploration]]] rules.
 
-++ Working Together
+## Working Together
 
 Sometimes two or more characters team up to attempt a task. The character who's leading the effort -- or the one with the highest ability modifier -- can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action (see chapter 9).
 
 A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
 
-+++ Group Checks
+### Group Checks
 
 When a number of individuals are trying to accomplish something as a group, the DM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't.
 
@@ -165,15 +165,15 @@ To make a group ability check, everyone in the group makes the ability check. If
 
 Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
 
-+ Using Each Ability
+# Using Each Ability
 
 Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
 
-++ Strength
+## Strength
 
 Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
 
-+++ Strength Checks
+### Strength Checks
 
 A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
 
@@ -192,11 +192,11 @@ A Strength check can model any attempt to lift, push, pull, or break something, 
 * Tip over a statue
 * Keep a boulder from rolling
 
-+++ Attack Rolls and Damage
+### Attack Rolls and Damage
 
 You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack.
 
-+++ [[# carrying-capacity]]Lifting and Carrying
+### [[# carrying-capacity]]Lifting and Carrying
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
 
@@ -206,7 +206,7 @@ Your Strength score determines the amount of weight you can bear. The following 
 
 **Size and Strength.** Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
 
-+++ Variant: Encumbrance
+### Variant: Encumbrance
 
 The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table in chapter 5.
 
@@ -214,7 +214,7 @@ If you carry weight in excess of 5 times your Strength score, you are **encumber
 
 If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead **heavily encumbered**, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
-++ Dexterity
+## Dexterity
 [[div class="phb-sidebar"]]
 **Hiding**
 
@@ -232,7 +232,7 @@ For example, if a 1st-level character (with a proficiency bonus of +2) has a Wis
 [[/div]]
 Dexterity measures agility, reflexes, and balance.
 
-+++ Dexterity Checks
+### Dexterity Checks
 
 A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks.
 
@@ -253,23 +253,23 @@ A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or 
 * Play a stringed instrument
 * Craft a small or detailed object
 
-+++ Attack Rolls and Damage
+### Attack Rolls and Damage
 
 You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
 
-+++ Armor Class
+### Armor Class
 
 Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class, as described in [[[equipment:Armor and Shields]]].
 
-+++ Initiative
+### Initiative
 
 At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat, as described in [[[general:combat#initiative|Initiative]]].
 
-++ Constitution
+## Constitution
 
 Constitution measures health, stamina, and vital force.
 
-+++ Constitution Checks
+### Constitution Checks
 
 Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits, however.
 
@@ -281,17 +281,17 @@ The DM might call for a Constitution check when you try to accomplish tasks like
 * Survive without food or water
 * Quaff an entire stein of ale in one go
 
-+++ Hit Points
+### Hit Points
 
 Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.
 
 If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7.
 
-++ Intelligence
+## Intelligence
 
 Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
 
-+++ Intelligence Checks
+### Intelligence Checks
 [[div class="phb-sidebar"]]
 **Finding a Hidden Object**
 
@@ -320,15 +320,15 @@ An Intelligence check comes into play when you need to draw on logic, education,
 * Recall lore about a craft or trade
 * Win a game of skill
 
-+++ Spellcasting Ability
+### Spellcasting Ability
 
 Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
 
-++ Wisdom
+## Wisdom
 
 Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.
 
-++ Wisdom Checks
+## Wisdom Checks
 
 A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks.
 
@@ -347,15 +347,15 @@ A Wisdom check might reflect an effort to read body language, understand someone
 * Get a gut feeling about what course of action to follow
 * Discern whether a seemingly dead or living creature is undead
 
-+++ Spellcasting Ability
+### Spellcasting Ability
 
 Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
 
-++ Charisma
+## Charisma
 
 Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.
 
-+++ Charisma Checks
+### Charisma Checks
 
 A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks.
 
@@ -372,11 +372,11 @@ A Charisma check might arise when you try to influence or entertain others, when
 * Find the best person to talk to for news, rumors, and gossip
 * Blend into a crowd to get the sense of key topics of conversation
 
-+++ Spellcasting Ability
+### Spellcasting Ability
 
 Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
 
-+ Saving Throws
+# Saving Throws
 
 A saving throw -- also called a save -- represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
 

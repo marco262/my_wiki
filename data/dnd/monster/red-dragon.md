@@ -194,7 +194,7 @@ When it requires servants, a red dragon demands fealty from chaotic evil humanoi
 
 A red dragon knows the value and provenance of every item in its hoard, along with each item's exact location. It might notice the absence of a single coin, igniting its rage as it tracks down and slays the thief without mercy. If the thief can't be found, the dragon goes on a rampage, laying waste to towns and villages in an attempt to sate its wrath.
 
-++ A Red Dragon's Lair
+## A Red Dragon's Lair
 
 Red dragons lair in high mountains or hills, dwelling in caverns under snow-capped peaks, or within the deep halls of abandoned mines and dwarven strongholds. Caves with volcanic or geothermal activity are the most highly prized red dragon lairs, creating hazards that hinder intruders and letting searing heat and volcanic gases wash over a dragon as it sleeps.
 
@@ -202,7 +202,7 @@ With its hoard well protected deep within the lair, a red dragon spends as much 
 
 Throughout the lair complex, servants erect monuments to the dragon's power, telling the grim story of its life, the enemies it has slain, and the nations it has conquered.
 
-+++ Lair Actions
+### Lair Actions
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
 
@@ -210,7 +210,7 @@ On initiative count 20 (losing initiative ties), the dragon takes a lair action 
 * A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a DC 15 Dexterity saving throw or be knocked prone.
 * Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its turn. While poisoned in this way, a creature is incapacitated.
 
-+++ Regional Effects
+### Regional Effects
 
 The region containing a legendary red dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
 

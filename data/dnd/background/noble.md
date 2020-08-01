@@ -15,21 +15,21 @@ These details help establish your family and your title as features of the world
 **Languages:** One of your choice
 **Equipment:** A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp
 
-+++ Feature: Position of Privilege
+### Feature: Position of Privilege
 
 Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to.
 
-+++ Variant Noble: Knight
+### Variant Noble: Knight
 
 A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).
 
 As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart -- in a chaste sort of devotion. (This person could be your bond.)
 
-+++ Variant Feature: Retainers
+### Variant Feature: Retainers
 
 If your character has a noble background, you may select this background feature instead of Position of Privilege. You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds -- responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family's care, or even to the title itself. But this responsibility is often a good way to undermine a noble.
 

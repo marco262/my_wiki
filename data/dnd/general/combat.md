@@ -7,7 +7,7 @@ The clatter of a sword striking against a shield. The terrible rending sound as 
 
 This chapter provides the rules you need for your characters and monsters to engage in combat, whether it is a brief skirmish or an extended conflict in a dungeon or on a field of battle. Throughout this chapter, the rules address you, the player or Dungeon Master. The Dungeon Master controls all the monsters and nonplayer characters involved in combat, and each other player controls an adventurer. "You" can also mean the character or monster that you control.
 
-+ [[# the-order-of-combat]]The Order of Combat
+# [[# the-order-of-combat]]The Order of Combat
 
 A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn**. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.
 [[div class="phb-sidebar"]]
@@ -18,13 +18,13 @@ A typical combat encounter is a clash between two sides, a flurry of weapon swin
 # **Take turns.** Each participant in the battle takes a turn in initiative order.
 # **Begin the next round.** When everyone involved in the combat has had a turn, the round ends. Repeat step 4 until the fighting stops.
 [[/div]]
-++ Surprise
+## Surprise
 
 A band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A gelatinous cube glides down a dungeon passage, unnoticed by the adventurers until the cube engulfs one of them. In these situations, one side of the battle gains surprise over the other.
 
 The DM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter. If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
 
-++ Initiative
+## Initiative
 
 Initiative determines the order of turns during combat. When combat starts, every participant makes a Dexterity check to determine their place in the initiative order. The DM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
 
@@ -32,7 +32,7 @@ The DM ranks the combatants in order from the one with the highest Dexterity che
 
 If a tie occurs, the DM decides the order among tied DM-controlled creatures, and the players decide the order among their tied characters. The DM can decide the order if the tie is between a monster and a player character. Optionally, the DM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first.
 
-++ Your Turn
+## Your Turn
 
 On your turn, you can **move** a distance up to your speed and **take one action**. You decide whether to move first or take your action first. Your speed -- sometimes called your walking speed -- is noted on your character sheet. The most common actions you can take are described in the "Actions in Combat" section later in this chapter. Many class features and other abilities provide additional options for your action.
 
@@ -40,7 +40,7 @@ The "Movement and Position" section later in this chapter gives the rules for yo
 
 You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in "Actions in Combat."
 
-+++ Bonus Actions
+### Bonus Actions
 
 Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows a rogue to take a bonus action. You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.
 
@@ -48,7 +48,7 @@ You can take only one bonus action on your turn, so you must choose which bonus 
 
 You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action.
 
-+++ Other Activity on Your Turn
+### Other Activity on Your Turn
 
 Your turn can include a variety of flourishes that require neither your action nor your move.
 
@@ -60,7 +60,7 @@ If you want to interact with a second object, you need to use your action. Some 
 
 The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
-++ Reactions
+## Reactions
 
 Certain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.
 
@@ -92,7 +92,7 @@ Here are a few examples of the sorts of thing you can do in tandem with your mov
 * tap the floor with a 10-foot pole
 * hand an item to another character
 [[/div]]
-+ [[# movement-and-position]]Movement and Position
+# [[# movement-and-position]]Movement and Position
 
 In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand.
 
@@ -102,15 +102,15 @@ Your movement can include jumping, climbing, and swimming. These different modes
 
 The "Special Types of Movement" section in chapter 8 gives the particulars for jumping, climbing, and swimming.
 
-++ Breaking Up Your Move
+## Breaking Up Your Move
 
 You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
 
-+++ Moving between Attacks
+### Moving between Attacks
 
 If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again.
 
-+++ Using Different Speeds
+### Using Different Speeds
 
 If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.
 
@@ -134,7 +134,7 @@ If a square costs extra movement, as a square of difficult terrain does, you mus
 
 **Ranges.** To determine the range on a grid between two things -- whether creatures or objects -- start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 [[/div]]
-++ Difficult Terrain
+## Difficult Terrain
 
 Combat rarely takes place in bare rooms or on featureless plains. Boulder-strewn caverns, briar-choked forests, treacherous staircases -- the setting of a typical fight contains difficult terrain.
 
@@ -142,7 +142,7 @@ Every foot of movement in difficult terrain costs 1 extra foot. This rule is tru
 
 Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain.
 
-++ [[# being-prone]]Being Prone
+## [[# being-prone]]Being Prone
 
 Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are [[[general:conditions#prone|prone]]].
 
@@ -150,7 +150,7 @@ You can **drop [[[general:conditions#prone|prone]]]** without using any of your 
 
 To move while [[[general:conditions#prone|prone]]], you must **crawl** or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement.
 
-++ Moving Around Other Creatures
+## Moving Around Other Creatures
 
 You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.
 
@@ -158,11 +158,11 @@ Whether a creature is a friend or an enemy, you can't willingly end your move in
 
 If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter.
 
-++ Flying Movement
+## Flying Movement
 
 Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked [[[general:conditions#prone|prone]]], has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the fly spell.
 
-++ Creature Size
+## Creature Size
 
 Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
 
@@ -175,7 +175,7 @@ Each creature takes up a different amount of space. The Size Categories table sh
 || Huge || 15 by 15 ft ||
 || Gargantuan || 20 by 20 ft or larger ||
 
-+++ Space
+### Space
 
 A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 5 feet wide, for example, but it does control a space that wide. If a Medium hobgoblin stands in a 5-foot-wide doorway, other creatures can't get through unless the hobgoblin lets them.
 
@@ -183,11 +183,11 @@ A creature's space also reflects the area it needs to fight effectively. For tha
 
 Because larger creatures take up more space, fewer of them can surround a creature. If five Large creatures crow d around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
 
-+++ Squeezing into a Smaller Space
+### Squeezing into a Smaller Space
 
 A creature can squeeze through a space that is large enough for a creature one size smaller than it. Thus, a Large creature can squeeze through a passage that's only 5 feet wide. While squeezing through a space, a creature must spend 1 extra foot for every foot it moves there, and it has disadvantage on attack rolls and Dexterity saving throws. Attack rolls against the creature have advantage while it's in the smaller space.
 
-+ [[# actions-in-combat]]Actions in Combat
+# [[# actions-in-combat]]Actions in Combat
 [[div class="phb-sidebar"]]
 **Improvising an Action**
 
@@ -199,7 +199,7 @@ When you take your action on your turn, you can take one of the actions presente
 
 When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
-++ Attack
+## Attack
 
 The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.
 
@@ -207,31 +207,31 @@ With this action, you make one melee or ranged attack. See the "Making an Attack
 
 Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action.
 
-++ Cast a Spell
+## Cast a Spell
 
 Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See chapter 10 for the rules on spellcasting.
 
-++ Dash
+## Dash
 
 When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.
 
 Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you dash.
 
-++ Disengage
+## Disengage
 
 If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.
 
-++ Dodge
+## Dodge
 
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are [[[general:conditions#incapacitated|incapacitated]]] or if your speed drops to 0.
 
-++ Help
+## Help
 
 You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
 
 Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.
 
-++ Hide
+## Hide
 
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
 
@@ -261,7 +261,7 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 > 
 > If you are hidden -- both unseen and unheard -- when you make an attack, you give away your location when the attack hits or misses.
 
-++ Ready
+## Ready
 [[div class="errata"]]
 **Errata**
 "You have until the start of your next turn to use a readied action." [https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf Player's Handbook Errata]
@@ -274,15 +274,15 @@ When the trigger occurs, you can either take your reaction right after the trigg
 
 When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration (explained in chapter 10). If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the web spell and ready magic missile, your web spell ends, and if you take damage before you release magic missile with your reaction, your concentration might be broken.
 
-++ Search
+## Search
 
 When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.
 
-++ Use an Object
+## Use an Object
 
 You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn.
 
-+ [[# making-an-attack]]Making An Attack
+# [[# making-an-attack]]Making An Attack
 
 Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.
 
@@ -292,11 +292,11 @@ Whether you're striking with a melee weapon, firing a weapon at range, or making
 
 If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
 
-++ Attack Rolls
+## Attack Rolls
 
 When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll plus modifiers equals or exceeds the target's A rm or Class (AC), the attack hits. The AC of a character is determined at character creation, whereas the AC of a monster is in its stat block.
 
-+++ Modifiers to the Roll
+### Modifiers to the Roll
 
 When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. When a monster makes an attack roll, it uses whatever modifier is provided in its stat block.
 
@@ -306,7 +306,7 @@ Some spells also require an attack roll. The ability modifier used for a spell a
 
 **Proficiency Bonus.** You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a spell.
 
-+++ Rolling 1 or 20
+### Rolling 1 or 20
 
 Sometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.
 
@@ -314,7 +314,7 @@ If the d20 roll for an attack is a 20, the attack hits regardless of any modifie
 
 If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
 
-++ Unseen Attackers and Targets
+## Unseen Attackers and Targets
 
 Combatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.
 
@@ -324,11 +324,11 @@ When a creature can't see you, you have advantage on attack rolls against it.
 
 If you are hidden -- both unseen and unheard -- when you make an attack, you give away your location when the attack hits or misses.
 
-++ Ranged Attacks
+## Ranged Attacks
 
 When you make a ranged attack, you fire a bow or a crossbow, hurl a handaxe, or otherwise send projectiles to strike a foe at a distance. A monster might shoot spines from its tail. Many spells also involve making a ranged attack.
 
-+++ Range
+### Range
 
 You can make ranged attacks only against targets within a specified range.
 
@@ -336,14 +336,14 @@ If a ranged attack, such as one made with a spell, has a single range, you can't
 
 Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range.
 
-+++ [[# ranged-attacks-in-close-combat]]Ranged Attacks in Close Combat
+### [[# ranged-attacks-in-close-combat]]Ranged Attacks in Close Combat
 
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't [[[general:conditions#incapacitated|incapacitated]]].
 [[div class="errata"]]
 **Errata**
 The rule on unarmed strikes should read as follows: "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes." [https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf Player's Handbook Errata]
 [[/div]]
-++ Melee Attacks
+## Melee Attacks
 
 Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.
 
@@ -351,7 +351,7 @@ Most creatures have a 5-foot **reach** and can thus attack targets within 5 feet
 
 When you are **unarmed**, you can fight in melee by making an unarmed strike, as shown in the weapon table in chapter 5.
 
-+++ Opportunity Attacks
+### Opportunity Attacks
 
 In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.
 
@@ -359,7 +359,7 @@ You can make an opportunity attack when a hostile creature that you can see move
 
 You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
 
-+++ [[# two-weapon-fighting]]Two-Weapon Fighting
+### [[# two-weapon-fighting]]Two-Weapon Fighting
 
 When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
 
@@ -369,7 +369,7 @@ If either weapon has the thrown property, you can throw the weapon, instead of m
 
 Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The DM can use these contests as models for improvising others.
 [[/div]]
-+++ Grappling
+### Grappling
 
 When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
@@ -379,13 +379,13 @@ The target of your grapple must be no more than one size larger than you, and it
 
 **Moving a Grappled Creature.** When you move, you can drag or carry the [[[general:conditions#grappled|grappled]]] creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
 
-+++ Shoving a Creature
+### Shoving a Creature
 
 Using the Attack action, you can make a special melee attack to shove a creature, either to knock it [[[general:conditions#prone|prone]]] or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
 The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target [[[general:conditions#prone|prone]]] or push it 5 feet away from you.
 
-+ [[# cover]]Cover
+# [[# cover]]Cover
 
 Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.
 
@@ -397,11 +397,11 @@ A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving
 
 A target with **total cover** can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
-+ [[# damage-and-healing]]Damage and Healing
+# [[# damage-and-healing]]Damage and Healing
 
 Injury and the risk of death are constant companions of those who explore the worlds of D&D. The thrust of a sword, a well-placed arrow, or a blast of flame from a fireball spell all have the potential to damage, or even kill, the hardiest of creatures.
 
-++ Hit Points
+## Hit Points
 
 Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.
 
@@ -413,7 +413,7 @@ Whenever a creature takes damage, that damage is subtracted from its hit points.
 
 Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you [[[general:conditions#unconscious|unconscious]]].
 [[/div]]
-++ Damage Rolls
+## Damage Rolls
 
 Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage.
 
@@ -421,13 +421,13 @@ When attacking with a **weapon**, you add your ability modifier -- the same modi
 
 If a spell or other effect deals damage to **more than one target** at the same time, roll the damage once for all of them. For example, when a wizard casts fireball or a cleric casts flame strike, the spell's damage is rolled once for all creatures caught in the blast.
 
-+++ Critical Hits
+### Critical Hits
 
 When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
 For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well.
 
-+++ Damage Types
+### Damage Types
 
 Different attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
 
@@ -459,7 +459,7 @@ The damage types follow, with examples to help a DM assign a damage type to a ne
 
 **Thunder.** A concussive burst of sound, such as the effect of the *[[[spell:thunderwave]]]* spell, deals thunder damage.
 
-++ Damage Resistance and Vulnerability
+## Damage Resistance and Vulnerability
 
 Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.
 
@@ -469,7 +469,7 @@ Resistance and then vulnerability are applied after all other modifiers to damag
 
 Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.
 
-++ Healing
+## Healing
 
 Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points (as explained in chapter 8), and magical methods such as a *[[[spell:cure wounds]]]* spell or a *[[[general:equipment#potion-of-healing|potion of healing]]]* can remove damage in an instant.
 
@@ -477,21 +477,21 @@ When a creature receives healing of any kind, hit points regained are added to i
 
 A creature that has died can't regain hit points until magic such as the revivify spell has restored it to life.
 
-++ Dropping to 0 Hit Points
+## Dropping to 0 Hit Points
 
 When you drop to 0 hit points, you either die outright or fall [[[general:conditions#unconscious|unconscious]]], as explained in the following sections.
 
-+++ Instant Death
+### Instant Death
 
 Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.
 
 For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies.
 
-+++ Falling Unconscious
+### Falling Unconscious
 
 If damage reduces you to 0 hit points and fails to kill you, you fall [[[general:conditions#unconscious|unconscious]]]. This unconsciousness ends if you regain any hit points.
 
-+++ Death Saving Throws
+### Death Saving Throws
 
 Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by spells and features that improve your chances of succeeding on a saving throw.
 
@@ -501,7 +501,7 @@ Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A suc
 
 **Damage at 0 Hit Points.** If you take any damage while you have 0 hit points, you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death.
 
-+++ Stabilizing a Creature
+### Stabilizing a Creature
 
 The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.
 
@@ -509,17 +509,17 @@ You can use your action to administer first aid to an [[[general:conditions#unco
 
 A **stable** creature doesn't make death saving throws, even though it has 0 hit points, but it does remain [[[general:conditions#unconscious|unconscious]]]. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours.
 
-+++ Monsters and Death
+### Monsters and Death
 
 Most DMs have a monster die the instant it drops to 0 hit points, rather than having it fall [[[general:conditions#unconscious|unconscious]]] and make death saving throws.
 
 Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall [[[general:conditions#unconscious|unconscious]]] and follow the same rules as player characters.
 
-++ Knocking a Creature Out
+## Knocking a Creature Out
 
 Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls [[[general:conditions#unconscious|unconscious]]] and is stable.
 
-++ Temporary Hit Points
+## Temporary Hit Points
 
 Some spells and special abilities confer temporary hit points to a creature. Temporary hit points aren't actual hit points; they are a buffer against damage, a pool of hit points that protect you from injury.
 
@@ -533,13 +533,13 @@ If you have 0 hit points, receiving temporary hit points doesn't restore you to 
 
 Unless a feature that grants you temporary hit points has a duration, they last until they're depleted or you finish a long rest.
 
-+ [[# mounted-combat]]Mounted Combat
+# [[# mounted-combat]]Mounted Combat
 
 A knight charging into battle on a warhorse, a wizard casting spells from the back of a griffon, or a cleric soaring through the sky on a pegasus all enjoy the benefits of speed and mobility that a mount can provide.
 
 A willing creature that is at least one size larger than you and that has an appropriate anatomy can serve as a mount, using the following rules.
 
-++ Mounting and Dismounting
+## Mounting and Dismounting
 
 Once during your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.
 
@@ -547,7 +547,7 @@ If an effect moves your mount against its will while you're on it, you must succ
 
 If your mount is knocked [[[general:conditions#prone|prone]]], you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall [[[general:conditions#prone|prone]]] in a space within 5 feet it.
 
-++ Controlling a Mount
+## Controlling a Mount
 
 While you're mounted, you have two options. You can either control the mount or allow it to act independently. Intelligent creatures, such as dragons, act independently.
 
@@ -557,7 +557,7 @@ An independent mount retains its place in the initiative order. Bearing a rider 
 
 In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount.
 
-+ [[# underwater-combat]]Underwater Combat
+# [[# underwater-combat]]Underwater Combat
 
 When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.
 
@@ -567,6 +567,6 @@ A **ranged weapon attack** automatically misses a target beyond the weapon's nor
 
 Creatures and objects that are fully immersed in water have resistance to fire damage.
 
-+ Conditions
+# Conditions
 
 See the [[[general:Conditions]]] page.

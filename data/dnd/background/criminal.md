@@ -4,7 +4,7 @@ You are an experienced criminal with a history of breaking the law. You have spe
 **Tool Proficiencies:** One type of gaming set, thieves' tools
 **Equipment:** A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp
 
-+++ Criminal Specialty
+### Criminal Specialty
 
 There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.
 
@@ -18,15 +18,15 @@ There are many kinds of criminals, and within a thieves' guild or similar crimin
 || 7 || Pickpocket ||
 || 8 || Smuggler ||
 
-+++ Feature: Criminal Contact
+### Feature: Criminal Contact
 
 You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.
 
-+++ Variant Criminal: Spy
+### Variant Criminal: Spy
 
 Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.
 

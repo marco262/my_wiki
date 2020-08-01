@@ -2,42 +2,42 @@ The marketplace of a large city teems with buyers and sellers of many sorts: dwa
 
 For an adventurer, the availability of armor, weapons, backpacks, rope, and similar goods is of paramount im portance, since proper equipment can mean the difference between life and death in a dungeon or the untamed wilds. This chapter details the mundane and exotic merchandise that adventurers commonly find useful in the face of the threats that the worlds of D&D present.
 
-+ Starting Equipment
+# Starting Equipment
 
 [[include equipment:starting-equipment]]
 
-+ Wealth
+# Wealth
 
 [[include equipment:wealth]]
 
-+ Armor and Shields
+# Armor and Shields
 
 [[include equipment:armor-and-shields]]
 
-+ Weapons
+# Weapons
 
 [[include equipment:weapons]]
 
-+ Adventuring Gear
+# Adventuring Gear
 
 [[include equipment:adventuring-gear]]
 
-+ Tools
+# Tools
 
 [[include equipment:tools]]
 
-+ Mounts and Vehicles
+# Mounts and Vehicles
 
 [[include equipment:mounts-and-vehicles]]
 
-+ Trade Goods
+# Trade Goods
 
 [[include equipment:trade-goods]]
 
-+ Expenses
+# Expenses
 
 [[include equipment:expenses]]
 
-+ Trinkets
+# Trinkets
 
 [[include equipment:trinkets]]

@@ -13,7 +13,7 @@ Adventurers sometimes advance in more than one class. A rogue might switch direc
 
 The twelve classes from the Player's Handbook -- listed in the Classes table -- are found in almost every D&D world and define the spectrum of typical adventurers.
 
-++ Player's Handbook
+## Player's Handbook
 
 ||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
 || [[[class:Barbarian]]] || d12 || Strength, Constitution || Light and medium armor, shields, simple and martial weapons ||

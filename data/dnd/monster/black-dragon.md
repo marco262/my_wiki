@@ -198,11 +198,11 @@ Kobolds infest the lairs of many black dragons like vermin. They become as cruel
 
 **Wealth of the Ancients.** Black dragons hoard the treasures and magic items of crumbled empires and conquered kingdoms to remind themselves of their greatness. The more civilizations a dragon outlasts, the more entitled it feels to claim the wealth of current civilizations for itself.
 
-+ A Black Dragon's Lair
+# A Black Dragon's Lair
 
 Black dragons dwell in swamps on the frayed edges of civilization. A black dragon's lair is a dismal cave, grotto, or ruin that is at least partially flooded, providing pools where the dragon rests, and where its victims can fr rment. The lair is littered with the acid-pitted bones qf previous victims and the fly-ridden carcasses of fresh kills,,watched over by crumbling statues. Centipedes, scorpions, and snakes infest the lair, which is filled with the stench of death and decay.
 
-++ Lair Actions
+## Lair Actions
 
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
 
@@ -210,7 +210,7 @@ On initiative count 20 (losing initiative ties), the dragon takes a lair action 
 * A cloud of swarming insects fills a 20-foot-radius sphere centered on a point the dragon chooses within 120 feet of it. The cloud spreads around corners and remains until the dragon dismisses it as an action, uses this lair action again, or dies. The cloud is lightly obscured. Any creature in the cloud when it appears must make on a DC 15 Constitution saving throw, taking 10 (3d6) piercing damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the cloud takes 10 (3d6) piercing damage.
 * Magical darkness spreads from a point the dragon chooses within 60 feet of it, filling a 15-foot-radius sphere until the dragon dismisses it as an action, uses this lair action again, or dies. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagicallight can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
 
-++ Regional Effects
+## Regional Effects
 
 The region containing a legendary black dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
 

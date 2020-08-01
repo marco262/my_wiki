@@ -6,7 +6,7 @@ When you choose this background, work with your DM to determine which military o
 **Tool Proficiencies:** One type of gaming set, vehicles (land)
 **Equipment:** An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a belt pouch containing 10 gp
 
-+++ Specialty
+### Specialty
 
 During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:
 
@@ -20,11 +20,11 @@ During your time as a soldier, you had a specific role to play in your unit or a
 || 7 || Standard bearer ||
 || 8 || Support staff (cook, blacksmith, or the like) ||
 
-+++ Feature: Military Rank
+### Feature: Military Rank
 
 You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.
 

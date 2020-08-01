@@ -6,7 +6,7 @@ You know what people want and you deliver, or rather, you promise to deliver. Co
 **Tool Proficiencies:** Disguise kit, forgery kit
 **Equipment:** A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp
 
-+++ Favorite Schemes
+### Favorite Schemes
 
 Every charlatan has an angle he or she uses in preference to other schemes. Choose a favorite scam or roll on the table below.
 
@@ -18,11 +18,11 @@ Every charlatan has an angle he or she uses in preference to other schemes. Choo
 || 5 || I run sleight-of-hand cons on street corners. ||
 || 6 || I convince people that worthless junk is worth their hard-earned money. ||
 
-+++ Feature: False Identity
+### Feature: False Identity
 
 You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.
 
