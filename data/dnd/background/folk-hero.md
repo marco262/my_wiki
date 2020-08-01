@@ -4,7 +4,7 @@ You come from a humble social rank, but you are destined for so much more. Alrea
 **Tool Proficiencies:** One type of artisan's tools, vehicles (land)
 **Equipment:** A set of artisan's tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp
 
-+++ Defining Event
+### Defining Event
 
 You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.
 
@@ -20,11 +20,11 @@ You previously pursued a simple profession among the peasantry, perhaps as a far
 || 9 || A celestial, fey, or similar creature gave me a blessing or revealed my secret origin. ||
 || 10 || Recruited into a lord's army, I rose to leadership and was commended for my heroism. ||
 
-+++ Feature: Rustic Hospitality
+### Feature: Rustic Hospitality
 
 Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.
 

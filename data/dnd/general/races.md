@@ -2,9 +2,9 @@
 table.wiki-content-table { margin: 0; }
 [[/module]]
 
-+ Player's Handbook
+# Player's Handbook
 
-++ Basic
+## Basic
 
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Dwarf]]] || Hill, Mountain || Medium || 25 feet (not reduced by armor) || Darkvision 60 ||+2 Constitution<br>Hill: +1 Wisdom<br>Mountain: +2 Strength || Common, Dwarvish ||
@@ -12,7 +12,7 @@ table.wiki-content-table { margin: 0; }
 || [[[race:Halfling]]] || Lightfoot, Stout || Small || 25 feet || Normal || +2 Dexterity<br>Lightfoot: +1 Charisma<br>Stout: +1 Constitution || Common, Halfling ||
 || [[[race:Human]]] || None || Medium || 30 feet || Normal || +1 to all stats (+1 to any two if variant) || Common and one extra ||
 
-++ Uncommon
+## Uncommon
 
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Dragonborn]]] || None || Medium || 30 feet || Normal || +2 Strength, +1 Charisma || Common, Draconic ||
@@ -21,7 +21,7 @@ table.wiki-content-table { margin: 0; }
 || [[[race:Half-Orc]]] || None || Medium || 30 feet || Darkvision 60 || +2 Strength, +1 Constitution || Common, Orc ||
 || [[[race:Tiefling]]] || None || Medium || 30 feet || Darkvision 60 || +2 Charisma, +1 Intelligence || Common, Infernal ||
 
-+ Elemental Evil
+# Elemental Evil
 
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Aarakocra]]] || None || Medium || 25 feet (Fly 50 feet) || Normal || +2 Dexterity, +1 Wisdom || Common, Aarakocra, Auran ||
@@ -29,7 +29,7 @@ table.wiki-content-table { margin: 0; }
 || [[[race:Genasi]]] || Air, Earth, Fire, Water || Medium || 30 feet || Normal (Fire: Darkvision 60) || +2 Constitution<br>Air: +1 Dexterity<br>Earth: +1 Strength<br>Fire: +1 Intelligence<br>Water: +1 Wisdom || Common, Primordial ||
 || [[[race:Goliath]]] || None || Medium || 30 feet || Normal || +2 Strength, +1 Constitution || Common, Giant ||
 
-+ Volo's Guide to Monsters
+# Volo's Guide to Monsters
 
 ||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Aasimar]]] || Protector, Scourge, Fallen || Medium || 30 feet || Darkvision 60 || +2 Charisma<br>Protector: +1 Wisdom<br>Scourge: +1 Constitution<br>Fallen: +1 Strength || Common, Celestial ||

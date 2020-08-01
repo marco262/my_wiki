@@ -4,19 +4,19 @@ Sequestered in high mountains atop tall trees, the aarakocra, sometimes called b
 
 They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.
 
-+ Beak and Feather
+# Beak and Feather
 
 From below, aarakocra look much like large birds. Only when they descend to roost on a branch or walk across the ground does their humanoid appearance reveal itself. Standing upright, aarakocra might reach 5 feet tall, and they have long, narrow legs that taper to sharp talons.
 
 Feathers cover their bodies. Their plumage typically denotes membership in a tribe. Males are brightly colored, with feathers of red, orange, or yellow. Females have more subdued colors, usually brown or gray. Their heads complete the avian appearance, being something like a parrot or eagle with distinct tribal variations.
 
-+ Sky Wardens
+# Sky Wardens
 
 Nowhere are the aarakocra more comfortable than in the sky. They can spend hours in the air, and some go as long as days, locking their wings in place and letting the thermals hold them aloft. In battle, they prove dynamic and acrobatic fliers, moving with remarkable speed and grace, diving to lash opponents with weapons or talons before turning and flying away.
 
 Once airborne, an aarakocra leaves the sky with reluctance. On their native plane, they can fly for days or months, landing only to lay their eggs and feed their young before launching themselves back into the air. Those that make it to a world in the Material Plane find it a strange place. They sometimes forget or ignore vertical distances, and they have nothing but pity for those earthbound people forced to live and toil on the ground.
 
-+ Avian Mannerisms
+# Avian Mannerisms
 
 The resemblance of aarakocra to birds isn't limited to physical features. Aarakocra display many of the same mannerisms as ordinary birds. They are fastidious about their plumage, frequently tending their feathers, cleaning and scratching away any tiny passengers they might have picked up. When they deign to descend from the sky, they often do so near pools where they can catch fish and bathe themselves.
 
@@ -28,7 +28,7 @@ They find it hard not to pluck the treasure and bring it back to their settlemen
 
 Confinement terrifies the aarakocra. To be grounded, trapped underground, or imprisoned by the cold, unyielding earth is a torment few aarakocra can withstand. Even when perched on a high branch or at rest in their mountaintop homes, they appear alert, with eyes moving and bodies ready to take flight.
 
-+ Homelands
+# Homelands
 [[div class="phb-sidebar"]]
 **Aarakocra in the Forgotten Realms**
 
@@ -46,7 +46,7 @@ Once tribes of aarakocra settle in an area, they share a hunting territory that 
 
 A typical colony consists of one large, open-roofed nest made of woven vines. The eldest acts as leader with the support of a shaman.
 
-+ Great Purpose
+# Great Purpose
 
 Aarakocra enjoy peace and solitude. Most of them have little interest in dealing with other peoples and less interest in spending time on the ground. For this reason, it takes an exceptional circumstance for an aarakocra to leave his or her tribe and undertake the adventurer's life. Neither treasure nor glory is enough to lure them from their tribes; a dire threat to their people, a mission of vengeance, or a catastrophe typically lies at the heart of the aarakocra adventurer's chosen path.
 
@@ -56,7 +56,7 @@ When plunged into Miska's body, the chaos in his blood sundered the rod and scat
 
 Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as “flying rock,” and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts.
 
-+ Aarakocra Names
+# Aarakocra Names
 [[div class="phb-sidebar"]]
 **Aarakocra Backgrounds**
 
@@ -68,7 +68,7 @@ As with much of their speech, aarakocra names include clicks, trills, and whistl
 
 An aarakocra of either gender may have one of these short names: Aera, Aial, Aur, Deekek, Errk, Heehk, Ikki, Kleeck, Oorr, Ouss, Quaf, Quierk, Salleek, Urreek, or Zeed. 
 
-+ Aarakocra Traits
+# Aarakocra Traits
 
 As an aarakocra, you have certain traits in common with your people. Being able to fly at high speed starting at 1st level is exceptionally effective in certain circumstances and exceedingly dangerous in others. As a result, playing an aarakocra requires special consideration by your DM.
 

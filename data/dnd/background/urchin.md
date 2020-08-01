@@ -6,11 +6,11 @@ You begin your adventuring career with enough money to live modestly but securel
 **Tool Proficiencies:** Disguise kit, thieves' tools
 **Equipment:** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp
 
-+++ Feature: City Streets
+### Feature: City Streets
 
 You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life --  and maybe get some payback on all the rich people who treated them badly.
 

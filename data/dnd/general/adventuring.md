@@ -15,7 +15,7 @@ Whether adventurers are exploring a dusty dungeon or the complex relationships o
 
 Typically, the DM uses a map as an outline of the adventure, tracking the characters' progress as they explore dungeon corridors or wilderness regions. The DM's notes, including a key to the map, describe what the adventurers find as they enter each new area. Sometimes, the passage of time and the adventurers' actions determine what happens, so the DM might use a timeline or a flowchart to track their progress instead of a map.
 
-+ Time
+# Time
 
 In situations where keeping track of the passage of time is important, the DM determines the time a task requires. The DM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers' movement happens on a scale of **minutes**. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.
 
@@ -25,7 +25,7 @@ For long journeys, a scale of **days** works best. Following the road from Baldu
 
 In [[[general:combat]]] and other fast-paced situations, the game relies on **rounds**, a 6-second span of time described in chapter 9.
 
-+ Movement
+# Movement
 
 Swimming across a rushing river, sneaking down a dungeon corridor, scaling a treacherous mountain slope -- all sorts of movement play a key role in D&D adventures.
 
@@ -33,13 +33,13 @@ The DM can summarize the adventurers' movement without calculating exact distanc
 
 Sometimes it's important, though, to knowhow long it takes to get from one spot to another, whether the answer is in days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the creatures moving and the terrain they're moving over.
 
-++ Speed
+## Speed
 
 Every character and monster has a speed, which is the distance in feet that the character or monster can walk in 1 round. This number assumes short bursts of energetic movement in the midst of a life-threatening situation.
 
 The following rules determine how far a character or monster can move in a minute, an hour, or a day.
 
-+++ Travel Pace
+### Travel Pace
 
 While traveling, a group of adventurers can move at a normal, fast, or slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time and whether the pace has any effect. A fast pace makes characters less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the "[[[general:adventuring#activity-while-traveling|Activity While Traveling]]]" section later in this chapter for more information).
 
@@ -61,7 +61,7 @@ Certain special mounts, such as a pegasus or griffon, or special vehicles, such 
 || Slow || 200 feet || 2 miles || 18 miles || Able to use stealth<br>+5 bonus to checks to avoid becoming lost<sup>1</sup> ||
 <sup>1</sup> *Dungeon Master's Guide, p. 111*
 
-+++ Special Travel Pace (DMG 242)
+### Special Travel Pace (DMG 242)
 
 The rules on travel pace in the Player's Handbook assume that a group of travelers adopts a pace that, over time, is unaffected by the individual members' walking speeds. The difference between walking speeds can be significant during combat, but during an overland journey, the difference vanishes as travelers pause to catch their breath, the faster ones wait for the slower ones, and one traveler's quickness is matched by another traveler's endurance.
 
@@ -77,21 +77,21 @@ For example, a character under the effect of a *[[[spell:wind walk]]]* spell gai
 
 Similarly, a *[[[spell:phantom steed]]]* spell creates a magical mount with a speed of 100 feet that doesn't tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
 
-+++ [[# difficult-terrain]]Difficult Terrain
+### [[# difficult-terrain]]Difficult Terrain
 
 The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground -- all considered difficult terrain.
 
 You move at half speed in difficult terrain -- moving 1 foot in difficult terrain costs 2 feet of speed -- so you can cover only half the normal distance in a minute, an hour, or a day.
 
-++ Special Types of Movement
+## Special Types of Movement
 
 Movement through dangerous dungeons or wilderness areas often involves more than simply walking. Adventurers might have to climb, crawl, swim, or jump to get where they need to go.
 
-+++ Climbing, Swimming, and Crawling
+### Climbing, Swimming, and Crawling
 
 While climbing or swimming, each foot of movement costs 1 extra foot (2 extra feet in difficult terrain), unless a creature has a climbing or swimming speed. At the DM's option, climbing a slippery vertical surface or one with few handholds requires a successful Strength (Athletics) check. Similarly, gaining any distance in rough water might require a successful Strength (Athletics) check.
 
-+++ Jumping
+### Jumping
 
 Your Strength determines how far you can jump.
 
@@ -105,11 +105,11 @@ When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrob
 
 You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1 1/2 times your height.
 
-++ [[# activity-while-traveling]]Activity While Traveling
+## [[# activity-while-traveling]]Activity While Traveling
 
 As adventurers travel through a dungeon or the wilderness, they need to remain alert for danger, and some characters might perform other tasks to help the group's journey.
 
-+++ Marching Order
+### Marching Order
 [[div class="phb-sidebar"]]
 **Splitting Up the Party**
 
@@ -123,11 +123,11 @@ A character might occupy the front rank, one or more middle ranks, or the back r
 
 **Fewer Than Three Ranks.** If an adventuring party arranges its marching order with only two ranks, they are a front rank and a back rank. If there's only one rank, it's considered a front rank.
 
-+++ Stealth
+### Stealth
 
 While traveling at a slow pace, the characters can move stealthily. As long as they're not in the open, they can try to surprise or sneak by other creatures they encounter. See the rules for hiding in chapter 7.
 
-+++ Noticing Threats
+### Noticing Threats
 
 Use the passive Wisdom (Perception) scores of the characters to determine whether anyone in the group notices a hidden threat. The DM might decide that a threat can be noticed only by characters in a particular rank. For example, as the characters are exploring a maze of tunnels, the DM might decide that only those characters in the back rank have a chance to hear or spot a stealthy creature follow ing the group, while characters in the front and middle ranks cannot.
 
@@ -137,7 +137,7 @@ While traveling at a fast pace, characters take a -5 penalty to their passive Wi
 
 **Surprising Foes.** If the adventurers encounter a hostile creature or group, the DM determines whether the adventurers or their foes might be surprised when combat erupts. See chapter 9 for more about surprise.
 
-++ Other Activities
+## Other Activities
 
 Characters who turn their attention to other tasks as the group travels are not focused on watching for danger. These characters don't contribute their passive Wisdom (Perception) scores to the group's chance of noticing hidden threats. However, a character not watching for danger can do one of the following activities instead, or some other activity with the DM's permission.
 
@@ -149,7 +149,7 @@ Characters who turn their attention to other tasks as the group travels are not 
 
 **Forage.** The character can keep an eye out for ready sources of food and water, making a Wisdom (Survival) check when the DM calls for it.
 
-+++ [[# becoming-lost]]Becoming Lost (DMG 111)
+### [[# becoming-lost]]Becoming Lost (DMG 111)
 
 Unless they are following a path, or something like it, adventurers traveling in the wilderness run the risk of becoming lost. The party's navigator makes a Wisdom (Survival) check when you decide it's appropriate, against a DC determined by the prevailing terrain, as shown on the Wilderness Navigation table. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, and a fast pace imposes a -5 penalty. If the party has an accurate map of the region or can see the sun or stars, the navigator has advantage on the check.
 
@@ -161,7 +161,7 @@ If the Wisdom (Survival) check succeeds, the party travels in the desired direct
 || Arctic, desert, hills, or open sea with clear skies and no land in sight || 10 ||
 || Grassland, meadow, farmland || 5 ||
 
-+++ [[# tracking]]Tracking (DMG 244)
+### [[# tracking]]Tracking (DMG 244)
 
 Adventurers sometimes choose their path by following the tracks of other creatures -- or other creatures might track the adventurers! To track, one or more creatures must succeed on a Wisdom (Survival) check. The DM might require trackers to make a new check in any of the following circumstances:
 
@@ -183,7 +183,7 @@ On a failed check, the character loses the trail but can attempt to find it agai
 || Each day since the creature passed || +5 ||
 || Creature left a trail such as blood || -5 ||
 
-+++ [[# foraging]]Foraging (DMG 111)
+### [[# foraging]]Foraging (DMG 111)
 
 Characters can gather food and water as the party travels at a normal or slow pace. A foraging character makes a Wisdom (Survival) check whenever you call for it, with the DC determined by the abundance of food and water in the region.
 
@@ -195,17 +195,17 @@ Characters can gather food and water as the party travels at a normal or slow pa
 
 If multiple characters forage, each character makes a separate check. A foraging character finds nothing on a failed check. On a successful check, roll 1d6 + the character's Wisdom modifier to determine how much food (in pounds) the character finds, then repeat the roll for water (in gallons).
 
-+ The Environment
+# The Environment
 
 By its nature, adventuring involves delving into places that are dark, dangerous, and full of mysteries to be explored. The rules in this section cover some of the most important ways in which adventurers interact with the environment in such places. The Dungeon Master's Guide has rules covering more unusual situations.
 
-++ Falling
+## Falling
 
 A fall from a great height is one of the most common hazards facing an adventurer.
 
 At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands [[[general:conditions#prone|prone]]], unless it avoids taking damage from the fall.
 
-++ Suffocating
+## Suffocating
 
 [[div class="errata"]]
 **Errata** "If you run out of breath, you can't regain hit points or be stabilized until you can breathe again." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
@@ -215,7 +215,7 @@ When a creature runs out of breath, it can survive for a number of rounds equal 
 
 For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2 rounds to reach air before it drops to 0 hit points.
 
-++ Vision and Light
+## Vision and Light
 
 [[div class="errata"]]
 **Editor's Note** "A rogue does not have advantage on attacks if they are attacking into an area that's heavily obscured, but they do if they are attacking out of a heavily obscured area into a non-heavily obscured area. However, they can still sneak attack if an ally is adjacent to their target."
@@ -235,23 +235,23 @@ The presence or absence of light in an environment creates three categories of i
 
 **Darkness** creates a heavily obscured area. Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness.
 
-+++ Blindsight
+### Blindsight
 
 A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.
 
-+++ Darkvision
+### Darkvision
 
 Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.
 
-+++ Truesight
+### Truesight
 
 A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.
 
-++ Food and Water
+## Food and Water
 
 Characters who don't eat or drink suffer the effects of [[[general:conditions#exhaustion|exhaustion]]]. Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
 
-+++ Food
+### Food
 
 A character needs one pound of food per day and can make food last longer by subsisting on half rations. Eating half a pound of food in a day counts as half a day without food.
 
@@ -259,13 +259,13 @@ A character can go without food for a number of days equal to 3 + his or her Con
 
 A normal day of eating resets the count of days without food to zero.
 
-+++ Water
+### Water
 
 A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a DC 15 Constitution saving throw or suffer one level of [[[general:conditions#exhaustion|exhaustion]]] at the end of the day. A character with access to even less water automatically suffers one level of [[[general:conditions#exhaustion|exhaustion]]] at the end of the day.
 
 If the character already has one or more levels of [[[general:conditions#exhaustion|exhaustion]]], the character takes two levels in either case.
 
-+++ Food and Water Needs for Other Creatures
+### Food and Water Needs for Other Creatures
 <sup>Source: Dungeon Master's Guide, p. 111</sup>
 
 Horses and other creatures require different quantities of food and water per day based on their size. Water needs are doubled if the weather is hot.
@@ -278,7 +278,7 @@ Horses and other creatures require different quantities of food and water per da
 || Huge || 16 pounds || 16 gallons ||
 || Gargantuan || 64 pounds || 16 gallons ||
 
-++ Interacting with Objects
+## Interacting with Objects
 
 A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the DM that his or her character is doing something, such a moving a lever, and the DM describes what, if anything happens.
 
@@ -288,7 +288,7 @@ Characters can also damage objects with their weapons and spells. Objects are im
 
 A character can also attempt a Strength check to break an object. The DM sets the DC for any such check.
 
-+ Social Interaction
+# Social Interaction
 
 Exploring dungeons, overcoming obstacles, and slaying monsters are key parts of D&D adventures. No less important, though, are the social interactions that adventurers have with other inhabitants of the world.
 
@@ -298,7 +298,7 @@ In general terms, an NPC's attitude toward you is described as friendly, indiffe
 
 Social interactions have two primary aspects: roleplaying and ability checks.
 
-++ Roleplaying
+## Roleplaying
 
 Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks.
 
@@ -306,7 +306,7 @@ Roleplaying is a part of every aspect of the game, and it com es to the fore dur
 
 There are two styles you can use when roleplaying your character: the descriptive approach and the active approach. Most players use a combination of the two styles. Use whichever mix of the two works best for you.
 
-+++ Descriptive Approach to Roleplaying
+### Descriptive Approach to Roleplaying
 
 With this approach, you describe your character's words and actions to the DM and the other players. Drawing on your mental image of your character, you tell everyone what your character does and how he or she does it.
 
@@ -324,7 +324,7 @@ When using descriptive roleplaying, keep the following things in mind:
 
 Don't worry about getting things exactly right. Just focus on thinking about what your character would do and describing what you see in your mind.
 
-+++ Active Approach to Roleplaying
+### Active Approach to Roleplaying
 
 If descriptive roleplaying tells your DM and your fellow players what your character thinks and does, active roleplaying shows them.
 
@@ -334,7 +334,7 @@ Going back to the example of Chris roleplaying Tordek above, here's how the scen
 
 Speaking as Tordek, Chris says in a gruff, deep voice, "I was wondering why it suddenly smelled awful in here. If I wanted to hear anything out of you, I'd snap your arm and enjoy your screams." In his normal voice, Chris then adds, "I get up, glare at the elf, and head to the bar."
 
-+++ Results of Roleplaying
+### Results of Roleplaying
 
 The DM uses your character's actions and attitudes to determine how an NPC reacts. A cowardly NPC buckles under threats of violence. A stubborn dwarf refuses to let anyone badger her. A vain dragon laps up flattery.
 
@@ -342,7 +342,7 @@ When interacting with an NPC, pay close attention to the DM's portrayal of the N
 
 Interactions in D&D are much like interactions in real life. If you can offer NPCs something they want, threaten them with something they fear, or play on their sympathies and goals, you can use words to get almost anything you want. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive will fall short.
 
-++ Ability Checks
+## Ability Checks
 
 In addition to roleplaying, ability checks are key in determining the outcome of an interaction.
 
@@ -350,19 +350,19 @@ Your roleplaying efforts can alter an NPC's attitude, but there might still be a
 
 Pay attention to your skill proficiencies when thinking of how you want to interact with an NPC, and stack the deck in your favor by using an approach that relies on your best bonuses and skills. If the group needs to trick a guard into letting them into a castle, the rogue who is proficient in Deception is the best bet to lead the discussion. When negotiating for a hostage's release, the cleric with Persuasion should do most of the talking.
 
-+ Resting
+# Resting
 
 Heroic though they might be, adventurers can't spend every hour of the day in the thick of exploration, social interaction, and combat. They need rest -- time to sleep and eat, tend their wounds, refresh their minds and spirits for spellcasting, and brace themselves for further adventure.
 
 Adventurers can take short rests in the midst of an adventuring day and a long rest to end the day.
 
-++ Short Rest
+## Short Rest
 
 A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.
 
 A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest, as explained below.
 
-++ Long Rest
+## Long Rest
 
 [[div class="errata"]]
 **Errata** " You regain at least 1 Hit Die when you finish a long rest." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
@@ -372,25 +372,25 @@ At the end of a long rest, a character regains all lost hit points. The characte
 
 A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits.
 
-+ Between Adventures
+# Between Adventures
 
 Between trips to dungeons and battles against ancient evils, adventurers need time to rest, recuperate, and prepare for their next adventure. Many adventurers also use this time to perform other tasks, such as crafting arms and armor, performing research, or spending their hard-earned gold.
 
 In some cases, the passage of time is something that occurs with little fanfare or description. When starting a new adventure, the DM might simply declare that a certain amount of time has passed and allow you to describe in general terms what your character has been doing. At other times, the DM might want to keep track of just how much time is passing as events beyond your perception stay in motion.
 
-++ Lifestyle Expenses
+## Lifestyle Expenses
 
 Between adventures, you choose a particular quality of life and pay the cost of maintaining that lifestyle, as described in chapter 5.
 
 Living a particular lifestyle doesn't have a huge effect on your character, but your lifestyle can affect the way other individuals and groups react to you. For example, when you lead an aristocratic lifestyle, it might be easier for you to influence the nobles of the city than if you live in poverty.
 
-++ Downtime Activities
+## Downtime Activities
 
 Between adventures, the DM might ask you what your character is doing during his or her downtime. Periods of downtime can vary in duration, but each downtime activity requires a certain number of days to complete before you gain any benefit, and at least 8 hours of each day must be spent on the downtime activity for the day to count. The days do not need to be consecutive. If you have more than the minimum amount of days to spend, you can keep doing the same thing for a longer period of time, or switch to a new downtime activity.
 
 Downtime activities other than the ones presented below are possible. If you want your character to spend his or her downtime performing an activity not covered here, discuss it with your DM.
 
-+++ Crafting
+### Crafting
 
 You can craft nonmagical objects, including adventuring equipment and works of art. You must be proficient with tools related to the object you are trying to create (typically artisan's tools). You might also need access to special materials or locations necessary to create it. For example, someone proficient with smith's tools needs a forge in order to craft a sword or suit of armor.
 
@@ -400,7 +400,7 @@ Multiple characters can combine their efforts toward the crafting of a single it
 
 While crafting, you can maintain a modest lifestyle without having to pay 1 gp per day, or a comfortable lifestyle at half the normal cost (see chapter 5 for more information on lifestyle expenses).
 
-+++ Practicing a Profession
+### Practicing a Profession
 
 You can work between adventures, allowing you to maintain a modest lifestyle without having to pay 1 gp per day (see chapter 5 for more information on lifestyle expenses). This benefit lasts as long you continue to practice your profession.
 
@@ -408,14 +408,14 @@ If you are a member of an organization that can provide gainful employment, such
 
 If you have proficiency in the Performance skill and put your performance skill to use during your downtime, you earn enough to support a wealthy lifestyle instead.
 
-+++ Recuperating
+### Recuperating
 
 You can use downtime between adventures to recover from a debilitating injury, disease, or poison. After three days of downtime spent recuperating, you can make a DC 15 Constitution saving throw. On a successful save, you can choose one of the following results:
 
 * End one effect on you that prevents you from regaining hit points.
 * For the next 24 hours, gain advantage on saving throws against one disease or poison currently affecting you.
 
-+++ Researching
+### Researching
 
 The time between adventures is a great chance to perform research, gaining insight into mysteries that have unfurled over the course of the campaign. Research can include poring over dusty tomes and crumbling scrolls in a library or buying drinks for the locals to pry rumors and gossip from their lips.
 
@@ -423,7 +423,7 @@ When you begin your research, the DM determines whether the information is avail
 
 For each day of research, you must spend 1 gp to cover your expenses. This cost is in addition to your normal [[[equipment:expenses|lifestyle expenses]]].
 
-+++ Training
+### Training
 
 You can spend time between adventures learning a new language or training with a set of tools. Your DM might allow additional training options.
 

@@ -41,7 +41,7 @@ The DM can impose more realism. For example, a suit of plate armor made for one 
 
 Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armorsmith, tailor, leatherworker, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The DM can either roll 1d4 x 10 or determine the increase in cost based on the extent of the alterations required.
 [[/div]]
-++ Light Armor
+## Light Armor
 
 Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
 
@@ -51,7 +51,7 @@ Made from supple and thin materials, light armor favors agile adventurers since 
 
 **Studded Leather.** Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
 
-++ Medium Armor
+## Medium Armor
 
 Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
 
@@ -65,7 +65,7 @@ Medium armor offers more protection than light armor, but it also impairs moveme
 
 **Half Plate.** Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.
 
-++ Heavy Armor
+## Heavy Armor
 
 Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.
 
@@ -79,7 +79,7 @@ Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but
 
 **Plate.** Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
 
-++ Getting Into and Out of Armor
+## Getting Into and Out of Armor
 
 The time it takes to don or doff armor depends on the armor's category.
 

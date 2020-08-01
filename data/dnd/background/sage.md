@@ -4,7 +4,7 @@ You spent years learning the lore of the multiverse. You scoured manuscripts, st
 **Languages:** Two of your choice
 **Equipment:** A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp
 
-+++ Specialty
+### Specialty
 
 To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.
 
@@ -18,11 +18,11 @@ To determine the nature of your scholarly training, roll a d8 or choose from the
 || 7 || Wizard's apprentice ||
 || 8 || Scribe ||
 
-+++ Feature: Researcher
+### Feature: Researcher
 
 When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly --  sometimes in its own right, sometimes as a means toward other ideals.
 

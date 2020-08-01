@@ -1,82 +1,82 @@
-+ Aberrations
+# Aberrations
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+aberration"]]
 %%title_linked%%
 [[/module]]
 
-+ Beasts
+# Beasts
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+beast"]]
 %%title_linked%%
 [[/module]]
 
-+ Celestials
+# Celestials
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+celestial"]]
 %%title_linked%%
 [[/module]]
 
-+ Constructs
+# Constructs
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+construct"]]
 %%title_linked%%
 [[/module]]
 
-+ Dragons
+# Dragons
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+dragon"]]
 %%title_linked%%
 [[/module]]
 
-+ Elementals
+# Elementals
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+elemental"]]
 %%title_linked%%
 [[/module]]
 
-+ Fey
+# Fey
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+fey"]]
 %%title_linked%%
 [[/module]]
 
-+ Fiends
+# Fiends
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+fiend"]]
 %%title_linked%%
 [[/module]]
 
-+ Giants
+# Giants
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+giant"]]
 %%title_linked%%
 [[/module]]
 
-+ Humanoids
+# Humanoids
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+humanoid"]]
 %%title_linked%%
 [[/module]]
 
-+ Monstrosities
+# Monstrosities
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+monstrosity"]]
 %%title_linked%%
 [[/module]]
 
-+ Oozes
+# Oozes
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+ooze"]]
 %%title_linked%%
 [[/module]]
 
-+ Plants
+# Plants
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+plant"]]
 %%title_linked%%
 [[/module]]
 
-+ Undead
+# Undead
 
 [[module ListPages order="name desc desc" category="monster" perPage="250" tags="+undead"]]
 %%title_linked%%

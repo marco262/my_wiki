@@ -4,7 +4,7 @@
 
 Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Aasimar are born to serve as champions of the gods, their births hailed as blessed events. They are a people of otherworldly visages, with luminous features that reveal their celestial heritage.
 
-+ Celestial Champions
+# Celestial Champions
 
 Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them to strike at evil, lead by example, and further the cause of justice.
 
@@ -12,13 +12,13 @@ From an early age, an aasimar receives visions and guidance from celestial entit
 
 Each aasimar can count a specific celestial agent of the gods as a guide. This entity is typically a deva, an angel who acts as a messenger to the mortal world.
 
-+ Hidden Wanderers
+# Hidden Wanderers
 
 While aasimar are strident foes of evil, they typically prefer to keep a low profile. An aasimar inevitably draws the attention of evil cultists, fiends, and other enemies of good, all of whom would be eager to strike down a celestial champion if they had the chance.
 
 When traveling, aasimar prefer hoods, closed helms, and other gear that allows them to conceal their identities. They nevertheless have no compunction about striking openly at evil. The secrecy they desire is never worth endangering the innocent.
 
-+ Aasimar Guides
+# Aasimar Guides
 [[div class="phb-sidebar"]]
 **Note to the DM: Playing an Angelic Guide**
 
@@ -32,7 +32,7 @@ The angelic being is far from omniscient. Its guidance is based on its understan
 
 As part of fleshing out an aasimar character, consider the nature of that character's angelic guide. The Angelic Guide tables offer names and natures that you can use to flesh out your character's guide. 
 
-+++ Angelic Guide
+### Angelic Guide
 
 ||~ d6 ||~ Name ||
 || 1 || Tadriel ||
@@ -50,7 +50,7 @@ As part of fleshing out an aasimar character, consider the nature of that charac
 || 5 || Stern and judgmental ||
 || 6 || Kind and parental ||
 
-+ Conflicted Souls
+# Conflicted Souls
 
 Despite its celestial origin, an aasimar is mortal and possesses free will. Most aasimar follow their ordained path, but some grow to see their abilities as a curse. These disaffected aasimar are typically content to turn away from the world, but a few become agents of evil. In their minds, their exposure to celestial powers amounted to little more than brainwashing.
 
@@ -58,11 +58,11 @@ Evil aasimar make deadly foes. The radiant power they once commanded becomes cor
 
 Even aasimar wholly dedicated to good sometimes feel torn between two worlds. The angels that guide them see the world from a distant perch. An aasimar who wishes to stop and help a town recover from a drought might be told by an angelic guide to push forward on a greater quest. To a distant angel, saving a few commoners might pale in comparison to defeating a cult of Orcus. An aasimar's guide is wise but not infallible.
 
-+ Aasimar Names
+# Aasimar Names
 
 Most aasimar are born from human parents, and they use the same naming conventions as their native culture. 
 
-+ Aasimar Traits
+# Aasimar Traits
 
 * **Ability Score Increase.** Your Charisma score increases by 2.
 * **Age.** Aasimar mature at the same rate as humans, but they can live up to 160 years.
@@ -75,7 +75,7 @@ Most aasimar are born from human parents, and they use the same naming conventio
 * **Light Bearer.** You know the Light cantrip. Charisma is your spellcasting ability for it.
 * **Languages.** You can speak, read, and write Common and Celestial.
 
-++ Protector Aasimar
+## Protector Aasimar
 
 * **Ability Score Increase.** Your Wisdom score increases by 1.
 * **Radiant Soul.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.
@@ -84,7 +84,7 @@ Your transformation lasts for 1 minute or until you end it as a bonus action. Du
 
 Once you use this trait, you can't use it again until you finish a long rest.
 
-++ Scourge Aasimar
+## Scourge Aasimar
 
 * **Ability Score Increase.** Your Constitution score increases by 1.
 * **Radiant Consumption.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.
@@ -93,7 +93,7 @@ Your transformation lasts for 1 minute or until you end it as a bonus action. Du
 
 Once you use this trait, you can't use it again until you finish a long rest.
 
-++ Fallen Aasimar
+## Fallen Aasimar
 
 * **Ability Score Increase.** Your Strength score increases by 1.
 * **Necrotic Shroud.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.

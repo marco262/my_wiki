@@ -5,7 +5,7 @@ You grew up in the wilds, far from civilization and the comforts of town and tec
 **Languages:** One of your choice
 **Equipment:** A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp
 
-+++ Origin
+### Origin
 
 You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.
 
@@ -21,11 +21,11 @@ You've been to strange places and seen things that others cannot begin to fathom
 || 9 || Hunter-gatherer ||
 || 10 || Tribal marauder ||
 
-+++ Feature: Wanderer
+### Feature: Wanderer
 
 You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.
 
-+++ Suggested Characteristics
+### Suggested Characteristics
 
 Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.
 
