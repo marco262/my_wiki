@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:bandit#bandit-captain"]]
+REDIRECT /dnd/monster/bandit#bandit-captain

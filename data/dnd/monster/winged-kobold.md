@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:kobold#winged-kobold"]]
+REDIRECT /dnd/monster/kobold#winged-kobold

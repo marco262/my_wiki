@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:zombie#ogre-zombie"]]
+REDIRECT /dnd/monster/zombie#ogre-zombie

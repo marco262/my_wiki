@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:goblin#goblin-boss"]]
+REDIRECT /dnd/monster/goblin#goblin-boss

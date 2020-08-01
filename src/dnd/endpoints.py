@@ -4,7 +4,7 @@ from json import loads, load, dump
 from os.path import splitext, basename, isfile
 
 import toml
-from bottle import view, request, HTTPError, Bottle
+from bottle import view, request, HTTPError, Bottle, redirect
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
@@ -62,27 +62,52 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Categories
 
-    @app.get('/class/<name>')
-    @view("common/page.tpl")
-    def dnd_class(name):
+    def get_md_page(category, name):
         formatted_name = title_to_page_name(name)
-        path = "data/dnd/class/" + formatted_name + ".md"
+        path = f"data/dnd/{category}/{formatted_name}.md"
         try:
             md = MD.parse_md_path(path, namespace="dnd")
         except FileNotFoundError:
             raise HTTPError(404, f"I couldn't find \"{name}\".")
-        return {"title": name.title(), "text": md, "toc": md.toc_html}
+        if md.startswith("<p>REDIRECT "):
+            redirect(md[12:-5])
+        else:
+            return {"title": name.title(), "text": md, "toc": md.toc_html}
 
     @app.get('/advancement/<name>')
     @view("common/page.tpl")
     def advancement(name):
-        formatted_name = title_to_page_name(name)
-        path = "data/dnd/advancement/" + formatted_name + ".md"
-        try:
-            md = MD.parse_md_path(path, namespace="dnd")
-        except FileNotFoundError:
-            raise HTTPError(404, f"I couldn't find \"{name}\".")
-        return {"title": name.title(), "text": md, "toc": md.toc_html}
+        return get_md_page("advancement", name)
+
+    @app.get('/background/<name>')
+    @view("common/page.tpl")
+    def background(name):
+        return get_md_page("background", name)
+
+    @app.get('/class/<name>')
+    @view("common/page.tpl")
+    def dnd_class(name):
+        return get_md_page("class", name)
+
+    @app.get('/equipment/<name>')
+    @view("common/page.tpl")
+    def equipment(name):
+        return get_md_page("equipment", name)
+
+    @app.get('/general/<name>')
+    @view("common/page.tpl")
+    def general(name):
+        return get_md_page("general", name)
+
+    @app.get('/monster/<name>')
+    @view("common/page.tpl")
+    def monster(name):
+        return get_md_page("monster", name)
+
+    @app.get('/race/<name>')
+    @view("common/page.tpl")
+    def race(name):
+        return get_md_page("race", name)
 
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
