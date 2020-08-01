@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:elementals#water-elemental"]]
+REDIRECT /dnd/monster/elementals#water-elemental

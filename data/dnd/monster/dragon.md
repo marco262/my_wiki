@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:dragons"]]
+REDIRECT /dnd/monster/dragons

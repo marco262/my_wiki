@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:Copper Dragon#adult-copper-dragon"]]
+REDIRECT /dnd/monster/Copper Dragon#adult-copper-dragon

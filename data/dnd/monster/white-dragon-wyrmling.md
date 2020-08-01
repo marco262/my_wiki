@@ -1,1 +1,1 @@
-[[module Redirect destination="monster:White Dragon#white-dragon-wyrmling"]]
+REDIRECT /dnd/monster/White Dragon#white-dragon-wyrmling
