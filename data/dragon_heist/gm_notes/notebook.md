@@ -67,8 +67,6 @@ Modifier to roll: -10
 
 These are things to take out of the party funds when I remember:
 
-+100gp from Grinda Garloth
-
 ## Available Plot Hooks
 
 * Go talk to Halgraek Barrelshoulder to get troll skull
