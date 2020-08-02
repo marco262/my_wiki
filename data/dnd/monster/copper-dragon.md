@@ -1,30 +1,31 @@
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# ancient-copper-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Ancient Copper Dragon
-| size = Gargantuan
-| type = dragon
-| alignment = chaotic good
-| armor_class = 21 (natural armor)
-| hit_points = 350 (20d20 + 140)
-| speed = 40 ft., climb 40 ft., fly 80 ft.
-| str = 27 (+8)
-| dex = 12 (+1)
-| con = 25 (+7)
-| int = 20 (+5)
-| wis = 17 (+3)
-| cha = 19 (+4)
-| stats = **Saving Throws** Dex +8, Con +14, Wis +10, Cha +11
-**Skills** Deception +11, Perception +17, Stealth +8
-**Damage Immunities** acid
-**Senses** blindsight 60ft., darkvision 120 ft., passive Perception 27
-**Languages** Common, Draconic
-**Challenge** 21 (27,500 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+[[div class="monster-include"]]
+
+<a id="ancient-copper-dragon">
+
+[[include dnd/monster-sheet]]
+width = 500px
+name = Ancient Copper Dragon
+size = Gargantuan
+type = dragon
+alignment = chaotic good
+armor_class = 21 (natural armor)
+hit_points = 350 (20d20 + 140)
+speed = 40 ft., climb 40 ft., fly 80 ft.
+strength = 27
+dexterity = 12
+constitution = 25
+intelligence = 20
+wisdom = 17
+charisma = 19
+saves = Dex +8, Con +14, Wis +10, Cha +11
+skills = Deception +11, Perception +17, Stealth +8
+damage_immunities = acid
+senses = blindsight 60ft., darkvision 120 ft., passive Perception 27
+languages = Common, Draconic
+challenge = 21 (27,500 XP)
+special_abilities = !**Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
+actions = !!!
+**Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage.
 
@@ -42,46 +43,48 @@
 
 **Change Shape.** The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).
 In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.
-| has_legendary_actions = Replace with double @ to hide
-| legendary_actions = The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
+!!!
+legendary_actions = !!!
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
 
 **Detect.** The dragon makes a Wisdom (Perception) check.
 
 **Tail Attack.** The dragon makes a tail attack.
 
 **Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# adult-copper-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Adult Copper Dragon
-| size = Huge
-| type = dragon
-| alignment = chaotic good
-| armor_class = 18 (natural armor)
-| hit_points = 184 (16d12 + 80)
-| speed = 40 ft., climb 40 ft., fly 80 ft.
-| str = 23 (+6)
-| dex = 12 (+1)
-| con = 21 (+5)
-| int = 28 (+4)
-| wis = 15 (+2)
-| cha = 17 (+3)
-| stats = **Saving Throws** Dex +6, Con +10, Wis +7, Cha +8
-**Skills** Deception +8, Perception +12, Stealth +6
-**Damage Immunities** acid
-**Senses** blindsight 60ft., darkvision 120 ft., passive Perception 22
-**Languages** Common, Draconic
-**Challenge** 14 (11,500 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+[[div class="monster-include"]]
+
+<a id="adult-copper-dragon">
+
+[[include dnd/monster-sheet]]
+width = 500px
+name = Adult Copper Dragon
+size = Huge
+type = dragon
+alignment = chaotic good
+armor_class = 18 (natural armor)
+hit_points = 184 (16d12 + 80)
+speed = 40 ft., climb 40 ft., fly 80 ft.
+strength = 23
+dexterity = 12
+constitution = 21
+intelligence = 28
+wisdom = 15
+charisma = 17
+saves = Dex +6, Con +10, Wis +7, Cha +8
+skills = Deception +8, Perception +12, Stealth +6
+damage_immunities = acid
+senses = blindsight 60ft., darkvision 120 ft., passive Perception 22
+languages = Common, Draconic
+challenge = 14 (11,500 XP)
+special_abilities = !**Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
+actions = !!!
+**Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage.
 
@@ -96,46 +99,48 @@ In a new form, the dragon retains its alignment, hit points, Hit Dice, ability t
 **Acid Breath.** The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
 
 **Slowing Breath.** The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.
-| has_legendary_actions = Replace with double @ to hide
-| legendary_actions = The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
+!!!
+legendary_actions = !!!
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
 
 **Detect.** The dragon makes a Wisdom (Perception) check.
 
 **Tail Attack.** The dragon makes a tail attack.
 
 **Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-| has_reactions = @@
-| reactions =
-]]
+!!!
+
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# young-copper-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Young Copper Dragon
-| size = Large
-| type = dragon
-| alignment = chaotic good
-| armor_class = 17 (natural armor)
-| hit_points = 119 (14d10 + 42)
-| speed = 40 ft., climb 40 ft., fly 80 ft.
-| str = 19 (+4)
-| dex = 12 (+1)
-| con = 17 (+3)
-| int = 16 (+3)
-| wis = 13 (+1)
-| cha = 15 (+2)
-| stats = **Saving Throws** Dex +4, Con +6, Wis +4, Cha +5
-**Skills** Deception +5, Perception +7, Stealth +4
-**Damage Immunities** acid
-**Senses** blindsight 30ft., darkvision 120 ft., passive Perception 17
-**Languages** Common, Draconic
-**Challenge** 7 (2,900 XP)
-| has_special_abilities = @@
-| special_abilities = 
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+[[div class="monster-include"]]
+
+<a id="young-copper-dragon">
+
+[[include dnd/monster-sheet]]
+width = 500px
+name = Young Copper Dragon
+size = Large
+type = dragon
+alignment = chaotic good
+armor_class = 17 (natural armor)
+hit_points = 119 (14d10 + 42)
+speed = 40 ft., climb 40 ft., fly 80 ft.
+strength = 19
+dexterity = 12
+constitution = 17
+intelligence = 16
+wisdom = 13
+charisma = 15
+saves = Dex +4, Con +6, Wis +4, Cha +5
+skills = Deception +5, Perception +7, Stealth +4
+damage_immunities = acid
+senses = blindsight 30ft., darkvision 120 ft., passive Perception 17
+languages = Common, Draconic
+challenge = 7 (2,900 XP)
+actions = !!!
+**Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage.
 
@@ -146,51 +151,47 @@ In a new form, the dragon retains its alignment, hit points, Hit Dice, ability t
 **Acid Breath.** The dragon exhales acid in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one.
 
 **Slowing Breath.** The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.
-| has_legendary_actions = @@
-| legendary_actions = 
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# copper-dragon-wyrmling]]
-[[include include:monster-sheet
-| width = 500px
-| name = Copper Dragon Wyrmling
-| size = Medium
-| type = dragon
-| alignment = chaotic good
-| armor_class = 16 (natural armor)
-| hit_points = 22 (4d8 + 4)
-| speed = 30 ft., climb 30 ft., fly 60 ft.
-| str = 15 (+2)
-| dex = 12 (+1)
-| con = 13 (+1)
-| int = 14 (+2)
-| wis = 11 (+0)
-| cha = 13 (+1)
-| stats = **Saving Throws** Dex +3, Con +3, Wis +2, Cha +3
-**Skills** Perception +4, Stealth +3
-**Damage Immunities** acid
-**Senses** blindsight 10ft., darkvision 60 ft., passive Perception 14
-**Languages** Common, Draconic
-**Challenge** 1 (200 XP)
-| has_special_abilities = @@
-| special_abilities = 
-| has_actions = Replace with double @ to hide
-| actions = **Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage.
+[[div class="monster-include"]]
+
+<a id="copper-dragon-wyrmling">
+
+[[include dnd/monster-sheet]]
+width = 500px
+name = Copper Dragon Wyrmling
+size = Medium
+type = dragon
+alignment = chaotic good
+armor_class = 16 (natural armor)
+hit_points = 22 (4d8 + 4)
+speed = 30 ft., climb 30 ft., fly 60 ft.
+strength = 15
+dexterity = 12
+constitution = 13
+intelligence = 14
+wisdom = 11
+charisma = 13
+saves = Dex +3, Con +3, Wis +2, Cha +3
+skills = Perception +4, Stealth +3
+damage_immunities = acid
+senses = blindsight 10ft., darkvision 60 ft., passive Perception 14
+languages = Common, Draconic
+challenge = 1 (200 XP)
+actions = !!!
+**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage.
 
 **Breath Weapons (Recharge 5-6).** The dragon uses one of the following breath weapons.
 
 **Acid Breath.** The dragon exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one.
 
 **Slowing Breath.** The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.
-| has_legendary_actions = @@
-| legendary_actions = 
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
 Copper dragons are incorrigible pranksters, joke tellers, and riddlers that live in hills and rocky uplands. Despite their gregarious and even-tempered natures, they possess a covetous, miserly streak, and can become dangerous when their hoards are threatened.
@@ -226,6 +227,6 @@ The region containing a legendary copper dragon's lair is warped by the dragon's
 
 If the dragon dies, the magic carvings fade over the course of 1d10 days. The other effects end immediately.
 
-====
+----
 
-Monster's Manual, p. 110
+*Source: Monsters Manual, p. 110*

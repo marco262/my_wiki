@@ -1,71 +1,68 @@
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# goblin]]
-[[include include:monster-sheet
-| width = 400px
-| name = Goblin
-| size = Small
-| type = humanoid (goblinoid)
-| alignment = neutral evil
-| armor_class = 15 (leather armor, shield)
-| hit_points = 7 (2d6)
-| speed = 30 ft.
-| str = 8 (-1)
-| dex = 14 (+2)
-| con = 10 (+0)
-| int = 10 (+0)
-| wis = 8 (-1)
-| cha = 8 (-1)
-| stats = **Skills** Stealth +6
-**Senses** darkvision 60 ft., passive Perception 9
-**Languages** Common, Goblin
-**Challenge** 1/4 (50 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Nimble Escape.** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-| has_actions = Replace with double @ to hide
-| actions = **Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+[[div class="monster-include"]]
+
+<a id="goblin">
+[[include dnd/monster-sheet]]
+width = 400px
+name = Goblin
+size = Small
+type = humanoid (goblinoid)
+alignment = neutral evil
+armor_class = 15 (leather armor, shield)
+hit_points = 7 (2d6)
+speed = 30 ft.
+strength = 8
+dexterity = 14
+constitution = 10
+intelligence = 10
+wisdom = 8
+charisma = 8
+skills = Stealth +6
+senses = darkvision 60 ft., passive Perception 9
+languages = Common, Goblin
+challenge = 1/4 (50 XP)
+special_abilities = !**Nimble Escape.** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+actions = !!!
+**Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
 
 **Shortbow.** *Ranged Weapon Attack:* +4 to hit, range 80 ft./320ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
-| has_legendary_actions = @@
-| legendary_actions =
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# goblin-boss]]
-[[include include:monster-sheet
-| width = 400px
-| name = Goblin Boss
-| size = Small
-| type = humanoid (goblinoid)
-| alignment = neutral evil
-| armor_class = 17 (chain shirt, shield)
-| hit_points = 21 (6d6)
-| speed = 30 ft.
-| str = 10 (+0)
-| dex = 14 (+2)
-| con = 10 (+0)
-| int = 10 (+0)
-| wis = 8 (-1)
-| cha = 10 (+0)
-| stats = **Skills** Stealth +6
-**Senses** darkvision 60 ft., passive Perception 9
-**Languages** Common, Goblin
-**Challenge** 1 (200 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Nimble Escape.** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The goblin makes two attacks with its scimitar. The second attack has disadvantage.
+[[div class="monster-include"]]
+
+<a id="goblin-boss">
+[[include dnd/monster-sheet]]
+width = 400px
+name = Goblin Boss
+size = Small
+type = humanoid (goblinoid)
+alignment = neutral evil
+armor_class = 17 (chain shirt, shield)
+hit_points = 21 (6d6)
+speed = 30 ft.
+strength = 10
+dexterity = 14
+constitution = 10
+intelligence = 10
+wisdom = 8
+charisma = 10
+skills = Stealth +6
+senses = darkvision 60 ft., passive Perception 9
+languages = Common, Goblin
+challenge = 1 (200 XP)
+special_abilities = !**Nimble Escape.** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+actions = !!!
+**Multiattack.** The goblin makes two attacks with its scimitar. The second attack has disadvantage.
 
 **Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
 
 **Shortbow.** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30 ft./120ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
-| has_legendary_actions = @@
-| legendary_actions =
-| has_reactions = Replace with double @ to hide
-| reactions = **Redirect Attack.** When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
-]]
+!!!
+reactions = !**Redirect Attack.** When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
+[[/include]]
+
 [[/div]]
 
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large -- sometimes overwhelming -- numbers. They crave power and regularly abuse whatever authority they obtain.
@@ -82,6 +79,6 @@ Goblins are small, black-hearted, selfish humanoids that lair in caves, abandone
 
 **Worshipers of Maglubiyet.** Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god of goblinoids. Envisioned by most goblins as an eleven-foot-tall battle-scarred goblin with black skin and fire erupting from his eyes, he is worshiped not out of adoration but fear. Goblins believe that when they die in battle, their spirits join the ranks of Maglubiyet's army on the plane of Acheron. This is a "privilege" that most goblins dread, fearing the Mighty One's eternal tyranny even more than death.
 
-====
+----
 
-Monsters Manual, p. 165
+*Source: Monsters Manual, p. 165*
