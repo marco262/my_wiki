@@ -51,7 +51,7 @@ At 3rd level, your Drake is strong enough to enter combat with you.
 
 The stat block for your Drake is below:
 
-[[include monster-sheet]]
+[[include dnd/monster-sheet]]
 width = 350px
 name = Drake Companion
 size = Large

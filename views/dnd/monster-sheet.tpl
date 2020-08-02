@@ -38,8 +38,11 @@ cha_mod = ability_mod(charisma)
     % if defined("skills"):
     <div class="text"><strong>Skills:</strong> {{ skills }}</div>
     % end
-    % if defined("senses"):
-    <div class="text"><strong>Senses:</strong> {{ senses }}</div>
+    % if defined("damage_vulnerabilities"):
+    <div class="text"><strong>Damage Vulnerabilities:</strong> {{ damage_vulnerabilities }}</div>
+    % end
+    % if defined("damage_resistances"):
+    <div class="text"><strong>Damage Resistances:</strong> {{ damage_resistances }}</div>
     % end
     % if defined("damage_immunities"):
     <div class="text"><strong>Damage Immunities:</strong> {{ damage_immunities }}</div>
@@ -47,8 +50,14 @@ cha_mod = ability_mod(charisma)
     % if defined("condition_immunities"):
     <div class="text"><strong>Condition Immunities:</strong> {{ condition_immunities }}</div>
     % end
+    % if defined("senses"):
+    <div class="text"><strong>Senses:</strong> {{ senses }}</div>
+    % end
     % if defined("languages"):
     <div class="text"><strong>Languages:</strong> {{ languages }}</div>
+    % end
+    % if defined("challenge"):
+    <div class="text"><strong>Challenge:</strong> {{ challenge }}</div>
     % end
     <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
     % if defined("special_abilities"):
@@ -63,13 +72,13 @@ cha_mod = ability_mod(charisma)
     </div>
     % end
     % if defined("legendary_actions"):
-    <div class="actions-header">Legendary Actions</div>
+    <h2 class="actions-header">Legendary Actions</h2>
     <div class="text-black">
         {{! legendary_actions }}
     </div>
     % end
     % if defined("reactions"):
-    <div class="actions-header">Reactions</div>
+    <h2 class="actions-header">Reactions</h2>
     <div class="text-black">
         {{! reactions }}
     </div>

@@ -1,41 +1,41 @@
-[[div style="display:inline-block; vertical-align: top; "]]
-[[include include:monster-sheet
-| width = 500px
-| name = Werewolf
-| size = Medium
-| type = humanoid (human, shapechanger)
-| alignment = chaotic evil
-| armor_class = 11 in humanoid form, 12 (natural armor) in wolf or hybrid form
-| hit_points = 58 (9d8 + 18)
-| speed = 30 ft. (40 ft. in wolf form)
-| str = 15 (+2)
-| dex = 13 (+1)
-| con = 14 (+2)
-| int = 10 (+0)
-| wis = 11 (+0)
-| cha = 10 (+0)
-| stats = **Skills** Perception +4, Stealth +6
-**Damage Immunities** bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
-**Senses** passive Perception 14
-**Languages** Common (can't speak in wolf form)
-**Challenge** 3 (700 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Shapechanger.** The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. It reverts to its true form if it dies.
+[[div class="monster-include"]]
+
+[[include dnd/monster-sheet]]
+width = 500px
+name = Werewolf
+size = Medium
+type = humanoid (human, shapechanger)
+alignment = chaotic evil
+armor_class = 11 in humanoid form, 12 (natural armor) in wolf or hybrid form
+hit_points = 58 (9d8 + 18)
+speed = 30 ft. (40 ft. in wolf form)
+strength = 15
+dexterity = 13
+constitution = 14
+intelligence = 10
+wisdom = 11
+charisma = 10
+skills = Perception +4, Stealth +6
+damage_immunities = bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
+senses = passive Perception 14
+languages = Common (can't speak in wolf form)
+challenge = 3 (700 XP)
+special_abilities = !!!
+**Shapechanger.** The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. It reverts to its true form if it dies.
 
 **Keen Hearing and Smell.** The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack (Humanoid or Hybrid Form Only).** The werewolf makes two attacks: one with its bite and one with its claws or spear.
+!!!
+actions = !!!
+**Multiattack (Humanoid or Hybrid Form Only).** The werewolf makes two attacks: one with its bite and one with its claws or spear.
 
 **Bite (Wolf or Hybrid Form Only).** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
 
 **Claws (Hybrid Form Only).** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (2d4 + 2) slashing damage.
 
 **Spear (Humanoid Form Only).** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6+ 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
-| has_legendary_actions = @@
-| legendary_actions =
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
 [[f>image Werewolf_Cut.png width="500"]]

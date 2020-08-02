@@ -6,7 +6,7 @@ from urllib.parse import urlencode
 
 import re
 
-from bottle import template
+from bottle import template, TemplateError
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name
 
@@ -99,7 +99,10 @@ class MarkdownParser:
             args = {}
             while index < len(rows):
                 arg = rows[index]
-                k, v = arg.split("=", 1)
+                try:
+                    k, v = arg.split("=", 1)
+                except ValueError:
+                    raise ValueError("Can't split line: " + arg)
                 k, v = k.strip(), v.strip()
                 if v.startswith("!!!"):
                     # Gather the remaining lines
@@ -117,7 +120,10 @@ class MarkdownParser:
                 args[k] = v
                 index += 1
 
-            t = template(template_name + ".tpl", args)
+            try:
+                t = template(template_name + ".tpl", args)
+            except TemplateError:
+                raise TemplateError(f"Can't find template: {template_name}.tpl")
             text = text.replace(m.group(0), t)
         return text
 

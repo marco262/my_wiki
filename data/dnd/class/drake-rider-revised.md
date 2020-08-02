@@ -40,34 +40,29 @@ At 3rd level, your Drake is strong enough to enter combat with you.
 The stat block for your Drake is below:
 
 [[div style="display:inline-block; vertical-align: top; "]]
-[[include include:monster-sheet
-| width = 350px
-| name = Drake Companion
-| size = Large
-| type = dragon
-| alignment = neutral
-| armor_class = 17 (natural armor)
-| hit_points = 24 (3d8 + 9)
-| speed = 30 ft., fly 40 ft.
-| str = 19 (+4)
-| dex = 10 (+0)
-| con = 17 (+3)
-| int = 6 (-2)
-| wis = 12 (+1)
-| cha = 8 (-1)
-| stats = **Saving Throws** Dex +2, Con +5
-**Skills** Athletics +6, Perception +3
-**Senses** passive Perception 13
-**Languages** Draconic
-| has_special_abilities = @@
-| special_abilities = 
-| has_actions = Replace with double @ to hide
-| actions = **Bite.** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
-| has_legendary_actions = @@
-| legendary_actions = 
-| has_reactions = @@
-| reactions =
-]]
+[[include dnd/monster-sheet]]
+width = 350px
+name = Drake Companion
+size = Large
+type = dragon
+alignment = neutral
+armor_class = 17 (natural armor)
+hit_points = 24 (3d8 + 9)
+speed = 30 ft., fly 40 ft.
+strength = 19
+dexterity = 10
+constitution = 17
+intelligence = 6
+wisdom = 12
+charisma = 8
+saves = Dex +2, Con +5
+skills = Athletics +6, Perception +3
+senses = passive Perception 13
+languages = Draconic
+special_abilities = 
+actions = !**Bite.** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
+[[/include]]
+
 [[/div]]
 
 Choose a type for your Drake from the Drake Types table below. Your Drake gains resistance to its element type.

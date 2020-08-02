@@ -1,32 +1,34 @@
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# ancient-black-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Ancient Black Dragon
-| size = Gargantuan
-| type = dragon
-| alignment = chaotic evil
-| armor_class = 22 (natural armor)
-| hit_points = 367 (21d20 + 147)
-| speed = 40 ft., fly 80 ft., swim 40 ft.
-| str = 27 (+8)
-| dex = 14 (+2)
-| con = 25 (+7)
-| int = 16 (+3)
-| wis = 15 (+2)
-| cha = 19 (+4)
-| stats = **Saving Throws** Dex +9, Con +14, Wis +9, Cha +11
-**Skills** Perception +16, Stealth +9
-**Damage Immunities** acid
-**Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 26
-**Languages** Common, Draconic
-**Challenge** 21 (27,500 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Amphibious.** The dragon can breathe air and water.
+[[div class="monster-include"]]
+
+<a id="ancient-black-dragon">
+[[include dnd/monster-sheet]]
+width = 500px
+name = Ancient Black Dragon
+size = Gargantuan
+type = dragon
+alignment = chaotic evil
+armor_class = 22 (natural armor)
+hit_points = 367 (21d20 + 147)
+speed = 40 ft., fly 80 ft., swim 40 ft.
+strength = 27
+dexterity = 14
+constitution = 25
+intelligence = 16
+wisdom = 15
+charisma = 19
+saves = Dex +9, Con +14, Wis +9, Cha +11
+skills = Perception +16, Stealth +9
+damage_immunities = acid
+senses = blindsight 60 ft., darkvision 120 ft., passive Perception 26
+languages = Common, Draconic
+challenge = 21 (27,500 XP)
+special_abilities = !!!
+**Amphibious.** The dragon can breathe air and water.
 
 **Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+!!!
+actions = !!!
+**Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 9 (2d8) acid damage.
 
@@ -37,48 +39,49 @@
 **Frightful Presence.** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
 
 **Acid Breath (Recharge 5-6).** The dragon exhales fire in a 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.
-| has_legendary_actions = Replace with double @ to hide
-| legendary_actions = The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
+!!!
+legendary_actions = !!!
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
 
 **Detect.** The dragon makes a Wisdom (Perception) check.
 
 **Tail Attack.** The dragon makes a tail attack.
 
 **Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# adult-black-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Adult Black Dragon
-| size = Huge
-| type = dragon
-| alignment = chaotic evil
-| armor_class = 19 (natural armor)
-| hit_points = 195 (17d12 + 85)
-| speed = 40 ft., fly 80 ft., swim 40 ft.
-| str = 23 (+6)
-| dex = 14 (+2)
-| con = 21 (+5)
-| int = 14 (+2)
-| wis = 13 (+1)
-| cha = 17 (+3)
-| stats = **Saving Throws** Dex +7, Con +10, Wis +6, Cha +8
-**Skills** Perception +11, Stealth +7
-**Damage Immunities** acid
-**Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 21
-**Languages** Common, Draconic
-**Challenge** 14 (11,500 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Amphibious.** The dragon can breathe air and water.
+[[div class="monster-include"]]
+
+<a id="adult-black-dragon">
+[[include dnd/monster-sheet]]
+width = 500px
+name = Adult Black Dragon
+size = Huge
+type = dragon
+alignment = chaotic evil
+armor_class = 19 (natural armor)
+hit_points = 195 (17d12 + 85)
+speed = 40 ft., fly 80 ft., swim 40 ft.
+strength = 23
+dexterity = 14
+constitution = 21
+intelligence = 14
+wisdom = 13
+charisma = 17
+saves = Dex +7, Con +10, Wis +6, Cha +8
+skills = Perception +11, Stealth +7
+damage_immunities = acid
+senses = blindsight 60 ft., darkvision 120 ft., passive Perception 21
+languages = Common, Draconic
+challenge = 14 (11,500 XP)
+special_abilities = !**Amphibious.** The dragon can breathe air and water.
 
 **Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+actions = !!!
+**Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage.
 
@@ -89,93 +92,88 @@
 **Frightful Presence.** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
 
 **Acid Breath (Recharge 5-6).** The dragon exhales fire in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
-| has_legendary_actions = Replace with double @ to hide
-| legendary_actions = The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
+legendary_actions = !!!
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.
 
 **Detect.** The dragon makes a Wisdom (Perception) check.
 
 **Tail Attack.** The dragon makes a tail attack.
 
 **Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-| has_reactions = @@
-| reactions =
-]]
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# young-black-dragon]]
-[[include include:monster-sheet
-| width = 500px
-| name = Young Black Dragon
-| size = Large
-| type = dragon
-| alignment = chaotic evil
-| armor_class = 18 (natural armor)
-| hit_points = 127 (15d10 + 45)
-| speed = 40 ft., fly 80 ft., swim 40 ft.
-| str = 19 (+4)
-| dex = 14 (+2)
-| con = 17 (+3)
-| int = 12 (+1)
-| wis = 11 (+0)
-| cha = 15 (+2)
-| stats = **Saving Throws** Dex +5, Con +6, Wis +3, Cha +5
-**Skills** Perception +6, Stealth +5
-**Damage Immunities** acid
-**Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 16
-**Languages** Common, Draconic
-**Challenge** 7 (2,900 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Amphibious.** The dragon can breathe air and water.
-| has_actions = Replace with double @ to hide
-| actions = **Multiattack.** The dragon makes three attacks: one with its bite and two with its claws.
+[[div class="monster-include"]]
+
+<a id="young-black-dragon">
+[[include dnd/monster-sheet]]
+width = 500px
+name = Young Black Dragon
+size = Large
+type = dragon
+alignment = chaotic evil
+armor_class = 18 (natural armor)
+hit_points = 127 (15d10 + 45)
+speed = 40 ft., fly 80 ft., swim 40 ft.
+strength = 19
+dexterity = 14
+constitution = 17
+intelligence = 12
+wisdom = 11
+charisma = 15
+saves = Dex +5, Con +6, Wis +3, Cha +5
+skills = Perception +6, Stealth +5
+damage_immunities = acid
+senses = blindsight 30 ft., darkvision 120 ft., passive Perception 16
+languages = Common, Draconic
+challenge = 7 (2,900 XP)
+special_abilities = !**Amphibious.** The dragon can breathe air and water.
+actions = !!!
+**Multiattack.** The dragon makes three attacks: one with its bite and two with its claws.
 
 **Bite.** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 4 (1d8) acid damage.
 
 **Claw.** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage.
 
 **Acid Breath (Recharge 5-6).** The dragon exhales fire in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful one.
-| has_legendary_actions = @@
-| legendary_actions = 
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
-[[div style="display:inline-block; vertical-align: top; "]]
-[[# black-dragon-wyrmling]]
-[[include include:monster-sheet
-| width = 500px
-| name = Black Dragon Wyrmling
-| size = Medium
-| type = dragon
-| alignment = chaotic evil
-| armor_class = 17 (natural armor)
-| hit_points = 33 (6d8 + 6)
-| speed = 30 ft., fly 60 ft., swim 30 ft.
-| str = 15 (+2)
-| dex = 14 (+2)
-| con = 13 (+1)
-| int = 10 (+0)
-| wis = 11 (+0)
-| cha = 13 (+1)
-| stats = **Saving Throws** Dex +4, Con +3, Wis +2, Cha +3
-**Skills** Perception +4, Stealth +4
-**Damage Immunities** acid
-**Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14	
-**Languages** Common, Draconic
-**Challenge** 2 (450 XP)
-| has_special_abilities = Replace with double @ to hide
-| special_abilities = **Amphibious.** The dragon can breathe air and water.
-| has_actions = Replace with double @ to hide
-| actions = **Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage.
+[[div class="monster-include"]]
+
+<a id="black-dragon-wyrmling">
+[[include dnd/monster-sheet]]
+width = 500px
+name = Black Dragon Wyrmling
+size = Medium
+type = dragon
+alignment = chaotic evil
+armor_class = 17 (natural armor)
+hit_points = 33 (6d8 + 6)
+speed = 30 ft., fly 60 ft., swim 30 ft.
+strength = 15
+dexterity = 14
+constitution = 13
+intelligence = 10
+wisdom = 11
+charisma = 13
+saves = Dex +4, Con +3, Wis +2, Cha +3
+skills = Perception +4, Stealth +4
+damage_immunities = acid
+senses = blindsight 10 ft., darkvision 60 ft., passive Perception 14	
+languages = Common, Draconic
+challenge = 2 (450 XP)
+special_abilities = !**Amphibious.** The dragon can breathe air and water.
+actions = !!!
+**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage.
 
 **Acid Breath (Recharge 5-6).** The dragon exhales fire in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.
-| has_legendary_actions = @@
-| legendary_actions = 
-| has_reactions = @@
-| reactions =
-]]
+!!!
+[[/include]]
+
 [[/div]]
 
 The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.
@@ -220,6 +218,6 @@ Water sources within 1 mile of the lair are supernaturally fouled. Enemies of th
 
 If the dragon dies, vegetation remains as it has grown, but other effects fade over 1d10 days.
 
-====
+----
 
-Monsters Manual, p. 87
+*Source: Monsters Manual, p. 87*

@@ -378,3 +378,9 @@ blockquote {
     font-style: italic;
     font-size: 80%;
 }
+
+.monster-include {
+    display:inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
