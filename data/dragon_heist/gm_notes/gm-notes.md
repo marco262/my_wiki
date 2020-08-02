@@ -100,6 +100,8 @@ Enter another URL to set as Visual Aid here:
 
 # [Spring Encounters](Spring Encounters)
 
+# [Treasure Hunt](Treasure Hunt)
+
 # [Soundboard](Soundboard)
 
 <script type="module">
