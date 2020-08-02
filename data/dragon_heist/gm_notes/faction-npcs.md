@@ -5,7 +5,7 @@
 ## Harpers NPCs
 
 * [Mirt](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/44/Mirt-5e.jpg/revision/latest?cb=20181208035731), Harper contact
-* [Remalia Haventree](^https://outsiderscampaign.files.wordpress.com/2018/06/remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
+* [Remalia Haventree](^remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
 
 ## Lords' Alliance NPCs
 
