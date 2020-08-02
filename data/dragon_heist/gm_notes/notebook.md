@@ -90,4 +90,3 @@ These are things to take out of the party funds when I remember:
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
-* Add monster stats to wiki next time I'm prepping for a fight
