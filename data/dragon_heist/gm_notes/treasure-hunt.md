@@ -15,7 +15,7 @@ A bronze dragon scale, stamped with the private symbol of Dagult Neverember, ref
 
 ### Bronze Dragon Scale
 
-[Zelifarn](^zelifarn.jpg), a [young bronze dragon](/dnd/monsters/bronze dragon#young-bronze-dragon) living in Deepwater Harbor, looking for treasure.
+[Zelifarn](^zelifarn.jpg), a [young bronze dragon](/dnd/monster/bronze dragon#young-bronze-dragon) living in Deepwater Harbor, looking for treasure.
 
  * Seen by many sailors and dockworkers
  * Lurking inside a shipwreck 120 feet underwater
