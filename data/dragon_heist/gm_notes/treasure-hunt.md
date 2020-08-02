@@ -34,6 +34,7 @@ A bronze dragon scale, stamped with the private symbol of Dagult Neverember, ref
 When the players step in, they have enough to take in the room, and then they notice things start to move. The objects around them slowly come to life and attack them. They need to find the mechanism to shut it off.
 
 Animated objects (stats per *[animate objects](/dnd/spell/animate objects)* spell):
+
  * Suit of armor with bastard sword (medium)
    * When it comes apart, it starts to grapple person who killed it, trying to trap them in the suit
  * Table (medium)
@@ -44,13 +45,13 @@ Animated objects (stats per *[animate objects](/dnd/spell/animate objects)* spel
 
 Items on the shelf/ground:
 
- * Hour glass, sand flows in reverse
- * Engraved pen from his wife
- * Broken wand
+ * [Hourglass](^Hourglass.jpg), sand flows in reverse
+ * [Engraved pen](^engraved_pen.jpg) from his wife
+ * [Broken wand](^broken_wand.jpg)
    * From his apprenticeship
- * Medal given to him during his inauguration as Open Lord
+ * [Medal](^gold_medal.jpg) given to him during his inauguration as Open Lord
    * In the hand of the robber
- * Toy soldier
+ * [Toy soldier](^toy_soldier.jpg)
    * On the ground
    * Renaer's childhood toy, who's surprised his dad kept it
    * Holding the toy sword, if the sword is put in its scabbard the defenses are disabled
