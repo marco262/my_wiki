@@ -8,7 +8,7 @@ import re
 
 from bottle import template, TemplateError
 from markdown2 import Markdown
-from src.common.utils import title_to_page_name
+from src.common.utils import title_to_filename
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = ["header-ids", "wiki-tables", "toc", "strike"]
@@ -64,7 +64,7 @@ class MarkdownParser:
 
     @staticmethod
     def check_for_md_file(dir, filename):
-        filename = title_to_page_name(filename)
+        filename = title_to_filename(filename)
         path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename)
         # print(path)
         return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
