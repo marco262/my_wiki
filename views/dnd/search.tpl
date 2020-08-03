@@ -8,15 +8,21 @@ Search Key:
 
 <div id="search_results">
     % if not defined("search_results"):
-    <i>Search results will appear here</i>
+    <em>Search results will appear here</em>
     % else:
     %   for title, filepath, html_link, context in search_results:
     <div class="search-result">
         <h2 class="search-result-title"><a href="{{ html_link }}">{{ title }}</a></h2>
         <div class="search-result-path">Path: {{ filepath }}</div>
+        % if context:
         <blockquote class="search-result-context">{{! context }}</blockquote>
+        % end
     </div>
     %   end
+    <hr>
+    <div id="query-time">
+        Your results were returned in {{ query_time }} seconds.
+    </div>
     % end
 </div>
 
