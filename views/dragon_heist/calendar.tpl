@@ -1,4 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/static/css/calendar.css">
+
+<h2>Current Year: 1494 DR</h2>
+
 <%
 from src.dragon_heist.calendar_builder import CalendarBuilder
 month_width = 1110

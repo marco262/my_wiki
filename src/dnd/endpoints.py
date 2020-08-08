@@ -2,13 +2,12 @@ from collections import defaultdict, OrderedDict
 from glob import glob
 from json import loads, load, dump
 from os.path import splitext, basename, isfile
-from time import time
 
 import toml
 from bottle import view, request, HTTPError, Bottle, redirect
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
-from src.common.utils import str_to_bool, md_page, title_to_filename
+from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
 from src.dnd.utils import class_spell
 
@@ -64,7 +63,7 @@ def load_wsgi_endpoints(app: Bottle):
     # Categories
 
     def get_md_page(category, name):
-        formatted_name = title_to_filename(name)
+        formatted_name = title_to_page_name(name)
         path = f"data/dnd/{category}/{formatted_name}.md"
         try:
             md = MD.parse_md_path(path, namespace="dnd")
@@ -113,7 +112,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
     def spell(name):
-        formatted_name = title_to_filename(name)
+        formatted_name = title_to_page_name(name)
         loaded_spells = load_spells()
         if formatted_name not in loaded_spells:
             raise HTTPError(404, f"I couldn't find a spell by the name of \"{name}\".")
@@ -129,10 +128,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.route('/search/<search_term>')
     @view('dnd/search.tpl')
     def search_with_results(search_term):
-        t = time()
-        results = SEARCH_OBJ.run(search_term)
-        query_time = time() - t
-        return {"search_key": search_term, "search_results": results, "query_time": query_time}
+        return {"search_key": search_term, "search_results": SEARCH_OBJ.run(search_term)}
 
     @app.get('/find_spell')
     @view('dnd/find_spell.tpl')

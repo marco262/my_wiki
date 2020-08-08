@@ -1,7 +1,13 @@
+<script type="module">
+    import {init_links, init_visual_aid} from "/js/dragon_heist/gm_notes.js";
+    init_links();
+    init_visual_aid();
+</script>
+
 * [Notebook](Notebook)
 * [Waterdeep Interactive Map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 * [Calendar](/dragon_heist/calendar)
-* [Tea Party With Tomassin](Tea Party With Tomassin)
+* [Soundboard](Soundboard)
 
 Enter another URL to set as Visual Aid here:
 
@@ -9,7 +15,14 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/dragon_heist/visual_aid)
 
-## Images
+# Events 
+
+* [Tea Party With Tomassin](Tea Party With Tomassin)
+* [Faction missions](Faction Missions)
+* [Spring encounters](Spring Encounters)
+* [Treasure hunt](Treasure Hunt)
+
+# Images
 
 * [Da party](^dnd_party.png)
   * [Les Marquis de Sallies et Kellemage](^marquis_de_sallies.jpg)
@@ -21,6 +34,7 @@ Enter another URL to set as Visual Aid here:
 ### Wards
 
 * Castle Ward [1](^castle_ward_1.jpg), [2](^castle_ward_2.jpg), [3](^castle_ward_3.jpg)
+ * [Ahghairon's Tower](^ahghairons_tower.jpg)
 * City of the Dead [1](^city_of_the_dead_1.jpg), [2](^city_of_the_dead_2.jpg), [3](^city_of_the_dead_3.jpg), [4](^city_of_the_dead_4.jpg), [5](^city_of_the_dead_5.jpg)
 * Dock Ward [1](^dock_ward_1.jpg), [2](^dock_ward_2.jpg)
 * Field Ward [1](^field_ward_1.jpg), [2](^field_ward_2.jpg)
@@ -56,14 +70,18 @@ Enter another URL to set as Visual Aid here:
 * [Floon Blagmaar](^floon_blagmaar.jpg)
 * [Renaer Neverember](^renaer_neverember.jpg)
 * [Yendan Snazzyfeet](^yendan_snazzyfeet.jpg)
+* [Tomassin Gralhund](^tomassin_gralhund.jpg)
+* [Ulkoria Stronemarrow](^ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
+  * [Ulkoria's Shield Guardian](^shield_guardian.jpeg)
+* [Shard Shunners](Shard Shunners)
+* [Durnan](^durnan.jpg), proprietor of the yawning Portal
+  * [Mhaere Dryndilstann](^mhaere_dryndilstann.jpg), wife of Durnan, handles selling equipment to adventurers going into Undermountain
 
 ## Guild NPCs
 
 * [Broxley Fairkettle](^broxley_fairkettle.jpg), representative for the Fellowship of Innkeepers
 * [Hammon Kraddoc](^hammon_kraddoc.jpg), representative for the Vintners', Distillers', and Brewers' Guild
 * [Justyn Rassk](^justyn_rassk.jpg), representative for the Guild of Butchers
-* [Ulkoria Stronemarrow](^ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
-* [Ulkoria's Shield Guardian](^shield_guardian.jpeg)
 
 ## [Faction NPCs](Faction NPCs)
 
@@ -78,11 +96,9 @@ Enter another URL to set as Visual Aid here:
 * [Nihiloor](^nihiloor.png), mind-flayer
 * [Intellect Devourer](^intellect_devourer.jpg)
 * [Emmek Frewn](^emmek_frewn.jpg), owner of Frewn's Brews
-* [Shard Shunners](^shard_shunners.jpg)
 * [Yalah & Orond Gralhund](^yalah_orond_gralhund.png), owners of the Nimblewright
 * [Hrabbaz](^hrabbaz.png)
 * [The Black Viper](^the_black_viper.jpg)
-* [Tomassin Gralhund](^tomassin_gralhund.jpg)
 
 ## Misc NPCs
 
@@ -95,17 +111,4 @@ Enter another URL to set as Visual Aid here:
 * [Nimblewright](^nimblewright.png) who set off the Fireball
 * Other nimblewright images: [1](^other_nimblewright_1.jpg), [2](^other_nimblewright_2.jpg), [3](^other_nimblewright_3.jpg)
 * [Zardoz Zord](^zardoz_zord.jpg), owner of the Sea Maidens Faire
-
-# [Faction Missions](Faction Missions)
-
-# [Spring Encounters](Spring Encounters)
-
-# [Treasure Hunt](Treasure Hunt)
-
-# [Soundboard](Soundboard)
-
-<script type="module">
-    import {init_links, init_visual_aid} from "/js/dragon_heist/gm_notes.js";
-    init_links();
-    init_visual_aid();
-</script>
+* [Laerel Silverhand](^laeral_silverhand.jpg), current Open Lord of Waterdeep

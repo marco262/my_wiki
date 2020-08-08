@@ -367,6 +367,10 @@ blockquote {
 	background-color: #f4f4f4;
 }
 
+#custom_visual_aid_url, #custom_soundboard_url {
+    width: 300px;
+}
+
 .visual-aid-link {
     color: blue;
     text-decoration: underline dashed blue;
@@ -375,11 +379,6 @@ blockquote {
 
 .search-result-path {
     margin-top: -5px;
-    font-style: italic;
-    font-size: 80%;
-}
-
-#query-time {
     font-style: italic;
     font-size: 80%;
 }

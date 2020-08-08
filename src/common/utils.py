@@ -112,7 +112,7 @@ def create_tooltip(text, tooltip_text=None):
     return text
 
 
-def title_to_filename(title):
+def title_to_page_name(title):
     """
     Converts a title (e.g. "Beast Master (Revamped)") to a markdown filename (e.g. "beast-master-revamped")
     :param title:
@@ -126,7 +126,7 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         # Avoiding circular dependencies
         from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
         markdown_parser = DEFAULT_MARKDOWN_PARSER
-    path_name = title_to_filename(page_title)
+    path_name = title_to_page_name(page_title)
     if directory:
         path_name = os.path.join(directory, path_name)
     if namespace:

@@ -15,17 +15,42 @@ Spellbook reward can be sold for 275gp
 
 ### Welcome to the Family
 
+([doppelganger stats](/dnd/monster/doppelganger))
+
+The doppelgangers arrived in Waterdeep three years ago as a group, initially intending to perform marvelous cons in this great city. However, they couldn't come to agreements on how to go about it, which lead to a falling out and the group splintered. They're still friends and meet up every now and then, but they no longer have any plans to perform cons together.
+
+The recent uptick in monster-people causing problems in Waterdeep (mostly XG is to blame for this) has lead to the City Guard cracking down on non-citizens of Waterdeep, and especially monstrosities. Bonnie is worried that her and her friends will be targeted during this investigation.
+
 * [Threestrings](^threestrings.jpg)
 * [Durnan](^durnan.jpg)
 * [Bonnie](^bonnie.jpg)
+  * Wants to help her group get protection and live normal lives
 * [Willifort Crowelle](^willifort_crowelle.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
-* [Naneatha Lharilstar](^naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)
-* [Cecil Weiss](^cecil_weiss.png), male human bard (doppelganger) who makes his livings a musician/actor/playwright 
+  * Too proud to be a "pawn in another's plot"
+  * Could be swayed with promises of political favors given to the Cassalanters
+    * The Cassalanters' industry is banking and money-lending, with a side-hustle of rumormongering
+* [Naneatha Lharilstar](^naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)  
+  * Will insist on meeting somewhere other than her estate because she never learned that Nanathea is an old friend of Durnan.
+  * Feels that with her new role, she's above having to work for others to please them.
+  * Can be swayed if her identity is threatened.
+  * History:
+      * Originally was a public carriage driver.
+      * Took Naneatha's identity after she died in an "accident". Will refuse to give more information.
+        * The truth is that the real Naneatha died when her carriage was blown off a cliff in a freak windstorm, and was mortally wounded. The doppelganger finished the fall's work and has taken her identity.
+      * Now acts as a courtesan around Piergeiron's Palace, earning many sugar daddies to keep up her luxurious lifestyle. 
+* [Cecil Weiss](^cecil_weiss.png), male human bard (doppelganger) who makes his living as a musician/actor/playwright
+  * Investigation/History/Performance DC 15 to recognize Cecil Weiss' name:
+    * Up and coming entertainer
+    * Rivals and competition have been coming into strange scandals or having "accidents" 
+  * Would ask for 500 gp in return for the work, but could be swayed by proper threats to his reputation
 * [Vaniel Shortwick](^vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall, part of the [Shard Shunners](shard-shunners)
+  * Begs the party not to tell Dasher or any of the Shard Shunners
+  * Will take the offer if the players use her identity as leverage
 
 ## Zhentarim
 
 ### Bad Time To Be An Elf
+
 * [Muleskull Tavern](^https://db4sgowjqfwig.cloudfront.net/campaigns/212984/assets/947873/tavern.jpg?1551016890), owned by [Richard Charleston](^https://i.pinimg.com/236x/96/34/02/96340289f99fdbc0e95eda781796d3d6--fantasy-pirate-male-male-pirate.jpg)
 * [Heldar](^https://i.pinimg.com/originals/9c/c0/47/9cc047c12cacae391737a80f5a77cf85.png), half-elf sailor who drinks at Muleskull Tavern
 * Soluun Xibrindas, drow gunslinger ([1](^https://66.media.tumblr.com/d44d413b6dcd87a52eda9d146465cb8a/tumblr_ozqvk1Tgjf1rma5aio1_1280.png), [2](^https://66.media.tumblr.com/9156a8b7ee160f6f390f961b51ae9675/tumblr_pkq6ymt4NB1wl8znio1_1280.png))
