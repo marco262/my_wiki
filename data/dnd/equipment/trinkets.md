@@ -2,7 +2,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 
 [[div style="display: inline-block; vertical-align: top; width: 40%; "]]
 ||~ d100 ||~ Trinket ||
-|| 01 || A mummified goblin hand touch ||
+|| 01 || A mummified goblin hand ||
 || 02 || A piece of crystal that faintly glows in the moonlight ||
 || 04 || A diary written in a language you don't know ||
 || 05 || A brass ring that never tarnishes ||
@@ -27,7 +27,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 || 24 || A multicolored stone disk 48 A glass orb filled with water, in which swims a ||
 || 25 || A tiny silver icon of a raven clockwork goldfish ||
 || 26 || A bag containing forty-seven humanoid teeth, one of which is rotten ||
-|| 27 || A shard of obsidian that always feels warm to the ||
+|| 27 || A shard of obsidian that always feels warm to the touch ||
 || 28 || A dragon's bony talon hanging from a plain leather ||
 || 29 || A pair of old socks ||
 || 30 || A blank book whose pages refuse to hold ink, chalk, ||

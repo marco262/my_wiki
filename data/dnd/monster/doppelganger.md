@@ -1,5 +1,5 @@
 [[include dnd/monster-sheet]]
-width = 400px
+width = 600px
 name = Doppelganger
 size = Medium
 type = Monstrosity

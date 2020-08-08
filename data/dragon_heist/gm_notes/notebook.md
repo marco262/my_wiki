@@ -57,6 +57,7 @@ Modifier to roll: -10
  * Learned, Prestidigitation, Mage Hand, and Catapult
  * Has proficiency in medicine, but nothing else
  * 0th level commoner with 1st level sorcerer HP
+ * Mentor: Copper dragonborn, Bronn-Finds-The-Way
 
 ## Expenses
 
@@ -71,14 +72,8 @@ These are things to take out of the party funds when I remember:
 * Harpers Mission, "Welcome to the Family"
 * Tomassin asks after Emir, clearly smitten
   * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
-* Looking for a mentor for Brendaniel. Ulkoria will find a Draconic Sorcerer to tutor Brendaniel
-* Meeting up with the doppelgangers and offering them a "look like us and draw the XG's fire" challenge
-* Waiting for Renaer to come back with news about his father's symbol
-* Seeking out info about the Pink Flumph theater:
-  * Sewer plans?
-  * Patrons?
-  * Sneak in?
-  * Become a part of the play?
+* Cecil Weiss has left tickets for them on the 11th, for Kiss of the Lamia
+* Brendaniel has a mentor!
 
 ---
 
@@ -87,11 +82,8 @@ These are things to take out of the party funds when I remember:
 
 ## Things to bring up to the players
 
-* They may not have a scholars' knowledge of doppelgangers, but they do know a scholar of monsters.
-* When the dragon is mentioned, ask for a History check DC 15.
-  * Ahghairon was Waterdeep's first Open Lord, and his tower still stands in the Southwest corner of the Castle Ward.
-  * In the mid-11th century DR, Ranressa Shiard returned as a hero from her journeys to Waterdeep atop the mighty copper dragon Galadaeros. Although she was welcomed home, the appearance of her mount flying over the city unsettled the majority of the populace. Ahghairon lead a ritual to create *Ahghaiton's dragonward* to allay their fears.
-  * The dragonward is centered on [Ahghairon's tower](^ahghairons_tower.jpg), and encompasses all of Waterdeep, as far as anyone knows.
+* Renaer will mention that he can get them an audience with [Laerel Silverhand](^laeral_silverhand.jpg), current Open Lord of Waterdeep.
+* Level up the players after the cabin
 
 ## TODO
 
@@ -99,5 +91,4 @@ These are things to take out of the party funds when I remember:
 * Soundboard:
   * Add volume control
 * Monsters to add to wiki:
-  * Faerie dragon
   * Gold dragon
