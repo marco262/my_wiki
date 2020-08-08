@@ -3,11 +3,19 @@
     init_links();
 </script>
 
+## Important Notes
+
+* *Ahghairon's dragonward*
+  * Ahghairon was Waterdeep's first Open Lord, and his tower still stands in the Southwest corner of the Castle Ward.
+  * In the mid-11th century DR, Ranressa Shiard returned as a hero from her journeys to Waterdeep atop the mighty copper dragon Galadaeros. Although she was welcomed home, the appearance of her mount flying over the city unsettled the majority of the populace. Ahghairon lead a ritual to create *Ahghairon's dragonward* to allay their fears.
+  * The dragonward is centered on [Ahghairon's tower](^ahghairons_tower.jpg), and encompasses all of Waterdeep, as far as anyone knows.
+
 ## Pink Flumph Theater
 
+* *Kiss of a Lamia* was written by Cecil Weiss
 * [Yaliek Iltizmar](^yaliek_iltizmar.jpg), plays the evil prince in *Kiss of a Lamia*
 * [Iokaste Daliano](^iokaste_daliano.png), middle-aged widow, owner of the Pink Flumph Theater
-* [Wishes](^faerie_dragon.jpg), protects the theater
+* [Wishes](^faerie_dragon.jpg), [faerie dragon](/dnd/monster/faerie dragon), protects the theater
 
 ## Vault Key
 
