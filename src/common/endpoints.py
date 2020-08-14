@@ -1,7 +1,8 @@
-from git import Repo
 from time import ctime
 
 from bottle import static_file, Bottle
+from git import Repo
+
 from src.common.utils import md_page
 
 START_TIME = ctime()
@@ -55,3 +56,11 @@ def load_wsgi_endpoints(app: Bottle):
         print("Waiting for server restart")
         # The bottle server will reload automatically
         return "Restarting"
+
+    @app.get("/restart")
+    def restart():
+        raise KeyboardInterrupt
+
+    @app.get("/shutdown")
+    def shutdown():
+        raise SystemExit
