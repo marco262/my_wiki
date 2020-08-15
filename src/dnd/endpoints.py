@@ -139,6 +139,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list_table.tpl")
     def search_results(search_key):
         results = []
+        search_key = search_key.lower()
         for k, v in load_spells().items():
             if search_key in v['title'].lower():
                 results.append((k, v))
