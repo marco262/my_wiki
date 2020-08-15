@@ -64,6 +64,12 @@ But that is a story for another time. This story has more humble beginnings. We 
         <td>A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself.</td>
     </tr>
     <tr>
+        <td>Hat of Disguise</td>
+        <td>
+            While attuned and wearing this hat, you can use an action to cast the Disguise Self spell from it at will. The spell ends if the hat is removed.
+        </td>
+    </tr>
+    <tr>
         <td>Stone of Golorr</td>
         <td>
             <p>While attuned to this artifact, you have access to the following features of this item:</p>
