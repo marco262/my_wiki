@@ -112,3 +112,30 @@ Text block
         md = MarkdownParser()
         actual = md.convert_popup_links(text)
         self.assertEqual(expected, actual)
+
+    def test_build_bibliography(self):
+        text = """
+<p><strong>Garrote.</strong>[((bibcite homebrew))] Can only be used on ...</p>
+
+<p><strong>Lance.</strong>[((bibcite errata))] You have disadvantage ...</p>
+
+[[bibliography]]
+: errata : <a href="https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf">2018 PHB Errata</a>
+: homebrew : Homebrew
+[[/bibliography]]
+"""
+        expected = """
+<p><strong>Garrote.</strong>[<a href="#homebrew">2</a>] Can only be used on ...</p>
+
+<p><strong>Lance.</strong>[<a href="#errata">1</a>] You have disadvantage ...</p>
+
+<p><strong>Bibliography</strong></p>
+
+<ol>
+    <li><a id="errata" /><a href="https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf">2018 PHB Errata</a></li>
+    <li><a id="homebrew" />Homebrew</li>
+</ol>
+"""
+        md = MarkdownParser()
+        actual = md.build_bibliography(text)
+        self.assertEqual(expected, actual)
