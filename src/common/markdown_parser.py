@@ -45,6 +45,7 @@ class MarkdownParser:
     def post_parsing(self, text):
         text = self.parse_accordions(text)
         text = self.convert_wiki_divs(text)
+        text = self.build_bibliography(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -91,39 +92,48 @@ class MarkdownParser:
         return text
 
     def add_includes(self, text):
-        for m in re.finditer(r'\[\[include (.*?)\]\](.*?)\[\[/include\]\]', text, re.DOTALL):
+        for m in re.finditer(r'\[\[include (.*?)\]\](.*?)(\[\[/include\]\])?', text, re.DOTALL):
             template_name = m.group(1)
 
-            rows = m.group(2).strip("\n").split("\n")
-            index = 0
+            rows = m.group(2).strip("\n")
             args = {}
-            while index < len(rows):
-                arg = rows[index]
-                try:
-                    k, v = arg.split("=", 1)
-                except ValueError:
-                    raise ValueError("Can't split line: " + arg)
-                k, v = k.strip(), v.strip()
-                if v.startswith("!!!"):
-                    # Gather the remaining lines
-                    full_value = v[3:] + "\n"
-                    while True:
-                        index += 1
-                        row = rows[index]
-                        if row.endswith("!!!"):
-                            full_value += row[:-3]
-                            break
-                        full_value += row + "\n"
-                    v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
-                elif v.startswith("!"):
-                    v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
-                args[k] = v
-                index += 1
+            if rows:
+                rows = rows.split("\n")
+                print(rows)
+                index = 0
+                while index < len(rows):
+                    arg = rows[index]
+                    try:
+                        k, v = arg.split("=", 1)
+                    except ValueError:
+                        raise ValueError("Can't split line: " + arg)
+                    k, v = k.strip(), v.strip()
+                    if v.startswith("!!!"):
+                        # Gather the remaining lines
+                        full_value = v[3:] + "\n"
+                        while True:
+                            index += 1
+                            row = rows[index]
+                            if row.endswith("!!!"):
+                                full_value += row[:-3]
+                                break
+                            full_value += row + "\n"
+                        v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
+                    elif v.startswith("!"):
+                        v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
+                    args[k] = v
+                    index += 1
 
-            try:
-                t = template(template_name + ".tpl", args)
-            except TemplateError:
-                raise TemplateError(f"Can't find template: {template_name}.tpl")
+            if template_name.endswith(".tpl"):
+                try:
+                    t = template(template_name + ".tpl", args)
+                except TemplateError:
+                    raise TemplateError(f"Can't find template: {template_name}.tpl")
+            elif template_name.endswith(".md"):
+                t = self.parse_md_path(os.path.join("data", template_name), namespace=self.namespace)
+            else:
+                raise ValueError("Unknown file: {}".format(template_name))
+
             text = text.replace(m.group(0), t)
         return text
 
@@ -142,6 +152,24 @@ class MarkdownParser:
     def convert_wiki_divs(text):
         text = re.sub(r"<p>\[\[div(.*?)\]\]</p>", r"<div\1>", text)
         text = re.sub(r"<p>\[\[/div\]\]</p>", "</div>", text)
+        return text
+
+    @staticmethod
+    def build_bibliography(text):
+        pattern = r"\[\[bibliography\]\](.*?)\[\[/bibliography\]\]"
+        m = re.search(pattern, text, re.DOTALL)
+        if m:
+            bib_list = []
+            cite_find_format = "[((bibcite {}))]"
+            cite_replace_format = '[<a href="#{}">{}</a>]'
+            bib_format = '    <li><a id="{}" />{}</li>'
+            for i, line in enumerate(m.group(1).strip("\n").split("\n")):
+                split_line = line.split(":", 2)
+                name = split_line[1].strip(" ")
+                text = text.replace(cite_find_format.format(name), cite_replace_format.format(name, i + 1))
+                bib_list.append(bib_format.format(name, split_line[2].strip(" ")))
+            text = text.replace(m.group(0), "<p><strong>Bibliography</strong></p>\n\n<ol>\n{}\n</ol>".format("\n".join(bib_list)))
+
         return text
 
 
