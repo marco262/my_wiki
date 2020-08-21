@@ -62,7 +62,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Categories
 
-    def get_md_page(category, name):
+    def get_md_page(category, name, build_toc=False):
         formatted_name = title_to_page_name(name)
         path = f"data/dnd/{category}/{formatted_name}.md"
         try:
@@ -72,7 +72,10 @@ def load_wsgi_endpoints(app: Bottle):
         if md.startswith("<p>REDIRECT "):
             redirect(md[12:-5])
         else:
-            return {"title": name.title(), "text": md, "toc": md.toc_html}
+            args = {"title": name.title(), "text": md}
+            if build_toc:
+                args["toc"] = md.toc_html
+            return args
 
     @app.get('/advancement/<name>')
     @view("common/page.tpl")
@@ -102,7 +105,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/monster/<name>')
     @view("common/page.tpl")
     def monster(name):
-        return get_md_page("monster", name)
+        return get_md_page("monster", name, build_toc=False)
 
     @app.get('/race/<name>')
     @view("common/page.tpl")
