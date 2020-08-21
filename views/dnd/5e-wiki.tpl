@@ -39,5 +39,5 @@
 % end
 
 [Search](/dnd/search)<br>
-[Find A Spell](/dnd/find_spell)<br>
+[Find a Spell](/dnd/find_spell)<br>
 [Spell Filter](/dnd/spell_filter)
