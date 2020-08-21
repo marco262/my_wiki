@@ -2,12 +2,12 @@
 For parsing *.md files, including special handling of wiki code
 """
 import os
-from urllib.parse import urlencode
-
 import re
 
+import toml
 from bottle import template, TemplateError
 from markdown2 import Markdown
+
 from src.common.utils import title_to_page_name
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
@@ -92,35 +92,42 @@ class MarkdownParser:
         return text
 
     def add_includes(self, text):
-        for m in re.finditer(r'\[\[include (.*?)]]((.*)\[\[/include]])?', text, re.DOTALL):
+        for m in re.finditer(r'\[\[include (.*?)]]((.*?)\[\[/include]])?', text, re.DOTALL):
             template_name = m.group(1)
 
             args = {}
             if m.group(3):
-                rows = m.group(3).strip("\n").split("\n")
-                index = 0
-                while index < len(rows):
-                    arg = rows[index]
-                    try:
-                        k, v = arg.split("=", 1)
-                    except ValueError:
-                        raise ValueError("Can't split line: " + arg)
-                    k, v = k.strip(), v.strip()
-                    if v.startswith("!!!"):
-                        # Gather the remaining lines
-                        full_value = v[3:] + "\n"
-                        while True:
-                            index += 1
-                            row = rows[index]
-                            if row.endswith("!!!"):
-                                full_value += row[:-3]
-                                break
-                            full_value += row + "\n"
-                        v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
-                    elif v.startswith("!"):
-                        v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
-                    args[k] = v
-                    index += 1
+                content = m.group(3).strip("\n")
+                if content.startswith("file"):
+                    args = toml.load(os.path.join("data", content.split("=")[1].strip(" ")))
+                    for k, v in args.items():
+                        if isinstance(v, str) and v.startswith("!"):
+                            args[k] = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
+                else:
+                    rows = content.split("\n")
+                    index = 0
+                    while index < len(rows):
+                        arg = rows[index]
+                        try:
+                            k, v = arg.split("=", 1)
+                        except ValueError:
+                            raise ValueError("Can't split line: " + arg)
+                        k, v = k.strip(), v.strip()
+                        if v.startswith("!!!"):
+                            # Gather the remaining lines
+                            full_value = v[3:] + "\n"
+                            while True:
+                                index += 1
+                                row = rows[index]
+                                if row.endswith("!!!"):
+                                    full_value += row[:-3]
+                                    break
+                                full_value += row + "\n"
+                            v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
+                        elif v.startswith("!"):
+                            v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
+                        args[k] = v
+                        index += 1
 
             if template_name.endswith(".tpl"):
                 try:
