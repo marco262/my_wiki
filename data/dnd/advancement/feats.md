@@ -605,7 +605,7 @@ Your hands become as strong as mountain stone, granting you the following benefi
 
 *Prerequisite: Elf (wood)*
 
-You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the *[[[spell:long strider]]]* and *[[[spell:pass without trace]]]* spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.
+You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the *[[[spell:longstrider]]]* and *[[[spell:pass without trace]]]* spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.
 
 # Skill Feats
 
