@@ -82,4 +82,4 @@ At 15th level, whenever an attacker that your companion can see hits it with an 
 
 ----
 
-*Source:* [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]
+*Source:* [Unearthed Arcana](http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf)

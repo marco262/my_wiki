@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin: 0; }
-[[/module]]
-
 # Player's Handbook
 
 ## Basic

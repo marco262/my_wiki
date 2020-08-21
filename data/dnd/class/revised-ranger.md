@@ -223,4 +223,4 @@ Across the wilds, rangers come together to form conclaves -- loose associations 
 
 ----
 
-*Source:* [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]
+*Source:* [Unearthed Arcana](http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf)

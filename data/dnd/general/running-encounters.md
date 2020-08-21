@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
-[[/module]]
-
 **Encounter Distance**
 ||~ Terrain ||~ Encounter Distance ||
 || Arctic, desert, farmland, grassland || 6d6 x 10 feet ||

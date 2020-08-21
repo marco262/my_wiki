@@ -241,9 +241,13 @@ Quick to notice details of your environment, you gain the following benefits:
 * You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.
 
 ## Polearm Master
+
 [[div class="errata"]]
+
 **Errata**
-The extra OA granted by Polearm Master must be made with the polearm. [http://www.sageadvice.eu/2015/03/27/war-caster-feat/ Sage Advice]
+
+The extra OA granted by Polearm Master must be made with the polearm. [Sage Advice](http://www.sageadvice.eu/2015/03/27/war-caster-feat/)
+
 [[/div]]
 
 You can keep your enemies at bay with reach weapons. You gain the following benefits:

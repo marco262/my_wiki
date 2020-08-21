@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
-[[/module]]
-
 Adventurers are extraordinary people driven by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.
 
 Class is the primary definition of what your character can do. It's more than a profession; it's your character's calling. Class shapes the way you think about the world and interact with it and your relationship with other people and powers in the multiverse. A fighter, for example, might view the world in pragmatic terms of strategy and maneuvering, and see herself as just a pawn in a much larger game. A cleric, by contrast, might see himself as a willing servant in a god's unfolding plan or a conflict brewing among various deities. While the fighter has contacts in a mercenary company or army,

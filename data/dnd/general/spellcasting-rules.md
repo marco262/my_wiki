@@ -21,10 +21,15 @@ Before a spellcaster can use a spell, he or she must have the spell firmly fixed
 In every case, the number of spells a caster can have fixed in mind at any given time depends on the character's level.
 
 ## Spell Slots
+
 [[div class="phb-sidebar"]]
+
 **Casting in Armor**
+
 Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting.
+
 [[/div]]
+
 Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higher-level spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Umara has four 1st-level spell slots and two 2nd-level slots.
 
 When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively "filling" a slot with the spell. You can think of a spell slot as a groove of a certain size -- small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Umara casts magic missile, a 1st-level spell, she spends one of her four 1st-level slots and has three remaining.
@@ -43,14 +48,16 @@ Some spells, such as magic missile and cure wounds, have more powerful effects w
 
 A cantrip is a spell that can be cast at will, without using a spell slot and without being prepared in advance. Repeated practice has fixed the spell in the caster's mind and infused the caster with the magic needed to produce the effect over and over. A cantrip's spell level is 0.
 
-## [[# rituals]]Rituals
+## Rituals
 
-Certain spells have a special tag: [[[general:ritual-spells|ritual]]]. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level.
+Certain spells have a special tag: [ritual](/dnd/ritual_spells/true). Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level.
 
 To cast a spell as a ritual, a spellcaster must have a feature that grants the ability to do so. The cleric and the druid, for example, have such a feature. The caster must also have the spell prepared or on his or her list of spells known, unless the character's ritual feature specifies otherwise, as the wizard's does.
 
 # Casting a Spell
+
 [[div class="phb-sidebar"]]
+
 **The Schools of Magic**
 
 Academies of magic group spells into eight categories called schools of magic. Scholars, particularly wizards, apply these categories to all spells, believing that all magic functions in essentially the same way, whether it derives from rigorous study or is bestowed by a deity.
@@ -74,10 +81,12 @@ The schools of magic help describe spells; they have no rules of their own, alth
 Creating the undead through the use of necromancy spells such as *[[[spell:animate dead]]]* is not a good act, and only evil casters use such spells frequently.
 
 **Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
+
 [[/div]]
+
 When a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.
 
-Each [[[general:spells-by-name|spell description]]] begins with a block of information, including the spell's name, level, school of magic, casting time, range, components, and duration. The rest of a spell entry describes the spell's effect.
+Each spell description begins with a block of information, including the spell's name, level, school of magic, casting time, range, components, and duration. The rest of a spell entry describes the spell's effect.
 
 ## Casting Time
 
@@ -117,9 +126,9 @@ Most spells require the chanting of mystic words. The words themselves aren't th
 
 Spellcasting gestures might include a forceful gesticulation or an intricate set of gestures. If a spell requires a somatic component, the caster must have free use of at least one hand to perform these gestures.
 
-### [[# spellcasting-focus]]Material (M)
+### Material (M)
 
-Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a [[[equipment:adventuring-gear#component-pouch|component pouch]]] or a [[[equipment:adventuring-gear#spellcasting-focus|spellcasting focus]]] in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
+Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a [[[equipment:adventuring-gear#component-pouch|component pouch]]] or a [[[equipment:adventuring-gear#material-m|spellcasting focus]]] in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
 
 If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.
 
@@ -133,7 +142,7 @@ A spell's duration is the length of time the spell persists. A duration can be e
 
 Many spells are instantaneous. The spell harms, heals, creates, or alters a creature or an object in a way that can't be dispelled, because its magic exists only for an instant.
 
-### [[# concentration]]Concentration
+### Concentration
 
 Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.
 
@@ -162,6 +171,7 @@ If you place an area of effect at a point that you can't see and an obstruction,
 If a spell targets a creature of your choice, you can choose yourself, unless the creature must be hostile or specifically a creature other than you. If you are in the area of effect of a spell you cast, you can target yourself.
 
 [[div class="phb-sidebar"]]
+
 **The Weave of Magic**
 
 The worlds within the D&D multiverse are magical places. All existence is suffused with magical power, and potential energy lies untapped in every rock, stream, and living creature, and even in the air itself. Raw magic is the stuff of creation, the mute and mindless will of existence, permeating every bit of matter and present in every manifestation of energy throughout the multiverse.
@@ -171,9 +181,10 @@ Mortals can't directly shape this raw magic. Instead, they make use of a fabric 
 All magic depends on the Weave, though different kinds of magic access it in a variety of ways. The spells of wizards, warlocks, sorcerers, and bards are commonly called **arcane magic**. These spells rely on an understanding -- learned or intuitive -- of the workings of the Weave. The caster plucks directly at the strands of the Weave to create the desired effect. Eldritch knights and arcane tricksters also use arcane magic. The spells of clerics, druids, paladins, and rangers are called divine magic. These spellcasters' access to the Weave is mediated by **divine power** -- gods, the divine forces of nature, or the sacred weight of a paladin's oath.
 
 Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible. When characters use divination spells such as detect magic or identify, they glimpse the Weave. A spell such as dispel magic smooths the Weave. Spells such as antimagic field rearrange the Weave so that magic flows around, rather than through, the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways -- or not at all.
+
 [[/div]]
 
-## [[# areas-of-effect]]Areas of Effect
+## Areas of Effect
 
 Spells such as *[[[spell:burning hands]]]* and *[[[spell:cone of cold]]]* cover an area, allowing them to affect multiple creatures at once.
 

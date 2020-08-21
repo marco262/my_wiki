@@ -46,7 +46,7 @@ Tieflings share certain racial traits as a result of their infernal descent.
 [[div class="errata"]]
 **Infernal Legacy Errata**
 Here "once per day" means you must finish a long rest to cast the spell again with the trait.
-[https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf Player's Handbook Errata]
+[Player's Handbook Errata](https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf)
 [[/div]]
 * **Ability Score Increase.** Your Intelligence score increases by 1, and your Charisma score increases by 2.
 * **Age.** Tieflings mature at the same rate as humans but live a few years longer.
