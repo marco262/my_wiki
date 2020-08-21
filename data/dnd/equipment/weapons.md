@@ -5,6 +5,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 *Editor's Note: Unarmed strike has been removed from the weapons table*[((bibcite errata))]
 
 **Simple Melee Weapons**
+
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Club || 1 sp || 1d4 bludgeoning || 2 lb. || Light ||
 || Dagger || 2 gp || 1d4 piercing || 1 lb. || Finesse, light, thrown (range 20/60) ||
@@ -19,6 +20,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 || Spear || 1 gp || 1d6 piercing || 3 lb. || Thrown (range 20/60), versatile (1d8) ||
 
 **Simple Ranged Weapons**
+
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Crossbow, light || 25 gp || 1d8 piercing || 5 lb. || Ammunition (range 80/320), loading, two-handed ||
 || Dart || 5 cp || 1d4 piercing || 1/4 lb. || Finesse, thrown (range 20/60) ||
@@ -26,6 +28,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 || Sling || 1 sp || 1d4 bludgeoning || -- || Ammunition (range 30/120) ||
 
 **Martial Melee Weapons**
+
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Battleaxe || 10 gp || 1d8 slashing || 4 lb. || Versatile (1d10) ||
 || Flail || 10 gp || 1d8 bludgeoning || 2 lb. || -- ||
@@ -47,6 +50,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 || Whip || 2 gp || 1d4 slashing || 3 lb. || Finesse, reach ||
 
 **Martial Ranged Weapons**
+
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Blowgun || 10 gp || 1 piercing || 1 lb. || Ammunition (range 25/100), loading ||
 || Crossbow, hand || 75 gp || 1d6 piercing || 3 lb. || Ammunition (range 30/120), light, loading ||
@@ -101,10 +105,15 @@ An object that bears no resemblance to a weapon deals 1d4 damage (the DM assigns
 Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.
 
 ### Special Weapons
+
 [[div class="errata"]]
+
 **Alternate rules for Garrote:**
+
 Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is grappled. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. You must use two hands to maintain the grapple.
+
 [[/div]]
+
 Weapons with special rules are described here.
 
 **Garrote.**[((bibcite homebrew))] Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is grappled. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. The Escape DC is 8 + your proficiency bonus + your STR/DEX, whichever you used for the attack. You must use two hands to maintain the grapple, and while maintaining the grapple, you cannot use the garrote to do damage to the target in subsequent rounds.

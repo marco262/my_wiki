@@ -3,6 +3,7 @@ D&D worlds are a vast tapestry made up of many different cultures, each with its
 The Armor table shows the cost, weight, and other properties of the common types of armor worn in the worlds of D&D.
 
 **Armor**
+
 ||~ Armor ||~ Cost ||~ Armor Class (AC) ||~ Strength ||~ Stealth ||~ Weight ||
 |||||||||||| *Light Armor* ||
 || Padded || 5 gp || 11 + Dex modifier || -- || Disadvantage || 8 lb. ||
@@ -33,6 +34,7 @@ The Armor table shows the cost, weight, and other properties of the common types
 **Shields.** A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
 
 [[div class="phb-sidebar"]]
+
 **Variant: Equipment Sizes**
 
 In most campaigns, you can use or wear any equipment that you find on your adventures, within the bounds of common sense. For example, a burly half-orc won't fit in a halfling's leather armor, and a gnome would be swallowed up in a cloud giant's elegant robe.
@@ -40,7 +42,9 @@ In most campaigns, you can use or wear any equipment that you find on your adven
 The DM can impose more realism. For example, a suit of plate armor made for one human might not fit another one without significant alterations, and a guard's uniform might be visibly ill-fitting when an adventurer tries to wear it as a disguise.
 
 Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armorsmith, tailor, leatherworker, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The DM can either roll 1d4 x 10 or determine the increase in cost based on the extent of the alterations required.
+
 [[/div]]
+
 ## Light Armor
 
 Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
@@ -88,6 +92,7 @@ The time it takes to don or doff armor depends on the armor's category.
 **Doff.** This is the time it takes to take off armor. If you have help, reduce this time by half.
 
 **Donning and Doffing Armor**
+
 ||~ Category ||~ Don ||~ Doff ||
 || Light Armor || 1 minute || 1 minute ||
 || Medium Armor || 5 minutes || 1 minute ||

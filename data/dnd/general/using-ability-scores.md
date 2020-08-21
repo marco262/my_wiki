@@ -1,5 +1,3 @@
-[[f>toc]]
-
 Six abilities provide a quick description of every creature's physical and mental characteristics:
 
 * **Strength**, measuring physical power
@@ -24,6 +22,7 @@ A score of 10 or 11 is the normal human average, but adventurers and many monste
 Each ability also has a modifier, derived from the score and ranging from 5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
 
 **Ability Scores and Modifiers**
+
 ||~ Score ||~ Modifier ||~ Score ||~ Modifier ||
 || 1 || -5 || 16-17 || +3 ||
 || 2-3 || -4 || 18-19 || +4 ||
@@ -69,6 +68,7 @@ An ability check tests a character's or monster's innate talent and training in 
 For every ability check, the DM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
 **Typical Difficulty Classes**
+
 ||~ Task Difficulty ||~ DC ||
 || Very easy || 5 ||
 || Easy || 10 ||

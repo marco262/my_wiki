@@ -1,6 +1,7 @@
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
 
-[[div style="display: inline-block; vertical-align: top; width: 40%; "]]
+[[div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;"]]
+
 ||~ d100 ||~ Trinket ||
 || 01 || A mummified goblin hand ||
 || 02 || A piece of crystal that faintly glows in the moonlight ||
@@ -52,8 +53,11 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 || 50 || A whistle made from gold-colored wood ||
 || 51 || A dead scarab beetle the size of your hand ||
 || 52 || Two toy soldiers, one with a missing head ||
+
 [[/div]]
-[[div style="display: inline-block; vertical-align: top; width: 40%; "]]
+
+[[div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;"]]
+
 ||~ d100 ||~ Trinket ||
 || 53 || A small box filled with different-sized buttons ||
 || 54 || A candle that can't be lit ||
@@ -103,4 +107,5 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 || 98 || A glass jar containing lard with a label that reads, "Griffon Grease" ||
 || 99 || A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body ||
 || 100 || A metal urn containing the ashes of a hero ||
+
 [[/div]]

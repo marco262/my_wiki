@@ -1,8 +1,6 @@
 > "Yer late, elf!" came the rough edge of a familiar voice. Bruenor Battlehammer walked up the back of his dead foe, disregarding the fact that the heavy monster lay on top of his elven friend. In spite of the added discomfort, the dwarf's long, pointed, often-broken nose and graystreaked though still-fiery red beard came as a welcome sight to Drizzt. "Knew I'd find ye in trouble if I came out an' looked for ye!"
 > --R. A. Salvatore, The Crystal Shard
 
-[[f>toc]]
-
 Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs -- these common threads unite all dwarves.
 
 # Short and Stout
