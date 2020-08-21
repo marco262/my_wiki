@@ -1,5 +1,6 @@
-<title>{{title}} - Private 5e Wiki</title>
+<!DOCTYPE html>
 <head>
+    <title>{{title}} - Private 5e Wiki</title>
     <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
 </head>
 <body>
