@@ -1,4 +1,4 @@
-[[div style="float: left; padding-right: 10px; "]]
+[[div style="float: left; padding-right: 10px; margin-bottom: 20px"]]
 
 **Mounts and Other Animals**
 
