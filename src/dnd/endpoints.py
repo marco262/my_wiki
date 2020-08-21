@@ -1,10 +1,11 @@
 from collections import defaultdict, OrderedDict
 from glob import glob
 from json import loads, load, dump
+from os.path import join as pjoin
 from os.path import splitext, basename, isfile
 
 import toml
-from bottle import view, request, HTTPError, Bottle, redirect
+from bottle import view, request, HTTPError, Bottle, template
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
@@ -13,6 +14,10 @@ from src.dnd.utils import class_spell
 
 SPELLS = {}
 SEARCH_OBJ = Search()
+
+INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
+file = {}
+[[/include]]"""
 
 
 def init():
@@ -63,37 +68,40 @@ def load_wsgi_endpoints(app: Bottle):
     # Categories
 
     @app.get('/advancement/<name>')
-    @view("common/page.tpl")
     def advancement(name):
         return md_page(name, "dnd", "advancement", build_toc=False)
 
     @app.get('/background/<name>')
-    @view("common/page.tpl")
     def background(name):
         return md_page(name, "dnd", "background", build_toc=False)
 
     @app.get('/class/<name>')
-    @view("common/page.tpl")
     def dnd_class(name):
         return md_page(name, "dnd", "class", build_toc=False)
 
     @app.get('/equipment/<name>')
-    @view("common/page.tpl")
     def equipment(name):
         return md_page(name, "dnd", "equipment", build_toc=False)
 
     @app.get('/general/<name>')
-    @view("common/page.tpl")
     def general(name):
         return md_page(name, "dnd", "general", build_toc=False)
 
     @app.get('/monster/<name>')
-    @view("common/page.tpl")
     def monster(name):
-        return md_page(name, "dnd", "monster", build_toc=False)
+        try:
+            return md_page(name, "dnd", "monster", build_toc=False)
+        except HTTPError as e:
+            # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
+            toml_path = pjoin("dnd/monster", title_to_page_name(name) + ".toml")
+            print(toml_path)
+            if not isfile(pjoin("data", toml_path)):
+                raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
+            toml_dict = toml.load(pjoin("data", toml_path))
+            md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
+            return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 
     @app.get('/race/<name>')
-    @view("common/page.tpl")
     def race(name):
         return md_page(name, "dnd", "race", build_toc=False)
 

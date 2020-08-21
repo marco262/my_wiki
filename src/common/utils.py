@@ -140,11 +140,11 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         with open(md_path, encoding="utf-8") as f:
             text = f.read()
     else:
-        raise HTTPError(404, f"I couldn't find \"{page_title}\".")
+        raise HTTPError(404, f"I couldn't find \"{path_name}\".")
     try:
         md = markdown_parser.parse_md(text, namespace)
     except NameError:
-        print(f"Error when converting {page_title}")
+        print(f"Error when converting {path_name}")
         raise
     if md.startswith("<p>REDIRECT "):
         redirect(md[12:-5])
@@ -155,5 +155,5 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
             kwargs["toc"] = md.toc_html
         kwargs["text"] = md
         kwargs["accordion_text"] = markdown_parser.accordion_text
-    
+
         return template("common/page.tpl", kwargs)
