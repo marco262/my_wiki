@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title=title)
 
-% if defined("toc"):
+% if get("toc"):
 <div id="toc">
     {{!toc}}
 </div>

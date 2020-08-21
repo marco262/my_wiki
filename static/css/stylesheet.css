@@ -193,10 +193,12 @@ h1 {
     font-weight: normal;
     text-decoration: none;
     font-family: 'IM Fell DW Pica SC', serif;
-    clear: both;
 }
 h1#page-title {
     font-family: 'Bree Serif', serif;
+}
+h1.no-float {
+    clear: both;
 }
 h2 {
     font-weight: normal;
