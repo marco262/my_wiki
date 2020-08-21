@@ -50,7 +50,7 @@ class MarkdownParser:
 
     def convert_wiki_links(self, text):
         namespace_domain = "/" + self.namespace if self.namespace else ""
-        for m in re.finditer(r"\[\[\[((.+?):)?(.+?)(#(.+?))?(\|(.+?))?\]\]\]", text):
+        for m in re.finditer(r"\[\[\[((.+?):)?(.+?)(#(.+?))?(\|(.+?))?]]]", text):
             groups = m.groups()
             directory = namespace_domain + ("/" + groups[1] if groups[1] else "")
             filename = groups[2].replace("/", "-")
@@ -72,14 +72,14 @@ class MarkdownParser:
 
     # @staticmethod
     # def convert_popup_links(text):
-    #     pattern = r"\[(.*?)\]\(\^(.*?)\)"
+    #     pattern = r"\[(.*?)]\(\^(.*?)\)"
     #     replace = r"""<a href="\2" target="popup" onclick="window.open('\2','popup','width=600,height=600', menubar=yes); return false;">\1</a>"""
     #     text = re.sub(pattern, replace, text)
     #     return text
 
     @staticmethod
     def convert_popup_links(text):
-        pattern = r"\[(.*?)\]\(([\^\$])(.*?)\)"
+        pattern = r"\[(.*?)]\(([\^\$])(.*?)\)"
         for m in re.finditer(pattern, text):
             if m.group(2) == "^":
                 value = f"visual_aid|{m.group(3)}"
@@ -92,14 +92,12 @@ class MarkdownParser:
         return text
 
     def add_includes(self, text):
-        for m in re.finditer(r'\[\[include (.*?)\]\](.*?)(\[\[/include\]\])?', text, re.DOTALL):
+        for m in re.finditer(r'\[\[include (.*?)]]((.*)\[\[/include]])?', text, re.DOTALL):
             template_name = m.group(1)
 
-            rows = m.group(2).strip("\n")
             args = {}
-            if rows:
-                rows = rows.split("\n")
-                print(rows)
+            if m.group(3):
+                rows = m.group(3).strip("\n").split("\n")
                 index = 0
                 while index < len(rows):
                     arg = rows[index]
@@ -126,9 +124,12 @@ class MarkdownParser:
 
             if template_name.endswith(".tpl"):
                 try:
-                    t = template(template_name + ".tpl", args)
+                    t = template(template_name, args)
                 except TemplateError:
-                    raise TemplateError(f"Can't find template: {template_name}.tpl")
+                    raise TemplateError(f"Can't find template: {template_name}")
+                except NameError:
+                    print(f"Error when processing {template_name}")
+                    raise
             elif template_name.endswith(".md"):
                 t = self.parse_md_path(os.path.join("data", template_name), namespace=self.namespace)
             else:
@@ -139,24 +140,24 @@ class MarkdownParser:
 
     def parse_accordions(self, text):
         self.accordion_text = False
-        for m in re.finditer(r".*\[\[accordion (.*?)\]\].*", text):
+        for m in re.finditer(r".*\[\[accordion (.*?)]].*", text):
             self.accordion_text = True
             text = text.replace(
                 m.group(0),
                 '<button class="accordion-button">{}</button>\n<div class="accordion-panel">'.format(m.group(1))
             )
-        text = re.sub(r".*\[\[/accordion\]\].*", "</div>", text)
+        text = re.sub(r".*\[\[/accordion]].*", "</div>", text)
         return text
 
     @staticmethod
     def convert_wiki_divs(text):
-        text = re.sub(r"<p>\[\[div(.*?)\]\]</p>", r"<div\1>", text)
-        text = re.sub(r"<p>\[\[/div\]\]</p>", "</div>", text)
+        text = re.sub(r"<p>\[\[div(.*?)]]</p>", r"<div\1>", text)
+        text = re.sub(r"<p>\[\[/div]]</p>", "</div>", text)
         return text
 
     @staticmethod
     def build_bibliography(text):
-        pattern = r"\[\[bibliography\]\](.*?)\[\[/bibliography\]\]"
+        pattern = r"\[\[bibliography]](.*?)\[\[/bibliography]]"
         m = re.search(pattern, text, re.DOTALL)
         if m:
             bib_list = []

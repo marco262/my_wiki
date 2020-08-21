@@ -1,7 +1,7 @@
 [[div class="monster-include"]]
 
 <a id="ancient-white-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Ancient White Dragon
 size = Gargantuan
@@ -56,7 +56,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="adult-white-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Adult White Dragon
 size = Huge
@@ -111,7 +111,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="young-white-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Young White Dragon
 size = Large
@@ -149,7 +149,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="white-dragon-wyrmling">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = White Dragon Wyrmling
 size = Medium

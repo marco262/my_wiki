@@ -2,7 +2,7 @@
 
 <a id="air-elemental">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Air Elemental
 size = Large
@@ -41,7 +41,7 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 
 <a id="earth-elemental">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Earth Elemental
 size = Large
@@ -80,7 +80,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="fire-elemental">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Fire Elemental
 size = Large
@@ -120,7 +120,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="water-elemental">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Water Elemental
 size = Large

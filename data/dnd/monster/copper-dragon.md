@@ -2,7 +2,7 @@
 
 <a id="ancient-copper-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Ancient Copper Dragon
 size = Gargantuan
@@ -61,7 +61,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 <a id="adult-copper-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Adult Copper Dragon
 size = Huge
@@ -118,7 +118,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 <a id="young-copper-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Young Copper Dragon
 size = Large
@@ -160,7 +160,7 @@ actions = !!!
 
 <a id="copper-dragon-wyrmling">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Copper Dragon Wyrmling
 size = Medium

@@ -1,7 +1,7 @@
 [[div class="monster-include"]]
 
 <a id="ancient-green-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Ancient Green Dragon
 size = Gargantuan
@@ -56,7 +56,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="adult-green-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Adult Green Dragon
 size = Huge
@@ -111,7 +111,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="young-green-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Young Green Dragon
 size = Large
@@ -149,7 +149,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="green-dragon-wyrmling">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Green Dragon Wyrmling
 size = Medium

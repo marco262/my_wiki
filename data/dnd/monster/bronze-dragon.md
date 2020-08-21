@@ -2,7 +2,7 @@
 
 <a id="ancient-bronze-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Ancient Bronze Dragon
 size = Gargantuan
@@ -66,7 +66,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 <a id="adult-bronze-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Adult Bronze Dragon
 size = Huge
@@ -131,7 +131,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 <a id="young-bronze-dragon">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Young Bronze Dragon
 size = Large
@@ -174,7 +174,7 @@ actions = !!!
 
 <a id="bronze-dragon-wyrmling">
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Bronze Dragon Wyrmling
 size = Medium

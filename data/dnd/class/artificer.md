@@ -284,7 +284,7 @@ In combat, the homunculus shares your initiative count, but it takes its turn im
 
 The homunculus regains 2d6 hit points if the mending spell is cast on it. If it dies, it vanishes, leaving its heart in its space.
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Homunculus Servant
 size = Tiny

@@ -1,6 +1,6 @@
 [[div class="monster-include"]]
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Zombie
 size = Medium
@@ -26,7 +26,7 @@ actions = !**Slam.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. 
 [[/include]]
 
 <a id="ogre-zombie">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Ogre Zombie
 size = Large
@@ -57,7 +57,7 @@ actions = !**Morningstar.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one t
 
 [[div class="monster-include"]]
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Beholder Zombie
 size = Large
