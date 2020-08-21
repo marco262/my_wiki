@@ -756,5 +756,5 @@ Your extensive study of religion rewards you with the following benefits:
 * You learn the *[[[spell:thaumaturgy]]]* and *[[[spell:detect evil and good]]]* spells. You can cast *[[[spell:detect evil and good]]]* once without expending a spell slot, and you regain the ability to do so when you finish a long rest.
 
 [[bibliography]]
-: errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
