@@ -15,6 +15,7 @@ In addition, unusual coins made of other precious metals sometimes appear in tre
 A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
 
 **Standard Exchange Rates**
+
 ||~ Coin ||~ cp ||~ sp ||~ ep ||~ gp ||~ pp ||
 || Copper (cp) || 1 || 1/10 || 1/50 || 1/100 || 1/1,000 ||
 || Silver (sp) || 10 || 1 || 1/5 || 1/10 || 1/100 ||

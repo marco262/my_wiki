@@ -1,5 +1,3 @@
-[[f>toc]]
-
 Sequestered in high mountains atop tall trees, the aarakocra, sometimes called birdfolk, evoke fear and wonder. Many aarakocra aren't even native to the Material Plane. They hail from a world beyond -- from the boundless vistas of the Elemental Plane of Air.
 
 They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.

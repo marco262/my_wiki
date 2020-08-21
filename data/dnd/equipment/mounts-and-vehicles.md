@@ -1,7 +1,7 @@
-[[table style="border: 0px; border-space: 0px; "]]
-[[row]]
-[[cell style="width: 38%; "]]
+[[div style="float: left; padding-right: 10px; "]]
+
 **Mounts and Other Animals**
+
 ||~ Item ||~ Cost ||~ Speed ||~ Carrying<br>Capacity ||
 || Camel || 50 gp || 50 ft. || 480 lb. ||
 || Donkey or mule || 8 gp || 40 ft. || 420 lb. ||
@@ -13,6 +13,7 @@
 || Warhorse || 400 gp || 60 ft. || 540 lb. ||
 
 **Tack, Harness, and Drawn Vehicles**
+
 ||~ Item ||~ Cost ||~ Weight ||
 || Barding || x4 || x2 ||
 || Bit and bridle || 2 gp || 1 lb. ||
@@ -31,6 +32,7 @@
 || Wagon || 35 gp || 400 lb. ||
 
 **Waterborne Vehicles**
+
 ||~ Item ||~ Cost ||~ Speed ||
 || Galley || 30,000 gp || 4 mph ||
 || Keelboat || 3,000 gp || 1 mph ||
@@ -38,8 +40,9 @@
 || Rowboat || 50 gp || 1 1/2 mph ||
 || Sailing ship || 10,000 gp || 2 mph ||
 || Warship || 25,000 gp || 2 1/2 mph ||
-[[/cell]]
-[[cell style="vertical-align: top; "]]
+
+[[/div]]
+
 A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's speed and base carrying capacity.
 
 An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.
@@ -53,6 +56,3 @@ Mounts other than those listed here are available in the worlds of D&D, but they
 **Vehicle Proficiency.** If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.
 
 **Rowed Vessels.** Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.
-[[/cell]]
-[[/row]]
-[[/table]]

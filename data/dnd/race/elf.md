@@ -2,8 +2,6 @@
 > --Margaret Weis & Tracy Hickman, Dragons of Autumn Twilight
 
 
-[[f>toc]]
-
 Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.
 
 # Slender and Graceful

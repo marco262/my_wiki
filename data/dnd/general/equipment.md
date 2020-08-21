@@ -4,40 +4,40 @@ For an adventurer, the availability of armor, weapons, backpacks, rope, and simi
 
 # Starting Equipment
 
-[[include equipment:starting-equipment]]
+[[include dnd/equipment/starting-equipment.md]]
 
 # Wealth
 
-[[include equipment:wealth]]
+[[include dnd/equipment/wealth.md]]
 
 # Armor and Shields
 
-[[include equipment:armor-and-shields]]
+[[include dnd/equipment/armor-and-shields.md]]
 
 # Weapons
 
-[[include equipment:weapons]]
+[[include dnd/equipment/weapons.md]]
 
 # Adventuring Gear
 
-[[include equipment:adventuring-gear]]
+[[include dnd/equipment/adventuring-gear.md]]
 
 # Tools
 
-[[include equipment:tools]]
+[[include dnd/equipment/tools.md]]
 
 # Mounts and Vehicles
 
-[[include equipment:mounts-and-vehicles]]
+[[include dnd/equipment/mounts-and-vehicles.md]]
 
 # Trade Goods
 
-[[include equipment:trade-goods]]
+[[include dnd/equipment/trade-goods.md]]
 
 # Expenses
 
-[[include equipment:expenses]]
+[[include dnd/equipment/expenses.md]]
 
 # Trinkets
 
-[[include equipment:trinkets]]
+[[include dnd/equipment/trinkets.md]]

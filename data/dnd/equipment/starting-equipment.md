@@ -3,6 +3,7 @@ When you create your character, you receive equipment based on a combination of 
 You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing. You might have been equipped with a weapon, armor, and a backpack as part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from generation to generation until your character finally took up the mantle and followed in an ancestor's adventurous footsteps.
 
 **Starting Wealth by Class**
+
 ||~ Class ||~ Funds ||
 || Barbarian || 2d4 x 10 gp ||
 || Bard || 5d4 x 10 gp ||

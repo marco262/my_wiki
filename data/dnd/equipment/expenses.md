@@ -1,7 +1,9 @@
 When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.
 
 [[div style="float: left; padding-right: 10px; "]]
+
 **Lifestyle Expenses**
+
 ||~ Lifestyle ||~ Price/Day ||
 || Wretched || -- ||
 || Squalid || 1 sp ||
@@ -12,6 +14,7 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || Aristocratic || 10 gp minimum ||
 
 **Food, Drink, and Lodging**
+
 ||~ Item ||~ Cost ||
 |||| *Ale* ||
 || * Gallon || 2 sp ||
@@ -39,6 +42,7 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || * Fine (bottle) || 10 gp ||
 
 **Services**
+
 ||~ Service ||~ Pay ||
 |||| *Coach cab* ||
 || * Between towns || 3 cp per mile ||
@@ -49,17 +53,24 @@ When not descending into the depths of the earth, exploring ruins for lost treas
 || Messenger || 2 cp per mile ||
 || Road or gate toll || 1 cp ||
 || Ship's passage || 1 sp per mil ||
+
 [[/div]]
+
 ## Lifestyle Expenses
 
 Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.
+
 [[div class="phb-sidebar"]]
+
 **Self-Sufficiency**
 
 The expenses and lifestyles described in this chapter assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford -- paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.
 
 Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time [[[general:adventuring#between-adventures|between adventures]]] practicing a profession, you can eke out the equivalent of a poor lifestyle. Proficiency in the Survival skill lets you live at the equivalent of a comfortable lifestyle.
-[[/div]]At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.
+
+[[/div]]
+
+At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.
 
 Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.
 

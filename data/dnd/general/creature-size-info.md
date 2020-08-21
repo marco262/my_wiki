@@ -1,5 +1,3 @@
-[[f>toc]]
-
 This page's intended purpose is to combine information about all the different rules of for creature size into one place.
 
 # Creature Size
@@ -8,6 +6,7 @@ This page's intended purpose is to combine information about all the different r
 Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
 
 **Size Categories**
+
 ||~ Size ||~ Space ||~ Examples ||
 || Tiny || 2 1/2 by 2 1/2 ft || Imp, sprite ||
 || Small || 5 by 5 ft || Giant rat, goblin ||
@@ -15,7 +14,9 @@ Each creature takes up a different amount of space. The Size Categories table sh
 || Large || 10 by 10 ft || Hippogriff, ogre ||
 || Huge || 15 by 15 ft || Fire giant, treant ||
 || Gargantuan || 20 by 20 ft or larger || Kraken, purple worm ||
+
 [[f<image monster_sizes.png size="medium"]]
+
 ## Space
 
 A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dim ensions. A typical Medium creature isn't 5 feet wide, for example, but it does control a space that wide. If a Medium hobgoblin stands in a 5-foot-wide doorway, other creatures can't get through unless the hobgoblin lets them.

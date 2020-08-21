@@ -1,8 +1,7 @@
 A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the DM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.
 
-[[table style="border: 0px; border-space: 0px; "]]
-[[row]]
-[[cell style="width: 28%; "]]
+[[div style="float: left; padding-right: 10px; "]]
+
 ||~ Item ||~ Cost ||~ Weight ||
 |||||| *Artisan's tools* ||
 || Alchemist's supplies || 50 gp || 8 lb. ||
@@ -46,8 +45,9 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 || Thieves' tools || 25 gp || 1 lb. ||
 || Vehicles (land or water) || * || * ||
 <sup>* See the [[[equipment:Mounts and Vehicles]]] section.</sup>
-[[/cell]]
-[[cell style="vertical-align: top; "]]
+
+[[/div]]
+
 **Artisan's Tools.** These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
 
 **Disguise Kit.** This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.

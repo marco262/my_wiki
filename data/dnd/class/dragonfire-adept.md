@@ -355,10 +355,10 @@ While flying with your Dragon Wings, you can cast *[[[spell:gust of wind]]]* at-
 
 ***Instill Vulnerability***
 
-1st-level Necromancy
-**Casting Time:** 1 bonus action
-**Range:** 90 feet
-**Components:** V, S
+1st-level Necromancy  
+**Casting Time:** 1 bonus action  
+**Range:** 90 feet  
+**Components:** V, S  
 **Duration:** Concentration, up to 1 hour
 
 You project your draconic majesty towards a creature that you can see within range. Until the spell ends, that creature gains vulnerability to one energy type of your choice. If the target is resistant to that energy type, it instead loses that resistance. If the target is immune to that energy, it instead becomes resistant to it. Also, the target has disadvantage on ability checks made to resist your breath weapon.
