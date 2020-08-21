@@ -9,7 +9,7 @@ from logging.handlers import TimedRotatingFileHandler
 from os.path import isfile
 from shutil import copyfile
 
-from bottle import template, HTTPError
+from bottle import template, HTTPError, redirect
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -146,11 +146,14 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
     except NameError:
         print(f"Error when converting {page_title}")
         raise
-    if "title" not in kwargs:
-        kwargs["title"] = page_title.title()
-    if build_toc:
-        kwargs["toc"] = md.toc_html
-    kwargs["text"] = md
-    kwargs["accordion_text"] = markdown_parser.accordion_text
-
-    return template("common/page.tpl", kwargs)
+    if md.startswith("<p>REDIRECT "):
+        redirect(md[12:-5])
+    else:
+        if "title" not in kwargs:
+            kwargs["title"] = page_title.title()
+        if build_toc:
+            kwargs["toc"] = md.toc_html
+        kwargs["text"] = md
+        kwargs["accordion_text"] = markdown_parser.accordion_text
+    
+        return template("common/page.tpl", kwargs)
