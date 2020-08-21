@@ -51,7 +51,7 @@ Modifier to roll: -10
 
 ## NPC notes
 
-[Brendaniel](brendaniel-sqwik):
+[Brendaniel](brendaniel sqwik):
 
  * Nascent Wild Magic Sorcerer
  * Learned, Prestidigitation, Mage Hand, and Catapult
