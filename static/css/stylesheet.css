@@ -172,6 +172,15 @@ img[alt$="><"] {
     float: none!important;
 }
 
+div#toc {
+    float: right;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: lightgray;
+    border: 2px dashed gray;
+}
+
 /* Font family of headers */
 h1,h2,h3,h4,h5,h6{
     font-family: 'IM Fell DW Pica SC', serif;
@@ -184,6 +193,7 @@ h1 {
     font-weight: normal;
     text-decoration: none;
     font-family: 'IM Fell DW Pica SC', serif;
+    clear: both;
 }
 h1#page-title {
     font-family: 'Bree Serif', serif;
