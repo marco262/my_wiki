@@ -172,14 +172,14 @@ img[alt$="><"] {
     float: none!important;
 }
 
-div#toc {
-    float: right;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 5px;
-    background-color: lightgray;
-    border: 2px dashed gray;
-}
+/*div#toc {*/
+/*    float: right;*/
+/*    padding-right: 10px;*/
+/*    margin-left: 10px;*/
+/*    margin-right: 5px;*/
+/*    background-color: lightgray;*/
+/*    border: 2px dashed gray;*/
+/*}*/
 
 /* Font family of headers */
 h1,h2,h3,h4,h5,h6{
@@ -276,7 +276,7 @@ th, td {
     padding: 3px;
 }
 
-div.toc {
+div#toc {
     float: right;
     margin: 1em;
 	padding: 0.5em 0.5em 0.5em 0;
@@ -285,7 +285,7 @@ div.toc {
 	display: table;
 }
 
-div.toc ul {
+div#toc ul {
     list-style-type: none;
     margin: 0 0 0 1em;
     padding: 0 0 0 0;

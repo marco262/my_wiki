@@ -69,23 +69,23 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/advancement/<name>')
     def advancement(name):
-        return md_page(name, "dnd", "advancement", build_toc=False)
+        return md_page(name, "dnd", "advancement")
 
     @app.get('/background/<name>')
     def background(name):
-        return md_page(name, "dnd", "background", build_toc=False)
+        return md_page(name, "dnd", "background")
 
     @app.get('/class/<name>')
     def dnd_class(name):
-        return md_page(name, "dnd", "class", build_toc=False)
+        return md_page(name, "dnd", "class")
 
     @app.get('/equipment/<name>')
     def equipment(name):
-        return md_page(name, "dnd", "equipment", build_toc=False)
+        return md_page(name, "dnd", "equipment")
 
     @app.get('/general/<name>')
     def general(name):
-        return md_page(name, "dnd", "general", build_toc=False)
+        return md_page(name, "dnd", "general")
 
     @app.get('/monster/<name>')
     def monster(name):
@@ -103,7 +103,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/race/<name>')
     def race(name):
-        return md_page(name, "dnd", "race", build_toc=False)
+        return md_page(name, "dnd", "race")
 
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
