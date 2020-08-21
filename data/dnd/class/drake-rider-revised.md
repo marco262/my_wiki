@@ -2,7 +2,7 @@ Drakes are distant cousins of dragons, but where dragons are proud, solitary, an
 
 You have raised a Drake from hatchling and formed a special bond with it, to the point of being magically connected to them. Your Drake is now large enough to become your steed and well-trained enough to carry you into battle.
 
-*Note: This subclass is meant to be used with the [http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Revised Ranger].//
+*Note: This subclass is meant to be used with the [Revised Ranger](http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf).//
 
 # The Drake Rider
 ||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||

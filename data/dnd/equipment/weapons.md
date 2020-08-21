@@ -116,6 +116,6 @@ Weapons with special rules are described here.
 When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
 
 [[bibliography]]
-: errata : [https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf 2018 PHB Errata]
+: errata : [2018 PHB Errata](https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf)
 : homebrew : Homebrew
 [[/bibliography]]

@@ -39,4 +39,4 @@ At 15th level, whenever a creature attacks you and does not have advantage, you 
 
 ----
 
-*Source:* [http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf Unearthed Arcana]
+*Source:* [Unearthed Arcana](http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf)

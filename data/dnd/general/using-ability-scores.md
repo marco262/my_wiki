@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
-[[/module]]
-
 [[f>toc]]
 
 Six abilities provide a quick description of every creature's physical and mental characteristics:
@@ -98,24 +94,33 @@ Each ability covers a broad range of capabilities, including skills that a chara
 For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: Acrobatics, Sleight of Hand, and Stealth, respectively. So a character who has proficiency in the Stealth skill is particularly good at Dexterity checks related to sneaking and hiding.
 
 The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.
+
 [[div style="display: inline-block; vertical-align: top; width: 200px; "]]
+
 **Strength**
+
 * Athletics
 
 **Dexterity**
+
 * Acrobatics
 * Sleight of Hand
 * Stealth
 
 **Intelligence**
+
 * Arcana
 * History
 * Investigation
 * Nature
 * Religion
+
 [[/div]]
+
 [[div style="display: inline-block; vertical-align: top; width: 200px; "]]
+
 **Wisdom**
+
 * Animal Handling
 * Insight
 * Medicine
@@ -123,10 +128,12 @@ The skills related to each ability score are shown in the following list. (No sk
 * Survival
 
 **Charisma**
+
 * Deception
 * Intimidation
 * Performance
 * Persuasion
+
 [[/div]]
 
 Sometimes, the DM might ask for an ability check using a specific skill -- for example, "Make a Wisdom (Perception) check." At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
@@ -137,7 +144,7 @@ For example, if a character attempts to climb up a dangerous cliff, the Dungeon 
 
 Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the DM might ask for a check using an unusual combination of ability and skill, or you might ask your DM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your DM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your DM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly, when your half-orc barbarian uses a display of raw strength to intimidate an enemy, your DM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
 
-## [[# passive-checks]]Passive Checks
+## Passive Checks
 
 A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the DM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
 
@@ -196,7 +203,7 @@ A Strength check can model any attempt to lift, push, pull, or break something, 
 
 You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack.
 
-### [[# carrying-capacity]]Lifting and Carrying
+### Lifting and Carrying
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
 
@@ -215,7 +222,9 @@ If you carry weight in excess of 5 times your Strength score, you are **encumber
 If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead **heavily encumbered**, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
 
 ## Dexterity
+
 [[div class="phb-sidebar"]]
+
 **Hiding**
 
 When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.
@@ -229,7 +238,9 @@ In combat, most creatures stay alert for signs of danger all around, so if you c
 For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.
 
 **What Can You See?** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be **[[[general:combat#lightly-obscured|lightly]]]** or **[[[general:combat#heavily-obscured|heavily obscured]]]**.
+
 [[/div]]
+
 Dexterity measures agility, reflexes, and balance.
 
 ### Dexterity Checks
@@ -292,13 +303,17 @@ If your Constitution modifier changes, your hit point maximum changes as well, a
 Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
 
 ### Intelligence Checks
+
 [[div class="phb-sidebar"]]
+
 **Finding a Hidden Object**
 
 When your character searches for a hidden object such as a secret door or a trap, the DM typically asks you to make a Wisdom (Perception) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook.
 
 In most cases, you need to describe where you are looking in order for the DM to determine your chance of success. For example, a key is hidden beneath a set of folded clothes in the top drawer of a bureau. If you tell the DM that you pace around the room, looking at the walls and furniture for clues, you have no chance of finding the key, regardless of your Wisdom (Perception) check result. You would have to specify that you were opening the drawers or searching the bureau in order to have any chance of success.
+
 [[/div]]
+
 An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks.
 
 **Arcana.** Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.

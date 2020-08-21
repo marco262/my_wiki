@@ -29,7 +29,9 @@ They find it hard not to pluck the treasure and bring it back to their settlemen
 Confinement terrifies the aarakocra. To be grounded, trapped underground, or imprisoned by the cold, unyielding earth is a torment few aarakocra can withstand. Even when perched on a high branch or at rest in their mountaintop homes, they appear alert, with eyes moving and bodies ready to take flight.
 
 # Homelands
+
 [[div class="phb-sidebar"]]
+
 **Aarakocra in the Forgotten Realms**
 
 Never well established in Faerûn, aarakocra have only four major colonies: in the Star Mounts within the High Forest, in the Storm Horns in Cormyr, in the Cloven Mountains on the Vilhon Reach, and in the Mistcliffs in Chult.
@@ -39,7 +41,9 @@ Those colonies established in the Star Mounts, closest to the Dessarin Valley, w
 Their only remaining settlement lies on the slopes of the Star Mounts' southernmost mountains. At the headwaters of the Unicorn Run, the Last Aerie is home to several dozen aarakocra. Recently, aarakocra elders detected changes in the prevailing winds that they regarded as a bad omen.
 
 Unlike the aarakocra of other worlds on the Material Plane, the aarakocra of the Realms rarely travel to the Elemental Plane of Air.
+
 [[/div]]
+
 Most aarakocra live on the Elemental Plane of Air. Aarakocra can be drawn into the Material Plane, sometimes to pursue enemies or thwart their foes' designs there. Accident might also send a nest of aarakocra tumbling into a world on that plane. A few find their way to such a world through portals on their own plane and establish nests in high mountains or in the canopies of old forests.
 
 Once tribes of aarakocra settle in an area, they share a hunting territory that extends across an area up to 100 miles on a side, with each tribe hunting in the lands nearest to their colony, ranging farther should game become scarce.
@@ -57,13 +61,17 @@ When plunged into Miska's body, the chaos in his blood sundered the rod and scat
 Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as “flying rock,” and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts.
 
 # Aarakocra Names
+
 [[div class="phb-sidebar"]]
+
 **Aarakocra Backgrounds**
 
 Backgrounds that are most appropriate for aarakocra include the outlander, the hermit, and the sage.
 
 The small colonies of aarakocra are insular and remote, and few aarakocra live away from their roosts. In the Star Mounts of the High Forest in the Forgotten Realms, no more than a few dozen aarakocra live away from the nests of their families. Those that do are usually rangers or fighters, constantly patrolling for outside threats.
+
 [[/div]]
+
 As with much of their speech, aarakocra names include clicks, trills, and whistles to the point that other peoples have a difficult time pronouncing them. Typically, a name has two to four syllables with the sounds acting as connectors. When interacting with other races, aarakocra may use nicknames gained from people they meet or shortened forms of their full names.
 
 An aarakocra of either gender may have one of these short names: Aera, Aial, Aur, Deekek, Errk, Heehk, Ikki, Kleeck, Oorr, Ouss, Quaf, Quierk, Salleek, Urreek, or Zeed. 

@@ -179,16 +179,16 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* Sizes, weight and text-decorations of headers */
-h1{
+h1 {
     font-size: 190%;
     font-weight: normal;
     text-decoration: none;
     font-family: 'IM Fell DW Pica SC', serif;
 }
-h1#page-title{
+h1#page-title {
     font-family: 'Bree Serif', serif;
 }
-h2{
+h2 {
     font-weight: normal;
     font-size: 140%;
     text-decoration: none;
@@ -196,15 +196,15 @@ h2{
     background: #ECC3BF;
     display:flex;
     padding:3px 15px;
-    max-width: 95%;
+    max-width: 100%;
 }
-h3{
+h3 {
     font-weight: normal;
     font-size: 140%;
     text-decoration: none;
     margin-bottom: -5px;
 }
-h4{
+h4 {
     font-weight: bold;
     font-size: 130%;
     text-decoration: none;
@@ -225,8 +225,8 @@ h6 {
 div.phb-sidebar, div.errata {
     float: right;
     width: 30%;
-    padding: 10px;
-    margin-left: 5px;
+    padding: 0 1em;
+    margin-left: 10px;
     margin-right: 5px;
     border: 1px solid gray;
 }
@@ -235,7 +235,7 @@ div.phb-sidebar {
     background-color: #CEC;
 }
 
-div.errata{
+div.errata {
     background-color: #FEA;
 }
 

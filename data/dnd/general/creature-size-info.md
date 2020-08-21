@@ -1,7 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; margin-top: 5px; }
-[[/module]]
-
 [[f>toc]]
 
 This page's intended purpose is to combine information about all the different rules of for creature size into one place.

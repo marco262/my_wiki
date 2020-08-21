@@ -1,6 +1,3 @@
-[[module css]]
-table.wiki-content-table { margin-left: 0px; }
-[[/module]]
 [[f>toc]]
 
 Delving into the ancient Tomb of Horrors, slipping through the back alleys of Waterdeep, hacking a fresh trail through the thick jungles on the Isle of Dread -- these are the things that ***Dungeons & Dragons*** adventures are made of. Your character in the game might explore forgotten ruins and uncharted lands, uncover dark secrets and sinister plots, and slay foul monsters. And if all goes well, your character will survive to claim rich rewards before embarking on a new adventure.
@@ -9,9 +6,9 @@ This chapter covers the basics of the adventuring life, from the mechanics of mo
 
 Whether adventurers are exploring a dusty dungeon or the complex relationships of a royal court, the game follows a natural rhythm, as outlined in the book's introduction:
 
-# The DM describes the environment.
-# The players describe what they want to do.
-# The DM narrates the results of their actions.
+1. The DM describes the environment.
+2. The players describe what they want to do.
+3. The DM narrates the results of their actions.
 
 Typically, the DM uses a map as an outline of the adventure, tracking the characters' progress as they explore dungeon corridors or wilderness regions. The DM's notes, including a key to the map, describe what the adventurers find as they enter each new area. Sometimes, the passage of time and the adventurers' actions determine what happens, so the DM might use a timeline or a flowchart to track their progress instead of a map.
 
@@ -77,7 +74,7 @@ For example, a character under the effect of a *[[[spell:wind walk]]]* spell gai
 
 Similarly, a *[[[spell:phantom steed]]]* spell creates a magical mount with a speed of 100 feet that doesn't tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
 
-### [[# difficult-terrain]]Difficult Terrain
+### Difficult Terrain
 
 The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground -- all considered difficult terrain.
 
@@ -105,18 +102,22 @@ When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrob
 
 You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1 1/2 times your height.
 
-## [[# activity-while-traveling]]Activity While Traveling
+## Activity While Traveling
 
 As adventurers travel through a dungeon or the wilderness, they need to remain alert for danger, and some characters might perform other tasks to help the group's journey.
 
 ### Marching Order
+
 [[div class="phb-sidebar"]]
+
 **Splitting Up the Party**
 
 Sometimes, it makes sense to split an adventuring party, especially if you want one or more characters to scout ahead. You can form multiple parties, each moving at a different speed. Each group has its own front, middle, and back ranks.
 
 The drawback to this approach is that the party will be split into several smaller groups in the event of an attack. The advantage is that a small group of stealthy characters moving slowly might be able to sneak past enemies that clumsier characters would alert. A rogue and a monk moving at a slow pace are much harder to detect when they leave their dwarf paladin friend behind.
+
 [[/div]]
+
 The adventurers should establish a marching order. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies when a fight breaks out.
 
 A character might occupy the front rank, one or more middle ranks, or the back rank. Characters in the front and back ranks need enough room to travel side by side with others in their rank. When space is too tight, the marching order must change, usually by moving characters to a middle rank.
@@ -149,7 +150,7 @@ Characters who turn their attention to other tasks as the group travels are not 
 
 **Forage.** The character can keep an eye out for ready sources of food and water, making a Wisdom (Survival) check when the DM calls for it.
 
-### [[# becoming-lost]]Becoming Lost (DMG 111)
+### Becoming Lost (DMG 111)
 
 Unless they are following a path, or something like it, adventurers traveling in the wilderness run the risk of becoming lost. The party's navigator makes a Wisdom (Survival) check when you decide it's appropriate, against a DC determined by the prevailing terrain, as shown on the Wilderness Navigation table. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, and a fast pace imposes a -5 penalty. If the party has an accurate map of the region or can see the sun or stars, the navigator has advantage on the check.
 
@@ -161,7 +162,7 @@ If the Wisdom (Survival) check succeeds, the party travels in the desired direct
 || Arctic, desert, hills, or open sea with clear skies and no land in sight || 10 ||
 || Grassland, meadow, farmland || 5 ||
 
-### [[# tracking]]Tracking (DMG 244)
+### Tracking (DMG 244)
 
 Adventurers sometimes choose their path by following the tracks of other creatures -- or other creatures might track the adventurers! To track, one or more creatures must succeed on a Wisdom (Survival) check. The DM might require trackers to make a new check in any of the following circumstances:
 
@@ -183,7 +184,7 @@ On a failed check, the character loses the trail but can attempt to find it agai
 || Each day since the creature passed || +5 ||
 || Creature left a trail such as blood || -5 ||
 
-### [[# foraging]]Foraging (DMG 111)
+### Foraging (DMG 111)
 
 Characters can gather food and water as the party travels at a normal or slow pace. A foraging character makes a Wisdom (Survival) check whenever you call for it, with the DC determined by the abundance of food and water in the region.
 
@@ -208,8 +209,12 @@ At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet 
 ## Suffocating
 
 [[div class="errata"]]
-**Errata** "If you run out of breath, you can't regain hit points or be stabilized until you can breathe again." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
-[[/div]]A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).
+
+**Errata** "If you run out of breath, you can't regain hit points or be stabilized until you can breathe again." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
+
+[[/div]]
+
+A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).
 
 When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum 1 round). At the start of its next turn, it drops to 0 hit points and is [[[general:conditions#dying|dying]]].
 
@@ -218,10 +223,14 @@ For example, a creature with a Constitution of 14 can hold its breath for 3 minu
 ## Vision and Light
 
 [[div class="errata"]]
+
 **Editor's Note** "A rogue does not have advantage on attacks if they are attacking into an area that's heavily obscured, but they do if they are attacking out of a heavily obscured area into a non-heavily obscured area. However, they can still sneak attack if an ally is adjacent to their target."
 
-**Errata** "A heavily obscured area doesn't blind you [if you're not in it], but you are effectively blinded when you try to see something obscured by it." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
-[[/div]]The most fundamental tasks of adventuring -- noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few --  rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
+**Errata** "A heavily obscured area doesn't blind you [if you're not in it], but you are effectively blinded when you try to see something obscured by it." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
+
+[[/div]]
+
+The most fundamental tasks of adventuring -- noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few --  rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
 
@@ -365,8 +374,12 @@ A character can spend one or more Hit Dice at the end of a short rest, up to the
 ## Long Rest
 
 [[div class="errata"]]
-**Errata** " You regain at least 1 Hit Die when you finish a long rest." [https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf Player's Handbook Errata]
-[[/div]]A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or perform s light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity -- at least 1 hour of walking, fighting, casting spells, or similar adventuring activity --  the characters must begin the rest again to gain any benefit from it.
+
+**Errata** "You regain at least 1 Hit Die when you finish a long rest." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
+
+[[/div]]
+
+A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or perform s light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity -- at least 1 hour of walking, fighting, casting spells, or similar adventuring activity --  the characters must begin the rest again to gain any benefit from it.
 
 At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them. For example, if a character has eight Hit Dice, he or she can regain four spent Hit Dice upon finishing a long rest.
 
