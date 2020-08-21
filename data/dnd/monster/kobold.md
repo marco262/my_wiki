@@ -1,7 +1,7 @@
 [[div class="monster-include"]]
 
 <a id="kobold">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Kobold
 size = Small
@@ -36,7 +36,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="winged-kobold">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Winged Kobold
 size = Small

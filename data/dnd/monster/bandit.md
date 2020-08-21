@@ -2,7 +2,7 @@
 
 [[div class="monster-include"]]
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Bandit
 size = Medium
@@ -33,7 +33,7 @@ actions = !!!
 
 [[div class="monster-include"]]
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Bandit Captain
 size = Medium

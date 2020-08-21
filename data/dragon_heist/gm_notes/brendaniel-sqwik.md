@@ -1,4 +1,4 @@
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Brendaniel Sqwik
 size = Medium

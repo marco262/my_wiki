@@ -141,7 +141,11 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
             text = f.read()
     else:
         raise HTTPError(404, f"I couldn't find \"{page_title}\".")
-    md = markdown_parser.parse_md(text, namespace)
+    try:
+        md = markdown_parser.parse_md(text, namespace)
+    except NameError:
+        print(f"Error when converting {page_title}")
+        raise
     if "title" not in kwargs:
         kwargs["title"] = page_title.title()
     if build_toc:

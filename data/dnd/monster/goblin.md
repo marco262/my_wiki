@@ -1,7 +1,7 @@
 [[div class="monster-include"]]
 
 <a id="goblin">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Goblin
 size = Small
@@ -33,7 +33,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="goblin-boss">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Goblin Boss
 size = Small

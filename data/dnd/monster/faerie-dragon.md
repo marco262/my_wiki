@@ -1,4 +1,4 @@
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Faerie Dragon
 size = Tiny

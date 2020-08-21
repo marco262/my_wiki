@@ -1,6 +1,6 @@
 [[div class="monster-include"]]
 
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Werewolf
 size = Medium

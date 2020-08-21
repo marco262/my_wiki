@@ -1,7 +1,7 @@
 [[div class="monster-include"]]
 
 <a id="ancient-red-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Ancient Red Dragon
 size = Gargantuan
@@ -52,7 +52,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="adult-red-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Adult Red Dragon
 size = Huge
@@ -103,7 +103,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 [[div class="monster-include"]]
 
 <a id="young-red-dragon">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Young Red Dragon
 size = Large
@@ -140,7 +140,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 <a id="red-dragon-wyrmling">
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Red Dragon Wyrmling
 size = Medium

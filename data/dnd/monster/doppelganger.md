@@ -1,4 +1,4 @@
-[[include dnd/monster-sheet]]
+[[include dnd/monster-sheet.tpl]]
 width = 600px
 name = Doppelganger
 size = Medium
