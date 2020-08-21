@@ -112,3 +112,4 @@ Enter another URL to set as Visual Aid here:
 * Other nimblewright images: [1](^other_nimblewright_1.jpg), [2](^other_nimblewright_2.jpg), [3](^other_nimblewright_3.jpg)
 * [Zardoz Zord](^zardoz_zord.jpg), owner of the Sea Maidens Faire
 * [Laerel Silverhand](^laeral_silverhand.jpg), current Open Lord of Waterdeep
+* [Dagult Neverember](^dagult_neverember.jpg), former Open Lord of Waterdeep

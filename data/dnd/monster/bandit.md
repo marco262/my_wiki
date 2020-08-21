@@ -1,4 +1,4 @@
-<a id="bandit">
+<a id="bandit"></a>
 
 [[div class="monster-include"]]
 
@@ -29,7 +29,7 @@ actions = !!!
 
 [[/div]]
 
-<a id="bandit-captain">
+<a id="bandit-captain"></a>
 
 [[div class="monster-include"]]
 
