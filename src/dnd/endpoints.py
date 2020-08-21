@@ -62,55 +62,40 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Categories
 
-    def get_md_page(category, name, build_toc=False):
-        formatted_name = title_to_page_name(name)
-        path = f"data/dnd/{category}/{formatted_name}.md"
-        try:
-            md = MD.parse_md_path(path, namespace="dnd")
-        except FileNotFoundError:
-            raise HTTPError(404, f"I couldn't find \"{name}\".")
-        if md.startswith("<p>REDIRECT "):
-            redirect(md[12:-5])
-        else:
-            args = {"title": name.title(), "text": md}
-            if build_toc:
-                args["toc"] = md.toc_html
-            return args
-
     @app.get('/advancement/<name>')
     @view("common/page.tpl")
     def advancement(name):
-        return get_md_page("advancement", name)
+        return md_page(name, "dnd", "advancement", build_toc=False)
 
     @app.get('/background/<name>')
     @view("common/page.tpl")
     def background(name):
-        return get_md_page("background", name)
+        return md_page(name, "dnd", "background", build_toc=False)
 
     @app.get('/class/<name>')
     @view("common/page.tpl")
     def dnd_class(name):
-        return get_md_page("class", name)
+        return md_page(name, "dnd", "class", build_toc=False)
 
     @app.get('/equipment/<name>')
     @view("common/page.tpl")
     def equipment(name):
-        return get_md_page("equipment", name)
+        return md_page(name, "dnd", "equipment", build_toc=False)
 
     @app.get('/general/<name>')
     @view("common/page.tpl")
     def general(name):
-        return get_md_page("general", name)
+        return md_page(name, "dnd", "general", build_toc=False)
 
     @app.get('/monster/<name>')
     @view("common/page.tpl")
     def monster(name):
-        return get_md_page("monster", name, build_toc=False)
+        return md_page(name, "dnd", "monster", build_toc=False)
 
     @app.get('/race/<name>')
     @view("common/page.tpl")
     def race(name):
-        return get_md_page("race", name)
+        return md_page(name, "dnd", "race", build_toc=False)
 
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
