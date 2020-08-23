@@ -76,6 +76,7 @@ Enter another URL to set as Visual Aid here:
 * [Shard Shunners](Shard Shunners)
 * [Durnan](^durnan.jpg), proprietor of the yawning Portal
   * [Mhaere Dryndilstann](^mhaere_dryndilstann.jpg), wife of Durnan, handles selling equipment to adventurers going into Undermountain
+* [Grinda Garloth](^Grinda_garloth_and_apparatus.jpg), [mage](/dnd/monster/mage)
 
 ## Guild NPCs
 

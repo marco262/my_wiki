@@ -32,12 +32,11 @@
 
 .monster-sheet .red-bar {
     display: block;
-    width: 100%;
-    min-height: 10px;
-    margin: 6px 0 0 3px;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    background-color: darkred;
+    height: 7px;
+    margin: 5px;
 }
-
-.monster-sheet .red-bar-img {}
 
 .monster-sheet .text {
     padding: 0 5px 0 5px;

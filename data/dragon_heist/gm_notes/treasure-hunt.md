@@ -68,6 +68,8 @@ Items on the shelf/ground:
 
 The players will have to figure this one out, lol. Twenty steel mirrors at 5gp apiece could work
 
+A noble family (whichever they approach) can loan them a Driftglobe. Renaer probably has one just sitting around. Any other noble house will request some kind of favor.
+
 ## Vault of the Dragons 
 
 
