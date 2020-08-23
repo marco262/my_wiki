@@ -116,8 +116,8 @@ def load_wsgi_endpoints(app: Bottle):
 
     # Misc Functions
 
-    @app.get('/search')
-    @view('dnd/search.tpl')
+    @app.get('/site_search')
+    @view('dnd/site_search.tpl')
     def search():
         return {}
 
