@@ -12,11 +12,11 @@ cha_mod = ability_mod(charisma)
     <div class="top-bottom-bar"></div>
     <h1 class="name">{{ name }}</h1>
     <div class="type">{{ size }} {{ type }}, {{ alignment }}</div>
-    <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
+    <div class="red-bar"></div>
     <div class="text"><strong>Armor Class</strong> {{ armor_class }}</div>
     <div class="text"><strong>Hit Points</strong> {{ hit_points }}</div>
     <div class="text"><strong>Speed</strong> {{ speed }}</div>
-    <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
+    <div class="red-bar"></div>
     <div class="ability-scores">
         <span class="ability-score-name">STR</span>
         <span class="ability-score-name">DEX</span>
@@ -31,7 +31,7 @@ cha_mod = ability_mod(charisma)
         <span class="ability-score-value">{{ wisdom }} ({{ wis_mod }})</span>
         <span class="ability-score-value">{{ charisma }} ({{ cha_mod }})</span>
     </div>
-    <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
+    <div class="red-bar"></div>
     % if defined("saves"):
     <div class="text"><strong>Saving Throws:</strong> {{ saves }}</div>
     % end
@@ -59,7 +59,7 @@ cha_mod = ability_mod(charisma)
     % if defined("challenge"):
     <div class="text"><strong>Challenge:</strong> {{ challenge }}</div>
     % end
-    <div class="red-bar"><img class="red-bar-img" src="/static/img/stat-block-header-bar.svg"></div>
+    <div class="red-bar"></div>
     % if defined("special_abilities"):
     <div class="text-black">
         {{! special_abilities }}
