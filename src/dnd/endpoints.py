@@ -5,8 +5,8 @@ from os.path import join as pjoin
 from os.path import splitext, basename, isfile
 
 import toml
-from bottle import view, request, HTTPError, Bottle, template
 
+from bottle import view, request, HTTPError, Bottle, template
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search

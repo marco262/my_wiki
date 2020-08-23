@@ -1,8 +1,7 @@
+from git import Repo
 from time import ctime
 
-from bottle import static_file, Bottle
-from git import Repo
-
+from bottle import static_file, Bottle, view
 from src.common.utils import md_page
 
 START_TIME = ctime()
@@ -64,3 +63,8 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/shutdown")
     def shutdown():
         raise SystemExit
+
+    @app.error(404)
+    @view("common/page.tpl")
+    def error404(error):
+        return {"text": "", "title": "404 " + error.body}
