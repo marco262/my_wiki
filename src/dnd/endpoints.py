@@ -3,6 +3,7 @@ from glob import glob
 from json import loads, load, dump
 from os.path import join as pjoin
 from os.path import splitext, basename, isfile
+from time import time
 
 import toml
 
@@ -124,7 +125,9 @@ def load_wsgi_endpoints(app: Bottle):
     @app.route('/site_search/<search_term>')
     @view('dnd/site_search.tpl')
     def site_search_with_results(search_term):
-        return {"search_key": search_term, "search_results": SEARCH_OBJ.run(search_term)}
+        t = time()
+        results = SEARCH_OBJ.run(search_term)
+        return {"search_key": search_term, "search_results": results, "processing_time": time() - t}
 
     @app.get('/find_spell')
     @view('dnd/find_spell.tpl')

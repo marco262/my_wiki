@@ -20,6 +20,10 @@ Search Key:
     </div>
     %   end
     % end
+
+    % if defined("processing_time"):
+    <hr>
+    <div class="search-processing-time">Results returned in: {{ round(processing_time, 3) }} seconds</div>
 </div>
 
 <script type="module">
