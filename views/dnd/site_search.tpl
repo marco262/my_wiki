@@ -1,9 +1,10 @@
 % rebase("common/base.tpl", title="Search")
 
 <p>
-Search Key:
-<input type="text" style="width: 200px;" id="search_key" />
-<input type="button" value="Search" id="search_button" />
+    Search Key:
+    <input type="text" style="width: 200px;" id="search_key" />
+    <input type="button" value="Search" id="search_button" />
+    <span id="request-sent" hidden><i>Search request sent. Waiting for response...</i></span>
 </p>
 
 <div id="search_results">
@@ -24,6 +25,7 @@ Search Key:
     % if defined("processing_time"):
     <hr>
     <div class="search-processing-time">Results returned in: {{ round(processing_time, 3) }} seconds</div>
+    % end
 </div>
 
 <script type="module">
