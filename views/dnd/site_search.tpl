@@ -13,11 +13,13 @@
     % elif not search_results:
     <i>No results</i>
     % else:
-    %   for title, filepath, html_link, context in search_results:
+    %   for title, filepath, html_link, contexts in search_results:
     <div class="search-result">
         <h2 class="search-result-title"><a href="{{ html_link }}">{{ title }}</a></h2>
         <div class="search-result-path">Path: {{ filepath }}</div>
+        % for context in contexts:
         <blockquote class="search-result-context">{{! context }}</blockquote>
+        % end
     </div>
     %   end
     % end
@@ -34,7 +36,7 @@
     search_key_box.focus();
     search_key_box.onkeypress = on_key_press;
     % if defined("search_key"):
-    search_key_box.value = "{{ search_key }}";
+    search_key_box.value = "{{! search_key }}";
     % end
     document.getElementById("search_button").onclick = search;
 </script>

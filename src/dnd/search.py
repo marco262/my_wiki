@@ -1,8 +1,10 @@
-import re
 from os import walk
 from os.path import join, splitext, basename
 
+import re
 import toml
+
+from src.common.utils import strip_html
 
 
 class Search:
@@ -20,18 +22,26 @@ class Search:
         ))
 
     def build_results_context_string(self, re_match):
-        before = re_match.group(1)
+        """
+        :param re_match: 3-tuple matching the search: (N characters before, search term, N characters after)
+        :return:
+        """
+        before = strip_html(re_match[0])
         if len(before) > self.context_length:
             before = "..." + before[-1 * self.context_length:]
-        after = re_match.group(3)
+        after = strip_html(re_match[2])
         if len(after) > self.context_length:
             after = after[:self.context_length] + "..."
-        return f"{before}<strong>{re_match.group(2)}</strong>{after}"
+        return f"{before}<strong>{re_match[1]}</strong>{after}"
 
     def run(self, search_term):
         if search_term in self.cache:
             return self.cache[search_term]
         results = self.do_search(search_term)
+        # Sort results by number of matches, and path
+        # Number of matches should be in descending order (pages with more matches at the top)
+        # but path should be in ascending order (a before z)
+        results.sort(key=lambda x: (-1*len(x[3]), x[2]))
         self.cache[search_term] = results
         return results
 
@@ -43,7 +53,7 @@ class Search:
                 if filename.endswith(".md") or filename.endswith(".toml"):
                     filepath = join(dirpath, filename)
                     with open(filepath, "rb") as f:
-                        m = re.search(search_term_with_context, f.read().decode("utf-8"))
+                        m = re.findall(search_term_with_context, f.read().decode("utf-8"))
                         if m:
                             title = None
                             if filename.endswith(".toml"):
@@ -55,6 +65,6 @@ class Search:
                                 title = splitext(filename)[0].replace("-", " ").title()
                             filepath = join(dirpath, filename).replace("\\", "/")
                             html_link = f"/dnd/{basename(dirpath)}/{title}"
-                            context = self.build_results_context_string(m)
-                            results.append([title, filepath, html_link, context])
+                            contexts = [self.build_results_context_string(match) for match in m]
+                            results.append([title, filepath, html_link, contexts])
         return results
