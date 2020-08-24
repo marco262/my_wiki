@@ -118,12 +118,12 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/site_search')
     @view('dnd/site_search.tpl')
-    def search():
+    def site_search():
         return {}
 
-    @app.route('/search/<search_term>')
-    @view('dnd/search.tpl')
-    def search_with_results(search_term):
+    @app.route('/site_search/<search_term>')
+    @view('dnd/site_search.tpl')
+    def site_search_with_results(search_term):
         return {"search_key": search_term, "search_results": SEARCH_OBJ.run(search_term)}
 
     @app.get('/find_spell')

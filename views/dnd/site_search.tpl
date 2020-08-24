@@ -9,6 +9,8 @@ Search Key:
 <div id="search_results">
     % if not defined("search_results"):
     <i>Search results will appear here</i>
+    % elif not search_results:
+    <i>No results</i>
     % else:
     %   for title, filepath, html_link, context in search_results:
     <div class="search-result">
