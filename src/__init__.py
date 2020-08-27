@@ -1,18 +1,19 @@
 from importlib import import_module
 
-from bottle import Bottle
+from configparser import RawConfigParser
 
+from bottle import Bottle
 
 MODULE_NAMES = ["common", "dnd", "numenera", "dragon_heist"]
 
 
-def load_wsgi_endpoints(app: Bottle):
+def load_wsgi_endpoints(app: Bottle, cfg: RawConfigParser):
     """
     Loads functions into the WSGI
     """
     for name in MODULE_NAMES:
         module = import_module("src.{}.endpoints".format(name))
-        module.init()
+        module.init(cfg)
         if name == "common":
             module.load_wsgi_endpoints(app)
         else:

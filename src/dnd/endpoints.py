@@ -21,7 +21,7 @@ file = {}
 [[/include]]"""
 
 
-def init():
+def init(cfg):
     pass
 
 

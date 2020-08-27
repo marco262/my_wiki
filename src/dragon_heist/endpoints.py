@@ -6,16 +6,19 @@ from bottle_websocket import websocket
 from gevent import sleep
 from geventwebsocket import WebSocketError
 
-from bottle import Bottle, view, request, redirect, auth_basic
+from bottle import Bottle, view, request, auth_basic
 from src.common.utils import md_page
 
+# Default password: dancinglikeastripper
+GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
+
 visual_aid_url = "/static/img/visual_aids/dnd_party.png"
-set_visual_aid_hash = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 websocket_list = []
 
 
-def init():
-    pass
+def init(cfg):
+    global GM_NOTES_PW_HASH
+    GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
 
 
 def websocket_loop(ws, websocket_list):
@@ -70,7 +73,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")
-    @auth_basic(set_visual_aid_auth_check)
+    @auth_basic(gm_notes_auth_check)
     def gm_notes(name):
         return md_page(name, "dragon_heist", directory="gm_notes")
 
@@ -91,20 +94,16 @@ def load_wsgi_endpoints(app: Bottle):
         websocket_loop(ws, websocket_list)
 
     @app.post("set_visual_aid")
-    @auth_basic(set_visual_aid_auth_check)
+    @auth_basic(gm_notes_auth_check)
     def set_visual_aid():
         global visual_aid_url
         params = dict(request.params)
         print(params)
         url = params.get("url")
         if params["action"] == "visual_aid":
-            # if url and not url.startswith("http"):
-            #     url = "/static/img/visual_aids/" + url
             visual_aid_url = request.params["url"]
             print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
         else:
-            # if url and not url.startswith("http"):
-            #     url = "/static/audio/" + url
             print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(url)}', flush=True)
         params["url"] = url
         if params["debug"] == "true":
@@ -113,5 +112,5 @@ def load_wsgi_endpoints(app: Bottle):
             send_to_websockets(params)
 
 
-def set_visual_aid_auth_check(username, password):
-    return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), set_visual_aid_hash)
+def gm_notes_auth_check(username, password):
+    return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)

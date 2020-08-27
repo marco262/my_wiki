@@ -7,3 +7,8 @@ run as thread = False
 level = INFO
 format = %(asctime)s.%(msecs)03d %(levelname) 8s/%(name)s   %(message)s
 date format = %y-%m-%d %H:%M:%S
+
+# To generate a new hash, run: print(bcrypt.hashpw("<password>".encode("utf-8"), bcrypt.gensalt()))
+# Default password: dancinglikeastripper
+[Password hashes]
+GM notes = $2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC
