@@ -51,7 +51,8 @@ class Search:
         for dirpath, dirnames, filenames in walk("data/dnd"):
             for filename in filenames:
                 if filename.endswith(".md") or filename.endswith(".toml"):
-                    if result := self.search_file(dirpath, filename, search_term_with_context):
+                    result = self.search_file(dirpath, filename, search_term_with_context)
+                    if result:
                         results.append(result)
         return results
 
