@@ -30,7 +30,7 @@ class Server:
 
         bottle.debug(debug)
         self.app = bottle.Bottle()
-        load_wsgi_endpoints(self.app)
+        load_wsgi_endpoints(self.app, cfg)
 
         if debug:
             print("\nLoaded routes:")

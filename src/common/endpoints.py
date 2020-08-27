@@ -7,7 +7,7 @@ from src.common.utils import md_page
 START_TIME = ctime()
 
 
-def init():
+def init(cfg):
     pass
 
 

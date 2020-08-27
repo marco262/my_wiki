@@ -4,7 +4,7 @@ from src.common.utils import create_tooltip, md_page
 from src.numenera.utils import pick_two_mutations, pick_mutation
 
 
-def init():
+def init(cfg):
     pass
 
 
