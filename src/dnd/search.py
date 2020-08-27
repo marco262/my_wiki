@@ -19,7 +19,7 @@ class Search:
         context_string = r"(.{," + str(context_length) + "})"
         return re.compile("{context_string}({search_term}){context_string}".format(
             search_term=search_term, context_string=context_string
-        ))
+        ), re.IGNORECASE)
 
     def build_results_context_string(self, re_match):
         """
@@ -51,20 +51,29 @@ class Search:
         for dirpath, dirnames, filenames in walk("data/dnd"):
             for filename in filenames:
                 if filename.endswith(".md") or filename.endswith(".toml"):
-                    filepath = join(dirpath, filename)
-                    with open(filepath, "rb") as f:
-                        m = re.findall(search_term_with_context, f.read().decode("utf-8"))
-                        if m:
-                            title = None
-                            if filename.endswith(".toml"):
-                                with open(join(dirpath, filename)) as f:
-                                    d = toml.loads(f.read())
-                                    if "title" in d:
-                                        title = d["title"]
-                            if not title:
-                                title = splitext(filename)[0].replace("-", " ").title()
-                            filepath = join(dirpath, filename).replace("\\", "/")
-                            html_link = f"/dnd/{basename(dirpath)}/{title}"
-                            contexts = [self.build_results_context_string(match) for match in m]
-                            results.append([title, filepath, html_link, contexts])
+                    if result := self.search_file(dirpath, filename, search_term_with_context):
+                        results.append(result)
         return results
+
+    def search_file(self, dirpath, filename, search_term_with_context):
+        # Read file contents
+        filepath = join(dirpath, filename)
+        with open(filepath, "rb") as f:
+            file_contents = f.read().decode("utf-8")
+        # Search for search term in file
+        m = re.findall(search_term_with_context, file_contents)
+        if not m:
+            return None
+        # Attempt to pull title out of TOML file, otherwise generate title from filename
+        title = None
+        if filename.endswith(".toml"):
+            d = toml.loads(file_contents)
+            if "title" in d:
+                title = d["title"]
+        if not title:
+            title = splitext(filename)[0].replace("-", " ").title()
+        # Build search results
+        filepath = join(dirpath, filename).replace("\\", "/")
+        html_link = f"/dnd/{basename(dirpath)}/{title}"
+        contexts = [self.build_results_context_string(match) for match in m]
+        return [title, filepath, html_link, contexts]
