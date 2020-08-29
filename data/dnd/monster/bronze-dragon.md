@@ -31,11 +31,11 @@ special_abilities = !!!
 actions = !!!
 **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
-**Bite.** *Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 9) piercing damage.
+**Bite.** *Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage.
 
-**Claw.** *Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 9) slashing damage.
+**Claw.** *Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:* 16 (2d6 + 9) slashing damage.
 
-**Tail.** *Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:* 17 (2d8 + 9) bludgeoning damage.
+**Tail.** *Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:* 18 (2d8 + 9) bludgeoning damage.
 
 **Frightful Presence.** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
 
@@ -95,11 +95,11 @@ special_abilities = !!!
 actions = !!!
 **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
-**Bite.** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 7) piercing damage.
+**Bite.** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage.
 
-**Claw.** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 7) slashing damage.
+**Claw.** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 14 (2d6 + 7) slashing damage.
 
-**Tail.** *Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 15 (2d8 + 7) bludgeoning damage.
+**Tail.** *Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 16 (2d8 + 7) bludgeoning damage.
 
 **Frightful Presence.** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
 
@@ -156,9 +156,9 @@ special_abilities = !**Amphibious.** The dragon can breathe air and water.
 actions = !!!
 **Multiattack.** The dragon makes three attacks: one with its bite and two with its claws.
 
-**Bite.** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 5) piercing damage.
+**Bite.** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage.
 
-**Claw.** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 5) slashing damage.
+**Claw.** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage.
 
 **Breath Weapons (Recharge 5-6).** The dragon uses one of the following breath weapons.
 
