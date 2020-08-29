@@ -774,7 +774,7 @@ Time and effort spent mastering the culinary arts has paid off. You gain the fol
 * Increase your Constitution or Wisdom score by 1, to a maximum of 20.
 * You gain proficiency with cook's utensils if you don't already have it.
 * As part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points.
-* With one hour of work or when you finish along rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.
+* With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.
 
 ## Crusher
 
@@ -795,7 +795,7 @@ Studying occult lore, you have unlocked eldritch power within yourself: you lear
 Your exposure to the Feywild or one of its denizens has left a magical mark on you. You gain the following benefits:
 
 * Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* You learn the _[[[spell:Misty Step]]]_ spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish along rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
+* You learn the _[[[spell:Misty Step]]]_ spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
 
 ## Fighting Initiate
 
@@ -850,7 +850,7 @@ You have honed your proficiency with particular skills or tools, gaining the fol
 You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:
 
 * Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* You learn the _[[[spell:Darkness]]]_ spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish along rest. You can also cast these spells using spell slots you have of the appropriate level.The spells' spellcasting ability is the ability increased by this feat.
+* You learn the _[[[spell:Darkness]]]_ spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.The spells' spellcasting ability is the ability increased by this feat.
 
 ## Shield Training
 
