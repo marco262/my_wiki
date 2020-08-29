@@ -1,0 +1,1 @@
+REDIRECT /dnd/monster/Bronze Dragon#ancient-bronze-dragon

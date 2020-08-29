@@ -1,0 +1,1 @@
+REDIRECT /dnd/monster/Bronze Dragon#young-bronze-dragon
