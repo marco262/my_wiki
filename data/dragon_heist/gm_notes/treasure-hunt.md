@@ -78,12 +78,14 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 
 ## Vault of the Dragons 
 
+### Vault Door
+
+An [underground tunnel](^underground_tunnel.jpg) leads to the vault.
+
+[The vault door](^Vault-Door.jpg) is covered with Dwarvish writing, which can be deciphered to say, "Welcome all those who will give thanks and praise to our gods. Enter ye who will hold respect and wonder in thine hearts."
+
 ### Aurinax
 
 [Aurinax](^aurinax.jpg) the [gold dragon](/dnd/monster/adult-gold-dragon) will be absent when they first arrive, but then appear in his dwarven form, hobbling on the staff. He'll greet them with a friendly smile, and ask their names, happy to have someone to talk to. But when they talk about taking the treasure, he'll get concerned. He agreed to only let Dagult Neverember or his appointed vassals take the treasure. He is VERY good at spotting lies, so Deception checks are tough to pull off. 
 
 However, if the party convinces him (DC 18 Persuasion) that they wish to return the treasure to the city, he's willing to part with it if they pass a test: Fight him in single battle. If they survive, they can leave with the treasure. In reality, he just wishes to ascertain they really are devoted to a selfless act.
-
-### Images
-
-* [Vault door](^Vault-Door.jpg)
