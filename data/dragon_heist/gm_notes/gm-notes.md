@@ -61,6 +61,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Necklace of Fireballs](^necklace_of_fireballs.jpg)
 * [Nimblewright Detector](^nimblewright_detector.png)
+* [Driftglobe](^https://www.aidedd.org/dnd/images-om/driftglobe.jpg)
 
 # [Trollskull Alley](Trollskull Alley)
 
@@ -77,6 +78,7 @@ Enter another URL to set as Visual Aid here:
 * [Durnan](^durnan.jpg), proprietor of the yawning Portal
   * [Mhaere Dryndilstann](^mhaere_dryndilstann.jpg), wife of Durnan, handles selling equipment to adventurers going into Undermountain
 * [Grinda Garloth](^Grinda_garloth_and_apparatus.jpg), [mage](/dnd/monster/mage)
+* [Mary Pickford](^mary_pickford.jpg), plays the handmaiden in *Kiss of the Lamia*, friendly with Emir
 
 ## Guild NPCs
 

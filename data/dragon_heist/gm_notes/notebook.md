@@ -69,11 +69,11 @@ These are things to take out of the party funds when I remember:
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
   * Halgraek is willing to rent out the trollskull for 10 gp/day
   * Halgraek is willing to take Gemma Arterton on as a maid as a trial run
-* Harpers Mission, "Welcome to the Family"
 * Tomassin asks after Emir, clearly smitten
   * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
-* Cecil Weiss has left tickets for them on the 11th, for Kiss of the Lamia
 * Brendaniel has a mentor!
+* Found the trap door under the manager's desk
+* Embric and Avi will emboss the dragonscale at noon today
 
 ---
 
