@@ -4,12 +4,12 @@
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
-name = 546 (28d20 + 252)
+name = Ancient Gold Dragon
 size = Gargantuan
 type = dragon
 alignment = lawful good
 armor_class = 22 (natural armor)
-hit_points = 444 (24d20+192)
+hit_points = 546 (28d20 + 252)
 speed = 40 ft., fly 80 ft., swim 40 ft.
 strength = 30
 dexterity = 14

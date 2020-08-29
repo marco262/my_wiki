@@ -17,6 +17,8 @@
 * [Iokaste Daliano](^iokaste_daliano.png), middle-aged widow, owner of the Pink Flumph Theater
 * [Wishes](^faerie_dragon.jpg), [faerie dragon](/dnd/monster/faerie dragon), protects the theater
 
+When exploring the theater, mention the mirrors used to reflect sunlight and torchlight onto the stage.
+
 ## Vault Key
 
 A bronze dragon scale, stamped with the private symbol of Dagult Neverember, reflecting sunlight onto the door.
@@ -64,6 +66,10 @@ Items on the shelf/ground:
    * Renaer's childhood toy, who's surprised his dad kept it
    * Holding the toy sword, if the sword is put in its scabbard the defenses are disabled
 
+### Putting the Key Together
+
+Embric and Avi working together can get the seal put onto the scale, but it will be grueling work and they'll need to work together. Embric to get the fires hot enough, and Avi to do the delicate embossing. However, in the middle of it all, one of Avi's tools will break and he'll need a replacement. It will take an hour roundtrip to get the tool, but Embric can only keep the heat up for another 30 minutes.
+
 ### Sunlight
 
 The players will have to figure this one out, lol. Twenty steel mirrors at 5gp apiece could work
@@ -72,9 +78,12 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 
 ## Vault of the Dragons 
 
+### Aurinax
 
+[Aurinax](^aurinax.jpg) the [gold dragon](/dnd/monster/adult-gold-dragon) will be absent when they first arrive, but then appear in his dwarven form, hobbling on the staff. He'll greet them with a friendly smile, and ask their names, happy to have someone to talk to. But when they talk about taking the treasure, he'll get concerned. He agreed to only let Dagult Neverember or his appointed vassals take the treasure. He is VERY good at spotting lies, so Deception checks are tough to pull off. 
+
+However, if the party convinces him (DC 18 Persuasion) that they wish to return the treasure to the city, he's willing to part with it if they pass a test: Fight him in single battle. If they survive, they can leave with the treasure. In reality, he just wishes to ascertain they really are devoted to a selfless act.
 
 ### Images
 
 * [Vault door](^Vault-Door.jpg)
-* [Aurinax](^aurinax.jpg)
