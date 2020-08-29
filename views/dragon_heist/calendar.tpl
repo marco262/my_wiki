@@ -59,6 +59,7 @@ cb = CalendarBuilder(
     {{ cb.day(10, "Cabin in the Woods", current_day=True) }}
     {{ cb.day(11, "Istrid Horn owes party 180gp / Play!") }}
     {{ cb.day(12, "Sewer Plague") }}
+    {{ cb.day(16, "Remalia's Party") }}
 </div>
 <div class="month" id="elient">
     <img class="month-img" src="../static/img/elient.png">
