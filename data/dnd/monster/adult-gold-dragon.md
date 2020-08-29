@@ -1,0 +1,1 @@
+REDIRECT /dnd/monster/Gold Dragon#adult-gold-dragon

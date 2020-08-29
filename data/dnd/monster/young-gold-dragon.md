@@ -1,0 +1,1 @@
+REDIRECT /dnd/monster/Gold Dragon#young-gold-dragon
