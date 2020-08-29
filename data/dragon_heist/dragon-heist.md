@@ -77,7 +77,21 @@ But that is a story for another time. This story has more humble beginnings. We 
             <li>Expend 1 charge to cast <a href="/dnd/spell/legend-lore"><em>legend lore</em></a></li>
             <li>Expend 1 charge to cast <a href="/dnd/spell/nondetection"><em>detect thoughts</em></a></li>
             <li>Regains 1d3 charges at dawn, max 3.</li>
-            <li>???</li>
+            <li>In quiet rooms, your head fills with the whispered thoughts of people around you.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Driftglobe</td>
+        <td>
+            <ul>
+            <li>Borrowed from Renaer</li>
+            <li>Command words:<ul>
+                <li>Float: <em>Heel</em></li>
+                <li><a href="/dnd/spell/Light">Light</a>: <em>Pickle Juice</em></li>
+                <li><a href="/dnd/spell/Daylight">Daylight</a>: <em>Mum's the Word</em></li>
+            </ul></li>
+            <li><a href="https://www.aidedd.org/dnd/om.php?vo=driftglobe">Description and picture</a></li>
             </ul>
         </td>
     </tr>
