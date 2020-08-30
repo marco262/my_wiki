@@ -98,36 +98,36 @@ class MarkdownParser:
             args = {}
             if m.group(3):
                 content = m.group(3).strip("\n")
-                if content.startswith("file"):
-                    args = toml.load(os.path.join("data", content.split("=")[1].strip(" ")))
-                    for k, v in args.items():
-                        if isinstance(v, str) and v.startswith("!"):
-                            args[k] = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
-                else:
-                    rows = content.split("\n")
-                    index = 0
-                    while index < len(rows):
-                        arg = rows[index]
-                        try:
-                            k, v = arg.split("=", 1)
-                        except ValueError:
-                            raise ValueError("Can't split line: " + arg)
-                        k, v = k.strip(), v.strip()
-                        if v.startswith("!!!"):
-                            # Gather the remaining lines
-                            full_value = v[3:] + "\n"
-                            while True:
-                                index += 1
-                                row = rows[index]
-                                if row.endswith("!!!"):
-                                    full_value += row[:-3]
-                                    break
-                                full_value += row + "\n"
-                            v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
-                        elif v.startswith("!"):
-                            v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
-                        args[k] = v
-                        index += 1
+                rows = content.split("\n")
+                index = 0
+                while index < len(rows):
+                    arg = rows[index]
+                    try:
+                        k, v = arg.split("=", 1)
+                    except ValueError:
+                        raise ValueError("Can't split line: " + arg)
+                    k, v = k.strip(), v.strip()
+                    if k == "file":
+                        toml_dict = toml.load(os.path.join("data", v))
+                        for k, v in toml_dict.items():
+                            if isinstance(v, str) and v.startswith("!"):
+                                v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
+                            args[k] = v
+                    elif v.startswith("!!!"):
+                        # Gather the remaining lines
+                        full_value = v[3:] + "\n"
+                        while True:
+                            index += 1
+                            row = rows[index]
+                            if row.endswith("!!!"):
+                                full_value += row[:-3]
+                                break
+                            full_value += row + "\n"
+                        v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
+                    elif v.startswith("!"):
+                        v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
+                    args[k] = v
+                    index += 1
 
             if template_name.endswith(".tpl"):
                 try:
@@ -158,8 +158,8 @@ class MarkdownParser:
 
     @staticmethod
     def convert_wiki_divs(text):
-        text = re.sub(r"<p>\[\[div(.*?)]]</p>", r"<div\1>", text)
-        text = re.sub(r"<p>\[\[/div]]</p>", "</div>", text)
+        text = re.sub(r"<p>\[\[(div|span)(.*?)]]</p>", r"<\1\2>", text)
+        text = re.sub(r"<p>\[\[/(div|span)]]</p>", r"</\1>", text)
         return text
 
     @staticmethod

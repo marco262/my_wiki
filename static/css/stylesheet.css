@@ -197,7 +197,7 @@ h1 {
 h1#page-title {
     font-family: 'Bree Serif', serif;
 }
-h1.no-float {
+.no-float {
     clear: both;
 }
 h2 {
@@ -404,4 +404,11 @@ blockquote {
     display:inline-block;
     vertical-align: top;
     margin: 5px;
+}
+
+.monster-float {
+    float: right;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }

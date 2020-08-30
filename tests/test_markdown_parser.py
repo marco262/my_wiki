@@ -139,3 +139,22 @@ Text block
         md = MarkdownParser()
         actual = md.build_bibliography(text)
         self.assertEqual(expected, actual)
+
+    def test_convert_wiki_divs(self):
+        text = """
+<p>[[div class="test"]]</p>
+
+Test text
+
+<p>[[/div]]</p>
+"""
+        expected = """
+<div class="test">
+
+Test text
+
+</div>
+"""
+        md = MarkdownParser()
+        actual = md.convert_wiki_divs(text)
+        self.assertEqual(expected, actual)
