@@ -6,8 +6,8 @@ from os.path import splitext, basename, isfile
 from time import time
 
 import toml
+from bottle import view, request, HTTPError, Bottle, template, redirect
 
-from bottle import view, request, HTTPError, Bottle, template
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
@@ -99,6 +99,8 @@ def load_wsgi_endpoints(app: Bottle):
             if not isfile(pjoin("data", toml_path)):
                 raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
             toml_dict = toml.load(pjoin("data", toml_path))
+            if "redirect" in toml_dict:
+                redirect(toml_dict["redirect"])
             md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
             return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 
@@ -293,3 +295,18 @@ def load_wsgi_endpoints(app: Bottle):
         characters = get_characters()
         characters[name] = loads(request.params["character_data"])
         save_characters(characters)
+
+    @app.get("/gm/monsters_by_name")
+    @view("dnd/monsters-by-name.tpl")
+    def monsters_by_name():
+        file_paths = glob("data/dnd/monster/*")
+        monsters = OrderedDict()
+        for path in file_paths:
+            filename = splitext(basename(path))[0]
+            link = "/dnd/monster/" + filename
+            name = filename.replace("-", " ").title()
+            # Don't overwrite *.md entries with *.toml entries
+            if path.endswith("*.toml") and name in monsters:
+                continue
+            monsters[name] = link
+        return {"monsters": monsters}

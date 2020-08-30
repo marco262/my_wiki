@@ -8,7 +8,7 @@ int_mod = ability_mod(intelligence)
 wis_mod = ability_mod(wisdom)
 cha_mod = ability_mod(charisma)
 %>
-<div class="monster-sheet" style="width: {{ width }};">
+<div class="monster-sheet" style="max-width: {{ width }};">
     <div class="top-bottom-bar"></div>
     <h1 class="name">{{ name }}</h1>
     <div class="type">{{ size }} {{ type }}, {{ alignment }}</div>
