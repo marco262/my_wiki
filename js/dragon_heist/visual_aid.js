@@ -26,10 +26,7 @@ export function init() {
     document.getElementById("picture").ondblclick = toggle_audio_controls;
 
     // Check if autoplay is allowed by playing empty wav file
-    let silent_wav = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
-    var snd = new Audio(silent_wav);
-    snd.play();
-    check_for_popup(snd);
+    window.onload = play_sound;
 }
 
 function load_websocket() {
@@ -143,6 +140,13 @@ function load_audio(target, url) {
     element.load();
     element.play();
     check_for_popup(element);
+}
+
+function play_sound() {
+    let silent_wav = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+    let snd = new Audio(silent_wav);
+    snd.play();
+    setTimeout(() => { check_for_popup(snd); }, 500);
 }
 
 function check_for_popup(snd) {
