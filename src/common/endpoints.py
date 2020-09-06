@@ -1,3 +1,5 @@
+from threading import Thread
+
 from git import Repo
 from time import ctime
 
@@ -42,6 +44,12 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/load_changes")
     def restart():
+        t = Thread(name="get_git_changes", target=get_git_changes)
+        t.start()
+        # The bottle server will reload automatically if git updates are found
+        return "Checking for git changes..."
+
+    def get_git_changes():
         print("Pulling from git...")
         repo = Repo()
         last_commit = repo.head.commit
@@ -53,8 +61,6 @@ def load_wsgi_endpoints(app: Bottle):
             print("No updates found.")
             return "No updates found."
         print("Waiting for server restart")
-        # The bottle server will reload automatically
-        return "Restarting"
 
     @app.get("/restart")
     def restart():
