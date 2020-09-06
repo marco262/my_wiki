@@ -32,6 +32,7 @@ But that is a story for another time. This story has more humble beginnings. We 
 * [Trollskull Manor deed](https://drive.google.com/open?id=1ogzfzHE9kakuMBu0xXsCqEPII6KWYhfX)
 * [Calendar](/dragon_heist/calendar)
 * [Visual Aid](/dragon_heist/visual_aid)
+* [Player's Soundboard](/dragon_heist/player soundboard)
 
 # Images
 

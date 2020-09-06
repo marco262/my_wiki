@@ -10,6 +10,7 @@ from bottle import Bottle, view, request, auth_basic
 from src.common.utils import md_page
 
 # Default password: dancinglikeastripper
+PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
 visual_aid_url = "/static/img/visual_aids/dnd_party.png"
@@ -17,8 +18,9 @@ websocket_list = []
 
 
 def init(cfg):
-    global GM_NOTES_PW_HASH
+    global GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
+    PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
 
 
 def websocket_loop(ws, websocket_list):
@@ -94,7 +96,7 @@ def load_wsgi_endpoints(app: Bottle):
         websocket_loop(ws, websocket_list)
 
     @app.post("set_visual_aid")
-    @auth_basic(gm_notes_auth_check)
+    @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_url
         params = dict(request.params)
@@ -114,3 +116,10 @@ def load_wsgi_endpoints(app: Bottle):
 
 def gm_notes_auth_check(username, password):
     return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)
+
+
+def visual_aid_auth_check(username, password):
+    return (
+        (username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)) or
+        (username.lower() == "player" and bcrypt.checkpw(password.encode("utf-8"), PLAYER_SOUNDBOARD_PW_HASH))
+    )
