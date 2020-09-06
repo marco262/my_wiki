@@ -9,17 +9,17 @@
 ## Places
 
 * Trollskull Manor [1](^trollskull_manor_1.jpg), [2](^trollskull_manor_2.jpg), [3](^trollskull_manor_3.png)
-* Trollskull Alley [1](^trollskull_alley.png), [2](^trollskull_alley_1.png), [3](^trollskull_alley_2.png) 
+* Trollskull Alley [1](^trollskull_alley.png), [2](^trollskull_alley_1.png), [3](^trollskull_alley_2.png), [foggy night](^trollskull_alley_3.png)
 
 ## Trollskull Alley NPCs
 
 * [Lif Erwaren](^lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor, ([Flying kitchen utensils](^flying_kitchen_utensils.jpg))
 * [Talisolvanar "Tally" Fellbranch](^talisolvanar_tally_fellbranch.jpg), carpenter, owner of [The Bent Nail](^the_bent_nail.jpg) ([wiki](https://waterdeep.fandom.com/wiki/The_Bent_Nail))
-* [Embric](^embric.jpg), weaponsmith, co-owner of [Steam and Steel](^steam_and_steel.jpg)
+* [Embric](^embric.jpg), weaponsmith, co-owner of [Steam and Steel](^steam_and_steel.jpg) ([at night](^steam_and_steel_2.jpg), [at sunrise](^steam_and_steel_3.jpg))
 * [Avi](^avi.jpg), armorsmith, co-owner of Steam and Steel
-* [Fala Lefaliir](^fala_lefaliir.jpg), herbalist, owner of [Corellon's Crown](^corellons_crown.jpg)
+* [Fala Lefaliir](^fala_lefaliir.jpg), herbalist, owner of [Corellon's Crown](^corellons_crown.jpg) ([at night](^corellons_crown_2.jpg))
 * Vincent Trench ([1](^vincent_trench_1.jpg), [2](^vincent_trench_2.jpg)), detective, disguised Rak'shasa, owner of [The Tiger's Eye](^the_tigers_eye.jpg)
-* [Rishaal the Page-Turner](^rishaal_the_pageturner.jpg), mage, owner of the Book Wyrm's Treasure ([1](^book_wyrms_treasure_1.jpg), [2](^book_wyrms_treasure_2.jpg))
+* [Rishaal the Page-Turner](^rishaal_the_pageturner.jpg), mage, owner of the Book Wyrm's Treasure ([1](^book_wyrms_treasure_1.jpg), [2](^book_wyrms_treasure_2.jpg), [at night](^book_wyrms_treasure_3.png), [back entrance](^book_wyrms_treasure_4.png))
 
 ## Trollskull Alley Adjacent NPCs
 

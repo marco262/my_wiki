@@ -79,7 +79,7 @@ class MarkdownParser:
 
     @staticmethod
     def convert_popup_links(text):
-        pattern = r"\[(.*?)]\(([\^\$])(.*?)\)"
+        pattern = r"\[([^]]+?)]\(([\^\$])(.*?)\)"
         for m in re.finditer(pattern, text):
             if m.group(2) == "^":
                 value = f"visual_aid|{m.group(3)}"

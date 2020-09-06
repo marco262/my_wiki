@@ -99,7 +99,7 @@ def load_wsgi_endpoints(app: Bottle):
                 raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
             toml_dict = toml.load(pjoin("data", toml_path))
             if "redirect" in toml_dict:
-                redirect(toml_dict["redirect"])
+                return redirect(toml_dict["redirect"])
             md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
             return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 
