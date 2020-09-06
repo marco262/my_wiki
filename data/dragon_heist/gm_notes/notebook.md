@@ -90,3 +90,6 @@ These are things to take out of the party funds when I remember:
 * Soundboard:
   * Add volume control
 * Plan David fight
+* Add Calendar control to Visual Aid
+* Add Bag of Holding description
+* Add Brendaniel goggles https://cdn.vox-cdn.com/thumbor/yoYBFa01eE7qLmLX1z13nZ6jEO4=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19722878/sth_ff_027r2.jpg
