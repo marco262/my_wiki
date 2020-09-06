@@ -89,6 +89,4 @@ These are things to take out of the party funds when I remember:
 * Florence Ableton has two 14 and 16 year old boys
 * Soundboard:
   * Add volume control
-* Fill out vault
-* Design Xanathar forces
 * Plan David fight

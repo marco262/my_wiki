@@ -1,6 +1,7 @@
 [[div class="monster-include"]]
 
-<a id="Bugbear">
+<a id="Bugbear"></a>
+
 [[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Bugbear
@@ -36,7 +37,8 @@ actions = !!!
 
 [[div class="monster-include"]]
 
-<a id="Bugbear-Chief">
+<a id="Bugbear-Chief"></a>
+
 [[include dnd/monster-sheet.tpl]]
 width = 400px
 name = Bugbear Chief
