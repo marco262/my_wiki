@@ -68,7 +68,7 @@ Items on the shelf/ground:
 
 ### Putting the Key Together
 
-Embric and Avi working together can get the seal put onto the scale, but it will be grueling work and they'll need to work together. Embric to get the fires hot enough, and Avi to do the delicate embossing. However, in the middle of it all, one of Avi's tools will break and he'll need a replacement. It will take an hour roundtrip to get the tool, but Embric can only keep the heat up for another 30 minutes.
+Embric and Avi working together can get the seal put onto the scale, but it will be grueling work and they'll need to work together. Embric to get the fires hot enough, and Avi to do the delicate embossing. However, in the middle of it all, one of Avi's tools will break and he'll need a replacement from the Metalmasters' Hall in the Southern Ward. It will take an hour roundtrip to get the tool, but Embric can only keep the heat up for another 30 minutes.
 
 ### Sunlight
 
