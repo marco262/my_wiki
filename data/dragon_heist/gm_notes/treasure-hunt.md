@@ -78,9 +78,18 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 
 ## Vault of the Dragons 
 
+### Emir's Eleven
+
+* Emir D'Amour
+* Tom Nielson Alley
+* Guy Buddie
+* [Grinda Garloth](^grinda_garloth.jpg) ([mage](/dnd/monster/Mage))
+* Renaer Neverember
+* [Brendaniel](brendaniel sqwik)
+
 ### Images
 
-* [Black Pudding](^black_pudding.jpg) \[[wiki](/dnd/monster/black pudding)\]
+* [Black Pudding](^black_pudding.jpg) ([wiki](/dnd/monster/black pudding))
 * [Barok Clanghammer](^barok_clanghammer.jpg)
 * Aurinax [1](^gold_dragon.jpg), [2](^gold_dragon_2.jpg)
 
