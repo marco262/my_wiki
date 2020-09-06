@@ -95,3 +95,7 @@ An [underground tunnel](^underground_tunnel.jpg) leads to the vault.
 Aurinax the [gold dragon](/dnd/monster/adult-gold-dragon) will be absent when they first arrive, but then appear in his dwarven form, hobbling on the staff. He'll greet them with a friendly smile, and ask their names, happy to have someone to talk to. But when they talk about taking the treasure, he'll get concerned. He agreed to only let Dagult Neverember or his appointed vassals take the treasure. He is VERY good at spotting lies, so Deception checks are tough to pull off. 
 
 However, if the party convinces him (DC 18 Persuasion) that they wish to return the treasure to the city, he's willing to part with it if they pass a test: Fight him in single battle. If they survive, they can leave with the treasure. In reality, he just wishes to ascertain they really are devoted to a selfless act.
+
+### Ambush
+
+While leaving the vault, they will be confronted by [Nar'l Xibrindas](^nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))

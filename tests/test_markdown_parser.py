@@ -94,19 +94,27 @@ Text block
         
         * [Sword]($load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3)
         [Pause All]($pause|all)
+        
+        [Some visual aids](^some_visual_aids.jpg) all on the [same line](^same-line.jpg).
+        
+        [Wiki link](/dnd/wiki-link) before a [Visual aid](^visual_aid.jpg).
         """
 
         expected = """
-        * <button class="visual-aid-button" value="visual_aid|ulkoria_stronemarrow.jpg">Ulkoria Stronemarrow</button>, representative for the Watchful Order of Magists and Protectors
+        * <span class="visual-aid-link" title="visual_aid|ulkoria_stronemarrow.jpg">Ulkoria Stronemarrow</span>, representative for the Watchful Order of Magists and Protectors
 
         ## [Faction NPCs](Faction NPCs)
         
         ## Enemy NPCs
-        * <button class="visual-aid-button" value="visual_aid|kenku.jpg">Kenku</button>
-        * <button class="visual-aid-button" value="visual_aid|gazer.jpg">Gazer</button>
+        * <span class="visual-aid-link" title="visual_aid|kenku.jpg">Kenku</span>
+        * <span class="visual-aid-link" title="visual_aid|gazer.jpg">Gazer</span>
         
-        * <button class="visual-aid-button" value="load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3">Sword</button>
-        <button class="visual-aid-button" value="pause|all">Pause All</button>
+        * <span class="visual-aid-link" title="load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3">Sword</span>
+        <span class="visual-aid-link" title="pause|all">Pause All</span>
+        
+        <span class="visual-aid-link" title="visual_aid|some_visual_aids.jpg">Some visual aids</span> all on the <span class="visual-aid-link" title="visual_aid|same-line.jpg">same line</span>.
+        
+        [Wiki link](/dnd/wiki-link) before a <span class="visual-aid-link" title="visual_aid|visual_aid.jpg">Visual aid</span>.
         """
 
         md = MarkdownParser()
