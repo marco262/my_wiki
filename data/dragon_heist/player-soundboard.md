@@ -31,6 +31,7 @@
 * [Sounds from behind Brendaniel's bedroom door]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s)
 * [Price Is Right Sad Horn]($load|effect|The Price is Right Losing Horn - Gaming Sound Effect.mp3)
 * [FFVII Victory Theme]($load|effect|Final Fantasy VII - Victory Fanfare.mp3)
+* [Don't Be Suspicious]($load|effect|Dont be suspicious.mp3)
 
 <script type="module">
     import { init_links, init_soundboard } from "/js/dragon_heist/gm_notes.js";
