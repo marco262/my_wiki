@@ -71,9 +71,8 @@ These are things to take out of the party funds when I remember:
   * Halgraek is willing to take Gemma Arterton on as a maid as a trial run
 * Tomassin asks after Emir, clearly smitten
   * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
-* Brendaniel has a mentor!
-* Found the trap door under the manager's desk
-* Embric and Avi will emboss the dragonscale at noon today
+* Entering the vault!!!
+* The faerie dragon wants some of the treasure! (Unclear on how much)
 
 ---
 
@@ -93,3 +92,7 @@ These are things to take out of the party funds when I remember:
 * Add Calendar control to Visual Aid
 * Add Bag of Holding description
 * Add Brendaniel goggles https://cdn.vox-cdn.com/thumbor/yoYBFa01eE7qLmLX1z13nZ6jEO4=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19722878/sth_ff_027r2.jpg
+* Add tokens to Roll20
+* Stat up Grinda as an artificer 
+* Figure out the most money that can fit in a bag of holding
+* Add Marsha's song requests to Player Soundboard
