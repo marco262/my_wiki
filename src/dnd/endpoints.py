@@ -95,7 +95,6 @@ def load_wsgi_endpoints(app: Bottle):
         except HTTPError as e:
             # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
             toml_path = pjoin("dnd/monster", title_to_page_name(name) + ".toml")
-            print(toml_path)
             if not isfile(pjoin("data", toml_path)):
                 raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
             toml_dict = toml.load(pjoin("data", toml_path))

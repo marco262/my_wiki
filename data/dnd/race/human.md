@@ -3,18 +3,20 @@
 > 
 > -- Elaine Cunningham, Daughter of the Drow
 
-In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty em pires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.
+In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.
 
 # A Broad Spectrum
 
-With their penchant for migration and conquest, hum ans are more physically diverse than other common races. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. A lot of humans have a dash of nonhuman blood, revealing hints of elf, orc , or other lineages. Humans reach adulthood in their late teens and rarely live even a single century.
+With their penchant for migration and conquest, humans are more physically diverse than other common races. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. A lot of humans have a dash of nonhuman blood, revealing hints of elf, orc , or other lineages. Humans reach adulthood in their late teens and rarely live even a single century.
 
 # Variety in All Things
 
 Humans are the most adaptable and ambitious people among the common races. They have widely varying tastes, morals, and customs in the many different lands where they have settled. When they settle, though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human's memory. They live fully in the present -- making them well suited to the adventuring life -- but also plan for the future, striving to leave a lasting legacy. Individually and as a group, humans are adaptable opportunists, and they stay alert to changing political and social dynamics.
 
 # Lasting Institutions
+
 [[div class="phb-sidebar"]]
+
 **Everyone's Second-Best Friends**
 
 Just as readily as they mix with each other, humans mingle with members of other races. They get along with almost everyone, though they might not be close to many. Humans serve as ambassadors, diplomats, magistrates, merchants, and functionaries of all kinds.
@@ -24,14 +26,16 @@ Just as readily as they mix with each other, humans mingle with members of other
 **Elves.** "It's best not to wander into elven woods. They don't like intruders, and you'll as likely be bewitched as peppered with arrows. Still, if an elf can get past that damned racial pride and actually treat you like an equal, you can learn a lot from them."
 
 **Halflings.** "It's hard to beat a meal in a halfling home, as long as you don't crack your head on the ceiling -- good food and good stories in front of a nice, warm fire. If halflings had a shred of ambition, they might really amount to something."
+
 [[/div]]
+
 Where a single elf or dwarf might take on the responsibility of guarding a special location or a powerful secret, humans found sacred orders and institutions for such purposes. While dwarf clans and halfling elders pass on the ancient traditions to each new generation, human temples, governments, libraries, and codes of law fix their traditions in the bedrock of history. Humans dream of immortality, but (except for those few who seek undeath or divine ascension to escape death's clutches) they achieve it by ensuring that they will be remembered when they are gone.
 
 Although some humans can be xenophobic, in general their societies are inclusive. Human lands welcome large numbers of nonhumans compared to the proportion of humans who live in nonhuman lands.
 
 # Exemplars of Ambition
 
-Humans who seek adventure are the most daring and ambitious members of a daring and ambitious race. They seek to earn glory in the eyes of their fellows by am assing power, wealth, and fame. More than other people, humans champion causes rather than territories or groups.
+Humans who seek adventure are the most daring and ambitious members of a daring and ambitious race. They seek to earn glory in the eyes of their fellows by amassing power, wealth, and fame. More than other people, humans champion causes rather than territories or groups.
 
 # Human Names and Ethnicities
 
@@ -94,7 +98,9 @@ Native to the southern shore of the Inner Sea, the Turami people are generally t
 Turami Names: (Male) Anton, Diero, Marcon, Pieron, Rimardo, Rom ero, Salazar, Umbero; (female) Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda; (surnames) Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo
 
 # Human Traits
+
 [[div class="phb-sidebar"]]
+
 **Variant Human Traits**
 
 If your campaign uses the optional feat rules, your Dungeon Master might allow these variant traits, all of which replace the human's Ability Score Increase trait.
@@ -102,7 +108,9 @@ If your campaign uses the optional feat rules, your Dungeon Master might allow t
 * **Ability Score Increase.** Two different ability scores of your choice increase by 1.
 * **Skills.** You gain proficiency in one skill of your choice.
 * **Feat.** You gain one feat of your choice.
+
 [[/div]]
+
 It's hard to make generalizations about humans, but your human character has these traits.
 
 * **Ability Score Increase.** Your ability scores each increase by 1.
@@ -110,7 +118,7 @@ It's hard to make generalizations about humans, but your human character has the
 * **Alignment.** Humans tend toward no particular alignment. The best and the worst are found among them.
 * **Size.** Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
 * **Speed.** Your base walking speed is 30 feet.
-* **Languages.** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrow ed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
+* **Languages.** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
 
 ----
 
