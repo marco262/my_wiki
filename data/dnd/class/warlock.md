@@ -240,9 +240,9 @@ You can cast *[[[spell:confusion]]]* once using a warlock spell slot. You can't 
 
 You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot.
 
-## Eldritch Sight
+## Eldritch Spear
 
-*Prerequisite: eldritch blast cantrip*
+*Prerequisite: [[[spell:eldritch blast]]] cantrip*
 
 When you cast *[[[spell:eldritch blast]]]*, its range is 300 feet.
 
