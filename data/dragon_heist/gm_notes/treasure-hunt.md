@@ -86,6 +86,7 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 * [Grinda Garloth](^grinda_garloth.jpg) ([mage](/dnd/monster/Mage))
 * Renaer Neverember
 * [Brendaniel](brendaniel sqwik)
+* Wishes the [faerie dragon](/dnd/monster/faerie dragon)
 
 ### Images
 

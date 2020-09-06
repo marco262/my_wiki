@@ -58,7 +58,9 @@ cb = CalendarBuilder(
     {{ cb.day(9, "Assault on Trollskull") }}
     {{ cb.day(10, "Cabin in the Woods") }}
     {{ cb.day(11, "Istrid Horn owes party 180gp / Play!") }}
-    {{ cb.day(12, "Sewer Plague / Mark Dragonscale", current_day=True) }}
+    {{ cb.day(12, "Sewer Plague") }}
+    {{ cb.day(13, "Mark Dragonscale") }}
+    {{ cb.day(14, "Dragon Heist!", current_day=True) }}
     {{ cb.day(16, "Remalia's Party") }}
 </div>
 <div class="month" id="elient">
