@@ -1,5 +1,5 @@
 title = "Dancing Lights"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "cantrip"
 school = "evocation"
 concentration_spell = true

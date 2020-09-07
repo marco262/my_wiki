@@ -1,5 +1,5 @@
 title = "Jump"
-classes = ["druid", "ranger", "sorcerer", "wizard"]
+classes = ["artificer", "druid", "ranger", "sorcerer", "wizard"]
 level = "1"
 school = "transmutation"
 concentration_spell = false

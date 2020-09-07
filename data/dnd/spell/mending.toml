@@ -1,5 +1,5 @@
 title = "Mending"
-classes = ["bard", "cleric", "druid", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "cleric", "druid", "sorcerer", "wizard"]
 level = "cantrip"
 school = "transmutation"
 concentration_spell = false

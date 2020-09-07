@@ -1,5 +1,5 @@
 title = "Longstrider"
-classes = ["bard", "druid", "ranger", "wizard"]
+classes = ["artificer", "bard", "druid", "ranger", "wizard"]
 level = "1"
 school = "transmutation"
 concentration_spell = false

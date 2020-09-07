@@ -1,5 +1,5 @@
 title = "Enhance Ability"
-classes = ["bard", "cleric", "druid", "sorcerer"]
+classes = ["artificer", "bard", "cleric", "druid", "sorcerer"]
 classes_ua = ["ranger", "wizard"]
 level = "2"
 school = "transmutation"

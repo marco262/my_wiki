@@ -1,5 +1,5 @@
 title = "Expeditious Retreat"
-classes = ["sorcerer", "warlock", "wizard"]
+classes = ["artificer", "sorcerer", "warlock", "wizard"]
 level = "1"
 school = "transmutation"
 concentration_spell = true

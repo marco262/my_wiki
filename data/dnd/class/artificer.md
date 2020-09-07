@@ -305,8 +305,12 @@ damage_immunities = poison
 condition_immunities = exhaustion, poisoned
 senses = darkvision 60 ft., passive Perception 14
 languagues = understands the languages you speak
-special_abilities = !**_Evasion._** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.\n\n**_Might of the Master._** The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill and saving throw bonuses (above) and the bonuses to hit and damage of its attack (below).
-actions = !**_Force Strike._** _Ranged Weapon Attack:_ +4 to hit, range 30 ft., one target you can see. _Hit:_ 1d4 + 2 force damage
+special_abilities = !!!
+***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.
+
+***Might of the Master.*** The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill and saving throw bonuses (above) and the bonuses to hit and damage of its attack (below).
+!!!
+companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ +4 to hit, range 30 ft., one target you can see. _Hit:_ 1d4 + 2 force damage
 reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 [[/include]]
 

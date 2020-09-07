@@ -1,5 +1,5 @@
 title = "Magic Weapon"
-classes = ["paladin", "wizard"]
+classes = ["artificer", "paladin", "wizard"]
 classes_ua = ["ranger"]
 level = "2"
 school = "transmutation"

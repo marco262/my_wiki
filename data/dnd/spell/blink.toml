@@ -1,5 +1,5 @@
 title = "Blink"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 level = "3"
 school = "transmutation"
 concentration_spell = false

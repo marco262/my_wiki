@@ -1,5 +1,5 @@
 title = "Absorb Elements"
-classes = ["druid", "ranger", "wizard"]
+classes = ["artificer", "druid", "ranger", "wizard"]
 level = "1"
 school = "abjuration"
 concentration_spell = false

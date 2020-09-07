@@ -1,5 +1,5 @@
 title = "Spare the Dying"
-classes = ["cleric"]
+classes = ["artificer", "cleric"]
 level = "cantrip"
 school = "necromancy"
 concentration_spell = false

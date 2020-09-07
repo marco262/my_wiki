@@ -1,5 +1,5 @@
 title = "Grease"
-classes = ["wizard"]
+classes = ["artificer", "wizard"]
 classes_ua = ["sorcerer"]
 level = "1"
 school = "conjuration"

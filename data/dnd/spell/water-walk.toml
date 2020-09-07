@@ -1,5 +1,5 @@
 title = "Water Walk"
-classes = ["cleric", "druid", "ranger", "sorcerer"]
+classes = ["artificer", "cleric", "druid", "ranger", "sorcerer"]
 level = "3"
 school = "transmutation"
 concentration_spell = false

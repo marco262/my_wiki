@@ -1,5 +1,5 @@
 title = "Resistance"
-classes = ["cleric", "druid"]
+classes = ["artificer", "cleric", "druid"]
 level = "cantrip"
 school = "abjuration"
 concentration_spell = true

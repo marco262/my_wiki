@@ -1,5 +1,5 @@
 title = "Blur"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 level = "2"
 school = "illusion"
 concentration_spell = true

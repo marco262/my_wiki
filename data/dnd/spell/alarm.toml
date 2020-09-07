@@ -1,5 +1,5 @@
 title = "Alarm"
-classes = ["ranger", "wizard"]
+classes = ["artificer", "ranger", "wizard"]
 level = "1"
 school = "abjuration"
 concentration_spell = false

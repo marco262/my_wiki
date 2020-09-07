@@ -1,5 +1,5 @@
 title = "Lesser Restoration"
-classes = ["bard", "cleric", "druid", "paladin", "ranger"]
+classes = ["artificer", "bard", "cleric", "druid", "paladin", "ranger"]
 level = "2"
 school = "abjuration"
 concentration_spell = false

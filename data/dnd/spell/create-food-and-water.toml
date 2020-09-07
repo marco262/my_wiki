@@ -1,5 +1,5 @@
 title = "Create Food and Water"
-classes = ["cleric", "paladin"]
+classes = ["artificer", "cleric", "paladin"]
 level = "3"
 school = "conjuration"
 concentration_spell = false

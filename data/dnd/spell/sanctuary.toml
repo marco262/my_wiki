@@ -1,5 +1,5 @@
 title = "Sanctuary"
-classes = ["cleric"]
+classes = ["artificer", "cleric"]
 level = "1"
 school = "abjuration"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Message"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "cantrip"
 school = "transmutation"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Create Bonfire"
-classes = ["druid", "sorcerer", "warlock", "wizard"]
+classes = ["artificer", "druid", "sorcerer", "warlock", "wizard"]
 level = "cantrip"
 school = "conjuration"
 concentration_spell = true

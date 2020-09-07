@@ -1,5 +1,5 @@
 title = "Catnap"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "3"
 school = "enchantment"
 concentration_spell = false

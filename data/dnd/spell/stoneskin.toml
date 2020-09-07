@@ -1,5 +1,5 @@
 title = "Stoneskin"
-classes = ["druid", "ranger", "sorcerer", "wizard"]
+classes = ["artificer", "druid", "ranger", "sorcerer", "wizard"]
 level = "4"
 school = "abjuration"
 concentration_spell = true

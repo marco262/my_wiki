@@ -1,5 +1,5 @@
 title = "Enlarge/Reduce"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 classes_ua = ["bard", "druid"]
 level = "2"
 school = "transmutation"

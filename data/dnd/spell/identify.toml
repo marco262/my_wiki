@@ -1,5 +1,5 @@
 title = "Identify"
-classes = ["bard", "wizard"]
+classes = ["artificer", "bard", "wizard"]
 level = "1"
 school = "divination"
 concentration_spell = false

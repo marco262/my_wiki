@@ -1,5 +1,5 @@
 title = "Guidance"
-classes = ["cleric", "druid"]
+classes = ["artificer", "cleric", "druid"]
 level = "cantrip"
 school = "divination"
 concentration_spell = true

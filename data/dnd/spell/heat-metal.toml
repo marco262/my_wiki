@@ -1,5 +1,5 @@
 title = "Heat Metal"
-classes = ["bard", "druid"]
+classes = ["artificer", "bard", "druid"]
 level = "2"
 school = "transmutation"
 concentration_spell = true

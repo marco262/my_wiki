@@ -1,5 +1,5 @@
 title = "Dispel Magic"
-classes = ["bard", "cleric", "druid", "paladin", "sorcerer", "warlock", "wizard"]
+classes = ["artificer", "bard", "cleric", "druid", "paladin", "sorcerer", "warlock", "wizard"]
 level = "3"
 school = "abjuration"
 concentration_spell = false

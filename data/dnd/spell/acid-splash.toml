@@ -1,5 +1,5 @@
 title = "Acid Splash"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 level = "cantrip"
 school = "conjuration"
 concentration_spell = false

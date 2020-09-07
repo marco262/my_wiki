@@ -1,5 +1,5 @@
 title = "Arcane Lock"
-classes = ["wizard"]
+classes = ["artificer", "wizard"]
 level = "2"
 school = "abjuration"
 concentration_spell = false

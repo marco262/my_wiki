@@ -71,6 +71,12 @@ cha_mod = ability_mod(charisma)
         {{! actions }}
     </div>
     % end
+    % if defined("companion_actions"):
+    <h2 class="actions-header">Actions (Requires Your Bonus Action)</h2>
+    <div class="text-black">
+        {{! companion_actions }}
+    </div>
+    % end
     % if defined("legendary_actions"):
     <h2 class="actions-header">Legendary Actions</h2>
     <div class="text-black">

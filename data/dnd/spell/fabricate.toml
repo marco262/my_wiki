@@ -1,5 +1,5 @@
 title = "Fabricate"
-classes = ["wizard"]
+classes = ["artificer", "wizard"]
 level = "4"
 school = "transmutation"
 concentration_spell = false
