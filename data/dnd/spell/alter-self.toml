@@ -1,5 +1,5 @@
 title = "Alter Self"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 level = "2"
 school = "transmutation"
 concentration_spell = true

@@ -1,5 +1,5 @@
 title = "False Life"
-classes = ["sorcerer", "wizard"]
+classes = ["artificer", "sorcerer", "wizard"]
 level = "1"
 school = "necromancy"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Otiluke's Resilient Sphere"
-classes = ["wizard"]
+classes = ["artificer", "wizard"]
 level = "4"
 school = "evocation"
 concentration_spell = true

@@ -1,5 +1,5 @@
 title = "Continual Flame"
-classes = ["cleric", "wizard"]
+classes = ["artificer", "cleric", "wizard"]
 classes_ua = ["druid"]
 level = "2"
 school = "evocation"

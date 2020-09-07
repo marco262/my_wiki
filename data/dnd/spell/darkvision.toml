@@ -1,5 +1,5 @@
 title = "Darkvision"
-classes = ["druid", "ranger", "sorcerer", "wizard"]
+classes = ["artificer", "druid", "ranger", "sorcerer", "wizard"]
 level = "2"
 school = "transmutation"
 concentration_spell = false

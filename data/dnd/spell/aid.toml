@@ -1,5 +1,5 @@
 title = "Aid"
-classes = ["cleric", "paladin"]
+classes = ["artificer", "cleric", "paladin"]
 classes_ua = ["bard", "ranger"]
 level = "2"
 school = "abjuration"

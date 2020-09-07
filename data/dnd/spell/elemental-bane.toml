@@ -1,5 +1,5 @@
 title = "Elemental Bane"
-classes = ["druid", "warlock", "wizard"]
+classes = ["artificer", "druid", "warlock", "wizard"]
 level = "4"
 school = "transmutation"
 concentration_spell = true

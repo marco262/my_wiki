@@ -1,5 +1,5 @@
 title = "Transmute Rock"
-classes = ["druid", "wizard"]
+classes = ["artificer", "druid", "wizard"]
 level = "5"
 school = "transmutation"
 concentration_spell = false

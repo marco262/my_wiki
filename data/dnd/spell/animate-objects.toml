@@ -1,5 +1,5 @@
 title = "Animate Objects"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "5"
 school = "transmutation"
 concentration_spell = true

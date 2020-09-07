@@ -1,5 +1,5 @@
 title = "Spider Climb"
-classes = ["sorcerer", "warlock", "wizard"]
+classes = ["artificer", "sorcerer", "warlock", "wizard"]
 level = "2"
 school = "transmutation"
 concentration_spell = true

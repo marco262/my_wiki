@@ -1,5 +1,5 @@
 title = "Protection From Energy"
-classes = ["cleric", "druid", "ranger", "sorcerer", "wizard"]
+classes = ["artificer", "cleric", "druid", "ranger", "sorcerer", "wizard"]
 level = "3"
 school = "abjuration"
 concentration_spell = true

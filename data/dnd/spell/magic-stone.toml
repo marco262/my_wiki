@@ -1,5 +1,5 @@
 title = "Magic Stone"
-classes = ["druid", "warlock"]
+classes = ["artificer", "druid", "warlock"]
 level = "cantrip"
 school = "transmutation"
 concentration_spell = false

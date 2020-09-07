@@ -1,5 +1,5 @@
 title = "Pyrotechnics"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "2"
 school = "transmutation"
 concentration_spell = false

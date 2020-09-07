@@ -150,19 +150,25 @@ Text block
 
     def test_convert_wiki_divs(self):
         text = """
-<p>[[div class="test"]]</p>
+[[div class="test"]]
 
-Test text
+**Test** text
 
-<p>[[/div]]</p>
+[[/div]]
+
+**Before text** [[span class="test"]]_middle text_[[/span]] *after text*
 """
-        expected = """
-<div class="test">
+        expected = """<div class="test">
 
-Test text
+<p><strong>Test</strong> text</p>
 
 </div>
+
+<p><strong>Before text</strong> <span class="test"><em>middle text</em></span> <em>after text</em></p>
 """
+        MarkdownParser.pre_parsing = lambda s, x: x
+        MarkdownParser.post_parsing = lambda s, x: x
         md = MarkdownParser()
+        text = md.parse_md(text)
         actual = md.convert_wiki_divs(text)
         self.assertEqual(expected, actual)

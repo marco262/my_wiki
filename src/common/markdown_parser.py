@@ -158,8 +158,10 @@ class MarkdownParser:
 
     @staticmethod
     def convert_wiki_divs(text):
-        text = re.sub(r"<p>\[\[(div|span)(.*?)]]</p>", r"<\1\2>", text)
-        text = re.sub(r"<p>\[\[/(div|span)]]</p>", r"</\1>", text)
+        text = re.sub(r"<p>\[\[div(.*?)]]</p>", r"<div\1>", text)
+        text = re.sub(r"<p>\[\[/div]]</p>", r"</div>", text)
+        text = re.sub(r"\[\[span(.*?)]]", r"<span\1>", text)
+        text = re.sub(r"\[\[/span]]", r"</span>", text)
         return text
 
     @staticmethod

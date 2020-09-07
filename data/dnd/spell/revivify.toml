@@ -1,5 +1,5 @@
 title = "Revivify"
-classes = ["cleric", "paladin"]
+classes = ["artificer", "cleric", "paladin"]
 classes_ua = ["druid", "ranger"]
 level = "3"
 school = "necromancy"

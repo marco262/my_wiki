@@ -1,5 +1,5 @@
 title = "Glyph of Warding"
-classes = ["bard", "cleric", "wizard"]
+classes = ["artificer", "bard", "cleric", "wizard"]
 level = "3"
 school = "abjuration"
 concentration_spell = false

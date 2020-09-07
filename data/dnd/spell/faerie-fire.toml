@@ -1,5 +1,5 @@
 title = "Faerie Fire"
-classes = ["bard", "druid"]
+classes = ["artificer", "bard", "druid"]
 level = "1"
 school = "evocation"
 concentration_spell = true

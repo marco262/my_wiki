@@ -1,5 +1,5 @@
 title = "Tiny Servant"
-classes = ["wizard"]
+classes = ["artificer", "wizard"]
 classes_ua = ["bard"]
 level = "3"
 school = "transmutation"

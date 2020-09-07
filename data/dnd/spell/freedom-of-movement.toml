@@ -1,5 +1,5 @@
 title = "Freedom of Movement"
-classes = ["bard", "cleric", "druid", "ranger"]
+classes = ["artificer", "bard", "cleric", "druid", "ranger"]
 level = "4"
 school = "abjuration"
 concentration_spell = false

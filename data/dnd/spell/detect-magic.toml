@@ -1,5 +1,5 @@
 title = "Detect Magic"
-classes = ["bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "wizard"]
 level = "1"
 school = "divination"
 concentration_spell = true

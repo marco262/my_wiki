@@ -1,5 +1,5 @@
 title = "Skill Empowerment"
-classes = ["bard", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 classes_ua = ["cleric"]
 level = "5"
 school = "transmutation"

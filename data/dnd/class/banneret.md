@@ -3,13 +3,17 @@ A banneret is a knight who inspires greatness in others by committing brave deed
 A banneret prefers to lead through deeds, not words. As a banneret spearheads an attack, their actions can awaken reserves of courage and conviction in allies that they never suspected they had.
 
 # Rallying Cry
-<div class="phb-sidebar">
-<p><b>Purple Dragon Knights</b>
 
-<p>In the Forgotten Realms setting, Bannerets are represented by the Purple Dragon Knights, an order of knights tied to the Cormyrean Knighthood.
+[[div class="phb-sidebar"]]
 
-<p>Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond their kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers.
-</div>
+**Purple Dragon Knights**
+
+In the Forgotten Realms setting, Bannerets are represented by the Purple Dragon Knights, an order of knights tied to the Cormyrean Knighthood.
+
+Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond their kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers.
+
+[[/div]]
+
 When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.
 
 When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.

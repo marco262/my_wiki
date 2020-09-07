@@ -1,5 +1,5 @@
 title = "Protection From Poison"
-classes = ["cleric", "druid", "paladin", "ranger"]
+classes = ["artificer", "cleric", "druid", "paladin", "ranger"]
 level = "2"
 school = "abjuration"
 concentration_spell = false

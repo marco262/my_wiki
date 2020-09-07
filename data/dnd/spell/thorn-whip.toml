@@ -1,5 +1,5 @@
 title = "Thorn Whip"
-classes = ["druid"]
+classes = ["artificer", "druid"]
 level = "cantrip"
 school = "transmutation"
 concentration_spell = false
