@@ -238,6 +238,25 @@ Some infusions specify a minimum artificer level. You can't learn such an infusi
 
 Unless an infusion's description says otherwise, you can't learn an infusion more than once.
 
+### Armor of Magical Strength
+
+_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
+_Prerequisite: 10th-level artificer_  
+_Item: A suit of armor (requires attunement)_
+
+While wearing this armor, a creature can use its Intelligence modifier in place of its Strength modifier when making Strength checks and Strength saving throws.
+
+The armor has 4 charges. As a reaction when he would be knocked prone, the wearer can expend 1 charge to not be knocked prone. The armor regains 1d4 expended charges daily at dawn.
+
+### Armor of Tools
+
+_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
+_Item: A suit of armor_  
+
+As an action, a creature wearing this infused armor can integrate into it artisan’s tools or thieves’ tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.
+
+The wearer can add his Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool.
+
 ### Boots of the Winding Path
 
 _Prerequisite: 6th-level artificer_  
@@ -269,20 +288,17 @@ This magic weapon grants a +1 bonus to attack and damage rolls made with it.
 
 The bonus increases to +2 when you reach 10th level in this class.
 
+### Helm of Awareness
+
+_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
+_Prerequisite: 10th-level artificer_  
+_Item: A helmet (requires attunement)_
+
+While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can’t be surprised, provided it isn’t incapacitated.
+
 ### Homunculus Servant
 
-_Prerequisite: 6th-level artificer_  
-_Item: A gem worth at least 100 gp or a dragonshard_
-
-You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.
-
-You determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.
-
-The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block.
-
-In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take the action in its stat block or the Dash, Disengage, Help, Hide, or Search action.
-
-The homunculus regains 2d6 hit points if the mending spell is cast on it. If it dies, it vanishes, leaving its heart in its space.
+[[div class="monster-float"]]
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -304,7 +320,7 @@ skills = Perception +4, Stealth +4
 damage_immunities = poison
 condition_immunities = exhaustion, poisoned
 senses = darkvision 60 ft., passive Perception 14
-languagues = understands the languages you speak
+languages = understands the languages you speak
 special_abilities = !!!
 ***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.
 
@@ -313,6 +329,28 @@ special_abilities = !!!
 companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ +4 to hit, range 30 ft., one target you can see. _Hit:_ 1d4 + 2 force damage
 reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 [[/include]]
+
+[[/div]]
+
+_Prerequisite: 6th-level artificer_  
+_Item: A gem worth at least 100 gp or a dragonshard_
+
+You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.
+
+You determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.
+
+The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block.
+
+In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take the action in its stat block or the Dash, Disengage, Help, Hide, or Search action.
+
+The homunculus regains 2d6 hit points if the _[[[spell:mending]]]_ spell is cast on it. If it dies, it vanishes, leaving its heart in its space.
+ 
+### Mind Sharpener
+
+_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
+_Item: A suit of armor or robes_
+
+The infused item can send a jolt to the wearer to refocus their mind. While wearing this infused item, whenever the creature fails a Constitution saving throw to maintain concentration on a spell, it can use its reaction to succeed instead.
 
 ### Radiant Weapon
 
@@ -429,6 +467,14 @@ While wearing this armor, a creature has resistance to one of the following dama
 _Item: A simple or martial weapon with the thrown property_
 
 This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.
+
+### Spell-Refueling Ring
+
+_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
+_Prerequisite: 6th-level artificer_  
+_Item: A ring (requires attunement)_
+
+While wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can’t be used again until the next dawn.
 
 # Artificer Specialists
 

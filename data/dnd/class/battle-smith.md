@@ -50,7 +50,7 @@ skills = Athletics +4, Perception +4
 damage_immunities = poison
 condition_immunities = charmed, exhaustion, poisoned
 senses = darkvision 60 ft., passive Perception 14
-languagues = understands the languages you speak
+languages = understands the languages you speak
 special_abilities = !!!
 ***Might of the Master.*** The following numbers increase by 1 when your proficiency bonus increases by 1: the defender's skill and saving throw bonuses (above), the bonuses to hit and damage of its rend attack, and the number of hit points restored by its Repair action (below).
 
