@@ -14,7 +14,7 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 || 3rd || _[[[spell:magic missile]]]_, _[[[spell:shield]]]_ ||
 || 5th || _[[[spell:mirror image]]]_, _[[[spell:shatter]]]_ ||
 || 9th || _[[[spell:hypnotic pattern]]]_, _[[[spell:lightning bolt]]]_ ||
-|| 13th || _[[[spell:fire shield]]]_, _[[[spell:greater invisibilty]]]_ ||
+|| 13th || _[[[spell:fire shield]]]_, _[[[spell:greater invisibility]]]_ ||
 || 17th || _[[[spell:passwall]]]_, _[[[spell:wall of force]]]_ ||
 
 # Power Armor
