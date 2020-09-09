@@ -19,7 +19,15 @@
     </tr>
     % for k, s in spells:
     <tr>
-        <td style="min-width: 264px;"><a href="/dnd/spell/{{k}}">{{s["title"]}}</a></td>
+        <td style="min-width: 264px;">
+            <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>
+            % if s["ritual_spell"]:
+            <sup>r</sup>
+            % end
+            % if s["concentration_spell"]:
+            <sup>c</sup>
+            % end
+        </td>
         <td style="min-width: 102px;">{{s["school"].title()}}</td>
         <%
         if get("show_classes"):
