@@ -15,5 +15,6 @@ else:
             include("dnd/spell_list_table.tpl", spells=spell_dict[level])
         end
     end
-end
-%>
+    %>
+    <em><sup>r = ritual, c = concentration</sup></em>
+% end
