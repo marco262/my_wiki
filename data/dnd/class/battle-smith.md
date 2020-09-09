@@ -2,11 +2,11 @@ Armies require protection, and someone has to put things back together if defens
 
 Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.
 
-# Tool Proficiency
+## Tool Proficiency
 
 When you adopt this specialization at 3rd level, you gain proficiency with smith's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.
 
-# Battle Smith Spells
+## Battle Smith Spells
 
 Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
 
@@ -19,14 +19,14 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 || 13th || _[[[spell:aura of purity]]]_, _[[[spell:fire shield]]]_ ||
 || 17th || _[[[spell:banishing smite]]]_, _[[[spell:mass cure wounds]]]_ ||
 
-# Battle Ready
+## Battle Ready
 
 When you reach 3rd level, your combat training and your experiments with magic have paid off in two ways:
 
  * You gain proficiency with martial weapons.
  * When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.
 
-# Steel Defender
+## Steel Defender
 
 [[div class="monster-float"]]
 
@@ -74,11 +74,11 @@ If the _[[[spell:mending]]]_ spell is cast on it, it regains 2d6 hit points. If 
 
 At the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes.
 
-# Extra Attack
+## Extra Attack
 
 Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.
 
-# Arcane Jolt
+## Arcane Jolt
 
 At 9th level, you learn new ways to channel arcane energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:
 
@@ -87,7 +87,7 @@ At 9th level, you learn new ways to channel arcane energy to harm or heal. When 
 
 You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.
 
-# Improved Defender
+## Improved Defender
 
 At 15th level, your Arcane jolt and steel defender become more powerful:
  * The extra damage and the healing of your Arcane Jolt both increase to 4d6.

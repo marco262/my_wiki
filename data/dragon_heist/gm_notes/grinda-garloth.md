@@ -21,16 +21,16 @@ special_abilities = !!!
 ***Spellcasting.*** Grinda is a 4th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). Grinds has the following artificer spells prepared (7 class, 6 subclass):
 
 Cantrips (at will): _[light](/dnd/spell/light)_, _[mending](/dnd/spell/mending)_  
-1st level (4 slots): _[detect magic](/dnd/spell/detect magic)_, _[grease](/dnd/spell/grease)_, _[heroism](/dnd/spell/heroism)_, _[sanctuary](/dnd/spell/sanctuary)_, _[shield](/dnd/spell/shield)_  
-2nd level (3 slots): _[branding smite](/dnd/spell/branding smite)_, _[pyrotechnics](/dnd/spell/pyrotechnics)_, _[spider climb](/dnd/spell/spider climb)_, _[warding bond](/dnd/spell/warding bond)_  
-3rd level (2 slots): _[aura of vitality](/dnd/spell/aura of vitality)_, _[conjure barrage](/dnd/spell/conjure barrage)_, _[dispel magic](/dnd/spell/dispel magic)_, _[fly](/dnd/spell/fly)_
+1st level (4 slots): _[detect magic](/dnd/spell/detect magic)_<sup>rc</sup>, _[grease](/dnd/spell/grease)_, _[heroism](/dnd/spell/heroism)_<sup>c</sup>, _[sanctuary](/dnd/spell/sanctuary)_, _[shield](/dnd/spell/shield)_  
+2nd level (3 slots): _[branding smite](/dnd/spell/branding smite)_<sup>c</sup>, _[pyrotechnics](/dnd/spell/pyrotechnics)_, _[spider climb](/dnd/spell/spider climb)_<sup>c</sup>, _[warding bond](/dnd/spell/warding bond)_  
+3rd level (2 slots): _[aura of vitality](/dnd/spell/aura of vitality)_<sup>c</sup>, _[conjure barrage](/dnd/spell/conjure barrage)_, _[dispel magic](/dnd/spell/dispel magic)_, _[fly](/dnd/spell/fly)_<sup>c</sup>
 
-***Arcane Jolt (3/day).*** Once per turn, when Grinda or her Steel Defender hits with a target, she can either deal extra 2d6 force damage or heal a target within 30 feet for 2d6 hit points.
+***Arcane Jolt (3/day).*** Once per turn, when Grinda or her Steel Defender hits a target, she can either deal an extra 2d6 force damage or heal a target within 30 feet for 2d6 hit points.
 !!!
 actions = !!!
 ***Multiattack.*** Grinda makes two attacks with her boltcaster.
 
-***Boltcaster.*** _Ranged Weapon Attack:_ +7 to hit, reach 100/400 ft., one target. _Hit:_ (1d10 + 5) piercing damage.
+***Boltcaster.*** _Ranged Weapon Attack:_ +7 to hit, reach 100/400 ft., one target. _Hit:_ (1d10 + 4) piercing damage.
 !!!
 bonus_actions = !!!
 ***Boots of the Winding Path.*** Grinda can teleport up to 15 feet to a space she occupied at some point in the last turn.
