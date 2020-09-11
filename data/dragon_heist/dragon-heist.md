@@ -71,7 +71,7 @@ But that is a story for another time. This story has more humble beginnings. We 
         </td>
     </tr>
     <tr>
-        <td>Stone of Golorr</td>
+        <td><a href="/static/img/visual_aids/stone_of_golorr.jpg">Stone of Golorr</a></td>
         <td>
             <p>While attuned to this artifact, you have access to the following features of this item:</p>
             <ul>
@@ -94,6 +94,14 @@ But that is a story for another time. This story has more humble beginnings. We 
             </ul></li>
             <li><a href="https://www.aidedd.org/dnd/om.php?vo=driftglobe">Description and picture</a></li>
             </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="/static/img/visual_aids/bag_of_holding.jpeg">Bag of Holding</a></td>
+        <td>
+            <p>This bag has an interior space considerably larger than its outside dimensions, roughly <strong>2 feet in diameter</strong> at the mouth and <strong>4 feet deep</strong>. The bag can hold up to <strong>500 pounds</strong>, not exceeding a volume of <strong>64 cubic feet</strong>. The bag weighs <strong>15 pounds</strong>, regardless of its contents. Retrieving an item from the bag requires an action.</p>
+            <p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>
+            <p>Placing a bag of holding inside an extradimensional space created by a Handy Haversack, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
         </td>
     </tr>
 </table>

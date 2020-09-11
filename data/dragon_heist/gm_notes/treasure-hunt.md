@@ -83,10 +83,10 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 * Emir D'Amour
 * Tom Nielson Alley
 * Guy Buddie
-* [Grinda Garloth](^grinda_garloth.jpg) ([mage](/dnd/monster/Mage))
-* Renaer Neverember
-* [Brendaniel](brendaniel sqwik)
-* Wishes the [faerie dragon](/dnd/monster/faerie dragon)
+* [Grinda Garloth](^grinda_garloth.jpg) ([stats](/dragon_heist/gm_notes/Grinda Garloth)) and her [Crab](^crab_defender.jpg)
+* [Renaer Neverember](^renaer_neverember.jpg) ([stats](/dnd/monster/Noble))
+* [Brendaniel](^brendaniel_skwik.jpg) ([stats](brendaniel sqwik))
+* [Wishes](^faerie_dragon.jpg) the [faerie dragon](/dnd/monster/faerie dragon)
 
 ### Images
 
@@ -105,6 +105,24 @@ An [underground tunnel](^underground_tunnel.jpg) leads to the vault.
 Aurinax the [gold dragon](/dnd/monster/adult-gold-dragon) will be absent when they first arrive, but then appear in his dwarven form, hobbling on the staff. He'll greet them with a friendly smile, and ask their names, happy to have someone to talk to. But when they talk about taking the treasure, he'll get concerned. He agreed to only let Dagult Neverember or his appointed vassals take the treasure. He is VERY good at spotting lies, so Deception checks are tough to pull off. 
 
 However, if the party convinces him (DC 18 Persuasion) that they wish to return the treasure to the city, he's willing to part with it if they pass a test: Fight him in single battle. If they survive, they can leave with the treasure. In reality, he just wishes to ascertain they really are devoted to a selfless act.
+
+### Treasure Hoard
+
+The [treasure pile](^treasure_pile.png) takes up one of the alcoves in the vault, and it is comprised of:
+
+* 95,746 copper pieces
+* 144,111 silver pieces
+* 479,376 gold pieces
+* 4,735 10gp gems
+
+Total value: 542,094.56 gp
+Total 'coins': 723,968
+Total weight: 14479.36 pounds (29 bags of holding)
+Total volume: 100,254.58 in^3
+
+The pile is about 6 feet tall and about 6 feet wide.
+
+The most money from the pile that can be fit in a bag of holding is 4,735 gems and 20,265 gold pieces for a total value of 67,615 gp.
 
 ### Ambush
 

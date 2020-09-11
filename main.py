@@ -14,6 +14,7 @@ while True:
     try:
         Server(debug=args.debug)
     except KeyboardInterrupt:
+        print("To manually kill the server, send another interrupt in the next 10 seconds.")
         if not ENABLE_WATCHDOG:
             break
     sleep(10)
