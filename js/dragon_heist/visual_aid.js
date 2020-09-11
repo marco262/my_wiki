@@ -68,6 +68,8 @@ function handle_websocket(msg) {
     let json = JSON.parse(response);
     if (json["action"] === "visual_aid") {
         handle_visual_aid(json["url"]);
+    } else if (json["action"] === "iframe") {
+        handle_iframe(json["url"]);
     } else {
         handle_audio(json["action"], json["target"], json["url"]);
     }
@@ -75,6 +77,8 @@ function handle_websocket(msg) {
 
 function handle_visual_aid(url) {
     console.log("Setting img src: " + url);
+    document.getElementById("iframe").hidden = true;
+    document.getElementById("picture").hidden = false;
     document.getElementById("picture").style.backgroundImage = "url('" + url + "')";
 }
 
@@ -118,6 +122,18 @@ function handle_audio(action, target, url) {
             }
         }
     }
+}
+
+function handle_iframe(url) {
+    console.log(`Loading ${url} in iframe`);
+    document.getElementById("picture").hidden = true;
+    let iframe = document.getElementById("iframe");
+    iframe.hidden = false;
+    // Set onload so that once it's loaded, it goes to the right hash
+    iframe.onload = () => {
+        console.log(`My hash: ${iframe.contentWindow.location.hash}`);
+    }
+    iframe.src = url;
 }
 
 function load_audio(target, url) {
