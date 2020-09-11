@@ -17,7 +17,7 @@ skills = "Medicine +2"
 senses = "passive Perception 12"
 languagues = "Common"
 special_abilities = """!
-***Wild Magic.*** When Brendaniel casts a spell of 1st-level or higher, roll 1d20. On a 1, roll on the Wild Magic Surge table.
+***Wild Magic.*** When Brendaniel casts a spell of 1st-level or higher, roll 1d20. On a 1, roll on the [Wild Magic Surge](/dnd/class/Wild Magic#wild-magic-surge-2) table.
 
 ***Spellcasting.*** Brendaniel is a 0th-level spellcaster. His spellcasting ability is Charisma (spell save DC 10, +2 to hit with spell attacks). He knows the following sorcerer spells:
 
