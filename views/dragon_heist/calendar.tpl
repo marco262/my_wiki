@@ -15,7 +15,7 @@ cb = CalendarBuilder(
 )
 %>
 <div class="month" id="kythorn">
-    <img class="month-img" src="../static/img/kythorn.png">
+    <img class="month-img" src="/static/img/kythorn.png">
     {{ cb.day(5, "Met at Yawning Portal") }}
     {{ cb.day(6, "Saved Renaer") }}
     {{ cb.day(7, "Saved Floon") }}
@@ -28,9 +28,11 @@ cb = CalendarBuilder(
     {{ cb.day(26, "Embric attacked") }}
     {{ cb.day(27, "Joined DR") }}
     {{ cb.day(30, "House-warming Party") }}
-</div>
+</div>  
+<span class="visual-aid-link" title="iframe|/dragon_heist/calendar#kythorn">Send to Visual Aid</span>
+
 <div class="month" id="flamerule">
-    <img class="month-img" src="../static/img/flamerule.png">
+    <img class="month-img" src="/static/img/flamerule.png">
     {{ cb.add_recurring() }}
     {{ cb.day(23, "Fireball!") }}
     {{ cb.day(24, "Morgue trip") }}
@@ -39,13 +41,15 @@ cb = CalendarBuilder(
     {{ cb.day(28, "Tea with Tommasin Gralhund") }}
     {{ cb.day(29, "More tea with Tommasin Gralhund") }}
     {{ cb.day(30, "Tea and Violence") }}
-</div>
+</div>  
+<span class="visual-aid-link" title="iframe|/dragon_heist/calendar#flamerule">Send to Visual Aid</span>
+
 <h1>Festival Day: Midsummer</h1>
 
 * Fought gazer in bookstore
 
 <div class="month" id="eleasis">
-    <img class="month-img" src="../static/img/eleasis.png">
+    <img class="month-img" src="/static/img/eleasis.png">
     {{ cb.add_recurring() }}
     {{ cb.day(1, "Took in Istrid Horn") }}
     {{ cb.day(2, "Nimblewright") }}
@@ -62,11 +66,19 @@ cb = CalendarBuilder(
     {{ cb.day(13, "Mark Dragonscale") }}
     {{ cb.day(14, "Dragon Heist!", current_day=True) }}
     {{ cb.day(16, "Remalia's Party") }}
-</div>
+</div>  
+<span class="visual-aid-link" title="iframe|/dragon_heist/calendar#eleasis">Send to Visual Aid</span>
+
 <div class="month" id="elient">
-    <img class="month-img" src="../static/img/elient.png">
+    <img class="month-img" src="/static/img/elient.png">
     {{ cb.add_recurring() }}
     {{ cb.day(1, "Skeemo Sting") }}
-</div>
+</div>  
+<span class="visual-aid-link" title="iframe|/dragon_heist/calendar#elient">Send to Visual Aid</span>
 
 <h1>Festival Day: High Harvest</h1>
+
+<script type="module">
+    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    init_links();
+</script>

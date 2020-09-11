@@ -57,6 +57,8 @@ function set_visual_aid(event, value) {
             url = "/static/img/visual_aids/" + url;
         }
         params["url"] = url;
+    } else if (action === "iframe") {
+        params["url"] = array[1];
     } else {
         params["target"] = array[1];
         if (array.length === 3) {
@@ -77,6 +79,6 @@ function set_visual_aid(event, value) {
 function set_visual_aid_response(url) {
     console.log(url);
     if (url) {
-        var new_window = window.open(url, "", "");
+        window.open(url, "", "");
     }
 }

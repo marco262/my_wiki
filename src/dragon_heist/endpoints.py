@@ -101,15 +101,16 @@ def load_wsgi_endpoints(app: Bottle):
         global visual_aid_url
         params = dict(request.params)
         print(params)
-        url = params.get("url")
         if params["action"] == "visual_aid":
-            visual_aid_url = request.params["url"]
+            visual_aid_url = params["url"]
             print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
+        elif params["action"] == "iframe":
+            print("Loading iframe with URL: {!r}".format(params["url"]), flush=True)
         else:
-            print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(url)}', flush=True)
-        params["url"] = url
+            print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(params["url"])}', 
+                  flush=True)
         if params["debug"] == "true":
-            return url
+            return params["url"]
         else:
             send_to_websockets(params)
 

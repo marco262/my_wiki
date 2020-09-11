@@ -13,6 +13,7 @@
     </div>
     <div id="page">
         <div id="picture" style="background-size: contain; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center;"></div>
+        <iframe id="iframe" src="" height="100%" width="100%" hidden></iframe>
         <div id="audio-controls" hidden>
             <p><em>Double-click picture to hide controls</em></p>
             <p>Music</p>
