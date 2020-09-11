@@ -1,10 +1,10 @@
 An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire. The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: "It's about time we fixed things instead of blowing them all to hell." 
 
-# Tool Proficiency
+## Tool Proficiency
 
 When you adopt this specialization at 3rd level, you gain proficiency with woodcarver's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.
 
-# Artillerist Spells
+## Artillerist Spells
 
 Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
 
@@ -17,7 +17,7 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 || 13th || _[[[spell:ice storm]]]_, _[[[spell:wall of fire]]]_ ||
 || 17th || _[[[spell:cone of cold]]]_, _[[[spell:wall of force]]]_ ||
 
-# Eldritch Cannon
+## Eldritch Cannon
 
 At 3rd level, you learn how to create a magical cannon. Using woodcarver's tools or smith's tools, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.
 
@@ -32,20 +32,20 @@ When you create the cannon, you determine its appearance and whether it has legs
 || Force Ballista || Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon. ||
 || Protector || The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1). ||
 
-# Arcane Firearm
+## Arcane Firearm
 
 At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use woodcarvers' tools to carve special sigils into a wand, staff or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.
 
 You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a d8, and you gain bonus to one of the spell's damage rolls equal to the number rolled. If the spell affects multiple creatures, one creature of your choice takes the bonus damage.
 
-# Explosive Cannon
+## Explosive Cannon
 
 Starting at 9th level, every eldritch cannon you create is more destructive:
 
  * The cannon's damage rolls all increase by 1d8.
  * As an action, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d8 force damage on a failed save or half as much damage on a successful one.
  
-# Fortified Position
+## Fortified Position
 
 By 15th level, you’re a master at forming well-defended emplacements using Eldritch Cannon:
 

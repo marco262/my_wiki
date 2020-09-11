@@ -8,11 +8,11 @@ Jesters are loyal to only one cause: the pursuit and propagation of the truth. T
 
 Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies' spirits while casting doubt into foes' minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
 
-# Bonus Proficiencies
+## Bonus Proficiencies
 
 When you join the College of Satire at 3rd level, you gain proficiency with thieves' tools. You also gain proficiency in Sleight of Hand and one additional skill of your choice. If you are already proficient with thieves' tools or in Sleight of Hand, choose another skill proficiency for each proficiency you already have.
 
-# Tumbling Fool
+## Tumbling Fool
 
 At 3rd level, you master a variety of acrobatic techniques that allow you to evade danger. As a bonus action, you can tumble. When you tumble, you gain the following benefits for the rest of your turn:
 
@@ -20,13 +20,13 @@ At 3rd level, you master a variety of acrobatic techniques that allow you to eva
 * You gain a climbing speed equal to your current speed.
 * You take half damage from falling.
 
-# Fool's Insight
+## Fool's Insight
 
 At 6th level, your ability to gather stories and lore gains a supernatural edge. You can cast Detect Thoughts up to a number of times equal to your Charisma modifier. You regain any expended uses of this ability after completing a long rest.
 
 If a creature resists your attempt to probe deeper and succeeds at its saving throw against your Detect Thoughts, it immediately suffers an embarrassing social gaffe. It might loudly pass gas, unleash a thunderous burp, trip and fall, or be compelled to tell a tasteless joke.
 
-# Fool's Luck
+## Fool's Luck
 
 Jesters seem to have a knack for pulling themselves out of tight situations, transforming what looks like sure failure into an embarrassing but effective success.
 

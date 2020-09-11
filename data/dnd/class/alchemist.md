@@ -1,10 +1,10 @@
 An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.
 
-# Tool Proficiency
+## Tool Proficiency
 
 When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.
 
-# Alchemist Spells
+## Alchemist Spells
 
 Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
 
@@ -17,7 +17,7 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 || 13th || _[[[spell:blight]]]_, _[[[spell:death ward]]]_ ||
 || 17th || _[[[spell:cloudkill]]]_, _[[[spell:raise dead]]]_ ||
 
-# Experimental Elixir
+## Experimental Elixir
 
 Beginning at 3rd level, whenever you finish a long rest, you can magically produce an _experimental elixir_ in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an incapacitated creature.
 
@@ -37,18 +37,18 @@ You can create additional _experimental elixirs_ by expending a spell slot of 1s
 || 5 || **Flight.** The drinker gains a flying speed of 10 feet for 10 minutes. ||
 || 6 || **Transformation.** The drinker's body is transformed as if by the Alter Self spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes. ||
 
-# Alchemical Savant
+## Alchemical Savant
 
 At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your alchemist's supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).
 
-# Restorative Reagents
+## Restorative Reagents
 
 Starting at 9th level, you can incorporate restorative reagents into some of your works:
 
 * Whenever a creature drinks an _experimental elixir_ you created, the creature gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum of 1 temporary hit point).
 * You can cast _[[[lesser restoration]]]_ without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
-# Chemical Mastery
+## Chemical Mastery
 
 By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:
 

@@ -1,6 +1,6 @@
 Some rangers seek to master weapons to better protect civilization from the terrors of the wilderness. Members of the Hunter Conclave learn specialized fighting techniques for use against the most dire threats, from rampaging ogres and hordes of orcs to to wering giants and terrifying dragons.
 
-# Hunter's Prey
+## Hunter's Prey
 
 At 3rd level, you gain one of the following features of your choice.
 
@@ -10,11 +10,11 @@ At 3rd level, you gain one of the following features of your choice.
 
 **Horde Breaker.** Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the or iginal target and within range of your weapon.
 
-# Extra Attack
+## Extra Attack
 
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
-# Defensive Tactics
+## Defensive Tactics
 
 At 7th level, you gain one of the following features of your choice.
 
@@ -24,7 +24,7 @@ At 7th level, you gain one of the following features of your choice.
 
 **Steel Will.** You have advantage on saving throws against being frightened.
 
-# Multiattack
+## Multiattack
 
 At 11th level, you gain one of the following features of your choice.
 
@@ -32,7 +32,7 @@ At 11th level, you gain one of the following features of your choice.
 
 **Whirlwind Attack.** You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.
 
-# Superior Hunter's Defense
+## Superior Hunter's Defense
 
 At 15th level, you gain one of the following features of your choice.
 

@@ -1,6 +1,7 @@
 Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, com bat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.
 
-## The Battle Master
+# The Battle Master
+
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ # of<br>Attacks ||~ Action<br>Surge Uses ||~ Indomitable<br>Uses ||~ Maneuvers<br>Known ||~ Superiority<br>Dice ||
 || 1st || +2 || Fighting Style, Second Wind || 1 || -- || -- || -- || -- ||
 || 2nd || +2 || Action Surge (one use) || 1 || **1** || -- || -- || -- ||
@@ -23,7 +24,6 @@ Those who emulate the archetypal Battle Master employ martial techniques passed 
 || 19th || +6 || Ability Score Improvement || 3 || 2 || 3 || 9 || 6d12 ||
 || 20th || +6 || Extra Attack (3) || **4** || 2 || 3 || 9 || 6d12 ||
 <sup>**Bold** numbers are when that ability improves</sup>
-
 
 ## Combat Superiority
 
