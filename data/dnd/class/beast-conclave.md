@@ -1,6 +1,6 @@
 Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
 
-# Animal Companion
+## Animal Companion
 
 At 3rd level, you learn to use your magic to create a powerful bond with a creature of the natural world.
 
@@ -20,7 +20,7 @@ If your animal companion is ever slain, the magical bond you share allows you to
 
 If you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion.
 
-# Companion's Bond
+## Companion's Bond
 
 [[div class="phb-sidebar"]]
 
@@ -76,19 +76,19 @@ Your animal companion gains the benefits of your Favored Enemy feature, and of y
 || 5 || My idea of hello is a flurry of licks to the face. ||
 || 6 || I jump on creatures to tell them how much I love them. ||
 
-# Coordinated Attack
+## Coordinated Attack
 
 Beginning at 5th level, you and your animal companion form a more potent fighting team. When you use the Attack action on your turn, if your companion can see you, it can use its reaction to make a melee attack.
 
-# Beast's Defense
+## Beast's Defense
 
 At 7th level, while your companion can see you, it has advantage on all saving throws.
 
-# Storm of Claws and Fangs
+## Storm of Claws and Fangs
 
 At 11th level, your companion can use its action to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.
 
-# Superior Beast's Defense
+## Superior Beast's Defense
 
 At 15th level, whenever an attacker that your companion can see hits it with an attack, it can use its reaction to halve the attack's damage against it.
 

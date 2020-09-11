@@ -1,10 +1,10 @@
 An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.
 
-# Tool Proficiency
+## Tool Proficiency
 
 When you adopt this specialization at 3rd level, you gain proficiency with heavy armor. You also gain proficiency with smith’s tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
 
-# Armorer Spells
+## Armorer Spells
 
 Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
 
@@ -17,7 +17,7 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 || 13th || _[[[spell:fire shield]]]_, _[[[spell:greater invisibility]]]_ ||
 || 17th || _[[[spell:passwall]]]_, _[[[spell:wall of force]]]_ ||
 
-# Power Armor
+## Power Armor
 
 Beginning at 3rd level, your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have smith’s tools in hand. You gain the following benefits while wearing the power armor:
 
@@ -27,13 +27,13 @@ Beginning at 3rd level, your metallurgical pursuits have led to you making armor
 
 The armor continues to be power armor until you doff it, you don another suit of armor, or you die.
 
-# Armor Model
+## Armor Model
 
 Beginning at 3rd level, you can customize your power armor. When you do so, choose one of the following armor models: guardian or infiltrator. The model you choose gives you special benefits while you wear it.
 
 Each model includes a special weapon. When you attack with that weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls. You can change your power armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.
 
-## Guardian
+### Guardian
 
 You design your armor to be in the frontline of conflict. It has the following features:
 
@@ -41,7 +41,7 @@ You design your armor to be in the frontline of conflict. It has the following f
 
 **Defensive Field.** You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.
 
-## Infiltrator
+### Infiltrator
 
 You customize your armor for subtle undertakings. It has the following features:
 
@@ -51,15 +51,15 @@ You customize your armor for subtle undertakings. It has the following features:
 
 **Second Skin.** The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.
 
-# Extra Attack
+## Extra Attack
 
 Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.
 
-# Armor Modifications
+## Armor Modifications
 
 At 9th level, you learn how to use your artificer infusions to specially modify the armor enhanced by your Power Armor feature. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, bracers, and a weapon. Each of those items can bear one of your infusions. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your power armor.
 
-# Perfected Armor
+## Perfected Armor
 
 At 15th level, Your power armor gains additional benefits based on its model, as shown below.
 

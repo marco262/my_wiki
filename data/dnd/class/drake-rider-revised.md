@@ -5,6 +5,7 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 *Note: This subclass is meant to be used with the [Revised Ranger](http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf).//
 
 # The Drake Rider
+
 ||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||
 ||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --|| --|| --|| --||
 ||2nd|| +2|| Fighting Style, Spellcasting|| --|| --|| --|| 2|| 2|| --|| --|| --|| --||
@@ -27,7 +28,7 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 ||19th|| +6|| Ability Score Improvement||6d6||7d6||17|| 11|| 4|| 3|| 3|| 3|| 2||
 ||20th|| +6|| Foe Slayer||6d6||10d6||17|| 11|| 4|| 3|| 3|| 3|| 2||
 
-# Draconic Mount
+## Draconic Mount
 
 [[div class="phb-sidebar"]]
 **Nightfury**
@@ -89,19 +90,19 @@ You and your Drake share an empathic link and can communicate clearly with each 
 
 If your Drake is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your Drake's spirit and use your magic to create a new body for it. You can return a Drake to life in this manner even if you do not possess any part of its body.
 
-# Blazing Speed
+## Blazing Speed
 
 While mounted on your Drake, you can use the Dash action to move your Drake up to its speed. This can be used alongside the Drake's own Dash action.
 
-# Combat Training
+## Combat Training
 
 While mounted on your Drake, you can use a bonus action to command the Drake to use its Bite attack on any creature within its reach. Its Bite attack's damage dice increase as you level up as shown in the Bite Damage column of the Drake Rider table.
 
-# Draconic Intuition
+## Draconic Intuition
 
 At 5th level, you've spent enough time in your Drake's company to gain a certain insight into the workings of the minds of draconic creatures. You have advantage on any Animal Handling, Persuasion, or Insight checks when interacting with drakes or dragons. You also have advantage against a dragon's Frightful Presence ability.
 
-# Drake Fire
+## Drake Fire
 
 At 7th level, while mounted on your Drake, you can use a bonus action to command it to use its breath weapon. Each creature in the breath weapon's area must make a DC 14 saving throw, taking 3d6 damage on a failed save, or half as much damage on a successful one. The type of saving throw and type of damage are determined by your Drake's type, as shown in the Drake Types table.
 
@@ -109,13 +110,13 @@ Once you use this feature, you must finish a short or long rest before you can u
 
 Your Drake's breath weapon damage and save DC increase as you level up as shown in the Drake Rider table.
 
-# Hooked Claws
+## Hooked Claws
 
 At 11th level, when your Drake hits a creature with its Bite attack, it can attempt to grapple that creature. 
 
 While grappling a creature of Medium size or smaller, your Drake's speed is not halved while moving the grappled creature, even allowing your Drake to fly while carrying the creature.
 
-# Destructive Fury
+## Destructive Fury
 
 At 15th level, your Drake is able to use its Drake Fire more often. At the start of each of your turns, if you've already spent your use of Drake Fire, roll a d6. On a 5 or 6, you regain your use of Drake Fire.
 

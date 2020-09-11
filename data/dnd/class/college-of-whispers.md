@@ -2,7 +2,7 @@ Most folk are happy to welcome a bard into their midst. Bards of the College of 
 
 Many other bards hate the College of Whispers, viewing it as a parasite that uses the bards' reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.
 
-# Psychic Blades
+## Psychic Blades
 
 When you join the College of Whispers at 3rd level, you gain the ability to make your weapon attacks magically toxic to a creature's mind.
 
@@ -10,7 +10,7 @@ When you hit a creature with a weapon attack, you can expend one use of your Bar
 
 The psychic damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.
 
-# Words of Terror
+## Words of Terror
 
 At 3rd level, you learn to infuse innocent-seeming words with an insidious magic that can inspire terror.
 
@@ -20,7 +20,7 @@ If the target succeeds on its saving throw, the target has no hint that you trie
 
 Once you use this feature, you can't use it again until you finish a short rest or long rest.
 
-# Mantle of Whispers
+## Mantle of Whispers
 
 At 6th level, you gain the ability to adopt a humanoid's persona. When a humanoid dies within 30 feet of you, you can magically capture its shadow using your reaction. You retain this shadow until you use it or you finish a long rest.
 
@@ -32,7 +32,7 @@ Another creature can see through this disguise by succeeding on a Wisdom (Insigh
 
 Once you capture a shadow with this feature, you can't capture another one with it until you finish a short or long rest.
 
-# Shadow Lore
+## Shadow Lore
 
 At 14th level, you gain the ability to weave dark magic into your words and tap into a creature's deepest fears.
 

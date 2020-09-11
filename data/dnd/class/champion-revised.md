@@ -1,6 +1,7 @@
 The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
 
-## The Champion
+# The Champion
+
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ # of<br>Attacks ||~ Action<br>Surge Uses ||~ Indomitable<br>Uses ||~ Fighting<br>Styles ||~ Critical<br>Range ||
 || 1st || +2 || Fighting Style, Second Wind || 1 || -- || -- || 1 || 20 ||
 || 2nd || +2 || Action Surge (one use) || 1 || **1** || -- || 1 || 20 ||

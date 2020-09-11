@@ -2,7 +2,7 @@ The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a
 
 Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
 
-# The Barbarian
+# The Path of the Totem Warrior
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
 || 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
