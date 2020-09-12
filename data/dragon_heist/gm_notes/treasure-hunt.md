@@ -90,6 +90,7 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 
 ### Images
 
+* [Underground temple](^underground_temple.jpg)
 * [Black Pudding](^black_pudding.jpg) ([wiki](/dnd/monster/black pudding))
 * [Barok Clanghammer](^barok_clanghammer.jpg)
 * Aurinax [1](^gold_dragon.jpg), [2](^gold_dragon_2.jpg)

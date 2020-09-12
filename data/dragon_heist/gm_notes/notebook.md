@@ -88,4 +88,3 @@ These are things to take out of the party funds when I remember:
 * Soundboard:
   * Add volume control
 * Plan David fight
-* Add Calendar control to Visual Aid

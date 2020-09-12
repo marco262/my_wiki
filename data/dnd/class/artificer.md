@@ -22,7 +22,7 @@ You can make an artificer quickly by following these suggestions. First, put you
 
 ### Optional Rule: Multiclassing
 
-If your group uses the optional rule on multi classing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.
+If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.
 
 **Ability Score Minimum.** As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer.
 
