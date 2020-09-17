@@ -20,13 +20,11 @@
     % for k, s in spells:
     <tr>
         <td style="min-width: 264px;">
-            <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>\\
-            % if s["ritual_spell"]:
-            <sup>r</sup>\\
-            % end
-            % if s["concentration_spell"]:
-            <sup>c</sup>\\
-            % end
+            <%
+            r = "<sup>r</sup>" if s["ritual_spell"] else ""
+            c = "<sup>c</sup>" if s["concentration_spell"] else ""
+            %>
+            <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
         </td>
         <td style="min-width: 102px;">{{s["school"].title()}}</td>
         <%
