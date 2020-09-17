@@ -34,7 +34,7 @@ export function title_case(s) {
 }
 
 export function setCookie(cname, cvalue) {
-  document.cookie = cname + "=" + cvalue + ";";
+  document.cookie = cname + "=" + cvalue + "; SameSite=Strict";
 }
 
 export function getCookie(cname) {
