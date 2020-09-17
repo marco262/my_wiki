@@ -1,8 +1,6 @@
 % rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
 % from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times, durations
-<h1>Spell Filter</h1>
-
 <table border="0">
     <tr valign="top">
         <td>
@@ -54,7 +52,7 @@
     </tr>
 </table>
 <br>
-<div id="show-advanced-block" style="font-size: small"><a href="#">Show advanced filter options</a></div>
+<div id="show-advanced-block">Show advanced filter options</div>
 <div id="advanced-block" style="display: none">
     <table border="0">
     <%
@@ -79,7 +77,7 @@
         </tr>
     % end
     </table>
-    <div id="hide-advanced-block" style="font-size: small"><a href="#">Hide advanced filter options</a></div>
+    <div id="hide-advanced-block">Hide advanced filter options</div>
 </div>
 
 <p>
