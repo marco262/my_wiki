@@ -129,6 +129,8 @@ The most money from the pile that can be fit in a bag of holding is 4,735 gems a
 
 While leaving the vault, they will be confronted by [Nar'l Xibrindas](^nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))
 
+# The Grand Finale
+
 ### Encounter with David
 
 Once they've defeated the Xanathar forces (or when they're about to be defeated), all of the NPCs around them will freeze in place. [Uncle David](^uncle_david.jpg) will step out from behind a pillar and congratulate the PCs on their success. He will praise Emir, and greet Tom and Guy, apologizing for his discretion and not greeting them sooner. Eventually, he will change to [Lord Jared](^lord_jared.jpg), the look Tom and Guy are most familiar with, but very extra.
