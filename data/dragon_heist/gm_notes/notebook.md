@@ -4,22 +4,43 @@
 * Passive Per: 11
 * Passive Ins: 13
 
+Spell list:
+
+ * 1st level: _[[[spell:command]]]_, _[[[spell:sanctuary]]]_, _[[[spell:sleep]]]_, _[[[spell:shield of faith]]]_
+ * 2nd level: _[[[spell:aid]]]_, _[[[spell:magic weapon]]]_, _[[[spell:calm emotions]]]_, _[[[spell:hold person]]]_
+
 Worships: Lliira, Sune
+
+* Greatest desire: Provide aid to people in need
+* Greatest fear: Discovering he's not destined for great things
 
 ### Tom
 
-* Armor Class: 13
-* Passive Per: 12
+* Armor Class: 14
+* Passive Per: 13
 * Passive Ins: 11
 
+Spell list:
+
+ * Cantrips: _[[[spell:dancing lights]]]_, _[[[spell:mage hand]]]_, _[[[spell:prestidigitation]]]_
+ * 1st level: _[[[spell:disguise self]]]_, _[[[spell:fall]]]_, _[[[spell:healing word]]]_
+ * 2nd level: _[[[spell:cloud of daggers]]]_, _[[[spell:mind spike]]]_, _[[[spell:knock]]]_, _[[[spell:shatter]]]_
+ * 3rd level: _[[[spell:major image]]]_
+
 Worships: Torm, Tymora
+
+* Greatest desires: Become powerful, worshipped, and adored; support the Harpers' goals
+* Greatest fear: Not being able to trust the people around him; betrayal by a close friend
 
 ### Guy
 * Armor Class: 15
 * Passive Per: 8
-* Passive Ins: 10
+* Passive Ins: 11
 
 Worships: Milil, Sune
+
+* Greatest desire: Have a family and a home
+* Greatest fear: Fail his family
 
 ## Trollskull Inn Progress
 
@@ -80,11 +101,6 @@ These are things to take out of the party funds when I remember:
   * He wishes to confront Golorr itself, for... reasons?
 
 ## Things to bring up to the players
-
-* Update stats
-* Update spell lists
-* Greatest desires?
-* Greatest fears?
 
 ## TODO
 
