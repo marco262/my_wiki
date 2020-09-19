@@ -6,8 +6,8 @@
 
 Spell list:
 
- * 1st level: _[[[spell:command]]]_, _[[[spell:sanctuary]]]_, _[[[spell:sleep]]]_, _[[[spell:shield of faith]]]_
- * 2nd level: _[[[spell:aid]]]_, _[[[spell:magic weapon]]]_, _[[[spell:calm emotions]]]_, _[[[spell:hold person]]]_
+ * 1st level: _[command](/dnd/spell/command)_, _[sanctuary](/dnd/spell/sanctuary)_, _[sleep](/dnd/spell/sleep)_, _[shield of faith](/dnd/spell/shield of faith)_
+ * 2nd level: _[aid](/dnd/spell/aid)_, _[magic weapon](/dnd/spell/magic weapon)_, _[calm emotions](/dnd/spell/calm emotions)_, _[hold person](/dnd/spell/hold person)_
 
 Worships: Lliira, Sune
 
@@ -22,10 +22,10 @@ Worships: Lliira, Sune
 
 Spell list:
 
- * Cantrips: _[[[spell:dancing lights]]]_, _[[[spell:mage hand]]]_, _[[[spell:prestidigitation]]]_
- * 1st level: _[[[spell:disguise self]]]_, _[[[spell:fall]]]_, _[[[spell:healing word]]]_
- * 2nd level: _[[[spell:cloud of daggers]]]_, _[[[spell:mind spike]]]_, _[[[spell:knock]]]_, _[[[spell:shatter]]]_
- * 3rd level: _[[[spell:major image]]]_
+ * Cantrips: _[dancing lights](/dnd/spell/dancing lights)_, _[mage hand](/dnd/spell/mage hand)_, _[prestidigitation](/dnd/spell/prestidigitation)_
+ * 1st level: _[disguise self](/dnd/spell/disguise self)_, _[fall](/dnd/spell/fall)_, _[healing word](/dnd/spell/healing word)_
+ * 2nd level: _[cloud of daggers](/dnd/spell/cloud of daggers)_, _[mind spike](/dnd/spell/mind spike)_, _[knock](/dnd/spell/knock)_, _[shatter](/dnd/spell/shatter)_
+ * 3rd level: _[major image](/dnd/spell/major image)_
 
 Worships: Torm, Tymora
 
@@ -90,15 +90,10 @@ These are things to take out of the party funds when I remember:
   * He wants either 500 gp or help with sabotaging his neighbor who has a nicer house than him
   * Halgraek is willing to rent out the trollskull for 10 gp/day
   * Halgraek is willing to take Gemma Arterton on as a maid as a trial run
-* Tomassin asks after Emir, clearly smitten
-  * Tomassin is spying on the City Watch for Emir (goings on of the Black Network, etc)
-* Entering the vault!!!
+* Remalia Haventree party
+* Skeemo Sting (1st of next month)
 * The faerie dragon wants some of the treasure! (Unclear on how much)
-
----
-
-* Uncle David will threaten Emir when he's coming back with the treasure if he doesn't take the treasure back to his family
-  * He wishes to confront Golorr itself, for... reasons?
+* Uncle David!!
 
 ## Things to bring up to the players
 
@@ -106,4 +101,3 @@ These are things to take out of the party funds when I remember:
 
 * Soundboard:
   * Add volume control
-* Plan David fight
