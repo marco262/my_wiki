@@ -1,3 +1,36 @@
+The most powerful and majestic of the metallic dragons, gold dragons are dedicated foes of evil.
+
+A gold dragon has a sagacious face anointed with flexible spines that resemble whiskers. Its horns sweep back from its nose and brow, echoing twin frills that adorn its long neck. A gold dragon's sail-like wings start at its shoulders and trace down to the tip of its tail, letting it fly with a distinctive rippling motion as if swimming through the air. A gold dragon wyrmling has scales of dark yellow with metallic flecks. Those flecks grow larger as the dragon matures. As a gold dragon ages, its pupils fade until its eyes resemble pools of molten gold.
+
+***Devourer of Wealth.*** Gold dragons can eat just about anything, but their preferred diet consists of pearls and gems. Thankfully, a gold dragon doesn't need to gorge itself on such wealth to feel satisfied. Gifts of treasure that it can consume are well received by a gold dragon, as long as they aren't bribes.
+
+***Reserved Shapeshifters.*** Gold dragons are respected by the other metallic dragons for their wisdom and fairness, but they are the most aloof and grim of the good-aligned dragons. They value their privacy to the extent that they rarely fraternize with other dragons except their own mates and offspring.
+
+Older gold dragons can assume animal and humanoid forms. Rarely does a gold dragon in disguise reveal its true form. In the guise of a peddler, it might regularly visit a town to catch up on local gossip, patronize honest businesses, and lend a helping hand in unseen ways. In the guise of an animal, the dragon might befriend a lost child, a wandering minstrel, or an innkeeper, serving as a companion for days or weeks on end.
+
+***Master Hoarders.*** A gold dragon keeps its hoard in a well-guarded vault deep within its lair. Magical wards placed on the vault make it all but impossible to remove any treasures without the dragon knowing about it.
+
+## A Gold Dragon's Lair
+
+Gold dragons make their homes in out-of-the-way places, where they can do as they please without arousing suspicion or fear. Most dwell near idyllic lakes and rivers, mist-shrouded islands, cave complexes hidden behind sparkling waterfalls, or ancient ruins.
+
+### Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
+
+* The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.
+* One creature the dragon can see within 120 feet of it must succeed on a DC 15 Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.
+
+### Regional Effects
+
+The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
+
+* Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature remembers its conversation with the dragon upon waking.
+* Banks of beautiful, opalescent mist manifest within 6 miles of the dragon's lair. The mist doesn't obscure anything. It assumes haunting forms when evil creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.
+* Gems and pearls within 1 mile of the dragon's lair sparkle and gleam, shedding dim light in a 5-foot radius.
+
+If the dragon dies, these effects end immediately.
+
 [[div class="monster-include"]]
 
 <a id="ancient-gold-dragon">
@@ -208,39 +241,6 @@ actions = !!!
 [[/include]]
 
 [[/div]]
-
-The most powerful and majestic of the metallic dragons, gold dragons are dedicated foes of evil.
-
-A gold dragon has a sagacious face anointed with flexible spines that resemble whiskers. Its horns sweep back from its nose and brow, echoing twin frills that adorn its long neck. A gold dragon's sail-like wings start at its shoulders and trace down to the tip of its tail, letting it fly with a distinctive rippling motion as if swimming through the air. A gold dragon wyrmling has scales of dark yellow with metallic flecks. Those flecks grow larger as the dragon matures. As a gold dragon ages, its pupils fade until its eyes resemble pools of molten gold.
-
-***Devourer of Wealth.*** Gold dragons can eat just about anything, but their preferred diet consists of pearls and gems. Thankfully, a gold dragon doesn't need to gorge itself on such wealth to feel satisfied. Gifts of treasure that it can consume are well received by a gold dragon, as long as they aren't bribes.
-
-***Reserved Shapeshifters.*** Gold dragons are respected by the other metallic dragons for their wisdom and fairness, but they are the most aloof and grim of the good-aligned dragons. They value their privacy to the extent that they rarely fraternize with other dragons except their own mates and offspring.
-
-Older gold dragons can assume animal and humanoid forms. Rarely does a gold dragon in disguise reveal its true form. In the guise of a peddler, it might regularly visit a town to catch up on local gossip, patronize honest businesses, and lend a helping hand in unseen ways. In the guise of an animal, the dragon might befriend a lost child, a wandering minstrel, or an innkeeper, serving as a companion for days or weeks on end.
-
-***Master Hoarders.*** A gold dragon keeps its hoard in a well-guarded vault deep within its lair. Magical wards placed on the vault make it all but impossible to remove any treasures without the dragon knowing about it.
-
-## A Gold Dragon's Lair
-
-Gold dragons make their homes in out-of-the-way places, where they can do as they please without arousing suspicion or fear. Most dwell near idyllic lakes and rivers, mist-shrouded islands, cave complexes hidden behind sparkling waterfalls, or ancient ruins.
-
-### Lair Actions
-
-On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
-
-* The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.
-* One creature the dragon can see within 120 feet of it must succeed on a DC 15 Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.
-
-### Regional Effects
-
-The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:
-
-* Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature remembers its conversation with the dragon upon waking.
-* Banks of beautiful, opalescent mist manifest within 6 miles of the dragon's lair. The mist doesn't obscure anything. It assumes haunting forms when evil creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.
-* Gems and pearls within 1 mile of the dragon's lair sparkle and gleam, shedding dim light in a 5-foot radius.
-
-If the dragon dies, these effects end immediately.
 
 ----
 

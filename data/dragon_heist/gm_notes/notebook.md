@@ -81,7 +81,10 @@ These are things to take out of the party funds when I remember:
 
 ## Things to bring up to the players
 
-* Renaer will mention that he can get them an audience with [Laerel Silverhand](^laeral_silverhand.jpg), current Open Lord of Waterdeep.
+* Update stats
+* Update spell lists
+* Greatest desires?
+* Greatest fears?
 
 ## TODO
 

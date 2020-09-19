@@ -128,3 +128,17 @@ The most money from the pile that can be fit in a bag of holding is 4,735 gems a
 ### Ambush
 
 While leaving the vault, they will be confronted by [Nar'l Xibrindas](^nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))
+
+### Encounter with David
+
+Once they've defeated the Xanathar forces (or when they're about to be defeated), all of the NPCs around them will freeze in place. [Uncle David](^uncle_david.jpg) will step out from behind a pillar and congratulate the PCs on their success. He will praise Emir, and greet Tom and Guy, apologizing for his discretion and not greeting them sooner. Eventually, he will change to [Lord Jared](^lord_jared.jpg), the look Tom and Guy are most familiar with, but very extra.
+
+He will explain that he owed a favor to Emir's father, and that favor was called in to help Emir on his quest. But Jared isn't in this just for philanthropy, he has other angles as well. In particular, he wants the [Stone of Golorr](^stone_of_golorr.jpg). Or rather, Golorr itself.
+
+When he mentions the stone, it will attempt to coerce Emir into refusing to let Jared have the stone (DC 20 Charisma saving through). Jared will attempt to convince Emir even through the charm that it's in his best interest. If that fails, Jared will request help from Guy and Tom (dealing damage to Emir, or creative pleas will let him repeat the saving throw). 
+
+### Fight with Golorr
+
+Once Jared has the stone, he will explain to the PCs that he needs to purge the creature in the stone, but it will fight back and he needs the player's help to subdue it. When they are ready, [Golorr](/dnd/monster/aboleth) the [aboleth](^aboleth.png) will appear in a nearby space, and will attempt to attack David and the party. 
+
+Golorr will target most of its attacks at David, who will shrug them off but otherwise be unable to respond. After a round or two, Golorr will attempt to enslave the most dangerous PC. When it succeeds, the next round Jared will expel the charm from the PC, creating a shadow version of that PC. The PCs must then contend with the shadow version and Golorr. If Golorr is defeated, any remaining shadow PCs disappear, and Jared sucks up the wounded Golorr into a glass sphere with water inside and a tiny version of the aboleth within. He then thanks the party with a smile, and... TBC  
