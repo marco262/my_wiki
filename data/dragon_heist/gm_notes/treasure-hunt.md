@@ -129,7 +129,7 @@ The most money from the pile that can be fit in a bag of holding is 4,735 gems a
 
 While leaving the vault, they will be confronted by [Nar'l Xibrindas](^nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))
 
-# The Grand Finale
+## The Grand Finale
 
 ### Encounter with David
 
