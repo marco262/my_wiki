@@ -1,3 +1,5 @@
+[[div class="monster-include"]]
+
 [[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Grinda Garloth
@@ -42,6 +44,10 @@ reactions = !!!
 !!!
 [[/include]]
 
+[[/div]]
+
+[[div class="monster-include"]]
+
 [[include dnd/monster-sheet.tpl]]
 width = 500px
 name = Steel Defender
@@ -73,3 +79,8 @@ companion_actions = !!!
 !!!
 reaction = !***Deflect Attack.*** The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.
 [[/include]]
+
+[[/div]]
+
+* [Artificer class](/dnd/class/Artificer)
+* [Battle Smith subclass](/dnd/class/Battle Smith)
