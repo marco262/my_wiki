@@ -1,6 +1,10 @@
+[[div class="monster-float"]]
+
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/grell.toml
 [[/include]]
+
+[[/div]]
 
 A grell resembles a bulbous floating brain with a wide, sharp beak. Its ten long tentacles are made of hundreds of ring-shaped muscles sheathed in tough fibrous hide. Sharp barbs line the tip each tentacle and inject paralytic venom. The grell can partially retract its barbs into its tentacles to handle or manipulate objects it doesn't want to pierce or tear.
 
@@ -14,6 +18,6 @@ Although solitary by nature, grells sometimes gather in small groups called cove
 
 A grell will sometimes allow adventurers to wage war on the other monstrous inhabitants of the dungeon complex it calls home, staying out of the adventurers' way as they dispose of larger threats while waiting for the right time to strike.
 
-----
+<hr class="no-float">
 
 _Source: Monster Manual, p. 172_

@@ -61,6 +61,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Necklace of Fireballs](^necklace_of_fireballs.jpg)
 * [Nimblewright Detector](^nimblewright_detector.png)
+* [Stone of Golorr](^stone_of_golorr.jpg)
 * [Driftglobe](^https://www.aidedd.org/dnd/images-om/driftglobe.jpg)
 
 # [Trollskull Alley](Trollskull Alley)
