@@ -47,6 +47,13 @@ The recent uptick in monster-people causing problems in Waterdeep (mostly XG is 
   * Begs the party not to tell Dasher or any of the Shard Shunners
   * Will take the offer if the players use her identity as leverage
 
+### Spy Party
+
+* [Remallia Haventree](^remalia.jpeg)
+* [Tarkus Forrester](^tarkus_forrester.jpg)
+* [Tethyn Lambros](^tethyn_lambros.jpg)
+* [JB Nevercott](^jb_nevercott.jpg)
+
 ## Zhentarim
 
 ### Bad Time To Be An Elf
