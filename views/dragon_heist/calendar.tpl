@@ -78,6 +78,10 @@ cb = CalendarBuilder(
 
 <h1>Festival Day: High Harvest</h1>
 
+<hr>
+
+<a href="https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf">Full Calendar PDF</a>
+
 <script type="module">
     import {init_links} from "/js/dragon_heist/gm_notes.js";
     init_links();
