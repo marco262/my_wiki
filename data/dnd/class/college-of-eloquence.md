@@ -6,7 +6,7 @@ When you join the College of Eloquence at 3rd level, you gain the ability to spe
 
 ## Soothing Words
 
-At 3rd level, you cast [[[spell:Calm Emotions]]] without expending a spell slot. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you finish a long rest.
+At 3rd level, you cast _[[[spell:calm emotions]]]_ without expending a spell slot. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you finish a long rest.
 
 ## Undeniable Logic
 

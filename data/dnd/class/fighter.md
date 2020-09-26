@@ -55,11 +55,13 @@ You can make a fighter quickly by following these suggestions. First, make Stren
 As a fighter, you gain the following class features.
 
 ## Hit Points
+
 * Hit Dice: 1d10 per fighter level
 * Hit Points at 1st Level: 10 + your Constitution modifier
 * Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per fighter level after 1st
 
 ## Proficiencies
+
 * Armor: All armor, shields
 * Weapons: Simple weapons, martial weapons
 * Tools: None
@@ -67,7 +69,9 @@ As a fighter, you gain the following class features.
 * Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
 
 ## Equipment
+
 You start with the following equipment, in addition to the equipment granted by your background:
+
 * (a) chain mail or (b) leather armor, longbow, and 20 arrows
 * (a) a martial weapon and a shield or (b) two martial weapons
 * (a) a light crossbow and 20 bolts or (b) two handaxes
@@ -103,7 +107,7 @@ Once you use this feature, you must finish a short or long rest before you can u
 
 ## Martial Archetype
 
-At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player's Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player's Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
 ## Extra Attack
 
