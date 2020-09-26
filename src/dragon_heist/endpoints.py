@@ -75,7 +75,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")
-    @auth_basic(gm_notes_auth_check)
+    # @auth_basic(gm_notes_auth_check)
     def gm_notes(name):
         return md_page(name, "dragon_heist", directory="gm_notes")
 
@@ -96,7 +96,7 @@ def load_wsgi_endpoints(app: Bottle):
         websocket_loop(ws, websocket_list)
 
     @app.post("set_visual_aid")
-    @auth_basic(visual_aid_auth_check)
+    # @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_url
         params = dict(request.params)
