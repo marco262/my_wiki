@@ -116,9 +116,9 @@ The [treasure pile](^treasure_pile.png) takes up one of the alcoves in the vault
 * 479,376 gold pieces
 * 4,735 10gp gems
 
-Total value: 542,094.56 gp
-Total 'coins': 723,968
-Total weight: 14479.36 pounds (29 bags of holding)
+Total value: 542,094.56 gp  
+Total 'coins': 723,968  
+Total weight: 14479.36 pounds (29 bags of holding)  
 Total volume: 100,254.58 in^3
 
 The pile is about 6 feet tall and about 6 feet wide.
@@ -141,6 +141,14 @@ When he mentions the stone, it will attempt to coerce Emir into refusing to let 
 
 ### Fight with Golorr
 
-Once Jared has the stone, he will explain to the PCs that he needs to purge the creature in the stone, but it will fight back and he needs the player's help to subdue it. When they are ready, [Golorr](/dnd/monster/aboleth) the [aboleth](^aboleth.png) will appear in a nearby space, and will attempt to attack David and the party. 
+Once Jared has the stone, he will create an illusion of the [Feywild](^feywild.png) to have the following encounters in. He will explain to the PCs that he needs to purge the creature in the stone, but it will fight back and he needs the player's help to subdue it. When they are ready, [Golorr](/dnd/monster/aboleth) the [aboleth](^aboleth.png) will appear in a nearby space, and will attempt to attack Jared and the party.
 
-Golorr will target most of its attacks at David, who will shrug them off but otherwise be unable to respond. After a round or two, Golorr will attempt to enslave the most dangerous PC. When it succeeds, the next round Jared will expel the charm from the PC, creating a shadow version of that PC. The PCs must then contend with the shadow version and Golorr. If Golorr is defeated, any remaining shadow PCs disappear, and Jared sucks up the wounded Golorr into a glass sphere with water inside and a tiny version of the aboleth within. He then thanks the party with a smile, and... TBC  
+Golorr will target most of its attacks at Jared, who will shrug them off but otherwise be unable to respond. After a round or two, Golorr will attempt to Enslave the most dangerous PC. When it succeeds, the next round Jared will expel the charm from the PC, creating a shadow version of that PC. The PCs must then contend with the shadow version and Golorr. If Golorr is defeated, any remaining shadow PCs disappear, and Jared sucks up the wounded Golorr into a glass sphere with water inside and a tiny version of the aboleth within. 
+
+Jared then thanks the party with a smile, and gives them final parting advice: He lets them know that if they decide to take the treasure for themselves, they will not be able to keep it a secret for long. Groups, some acting in the interest of Waterdeep and some in their own, will seek out the treasure and possibly wish to punish those who have kept it. Jared reveals that he has been keeping their trail as clean as possible, but with his task finished, he must step aside and let the consequences flow freely. So the party must decide: Return the money, fight against all the forces a great city can bring to bear, or leave Waterdeep with their haul.
+
+With that, the illusion dissipates, returning everyone to the Vault of the Dragons, but with Jared and his prize gone.
+
+## Epilogue
+
+* [Jelenn Urmbrusk](^jelenn_urmbrusk.jpg)
