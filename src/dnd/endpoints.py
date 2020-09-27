@@ -47,20 +47,6 @@ def load_spells():
     return SPELLS
 
 
-def get_characters():
-    path = "data/dnd/characters.json"
-    if not isfile(path):
-        return {}
-    else:
-        with open(path) as f:
-            return load(f)
-
-
-def save_characters(json):
-    with open("data/dnd/characters.json") as f:
-        dump(json, f)
-
-
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     def home():
@@ -272,28 +258,26 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/characters')
     @view("dnd/characters.tpl")
     def characters():
-        path = "data/dnd/characters.json"
-        if not isfile(path):
-            dnd_characters = None
-        else:
-            with open(path) as f:
-                dnd_characters = load(f)
+        dnd_characters = []
+        for path in glob("data/dnd/characters/*.json"):
+            dnd_characters.append(splitext(basename(path))[0])
         return {"title": "Characters", "characters": dnd_characters}
 
     @app.get('/character/<name>')
     @view("dnd/character.tpl")
     def character(name):
-        characters = get_characters()
-        if name not in characters:
+        path = "data/dnd/characters/{}.json".format(name)
+        if not isfile(path):
             raise HTTPError(404, f"I couldn't find any character named \"{name}\".")
-        return {"name": characters[name]["name"], "json": characters[name]}
+        with open(path) as f:
+            dnd_character = load(f)
+        return {"title": name, "json": dnd_character}
 
     @app.post('/save_character/<name>')
     @view("dnd/character.tpl")
     def save_character(name):
-        characters = get_characters()
-        characters[name] = loads(request.params["character_data"])
-        save_characters(characters)
+        with open("data/dnd/character/{}.json".format(name), 'w') as f:
+            f.write(request.params["character_data"])
 
     @app.get("/gm/monsters_by_name")
     @view("dnd/monsters-by-name.tpl")

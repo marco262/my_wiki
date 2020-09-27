@@ -33,6 +33,7 @@ div.tab-page {
     border: 2px solid maroon;
     background-color: #eee;
     margin-top: -1px;
+    margin-bottom: 20px;
 }
 
 div.mod {
@@ -48,7 +49,7 @@ div#ability-scores-grid {
 
 div#saves-grid {
     display: grid;
-    grid-template-columns: 20px 90px 50px;
+    grid-template-columns: 20px 70px 50px 45px;
     margin-bottom: 10px;
 }
 

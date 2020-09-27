@@ -1,0 +1,24 @@
+{
+  "name": "Amber Fanin",
+  "race": "Human",
+  "class": "Paladin",
+  "level": 2,
+  "attributes": {
+    "Strength": 14,
+    "Dexterity": 10,
+    "Constitution": 8,
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 17
+  },
+  "saves": ["Wisdom", "Charisma"],
+  "skills": ["Athletics", "Deception", "Insight", "Intimidation"],
+  "expertises": [],
+  "class_features": [
+    "Divine Sense",
+    "Lay on Hands",
+    "Fighting Style",
+    "Spellcasting",
+    "Divine Smite"
+  ]
+}
