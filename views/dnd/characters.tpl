@@ -1,5 +1,5 @@
 % rebase("common/base.tpl", title=title)
-% if characters is None:
+% if not characters:
 <p><i>No characters created yet</i>
 % else:
 <ul>
