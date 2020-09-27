@@ -39,29 +39,32 @@ div.tab-page {
 div.mod {
     font-family: 'Courier New', sans-serif;
     text-align: right;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 div#ability-scores-grid {
-    display: grid;
-    grid-template-columns: 90px 80px;
+    display: inline-grid;
+    grid-template-columns: 90px auto;
     margin-bottom: 10px;
 }
 
 div#saves-grid {
-    display: grid;
-    grid-template-columns: 20px 70px 50px 45px;
-    margin-bottom: 10px;
-}
-
-div#misc-grid {
-    display: grid;
-    grid-template-columns: 140px 20px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
     margin-bottom: 10px;
 }
 
 div#skills-grid {
-    display: grid;
-    grid-template-columns: 20px 20px 130px 20px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 5px;
+}
+
+div#misc-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10px;
 }
 
 div#skills div.tooltip {
@@ -70,4 +73,17 @@ div#skills div.tooltip {
 
 div#saves-grid div.tooltiptext, div#skills-grid div.tooltiptext {
     width: 100px;
+}
+
+div#class-features {
+    display: inline-block;
+}
+
+div#class-features-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.class-feature-name {
+    margin-left: 5px;
 }
