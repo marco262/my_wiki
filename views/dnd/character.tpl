@@ -5,6 +5,7 @@
     <b>Race:</b> <span id="race"></span><br>
     <b>Class:</b> <span id="class"></span><br>
     <b>Level:</b> <span id="level"></span><br>
+    <b>Background:</b> <span id="background"></span><br>
 </p>
 
 <div class="tab-bar">
@@ -15,6 +16,7 @@
 
 <div class="tab-page" id="stats-page" style="display: inline-block;">
     <b>Ability Scores:</b>
+    <br>
     <div id="ability-scores-grid">
         % for ability_score in ability_scores:
         <div id="{{ ability_score.lower() }}-check">{{ ability_score }}:</div>
@@ -24,8 +26,10 @@
         </div>
         % end
     </div>
+    <br>
 
     <b>Saves:</b>
+    <br>
     <div id="saves-grid">
         <div class="tooltip" style="text-align: center;">P<div class="tooltiptext">Proficiency</div></div>
         <div></div>
@@ -38,6 +42,7 @@
         <div><button class="roll-button" value="{{ ability_score.lower() }}-save-mod">Roll</button></div>
         % end
     </div>
+    <br>
 </div>
 
 <div class="tab-page" id="skills-page">
@@ -46,12 +51,14 @@
         <div class="tooltip" style="text-align: center;">E<div class="tooltiptext">Expertise</div></div>
         <div></div>
         <div></div>
+        <div></div>
         % for skill, ability_score in skills:
         % skill_name = skill.lower().replace(" ", "-")
         <div><input type="checkbox" class="skill-prof-checkbox" id="{{ skill_name }}-prof"></div>
         <div><input type="checkbox" class="skill-ex-checkbox" id="{{ skill_name }}-ex"></div>
         <div id="{{ skill_name }}-label"><i>{{ skill }}:</i></div>
         <div class="mod" id="{{ skill_name }}-mod">+0</div>
+        <div><button class="roll-button" value="{{ ability_score.lower() }}-skill-mod">Roll</button></div>
         % end
     </div>
 </div>
@@ -62,11 +69,17 @@
         <div class="mod" id="proficiency-bonus"></div>
         <div><i>Initiative:</i></div>
         <div class="mod" id="initiative"></div>
-        <div><i>Melee:</i></div>
-        <div class="mod" id="melee-stats"></div>
-        <div><i>Ranged:</i></div>
-        <div class="mod" id="ranged-stats"></div>
+        <div><i>Melee Attack:</i></div>
+        <div class="mod" id="melee-attack-bonus"></div>
+        <div><i>Ranged Attack:</i></div>
+        <div class="mod" id="ranged-attack-bonus"></div>
     </div>
+</div>
+<br>
+<b>Class Features:</b>
+<br>
+<div id="class-features">
+    <div id="class-features-grid"></div>
 </div>
 
 <div id="overlay" hidden></div>

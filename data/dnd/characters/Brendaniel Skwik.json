@@ -17,11 +17,11 @@
   "expertises": [],
   "tools": ["Chef's utensils", "Vehicles (land)"],
   "languages": ["Common", "Gnomish"],
-  "class_features": [
-    "Spellcasting",
-    "Wild Magic Surge",
-    "Tides of Chaos"
-  ], 
+  "class_features": {
+    "Spellcasting": {},
+    "Wild Magic Surge": {},
+    "Tides of Chaos": {"max_uses": 1, "used": 0}
+  }, 
   "spells": {
     "cantrips": ["create bonfire", "mage hand", "mending", "prestidigitation"],
     "1st level": ["catapult", "grease"]
