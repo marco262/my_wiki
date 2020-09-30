@@ -190,9 +190,13 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 * [[[class:College of Swords]]]
 * [[[class:College of Whispers]]]
 
-## Unearthed Arcana
+## Mythic Odysseys of Theros
 
 * [[[class:College of Eloquence]]]
+
+## Unearthed Arcana
+
+* [[[class:College of Eloquence (UA)]]]
 * [[[class:College of Satire]]]
 
 ----
