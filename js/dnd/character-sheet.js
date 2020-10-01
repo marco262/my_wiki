@@ -25,7 +25,7 @@ let class_features = [];
 
 export function load_json(character_json) {
     load_ability_scores(character_json);
-    calculate_stats();
+    calculate_stats(character_json);
     init_checkboxes();
     // set_tab_page_size();
     add_class_features(character_json);
@@ -63,7 +63,8 @@ function to_id(name) {
 }
 
 
-function calculate_stats() {
+function calculate_stats(character_json) {
+    const prof_bonus = Math.trunc((level - 1) / 4) + 2;
     // Saves
     for (const name in ability_score_mods) {
         let mod = ability_score_mods[name];
@@ -87,7 +88,6 @@ function calculate_stats() {
         document.getElementById(skill_name + "-mod").innerText = to_mod(mod);
     }
     // Combat
-    const prof_bonus = Math.trunc((level - 1) / 4) + 2;
     document.getElementById("proficiency-bonus").innerText = to_mod(prof_bonus);
     let initiative = ability_score_mods["dexterity"];
     if (class_features.hasOwnProperty("Jack of All Trades")) {
@@ -98,6 +98,15 @@ function calculate_stats() {
         to_mod(ability_score_mods["strength"] + prof_bonus);
     document.getElementById("melee-attack-bonus").innerText = 
         to_mod(ability_score_mods["strength"] + prof_bonus);
+    document.getElementById("ranged-attack-bonus").innerText =
+        to_mod(ability_score_mods["strength"] + prof_bonus);
+    // Spellcasting
+    if (class_features.hasOwnProperty("Spellcasting")) {
+        const spellcasting_bonus = ability_score_mods[class_features["Spellcasting"]["stat"].toLowerCase()];
+        document.getElementById("spellcasting-bonus").innerText = to_mod(spellcasting_bonus);
+        document.getElementById("spell-attack-bonus").innerText = to_mod(spellcasting_bonus + prof_bonus);
+        document.getElementById("spell-dc").innerText = to_mod(8 + spellcasting_bonus + prof_bonus);
+    }
 }
 
 function init_checkboxes() {
