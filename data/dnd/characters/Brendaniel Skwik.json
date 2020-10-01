@@ -18,7 +18,7 @@
   "tools": ["Chef's utensils", "Vehicles (land)"],
   "languages": ["Common", "Gnomish"],
   "class_features": {
-    "Spellcasting": {},
+    "Spellcasting": {"stat": "Charisma"},
     "Wild Magic Surge": {},
     "Tides of Chaos": {"max_uses": 1, "used": 0}
   }, 
