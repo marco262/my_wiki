@@ -26,7 +26,7 @@ class Server:
 
         cfg = load_config()
         # Send stderr to logs if we're not running in debug mode
-        self.logger = setup_logging("log", log_level=log_level, capture_stderr=not debug)
+        # self.logger = setup_logging("log", log_level=log_level, capture_stderr=not debug)
 
         bottle.debug(debug)
         self.app = bottle.Bottle()
