@@ -116,6 +116,10 @@ def load_wsgi_endpoints(app: Bottle):
         else:
             send_to_websockets(params, websocket_list)
 
+    @app.get("/player soundboard")
+    def player_soundboard():
+        return md_page("Player Soundboard", "common")
+
 
 def visual_aid_auth_check(username, password):
     return (
