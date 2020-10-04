@@ -13,7 +13,8 @@
 }
 
 div#tab-container {
-    width: 300px;
+    width: 400px;
+    height: 430px;
 }
 
 div#tab-bar {
@@ -39,6 +40,7 @@ div.tab-page {
     margin-top: -1px;
     margin-bottom: 20px;
     width: 100%;
+    height: 95%;
 }
 
 div.mod {
@@ -83,6 +85,17 @@ div#saves-grid div.tooltiptext, div#skills-grid div.tooltiptext {
 div#spellcasting-grid {
     display: inline-grid;
     grid-template-columns: auto auto;
+    margin-bottom: 10px;
+}
+
+div.spell-name {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div#spell-list-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
     margin-bottom: 10px;
 }
 

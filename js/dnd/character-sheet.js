@@ -19,19 +19,24 @@ const skills = [
     ["Survival", "Wisdom"]
 ];
 
+const spell_levels = ["Cantrips", "1st level", "2nd level", "3rd level", "4th level", "5th level", "6th level", 
+    "7th level", "8th level", "9th level"];
+
 let ability_score_mods = {};
 let level = 1;
 let class_features = [];
+let character_json;
 
-export function load_json(character_json) {
-    load_ability_scores(character_json);
-    calculate_stats(character_json);
+export function load_json(cj) {
+    character_json = cj;
+    load_ability_scores();
+    calculate_stats();
     init_checkboxes();
     // set_tab_page_size();
-    add_class_features(character_json);
+    add_class_features();
 }
 
-function load_ability_scores(character_json) {
+function load_ability_scores() {
     document.getElementById("race").innerText = character_json["race"];
     document.getElementById("class").innerText = character_json["class"];
     level = Math.trunc(character_json["level"]);
@@ -63,7 +68,7 @@ function to_id(name) {
 }
 
 
-function calculate_stats(character_json) {
+function calculate_stats() {
     const prof_bonus = Math.trunc((level - 1) / 4) + 2;
     // Saves
     for (const name in ability_score_mods) {
@@ -88,6 +93,7 @@ function calculate_stats(character_json) {
         document.getElementById(skill_name + "-mod").innerText = to_mod(mod);
     }
     // Combat
+    document.getElementById("hp").innerText = character_json["hp"];
     document.getElementById("proficiency-bonus").innerText = to_mod(prof_bonus);
     let initiative = ability_score_mods["dexterity"];
     if (class_features.hasOwnProperty("Jack of All Trades")) {
@@ -102,10 +108,37 @@ function calculate_stats(character_json) {
         to_mod(ability_score_mods["strength"] + prof_bonus);
     // Spellcasting
     if (class_features.hasOwnProperty("Spellcasting")) {
-        const spellcasting_bonus = ability_score_mods[class_features["Spellcasting"]["stat"].toLowerCase()];
+        const spellcasting_dict = class_features["Spellcasting"];
+        const spellcasting_bonus = ability_score_mods[spellcasting_dict["stat"].toLowerCase()];
         document.getElementById("spellcasting-bonus").innerText = to_mod(spellcasting_bonus);
         document.getElementById("spell-attack-bonus").innerText = to_mod(spellcasting_bonus + prof_bonus);
-        document.getElementById("spell-dc").innerText = to_mod(8 + spellcasting_bonus + prof_bonus);
+        document.getElementById("spell-dc").innerText = 8 + spellcasting_bonus + prof_bonus;
+        const spell_list_grid = document.getElementById("spell-list-grid");
+        spell_list_grid.innerHTML = "";
+        spell_levels.forEach(function (spell_level) {
+            console.log(spell_level);
+            if (spellcasting_dict["spells"].hasOwnProperty(spell_level)) {
+                let spell_slots_div = document.createElement("div");
+                console.log(spellcasting_dict["spell_slots"]);
+                for (let i=0; i < spellcasting_dict["spell_slots"][spell_level]; i++) {
+                    let checkbox = document.createElement("input");
+                    checkbox.type = "checkbox";
+                    spell_slots_div.appendChild(checkbox);
+                }
+                spell_list_grid.appendChild(spell_slots_div);
+                let spell_name_div = document.createElement("div");
+                spell_name_div.className = "spell-name";
+                spell_name_div.innerText = spell_level;
+                spell_list_grid.appendChild(spell_name_div);
+                const spells_div = document.createElement("div");
+                let spells = [];
+                spellcasting_dict["spells"][spell_level].forEach(function (spell) {
+                    spells.push(`<a href="/dnd/spell/${spell}"><i>${spell}</i></a>`);
+                });
+                spells_div.innerHTML = spells.join(", ");
+                spell_list_grid.appendChild(spells_div);
+            }
+        });
     }
 }
 
@@ -158,7 +191,7 @@ function set_tab_page_size() {
     }
 }
 
-function add_class_features(character_json) {
+function add_class_features() {
     let class_features_json = character_json["class_features"];
     let class_features_div = document.getElementById("class-features-grid");
     for (const name in class_features_json) {
