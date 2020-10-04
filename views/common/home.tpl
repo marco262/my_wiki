@@ -1,6 +1,7 @@
 * [5e D&D Wiki](/dnd/)
 * [Numenera Resources](/numenera/)
 * [Dragon Heist](/dragon_heist/)
+* [Waterdeep Adventures](/waterdeep/)
 
 <div id="last-commit-text">
     <strong>Last commit:</strong> {{ commit_history }}<br>
