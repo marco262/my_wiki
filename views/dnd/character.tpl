@@ -67,6 +67,8 @@
 
     <div class="tab-page" id="combat-page">
         <div id="combat-grid">
+            <div><i>HP:</i></div>
+            <div class="mod" id="hp"></div>
             <div><i>Proficiency Bonus:</i></div>
             <div class="mod" id="proficiency-bonus"></div>
             <div><i>Initiative:</i></div>
@@ -87,6 +89,8 @@
             <div><i>Spell DC:</i></div>
             <div class="mod" id="spell-dc"></div>
         </div>
+        <br>
+        <div id="spell-list-grid"></div>
     </div>
 </div>
 <br>
@@ -95,6 +99,7 @@
 <div id="class-features">
     <div id="class-features-grid"></div>
 </div>
+<br>
 
 <div id="overlay" hidden></div>
 
