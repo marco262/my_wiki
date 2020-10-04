@@ -95,7 +95,7 @@
 * [Sounds from behind Brendaniel's bedroom door]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s)
 
 <script type="module">
-    import { init_links, init_soundboard } from "/js/dragon_heist/gm_notes.js";
+    import { init_links, init_soundboard } from "/js/common/visual_aid_backend.js";
     init_links();
     init_soundboard();
 </script>

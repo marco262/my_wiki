@@ -3,7 +3,7 @@
 <h2>Current Year: 1494 DR</h2>
 
 <%
-from src.dragon_heist.calendar_builder import CalendarBuilder
+from src.common.calendar_builder import CalendarBuilder
 month_width = 1110
 cb = CalendarBuilder(
     month_width=month_width,
@@ -83,6 +83,6 @@ cb = CalendarBuilder(
 <a href="https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf">Full Calendar PDF</a>
 
 <script type="module">
-    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    import {init_links} from "/js/common/visual_aid_backend.js";
     init_links();
 </script>

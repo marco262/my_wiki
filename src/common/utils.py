@@ -5,11 +5,15 @@ import sys
 from configparser import RawConfigParser
 from html import unescape
 from html.parser import HTMLParser
+from json import dumps
 from logging.handlers import TimedRotatingFileHandler
 from os.path import isfile
 from shutil import copyfile
 
+import gevent
 from bottle import template, HTTPError, redirect
+from gevent import sleep
+from geventwebsocket import WebSocketError
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -157,3 +161,41 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         kwargs["accordion_text"] = markdown_parser.accordion_text
 
         return template("common/page.tpl", kwargs)
+
+
+def websocket_loop(ws, websocket_list):
+    print("Opening Websocket {}".format(ws), flush=True)
+    websocket_list.append(ws)
+    try:
+        while True:
+            sleep(60)
+            # Checking if websocket has been closed by the client
+            with gevent.Timeout(1.0, False):
+                ws.receive()
+            if ws.closed:
+                print("WebSocket was closed by the client: {}".format(ws), flush=True)
+                break
+    except Exception as e:
+        print("Error in WebSocket loop: {}".format(e), flush=True)
+    finally:
+        if not ws.closed:
+            print("Closing WebSocket: {}".format(ws), flush=True)
+            ws.close()
+        try:
+            websocket_list.remove(ws)
+        except ValueError as e:
+            print(e, ws)
+
+
+def send_to_websockets(payload, websocket_list):
+    print(websocket_list, flush=True)
+    for ws in websocket_list[:]:
+        try:
+            print(f"Sending payload {payload} to {ws}", flush=True)
+            ws.send(dumps(payload))
+        except WebSocketError:
+            print(f"Failed to send message to {ws}. Removing from list", flush=True)
+            websocket_list.remove(ws)
+        except Exception as e:
+            print(f"Error when sending message to {ws}. {e}", flush=True)
+            websocket_list.remove(ws)
