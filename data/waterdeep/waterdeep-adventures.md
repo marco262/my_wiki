@@ -7,7 +7,7 @@
 * [Calendar](/waterdeep/calendar)
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
-* [Player's Guide](/waterdeep/player-s-guide)
+* [Player's Guide](/waterdeep/Player's Guide)
 
 # Images
 
