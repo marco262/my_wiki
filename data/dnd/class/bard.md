@@ -204,5 +204,5 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 *Source: Player's Handbook, p. 51*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
+: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
 [[/bibliography]]
