@@ -2,7 +2,7 @@
 
 At the end of every tenday, roll 1d100 to determine how profitable Erwaren's Rest was during that time. Add +1 to the roll for every 1 gp spent during that tenday advertising your business. You can gain additional bonuses as mentioned in the Managing Erwaren's Rest and Renovating Erwaren's Rest downtime activities.
 
-||~ dlOO ||~ Result ||
+||~ d100 ||~ Result ||
 || 01-20 || You must pay one and a half times the business's maintenance cost for each of the days. ||
 || 21-30 || You must pay the business's full maintenance cost for each of the days. ||
 || 31-40 || You must pay half the business's maintenance cost for each of the days. Profits cover the other half. ||
@@ -240,7 +240,7 @@ If renovations are left uncompleted, Erwaren's Rest suffers a -10 penalty for ev
 
 ## Research
 
-Forewarned is forearmed. The research downtime activity allows a character to de lve into lore concerning a monster, a location, a magic item, or some other particular topic.
+Forewarned is forearmed. The research downtime activity allows a character to delve into lore concerning a monster, a location, a magic item, or some other particular topic.
 
 ***Resources.*** Typically, a character needs access to a library or a sage to conduct research. Assuming such access is available, conducting research requires one tenday of effort and at least 50 gp spent on materials, bribes, gifts, and other expenses.
 
