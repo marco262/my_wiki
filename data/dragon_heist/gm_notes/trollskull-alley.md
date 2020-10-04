@@ -33,6 +33,6 @@
 * [Florence Ableton](^https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg), saved Tom's life, got invited to Erwaren's Rest. Has 14 and 16 year old boys.
 
 <script type="module">
-    import {init_links} from "/js/dragon_heist/gm_notes.js";
+    import {init_links} from "/js/common/visual_aid_backend.js";
     init_links();
 </script>
