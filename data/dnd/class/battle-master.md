@@ -67,7 +67,21 @@ Starting at 15th level, when you roll initiative and have no superiority dice re
 
 ## Maneuvers
 
+[[div class="phb-sidebar"]]
+
+If you know any maneuvers from the fighter’s Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead.[((bibcite UA Class Features))]
+
+[[/div]]
+
 The maneuvers are presented in alphabetical order.
+
+**Ambush.**[((bibcite UA Class Features))] When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll.
+
+**Bait and Switch.**[((bibcite UA Class Features))] When you’re within 5 feet of an ally on your turn, you can expend one superiority die and switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn’t provoke opportunity attacks.
+
+Roll the superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled.
+
+**Brace.**[((bibcite UA Class Features))] When an enemy you can see moves within 5 feet of you, you can use your reaction to expend one superiority die and make one weapon attackagainst that creature. If the attack hits, add the superiority die to the attack’s damage roll.
 
 **Commander's Strike.** When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.
 
@@ -97,7 +111,15 @@ The maneuvers are presented in alphabetical order.
 
 **Rally.** On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.
 
+**Restraining Strike.**[((bibcite UA Class Features))] Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player’s Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way.
+
 **Riposte.** When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.
+
+**Silver Tongue.**[((bibcite UA Class Features))] When you make a Charisma (Deception) check or a Charisma (Persuasion) check, you can expend one superiority die, and add the superiority die to the ability check.
+
+**Snipe.**[((bibcite UA Class Features))] As a bonus action, you can expend one superiority die and make a ranged weapon attack. You can draw a thrown weapon as part of making this attack. If you hit, add the superiority die to the attack’s damage roll.
+
+**Studious Eye.**[((bibcite UA Class Features))] When you make a Wisdom (Insight) check or an Intelligence (Investigation) check, you can expend one superiority die, and add the superiority die to the ability check.
 
 **Sweeping Attack.** When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.
 
@@ -110,4 +132,5 @@ The maneuvers are presented in alphabetical order.
 [[bibliography]]
 : errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
 : homebrew : https://old.reddit.com/r/DnDHomebrew/comments/bj1ky5/pinning_attack_a_battlemaster_maneuver/
+: UA Class Features : https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf
 [[/bibliography]]
