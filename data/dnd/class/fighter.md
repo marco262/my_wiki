@@ -87,7 +87,9 @@ You gain a +2 bonus to attack rolls you make with ranged weapons.
 
 ### Blind Fighting
 
-Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.[((bibcite UA Class Features))]
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.
 
 ### Defense
 
@@ -103,7 +105,9 @@ When you roll a 1 or 2 on a damage die for an attack you make with a melee weapo
 
 ### Interception
 
-When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.[((bibcite UA Class Features))]
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
 
 ### Protection
 
@@ -111,15 +115,19 @@ When a creature you can see attacks a target other than you that is within 5 fee
 
 ### Superior Technique
 
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
 You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
 
-You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.[((bibcite UA Class Features))]
+You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.
 
 ### Thrown Weapon Fighting
 
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
 You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
 
-In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.[((bibcite UA Class Features))]
+In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
 
 ### Two-Weapon Fighting
 
@@ -127,13 +135,17 @@ When you engage in [[[general:combat#two-weapon-fighting|two-weapon fighting]]],
 
 ### Unarmed Fighting
 
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
 Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.
 
-When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.[((bibcite UA Class Features))]
+When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.
 
 ## Martial Versatility
 
-Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.[((bibcite UA Class Features))]
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
 ## Second Wind
 
@@ -197,7 +209,3 @@ Different fighters choose different approaches to perfecting their fighting prow
 ----
 
 *Source: Player's Handbook, p. 70*
-
-[[bibliography]]
-: UA Class Features : https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf
-[[/bibliography]]

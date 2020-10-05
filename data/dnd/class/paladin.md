@@ -22,7 +22,7 @@ Adventuring paladins take their work seriously. A delve into an ancient ruin or 
 
 ||~ Level||~ Proficiency<br>Bonus||~ Features||~ 1st||~ 2nd||~ 3rd||~ 4th||~ 5th||
 ||1st|| +2|| Divine Sense, Lay on Hands|| -- || -- || -- || -- || -- ||
-||2nd|| +2|| Fighting Style, Spellcasting, Divine Smite|| 2|| -- || -- || -- || -- ||
+||2nd|| +2|| Fighting Style, Martial Versatility, Spellcasting, Divine Smite|| 2|| -- || -- || -- || -- ||
 ||3rd|| +2|| Divine Health, Sacred Oath|| 3|| -- || -- || -- || -- ||
 ||4th|| +2|| Ability Score Improvement|| 3|| -- || -- || -- || -- ||
 ||5th|| +3|| Extra Attack|| 4|| 2|| -- || -- || -- ||
@@ -101,6 +101,18 @@ This feature has no effect on undead and constructs.
 
 At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
+### Blessed Warrior
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.
+
+### Blind Fighting
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.
+
 ### Defense
 
 While you are wearing armor, you gain a +1 bonus to AC.
@@ -113,9 +125,37 @@ When you are wielding a melee weapon in one hand and no other weapons, you gain 
 
 When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
 
+### Interception
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+
 ### Protection
 
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+
+### Thrown Weapon Fighting
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
+
+In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
+
+### Unarmed Fighting
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.
+
+When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.
+
+## Martial Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
 ## Spellcasting
 
