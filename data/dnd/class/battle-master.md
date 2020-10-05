@@ -69,7 +69,11 @@ Starting at 15th level, when you roll initiative and have no superiority dice re
 
 [[div class="phb-sidebar"]]
 
-If you know any maneuvers from the fighter’s Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead.[((bibcite UA Class Features))]
+**Maneuver Versatility**
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+If you know any maneuvers from the fighter’s Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead.
 
 [[/div]]
 
