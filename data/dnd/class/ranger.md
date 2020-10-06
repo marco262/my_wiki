@@ -295,5 +295,5 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 *Source: Player's Handbook, p. 89*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

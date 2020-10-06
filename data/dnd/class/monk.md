@@ -98,6 +98,22 @@ Beginning at 1st level, while you are wearing no armor and not wielding a shield
 
 ## Martial Arts
 
+[[div class="phb-sidebar"]]
+
+**Monk Weapons**
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.
+
+You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:
+
+ * The weapon must be a simple or martial weapon.
+ * You must be proficient with the weapon.
+ * The weapon must lack these properties: heavy, special, or two-handed.
+
+[[/div]]
+
 At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
@@ -120,6 +136,14 @@ Some of your ki features require your target to make a saving throw to resist th
 
 * Ki save DC = 8 + your proficiency bonus + your Wisdom modifier
 
+If you spend 1 ki or more as part of your action on your turn, you can then immediately make one unarmed strike as a bonus action.[((bibcite UA Class Features))]
+
+### Distant Eye
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When you make a ranged weapon attack, you can spend 1 ki point to prevent attacking at long range from imposing disadvantage on your attack rolls until the end of the current turn. 
+
 ### Flurry of Blows
 
 Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.
@@ -127,6 +151,12 @@ Immediately after you take the Attack action on your turn, you can spend 1 ki po
 ### Patient Defense
 
 You can spend 1 ki point to take the Dodge action as a bonus action on your turn.
+
+### Quickened Healing
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled.
 
 ### Step of the Wind
 
@@ -231,4 +261,5 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
+: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]

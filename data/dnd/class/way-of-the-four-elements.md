@@ -69,5 +69,5 @@ The elemental disciplines are presented in alphabetical order. If a discipline r
 
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

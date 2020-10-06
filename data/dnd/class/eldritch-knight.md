@@ -77,5 +77,5 @@ Starting at 18th level, when you use your action to cast a spell, you can make o
 *Source: Player's Handbook, p. 74*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

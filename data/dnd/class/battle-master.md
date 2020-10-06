@@ -134,7 +134,7 @@ Roll the superiority die. Until the start of your next turn, the ally gains a bo
 *Source: Player's Handbook, p. 73*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
-: homebrew : https://old.reddit.com/r/DnDHomebrew/comments/bj1ky5/pinning_attack_a_battlemaster_maneuver/
-: UA Class Features : https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
+: homebrew : <https://old.reddit.com/r/DnDHomebrew/comments/bj1ky5/pinning_attack_a_battlemaster_maneuver/>
+: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]

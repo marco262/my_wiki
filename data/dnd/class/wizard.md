@@ -181,5 +181,5 @@ The most common arcane traditions in the multiverse revolve around the schools o
 *Source: Player's Handbook, p. 112*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

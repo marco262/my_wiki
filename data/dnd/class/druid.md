@@ -34,7 +34,7 @@ You can make a druid quickly by following these suggestions. First, Wisdom shoul
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Druidic, Spellcasting || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Wild Shape, Druid Circle || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
+|| 2nd || +2 || Wild Shape, Wild Companion, Druid Circle || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
 || 4th || +2 || Wild Shape improvement, Ability Score Improvement || 3 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
 || 5th || +3 || -- || 3 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
@@ -102,6 +102,8 @@ Drawing on the divine essence of nature itself, you can cast spells to shape tha
 
 At 1st level, you know two cantrips of your choice from the [druid spell list](/dnd/class_spell_list/druid/true). You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
 
+Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the druid spell list.[((bibcite UA Class Features))]
+
 ### Preparing and Casting Spells
 
 The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher.[((bibcite errata))] To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
@@ -159,6 +161,14 @@ In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usua
 The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
 [[/div]]
 
+## Wild Companion
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Starting at 2nd level, you gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.
+
+When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
+
 ## Druid Circles
 
 At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
@@ -197,5 +207,6 @@ At a local scale, druids are organized into circles that share certain perspecti
 *Source: Player's Handbook, p. 64*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
+: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
