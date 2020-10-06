@@ -102,5 +102,5 @@ Creatures of magic with strong ties to nature, eladrin live in the twilight real
 a short or long rest.
 
 [[bibliography]]
-: errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

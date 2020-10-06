@@ -192,5 +192,5 @@ Each domain's description gives examples of deities who have influence over that
 *Source: Player's Handbook, p. 56*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

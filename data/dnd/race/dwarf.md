@@ -90,5 +90,5 @@ As a mountain dwarf, you're strong and hardy, accustom ed to a difficult life in
 *Source: Player's Handbook, p. 18*
 
 [[bibliography]]
-: errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

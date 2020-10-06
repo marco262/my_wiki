@@ -29,5 +29,5 @@ Beginning at 15th level, when you cast a spell targeting yourself, you can also 
 *Source: Player's Handbook, p. 93*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

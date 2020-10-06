@@ -61,5 +61,5 @@ Here "once per day" means you must finish a long rest to cast the spell again wi
 *Source: Player's Handbook, p. 42*
 
 [[bibliography]]
-: errata : http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]

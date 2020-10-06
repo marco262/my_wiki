@@ -35,5 +35,5 @@ Starting at 14th level, when you hit a creature with an attack, you can use this
 *Source: Player's Handbook, p. 109*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
