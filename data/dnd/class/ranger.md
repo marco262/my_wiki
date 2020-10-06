@@ -114,6 +114,42 @@ While traveling for an hour or more in your favored terrain, you gain the follow
 
 You choose additional favored terrain types at 6th and 10th level.
 
+[[accordion Variant Class Features]]
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+## Deft Explorer
+
+_1st-level ranger feature (replaces Natural Explorer)_
+
+You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.
+
+### Canny
+
+Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don't already have it, and you can add double your proficiency bonus to ability checks using that skill.
+
+In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice.
+
+### Roving
+
+Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
+
+### Tireless
+
+As an action, you can give yourself a number of temporary hit points equal to 1d10 + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.
+
+In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.
+
+## Favored Foe
+
+_1st-level ranger feature (replaces Favored Enemy)_
+
+You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the _[[[spell:hunter's mark]]]_ spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration -- a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+When you gain the Spellcasting feature at 2nd level, _[[[spell:hunter's mark]]]_ doesn't count against the number of ranger spells you know.
+
+[[/accordion]]
+
 ## Fighting Style
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -126,7 +162,7 @@ You gain a +2 bonus to attack rolls you make with ranged weapons.
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
-Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.
+Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you.
 
 ### Defense
 
