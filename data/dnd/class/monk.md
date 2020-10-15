@@ -226,11 +226,12 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 * [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/0B1pdYIcfHauwNDM2My1XeWFYSDA/view)
 * [Way of the Kensai](https://docs.google.com/file/d/1zw55msoKWM4qD6aTkl4_PPnhRs31F8i_vJtPmkvsvl0/view)
+* [[[class:Way of the Sun Soul (Homebrew)]]]
 
 ----
 
 *Source: Player's Handbook, p. 76*
 
 [[bibliography]]
-: errata : https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf\
+: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
