@@ -6,7 +6,7 @@ Monks of the Way of the Sun Soul learn to channel their own life energy into sea
 || 3rd || Radiant Sun Bolt ||
 || 9th || Searing Arc Strike ||
 || 13th || Searing Sunburst ||
-|| 17th || Coalescence ||
+|| 17th || Radiant Body ||
 
 ## Radiant Sun Bolt
 
@@ -46,7 +46,7 @@ Each creature in that 20-foot-radius sphere must succeed on a Constitution savin
 
 You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6 and the radius of the sphere by 5 ft.
 
-## Coalescence
+## Radiant Body
 
 [[div class="errata"]]
 
@@ -54,16 +54,17 @@ You can increase the sphere's damage by spending ki points. Each point you spend
 
 [[/div]]
 
-At 17th level, as a bonus action, you can enter a state of heightened being known as Coalescence, fusing your physical form with the raw power of your radiant soul. While in Coalescence, you gain the following benefits:
+At 17th level, as a bonus action, you can enter a state of heightened being known as Radiant Body, fusing your physical form with the raw power of your radiant soul. While in Radiant Body, you gain the following benefits:
 
 * You shed bright light in a 30-foot radius and dim light for an additional 30 feet.
-* You gain a flying speed equal to your walking speed.
-* You do an additional 6 radiant damage when you hit with a melee weapon attack or Radiant Sun Bolt.
-* The spells you cast with Ki have their cost reduced by 1 (to a minimum of 1).
+* You gain a flying speed equal to your speed.
+* Whenever you hit with a melee weapon attack or Radiant Sun Bolt, you do additional radiant damage equal to your Wisdom modifier + 1.
+* All ki costs are reduced by one, to a minimum of 1.
+* You are immune to the effects of exhaustion.
 
-While in this state, you must make a Constitution saving throw at the end of each of your turns, with a DC of 12 + the number of rounds Coalescence has been active since the last long rest. If you fail the saving throw, you take 1 level of Exhaustion. 
+While in this state, you must make a Constitution saving throw at the end of each of your turns, with a DC of 12. If you succeed on the saving throw, the DC increases by 1. If you fail the saving throw, you suffer 1 level of [exhaustion](/dnd/general/conditions#exhaustion). If you already have 6 levels of exhaustion and fail the saving throw, Radiant Body ends and you die.
 
-You can end your Coalescence as an Action. Coalescence also automatically ends if you are incapacitated. When Coalescence ends, you suffer 1 point of Exhaustion, unless you already have 2 or more.
+You can end Radiant Body as an action. Radiant Body also automatically ends if you are incapacitated. After you finish a long rest, the DC of the Constitution saving throw resets to 12.
 
 ----
 
