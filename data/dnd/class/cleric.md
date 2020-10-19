@@ -89,6 +89,8 @@ As a conduit for divine power, you can cast cleric spells. See [[[general:Spellc
 
 At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
 
+Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the cleric spell list.[((bibcite UA Class Features))]
+
 ### Preparing and Casting Spells
 
 The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher.[((bibcite errata))] To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
@@ -139,6 +141,12 @@ Beginning at 6th level, you can use your Channel Divinity twice between rests, a
 As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+
+### Harness Divine Power
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot.
 
 ## Ability Score Improvement
 
@@ -193,4 +201,5 @@ Each domain's description gives examples of deities who have influence over that
 
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
+: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]

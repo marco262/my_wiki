@@ -124,6 +124,24 @@ You gain the following benefits while you are unarmed or wielding only monk weap
 
 Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon in the [[[equipment:Weapons]]] section.
 
+[[accordion Variant Class Features]]
+
+## Monk Weapons
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_1st-level monk feature (enhances Martial Arts)_
+
+You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.
+
+You practice your martial arts with specially chosen weapons, which become monk weaponsfor you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:
+
+* The weapon must be a simple or martial weapon.
+* You must be proficient with the weapon.
+* The weapon must lack these properties: heavy, special, or two-handed.
+
+[[/accordion]]
+
 ## Ki
 
 Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
@@ -263,3 +281,8 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 : UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
