@@ -14,6 +14,19 @@
 
 * [[[class:Dragonfire Adept]]]
 
+## Equipment
+
+* [[[equipment:Starting Equipment]]]
+* [[[equipment:Wealth]]]
+* [[[equipment:Armor and Shields]]]
+* [[[equipment:Weapons]]]
+* [[[equipment:Adventuring Gear]]]
+* [[[equipment:Tools]]]
+* [[[equipment:Mounts and Vehicles]]]
+* [[[equipment:Trade Goods]]]
+* [[[equipment:Expenses]]]
+* [[[equipment:Trinkets]]]
+
 ## Advancement
 
 * [[[advancement:Feats]]]
@@ -38,7 +51,6 @@
 * [[[general:Using Ability Scores]]]
 * [[[general:Adventuring]]]
 * [[[general:Combat]]]
-* [[[general:Equipment]]]
 * [[[general:Running Encounters]]]
 * [[[general:Spellcasting Rules]]]
 * [[[general:Conditions]]]

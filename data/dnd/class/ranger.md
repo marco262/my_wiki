@@ -236,6 +236,18 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
+### Spell Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace.
+
+### Spellcasting Focus
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+You can use a [[[equipment:adventuring-gear|druidic focus]]] as a spellcasting focus for your ranger spells.
+
 ## Ranger Archetype
 
 At 3rd level, you choose an [[[class:ranger#ranger-archetypes|archetype]]] that you strive to emulate: Hunter or Beast Master. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
@@ -243,6 +255,27 @@ At 3rd level, you choose an [[[class:ranger#ranger-archetypes|archetype]]] that 
 ## Primeval Awareness
 
 Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
+
+[[accordion Variant Class Features]]
+
+## Primal Awareness
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_3rd-level ranger feature (replaces Primeval Awareness)_
+
+You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the following table. These spells don't count against the number of ranger spells you know.
+
+||~ Level ||~ Spell ||
+|| 3rd || _[[[spell:detect magic]]]_, _[[[spell:speak with animals]]]_ ||
+|| 5th || _[[[spell:beast sense]]]_, _[[[spell:locate animals or plants]]]_ ||
+|| 9th || _[[[spell:speak with plants]]]_ ||
+|| 13th || _[[[spell:locate creature]]]_ ||
+|| 17th || _[[[spell:commune with nature]]]_ ||
+
+You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.
+
+[[/accordion]]
 
 ## Ability Score Improvement
 
@@ -263,6 +296,20 @@ In addition, you have advantage on saving throws against plants that are magical
 Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
 
 Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
+
+[[accordion Variant Class Features]]
+
+## Fade Away
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_10th-level ranger feature (replaces Hide in Plain Sight)_
+
+You can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+[[/accordion]]
 
 ## Vanish
 
@@ -297,3 +344,8 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>

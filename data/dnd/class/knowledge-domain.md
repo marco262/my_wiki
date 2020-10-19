@@ -31,6 +31,18 @@ During that time, you can use your action to end this effect and cast the sugges
 
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
+[[accordion Variant Class Features]]
+
+## Blessed Strikes
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_8th-level cleric Divine Domain feature (replaces Divine Strike or Potent Spellcasting)_
+
+In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can’t use this feature again until the start of your next turn.
+
+[[/accordion]]
+
 ## Visions of the Past
 
 Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.
@@ -44,3 +56,8 @@ Once you use this feature, you can't use it again until you finish a short or lo
 ----
 
 *Source: Player's Handbook, p. 59*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>

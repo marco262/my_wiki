@@ -43,6 +43,18 @@ At 6th level, when you deal lightning damage to a Large or smaller creature, you
 
 At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8.
 
+[[accordion Variant Class Features]]
+
+## Blessed Strikes
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_8th-level cleric Divine Domain feature (replaces Divine Strike or Potent Spellcasting)_
+
+In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can’t use this feature again until the start of your next turn.
+
+[[/accordion]]
+
 ## Stormborn
 
 At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.
@@ -50,3 +62,8 @@ At 17th level, you have a flying speed equal to your current walking speed whene
 ----
 
 *Source: Player's Handbook, p. 62*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
