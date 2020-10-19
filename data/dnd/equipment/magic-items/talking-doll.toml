@@ -1,0 +1,7 @@
+name = "Talking Doll"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = true
+notes = ""
+source = "xge 139"
+description = "No description available."

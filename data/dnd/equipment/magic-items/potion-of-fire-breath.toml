@@ -1,0 +1,7 @@
+name = "Potion of Fire Breath"
+type = "Potion"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 187"
+description = "No description available."

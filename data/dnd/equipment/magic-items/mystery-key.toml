@@ -1,0 +1,7 @@
+name = "Mystery Key"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = false
+notes = ""
+source = "xge 138"
+description = "No description available."

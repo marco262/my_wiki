@@ -1,0 +1,7 @@
+name = "Tentacle Rod"
+type = "Rod"
+rarity = "Rare"
+attunement = true
+notes = ""
+source = "dmg 208"
+description = "No description available."

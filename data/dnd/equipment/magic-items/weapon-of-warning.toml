@@ -1,0 +1,7 @@
+name = "Weapon of Warning"
+type = "Weapon"
+rarity = "Uncommon"
+attunement = true
+notes = ""
+source = "dmg 213"
+description = "No description available."

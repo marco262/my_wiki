@@ -1,0 +1,7 @@
+name = "Crystal Ball of True Seeing"
+type = "Wondrous Item"
+rarity = "Legendary"
+attunement = true
+notes = ""
+source = "dmg 159"
+description = "<p>The typical <em>crystal ball</em>, a very rare item, is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p><p>The following <em>crystal ball</em> variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of True Seeing.</strong> While scrying with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.</p>"

@@ -1,0 +1,7 @@
+name = "Sword of Answering"
+type = "Weapon"
+rarity = "Legendary"
+attunement = true
+notes = "longsword, by alignment"
+source = "dmg 206"
+description = "No description available."

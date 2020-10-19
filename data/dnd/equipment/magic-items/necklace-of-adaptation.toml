@@ -1,0 +1,7 @@
+name = "Necklace of Adaptation"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = true
+notes = ""
+source = "dmg 182"
+description = "<p>While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as <em>cloudkill</em> and <em>stinking cloud</em> effects, inhaled poisons, and the breath weapons of some dragons).</p>"

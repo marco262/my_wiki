@@ -1,0 +1,7 @@
+name = "Sword of Vengeance"
+type = "Weapon"
+rarity = "Uncommon"
+attunement = true
+notes = "any sword"
+source = "dmg 206"
+description = "No description available."

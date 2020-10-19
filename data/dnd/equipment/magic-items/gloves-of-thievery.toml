@@ -1,0 +1,7 @@
+name = "Gloves of Thievery"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 172"
+description = "No description available."

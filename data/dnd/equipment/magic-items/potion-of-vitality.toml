@@ -1,0 +1,7 @@
+name = "Potion of Vitality"
+type = "Potion"
+rarity = "Very Rare"
+attunement = false
+notes = ""
+source = "dmg 188"
+description = "No description available."

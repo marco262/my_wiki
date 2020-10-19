@@ -1,0 +1,7 @@
+name = "Scimitar of Speed"
+type = "Weapon"
+rarity = "Very Rare"
+attunement = true
+notes = "scimitar"
+source = "dmg 199"
+description = "<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.</p>"

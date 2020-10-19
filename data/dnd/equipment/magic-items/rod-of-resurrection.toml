@@ -1,0 +1,7 @@
+name = "Rod of Resurrection"
+type = "Rod"
+rarity = "Legendary"
+attunement = true
+notes = "cleric, druid, or paladin"
+source = "dmg 197"
+description = "No description available."

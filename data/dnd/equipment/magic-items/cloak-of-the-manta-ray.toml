@@ -1,0 +1,7 @@
+name = "Cloak of the Manta Ray"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 159"
+description = "<p>While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.</p>"

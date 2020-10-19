@@ -1,0 +1,7 @@
+name = "Walloping Ammunition"
+type = "Weapon"
+rarity = "Common"
+attunement = false
+notes = "any ammunition"
+source = "xge 139"
+description = "No description available."

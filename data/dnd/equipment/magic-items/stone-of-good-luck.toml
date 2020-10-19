@@ -1,0 +1,7 @@
+name = "Stone of Good Luck"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = true
+notes = ""
+source = "dmg 205"
+description = "<p>While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.</p>"

@@ -1,0 +1,7 @@
+name = "Adamantine Armor"
+type = "Armor"
+rarity = "Uncommon"
+attunement = false
+notes = "medium or heavy, but not hide"
+source = "dmg 150"
+description = "<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>"

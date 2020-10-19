@@ -1,0 +1,7 @@
+name = "Sending Stones"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 199"
+description = "No description available."

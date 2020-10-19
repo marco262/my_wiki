@@ -1,0 +1,7 @@
+name = "Hat of Wizardry"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = true
+notes = "wizard"
+source = "xge 137"
+description = "No description available."

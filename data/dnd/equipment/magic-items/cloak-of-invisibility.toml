@@ -1,0 +1,7 @@
+name = "Cloak of Invisibility"
+type = "Wondrous Item"
+rarity = "Legendary"
+attunement = true
+notes = ""
+source = "dmg 158"
+description = "No description available."
