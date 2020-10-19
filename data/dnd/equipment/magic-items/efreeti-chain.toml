@@ -1,0 +1,7 @@
+name = "Efreeti Chain"
+type = "Armor"
+rarity = "Legendary"
+attunement = true
+notes = "chain mail"
+source = "dmg 167"
+description = "No description available."

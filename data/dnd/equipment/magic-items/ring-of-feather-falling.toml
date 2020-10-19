@@ -1,0 +1,7 @@
+name = "Ring of Feather Falling"
+type = "Ring"
+rarity = "Rare"
+attunement = true
+notes = ""
+source = "dmg 191"
+description = "<p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>"

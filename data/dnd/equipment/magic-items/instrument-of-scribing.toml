@@ -1,0 +1,7 @@
+name = "Instrument of Scribing"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = true
+notes = ""
+source = "xge 138"
+description = "No description available."

@@ -1,0 +1,7 @@
+name = "Alchemy Jug"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 150"
+description = "No description available."

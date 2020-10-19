@@ -1,0 +1,7 @@
+name = "Elixir of Health"
+type = "Potion"
+rarity = "Rare"
+attunement = false
+notes = ""
+source = "dmg 168"
+description = "No description available."

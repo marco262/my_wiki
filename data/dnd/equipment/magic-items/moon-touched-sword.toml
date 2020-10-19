@@ -1,0 +1,7 @@
+name = "Moon-Touched Sword"
+type = "Weapon"
+rarity = "Common"
+attunement = false
+notes = "any sword"
+source = "xge 138"
+description = "No description available."

@@ -1,0 +1,7 @@
+name = "Rod of the Pact Keeper, +1"
+type = "Rod"
+rarity = "Uncommon"
+attunement = true
+notes = "warlock"
+source = "dmg 197"
+description = "No description available."

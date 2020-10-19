@@ -1,0 +1,7 @@
+name = "Staff of the Adder"
+type = "Staff"
+rarity = "Uncommon"
+attunement = true
+notes = "cleric, druid, or warlock"
+source = "dmg 203"
+description = "No description available."

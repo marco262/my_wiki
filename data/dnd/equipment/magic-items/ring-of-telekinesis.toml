@@ -1,0 +1,7 @@
+name = "Ring of Telekinesis"
+type = "Ring"
+rarity = "Very Rare"
+attunement = true
+notes = ""
+source = "dmg 193"
+description = "<p>While wearing this ring, you can cast the <em>telekinesis</em> spell at will, but you can target only objects that aren't being worn or carried.</p>"

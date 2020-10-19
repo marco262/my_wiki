@@ -1,0 +1,7 @@
+name = "Mariner's Armor"
+type = "Armor"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 181"
+description = "No description available."

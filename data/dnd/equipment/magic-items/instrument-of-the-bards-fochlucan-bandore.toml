@@ -1,0 +1,7 @@
+name = "Instrument of the Bards, Fochlucan Bandore"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = true
+notes = "bard"
+source = "dmg 176"
+description = "No description available."

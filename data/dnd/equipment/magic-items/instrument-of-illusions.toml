@@ -1,0 +1,7 @@
+name = "Instrument of Illusions"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = true
+notes = ""
+source = "xge 137"
+description = "No description available."

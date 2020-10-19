@@ -1,0 +1,7 @@
+name = "Instrument of the Bards, Cli Lyre"
+type = "Wondrous Item"
+rarity = "Rare"
+attunement = true
+notes = "bard"
+source = "dmg 176"
+description = "No description available."

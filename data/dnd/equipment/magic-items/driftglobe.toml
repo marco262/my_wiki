@@ -1,0 +1,7 @@
+name = "Driftglobe"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = false
+notes = ""
+source = "dmg 166"
+description = "No description available."

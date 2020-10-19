@@ -1,0 +1,7 @@
+name = "Veteran's Cane"
+type = "Wondrous Item"
+rarity = "Common"
+attunement = false
+notes = ""
+source = "xge 139"
+description = "No description available."

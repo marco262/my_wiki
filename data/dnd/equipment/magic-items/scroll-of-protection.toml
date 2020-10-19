@@ -1,0 +1,7 @@
+name = "Scroll of Protection"
+type = "Scroll"
+rarity = "Rare"
+attunement = false
+notes = ""
+source = "dmg 199"
+description = "No description available."

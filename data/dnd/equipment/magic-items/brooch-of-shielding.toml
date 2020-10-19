@@ -1,0 +1,7 @@
+name = "Brooch of Shielding"
+type = "Wondrous Item"
+rarity = "Uncommon"
+attunement = true
+notes = ""
+source = "dmg 156"
+description = "<p>While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the <em>magic missile</em> spell.</p>"

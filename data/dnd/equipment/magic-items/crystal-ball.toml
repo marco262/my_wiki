@@ -1,0 +1,7 @@
+name = "Crystal Ball"
+type = "Wondrous Item"
+rarity = "Very Rare"
+attunement = true
+notes = ""
+source = "dmg 159"
+description = "<p>The typical <em>crystal ball</em>, a very rare item, is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p>"
