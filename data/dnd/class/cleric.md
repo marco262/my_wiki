@@ -183,17 +183,17 @@ Each domain's description gives examples of deities who have influence over that
 
 ## Player's Handbook
 
-* [[[class:Knowledge Domain]]]
-* [[[class:Life Domain]]]
-* [[[class:Light Domain]]]
-* [[[class:Nature Domain]]]
-* [[[class:Tempest Domain]]]
-* [[[class:Trickery Domain]]]
-* [[[class:War Domain]]]
+* [[[subclass:Knowledge Domain]]]
+* [[[subclass:Life Domain]]]
+* [[[subclass:Light Domain]]]
+* [[[subclass:Nature Domain]]]
+* [[[subclass:Tempest Domain]]]
+* [[[subclass:Trickery Domain]]]
+* [[[subclass:War Domain]]]
 
 ## Sword Coast Adventurer's Guide
 
-* [[[class:Arcana Domain]]]
+* [[[subclass:Arcana Domain]]]
 
 ----
 

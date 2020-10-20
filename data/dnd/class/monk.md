@@ -258,20 +258,20 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 ## Player's Handbook
 
-* [[[class:Way of the Open Hand]]]
-* [[[class:Way of Shadow]]]
-* [[[class:Way of the Four Elements]]]
+* [[[subclass:Way of the Open Hand]]]
+* [[[subclass:Way of Shadow]]]
+* [[[subclass:Way of the Four Elements]]]
 
 ## Xanathar's Guide to Everything
 
-* [[[class:Way of the Sun Soul]]]
-* [[[class:Way of the Drunken Master]]]
+* [[[subclass:Way of the Sun Soul]]]
+* [[[subclass:Way of the Drunken Master]]]
 
 ## Homebrew
 
 * [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/0B1pdYIcfHauwNDM2My1XeWFYSDA/view)
 * [Way of the Kensai](https://docs.google.com/file/d/1zw55msoKWM4qD6aTkl4_PPnhRs31F8i_vJtPmkvsvl0/view)
-* [[[class:Way of the Sun Soul (Homebrew)]]]
+* [[[subclass:Way of the Sun Soul (Homebrew)]]]
 
 ----
 

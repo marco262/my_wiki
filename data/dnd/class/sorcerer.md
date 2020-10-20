@@ -200,8 +200,8 @@ Different sorcerers claim different origins for their innate magic. Although man
 
 ## Player's Handbook
 
-* [[[class:Draconic Bloodline]]]
-* [[[class:Wild Magic]]]
+* [[[subclass:Draconic Bloodline]]]
+* [[[subclass:Wild Magic]]]
 
 ----
 

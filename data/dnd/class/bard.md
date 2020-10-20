@@ -143,7 +143,7 @@ The extra hit points increase when you reach certain levels in this class: to 1d
 
 ## Bard College
 
-At 3rd level, you delve into the advanced techniques of a [[[class:bard#bard-college|bard college]]] of your choice: the [[[class:college-of-lore|College of Lore]]] or the [[[class:college-of-valor|College of Valor]]], both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.
+At 3rd level, you delve into the advanced techniques of a [[[class:bard#bard-college|bard college]]] of your choice, detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.
 
 ## Expertise
 
@@ -181,23 +181,23 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
 ## Player's Handbook
 
-* [[[class:College of Lore]]]
-* [[[class:College of Valor]]]
+* [[[subclass:College of Lore]]]
+* [[[subclass:College of Valor]]]
 
 ## Xanathar's Guide to Everything
 
-* [[[class:College of Glamour]]]
-* [[[class:College of Swords]]]
-* [[[class:College of Whispers]]]
+* [[[subclass:College of Glamour]]]
+* [[[subclass:College of Swords]]]
+* [[[subclass:College of Whispers]]]
 
 ## Mythic Odysseys of Theros
 
-* [[[class:College of Eloquence]]]
+* [[[subclass:College of Eloquence]]]
 
 ## Unearthed Arcana
 
-* [[[class:College of Eloquence (UA)]]]
-* [[[class:College of Satire]]]
+* [[[subclass:College of Eloquence (UA)]]]
+* [[[subclass:College of Satire]]]
 
 ----
 

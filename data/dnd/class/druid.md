@@ -199,8 +199,8 @@ At a local scale, druids are organized into circles that share certain perspecti
 
 ## Player's Handbook
 
-* [[[class:Circle of the Land]]]
-* [[[class:Circle of the Moon]]]
+* [[[subclass:Circle of the Land]]]
+* [[[subclass:Circle of the Moon]]]
 
 ----
 

@@ -174,9 +174,9 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 
 ## Player's Handbook
 
-* [[[class:The Archfey]]]
-* [[[class:The Fiend]]]
-* [[[class:The Great Old One]]]
+* [[[subclass:The Archfey]]]
+* [[[subclass:The Fiend]]]
+* [[[subclass:The Great Old One]]]
 
 # Eldritch Invocations
 
