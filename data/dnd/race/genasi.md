@@ -24,6 +24,14 @@ Too much failure can chip away at even a genasi’s sense of self, so they const
 
 ## Genasi Lands
 
+[[div class="phb-sidebar"]]
+
+**Genasi on Athas**
+
+Although any world that includes one or more elemental planes can feature genasi, on Athas, the world of the Dark Sun campaign setting, elemental forces hold greater sway than they do on other worlds. As a people touched by elemental power, genasi are viewed as seers, prophets, and chosen ones. The birth of a genasi, whether a slave, a noble, or a member of a desert tribe, is an auspicious event. Most Athasians believe a given genasi is destined for greatness -- or infamy.
+
+[[/div]]
+
 As rare beings, genasi might go their entire lives without encountering another one of their kind. There are no great genasi cities or empires. Genasi seldom have communities of their own and typically adopt the cultures and societies into which they are born. The more strange their appearance, the harder time they have. Many genasi lose themselves in teeming cities, where their distinctiveness hardly raises an eyebrow in places accustomed to a variety of different people.
 
 Those living on the frontier, though, have a much harder time. People there tend to be less accepting of differences. Sometimes a cold shoulder and a suspicious glare are the best genasi can hope for; in more backward places, they face ostracism and even violence from people who mistake them for fiends.
@@ -57,6 +65,22 @@ Your genasi character has certain characteristics in common with all other genas
 ***Languages.*** You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
 
 ***Subraces.*** Four major subraces of genasi are found among the worlds of D&D: air genasi, earth genasi, fire genasi, and water genasi. Choose one of these subraces.
+
+[[div class="phb-sidebar"]]
+
+**Genasi Backgrounds**
+
+Each genasi subrace has its own temperament, which might make some backgrounds more suitable than others.
+
+**Air genasi** are proud of their heritage, sometimes to the point of haughtiness. They can be flamboyant, and are keen to have an audience. They rarely stay in one place for long, always looking for a new sky to see and breathe. Air genasi who don’t live in cities favor open lands such as plains, deserts, and high mountains. Fitting backgrounds include charlatan, entertainer, and noble.
+
+**Earth genasi** are more withdrawn, and their connection to the earth keeps them from being comfortable in most cities. Their uncommon size and strength makes them natural soldiers, though, and with their stoic demeanor, they can encourage others and become great leaders. Many earth genasi live underground, where they can be in their favored element. When they emerge from their caves, they might roam the hills and mountains or lay claim to old ruins. Appropriate backgrounds for earth genasi include hermit, outlander, and soldier.
+
+**Fire genasi** often get themselves into difficulty with their fiery tempers. Like their air genasi cousins, they sometimes flaunt their perceived superiority over common folk. But they also want others to share their high opinion of themselves, so they constantly seek to enhance their reputations. Likely backgrounds for a fire genasi include criminal, folk hero, and noble.
+
+**Water genasi** almost all have some experience aboard or around sea vessels. They make excellent mariners and fishers. Like earth genasi, though, water genasi prefer quiet and solitude; the wide shores are their natural homes. They go where they want, do what they want, and rarely feel bound to anything. Good backgrounds for water genasi include hermit and sailor.
+
+[[/div]]
 
 ### Air Genasi
 
@@ -114,4 +138,4 @@ Most water genasi look as if they just finished bathing, with beads of moisture 
 
 ----
 
-_Source: Elemental Evil, p. 
+_Source: Elemental Evil, p. 7_
