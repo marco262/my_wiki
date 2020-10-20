@@ -86,4 +86,8 @@ _Clockwork Toy._ This toy is a clockwork animal, monster, or person, such as a f
 
 _Fire Starter._ The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
 
-_Music Box._ When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed. 
+_Music Box._ When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+
+----
+
+_Source: Player's Handbook, p. 35_
