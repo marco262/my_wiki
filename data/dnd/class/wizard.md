@@ -49,7 +49,7 @@ What drew you forth from your life of study? Did your first taste of magical kno
 
 ## Quick Build
 
-You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the light,mage hand, and ray of frost cantrips, along with the following 1st-level spells for your spellbook: burning hands, charm person, mage armor, magic missile, shield, and sleep.
+You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the _[[[spell:light]]]_, _[[[spell:mage hand]]]_, and _[[[spell:ray of frost]]]_ cantrips, along with the following 1st-level spells for your spellbook: _[[[spell:burning hands]]]_, _[[[spell:charm person]]]_, _[[[spell:mage armor]]]_, _[[[spell:magic missile]]]_, _[[[spell:shield]]]_, and _[[[spell:sleep]]]_.
 
 # Class Features
 
@@ -75,7 +75,9 @@ You start with the following equipment, in addition to the equipment granted by 
 * A spellbook
 
 ## Spellcasting
+
 [[div class="phb-sidebar"]]
+
 **Your Spellbook**
 
 The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
@@ -91,7 +93,10 @@ For each level of the spell, the process takes 2 hours and costs 50 gp. The cost
 If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
 
 **The Book's Appearance.** Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
-[[/div]]As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. 
+
+[[/div]]
+
+As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. 
 
 ### Cantrips
 At 1st level, you know three cantrips of your choice from the [wizard spell list](/dnd/class_spell_list/wizard/true). You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
@@ -111,8 +116,8 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 ### Spellcasting Ability
 Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
 
-* Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
-* Spell attack modifier = your proficiency bonus + your Intelligence modifier
+* Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+* Spell attack modifier = your proficiency bonus + your Intelligence modifier
 
 ### Ritual Casting
 You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
@@ -131,7 +136,7 @@ For example, if you're a 4th-level wizard, you can recover up to two levels wort
 
 ## Arcane Traditions
 
-When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The school of Evocation is detailed at the end of the class description; see the Player's Handbook for information on the other schools.
+When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation.
 
 Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
@@ -155,7 +160,7 @@ If you want to cast either spell at a higher level, you must expend a spell slot
 
 The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in the worlds of D&D, with various traditions dedicated to its complex study.
 
-The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called [[[general:spellcasting#schools|schools]]]. In some places, these traditions are literally schools; a wizard might study at the School of Illusion while another studies across town at the School of Enchantment. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.
+The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called [[[general:spellcasting-rules#schools|schools]]]. In some places, these traditions are literally schools; a wizard might study at the School of Illusion while another studies across town at the School of Enchantment. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.
 
 ## Player's Handbook
 
