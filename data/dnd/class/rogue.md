@@ -151,16 +151,16 @@ Rogues have many features in common, including their emphasis on perfecting thei
 
 ## Player's Handbook
 
-* [[[class:Thief]]]
-* [[[class:Assassin]]]
-* [[[class:Arcane Trickster]]]
+* [[[subclass:Thief]]]
+* [[[subclass:Assassin]]]
+* [[[subclass:Arcane Trickster]]]
 
 ## Xanathar's Guide to Everything
 
-* [[[class:Inquisitive]]]
-* [[[class:Mastermind]]]
-* [[[class:scout-rogue|Scout]]]
-* [[[class:Swashbuckler]]]
+* [[[subclass:Inquisitive]]]
+* [[[subclass:Mastermind]]]
+* [[[subclass:scout-rogue|Scout]]]
+* [[[subclass:Swashbuckler]]]
 
 ----
 

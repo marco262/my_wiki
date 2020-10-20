@@ -254,26 +254,26 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 
 ## Player's Handbook
 
-* [[[class:Oath of Devotion]]]
-* [[[class:Oath of the Ancients]]]
-* [[[class:Oath of Vengeance]]]
+* [[[subclass:Oath of Devotion]]]
+* [[[subclass:Oath of the Ancients]]]
+* [[[subclass:Oath of Vengeance]]]
 
 ## Dungeon Master's Guide
 
-* [[[class:Oathbreaker]]]
+* [[[subclass:Oathbreaker]]]
 
 ## Sword Coast Adventurer's Guide
 
-* [[[class:Oath of the Crown]]]
+* [[[subclass:Oath of the Crown]]]
 
 ## Xanathar's Guide to Everything
 
-* [[[class:Oath of Conquest]]]
-* [[[class:Oath of Redemption]]]
+* [[[subclass:Oath of Conquest]]]
+* [[[subclass:Oath of Redemption]]]
 
 ## Unearthed Arcana
 
-* [[[class:Oath of Heroism]]]
+* [[[subclass:Oath of Heroism]]]
 
 ----
 

@@ -164,22 +164,22 @@ The most common arcane traditions in the multiverse revolve around the schools o
 
 ## Player's Handbook
 
-* [[[class:School of Abjuration]]]
-* [[[class:School of Conjuration]]]
-* [[[class:School of Divination]]]
-* [[[class:School of Enchantment]]]
-* [[[class:School of Evocation]]]
-* [[[class:School of Illusion]]]
-* [[[class:School of Necromancy]]]
-* [[[class:School of Transmutation]]]
+* [[[subclass:School of Abjuration]]]
+* [[[subclass:School of Conjuration]]]
+* [[[subclass:School of Divination]]]
+* [[[subclass:School of Enchantment]]]
+* [[[subclass:School of Evocation]]]
+* [[[subclass:School of Illusion]]]
+* [[[subclass:School of Necromancy]]]
+* [[[subclass:School of Transmutation]]]
 
 ## Unearthed Arcana
 
-* [[[class:School of Invention]]]
+* [[[subclass:School of Invention]]]
 
 ## Homebrew
 
-* [[[class:School of Necromancy, Revised]]]
+* [[[subclass:School of Necromancy, Revised]]]
 
 ----
 

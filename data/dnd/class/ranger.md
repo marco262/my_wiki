@@ -329,13 +329,13 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 
 ## Player's Handbook
 
-* [[[class:Hunter]]]
-* [[[class:Beast Master]]]
+* [[[subclass:Hunter]]]
+* [[[subclass:Beast Master]]]
 
 ## Homebrew
 
-* [[[class:Beast Master (Revamped)]]]
-* [[[class:Drake Rider]]]
+* [[[subclass:Beast Master (Revamped)]]]
+* [[[subclass:Drake Rider]]]
 
 ----
 

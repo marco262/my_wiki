@@ -253,13 +253,13 @@ Across the wilds, rangers come together to form conclaves -- loose associations 
 
 ## Unearthed Arcana
 
-* [[[class:Beast Conclave]]]
-* [[[class:Hunter Conclave]]]
-* [[[class:Deep Stalker Conclave]]]
+* [[[subclass:Beast Conclave]]]
+* [[[subclass:Hunter Conclave]]]
+* [[[subclass:Deep Stalker Conclave]]]
 
 ## Homebrew
 
-* [[[class:Drake Rider (Revised)]]]
+* [[[subclass:Drake Rider (Revised)]]]
 
 ----
 

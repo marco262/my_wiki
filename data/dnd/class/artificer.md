@@ -482,13 +482,13 @@ Artificers pursue many disciplines. Here are specialist options you can choose f
 
 ## Eberron: Rising from the Last War
 
- * [[[class:Alchemist]]]
- * [[[class:Artillerist]]]
- * [[[class:Battle Smith]]]
+ * [[[subclass:Alchemist]]]
+ * [[[subclass:Artillerist]]]
+ * [[[subclass:Battle Smith]]]
 
 ## Unearthed Arcana
 
- * [[[class:Armorer]]]
+ * [[[subclass:Armorer]]]
 
 ---
 

@@ -160,12 +160,12 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 ## Player's Handbook
 
-* [[[class:Path of the Berserker]]]
-* [[[class:Path of the Totem Warrior]]]
+* [[[subclass:Path of the Berserker]]]
+* [[[subclass:Path of the Totem Warrior]]]
 
 ## Xanathar's Guide to Everything
 
-* [[[class:Path of the Ancestral Guardian]]]
+* [[[subclass:Path of the Ancestral Guardian]]]
 
 ----
 
