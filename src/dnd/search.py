@@ -42,6 +42,21 @@ class Search:
         # Number of matches should be in descending order (pages with more matches at the top)
         # but path should be in ascending order (a before z)
         results.sort(key=lambda x: (-1*len(x[3]), x[2]))
+        # Bucket results whose name matches the search term exactly, whose name contains the search term,
+        # and all others.
+        exact_matches = []
+        partial_matches = []
+        other_matches = []
+        search_term = search_term.lower()
+        for r in results:
+            name = r[0].lower()
+            if search_term == name:
+                exact_matches.append(r)
+            elif search_term in name:
+                partial_matches.append(r)
+            else:
+                other_matches.append(r)
+        results = exact_matches + partial_matches + other_matches
         self.cache[search_term] = results
         return results
 
@@ -76,5 +91,6 @@ class Search:
         # Build search results
         filepath = join(dirpath, filename).replace("\\", "/")
         html_link = f"/dnd/{basename(dirpath)}/{title}"
-        contexts = [self.build_results_context_string(match) for match in m]
+        # Return only the first ten contexts
+        contexts = [self.build_results_context_string(match) for match in m][:10]
         return [title, filepath, html_link, contexts]
