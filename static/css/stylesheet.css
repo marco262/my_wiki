@@ -338,10 +338,6 @@ div#show-advanced-block, div#hide-advanced-block {
   visibility: visible;
 }
 
-div.accordion {
-    margin: 5px;
-}
-
 button.accordion-button {
     background-color: #eee;
     color: #444;
@@ -353,6 +349,7 @@ button.accordion-button {
     outline: none;
     font-size: 12pt;
     transition: 0.4s;
+    margin-top: 5px;
 }
 
 .accordion-active, button.accordion-button:hover {

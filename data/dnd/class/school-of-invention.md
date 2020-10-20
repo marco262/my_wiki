@@ -7,6 +7,7 @@ Many wizards of this tradition are gnomes, alchemists, or both, and they take pr
 Wizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.
 
 # The School of Invention
+
 ||~ Wizard Level ||~ Features ||
 || 2 || Tools of the Inventor, Arcanomechanical Armor, Reckless Casting ||
 || 6 || Alchemical Casting ||
@@ -27,20 +28,27 @@ The armor is light armor and provides an AC of 12 + your Dexterity modifier. It 
 
 You can create a new suit of it at the end of a long rest by touching a nonmagical suit of studded leather armor, which magically transforms it. Doing so removes the magic from your previous arcanomechanical armor, turning it into nonmagical studded leather.
 
-[[collapsible show="+ Homebrew tweak to Arcanomechanical Armor"]]
+[[accordion Homebrew tweak to Arcanomechanical Armor]]
+
 > Innovation is a dangerous practice, at least as far as members of this school practice it. As a shield against this risk, you have developed a suit of arcane armor.
 > 
 > Starting at 2nd level, you gain the ability to create a suit of arcanomechanical armor. To do so, you must modify a suit of light armor over the course of a short rest. In addition to the normal AC modification provided by this armor, as well as any magical properties it might have, it grants you resistance to force damage while you are wearing it. You do not need light armor proficiency to wear this armor.
 > 
-> When you first gain access to this feature, you gain a suit of arcanomechanical armor made out of studded leather armor. If you create a new suit of arcanomechanical armor, the old suit loses this feature and reverts back to its normal form.
-[[/collapsible]]
+> When you first gain access to this feature, you gain a suit of arcanomechanical armor made out of studded leather armor. Whenever you create a new suit of arcanomechanical armor, the old suit loses this feature and reverts back to its normal form.
+
+[[/accordion]]
 
 ## Reckless Casting
+
 [[div class="errata"]]
+
 **Editor's Suggestion:** Any spell cast via Reckless Casting that normally requires concentration no longer does, and lasts its full duration. Similar to a Sorcerer's Wild Magic surge.
 
 If a player casts a touch spell via Reckless Casting but there are no valid targets in range, they can use their movement to move towards a target and then apply the spell.
-[[/div]]Starting at 2nd level, you can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options:
+
+[[/div]]
+
+Starting at 2nd level, you can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options:
 
 * Roll on the Reckless Casting table for cantrips and cast the resulting spell as part of this action.
 * Expend a spell slot and roll twice on the Reckless Casting table for its level, or the 5th-level table if the slot is 6th level or higher. Pick which of the two results you want to use and cast the resulting spell as part of this action.
@@ -49,7 +57,8 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 
 ### Reckless Casting tables
 
-[[collapsible show="+ Cantrips" hide="- Hide Cantrips"]]
+[[accordion Cantrips]]
+
 ||~ d10 ||~ Cantrip ||
 || 1 || *[[[spell:acid splash]]]* ||
 || 2 || *[[[spell:chill touch]]]* ||
@@ -61,9 +70,11 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:sacred flame]]]* ||
 || 9 || *[[[spell:thorn whip]]]* ||
 || 10 || Roll twice and cast each cantrip, but if you roll another 10 on either die,<br>you cast nothing, wasting your action. ||
-[[/collapsible]]
 
-[[collapsible show="+ 1st-Level Spells" hide="- Hide 1st-Level Spells"]]
+[[/accordion]]
+
+[[accordion 1st-Level Spells]]
+
 ||~ d10 ||~ 1st-Level Spell ||
 || 1 || *[[[spell:burning hands]]]* ||
 || 2 || *[[[spell:chromatic orb]]]* ||
@@ -75,9 +86,11 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:magic missile]]]* ||
 || 9 || *[[[spell:thunderwave]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
-[[/collapsible]]
 
-[[collapsible show="+ 2nd-Level Spells" hide="- Hide 2nd-Level Spells"]]
+[[/accordion]]
+
+[[accordion 2nd-Level Spells]]
+
 ||~ d10 ||~ 2nd-Level Spell ||
 || 1 || *[[[spell:blur]]]* ||
 || 2 || *[[[spell:darkness]]]* ||
@@ -89,9 +102,11 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:scorching ray]]]* ||
 || 9 || *[[[spell:shatter]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
-[[/collapsible]]
 
-[[collapsible show="+ 3rd-Level Spells" hide="- Hide 3rd-Level Spells"]]
+[[/accordion]]
+
+[[accordion 3rd-Level Spells]]
+
 ||~ d10 ||~ 3rd-Level Spell ||
 || 1 || *[[[spell:blink]]]* ||
 || 2 || *[[[spell:fear]]]* ||
@@ -103,9 +118,11 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:sleet storm]]]* ||
 || 9 || *[[[spell:stinking cloud]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
-[[/collapsible]]
 
-[[collapsible show="+ 4th-Level Spells" hide="- Hide 4th-Level Spells"]]
+[[/accordion]]
+
+[[accordion 4th-Level Spells]]
+
 ||~ d10 ||~ 4th-Level Spell ||
 || 1 || *[[[spell:blight]]]* ||
 || 2 || *[[[spell:confusion]]]* ||
@@ -117,9 +134,11 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:stoneskin]]]* ||
 || 9 || *[[[spell:wall of fire]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
-[[/collapsible]]
 
-[[collapsible show="+ 5th-Level Spells" hide="- Hide 5th-Level Spells"]]
+[[/accordion]]
+
+[[accordion 5th-Level Spells]]
+
 ||~ d10 ||~ 5th-Level Spell ||
 || 1 || *[[[spell:cloudkill]]]* ||
 || 2 || *[[[spell:cone of cold]]]* ||
@@ -131,7 +150,8 @@ If the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for
 || 8 || *[[[spell:wall of force]]]* ||
 || 9 || *[[[spell:wall of stone]]]* ||
 || 10 || Roll twice and cast each spell, but if you roll another 10 on either die,<br>you cast nothing, wasting your action but not the spell slot. ||
-[[/collapsible]]
+
+[[/accordion]]
 
 ## Alchemical Casting
 
@@ -151,4 +171,9 @@ At 14th level, your ability to improvise magic grows stronger. Whenever you roll
 
 ----
 
-*Source:* https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf
+*Source:* <https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf>
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
