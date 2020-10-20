@@ -601,6 +601,16 @@ Your hands become as strong as mountain stone, granting you the following benefi
 * When you hit a creature with an unarmed strike on your turn, you can use a bonus action to attempt to shove the target.
 * When you shove a target, you can push the target up to 10 feet away from you.
 
+## Svirfneblin Magic
+
+*Source: Elemental Evil, p. 7*
+
+*Prerequisite: Gnome (deep gnome)*
+
+You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast _[[[spell:nondetection]]]_ on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: _[[[spell:blindness/deafness]]]_, _[[[spell:blur]]]_, and _[[[spell:disguise self]]]_. You regain the ability to cast these spells when you finish a long rest.
+
+Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
+
 ## Wood Elf Magic
 
 *Prerequisite: Elf (wood)*
