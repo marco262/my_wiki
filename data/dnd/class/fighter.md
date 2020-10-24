@@ -199,6 +199,7 @@ Different fighters choose different approaches to perfecting their fighting prow
 
 * [[[subclass:Brute]]]
 * [[[subclass:Monster Hunter]]]
+* [[[subclass:Scout (Fighter)|Scout]]]
 * [[[subclass:Sharpshooter]]]
 
 ## Homebrew

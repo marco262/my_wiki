@@ -74,6 +74,14 @@ def load_wsgi_endpoints(app: Bottle):
     def general(name):
         return md_page(name, "dnd", "general")
 
+    @app.get('/race/<name>')
+    def race(name):
+        return md_page(name, "dnd", "race")
+
+    @app.get('/subclass/<name>')
+    def subclass(name):
+        return md_page(name, "dnd", "subclass")
+
     @app.get('/monster/<name>')
     def monster(name):
         try:
@@ -88,10 +96,6 @@ def load_wsgi_endpoints(app: Bottle):
                 return redirect(toml_dict["redirect"])
             md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
             return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
-
-    @app.get('/race/<name>')
-    def race(name):
-        return md_page(name, "dnd", "race")
 
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")

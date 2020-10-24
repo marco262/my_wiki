@@ -116,7 +116,7 @@ You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a s
 
 ## Sorcerous Origin
 
-Choose a [[[general:sorcerer#sorcerous-origin|sorcerous origin]]], which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.
+Choose a [[[class:sorcerer#sorcerous-origins|sorcerous origin]]], which describes the source of your innate magical power, detailed at the end of the class description.
 
 Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
 
