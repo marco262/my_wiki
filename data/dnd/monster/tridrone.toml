@@ -1,0 +1,30 @@
+redirect = "/dnd/monster/Modrons#tridrone"
+width = "500px"
+name = "Tridrone"
+size = "Medium"
+type = "construct"
+alignment = "lawful neutral"
+armor_class = "15 (natural armor)"
+hit_points = "16 (3d8 + 3)"
+speed = "30ft."
+strength = 12
+dexterity = 13
+constitution = 12
+intelligence = 9
+wisdom = 10
+charisma = 9
+senses = "truesight 120 ft., passive Perception 10"
+languagues = "Modron"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Axiomatic Mind.*** The tridrone can't be compelled to act in a manner contrary to its nature or its instructions.
+
+***Disintegration.*** If the tridrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
+"""
+actions = """!
+***Multiattack.*** The tridrone makes three fist attacks or three javelin attacks.
+
+***Fist.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage.
+
+***Javelin.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage.
+"""
