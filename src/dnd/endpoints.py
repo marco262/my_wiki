@@ -14,6 +14,7 @@ from src.dnd.search import Search
 from src.dnd.utils import class_spell
 
 SPELLS = {}
+MAGIC_ITEMS = {}
 SEARCH_OBJ = Search()
 
 INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
@@ -47,6 +48,27 @@ def load_spells():
     return SPELLS
 
 
+def load_magic_items():
+    global MAGIC_ITEMS
+    if MAGIC_ITEMS:
+        return MAGIC_ITEMS
+    magic_items = {}
+    path = None
+    print("Loading magic items into memory", end='')
+    try:
+        for path in glob("data/dnd/equipment/magic-items/*"):
+            print(".", end='', flush=True)
+            with open(path) as f:
+                d = toml.loads(f.read(), _dict=OrderedDict)
+            magic_items[splitext(basename(path))[0]] = d
+    except Exception:
+        print(f"\nError when trying to process {path}")
+        raise
+    print(" Done.", flush=True)
+    MAGIC_ITEMS = magic_items
+    return MAGIC_ITEMS
+
+
 def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     def home():
@@ -69,6 +91,32 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/equipment/<name>')
     def equipment(name):
         return md_page(name, "dnd", "equipment")
+
+    @app.get('/equipment/magic-items/')
+    @view("dnd/magic-items.tpl")
+    def magic_items():
+        rarity_dict = {
+            "common": 0,
+            "uncommon": 1,
+            "rare": 2,
+            "very rare": 3,
+            "legendary": 4
+        }
+        return {
+            "magic_items": sorted(
+                load_magic_items().items(), 
+                key=lambda x: (rarity_dict[x[1]["rarity"].lower()], x[1]["type"], x[1]["name"])
+            )
+        }
+
+    @app.get('/equipment/magic-item/<name>')
+    @view("dnd/magic-item.tpl")
+    def magic_item(name):
+        formatted_name = title_to_page_name(name)
+        loaded_magic_items = load_magic_items()
+        if formatted_name not in loaded_magic_items:
+            raise HTTPError(404, f"I couldn't find a magic item by the name of \"{name}\".")
+        return loaded_magic_items[formatted_name]
 
     @app.get('/general/<name>')
     def general(name):
