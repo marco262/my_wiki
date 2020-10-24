@@ -26,6 +26,7 @@
 * [[[equipment:Trade Goods]]]
 * [[[equipment:Expenses]]]
 * [[[equipment:Trinkets]]]
+* [Magic Items](/dnd/equipment/magic-items/)
 
 ## Advancement
 
