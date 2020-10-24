@@ -26,7 +26,7 @@ Once you invigorate a creature in this way, you must finish a short or long rest
 
 At 6th level, you add the *[[[spell:speak with dead]]]* spell to your spellbook. This spell is considered a wizard spell for you and can be cast as a ritual. 
 
-In addition, whenever you create an undead using a necromancy spell, it has this additional benefits:
+In addition, whenever you create an undead using a necromancy spell, it has these additional benefits:
 
 * The creature's hit point maximum is increased by an amount equal to your wizard level.
 * The creature adds your proficiency bonus to its weapon damage rolls.

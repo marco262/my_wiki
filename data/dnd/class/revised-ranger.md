@@ -109,6 +109,42 @@ In addition, you are skilled at navigating the wilderness. You gain the followin
 * When you forage, you find twice as much food as you normally would.
 * While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
 
+[[accordion Variant Class Features]]
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+## Deft Explorer
+
+_1st-level ranger feature (replaces Natural Explorer)_
+
+You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.
+
+### Canny
+
+Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don't already have it, and you can add double your proficiency bonus to ability checks using that skill.
+
+In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice.
+
+### Roving
+
+Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
+
+### Tireless
+
+As an action, you can give yourself a number of temporary hit points equal to 1d10 + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.
+
+In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.
+
+## Favored Foe
+
+_1st-level ranger feature (replaces Favored Enemy)_
+
+You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the _[[[spell:hunter's mark]]]_ spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration -- a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+When you gain the Spellcasting feature at 2nd level, _[[[spell:hunter's mark]]]_ doesn't count against the number of ranger spells you know.
+
+[[/accordion]]
+
 ## Fighting Style
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -207,6 +243,27 @@ Additionally, you can attune your senses to determine if any of your favored ene
 
 If there are multiple groups of your favored enemies within range, you learn this information for each group.
 
+[[accordion Variant Class Features]]
+
+## Primal Awareness
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_3rd-level ranger feature (replaces Primeval Awareness)_
+
+You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the following table. These spells don't count against the number of ranger spells you know.
+
+||~ Level ||~ Spell ||
+|| 3rd || _[[[spell:detect magic]]]_, _[[[spell:speak with animals]]]_ ||
+|| 5th || _[[[spell:beast sense]]]_, _[[[spell:locate animals or plants]]]_ ||
+|| 9th || _[[[spell:speak with plants]]]_ ||
+|| 13th || _[[[spell:locate creature]]]_ ||
+|| 17th || _[[[spell:commune with nature]]]_ ||
+
+You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.
+
+[[/accordion]]
+
 ## Ranger Conclave
 
 At 3rd level, you choose to emulate the ideals and training of a ranger conclave: the Beast Conclave, the Hunter Conclave, or the Stalker Conclave, all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 5th, 7th, 11th, and 15th level.
@@ -232,6 +289,20 @@ Starting at 10th level, you can remain perfectly still for long periods of time 
 When you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a −10 penalty to their Wisdom (Perception) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.
 
 If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.
+
+[[accordion Variant Class Features]]
+
+## Fade Away
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_10th-level ranger feature (replaces Hide in Plain Sight)_
+
+You can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+[[/accordion]]
 
 ## Vanish
 
@@ -264,3 +335,8 @@ Across the wilds, rangers come together to form conclaves -- loose associations 
 ----
 
 *Source:* [Unearthed Arcana](http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf)
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>

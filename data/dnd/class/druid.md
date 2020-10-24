@@ -57,6 +57,7 @@ You can make a druid quickly by following these suggestions. First, Wisdom shoul
 # Class Features
 
 [[div class="phb-sidebar"]]
+
 **Sacred Plants and Wood**
 
 A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.
@@ -64,6 +65,7 @@ A druid holds certain plants to be sacred, particularly alder, ash, birch, elder
 Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.
 
 Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.
+
 [[/div]]
 
 As a druid, you gain the following class features.
@@ -96,7 +98,7 @@ You know Druidic, the secret language of druids. You can speak the language and 
 
 ## Spellcasting
 
-Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 for the general rules of spellcasting and chapter 11 for the [druid spell list](/dnd/class_spell_list/druid/true).
+Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See the [druid spell list](/dnd/class_spell_list/druid/true) for the spells available to you.
 
 ### Cantrips
 
@@ -127,7 +129,7 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 
 ### Spellcasting Focus
 
-You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells.
+You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your druid spells.
 
 ## Wild Shape
 
@@ -136,6 +138,7 @@ Starting at 2nd level, you can use your action to magically assume the shape of 
 Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
 
 **Beast Shapes**
+
 ||~ Level ||~ Max. CR ||~ Limitations ||~ Example ||
 || 2nd || 1/4 || No flying or swimming speed || Wolf ||
 || 4th || 1/2 || No flying speed || Crocodile ||
@@ -152,6 +155,7 @@ While you are transformed, the following rules apply:
 * You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
 [[div class="phb-sidebar"]]
+
 **Druids and the Gods**
 
 Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples. In fact, in the world of Greyhawk, the druidic faith is called the Old Faith, and it claims many adherents among farmers, foresters, fishers, and others who live closely with nature. This tradition includes the worship of Nature as a primal force beyond personification, but also encompasses the worship of Beory, the Oerth Mother, as well as devotees of Obad-Hai, Ehlonna, and Ulaa.
@@ -159,6 +163,7 @@ Some druids venerate the forces of nature themselves, but most druids are devote
 In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Forgotten Realms, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.
 
 The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
+
 [[/div]]
 
 ## Wild Companion
