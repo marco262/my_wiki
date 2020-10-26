@@ -8,5 +8,5 @@ jobs:
       - name: Restart Server
         uses: fjogeleit/http-request-action@master
         with:
-            url: 'http://mywiki.zapto.org:26262/load_changes'
+            url: 'http://mywiki.zapto.org/load_changes'
             method: 'GET'
