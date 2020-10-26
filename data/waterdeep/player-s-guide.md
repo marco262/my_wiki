@@ -264,7 +264,7 @@ If the scribed spell is a cantrip, the version on the scroll works as if the cas
 
 ||~ Spell Level ||~ Time ||~ Cost ||
 || Cantrip || 1 day || 15 gp ||
-|| lst || 1 day || 25 gp ||
+|| 1st || 1 day || 25 gp ||
 || 2nd || 5 days || 250 gp ||
 || 3rd || 1 tenday || 500 gp ||
 || 4th || 2 tendays || 2,500 gp ||
