@@ -178,6 +178,15 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 * [[[subclass:The Fiend]]]
 * [[[subclass:The Great Old One]]]
 
+## Sword Coast Adventurer's Guide
+
+* [[[subclass:The Undying]]]
+
+## Xanathar's Guide to Everything
+
+* [[[subclass:The Celestial]]]
+* [[[subclass:The Hexblade]]]
+
 # Eldritch Invocations
 
 If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.

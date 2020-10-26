@@ -262,6 +262,10 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 * [[[subclass:Way of Shadow]]]
 * [[[subclass:Way of the Four Elements]]]
 
+## Sword Coast Adventurer's Guide
+
+* [[[subclass:Way of the Long Death]]]
+
 ## Xanathar's Guide to Everything
 
 * [[[subclass:Way of the Sun Soul]]]

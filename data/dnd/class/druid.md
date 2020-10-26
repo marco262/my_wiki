@@ -207,6 +207,15 @@ At a local scale, druids are organized into circles that share certain perspecti
 * [[[subclass:Circle of the Land]]]
 * [[[subclass:Circle of the Moon]]]
 
+## Xanathar's Guide to Everything
+
+* [[[subclass:Circle of Dreams]]]
+* [[[subclass:Circle of the Shepherd]]]
+
+## Guildmaster's Guide to Ravnica
+
+* [[[subclass:Circle of Spores]]]
+
 ----
 
 *Source: Player's Handbook, p. 64*

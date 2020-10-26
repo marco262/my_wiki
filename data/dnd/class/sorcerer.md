@@ -203,6 +203,12 @@ Different sorcerers claim different origins for their innate magic. Although man
 * [[[subclass:Draconic Bloodline]]]
 * [[[subclass:Wild Magic]]]
 
+## Xanathar's Guide to Everything
+
+* [[[subclass:Divine Soul]]]
+* [[[subclass:Shadow Sorcery]]]
+* [[[subclass:Storm Sorcery]]]
+
 ----
 
 *Source: Player's Handbook, p. 99*

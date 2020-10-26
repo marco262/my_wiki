@@ -191,9 +191,22 @@ Each domain's description gives examples of deities who have influence over that
 * [[[subclass:Trickery Domain]]]
 * [[[subclass:War Domain]]]
 
+## Dungeon Master's Guide
+
+* [[[subclass:Death Domain]]]
+
 ## Sword Coast Adventurer's Guide
 
 * [[[subclass:Arcana Domain]]]
+
+## Xanathar's Guide to Everything
+
+* [[[subclass:Forge Domain]]]
+* [[[subclass:Grave Domain]]]
+
+## Guildmaster's Guide to Ravnica
+
+* [[[subclass:Order Domain]]]
 
 ----
 
