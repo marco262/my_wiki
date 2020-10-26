@@ -332,6 +332,12 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 * [[[subclass:Hunter]]]
 * [[[subclass:Beast Master]]]
 
+## Xanathar's Guide to Everything
+
+* [[[subclass:Gloom Stalker]]]
+* [[[subclass:Horizon Walker]]]
+* [[[subclass:Monster Slayer]]]
+
 ## Homebrew
 
 * [[[subclass:Beast Master (Revamped)]]]

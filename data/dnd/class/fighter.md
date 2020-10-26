@@ -195,6 +195,10 @@ Different fighters choose different approaches to perfecting their fighting prow
 * [[[subclass:Cavalier]]]
 * [[[subclass:Samurai]]]
 
+## Explorer's Guide to Wildemount
+
+* [[[subclass:Echo Knight]]]
+
 ## Unearthed Arcana
 
 * [[[subclass:Brute]]]
