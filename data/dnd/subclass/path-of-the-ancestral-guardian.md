@@ -32,4 +32,4 @@ At 14th level, your ancestral spirits grow powerful enough to retaliate. When yo
 
 ----
 
-_Source: Xanathar's Guide to Everything, p. XX_
+_Source: Xanathar's Guide to Everything, p. 9_

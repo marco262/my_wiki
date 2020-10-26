@@ -13,6 +13,26 @@
 To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus -- overlord of the Nine Hells -- into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children
 will always be held accountable.
 
+[[div class="phb-sidebar"]]
+
+**Tiefling Variants**
+
+_Source: Sword Coast Adventurer's Guide, p. 118_
+
+Since not all tieflings are of the blood of Asmodeus, some have traits that differ from those listed on this page. The Dungeon Master may permit the following variants for your tiefling character, although Devil's Tongue, Hellfire, and Winged are mutually exclusive.
+
+***Appearance.*** Your tiefling might not look like other tieflings. Rather than having the physical characteristics described on this page, choose 1d4 + 1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goat-like legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.
+
+***Feral.*** Your Intelligence score increases by 1, and your Dexterity score increases by 2. This trait replaces the Ability Score Increase trait.
+
+***Devil's Tongue.*** You know the _[[[spell:vicious mockery]]]_ cantrip. When you reach 3rd level, you can cast _[[[spell:charm person]]]_ as a 2nd-level spell once with this trait. When you reach 5th level, you can cast _[[[spell:enthrall]]]_ once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.
+
+***Hellfire.*** Once you reach 3rd level, you can cast _[[[spell:burning hands]]]_ once per day as a 2nd-level spell. This trait replaces the _[[[spell:hellish rebuke]]]_ spell of the Infernal Legacy trait.
+
+***Winged.*** You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait.
+
+[[/div]]
+
 # Infernal Bloodline
 
 Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle's, and some spiral upward like an antelopes' horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors -- black, red, white, silver, or gold -- with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various
@@ -53,7 +73,7 @@ Here "once per day" means you must finish a long rest to cast the spell again wi
 * **Speed.** Your base walking speed is 30 feet.
 * **Darkvision.** Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 * **Hellish Resistance.** You have resistance to fire damage.
-* **Infernal Legacy.** You know the *[[[spell:thaumaturgy]]]*. When you reach 3rd level, you can cast *[[[spell:hellish rebuke]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
+* **Infernal Legacy.** You know the *[[[spell:thaumaturgy]]]* cantrip. When you reach 3rd level, you can cast *[[[spell:hellish rebuke]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
 * **Languages.** You can speak, read, and write Common and Infernal.
 
 ----
