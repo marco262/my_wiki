@@ -293,7 +293,7 @@ Selling a magic item is by no means an easy task. Con artists and thieves are al
 
 Given enough free time and the services of an instructor, a character can learn a language, pick up proficiency with a tool, or retrain an existing skill proficiency to another skill proficiency.
 
-***Resources.*** Receiving training in a language or tool typically takes at least ten tendays, but this time is reduced by a number of tendays equal to th e character's Intelligence modifier (an Intelligence penalty doesn't increase the time needed). Training costs 25 gp per tenday.
+***Resources.*** Receiving training in a language or tool typically takes at least ten tendays, but this time is reduced by a number of tendays equal to the character's Intelligence modifier (an Intelligence penalty doesn't increase the time needed). Training costs 25 gp per tenday.
 
 If the character is retraining a skill and has chosen an Expertise in that skill proficiency, they can choose to change that Expertise to match the new skill they're retraining into.
 
