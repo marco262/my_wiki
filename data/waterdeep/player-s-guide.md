@@ -179,7 +179,7 @@ TBC
 
 Games of chance are a way to make a fortune -- and perhaps a better way to lose one.
 
-***Resources.*** This activity requires one tenday of effort plus a stake of at least 10 gp, to a maximum of 1,000 gp or more, as you see fit.
+***Resources.*** This activity requires one tenday of effort plus a stake of at least 10 gp, to a maximum of 1,000 gp. Higher stakes may be acceptable in exceptional cases.
 
 ***Resolution.*** The character must make a series of checks, with a DC determined at random based on the quality of the competition that the character runs into. Part of the risk of gambling is that one never knows who might end up sitting across the table.
 
@@ -293,7 +293,7 @@ Selling a magic item is by no means an easy task. Con artists and thieves are al
 
 Given enough free time and the services of an instructor, a character can learn a language, pick up proficiency with a tool, or retrain an existing skill proficiency to another skill proficiency.
 
-***Resources.*** Receiving training in a language or tool typically ta kes at least ten tendays, but this time is reduced by a number of tendays equal to th e character's Intelligence modifier (an Intelligence penalty doesn't increase the time needed). Training costs 25 gp per tenday.
+***Resources.*** Receiving training in a language or tool typically takes at least ten tendays, but this time is reduced by a number of tendays equal to th e character's Intelligence modifier (an Intelligence penalty doesn't increase the time needed). Training costs 25 gp per tenday.
 
 If the character is retraining a skill and has chosen an Expertise in that skill proficiency, they can choose to change that Expertise to match the new skill they're retraining into.
 
