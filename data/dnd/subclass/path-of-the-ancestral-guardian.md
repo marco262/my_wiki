@@ -2,7 +2,7 @@ Some barbarians hail from cultures that revere their ancestors. These tribes tea
 
 Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.
 
-# The Ancestral Guardian
+# The Path of the Ancestral Guardian
 
 ||~ Barbarian Level ||~ Feature ||
 || 3rd || Ancestral Protectors ||
@@ -29,3 +29,7 @@ After you cast either spell in this way, you can't use this feature again until 
 ## Vengeful Ancestors
 
 At 14th level, your ancestral spirits grow powerful enough to retaliate. When you use your Spirit Shield to reduce the damage of an attack, the attacker takes an amount of force damage that your Spirit Shield prevents.
+
+----
+
+_Source: Xanathar's Guide to Everything, p. XX_

@@ -1,6 +1,6 @@
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
-# Path of the Berserker
+# The Path of the Berserker
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
 || 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||

@@ -166,6 +166,12 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 ## Xanathar's Guide to Everything
 
 * [[[subclass:Path of the Ancestral Guardian]]]
+* [[[subclass:Path of the Storm Herald]]]
+* [[[subclass:Path of the Zealot]]]
+
+## Unearthed Arcana
+
+* [[[subclass:Path of the Beast]]]
 
 ----
 
