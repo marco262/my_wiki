@@ -155,7 +155,7 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
     else:
         if "title" not in kwargs:
             kwargs["title"] = page_title.title()
-        if build_toc:
+        if build_toc and not md.startswith("<!-- no-toc -->"):
             kwargs["toc"] = md.toc_html
         kwargs["text"] = md
         kwargs["accordion_text"] = markdown_parser.accordion_text

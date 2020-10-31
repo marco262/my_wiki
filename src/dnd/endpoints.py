@@ -1,25 +1,21 @@
 from collections import defaultdict, OrderedDict
 from glob import glob
-from json import loads, load, dump
+from json import loads, load
 from os.path import join as pjoin
 from os.path import splitext, basename, isfile
-from time import time
 
 import toml
-from bottle import view, request, HTTPError, Bottle, template, redirect
+from time import time
 
+from bottle import view, request, HTTPError, Bottle
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import class_spell
+from src.dnd.utils import class_spell, open_monster_sheet
 
 SPELLS = {}
 MAGIC_ITEMS = {}
 SEARCH_OBJ = Search()
-
-INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
-file = {}
-[[/include]]"""
 
 
 def init(cfg):
@@ -132,18 +128,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/monster/<name>')
     def monster(name):
-        try:
-            return md_page(name, "dnd", "monster", build_toc=False)
-        except HTTPError as e:
-            # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
-            toml_path = pjoin("dnd/monster", title_to_page_name(name) + ".toml")
-            if not isfile(pjoin("data", toml_path)):
-                raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
-            toml_dict = toml.load(pjoin("data", toml_path))
-            if "redirect" in toml_dict:
-                return redirect(toml_dict["redirect"])
-            md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
-            return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
+        return open_monster_sheet(name)
 
     @app.get('/spell/<name>')
     @view("dnd/spell.tpl")
@@ -334,9 +319,14 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/gm/monsters_by_name")
     @view("dnd/monsters-by-name.tpl")
     def monsters_by_name():
-        file_paths = glob("data/dnd/monster/*")
+        folder = "data/dnd/monster"
+        file_paths = glob(pjoin(folder, "*"))
         monsters = OrderedDict()
+        excluded_files = ["all-pages.md", "include_monster-sheet.txt"]
+        excluded_files = [pjoin(folder, f) for f in excluded_files]
         for path in file_paths:
+            if path in excluded_files:
+                continue
             filename = splitext(basename(path))[0]
             link = "/dnd/monster/" + filename
             name = filename.replace("-", " ").title()
