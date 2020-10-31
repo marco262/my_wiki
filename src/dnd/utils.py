@@ -1,11 +1,24 @@
 from enum import Enum
+
+import toml
 from typing import List, Optional, Union
+
+from bottle import HTTPError, redirect, template
+from src.common.utils import md_page, title_to_page_name
+
+from os.path import join as pjoin, isfile
+from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 
 
 class Mode(Enum):
     TITLE = "TITLE"
     BRIEF = "BRIEF"
     FULL = "FULL"
+
+
+INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
+file = {}
+[[/include]]"""
 
 
 def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
@@ -55,3 +68,18 @@ def to_mod(num):
     if not mod.startswith("-"):
         mod = "+" + mod
     return mod
+
+
+def open_monster_sheet(name):
+    try:
+        return md_page(name, "dnd", "monster", build_toc=False)
+    except HTTPError:
+        # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
+        toml_path = pjoin("dnd/monster", title_to_page_name(name) + ".toml")
+        if not isfile(pjoin("data", toml_path)):
+            raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
+        toml_dict = toml.load(pjoin("data", toml_path))
+        if "redirect" in toml_dict:
+            return redirect(toml_dict["redirect"])
+        md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
+        return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
