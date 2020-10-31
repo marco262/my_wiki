@@ -97,6 +97,10 @@ When the PCs next settle down for the night, mention that while looking through 
 
 Finally, they'll pull out Tina's [drawing](^party_drawing_2.png). Going through the spellbook, they'll find it's the property of one Gustav Flaschenverschluss, who no one recognizes.
 
+----
+
+<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
+
 # Music
 
 || All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||
