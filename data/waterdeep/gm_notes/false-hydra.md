@@ -1,4 +1,3 @@
-<!-- no-toc -->
 <script type="module">
     import {init_links, init_visual_aid, init_soundboard} from "/js/common/visual_aid_backend.js";
     init_links();
@@ -44,7 +43,27 @@ Tina is a very curious girl, watching the PCs from behind corners and her mother
 
 [Gregor Spinner](^gregor_spinner.png) is a pleasant man who the PCs meet out in the streets. He doesn't say anything of import, talking about how nice the weather has been these past few weeks, before bid them a good day. 
 
-Before the PCs leave, he comes to ask them for help, looking very worried. He mentions that he has a daughter, Clarabelle, who has steadily become more and more hysterical over the past few days, talking about her nightmares and about people he's never heard of. He wonders if they might check in on her, see if they can't determine if she's under some kind of curse or some such. He'll pay them 5 gp for their troubles, though he regretfully can't spare more than that.
+## The Henderson's Farm
+
+[Earl](^earl_henderson.png) and [Martha](^martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
+
+# When The Song Stops
+
+## A Sound
+
+While the PCs are talking to a villager in the middle of town, the villager will look away in surprise, glancing down the street, before looking back at the PCs. They'll blink, and ask them why they have their weapons out. The PCs will not remember having drawn their weapons.
+
+## That Night
+
+If the players stay the night, they'll all three wake up in the middle of the night to an odd situation. They'll each of them be up and out of their bed, weapons in hand, and Tom will feel that he was in the middle of casting a spell, though he wasn't sure which one. Their hearts are hammering, their adrenaline pumping, but they don't know why. Investigating shows that Roger Cook is also up and about, but he gives the excuse that he couldn't sleep, even though he looks very worried. Nothing else seems out of place.
+
+## Freakout
+
+While talking to one of the village women, they'll notice that in middle of a discussion, there are tears on her cheeks like she's been crying. She'll be surprised when they mention it, and apologize, as she's been a little out of sorts lately.
+
+# A Request
+
+Before the PCs leave, Gregor Spinner comes to ask them for help, looking very worried. He mentions that he has a daughter, Clarabelle, who has steadily become more and more hysterical over the past few days, talking about her nightmares and about people he's never heard of. He wonders if they might check in on her, see if they can't determine if she's under some kind of curse or some such. He'll pay them 5 gp for their troubles, though he regretfully can't spare more than that.
 
 When the PCs arrive at Gregor's house, they'll be lead to a door with a chair propped against the handle. Gregor will shamefully say he has to bar his daughter in her room when he's not home for her safety. One night about a week back, she ran out into the street screaming, waking up many of his neighbors. Since then, he's been worried she'd get herself hurt if he's not watching her. He even had to board up her window when he caught her trying to climb out.
 
@@ -53,14 +72,6 @@ When the PCs arrive at Gregor's house, they'll be lead to a door with a chair pr
 If the PCs try to talk to Clarabelle, she'll start signing at them. After a few minutes of trying to talk with them, have one of the PCs roll an Intelligence check. Whoever rolls highest "remembers" they learned sign language a while back, and can remember enough to start conversing with her. If Tom casts Comprehend Languages, let him start signing back to her after a few minutes.
 
 Clarabelle tells the party the whole story: People are going missing, there's blood in the streets, houses are lying in ruin, there's holes in the road. And in the dusk of twilight, she's seen people grabbed and pulled into the rood, or through cellar windows, or even into the tree trunk in the middle of town. She's sure she's even seen something coming out of the trunk in the middle of town, like a snake or a tall tree, but she was always too scared to look for long. 
-
-## The Henderson's Farm
-
-[Earl](^earl_henderson.png) and [Martha](^martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
-
-# That Night
-
-If the players stay the night, they'll all three wake up in the middle of the night to an odd situation. They'll each of them be up and out of their bed, weapons in hand, and Tom will feel that he was in the middle of casting a spell, though he wasn't sure which one. Their hearts are hammering, their adrenaline pumping, but they don't know why. Investigating shows that Roger Cook is also up and about, but he gives the excuse that he couldn't sleep, even though he looks very worried. Nothing else seems out of place.
 
 # The Reveal
 
