@@ -10,7 +10,7 @@
 
 The PCs are visited one late night by Lord Jared, who chats with them about their lives, catching up, yadda yadda... But abruptly at some point he announces me has to leave, and with a knowing smile he says, "You're about to be called upon by a friend in need."
 
-A knock will sound on the door, and when the PCs look back to Lord Jared, he'll be gone. At the door is a very concerned Volo. He tells the PCs he'll need their help, but he also needs a drink. When he's had a glass of wine, he says he has a friend in the town of Reed's Hollow who he corresponds regularly with, and her last letter was concerning. He shows the party the letter, and it appears to be a simple correspondence letter. When the party asks him about it, he just looks more perturbed, saying maybe he's overreacting after all, but he'd appreciate it if they went to the village and checked in on her.
+A knock will sound on the door, and when the PCs look back to Lord Jared, he'll be gone. At the door is a very concerned Volo. He tells the PCs he'll need their help, but he also needs a drink. When he's had a glass of wine, he says he has a friend in the town of Reed's Hollow who he corresponds regularly with, and [her last letter](^quinns_letter_1.jpg) was concerning. He shows the party the letter, and it appears to be a simple correspondence letter. When the party asks him about it, he just looks more perturbed, saying maybe he's overreacting after all, but he'd appreciate it if they went to the village and checked in on her.
 
 On the brightside, he recommends they stay at the Thrush's Song inn, as it has the best meat pies in town.
 
@@ -82,7 +82,7 @@ When the PCs defeat the False Hydra, Lord Jared will appear, congratulating them
 
 With the False Hydra dead, the townsfolk are freed from its song. They're horrified to see what's become of the town, and will cooperate with any requests the PCs give them. However, none of the corpses are recognizable to anyone in the village, save for Clarabelle.
 
-When the PCs next settle down for the night, mention that while looking through their Bag of Holding, they'll come across the letter. Show them the new version (link TBC) with the freaky text that got Volo worried in the first place. They'll also notice a set of extra clothing: small wizard's robes, a spellbook, and a little set of halfling pipe leaf and a pipe, as well as some spell scrolls for arcane spells that Tom doesn't recognize. 
+When the PCs next settle down for the night, mention that while looking through their Bag of Holding, they'll come across [the letter](^quinns_letter_2.jpg). They'll also notice a set of extra clothing: small wizard's robes, a spellbook, and a little set of halfling pipe leaf and a pipe, as well as some spell scrolls for arcane spells that Tom doesn't recognize. 
 
 Finally, they'll pull out Tina's [drawing](^party_drawing_2.png). Going through the spellbook, they'll find it's the property of one Gustav Flaschenverschluss, who no one recognizes.
 
