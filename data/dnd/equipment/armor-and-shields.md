@@ -13,6 +13,7 @@ The Armor table shows the cost, weight, and other properties of the common types
 || Hide || 10 gp || 12 + Dex modifier (max 2) || -- || -- || 12 lb. ||
 || Chain shirt || 50 gp || 13 + Dex modifier (max 2) || -- || -- || 20 lb. ||
 || Scale mail || 50 gp || 14 + Dex modifier (max 2) || -- || Disadvantage || 45 lb. ||
+|| <span id="spiked-armor"></span>Spiked armor[((bibcite spiked-armor-bib))] || 75 gp || 14 + Dex modifier (max 2) || -- || Disadvantage || 45 lb. ||
 || Breastplate || 400 gp || 14 + Dex modifier (max 2) || -- || -- || 20 lb. ||
 || Half plate || 750 gp || 15 + Dex modifier (max 2) || -- || Disadvantage || 40 lb. ||
 |||||||||||| *Heavy Armor* ||
@@ -65,6 +66,8 @@ Medium armor offers more protection than light armor, but it also impairs moveme
 
 **Scale Mail.** This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.
 
+**Spiked armor.** Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.[((bibcite spiked-armor-bib))]
+
 **Breastplate.** This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.
 
 **Half Plate.** Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.
@@ -98,3 +101,9 @@ The time it takes to don or doff armor depends on the armor's category.
 || Medium Armor || 5 minutes || 1 minute ||
 || Heavy Armor || 10 minutes || 5 minutes ||
 || Shield || 1 action || 1 action ||
+
+----
+
+[[bibliography]]
+: spiked-armor-bib : Sword Coast Adventurer's Guide, p. 121
+[[/bibliography]]
