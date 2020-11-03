@@ -177,6 +177,10 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 * [[[subclass:Path of the Beast]]]
 
+## Homebrew
+
+* [[[subclass:Path of the Battlerager (Homebrew)]]]
+
 ----
 
 *Source: Player's Handbook, p. 46*
