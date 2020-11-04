@@ -253,7 +253,7 @@ The armor has 4 charges. As a reaction when he would be knocked prone, the weare
 _Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
 _Item: A suit of armor_  
 
-As an action, a creature wearing this infused armor can integrate into it artisan’s tools or thieves’ tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.
+As an action, a creature wearing this infused armor can integrate into it artisan's tools or thieves' tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.
 
 The wearer can add his Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool.
 
@@ -294,7 +294,7 @@ _Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-
 _Prerequisite: 10th-level artificer_  
 _Item: A helmet (requires attunement)_
 
-While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can’t be surprised, provided it isn’t incapacitated.
+While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't incapacitated.
 
 ### Homunculus Servant
 
@@ -474,7 +474,7 @@ _Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-
 _Prerequisite: 6th-level artificer_  
 _Item: A ring (requires attunement)_
 
-While wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can’t be used again until the next dawn.
+While wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can't be used again until the next dawn.
 
 # Artificer Specialists
 

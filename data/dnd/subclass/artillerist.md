@@ -6,7 +6,7 @@ When you adopt this specialization at 3rd level, you gain proficiency with woodc
 
 ## Artillerist Spells
 
-Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
+Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.
 
 **Artillerist Spells**
 
@@ -28,7 +28,7 @@ When you create the cannon, you determine its appearance and whether it has legs
 **Eldritch Cannon**
 
 ||~ Cannon ||~ Activation ||
-|| Flamethrower || The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 2d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ||
+|| Flamethrower || The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 2d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. ||
 || Force Ballista || Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon. ||
 || Protector || The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1). ||
 
@@ -47,7 +47,7 @@ Starting at 9th level, every eldritch cannon you create is more destructive:
  
 ## Fortified Position
 
-By 15th level, you’re a master at forming well-defended emplacements using Eldritch Cannon:
+By 15th level, you're a master at forming well-defended emplacements using Eldritch Cannon:
 
  * You and your allies have half cover while within 10 feet of a cannon you create with Eldritch Cannon, as a result of a shimmering field of magical protection that the cannon emits.
  * You can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both of them with the same bonus action. You determine whether the cannons are identical to each other or different. You can't create a third cannon while you have two.

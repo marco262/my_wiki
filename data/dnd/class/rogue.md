@@ -105,7 +105,7 @@ Starting at 2nd level, your quick thinking and agility allow you to move and act
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
-You gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
+You gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
 
 ## Roguish Archetype
 
