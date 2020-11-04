@@ -1,8 +1,8 @@
 Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals.
 
-The Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, don’t face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit—whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.
+The Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, don't face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit—whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.
 
-During these visits, a mortal might catch a genie’s eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal–genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that’s lain dormant for generations.
+During these visits, a mortal might catch a genie's eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal–genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.
 
 Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.
 
@@ -20,7 +20,7 @@ Some genasi live as outcasts, driven into exile for their unsettling appearance 
 
 Genasi rarely lack confidence, seeing themselves as equal to almost any challenge in their path. This certainty might manifest as graceful self-assurance in one genasi and as arrogance in another. Such self- confidence can sometimes blind genasi to risk, and their great plans often get them and others into trouble.
 
-Too much failure can chip away at even a genasi’s sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft.
+Too much failure can chip away at even a genasi's sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft.
 
 ## Genasi Lands
 
@@ -72,7 +72,7 @@ Your genasi character has certain characteristics in common with all other genas
 
 Each genasi subrace has its own temperament, which might make some backgrounds more suitable than others.
 
-**Air genasi** are proud of their heritage, sometimes to the point of haughtiness. They can be flamboyant, and are keen to have an audience. They rarely stay in one place for long, always looking for a new sky to see and breathe. Air genasi who don’t live in cities favor open lands such as plains, deserts, and high mountains. Fitting backgrounds include charlatan, entertainer, and noble.
+**Air genasi** are proud of their heritage, sometimes to the point of haughtiness. They can be flamboyant, and are keen to have an audience. They rarely stay in one place for long, always looking for a new sky to see and breathe. Air genasi who don't live in cities favor open lands such as plains, deserts, and high mountains. Fitting backgrounds include charlatan, entertainer, and noble.
 
 **Earth genasi** are more withdrawn, and their connection to the earth keeps them from being comfortable in most cities. Their uncommon size and strength makes them natural soldiers, though, and with their stoic demeanor, they can encourage others and become great leaders. Many earth genasi live underground, where they can be in their favored element. When they emerge from their caves, they might roam the hills and mountains or lay claim to old ruins. Appropriate backgrounds for earth genasi include hermit, outlander, and soldier.
 
@@ -90,13 +90,13 @@ Air genasi typically have light blue skin, hair, and eyes. A faint but constant 
 
 ***Ability Score Increase.*** Your Dexterity score increases by 1.
 
-***Unending Breath.*** You can hold your breath indefinitely while you’re not incapacitated.
+***Unending Breath.*** You can hold your breath indefinitely while you're not incapacitated.
 
 ***Mingle with the Wind.*** You can cast the _[[[spell:levitate]]]_ spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 
 ### Earth Genasi
 
-As an earth genasi, you are descended from the cruel and greedy dao, though you aren’t necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action.
+As an earth genasi, you are descended from the cruel and greedy dao, though you aren't necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action.
 
 Elemental earth manifests differently from one individual to the next. Some earth genasi always have bits of dust falling from their bodies and mud clinging to their clothes, never getting clean no matter how often they bathe. Others are as shiny and polished as gemstones, with skin tones of deep brown or black, eyes sparkling like agates. Earth genasi can also have smooth metallic flesh, dull iron skin spotted with rust, a pebbled and rough hide, or even a coating of tiny embedded crystals. The most arresting have fissures in their flesh, from which faint light shines.
 
@@ -124,7 +124,7 @@ Nearly all fire genasi are feverishly hot as if burning inside, an impression re
 
 The lapping of waves, the spray of sea foam on the wind, the ocean depths—all of these things call to your heart. You wander freely and take pride in your independence, though others might consider you selfish.
 
-Most water genasi look as if they just finished bathing, with beads of moisture collecting on their skin and hair. They smell of fresh rain and clean water. Blue or green skin is common, and most have somewhat overlarge eyes, blue-black in color. A water genasi’s hair might float freely, swaying and waving as if underwater. Some have voices with undertones reminiscent of whale song or trickling streams.
+Most water genasi look as if they just finished bathing, with beads of moisture collecting on their skin and hair. They smell of fresh rain and clean water. Blue or green skin is common, and most have somewhat overlarge eyes, blue-black in color. A water genasi's hair might float freely, swaying and waving as if underwater. Some have voices with undertones reminiscent of whale song or trickling streams.
 
 ***Ability Score Increase.*** Your Wisdom score increases by 1.
 

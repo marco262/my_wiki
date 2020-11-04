@@ -1,12 +1,12 @@
-An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.
+An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.
 
 ## Tool Proficiency
 
-When you adopt this specialization at 3rd level, you gain proficiency with heavy armor. You also gain proficiency with smith’s tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
+When you adopt this specialization at 3rd level, you gain proficiency with heavy armor. You also gain proficiency with smith's tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan's tools of your choice.
 
 ## Armorer Spells
 
-Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
+Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.
 
 **Armorer Spells**
 
@@ -19,11 +19,11 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 
 ## Power Armor
 
-Beginning at 3rd level, your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have smith’s tools in hand. You gain the following benefits while wearing the power armor:
+Beginning at 3rd level, your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have smith's tools in hand. You gain the following benefits while wearing the power armor:
 
  * If the armor normally has a Strength requirement, the power armor lacks this requirement for you.
  * You can use the power armor as a spellcasting focus for your artificer spells.
- * The power armor attaches to you and can’t be removed against your will. It also expands to cover your entire body, and it replaces any missing limbs, functioning identically to a body part it is replacing.
+ * The power armor attaches to you and can't be removed against your will. It also expands to cover your entire body, and it replaces any missing limbs, functioning identically to a body part it is replacing.
 
 The armor continues to be power armor until you doff it, you don another suit of armor, or you die.
 
@@ -49,7 +49,7 @@ You customize your armor for subtle undertakings. It has the following features:
 
 **Powered Steps.** Your walking speed increases by 5 feet.
 
-**Second Skin.** The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.
+**Second Skin.** The armor's weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn't.
 
 ## Extra Attack
 

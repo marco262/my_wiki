@@ -6,7 +6,7 @@ When you adopt this specialization at 3rd level, you gain proficiency with alche
 
 ## Alchemist Spells
 
-Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
+Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.
 
 **Alchemist Spells**
 
