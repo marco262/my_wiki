@@ -134,7 +134,7 @@ When you use your Channel Divinity, you choose which effect to create. You must 
 
 Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
 
-Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level. you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
+Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
 
 ### Turn Undead
 
