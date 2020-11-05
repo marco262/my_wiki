@@ -6,8 +6,8 @@ A drunken master often enjoys playing the fool to bring gladness to the desponde
 
 ||~ Monk Level ||~ Feature ||
 || 3rd || Bonus Proficiencies, Drunken Technique ||
-|| 9th || Tipsy Sway ||
-|| 13th || Drunkard's Luck ||
+|| 6th || Tipsy Sway ||
+|| 11th || Drunkard's Luck ||
 || 17th || Intoxicated Frenzy ||
 
 ## Bonus Proficiencies
@@ -36,4 +36,4 @@ At 17th level, you gain the ability to make an overwhelming number of attacks ag
 
 ----
 
-*Source: Xanathar's Guide to Everything, p. ??*
+*Source: Xanathar's Guide to Everything, p. 33*
