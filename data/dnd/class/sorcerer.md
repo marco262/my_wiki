@@ -114,6 +114,14 @@ Charisma is your spellcasting ability for your sorcerer spells, since the power 
 
 You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your sorcerer spells.
 
+### Spell Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_1st-level sorcerer feature (enhances Spellcasting)_
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace.
+
 ## Sorcerous Origin
 
 Choose a [[[class:sorcerer#sorcerous-origins|sorcerous origin]]], which describes the source of your innate magical power, detailed at the end of the class description.
@@ -133,6 +141,24 @@ You have 2 sorcery points, and you gain more as you reach higher levels, as show
 You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
 
 **Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+
+### Empowering Reserves
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check. 
+
+### Imbuing Touch
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose ofovercoming immunity and resistance to nonmagical attacks.
+
+### Sorcerous Fortitude
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
 
 #### Creating Spell Slots
 ||~ Spell Slot Level ||~ Sorcery Point Cost ||
@@ -160,6 +186,12 @@ When you cast a spell that has a range of 5 feet or greater, you can spend 1 sor
 
 When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
 
+### Elemental Spell
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder.
+
 ### Empowered Spell
 
 When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
@@ -178,6 +210,12 @@ When you cast a spell that forces a creature to make a saving throw to resist it
 
 When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
 
+### Seeking Spell
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell.
+
 ### Subtle Spell
 
 When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
@@ -185,6 +223,14 @@ When you cast a spell, you can spend 1 sorcery point to cast it without any soma
 ### Twinned Spell
 
 When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
+
+### Unerring Spell
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.
+
+You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.
 
 ## Ability Score Improvement
 
