@@ -2,7 +2,7 @@ The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, 
 
 # The Oath of Devotion
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Devotion, Oath Spells, Channel Divinity ||
 || 7th || Aura of Devotion ||
 || 15th || Purity of Spirit ||

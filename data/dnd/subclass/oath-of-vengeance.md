@@ -2,7 +2,7 @@ The Oath of Vengeance is a solemn commitment to punish those who have committed 
 
 # The Oath of Devotion
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Devotion, Oath Spells, Channel Divinity ||
 || 7th || Aura of Warding ||
 || 15th || Undying Sentinel ||
