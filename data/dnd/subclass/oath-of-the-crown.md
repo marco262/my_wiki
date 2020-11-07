@@ -2,7 +2,7 @@ The Oath of the Crown is sworn to the ideals of civilization, be it the spirit o
 
 # The Oath of the Crown
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of the Crown, Oath Spells, Channel Divinity ||
 || 7th || Divine Allegiance ||
 || 15th || Unyielding Saint ||

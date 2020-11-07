@@ -2,7 +2,7 @@ The Oath of the Ancients is as old as the race of elves and the rituals of the d
 
 # The Oath of the Ancients
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of the Ancients, Oath Spells, Channel Divinity ||
 || 7th || Aura of Warding ||
 || 15th || Undying Sentinel ||

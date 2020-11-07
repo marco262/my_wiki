@@ -4,7 +4,7 @@ While redeemers are idealists, they are no fools. Redeemers know that undead, de
 
 # The Oath of Redemption
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Redemption, Oath Spells, Channel Divinity ||
 || 7th || Aura of the Guardian ||
 || 15th || Protective Spirit ||
@@ -61,4 +61,4 @@ If you attack a creature, cast a spell on it, or deal damage to it by any means 
 
 ----
 
-*Source: Xanathar's Guide to Everything, p. ??*
+*Source: Xanathar's Guide to Everything, p. 38*

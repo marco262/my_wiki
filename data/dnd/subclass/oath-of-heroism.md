@@ -2,7 +2,7 @@ The Oath of Heroism is an affirmation of a destined path, one laid out for you b
 
 # The Oath of Heroism
 
-||~ Paladin Level ||~ Spells ||
+||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Heroism, Oath Spells, Channel Divinity ||
 || 7th || Mighty Deed ||
 || 15th || Glorious Defense ||
