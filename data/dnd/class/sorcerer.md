@@ -142,6 +142,16 @@ You can use your sorcery points to gain additional spell slots, or sacrifice spe
 
 **Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
 
+#### Creating Spell Slots
+||~ Spell Slot Level ||~ Sorcery Point Cost ||
+|| 1st || 2 ||
+|| 2nd || 3 ||
+|| 3rd || 5 ||
+|| 4th || 6 ||
+|| 5th || 7 ||
+
+**Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
+
 ### Empowering Reserves
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
@@ -159,16 +169,6 @@ As an action, you can touch one nonmagical weapon and spend 2 sorcery points to 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
 As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
-
-#### Creating Spell Slots
-||~ Spell Slot Level ||~ Sorcery Point Cost ||
-|| 1st || 2 ||
-|| 2nd || 3 ||
-|| 3rd || 5 ||
-|| 4th || 6 ||
-|| 5th || 7 ||
-
-**Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
 
 ## Metamagic
 
