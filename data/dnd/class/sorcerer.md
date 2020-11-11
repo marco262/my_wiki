@@ -162,7 +162,7 @@ When you make an ability check on your turn, you can spend 2 sorcery points to g
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
-As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose ofovercoming immunity and resistance to nonmagical attacks.
+As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
 
 ### Sorcerous Fortitude
 
