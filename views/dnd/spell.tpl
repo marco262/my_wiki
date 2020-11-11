@@ -15,7 +15,8 @@ end
 %>
 <p><em>{{!('&nbsp;' * 4).join(spell_class_list)}}</em></p>
 
-<p>Level {{level}} {{school.title()}}{{" (ritual)" if ritual_spell else ""}}</p>
+% fmt = "{school} cantrip" if level.lower() == "cantrip" else "Level {level} {school}" 
+<p>{{fmt.format(level=level, school=school.title())}}{{" (ritual)" if ritual_spell else ""}}</p>
 
 <p>
 <strong>Casting Time:</strong> {{casting_time}}<br />
