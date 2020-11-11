@@ -152,23 +152,27 @@ You can use your sorcery points to gain additional spell slots, or sacrifice spe
 
 **Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
 
-### Empowering Reserves
+[[accordion Variant Class Features]]
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_2nd-level sorcerer feature (enhances Font of Magic)_
+
+When you gain the Font of Magic feature, you get access to the following ways to spend your sorcery points.
+
+### Empowering Reserves
 
 When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check. 
 
 ### Imbuing Touch
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
 As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
 
 ### Sorcerous Fortitude
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
 As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
+
+[[/accordion]]
 
 ## Metamagic
 
@@ -258,3 +262,8 @@ Different sorcerers claim different origins for their innate magic. Although man
 ----
 
 *Source: Player's Handbook, p. 99*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
