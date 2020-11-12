@@ -24,9 +24,9 @@ Also at 1st level, you gain proficiency with heavy armor.
 
 ## Channel Divinity: Charm Animals and Plants
 
-Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.
+Starting at 2nd level, you can use your Channel Divinity to [[[general:conditions#charmed|charm]]] animals and plants.
 
-As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.
+As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is [[[general:conditions#charmed|charmed]]] by you for 1 minute or until it takes damage. While it is [[[general:conditions#charmed|charmed]]] by you, it is friendly to you and other creatures you designate.
 
 ## Dampen Elements
 
@@ -50,7 +50,7 @@ In battle, you are blessed with divine might. When a creature takes damage from 
 
 ## Master of Nature
 
-At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.
+At 17th level, you gain the ability to command animals and plant creatures. While creatures are [[[general:conditions#charmed|charmed]]] by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.
 
 ----
 

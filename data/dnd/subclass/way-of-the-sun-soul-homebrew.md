@@ -28,7 +28,7 @@ Starting when you choose this tradition at 3rd level, any time you would make an
 
 At 6th level, you gain the ability to channel your ki into bright waves of energy.
 
-Immediately after you take the Attack action on your turn, you can spend 2 ki points as a bonus action to produce a blinding flash of light in a 15 ft cone in front of you. Each creature within the cone must make a Dexterity saving throw. A creature takes 3d6 radiant damage and is blinded until the start of your next turn on a failed save, or half as much damage and not blinded on a successful one.
+Immediately after you take the Attack action on your turn, you can spend 2 ki points as a bonus action to produce a blinding flash of light in a 15 ft cone in front of you. Each creature within the cone must make a Dexterity saving throw. A creature takes 3d6 radiant damage and is [[[general:conditions#blinded|blinded]]] until the start of your next turn on a failed save, or half as much damage and not [[[general:conditions#blinded|blinded]]] on a successful one.
 
 You can spend additional ki points to make a stronger blast. Each additional ki point you spend increases the damage by 1d6 and range by 5 ft. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
 
@@ -64,7 +64,7 @@ At 17th level, as a bonus action, you can enter a state of heightened being know
 
 While in this state, you must make a Constitution saving throw at the end of each of your turns, with a DC of 12. If you succeed on the saving throw, the DC increases by 1. If you fail the saving throw, you suffer 1 level of [exhaustion](/dnd/general/conditions#exhaustion). If you already have 6 levels of exhaustion and fail the saving throw, Radiant Body ends and you die.
 
-You can end Radiant Body as an action. Radiant Body also automatically ends if you are incapacitated. After you finish a long rest, the DC of the Constitution saving throw resets to 12.
+You can end Radiant Body as an action. Radiant Body also automatically ends if you are [[[general:conditions#incapacitated|incapacitated]]]. After you finish a long rest, the DC of the Constitution saving throw resets to 12.
 
 ----
 

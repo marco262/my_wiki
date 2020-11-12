@@ -6,13 +6,13 @@ When you choose this archetype at 3rd level, you gain proficiency in one of the 
 
 ## Born to the Saddle
 
-Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.
+Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not [[[general:conditions#incapacitated|incapacitated]]].
 
 Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.
 
 ## Unwavering Mark
 
-Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are incapacitated or you die, or if someone else marks the creature.
+Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are [[[general:conditions#incapacitated|incapacitated]]] or you die, or if someone else marks the creature.
 
 While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.
 

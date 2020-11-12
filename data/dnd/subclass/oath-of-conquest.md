@@ -41,7 +41,7 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 ## Aura of Conquest
 
-Starting at 7th level, you constantly emanate a menacing aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
+Starting at 7th level, you constantly emanate a menacing aura while you're not [[[general:conditions#incapacitated|incapacitated]]]. The aura extends 10 feet from you in every direction, but not through total cover.
 
 If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
 
@@ -49,7 +49,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 ## Scornful Rebuke
 
-Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated.
+Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not [[[general:conditions#incapacitated|incapacitated]]].
 
 ## Invincible Conqueror
 

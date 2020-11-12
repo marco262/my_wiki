@@ -42,7 +42,7 @@ Beginning at 10th level, you can take the Dash action as a bonus action while yo
 
 ## Spiked Retribution
 
-Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor.
+Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't [[[general:conditions#incapacitated|incapacitated]]], and are wearing spiked armor.
 
 ----
 

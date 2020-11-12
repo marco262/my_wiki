@@ -34,7 +34,7 @@ You gain oath spells at the paladin levels listed.
 
 When you take this oath at 3rd level, you gain the following two Channel Divinity options.
 
-**Champion Challenge.** As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.
+**Champion Challenge.** As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are [[[general:conditions#incapacitated|incapacitated]]] or die or if the creature is more than 30 feet away from you.
 
 **Turn the Tide.** As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
 
@@ -54,7 +54,7 @@ At 20th level, your presence on the field of battle is an inspiration to those d
 * Your allies have advantage on death saving throws while within 30 feet of you.
 * You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.
 
-This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
+This effect ends early if you are [[[general:conditions#incapacitated|incapacitated]]] or die. Once you use this feature, you can't use it again until you finish a long rest.
 
 ----
 

@@ -30,7 +30,7 @@ Starting when you choose this path at 3rd level, you can go into a frenzy when y
 
 ## Mindless Rage
 
-Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
+Beginning at 6th level, you can't be [[[general:conditions#charmed|charmed]]] or frightened while raging. If you are [[[general:conditions#charmed|charmed]]] or frightened when you enter your rage, the effect is suspended for the duration of the rage.
 
 ## Intimidating Presence
 

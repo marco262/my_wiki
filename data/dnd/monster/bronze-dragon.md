@@ -228,7 +228,7 @@ A bronze dragon lairs in coastal caves. It might salvage a wrecked ship, reconst
 On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
 
 * The dragon creates fog as though it had cast the *[[[spell:fog cloud]]]* spell. The fog lasts until initiative count 20 on the next round.
-* A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a DC 15 Constitution saving throw or take 5 (1d10) thunder damage and be deafened until the end of its next turn.
+* A thunderclap originates at a point the dragon can see within 120 feet of it. Each creature within a 20-foot radius centered on that point must make a DC 15 Constitution saving throw or take 5 (1d10) thunder damage and be [[[general:conditions#deafened|deafened]]] until the end of its next turn.
 
 ## Regional Effects
 

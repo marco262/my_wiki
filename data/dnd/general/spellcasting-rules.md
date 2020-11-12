@@ -152,7 +152,7 @@ Normal activity, such as moving and attacking, doesn't interfere with concentrat
 
 * **Casting another spell that requires concentration.** You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.
 * **Taking damage.** Whenever you take damage while you are concentrating on a spell, you must make a **Constitution saving throw** to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.
-* **Being incapacitated or killed.** You lose concentration on a spell if you are incapacitated or if you die.
+* **Being incapacitated or killed.** You lose concentration on a spell if you are [[[general:conditions#incapacitated|incapacitated]]] or if you die.
 
 The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitution saving throw to maintain concentration on a spell.
 
@@ -232,7 +232,7 @@ The DC to resist one of your spells equals 8 + your spellcasting ability modifie
 
 Some spells require the caster to make an attack roll to determine whether the spell effect hits the intended target. Your attack bonus with a spell attack equals your spellcasting ability modifier + your proficiency bonus.
 
-Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't incapacitated (see the [[[general:combat#ranged-attacks-in-close-combat|Combat]]] section).
+Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't [[[general:conditions#incapacitated|incapacitated]]] (see the [[[general:combat#ranged-attacks-in-close-combat|Combat]]] section).
 
 ## Combining Magical Effects
 

@@ -294,7 +294,7 @@ _Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-
 _Prerequisite: 10th-level artificer_  
 _Item: A helmet (requires attunement)_
 
-While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't incapacitated.
+While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't [[[general:conditions#incapacitated|incapacitated]]].
 
 ### Homunculus Servant
 
@@ -322,7 +322,7 @@ condition_immunities = exhaustion, poisoned
 senses = darkvision 60 ft., passive Perception 14
 languages = understands the languages you speak
 special_abilities = !!!
-***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.
+***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's [[[general:conditions#incapacitated|incapacitated]]].
 
 ***Might of the Master.*** The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill and saving throw bonuses (above) and the bonuses to hit and damage of its attack (below).
 !!!
@@ -359,7 +359,7 @@ _Item: A simple or martial weapon (requires attunement)_
 
 This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.
 
-The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains ld4 expended charges daily at dawn.
+The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be [[[general:conditions#blinded|blinded]]] until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains ld4 expended charges daily at dawn.
 
 ### Repeating Shot
 

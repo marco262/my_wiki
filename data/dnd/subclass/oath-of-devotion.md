@@ -45,7 +45,7 @@ A turned creature must spend its turns trying to move as far away from you as it
 
 ## Aura of Devotion
 
-Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.
+Starting at 7th level, you and friendly creatures within 10 feet of you can't be [[[general:conditions#charmed|charmed]]] while you are conscious.
 
 At 18th level, the range of this aura increases to 30 feet.
 

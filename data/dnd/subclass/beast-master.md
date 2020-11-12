@@ -6,7 +6,7 @@ At 3rd level, you gain a beast companion that accompanies you on your adventures
 
 The beast obeys your commands as best as it can. It takes its turn on your initiative.[((bibcite errata))] On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, or Help action. If you don't issue a command, the beast takes the Dodge action.[((bibcite errata))] Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.
 
-If you are incapacitated or absent, the beast acts on its own, focusing on protecting you and itself. The beast never requires your command to use its reaction, such as when making an opportunity attack.[((bibcite errata))]
+If you are [[[general:conditions#incapacitated|incapacitated]]] or absent, the beast acts on its own, focusing on protecting you and itself. The beast never requires your command to use its reaction, such as when making an opportunity attack.[((bibcite errata))]
 
 While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.
 

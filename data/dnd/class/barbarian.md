@@ -106,7 +106,7 @@ Starting at 2nd level, you can throw aside all concern for defense to attack wit
 
 At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.
 
-You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.
+You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [[[general:conditions#blinded|blinded]]], [[[general:conditions#deafened|deafened]]], or [[[general:conditions#incapacitated|incapacitated]]].
 
 ## Primal Path
 
@@ -128,7 +128,7 @@ Starting at 5th level, your speed increases by 10 feet while you aren't wearing 
 
 By 7th level, your instincts are so honed that you have advantage on initiative rolls.
         
-Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+Additionally, if you are surprised at the beginning of combat and aren't [[[general:conditions#incapacitated|incapacitated]]], you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
 ## Brutal Critical
 

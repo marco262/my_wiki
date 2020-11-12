@@ -69,7 +69,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 35-36 || Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older. ||
 || 37-38 || 1d6 [[[monster:flumph|flumphs]]] controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute. ||
 || 39-40 || You regain 2d10 hit points. ||
-|| 41-42 || You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts. ||
+|| 41-42 || You turn into a potted plant until the start of your next turn. While a plant, you are [[[general:conditions#incapacitated|incapacitated]]] and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts. ||
 || 43-44 || For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns. ||
 || 45-46 || You cast *[[[spell:levitate]]]* on yourself. ||
 || 47-48 || A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later. ||
@@ -86,7 +86,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 69-70 || Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell. ||
 || 71-72 || You gain resistance to all damage for the next minute. ||
 || 73-74 || A random creature within 60 feet of you becomes poisoned for 1d4 hours. ||
-|| 75-76 || You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn. ||
+|| 75-76 || You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is [[[general:conditions#blinded|blinded]]] until the end of its next turn. ||
 || 77-78 || You cast *[[[spell:polymorph]]]* on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration. ||
 || 79-80 || Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute. ||
 || 81-82 || You can take one additional action immediately. ||

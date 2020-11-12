@@ -90,7 +90,7 @@ Air genasi typically have light blue skin, hair, and eyes. A faint but constant 
 
 ***Ability Score Increase.*** Your Dexterity score increases by 1.
 
-***Unending Breath.*** You can hold your breath indefinitely while you're not incapacitated.
+***Unending Breath.*** You can hold your breath indefinitely while you're not [[[general:conditions#incapacitated|incapacitated]]].
 
 ***Mingle with the Wind.*** You can cast the _[[[spell:levitate]]]_ spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 
