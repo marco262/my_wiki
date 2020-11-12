@@ -112,4 +112,4 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 
 ----
 
-*Source: Player's Handbook, p. 50*
+*Source: Player's Handbook, p. 290*
