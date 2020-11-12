@@ -89,7 +89,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Tail Attack.** The dragon makes a tail attack.
 
-**Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+**Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked [[[general:conditions#prone|prone]]]. The dragon can then fly up to half its flying speed.
 !!!
 [[/include]]
 
@@ -153,7 +153,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Tail Attack.** The dragon makes a tail attack.
 
-**Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+**Wing Attack (Costs 2 Actions).** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked [[[general:conditions#prone|prone]]]. The dragon can then fly up to half its flying speed.
 !!!
 
 [[/include]]

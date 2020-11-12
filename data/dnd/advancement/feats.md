@@ -21,7 +21,7 @@ Always on the lookout for danger, you gain the following benefits:
 You have undergone extensive physical training to gain the following benefits:
 
 * Increase your Strength or Dexterity score by 1, to a maximum of 20.
-* When you are prone, standing up uses only 5 feet of your movement.
+* When you are [[[general:conditions#prone|prone]]], standing up uses only 5 feet of your movement.
 * Climbing doesn't cost you extra movement.[((bibcite errata))]
 * You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.
 
@@ -393,7 +393,7 @@ When you use this ability, you can't use your Lucky racial trait before the end 
 *Prerequisite: Tabaxi*
 
 * Increase your Dexterity score by 1, to a maximum of 20.
-* When falling, you can use your reaction to reduce falling damage you take by an amount equal to your level, and to not fall prone.
+* When falling, you can use your reaction to reduce falling damage you take by an amount equal to your level, and to not fall [[[general:conditions#prone|prone]]].
 * You gain advantage on Dexterity (Acrobatics) checks to maintain your balance.
 
 ## Coldstrider
@@ -407,7 +407,7 @@ You have an uncanny resilience against cold, ice, and snow. You gain the followi
 * Increase your Constitution score by 1, to a maximum of 20.
 * You have resistance to cold damage.
 * Moving through difficult terrain made of ice and snow costs you no extra movement.
-* You automatically succeed on Dexterity saving throws to avoid falling prone on slippery ice, and you are considered to weigh half as much when accounting for the weight tolerance of thin ice.
+* You automatically succeed on Dexterity saving throws to avoid falling [[[general:conditions#prone|prone]]] on slippery ice, and you are considered to weigh half as much when accounting for the weight tolerance of thin ice.
 
 ## Dawncaller
 
@@ -431,7 +431,7 @@ Years of wrestling with your kin in your youth have taught you a few tricks when
 
 * Increase your Strength by 1, to a maximum of 20.
 * Your range with thrown weapons without the Finesse property increases by +10/+20.
-* When grappling a target at least one size smaller than you, as an action you can throw them up to 15 feet, knocking them prone when they land.
+* When grappling a target at least one size smaller than you, as an action you can throw them up to 15 feet, knocking them [[[general:conditions#prone|prone]]] when they land.
 
 ## Dragon Fear
 

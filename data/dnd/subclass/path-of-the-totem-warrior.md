@@ -71,11 +71,11 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 **Eagle.** While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
 
-**Elk.**[((bibcite scag))] While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked prone and take bludgeoning damage equal to 1d12 + your Strength modifier.
+**Elk.**[((bibcite scag))] While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked [[[general:conditions#prone|prone]]] and take bludgeoning damage equal to 1d12 + your Strength modifier.
 
 **Tiger.**[((bibcite scag))] While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.
 
-**Wolf.** While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.
+**Wolf.** While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature [[[general:conditions#prone|prone]]] when you hit it with melee weapon attack.
 
 ----
 

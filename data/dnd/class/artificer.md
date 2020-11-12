@@ -246,7 +246,7 @@ _Item: A suit of armor (requires attunement)_
 
 While wearing this armor, a creature can use its Intelligence modifier in place of its Strength modifier when making Strength checks and Strength saving throws.
 
-The armor has 4 charges. As a reaction when he would be knocked prone, the wearer can expend 1 charge to not be knocked prone. The armor regains 1d4 expended charges daily at dawn.
+The armor has 4 charges. As a reaction when he would be knocked [[[general:conditions#prone|prone]]], the wearer can expend 1 charge to not be knocked [[[general:conditions#prone|prone]]]. The armor regains 1d4 expended charges daily at dawn.
 
 ### Armor of Tools
 
