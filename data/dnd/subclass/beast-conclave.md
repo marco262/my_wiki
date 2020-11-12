@@ -34,7 +34,7 @@ Your animal companion gains a variety of benefits while it is linked to you.
 
 The animal companion loses its Multiattack action, if it has one.
 
-The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.
+The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are [[[general:conditions#incapacitated|incapacitated]]] or absent, your companion acts on its own.
 
 When using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.
 

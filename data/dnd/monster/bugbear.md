@@ -61,7 +61,7 @@ challenge = 3 (700 XP)
 special_abilities = !!!
 **Brute.** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
 
-**Heart of Hruggek.** The bugbear has advantage on saving throws against being charmed, frightened , paralyzed, poisoned, stunned, or put to sleep.
+**Heart of Hruggek.** The bugbear has advantage on saving throws against being [[[general:conditions#charmed|charmed]]], frightened , paralyzed, poisoned, stunned, or put to sleep.
 
 **Surprise Attack.** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.
 !!!

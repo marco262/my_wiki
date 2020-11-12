@@ -226,7 +226,7 @@ You have trained to master the use of medium armor and shields, gaining the foll
 
 ## Mounted Combatant
 
-You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:
+You are a dangerous foe to face while mounted. While you are mounted and aren't [[[general:conditions#incapacitated|incapacitated]]], you gain the following benefits:
 
 * You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.
 * You can force an attack targeted at your mount to target you instead.
@@ -297,7 +297,7 @@ You have mastered ranged weapons and can make shots that others find impossible.
 You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:
 
 * If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.
-* If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.
+* If you aren't [[[general:conditions#incapacitated|incapacitated]]], you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.
 * If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.
 
 ## Skilled
@@ -497,7 +497,7 @@ Your incredible reflexes and agility further improve. You gain the following ben
 
 * Increase your Dexterity score by 1, to a maximum of 20.
 * You can use your Feline Agility trait twice before you must move 0 feet on one of your turns to use the trait again. You can still only use this ability once per turn when you move.
-* You don't take damage from falling 20 feet or less if you aren't incapacitated.
+* You don't take damage from falling 20 feet or less if you aren't [[[general:conditions#incapacitated|incapacitated]]].
 
 ## Fey Teleportation
 
@@ -659,7 +659,7 @@ You master the arts of diplomacy, gaining the following benefits:
 
 * Increase your Charisma score by 1, to a maximum of 20.
 * You gain proficiency in the Persuasion skill. If you are already proficient in this skill, you add double your proficiency bonus to checks you make with it.
-* If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.
+* If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is [[[general:conditions#charmed|charmed]]] by you as long as it remains within 60 feet of you and for 1 minute thereafter.
 
 ## Empathic
 

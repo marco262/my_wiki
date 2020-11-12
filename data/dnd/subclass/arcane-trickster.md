@@ -30,7 +30,7 @@ When you reach 3rd level, you gain the ability to cast spells. See chapter 10 fo
 
 **Spell Slots.** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.
+For example, if you know the 1st-level spell _[[[spell:charm person]]]_ and have a 1st-level and a 2nd-level spell slot available, you can cast _[[[spell:charm person]]]_ using either slot.
 
 **Spells Known of 1st-Level and Higher.** You know three 1st-level [wizard spells](/dnd/class_spell_list/wizard/true) of your choice, two of which you must choose from the enchantment and illusion spells on the [wizard spell list](/dnd/class_spell_list/wizard/true).
 
