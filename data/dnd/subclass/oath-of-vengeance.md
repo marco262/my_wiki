@@ -34,9 +34,9 @@ You gain oath spells at the paladin levels listed.
 
 When you take this oath at 3rd level, you gain the following two Channel Divinity options.
 
-**Abjure Enemy.** As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+**Abjure Enemy.** As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being [[[general:conditions#frightened|frightened]]]. Fiends and undead have disadvantage on this saving throw.
 
-On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.
+On a failed save, the creature is [[[general:conditions#frightened|frightened]]] for 1 minute or until it takes any damage. While [[[general:conditions#frightened|frightened]]], the creature's speed is 0, and it can't benefit from any bonus to its speed.
 
 On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
 
@@ -55,7 +55,7 @@ Starting at 15th level, the authority with which you speak your Vow of Enmity gi
 At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
 
 * Wings sprout from your back and grant you a flying speed of 60 feet.
-* You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.
+* You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become [[[general:conditions#frightened|frightened]]] of you for 1 minute or until it takes any damage. Attack rolls against the [[[general:conditions#frightened|frightened]]] creature have advantage.
 
 Once you use this feature, you can't use it again until you finish a long rest.
 

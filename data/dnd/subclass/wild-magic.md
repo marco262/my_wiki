@@ -67,7 +67,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 31-32 || You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied. ||
 || 33-34 || Maximize the damage of the next damaging spell you cast within the next minute. ||
 || 35-36 || Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older. ||
-|| 37-38 || 1d6 [[[monster:flumph|flumphs]]] controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute. ||
+|| 37-38 || 1d6 [[[monster:flumph|flumphs]]] controlled by the DM appear in unoccupied spaces within 60 feet of you and are [[[general:conditions#frightened|frightened]]] of you. They vanish after 1 minute. ||
 || 39-40 || You regain 2d10 hit points. ||
 || 41-42 || You turn into a potted plant until the start of your next turn. While a plant, you are [[[general:conditions#incapacitated|incapacitated]]] and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts. ||
 || 43-44 || For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns. ||
@@ -82,7 +82,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 61-62 || For the next minute, you must shout when you speak. ||
 || 63-64 || You cast *[[[spell:fog cloud]]]* centered on yourself. ||
 || 65-66 || Up to three creatures you choose within 30 feet of you take 4d10 lightning damage. ||
-|| 67-68 || You are frightened by the nearest creature until the end of your next turn. ||
+|| 67-68 || You are [[[general:conditions#frightened|frightened]]] by the nearest creature until the end of your next turn. ||
 || 69-70 || Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell. ||
 || 71-72 || You gain resistance to all damage for the next minute. ||
 || 73-74 || A random creature within 60 feet of you becomes poisoned for 1d4 hours. ||

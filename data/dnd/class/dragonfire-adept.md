@@ -220,7 +220,7 @@ At 3rd level, your mastery of your draconic nature improves enough for a seconda
 
 ### Frightful Presence
 
-At 6th level, as a reaction in response to being attacked, you can project the frightful presence of a dragon for a brief moment. All enemies within 30' must succeed on a Wisdom saving throw or become frightened for 1 minute. Any creatures affected by this can attempt a new save at the start of their turn to end the effect. Creatures immune to fear are not affected by this ability. Once you use this feature, you can not do so again until you finish a short or long rest.
+At 6th level, as a reaction in response to being attacked, you can project the frightful presence of a dragon for a brief moment. All enemies within 30' must succeed on a Wisdom saving throw or become [[[general:conditions#frightened|frightened]]] for 1 minute. Any creatures affected by this can attempt a new save at the start of their turn to end the effect. Creatures immune to fear are not affected by this ability. Once you use this feature, you can not do so again until you finish a short or long rest.
 
 ### Greater Aspect of Chromatic Dragons
 
