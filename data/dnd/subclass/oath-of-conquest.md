@@ -35,7 +35,7 @@ You gain oath spells at the paladin levels listed.
 
 When you take this oath at 3rd level, you gain the following two Channel Divinity options.
 
-***Conquering Presence.*** You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Conquering Presence.*** You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes [[[general:conditions#frightened|frightened]]] of you for 1 minute. The [[[general:conditions#frightened|frightened]]] creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 ***Guided Strike.*** You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.
 
@@ -43,7 +43,7 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 Starting at 7th level, you constantly emanate a menacing aura while you're not [[[general:conditions#incapacitated|incapacitated]]]. The aura extends 10 feet from you in every direction, but not through total cover.
 
-If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
+If a creature is [[[general:conditions#frightened|frightened]]] of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
 
 At 18th level, the range of this aura increases to 30 feet.
 

@@ -67,7 +67,7 @@ Your halfling character has a number of traits in common with all other halfling
 
 **Lucky.** When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
 
-**Brave.** You have advantage on saving throws against being frightened.
+**Brave.** You have advantage on saving throws against being [[[general:conditions#frightened|frightened]]].
 
 **Halfling Nimbleness.** You can move through the space of any creature that is of a size larger than yours.
 

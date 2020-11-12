@@ -222,7 +222,7 @@ At 7th level, your instinctive agility lets you dodge out of the way of certain 
 
 ## Stillness of Mind
 
-Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be [[[general:conditions#charmed|charmed]]] or frightened.
+Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be [[[general:conditions#charmed|charmed]]] or [[[general:conditions#frightened|frightened]]].
 
 ## Purity of Body
 

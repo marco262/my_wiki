@@ -43,7 +43,7 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 At 7th level, your actions on the battlefield can supernaturally bolster your allies and demoralize your enemies. Whenever you score a critical hit or reduce a creature to 0 hit points, you can choose one or more creatures that you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). All the chosen creatures are affected by one of the following effects of your choice:
 
  * The creature gains temporary hit points equal to 1d6 + your Charisma modifier (minimum of 1temporary hit point).
- * The creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of you until the start of your next turn.Once you use this feature, you can't use it again until the start of your next turn.
+ * The creature must succeed on a Wisdom saving throw against your spell save DC or be [[[general:conditions#frightened|frightened]]] of you until the start of your next turn. Once you use this feature, you can't use it again until the start of your next turn.
  
 ## Glorious Defense
  
