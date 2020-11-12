@@ -306,7 +306,7 @@ _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
 _10th-level ranger feature (replaces Hide in Plain Sight)_
 
-You can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
+You can use a bonus action to magically become [[[general:conditions#invisible|invisible]]], along with any equipment you are wearing or carrying, until the start of your next turn.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
@@ -320,7 +320,7 @@ Starting at 14th level, you can use the Hide action as a bonus action on your tu
 
 At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.
 
-You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [[[general:conditions#blinded|blinded]]] or [[[general:conditions#deafened|deafened]]].
+You are also aware of the location of any [[[general:conditions#invisible|invisible]]] creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [[[general:conditions#blinded|blinded]]] or [[[general:conditions#deafened|deafened]]].
 
 ## Foe Slayer
 

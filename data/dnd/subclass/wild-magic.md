@@ -50,7 +50,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 
 ||~ d100 ||~ Effect ||
 || 01-02 || Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls. ||
-|| 03-04 || For the next minute, you can see any invisible creature if you have line of sight to it. ||
+|| 03-04 || For the next minute, you can see any [[[general:conditions#invisible|invisible]]] creature if you have line of sight to it. ||
 || 05-06 || A [[[monster:modrons|modron]]] chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later. ||
 || 07-08 || You cast *[[[spell:fireball]]]* as a 3rd-level spell centered on yourself. ||
 || 09-10 || You cast *[[[spell:magic missile]]]* as a 5th-level spell. ||
@@ -83,7 +83,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 63-64 || You cast *[[[spell:fog cloud]]]* centered on yourself. ||
 || 65-66 || Up to three creatures you choose within 30 feet of you take 4d10 lightning damage. ||
 || 67-68 || You are [[[general:conditions#frightened|frightened]]] by the nearest creature until the end of your next turn. ||
-|| 69-70 || Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell. ||
+|| 69-70 || Each creature within 30 feet of you becomes [[[general:conditions#invisible|invisible]]] for the next minute. The invisibility ends on a creature when it attacks or casts a spell. ||
 || 71-72 || You gain resistance to all damage for the next minute. ||
 || 73-74 || A random creature within 60 feet of you becomes poisoned for 1d4 hours. ||
 || 75-76 || You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is [[[general:conditions#blinded|blinded]]] until the end of its next turn. ||
@@ -93,7 +93,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 83-84 || Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt. ||
 || 85-86 || You cast *[[[spell:mirror image]]]*. ||
 || 87-88 || You cast *[[[spell:fly]]]* on a random creature within 60 feet of you. ||
-|| 89-90 || You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell. ||
+|| 89-90 || You become [[[general:conditions#invisible|invisible]]] for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell. ||
 || 91-92 || If you die within the next minute, you immediately come back to life as if by the *[[[spell:reincarnate]]]* spell. ||
 || 93-94 || Your size increases by one size category for the next minute. ||
 || 95-96 || You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute. ||
