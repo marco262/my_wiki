@@ -79,7 +79,7 @@ skills = Perception +4, Stealth +4
 senses = darkvision 60 ft., passive Perception 14
 languages = understands the languages you speak
 special_abilities = !!!
-***Charge.** If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.
+***Charge.** If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked [[[general:conditions#prone|prone]]].
 
 ***Primal Rebirth.*** If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.
 

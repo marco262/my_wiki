@@ -22,7 +22,7 @@ special_abilities = !!!
 
 **Pack Tactics.** The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
 !!!
-actions = !**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage.  If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+actions = !**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage.  If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [[[general:conditions#prone|prone]]].
 [[/include]]
 
 ----

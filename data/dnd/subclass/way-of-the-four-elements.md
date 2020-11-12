@@ -41,7 +41,7 @@ The elemental disciplines are presented in alphabetical order. If a discipline r
 
 **Fist of Four Thunders.** You can spend 2 ki points to cast *[[[spell:thunderwave]]]*.
 
-**Fist of Unbroken Air.** You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone.
+**Fist of Unbroken Air.** You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it [[[general:conditions#prone|prone]]]. On a successful save, the creature takes half as much damage, and you don't push it or knock it [[[general:conditions#prone|prone]]].
 
 **Flames of the Phoenix (11th Level Required).** You can spend 4 ki points to cast *[[[spell:fireball]]]*.
 
@@ -59,7 +59,7 @@ The elemental disciplines are presented in alphabetical order. If a discipline r
 
 **Sweeping Cinder Strike.** You can spend 2 ki points to cast *[[[spell:burning hands]]]*.
 
-**Water Whip.** You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it.[((bibcite errata))] A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3 d 10 bludgeoning damage, plus an extra 1d 10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.
+**Water Whip.** You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it.[((bibcite errata))] A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3 d 10 bludgeoning damage, plus an extra 1d 10 bludgeoning damage for each additional ki point you spend, and you can either knock it [[[general:conditions#prone|prone]]] or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it [[[general:conditions#prone|prone]]].
 
 **Wave of Rolling Earth (17th Level Required).** You can spend 6 ki points to cast *[[[spell:wall of stone]]]*.
 

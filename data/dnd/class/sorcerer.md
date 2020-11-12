@@ -256,7 +256,7 @@ Different sorcerers claim different origins for their innate magic. Although man
 ## Xanathar's Guide to Everything
 
 * [[[subclass:Divine Soul]]]
-* [[[subclass:Shadow Sorcery]]]
+* [[[subclass:Shadow Magic]]]
 * [[[subclass:Storm Sorcery]]]
 
 ----

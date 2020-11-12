@@ -1,3 +1,18 @@
+Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blinded, are impairments, but a few, such as invisible, can be advantageous.
+
+A condition lasts either until it is countered (the [[[general:conditions#prone|prone]]] condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.
+
+If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.
+
+The following definitions specify what happens to a creature while it is subjected to a condition.
+
+## Blinded
+
+* A blinded creature can't see and automatically fails any ability check that requires sight.
+* Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.
+
+## Charmed
+
 [[div class="phb-sidebar"]]
 
 **Exhaustion**
@@ -21,21 +36,6 @@ An effect that removes exhaustion reduces its level as specified in the effect's
 Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.
 
 [[/div]]
-
-Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blinded, are impairments, but a few, such as invisible, can be advantageous.
-
-A condition lasts either until it is countered (the prone condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.
-
-If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.
-
-The following definitions specify what happens to a creature while it is subjected to a condition.
-
-## Blinded
-
-* A blinded creature can't see and automatically fails any ability check that requires sight.
-* Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.
-
-## Charmed
 
 * A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
 * The charmer has advantage on any ability check to interact socially with the creature.
@@ -105,7 +105,11 @@ The following definitions specify what happens to a creature while it is subject
 ## Unconscious
 
 * An unconscious creature is [[[general:conditions#incapacitated|incapacitated]]], can't move or speak, and is unaware of its surroundings.
-* The creature drops whatever it's holding and falls prone.
+* The creature drops whatever it's holding and falls [[[general:conditions#prone|prone]]].
 * The creature automatically fails Strength and Dexterity saving throws.
 * Attack rolls against the creature have advantage.
 * Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.
+
+----
+
+*Source: Player's Handbook, p. 50*
