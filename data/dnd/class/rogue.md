@@ -129,7 +129,7 @@ By 11th level, you have refined your chosen skills until they approach perfectio
 
 ## Blindsense
 
-Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.
+Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [[[general:conditions#invisible|invisible]]] creature within 10 feet of you.
 
 ## Slippery Mind
 

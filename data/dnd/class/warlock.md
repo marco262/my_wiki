@@ -303,7 +303,7 @@ You can cast *[[[spell:silent image]]]* at will, without expending a spell slot 
 
 *Prerequisite: 5th level*
 
-When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.
+When you are in an area of dim light or darkness, you can use your action to become [[[general:conditions#invisible|invisible]]] until you move or take an action or a reaction.
 
 ## Otherworldly Leap
 

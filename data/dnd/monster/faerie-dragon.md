@@ -18,7 +18,7 @@ senses = darkvision 60ft., passive Perception 13
 languages = Draconic, Sylvan
 challenge = 1 (200 XP) for a red, orange, or yellow faerie dragon; 2 (450 XP) for a green, blue, indigo, or violet faerie dragon
 special_abilities = !!!
-**Superior Invisibility.** As a bonus action, the dragon can magically turn invisible until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is invisible with it.
+**Superior Invisibility.** As a bonus action, the dragon can magically turn [[[general:conditions#invisible|invisible]]] until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is [[[general:conditions#invisible|invisible]]] with it.
 
 **Limited Telepathy.** Using telepathy, the dragon can magically communicate with any other faerie dragon within 60 feet of it.
 

@@ -47,7 +47,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 ## Mage Hand Legerdemain
 
-Starting at 3rd level, when you cast *[[[spell:mage hand]]]*, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
+Starting at 3rd level, when you cast *[[[spell:mage hand]]]*, you can make the spectral hand [[[general:conditions#invisible|invisible]]], and you can perform the following additional tasks with it:
 
 * You can stow one object the hand is holding in a container worn or carried by another creature.
 * You can retrieve an object in a container worn or carried by another creature.
