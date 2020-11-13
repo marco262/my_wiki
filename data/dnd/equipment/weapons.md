@@ -110,13 +110,13 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 **Alternate rules for Garrote:**
 
-Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is grappled. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. You must use two hands to maintain the grapple.
+Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is [[[general:conditions#grappled|grappled]]]. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. You must use two hands to maintain the grapple.
 
 [[/div]]
 
 Weapons with special rules are described here.
 
-**Garrote.**[((bibcite homebrew))] Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is grappled. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. The Escape DC is 8 + your proficiency bonus + your STR/DEX, whichever you used for the attack. You must use two hands to maintain the grapple, and while maintaining the grapple, you cannot use the garrote to do damage to the target in subsequent rounds.
+**Garrote.**[((bibcite homebrew))] Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is [[[general:conditions#grappled|grappled]]]. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. The Escape DC is 8 + your proficiency bonus + your STR/DEX, whichever you used for the attack. You must use two hands to maintain the grapple, and while maintaining the grapple, you cannot use the garrote to do damage to the target in subsequent rounds.
 
 **Lance.** You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
 
