@@ -8,5 +8,5 @@ casting_time = "1 action"
 range = "Touch"
 components = ["V", "S"]
 duration = "Instantaneous"
-description = """You touch a creature and can end either one disease or one condition afflicting it. The condition can be [[[general:conditions#blinded|blinded]]], deafened, paralyzed, or poisoned."""
+description = """You touch a creature and can end either one disease or one condition afflicting it. The condition can be [[[general:conditions#blinded|blinded]]], [[[general:conditions#deafened|deafened]]], paralyzed, or poisoned."""
 source = "Player's Handbook, p. 255"
