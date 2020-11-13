@@ -22,7 +22,7 @@ challenge = "3 (700 XP)"
 actions = """!
 ***Multiattack.*** The grell makes two attacks: one with its tentacles and one with its beak.
 
-***Tentacles.*** _Melee Weapon Attack:_ +4 to hit, reach 10 ft., one creature. _Hit:_ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The poisoned target is paralyzed, and it can repeat the saving throw at the end of each of its turns, ending the effect on a success. The target is also [[[general:conditions#grappled|grappled]]] (escape DC 15). If the target is Medium or smaller, it is also restrained until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.
+***Tentacles.*** _Melee Weapon Attack:_ +4 to hit, reach 10 ft., one creature. _Hit:_ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The poisoned target is [[[general:conditions#paralyzed|paralyzed]]], and it can repeat the saving throw at the end of each of its turns, ending the effect on a success. The target is also [[[general:conditions#grappled|grappled]]] (escape DC 15). If the target is Medium or smaller, it is also restrained until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.
 
 ***Beak.*** _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (2d4 + 2) piercing damage.
 """
