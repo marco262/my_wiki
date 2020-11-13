@@ -14,5 +14,5 @@ material_component_consumed = true
 duration = "Concentration, up to 10 minutes"
 description = """Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.
 
-The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be [[[general:conditions#charmed|charmed]]], frightened, or possessed by them. If the target is already [[[general:conditions#charmed|charmed]]], frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."""
+The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be [[[general:conditions#charmed|charmed]]], [[[general:conditions#frightened|frightened]]], or possessed by them. If the target is already [[[general:conditions#charmed|charmed]]], [[[general:conditions#frightened|frightened]]], or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."""
 source = "Player's Handbook, p. 270"

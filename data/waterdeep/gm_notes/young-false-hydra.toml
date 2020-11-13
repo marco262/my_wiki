@@ -22,7 +22,7 @@ special_abilities = """!
 
 ***Surprise Attack.*** If the young false hydra surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 11 (2d10) damage from the attack.
 
-***Multiple Heads.*** The young false hydra has four heads. While it has more than one head, the young false hydra has advantage on saving throws against being [[[general:conditions#blinded|blinded]]], [[[general:conditions#charmed|charmed]]], [[[general:conditions#deafened|deafened]]], frightened, stunned, and knocked unconscious. Whenever the young false hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the young false hydra dies. At the end of its turn, it grows a head for each of its heads that died since its last turn, unless it has regrown 8 heads. The young false hydra regains 10 hit points for each head regrown in this way.
+***Multiple Heads.*** The young false hydra has four heads. While it has more than one head, the young false hydra has advantage on saving throws against being [[[general:conditions#blinded|blinded]]], [[[general:conditions#charmed|charmed]]], [[[general:conditions#deafened|deafened]]], [[[general:conditions#frightened|frightened]]], stunned, and knocked unconscious. Whenever the young false hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the young false hydra dies. At the end of its turn, it grows a head for each of its heads that died since its last turn, unless it has regrown 8 heads. The young false hydra regains 10 hit points for each head regrown in this way.
 
 ***Reactive Heads.*** For each head the young false hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
 """
