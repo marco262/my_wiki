@@ -9,5 +9,5 @@ casting_time = "1 action"
 range = "Touch"
 components = ["V", "S"]
 duration = "Instantaneous"
-description = """A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [[[general:conditions#charmed|charmed]]], [[[general:conditions#frightened|frightened]]], paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs."""
+description = """A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [[[general:conditions#charmed|charmed]]], [[[general:conditions#frightened|frightened]]], [[[general:conditions#paralyzed|paralyzed]]], or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs."""
 source = "Player's Handbook, p. 266"
