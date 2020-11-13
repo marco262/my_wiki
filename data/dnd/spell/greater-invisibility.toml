@@ -8,5 +8,5 @@ casting_time = "1 action"
 range = "Touch"
 components = ["V", "S"]
 duration = "Concentration, up to 1 minute"
-description = """You or a creature you touch becomes [[[general:conditions#invisible|invisible]]] until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person."""
+description = """You or a creature you touch becomes [[[general:conditions#invisible|invisible]]] until the spell ends. Anything the target is wearing or carrying is [[[general:conditions#invisible|invisible]]] as long as it is on the target's person."""
 source = "Player's Handbook, p. 246"
