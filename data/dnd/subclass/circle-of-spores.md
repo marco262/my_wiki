@@ -59,7 +59,7 @@ While the cube of spores persists, you can't use your Halo of Spores reaction.
 
 ## Fungal Body
 
-At 14th level, the fungal spores in your body alter you: you can't be [[[general:conditions#blinded|blinded]]], [[[general:conditions#deafened|deafened]]], [[[general:conditions#frightened|frightened]]], or poisoned, and any critical hit against you counts as a normal hit, unless you are [[[general:conditions#incapacitated|incapacitated]]].
+At 14th level, the fungal spores in your body alter you: you can't be [[[general:conditions#blinded|blinded]]], [[[general:conditions#deafened|deafened]]], [[[general:conditions#frightened|frightened]]], or [[[general:conditions#poisoned|poisoned]]], and any critical hit against you counts as a normal hit, unless you are [[[general:conditions#incapacitated|incapacitated]]].
 
 ----
 

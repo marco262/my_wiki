@@ -46,14 +46,14 @@ At 5th level, you develop masterful command of magical chemicals, enhancing the 
 Starting at 9th level, you can incorporate restorative reagents into some of your works:
 
 * Whenever a creature drinks an _experimental elixir_ you created, the creature gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum of 1 temporary hit point).
-* You can cast _[[[lesser restoration]]]_ without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+* You can cast _[[[spell:lesser restoration]]]_ without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ## Chemical Mastery
 
 By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:
 
-* You gain resistance to acid damage and poison damage, and you are immune to the poisoned condition.
-* You can cast _[[[greater restoration]]]_ and _[[[heal]]]_ without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.
+* You gain resistance to acid damage and poison damage, and you are immune to the [[[general:conditions#poisoned|poisoned]]] condition.
+* You can cast _[[[spell:greater restoration]]]_ and _[[[spell:heal]]]_ without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.
 
 ----
 
