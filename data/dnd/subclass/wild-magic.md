@@ -85,7 +85,7 @@ Beginning at 18th level, the harmful energy of your spells intensifies. When you
 || 67-68 || You are [[[general:conditions#frightened|frightened]]] by the nearest creature until the end of your next turn. ||
 || 69-70 || Each creature within 30 feet of you becomes [[[general:conditions#invisible|invisible]]] for the next minute. The invisibility ends on a creature when it attacks or casts a spell. ||
 || 71-72 || You gain resistance to all damage for the next minute. ||
-|| 73-74 || A random creature within 60 feet of you becomes poisoned for 1d4 hours. ||
+|| 73-74 || A random creature within 60 feet of you becomes [[[general:conditions#poisoned|poisoned]]] for 1d4 hours. ||
 || 75-76 || You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is [[[general:conditions#blinded|blinded]]] until the end of its next turn. ||
 || 77-78 || You cast *[[[spell:polymorph]]]* on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration. ||
 || 79-80 || Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute. ||
