@@ -75,7 +75,7 @@ Clarabelle tells the party the whole story: People are going missing, there's bl
 
 # The Reveal
 
-If the PCs plug up their ears or somehow deafen themselves, they can make Wisdom saves (DC 14) against the False Hydra's song. They can make their save once when they plug of their ears, and then again whenever they're given reasons to doubt what they're seeing. Once they make the save, as long as they stay deafened, they do not have to make the save again.
+If the PCs plug up their ears or somehow deafen themselves, they can make Wisdom saves (DC 14) against the False Hydra's song. They can make their save once when they plug of their ears, and then again whenever they're given reasons to doubt what they're seeing. Once they make the save, as long as they stay [[[general:conditions#deafened|deafened]]], they do not have to make the save again.
 
 Any PCs who save against the False Hydra's song see the world as it is: puddles of blood in the streets, holes in the road, broken windows and doors all over. And in a nearby window, a ghostly white lipless face, its eyes empty black voids, is fogging up the window with its breath. When it sees someone looking at it, it pulls back from the window on a serpentine neck.
 
