@@ -36,5 +36,5 @@ When you inscribe the glyph, choose one of the options below for its effect. Onc
 
 **Sleep.** Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
 
-**Stunning.** Each target must make a Wisdom saving throw and becomes stunned for 1 minute on a failed save."""
+**Stunning.** Each target must make a Wisdom saving throw and becomes [[[general:conditions#stunned|stunned]]] for 1 minute on a failed save."""
 source = "Player's Handbook, p. 280"

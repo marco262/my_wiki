@@ -193,6 +193,7 @@ The most common arcane traditions in the multiverse revolve around the schools o
 ## Homebrew
 
 * [[[subclass:School of Necromancy, Revised]]]
+* [[[subclass:School of Universalism]]]
 
 ----
 
