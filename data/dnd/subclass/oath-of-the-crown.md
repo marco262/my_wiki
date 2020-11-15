@@ -44,7 +44,7 @@ Starting at 7th level, when a creature within 5 feet of you takes damage, you ca
 
 ## Unyielding Saint
 
-Starting at 15th level, you have advantage on saving throws to avoid becoming [[[general:conditions#paralyzed|paralyzed]]] or stunned.
+Starting at 15th level, you have advantage on saving throws to avoid becoming [[[general:conditions#paralyzed|paralyzed]]] or [[[general:conditions#stunned|stunned]]].
 
 ## Exalted Champion
 
