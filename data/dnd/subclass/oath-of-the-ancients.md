@@ -34,7 +34,7 @@ You gain oath spells at the paladin levels listed.
 
 When you take this oath at 3rd level, you gain the following two Channel Divinity options.
 
-**Nature's Wrath.** You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
+**Nature's Wrath.** You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be [[[general:conditions#restrained|restrained]]]. While [[[general:conditions#restrained|restrained]]] by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
 
 **Turn the Faithless.** You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
 
