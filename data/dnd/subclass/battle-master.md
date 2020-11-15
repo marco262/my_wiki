@@ -115,7 +115,7 @@ Roll the superiority die. Until the start of your next turn, the ally gains a bo
 
 **Rally.** On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.
 
-**Restraining Strike.**[((bibcite UA Class Features))] Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to [[[general:combat#grappling|grapple]]] the target. Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way.
+**Restraining Strike.**[((bibcite UA Class Features))] Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to [[[general:combat#grappling|grapple]]] the target. Add the superiority die to your Strength (Athletics) check. The target is also [[[general:conditions#restrained|restrained]]] while grappled in this way.
 
 **Riposte.** When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.
 
