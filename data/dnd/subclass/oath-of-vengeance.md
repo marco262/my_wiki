@@ -40,7 +40,7 @@ On a failed save, the creature is [[[general:conditions#frightened|frightened]]]
 
 On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
 
-**Vow of Enmity.** As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.
+**Vow of Enmity.** As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls [[[general:conditions#unconscious|unconscious]]].
 
 ## Relentless Avenger
 
