@@ -171,7 +171,7 @@ At 6th level, as a reaction in response to being hit with an attack you can stif
 
 ### Greater Aspect of Metallic Dragons
 
-At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with metallic dragons.
+At 10th level, you become immune to [[[general:conditions#paralyzed|paralysis]]] and magical effects that render you [[[general:conditions#unconscious|unconscious]]]. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with metallic dragons.
 
 ### Discorporating Breath of Bahamut
 
@@ -224,7 +224,7 @@ At 6th level, as a reaction in response to being attacked, you can project the f
 
 ### Greater Aspect of Chromatic Dragons
 
-At 10th level, you become immune to paralysis and magical effects that render you unconscious. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with chromatic dragons.
+At 10th level, you become immune to [[[general:conditions#paralyzed|paralysis]]] and magical effects that render you [[[general:conditions#unconscious|unconscious]]]. Additionally, your breath weapon's range is doubled, and creatures who succeed on their saving throw versus your breath weapon take half damage instead of no damage. You may add your proficiency bonus to any Charisma checks when interacting with chromatic dragons.
 
 ### Fivefold Breath of Tiamat
 
