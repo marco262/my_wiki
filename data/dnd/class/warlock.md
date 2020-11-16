@@ -191,37 +191,39 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 
 If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.
 
-## Agonizing Blast
+## Player's Handbook
+
+### Agonizing Blast
 
 *Prerequisite: eldritch blast cantrip*
 
 When you cast *[[[spell:eldritch blast]]]*, add your Charisma modifier to the damage it deals on a hit.
 
-## Armor of Shadows
+### Armor of Shadows
 
 You can cast *[[[spell:mage armor]]]* on yourself at will, without expending a spell slot or material components.
 
-## Ascendent Step
+### Ascendent Step
 
 *Prerequisite: 9th level*
 
 You can cast *[[[spell:levitate]]]* on yourself at will, without expending a spell slot or material components.
 
-## Beast Speech
+### Beast Speech
 
 You can cast *[[[spell:speak with animals]]]* at will, without expending a spell slot.
 
-## Beguiling Influence
+### Beguiling Influence
 
 You gain proficiency in the Deception and Persuasion skills.
 
-## Bewitching Whispers
+### Bewitching Whispers
 
 *Prerequisite: 7th level*
 
 You can cast *[[[spell:compulsion]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Book of Ancient Secrets
+### Book of Ancient Secrets
 
 *Prerequisite: Pact of the Tome feature*
 
@@ -229,139 +231,239 @@ You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-lev
 
 On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.
 
-## Chains of Carceri
+### Chains of Carceri
 
 *Prerequisite: 15th level, Pact of the Chain feature*
 
 You can cast *[[[spell:hold monster]]]* at will -- targeting a celestial, fiend, or elemental -- without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
 
-## Devil's Sight
+### Devil's Sight
 
 You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.
 
-## Dreadful Word
+### Dreadful Word
 
 *Prerequisite: 7th level*
 
 You can cast *[[[spell:confusion]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Eldritch Sight
+### Eldritch Sight
 
 You can cast *[[[spell:detect magic]]]* at will, without expending a spell slot.
 
-## Eldritch Spear
+### Eldritch Spear
 
 *Prerequisite: [[[spell:eldritch blast]]] cantrip*
 
 When you cast *[[[spell:eldritch blast]]]*, its range is 300 feet.
 
-## Eyes of the Rune Keeper
+### Eyes of the Rune Keeper
 
 You can read all writing.
 
-## Fiendish Vigor
+### Fiendish Vigor
 
 You can cast *[[[spell:false life]]]* on yourself at will as a 1st-level spell, without expending a spell slot or material components.
 
-## Gaze of Two Minds
+### Gaze of Two Minds
 
 You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are [[[general:conditions#blinded|blinded]]] and [[[general:conditions#deafened|deafened]]] to your own surroundings.
 
-## Lifedrinker
+### Lifedrinker
 
 *Prerequisite: 12th level, Pact of the Blade feature*
 
 When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).
 
-## Mask of Many Faces
+### Mask of Many Faces
 
 You can cast *[[[spell:disguise self]]]* at will, without expending a spell slot.
 
-## Master of Myriad Forms
+### Master of Myriad Forms
 
 *Prerequisite: 15th level*
 
 You can cast *[[[spell:alter self]]]* at will, without expending a spell slot.
 
-## Minions of Chaos
+### Minions of Chaos
 
 *Prerequisite: 9th level*
 
 You can cast *[[[spell:conjure elemental]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Mire the Mind
+### Mire the Mind
 
 *Prerequisite: 5th level*
 
 You can cast *[[[spell:slow]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Misty Visions
+### Misty Visions
 
 You can cast *[[[spell:silent image]]]* at will, without expending a spell slot or material components.
 
-## One with Shadows
+### One with Shadows
 
 *Prerequisite: 5th level*
 
 When you are in an area of dim light or darkness, you can use your action to become [[[general:conditions#invisible|invisible]]] until you move or take an action or a reaction.
 
-## Otherworldly Leap
+### Otherworldly Leap
 
 *Prerequisite: 9th level*
 
 You can cast *[[[spell:jump]]]* on yourself at will, without expending a spell slot or material components.
 
-## Repelling Blast
+### Repelling Blast
 
 *Prerequisite: eldritch blast cantrip*
 
 When you hit a creature with *[[[spell:eldritch blast]]]*, you can push the creature up to 10 feet away from you in a straight line.
 
-## Sculptor of Flesh
+### Sculptor of Flesh
 
 *Prerequisite: 7th level*
 
 You can cast *[[[spell:polymorph]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Sign of Ill Omen
+### Sign of Ill Omen
 
 *Prerequisite: 5th level*
 
 You can cast *[[[spell:bestow curse]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Thief of Five Fates
+### Thief of Five Fates
 
 You can cast *[[[spell:bane]]]* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
-## Thirsting Blade
+### Thirsting Blade
 
 *Prerequisite: 5th level, Pact of the Blade feature*
 
 You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.
 
-## Visions of Distant Realms
+### Visions of Distant Realms
 
 *Prerequisite: 15th level*
 
 You can cast *[[[spell:arcane eye]]]* at will, without expending a spell slot.
 
-## Voice of the Chain Master
+### Voice of the Chain Master
 
 *Prerequisite: Pact of the Chain feature*
 
 You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.
 
-## Whispers of the Grave
+### Whispers of the Grave
 
 *Prerequisite: 9th level*
 
 You can cast *[[[spell:speak with dead]]]* at will, without expending a spell slot.
 
-## Witch Sight
+### Witch Sight
 
 *Prerequisite: 15th level*
 
 You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.
+
+## Xanathar's Guide to Everything
+
+### Aspect of the Moon
+
+_Prerequisite: Pact of the Tome feature_
+
+You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.
+
+### Cloak of Flies
+
+_Prerequisite: 5th level_
+
+As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.
+
+The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).
+
+Once you use this invocation, you can't use it again until you finish a short or long rest.
+
+### Eldritch Smite
+
+_Prerequisite: 5th level, Pact of the Blade feature_
+
+Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra ld8 force damage to the target, plus another ld8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.
+
+### Ghostly Gaze
+
+_Prerequisite: 7th level_
+
+As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that ra nge, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.
+
+Once you use this invocation, you can't use it again until you finish a short or long rest.
+
+### Gift of the Depths
+
+_Prerequisite: 5th level_
+
+You can breathe underwater, and you gain a swimming speed equal to your walking speed.
+
+You can also cast water breathing once without expending a spell slot. You regain the ability to do so when you finish a long rest.
+
+### Gift of the Ever-Living Ones
+
+_Prerequisite: Pact of the Chain feature_
+
+Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.
+
+### Grasp of Hadar
+
+_Prerequisite: eldritch blast cantrip_
+
+Once on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to you.
+
+### Improved Pact Weapon
+
+_Prerequisite: Pact of the Blade feature_
+
+You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.
+
+In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.
+
+Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.
+
+### Lance of Lethargy
+
+_Prerequisite: eldritch blast cantrip_
+
+Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 feet until the end of your next turn.
+
+### Maddening Hex
+
+_Prerequisite: 5th level, hex spell or a warlock feature that curses_
+
+As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.
+
+### Relentless Hex
+
+_Prerequisite: 7th level, hex spell or a warlock feature that curses_
+
+Your curse creates a temporary bond between you and your target. As a bonus action, you can magically tele port up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.
+
+### Shroud of Shadow
+
+_Prerequisite: 15th level_
+
+You can cast invisibility at will, without expending a spell slot.
+
+### Tomb of Levistus
+
+_Prerequisite: 5th level_
+
+As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary bit points, all end when the ice melts.
+
+Once you use this invocation, you can't use it again until you finish a short or long rest.
+
+### Trickster's Escape
+
+_Prerequisite: 7th level_
+
+You can cast freedom of movement once on yourself without expending a spell s lot. You regain the ability to do so when you finish a long rest.
 
 ----
 

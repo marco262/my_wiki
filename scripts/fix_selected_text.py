@@ -28,6 +28,22 @@ elif sys.argv[1] == "add_spell":
     text = text.lower()
     text = re.sub(r"^", "_[[[spell:", text)
     text = re.sub(r"$", "]]]_", text)
+elif sys.argv[1] == "make_invocations":
+    lines = []
+    for i, line in enumerate(re.split("\r?\n", text)):
+        if line.startswith("Prerequisite"):
+            lines.append("_" + line + "_")
+        elif line and line == line.upper():
+            new_line = []
+            for word in line.split(" "):
+                if word in ("OF", "THE"):
+                    new_line.append(word.lower())
+                else:
+                    new_line.append(word.title())
+            lines.append("### " + " ".join(new_line))
+        else:
+            lines.append(line)
+    text = "\n".join(lines)
 else:
     raise Exception("Unknown function: {}".format(sys.argv[1]))
 

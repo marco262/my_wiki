@@ -6,7 +6,8 @@ Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the
 
 The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
 
-**Great Old One Expanded Spells**
+### Great Old One Expanded Spells
+
 ||~ Spell Level ||~ Spells ||
 || 1st || *[[[spell:dissonant whispers]]]*, *[[[spell:Tasha's hideous laughter]]]* ||
 || 2nd || *[[[spell:detect thoughts]]]*, *[[[spell:phantasmal force]]]* ||
