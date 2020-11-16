@@ -4,7 +4,8 @@ You have made a pact with a fiend from the lower planes of existence, a being wh
 
 The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
 
-**Fiend Expanded Spells**
+### Fiend Expanded Spells
+
 ||~ Spell Level ||~ Spells ||
 || 1st || *[[[spell:burning hands]]]*, *[[[spell:command]]]* ||
 || 2nd || *[[[spell:blindness/deafness]]]*, *[[[spell:scorching ray]]]* ||
