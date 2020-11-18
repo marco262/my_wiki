@@ -3,10 +3,10 @@ As a member of the School of Enchantment, you have honed your ability to magical
 # School of Enchantment
 
 ||~ Wizard Level ||~ Features ||
-|| 2 || Enchantment Savant, Hypnotic Gaze ||
-|| 6 || Instinctive Charm ||
-|| 10 || Split Enchantment ||
-|| 14 || Alter Memories ||
+|| 2nd || Enchantment Savant, Hypnotic Gaze ||
+|| 6th || Instinctive Charm ||
+|| 10th || Split Enchantment ||
+|| 14th || Alter Memories ||
 
 ## Enchantment Savant
 
