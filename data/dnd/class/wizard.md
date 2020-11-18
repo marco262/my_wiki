@@ -185,10 +185,6 @@ The most common arcane traditions in the multiverse revolve around the schools o
 * [[[subclass:School of Necromancy]]]
 * [[[subclass:School of Transmutation]]]
 
-## Sword Coast Adventurer's Guide
-
-* [[[subclass:Bladesinging]]]
-
 ## Xanathar's Guide to Everything
 
 * [[[subclass:War Magic]]]
@@ -197,6 +193,10 @@ The most common arcane traditions in the multiverse revolve around the schools o
 
 * [[[subclass:School of Chronurgy]]]
 * [[[subclass:School of Graviturgy]]]
+
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Bladesinging]]]
 
 ## Unearthed Arcana
 
