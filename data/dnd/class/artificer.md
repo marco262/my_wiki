@@ -1,34 +1,14 @@
-Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power on an ally's armor, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents.
+Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections.
 
-## Arcane Science
+Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.
 
-In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magic, allows Eberron's most miraculous projects to continue.
+## Artificers in Many Worlds
 
-During the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but countless lives were also lost because of the mass destruction unleashed by their creations.
+Throughout the D&D multiverse, artificers create inventions and magic items of peace and war. Many lives have been brightened or saved because of the work of kind artificers, but countless lives have also been lost because of the mass destruction unleashed by certain artificers' creations.
 
-## Seekers of New Lore
+In the Forgotten Realms, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies of the Barrier Peaks of the world of Greyhawk have inspired some folks to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational.
 
-Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make their mark must innovate, creating something fresh, rather than iterating on familiar designs.
-
-This drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers seek the frontiers of civilization in hopes of making the next great discovery in arcane research.
-
-## Creating an Artificer
-
-When creating an artificer, think about your character's relationship with the artisan who taught them their craft. Does the character have a rival? Talk to your DM about the role played by artificers in the campaign and the sort of organizations you might have ties to.
-
-### Quick Build
-
-You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.
-
-### Optional Rule: Multiclassing
-
-If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.
-
-**Ability Score Minimum.** As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer.
-
-**Proficiencies Gained.** If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, thieves' tools, tinker's tools.
-
-**Spell Slots.** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.
+Artificers in the City of Sigil share discoveries from throughout the multiverse, and from there, the gnome artificer Vi runs a cosmos-spanning business that lures adventurers to fix problems that others deem unfixable. In Vi's home-world, Eberron, magic is harnessed as a form of science and deployed throughout society, largely as a result of the wondrous ingenuity of artificers.
 
 # The Artificer
 
@@ -54,17 +34,27 @@ If your group uses the optional rule on multiclassing in the Player's Handbook, 
 || 19th || +6 || Ability Score Improvement || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 2 ||
 || 20th || +6 || Soul of Artifice || 12 || 6 || 4 || 4 || 3 || 3 || 3 || 2 ||
 
-# Class Features
+## Creating an Artificer
+
+To create an artificer, consult the following subsections, which give you hit points, proficiencies, and starting equipment. Then look at the Artificer table to see which features you get at each level. The descriptions of those features appear in the "Artificer Features" section.
+
+### Quick Build
+
+You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.
 
 [[div class="phb-sidebar"]]
 
-**Artificers in Other Worlds**
+**Multiclassing and the Artificer**
 
-Eberron is the world most associated with artificers, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular -- the gnome inventor Vi -- has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the lzzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds -- except, perhaps, by the tinker gnomes of Krynn.
+If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.
+
+***Ability Score Minimum.*** As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer.
+
+***Proficiencies Gained.*** If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, thieves' tools, tinker's tools.
+
+***Spell Slots.*** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.
 
 [[/div]]
-
-As an artificer, you gain the following class features.
 
 ### Hit Points
 
@@ -80,7 +70,9 @@ As an artificer, you gain the following class features.
 * Saving Throws: Constitution, Intelligence
 * Skills: Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand
 
-### Equipment
+The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in the _Dungeon Master's Guide_ and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.
+
+### Starting Equipment
 
 You start with the following equipment, in addition to the equipment granted by your background:
 
@@ -91,13 +83,15 @@ You start with the following equipment, in addition to the equipment granted by 
 
 If you forgo this starting equipment, as well as the items offered by your background, you start with 5d4 x 10 gp to buy your equipment.
 
-### Optional Rule: Firearm Proficiency
+# Class Features
 
-The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in chapter 9 of the Dungeon Master's Guide and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.
+As an artificer, you gain the following class features, which are summarized in the Artificer table.
 
 ## Magical Tinkering
 
-At 1st level, you learn how to invest a spark of magic into mundane objects. To use this ability, you must have tinker's tools or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:
+_1st-level artificer feature_
+
+You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have tinker's tools or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:
 
  * The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.
  * Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.
@@ -122,11 +116,13 @@ Such details don't limit you in any way or provide you with any benefit beyond t
 
 [[/div]]
 
-You have studied the workings of magic and how to channel it through objects. As a result, you have gained the ability to cast spells. To observers, you don't appear to be casting spells in a conventional way; you look as if you're producing wonders using mundane items or outlandish inventions.
+_1st-level artificer feature_
+
+You've studied the workings of magic and how to cast spells, channeling the magic through objects. As a result, you have gained the ability to cast spells. To observers, you don't appear to be casting spells in a conventional way; you look as if you're producing wonders using mundane items or outlandish inventions.
 
 ### Tools Required
 
-You produce your artificer spell effects through your tools. You must have a spellcasting focus -- specifically thieves' tools or some kind of artisan's tool -- in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, "Equipment," in the Player's Handbook for descriptions of these tools.
+You produce your artificer spell effects through your [[[equipment:tools]]]. You must have a spellcasting focus -- specifically thieves' tools or some kind of artisan's tool -- in hand when you cast any spell with this Spellcasting feature (meaning the spell has an "M" component when you cast it). You must be proficient with the tool to use it in this way.
 
 After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.
 
@@ -159,7 +155,9 @@ You can cast an artificer spell as a ritual if that spell has the ritual tag and
 
 ## Infuse Item
 
-At 2nd level, you gain the ability to imbue mundane items with certain magical infusions. The magic items you create with this feature are effectively prototypes of permanent items.
+_2nd-level artificer feature_
+
+You've gained the ability to imbue mundane items with certain magical infusions, turning those objects into magic items.
 
 ### Infusions Known
 
@@ -171,91 +169,115 @@ Whenever you gain a level in this class, you can replace one of the artificer in
 
 Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see "Attunement" in chapter 7 of the Dungeon Master's Guide).
 
-Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.
+Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you replace your knowledge of the infusion.
 
-You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies.
+You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion ends, and then the new infusion applies.
+
+If an infusion ends on an item that contains other things, like a _bag of holding_, its contents harmlessly appear in and around its space.
 
 ## Artificer Specialist
 
-At 3rd level, you choose the type of specialist you are: Alchemist, Artillerist, or Battle Smith, each of which is detailed at the end of the class's description. Your choice grants you features at 5th level and again at 9th and 15th level.
+_3rd-level artificer feature_
+
+Choose the type of [specialist](#artificer-specialists) you are. Your choice grants you features at 5th level and again at 9th and 15th level.
 
 ## The Right Tool for the Job
 
-At 3rd level, you learn how to produce exactly the tool you need: with tinker's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.
+_3rd-level artificer feature_
+
+You've learned how to produce exactly the tool you need: with thieves' tools or artisan's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.
 
 ## Ability Score Improvement
 
-When you reach 4th, 8th, 1 2th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+_4th-level artificer feature_
+
+When you reach 4th level and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 ## Tool Expertise
 
-Starting at 6th level, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.
+_6th-level artificer feature_
+
+Your proficiency bonus is now doubled for any ability check you make that uses your proficiency with a tool.
 
 ## Flash of Genius
 
-Starting at 7th level, you gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.
+_7th-level artificer feature_
+
+You've gained the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.
 
 You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.
 
 ## Magic Item Adept
 
-When you reach 10th level, you achieve a profound understanding of how to use and make magic items:
+_10th-level artificer feature_
 
- * You can attune to up to four magic items at once.
- * If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.
+You've achieved a profound understanding of how to use and make magic items:
+
+* You can attune to up to four magic items at once.
+* If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.
 
 ## Spell-Storing Item
 
-At 11th level, you learn how to store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you needn't have it prepared).
+_11th-level artificer feature_
+
+You can now store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you needn't have it prepared).
 
 While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.
 
 ## Magic Item Savant
 
-At 14th level, your skill with magic items deepens more:
+_14th-level artificer feature_
 
- * You can attune to up to five magic items at once.
- * You ignore all class, race, spell, and level requirements on attuning to or using a magic item.
+Your skill with magic items deepens:
+
+* You can attune to up to five magic items at once.
+* You ignore all class, race, spell, and level requirements on attuning to or using a magic item.
 
 ## Magic Item Master
 
-Starting at 18th level, you can attune to up to six magic items at once.
+_18th-level artificer feature_
+
+You can now attune to up to six magic items at once.
 
 ## Soul of Artifice
 
-At 20th level, you develop a mystical connection to your magic items, which you can draw on for protection:
+_20th-level artificer feature_
 
- * You gain a +1 bonus to all saving throws per magic item you are currently attuned to.
- * If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0.
+You have developed a mystical connection to your magic items, which you can draw on for protection:
+
+* You gain a +1 bonus to all saving throws per magic item you are currently attuned to.
+* If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0.
 
 # Infusions
 
-Artificers have invented numerous magical infusions, extraordinary processes that rapidly create magic items. To many, artificers seem like wonderworkers, accomplishing in hours what others need weeks to complete.
-
-The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.
+Artificer infusions are extraordinary processes that rapidly turn a nonmagical object into a magic item. The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.
 
 Some infusions specify a minimum artificer level. You can't learn such an infusion until you are at least that level.
 
 Unless an infusion's description says otherwise, you can't learn an infusion more than once.
 
-### Armor of Magical Strength
+### Arcane Propulsion Armor
 
-_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
-_Prerequisite: 10th-level artificer_  
+_Prerequisite: 14th-level artificer_  
 _Item: A suit of armor (requires attunement)_
 
-While wearing this armor, a creature can use its Intelligence modifier in place of its Strength modifier when making Strength checks and Strength saving throws.
+The wearer of this armor gains these benefits:
 
-The armor has 4 charges. As a reaction when he would be knocked [[[general:conditions#prone|prone]]], the wearer can expend 1 charge to not be knocked [[[general:conditions#prone|prone]]]. The armor regains 1d4 expended charges daily at dawn.
+* The wearer's walking speed increases by 5 feet.
+* The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.
+* The armor can't be removed against the wearer's will.
+* If the wearer is missing any limbs, the armor replaces those limbs -- hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace.
 
-### Armor of Tools
+### Armor of Magical Strength
 
-_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
-_Item: A suit of armor_  
+_Item: A suit of armor (requires attunement)_
 
-As an action, a creature wearing this infused armor can integrate into it artisan's tools or thieves' tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.
+This armor has 6 charges. The wearer can expend the armor's charges in the following ways:
 
-The wearer can add his Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool.
+* When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to its Intelligence modifier
+* If the creature would be knocked prone, it can use its reaction to expend 1 charge to avoid being knocked prone.
+
+The armor regains 1d6 expended charges daily at dawn.
 
 ### Boots of the Winding Path
 
@@ -290,7 +312,6 @@ The bonus increases to +2 when you reach 10th level in this class.
 
 ### Helm of Awareness
 
-_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
 _Prerequisite: 10th-level artificer_  
 _Item: A helmet (requires attunement)_
 
@@ -333,24 +354,23 @@ reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that 
 [[/div]]
 
 _Prerequisite: 6th-level artificer_  
-_Item: A gem worth at least 100 gp or a dragonshard_
+_Item: A gem or crystal worth at least 100 gp_
 
 You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.
 
 You determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.
 
-The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block.
+The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.
 
-In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take the action in its stat block or the Dash, Disengage, Help, Hide, or Search action.
+In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.
 
-The homunculus regains 2d6 hit points if the _[[[spell:mending]]]_ spell is cast on it. If it dies, it vanishes, leaving its heart in its space.
+The homunculus regains 2d6 hit points if the _[[[spell:mending]]]_ spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space.
  
 ### Mind Sharpener
 
-_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
 _Item: A suit of armor or robes_
 
-The infused item can send a jolt to the wearer to refocus their mind. While wearing this infused item, whenever the creature fails a Constitution saving throw to maintain concentration on a spell, it can use its reaction to succeed instead.
+The infused item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn.
 
 ### Radiant Weapon
 
@@ -359,7 +379,7 @@ _Item: A simple or martial weapon (requires attunement)_
 
 This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.
 
-The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be [[[general:conditions#blinded|blinded]]] until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains ld4 expended charges daily at dawn.
+The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be [[[general:conditions#blinded|blinded]]] until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.
 
 ### Repeating Shot
 
@@ -371,21 +391,17 @@ If you load no ammunition in the weapon, it produces its own, automatically crea
 
 ### Replicate Magic Item
 
-Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table.
+Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.
 
 In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.
-
-If you have Xanathar's Guide to Everything, you can choose from among the common magic items in that book when you pick a magic item you can replicate with this infusion.
 
 **Replicable Items (2nd-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
 || Alchemy jug || No ||
-|| Armblade || Yes ||
 || Bag of holding || No ||
 || Cap of water breathing || No ||
 || Goggles of night || No ||
-|| Prosthetic limb || Yes ||
 || Rope of climbing || No ||
 || Sending stones || No ||
 || Wand of magic detection || No ||
@@ -402,7 +418,6 @@ If you have Xanathar's Guide to Everything, you can choose from among the common
 || Lantern of revealing || No ||
 || Pipes of haunting || No ||
 || Ring of water walking || No ||
-|| Wand sheath || Yes ||
 
 **Replicable Items (10th-Level Artificer)**
 
@@ -420,20 +435,19 @@ If you have Xanathar's Guide to Everything, you can choose from among the common
 || Headband of intellect || Yes ||
 || Helm of telepathy || Yes ||
 || Medallion of thoughts || Yes ||
+|| Necklace of adaptation || Yes ||
 || Periapt of wound closure || Yes ||
 || Pipes of the sewers || Yes ||
 || Quiver of Ehlonna || No ||
 || Ring of jumping || Yes ||
 || Ring of mind shielding || Yes ||
 || Slippers of spider climbing || Yes ||
-|| Ventilating lung || Yes ||
 || Winged boots || Yes ||
 
 **Replicable Items (14th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
 || Amulet of health || Yes ||
-|| Arcane propulsion arm || Yes ||
 || Belt of hill giant strength || Yes ||
 || Boots of levitation || Yes ||
 || Boots of speed || Yes ||
@@ -453,7 +467,7 @@ _Item: A shield (requires attunement)_
 
 A creature gains a +1 bonus to Armor Class while wielding this shield.
 
-The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains ld4 expended charges daily at dawn.
+The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.
 
 ### Resistant Armor
 
@@ -470,26 +484,22 @@ This magic weapon grants a +1 bonus to attack and damage rolls made with it, and
 
 ### Spell-Refueling Ring
 
-_Source: [Unearthed Arcana](https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf)_  
 _Prerequisite: 6th-level artificer_  
 _Item: A ring (requires attunement)_
 
-While wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can't be used again until the next dawn.
+While wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn.
 
 # Artificer Specialists
 
 Artificers pursue many disciplines. Here are specialist options you can choose from at 3rd level.
 
-## Eberron: Rising from the Last War
+## Tasha's Cauldron of Everything
 
  * [[[subclass:Alchemist]]]
+ * [[[subclass:Armorer]]]
  * [[[subclass:Artillerist]]]
  * [[[subclass:Battle Smith]]]
 
-## Unearthed Arcana
+----
 
- * [[[subclass:Armorer]]]
-
----
-
-_Source: Eberron: Rising from the Last War, p. 54_
+_Source: Tasha's Cauldron of Everything, p. 9_

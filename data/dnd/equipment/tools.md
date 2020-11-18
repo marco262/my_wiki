@@ -1,9 +1,7 @@
-A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the DM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.
-
 [[div style="float: left; padding-right: 10px; "]]
 
 ||~ Item ||~ Cost ||~ Weight ||
-|||||| *Artisan's tools* ||
+|| **Artisan's tools** ||||||
 || Alchemist's supplies || 50 gp || 8 lb. ||
 || Brewer's supplies || 20 gp || 9 lb. ||
 || Calligrapher's supplies || 10 gp || 5 lb. ||
@@ -23,13 +21,13 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 || Woodcarver's tools || 1 gp || 5 lb. ||
 || Disguise kit || 25 gp || 3 lb. ||
 || Forgery kit || 15 gp || 5 lb. ||
-|||||| *Gaming set* ||
+|| **Gaming set** ||||||
 || Dice set || 1 sp || -- ||
 || Dragonchess set || 1 gp || 1/2 lb. ||
 || Playing card set || 5 sp || -- ||
 || Three-Dragon Ante set || 1 gp || -- ||
 || Herbalism kit || 5 gp || 3 lb. ||
-|||||| *Musical instrument* ||
+|| **Musical instrument** ||||||
 || Bagpipes || 30 gp || 6 lb. ||
 || Drum || 6 gp || 3 lb. ||
 || Dulcimer || 25 gp || 10 lb. ||
@@ -48,6 +46,8 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 [[/div]]
 
+A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the DM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.
+
 **Artisan's Tools.** These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
 
 **Disguise Kit.** This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
@@ -65,6 +65,5 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 **Poisoner's Kit.** A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.
 
 **Thieves' Tools.** This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.
-[[/cell]]
-[[/row]]
-[[/table]]
+
+<div class="no-float"></div>
