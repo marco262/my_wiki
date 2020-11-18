@@ -2,6 +2,8 @@ Bladesingers master a tradition of wizardry that incorporates swordplay and danc
 
 In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a bladesinger at work remember the display as one of the more beautiful experiences in their life, a glorious dance accompanied by a singing blade.
 
+# Bladesinging
+
 [[div class="phb-sidebar"]]
 
 **Bladesinger Styles**
@@ -19,8 +21,6 @@ Styles of Bladesinging are broadly categorized based on the type of weapon emplo
 _Source: Sword Coast Adventurer's Guide, p. 142_
 
 [[/div]]
-
-# Bladesinging
 
 ||~ Wizard Level ||~ Features ||
 || 2 || Training in War and Song, Bladesong ||

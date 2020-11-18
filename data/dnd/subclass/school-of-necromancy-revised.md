@@ -5,10 +5,10 @@ Most people see necromancers as menacing, or even villainous, due to the close a
 # School of Necromancy
 
 ||~ Wizard Level ||~ Features ||
-|| 2 || Necromancy Savant, False Healer ||
-|| 6 || Undead Thralls ||
-|| 10 || Split Enchantment ||
-|| 14 || Alter Memories ||
+|| 2nd || Necromancy Savant, False Healer ||
+|| 6th || Undead Thralls ||
+|| 10th || Split Enchantment ||
+|| 14th || Alter Memories ||
 
 ## Necromancy Savant
 

@@ -3,10 +3,10 @@ Though most wizards specialize in a single school of magic, the rare and excepti
 # School of Necromancy
 
 ||~ Wizard Level ||~ Features ||
-|| 2 || Arcane Savant, Arcane Memorization ||
-|| 6 || Arcane Condensation ||
-|| 10 || Arcane Recitation ||
-|| 14 || Arcane Concentration ||
+|| 2nd || Arcane Savant, Arcane Memorization ||
+|| 6th || Arcane Condensation ||
+|| 10th || Arcane Recitation ||
+|| 14th || Arcane Concentration ||
 
 ## Arcane Savant
 

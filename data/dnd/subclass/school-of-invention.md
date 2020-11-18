@@ -9,10 +9,10 @@ Wizards of this tradition are regarded as savants to their faces, but wizards of
 # The School of Invention
 
 ||~ Wizard Level ||~ Features ||
-|| 2 || Tools of the Inventor, Arcanomechanical Armor, Reckless Casting ||
-|| 6 || Alchemical Casting ||
-|| 10 || Prodigious Inspiration ||
-|| 14 || Controlled Chaos ||
+|| 2nd || Tools of the Inventor, Arcanomechanical Armor, Reckless Casting ||
+|| 6th || Alchemical Casting ||
+|| 10th || Prodigious Inspiration ||
+|| 14th || Controlled Chaos ||
 
 ## Tools of the Inventor
 
