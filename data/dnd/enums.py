@@ -17,6 +17,7 @@ classes = [
 ]
 
 spell_classes = [
+    "artificer",
     "bard",
     "cleric",
     "druid",
@@ -71,6 +72,7 @@ durations = [
     "10 minutes",
     "1 hour",
     "2 hours",
+    "6 hours",
     "8 hours",
     "24 hours",
     "1 day",
@@ -116,8 +118,21 @@ sources = [
     "Sword Coast Adventurer's Guide",
     "Xanathar's Guide to Everything",
     "Lost Laboratory of Kwalish",
+    "Explorer's Guide to Wildemount",
+    "Tasha's Cauldron of Everything",
     "Homebrew"
 ]
+
+source_acronyms = {
+    "Player's Handbook": "PHB",
+    "Elemental Evil": "EE",
+    "Sword Coast Adventurer's Guide": "SCAG",
+    "Xanathar's Guide to Everything": "XGtE",
+    "Lost Laboratory of Kwalish": "LLoK",
+    "Explorer's Guide to Wildemount": "EGtW",
+    "Tasha's Cauldron of Everything": "TCoE",
+    "Homebrew": "Home"
+}
 
 ability_scores = [
     "Strength",

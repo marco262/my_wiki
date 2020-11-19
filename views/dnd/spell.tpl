@@ -29,5 +29,5 @@ end
 <p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
 
 % end
-<hr>
+<hr class="no-float">
 <p><em>Source: {{source}}</em></p>
