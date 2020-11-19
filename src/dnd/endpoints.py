@@ -199,8 +199,8 @@ def load_wsgi_endpoints(app: Bottle):
                     break
             else:
                 continue
-            for t in filter_keys["durations"]:
-                if t in v["duration"]:
+            for d in filter_keys["durations"]:
+                if d in v["duration"]:
                     break
             else:
                 continue

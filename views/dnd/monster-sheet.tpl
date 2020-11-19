@@ -11,7 +11,7 @@ cha_mod = ability_mod(charisma)
 <div class="monster-sheet" style="max-width: {{ width }};">
     <div class="top-bottom-bar"></div>
     <h1 class="name">{{ name }}</h1>
-    <div class="type">{{ size }} {{ type }}, {{ alignment }}</div>
+    <div class="type">{{ size }} {{ type }}{{ ", " + alignment if alignment else "" }}</div>
     <div class="red-bar"></div>
     <div class="text"><strong>Armor Class</strong> {{ armor_class }}</div>
     <div class="text"><strong>Hit Points</strong> {{ hit_points }}</div>
@@ -33,31 +33,34 @@ cha_mod = ability_mod(charisma)
     </div>
     <div class="red-bar"></div>
     % if defined("saves"):
-    <div class="text"><strong>Saving Throws:</strong> {{ saves }}</div>
+    <div class="text"><strong>Saving Throws</strong> {{ saves }}</div>
     % end
     % if defined("skills"):
-    <div class="text"><strong>Skills:</strong> {{ skills }}</div>
+    <div class="text"><strong>Skills</strong> {{ skills }}</div>
     % end
     % if defined("damage_vulnerabilities"):
-    <div class="text"><strong>Damage Vulnerabilities:</strong> {{ damage_vulnerabilities }}</div>
+    <div class="text"><strong>Damage Vulnerabilities</strong> {{ damage_vulnerabilities }}</div>
     % end
     % if defined("damage_resistances"):
-    <div class="text"><strong>Damage Resistances:</strong> {{ damage_resistances }}</div>
+    <div class="text"><strong>Damage Resistances</strong> {{ damage_resistances }}</div>
     % end
     % if defined("damage_immunities"):
-    <div class="text"><strong>Damage Immunities:</strong> {{ damage_immunities }}</div>
+    <div class="text"><strong>Damage Immunities</strong> {{ damage_immunities }}</div>
     % end
     % if defined("condition_immunities"):
-    <div class="text"><strong>Condition Immunities:</strong> {{ condition_immunities }}</div>
+    <div class="text"><strong>Condition Immunities</strong> {{ condition_immunities }}</div>
     % end
     % if defined("senses"):
-    <div class="text"><strong>Senses:</strong> {{ senses }}</div>
+    <div class="text"><strong>Senses</strong> {{ senses }}</div>
     % end
     % if defined("languages"):
-    <div class="text"><strong>Languages:</strong> {{ languages }}</div>
+    <div class="text"><strong>Languages</strong> {{ languages }}</div>
     % end
     % if defined("challenge"):
-    <div class="text"><strong>Challenge:</strong> {{ challenge }}</div>
+    <div class="text"><strong>Challenge</strong> {{ challenge }}</div>
+    % end
+    % if defined("proficiency_bonus"):
+    <div class="text"><strong>Proficiency Bonus</strong> {{ proficiency_bonus }}</div>
     % end
     <div class="red-bar"></div>
     % if defined("special_abilities"):

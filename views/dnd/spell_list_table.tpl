@@ -1,11 +1,11 @@
-% from data.dnd.enums import spell_classes
+% from data.dnd.enums import spell_classes, source_acronyms
 % if not get("spells"):
 <i>No Results</i>
 % else:
-<table>
+<table style="width: 100%">
     <tr>
-        <th>Spell Name</th>
-        <th>School</th>
+        <th style="min-width: 264px;">Spell Name</th>
+        <th style="min-width: 100px;">School</th>
         <%
         if get("show_classes"):
             for c in spell_classes:
@@ -19,14 +19,14 @@
     </tr>
     % for k, s in spells:
     <tr>
-        <td style="min-width: 264px;">
+        <td>
             <%
             r = "<sup>r</sup>" if s["ritual_spell"] else ""
             c = "<sup>c</sup>" if s["concentration_spell"] else ""
             %>
             <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
         </td>
-        <td style="min-width: 102px;">{{s["school"].title()}}</td>
+        <td>{{s["school"].title()}}</td>
         <%
         if get("show_classes"):
             for c in spell_classes:
@@ -38,7 +38,12 @@
             end
         end
         %>
-        <td style="min-width: 233px;">{{s["source"].split(", p")[0]}}</td>
+        <td>
+            % source = s["source"].split(", p")[0]
+            <div class="tooltip">{{source_acronyms[source]}}
+                <span class="tooltiptext">{{source}}</span>
+            </div>
+        </td>
     <tr>
     % end
 </table>
