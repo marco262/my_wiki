@@ -2,17 +2,23 @@
 
 [Site Search](/dnd/site_search)<br>
 
-## [[[general:Races]]]
+## Character Creation
 
-## [[[general:Classes]]]
+[[[general:Races]]]
+
+[[[general:Classes]]]
 
 % for c in classes:
 * [[[class:{{c.title()}}]]]
 % end
 
-### Homebrew classes
+**Homebrew classes**
 
 * [[[class:Dragonfire Adept]]]
+
+[[[general:Backgrounds]]]
+
+[[[advancement:Feats]]]
 
 ## Equipment
 
@@ -28,24 +34,19 @@
 * [[[equipment:Trinkets]]]
 * [Magic Items](/dnd/equipment/magic-items/)
 
-## Advancement
-
-* [[[advancement:Feats]]]
-
 ## Spells
 
+* [Find a Spell](/dnd/find_spell)<br>
+* [Spell Filter](/dnd/spell_filter)
 * [All Spells By Name](/dnd/all_spells_by_name/true)
 * [Concentration Spells](/dnd/concentration_spells/true)
 * [Ritual Spells](/dnd/ritual_spells/true)
 
-### Class Spell Lists
+**Class Spell Lists**
 
 % for c in spell_classes:
 * [{{c.title()}} Spells](/dnd/class_spell_list/{{c}}/true)
 % end
-
-[Find a Spell](/dnd/find_spell)<br>
-[Spell Filter](/dnd/spell_filter)
 
 ## System Info
 

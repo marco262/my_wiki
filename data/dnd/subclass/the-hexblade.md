@@ -23,7 +23,7 @@ Starting at 1st level, you gain the ability to place a baleful curse on someone.
 * Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.
 * If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point).
 
-You can’t use this feature again until you finish a short or long rest.
+You can't use this feature again until you finish a short or long rest.
 
 ## Hex Warrior
 
@@ -41,7 +41,7 @@ Once you bind a specter with this feature, you can't use the feature again until
 
 ## Armor of Hexes
 
-At 10th level, your hex grows more powerful. If the target cursed by your Hexblade’s Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.
+At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.
 
 ## Master of Hexes
 
