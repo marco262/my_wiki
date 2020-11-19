@@ -26,6 +26,7 @@ elif sys.argv[1] == "fix_line_breaks":
     text = re.sub(r"[ϐ|ϔ]", "f", text)
     text = re.sub(r"●", "*", text)
     text = re.sub(r"¦", "fi", text)
+    text = re.sub(r"§", "fl", text)
     text = re.sub(r"\r?\n", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)
