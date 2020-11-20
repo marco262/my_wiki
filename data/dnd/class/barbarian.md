@@ -173,7 +173,7 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 * [[[subclass:Path of the Storm Herald]]]
 * [[[subclass:Path of the Zealot]]]
 
-## Unearthed Arcana
+## Tasha's Cauldron of Everything
 
 * [[[subclass:Path of the Beast]]]
 

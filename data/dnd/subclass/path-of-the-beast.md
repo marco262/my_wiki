@@ -1,10 +1,10 @@
-Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast howls to be released and bursts forth in the throes of rage.
+Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.
 
-Those who tread this path might be inhabited by a primal spirit or descended from shapeshifters. You can choose the origin of your feral might or determine it randomly by rolling on the following table.
+Such a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.
 
 ||~ d4 ||~ Origin ||
 || 1 || One of your parents is a lycanthrope, and you've inherited some of the curse. ||
-|| 2 || You are descended from a legendary druid, a fact manifested by your ability to partially change shape. ||
+|| 2 || You are descended from an archdruid and inherited the ability to partially change shape. ||
 || 3 || A fey spirit gifted you with the ability to adopt different bestial aspects. ||
 || 4 || An ancient animal spirit dwells within you, allowing you to walk this path. ||
 
@@ -20,53 +20,49 @@ Those who tread this path might be inhabited by a primal spirit or descended fro
 
 _3rd-level Path of the Beast feature_
 
-When you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:
+When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.
 
-**Bite.** Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).
+You choose the weapon's form each time you rage:
 
-**Claws.** Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.
+**Bite.** Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.
 
-**Tail.** You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.
+**Claws.** Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.
+
+**Tail.** You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.
 
 ## Bestial Soul
 
 _6th-level Path of the Beast feature_
 
-The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+The feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
-You can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:
+You can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish your next short or long rest:
 
-### Climbing
-
-You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-### Jumping
-
-When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.
-
-### Swimming
-
-You gain a swimming speed equal to your walking speed, and you can breathe underwater.
+* You gain a swimming speed equal to your walking speed, and you can breathe underwater.
+* You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+* When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.
 
 ## Infectious Fury
 
 _10th-level Path of the Beast feature_
 
-When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):
+When you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):
 
 * The target must use its reaction to make a melee attack against another creature of your choice that you can see.
-* Target takes 2d12 psychic damage.
+* The target takes 2d12 psychic damage.
 
-You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ## Call the Hunt
 
 _14th-level Path of the Beast feature_
 
-The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being [[[general:conditions#frightened|frightened]]]. You also gain 5 temporary hit points for each creature that accepts the benefit.
+The beast within you grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of other willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature).
 
-You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can each use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a d6 and gain a bonus to the damage equal to the number rolled.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ----
 
-_Source:_ <https://www.dndbeyond.com/subclasses/path-of-the-beast-ua>
+_Source: Tasha's Cauldron of Everything, p. XX_
