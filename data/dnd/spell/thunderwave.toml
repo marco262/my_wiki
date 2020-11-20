@@ -1,6 +1,5 @@
 title = "Thunderwave"
 classes = ["bard", "druid", "sorcerer", "wizard"]
-classes_ua = ["warlock"]
 level = "1"
 school = "evocation"
 concentration_spell = false

@@ -1,6 +1,5 @@
 title = "Tiny Servant"
 classes = ["artificer", "wizard"]
-classes_ua = ["bard"]
 level = "3"
 school = "transmutation"
 concentration_spell = false

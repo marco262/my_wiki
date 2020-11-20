@@ -1,6 +1,6 @@
 title = "Magic Weapon"
 classes = ["artificer", "paladin", "wizard"]
-classes_ua = ["ranger"]
+classes_ua = ["ranger", "sorcerer"]
 level = "2"
 school = "transmutation"
 concentration_spell = true

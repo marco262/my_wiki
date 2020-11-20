@@ -1,5 +1,6 @@
 title = "Bigby's Hand"
 classes = ["artificer", "wizard"]
+classes_ua = ["sorcerer"]
 level = "5"
 school = "evocation"
 concentration_spell = true

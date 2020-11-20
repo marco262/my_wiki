@@ -1,6 +1,5 @@
 title = "Scatter"
 classes = ["sorcerer", "warlock", "wizard"]
-classes_ua = ["bard"]
 level = "6"
 school = "conjuration"
 concentration_spell = false

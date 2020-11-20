@@ -1,5 +1,6 @@
 title = "Otiluke's Freezing Sphere"
 classes = ["wizard"]
+classes_ua = ["sorcerer"]
 level = "6"
 school = "evocation"
 concentration_spell = false

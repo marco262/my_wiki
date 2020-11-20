@@ -1,6 +1,5 @@
 title = "Skill Empowerment"
 classes = ["artificer", "bard", "sorcerer", "wizard"]
-classes_ua = ["cleric"]
 level = "5"
 school = "transmutation"
 concentration_spell = true

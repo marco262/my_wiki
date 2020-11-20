@@ -1,6 +1,5 @@
 title = "Abi Dalzim's Horrid Wilting"
 classes = ["sorcerer", "wizard"]
-classes_ua = ["warlock"]
 level = "8"
 school = "necromancy"
 concentration_spell = false

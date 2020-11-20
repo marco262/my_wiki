@@ -1,6 +1,5 @@
 title = "Dawn"
 classes = ["cleric", "wizard"]
-classes_ua = ["druid", "paladin"]
 level = "5"
 school = "evocation"
 concentration_spell = true

@@ -1,6 +1,5 @@
 title = "Animate Dead"
 classes = ["cleric", "wizard"]
-classes_ua = ["warlock"]
 level = "3"
 school = "necromancy"
 concentration_spell = false

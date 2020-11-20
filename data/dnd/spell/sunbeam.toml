@@ -1,5 +1,6 @@
 title = "Sunbeam"
 classes = ["druid", "sorcerer", "wizard"]
+classes_ua = ["cleric"]
 level = "6"
 school = "evocation"
 concentration_spell = true

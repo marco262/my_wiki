@@ -1,6 +1,6 @@
 title = "Elemental Weapon"
 classes = ["artificer", "paladin"]
-classes_ua = ["druid"]
+classes_ua = ["druid", "ranger"]
 level = "3"
 school = "transmutation"
 concentration_spell = true

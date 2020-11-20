@@ -1,6 +1,5 @@
 title = "Mass Polymorph"
 classes = ["bard", "sorcerer", "wizard"]
-classes_ua = ["druid"]
 level = "9"
 school = "transmutation"
 concentration_spell = true

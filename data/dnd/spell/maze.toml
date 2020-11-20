@@ -1,6 +1,5 @@
 title = "Maze"
 classes = ["wizard"]
-classes_ua = ["bard"]
 level = "8"
 school = "conjuration"
 concentration_spell = true

@@ -1,6 +1,5 @@
 title = "Contact Other Plane"
 classes = ["warlock", "wizard"]
-classes_ua = ["bard"]
 level = "5"
 school = "divination"
 concentration_spell = false
