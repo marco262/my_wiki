@@ -356,6 +356,8 @@ You have practiced extensively with a variety of weapons, gaining the following 
 
 # Tasha's Cauldron of Everything
 
+_Source: Tasha's Cauldron of Everything, p. 79_
+
 ## Artificer Initiate
 
 You've learned some of an artificer's inventiveness:
