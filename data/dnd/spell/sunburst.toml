@@ -1,5 +1,6 @@
 title = "Sunburst"
 classes = ["druid", "sorcerer", "wizard"]
+classes_ua = ["cleric"]
 level = "8"
 school = "evocation"
 concentration_spell = false

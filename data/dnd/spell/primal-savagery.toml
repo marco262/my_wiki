@@ -1,6 +1,5 @@
 title = "Primal Savagery"
 classes = ["druid"]
-classes_ua = ["sorcerer"]
 level = "cantrip"
 school = "transmutation"
 concentration_spell = false

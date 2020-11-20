@@ -1,6 +1,6 @@
 title = "Power Word Heal"
 classes = ["bard"]
-classes_ua = ["cleric", "druid"]
+classes_ua = ["cleric"]
 level = "9"
 school = "evocation"
 concentration_spell = false

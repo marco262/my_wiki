@@ -1,6 +1,5 @@
 title = "Shapechange"
 classes = ["druid", "wizard"]
-classes_ua = ["warlock"]
 level = "9"
 school = "transmutation"
 concentration_spell = true

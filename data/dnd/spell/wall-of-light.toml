@@ -1,6 +1,5 @@
 title = "Wall of Light"
 classes = ["sorcerer", "warlock", "wizard"]
-classes_ua = ["cleric"]
 level = "5"
 school = "evocation"
 concentration_spell = true

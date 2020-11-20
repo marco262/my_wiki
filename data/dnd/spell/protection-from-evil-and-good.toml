@@ -1,6 +1,6 @@
 title = "Protection From Evil and Good"
 classes = ["cleric", "paladin", "warlock", "wizard"]
-classes_ua = ["druid", "sorcerer"]
+classes_ua = ["druid"]
 level = "1"
 school = "abjuration"
 concentration_spell = true

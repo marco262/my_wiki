@@ -1,6 +1,5 @@
 title = "Create Homunculus"
 classes = ["wizard"]
-classes_ua = ["warlock"]
 level = "6"
 school = "transmutation"
 concentration_spell = false

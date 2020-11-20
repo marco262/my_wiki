@@ -1,6 +1,5 @@
 title = "Thunder Step"
 classes = ["sorcerer", "warlock", "wizard"]
-classes_ua = ["druid"]
 level = "3"
 school = "conjuration"
 concentration_spell = false

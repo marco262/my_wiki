@@ -1,6 +1,5 @@
 title = "Blinding Smite"
 classes = ["paladin"]
-classes_ua = ["ranger"]
 level = "3"
 school = "evocation"
 concentration_spell = true

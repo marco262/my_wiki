@@ -1,6 +1,5 @@
 title = "Phantasmal Force"
 classes = ["bard", "sorcerer", "wizard"]
-classes_ua = ["bard"]
 level = "2"
 school = "illusion"
 concentration_spell = true

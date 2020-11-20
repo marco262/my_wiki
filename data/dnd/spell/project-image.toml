@@ -1,6 +1,5 @@
 title = "Project Image"
 classes = ["bard", "wizard"]
-classes_ua = ["warlock"]
 level = "7"
 school = "illusion"
 concentration_spell = true

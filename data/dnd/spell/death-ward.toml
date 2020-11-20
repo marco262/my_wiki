@@ -1,6 +1,5 @@
 title = "Death Ward"
 classes = ["cleric", "paladin"]
-classes_ua = ["ranger"]
 level = "4"
 school = "abjuration"
 concentration_spell = false

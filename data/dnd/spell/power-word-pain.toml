@@ -1,6 +1,5 @@
 title = "Power Word Pain"
 classes = ["sorcerer", "warlock", "wizard"]
-classes_ua = ["bard"]
 level = "7"
 school = "enchantment"
 concentration_spell = false
