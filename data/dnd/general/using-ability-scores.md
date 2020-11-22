@@ -404,3 +404,7 @@ Each class gives proficiency in at least two saving throws. The wizard, for exam
 The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.
 
 The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect.
+
+----
+
+_Source: Player's Handbook, p. 173_
