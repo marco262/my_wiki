@@ -85,12 +85,6 @@ You adopt a particular style of fighting as your specialty. Choose one of the fo
 
 You gain a +2 bonus to attack rolls you make with ranged weapons.
 
-### Blind Fighting
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you.
-
 ### Defense
 
 While you are wearing armor, you gain a +1 bonus to AC.
@@ -103,19 +97,31 @@ When you are wielding a melee weapon in one hand and no other weapons, you gain 
 
 When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
 
-### Interception
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
-
 ### Protection
 
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 
-### Superior Technique
+### Two-Weapon Fighting
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+When you engage in [[[general:combat#two-weapon-fighting|two-weapon fighting]]], you can add your ability modifier to the damage of the second attack.
+
+[[accordion Optional Class Features: Fighting Style Options]]
+
+_Source: Tasha's Cauldron of Everything, p. 41_ 
+
+_1st-level fighter feature_
+
+When you choose a fighting style, the following styles are added to your list of options.
+
+### Blind Fighting
+
+You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
+
+### Interception
+
+When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+
+### Superior Technique
 
 You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
 
@@ -123,29 +129,17 @@ You gain one superiority die, which is a d6 (this die is added to any superiorit
 
 ### Thrown Weapon Fighting
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
 You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
 
-In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
-
-### Two-Weapon Fighting
-
-When you engage in [[[general:combat#two-weapon-fighting|two-weapon fighting]]], you can add your ability modifier to the damage of the second attack.
+In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
 
 ### Unarmed Fighting
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
 
-Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.
+At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.
 
-When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.
-
-## Martial Versatility
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+[[/accordion]]
 
 ## Second Wind
 
@@ -162,6 +156,21 @@ Once you use this feature, you must finish a short or long rest before you can u
 ## Martial Archetype
 
 At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player's Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+
+[[accordion Optional Class Features: Martial Versatility]]
+
+## Martial Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 42_
+
+_4th-level fighter feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:
+
+* Replace a fighting style you know with another fighting style available to fighters.
+* If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.
+
+[[/accordion]]
 
 ## Extra Attack
 
@@ -214,3 +223,8 @@ Different fighters choose different approaches to perfecting their fighting prow
 ----
 
 *Source: Player's Handbook, p. 70*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
