@@ -98,22 +98,6 @@ Beginning at 1st level, while you are wearing no armor and not wielding a shield
 
 ## Martial Arts
 
-[[div class="phb-sidebar"]]
-
-**Monk Weapons**
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.
-
-You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:
-
- * The weapon must be a simple or martial weapon.
- * You must be proficient with the weapon.
- * The weapon must lack these properties: heavy, special, or two-handed.
-
-[[/div]]
-
 At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
@@ -123,24 +107,6 @@ You gain the following benefits while you are unarmed or wielding only monk weap
 * When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
 
 Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon in the [[[equipment:Weapons]]] section.
-
-[[accordion Variant Class Features]]
-
-## Monk Weapons
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-_1st-level monk feature (enhances Martial Arts)_
-
-You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.
-
-You practice your martial arts with specially chosen weapons, which become monk weaponsfor you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:
-
-* The weapon must be a simple or martial weapon.
-* You must be proficient with the weapon.
-* The weapon must lack these properties: heavy, special, or two-handed.
-
-[[/accordion]]
 
 ## Ki
 
@@ -154,14 +120,6 @@ Some of your ki features require your target to make a saving throw to resist th
 
 * Ki save DC = 8 + your proficiency bonus + your Wisdom modifier
 
-If you spend 1 ki or more as part of your action on your turn, you can then immediately make one unarmed strike as a bonus action.[((bibcite UA Class Features))]
-
-### Distant Eye
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When you make a ranged weapon attack, you can spend 1 ki point to prevent attacking at long range from imposing disadvantage on your attack rolls until the end of the current turn. 
-
 ### Flurry of Blows
 
 Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.
@@ -169,12 +127,6 @@ Immediately after you take the Attack action on your turn, you can spend 1 ki po
 ### Patient Defense
 
 You can spend 1 ki point to take the Dodge action as a bonus action on your turn.
-
-### Quickened Healing
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled.
 
 ### Step of the Wind
 
@@ -186,6 +138,24 @@ Starting at 2nd level, your speed increases by 10 feet while you are not wearing
 
 At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.
 
+[[accordion Optional Class Features: Dedicated Weapon]]
+
+## Dedicated Weapon
+
+_Source: Tasha's Cauldron of Everything, p. 48_
+
+_2nd-level monk feature_
+
+You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.
+
+The chosen weapon must meet these criteria:
+
+* The weapon must be a simple or martial weapon.
+* You must be proficient with it.
+* It must lack the heavy and special properties.
+
+[[/accordion]]
+
 ## Monastic Tradition
 
 When you reach 3rd level, you commit yourself to a [[[class:monk#monastic-traditions|monastic tradition]]], detailed at the end of the class description. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
@@ -196,6 +166,18 @@ Starting at 3rd level, you can use your reaction to deflect or catch the missile
 
 If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack. This attack has a range of 20/60 feet.[((bibcite errata))]
 
+[[accordion Optional Class Features: Ki-Fueled Attack]]
+
+## Ki-Fueled Attack
+
+_Source: Tasha's Cauldron of Everything, p. 48_
+
+_3rd-level monk feature_
+
+If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.
+
+[[/accordion]]
+
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -204,6 +186,18 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 
 Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.
 
+[[accordion Optional Class Features: Quickened Healing]]
+
+## Quickened Healing
+
+_Source: Tasha's Cauldron of Everything, p. 49_
+
+_4th-level monk feature_
+
+As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.
+
+[[/accordion]]
+
 ## Extra Attack
 
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
@@ -211,6 +205,18 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 ## Stunning Strike
 
 Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be [[[general:conditions#stunned|stunned]]] until the end of your next turn.
+
+[[accordion Optional Class Features: Focused Aim]]
+
+## Focused Aim
+
+_Source: Tasha's Cauldron of Everything, p. 49_
+
+_5th-level monk feature_
+
+When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.
+
+[[/accordion]]
 
 ## Ki-Empowered Strikes
 
@@ -272,6 +278,11 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 * [[[subclass:Way of the Kensei]]]
 * [[[subclass:Way of the Sun Soul]]]
 
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Way of Mercy]]]
+* [[[subclass:Way of the Astral Self]]]
+
 ## Homebrew
 
 * [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/0B1pdYIcfHauwNDM2My1XeWFYSDA/view)
@@ -284,7 +295,6 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
 
 <script type="module">
