@@ -107,6 +107,8 @@ When you engage in [[[general:combat#two-weapon-fighting|two-weapon fighting]]],
 
 [[accordion Optional Class Features: Fighting Style Options]]
 
+## Fighting Style Options
+
 _Source: Tasha's Cauldron of Everything, p. 41_ 
 
 _1st-level fighter feature_
