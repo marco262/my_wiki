@@ -31,15 +31,15 @@ During that time, you can use your action to end this effect and cast the sugges
 
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
-[[accordion Variant Class Features]]
+[[accordion Optional Class Features: Blessed Strikes]]
 
 ## Blessed Strikes
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 31_
 
-_8th-level cleric Divine Domain feature (replaces Divine Strike or Potent Spellcasting)_
+_8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature_
 
-In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 [[/accordion]]
 
