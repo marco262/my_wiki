@@ -50,6 +50,7 @@
 
 ## System Info
 
+* [[[general:How to Play]]]
 * [[[general:Using Ability Scores]]]
 * [[[general:Adventuring]]]
 * [[[general:Combat]]]
