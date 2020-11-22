@@ -67,16 +67,6 @@ Starting at 15th level, when you roll initiative and have no superiority dice re
 
 ## Maneuvers
 
-[[div class="phb-sidebar"]]
-
-**Maneuver Versatility**
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-If you know any maneuvers from the fighter's Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead.
-
-[[/div]]
-
 The maneuvers are presented in alphabetical order.
 
 **Ambush.**[((bibcite tashas))] When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't incapacitated.
@@ -134,7 +124,7 @@ Roll the superiority die. Until the start of your next turn, you or the other cr
 *Source: Player's Handbook, p. 73*
 
 [[bibliography]]
+: tashas : Tasha's Cauldron of Everything, p. 42
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 : homebrew : <https://old.reddit.com/r/DnDHomebrew/comments/bj1ky5/pinning_attack_a_battlemaster_maneuver/>
-: tashas : Tasha's Cauldron of Everything, p. 42
 [[/bibliography]]
