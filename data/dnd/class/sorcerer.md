@@ -114,13 +114,17 @@ Charisma is your spellcasting ability for your sorcerer spells, since the power 
 
 You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your sorcerer spells.
 
-### Spell Versatility
+[[accordion Optional Class Features: Spell Versatility]]
+
+## Spell Versatility
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
 _1st-level sorcerer feature (enhances Spellcasting)_
 
 Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace.
+
+[[/accordion]]
 
 ## Sorcerous Origin
 
@@ -152,28 +156,6 @@ You can use your sorcery points to gain additional spell slots, or sacrifice spe
 
 **Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
 
-[[accordion Variant Class Features]]
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-_2nd-level sorcerer feature (enhances Font of Magic)_
-
-When you gain the Font of Magic feature, you get access to the following ways to spend your sorcery points.
-
-### Empowering Reserves
-
-When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check. 
-
-### Imbuing Touch
-
-As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
-
-### Sorcerous Fortitude
-
-As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
-
-[[/accordion]]
-
 ## Metamagic
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
@@ -189,12 +171,6 @@ When you cast a spell that forces other creatures to make a saving throw, you ca
 When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
 
 When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
-
-### Elemental Spell
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder.
 
 ### Empowered Spell
 
@@ -214,12 +190,6 @@ When you cast a spell that forces a creature to make a saving throw to resist it
 
 When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
 
-### Seeking Spell
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell.
-
 ### Subtle Spell
 
 When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
@@ -228,17 +198,52 @@ When you cast a spell, you can spend 1 sorcery point to cast it without any soma
 
 When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
 
-### Unerring Spell
+[[accordion Optional Class Features: Metamagic Options]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Metamagic Options
 
-If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.
+_Source: Tasha's Cauldron of Everything, p. 66_
 
-You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.
+_3rd-level sorcerer feature_
+
+When you choose Metamagic options, you have access to the following additional options.
+
+### Seeking Spell
+
+If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.
+
+You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.
+
+### Transmuted Spell
+
+When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.
+
+[[/accordion]]
 
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Sorcerous Versatility and Magical Guidance]]
+
+_Source: Tasha's Cauldron of Everything, p. 66_
+
+## Sorcerous Versatility
+
+_4th-level sorcerer feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:
+
+Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.
+Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.
+
+## Magical Guidance
+
+_5th-level sorcerer feature_
+
+You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.
+
+[[/accordion]]
 
 ## Sorcerous Restoration
 
@@ -258,6 +263,11 @@ Different sorcerers claim different origins for their innate magic. Although man
 * [[[subclass:Divine Soul]]]
 * [[[subclass:Shadow Magic]]]
 * [[[subclass:Storm Sorcery]]]
+
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Aberrant Mind]]]
+* [[[subclass:Clockwork Soul]]]
 
 ----
 
