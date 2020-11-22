@@ -36,15 +36,15 @@ Beginning at 6th level, the healing spells you cast on others heal you as well. 
 
 At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.
 
-[[accordion Variant Class Features]]
+[[accordion Optional Class Features: Blessed Strikes]]
 
 ## Blessed Strikes
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 31_
 
-_8th-level cleric Divine Domain feature (replaces Divine Strike or Potent Spellcasting)_
+_8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature_
 
-In battle, you are blessed with divine might. When a creature takes damage from one of your spells or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 [[/accordion]]
 
@@ -55,3 +55,8 @@ Starting at 17th level, when you would normally roll one or more dice to restore
 ----
 
 *Source: Player's Handbook, p. 60*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>

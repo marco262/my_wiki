@@ -142,15 +142,33 @@ As an action, you present your holy symbol and speak a prayer censuring the unde
 
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-### Harness Divine Power
+[[accordion Optional Class Features: Harness Divine Power]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Harness Divine Power
 
-You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot.
+_Source: Tasha's Cauldron of Everything, p. 30_
+
+_2nd-level cleric feature_
+
+You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.
+
+[[/accordion]]
 
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Cantrip Versatility]]
+
+## Cantrip Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 31_
+
+_4th-level cleric feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.
+
+[[/accordion]]
 
 ## Destroy Undead
 
@@ -204,9 +222,10 @@ Each domain's description gives examples of deities who have influence over that
 * [[[subclass:Forge Domain]]]
 * [[[subclass:Grave Domain]]]
 
-## Guildmaster's Guide to Ravnica
+## Tasha's Cauldron of Everything
 
 * [[[subclass:Order Domain]]]
+* [[[subclass:Peace Domain]]]
 
 ----
 
@@ -216,3 +235,8 @@ Each domain's description gives examples of deities who have influence over that
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 : UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
