@@ -210,6 +210,11 @@ Different fighters choose different approaches to perfecting their fighting prow
 
 * [[[subclass:Echo Knight]]]
 
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Psi Warrior]]]
+* [[[subclass:Rune Knight]]]
+
 ## Unearthed Arcana
 
 * [[[subclass:Brute]]]

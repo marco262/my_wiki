@@ -119,6 +119,16 @@ Roll the superiority die. Until the start of your next turn, you or the other cr
 
 **Trip Attack.** When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target [[[general:conditions#prone|prone]]].
 
+# Battle Master Builds
+
+_Source: Tasha's Cauldron of Everything, p. 46_
+
+The Battle Master showcases just how versatile a fighter can be. The suite of maneuvers you choose, when combined with a fighting style and feats, allows you to create a broad range of fighters, each with its own flavor and play style.
+
+Below are recommendations for how you might build a Battle Master to reflect various types of warriors. Each of these builds contains suggested fighting styles, maneuvers, and feats.
+
+## TBC
+
 ----
 
 *Source: Player's Handbook, p. 73*
