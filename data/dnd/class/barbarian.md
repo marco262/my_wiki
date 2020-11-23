@@ -112,9 +112,33 @@ You have advantage on Dexterity saving throws against effects that you can see, 
 
 At 3rd level, you choose a [[[class:barbarian#primal-paths|path]]] that shapes the nature of your rage. The Path of the Berserker is detailed at the end of this page. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels. Additional paths are available in the original source material.
 
+[[accordion Optional Class Features: Primal Knowledge]]
+
+## Primal Knowledge
+
+_Source: Tasha's Cauldron of Everything, p. 24_
+
+_3rd-level barbarian feature_
+
+When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.
+
+[[/accordion]]
+
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Instinctive Pounce]]
+
+## Instinctive Pounce
+
+_Source: Tasha's Cauldron of Everything, p. 24_
+
+_4th-level barbarian feature_
+
+As part of the bonus action you take to enter your rage, you can move up to half your speed.
+
+[[/accordion]]
 
 ## Extra Attack
 
@@ -176,6 +200,7 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 ## Tasha's Cauldron of Everything
 
 * [[[subclass:Path of the Beast]]]
+* [[[subclass:Path of Wild Magic]]]
 
 ## Homebrew
 
