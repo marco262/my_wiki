@@ -2,11 +2,12 @@ Gods of trickery -- such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glit
 
 ## Trickery Domain Spells
 
-||1st||*[[[spell:charm person]]]*, *[[[spell:disguise self]]]*||
-||3rd||*[[[spell:mirror image]]]*, *[[[spell:pass without trace]]]*||
-||5th||*[[[spell:blink]]]*, *[[[spell:dispel magic]]]*||
-||7th||*[[[spell:dimension door]]]*, *[[[spell:polymorph]]]*||
-||9th||*[[[spell:dominate person]]]*, *[[[spell:modify memory]]]*||
+||~ Cleric Level ||~ Spells ||
+|| 1st || *[[[spell:charm person]]]*, *[[[spell:disguise self]]]* ||
+|| 3rd || *[[[spell:mirror image]]]*, *[[[spell:pass without trace]]]* ||
+|| 5th || *[[[spell:blink]]]*, *[[[spell:dispel magic]]]* ||
+|| 7th || *[[[spell:dimension door]]]*, *[[[spell:polymorph]]]* ||
+|| 9th || *[[[spell:dominate person]]]*, *[[[spell:modify memory]]]* ||
 
 ## Blessing of the Trickster
 
