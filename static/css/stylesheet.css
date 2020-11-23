@@ -235,6 +235,33 @@ h6 {
     text-decoration: none;
 }
 
+h1 > .header-link,
+h2 > .header-link,
+h3 > .header-link,
+h4 > .header-link,
+h5 > .header-link,
+h6 > .header-link {
+    font-weight: 100;
+    margin-left: 0.5rem;
+    visibility: hidden;
+    text-decoration: none;
+}
+
+:target > h1:first-child > .header-link,
+:target > h2:first-child > .header-link,
+:target > h3:first-child > .header-link,
+:target > h4:first-child > .header-link,
+:target > h5:first-child > .header-link,
+:target > h6:first-child > .header-link,
+h1:hover > .header-link,
+h2:hover > .header-link,
+h3:hover > .header-link,
+h4:hover > .header-link,
+h5:hover > .header-link,
+h6:hover > .header-link {
+    visibility: visible;
+}
+
 div.phb-sidebar, div.errata {
     float: right;
     width: 30%;

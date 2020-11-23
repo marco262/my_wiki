@@ -43,6 +43,7 @@ class MarkdownParser:
         return text
 
     def post_parsing(self, text):
+        text = self.add_header_links(text)
         text = self.parse_accordions(text)
         text = self.convert_wiki_divs(text)
         text = self.build_bibliography(text)
@@ -145,13 +146,19 @@ class MarkdownParser:
             text = text.replace(m.group(0), t)
         return text
 
+    @staticmethod
+    def add_header_links(text):
+        for m in re.finditer(r'(<h\d id="(.*?)".*?)(<\/h\d>)', text):
+            text = text.replace(m.group(0), f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}')
+        return text
+
     def parse_accordions(self, text):
         self.accordion_text = False
         for m in re.finditer(r".*\[\[accordion (.*?)]].*", text):
             self.accordion_text = True
             text = text.replace(
                 m.group(0),
-                '<button class="accordion-button">{}</button>\n<div class="accordion-panel">'.format(m.group(1))
+                f'<button class="accordion-button">{m.group(1)}</button>\n<div class="accordion-panel">'
             )
         text = re.sub(r".*\[\[/accordion]].*", "</div>", text)
         return text

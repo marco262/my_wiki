@@ -50,6 +50,29 @@ class TestMarkdownParser(unittest.TestCase):
         actual = self.md.convert_wiki_links(pre_markdown)
         self.assertEqual(expected, actual)
 
+    def test_add_header_links(self):
+        pre_markdown = """
+Test header 1
+
+# Test 1
+
+## This Is A Test!
+
+### Also a test
+        """
+        expected = """
+<p>Test header 1</p>
+
+<h1 id="test-1">Test 1<a href="#test-1" class="header-link">¶</a></h1>
+
+<h2 id="this-is-a-test">This Is A Test!<a href="#this-is-a-test" class="header-link">¶</a></h2>
+
+<h3 id="also-a-test">Also a test<a href="#also-a-test" class="header-link">¶</a></h3>
+        """
+        md = MarkdownParser()
+        actual = md.parse_md(pre_markdown)
+        self.assertEqual(expected.strip(" ").lstrip("\n"), actual)
+
     def test_parse_accordion(self):
         pre_markdown = """
 [[accordion Test Title]]
