@@ -120,6 +120,18 @@ You can cast any bard spell you know as a ritual if that spell has the ritual ta
 
 You can use a musical instrument (see [[[general:Equipment]]]) as a spellcasting focus for your bard spells.
 
+[[accordion Optional Class Features: Spell Versatility]]
+
+## Spell Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_1st-level bard feature (enhances Spellcasting)_
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the bard spell list. The new spell must be the same level as the spell you replace.
+
+[[/accordion]]
+
 ## Bardic Inspiration
 
 You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
@@ -141,6 +153,18 @@ friendly creatures who can hear your performance regain hit points at the end of
 
 The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
 
+[[accordion Optional Class Features: Magical Inspiration]]
+
+## Magical Inspiration
+
+_Source: Tasha's Cauldron of Everything, p. 27_
+
+_2nd-level bard feature_
+
+If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.
+
+[[/accordion]]
+
 ## Bard College
 
 At 3rd level, you delve into the advanced techniques of a [[[class:bard#bard-college|bard college]]] of your choice, detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.
@@ -154,6 +178,21 @@ At 10th level, you can choose another two skill proficiencies to gain this benef
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Bardic Versatility]]
+
+## Bardic Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 28_
+
+_4th-level bard feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:
+
+* Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.
+* Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.
+
+[[/accordion]]
 
 ## Font of Inspiration
 
@@ -190,8 +229,9 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 * [[[subclass:College of Swords]]]
 * [[[subclass:College of Whispers]]]
 
-## Mythic Odysseys of Theros
+## Tasha's Cauldron of Everything
 
+* [[[subclass:College of Creation]]]
 * [[[subclass:College of Eloquence]]]
 
 ## Unearthed Arcana
