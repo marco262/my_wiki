@@ -152,6 +152,18 @@ When you reach 2nd level, you choose an arcane tradition, shaping your practice 
 
 Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
+[[accordion Optional Class Features: Cantrip Formulas]]
+
+## Cantrip Formulas
+
+_Source: Tasha's Cauldron of Everything, p. 76_
+
+_3rd-level wizard feature_
+
+You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.
+
+[[/accordion]]
+
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -197,6 +209,7 @@ The most common arcane traditions in the multiverse revolve around the schools o
 ## Tasha's Cauldron of Everything
 
 * [[[subclass:Bladesinging]]]
+* [[[subclass:Order of Scribes]]]
 
 ## Unearthed Arcana
 
@@ -214,3 +227,8 @@ The most common arcane traditions in the multiverse revolve around the schools o
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
