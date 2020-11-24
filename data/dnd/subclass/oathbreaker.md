@@ -2,7 +2,7 @@ Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark 
 
 A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.
 
-# The Oathbreaker
+# Oathbreaker
 
 ||~ Paladin Level ||~ Feature ||
 || 3rd || Oathbreaker Spells, Channel Divinity ||

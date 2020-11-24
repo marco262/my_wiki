@@ -2,7 +2,7 @@ The Oath of Redemption sets a paladin on a difficult path, one that requires a h
 
 While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, the paladins bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.
 
-# The Oath of Redemption
+# Oath of Redemption
 
 ||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Redemption, Oath Spells, Channel Divinity ||

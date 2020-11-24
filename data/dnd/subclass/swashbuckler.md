@@ -2,7 +2,7 @@ You focus your training on the art of the blade, relying on speed, elegance, and
 
 A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.
 
-# The Swashbuckler
+# Swashbuckler
 
 ||~ Rogue Level ||~ Feature ||
 || 3rd || Fancy Footwork, Rakish Audacity ||
