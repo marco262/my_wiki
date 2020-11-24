@@ -1,5 +1,12 @@
 Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
 
+# College of Valor
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Bonus Proficiencies, Combat Inspiration ||
+|| 6th || Extra Attack ||
+|| 14th || Battle Magic ||
+
 ## Bonus Proficiencies
 
 When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.
@@ -14,7 +21,7 @@ Starting at 6th level, you can attack twice, instead of once, whenever you take 
 
 ## Battle Magic
 
-At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. when you use your action to cast a bard spell, you can make one weapon attack as a bonus action.
+At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.
 
 ----
 

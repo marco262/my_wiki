@@ -1,5 +1,12 @@
 Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more powerful than objective truth. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments, and plucking at heartstrings to appeal to the emotions of entire audiences.
 
+# College of Eloquence
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Universal Speech, Soothing Words ||
+|| 6th || Undeniable Logic ||
+|| 14th || Infectious Inspiration ||
+
 ## Universal Speech
 
 When you join the College of Eloquence at 3rd level, you gain the ability to speak and reason with any creature. As a bonus action, you can expend one of your uses of Bardic Inspiration. When you do so, roll your Bardic Inspiration die, and choose a number of creatures within 60 feet of you that you can see equal to the roll. For 10 minutes, the chosen creatures can magically understand you, regardless of the language you speak, and you have advantage on Charisma checks made to influence them. This feature works even on a creature that doesn't speak any languages.

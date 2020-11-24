@@ -8,6 +8,13 @@ Jesters are loyal to only one cause: the pursuit and propagation of the truth. T
 
 Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies' spirits while casting doubt into foes' minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
 
+# College of Satire
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Bonus Proficiencies, Tumbling Fool ||
+|| 6th || Fool's Insight ||
+|| 14th || Fool's Luck ||
+
 ## Bonus Proficiencies
 
 When you join the College of Satire at 3rd level, you gain proficiency with thieves' tools. You also gain proficiency in Sleight of Hand and one additional skill of your choice. If you are already proficient with thieves' tools or in Sleight of Hand, choose another skill proficiency for each proficiency you already have.

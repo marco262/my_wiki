@@ -4,6 +4,13 @@ Their talent with weapons inspires many blades to lead double lives. One blade m
 
 Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.
 
+# College of Swords
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Bonus Proficiencies, Fighting Style, Blade Flourish ||
+|| 6th || Extra Attack ||
+|| 14th || Master's Flourish ||
+
 ## Bonus Proficiencies
 
 When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.
