@@ -241,18 +241,19 @@ h3 > .header-link,
 h4 > .header-link,
 h5 > .header-link,
 h6 > .header-link {
-    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+    font-weight: 80;
     margin-left: 0.5rem;
     visibility: hidden;
     text-decoration: none;
 }
 
-:target > h1:first-child > .header-link,
-:target > h2:first-child > .header-link,
-:target > h3:first-child > .header-link,
-:target > h4:first-child > .header-link,
-:target > h5:first-child > .header-link,
-:target > h6:first-child > .header-link,
+h1:first-child > .header-link,
+h2:first-child > .header-link,
+h3:first-child > .header-link,
+h4:first-child > .header-link,
+h5:first-child > .header-link,
+h6:first-child > .header-link,
 h1:hover > .header-link,
 h2:hover > .header-link,
 h3:hover > .header-link,
