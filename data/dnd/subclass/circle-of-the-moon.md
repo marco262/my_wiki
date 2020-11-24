@@ -2,7 +2,7 @@ Druids of the Circle of the Moon are fierce guardians of the wilds. Their order 
 
 Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
 
-# The Circle of the Moon
+# Circle of the Moon
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Max Wild<br>Shape CR ||~ Hours in<br>Wild Shape ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Druidic, Spellcasting || -- || -- || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||

@@ -2,7 +2,7 @@ Drakes are distant cousins of dragons, but where dragons are proud, solitary, an
 
 You have formed a special bond with a drake, to the point of being magically connected to them. Your drake is now large enough to become your steed and well-trained enough to carry you into battle.
 
-# The Drake Rider
+# Drake Rider
 
 ||~ Barbarian Level ||~ Feature ||
 || 3rd || Drake Rider Magic, Draconic Mount, Combat Training ||
