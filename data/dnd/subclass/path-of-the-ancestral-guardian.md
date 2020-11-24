@@ -2,7 +2,7 @@ Some barbarians hail from cultures that revere their ancestors. These tribes tea
 
 Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.
 
-# The Path of the Ancestral Guardian
+# Path of the Ancestral Guardian
 
 ||~ Barbarian Level ||~ Feature ||
 || 3rd || Ancestral Protectors ||
