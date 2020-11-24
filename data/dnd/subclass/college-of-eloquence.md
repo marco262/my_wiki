@@ -1,4 +1,4 @@
-Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.
+Adherents of the College of Eloquence master the art of oratory. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.
 
 # College of Eloquence
 
@@ -29,9 +29,9 @@ Your inspiring words are so persuasive that others feel driven to succeed. When 
 
 _6th-level College of Eloquence feature_
 
-You have gained the ability to make your speech intelligible to any creature. As an action, choose one or more creatures within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). The chosen creatures can magically understand you, regardless of the language you speak, for 1 hour.
+You gain the ability to make your speech intelligible to any creature. As an action, choose one or more creatures within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). The chosen creatures can magically understand you, regardless of the language you speak, for 1 hour.
 
-Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot to use it again.
+Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of any level to use it again.
 
 ## Infectious Inspiration
 
@@ -39,8 +39,8 @@ _14th-level College of Eloquence feature_
 
 When you successfully inspire someone, the power of your eloquence can now spread to someone else. When a creature within 60 feet of you adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll succeeds, you can use your reaction to encourage a different creature (other than yourself) that can hear you within 60 feet of you, giving it a Bardic Inspiration die without expending any of your Bardic Inspiration uses.
 
-You can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest. 
+You can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ----
 
-_Source: Mythic Odysseys of Theros, p. 21_
+_Source: Tasha's Cauldron of Everything, p. 29_
