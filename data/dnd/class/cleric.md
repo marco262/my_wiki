@@ -226,6 +226,7 @@ Each domain's description gives examples of deities who have influence over that
 
 * [[[subclass:Order Domain]]]
 * [[[subclass:Peace Domain]]]
+* [[[subclass:Twilight Domain]]]
 
 ----
 
