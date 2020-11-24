@@ -224,7 +224,7 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
-[[accordion Optional Class Features: Spellcasting Focus]]
+[[accordion Optional Class Features: Spellcasting Focus and Spell Versatility]]
 
 ## Spellcasting Focus
 
@@ -234,6 +234,14 @@ _2nd-level ranger feature_
 
 You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of
 yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
+
+## Spell Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_1st-level ranger feature (enhances Spellcasting)_
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace.
 
 [[/accordion]]
 
