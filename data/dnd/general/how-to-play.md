@@ -58,11 +58,11 @@ The Angry GM put out [an article](https://theangrygm.com/tweaking-the-core-of-dd
 
 ## The Reaction Rule
 
-A GM can use the Reaction Rule whenever a character has a moment to respond to something unexpected. The GM describes what the character is aware of. The player then describes their reaction. The GM then determines if the reaction could avoid or mitigate the unexpected event, whether it can succeed, and whether it can fail. The GM then asks for a Saving Throw or Ability Check based on the action. Any spell that can be cast as a Reaction can be used in this instance.
+A GM can use the Reaction Rule whenever a character has a moment to respond to something unexpected. The GM describes what the character is aware of. The player then describes their reaction. The GM then determines if the reaction could avoid or mitigate the unexpected event, whether it can succeed, and whether it can fail. The GM then asks for a Saving Throw or Ability Check based on the action. Any spell that can be cast as a reaction can be used in this instance.
 
-> Example: A player has stepped on a pressure plate that will trigger a trap-door opening underneath the forward rank members of the party, Alice and Bob. The GM tells the party “Alice, as your foot hits the ground, you feel a tile give way and hear an audible click. You’ve triggered a pressure plate. What do you do?” Alice, not knowing what is coming, says “I tumble forwards, trying to roll out of the way.” Bob, also unaware of what is coming, says “I raise my shield and stand my ground, gritting my teeth and trying to absorb whatever is about to hit me.” The GM determines that Alice’s action could conceivably carry her forward away from the pit trap. He asks her to make a Dexterity Saving Throw. Bob’s action, however, won’t do him any good. He plunges into the pit.
+> Example: A player has stepped on a pressure plate that will trigger a trap-door opening underneath the forward rank members of the party, Alice and Bob. The GM tells the party "Alice, as your foot hits the ground, you feel a tile give way and hear an audible click. You’ve triggered a pressure plate. What do you do?" Alice, not knowing what is coming, says "I tumble forwards, trying to roll out of the way." Bob, also unaware of what is coming, says "I raise my shield and stand my ground, gritting my teeth and trying to absorb whatever is about to hit me." The GM determines that Alice’s action could conceivably carry her forward away from the pit trap. He asks her to make a Dexterity Saving Throw. Bob’s action, however, won’t do him any good. He plunges into the pit.
 
-> Example: Carol is trying to sneak past a patrolling goblin to steal a valuable thing. The goblin is walking ahead of her and she’s creeping silently behind, several feet back. Unbeknownst to Carol, she has failed her stealth check and the goblin is about to turn around because he thought he heard her breathing. “Suddenly, the goblin freezes. He’s about to turn, what do you do?” Carol thinks for a minute. “Is the cave wall irregular enough? Can I hide in the folds and crevices?” The GM says, “You could, but you’ll have Disadvantage since you have to move fast.” Carol thinks and says, “I’ll whip my dagger and try to take out the goblin before he turns.” The GM says “okay, give me a ranged attack roll with Advantage since the goblin is currently unaware of you. 
+> Example: Carol is trying to sneak past a patrolling goblin to steal a valuable thing. The goblin is walking ahead of her and she’s creeping silently behind, several feet back. Unbeknownst to Carol, she has failed her stealth check and the goblin is about to turn around because he thought he heard her breathing. "Suddenly, the goblin freezes. He’s about to turn, what do you do?" Carol thinks for a minute. "Is the cave wall irregular enough? Can I hide in the folds and crevices?" The GM says, "You could, but you’ll have Disadvantage since you have to move fast." Carol thinks and says, "I’ll whip my dagger and try to take out the goblin before he turns." The GM says "Okay, roll initiative! The goblin is surprised, and you'll get advantage if you manage to make your attack before he turns around."
 
 ## Passive Proficiences as Knowledge
 
@@ -70,12 +70,12 @@ All Proficiencies (skills, tools, weapons, and armor) are assumed to represent b
 
 Under this rule, flavor text information could be written as follows:
 
-> This small, natural grotto is covered with strange glowing fungus.
-> [Nature] The fungus is naturally occurring and harmless.
+> This small, natural grotto is covered with strange glowing fungus.  
+> [Nature] The fungus is naturally occurring and harmless.  
 > [Herbalism Kit, Alchemy Tools or Arcana] The fungus is useful for making antivenoms and medicines.
 
-> A skeletal creature wrapped in tattered linens with glowing eyes.
-> [Religion 20] The creature is not a skeleton. It’s a lich. Liches are powerful magic users that have turned themselves into undead creatures. They retain their spellcasting abilities and have other abilities such as...
+> A skeletal creature wrapped in tattered linens with glowing eyes.  
+> [Religion 20] The creature is not a skeleton. It’s a lich. Liches are powerful magic users that have turned themselves into undead creatures. They retain their spellcasting abilities and have other abilities such as...  
 > [Religion] The creature does not appear to be a normal skeleton at all.
 
 ## Opposed Rolls

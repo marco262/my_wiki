@@ -56,7 +56,7 @@ Two other circumstances might call an aarakocra to adventure. First, aarakocra h
 
 When plunged into Miska's body, the chaos in his blood sundered the rod and scattered its pieces across the multiverse. Recovering the pieces means gaining honor and esteem in the eyes of the vaati who forged it and could possibly restore a powerful weapon for defense against the agents of elemental evil.
 
-Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as “flying rock,” and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts.
+Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as "flying rock," and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts.
 
 # Aarakocra Names
 
