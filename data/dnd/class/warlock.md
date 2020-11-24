@@ -122,6 +122,18 @@ Charisma is your spellcasting ability for your warlock spells, so you use your C
 
 You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your warlock spells.
 
+[[accordion Optional Class Features: Spell Versatility]]
+
+## Spell Versatility
+
+_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+
+_1st-level warlock feature (enhances Spellcasting)_
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the warlock spell list. The new spell must be the same level as the spell you replace.
+
+[[/accordion]]
+
 ## Eldritch Invocations
 
 In your study of occult lore, you have unearthed [[[class:warlock#eldritch-invocations|eldritch invocations]]], fragments of forbidden knowledge that imbue you with an abiding magical ability.
@@ -152,9 +164,45 @@ You can transform one magic weapon into your pact weapon by performing a special
 
 Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.
 
+[[accordion Optional Class Features: Pact Boon Option]]
+
+## Pact Boon Option
+
+_Source: Tasha's Cauldron of Everything, p. 70_
+
+_3rd-level warlock feature_
+
+When you choose your Pact Boon feature, the following option is available to you.
+
+### Pact of the Talisman
+
+Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.
+
+If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.
+
+[[/accordion]]
+
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Eldritch Versatility]]
+
+## Eldritch Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 70_
+
+_4th-level warlock feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:
+
+* Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.
+* Replace the option you chose for the Pact Boon feature with one of that feature's other options.
+* If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.
+
+If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.
+
+[[/accordion]]
 
 ## Mystic Arcanum
 
@@ -186,6 +234,11 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 
 * [[[subclass:The Celestial]]]
 * [[[subclass:The Hexblade]]]
+
+## Tasha's Cauldron of Everything
+
+* [[[subclass:The Fathomless]]]
+* [[[subclass:The Genie]]]
 
 # Eldritch Invocations
 
@@ -465,6 +518,75 @@ _Prerequisite: 7th level_
 
 You can cast freedom of movement once on yourself without expending a spell s lot. You regain the ability to do so when you finish a long rest.
 
+## Tasha's Cauldron of Everything
+
+When you choose eldritch invocations, you have access to these additional options.
+
+### Bond of the Talisman
+
+_Prerequisite: 12th-level warlock, Pact of the Talisman feature_
+
+While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.
+
+### Eldritch Mind
+
+You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.
+
+### Far Scribe
+
+_Prerequisite: 5th-level warlock, Pact of the Tome feature_
+
+A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.
+
+You can cast _[[[spell:sending]]]_, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.
+
+As an action, you can magically erase a name on the page by touching it.
+
+### Gift of the Protectors
+
+_Prerequisite: 9th-level warlock, Pact of the Tome feature_
+
+A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.
+
+When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.
+
+As an action, you can magically erase a name on the page by touching it.
+
+### Investment of the Chain Master
+
+_Prerequisite: Pact of the Chain feature_
+
+When you cast _[[[spell:find familiar]]]_, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:
+
+* The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.
+* As a bonus action, you can command the familiar to take the Attack action.
+* The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+* If the familiar forces a creature to make a saving throw, it uses your spell save DC.
+* When the familiar takes damage, you can use your reaction to grant it resistance against that damage.
+
+### Protection of the Talisman
+
+_Prerequisite: 7th-level warlock, Pact of the Talisman feature_
+
+When the wearer of your talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.
+
+### Rebuke of the Talisman
+
+_Prerequisite: Pact of the Talisman feature_
+
+When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer.
+
+### Undying Servitude
+
+_Prerequisite: 5th-level warlock_
+
+You can cast _[[[spell:animate dead]]]_ without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.
+
 ----
 
 *Source: Player's Handbook, p. 105*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
