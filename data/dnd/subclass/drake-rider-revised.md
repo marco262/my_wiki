@@ -4,7 +4,7 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 
 *Note: This subclass is meant to be used with the [Revised Ranger](http:*media.wizards.com/2016/dnd/UA_RevisedRanger.pdf).*
 
-# The Drake Rider
+# Drake Rider
 
 ||Level||Proficiency<br>Bonus||Features||Bite<br>Damage||Breath<br>Weapon<br>Damage||Breath<br>Weapon<br>DC||Spells<br>Known||1st||2nd||3rd||4th||5th||
 ||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --|| --|| --|| --||

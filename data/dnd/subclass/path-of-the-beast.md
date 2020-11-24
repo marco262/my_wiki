@@ -8,7 +8,7 @@ Such a barbarian might be inhabited by a primal spirit or be descended from shap
 || 3 || A fey spirit gifted you with the ability to adopt different bestial aspects. ||
 || 4 || An ancient animal spirit dwells within you, allowing you to walk this path. ||
 
-# The Path of the Beast
+# Path of the Beast
 
 ||~ Barbarian Level ||~ Feature ||
 || 3rd || Form of the Beast ||

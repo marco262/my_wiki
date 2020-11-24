@@ -2,7 +2,7 @@ The Oath of Conquest calls to paladins who seek glory in battle and the subjugat
 
 Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins – called hell knights – as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.
 
-# The Oath of Conquest
+# Oath of Conquest
 
 ||~ Paladin Level ||~ Feature ||
 || 3rd || Tenets of Conquest, Oath Spells, Channel Divinity ||

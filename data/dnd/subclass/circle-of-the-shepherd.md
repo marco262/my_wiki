@@ -2,7 +2,7 @@ Druids of the Circle of the Shepherd commune with the spirits of nature, especia
 
 Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds. Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.
 
-# The Circle of Spores
+# Circle of the Shepherd
 
 ||~ Druid Level ||~ Feature ||
 || 2nd || Speech of the Woods, Spirit Totem ||

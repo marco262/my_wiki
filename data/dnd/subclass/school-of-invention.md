@@ -6,7 +6,7 @@ Many wizards of this tradition are gnomes, alchemists, or both, and they take pr
 
 Wizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.
 
-# The School of Invention
+# School of Invention
 
 ||~ Wizard Level ||~ Features ||
 || 2nd || Tools of the Inventor, Arcanomechanical Armor, Reckless Casting ||

@@ -1,6 +1,6 @@
 Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
 
-# The Wild Magic Sorcerer
+# Wild Magic
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Sorcery<br>Points ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || 2 || -- || Spellcasting, Wild Magic Surge, Tides of Chaos || 4 || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||

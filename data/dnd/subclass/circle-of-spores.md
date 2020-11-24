@@ -4,7 +4,7 @@ These druids believe that life and death are portions of a grand cycle, with one
 
 Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.
 
-# The Circle of Spores
+# Circle of Spores
 
 ||~ Druid Level ||~ Feature ||
 || 2nd || Circle Spells, Halo of Spores, Symbiotic Entity ||

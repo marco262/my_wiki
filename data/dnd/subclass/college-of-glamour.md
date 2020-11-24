@@ -2,7 +2,7 @@ The College of Glamour is the home of bards who mastered their craft in the vibr
 
 The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
-# The College of Glamour
+# College of Glamour
 
 ||~ Bard Level ||~ Spells ||
 || 3rd || Mantle of Inspiration, Enthralling Performance ||
