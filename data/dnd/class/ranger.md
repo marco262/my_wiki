@@ -1,5 +1,3 @@
-> Revised Ranger can be found [[[class:revised-ranger|here]]].
-
 Rough and wild looking, a human stalks alone through the shadows of trees, hunting the ores he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.
 
 After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon's thick scales.
@@ -36,27 +34,27 @@ You can make a ranger quickly by following these suggestions. First, make Dexter
 
 # The Ranger
 
-||Level||Proficiency<br>Bonus||Features||Spells<br>Known|| 1st|| 2nd|| 3rd|| 4th|| 5th||
-||1st|| +2|| Favored Enemy, Natural Explorer|| --|| --|| --|| --|| --|| --||
-||2nd|| +2|| Fighting Style, Martial Versatility, Spellcasting|| 2|| 2|| --|| --|| --|| --||
-||3rd|| +2|| Ranger Archetype, Primeval Awareness|| 3|| 3|| --|| --|| --|| --||
-||4th|| +2|| Ability Score Improvement|| 3|| 3|| --|| --|| --|| --||
-||5th|| +3|| Extra Attack|| 4|| 4|| 2|| --|| --|| --||
-||6th|| +3|| Favored Enemy and Natural Explorer improvements|| 4|| 4|| 2|| --|| --|| --||
-||7th|| +3|| Ranger Archetype feature|| 5|| 4|| 3|| --|| --|| --||
-||8th|| +3|| Ability Score Improvement, Land's Stride|| 5|| 4|| 3|| --|| --|| --||
-||9th|| +4|| --|| 6|| 4|| 3|| 2|| --|| --||
-||10th|| +4|| Natural Explorer improvement, Hide in Plain Sight|| 6|| 4|| 3|| 2|| --|| --||
-||11th|| +4|| Ranger Archetype feature|| 7|| 4|| 3|| 3|| --|| --||
-||12th|| +4|| Ability Score Improvement|| 7|| 4|| 3|| 3|| --|| --||
-||13th|| +5|| --|| 8|| 4|| 3|| 3|| 1|| --||
-||14th|| +5|| Favored Enemy improvement, Vanish|| 8|| 4|| 3|| 3|| 1|| --||
-||15th|| +5|| Ranger Archetype feature|| 9|| 4|| 3|| 3|| 2|| --||
-||16th|| +5|| Ability Score Improvement|| 9|| 4|| 3|| 3|| 2|| --||
-||17th|| +6|| --|| 10|| 4|| 3|| 3|| 3|| 1||
-||18th|| +6|| Feral Senses|| 10|| 4|| 3|| 3|| 3|| 1||
-||19th|| +6|| Ability Score Improvement|| 11|| 4|| 3|| 3|| 3|| 2||
-||20th|| +6|| Foe Slayer|| 11|| 4|| 3|| 3|| 3|| 2||
+||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||
+|| 1st || +2 || Favored Enemy, Natural Explorer || -- || -- || -- || -- || -- || -- ||
+|| 2nd || +2 || Fighting Style, Martial Versatility, Spellcasting || 2 || 2 || -- || -- || -- || -- ||
+|| 3rd || +2 || Ranger Archetype, Primeval Awareness || 3 || 3 || -- || -- || -- || -- ||
+|| 4th || +2 || Ability Score Improvement || 3 || 3 || -- || -- || -- || -- ||
+|| 5th || +3 || Extra Attack || 4 || 4 || 2 || -- || -- || -- ||
+|| 6th || +3 || Favored Enemy and Natural Explorer improvements || 4 || 4 || 2 || -- || -- || -- ||
+|| 7th || +3 || Ranger Archetype feature || 5 || 4 || 3 || -- || -- || -- ||
+|| 8th || +3 || Ability Score Improvement, Land's Stride || 5 || 4 || 3 || -- || -- || -- ||
+|| 9th || +4 || -- || 6 || 4 || 3 || 2 || -- || -- ||
+|| 10th || +4 || Natural Explorer improvement, Hide in Plain Sight || 6 || 4 || 3 || 2 || -- || -- ||
+|| 11th || +4 || Ranger Archetype feature || 7 || 4 || 3 || 3 || -- || -- ||
+|| 12th || +4 || Ability Score Improvement || 7 || 4 || 3 || 3 || -- || -- ||
+|| 13th || +5 || -- || 8 || 4 || 3 || 3 || 1 || -- ||
+|| 14th || +5 || Favored Enemy improvement, Vanish || 8 || 4 || 3 || 3 || 1 || -- ||
+|| 15th || +5 || Ranger Archetype feature || 9 || 4 || 3 || 3 || 2 || -- ||
+|| 16th || +5 || Ability Score Improvement || 9 || 4 || 3 || 3 || 2 || -- ||
+|| 17th || +6 || -- || 10 || 4 || 3 || 3 || 3 || 1 ||
+|| 18th || +6 || Feral Senses || 10 || 4 || 3 || 3 || 3 || 1 ||
+|| 19th || +6 || Ability Score Improvement || 11 || 4 || 3 || 3 || 3 || 2 ||
+|| 20th || +6 || Foe Slayer || 11 || 4 || 3 || 3 || 3 || 2 ||
 
 # Class Features
 
@@ -73,7 +71,6 @@ As a ranger, you gain the following class features.
 * Armor: Light armor, medium armor, shields
 * Weapons: Simple weapons, martial weapons
 * Tools: None
-
 * Saving Throws: Strength, Dexterity
 * Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival
 
@@ -115,39 +112,43 @@ While traveling for an hour or more in your favored terrain, you gain the follow
 
 You choose additional favored terrain types at 6th and 10th level.
 
-[[accordion Variant Class Features]]
+[[accordion Optional Class Features: Deft Explorer and Favored Foe]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 56_
 
 ## Deft Explorer
 
-_1st-level ranger feature (replaces Natural Explorer)_
+_1st-level ranger feature, which replaces the Natural Explorer feature_
 
-You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.
+You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.
 
-### Canny
+### Canny (1st Level)
 
-Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don't already have it, and you can add double your proficiency bonus to ability checks using that skill.
+Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.
 
-In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice.
+You can also speak, read, and write two additional languages of your choice.
 
-### Roving
+### Roving (6th Level)
 
 Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
 
-### Tireless
+### Tireless (10th Level)
 
-As an action, you can give yourself a number of temporary hit points equal to 1d10 + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.
+As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.
 
 ## Favored Foe
 
-_1st-level ranger feature (replaces Favored Enemy)_
+_1st-level ranger feature, which replaces the Favored Enemy feature and works with the Foe Slayer feature_
 
-You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the _[[[spell:hunter's mark]]]_ spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration -- a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).
 
-When you gain the Spellcasting feature at 2nd level, _[[[spell:hunter's mark]]]_ doesn't count against the number of ranger spells you know.
+The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4.
+
+You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+This feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.
 
 [[/accordion]]
 
@@ -159,57 +160,43 @@ At 2nd level, you adopt a particular style of fighting as your specialty. Choose
 
 You gain a +2 bonus to attack rolls you make with ranged weapons.
 
-### Blind Fighting
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you.
-
 ### Defense
 
 While you are wearing armor, you gain a +1 bonus to AC.
-
-### Druidic Warrior
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.
 
 ### Dueling
 
 When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 
-### Interception
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
-
-### Thrown Weapon Fighting
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
-
-In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
-
 ### Two-Weapon Fighting
 
 When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 
-### Unarmed Fighting
+[[accordion Optional Class Features: Fighting Style Options]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Fighting Style Options
 
-Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.
+_Source: Tasha's Cauldron of Everything, p. 57_
 
-When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.
+_2nd-level ranger feature_
 
-## Martial Versatility
+When you choose a fighting style, the following styles are added to your list of options.
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+### Blind Fighting
 
-Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
+
+### Druidic Warrior
+
+You learn two cantrips of your choice from the [druid spell list](/dnd/class_spell_list/druid/true). They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.
+
+### Thrown Weapon Fighting
+
+You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
+
+In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
+
+[[/accordion]]
 
 ## Spellcasting
 
@@ -237,17 +224,18 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
-### Spell Versatility
+[[accordion Optional Class Features: Spellcasting Focus]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Spellcasting Focus
 
-Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace.
+_Source: Tasha's Cauldron of Everything, p. 57_
 
-### Spellcasting Focus
+_2nd-level ranger feature_
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of
+yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
 
-You can use a [[[equipment:adventuring-gear|druidic focus]]] as a spellcasting focus for your ranger spells.
+[[/accordion]]
 
 ## Ranger Archetype
 
@@ -257,19 +245,21 @@ At 3rd level, you choose an [[[class:ranger#ranger-archetypes|archetype]]] that 
 
 Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
 
-[[accordion Variant Class Features]]
+[[accordion Optional Class Features: Primal Awareness]]
 
 ## Primal Awareness
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 57_
 
-_3rd-level ranger feature (replaces Primeval Awareness)_
+_3rd-level ranger feature_
 
-You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the following table. These spells don't count against the number of ranger spells you know.
+You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.
 
-||~ Level ||~ Spell ||
-|| 3rd || _[[[spell:detect magic]]]_, _[[[spell:speak with animals]]]_ ||
-|| 5th || _[[[spell:beast sense]]]_, _[[[spell:locate animals or plants]]]_ ||
+### Primal Awareness Spells
+
+||~ Ranger Level ||~ Spell ||
+|| 3rd || _[[[spell:speak with animals]]]_ ||
+|| 5th || _[[[spell:beast sense]]]_ ||
 || 9th || _[[[spell:speak with plants]]]_ ||
 || 13th || _[[[spell:locate creature]]]_ ||
 || 17th || _[[[spell:commune with nature]]]_ ||
@@ -281,6 +271,18 @@ You can cast each of these spells once without expending a spell slot. Once you 
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Martial Versatility]]
+
+## Martial Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 57_ 
+
+_4th-level paladin feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.
+
+[[/accordion]]
 
 ## Extra Attack
 
@@ -298,17 +300,17 @@ Starting at 10th level, you can spend 1 minute creating camouflage for yourself.
 
 Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
 
-[[accordion Variant Class Features]]
+[[accordion Optional Class Features: Nature's Veil]]
 
-## Fade Away
+## Nature's Veil
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 57_ 
 
-_10th-level ranger feature (replaces Hide in Plain Sight)_
+_10th-level ranger feature, which replaces the Hide in Plain Sight feature_
 
-You can use a bonus action to magically become [[[general:conditions#invisible|invisible]]], along with any equipment you are wearing or carrying, until the start of your next turn.
+You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
 
-Once you use this feature, you can't use it again until you finish a short or long rest.
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 [[/accordion]]
 
@@ -338,6 +340,11 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 * [[[subclass:Gloom Stalker]]]
 * [[[subclass:Horizon Walker]]]
 * [[[subclass:Monster Slayer]]]
+
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Fey Wanderer]]]
+* [[[subclass:Swarmkeeper]]]
 
 ## Homebrew
 

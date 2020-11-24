@@ -12,28 +12,90 @@ While traveling through your favored terrain with only the beast, you can move s
 
 If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one.
 
-### Ranger Companion Options
+[[accordion Optional Class Features: Primal Companion]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Primal Companion
 
-While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the Animal Handling skill or the _[[[spell:animal friendship]]]_ spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.
+_3rd-level Beast Master feature, which replaces the Ranger's Companion feature_
 
-A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a Beast of the Air or a Beast of the Earth. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.
+You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block—Beast of the Land, Beast of the Sea, or Beast of the Sky—which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.
 
-The primal beast is a special creature that a Beast Master can choose for the Ranger's Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.
+In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.
 
-When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM.
+If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.
+
+When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.
 
 [[div class="monster-include"]]
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
-name = Beast of the Air
+name = Beast of the Land
+size = Medium
+type = beast
+alignment = 
+armor_class = 13 + PB (natural armor)
+hit_points = 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)
+speed = 40 ft., climb 40 ft.
+strength = 14
+dexterity = 14
+constitution = 15
+intelligence = 8
+wisdom = 14
+charisma = 11
+senses = darkvision 60 ft., passive Perception 12
+languages = understands the languages you speak
+proficiency_bonus = equals your bonus
+special_abilities = !!!
+***Charge.*** If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.
+
+***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+!!!
+actions = !***Maul.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d8 + 2 + PB slashing damage.
+[[/include]]
+
+[[/div]]
+
+[[div class="monster-include"]]
+
+[[include dnd/monster-sheet.tpl]]
+width = 500px
+name = Beast of the Sea
+size = Medium
+type = beast
+alignment = 
+armor_class = 13 + PB (natural armor)
+hit_points = 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)
+speed = 5 ft., swim 60 ft.
+strength = 14
+dexterity = 14
+constitution = 15
+intelligence = 8
+wisdom = 14
+charisma = 11
+senses = darkvision 60 ft., passive Perception 12
+languages = understands the languages you speak
+proficiency_bonus = equals your bonus
+special_abilities = !!!
+***Amphibious.*** The beast can breathe both air and water.
+
+***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+!!!
+actions = !***Binding Strike.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d6 + 2 + PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.
+[[/include]]
+
+[[/div]]
+
+[[div class="monster-include"]]
+
+[[include dnd/monster-sheet.tpl]]
+width = 500px
+name = Beast of the Sky
 size = Small
 type = beast
-alignment = neutral
-armor_class = 13
-hit_points = equal to the beast's Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)
+alignment = 
+armor_class = 13 + PB (natural armor)
+hit_points = 4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)
 speed = 10 ft., fly 60 ft.
 strength = 6
 dexterity = 16
@@ -41,54 +103,20 @@ constitution = 13
 intelligence = 8
 wisdom = 14
 charisma = 11
-saves = Dex +5, Con +3, Wis +4
-skills = Perception +4, Stealth +5
-senses = darkvision 60 ft., passive Perception 14
+senses = darkvision 60 ft., passive Perception 12
 languages = understands the languages you speak
+proficiency_bonus = equals your bonus
 special_abilities = !!!
 ***Flyby.*** The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 
-***Primal Rebirth.*** If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.
-
-***Ready Companion.*** As a bonus action, you can command the beast to make its shred attack or to Hide.
+***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
 !!!
-actions = !***Shred.*** _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 1d6 + 3 slashing damage.
+actions = !***Shred.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d4 + 3 + PB slashing damage.
 [[/include]]
 
 [[/div]]
 
-[[div class="monster-include"]]
-
-[[include dnd/monster-sheet.tpl]]
-width = 500px
-name = Beast of the Earth
-size = Medium
-type = beast
-alignment = neutral
-armor_class = 13
-hit_points = equal to the beast's Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)
-speed = 40 ft., climb or swim 40 ft. (your choice when you bond with the beast)
-strength = 14
-dexterity = 14
-constitution = 15
-intelligence = 8
-wisdom = 14
-charisma = 11
-saves = Dex +4, Con +4, Wis +4
-skills = Perception +4, Stealth +4
-senses = darkvision 60 ft., passive Perception 14
-languages = understands the languages you speak
-special_abilities = !!!
-***Charge.** If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked [[[general:conditions#prone|prone]]].
-
-***Primal Rebirth.*** If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.
-
-***Ready Companion.*** As a bonus action, you can command the beast to make its maul attack or to Hide.
-!!!
-actions = !***Maul.*** _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 1d6 + 2 slashing damage.
-[[/include]]
-
-[[/div]]
+[[/accordion]]
 
 ## Exceptional Training
 
@@ -109,3 +137,8 @@ Beginning at 15th level, when you cast a spell targeting yourself, you can also 
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
