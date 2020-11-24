@@ -101,18 +101,6 @@ This feature has no effect on undead and constructs.
 
 At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-### Blessed Warrior
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.
-
-### Blind Fighting
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you.
-
 ### Defense
 
 While you are wearing armor, you gain a +1 bonus to AC.
@@ -125,37 +113,33 @@ When you are wielding a melee weapon in one hand and no other weapons, you gain 
 
 When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
 
-### Interception
-
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
-
-When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
-
 ### Protection
 
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 
-### Thrown Weapon Fighting
+[[accordion Optional Class Features: Fighting Style Options]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Fighting Style Options
 
-You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
+_Source: Tasha's Cauldron of Everything, p. 52_ 
 
-In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
+_2nd-level paladin feature_
 
-### Unarmed Fighting
+When you choose a fighting style, the following styles are added to your list of options.
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+### Blessed Warrior
 
-Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.
+You learn two cantrips of your choice from the [cleric spell list](/dnd/class_spell_list/cleric/true). They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.
 
-When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.
+### Blind Fighting
 
-## Martial Versatility
+You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+### Interception
 
-Whenever you gain a level in this class, you can replace a fighting style you know with another style available to this class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+
+[[/accordion]]
 
 ## Spellcasting
 
@@ -210,15 +194,33 @@ When you use your Channel Divinity, you choose which option to use. You must the
 
 Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.
 
-#### Channel Divinity: Harness Divine Power
+[[accordion Optional Class Features: Harness Divine Power]]
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+## Harness Divine Power
 
-You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot.
+_Source: Tasha's Cauldron of Everything, p. 53_ 
+
+_3rd-level paladin feature_
+
+You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.
+
+[[/accordion]]
 
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Martial Versatility]]
+
+## Martial Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 53_ 
+
+_4th-level paladin feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.
+
+[[/accordion]]
 
 ## Extra Attack
 
@@ -275,6 +277,11 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 * [[[subclass:Oath of Conquest]]]
 * [[[subclass:Oath of Redemption]]]
 
+## Tasha's Cauldron of Everything
+
+* [[[subclass:Oath of Glory]]]
+* [[[subclass:Oath of the Watchers]]]
+
 ## Unearthed Arcana
 
 * [[[subclass:Oath of Heroism]]]
@@ -282,3 +289,8 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 ----
 
 *Source: Player's Handbook, p. 82*
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
