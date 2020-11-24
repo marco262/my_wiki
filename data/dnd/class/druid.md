@@ -96,6 +96,18 @@ You start with the following equipment, in addition to the equipment granted by 
 
 You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
 
+[[div class="phb-sidebar"]]
+
+**Druids and the Gods**
+
+Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples. In fact, in the world of Greyhawk, the druidic faith is called the Old Faith, and it claims many adherents among farmers, foresters, fishers, and others who live closely with nature. This tradition includes the worship of Nature as a primal force beyond personification, but also encompasses the worship of Beory, the Oerth Mother, as well as devotees of Obad-Hai, Ehlonna, and Ulaa.
+
+In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Forgotten Realms, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.
+
+The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
+
+[[/div]]
+
 ## Spellcasting
 
 Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See the [druid spell list](/dnd/class_spell_list/druid/true) for the spells available to you.
@@ -154,25 +166,19 @@ While you are transformed, the following rules apply:
 * You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
 * You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
-[[div class="phb-sidebar"]]
-
-**Druids and the Gods**
-
-Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples. In fact, in the world of Greyhawk, the druidic faith is called the Old Faith, and it claims many adherents among farmers, foresters, fishers, and others who live closely with nature. This tradition includes the worship of Nature as a primal force beyond personification, but also encompasses the worship of Beory, the Oerth Mother, as well as devotees of Obad-Hai, Ehlonna, and Ulaa.
-
-In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Forgotten Realms, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.
-
-The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
-
-[[/div]]
+[[accordion Optional Class Features: Wild Companion]]
 
 ## Wild Companion
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+_Source: Tasha's Cauldron of Everything, p. 35_
 
-At 2nd level, you gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.
+_2nd-level druid feature_
+
+You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the _[[[spell:find familiar]]]_ spell, without material components.
 
 When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
+
+[[/accordion]]
 
 ## Druid Circles
 
@@ -181,6 +187,18 @@ At 2nd level, you choose to identify with a circle of druids: the Circle of the 
 ## Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+[[accordion Optional Class Features: Cantrip Versatility]]
+
+## Cantrip Versatility
+
+_Source: Tasha's Cauldron of Everything, p. 36_
+
+_4th-level druid feature_
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.
+
+[[/accordion]]
 
 ## Timeless Body
 
@@ -212,9 +230,11 @@ At a local scale, druids are organized into circles that share certain perspecti
 * [[[subclass:Circle of Dreams]]]
 * [[[subclass:Circle of the Shepherd]]]
 
-## Guildmaster's Guide to Ravnica
+## Tasha's Cauldron of Everything
 
 * [[[subclass:Circle of Spores]]]
+* [[[subclass:Circle of Stars]]]
+* [[[subclass:Circle of Wildfire]]]
 
 ----
 
@@ -224,3 +244,8 @@ At a local scale, druids are organized into circles that share certain perspecti
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 : UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
