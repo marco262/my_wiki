@@ -2,6 +2,13 @@ Most folk are happy to welcome a bard into their midst. Bards of the College of 
 
 Many other bards hate the College of Whispers, viewing it as a parasite that uses the bards' reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.
 
+# College of Whispers
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Psychic Blades, Words of Terror ||
+|| 6th || Mantle of Whispers ||
+|| 14th || Shadow Lore ||
+
 ## Psychic Blades
 
 When you join the College of Whispers at 3rd level, you gain the ability to make your weapon attacks magically toxic to a creature's mind.

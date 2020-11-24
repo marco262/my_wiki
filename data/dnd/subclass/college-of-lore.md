@@ -4,6 +4,13 @@ The loyalty of these bards lies in the pursuit of beauty and truth, not in fealt
 
 The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
 
+# College of Lore
+
+||~ Bard Level ||~ Features ||
+|| 3rd || Bonus Proficiencies, Cutting Words ||
+|| 6th || Additional Magical Secrets ||
+|| 14th || Peerless Skill ||
+
 ## Bonus Proficiencies
 
 When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.

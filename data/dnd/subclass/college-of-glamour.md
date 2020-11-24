@@ -4,7 +4,7 @@ The bards of this college are regarded with a mixture of awe and fear. Their per
 
 # College of Glamour
 
-||~ Bard Level ||~ Spells ||
+||~ Bard Level ||~ Features ||
 || 3rd || Mantle of Inspiration, Enthralling Performance ||
 || 6th || Mantle of Majesty ||
 || 14th || Unbreakable Majesty ||

@@ -2,7 +2,7 @@ Many places in the multiverse abound with beauty, intense emotion, and rampant m
 
 # Path of Wild Magic
 
-||~ Barbarian Level ||~ Feature ||
+||~ Barbarian Level ||~ Features ||
 || 3rd || Magic Awareness, Wild Surge ||
 || 6th || Bolstering Magic ||
 || 10th || Unstable Backlash ||
