@@ -27,17 +27,7 @@ You learn an additional spell when you reach certain levels in this class, as sh
 
 ## Draconic Mount
 
-_3rd-level Drake Rider feature_
-
-<div class="phb-sidebar">
-<p><b>Nightfury</b><p>
-
-<p>The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15 and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.</p>
-</div>
-
-Your drake is strong enough to enter combat with you.
-
-The stat block for your drake is below:
+[[div class="monster-float"]]
 
 [[include dnd/monster-sheet.tpl]]
 width = 350px
@@ -46,7 +36,7 @@ size = Large
 type = dragon
 alignment = neutral
 armor_class = 17 (natural armor)
-hit_points = 24 (3d8 + 9)
+hit_points = 5 + five times your ranger level (the drake has a number of Hit Dice [d8s] equal to your ranger level)
 speed = 30 ft.
 strength = 16
 dexterity = 12
@@ -54,14 +44,21 @@ constitution = 15
 intelligence = 8
 wisdom = 14
 charisma = 8
-saves = Dex +2, Con +5
-skills = Athletics +6, Perception +3
-senses = passive Perception 13
-languagues = Draconic
-actions = !**Bite.** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
+skills = Athletics +3 + PB, Perception +2 + PB
+senses = passive Perception 12 + PB
+languages = Draconic
+proficiency_bonus = equals your bonus
+special_abilities = !***Rider's Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+actions = !**Bite.** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 1d6 + 3 + PB piercing damage.
 [[/include]]
 
-Choose a type for your drake from the Drake Types table below. Your drake gains resistance to its element type.
+[[/div]]
+
+_3rd-level Drake Rider feature_
+
+Your drake is strong enough to enter combat with you. It uses the Drake Companion stat block, which uses your proficiency bonus (PB) in several places.
+
+Choose a type for your drake from the Drake Types table below. Your drake gains resistance to its element type as shown in the Drake Types table.
 
 ### Drake Types
 
@@ -77,19 +74,27 @@ Choose a type for your drake from the Drake Types table below. Your drake gains 
 || Silver || Cold || 15 ft. cone (Con. Save) ||
 || White || Cold || 15 ft. cone (Con. Save) ||
 
-Whenever you gain a ranger level, your drake gains a hit die and its maximum HP increases by 1d8 + its Constitution modifier. At levels 5, 9, 13, and 17, your drake's AC, saves, skills, and attack bonus increase by 1.
+Your drake acts as a Controlled mount, meaning it acts on your turn and can only take the Dash, Disengage, and Dodge actions, whether you're mounted on it or not, unless you use a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.
 
-Your drake acts as a Controlled mount, meaning it acts on your turn and can only take the Dash, Disengage, and Dodge actions, whether you're mounted on it or not.
+[[div class="phb-sidebar"]]
+
+**Nightfury**
+
+The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15 and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
+
+[[/div]]
+
+When you use your bonus action to cast or move your _[[[spell:hunter's mark]]]_, you can command your drake as part of the same bonus action.
 
 You and your drake share an empathic link and can communicate clearly with each other, even if you don't speak the same language. Your drake is solely devoted to you and will not willingly let anyone but you ride it. It follows your commands without question and will protect you with its life if necessary.
 
 If your drake is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your drake's spirit and use your magic to create a new body for it. You can return your drake to life in this manner even if you do not possess any part of its body.
 
-## Combat Training
+<h2 class="no-float">Combat Training</h2>
 
 _3rd-level Drake Rider feature_
 
-While mounted on your drake, whenever you make the Attack action, you can command your drake to use its Bite attack on any creature within its reach.
+While mounted on your drake, whenever you make the Attack action, you can command your drake to use its Bite attack on any creature within its reach. The drake can only make one Bite attack per turn, unless some other effect allows it to take multiple actions on its turn, like _[[[spell:haste]]]_.
 
 ## Drake Something
 
@@ -104,7 +109,7 @@ You and your drake gain the following benefits:
 ## Drake Fire
 
 _11th-level Drake Rider feature_
- 
+
 While mounted on your drake, you can use a bonus action to command it to use its breath weapon. Each creature in the breath weapon's area must make a DC 14 saving throw, taking 6d6 damage on a failed save, or half as much damage on a successful one. The area of the breath weapon, type of saving throw, and type of damage are determined by your drake's type, as shown in the Drake Types table.
 
 This damage increases to 8d6 when you reach 15th level in this class.
