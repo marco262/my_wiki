@@ -328,8 +328,6 @@ _Item: A helmet (requires attunement)_
 
 While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't [[[general:conditions#incapacitated|incapacitated]]].
 
-### Homunculus Servant
-
 [[div class="monster-float"]]
 
 [[include dnd/monster-sheet.tpl]]
@@ -339,7 +337,7 @@ size = Tiny
 type = construct
 alignment = neutral
 armor_class = 13 (natural armor)
-hit_points = equal the homunculus's Constitution modifier + your Intelligence modifier + your level in this class
+hit_points = 1 + your Intelligence modifier + your level in this class (the homunculus has a number of Hit Dice [d4s] equal to your arti¦cer level)
 speed = 20 ft., fly 30 ft.
 strength = 4
 dexterity = 15
@@ -347,22 +345,23 @@ constitution = 12
 intelligence = 10
 wisdom = 10
 charisma = 7
-saves = Dex +2
-skills = Perception +4, Stealth +4
+saves = Dex +2 plus PB
+skills = Perception +0 plus PB × 2, Stealth +2 plus PB
 damage_immunities = poison
 condition_immunities = exhaustion, poisoned
-senses = darkvision 60 ft., passive Perception 14
+senses = darkvision 60 ft., passive Perception 10 + (PB × 2)
 languages = understands the languages you speak
+proficiency_bonus = equals your bonus
 special_abilities = !!!
 ***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's [[[general:conditions#incapacitated|incapacitated]]].
-
-***Might of the Master.*** The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill and saving throw bonuses (above) and the bonuses to hit and damage of its attack (below).
 !!!
-companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ +4 to hit, range 30 ft., one target you can see. _Hit:_ 1d4 + 2 force damage
+companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ your spell attack modifier to hit, range 30 ft., one target you can see. _Hit:_ 1d4 + PB force damage
 reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 [[/include]]
 
 [[/div]]
+
+### Homunculus Servant
 
 _Prerequisite: 6th-level artificer_  
 _Item: A gem or crystal worth at least 100 gp_
