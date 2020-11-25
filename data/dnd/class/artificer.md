@@ -248,6 +248,17 @@ You have developed a mystical connection to your magic items, which you can draw
 * You gain a +1 bonus to all saving throws per magic item you are currently attuned to.
 * If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0.
 
+# Artificer Specialists
+
+Artificers pursue many disciplines. Here are specialist options you can choose from at 3rd level.
+
+## Tasha's Cauldron of Everything
+
+ * [[[subclass:Alchemist]]]
+ * [[[subclass:Armorer]]]
+ * [[[subclass:Artillerist]]]
+ * [[[subclass:Battle Smith]]]
+
 # Infusions
 
 Artificer infusions are extraordinary processes that rapidly turn a nonmagical object into a magic item. The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.
@@ -488,17 +499,6 @@ _Prerequisite: 6th-level artificer_
 _Item: A ring (requires attunement)_
 
 While wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn.
-
-# Artificer Specialists
-
-Artificers pursue many disciplines. Here are specialist options you can choose from at 3rd level.
-
-## Tasha's Cauldron of Everything
-
- * [[[subclass:Alchemist]]]
- * [[[subclass:Armorer]]]
- * [[[subclass:Artillerist]]]
- * [[[subclass:Battle Smith]]]
 
 ----
 
