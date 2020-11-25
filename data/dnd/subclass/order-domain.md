@@ -1,15 +1,24 @@
-<script type="module">
-    import {init_accordions} from "/js/common/utils.js";
-    init_accordions();
-</script>
+The Order Domain represents discipline, as well as devotion to the laws that govern a society, an institution, or a philosophy. Clerics of Order meditate on logic and justice as they serve their gods, examples of which appear in the Order Deities table.
 
-The Order domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. The domain is favored by clerics who use it to benevolently maintain and enforce the law, or exploit law and order for their own personal gain. Gods who grant access to this domain include Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forsetti, and Asmodeus.
+Clerics of Order believe that well-crafted laws establish legitimate hierarchies, and those selected by law to lead must be obeyed. Those who obey must do so to the best of their ability, and if those who lead fail to protect the law, they must be replaced. In this manner, law weaves a web of obligations that create order and security in a chaotic multiverse.
 
-The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.
+### Order Deities
 
-Law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.
+||~ Example Deity ||~ Pantheon ||
+|| Aureon || Eberron ||
+|| Bane || Forgotten Realms ||
+|| Majere || Dragonlance ||
+|| Pholtus || Greyhawk ||
+|| Tyr || Forgotten Realms ||
+|| Wee Jas || Greyhawk ||
 
-## Order Domain Spells
+## Domain Spells
+
+_1st-level Order Domain feature_
+
+You gain domain spells at the cleric levels listed in the Order Domain Spells table.
+
+### Order Domain Spells
 
 ||~ Cleric Level ||~ Spells ||
 || 1st || _[[[spell:command]]]_, _[[[spell:heroism]]]_ ||
@@ -20,23 +29,31 @@ Law establishes hierarchies. Those selected by the law to lead must be obeyed. T
 
 ## Bonus Proficiencies
 
-When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice).
+_1st-level Order Domain feature_
+
+You gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice).
 
 ## Voice of Authority
 
-Starting at 1st level, you can invoke the power of law to drive an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.
+_1st-level Order Domain feature_
+
+You can invoke the power of law to embolden an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.
 
 If the spell targets more than one ally, you choose the ally who can make the attack.
 
 ## Channel Divinity: Order's Demand
 
-Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.
+_2nd-level Order Domain feature_
 
-As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be [[[general:conditions#charmed|charmed]]] by you until the end of your next turn or until the [[[general:conditions#charmed|charmed]]] creature takes any damage. You can also cause any of the [[[general:conditions#charmed|charmed]]] creatures to drop what they are holding when they fail the saving throw.
+You can use your Channel Divinity to exert an intimidating presence over others.
+
+As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.
 
 ## Embodiment of the Law
 
-At 6th level, you become remarkably adept at channeling magical energy to compel others.
+_6th-level Order Domain feature_
+
+You have become remarkably adept at channeling magical energy to compel others.
 
 If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell's casting time to 1 bonus action for this casting, provided the spell's casting time is normally 1 action.
 
@@ -44,7 +61,9 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ## Divine Strike
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.
+_8th-level Order Domain feature_
+
+You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.
 
 [[accordion Optional Class Features: Blessed Strikes]]
 
@@ -60,11 +79,13 @@ You are blessed with divine might in battle. When a creature takes damage from o
 
 ## Order's Wrath
 
-Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.
+_17th-level Order Domain feature_
+
+Enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.
 
 ----
 
-*Source: Guildmaster's Guide to Ravnica, p. 25*
+*Source: Tasha's Cauldron of Everything, p. 31*
 
 <script type="module">
     import {init_accordions} from "/js/common/utils.js";
