@@ -209,6 +209,7 @@ h2 {
     display:flex;
     padding:3px 15px;
     max-width: 100%;
+    clear: right;
 }
 h3 {
     font-weight: normal;

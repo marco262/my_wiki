@@ -18,7 +18,7 @@ Monks of the Way of the Sun Soul learn to channel their own life energy into sea
 
 Starting when you choose this tradition at 3rd level, any time you would make an unarmed strike, you can instead attack with a searing bolt of magical radiance. A Radiant Sun Bolt is identical to an unarmed strike, except it is a ranged attack with a range equal to your speed that does radiant damage.
 
-<h2 id="searing-arc-strike" class="no-float">Searing Arc Strike</h2>
+## Searing Arc Strike
 
 [[div class="errata"]]
 

@@ -90,7 +90,7 @@ You and your drake share an empathic link and can communicate clearly with each 
 
 If your drake is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your drake's spirit and use your magic to create a new body for it. You can return your drake to life in this manner even if you do not possess any part of its body.
 
-<h2 id="combat-training" class="no-float">Combat Training</h2>
+## Combat Training
 
 _3rd-level Drake Rider feature_
 
