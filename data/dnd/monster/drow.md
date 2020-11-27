@@ -24,13 +24,13 @@ In drow society, males are subservient to females. A male drow might lead an Und
 
 ***Poison Predilection.*** Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies unconscious. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.
 
-<h2 id="drow-elite-warrior" class="no-float">Drow Elite Warrior</h2>
+## Drow Elite Warrior
 
 Drow elite warriors defend their houses and their superiors against all enemies, although they specialize in fighting dwarves, gnomes, and elves (including other drow). They frequently raid surface settlements under cover of night, returning to the Underdark with prisoners and spoils in tow before dawn.
 
 Elite warriors can be male or female.
 
-<h2 id="drow-mage" class="no-float">Drow Mage</h2>
+## Drow Mage
 
 [[div class="monster-float"]]
 
@@ -43,7 +43,7 @@ width = 650px
 
 Privileged drow males who lack the strength and fighting prowess to train as warriors have no recourse but to pursue the study of magic. For them, it is a matter of survival. Female drow with a natural affinity for the arcane arts may also become drow mages, although they are much less common.
 
-<h2 id="drow-priestess-of-lolth" class="no-float">Drow Priestess of Lolth</h2>
+## Drow Priestess of Lolth
 
 Female drow with blood ties to a noble house are molded and trained from birth to become priestesses of Lolth. The Spider Queen doesn't allow male drow to hold such positions.
 

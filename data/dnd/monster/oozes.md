@@ -12,7 +12,7 @@ Since not every ooze digests every type of substance, some have coins, metal gea
 
 ***Ooze Nature.*** An ooze doesn't require sleep.
 
-<h2 id="black-pudding" class="no-float">Black Pudding</h2>
+## Black Pudding
 
 [[div class="monster-float"]]
 
@@ -27,7 +27,7 @@ A black pudding resembles a heaving mound of sticky black sludge. In dim passage
 
 Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone remains behind, wiped clean.
 
-<h2 id="gelatinous-cube" class="no-float">Gelatinous Cube</h2>
+## Gelatinous Cube
 
 [[div class="monster-float"]]
 
@@ -42,7 +42,7 @@ Gelatinous cubes scour dungeon passages in silent, predictable patterns, leaving
 
 A gelatinous cube is all but transparent, making it hard to spot until it attacks. A cube that is well fed can be easier to spot, since its victims' bones, coins, and other objects can be seen suspended inside the creature.
 
-<h2 id="gray-ooze" class="no-float">Gray Ooze</h2>
+## Gray Ooze
 
 [[div class="monster-float"]]
 
@@ -63,7 +63,7 @@ A psionic gray ooze has an Intelligence score of (-2), as well as the following 
 
 ***Psychic Crush (Recharge 5-6).*** The ooze targets one creature that it can sense within 60 feet of it. The target must make a DC 10 Intelligence saving throw, taking 10 (3d6) psychic damage on a failed save, or half as much damage on a successful one. 
 
-<h2 id="ochre-jelly" class="no-float">Ochre Jelly</h2>
+## Ochre Jelly
 
 [[div class="monster-float"]]
 
