@@ -209,7 +209,6 @@ h2 {
     display:flex;
     padding:3px 15px;
     max-width: 100%;
-    clear: right;
 }
 h3 {
     font-weight: normal;
@@ -453,4 +452,10 @@ div.theme-restricted {
     width: 75%;
     border: dashed 1px gray;
     background-color: #FEA;
+}
+
+.clear-float {
+    clear: right;
+    margin: 0;
+    padding: 0;
 }

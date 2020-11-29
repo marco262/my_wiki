@@ -70,6 +70,8 @@ In combat, the spirit shares your initiative count, but it takes its turn immedi
 
 The spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die.
 
+[[clear-float]]
+
 ## Enhanced Bond
 
 _6th-level Circle of Wildfire feature_
