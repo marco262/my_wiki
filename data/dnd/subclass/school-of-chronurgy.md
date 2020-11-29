@@ -1,3 +1,9 @@
+[[div class="theme-restricted"]]
+
+This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
+ 
+[[/div]]
+
 Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.
 
 # School of Chronurgy
