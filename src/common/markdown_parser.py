@@ -169,6 +169,9 @@ class MarkdownParser:
         text = re.sub(r"<p>\[\[/div]]</p>", r"</div>", text)
         text = re.sub(r"\[\[span(.*?)]]", r"<span\1>", text)
         text = re.sub(r"\[\[/span]]", r"</span>", text)
+        print(text)
+        text = re.sub(r"<p>\[\[clear-float]]</p>", r'<div class="clear-float"></div>', text)
+        print(text)
         return text
 
     @staticmethod

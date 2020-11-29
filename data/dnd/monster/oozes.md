@@ -27,6 +27,8 @@ A black pudding resembles a heaving mound of sticky black sludge. In dim passage
 
 Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone remains behind, wiped clean.
 
+[[clear-float]]
+
 ## Gelatinous Cube
 
 [[div class="monster-float"]]
@@ -41,6 +43,8 @@ width = 700px
 Gelatinous cubes scour dungeon passages in silent, predictable patterns, leaving perfectly clean paths in their wake. They consume living tissue while leaving bones and other materials undissolved.
 
 A gelatinous cube is all but transparent, making it hard to spot until it attacks. A cube that is well fed can be easier to spot, since its victims' bones, coins, and other objects can be seen suspended inside the creature.
+
+[[clear-float]]
 
 ## Gray Ooze
 
@@ -61,7 +65,9 @@ A gray ooze that lives a long time can evolve to become more intelligent and dev
 
 A psionic gray ooze has an Intelligence score of (-2), as well as the following additional action.
 
-***Psychic Crush (Recharge 5-6).*** The ooze targets one creature that it can sense within 60 feet of it. The target must make a DC 10 Intelligence saving throw, taking 10 (3d6) psychic damage on a failed save, or half as much damage on a successful one. 
+***Psychic Crush (Recharge 5-6).*** The ooze targets one creature that it can sense within 60 feet of it. The target must make a DC 10 Intelligence saving throw, taking 10 (3d6) psychic damage on a failed save, or half as much damage on a successful one.
+
+[[clear-float]]
 
 ## Ochre Jelly
 
