@@ -447,3 +447,10 @@ blockquote {
     margin-left: 10px;
     margin-bottom: 15px;
 }
+
+div.theme-restricted {
+    padding: 0 15px;
+    width: 75%;
+    border: dashed 1px gray;
+    background-color: #FEA;
+}

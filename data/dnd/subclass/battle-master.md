@@ -127,7 +127,101 @@ The Battle Master showcases just how versatile a fighter can be. The suite of ma
 
 Below are recommendations for how you might build a Battle Master to reflect various types of warriors. Each of these builds contains suggested fighting styles, maneuvers, and feats.
 
-## TBC
+## Archer
+
+**Fighting Style:** [[[class:fighter#archery|Archery]]]  
+**Maneuvers:** Disarming Strike, Distracting Strike, Precision Attack  
+**Feats:** [[[advancement:feats#sharpshooter|Sharpshooter]]]
+
+You prefer to deal with your enemies from afar, trusting in a well-placed arrow, javelin, or sling bullet to end a fight without a response. You rely on accuracy and probably subscribe to the axiom that "those who live by the sword die by the bow."
+
+## Bodyguard
+
+**Fighting Style:** [[[class:fighter#interception|Interception]]], [[[class:fighter#protection|Protection]]]  
+**Maneuvers:** Bait and Switch, Disarming Attack, Goading Attack, Grappling Strike  
+**Feats:** [[[advancement:feats#alert|Alert]]], [[[advancement:feats#observant|Observant]]], [[[advancement:feats#sentinel|Sentinel]]], [[[advancement:feats#tough|Tough]]]
+
+Love, money, or some other obligation motivates you to place your own body between harm and the one you're sworn to protect. You have honed the ability to sniff out potential threats and see your charge through dangerous situations.
+
+## Brawler
+
+**Fighting Style:** [[[class:fighter#blind-fighting|Blind Fighting]]], [[[class:fighter#two-weapon-fighting|Two-Weapon Fighting]]], [[[class:fighter#unarmed-fighting|Unarmed Fighting]]]  
+**Maneuvers:** Ambush, Disarming Attack, Feinting Attack, Pushing Attack, Trip Attack  
+**Feats:** [[[advancement:feats#athlete|Athlete]]], [[[advancement:feats#durable|Durable]]], [[[advancement:feats#grappler|Grappler]]], [[[advancement:feats#resilient|Resilient]]], [[[advancement:feats#shield-master|Shield Master]]], [[[advancement:feats#tavern-brawler|Tavern Brawler]]], [[[advancement:feats#tough|Tough]]]
+
+When bottles start breaking and chairs start flying, you're in your element. You love a good scrap, and you've likely seen your share of them. You may or may not have formal training, and while others might call you a dirty fighter, you're still alive.
+
+## Duelist
+
+**Fighting Style:** [[[class:fighter#dueling|Dueling]]], [[[class:fighter#two-weapon-fighting|Two-Weapon Fighting]]]  
+**Maneuvers:** Evasive Footwork, Feinting Attack, Lunging Attack, Parry, Precision Attack, Riposte  
+**Feats:** [[[advancement:feats#defensive-duelist|Defensive Duelist]]], [[[advancement:feats#dual-wielder|Dual Wielder]]], [[[advancement:feats#observant|Observant]]], [[[advancement:feats#savage-attacker|Savage Attacker]]], [[[advancement:feats#weapon-master|Weapon Master]]]
+
+You regard the duel as a proud tradition, a test of skill and wits that brings honor to those who can defeat an enemy while respecting the art. Your search for improvement is a consuming passion, and you draw on the expertise of the masters who've come before you as you work to perfect your form.
+
+## Gladiator
+
+**Fighting Style:** [[[class:fighter#defense|Defense]]], [[[class:fighter#two-weapon-fighting|Two-Weapon Fighting]]]  
+**Maneuvers:** Goading Attack, Menacing Attack, Sweeping Attack, Trip Attack  
+**Feats:** [[[advancement:feats#athlete|Athlete]]], [[[advancement:feats#charger|Charger]]], [[[advancement:feats#dual-wielder|Dual Wielder]]], [[[advancement:feats#durable|Durable]]], [[[advancement:feats#grappler|Grappler]]], [[[advancement:feats#savage-attacker|Savage Attacker]]], [[[advancement:feats#tough|Tough]]], [[[advancement:feats#weapon-master|Weapon Master]]]
+
+You've fought to entertain crowds, whether for sport or as punishment. Along the way, you learned to use all manner of weapons to battle all kinds of adversaries. You're practical yet theatrical, and you know how to employ fear as an effective tool in a fight.
+
+## Hoplite
+
+**Fighting Style:** [[[class:fighter#defense|Defense]]], [[[class:fighter#thrown-weapon-fighting|Thrown Weapon Fighting]]]  
+**Maneuvers:** Brace, Lunging Attack, Parry, Precision Attack  
+**Feats:** [[[advancement:feats#athlete|Athlete]]], [[[advancement:feats#grappler|Grappler]]], [[[advancement:feats#polearm-master|Polearm Master]]], [[[advancement:feats#sentinel|Sentinel]]], [[[advancement:feats#shield-master|Shield Master]]]
+
+With spear and shield, you follow in the footsteps of the heroes of ages past. You rely on discipline and athleticism to overcome improbable odds. Whether fighting in ranks alongside your comrades or squaring off as a lone warrior, you're equal to the task.
+
+## Lancer
+
+**Fighting Style:** [[[class:fighter#dueling|Dueling]]]  
+**Maneuvers:** Lunging Attack, Menacing Attack, Precision Attack, Pushing Attack  
+**Feats:** [[[advancement:feats#heavy-armor-master|Heavy Armor Master]]], [[[advancement:feats#mounted-combatant|Mounted Combatant]]], [[[advancement:feats#savage-attacker|Savage Attacker]]]
+
+When the cavalry is called in, that means you. You ride out to greet your enemy with the point of your weapon. As you charge, the ground trembles, and only the heaviest blows can deter you.
+
+## Outrider
+
+**Fighting Style:** [[[class:fighter#archery|Archery]]]  
+**Maneuvers:** Ambush, Distracting Strike, Goading Attack, Precision Attack, Quick Toss  
+**Feats:** [[[advancement:feats#alert|Alert]]], [[[advancement:feats#crossbow-expert|Crossbow Expert]]], [[[advancement:feats#mounted-combatant|Mounted Combatant]]], [[[advancement:feats#observant|Observant]]], [[[advancement:feats#sharpshooter|Sharpshooter]]]
+
+You find freedom in the saddle and a companion in your mount. A headlong charge into combat is a blunt instrument for oafs. You prefer mobility and range, opting to find advantageous positions that allow you to deal with foes at full gallop while evading the most dangerous threats.
+
+## Pugilist
+
+**Fighting Style:** [[[class:fighter#unarmed-fighting|Unarmed Fighting]]]  
+**Maneuvers:** Disarming Attack, Evasive Footwork, Grappling Strike, Menacing Attack, Pushing Attack, Riposte, Trip Attack  
+**Feats:** [[[advancement:feats#athlete|Athlete]]], [[[advancement:feats#durable|Durable]]], [[[advancement:feats#grappler|Grappler]]], [[[advancement:feats#savage-attacker|Savage Attacker]]], [[[advancement:feats#tavern-brawler|Tavern Brawler]]]
+
+Where others rely on steel, you've got your fists. Whether through training or experience, you've developed a superior technique that can help you overcome an enemy in an up-close fight.
+
+## Shock Trooper
+
+**Fighting Style:** [[[class:fighter#great-weapon-fighting|Great Weapon Fighting]]]  
+**Maneuvers:** Menacing Attack, Pushing Attack, Sweeping Attack  
+**Feats:** [[[advancement:feats#charger|Charger]]], [[[advancement:feats#great-weapon-master|Great Weapon Master]]], [[[advancement:feats#heavy-armor-master|Heavy Armor Master]]]
+
+Subtlety is not your style. You're trained to get straight into the fighting, busting through enemy lines and applying tremendous pressure quickly. Those who ignore you in combat do so at their peril.
+
+## Skirmisher
+
+**Fighting Style:** [[[class:fighter#archery|Archery]]], [[[class:fighter#thrown-weapon-fighting|Thrown Weapon Fighting]]]  
+**Maneuvers:** Ambush, Bait and Switch, Distracting Strike, Quick Toss  
+**Feats:** [[[advancement:feats#alert|Alert]]], [[[advancement:feats#dual-wielder|Dual Wielder]]], [[[advancement:feats#mobile|Mobile]]], [[[advancement:feats#skulker|Skulker]]]
+
+You thrive amid the chaos of battle. You use your mobility and versatility in combat to soften your adversaries and disrupt their formations. An enemy's plan rarely survives contact with you.
+
+## Strategist
+
+**Fighting Style:** [[[class:fighter#defense|Defense]]]  
+**Maneuvers:** Commander's Strike, Commanding Presence, Maneuvering Attack, Rally, Tactical Assessment  
+**Feats:** [[[advancement:feats#inspiring-leader|Inspiring Leader]]], [[[advancement:feats#keen-mind|Keen Mind]]], [[[advancement:feats#linguist|Linguist]]]
+
+To you, battles unfold like a game of chess. You understand that strength and speed are important in a fight, but it takes intellect and experience to know how best to apply them. That's where you come in.
 
 ----
 

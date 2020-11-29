@@ -1,3 +1,9 @@
+[[div class="theme-restricted"]]
+
+This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign. 
+
+[[/div]]
+
 Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.
 
 # School of Graviturgy
