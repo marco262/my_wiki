@@ -1,14 +1,6 @@
 The Oath of Heroism is an affirmation of a destined path, one laid out for you by divine hands. For whatever reason, a god or a group of gods has included you in their machinations. You are not a reluctant hero, but one who fully embraces the idea that great deeds are yours to achieve. You train diligently, sculpting your body and refining your skills so you're ready when destiny calls.
 
-# Oath of Heroism
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of Heroism, Oath Spells, Channel Divinity ||
-|| 7th || Mighty Deed ||
-|| 15th || Glorious Defense ||
-|| 20th || Living Myth ||
-
-## Tenets of Heroism
+### Tenets of Heroism
 
 The tenets of the Oath of Heroism reflect a paladin's commitment to fulfilling their calling as a hero worthy of legend.
 
@@ -17,11 +9,19 @@ The tenets of the Oath of Heroism reflect a paladin's commitment to fulfilling t
 * **Embrace Destiny.** You didn't choose this path, but it's yours to walk. And it will carry you into legend.
 * **Hone the Body.** Like raw stone, your body must be worked so its potential can be realized.
 
+# Oath of Heroism
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Mighty Deed ||
+|| 15th || Glorious Defense ||
+|| 20th || Living Myth ||
+
 ## Oath Spells
 
 You gain oath spells at the paladin levels listed in the Oath of Heroism Spells table. See the Sacred Oath class feature for how oath spells work.
 
-**Oath of Heroism Spells**
+### Oath of Heroism Spells
 
 ||~ Paladin Level ||~ Spells ||
 || 3rd || [[[spell:expeditious retreat]]], [[[spell:guiding bolt]]] ||

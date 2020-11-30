@@ -1,14 +1,6 @@
 The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things -- leaves, antlers, or flowers -- to reflect their commitment to preserving life and light in the world.
 
-# Oath of the Ancients
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of the Ancients, Oath Spells, Channel Divinity ||
-|| 7th || Aura of Warding ||
-|| 15th || Undying Sentinel ||
-|| 20th || Elder Champion ||
-
-## Tenets of the Ancients
+### Tenets of the Ancients
 
 The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.
 
@@ -16,6 +8,14 @@ The tenets of the Oath of the Ancients have been preserved for uncounted centuri
 * **Shelter the Light.** Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.
 * **Preserve Your Own Light.** Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.
 * **Be the Light.** Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.
+
+# Oath of the Ancients
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Aura of Warding ||
+|| 15th || Undying Sentinel ||
+|| 20th || Elder Champion ||
 
 ## Oath Spells
 
