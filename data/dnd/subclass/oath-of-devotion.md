@@ -1,14 +1,6 @@
 The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels -- the perfect servants of good -- as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
 
-# Oath of Devotion
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of Devotion, Oath Spells, Channel Divinity ||
-|| 7th || Aura of Devotion ||
-|| 15th || Purity of Spirit ||
-|| 20th || Holy Nimbus ||
-
-## Tenets of Devotion
+### Tenets of Devotion
 
 Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
 
@@ -17,6 +9,14 @@ Though the exact words and strictures of the Oath of Devotion vary, paladins of 
 * **Compassion.** Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
 * **Honor.** Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
 * **Duty.** Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
+
+# Oath of Devotion
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Aura of Devotion ||
+|| 15th || Purity of Spirit ||
+|| 20th || Holy Nimbus ||
 
 ## Oath Spells
 

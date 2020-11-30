@@ -2,15 +2,7 @@ The Oath of Redemption sets a paladin on a difficult path, one that requires a h
 
 While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, the paladins bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.
 
-# Oath of Redemption
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of Redemption, Oath Spells, Channel Divinity ||
-|| 7th || Aura of the Guardian ||
-|| 15th || Protective Spirit ||
-|| 20th || Emissary of Redemption ||
-
-## Tenets of Redemption
+### Tenets of Redemption
 
 The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.
 
@@ -18,6 +10,14 @@ The tenets of the Oath of Redemption hold a paladin to a high standard of peace 
 * **Innocence.** All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.
 * **Patience.** Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow it to survive and then flourish.
 * **Wisdom.** Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.
+
+# Oath of Redemption
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Aura of the Guardian ||
+|| 15th || Protective Spirit ||
+|| 20th || Emissary of Redemption ||
 
 ## Oath Spells
 

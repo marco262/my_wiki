@@ -2,15 +2,7 @@ The Oath of Conquest calls to paladins who seek glory in battle and the subjugat
 
 Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins – called hell knights – as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.
 
-# Oath of Conquest
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of Conquest, Oath Spells, Channel Divinity ||
-|| 7th || Aura of Warding ||
-|| 15th || Undying Sentinel ||
-|| 20th || Elder Champion ||
-
-## Tenets of Conquest
+### Tenets of Conquest
 
 A paladin who takes this oath has the tenets of conquest seared on the upper arm.
 
@@ -18,11 +10,19 @@ A paladin who takes this oath has the tenets of conquest seared on the upper arm
 * ***Rule with an Iron Fist.*** Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow.
 * ***Strength Above All.*** You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin.
 
+# Oath of Conquest
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Aura of Warding ||
+|| 15th || Undying Sentinel ||
+|| 20th || Elder Champion ||
+
 ## Oath Spells
 
 You gain oath spells at the paladin levels listed.
 
-### Oath of Devotion Spells
+### Oath of Conquest Spells
 
 ||~ Paladin Level ||~ Spells ||
 || 3rd || _[[[spell:armor of agathys]]]_, _[[[spell:command]]]_ ||

@@ -1,14 +1,6 @@
 The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the just laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or a sovereign, and undergo their oath as part of their admission to the order's ranks.
 
-# Oath of the Crown
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of the Crown, Oath Spells, Channel Divinity ||
-|| 7th || Divine Allegiance ||
-|| 15th || Unyielding Saint ||
-|| 20th || Exalted Champion ||
-
-## Tenets of the Crown
+### Tenets of the Crown
 
 The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.
 
@@ -16,6 +8,14 @@ The tenets of the Oath of the Crown are often set by the sovereign to which thei
 * **Loyalty.** Your word is your bond. Without loyalty, oaths and laws are meaningless.
 * **Courage.** You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?
 * **Responsibility.** You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.
+
+# Oath of the Crown
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Divine Allegiance ||
+|| 15th || Unyielding Saint ||
+|| 20th || Exalted Champion ||
 
 ## Oath Spells
 

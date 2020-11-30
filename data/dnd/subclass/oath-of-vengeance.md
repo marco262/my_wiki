@@ -1,14 +1,6 @@
 The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside -- at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins -- sometimes called avengers or dark knights -- their own purity is not as important as delivering justice.
 
-# Oath of Devotion
-
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Tenets of Devotion, Oath Spells, Channel Divinity ||
-|| 7th || Aura of Warding ||
-|| 15th || Undying Sentinel ||
-|| 20th || Elder Champion ||
-
-## Tenets of Vengeance
+### Tenets of Vengeance
 
 The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.
 
@@ -17,11 +9,19 @@ The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve 
 * **By Any Means Necessary.** My qualms can't get in the way of exterminating my foes.
 * **Restitution.** If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.
 
+# Oath of Vengeance
+
+||~ Paladin Level ||~ Feature ||
+|| 3rd || Oath Spells, Channel Divinity ||
+|| 7th || Aura of Warding ||
+|| 15th || Undying Sentinel ||
+|| 20th || Elder Champion ||
+
 ## Oath Spells
 
 You gain oath spells at the paladin levels listed.
 
-### Oath of Devotion Spells
+### Oath of Vengeance Spells
 
 ||~ Paladin Level ||~ Spells ||
 || 3rd || *[[[spell:bane]]]*, *[[[spell:hunter's mark]]]* ||
