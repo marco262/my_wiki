@@ -4,8 +4,8 @@ Monks of the Way of the Sun Soul learn to channel their own life energy into sea
 
 ||~ Monk Level ||~ Feature ||
 || 3rd || Radiant Sun Bolt ||
-|| 9th || Searing Arc Strike ||
-|| 13th || Searing Sunburst ||
+|| 6th || Searing Arc Strike ||
+|| 11th || Searing Sunburst ||
 || 17th || Sun Shield ||
 
 ## Radiant Sun Bolt
