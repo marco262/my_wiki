@@ -92,8 +92,8 @@ You know when to hold 'em, when to fold 'em, when to walk away, and when to run.
 * Increase your Wisdom score by 1, to a maximum of 20.
 * You gain proficiency with a game set of your choice.  If you are already proficient with it, you add double your proficiency bonus to checks you make with it.
 * After interacting with a person for ten minutes, you gain advantage on one Insight check you make against them during the next 24 hours.  Once you've used this benefit against someone, you may not use it against the same person again until you finish a long rest.
-* When you spend downtime carousing, you roll twice on the carousing table and keep whichever result you prefer.
-* When you spend downtime carousing using the Carousing rules from Xanathar's Guide to Everything, you have advantage on your Charisma (Persuasion) check.[((bibcite homebrew))]
+* When you spend downtime carousing (PHB), you roll twice on the carousing table and keep whichever result you prefer.
+* When you spend downtime carousing (XGtE), you have advantage on your Charisma (Persuasion) check.[((bibcite homebrew))]
 * When you spend downtime gambling, you can gain advantage on one of the checks you make as part of your gambling spree.[((bibcite homebrew))]
 
 ## Grappler[((bibcite errata))]
