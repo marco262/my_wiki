@@ -33,7 +33,7 @@ Note that these are abbreviated descriptions, and each activity may come with un
 || Manage Erwaren's Rest || Free || Gain +10 to +30 to the roll for Erwaren's Rest profits ||
 || Relaxation || Free || Recover from a disease, poison, or other long-lasting effect ||
 || Religious Service || Free || Offer your time to a temple or other religious group, possibly earning favors ||
-|| Renovate Erwaren's Rest || 5gp || Gain up to +20 to the roll for Erwaren's Rest profits ||
+|| Renovate Erwaren's Rest || 5 gp || Gain up to +20 to the roll for Erwaren's Rest profits ||
 || Research || 50 gp+ || Learn information on a particular topic of interest ||
 || Scribing a Spell Scroll || 15 gp to 500 gp || Scribe a spell scroll using one of the spells you know ||
 || Selling a Magic Item || 25 gp || Seek out a buyer for a magic item you own ||

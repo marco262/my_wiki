@@ -11,7 +11,7 @@
 * [Curiosity & Satisfaction](^https://www.parisperfect.com/blog/wp-content/uploads/2017/11/Shakespeare-and-Company-Kiren.jpg), Uza's bookshop
 * [Fillipa](^https://cf.ltkcdn.net/cats/images/orig/259025-1600x1030-gorgeous-grey-cat-breeds.jpg)
 
-Spellbook reward can be sold for 275gp
+Spellbook reward can be sold for 275 gp
 
 ### Welcome to the Family
 
