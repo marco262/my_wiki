@@ -9,7 +9,7 @@ At the end of every tenday, roll 1d100 to determine how profitable Erwaren's Res
 || 41-60 || The business covers its own maintenance cost for each of the days. ||
 || 61-80 || The business covers its own maintenance cost for each of the days. It earns a profit of 1d6 x 5 gp. ||
 || 81-90 || The business covers its own maintenance cost for each of the days. It earns a profit of 2d8 x 5 gp. ||
-|| 91 or higher || The business covers its own maintenance cost for higher each of the days. It earns a profit of 3d10 x 5 gp. ||
+|| 91 or higher || The business covers its own maintenance cost for each of the days. It earns a profit of 3d10 x 5 gp. ||
 
 Maintenance costs:
 
