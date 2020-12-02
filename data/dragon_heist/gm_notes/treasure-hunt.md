@@ -72,7 +72,7 @@ Embric and Avi working together can get the seal put onto the scale, but it will
 
 ### Sunlight
 
-The players will have to figure this one out, lol. Twenty steel mirrors at 5gp apiece could work
+The players will have to figure this one out, lol. Twenty steel mirrors at 5 gp apiece could work
 
 A noble family (whichever they approach) can loan them a Driftglobe. Renaer probably has one just sitting around. Any other noble house will request some kind of favor.
 
@@ -114,7 +114,7 @@ The [treasure pile](^treasure_pile.png) takes up one of the alcoves in the vault
 * 95,746 copper pieces
 * 144,111 silver pieces
 * 479,376 gold pieces
-* 4,735 10gp gems
+* 4,735 10 gp gems
 
 Total value: 542,094.56 gp  
 Total 'coins': 723,968  
