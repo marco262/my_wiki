@@ -1,0 +1,13 @@
+title = "Arcane Grimoire, +3"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Very Rare"
+attunement = true
+classes = ["wizard"]
+notes = ""
+source = "tcoe 120"
+description = """
+While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your wizard spells. The bonus is determined by the book's rarity.
+
+You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.
+"""
