@@ -1,7 +1,9 @@
 name = "Weapon, +3"
 type = "Weapon"
+subtype = ""
 rarity = "Very Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 213"
 description = "<p>You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.</p>"

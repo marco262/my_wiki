@@ -1,7 +1,9 @@
 name = "Cap of Water Breathing"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 157"
 description = "No description available."

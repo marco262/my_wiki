@@ -1,7 +1,9 @@
 name = "Bead of Refreshment"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 136"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Cast-Off Armor"
 type = "Armor"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "light, medium, or heavy"
 source = "xge 136"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Wand of Smiles"
 type = "Wand"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 140"
 description = "No description available."

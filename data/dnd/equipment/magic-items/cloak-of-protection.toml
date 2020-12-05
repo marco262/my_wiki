@@ -1,7 +1,9 @@
 name = "Cloak of Protection"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 159"
 description = "<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>"

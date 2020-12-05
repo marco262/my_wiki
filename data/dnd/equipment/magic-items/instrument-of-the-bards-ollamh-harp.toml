@@ -1,7 +1,9 @@
 name = "Instrument of the Bards, Ollamh Harp"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = "bard"
 source = "dmg 176"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Potion of Heroism"
 type = "Potion"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 188"
 description = "<p>For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no concentration required). This blue potion bubbles and steams as if boiling.</p>"

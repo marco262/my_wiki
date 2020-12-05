@@ -1,7 +1,9 @@
 name = "Pole of Collapsing"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 138"
 description = "No description available."

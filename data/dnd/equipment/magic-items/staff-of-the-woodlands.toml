@@ -1,7 +1,9 @@
 name = "Staff of the Woodlands"
 type = "Staff"
+subtype = ""
 rarity = "Rare"
 attunement = true
+classes = []
 notes = "druid"
 source = "dmg 204"
 description = "<p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.</p><p>The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.</p><p><strong>Spells.</strong> You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: <em>animal friendship</em> (1 charge), <em>awaken</em> (5 charges), <em>barkskin</em> (2 charges), <em>locate animals or plants</em> (2 charges), <em>speak with animals</em> (1 charge), <em>speak with plants</em> (3 charges), or <em>wall of thorns</em> (6 charges).</p><p>You can also use an action to cast the <em>pass without trace</em> spell from the staff without using any charges.</p><p><strong>Tree Form.</strong> You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p><p>The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by <em>detect magic</em>. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.</p>"

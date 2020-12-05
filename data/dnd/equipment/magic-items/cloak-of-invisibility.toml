@@ -1,7 +1,9 @@
 name = "Cloak of Invisibility"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 158"
 description = "No description available."

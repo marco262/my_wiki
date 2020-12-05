@@ -1,7 +1,9 @@
 name = "Helm of Telepathy"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 174"
 description = "<p>While wearing this helm, you can use an action to cast the <em>detect thoughts</em> spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply -- using a bonus action to do so -- while your focus on it continues.</p><p>While focusing on a creature with <em>detect thoughts</em>, you can use an action to cast the <em>suggestion</em> spell (save DC 13) from the helm on that creature. Once used, the <em>suggestion</em> property can't be used again until the next dawn.</p>"

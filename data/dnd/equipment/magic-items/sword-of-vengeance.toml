@@ -1,7 +1,9 @@
 name = "Sword of Vengeance"
 type = "Weapon"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = "any sword"
 source = "dmg 206"
 description = "No description available."

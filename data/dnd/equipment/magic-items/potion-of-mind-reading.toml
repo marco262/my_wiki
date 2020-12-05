@@ -1,7 +1,9 @@
 name = "Potion of Mind Reading"
 type = "Potion"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 188"
 description = "<p>When you drink this potion, you gain the effect of the <em>detect thoughts</em> spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.</p>"

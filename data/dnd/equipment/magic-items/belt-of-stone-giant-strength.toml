@@ -1,7 +1,9 @@
 name = "Belt of Stone Giant Strength"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Very Rare"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 155"
 description = "<p>While wearing this belt, your Strength score changes to a score granted by the belt. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p><p>Six varieties of this belt exist, corresponding with and having rarity according to the six kinds of true giants. The <em>belt of stone giant strength</em> and the <em>belt of frost giant strength</em> look different, but they have the same effect.</p><table><thead><tr><th>Type</th><th>Strength</th><th>Rarity</th></tr></thead><tbody><tr><td>Hill giant</td><td>21</td><td>Rare</td></tr><tr><td>Stone/frost giant</td><td>23</td><td>Very rare</td></tr><tr><td>Fire giant</td><td>25</td><td>Very rare</td></tr><tr><td>Cloud giant</td><td>27</td><td>Legendary</td></tr><tr><td>Storm giant</td><td>29</td><td>Legendary</td></tr></tbody></table>"

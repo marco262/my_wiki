@@ -1,7 +1,9 @@
 name = "Charlatan's Die"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = true
+classes = []
 notes = ""
 source = "xge 136"
 description = "No description available."

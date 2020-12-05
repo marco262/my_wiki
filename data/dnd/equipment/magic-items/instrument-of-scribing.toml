@@ -1,7 +1,9 @@
 name = "Instrument of Scribing"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = true
+classes = []
 notes = ""
 source = "xge 138"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Moon-Touched Sword"
 type = "Weapon"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "any sword"
 source = "xge 138"
 description = "No description available."

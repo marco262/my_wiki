@@ -1,7 +1,9 @@
 name = "Potion of Fire Breath"
 type = "Potion"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 187"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Gauntlets of Ogre Power"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 171"
 description = "<p>Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.</p>"

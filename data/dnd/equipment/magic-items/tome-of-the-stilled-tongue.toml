@@ -1,7 +1,9 @@
 name = "Tome of the Stilled Tongue"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = "wizard"
 source = "dmg 208"
 description = "No description available."

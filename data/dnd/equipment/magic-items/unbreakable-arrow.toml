@@ -1,7 +1,9 @@
 name = "Unbreakable Arrow"
 type = "Weapon"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "arrow"
 source = "xge 139"
 description = "No description available."

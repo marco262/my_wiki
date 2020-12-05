@@ -1,7 +1,9 @@
 name = "Mariner's Armor"
 type = "Armor"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 181"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Dagger of Venom"
 type = "Weapon"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = "dagger"
 source = "dmg 161"
 description = "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 poison damage and become [[[general:conditions#poisoned|poisoned]]] for 1 minute. The dagger can't be used this way again until the next dawn.</p>"
