@@ -4,6 +4,6 @@ subtype = ""
 rarity = "Common"
 attunement = true
 classes = []
-notes = "spellcaster"
+notes = "requires attunement by a spellcaster"
 source = "xge 138"
 description = "No description available."

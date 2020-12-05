@@ -1,9 +1,9 @@
 name = "Sword of Answering"
 type = "Weapon"
-subtype = ""
+subtype = "longsword"
 rarity = "Legendary"
 attunement = true
 classes = []
-notes = "longsword, by alignment"
+notes = "requires attunement by a creature with the same alignment as the sword"
 source = "dmg 206"
 description = "No description available."

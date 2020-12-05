@@ -4,6 +4,6 @@ subtype = ""
 rarity = "Rare"
 attunement = true
 classes = []
-notes = "spellcaster"
+notes = "requires attunement by a spellcaster"
 source = "dmg 212"
 description = "<p>While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore half cover when making a spell attack.</p>"
