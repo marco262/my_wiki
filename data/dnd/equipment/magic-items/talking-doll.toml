@@ -1,7 +1,9 @@
 name = "Talking Doll"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = true
+classes = []
 notes = ""
 source = "xge 139"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Boots of Levitation"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Rare"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 155"
 description = "<p>While you wear these boots, you can use an action to cast the <em>levitate</em> spell on yourself at will.</p>"

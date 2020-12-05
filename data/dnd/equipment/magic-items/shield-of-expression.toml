@@ -1,7 +1,9 @@
 name = "Shield of Expression"
 type = "Armor"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "shield"
 source = "xge 139"
 description = "No description available."

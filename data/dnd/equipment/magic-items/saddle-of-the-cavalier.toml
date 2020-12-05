@@ -1,7 +1,9 @@
 name = "Saddle of the Cavalier"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 199"
 description = "No description available."

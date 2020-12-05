@@ -1,7 +1,9 @@
 name = "Giant Slayer"
 type = "Weapon"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = "any axe or sword"
 source = "dmg 172"
 description = "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall [[[general:conditions#prone|prone]]]. For the purpose of this weapon, &quot;giant&quot; refers to any creature with the giant type, including ettins and trolls.</p>"

@@ -1,7 +1,9 @@
 name = "Walloping Ammunition"
 type = "Weapon"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "any ammunition"
 source = "xge 139"
 description = "No description available."

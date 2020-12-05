@@ -1,7 +1,9 @@
 name = "Scroll of Protection"
 type = "Scroll"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 199"
 description = "No description available."

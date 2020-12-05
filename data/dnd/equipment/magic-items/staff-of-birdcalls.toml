@@ -1,7 +1,9 @@
 name = "Staff of Birdcalls"
 type = "Staff"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 139"
 description = "No description available."

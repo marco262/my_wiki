@@ -1,7 +1,9 @@
 name = "Hat of Disguise"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 173"
 description = "<p>While wearing this hat, you can use an action to cast the <em>disguise self</em> spell from it at will. The spell ends if the hat is removed.</p>"

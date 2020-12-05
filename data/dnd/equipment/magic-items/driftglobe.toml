@@ -1,7 +1,9 @@
 name = "Driftglobe"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 166"
 description = "No description available."

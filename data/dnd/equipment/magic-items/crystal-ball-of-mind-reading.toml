@@ -1,7 +1,9 @@
 name = "Crystal Ball of Mind Reading"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 159"
 description = "<p>The typical <em>crystal ball</em>, a very rare item, is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p><p>The following <em>crystal ball</em> variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of Mind Reading.</strong> You can use an action to cast the <em>detect thoughts</em> spell (save DC 17) while you are scrying with the <em>crystal ball</em>, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this <em>detect thoughts</em> to maintain it during its duration, but it ends if Scrying ends.</p>"

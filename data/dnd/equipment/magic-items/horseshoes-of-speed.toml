@@ -1,7 +1,9 @@
 name = "Horseshoes of Speed"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 175"
 description = "<p>These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature's walking speed by 30 feet.</p>"

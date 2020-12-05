@@ -1,7 +1,9 @@
 name = "Instrument of the Bards, Doss Lute"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = "bard"
 source = "dmg 176"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Mantle of Spell Resistance"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Rare"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 180"
 description = "<p>You have advantage on saving throws against spells while you wear this cloak.</p>"

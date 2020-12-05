@@ -1,7 +1,9 @@
 name = "Armor of Gleaming"
 type = "Armor"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = "medium or heavy"
 source = "xge 136"
 description = "No description available."

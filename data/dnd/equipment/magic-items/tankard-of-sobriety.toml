@@ -1,7 +1,9 @@
 name = "Tankard of Sobriety"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 139"
 description = "No description available."

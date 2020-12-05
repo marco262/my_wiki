@@ -1,7 +1,9 @@
 name = "Potion of Clairvoyance"
 type = "Potion"
+subtype = ""
 rarity = "Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 187"
 description = "<p>When you drink this potion, you gain the effect of the <em>clairvoyance</em> spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.</p>"

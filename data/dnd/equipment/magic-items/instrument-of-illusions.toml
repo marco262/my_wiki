@@ -1,7 +1,9 @@
 name = "Instrument of Illusions"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = true
+classes = []
 notes = ""
 source = "xge 137"
 description = "No description available."

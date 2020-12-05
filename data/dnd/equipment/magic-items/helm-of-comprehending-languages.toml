@@ -1,7 +1,9 @@
 name = "Helm of Comprehending Languages"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 173"
 description = "<p>While wearing this helm, you can use an action to cast the <em>comprehend languages</em> spell from it at will.</p>"

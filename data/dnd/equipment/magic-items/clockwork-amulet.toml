@@ -1,7 +1,9 @@
 name = "Clockwork Amulet"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 137"
 description = "No description available."

@@ -1,7 +1,9 @@
 name = "Carpet of Flying"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Very Rare"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 157"
 description = "<p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>Four sizes of <em>carpet of flying</em> exist. The GM chooses the size of a given carpet or determines it randomly.</p><table><thead><tr><th>d100</th><th>Size</th><th>Capacity</th><th>Flying Speed</th></tr></thead><tbody><tr><td>01-20</td><td>3 ft. x 5 ft.</td><td>200 lb.</td><td>80 feet</td></tr><tr><td>21-55</td><td>4 ft. x 6 ft.</td><td>400 lb.</td><td>60 feet</td></tr><tr><td>56-80</td><td>5 ft. x 7 ft.</td><td>600 lb.</td><td>40 feet</td></tr><tr><td>81-00</td><td>6 ft. x 9 ft.</td><td>800 lb.</td><td>30 feet</td></tr></tbody></table><p>A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.</p>"

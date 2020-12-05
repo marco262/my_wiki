@@ -1,7 +1,9 @@
 name = "Ruby of the War Mage"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = true
+classes = []
 notes = "spellcaster"
 source = "xge 138"
 description = "No description available."

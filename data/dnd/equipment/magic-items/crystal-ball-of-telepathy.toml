@@ -1,7 +1,9 @@
 name = "Crystal Ball of Telepathy"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 159"
 description = "<p>The typical <em>crystal ball</em>, a very rare item, is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p><p>The following <em>crystal ball</em> variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of Telepathy.</strong> While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the <em>suggestion</em> spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this <em>suggestion</em> to maintain it during its duration, but it ends if <em>scrying</em> ends. Once used, the <em>suggestion</em> power of the <em>crystal ball</em> can't be used again until the next dawn.</p>"

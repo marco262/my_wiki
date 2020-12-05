@@ -1,7 +1,9 @@
 name = "Potion of Animal Friendship"
 type = "Potion"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = ""
 source = "dmg 187"
 description = "<p>When you drink this potion, you can cast the <em>animal friendship</em> spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.</p>"

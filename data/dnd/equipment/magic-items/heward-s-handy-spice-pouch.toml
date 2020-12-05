@@ -1,7 +1,9 @@
 name = "Heward's Handy Spice Pouch"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Common"
 attunement = false
+classes = []
 notes = ""
 source = "xge 137"
 description = "No description available."

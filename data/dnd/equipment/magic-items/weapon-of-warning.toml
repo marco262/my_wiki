@@ -1,7 +1,9 @@
 name = "Weapon of Warning"
 type = "Weapon"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 213"
 description = "No description available."

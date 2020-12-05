@@ -1,7 +1,9 @@
 name = "Talisman of the Sphere"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Legendary"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 207"
 description = "<p>When you make an Intelligence (Arcana) check to control a <em>sphere of annihilation</em> while you are holding this talisman, you double your proficiency bonus on the check. In addition, when you start your turn with control over a <em>sphere of annihilation</em>, you can use an action to levitate it 10 feet plus a number of additional feet equal to 10 x your Intelligence modifier.</p>"

@@ -1,7 +1,9 @@
 name = "Sentinel Shield"
 type = "Armor"
+subtype = ""
 rarity = "Uncommon"
 attunement = false
+classes = []
 notes = "shield"
 source = "dmg 199"
 description = "No description available."

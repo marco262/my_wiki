@@ -1,7 +1,9 @@
 name = "Staff of the Adder"
 type = "Staff"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = "cleric, druid, or warlock"
 source = "dmg 203"
 description = "No description available."

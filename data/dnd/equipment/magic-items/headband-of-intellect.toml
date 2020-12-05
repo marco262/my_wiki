@@ -1,7 +1,9 @@
 name = "Headband of Intellect"
 type = "Wondrous Item"
+subtype = ""
 rarity = "Uncommon"
 attunement = true
+classes = []
 notes = ""
 source = "dmg 173"
 description = "<p>Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher.</p>"
