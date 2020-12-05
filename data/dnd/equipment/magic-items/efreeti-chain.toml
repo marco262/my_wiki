@@ -1,9 +1,9 @@
 name = "Efreeti Chain"
 type = "Armor"
-subtype = ""
+subtype = "chain mail"
 rarity = "Legendary"
 attunement = true
 classes = []
-notes = "chain mail"
+notes = ""
 source = "dmg 167"
 description = "No description available."

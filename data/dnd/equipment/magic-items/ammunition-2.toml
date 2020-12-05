@@ -1,9 +1,9 @@
 name = "Ammunition, +2"
 type = "Weapon"
-subtype = ""
+subtype = "any ammunition"
 rarity = "Rare"
 attunement = false
 classes = []
-notes = "any ammunition"
+notes = ""
 source = "dmg 150"
 description = "<p>You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.</p>"

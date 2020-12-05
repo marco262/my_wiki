@@ -2,6 +2,7 @@ import glob
 import os
 import re
 
+from data.dnd.enums import classes
 from src.common.utils import title_to_page_name
 
 BASE_DIR = "../data/dnd/equipment/magic-items"
@@ -12,11 +13,18 @@ for filepath in glob.glob(os.path.join(BASE_DIR, "*.toml")):
     
     file_contents = old_file_contents
     
-    if "subtype = " not in file_contents:
-        file_contents = re.sub(r"type = (.*)", r'type = \1\nsubtype = ""', file_contents)
+    # if "subtype = " not in file_contents:
+    #     file_contents = re.sub(r"type = (.*)", r'type = \1\nsubtype = ""', file_contents)
+    # 
+    # if "classes = " not in file_contents:
+    #     file_contents = re.sub(r"attunement = (.*)", r'attunement = \1\nclasses = []', file_contents)
     
-    if "classes = " not in file_contents:
-        file_contents = re.sub(r"attunement = (.*)", r'attunement = \1\nclasses = []', file_contents)
+    if (m := re.search(r'notes = "(.+?)"', file_contents)):
+        file_contents = file_contents.replace(m.group(0), 'notes = ""')
+        if m.group(1) in classes:
+            file_contents = file_contents.replace('classes = []', f'classes = ["{m.group(1)}"]')
+        else:
+            file_contents = file_contents.replace('subtype = ""', f'subtype = "{m.group(1)}"')
     
     if file_contents != old_file_contents:
         print(filepath)

@@ -1,9 +1,9 @@
 name = "Spellguard Shield"
 type = "Armor"
-subtype = ""
+subtype = "shield"
 rarity = "Very Rare"
 attunement = true
 classes = []
-notes = "shield"
+notes = ""
 source = "dmg 201"
 description = "<p>While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.</p>"
