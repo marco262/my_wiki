@@ -6,4 +6,8 @@ attunement = true
 classes = ["warlock"]
 notes = ""
 source = "dmg 197"
-description = "No description available."
+description = """
+While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your warlock spells. The bonus is determined by the rod's rarity.
+
+1n addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.
+"""

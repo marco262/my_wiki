@@ -221,7 +221,7 @@ These metal restraints can bind a Small or Medium creature. Escaping the manacle
 
 ## Mess Kit
 
-This tin box contains a cup and simple cutlery. The box clam ps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
+This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
 
 ## Oil
 

@@ -45,7 +45,7 @@ When you reach 6th level, whenever you cast a spell on a creature, you can move 
 
 ## Violent Attraction
 
-At 10th level, When another creature that you can see within 60 feet of you hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing the attack's target to take an extra ldl0 damage of the weapon's type.
+At 10th level, When another creature that you can see within 60 feet of you hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing the attack's target to take an extra 1d10 damage of the weapon's type.
 
 Alternatively, if a creature within 60 feet of you takes damage from a fall, you can use your reaction to increase the fall's damage by 2dl0.
 

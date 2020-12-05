@@ -6,4 +6,4 @@ attunement = true
 classes = []
 notes = ""
 source = "xge 136"
-description = "No description available."
+description = "Whenever you roll this six-sided die, you can control which number it rolls."
