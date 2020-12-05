@@ -1,0 +1,13 @@
+title = "Rhythm-Maker's Drum, +1"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Uncommon"
+attunement = true
+classes = ["bard"]
+notes = ""
+source = "tcoe 134"
+description = """
+While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum's rarity.
+
+As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn.
+"""
