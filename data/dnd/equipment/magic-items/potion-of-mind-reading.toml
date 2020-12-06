@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 188"
-description = "<p>When you drink this potion, you gain the effect of the _[[[spell:detect thoughts]]]_ spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.</p>"
+description = """
+When you drink this potion, you gain the effect of the _[[[spell:detect thoughts]]]_ spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
+"""

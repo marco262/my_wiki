@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 155"
-description = "<p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.</p>"
+description = """
+While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.
+"""

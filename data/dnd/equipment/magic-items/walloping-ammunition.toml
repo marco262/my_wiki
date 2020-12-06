@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "xge 139"
-description = "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone."
+description = """
+This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.
+"""

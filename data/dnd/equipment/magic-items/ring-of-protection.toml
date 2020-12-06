@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 191"
-description = "<p>You gain a +1 bonus to AC and saving throws while wearing this ring.</p>"
+description = """
+You gain a +1 bonus to AC and saving throws while wearing this ring.
+"""

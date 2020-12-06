@@ -6,4 +6,10 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 159"
-description = "<p>The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.</p><p>The following _crystal ball_ variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of True Seeing.</strong> While _[[[spell:scrying]]]_ with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.</p>"
+description = """
+The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.
+
+The following _crystal ball_ variants are legendary items and have additional properties.
+
+<strong>Crystal Ball of True Seeing.</strong> While _[[[spell:scrying]]]_ with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.
+"""

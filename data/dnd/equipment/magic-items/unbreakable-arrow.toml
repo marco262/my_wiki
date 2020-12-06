@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "xge 139"
-description = "This arrow can't be broken, except when it is within an antimagic field."
+description = """
+This arrow can't be broken, except when it is within an antimagic field.
+"""

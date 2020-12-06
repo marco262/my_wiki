@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 199"
-description = "While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye."
+description = """
+While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye.
+"""

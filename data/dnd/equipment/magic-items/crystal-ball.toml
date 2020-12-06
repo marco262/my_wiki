@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 159"
-description = "<p>The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.</p>"
+description = """
+The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.
+"""

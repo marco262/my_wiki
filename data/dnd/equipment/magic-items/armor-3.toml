@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 152"
-description = "<p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>"
+description = """
+You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.
+"""

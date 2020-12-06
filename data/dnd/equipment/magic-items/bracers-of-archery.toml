@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 156"
-description = "<p>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</p>"
+description = """
+While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.
+"""

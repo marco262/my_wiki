@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 193"
-description = "<p>You have a swimming speed of 40 feet while wearing this ring.</p>"
+description = """
+You have a swimming speed of 40 feet while wearing this ring.
+"""
