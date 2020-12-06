@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "tcoe 134"
+source = "Tasha's Cauldron of Everything, p. 134"
 description = """
 The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: _[[[spell:banishment]]]_, _[[[spell:find familiar]]]_, _[[[spell:gate]]]_, _[[[spell:magic circle]]]_, _[[[spell:planar binding]]]_, and _[[[spell:summon elemental]]]_. It functions as a spellbook for you.
 

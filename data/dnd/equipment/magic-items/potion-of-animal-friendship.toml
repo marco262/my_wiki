@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 187"
+source = "Dungeon Master's Guide, p. 187"
 description = """
 When you drink this potion, you can cast the _[[[spell:animal friendship]]]_ spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.
 """

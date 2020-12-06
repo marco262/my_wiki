@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 199"
+source = "Dungeon Master's Guide, p. 199"
 description = """
 If you hold this beetle-shaped medallion in your hand for 1 round, an inscription appears on its surface revealing its magical nature. It provides two benefits while it is on your person:
 

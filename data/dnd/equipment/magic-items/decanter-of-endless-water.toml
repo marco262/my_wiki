@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 161"
+source = "Dungeon Master's Guide, p. 161"
 description = """
 This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
 

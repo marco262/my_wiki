@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 188"
+source = "Dungeon Master's Guide, p. 188"
 description = """
 When you drink this potion, you gain the effect of the _[[[spell:haste]]]_ spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.
 """

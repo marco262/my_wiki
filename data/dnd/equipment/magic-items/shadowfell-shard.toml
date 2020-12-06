@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["sorcerer"]
 notes = ""
-source = "tcoe 135"
+source = "Tasha's Cauldron of Everything, p. 135"
 description = """
 This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell's despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.
 

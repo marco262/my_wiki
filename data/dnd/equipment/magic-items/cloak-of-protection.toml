@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 159"
+source = "Dungeon Master's Guide, p. 159"
 description = """
 You gain a +1 bonus to AC and saving throws while you wear this cloak.
 """

@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "xge 137"
+source = "Xanathar's Guide to Everything, p. 137"
 description = """
 This antiquated, cone-shaped hat is adorned with gold crescent moons and stars. While you are wearing it, you gain the following benefits:
 

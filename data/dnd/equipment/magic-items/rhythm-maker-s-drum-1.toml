@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = ["bard"]
 notes = ""
-source = "tcoe 134"
+source = "Tasha's Cauldron of Everything, p. 134"
 description = """
 While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum's rarity.
 

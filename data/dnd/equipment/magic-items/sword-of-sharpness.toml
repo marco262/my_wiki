@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 206"
+source = "Dungeon Master's Guide, p. 206"
 description = """
 When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
 

@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 157"
+source = "Dungeon Master's Guide, p. 157"
 description = """
 You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
 

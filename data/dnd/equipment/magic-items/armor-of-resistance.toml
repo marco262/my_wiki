@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 152"
+source = "Dungeon Master's Guide, p. 152"
 description = """
 You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below.
 

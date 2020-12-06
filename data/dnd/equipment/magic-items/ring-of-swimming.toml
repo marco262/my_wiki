@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 193"
+source = "Dungeon Master's Guide, p. 193"
 description = """
 You have a swimming speed of 40 feet while wearing this ring.
 """

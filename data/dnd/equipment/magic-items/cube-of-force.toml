@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 159"
+source = "Dungeon Master's Guide, p. 159"
 description = """
 This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.
 

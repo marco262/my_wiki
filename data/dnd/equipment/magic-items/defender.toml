@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 164"
+source = "Dungeon Master's Guide, p. 164"
 description = """
 You gain a +3 bonus to attack and damage rolls made with this magic weapon.
 

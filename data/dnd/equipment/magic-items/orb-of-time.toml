@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 138"
+source = "Xanathar's Guide to Everything, p. 138"
 description = """
 While holding this orb, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane.
 """

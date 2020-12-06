@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 155"
+source = "Dungeon Master's Guide, p. 155"
 description = """
 While wearing this belt, you gain the following benefits:
 

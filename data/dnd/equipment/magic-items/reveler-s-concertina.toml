@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["bard"]
 notes = ""
-source = "tcoe 134"
+source = "Tasha's Cauldron of Everything, p. 134"
 description = """
 While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.
 

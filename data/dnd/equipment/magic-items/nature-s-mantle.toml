@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = ["druid", "ranger"]
 notes = ""
-source = "tcoe 133"
+source = "Tasha's Cauldron of Everything, p. 133"
 description = """
 This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.
 

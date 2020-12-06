@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = ["bard"]
 notes = ""
-source = "dmg 176"
+source = "Dungeon Master's Guide, p. 176"
 description = """
 An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
 

@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 173"
+source = "Dungeon Master's Guide, p. 173"
 description = """
 While wearing this helm, you can use an action to cast the _[[[spell:comprehend languages]]]_ spell from it at will.
 """

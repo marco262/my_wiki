@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["cleric", "paladin"]
 notes = ""
-source = "tcoe 119"
+source = "Tasha's Cauldron of Everything, p. 119"
 description = """
 This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a bonus to spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the amulet's rarity.
 

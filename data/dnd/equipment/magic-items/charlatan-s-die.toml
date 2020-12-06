@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = true
 classes = []
 notes = ""
-source = "xge 136"
+source = "Xanathar's Guide to Everything, p. 136"
 description = """
 Whenever you roll this six-sided die, you can control which number it rolls.
 """

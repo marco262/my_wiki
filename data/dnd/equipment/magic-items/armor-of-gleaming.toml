@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 136"
+source = "Xanathar's Guide to Everything, p. 136"
 description = """
 This armor never gets dirty.
 """

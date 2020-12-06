@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = true
 classes = ["warlock"]
 notes = ""
-source = "xge 137"
+source = "Xanathar's Guide to Everything, p. 137"
 description = """
 This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:
 

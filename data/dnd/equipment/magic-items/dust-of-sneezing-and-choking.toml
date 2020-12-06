@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 166"
+source = "Dungeon Master's Guide, p. 166"
 description = """
 Found in a small container, this powder resembles very fine sand. It appears to be _dust of disappearance_, and an _[[[spell:identify]]]_ spell reveals it to be such. There is enough of it for one use.
 

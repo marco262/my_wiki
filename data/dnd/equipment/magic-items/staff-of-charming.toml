@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"]
 notes = ""
-source = "dmg 201"
+source = "Dungeon Master's Guide, p. 201"
 description = """
 While holding this staff, you can use an action to expend 1 of its 10 charges to cast _[[[spell:charm person]]]_, _[[[spell:command]]]_, or _[[[spell:comprehend languages]]]_ from it using your spell save DC. The staff can also be used as a magic quarterstaff.
 

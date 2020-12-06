@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 153"
+source = "Dungeon Master's Guide, p. 153"
 description = """
 This bag superficially resembles a _bag of holding_ but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.
 

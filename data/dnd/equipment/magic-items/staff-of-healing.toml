@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["bard", "cleric", "druid"]
 notes = ""
-source = "dmg 202"
+source = "Dungeon Master's Guide, p. 202"
 description = """
 This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: _[[[spell:cure wounds]]]_ (1 charge per spell level, up to 4th), _[[[spell:lesser restoration]]]_ (2 charges), or _[[[spell:mass cure wounds]]]_ (5 charges).
 

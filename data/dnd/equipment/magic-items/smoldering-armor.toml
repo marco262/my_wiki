@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 139"
+source = "Xanathar's Guide to Everything, p. 139"
 description = """
 Wisps of harmless, odorless smoke rise from this armor while it is worn.
 """

@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "tcoe 120"
+source = "Tasha's Cauldron of Everything, p. 120"
 description = """
 This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: _[[[spell:arcane gate]]]_, _[[[spell:dimension door]]]_, _[[[spell:gate]]]_, _[[[spell:misty step]]]_, _[[[spell:plane shift]]]_, _[[[spell:teleportation circle]]]_, and _[[[spell:word of recall]]]_. It functions as a spellbook for you.
 

@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["druid"]
 notes = ""
-source = "dmg 204"
+source = "Dungeon Master's Guide, p. 204"
 description = """
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
 

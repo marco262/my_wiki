@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = ["druid", "sorcerer", "warlock", "wizard"]
 notes = ""
-source = "dmg 201"
+source = "Dungeon Master's Guide, p. 201"
 description = """
 You have resistance to fire damage while you hold this staff.
 

@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["warlock"]
 notes = ""
-source = "dmg 197"
+source = "Dungeon Master's Guide, p. 197"
 description = """
 While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your warlock spells. The bonus is determined by the rod's rarity.
 

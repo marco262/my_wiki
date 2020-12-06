@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 192"
+source = "Dungeon Master's Guide, p. 192"
 description = """
 While wearing this ring in dim light or darkness, you can cast _[[[spell:dancing lights]]]_ and _[[[spell:light]]]_ from the ring at will. Casting either spell from the ring requires an action.
 

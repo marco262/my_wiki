@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 205"
+source = "Dungeon Master's Guide, p. 205"
 description = """
 If the stone is touching the ground, you can use an action to speak its command word and summon an earth elemental, as if you had cast the _[[[spell:conjure elemental]]]_ spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds.
 """
