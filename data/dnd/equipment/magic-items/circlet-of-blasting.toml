@@ -6,4 +6,4 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 158"
-description = "<p>While wearing this circlet, you can use an action to cast the <em>_[[[spell:scorching ray]]]_</em> spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.</p>"
+description = "<p>While wearing this circlet, you can use an action to cast the _[[[spell:scorching ray]]]_ spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.</p>"

@@ -6,4 +6,4 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 155"
-description = "<p>While you wear these boots, you can use an action to cast the <em>_[[[spell:levitate]]]_</em> spell on yourself at will.</p>"
+description = "<p>While you wear these boots, you can use an action to cast the _[[[spell:levitate]]]_ spell on yourself at will.</p>"

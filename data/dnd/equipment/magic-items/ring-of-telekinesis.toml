@@ -6,4 +6,4 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 193"
-description = "<p>While wearing this ring, you can cast the <em>_[[[spell:telekinesis]]]_</em> spell at will, but you can target only objects that aren't being worn or carried.</p>"
+description = "<p>While wearing this ring, you can cast the _[[[spell:telekinesis]]]_ spell at will, but you can target only objects that aren't being worn or carried.</p>"
