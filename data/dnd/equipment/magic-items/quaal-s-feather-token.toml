@@ -7,7 +7,14 @@ classes = []
 notes = ""
 source = "dmg 188"
 description = """
-This tiny object looks like a feather. Different types of feather tokens exist, each with a different single- use effect. The GM chooses the kind of token or determines it randomly.</p><table><thead><tr><th>d100</th><th>Feather Token</th><th>d100</th><th>Feather Token</th></tr></thead><tbody><tr><td>01--20</td><td>Anchor</td><td>51--65</td><td>Swan boat</td></tr><tr><td>21--35</td><td>Bird</td><td>66--90</td><td>Tree</td></tr><tr><td>36--50</td><td>Fan</td><td>91--00</td><td>Whip</td></tr></tbody></table><p><strong>Anchor.</strong> You can use an action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.
+This tiny object looks like a feather. Different types of feather tokens exist, each with a different single- use effect. The GM chooses the kind of token or determines it randomly.
+
+||~ d100 ||~ Feather Token ||~ d100 ||~ Feather Token ||
+|| 01--20 || Anchor || 51--65 || Swan boat ||
+|| 21--35 || Bird || 66--90 || Tree ||
+|| 36--50 || Fan || 91--00 || Whip ||
+
+<strong>Anchor.</strong> You can use an action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.
 
 <strong>Bird.</strong> You can use an action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a roc, but it obeys your simple commands and can't attack. It can carry up to 500 pounds while flying at its maximum speed (16 miles an hour for a maximum of 144 miles per day, with a one-hour rest for every 3 hours of flying), or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 hit points. You can dismiss the bird as an action.
 

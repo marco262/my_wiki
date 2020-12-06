@@ -13,5 +13,29 @@ You can use an action to pull the fuzzy object from the bag and throw it up to 2
 
 The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.
 
-Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p><h1>Gray Bag of Tricks</h1><table><thead><tr><th>d8</th><th>Creature</th></tr></thead><tbody><tr><td>1</td><td>Weasel</td></tr><tr><td>2</td><td>Giant rat</td></tr><tr><td>3</td><td>Badger</td></tr><tr><td>4</td><td>Boar</td></tr><tr><td>5</td><td>Panther</td></tr><tr><td>6</td><td>Giant badger</td></tr><tr><td>7</td><td>Dire wolf</td></tr><tr><td>8</td><td>Giant elk</td></tr></tbody></table><h1>Rust Bag of Tricks</h1><table><thead><tr><th>d8</th><th>Creature</th></tr></thead><tbody><tr><td>1</td><td>Rat</td></tr><tr><td>2</td><td>Owl</td></tr><tr><td>3</td><td>Mastiff</td></tr><tr><td>4</td><td>Goat</td></tr><tr><td>5</td><td>Giant goat</td></tr><tr><td>6</td><td>Giant boar</td></tr><tr><td>7</td><td>Lion</td></tr><tr><td>8</td><td>Brown bear</td></tr></tbody></table><h1>Tan Bag of Tricks</h1><table><thead><tr><th>d8</th><th>Creature</th></tr></thead><tbody><tr><td>1</td><td>Jackal</td></tr><tr><td>2</td><td>Ape</td></tr><tr><td>3</td><td>Baboon</td></tr><tr><td>4</td><td>Axe beak</td></tr><tr><td>5</td><td>Black bear</td></tr><tr><td>6</td><td>Giant weasel</td></tr><tr><td>7</td><td>Giant hyena</td></tr><tr><td>8</td><td>Tiger</td></tr></tbody></table>
+Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p><h1>Gray Bag of Tricks</h1><table><th>d8 ||~ Creature ||
+|| 1 || Weasel ||
+|| 2 || Giant rat ||
+|| 3 || Badger ||
+|| 4 || Boar ||
+|| 5 || Panther ||
+|| 6 || Giant badger ||
+|| 7 || Dire wolf ||
+|| 8 || Giant elk ||<h1>Rust Bag of Tricks</h1><table><th>d8 ||~ Creature ||
+|| 1 || Rat ||
+|| 2 || Owl ||
+|| 3 || Mastiff ||
+|| 4 || Goat ||
+|| 5 || Giant goat ||
+|| 6 || Giant boar ||
+|| 7 || Lion ||
+|| 8 || Brown bear ||<h1>Tan Bag of Tricks</h1><table><th>d8 ||~ Creature ||
+|| 1 || Jackal ||
+|| 2 || Ape ||
+|| 3 || Baboon ||
+|| 4 || Axe beak ||
+|| 5 || Black bear ||
+|| 6 || Giant weasel ||
+|| 7 || Giant hyena ||
+|| 8 || Tiger ||
 """
