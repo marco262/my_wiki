@@ -9,7 +9,7 @@ source = "tcoe 126"
 description = """
 To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.
 
-When found, the book contains the following spells: hallucinatory terrain, major image, mirror image, mislead, Nystul's magic aura, phantasmal force, and silent image. It functions as a spellbook for you.
+When found, the book contains the following spells: _[[[spell:hallucinatory terrain]]]_, _[[[spell:major image]]]_, _[[[spell:mirror image]]]_, _[[[spell:mislead]]]_, _[[[spell:Nystul's magic aura]]]_, _[[[spell:phantasmal force]]]_, and _[[[spell:silent image]]]_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

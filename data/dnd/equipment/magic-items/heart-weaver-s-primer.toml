@@ -7,7 +7,7 @@ classes = ["wizard"]
 notes = ""
 source = "tcoe 128"
 description = """
-This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: antipathy/sympathy, charm person, dominate person, enthrall, hypnotic pattern, modify memory, and suggestion. It functions as a spellbook for you.
+This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: _[[[spell:antipathy/sympathy]]]_, _[[[spell:charm person]]]_, _[[[spell:dominate person]]]_, _[[[spell:enthrall]]]_, _[[[spell:hypnotic pattern]]]_, _[[[spell:modify memory]]]_, and _[[[spell:suggestion]]]_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

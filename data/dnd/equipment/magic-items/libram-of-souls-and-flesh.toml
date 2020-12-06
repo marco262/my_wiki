@@ -7,7 +7,7 @@ classes = ["wizard"]
 notes = ""
 source = "tcoe 129"
 description = """
-With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: animate dead, circle of death, false life, finger of death, speak with dead, summon undead (appears in this book), vampiric touch. It functions as a spellbook for you.
+With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: _[[[spell:animate dead]]]_, _[[[spell:circle of death]]]_, _[[[spell:false life]]]_, _[[[spell:finger of death]]]_, _[[[spell:speak with dead]]]_, _[[[spell:summon undead]]]_, _[[[spell:vampiric touch]]]_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 
