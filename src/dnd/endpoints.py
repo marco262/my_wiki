@@ -56,6 +56,7 @@ def load_magic_items():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
             magic_items[splitext(basename(path))[0]] = d
     except Exception:
         print(f"\nError when trying to process {path}")
@@ -88,6 +89,7 @@ def load_wsgi_endpoints(app: Bottle):
     def equipment(name):
         return md_page(name, "dnd", "equipment")
 
+
     @app.get('/equipment/magic-items/')
     @view("dnd/magic-items.tpl")
     def magic_items():
@@ -96,14 +98,16 @@ def load_wsgi_endpoints(app: Bottle):
             "uncommon": 1,
             "rare": 2,
             "very rare": 3,
-            "legendary": 4
+            "legendary": 4,
+            "artifact": 5,
         }
-        return {
-            "magic_items": sorted(
-                load_magic_items().items(), 
-                key=lambda x: (rarity_dict[x[1]["rarity"].lower()], x[1]["type"], x[1]["name"])
-            )
-        }
+        def sort_key(x):
+            try:
+                return rarity_dict[x[1]["rarity"].lower()], x[1]["type"], x[1]["name"]
+            except Exception:
+                print(x)
+                raise
+        return {"magic_items": sorted(load_magic_items().items(), key=sort_key)}
 
     @app.get('/equipment/magic-item/<name>')
     @view("dnd/magic-item.tpl")
