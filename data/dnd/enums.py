@@ -132,7 +132,7 @@ source_acronyms = {
     "Lost Laboratory of Kwalish": "LLoK",
     "Explorer's Guide to Wildemount": "EGtW",
     "Tasha's Cauldron of Everything": "TCoE",
-    "Dragon Heist": "DH",
+    "Waterdeep: Dragon Heist": "WDH",
     "Homebrew": "Home"
 }
 
