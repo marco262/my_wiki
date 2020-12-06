@@ -1,4 +1,4 @@
-title = "Mighty Servant of Leuk-o"
+name = "Mighty Servant of Leuk-o"
 type = "Wondrous Item"
 subtype = ""
 rarity = "Artifact"
@@ -7,6 +7,51 @@ classes = []
 notes = ""
 source = "tcoe 131"
 description = """
+[[div class="monster-float"]]
+
+[[include dnd/monster-sheet.tpl]]
+width = 400px
+name = Mighty Servant of Leuk-o
+size = Huge
+type = construct
+alignment = 
+armor_class = 22 (natural armor)
+hit_points = 310 (27d12 + 135)
+speed = 60 ft.
+strength = 30
+dexterity = 14
+constitution = 20
+intelligence = 1
+wisdom = 14
+charisma = 10
+saves = Wis +9, Cha +7
+skills = Perception +9
+damage_resistances = piercing, slashing
+damage_immunities = acid, bludgeoning, cold, fire, lightning, necrotic, poison, psychic, radiant
+condition_immunities = all conditions but invisible and prone
+senses = blindsight 120 ft., passive Perception 19
+languages = understands the languages of creatures attuned to it but can't speak
+proficiency_bonus = +7
+special_abilities = !!!
+***Immutable Existence.*** The servant is immune to any spell or effect that would alter its form or send it to another plane of existence.
+
+***Magic Resistance.*** The servant has advantage on saving throws against spells and other magical effects, and spell attacks made against it have disadvantage.
+
+***Regeneration.*** The servant regains 10 hit points at the start of its turn. If it is reduced to 0 hit points, this trait doesn't function until an attuned creature spends 24 hours repairing the artifact or until the artifact is subjected to lightning damage.
+
+***Standing Leap.*** The servant's long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start.
+
+***Unusual Nature.*** The servant doesn't require air, food, drink, or sleep.
+!!!
+actions = !!!
+***Destructive Fist.*** _Melee or Ranged Weapon Attack:_ +17 to hit, reach 10 ft. or range 120 ft., one target. _Hit:_ 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage.
+
+***Crushing Leap.*** If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 26 (4d12) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.
+!!!
+[[/include]]
+
+[[/div]]
+
 Named for the warlord who infamously employed it, the Mighty Servant of Leuk-o is a fantastically powerful, 10-foot-tall machine that turns into an animate construct when piloted. Crafted of a gleaming black alloy of unknown origin, the servant is often described as a combination of a disproportioned dwarf and an oversized beetle. The servant contains enough space for 1 ton of cargo and a crew compartment within, from which up to two Medium creatures can control it -- and potentially execute a spree of unstoppable destruction.
 
 Tales of the servant's origins involve more conjecture than fact, often referring to otherworldly beings, the mysterious Barrier Peaks in Oerth, and the supposedly related device known as the Machine of Lum the Mad. The best details on the device's origins and operation can be found in the Mind of Metal, a tome of artificer's secrets that connects the device to the traditions of the lost Olman people, and which was written by Lum the Mad's several times over granddaughter, Lum the Maestro, while she reconstructed the long disassembled Mighty Servant of Leuk-o.
@@ -41,43 +86,4 @@ If the crew members successfully implement the code, at the end of the third rou
 This does not destroy the servant permanently. Rather, 2d6 days later, its parts -- left arm, left leg, right arm, right leg, lower torso, and upper torso -- drop from the sky in random places within 1,000 miles of the explosion. If brought within 5 feet of one another, the pieces reconnect and reform the servant.
 
 ***Destroying the Servant.*** The servant can be destroyed in two ways. After it has self-destructed, its disconnected pieces can be melted down in one of the forge-temples of its ancient Olman creators. Alternatively, if the servant strikes the Machine of Lum the Mad, both artifacts explode in an eruption that is three times the size and three times the damage as the servant's self-destruct property.
-
-MIGHTY SERVANT OF LEUK-O
-Huge construct
-Armor Class 22 (natural armor)
-Hit Points 310 (27d12 + 135)
-Speed 60 ft.
-STR
-30 (+10)
-DEX
-14 (+2)
-CON
-20 (+5)
-INT
-1 (−5)
-WIS
-14 (+2)
-CHA
-10 (+0)
-Saving Throws Wis +9, Cha +7
-Skills Perception +9
-Damage Resistances piercing, slashing
-Damage Immunities acid, bludgeoning, cold, fire, lightning, necrotic, poison, psychic, radiant
-Condition Immunities all conditions but invisible and prone
-Senses blindsight 120 ft., passive Perception 19
-Languages understands the languages of creatures attuned to it but can't speak
-Challenge -- Proficiency Bonus +7
-Immutable Existence. The servant is immune to any spell or effect that would alter its form or send it to another plane of existence.
-Magic Resistant Construction. The servant has advantage on saving throws against spells and other magical effects, and spell attacks made against
-it have disadvantage. Regeneration. The servant regains 10 hit points at the start of its turn. If it is reduced to 0 hit points, this trait doesn't function until an
-attuned creature spends 24 hours repairing the artifact or until the artifact is subjected to lightning damage.
-Standing Leap. The servant's long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start.
-Unusual Nature. The servant doesn't require air, food, drink, or sleep.
-Actions
-Destructive Fist. Melee or Ranged Weapon Attack: +17 to hit, reach 10 ft. or range 120 ft., one target. Hit: 36 (4d12 + 10) force damage. If the
-target is an object, it takes triple damage.
-Crushing Leap. If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that
-contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a DC 25 Dexterity saving throw. On
-a failed save, a creature takes 26 (4d12) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked
-prone.
 """

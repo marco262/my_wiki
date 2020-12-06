@@ -7,7 +7,7 @@
         <th>Rarity</th>
         <th>Attunement?</th>
         <th>Notes</th>
-        <th>Source</th>
+        <th style="width: 70px;">Source</th>
     </tr>
 % for filename, magic_item in magic_items:
     <tr>
