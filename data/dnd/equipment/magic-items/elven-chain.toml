@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 168"
-description = "<p>You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>"
+description = """
+You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.
+"""

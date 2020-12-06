@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "xge 139"
-description = "Wisps of harmless, odorless smoke rise from this armor while it is worn."
+description = """
+Wisps of harmless, odorless smoke rise from this armor while it is worn.
+"""

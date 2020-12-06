@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 188"
-description = "<p>When you drink this potion, you gain the effect of the _[[[spell:haste]]]_ spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p>"
+description = """
+When you drink this potion, you gain the effect of the _[[[spell:haste]]]_ spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.
+"""

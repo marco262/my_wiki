@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 159"
-description = "<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>"
+description = """
+You gain a +1 bonus to AC and saving throws while you wear this cloak.
+"""

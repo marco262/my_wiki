@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 173"
-description = "<p>While wearing this helm, you can use an action to cast the _[[[spell:comprehend languages]]]_ spell from it at will.</p>"
+description = """
+While wearing this helm, you can use an action to cast the _[[[spell:comprehend languages]]]_ spell from it at will.
+"""

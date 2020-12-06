@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 172"
-description = "<p>While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>"
+description = """
+While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.
+"""

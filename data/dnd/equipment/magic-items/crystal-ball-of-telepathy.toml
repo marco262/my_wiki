@@ -6,4 +6,10 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 159"
-description = "<p>The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.</p><p>The following _crystal ball_ variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of Telepathy.</strong> While _[[[spell:scrying]]]_ with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the _[[[spell:suggestion]]]_ spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this _[[[spell:suggestion]]]_ to maintain it during its duration, but it ends if _[[[spell:scrying]]]_ ends. Once used, the _[[[spell:suggestion]]]_ power of the _crystal ball_ can't be used again until the next dawn.</p>"
+description = """
+The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.
+
+The following _crystal ball_ variants are legendary items and have additional properties.
+
+<strong>Crystal Ball of Telepathy.</strong> While _[[[spell:scrying]]]_ with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the _[[[spell:suggestion]]]_ spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this _[[[spell:suggestion]]]_ to maintain it during its duration, but it ends if _[[[spell:scrying]]]_ ends. Once used, the _[[[spell:suggestion]]]_ power of the _crystal ball_ can't be used again until the next dawn.
+"""

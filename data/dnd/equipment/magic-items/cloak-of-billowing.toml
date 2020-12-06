@@ -6,4 +6,6 @@ attunement = false
 classes = []
 notes = ""
 source = "xge 136"
-description = "While wearing this cloak, you can use a bonus action to make it billow dramatically."
+description = """
+While wearing this cloak, you can use a bonus action to make it billow dramatically.
+"""

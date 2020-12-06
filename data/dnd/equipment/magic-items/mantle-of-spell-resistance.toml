@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 180"
-description = "<p>You have advantage on saving throws against spells while you wear this cloak.</p>"
+description = """
+You have advantage on saving throws against spells while you wear this cloak.
+"""

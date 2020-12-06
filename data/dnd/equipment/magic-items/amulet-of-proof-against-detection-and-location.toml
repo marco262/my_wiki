@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 150"
-description = "<p>While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p>"
+description = """
+While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.
+"""

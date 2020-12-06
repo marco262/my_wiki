@@ -6,4 +6,6 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 191"
-description = "<p>When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.</p>"
+description = """
+When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.
+"""

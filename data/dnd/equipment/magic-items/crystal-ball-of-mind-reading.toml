@@ -6,4 +6,10 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 159"
-description = "<p>The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.</p><p>The following _crystal ball_ variants are legendary items and have additional properties.</p><p><strong>Crystal Ball of Mind Reading.</strong> You can use an action to cast the _[[[spell:detect thoughts]]]_ spell (save DC 17) while you are scrying with the _crystal ball_, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this _[[[spell:detect thoughts]]]_ to maintain it during its duration, but it ends if _[[[spell:scrying]]]_ ends.</p>"
+description = """
+The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.
+
+The following _crystal ball_ variants are legendary items and have additional properties.
+
+<strong>Crystal Ball of Mind Reading.</strong> You can use an action to cast the _[[[spell:detect thoughts]]]_ spell (save DC 17) while you are scrying with the _crystal ball_, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this _[[[spell:detect thoughts]]]_ to maintain it during its duration, but it ends if _[[[spell:scrying]]]_ ends.
+"""
