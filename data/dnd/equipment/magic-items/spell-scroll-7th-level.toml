@@ -13,5 +13,17 @@ If the spell is on your class's spell list but of a higher level than you can no
 
 Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.
 
-The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.</p><table><thead><tr><th>Spell Level</th><th>Rarity</th><th>Save DC</th><th>Attack Bonus</th></tr></thead><tbody><tr><td>Cantrip</td><td>Common</td><td>13</td><td>+5</td></tr><tr><td>1st</td><td>Common</td><td>13</td><td>+5</td></tr><tr><td>2nd</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>3rd</td><td>Uncommon</td><td>15</td><td>+7</td></tr><tr><td>4th</td><td>Rare</td><td>15</td><td>+7</td></tr><tr><td>5th</td><td>Rare</td><td>17</td><td>+9</td></tr><tr><td>6th</td><td>Very rare</td><td>17</td><td>+9</td></tr><tr><td>7th</td><td>Very rare</td><td>18</td><td>+10</td></tr><tr><td>8th</td><td>Very rare</td><td>18</td><td>+10</td></tr><tr><td>9th</td><td>Legendary</td><td>19</td><td>+11</td></tr></tbody></table>
+The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.
+
+||~ Spell Level ||~ Rarity ||~ Save DC ||~ Attack Bonus ||
+|| Cantrip || Common || 13 || +5 ||
+|| 1st || Common || 13 || +5 ||
+|| 2nd || Uncommon || 13 || +5 ||
+|| 3rd || Uncommon || 15 || +7 ||
+|| 4th || Rare || 15 || +7 ||
+|| 5th || Rare || 17 || +9 ||
+|| 6th || Very rare || 17 || +9 ||
+|| 7th || Very rare || 18 || +10 ||
+|| 8th || Very rare || 18 || +10 ||
+|| 9th || Legendary || 19 || +11 ||
 """

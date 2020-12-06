@@ -19,7 +19,12 @@ The creature exists for a duration specific to each figurine. At the end of the 
 
 <strong>Hit Points</strong> 19 (3d10 + 3)
 
-<strong>Speed</strong> 30 ft., fly 60 ft.</p><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>14 (+2)</td><td>13 (+1)</td><td>13 (+1)</td><td>2 (-4)</td><td>10 (+0)</td><td>3 (-4)</td></tr></tbody></table><p><strong>Senses</strong> darkvision 60 ft., passive Perception 10
+<strong>Speed</strong> 30 ft., fly 60 ft.
+
+||~ STR ||~ DEX ||~ CON ||~ INT ||~ WIS ||~ CHA ||
+|| 14 (+2) || 13 (+1) || 13 (+1) || 2 (-4) || 10 (+0) || 3 (-4) ||
+
+<strong>Senses</strong> darkvision 60 ft., passive Perception 10
 
 Languages --
 """

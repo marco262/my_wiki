@@ -7,5 +7,17 @@ classes = []
 notes = ""
 source = "dmg 192"
 description = """
-You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the GM chooses or determines randomly.</p><table><thead><tr><th>d10</th><th>Damage Type</th><th>Gem</th></tr></thead><tbody><tr><td>1</td><td>Acid</td><td>Pearl</td></tr><tr><td>2</td><td>Cold</td><td>Tourmaline</td></tr><tr><td>3</td><td>Fire</td><td>Garnet</td></tr><tr><td>4</td><td>Force</td><td>Sapphire</td></tr><tr><td>5</td><td>Lightning</td><td>Citrine</td></tr><tr><td>6</td><td>Necrotic</td><td>Jet</td></tr><tr><td>7</td><td>Poison</td><td>Amethyst</td></tr><tr><td>8</td><td>Psychic</td><td>Jade</td></tr><tr><td>9</td><td>Radiant</td><td>Topaz</td></tr><tr><td>10</td><td>Thunder</td><td>Spinel</td></tr></tbody></table>
+You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the GM chooses or determines randomly.
+
+||~ d10 ||~ Damage Type ||~ Gem ||
+|| 1 || Acid || Pearl ||
+|| 2 || Cold || Tourmaline ||
+|| 3 || Fire || Garnet ||
+|| 4 || Force || Sapphire ||
+|| 5 || Lightning || Citrine ||
+|| 6 || Necrotic || Jet ||
+|| 7 || Poison || Amethyst ||
+|| 8 || Psychic || Jade ||
+|| 9 || Radiant || Topaz ||
+|| 10 || Thunder || Spinel ||
 """
