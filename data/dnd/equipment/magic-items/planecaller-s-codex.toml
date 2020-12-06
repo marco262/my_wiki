@@ -1,6 +1,7 @@
 name = "Planecaller's Codex "
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["wizard"]

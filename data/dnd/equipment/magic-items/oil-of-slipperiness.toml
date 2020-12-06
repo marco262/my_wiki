@@ -1,6 +1,7 @@
 name = "Oil of Slipperiness"
 type = "Potion"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

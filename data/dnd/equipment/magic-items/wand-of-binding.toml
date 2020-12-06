@@ -1,6 +1,7 @@
 name = "Wand of Binding"
 type = "Wand"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

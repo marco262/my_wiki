@@ -1,6 +1,7 @@
 name = "Spellguard Shield"
 type = "Armor"
 subtype = "shield"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

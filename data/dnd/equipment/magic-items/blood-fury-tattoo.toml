@@ -1,6 +1,7 @@
 name = "Blood Fury Tattoo"
 type = "Wondrous Item"
 subtype = "tattoo"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

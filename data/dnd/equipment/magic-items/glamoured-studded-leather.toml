@@ -1,6 +1,7 @@
 name = "Glamoured Studded Leather"
 type = "Armor"
 subtype = "studded leather"
+rarity_type = "Minor"
 rarity = "Rare"
 attunement = false
 classes = []

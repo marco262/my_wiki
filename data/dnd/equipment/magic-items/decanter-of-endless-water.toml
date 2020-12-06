@@ -1,6 +1,7 @@
 name = "Decanter of Endless Water"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

@@ -1,6 +1,7 @@
 name = "Rod of Alertness"
 type = "Rod"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

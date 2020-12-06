@@ -1,6 +1,7 @@
 name = "Efreeti Chain"
 type = "Armor"
 subtype = "chain mail"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

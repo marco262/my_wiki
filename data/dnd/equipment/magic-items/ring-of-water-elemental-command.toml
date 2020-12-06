@@ -1,6 +1,7 @@
 name = "Ring of Water Elemental Command"
 type = "Ring"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

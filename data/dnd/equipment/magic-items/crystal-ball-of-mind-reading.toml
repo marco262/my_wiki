@@ -1,6 +1,7 @@
 name = "Crystal Ball of Mind Reading"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

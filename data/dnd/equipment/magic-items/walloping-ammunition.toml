@@ -1,6 +1,7 @@
 name = "Walloping Ammunition"
 type = "Weapon"
 subtype = "any ammunition"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

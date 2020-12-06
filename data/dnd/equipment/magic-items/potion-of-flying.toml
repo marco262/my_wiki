@@ -1,6 +1,7 @@
 name = "Potion of Flying"
 type = "Potion"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

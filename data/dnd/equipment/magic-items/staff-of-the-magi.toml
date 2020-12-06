@@ -1,6 +1,7 @@
 name = "Staff of the Magi"
 type = "Staff"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = ["sorcerer", "warlock", "wizard"]

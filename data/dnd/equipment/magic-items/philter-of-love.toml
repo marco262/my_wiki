@@ -1,6 +1,7 @@
 name = "Philter of Love"
 type = "Potion"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

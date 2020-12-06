@@ -1,6 +1,7 @@
 name = "Scimitar of Speed"
 type = "Weapon"
 subtype = "scimitar"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

@@ -1,6 +1,7 @@
 name = "All-Purpose Tool, +3"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = ["artificer"]

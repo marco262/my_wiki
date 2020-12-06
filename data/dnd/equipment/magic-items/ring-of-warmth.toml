@@ -1,6 +1,7 @@
 name = "Ring of Warmth"
 type = "Ring"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

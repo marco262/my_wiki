@@ -1,6 +1,7 @@
 name = "Cubic Gate"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

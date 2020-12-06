@@ -1,6 +1,7 @@
 name = "Helm of Brilliance"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

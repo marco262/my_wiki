@@ -1,6 +1,7 @@
 name = "Belt of Frost Giant Strength"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

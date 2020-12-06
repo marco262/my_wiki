@@ -1,6 +1,7 @@
 name = "Necklace of Prayer Beads"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["cleric", "druid", "paladin"]

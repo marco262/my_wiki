@@ -1,6 +1,7 @@
 name = "Dragon Scale Mail"
 type = "Armor"
 subtype = "scale mail"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

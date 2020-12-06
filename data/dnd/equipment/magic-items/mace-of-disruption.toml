@@ -1,6 +1,7 @@
 name = "Mace of Disruption"
 type = "Weapon"
 subtype = "mace"
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

@@ -1,6 +1,7 @@
 name = "Immovable Rod"
 type = "Rod"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

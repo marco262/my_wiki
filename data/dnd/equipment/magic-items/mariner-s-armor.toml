@@ -1,6 +1,7 @@
 name = "Mariner's Armor"
 type = "Armor"
 subtype = "light, medium, or heavy"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

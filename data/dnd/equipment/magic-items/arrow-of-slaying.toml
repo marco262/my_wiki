@@ -1,6 +1,7 @@
 name = "Arrow of Slaying"
 type = "Weapon"
 subtype = "arrow"
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

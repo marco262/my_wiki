@@ -1,6 +1,7 @@
 name = "Oathbow"
 type = "Weapon"
 subtype = "longbow"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

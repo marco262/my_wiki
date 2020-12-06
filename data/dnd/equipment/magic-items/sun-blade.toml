@@ -1,6 +1,7 @@
 name = "Sun Blade"
 type = "Weapon"
 subtype = "longsword"
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

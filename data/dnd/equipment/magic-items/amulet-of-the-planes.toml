@@ -1,6 +1,7 @@
 name = "Amulet of the Planes"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

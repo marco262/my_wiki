@@ -1,6 +1,7 @@
 name = "Tankard of Sobriety"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

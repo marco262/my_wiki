@@ -1,6 +1,7 @@
 name = "Luba's Tarokka of Souls"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Artifact"
 attunement = true
 classes = []

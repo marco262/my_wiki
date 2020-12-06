@@ -1,6 +1,7 @@
 name = "Wand of Web"
 type = "Wand"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

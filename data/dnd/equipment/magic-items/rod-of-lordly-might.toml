@@ -1,6 +1,7 @@
 name = "Rod of Lordly Might"
 type = "Rod"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

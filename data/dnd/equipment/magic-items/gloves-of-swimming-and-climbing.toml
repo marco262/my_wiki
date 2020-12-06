@@ -1,6 +1,7 @@
 name = "Gloves of Swimming and Climbing"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

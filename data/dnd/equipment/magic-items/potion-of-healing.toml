@@ -1,6 +1,7 @@
 name = "Potion of Healing"
 type = "Potion"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

@@ -1,6 +1,7 @@
 name = "Frost Brand"
 type = "Weapon"
 subtype = "any sword"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

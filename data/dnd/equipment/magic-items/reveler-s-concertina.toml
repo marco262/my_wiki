@@ -1,6 +1,7 @@
 name = "Reveler's Concertina"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["bard"]

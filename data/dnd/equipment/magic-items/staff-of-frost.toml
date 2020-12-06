@@ -1,6 +1,7 @@
 name = "Staff of Frost"
 type = "Staff"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = ["druid", "sorcerer", "warlock", "wizard"]

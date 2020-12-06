@@ -1,6 +1,7 @@
 name = "Armor, +3"
 type = "Armor"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

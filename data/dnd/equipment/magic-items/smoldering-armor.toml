@@ -1,6 +1,7 @@
 name = "Smoldering Armor"
 type = "Armor"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

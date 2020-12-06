@@ -1,6 +1,7 @@
 name = "Figurine of Wondrous Power, Silver Raven"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

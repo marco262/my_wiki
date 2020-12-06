@@ -1,6 +1,7 @@
 name = "Far Realm Shard"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["sorcerer"]

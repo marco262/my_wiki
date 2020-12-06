@@ -1,6 +1,7 @@
 name = "Sword of Answering"
 type = "Weapon"
 subtype = "longsword"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

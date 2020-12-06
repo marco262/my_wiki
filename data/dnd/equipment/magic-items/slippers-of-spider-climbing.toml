@@ -1,6 +1,7 @@
 name = "Slippers of Spider Climbing"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

@@ -1,6 +1,7 @@
 name = "Ring of Three Wishes"
 type = "Ring"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

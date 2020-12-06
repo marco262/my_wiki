@@ -1,6 +1,7 @@
 name = "Ring of Resistance"
 type = "Ring"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

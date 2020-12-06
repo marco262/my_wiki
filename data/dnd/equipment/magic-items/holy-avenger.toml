@@ -1,6 +1,7 @@
 name = "Holy Avenger"
 type = "Weapon"
 subtype = "any sword"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = ["paladin"]

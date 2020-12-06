@@ -1,6 +1,7 @@
 name = "Goggles of Night"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []
