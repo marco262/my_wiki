@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 159"
+source = "Dungeon Master's Guide, p. 159"
 description = """
 While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.
 """

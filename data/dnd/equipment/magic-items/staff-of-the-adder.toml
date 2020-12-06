@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = ["cleric", "druid", "warlock"]
 notes = ""
-source = "dmg 203"
+source = "Dungeon Master's Guide, p. 203"
 description = """
 You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.
 

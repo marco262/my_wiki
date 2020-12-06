@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 188"
+source = "Dungeon Master's Guide, p. 188"
 description = """
 This potion's container looks empty but feels as though it holds liquid.  When you drink it, you become [[[general:conditions#invisible|invisible]]] for 1 hour. Anything you wear or carry is [[[general:conditions#invisible|invisible]]] with you. The effect ends early if you attack or cast a spell.
 """

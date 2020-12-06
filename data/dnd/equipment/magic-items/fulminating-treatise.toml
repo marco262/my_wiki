@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "tcoe 128"
+source = "Tasha's Cauldron of Everything, p. 128"
 description = """
 This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: _[[[spell:contingency]]]_, _[[[spell:fireball]]]_, _[[[spell:gust of wind]]]_, _[[[spell:Leomund's tiny hut]]]_, _[[[spell:magic missile]]]_, _[[[spell:thunderwave]]]_, and _[[[spell:wall of force]]]_. It functions as a spellbook for you.
 

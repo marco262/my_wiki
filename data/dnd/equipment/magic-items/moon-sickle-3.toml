@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = ["druid", "ranger"]
 notes = ""
-source = "tcoe 133"
+source = "Tasha's Cauldron of Everything, p. 133"
 description = """
 This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. The bonus is determined by the weapon's rarity. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.
 

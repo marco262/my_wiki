@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 200"
+source = "Dungeon Master's Guide, p. 200"
 description = """
 This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with _oil of slipperiness._ When found, a container contains 1d6 + 1 ounces.
 

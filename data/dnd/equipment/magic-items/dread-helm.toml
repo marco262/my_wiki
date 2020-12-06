@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 137"
+source = "Xanathar's Guide to Everything, p. 137"
 description = """
 This fearsome steel helm makes your eyes glow red while you wear it.
 """

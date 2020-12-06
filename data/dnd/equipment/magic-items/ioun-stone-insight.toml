@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 176"
+source = "Dungeon Master's Guide, p. 176"
 description = """
 An _Ioun stone_ is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of _Ioun stone_ exist, each type a distinct combination of shape and color.
 

@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 188"
+source = "Dungeon Master's Guide, p. 188"
 description = """
 This concoction looks, smells, and tastes like a Potion of Healing or other beneficial potion. However, it is actually poison masked by illusion magic. An _[[[spell:identify]]]_ spell reveals its true nature.
 

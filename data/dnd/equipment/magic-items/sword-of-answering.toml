@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = []
 notes = "requires attunement by a creature with the same alignment as the sword"
-source = "dmg 206"
+source = "Dungeon Master's Guide, p. 206"
 description = """
 In the world of Greyhawk, only nine of these blades are known to exist. Each is patterned after the legendary sword Fragarach, which is variously translated as "Final Word." Each of the nine swords has its own name and alignment, and each bears a different gem in its pommel.
 

@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 156"
+source = "Dungeon Master's Guide, p. 156"
 description = """
 While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.
 """

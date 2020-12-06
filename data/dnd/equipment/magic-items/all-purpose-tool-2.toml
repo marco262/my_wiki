@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["artificer"]
 notes = ""
-source = "tcoe 119"
+source = "Tasha's Cauldron of Everything, p. 119"
 description = """
 This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of [[[equipment:tools|artisan's tool]]] of your choice. Whatever form the tool takes, you are proficient with it.
 

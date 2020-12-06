@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 137"
+source = "Xanathar's Guide to Everything, p. 137"
 description = """
 This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age.
 """

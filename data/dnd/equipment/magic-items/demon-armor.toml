@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 165"
+source = "Dungeon Master's Guide, p. 165"
 description = """
 While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
 

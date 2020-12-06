@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = ["druid", "sorcerer", "warlock", "wizard"]
 notes = ""
-source = "dmg 202"
+source = "Dungeon Master's Guide, p. 202"
 description = """
 You have resistance to cold damage while you hold this staff.
 

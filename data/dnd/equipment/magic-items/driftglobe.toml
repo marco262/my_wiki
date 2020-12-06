@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 166"
+source = "Dungeon Master's Guide, p. 166"
 description = """
 This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the _[[[spell:light]]]_ or _[[[spell:daylight]]]_ spell. Once used, the _[[[spell:daylight]]]_ effect can't be used again until the next dawn.
 

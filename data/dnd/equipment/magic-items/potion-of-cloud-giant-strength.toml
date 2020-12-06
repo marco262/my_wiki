@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 187"
+source = "Dungeon Master's Guide, p. 187"
 description = """
 When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.
 

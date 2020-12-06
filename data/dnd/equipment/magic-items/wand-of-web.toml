@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = []
 notes = "requires attunement by a spellcaster"
-source = "dmg 212"
+source = "Dungeon Master's Guide, p. 212"
 description = """
 This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the _[[[spell:web]]]_ spell (save DC 15) from it.
 

@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "tcoe 134"
+source = "Tasha's Cauldron of Everything, p. 134"
 description = """
 This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast _[[[spell:arcane lock]]]_ on it. When found, the book contains the following spells: _[[[spell:arcane lock]]]_, _[[[spell:dispel magic]]]_, _[[[spell:globe of invulnerability]]]_, _[[[spell:glyph of warding]]]_, _[[[spell:Mordenkainen's private sanctum]]]_, _[[[spell:protection from evil and good]]]_, and _[[[spell:symbol]]]_. It functions as a spellbook for you.
 

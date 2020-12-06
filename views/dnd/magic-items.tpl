@@ -1,3 +1,4 @@
+% from data.dnd.enums import source_acronyms
 % rebase("common/base.tpl", title="Magic Items")
 
 <table>
@@ -7,8 +8,8 @@
         <th>Rarity</th>
         <th>Attunement?</th>
         <th>Subtype</th>
-        <th>Class<br>Restrictions</th>
-        <th style="min-width: 70px;">Source</th>
+        <th>Class Restrictions</th>
+        <th>Source</th>
     </tr>
 % for filename, magic_item in magic_items:
     <tr>
@@ -18,7 +19,12 @@
         <td>{{ "yes" if magic_item["attunement"] else "no" }}</td>
         <td>{{ magic_item["subtype"] }}</td>
         <td>{{ ", ".join(magic_item["classes"]) }}</td>
-        <td>{{ magic_item["source"] }}</td>
+        <td>
+            % source = magic_item["source"].split(", p")[0]
+            <div class="tooltip">{{source_acronyms[source]}}
+                <span class="tooltiptext">{{source}}</span>
+            </div>
+        </td>
     </tr>
 % end
 </table>

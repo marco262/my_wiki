@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 156"
+source = "Dungeon Master's Guide, p. 156"
 description = """
 While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the _[[[spell:magic missile]]]_ spell.
 """

@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 193"
+source = "Dungeon Master's Guide, p. 193"
 description = """
 While wearing this ring, you can cast the _[[[spell:telekinesis]]]_ spell at will, but you can target only objects that aren't being worn or carried.
 """

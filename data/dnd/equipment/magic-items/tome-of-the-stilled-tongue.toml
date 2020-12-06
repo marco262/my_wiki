@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "dmg 208"
+source = "Dungeon Master's Guide, p. 208"
 description = """
 This thick leather-bound volume has a desiccated tongue pinned to the front cover. Five of these tomes exist, and it's unknown which one is the original. The grisly cover decoration on the first tome of the stilled tongue once belonged to a treacherous former servant of the lich-god Vecna, keeper of secrets. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank and pristine.
 

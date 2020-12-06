@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["cleric", "druid", "warlock"]
 notes = ""
-source = "dmg 205"
+source = "Dungeon Master's Guide, p. 205"
 description = """
 This staff has 3 charges and regains 1d3 expended charges daily at dawn.
 

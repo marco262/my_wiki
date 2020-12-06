@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 211"
+source = "Dungeon Master's Guide, p. 211"
 description = """
 This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the _[[[spell:magic missile]]]_ spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 

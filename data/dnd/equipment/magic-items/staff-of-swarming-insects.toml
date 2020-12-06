@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"]
 notes = ""
-source = "dmg 203"
+source = "Dungeon Master's Guide, p. 203"
 description = """
 This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 

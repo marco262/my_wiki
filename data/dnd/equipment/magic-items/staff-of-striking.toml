@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 203"
+source = "Dungeon Master's Guide, p. 203"
 description = """
 This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.
 

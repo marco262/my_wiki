@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 191"
+source = "Dungeon Master's Guide, p. 191"
 description = """
 While wearing this ring, you can cast the _[[[spell:jump]]]_ spell from it as a bonus action at will, but can target only yourself when you do so.
 """

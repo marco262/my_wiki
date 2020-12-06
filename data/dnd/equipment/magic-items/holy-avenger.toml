@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = ["paladin"]
 notes = ""
-source = "dmg 174"
+source = "Dungeon Master's Guide, p. 174"
 description = """
 You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
 

@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["druid", "warlock"]
 notes = ""
-source = "tcoe 122"
+source = "Tasha's Cauldron of Everything, p. 122"
 description = """
 This silver implement is shaped like a tree branch and is strung with small golden bells. The branch is a spellcasting focus for your spells while you hold it.
 

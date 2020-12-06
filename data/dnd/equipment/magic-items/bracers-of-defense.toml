@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 156"
+source = "Dungeon Master's Guide, p. 156"
 description = """
 While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.
 """

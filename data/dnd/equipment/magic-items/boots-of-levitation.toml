@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 155"
+source = "Dungeon Master's Guide, p. 155"
 description = """
 While you wear these boots, you can use an action to cast the _[[[spell:levitate]]]_ spell on yourself at will.
 """

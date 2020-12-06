@@ -125,12 +125,14 @@ sources = [
 
 source_acronyms = {
     "Player's Handbook": "PHB",
+    "Dungeon Master's Guide": "DMG",
     "Elemental Evil": "EE",
     "Sword Coast Adventurer's Guide": "SCAG",
     "Xanathar's Guide to Everything": "XGtE",
     "Lost Laboratory of Kwalish": "LLoK",
     "Explorer's Guide to Wildemount": "EGtW",
     "Tasha's Cauldron of Everything": "TCoE",
+    "Dragon Heist": "DH",
     "Homebrew": "Home"
 }
 

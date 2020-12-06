@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 190"
+source = "Dungeon Master's Guide, p. 190"
 description = """
 This ring is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane.
 

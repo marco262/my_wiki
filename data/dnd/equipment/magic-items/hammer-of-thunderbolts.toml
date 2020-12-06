@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 173"
+source = "Dungeon Master's Guide, p. 173"
 description = """
 You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 

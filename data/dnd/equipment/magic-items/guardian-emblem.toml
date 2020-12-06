@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = true
 classes = ["cleric", "paladin"]
 notes = ""
-source = "tcoe 128"
+source = "Tasha's Cauldron of Everything, p. 128"
 description = """
 This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.
 

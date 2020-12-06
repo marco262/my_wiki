@@ -5,7 +5,7 @@ rarity = "Common"
 attunement = false
 classes = []
 notes = ""
-source = "xge 138"
+source = "Xanathar's Guide to Everything, p. 138"
 description = """
 This lock appears to be an ordinary [[[equipment:Adventuring Gear#lock|lock]]] and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage.
 """

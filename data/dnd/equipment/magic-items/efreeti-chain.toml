@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 167"
+source = "Dungeon Master's Guide, p. 167"
 description = """
 While wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.
 """

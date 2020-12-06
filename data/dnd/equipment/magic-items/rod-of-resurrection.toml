@@ -5,7 +5,7 @@ rarity = "Legendary"
 attunement = true
 classes = ["cleric", "druid", "paladin"]
 notes = ""
-source = "dmg 197"
+source = "Dungeon Master's Guide, p. 197"
 description = """
 The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: _[[[spell:heal]]]_ (expends 1 charge) or _[[[spell:resurrection]]]_ (expends 5 charges).
 

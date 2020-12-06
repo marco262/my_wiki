@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["wizard"]
 notes = ""
-source = "tcoe 126"
+source = "Tasha's Cauldron of Everything, p. 126"
 description = """
 To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.
 

@@ -5,7 +5,7 @@ rarity = "Uncommon"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 171"
+source = "Dungeon Master's Guide, p. 171"
 description = """
 This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:
 

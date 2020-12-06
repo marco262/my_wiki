@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = false
 classes = []
 notes = ""
-source = "dmg 152"
+source = "Dungeon Master's Guide, p. 152"
 description = """
 Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.
 

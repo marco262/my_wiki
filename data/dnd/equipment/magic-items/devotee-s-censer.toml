@@ -5,7 +5,7 @@ rarity = "Rare"
 attunement = true
 classes = ["cleric", "paladin"]
 notes = ""
-source = "tcoe 126"
+source = "Tasha's Cauldron of Everything, p. 126"
 description = """
 The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra 1d8 radiant damage.
 

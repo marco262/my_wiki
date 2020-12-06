@@ -5,7 +5,7 @@ rarity = "Very Rare"
 attunement = true
 classes = []
 notes = ""
-source = "dmg 183"
+source = "Dungeon Master's Guide, p. 183"
 description = """
 You gain a +2 bonus to attack and damage rolls made with this magic weapon.
 
