@@ -6,4 +6,4 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 187"
-description = "<p>When you drink this potion, you gain the effect of the <em>_[[[spell:gaseous form]]]_</em> spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.</p>"
+description = "<p>When you drink this potion, you gain the effect of the _[[[spell:gaseous form]]]_ spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.</p>"
