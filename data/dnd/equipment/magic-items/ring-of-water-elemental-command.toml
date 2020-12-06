@@ -15,5 +15,8 @@ The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spell
 
 <strong>Ring of Water Elemental Command.</strong> You can expend 2 of the ring's charges to cast _[[[spell:dominate monster]]]_ on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
 
-If you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:</p><ul><li>You can breathe underwater and have a swimming speed equal to your walking speed.</li><li>You can cast the following spells from the ring, expending the necessary number of charges: _[[[spell:create or destroy water]]]_ (1 charge), _[[[spell:control water]]]_ (3 charges), _[[[spell:ice storm]]]_ (2 charges), or _[[[spell:wall of ice]]]_ (3 charges).</li></ul>
+If you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:
+
+* You can breathe underwater and have a swimming speed equal to your walking speed.
+* You can cast the following spells from the ring, expending the necessary number of charges: _[[[spell:create or destroy water]]]_ (1 charge), _[[[spell:control water]]]_ (3 charges), _[[[spell:ice storm]]]_ (2 charges), or _[[[spell:wall of ice]]]_ (3 charges).
 """
