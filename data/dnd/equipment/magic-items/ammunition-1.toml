@@ -1,6 +1,7 @@
 name = "Ammunition, +1"
 type = "Weapon"
 subtype = "any ammunition"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

@@ -1,6 +1,7 @@
 name = "Boots of Speed"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

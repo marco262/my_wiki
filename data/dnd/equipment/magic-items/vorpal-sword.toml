@@ -1,6 +1,7 @@
 name = "Vorpal Sword"
 type = "Weapon"
 subtype = "any sword that deals slashing damage"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

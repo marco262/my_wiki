@@ -1,6 +1,7 @@
 name = "Rod of the Pact Keeper, +1"
 type = "Rod"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = ["warlock"]

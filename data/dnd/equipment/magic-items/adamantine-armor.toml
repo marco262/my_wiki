@@ -1,6 +1,7 @@
 name = "Adamantine Armor"
 type = "Armor"
 subtype = "medium or heavy, but not hide"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

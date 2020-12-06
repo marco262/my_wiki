@@ -1,6 +1,7 @@
 name = "Demon Armor"
 type = "Armor"
 subtype = "plate"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

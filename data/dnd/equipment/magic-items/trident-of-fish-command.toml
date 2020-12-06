@@ -1,6 +1,7 @@
 name = "Trident of Fish Command"
 type = "Weapon"
 subtype = "trident"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

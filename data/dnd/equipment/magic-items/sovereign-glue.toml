@@ -1,6 +1,7 @@
 name = "Sovereign Glue"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

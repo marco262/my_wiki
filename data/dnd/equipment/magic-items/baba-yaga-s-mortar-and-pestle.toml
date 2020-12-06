@@ -1,6 +1,7 @@
 name = "Baba Yaga's Mortar and Pestle"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Artifact"
 attunement = true
 classes = []

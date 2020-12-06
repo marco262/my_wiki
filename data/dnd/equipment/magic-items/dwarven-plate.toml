@@ -1,6 +1,7 @@
 name = "Dwarven Plate"
 type = "Armor"
 subtype = "plate"
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

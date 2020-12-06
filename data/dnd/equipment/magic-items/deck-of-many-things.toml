@@ -1,6 +1,7 @@
 name = "Deck of Many Things"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

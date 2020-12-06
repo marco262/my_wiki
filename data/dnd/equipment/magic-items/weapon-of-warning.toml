@@ -1,6 +1,7 @@
 name = "Weapon of Warning"
 type = "Weapon"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

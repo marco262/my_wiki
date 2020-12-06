@@ -1,6 +1,7 @@
 name = "Robe of Useful Items"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

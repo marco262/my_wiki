@@ -1,6 +1,7 @@
 name = "Ear Horn of Hearing"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

@@ -1,6 +1,7 @@
 name = "Spellwrought Tattoo (1st level)"
 type = "Wondrous Item"
 subtype = "tattoo"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

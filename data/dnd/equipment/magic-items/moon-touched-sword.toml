@@ -1,6 +1,7 @@
 name = "Moon-Touched Sword"
 type = "Weapon"
 subtype = "any sword"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

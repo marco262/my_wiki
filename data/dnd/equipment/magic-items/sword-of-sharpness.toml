@@ -1,6 +1,7 @@
 name = "Sword of Sharpness"
 type = "Weapon"
 subtype = "any sword that deals slashing damage"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

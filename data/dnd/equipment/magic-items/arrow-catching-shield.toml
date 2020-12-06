@@ -1,6 +1,7 @@
 name = "Arrow-catching Shield"
 type = "Armor"
 subtype = "shield"
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

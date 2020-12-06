@@ -1,6 +1,7 @@
 name = "Dwarven Thrower"
 type = "Weapon"
 subtype = "warhammer"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

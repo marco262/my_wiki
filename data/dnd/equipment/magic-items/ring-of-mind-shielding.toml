@@ -1,6 +1,7 @@
 name = "Ring of Mind Shielding"
 type = "Ring"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

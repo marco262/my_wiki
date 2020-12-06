@@ -1,6 +1,7 @@
 name = "Talisman of Pure Good"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

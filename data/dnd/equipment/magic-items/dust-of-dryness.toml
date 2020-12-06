@@ -1,6 +1,7 @@
 name = "Dust of Dryness"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

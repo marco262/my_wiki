@@ -1,6 +1,7 @@
 name = "Plate Armor of Etherealness"
 type = "Armor"
 subtype = "plate"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

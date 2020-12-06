@@ -1,6 +1,7 @@
 name = "Knave's Eye Patch"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

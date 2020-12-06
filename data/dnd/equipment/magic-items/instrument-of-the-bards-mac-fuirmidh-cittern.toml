@@ -1,6 +1,7 @@
 name = "Instrument of the Bards, Mac-Fuirmidh Cittern"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = ["bard"]

@@ -1,6 +1,7 @@
 name = "Figurine of Wondrous Power, Obsidian Steed"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

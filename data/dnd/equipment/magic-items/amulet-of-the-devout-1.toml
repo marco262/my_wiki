@@ -1,6 +1,7 @@
 name = "Amulet of the Devout, +1"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = ["cleric", "paladin"]

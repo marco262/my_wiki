@@ -1,6 +1,7 @@
 name = "Armor of Gleaming"
 type = "Armor"
 subtype = "medium or heavy"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

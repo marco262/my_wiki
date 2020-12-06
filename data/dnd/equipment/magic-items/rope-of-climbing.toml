@@ -1,6 +1,7 @@
 name = "Rope of Climbing"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

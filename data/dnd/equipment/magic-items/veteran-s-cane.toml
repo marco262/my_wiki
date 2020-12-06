@@ -1,6 +1,7 @@
 name = "Veteran's Cane"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

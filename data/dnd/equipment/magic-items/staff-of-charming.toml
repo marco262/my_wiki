@@ -1,6 +1,7 @@
 name = "Staff of Charming"
 type = "Staff"
 subtype = ""
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"]

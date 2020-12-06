@@ -1,6 +1,7 @@
 name = "Unbreakable Arrow"
 type = "Weapon"
 subtype = "arrow"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

@@ -1,6 +1,7 @@
 name = "Periapt of Health"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

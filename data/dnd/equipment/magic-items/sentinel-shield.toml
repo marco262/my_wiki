@@ -1,6 +1,7 @@
 name = "Sentinel Shield"
 type = "Armor"
 subtype = "shield"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

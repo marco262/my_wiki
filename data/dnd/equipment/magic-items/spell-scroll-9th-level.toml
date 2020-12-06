@@ -1,6 +1,7 @@
 name = "Spell Scroll, 9th Level"
 type = "Scroll"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Legendary"
 attunement = false
 classes = []

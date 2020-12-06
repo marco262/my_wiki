@@ -1,6 +1,7 @@
 name = "Heward's Handy Spice Pouch"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

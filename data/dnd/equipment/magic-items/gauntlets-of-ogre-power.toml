@@ -1,6 +1,7 @@
 name = "Gauntlets of Ogre Power"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

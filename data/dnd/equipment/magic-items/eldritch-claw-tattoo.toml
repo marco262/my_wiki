@@ -1,6 +1,7 @@
 name = "Eldritch Claw Tattoo"
 type = "Wondrous Item"
 subtype = "tattoo"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

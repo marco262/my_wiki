@@ -1,6 +1,7 @@
 name = "Sword of Life Stealing"
 type = "Weapon"
 subtype = "any sword"
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = []

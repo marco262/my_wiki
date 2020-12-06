@@ -1,6 +1,7 @@
 name = "Wand of Polymorph"
 type = "Wand"
 subtype = ""
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

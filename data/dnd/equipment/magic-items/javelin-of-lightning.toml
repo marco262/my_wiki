@@ -1,6 +1,7 @@
 name = "Javelin of Lightning"
 type = "Weapon"
 subtype = "javelin"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

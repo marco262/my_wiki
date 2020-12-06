@@ -1,6 +1,7 @@
 name = "Wand of Conducting"
 type = "Wand"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

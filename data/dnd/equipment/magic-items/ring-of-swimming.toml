@@ -1,6 +1,7 @@
 name = "Ring of Swimming"
 type = "Ring"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

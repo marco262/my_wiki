@@ -1,6 +1,7 @@
 name = "Mighty Servant of Leuk-o"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Artifact"
 attunement = true
 classes = []

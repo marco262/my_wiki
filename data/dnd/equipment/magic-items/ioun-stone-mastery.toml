@@ -1,6 +1,7 @@
 name = "Ioun Stone, Mastery"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

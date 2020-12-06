@@ -1,6 +1,7 @@
 name = "Perfume of Bewitching"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

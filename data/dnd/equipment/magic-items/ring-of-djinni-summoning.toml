@@ -1,6 +1,7 @@
 name = "Ring of Djinni Summoning"
 type = "Ring"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = []

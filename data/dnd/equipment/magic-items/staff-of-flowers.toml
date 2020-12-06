@@ -1,6 +1,7 @@
 name = "Staff of Flowers"
 type = "Staff"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

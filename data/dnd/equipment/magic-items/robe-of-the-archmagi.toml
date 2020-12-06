@@ -1,6 +1,7 @@
 name = "Robe of the Archmagi"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
 classes = ["sorcerer", "warlock", "wizard"]

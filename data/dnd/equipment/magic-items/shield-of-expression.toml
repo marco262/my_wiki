@@ -1,6 +1,7 @@
 name = "Shield of Expression"
 type = "Armor"
 subtype = "shield"
+rarity_type = "Minor"
 rarity = "Common"
 attunement = false
 classes = []

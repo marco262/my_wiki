@@ -1,6 +1,7 @@
 name = "Moon Sickle, +2"
 type = "Weapon"
 subtype = "sickle"
+rarity_type = "Major"
 rarity = "Rare"
 attunement = true
 classes = ["druid", "ranger"]

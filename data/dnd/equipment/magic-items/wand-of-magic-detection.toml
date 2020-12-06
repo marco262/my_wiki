@@ -1,6 +1,7 @@
 name = "Wand of Magic Detection"
 type = "Wand"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

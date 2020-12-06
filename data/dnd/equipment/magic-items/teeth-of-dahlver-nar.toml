@@ -1,6 +1,7 @@
 name = "Teeth of Dahlver-Nar"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Artifact"
 attunement = true
 classes = []

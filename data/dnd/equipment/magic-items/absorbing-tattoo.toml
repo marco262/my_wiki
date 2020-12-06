@@ -1,6 +1,7 @@
 name = "Absorbing Tattoo"
 type = "Wondrous Item"
 subtype = "tattoo"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true
 classes = []

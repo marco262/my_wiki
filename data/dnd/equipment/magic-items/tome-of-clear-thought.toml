@@ -1,6 +1,7 @@
 name = "Tome of Clear Thought"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

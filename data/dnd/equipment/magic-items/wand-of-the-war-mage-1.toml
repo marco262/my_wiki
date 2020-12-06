@@ -1,6 +1,7 @@
 name = "Wand of the War Mage, +1"
 type = "Wand"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

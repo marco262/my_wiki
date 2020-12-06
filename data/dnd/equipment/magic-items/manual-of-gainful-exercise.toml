@@ -1,6 +1,7 @@
 name = "Manual of Gainful Exercise"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Minor"
 rarity = "Very Rare"
 attunement = false
 classes = []

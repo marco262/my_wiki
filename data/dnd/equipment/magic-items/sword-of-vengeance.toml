@@ -1,6 +1,7 @@
 name = "Sword of Vengeance"
 type = "Weapon"
 subtype = "any sword"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []

@@ -1,6 +1,7 @@
 name = "Pearl of Power"
 type = "Wondrous Item"
 subtype = ""
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
 classes = []
