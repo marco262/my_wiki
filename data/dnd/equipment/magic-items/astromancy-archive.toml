@@ -7,7 +7,7 @@ classes = ["wizard"]
 notes = ""
 source = "tcoe 120"
 description = """
-This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: augury, divination, find the path, foresight, locate creature, and locate object. It functions as a spellbook for you, with spells encoded on the rings.
+This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: _[[[spell:augury]]]_, _[[[spell:divination]]]_, _[[[spell:find the path]]]_, _[[[spell:foresight]]]_, _[[[spell:locate creature]]]_, and _[[[spell:locate object]]]_. It functions as a spellbook for you, with spells encoded on the rings.
 
 While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.
 

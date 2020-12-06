@@ -7,7 +7,7 @@ classes = ["wizard"]
 notes = ""
 source = "tcoe 134"
 description = """
-The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: banishment, find familiar, gate, magic circle, planar binding, and summon elemental (appears in this book). It functions as a spellbook for you.
+The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: _[[[spell:banishment]]]_, _[[[spell:find familiar]]]_, _[[[spell:gate]]]_, _[[[spell:magic circle]]]_, _[[[spell:planar binding]]]_, and _[[[spell:summon elemental]]]_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

@@ -6,4 +6,4 @@ attunement = false
 classes = []
 notes = ""
 source = "dmg 187"
-description = "<p>When you drink this potion, you gain the &quot;reduce&quot; effect of the <em>enlarge/reduce</em> spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.</p>"
+description = "<p>When you drink this potion, you gain the &quot;reduce&quot; effect of the <em>_[[[spell:enlarge/reduce]]]_</em> spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.</p>"

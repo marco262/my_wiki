@@ -6,4 +6,4 @@ attunement = true
 classes = []
 notes = ""
 source = "dmg 191"
-description = "<p>While wearing this ring, you can cast the <em>jump</em> spell from it as a bonus action at will, but can target only yourself when you do so.</p>"
+description = "<p>While wearing this ring, you can cast the <em>_[[[spell:jump]]]_</em> spell from it as a bonus action at will, but can target only yourself when you do so.</p>"

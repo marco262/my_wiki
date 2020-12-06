@@ -42,14 +42,14 @@ The Staring
 Cats of Uldundar (ivory cat
 molar)
 9 cats
-The tooth has 8 charges. As an action, you can expend 1 charge to cast the revivify spell from the
-tooth. If you are dead at the start of your turn, the tooth expends 1 charge and casts revivify on you.
+The tooth has 8 charges. As an action, you can expend 1 charge to cast the _[[[spell:revivify]]]_ spell from the
+tooth. If you are dead at the start of your turn, the tooth expends 1 charge and casts _[[[spell:revivify]]]_ on you.
 2
 Duggle’s
 Surprising Day
 (human molar)
 1 commoner
-When you ¦nish a long rest, the tooth casts sanctuary (DC 18) on you, and the spell lasts for 24 hours
+When you ¦nish a long rest, the tooth casts _[[[spell:sanctuary]]]_ (DC 18) on you, and the spell lasts for 24 hours
 or until you break it.
 3
 The Golden Age
@@ -144,7 +144,7 @@ Kaggash
 (twisted
 beholder tooth)
 1 beholder
-As an action, you can cast the eyebite spell from the tooth. Once you use this action, it can’t be used
+As an action, you can cast the _[[[spell:eyebite]]]_ spell from the tooth. Once you use this action, it can’t be used
 again until the next dawn. Whenever you ¦nish a long rest, roll a d20. On a 20, an aberration chosen by
 the DM appears within 30 feet of you and attacks.
 13
@@ -152,7 +152,7 @@ Three Bridges
 to the Sky (lapis
 lazuli oni fang)
 3 oni
-You gain a §ying speed of 30 feet, and you can use the tooth to cast the detect magic spell at will.
+You gain a §ying speed of 30 feet, and you can use the tooth to cast the _[[[spell:detect magic]]]_ spell at will.
 While you are attuned to fewer than 3 magic items, you gain 1 level of exhaustion that can’t be removed
 until you are attuned to three or more magic items.
 14
@@ -163,7 +163,7 @@ translucent
 fang)
 1 adult red
 dracolich
-You can use the tooth to cast the create undead spell. Once this property is used, it can’t be used again
+You can use the tooth to cast the _[[[spell:create undead]]]_ spell. Once this property is used, it can’t be used again
 until the next dawn. Each time you create an undead creature using the tooth, a skeleton, zombie, or ghoul
 also appears at a random location within 5 miles of you, searching for the living to kill. A humanoid
 killed by these undead rises as the same type of undead at the next midnight.
@@ -176,7 +176,7 @@ bicuspid)
 1 dao, 1 djinni,
 1 efreeti, 1
 marid
-You can use the tooth to cast counterspell at 9th level. Once you use this property, it can’t be used
+You can use the tooth to cast _[[[spell:counterspell]]]_ at 9th level. Once you use this property, it can’t be used
 again until the next dawn. Whenever you ¦nish a long rest, if you haven’t used the tooth to counter a
 spell since your last long rest, your hit point maximum is reduced by 2d10. If this reduces your hit point
 maximum to 0, you die.
@@ -185,7 +185,7 @@ Daughters of
 Bel (green steel
 pit ¦end fang)
 1 pit ¦end
-You can use the tooth to cast dominate monster (DC 18). Once you use this property, it can’t be used
+You can use the tooth to cast _[[[spell:dominate monster]]]_ (DC 18). Once you use this property, it can’t be used
 again until the next dawn. You smell strongly of burning sulfur.
 17
 Why the Sky
