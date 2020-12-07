@@ -1,3 +1,5 @@
+import json
+import random
 from collections import defaultdict, OrderedDict
 from glob import glob
 from json import loads, load
@@ -11,7 +13,7 @@ from bottle import view, request, HTTPError, Bottle
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import class_spell, open_monster_sheet, load_magic_items
+from src.dnd.utils import class_spell, open_monster_sheet, load_magic_items, get_magic_item_table
 
 SPELLS = {}
 SEARCH_OBJ = Search()
@@ -66,7 +68,6 @@ def load_wsgi_endpoints(app: Bottle):
     def equipment(name):
         return md_page(name, "dnd", "equipment")
 
-
     @app.get('/equipment/magic-items/')
     @view("dnd/magic-items.tpl")
     def magic_items():
@@ -78,12 +79,14 @@ def load_wsgi_endpoints(app: Bottle):
             "legendary": 4,
             "artifact": 5,
         }
+
         def sort_key(x):
             try:
                 return rarity_dict[x[1]["rarity"].lower()], x[1]["type"], x[1]["name"]
             except Exception:
                 print(x)
                 raise
+
         return {"magic_items": sorted(load_magic_items().items(), key=sort_key)}
 
     @app.get('/equipment/magic-item/<name>')
@@ -186,25 +189,25 @@ def load_wsgi_endpoints(app: Bottle):
             else:
                 continue
             if ((filter_keys["concentration"] == "yes" and not v["concentration_spell"]) or
-                (filter_keys["concentration"] == "no" and v["concentration_spell"])):
+                    (filter_keys["concentration"] == "no" and v["concentration_spell"])):
                 continue
             if ((filter_keys["ritual"] == "yes" and not v["ritual_spell"]) or
-                (filter_keys["ritual"] == "no" and v["ritual_spell"])):
+                    (filter_keys["ritual"] == "no" and v["ritual_spell"])):
                 continue
             if ((filter_keys["verbal"] == "yes" and "V" not in v["components"]) or
-                (filter_keys["verbal"] == "no" and "V" in v["components"])):
+                    (filter_keys["verbal"] == "no" and "V" in v["components"])):
                 continue
             if ((filter_keys["somatic"] == "yes" and "S" not in v["components"]) or
-                (filter_keys["somatic"] == "no" and "S" in v["components"])):
+                    (filter_keys["somatic"] == "no" and "S" in v["components"])):
                 continue
             if ((filter_keys["material"] == "yes" and "M" not in v["components"]) or
-                (filter_keys["material"] == "no" and "M" in v["components"])):
+                    (filter_keys["material"] == "no" and "M" in v["components"])):
                 continue
             if ((filter_keys["expensive"] == "yes" and not v.get("expensive_material_component")) or
-                (filter_keys["expensive"] == "no" and v("expensive_material_component"))):
+                    (filter_keys["expensive"] == "no" and v("expensive_material_component"))):
                 continue
             if ((filter_keys["consumed"] == "yes" and not v.get("material_component_consumed")) or
-                (filter_keys["consumed"] == "no" and v.get("material_component_consumed"))):
+                    (filter_keys["consumed"] == "no" and v.get("material_component_consumed"))):
                 continue
             results[v["level"]].append((k, v))
         d = {
@@ -213,6 +216,33 @@ def load_wsgi_endpoints(app: Bottle):
             "ua_spells": filter_keys["ua_spells"]
         }
         return d
+
+    @app.get("/magic_item_generator/")
+    @view("dnd/magic_item_generator.tpl")
+    def magic_item_generator():
+        return
+
+    @app.get("/magic_item_generator_results/<table_name>")
+    def magic_item_generator(table_name):
+        d = {
+            "A": ("Minor", "Common"),
+            "B": ("Minor", "Uncommon"),
+            "C": ("Minor", "Rare"),
+            "D": ("Minor", "Very Rare"),
+            "E": ("Minor", "Legendary"),
+            "F": ("Major", "Uncommon"),
+            "G": ("Major", "Rare"),
+            "H": ("Major", "Very Rare"),
+            "I": ("Major", "Legendary"),
+        }
+        args = d.get(table_name.upper())
+        if not args:
+            return HTTPError(status=406, body=f'No magic item table {table_name}')
+        table = get_magic_item_table(*args)
+        items, weights = zip(*table.items())
+        choices = random.choices(items, weights=weights, k=6)
+        print(choices)
+        return {k: title_to_page_name(k) for k in choices}
 
     @app.get('/all_spells_by_name/<ua_spells>')
     @view("dnd/spell_list_page.tpl")
