@@ -1,7 +1,7 @@
 name = "Tome of Understanding"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = false
 classes = []

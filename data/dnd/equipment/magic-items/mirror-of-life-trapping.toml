@@ -1,7 +1,7 @@
 name = "Mirror of Life Trapping"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = false
 classes = []

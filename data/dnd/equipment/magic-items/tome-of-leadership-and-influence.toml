@@ -1,7 +1,7 @@
 name = "Tome of Leadership and Influence"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = false
 classes = []

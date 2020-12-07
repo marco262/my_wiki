@@ -1,7 +1,7 @@
 name = "Rod of Security"
 type = "Rod"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Very Rare"
 attunement = false
 classes = []
