@@ -332,6 +332,5 @@ def get_magic_item_table(rarity_type, rarity):
     for magic_item in load_magic_items().values():
         if magic_item["rarity_type"] == rarity_type and magic_item["rarity"] == rarity and \
                 magic_item["name"] not in table.keys() and magic_item["name"] not in excluded_items:
-            if "Dungeon" in magic_item["source"]:
-                table[magic_item["name"]] = 1
+            table[magic_item["name"]] = 1
     return table
