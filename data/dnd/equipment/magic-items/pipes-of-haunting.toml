@@ -1,7 +1,7 @@
 name = "Pipes of Haunting"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = false
 classes = []

@@ -1,7 +1,7 @@
 name = "Ring of Water Walking"
 type = "Ring"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = false
 classes = []
