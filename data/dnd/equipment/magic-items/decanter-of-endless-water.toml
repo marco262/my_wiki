@@ -2,12 +2,20 @@ name = "Decanter of Endless Water"
 type = "Wondrous Item"
 subtype = ""
 rarity_type = "Minor"
-rarity = "Uncommon"
+rarity = "Rare"
 attunement = false
 classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 161"
 description = """
+[[div class="errata"]]
+
+**Editor's Note:**
+
+Although the DMG lists this item as Uncommon, it's on Magic Item Table C which is mostly reserved for Rare items. Because of this, and because of how powerful this item can be in the right (or wrong) hands, I've increased its rarity from Uncommon to Rare.
+
+[[/div]]
+
 This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
 
 You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:

@@ -1,13 +1,14 @@
+from collections import OrderedDict
 from enum import Enum
-
-import toml
+from glob import glob
+from os.path import join as pjoin, isfile, splitext, basename
 from typing import List, Optional, Union
 
+import toml
 from bottle import HTTPError, redirect, template
-from src.common.utils import md_page, title_to_page_name
 
-from os.path import join as pjoin, isfile
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
+from src.common.utils import md_page, title_to_page_name
 
 
 class Mode(Enum):
@@ -83,3 +84,77 @@ def open_monster_sheet(name):
             return redirect(toml_dict["redirect"])
         md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
         return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
+
+
+MAGIC_ITEMS = {}
+
+
+def load_magic_items():
+    global MAGIC_ITEMS
+    if MAGIC_ITEMS:
+        return MAGIC_ITEMS
+    magic_items = {}
+    path = None
+    print("Loading magic items into memory", end='')
+    try:
+        for path in glob("data/dnd/equipment/magic-items/*"):
+            print(".", end='', flush=True)
+            with open(path) as f:
+                d = toml.loads(f.read(), _dict=OrderedDict)
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            magic_items[splitext(basename(path))[0]] = d
+    except Exception:
+        print(f"\nError when trying to process {path}")
+        raise
+    print(" Done.", flush=True)
+    MAGIC_ITEMS = magic_items
+    return MAGIC_ITEMS
+
+
+def get_magic_item_table(rarity_type, rarity):
+    if rarity == "Common":
+        rarity_type = "Minor"
+
+    if rarity == "Common":
+        table = OrderedDict([
+            ("Potion of Healing", 50),
+            ("Spell Scroll, Cantrip", 10),
+            ("Potion of Climbing", 10),
+            ("Spell Scroll, 1st Level", 20),
+            ("Spell Scroll, 2nd Level", 5),
+            ("Potion of Greater Healing", 5),
+            ("Bag of Holding", 2),
+            ("Driftglobe", 2),
+        ])
+        exclude_items = []
+    elif rarity_type == "Minor" and rarity == "Uncommon":
+        table = OrderedDict([
+            ("Potion of Greater Healing", 15),
+            ("Potion of Fire Breath", 7),
+            ("Potion of Resistance", 7),
+            ("Ammunition, +1", 5),
+            ("Potion of Animal Friendship", 5),
+            ("Potion of Hill Giant Strength", 5),
+            ("Potion of Growth", 5),
+            ("Potion of Water Breathing", 5),
+            ("Spell Scroll, 2nd Level", 5),
+            ("Spell Scroll, 3rd Level", 5),
+            ("Bag of Holding", 3),
+            ("Keoghtom's Ointment", 3),
+            ("Oil of Slipperiness", 3),
+            ("Dust of Disappearance", 2),
+            ("Dust of Dryness", 2),
+            ("Dust of Sneezing and Choking", 2),
+            ("Elemental Gem", 2),
+            ("Philter of Love", 2),
+        ])
+        exclude_items = []
+    else:
+        raise ValueError(rarity_type, rarity)
+
+    for magic_item in load_magic_items().values():
+        if magic_item["rarity_type"] == rarity_type and magic_item["rarity"] == rarity and \
+                magic_item["name"] not in table.keys() and magic_item["name"] not in exclude_items:
+            if "Dungeon Master's Guide" in magic_item["source"]:
+                table[magic_item["name"]] = 1
+    return table

@@ -1,7 +1,7 @@
 name = "Shield, +1"
 type = "Armor"
 subtype = "shield"
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Uncommon"
 attunement = false
 classes = []

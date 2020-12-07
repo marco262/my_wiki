@@ -3,18 +3,17 @@ from glob import glob
 from json import loads, load
 from os.path import join as pjoin
 from os.path import splitext, basename, isfile
-
-import toml
 from time import time
 
+import toml
 from bottle import view, request, HTTPError, Bottle
+
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import class_spell, open_monster_sheet
+from src.dnd.utils import class_spell, open_monster_sheet, load_magic_items
 
 SPELLS = {}
-MAGIC_ITEMS = {}
 SEARCH_OBJ = Search()
 
 
@@ -42,28 +41,6 @@ def load_spells():
     print(" Done.", flush=True)
     SPELLS = spells
     return SPELLS
-
-
-def load_magic_items():
-    global MAGIC_ITEMS
-    if MAGIC_ITEMS:
-        return MAGIC_ITEMS
-    magic_items = {}
-    path = None
-    print("Loading magic items into memory", end='')
-    try:
-        for path in glob("data/dnd/equipment/magic-items/*"):
-            print(".", end='', flush=True)
-            with open(path) as f:
-                d = toml.loads(f.read(), _dict=OrderedDict)
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
-            magic_items[splitext(basename(path))[0]] = d
-    except Exception:
-        print(f"\nError when trying to process {path}")
-        raise
-    print(" Done.", flush=True)
-    MAGIC_ITEMS = magic_items
-    return MAGIC_ITEMS
 
 
 def load_wsgi_endpoints(app: Bottle):
