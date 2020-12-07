@@ -1,7 +1,7 @@
 name = "Horn of Valhalla, Iron"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = false
 classes = []

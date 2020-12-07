@@ -1,7 +1,7 @@
 name = "Hammer of Thunderbolts"
 type = "Weapon"
 subtype = "maul"
-rarity_type = "Minor"
+rarity_type = "Major"
 rarity = "Legendary"
 attunement = false
 classes = []
