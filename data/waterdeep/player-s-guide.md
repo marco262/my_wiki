@@ -59,7 +59,7 @@ Pit fighting includes boxing, wrestling, and other nonlethal forms of combat in 
 
 Purchasing a magic item requires time and money to seek out and contact people willing to sell items. Even then, there is no guarantee a seller will have the items a character desires.
 
-***Resources.*** Finding magic items to purchase requires at least one tenday of effort and 100 gp in expenses. Spending more time and money increases your chance of finding a high-quality item.
+***Resources.*** Finding magic items to purchase requires at least one tenday of effort and 100 gp in expenses, if you are seeking items of rarity Uncommon or above. Spending more time and money increases your chance of finding a high-quality item.
 
 ***Resolution.*** A character seeking to buy a magic item makes a Charisma (Persuasion) or Intelligence (Investigation) check to determine the quality of the seller found. The character gains a +1 bonus on the check for every tenday beyond the first that is spent seeking a seller and a +1 bonus for every additional 100 gp spent on the search, up to a maximum bonus of +10. The monetary cost includes a wealthy lifestyle, for a buyer must impress potential business partners.
 
