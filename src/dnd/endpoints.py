@@ -243,7 +243,8 @@ def load_wsgi_endpoints(app: Bottle):
         choices = random.choices(items, weights=weights, k=6)
         output = "\n"
         for magic_item in choices:
-            if m := re.search(r"(.*) \(.*\)$", magic_item):
+            m = re.search(r"(.*) \(.*\)$", magic_item)
+            if m:
                 page_name = m.group(1)
             else:
                 page_name = magic_item
