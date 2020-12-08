@@ -1,5 +1,5 @@
-import json
 import random
+import re
 from collections import defaultdict, OrderedDict
 from glob import glob
 from json import loads, load
@@ -241,8 +241,14 @@ def load_wsgi_endpoints(app: Bottle):
         table = get_magic_item_table(*args)
         items, weights = zip(*table.items())
         choices = random.choices(items, weights=weights, k=6)
-        print(choices)
-        return {k: title_to_page_name(k) for k in choices}
+        output = "\n"
+        for magic_item in choices:
+            if m := re.search(r"(.*) \(.*\)$", magic_item):
+                page_name = m.group(1)
+            else:
+                page_name = magic_item
+            output += f"* [{magic_item}](/dnd/equipment/magic-item/{page_name})\n"
+        return MD.parse_md(output, namespace="dnd")
 
     @app.get('/all_spells_by_name/<ua_spells>')
     @view("dnd/spell_list_page.tpl")
