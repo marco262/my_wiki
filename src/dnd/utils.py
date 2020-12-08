@@ -187,6 +187,7 @@ def get_magic_item_table(rarity_type, rarity):
             ("Horseshoes of a Zephyr", 3),
             ("Nolzur's Marvelous Pigments", 3),
         ])
+        excluded_items = ["Arrow of Slaying"]
     elif rarity_type == "Minor" and rarity == "Legendary":
         table = OrderedDict([
             ("Spell Scroll, 8th Level", 30),
