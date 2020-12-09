@@ -1,4 +1,4 @@
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 from enum import Enum
 from glob import glob
 from os.path import join as pjoin, isfile, splitext, basename
@@ -20,6 +20,9 @@ class Mode(Enum):
 INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
 file = {}
 [[/include]]"""
+SPELLS = {}
+SPELLS_BY_LEVEL = defaultdict(list)
+MAGIC_ITEMS = {}
 
 
 def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
@@ -86,7 +89,33 @@ def open_monster_sheet(name):
         return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 
 
-MAGIC_ITEMS = {}
+def load_spells():
+    global SPELLS, SPELLS_BY_LEVEL
+    if SPELLS:
+        return SPELLS
+    spells = {}
+    path = None
+    print("Loading spells into memory", end='')
+    try:
+        for path in glob("data/dnd/spell/*"):
+            print(".", end='', flush=True)
+            with open(path) as f:
+                d = toml.loads(f.read(), _dict=OrderedDict)
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            k = splitext(basename(path))[0]
+            spells[k] = d
+            SPELLS_BY_LEVEL[d["level"]].append((k, d))
+    except Exception:
+        print(f"\nError when trying to process {path}")
+        raise
+    print(" Done.", flush=True)
+    SPELLS = spells
+    return SPELLS
+
+
+def load_spells_by_level():
+    load_spells()
+    return SPELLS_BY_LEVEL
 
 
 def load_magic_items():

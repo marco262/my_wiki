@@ -7,42 +7,19 @@ from os.path import join as pjoin
 from os.path import splitext, basename, isfile
 from time import time
 
-import toml
 from bottle import view, request, HTTPError, Bottle
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import class_spell, open_monster_sheet, load_magic_items, get_magic_item_table
+from src.dnd.utils import class_spell, open_monster_sheet, load_spells, load_spells_by_level, load_magic_items, \
+    get_magic_item_table
 
-SPELLS = {}
 SEARCH_OBJ = Search()
 
 
 def init(cfg):
     pass
-
-
-def load_spells():
-    global SPELLS
-    if SPELLS:
-        return SPELLS
-    spells = {}
-    path = None
-    print("Loading spells into memory", end='')
-    try:
-        for path in glob("data/dnd/spell/*"):
-            print(".", end='', flush=True)
-            with open(path) as f:
-                d = toml.loads(f.read(), _dict=OrderedDict)
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
-            spells[splitext(basename(path))[0]] = d
-    except Exception:
-        print(f"\nError when trying to process {path}")
-        raise
-    print(" Done.", flush=True)
-    SPELLS = spells
-    return SPELLS
 
 
 def load_wsgi_endpoints(app: Bottle):
@@ -222,8 +199,8 @@ def load_wsgi_endpoints(app: Bottle):
     def magic_item_generator():
         return
 
-    @app.get("/magic_item_generator_results/<table_name>")
-    def magic_item_generator(table_name):
+    @app.post("/magic_item_generator_results/")
+    def magic_item_generator():
         d = {
             "A": ("Minor", "Common"),
             "B": ("Minor", "Uncommon"),
@@ -235,28 +212,41 @@ def load_wsgi_endpoints(app: Bottle):
             "H": ("Major", "Very Rare"),
             "I": ("Major", "Legendary"),
         }
-        args = d.get(table_name.upper())
+        args = d.get(request.params["table_name"].upper())
         if not args:
-            return HTTPError(status=406, body=f'No magic item table {table_name}')
+            return HTTPError(status=406, body=f'No magic item table {request.params["table_name"]}')
         table = get_magic_item_table(*args)
         items, weights = zip(*table.items())
-        choices = random.choices(items, weights=weights, k=6)
+        chosen_items = []
+        spells_by_level = load_spells_by_level()
         output = "\n"
-        for magic_item in choices:
+        while len(chosen_items) < int(request.params["max_items"]):
+            magic_item = random.choices(items, weights=weights, k=1)[0]
+            if request.params["no_duplicates"] == "true" and magic_item in chosen_items:
+                print(f"Already picked {magic_item}")
+                continue
             m = re.search(r"(.*) \(.*\)$", magic_item)
             if m:
                 page_name = m.group(1)
             else:
                 page_name = magic_item
-            output += f"* [{magic_item}](/dnd/equipment/magic-item/{page_name})\n"
+            output += f"* [{magic_item}](/dnd/equipment/magic-item/{page_name})"
+            # Add random spell to the end of the item name if necessary
+            m = re.search(r"(?:Spell Scroll|Spellwrought Tattoo), (.+)$", magic_item)
+            if m:
+                level = "cantrip" if m.group(1) == "Cantrip" else m.group(1)[0]
+                _, random_spell = random.choice(spells_by_level[level])
+                output += f" (_[[[spell:{random_spell['title'].lower()}]]]_)"
+                chosen_items.append(f"{magic_item} ({random_spell})")
+            else:
+                chosen_items.append(magic_item)
+            output += "\n"
         return MD.parse_md(output, namespace="dnd")
 
     @app.get('/all_spells_by_name/<ua_spells>')
     @view("dnd/spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
-        spells = defaultdict(list)
-        for k, v in load_spells().items():
-            spells[v["level"]].append((k, v))
+        spells = load_spells_by_level()
         d = {
             "title": "All Spells By Name",
             "spell_dict": spells,
