@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title=name)
 <%
-subtype = f" <em>({subtype})</em>" if subtype else ""
+subtype = f" ({subtype})" if subtype else ""
 if notes:
     pass
 elif classes:
@@ -8,9 +8,9 @@ elif classes:
 elif attunement:
     notes = "requires attunement"
 end
-notes = f" <em>({notes})</em>" if notes else ""
+notes = f" ({notes})" if notes else ""
 %> 
-<p>{{type.title()}}{{!subtype}}, {{rarity.lower()}}{{!notes}}</p>
+<p><em>{{type.title()}}{{!subtype}}, {{rarity.lower()}}{{!notes}}</em></p>
 
 {{!description_md}}
 
