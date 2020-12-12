@@ -38,8 +38,11 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * Adalbert Teppichverkäufer, emo gnome teenager
 * Ethel Carpenter, middle-aged human, ex-Watch, recovering "Powdered Courage" addict
 * Llethen Rain-Seeker, dragonborn, niece of Rishaal
-* ???, ???, gladiator who trained under Guy
-* Marblepaw, quadruped Tabaxi medicine cat, Tom's "special" cousin. (Or is Tom the special one??)
+* D'astral "The Hulk" Timbershade, wood elf, gladiator who trained under Guy
+* Marblepaw, quadruped Tabaxi medicine cat, Tom's distant(?) cousin.
+* Doug "Snout" Stoutkettle, were-chihuahua, Shard Shunner
+* Macadrian "Mac" Blair, were-scottish terrier, Shard Shunner
+* Noska Ur'Gray, deep iron dwarf, ex-Xanathar, semi-willingly on parole for community service 
 * [Wishes](/static/img/visual_aids/dragon_heist/faerie_dragon.jpg), faerie dragon, former resident of the Pink Flumph theater
 
 ## Trollskull Alley Shop Owners
