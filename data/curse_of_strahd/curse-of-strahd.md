@@ -35,7 +35,6 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
 * [Brendaniel Skwik](/static/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/static/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
 * [Lif Erwaren](/static/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
-* [Tomassin Gralhund](/static/img/visual_aids/dragon_heist/tomassin_gralhund.jpg), daughter of the Gralhund family, has a crush on Emir
 * Adalbert Teppichverkäufer, emo gnome teenager
 * Ethel Carpenter, middle-aged human, ex-Watch, recovering "Powdered Courage" addict
 * Llethen Rain-Seeker, dragonborn, niece of Rishaal
@@ -58,6 +57,7 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Lorelai Green](/static/img/visual_aids/dragon_heist/lorelai_green.jpg), human farmer, ex-lover of Lif and current lover of Embric
 * [Jezrynne Hornraven](/static/img/visual_aids/dragon_heist/jezrynne_hornraven.jpg), wealthy wife who witnessed the Nimblewright
 * [Martem Trec](/static/img/visual_aids/dragon_heist/martem_trec.jpg), child who found the Necklace of Fireballs
+* [Tomassin Gralhund](/static/img/visual_aids/dragon_heist/tomassin_gralhund.jpg), daughter of the Gralhund family, has a crush on Emir
 * [Halgraek Barrelshoulder](https://www.worldanvil.com/uploads/images/cd7a36d19295661d8de12e8534a58edf.jpg), dwarf who had the troll skull
 * [Brigid Mountainshear](https://i.pinimg.com/originals/3f/73/fc/3f73fc0e15a4785245f669eb8213b3c1.jpg), Halgraek's mortal enemy (she has a nicer house)
 * [Florence Ableton](https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg), saved Tom's life, got invited to Erwaren's Rest. Has 14 and 16 year old boys.
