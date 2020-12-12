@@ -1,8 +1,8 @@
- * [Irish Terrier](^dasher_snobeedle_weredog.png)
-   * [Dasher Snobeedle](^dasher_snobeedle.jpg)
+ * [Irish Terrier](^dragon_heist/dasher_snobeedle_weredog.png)
+   * [Dasher Snobeedle](^dragon_heist/dasher_snobeedle.jpg)
    * Alpha
  * Papillon
-   * [Vaniel Shortwick](^vaniel_shortwick.png)
+   * [Vaniel Shortwick](^dragon_heist/vaniel_shortwick.png)
    * Dasher's Lover
  * Shitzu
    * Possibly interested in being a Secret Agent Shitzu

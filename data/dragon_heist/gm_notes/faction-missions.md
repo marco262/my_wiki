@@ -21,15 +21,15 @@ The doppelgangers arrived in Waterdeep three years ago as a group, initially int
 
 The recent uptick in monster-people causing problems in Waterdeep (mostly XG is to blame for this) has lead to the City Guard cracking down on non-citizens of Waterdeep, and especially monstrosities. Bonnie is worried that her and her friends will be targeted during this investigation.
 
-* [Threestrings](^threestrings.jpg)
-* [Durnan](^durnan.jpg)
-* [Bonnie](^bonnie.jpg)
+* [Threestrings](^dragon_heist/threestrings.jpg)
+* [Durnan](^dragon_heist/durnan.jpg)
+* [Bonnie](^dragon_heist/bonnie.jpg)
   * Wants to help her group get protection and live normal lives
-* [Willifort Crowelle](^willifort_crowelle.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
+* [Willifort Crowelle](^dragon_heist/willifort_crowelle.jpg), aging male tiefling (doppelganger) who works as a personal servant for the Cassalanters
   * Too proud to be a "pawn in another's plot"
   * Could be swayed with promises of political favors given to the Cassalanters
     * The Cassalanters' industry is banking and money-lending, with a side-hustle of rumormongering
-* [Naneatha Lharilstar](^naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)  
+* [Naneatha Lharilstar](^dragon_heist/naneatha_lharilstar.jpg), beautiful human noblewoman (dopperganger)  
   * Will insist on meeting somewhere other than her estate because she never learned that Nanathea is an old friend of Durnan.
   * Feels that with her new role, she's above having to work for others to please them.
   * Can be swayed if her identity is threatened.
@@ -38,21 +38,21 @@ The recent uptick in monster-people causing problems in Waterdeep (mostly XG is 
       * Took Naneatha's identity after she died in an "accident". Will refuse to give more information.
         * The truth is that the real Naneatha died when her carriage was blown off a cliff in a freak windstorm, and was mortally wounded. The doppelganger finished the fall's work and has taken her identity.
       * Now acts as a courtesan around Piergeiron's Palace, earning many sugar daddies to keep up her luxurious lifestyle. 
-* [Cecil Weiss](^cecil_weiss.png), male human bard (doppelganger) who makes his living as a musician/actor/playwright
+* [Cecil Weiss](^dragon_heist/cecil_weiss.png), male human bard (doppelganger) who makes his living as a musician/actor/playwright
   * Investigation/History/Performance DC 15 to recognize Cecil Weiss' name:
     * Up and coming entertainer
     * Rivals and competition have been coming into strange scandals or having "accidents" 
   * Would ask for 500 gp in return for the work, but could be swayed by proper threats to his reputation
-* [Vaniel Shortwick](^vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall, part of the [Shard Shunners](shard-shunners)
+* [Vaniel Shortwick](^dragon_heist/vaniel_shortwick.png), female halfling (doppelganger) who mixes drinks at the Hole in the Wall, part of the [Shard Shunners](shard-shunners)
   * Begs the party not to tell Dasher or any of the Shard Shunners
   * Will take the offer if the players use her identity as leverage
 
 ### Spy Party
 
-* [Remallia Haventree](^remalia.jpeg)
-* [Tarkus Forrester](^tarkus_forrester.jpg)
-* [Tethyn Lambros](^tethyn_lambros.jpg)
-* [JB Nevercott](^jb_nevercott.jpg)
+* [Remallia Haventree](^dragon_heist/remalia.jpeg)
+* [Tarkus Forrester](^dragon_heist/tarkus_forrester.jpg)
+* [Tethyn Lambros](^dragon_heist/tethyn_lambros.jpg)
+* [JB Nevercott](^dragon_heist/jb_nevercott.jpg)
 
 ## Zhentarim
 
@@ -70,8 +70,8 @@ The recent uptick in monster-people causing problems in Waterdeep (mostly XG is 
 
 ### On Dasher
 
-* [Blossom Snobeedle](^blossom_snobeedle.jpg)
-* [Dasher Snobeedle](^dasher_snobeedle.jpg) ([weredog form](^dasher_snobeedle_weredog.png)), part of the [Shard Shunners](Shard Shunners)
+* [Blossom Snobeedle](^dragon_heist/blossom_snobeedle.jpg)
+* [Dasher Snobeedle](^dragon_heist/dasher_snobeedle.jpg) ([weredog form](^dragon_heist/dasher_snobeedle_weredog.png)), part of the [Shard Shunners](Shard Shunners)
 
 <script type="module">
     import {init_links} from "/js/common/visual_aid_backend.js";

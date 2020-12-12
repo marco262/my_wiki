@@ -173,7 +173,7 @@ def load_wsgi_endpoints(app: Bottle):
         }
         return d
 
-    @app.get("/equipment/magic-item-filter")
+    @app.get("/equipment/magic_item_filter/")
     @view("dnd/magic_item_filter.tpl")
     def magic_item_filter():
         return

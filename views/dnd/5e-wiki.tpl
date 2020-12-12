@@ -32,7 +32,7 @@
 * [[[equipment:Trade Goods]]]
 * [[[equipment:Expenses]]]
 * [[[equipment:Trinkets]]]
-* [Magic Items Filter](/dnd/equipment/magic-item-filter/)
+* [Magic Items Filter](/dnd/equipment/magic_item_filter/)
 
 ## Spells
 

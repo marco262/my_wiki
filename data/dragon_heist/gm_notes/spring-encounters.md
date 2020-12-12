@@ -3,46 +3,46 @@
     init_links();
 </script>
 
-* [Gazer](^gazer.jpg)
+* [Gazer](^dragon_heist/gazer.jpg)
 
 ## Mistshore
 
-* [Mistshore](^mistshore.jpg)
-* [Grinda Garloth](^Grinda_garloth.jpg)
-* [... and Apparatus](^Grinda_garloth_and_apparatus.jpg)
-* [Noska Ur'gray](^noska_urgray.jpg), dwarf enforcer leading Xanathar thugs
-* [Kenku](^kenku.jpg)
-* [Merrow](^merrow.jpeg), swimming under the docks with the doods
+* [Mistshore](^dragon_heist/mistshore.jpg)
+* [Grinda Garloth](^dragon_heist/Grinda_garloth.jpg)
+* [... and Apparatus](^dragon_heist/Grinda_garloth_and_apparatus.jpg)
+* [Noska Ur'gray](^dragon_heist/noska_urgray.jpg), dwarf enforcer leading Xanathar thugs
+* [Kenku](^dragon_heist/kenku.jpg)
+* [Merrow](^dragon_heist/merrow.jpeg), swimming under the docks with the doods
 
 ## Mausoleum
 
-* [Sir Ambrose Everdawn](^sir_ambrose_everdawn.jpg), aging human knight, patrols the City of the Dead
-* [Mausoleum (Outside)](^mausoleum_outside.jpg)
-* [Mausoleum (Inside)](^mausoleum_inside.jpg)
-* [Shiny Steel Key](^shiny_steel_key.jpg)
-* [Elaspra's Shop](^elaspras_shop.jpg)
-* [Elaspra Ulmarr](^elaspra_ulmarr.jpg), dwarven locksmith
-* [Duergar](^duergar.png)
+* [Sir Ambrose Everdawn](^dragon_heist/sir_ambrose_everdawn.jpg), aging human knight, patrols the City of the Dead
+* [Mausoleum (Outside)](^dragon_heist/mausoleum_outside.jpg)
+* [Mausoleum (Inside)](^dragon_heist/mausoleum_inside.jpg)
+* [Shiny Steel Key](^dragon_heist/shiny_steel_key.jpg)
+* [Elaspra's Shop](^dragon_heist/elaspras_shop.jpg)
+* [Elaspra Ulmarr](^dragon_heist/elaspra_ulmarr.jpg), dwarven locksmith
+* [Duergar](^dragon_heist/duergar.png)
 
 ## Converted Windmill
 
-* [Converted Windmill (Outside)](^converted_windmill_outside.jpg)
-* [Converted Windmill (Inside)](^converted_windmill_inside.jpg)
-* [Volkarr Kibbens](^volkarr_kibbens.jpg) and [Urlaster Ghann](^urlaster_ghann.png), squatters, hired by Losser Mirklav
+* [Converted Windmill (Outside)](^dragon_heist/converted_windmill_outside.jpg)
+* [Converted Windmill (Inside)](^dragon_heist/converted_windmill_inside.jpg)
+* [Volkarr Kibbens](^dragon_heist/volkarr_kibbens.jpg) and [Urlaster Ghann](^dragon_heist/urlaster_ghann.png), squatters, hired by Losser Mirklav
 
 ## Cellar Complex
 
-* [Losser Mirklav](^losser_mirklav.jpg), halfling necromancer who took the Stone of Golorr
-* [Kenku](^kenku.jpg)
-* [Skeleton](^skeleton.jpeg)
-* [Retchyn](^retchyn.jpg), halfling apprentice to Losser Mirklav
-* [Kreela](^kreela.jpg), halfling apprentice to Losser Mirklav
+* [Losser Mirklav](^dragon_heist/losser_mirklav.jpg), halfling necromancer who took the Stone of Golorr
+* [Kenku](^dragon_heist/kenku.jpg)
+* [Skeleton](^dragon_heist/skeleton.jpeg)
+* [Retchyn](^dragon_heist/retchyn.jpg), halfling apprentice to Losser Mirklav
+* [Kreela](^dragon_heist/kreela.jpg), halfling apprentice to Losser Mirklav
 
 ### Dandymops
 
 * Upscale shop, owned by brother and sister, Retchyn and Kreela Lindenbrook
 * Slogan: "Welcome to Dandymops, where our goal is to make sure you leave our shop at your dandiest"
-* Staffed only by bored teenager, Jonathan, in [a powdered wig and fancy dress](^wig_shop_employee.jpg)
+* Staffed only by bored teenager, Jonathan, in [a powdered wig and fancy dress](^dragon_heist/wig_shop_employee.jpg)
   * The teen was hired that morning and given zero training, which he's a little pissed at
   * The owners have been gone since that morning, and the employee hasn't seen them all day
   * Only notable thing would be this creepy dude with pale white eyes and all black who'd come in, and all three of them would go to the back, where the employee would hear a door or something and then they'd be gone for hours.
@@ -58,7 +58,7 @@
 
 ## Old Tower
 
-[Urchins](^urchins.jpg)
+[Urchins](^dragon_heist/urchins.jpg)
 
 ## Alley
 
