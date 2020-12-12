@@ -227,6 +227,6 @@ The region containing a legendary white dragon's lair is warped by the dragon's 
 
 If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of 1d10 days.
 
-====
+----
 
-Monster Manual, p. 100
+*Source: Monster Manual, p. 100*

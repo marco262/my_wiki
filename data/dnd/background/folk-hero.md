@@ -62,6 +62,6 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 || 5 || Secretly, I believe that things would be better if I were a tyrant lording over the land. ||
 || 6 || I have trouble trusting in my allies. ||
 
-====
+----
 
-Player's Handbook, p. 131
+*Source: Player's Handbook, p. 131*

@@ -62,6 +62,6 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 || 5 || I can't help but pocket loose coins and other trinkets I come across. ||
 || 6 || My pride will probably lead to my destruction. ||
 
-====
+----
 
-Player's Handbook, p. 139
+*Source: Player's Handbook, p. 139*

@@ -229,6 +229,6 @@ The region containing a legendary green dragon's lair is warped by the dragon's 
 
 If the dragon dies, the rodents and birds lose their supernatural link to it. The thickets remain, but within 1d10 days, they become mundane plants and normal difficult terrain, losing their thorns.
 
-====
+----
 
-Monster Manual, p. 93
+*Source: Monster Manual, p. 93*

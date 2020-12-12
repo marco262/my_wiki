@@ -83,6 +83,6 @@ Rather than proficiency with artisan's tools, you might be proficient with navig
 || 5 || I would kill to acquire a noble title. ||
 || 6 || I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals. ||
 
-====
+----
 
-Player's Handbook, p. 132
+*Source: Player's Handbook, p. 132*

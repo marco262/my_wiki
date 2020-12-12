@@ -291,6 +291,7 @@ table, th, td {
 table {
     border-top-color: grey;
     border-left-color: grey;
+    margin-bottom: 5px;
 }
 
 th, td {

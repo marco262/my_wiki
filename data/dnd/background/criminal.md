@@ -64,6 +64,6 @@ Although your capabilities are not much different from those of a burglar or smu
 || 5 || I turn tail and run when things look bad. ||
 || 6 || An innocent person is in prison for a crime that I committed. I'm okay with that. ||
 
-====
+----
 
-Player's Handbook, p. 129
+*Source: Player's Handbook, p. 129*

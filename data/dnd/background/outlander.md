@@ -63,6 +63,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 || 5 || Violence is my answer to almost any challenge. ||
 || 6 || Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish. ||
 
-====
+----
 
-Player's Handbook, p. 136
+*Source: Player's Handbook, p. 136*

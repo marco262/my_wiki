@@ -44,6 +44,6 @@ A werewolf is a savage predator. In its humanoid form, a werewolf has heightened
 
 Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves.
 
-====
+----
 
-Monster Manual, p. 211
+*Source: Monster Manual, p. 211*

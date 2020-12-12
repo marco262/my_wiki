@@ -60,6 +60,6 @@ Charlatans are colorful characters who conceal their true selves behind the mask
 || 5 || I can't resist swindling people who are more powerful than me. ||
 || 6 || I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough. ||
 
-====
+----
 
-Player's Handbook, p. 128
+*Source: Player's Handbook, p. 128*

@@ -60,6 +60,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 || 5 || I speak without really thinking through my words, invariably insulting others. ||
 || 6 || I can't keep a secret to save my life, or anyone else's. ||
 
-====
+----
 
-Player's Handbook, p. 137
+*Source: Player's Handbook, p. 137*

@@ -216,6 +216,6 @@ The region containing a legendary red dragon's lair is warped by the dragon's ma
 
 If the dragon dies, these effects fade over the course of 1d10 days.
 
-====
+----
 
-Monster Manual, p. 97
+*Source: Monster Manual, p. 97*

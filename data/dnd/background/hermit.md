@@ -67,6 +67,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 || 5 || I'd risk too much to uncover a lost bit of knowledge. ||
 || 6 || I like keeping secrets and won't share them with anyone. ||
 
-====
+----
 
-Player's Handbook, p. 134
+*Source: Player's Handbook, p. 134*

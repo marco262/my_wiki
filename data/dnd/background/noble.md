@@ -67,6 +67,6 @@ Nobles are born and raised to a very different lifestyle than most people ever e
 || 5 || In fact, the world does revolve around me. ||
 || 6 || By my words and actions, I often bring shame to my family. ||
 
-====
+----
 
-Player's Handbook, p. 135
+*Source: Player's Handbook, p. 135*
