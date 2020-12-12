@@ -23,6 +23,6 @@ actions = !**Hooves.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target
 
 [[/div]]
 
-====
+----
 
-Player's Handbook, p. 310
+*Source: Player's Handbook, p. 310*

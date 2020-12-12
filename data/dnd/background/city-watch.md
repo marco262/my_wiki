@@ -24,6 +24,6 @@ Your bond is likely associated with your fellow watch members or the watch organ
 
 Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics.
 
-====
+----
 
-Sword Coast Adventurer's Guide, p. 145
+*Source: Sword Coast Adventurer's Guide, p. 145*

@@ -50,6 +50,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 || 5 || I am suspicious of strangers and expect the worst of them. ||
 || 6 || Once I pick a goal, I become obsessed with it to the detriment of everything else in my life. ||
 
-====
+----
 
-Player's Handbook, p. 127
+*Source: Player's Handbook, p. 127*

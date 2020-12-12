@@ -48,6 +48,6 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 || 5 || It's not stealing if I need it more than someone else. ||
 || 6 || People who can't take care of themselves get what they deserve. ||
 
-====
+----
 
-Player's Handbook, p. 141
+*Source: Player's Handbook, p. 141*

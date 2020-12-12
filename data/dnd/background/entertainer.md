@@ -66,6 +66,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 || 5 || I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble. ||
 || 6 || Despite my best efforts, I am unreliable to my friends. ||
 
-====
+----
 
-Player's Handbook, p. 130
+*Source: Player's Handbook, p. 130*

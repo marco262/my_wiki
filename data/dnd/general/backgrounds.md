@@ -61,7 +61,7 @@ Items in parentheses are variants. See the background description for more info.
 || [[[background:Inheritor]]] || Survival, Arcana History or Religion, One gaming set or musical instrument, One language || Inheritance ||
 || [[[background:Knight of the Order]]] || Persuasion, Arcana History Nature or Religion, One gaming set or musical instrument, One language || Knightly Regard ||
 || [[[background:Mercenary Veteran]]] || Athletics, Persuasion, One type of gaming set, Vehicles (land) || Mercenary Life ||
-|| [[[background:Urban Bounter Hunter]]] || Two from among Deception, Insight, Persuasion, or Stealth; Two from among gaming set, musical instrument, or thieves' tools || Ear to the Ground ||
+|| [[[background:Urban Bounty Hunter]]] || Two from among Deception, Insight, Persuasion, or Stealth; Two from among gaming set, musical instrument, or thieves' tools || Ear to the Ground ||
 || [[[background:Uthgardt Tribe Member]]] || Athletics, Survival, One type of musical instrument or artisan's tools, One language || Uthgardt Heritage ||
 || [[[background:Waterdhavian Noble]]] || History, Persuasion, One type of gaming set or musical instrument, One language || Kept in Style ||
 

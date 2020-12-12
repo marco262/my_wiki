@@ -62,6 +62,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 || 5 || I obey the law, even if the law causes misery. ||
 || 6 || I'd rather eat my armor than admit when I'm wrong. ||
 
-====
+----
 
-Player's Handbook, p. 140
+*Source: Player's Handbook, p. 140*

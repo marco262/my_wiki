@@ -232,7 +232,6 @@ Each domain's description gives examples of deities who have influence over that
 
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-: UA Class Features : <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 [[/bibliography]]
 
 <script type="module">
