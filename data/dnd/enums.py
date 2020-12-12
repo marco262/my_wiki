@@ -165,3 +165,31 @@ skills = [
     ("Stealth", "Dexterity"),
     ("Survival", "Wisdom")
 ]
+
+magic_item_types = [
+    "Armor",
+    "Potion",
+    "Ring",
+    "Rod",
+    "Scroll",
+    "Staff",
+    "Wand",
+    "Weapon",
+    "Wondrous Item"
+]
+
+magic_item_rarities = [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Very Rare",
+    "Legendary",
+    "Artifact"
+]
+
+magic_item_sources = [
+    "Dungeon Master's Guide",
+    "Xanathar's Guide to Everything",
+    "Tasha's Cauldron of Everything",
+    "Waterdeep: Dragon Heist"
+]
