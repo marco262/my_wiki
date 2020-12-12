@@ -5,7 +5,7 @@
 ## Harpers NPCs
 
 * [Mirt](^https://vignette.wikia.nocookie.net/forgottenrealms/images/4/44/Mirt-5e.jpg/revision/latest?cb=20181208035731), Harper contact
-* [Remalia Haventree](^remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
+* [Remalia Haventree](^dragon_heist/remalia.jpeg), Lady of House Ulbrinter, patron of the Harpers
 
 ## Lords' Alliance NPCs
 
@@ -21,7 +21,7 @@
 
 * [Yagra Stonefist](^https://campaignwiki.org/wiki/NLGNolaTest/download/Image_1_for_Yagra_Stonefist), member of the Doom Raiders
 * [Davil Starsong](^https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/DavilStarsong.png/revision/latest?cb=20190118105332), retired adventurer
-* [Istrid Horn](^/static/img/visual_aids/istrid_horn.jpg), Master of Trade and Coin
+* [Istrid Horn](^dragon_heist//static/img/visual_aids/istrid_horn.jpg), Master of Trade and Coin
 * [Ziraj the Hunter](^https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Ziraj.png/revision/latest?cb=20190203082219), Master of Assassination
 * [Skeemo Weirdbottle](^https://i.pinimg.com/originals/09/70/f5/0970f5d05aa6de40220d1365df4bb522.jpg), Master of Magic
 

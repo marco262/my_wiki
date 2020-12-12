@@ -8,14 +8,14 @@
 * *Ahghairon's dragonward*
   * Ahghairon was Waterdeep's first Open Lord, and his tower still stands in the Southwest corner of the Castle Ward.
   * In the mid-11th century DR, Ranressa Shiard returned as a hero from her journeys to Waterdeep atop the mighty copper dragon Galadaeros. Although she was welcomed home, the appearance of her mount flying over the city unsettled the majority of the populace. Ahghairon lead a ritual to create *Ahghairon's dragonward* to allay their fears.
-  * The dragonward is centered on [Ahghairon's tower](^ahghairons_tower.jpg), and encompasses all of Waterdeep, as far as anyone knows.
+  * The dragonward is centered on [Ahghairon's tower](^dragon_heist/ahghairons_tower.jpg), and encompasses all of Waterdeep, as far as anyone knows.
 
 ## Pink Flumph Theater
 
 * *Kiss of a Lamia* was written by Cecil Weiss
-* [Yaliek Iltizmar](^yaliek_iltizmar.jpg), plays the evil prince in *Kiss of a Lamia*
-* [Iokaste Daliano](^iokaste_daliano.png), middle-aged widow, owner of the Pink Flumph Theater
-* [Wishes](^faerie_dragon.jpg), [faerie dragon](/dnd/monster/faerie dragon), protects the theater
+* [Yaliek Iltizmar](^dragon_heist/yaliek_iltizmar.jpg), plays the evil prince in *Kiss of a Lamia*
+* [Iokaste Daliano](^dragon_heist/iokaste_daliano.png), middle-aged widow, owner of the Pink Flumph Theater
+* [Wishes](^dragon_heist/faerie_dragon.jpg), [faerie dragon](/dnd/monster/faerie dragon), protects the theater
 
 When exploring the theater, mention the mirrors used to reflect sunlight and torchlight onto the stage.
 
@@ -25,7 +25,7 @@ A bronze dragon scale, stamped with the private symbol of Dagult Neverember, ref
 
 ### Bronze Dragon Scale
 
-[Zelifarn](^zelifarn.jpg), a [young bronze dragon](/dnd/monster/bronze dragon#young-bronze-dragon) living in Deepwater Harbor, looking for treasure.
+[Zelifarn](^dragon_heist/zelifarn.jpg), a [young bronze dragon](/dnd/monster/bronze dragon#young-bronze-dragon) living in Deepwater Harbor, looking for treasure.
 
  * Seen by many sailors and dockworkers
  * Lurking inside a shipwreck 120 feet underwater
@@ -55,13 +55,13 @@ Animated objects (stats per *[animate objects](/dnd/spell/animate objects)* spel
 
 Items on the shelf/ground:
 
- * [Hourglass](^Hourglass.jpg), sand flows in reverse
- * [Engraved pen](^engraved_pen.jpg) from his wife
- * [Broken wand](^broken_wand.jpg)
+ * [Hourglass](^dragon_heist/Hourglass.jpg), sand flows in reverse
+ * [Engraved pen](^dragon_heist/engraved_pen.jpg) from his wife
+ * [Broken wand](^dragon_heist/broken_wand.jpg)
    * From his apprenticeship
- * [Medal](^gold_medal.jpg) given to him during his inauguration as Open Lord
+ * [Medal](^dragon_heist/gold_medal.jpg) given to him during his inauguration as Open Lord
    * In the hand of the robber
- * [Toy soldier](^toy_soldier.jpg)
+ * [Toy soldier](^dragon_heist/toy_soldier.jpg)
    * On the ground
    * Renaer's childhood toy, who's surprised his dad kept it
    * Holding the toy sword, if the sword is put in its scabbard the defenses are disabled
@@ -83,23 +83,23 @@ A noble family (whichever they approach) can loan them a Driftglobe. Renaer prob
 * Emir D'Amour
 * Tom Nielson Alley
 * Guy Buddie
-* [Grinda Garloth](^grinda_garloth.jpg) ([stats](/dragon_heist/gm_notes/Grinda Garloth)) and her [Crab](^crab_defender.jpg)
-* [Renaer Neverember](^renaer_neverember.jpg) ([stats](/dnd/monster/Noble))
-* [Brendaniel](^brendaniel_skwik.jpg) ([stats](brendaniel sqwik))
-* [Wishes](^faerie_dragon.jpg) the [faerie dragon](/dnd/monster/faerie dragon)
+* [Grinda Garloth](^dragon_heist/grinda_garloth.jpg) ([stats](/dragon_heist/gm_notes/Grinda Garloth)) and her [Crab](^dragon_heist/crab_defender.jpg)
+* [Renaer Neverember](^dragon_heist/renaer_neverember.jpg) ([stats](/dnd/monster/Noble))
+* [Brendaniel](^dragon_heist/brendaniel_skwik.jpg) ([stats](brendaniel sqwik))
+* [Wishes](^dragon_heist/faerie_dragon.jpg) the [faerie dragon](/dnd/monster/faerie dragon)
 
 ### Images
 
-* [Underground temple](^underground_temple.jpg)
-* [Black Pudding](^black_pudding.jpg) ([wiki](/dnd/monster/black pudding))
-* [Barok Clanghammer](^barok_clanghammer.jpg)
-* Aurinax [1](^gold_dragon.jpg), [2](^gold_dragon_2.jpg)
+* [Underground temple](^dragon_heist/underground_temple.jpg)
+* [Black Pudding](^dragon_heist/black_pudding.jpg) ([wiki](/dnd/monster/black pudding))
+* [Barok Clanghammer](^dragon_heist/barok_clanghammer.jpg)
+* Aurinax [1](^dragon_heist/gold_dragon.jpg), [2](^dragon_heist/gold_dragon_2.jpg)
 
 ### Vault Door
 
-An [underground tunnel](^underground_tunnel.jpg) leads to the vault.
+An [underground tunnel](^dragon_heist/underground_tunnel.jpg) leads to the vault.
 
-[The vault door](^Vault-Door.jpg) is covered with Dwarvish writing, which can be deciphered to say, "Welcome all those who will give thanks and praise to our gods. Enter ye who will hold respect and wonder in thine hearts."
+[The vault door](^dragon_heist/Vault-Door.jpg) is covered with Dwarvish writing, which can be deciphered to say, "Welcome all those who will give thanks and praise to our gods. Enter ye who will hold respect and wonder in thine hearts."
 
 ### Aurinax
 
@@ -109,7 +109,7 @@ However, if the party convinces him (DC 18 Persuasion) that they wish to return 
 
 ### Treasure Hoard
 
-The [treasure pile](^treasure_pile.png) takes up one of the alcoves in the vault, and it is comprised of:
+The [treasure pile](^dragon_heist/treasure_pile.png) takes up one of the alcoves in the vault, and it is comprised of:
 
 * 95,746 copper pieces
 * 144,111 silver pieces
@@ -127,21 +127,21 @@ The most money from the pile that can be fit in a bag of holding is 4,735 gems a
 
 ### Ambush
 
-While leaving the vault, they will be confronted by [Nar'l Xibrindas](^nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))
+While leaving the vault, they will be confronted by [Nar'l Xibrindas](^dragon_heist/nar'l_xibrindas.jpg) a [drow mage](/dnd/monster/drow-mage) with his [Grell](^dragon_heist/grell.jpg) ([wiki](/dnd/monster/grell)) bodyguard and six [bugbears](^dragon_heist/bugbear.jpg) ([wiki](/dnd/monster/bugbear)). ([Shadow Demon](^https://www.aidedd.org/dnd/images/shadow-demon.jpg))
 
 ## The Grand Finale
 
 ### Encounter with David
 
-Once they've defeated the Xanathar forces (or when they're about to be defeated), all of the NPCs around them will freeze in place. [Uncle David](^uncle_david.jpg) will step out from behind a pillar and congratulate the PCs on their success. He will praise Emir, and greet Tom and Guy, apologizing for his discretion and not greeting them sooner. Eventually, he will change to [Lord Jared](^lord_jared.jpg), the look Tom and Guy are most familiar with, but very extra.
+Once they've defeated the Xanathar forces (or when they're about to be defeated), all of the NPCs around them will freeze in place. [Uncle David](^dragon_heist/uncle_david.jpg) will step out from behind a pillar and congratulate the PCs on their success. He will praise Emir, and greet Tom and Guy, apologizing for his discretion and not greeting them sooner. Eventually, he will change to [Lord Jared](^dragon_heist/lord_jared.jpg), the look Tom and Guy are most familiar with, but very extra.
 
-He will explain that he owed a favor to Emir's father, and that favor was called in to help Emir on his quest. But Jared isn't in this just for philanthropy, he has other angles as well. In particular, he wants the [Stone of Golorr](^stone_of_golorr.jpg). Or rather, Golorr itself.
+He will explain that he owed a favor to Emir's father, and that favor was called in to help Emir on his quest. But Jared isn't in this just for philanthropy, he has other angles as well. In particular, he wants the [Stone of Golorr](^dragon_heist/stone_of_golorr.jpg). Or rather, Golorr itself.
 
 When he mentions the stone, it will attempt to coerce Emir into refusing to let Jared have the stone (DC 20 Charisma saving through). Jared will attempt to convince Emir even through the charm that it's in his best interest. If that fails, Jared will request help from Guy and Tom (dealing damage to Emir, or creative pleas will let him repeat the saving throw). 
 
 ### Fight with Golorr
 
-Once Jared has the stone, he will create an illusion of the [Feywild](^feywild.png) to have the following encounters in. He will explain to the PCs that he needs to purge the creature in the stone, but it will fight back and he needs the player's help to subdue it. When they are ready, [Golorr](/dnd/monster/aboleth) the [aboleth](^aboleth.png) will appear in a nearby space, and will attempt to attack Jared and the party.
+Once Jared has the stone, he will create an illusion of the [Feywild](^dragon_heist/feywild.png) to have the following encounters in. He will explain to the PCs that he needs to purge the creature in the stone, but it will fight back and he needs the player's help to subdue it. When they are ready, [Golorr](/dnd/monster/aboleth) the [aboleth](^dragon_heist/aboleth.png) will appear in a nearby space, and will attempt to attack Jared and the party.
 
 Golorr will target most of its attacks at Jared, who will shrug them off but otherwise be unable to respond. After a round or two, Golorr will attempt to Enslave the most dangerous PC. When it succeeds, the next round Jared will expel the charm from the PC, creating a shadow version of that PC. The PCs must then contend with the shadow version and Golorr. If Golorr is defeated, any remaining shadow PCs disappear, and Jared sucks up the wounded Golorr into a glass sphere with water inside and a tiny version of the aboleth within. 
 
@@ -151,4 +151,4 @@ With that, the illusion dissipates, returning everyone to the Vault of the Drago
 
 ## Epilogue
 
-* [Jelenn Urmbrusk](^jelenn_urmbrusk.jpg)
+* [Jelenn Urmbrusk](^dragon_heist/jelenn_urmbrusk.jpg)

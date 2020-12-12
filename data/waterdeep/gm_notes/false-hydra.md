@@ -9,7 +9,7 @@
 
 The PCs are visited one late night by Lord Jared, who chats with them about their lives, catching up, yadda yadda... But abruptly at some point he announces me has to leave, and with a knowing smile he says, "You're about to be called upon by a friend in need."
 
-A knock will sound on the door, and when the PCs look back to Lord Jared, he'll be gone. At the door is a very concerned Volo. He tells the PCs he'll need their help, but he also needs a drink. When he's had a glass of wine, he says he has a friend in the town of Reed's Hollow who he corresponds regularly with, and [her last letter](^quinns_letter_1.jpg) was concerning. He shows the party the letter, and it appears to be a simple correspondence letter. When the party asks him about it, he just looks more perturbed, saying maybe he's overreacting after all, but he'd appreciate it if they went to the village and checked in on her.
+A knock will sound on the door, and when the PCs look back to Lord Jared, he'll be gone. At the door is a very concerned Volo. He tells the PCs he'll need their help, but he also needs a drink. When he's had a glass of wine, he says he has a friend in the town of Reed's Hollow who he corresponds regularly with, and [her last letter](^dragon_heist/quinns_letter_1.jpg) was concerning. He shows the party the letter, and it appears to be a simple correspondence letter. When the party asks him about it, he just looks more perturbed, saying maybe he's overreacting after all, but he'd appreciate it if they went to the village and checked in on her.
 
 On the brightside, he recommends they stay at the Thrush's Song inn, as it has the best meat pies in town.
 
@@ -23,7 +23,7 @@ While the PCs are walking around town, have one of them roll a Dexterity save. T
 
 ## Thrush's Song
 
-Thrush's Song is run by [Roger Cook](^roger_cook.png), who is chipper and gregarious. When the characters order their meals, he gets them their food surprisingly quickly. Their rooms are well-tended as clean as well, and he offers them regular room cleaning every day, if they like.
+Thrush's Song is run by [Roger Cook](^dragon_heist/roger_cook.png), who is chipper and gregarious. When the characters order their meals, he gets them their food surprisingly quickly. Their rooms are well-tended as clean as well, and he offers them regular room cleaning every day, if they like.
 
 The next day, Roger is harrowed and stressed out, though he doesn't acknowledge this if the PCs ask. The pies take much longer to get to the PCs than the day before, and Roger has signs of oven burns on his hands and arms. The pies are also pretty bad, with gritty dough and filling that is alternately either under or over cooked. If brought up to Roger, he'll get frustrated and tell the party they can take it or leave it.
 
@@ -33,19 +33,19 @@ The reason for this is that the night before, Roger's wife Ethel was eaten. She 
 
 ## Quinn Black
 
-Volo's friend, [Quinn Black](^quinn_black.png), can be found at her own house. She lives alone with her daughter, [Tina](^tina_black.jpg). Quinn is polite with the PCs, and will invite them in as a matter of course. When they mention they're friends of Volo's, she'll brighten and turn perfectly friendly. However, she's as confused as them about Volo's concern, and says everything's been fine with her.
+Volo's friend, [Quinn Black](^dragon_heist/quinn_black.png), can be found at her own house. She lives alone with her daughter, [Tina](^dragon_heist/tina_black.jpg). Quinn is polite with the PCs, and will invite them in as a matter of course. When they mention they're friends of Volo's, she'll brighten and turn perfectly friendly. However, she's as confused as them about Volo's concern, and says everything's been fine with her.
 
 Quinn's house is very well taken care of, properly cleaned and in good repair. However, it looks like there's some wear and tear on the back door, and it has to be held shut with string. One of the windows in the kitchen also has its shutters tied closed, the window having been smashed out. Quinn says a recent storm broke it, and she hasn't quite managed to fix it just yet. She also casually drops that she's a complete klutz with tools, but still insists she fixes the house herself.
 
-Tina is a very curious girl, watching the PCs from behind corners and her mother's skirts. She runs into her bedroom after they're there a while, peeking out occasionally at them before ducking back in. Before the PCs leave, she'll present them with her [drawing](^party_drawing.png).
+Tina is a very curious girl, watching the PCs from behind corners and her mother's skirts. She runs into her bedroom after they're there a while, peeking out occasionally at them before ducking back in. Before the PCs leave, she'll present them with her [drawing](^dragon_heist/party_drawing.png).
 
 ## Gregor Spinner
 
-[Gregor Spinner](^gregor_spinner.png) is a pleasant man who the PCs meet out in the streets. He doesn't say anything of import, talking about how nice the weather has been these past few weeks, before bid them a good day. 
+[Gregor Spinner](^dragon_heist/gregor_spinner.png) is a pleasant man who the PCs meet out in the streets. He doesn't say anything of import, talking about how nice the weather has been these past few weeks, before bid them a good day. 
 
 ## The Henderson's Farm
 
-[Earl](^earl_henderson.png) and [Martha](^martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
+[Earl](^dragon_heist/earl_henderson.png) and [Martha](^dragon_heist/martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
 
 # When The Song Stops
 
@@ -67,7 +67,7 @@ Before the PCs leave, Gregor Spinner comes to ask them for help, looking very wo
 
 When the PCs arrive at Gregor's house, they'll be lead to a door with a chair propped against the handle. Gregor will shamefully say he has to bar his daughter in her room when he's not home for her safety. One night about a week back, she ran out into the street screaming, waking up many of his neighbors. Since then, he's been worried she'd get herself hurt if he's not watching her. He even had to board up her window when he caught her trying to climb out.
 
-[Clarabelle Spinner](^clarabelle_spinner.jpg)'s room is a mess. Toys are scattered and broken, her clothes tossed all over the room, her bed is unmade with the sheets scattered. The room is lit by sunlight filtering through the cracks in the boards around her window. Clarabelle is sitting in the middle of the room, hugging her knees to her chest, and staring at the boarded up window. She's deaf, and does not hear the PCs enter, but might feel their footsteps. When she notices them, she gasps in fear and scurries into a corner, pressing her back to the wall.
+[Clarabelle Spinner](^dragon_heist/clarabelle_spinner.jpg)'s room is a mess. Toys are scattered and broken, her clothes tossed all over the room, her bed is unmade with the sheets scattered. The room is lit by sunlight filtering through the cracks in the boards around her window. Clarabelle is sitting in the middle of the room, hugging her knees to her chest, and staring at the boarded up window. She's deaf, and does not hear the PCs enter, but might feel their footsteps. When she notices them, she gasps in fear and scurries into a corner, pressing her back to the wall.
 
 If the PCs try to talk to Clarabelle, she'll start signing at them. After a few minutes of trying to talk with them, have one of the PCs roll an Intelligence check. Whoever rolls highest "remembers" they learned sign language a while back, and can remember enough to start conversing with her. If Tom casts Comprehend Languages, let him start signing back to her after a few minutes.
 
@@ -81,7 +81,7 @@ Any PCs who save against the False Hydra's song see the world as it is: puddles 
 
 If the PCs follow the monster, it will lead them either into a cellar or the tree trunk in the middle of town, where it has hollowed out the middle into a tunnel leading down underground. In either case, there's remnants of mutilated corpses on the passage into the False Hydra's lair. In the lair itself, the False Hydra's heads writhe defensively around its white, misshapen lump of a body, screaming its song at the PCs ineffectually. All around it are bones and gore of the people its eaten, easily double the amount of people the PCs have seen around the town.
 
-[Image of a False Hydra](^false hydra.jpg)
+[Image of a False Hydra](^dragon_heist/false hydra.jpg)
 
 [[include dnd/monster-sheet.tpl]]
 file = waterdeep/gm_notes/young-false-hydra.toml
@@ -93,9 +93,9 @@ When the PCs defeat the False Hydra, Lord Jared will appear, congratulating them
 
 With the False Hydra dead, the townsfolk are freed from its song. They're horrified to see what's become of the town, and will cooperate with any requests the PCs give them. However, none of the corpses are recognizable to anyone in the village, save for Clarabelle.
 
-When the PCs next settle down for the night, mention that while looking through their Bag of Holding, they'll come across [the letter](^quinns_letter_2.jpg). They'll also notice a set of extra clothing: small wizard's robes, a spellbook, and a little set of halfling pipe leaf and a pipe, as well as some spell scrolls for arcane spells that Tom doesn't recognize. 
+When the PCs next settle down for the night, mention that while looking through their Bag of Holding, they'll come across [the letter](^dragon_heist/quinns_letter_2.jpg). They'll also notice a set of extra clothing: small wizard's robes, a spellbook, and a little set of halfling pipe leaf and a pipe, as well as some spell scrolls for arcane spells that Tom doesn't recognize. 
 
-Finally, they'll pull out Tina's [drawing](^party_drawing_2.png). Going through the spellbook, they'll find it's the property of one Gustav Flaschenverschluss, who no one recognizes.
+Finally, they'll pull out Tina's [drawing](^dragon_heist/party_drawing_2.png). Going through the spellbook, they'll find it's the property of one Gustav Flaschenverschluss, who no one recognizes.
 
 ----
 
