@@ -45,27 +45,6 @@ def load_wsgi_endpoints(app: Bottle):
     def equipment(name):
         return md_page(name, "dnd", "equipment")
 
-    @app.get('/equipment/magic-items/')
-    @view("dnd/magic-items.tpl")
-    def magic_items():
-        rarity_dict = {
-            "common": 0,
-            "uncommon": 1,
-            "rare": 2,
-            "very rare": 3,
-            "legendary": 4,
-            "artifact": 5,
-        }
-
-        def sort_key(x):
-            try:
-                return rarity_dict[x[1]["rarity"].lower()], x[1]["type"], x[1]["name"]
-            except Exception:
-                print(x)
-                raise
-
-        return {"magic_items": sorted(load_magic_items().items(), key=sort_key)}
-
     @app.get('/equipment/magic-item/<name>')
     @view("dnd/magic-item.tpl")
     def magic_item(name):
@@ -191,6 +170,44 @@ def load_wsgi_endpoints(app: Bottle):
             "spell_dict": results,
             "show_classes": len(filter_keys["classes"]) > 1,
             "ua_spells": filter_keys["ua_spells"]
+        }
+        return d
+
+    @app.get("/equipment/magic-item-filter")
+    @view("dnd/magic_item_filter.tpl")
+    def magic_item_filter():
+        return
+
+    @app.post('/equipment/magic_item_filter_results')
+    @view("dnd/magic-items.tpl")
+    def magic_item_filter_results():
+        filter_keys = loads(request.params["filter_keys"])
+        results = defaultdict(list)
+        for k, v in load_magic_items().items():
+            if v["type"] not in filter_keys["types"]:
+                print(k)
+                continue
+            if v["rarity"] not in filter_keys["rarities"]:
+                print(k)
+                continue
+            if filter_keys["attunement"] == "yes" and not v["attunement"] or \
+                    filter_keys["attunement"] == "no" and v["attunement"]:
+                continue
+            if not v["classes"] and "no-restrictions" not in filter_keys["classes"]:
+                print(k)
+                continue
+            if v["classes"] and not set(v["classes"]).intersection(filter_keys["classes"]):
+                print(k)
+                continue
+            for s in filter_keys["sources"]:
+                if s in v["source"]:
+                    break
+            else:
+                print(k)
+                continue
+            results[v["rarity"]].append((k, v))
+        d = {
+            "magic_items": results
         }
         return d
 
