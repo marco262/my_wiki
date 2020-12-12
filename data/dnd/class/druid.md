@@ -116,8 +116,6 @@ Drawing on the divine essence of nature itself, you can cast spells to shape tha
 
 At 1st level, you know two cantrips of your choice from the [druid spell list](/dnd/class_spell_list/druid/true). You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
 
-Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the druid spell list.[((bibcite UA Class Features))]
-
 ### Preparing and Casting Spells
 
 The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher.[((bibcite errata))] To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.

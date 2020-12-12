@@ -89,8 +89,6 @@ As a conduit for divine power, you can cast cleric spells. See [[[general:Spellc
 
 At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
 
-Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the cleric spell list.[((bibcite UA Class Features))]
-
 ### Preparing and Casting Spells
 
 The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher.[((bibcite errata))] To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
