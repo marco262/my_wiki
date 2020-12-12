@@ -2,6 +2,7 @@
 * [Numenera Resources](/numenera/)
 * [Dragon Heist](/dragon_heist/)
 * [Waterdeep Adventures](/waterdeep/)
+* [Curse of Strahd](/curse_of_strahd/)
 
 <div id="last-commit-text">
     <strong>Last commit:</strong> {{ commit_history }}<br>
