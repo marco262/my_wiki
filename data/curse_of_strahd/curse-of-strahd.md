@@ -35,8 +35,8 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
 * [Brendaniel Skwik](/static/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/static/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
 * [Lif Erwaren](/static/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
-* Adalbert Teppichverkäufer, emo gnome teenager
-* Ethel Carpenter, middle-aged human, ex-Watch, recovering "Powdered Courage" addict
+* Adalbert "Orin" Teppichverkäufer, emo gnome teenager
+* Ethel "Nails" Carpenter, middle-aged human, ex-Watch, recovering "Powdered Courage" addict
 * Llethen Rain-Seeker, dragonborn, niece of Rishaal
 * D'astral "The Hulk" Timbershade, wood elf, gladiator who trained under Guy
 * Marblepaw, quadruped Tabaxi medicine cat, Tom's distant(?) cousin.
