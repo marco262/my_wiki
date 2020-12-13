@@ -33,6 +33,7 @@ Worships: Torm, Tymora
 * Greatest fear: Not being able to trust the people around him; betrayal by a close friend
 
 ### Guy
+
 * Armor Class: 15
 * Passive Per: 8
 * Passive Ins: 11
