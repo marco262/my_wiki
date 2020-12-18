@@ -9,7 +9,7 @@ from git import Repo
 
 from src.common.utils import md_page, websocket_loop, send_to_websockets
 
-START_TIME = ctime()
+START_TIME = None
 # Default password: dancinglikeastripper
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -19,7 +19,8 @@ websocket_list = []
 
 
 def init(cfg):
-    global GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH
+    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH
+    START_TIME = ctime()
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
 

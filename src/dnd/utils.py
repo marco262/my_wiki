@@ -20,9 +20,15 @@ class Mode(Enum):
 INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
 file = {}
 [[/include]]"""
-SPELLS = {}
-SPELLS_BY_LEVEL = defaultdict(list)
-MAGIC_ITEMS = {}
+SPELLS = None
+SPELLS_BY_LEVEL = None
+MAGIC_ITEMS = None
+
+
+def init_spells_and_magic_items():
+    global SPELLS, MAGIC_ITEMS
+    SPELLS = {}
+    MAGIC_ITEMS = {}
 
 
 def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
@@ -93,6 +99,7 @@ def load_spells():
     global SPELLS, SPELLS_BY_LEVEL
     if SPELLS:
         return SPELLS
+    SPELLS_BY_LEVEL = defaultdict(list)
     spells = {}
     path = None
     print("Loading spells into memory", end='')
