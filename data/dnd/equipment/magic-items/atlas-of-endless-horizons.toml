@@ -1,6 +1,6 @@
 name = "Atlas of Endless Horizons"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true

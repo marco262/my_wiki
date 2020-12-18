@@ -1,6 +1,6 @@
 name = "Arcane Grimoire, +2"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true

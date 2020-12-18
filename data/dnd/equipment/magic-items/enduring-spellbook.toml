@@ -1,6 +1,6 @@
 name = "Enduring Spellbook"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = false
