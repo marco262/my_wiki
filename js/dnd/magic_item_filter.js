@@ -23,30 +23,24 @@ function handle_filter_results(xhttp) {
 
 function get_ui_state() {
     let d = {};
-    d["types"] = get_checkboxes("type");
-    d["rarities"] = get_checkboxes("rarity");
-    d["classes"] = get_checkboxes("class");
-    d["sources"] = get_checkboxes("source");
+    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    checkboxes.forEach(checkbox_name => d[checkbox_name] = get_checkboxes(checkbox_name));
     let toggles = ["attunement"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
     return d;
 }
 
 function set_ui_state(d) {
-    set_checkboxes("type", d["types"]);
-    set_checkboxes("rarity", d["rarities"]);
-    set_checkboxes("class", d["classes"]);
-    set_checkboxes("source", d["sources"]);
+    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    checkboxes.forEach(checkbox_name => set_checkboxes(checkbox_name, d[checkbox_name]));
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
     return d;
 }
 
 function reset_ui() {
-    set_checkboxes("type", "all");
-    set_checkboxes("rarity", "all");
-    set_checkboxes("class", "all");
-    set_checkboxes("source", "all");
+    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, "both"));
     let json = JSON.stringify(get_ui_state());
@@ -54,7 +48,8 @@ function reset_ui() {
 }
 
 function check_all(e) {
-    document.getElementsByName("checkbox-" + e.target.value).forEach(n => n.checked = e.target.checked);
+    document.getElementsByName("checkbox-" + e.target.value).
+        forEach(n => n.checked = e.target.checked);
 }
 
 function get_checkboxes(name) {

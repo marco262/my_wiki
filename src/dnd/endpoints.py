@@ -176,7 +176,11 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/equipment/magic_item_filter/")
     @view("dnd/magic_item_filter.tpl")
     def magic_item_filter():
-        return
+        subtypes = set()
+        for k, v in load_magic_items().items():
+            if v["subtype"]:
+                subtypes.add(v["subtype"])
+        return {"subtypes": sorted(subtypes)}
 
     @app.post('/equipment/magic_item_filter_results')
     @view("dnd/magic-items.tpl")
@@ -184,26 +188,25 @@ def load_wsgi_endpoints(app: Bottle):
         filter_keys = loads(request.params["filter_keys"])
         results = defaultdict(list)
         for k, v in load_magic_items().items():
-            if v["type"] not in filter_keys["types"]:
-                print(k)
+            if v["type"] not in filter_keys["type"]:
                 continue
-            if v["rarity"] not in filter_keys["rarities"]:
-                print(k)
+            if v["rarity"] not in filter_keys["rarity"]:
                 continue
             if filter_keys["attunement"] == "yes" and not v["attunement"] or \
                     filter_keys["attunement"] == "no" and v["attunement"]:
                 continue
+            if not v["subtype"] and "no-subtype" not in filter_keys["subtype"]:
+                continue
+            if v["subtype"] and v["subtype"] not in filter_keys["subtype"]:
+                continue
             if not v["classes"] and "no-restrictions" not in filter_keys["classes"]:
-                print(k)
                 continue
             if v["classes"] and not set(v["classes"]).intersection(filter_keys["classes"]):
-                print(k)
                 continue
-            for s in filter_keys["sources"]:
+            for s in filter_keys["source"]:
                 if s in v["source"]:
                     break
             else:
-                print(k)
                 continue
             results[v["rarity"]].append((k, v))
         d = {

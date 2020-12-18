@@ -24,11 +24,19 @@
             <input type="radio" name="radio-attunement" value="both" checked>Both
         </td>
         <td>
+            <b>Subtype:</b><br>
+            <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
+            <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
+            % for s in subtypes:
+                <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+            % end
+        </td>
+        <td>
             <b>Class Restrictions:</b><br>
-            <input type="checkbox" name="checkbox-all" value="class" checked><i>(All/None)</i><br>
-            <input type="checkbox" name="checkbox-class" value="no-restrictions" checked>No Restrictions<br>
+            <input type="checkbox" name="checkbox-all" value="classes" checked><i>(All/None)</i><br>
+            <input type="checkbox" name="checkbox-classes" value="no-restrictions" checked>(no restrictions)<br>
             % for c in classes:
-                <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}}<br>
+                <input type="checkbox" name="checkbox-classes" value="{{c}}" checked>{{c.title()}}<br>
             % end
         </td>
         <td>
