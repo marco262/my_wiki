@@ -1,6 +1,6 @@
-name = "Planecaller's Codex "
+name = "Planecaller's Codex"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true

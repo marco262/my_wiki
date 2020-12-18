@@ -1,6 +1,6 @@
 name = "Tome of the Stilled Tongue"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Major"
 rarity = "Legendary"
 attunement = true

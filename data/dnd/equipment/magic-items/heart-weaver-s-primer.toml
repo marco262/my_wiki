@@ -1,6 +1,6 @@
 name = "Heart Weaver's Primer"
 type = "Wondrous Item"
-subtype = ""
+subtype = "spellbook"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true
