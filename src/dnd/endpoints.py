@@ -12,14 +12,14 @@ from bottle import view, request, HTTPError, Bottle
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import class_spell, open_monster_sheet, load_spells, load_spells_by_level, load_magic_items, \
-    get_magic_item_table
+from src.dnd.utils import init_spells_and_magic_items, class_spell, open_monster_sheet, load_spells, \
+    load_spells_by_level, load_magic_items, get_magic_item_table
 
 SEARCH_OBJ = Search()
 
 
 def init(cfg):
-    pass
+    init_spells_and_magic_items()
 
 
 def load_wsgi_endpoints(app: Bottle):
