@@ -20,6 +20,14 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 
+# Friendly NPCs
+
+* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
+* [Lord Zelraun Roaringhorn](/static/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg)
+* [Duchess Morwen of Daggerford](/static/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
+
+[[accordion Meanwhile in Waterdeep...]]
+
 # Trollskull Alley
 
 * [Trollskull Alley](https://i.redd.it/7k86kx3ouhb31.png)
@@ -32,7 +40,6 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 
 ## Erwaren's Rest Residents
 
-* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
 * [Brendaniel Skwik](/static/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/static/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
 * [Lif Erwaren](/static/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
 * Adalbert "Orin" Teppichverkäufer, emo gnome teenager
@@ -70,7 +77,9 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
   * Gertrudis Teppichverkäufer, bratty gnome preteen
   * Dietmar Teppichverkäufer, gnome toddler
 
-# Friendly NPCs
+# Waterdeep 
+
+## Friendly NPCs
 
 * [Uncle David](/static/img/visual_aids/dragon_heist/uncle_david.jpg), (aka [Lord Jared](/static/img/visual_aids/dragon_heist/lord_jared.jpg))
 * [Volothamp Geddarm](/static/img/visual_aids/dragon_heist/volothamp_geddarm.jpg)
@@ -78,7 +87,7 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Renaer Neverember](/static/img/visual_aids/dragon_heist/renaer_neverember.jpg)
 * [Yendan Snazzyfeet](/static/img/visual_aids/dragon_heist/yendan_snazzyfeet.jpg)
 * [Ulkoria Stronemarrow](/static/img/visual_aids/dragon_heist/ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
-  * [Ulkoria's Shield Guardian](/static/img/visual_aids/dragon_heist/shield_guardian.jpeg)
+  * [Ulkoria's Shield Guardian](/static/img/visual_aids/sdragon_heist/shield_guardian.jpeg)
 * Shard Shunners, pack of weredogs
  * [Dasher Snobeedle](/static/img/visual_aids/dragon_heist/dasher_snobeedle.jpg), [were-irish terrier](/static/img/visual_aids/dragon_heist/dasher_snobeedle_weredog.png), alpha
  * [Vaniel Shortwick](/static/img/visual_aids/dragon_heist/vaniel_shortwick.png), were-papillon, Dasher's Lover
@@ -88,7 +97,9 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Grinda Garloth](/static/img/visual_aids/dragon_heist/Grinda_garloth_and_apparatus.jpg), treasure hunter
 * [Mary Pickford](/static/img/visual_aids/dragon_heist/mary_pickford.jpg), plays the handmaiden in *Kiss of the Lamia*, friendly with Emir
 
-[GM Notes](/waterdeep/gm_notes/GM Notes)
+[[/accordion]]
+
+[GM Notes](/curse_of_strahd/gm_notes/GM Notes)
 
 <script type="module">
     import {init_accordions} from "/js/common/utils.js";

@@ -4,7 +4,7 @@ from os.path import splitext
 
 from PIL import Image
 
-dir = "../static/img/visual_aids/"
+dir = "../static/img/visual_aids/curse_of_strahd/"
 
 in_ext = ".webp"
 out_ext = ".jpg"

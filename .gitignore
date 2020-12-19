@@ -129,3 +129,6 @@ dmypy.json
 *___jb_tmp___
 
 logs/
+
+# Files that are too big to commit
+D&D Ambience CoS *.mp3
