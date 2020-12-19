@@ -11,13 +11,11 @@
 <button id="custom_effect_button">Effect</button> 
 <button id="custom_youtube_button">Youtube</button> 
 
-## Music
-
-* [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
-* [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
-* [I Just Did A Bad Thing]($load|effect|i just did a bad thing.mp3)
 
 ## Effects
+
+* [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
+* [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0) (youtube)
 
 ### Sound FX
 
@@ -38,12 +36,12 @@
 
 ### Silly
 
-* [Buddy Holly Slaps The Seal]($load|youtube|https://www.youtube.com/watch?v=KduJS8y48jc)
-* [Damn It Feels Good To Be A Gangta]($load|effect|damn-it-feels-good-to-be-a-gangsta.mp3)
+* [Buddy Holly Slaps The Seal]($load|youtube|https://www.youtube.com/watch?v=KduJS8y48jc) (youtube)
+* [Damn It Feels Good To Be A Gangsta]($load|effect|damn-it-feels-good-to-be-a-gangsta.mp3)
 * [Don't Be Suspicious]($load|effect|Dont be suspicious.mp3)
 * [Fuck This Shit I'm Out]($load|effect|fuck-this-shit-im-out.mp3)
 * [I Just Did A Bad Thing]($load|effect|i just did a bad thing.mp3)
-* [Sounds from behind Brendaniel's bedroom door]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s)
+* [Sounds from behind Brendaniel's bedroom door]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s) (youtube)
 * [Trololol]($load|effect|trololol.mp3)
 * [U Can't Touch This]($load|effect|mc-hammer-u-cant-touch-this.mp3)
 * [Wiggle Wiggle Wiggle]($load|effect|wiggle_wiggle_wiggle.mp3)
