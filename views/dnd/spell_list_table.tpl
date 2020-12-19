@@ -44,7 +44,7 @@
                 <span class="tooltiptext">{{source}}</span>
             </div>
         </td>
-    <tr>
+    </tr>
     % end
 </table>
 % end
