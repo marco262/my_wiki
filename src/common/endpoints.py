@@ -14,7 +14,7 @@ START_TIME = None
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
-visual_aid_url = "/static/img/visual_aids/DnD Party 2.png"
+visual_aid_url = "/static/img/visual_aids/dragon_heist/DnD Party 2.png"
 websocket_list = []
 
 
