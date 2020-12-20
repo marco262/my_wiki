@@ -26,6 +26,10 @@ It is the clock ticking down to the inevitable end. With each tock, you are drag
 * [Lord Zelraun Roaringhorn](/static/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg)
 * [Duchess Morwen of Daggerford](/static/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
 
+## Village of Barovia
+
+* [Ismark Kolyanovich](/static/img/visual_aids/curse_of_strahd/ismark.jpg)
+
 [[accordion Meanwhile in Waterdeep...]]
 
 # Trollskull Alley
