@@ -1,24 +1,24 @@
 ### Ethel
 
-* Armor Class: 
-* Passive Per: 
-* Passive Ins: 
+* Armor Class: 14
+* Passive Per: 13
+* Passive Ins: 11
+
+Cursed with Lycanthropy
 
 ### Orin
 
-* Armor Class: 
-* Passive Per: 
-* Passive Ins: 
+* Armor Class: 14
+* Passive Per: 13
+* Passive Ins: 11
 
 ### Marbleclaw
 
-* Armor Class: 
-* Passive Per: 
-* Passive Ins: 
+* Armor Class: 14
+* Passive Per: 14
+* Passive Ins: 12
 
 ## Notes for Next Session
 
-* Marbleclaw and Orin are at the top of a tree.
-* When they leave the forest, have them come out onto the road. And when they turn around, they can see the fog thick as a wall behind them.
-* Have them come across a Vistani caravan? Look into when this should happen.
-* Have them meet Lord Jared? Maybe after they visit the Village of Barovia
+* Ismarck is taking them to his place.
+* On the way, they will see Morgantha peddling her wares
