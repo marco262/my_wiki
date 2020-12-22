@@ -1,6 +1,6 @@
 name = "Dark Shard Amulet"
 type = "Wondrous Item"
-subtype = ""
+subtype = "necklace"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = true
