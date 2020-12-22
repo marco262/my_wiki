@@ -1,6 +1,6 @@
 name = "Winged Boots"
 type = "Wondrous Item"
-subtype = ""
+subtype = "boots"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
