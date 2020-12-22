@@ -1,6 +1,6 @@
 name = "Lyre of Building"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true
