@@ -1,6 +1,6 @@
 name = "Cloak of Protection"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true

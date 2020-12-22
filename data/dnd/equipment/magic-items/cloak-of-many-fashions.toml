@@ -1,6 +1,6 @@
 name = "Cloak of Many Fashions"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = false
