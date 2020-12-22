@@ -1,6 +1,6 @@
 name = "Ioun Stone, Absorption"
 type = "Wondrous Item"
-subtype = ""
+subtype = "ioun stone"
 rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true

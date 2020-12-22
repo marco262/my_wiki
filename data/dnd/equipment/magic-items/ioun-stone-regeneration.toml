@@ -1,6 +1,6 @@
 name = "Ioun Stone, Regeneration"
 type = "Wondrous Item"
-subtype = ""
+subtype = "ioun stone"
 rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
