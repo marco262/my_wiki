@@ -1,6 +1,6 @@
 name = "Cloak of Arachnida"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Major"
 rarity = "Very Rare"
 attunement = true

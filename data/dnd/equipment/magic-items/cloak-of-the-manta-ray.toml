@@ -1,6 +1,6 @@
 name = "Cloak of the Manta Ray"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false

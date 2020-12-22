@@ -1,6 +1,6 @@
 name = "Nature's Mantle"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true

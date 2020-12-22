@@ -1,6 +1,6 @@
 name = "Cloak of Invisibility"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Major"
 rarity = "Legendary"
 attunement = true

@@ -1,6 +1,6 @@
 name = "Wings of Flying"
 type = "Wondrous Item"
-subtype = ""
+subtype = "cloak"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true
