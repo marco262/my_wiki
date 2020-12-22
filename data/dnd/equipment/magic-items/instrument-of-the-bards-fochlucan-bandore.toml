@@ -1,6 +1,6 @@
 name = "Instrument of the Bards, Fochlucan Bandore"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true

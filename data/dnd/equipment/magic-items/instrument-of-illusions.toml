@@ -1,6 +1,6 @@
 name = "Instrument of Illusions"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = true

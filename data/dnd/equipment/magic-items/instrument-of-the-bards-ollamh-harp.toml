@@ -1,6 +1,6 @@
 name = "Instrument of the Bards, Ollamh Harp"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Major"
 rarity = "Legendary"
 attunement = true
