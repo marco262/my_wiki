@@ -1,6 +1,6 @@
 name = "Ioun Stone, Awareness"
 type = "Wondrous Item"
-subtype = ""
+subtype = "ioun stone"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true
