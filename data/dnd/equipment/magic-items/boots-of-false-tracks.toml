@@ -1,6 +1,6 @@
 name = "Boots of False Tracks"
 type = "Wondrous Item"
-subtype = ""
+subtype = "boots"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = false

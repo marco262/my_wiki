@@ -1,6 +1,6 @@
 name = "Boots of Speed"
 type = "Wondrous Item"
-subtype = ""
+subtype = "boots"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true
