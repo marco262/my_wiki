@@ -1,6 +1,6 @@
 name = "Astral Shard"
 type = "Wondrous Item"
-subtype = ""
+subtype = "shard"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true

@@ -1,6 +1,6 @@
 name = "Feywild Shard"
 type = "Wondrous Item"
-subtype = ""
+subtype = "shard"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
