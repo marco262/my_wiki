@@ -408,67 +408,67 @@ In the tables, an item's entry tells you whether the item requires attunement. S
 **Replicable Items (2nd-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
-|| Alchemy jug || No ||
-|| Bag of holding || No ||
-|| Cap of water breathing || No ||
-|| Goggles of night || No ||
-|| Rope of climbing || No ||
-|| Sending stones || No ||
-|| Wand of magic detection || No ||
-|| Wand of secrets || No ||
+|| [Alchemy jug](/dnd/equipment/magic-item/Alchemy jug) || No ||
+|| [Bag of holding](/dnd/equipment/magic-item/Bag of holding) || No ||
+|| [Cap of water breathing](/dnd/equipment/magic-item/Cap of water breathing) || No ||
+|| [Goggles of night](/dnd/equipment/magic-item/Goggles of night) || No ||
+|| [Rope of climbing](/dnd/equipment/magic-item/Rope of climbing) || No ||
+|| [Sending stones](/dnd/equipment/magic-item/Sending stones) || No ||
+|| [Wand of magic detection](/dnd/equipment/magic-item/Wand of magic detection) || No ||
+|| [Wand of secrets](/dnd/equipment/magic-item/Wand of secrets) || No ||
 
 **Replicable Items (6th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
-|| Boots of elvenkind || No ||
-|| Cloak of elvenkind || Yes ||
-|| Cloak of the manta ray || No ||
-|| Eyes of charming || Yes ||
-|| Gloves of thievery || No ||
-|| Lantern of revealing || No ||
-|| Pipes of haunting || No ||
-|| Ring of water walking || No ||
+|| [Boots of elvenkind](/dnd/equipment/magic-item/Boots of elvenkind) || No ||
+|| [Cloak of elvenkind](/dnd/equipment/magic-item/Cloak of elvenkind) || Yes ||
+|| [Cloak of the manta ray](/dnd/equipment/magic-item/Cloak of the manta ray) || No ||
+|| [Eyes of charming](/dnd/equipment/magic-item/Eyes of charming) || Yes ||
+|| [Gloves of thievery](/dnd/equipment/magic-item/Gloves of thievery) || No ||
+|| [Lantern of revealing](/dnd/equipment/magic-item/Lantern of revealing) || No ||
+|| [Pipes of haunting](/dnd/equipment/magic-item/Pipes of haunting) || No ||
+|| [Ring of water walking](/dnd/equipment/magic-item/Ring of water walking) || No ||
 
 **Replicable Items (10th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
-|| Boots of striding and springing || Yes ||
-|| Boots of the winterlands || Yes ||
-|| Bracers of archery || Yes ||
-|| Brooch of shielding || Yes ||
-|| Cloak of protection || Yes ||
-|| Eyes of the eagle || Yes ||
-|| Gauntlets of ogre power || Yes ||
-|| Gloves of missile snaring || Yes ||
-|| Gloves of swimming and climbing || Yes ||
-|| Hat of disguise || Yes ||
-|| Headband of intellect || Yes ||
-|| Helm of telepathy || Yes ||
-|| Medallion of thoughts || Yes ||
-|| Necklace of adaptation || Yes ||
-|| Periapt of wound closure || Yes ||
-|| Pipes of the sewers || Yes ||
-|| Quiver of Ehlonna || No ||
-|| Ring of jumping || Yes ||
-|| Ring of mind shielding || Yes ||
-|| Slippers of spider climbing || Yes ||
-|| Winged boots || Yes ||
+|| [Boots of striding and springing](/dnd/equipment/magic-item/Boots of striding and springing) || Yes ||
+|| [Boots of the winterlands](/dnd/equipment/magic-item/Boots of the winterlands) || Yes ||
+|| [Bracers of archery](/dnd/equipment/magic-item/Bracers of archery) || Yes ||
+|| [Brooch of shielding](/dnd/equipment/magic-item/Brooch of shielding) || Yes ||
+|| [Cloak of protection](/dnd/equipment/magic-item/Cloak of protection) || Yes ||
+|| [Eyes of the eagle](/dnd/equipment/magic-item/Eyes of the eagle) || Yes ||
+|| [Gauntlets of ogre power](/dnd/equipment/magic-item/Gauntlets of ogre power) || Yes ||
+|| [Gloves of missile snaring](/dnd/equipment/magic-item/Gloves of missile snaring) || Yes ||
+|| [Gloves of swimming and climbing](/dnd/equipment/magic-item/Gloves of swimming and climbing) || Yes ||
+|| [Hat of disguise](/dnd/equipment/magic-item/Hat of disguise) || Yes ||
+|| [Headband of intellect](/dnd/equipment/magic-item/Headband of intellect) || Yes ||
+|| [Helm of telepathy](/dnd/equipment/magic-item/Helm of telepathy) || Yes ||
+|| [Medallion of thoughts](/dnd/equipment/magic-item/Medallion of thoughts) || Yes ||
+|| [Necklace of adaptation](/dnd/equipment/magic-item/Necklace of adaptation) || Yes ||
+|| [Periapt of wound closure](/dnd/equipment/magic-item/Periapt of wound closure) || Yes ||
+|| [Pipes of the sewers](/dnd/equipment/magic-item/Pipes of the sewers) || Yes ||
+|| [Quiver of Ehlonna](/dnd/equipment/magic-item/Quiver of Ehlonna) || No ||
+|| [Ring of jumping](/dnd/equipment/magic-item/Ring of jumping) || Yes ||
+|| [Ring of mind shielding](/dnd/equipment/magic-item/Ring of mind shielding) || Yes ||
+|| [Slippers of spider climbing](/dnd/equipment/magic-item/Slippers of spider climbing) || Yes ||
+|| [Winged boots](/dnd/equipment/magic-item/Winged boots) || Yes ||
 
 **Replicable Items (14th-Level Artificer)**
 
 ||~ Magic Item ||~ Attunement ||
-|| Amulet of health || Yes ||
-|| Belt of hill giant strength || Yes ||
-|| Boots of levitation || Yes ||
-|| Boots of speed || Yes ||
-|| Bracers of defense || Yes ||
-|| Cloak of the bat || Yes ||
-|| Dimensional shackles || No ||
-|| Gem of seeing || Yes ||
-|| Horn of blasting || Yes ||
-|| Ring of free action || Yes ||
-|| Ring of protection || Yes ||
-|| Ring of the ram || Yes ||
+|| [Amulet of health](/dnd/equipment/magic-item/Amulet of health) || Yes ||
+|| [Belt of hill giant strength](/dnd/equipment/magic-item/Belt of hill giant strength) || Yes ||
+|| [Boots of levitation](/dnd/equipment/magic-item/Boots of levitation) || Yes ||
+|| [Boots of speed](/dnd/equipment/magic-item/Boots of speed) || Yes ||
+|| [Bracers of defense](/dnd/equipment/magic-item/Bracers of defense) || Yes ||
+|| [Cloak of the bat](/dnd/equipment/magic-item/Cloak of the bat) || Yes ||
+|| [Dimensional shackles](/dnd/equipment/magic-item/Dimensional shackles) || No ||
+|| [Gem of seeing](/dnd/equipment/magic-item/Gem of seeing) || Yes ||
+|| [Horn of blasting](/dnd/equipment/magic-item/Horn of blasting) || Yes ||
+|| [Ring of free action](/dnd/equipment/magic-item/Ring of free action) || Yes ||
+|| [Ring of protection](/dnd/equipment/magic-item/Ring of protection) || Yes ||
+|| [Ring of the ram](/dnd/equipment/magic-item/Ring of the ram) || Yes ||
 
 ### Repulsion Shield
 
