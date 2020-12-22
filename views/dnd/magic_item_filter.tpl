@@ -1,7 +1,8 @@
 % rebase("common/base.tpl", title="Magic Item Filter")
+% from math import ceil
 % from src.common.utils import ordinal
 % from data.dnd.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
-<table border="0">
+<table>
     <tr valign="top">
         <td>
             <b>Type:</b><br>
@@ -24,14 +25,6 @@
             <input type="radio" name="radio-attunement" value="both" checked>Both
         </td>
         <td>
-            <b>Subtype:</b><br>
-            <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
-            <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
-            % for s in subtypes:
-                <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
-            % end
-        </td>
-        <td>
             <b>Class Restrictions:</b><br>
             <input type="checkbox" name="checkbox-all" value="classes" checked><i>(All/None)</i><br>
             <input type="checkbox" name="checkbox-classes" value="no-restrictions" checked>(no restrictions)<br>
@@ -45,6 +38,34 @@
             % for o in magic_item_sources:
                 <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
             % end
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <b>Subtype:</b><br>
+            <table class="no-border">
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
+                        <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
+                        % subtypes = ["", ""] + subtypes  # Account for the (All/None) and (no subtype) checkboxes
+                        % sublist_length = ceil(len(subtypes) / 3)
+                        % for s in subtypes[2:sublist_length]:
+                            <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                        % end
+                    </td>
+                    <td>
+                        % for s in subtypes[sublist_length:sublist_length * 2]:
+                            <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                        % end
+                    </td>
+                    <td>
+                        % for s in subtypes[sublist_length * 2:]:
+                            <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                        % end
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
