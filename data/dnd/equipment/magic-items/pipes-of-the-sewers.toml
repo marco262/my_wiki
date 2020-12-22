@@ -1,6 +1,6 @@
 name = "Pipes of the Sewers"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
