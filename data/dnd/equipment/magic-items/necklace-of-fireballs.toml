@@ -1,6 +1,6 @@
 name = "Necklace of Fireballs"
 type = "Wondrous Item"
-subtype = ""
+subtype = "necklace"
 rarity_type = "Minor"
 rarity = "Rare"
 attunement = false

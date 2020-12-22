@@ -1,6 +1,6 @@
 name = "Necklace of Adaptation"
 type = "Wondrous Item"
-subtype = ""
+subtype = "necklace"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
