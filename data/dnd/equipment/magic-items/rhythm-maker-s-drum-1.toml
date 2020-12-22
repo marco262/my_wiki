@@ -1,6 +1,6 @@
 name = "Rhythm-Maker's Drum, +1"
 type = "Wondrous Item"
-subtype = ""
+subtype = "instrument"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
