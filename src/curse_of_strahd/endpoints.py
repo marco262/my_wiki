@@ -34,6 +34,11 @@ def load_wsgi_endpoints(app: Bottle):
     def calendar():
         return md_page("calendar", "curse_of_strahd", build_toc=False)
 
+    @app.get("tarokka")
+    @view("curse_of_strahd/tarokka.tpl")
+    def calendar():
+        return
+
 
 def gm_notes_auth_check(username, password):
     return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)
