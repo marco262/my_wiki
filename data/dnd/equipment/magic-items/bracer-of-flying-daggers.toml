@@ -1,6 +1,6 @@
 name = "Bracer of Flying Daggers"
 type = "Wondrous Item"
-subtype = ""
+subtype = "bracer"
 rarity_type = "Major"
 rarity = "Rare"
 attunement = true

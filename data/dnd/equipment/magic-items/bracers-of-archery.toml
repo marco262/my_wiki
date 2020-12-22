@@ -1,6 +1,6 @@
 name = "Bracers of Archery"
 type = "Wondrous Item"
-subtype = ""
+subtype = "bracer"
 rarity_type = "Major"
 rarity = "Uncommon"
 attunement = true
