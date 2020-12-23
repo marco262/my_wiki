@@ -6,4 +6,10 @@ export function init() {
             element.classList.toggle("flipped");
         };
     });
+    let button = document.getElementById("slide-off-button");
+    button.onclick = function (event) {
+        Array.prototype.forEach.call(flip_card_inner_elements, function (element) {
+            element.classList.toggle("off-grid");
+        });
+    }
 }
