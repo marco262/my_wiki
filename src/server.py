@@ -28,6 +28,7 @@ class Server:
         # Send stderr to logs if we're not running in debug mode
         # self.logger = setup_logging("log", log_level=log_level, capture_stderr=not debug)
 
+        bottle.TEMPLATES.clear()
         bottle.debug(debug)
         self.app = bottle.Bottle()
         load_wsgi_endpoints(self.app, cfg)
