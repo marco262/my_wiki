@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Paladin|Paladin]]
+
 The Oath of Heroism is an affirmation of a destined path, one laid out for you by divine hands. For whatever reason, a god or a group of gods has included you in their machinations. You are not a reluctant hero, but one who fully embraces the idea that great deeds are yours to achieve. You train diligently, sculpting your body and refining your skills so you're ready when destiny calls.
 
 ### Tenets of Heroism
