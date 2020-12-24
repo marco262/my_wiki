@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Rogue|Rogue]]
+
 Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Sneak<br>Attack ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||
