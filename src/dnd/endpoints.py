@@ -7,7 +7,7 @@ from os.path import join as pjoin
 from os.path import splitext, basename, isfile
 from time import time
 
-from bottle import view, request, HTTPError, Bottle
+from bottle import view, request, HTTPError, Bottle, template, redirect
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
@@ -91,7 +91,30 @@ def load_wsgi_endpoints(app: Bottle):
     def site_search_with_results(search_term):
         t = time()
         results = SEARCH_OBJ.run(search_term)
-        return {"search_key": search_term, "search_results": results, "processing_time": time() - t}
+        return {
+            "title": "Search",
+            "search_key": search_term, 
+            "search_results": results, 
+            "processing_time": time() - t, 
+            "include_search_box": True
+        }
+
+    @app.route("/page_search/<search_term>")
+    def page_search_with_results(search_term):
+        t = time()
+        results = SEARCH_OBJ.page_search(search_term)
+        if isinstance(results, list):
+            return template(
+                "dnd/site_search.tpl",
+                title="Page Search",
+                search_key=search_term,
+                search_results=results,
+                processing_time=time() - t,
+                include_search_box=False
+            )
+        else:
+            # results is not a list, but a URI we should redirect to
+            redirect(results)
 
     @app.get('/find_spell')
     @view('dnd/find_spell.tpl')
