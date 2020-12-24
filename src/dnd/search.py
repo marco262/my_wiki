@@ -100,7 +100,10 @@ class Search:
 
     def build_search_result(self, dirpath, filename, title, regex_matches=None):
         filepath = join(dirpath, filename).replace("\\", "/")
-        html_link = f"/dnd/{basename(dirpath)}/{title}"
+        base_dir = basename(dirpath)
+        if base_dir == "magic-items":
+            base_dir = "equipment/magic-item"
+        html_link = f"/dnd/{base_dir}/{title}"
         # Return only the first ten contexts
         if regex_matches is not None:
             contexts = [self.build_results_context_string(match) for match in regex_matches][:10]
@@ -125,7 +128,7 @@ class Search:
                     with open(filepath, "rb") as f:
                         file_contents = f.read().decode("utf-8")
                     d = toml.loads(file_contents)
-                    title = d["title"]
+                    title = d.get("title") or d.get("name")
                 else:
                     continue
                 search_result = self.build_search_result(dirpath, filename, title)
