@@ -49,7 +49,7 @@ class Search:
         # Sort results by number of matches, and path
         # Number of matches should be in descending order (pages with more matches at the top)
         # but path should be in ascending order (a before z)
-        results.sort(key=lambda x: (-1*len(x[3]), x[2]))
+        results.sort(key=lambda x: (-1 * len(x[3]), x[2]))
         # Bucket results whose name matches the search term exactly, whose name contains the search term,
         # and all others.
         exact_matches = []
@@ -97,7 +97,7 @@ class Search:
         if not title:
             title = page_name_to_title(splitext(filename)[0])
         return self.build_search_result(dirpath, filename, title, m)
-    
+
     def build_search_result(self, dirpath, filename, title, regex_matches=None):
         filepath = join(dirpath, filename).replace("\\", "/")
         html_link = f"/dnd/{basename(dirpath)}/{title}"
