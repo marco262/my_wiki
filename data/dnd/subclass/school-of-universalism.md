@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Wizard|Wizard]]
+
 Though most wizards specialize in a single school of magic, the rare and exceptionally gifted can advance their studies without losing focus on any arcane school. These wizards are known as Universalists, and can wield the forces of any arcane school with equal measure.
 
 # School of Necromancy

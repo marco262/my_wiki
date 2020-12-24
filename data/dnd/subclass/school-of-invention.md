@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Wizard|Wizard]]
+
 The School of Invention claims credit for inventing the other schools of magic -- a claim other wizards find absurd. Wizards of this school push magic to its limits. They stretch the known laws of arcane power and strive to reveal important truths about the nature of the multiverse.
 
 Adherents of this school believe that innovation is best served through experimentation. They have a reputation for acting first, thinking second. Most wizards are scholars who have mastered their craft through careful study, rigorous practice, and endless hours of repetition. These wizards would rather throw spells together and see what happens.
