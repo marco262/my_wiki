@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Fighter|Fighter]]
+
 As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror.
 
 ## Bonus Proficiencies

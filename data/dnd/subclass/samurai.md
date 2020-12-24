@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Fighter|Fighter]]
+
 The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A samurai's resolve is nearly unbreakable, and the enemies in a samurai's path have two choices: yield or die fighting.
 
 ## Bonus Proficiency
