@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Druid|Druid]]
+
 The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.
 
 Many druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples -- any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.
