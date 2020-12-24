@@ -1,4 +1,4 @@
-[[breadcrumb /dnd/class/Ranger|Ranger]]
+[[breadcrumb /dnd/class/Revised Ranger|Revised Ranger]]
 
 Drakes are distant cousins of dragons, but where dragons are proud, solitary, and fiercely intelligent, drakes are social creatures closer in intelligence to a horse or a dog. Drake riders have learned how to tame these beasts, and even how to train them for combat.
 

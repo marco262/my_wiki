@@ -1,4 +1,4 @@
-[[breadcrumb /dnd/class/Ranger|Ranger]]
+[[breadcrumb /dnd/class/Revised Ranger|Revised Ranger]]
 
 Some rangers seek to master weapons to better protect civilization from the terrors of the wilderness. Members of the Hunter Conclave learn specialized fighting techniques for use against the most dire threats, from rampaging ogres and hordes of orcs to to wering giants and terrifying dragons.
 

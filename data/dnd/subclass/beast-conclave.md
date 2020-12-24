@@ -1,4 +1,4 @@
-[[breadcrumb /dnd/class/Ranger|Ranger]]
+[[breadcrumb /dnd/class/Revised Ranger|Revised Ranger]]
 
 Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
 
