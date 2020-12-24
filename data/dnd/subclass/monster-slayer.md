@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Ranger|Ranger]]
+
 You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
 
 # Monster Slayer
