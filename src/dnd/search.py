@@ -1,10 +1,18 @@
+import re
 from os import walk
 from os.path import join, splitext, basename
+from typing import NamedTuple, List, Optional
 
-import re
 import toml
 
-from src.common.utils import strip_html
+from src.common.utils import strip_html, title_to_page_name, page_name_to_title
+
+
+class SearchResult(NamedTuple):
+    title: str
+    filepath: str
+    html_link: str
+    contexts: Optional[List[str]]
 
 
 class Search:
@@ -87,10 +95,42 @@ class Search:
             if "title" in d:
                 title = d["title"]
         if not title:
-            title = splitext(filename)[0].replace("-", " ").title()
-        # Build search results
+            title = page_name_to_title(splitext(filename)[0])
+        return self.build_search_result(dirpath, filename, title, m)
+    
+    def build_search_result(self, dirpath, filename, title, regex_matches=None):
         filepath = join(dirpath, filename).replace("\\", "/")
         html_link = f"/dnd/{basename(dirpath)}/{title}"
         # Return only the first ten contexts
-        contexts = [self.build_results_context_string(match) for match in m][:10]
-        return [title, filepath, html_link, contexts]
+        if regex_matches is not None:
+            contexts = [self.build_results_context_string(match) for match in regex_matches][:10]
+        else:
+            contexts = None
+        return SearchResult(title, filepath, html_link, contexts)
+
+    def page_search(self, search_term):
+        """
+        Returns results for only "exact" page name matches. "Exact" is in quotes because markdown pages
+        lose proper punctuation when converting to page names, so the search term "Scout (Fighter)" will
+        return the same page as "Scout Fighter".
+        """
+        search_as_page_name = title_to_page_name(search_term)
+        results = []
+        for dirpath, dirnames, filenames in walk("data/dnd"):
+            for filename in filenames:
+                if filename.endswith(".md") and search_as_page_name in filename:
+                    title = page_name_to_title(splitext(filename)[0])
+                elif filename.endswith(".toml") and search_as_page_name in filename:
+                    filepath = join(dirpath, filename)
+                    with open(filepath, "rb") as f:
+                        file_contents = f.read().decode("utf-8")
+                    d = toml.loads(file_contents)
+                    title = d["title"]
+                else:
+                    continue
+                search_result = self.build_search_result(dirpath, filename, title)
+                # If this is an exact match, just redirect to that page
+                if search_as_page_name == splitext(filename)[0]:
+                    return search_result.html_link
+                results.append(search_result)
+        return results

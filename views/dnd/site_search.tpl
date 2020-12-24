@@ -1,11 +1,13 @@
-% rebase("common/base.tpl", title="Search")
+% rebase("common/base.tpl", title=title)
 
+% if include_search_box:
 <p>
     Search Key:
     <input type="text" style="width: 200px;" id="search_key" />
     <input type="button" value="Search" id="search_button" />
     <span id="request-sent" hidden><i>Search request sent. Waiting for response...</i></span>
 </p>
+% end
 
 <div id="search_results">
     % if not defined("search_results"):
@@ -17,8 +19,10 @@
     <div class="search-result">
         <h2 class="search-result-title"><a href="{{ html_link }}">{{ title }}</a></h2>
         <div class="search-result-path">Path: {{ filepath }}</div>
-        % for context in contexts:
+        % if contexts is not None:
+            % for context in contexts:
         <blockquote class="search-result-context">{{! context }}</blockquote>
+            % end
         % end
     </div>
     %   end

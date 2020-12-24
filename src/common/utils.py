@@ -125,6 +125,16 @@ def title_to_page_name(title):
     return re.sub(r"\W+", "-", title.lower()).strip("-")
 
 
+def page_name_to_title(page_name):
+    """
+    Converts a markdown filename (e.g. "beast-master-revamped.md") to a title (e.g. "Beast Master Revamped")
+    Not a perfect solution.
+    :param page_name:
+    :return:
+    """
+    return page_name.replace("-", " ").title()
+
+
 def md_page(page_title, namespace, directory=None, build_toc=True, markdown_parser=None, **kwargs):
     if markdown_parser is None:
         # Avoiding circular dependencies
