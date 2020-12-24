@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Monk|Monk]]
+
 Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They then use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.
 
 # Way of the Long Death

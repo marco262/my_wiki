@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Monk|Monk]]
+
 Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.
 
 # Way of the Sun Soul
