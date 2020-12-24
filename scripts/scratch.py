@@ -1,8 +1,9 @@
 import os
-
-from src.dnd.utils import get_magic_item_table
+from glob import glob
 
 os.chdir("..")
 
-for k, v in get_magic_item_table("Major", "Legendary").items():
-    print(k, v)
+for filepath in glob("data/dnd/subclass/*"):
+    with open(filepath) as f:
+        if not f.readline().startswith("[[breadcrumb"):
+            print(filepath)
