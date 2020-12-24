@@ -2,15 +2,43 @@
 
 > Under raging storm clouds, a lone figure stands silhouetted against the ancient walls of Castle Ravenloft. Count Strahd von Zarovich stares down a sheer cliff at the village below. A cold, bitter wind spins dead leaves about him, billowing his cape in the darkness. Lighting splits the clouds overhead, casting stark white light across him. Strahd turns to the sky, revealing the angular muscles of his face and hands. His once handsome face is contorted by a tragedy darker than the night itself. Rumbling thunder pounds the castle spires. The wind's howling increases as Strahd turns his gaze back to the village. Far below, yet not beyond his ken, guests have arrived in his domain. Strahd's face forms a twisted smile, for he knows why they have come. Another lightning flash rips through the darkness, its thunder echoing through the castle's towers, but Strahd is gone. Only the howling wind, or perhaps a lone wolf,fills the midnight air. The master of Ravenloft is having guests for dinner, and you are invited!
 
-[[accordion Intro]]
+[[accordion What is Curse of Strahd?]]
 
-## What is Curse of Strahd?
+Curse of Strahd is an exciting, tense, fast-paced adventure. It is a vivid exploration of classic gothic horror tropes and monsters, from werewolves to vampires, ghosts, and more. It is a true sandbox, providing players with the freedom to make their own choices and build the kind of adventure they enjoy. It is an unabashedly character-driven campaign, giving your player character an incredible chance to shine and make their mark on the story your group tells.
 
-In short, classic gothic horror and dread in a medieval Romanian setting.This is first and foremost a campaign of dread, a genre that requires players to willingly immerse into, at times,feelings of terror and hopelessness,without the use of dice or checks. Even the best lighting, music, and atmosphere cannot change the fact players are around a table with plenty of distractions. As such, the game begins in the style of play you bring to the table, and the more you bring, the more rewarding the campaign.
+However, Curse of Strahd is also a brutal, stressful, and alienating experience. Your character will be trapped in a bleak, gothic land quite different from the world they know. The adventure contains several encounters and areas that will likely be far beyond your capabilities when you first encounter them. It does not provide routine or readily-available loot or magical items.
 
-## What is Dread?
+For a player who's not expecting it, Curse of Strahd can suck. Really suck. Let me put it this way: if you want the freedom to engage in combat and exploration without worrying about the potential risks, this is very possibly not the campaign for you. Likewise, if you are potentially triggered by gruesome depictions of horror or psychologically disturbing relationships, or if you prefer a D&D campaign that features only victories or setbacks (rather than the potential for outright defeat), you might want to try a different module.
 
-It is the clock ticking down to the inevitable end. With each tock, you are dragged forward, no more able to avoid your fate than to stop the beating of your own heart. It is being trapped in the nightmare, knowing it doesn't matter where you run because it never stops, and trying to run even as your legs become heavy as concrete, knowing all you can do is wait to be destroyed. It is the mix of metallic copper fear on your tongue, an acute awareness of every beat of your heart, and the feeling your lungs cannot fill no matter how deep a breath you take. Use these feelings to envision how your characters feel at times. This Land you are about to enter will gladly let you drown in feelings of inevitability, of hopelessness. It will, if you let it, crush you with the knowledge that in this place, there are no happy endings, no heroes, no fires to banish the night. Yet, fear and dread can be countered with hope, and perhaps you will be the mortals that challenge, even if for a moment, this Evil.
+Now, if you're still around, stick with me - because there are reasons to play this (excellent, engaging, incredibly memorable) campaign.
+
+You should play Curse of Strahd if you:
+
+* love gothic horror tropes and themes
+* want to engage with a character-driven story that pushes you to develop relationships with multiple vivid NPCs and factions
+* prefer roleplay, investigation, and relationship-building to combat or dungeon-delving
+* enjoy setting your own goals and pursuing means of achieving them
+* enjoy facing an active, powerful, and personally antagonizing villain
+* want to participate in a tense, adrenaline-fueled experience that will create memories to last a lifetime
+
+If, after reading this far, you think Curse of Strahd may be the campaign for you, awesome! You're in for a fantastic time. With that said, here are a few protips to succeeding in the course of this campaign:
+
+* Intrepid adventurers and sadistic murderhobos don't last long in Barovia. Don't tread from the beaten path unless you have good reason to, and don't alienate or antagonize NPCs if you can avoid it. Make more friends than enemies. Don't go searching for treasure, fortune, or fame - because you will probably die a horrible death.
+* Remember that you are not your character, and invest real time in developing their thoughts, personality, and motivation. Externalize failure, and use setbacks or defeat as an opportunity to explore your character's perspective and personal growth.
+* Play smart. Many of the enemies in this adventure cannot be overcome easily in direct combat. Use guile, preparation, subterfuge, diplomacy, and research to achieve your goals.
+* Spend time engaging with the other characters, even when not discussing plans, tactics, or objectives. Learn about their fears, their perspectives, and their experiences. Build meaningful relationships, not apathetic battle teams.
+* Outside goals are hard (if not impossible) to achieve in Barovia. It's worth working with your DM to create a character driven to Barovia for some purpose that can only be fulfilled within its borders. Make sure to speak with your DM about how to shape your backstory into something that can be relevant in the world of Barovia.
+* Try to remove yourself from the “XP and loot” model of progression in traditional campaigns and video games, and instead try to enjoy the narrative progression of winning allies, fulfilling objectives, and advancing the story of the campaign and player characters.
+* Don't try to play an apathetic or evil player character unless you are 100% sure that you can pull it off while being a supportive team player and engaging the story like a normal PC. Seriously. You'll make this adventure a lot more difficult and unenjoyable for your DM, and you'll be cheating yourself out of a fun experience. You don't need to play a knight in shining armor, but you definitely shouldn't play a villain.
+* Curse of Strahd, as-written, is full of disturbing and graphic content. If you are potentially triggered by elements of child abuse, murder, stalking, gaslighting, racism, torture, mind control, cannibalism, situations paralleling sexual assault, child death, references to stillbirth/miscarriage, abuse of those with disabilities or mental illness, animal cruelty, body horror, child abandonment, portrayals of alcoholism or drug abuse, potential incest, implied necrophilia, or suicide, speak with your DM about potentially working around or entirely avoiding these elements.
+
+Oh - and don't Google anything related to the campaign.
+
+The Web, after all, is dark, and full of spoilers.
+
+Have fun!
+
+[[Source]](https://docs.google.com/document/d/1KSoopeyebg3IZUgt-UKsvrdzYdKh8b6Gfb6TOQlU2Mc/view)
 
 [[/accordion]]
 
