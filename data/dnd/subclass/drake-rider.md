@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Ranger|Ranger]]
+
 Drakes are distant cousins of dragons, but where dragons are proud, solitary, and fiercely intelligent, drakes are social creatures closer in intelligence to a horse or a dog. Drake riders have learned how to tame these beasts, and even how to train them for combat.
 
 You have formed a special bond with a drake, to the point of being magically connected to them. Your drake is now large enough to become your steed and well-trained enough to carry you into battle.
