@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Revised Ranger|Revised Ranger]]
+
 Most folk descend into the depths of the Underdark only under the most pressing conditions, undertaking some desperate quest or following the promise of vast riches. All too often, evil festers beneath the earth unnoticed, and rangers of the Deep Stalker Conclave strive to uncover and defeat such threats before they can reach the surface.
 
 ## Underdark Scout
