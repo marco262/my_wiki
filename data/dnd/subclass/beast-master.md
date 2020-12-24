@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/class/Ranger|Ranger]]
+
 The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.
 
 ## Ranger's Companion
