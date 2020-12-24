@@ -195,3 +195,13 @@ Text block
         text = md.parse_md(text)
         actual = md.convert_wiki_divs(text)
         self.assertEqual(expected, actual)
+
+    def test_add_breadcrumbs(self):
+        text = """[[breadcrumb /dnd/class/Druid|Druid]]
+        
+        Fake text"""
+        expected = """< [Druid](/dnd/class/Druid)
+        
+        Fake text"""
+        md = MarkdownParser()
+        self.assertEqual(expected, md.add_breadcrumbs(text))

@@ -15,7 +15,6 @@ EXTRAS = ["header-ids", "wiki-tables", "toc", "strike"]
 
 
 class MarkdownParser:
-
     namespace = ""
     accordion_text = False
 
@@ -40,6 +39,7 @@ class MarkdownParser:
         text = self.convert_wiki_links(text)
         text = self.convert_popup_links(text)
         text = self.add_includes(text)
+        text = self.add_breadcrumbs(text)
         return text
 
     def post_parsing(self, text):
@@ -147,9 +147,17 @@ class MarkdownParser:
         return text
 
     @staticmethod
+    def add_breadcrumbs(text):
+        m = re.match(r"\[\[breadcrumb (.*?)\|(.*?)]]", text)
+        if m:
+            return text.replace(m.group(0), f"\u27F5 [{m.group(2)}]({m.group(1)})")
+        return text
+
+    @staticmethod
     def add_header_links(text):
         for m in re.finditer(r'(<h\d id="(.*?)".*?)(<\/h\d>)', text):
-            text = text.replace(m.group(0), f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}')
+            text = text.replace(m.group(0),
+                                f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}')
         return text
 
     def parse_accordions(self, text):
@@ -186,7 +194,8 @@ class MarkdownParser:
                 name = split_line[1].strip(" ")
                 text = text.replace(cite_find_format.format(name), cite_replace_format.format(name, i + 1))
                 bib_list.append(bib_format.format(name, split_line[2].strip(" ")))
-            text = text.replace(m.group(0), "<p><strong>Bibliography</strong></p>\n\n<ol>\n{}\n</ol>".format("\n".join(bib_list)))
+            text = text.replace(m.group(0),
+                                "<p><strong>Bibliography</strong></p>\n\n<ol>\n{}\n</ol>".format("\n".join(bib_list)))
 
         return text
 
