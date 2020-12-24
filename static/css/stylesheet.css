@@ -436,6 +436,10 @@ blockquote {
     font-size: 80%;
 }
 
+#search_navigation {
+    text-align: center;
+}
+
 .monster-include {
     display:inline-block;
     vertical-align: top;

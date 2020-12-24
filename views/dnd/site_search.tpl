@@ -27,12 +27,34 @@
     </div>
     %   end
     % end
+</div>
 
-    % if defined("processing_time"):
-    <hr>
-    <div class="search-processing-time">Results returned in: {{ round(processing_time, 3) }} seconds</div>
+% if defined("total_pages") and total_pages > 1:
+<div id="search_navigation">
+    % if page == 1:
+    &lt;&nbsp;
+    % else:
+    <a href="{{ search_key }}?page={{ page - 1 }}">&lt;</a>&nbsp;
+    % end
+    % for i in range(1, total_pages + 1):
+        % if i == page:
+        {{ i }}&nbsp;
+        % else:
+        <a href="{{ search_key }}?page={{ i }}">{{ i }}</a>&nbsp;
+        % end
+    % end
+    % if page < total_pages:
+    <a href="{{ search_key }}?page={{ page + 1 }}">&gt;</a>
+    % else:
+    &gt;
     % end
 </div>
+% end
+
+% if defined("processing_time"):
+<hr>
+<div class="search-processing-time">Results returned in: {{ round(processing_time, 3) }} seconds</div>
+% end
 
 <script type="module">
     import {search, on_key_press} from "/js/dnd/search.js";

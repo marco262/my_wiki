@@ -91,12 +91,23 @@ def load_wsgi_endpoints(app: Bottle):
     def site_search_with_results(search_term):
         t = time()
         results = SEARCH_OBJ.run(search_term)
+        results_per_page = 10
+        total_pages = len(results) // results_per_page + 1 if results is not None else 1
+        try:
+            page = max(0, min(total_pages, int(request.params["page"])))
+        except (ValueError, KeyError):
+            page = 1
+        if total_pages > 1:
+            results = results[(page - 1) * results_per_page:page * results_per_page]
         return {
             "title": "Search",
-            "search_key": search_term, 
-            "search_results": results, 
-            "processing_time": time() - t, 
-            "include_search_box": True
+            "search_key": search_term,
+            "search_results": results,
+            "processing_time": time() - t,
+            "page": page,
+            "total_pages": total_pages,
+            "results_per_page": results_per_page,
+            "include_search_box": True,
         }
 
     @app.route("/page_search/<search_term>")
