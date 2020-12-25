@@ -2,7 +2,7 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 
 # People
 
-* [Ismark Kolyanovich](^curse_of_strahd/ismark.jpg) [(stats)](https://roll20.net/compendium/dnd5e/Monsters:Veteran/#attributes)
+* [Ismark Kolyanovich](^curse_of_strahd/ismark.jpg) [(stats)](/dnd/monster/Veteran)
 * [Ireena Kolyana](^curse_of_strahd/ireena.jpg) [(stats)](/dnd/monster/Noble)
   * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
   * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)
@@ -22,7 +22,7 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 
 * E1. [Bildrath's Mercantile](^curse_of_strahd/bildraths_mercantile.jpg)
   * [Bildrath](^curse_of_strahd/COS_Bildrath.jpg), owner
-  * [Parriwimple](^curse_of_strahd/parriwimple.jpg), Bildrath's Nephew, [(stats)](https://roll20.net/compendium/dnd5e/Gladiator#attributes)
+  * [Parriwimple](^curse_of_strahd/parriwimple.jpg), Bildrath's Nephew, [(stats)](/dnd/monster/Gladiator)
 * E2. [Blood of the Vine Tavern](^curse_of_strahd/blood_of_the_vine_tavern.jpg)
   * [Arik Lorensk](^curse_of_strahd/arik_lorensk.PNG), barkeep. No soul, mindlessly cleans glasses.
   * [Three Vistani](^curse_of_strahd/alenka_mirabel_sorvia.jpg), owners of Blood of the Vine. Alenka, Mirabel, Sorvia
@@ -34,8 +34,8 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
   * [Picture over the fireplace](^curse_of_strahd/kolyan_indirovich.jpg)
   * Kolyan Indirovich is in a coffin in a side drawing room
 * E5. [Church](^curse_of_strahd/church_of_the_morninglord.jpg)
-  * [Father Donavich](^curse_of_strahd/Father_Donavich.png) [(stats)](https://roll20.net/compendium/dnd5e/Monsters:Acolyte/#attributes)
-  * [Doru](^curse_of_strahd/Doru.jpg) [(stats)](https://roll20.net/compendium/dnd5e/Vampire%20Spawn#attributes)
+  * [Father Donavich](^curse_of_strahd/Father_Donavich.png) [(stats)](/dnd/monster/Acolyte)
+  * [Doru](^curse_of_strahd/Doru.jpg) [(stats)](/dnd/monster/Vampire Spawn)
   * Encounter: [Burying the Burgomaster](Burying the Burgomaster)
 * E6. [Graveyard](^curse_of_strahd/graveyard.jpg)
 * E7. [Dragomir's Curio and Relic Emporium](^curse_of_strahd/dragomirs_emporium.jpg)
@@ -44,7 +44,7 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 # Events
 
 * [March of the Dead](^curse_of_strahd/march_of_the_dead.jpg)
-* [Morgantha](^curse_of_strahd/morgantha.png) [(stats)](https://roll20.net/compendium/dnd5e/Night Hag#attributes)
+* [Morgantha](^curse_of_strahd/morgantha.png) [(stats)](/dnd/monster/Night Hag)
 
 <script type="module">
     import {init_links, init_visual_aid} from "/js/common/visual_aid_backend.js";
