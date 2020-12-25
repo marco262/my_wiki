@@ -17,6 +17,7 @@ body {
     height: 130px;
     padding: 20px;
     position: relative;
+    border-bottom: 10px #A4121A solid;
 }
 
 #wiki-title {
@@ -39,6 +40,7 @@ body {
     position: absolute;
     left: 10px;
     bottom: 0;
+    top: 152px;
 }
 
 #top-bar ul {
@@ -53,7 +55,13 @@ body {
 	list-style: none;
 }
 
-#top-bar a {
+#top-bar .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+#top-bar .dropdown a {
     height: 22px;
 	margin: 0 5px;
     padding: 0 15px;
@@ -64,71 +72,30 @@ body {
     font-size: 90%;
 }
 
-#top-bar a:hover {
+#top-bar .dropdown a:hover {
     background-color: white;
     color: #A4121A
 }
 
 
-
-#top-bar li a{
-	text-align: center;
-	display: block;
-	margin: 0;
-	padding: 1px 1em;
-	text-decoration: none;
-}
-#top-bar a:hover {
-	background-color: #FFF;
-	text-decoration: underline;
-}
-
-#top-bar li ul li a{
-	width: 10em;
-	text-align: left;
-	background-color: #FFF;
-	border: none;
-}
-#top-bar li ul li a:hover{
-
-}
-
-#top-bar li ul {
-	position: absolute;
-	/*left: -999em;*/
-	visibility: hidden;
-}
-
-#top-bar li:hover ul, #top-bar li.sfhover ul {
-	/*left: auto;*/
-	visibility: visible;
-}
-
-#top-bar {
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
     position: absolute;
-    left: 10px;
-    bottom: 0;
-    z-index:0;
-    width: 1200px;
+    top: 22px;
+    margin-left: 5px;
+    min-width: 160px;
+    z-index: 1;
 }
 
-#top-bar li {
-    list-style: none;
-    float: left;
-    margin: 0 5px;
-    padding:0;
-    height: 22px;
-}
-#top-bar li ul{
-    text-align: center;
+.dropdown-content a {
     display: block;
-    margin: 0;
-    padding: 0.3em 1em;
-    text-decoration: none;
+    border-left: #444444 3px solid;
 }
-#top-bar a:hover {
-    border-bottom-color:#243356; /* different border color */
-}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 /* Main Page containers */
 #index-container {
@@ -146,6 +113,10 @@ body {
 
 .index-column ul {
     list-style-image: url("/static/img/bullet.png");
+}
+
+.index-column p {
+    line-height: 0.8;
 }
 
 .index-column h2 {
