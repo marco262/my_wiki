@@ -1,5 +1,17 @@
 from pprint import pprint
 
+races = [
+    "dwarf",
+    "elf",
+    "halfling",
+    "human",
+    "dragonborn",
+    "gnome",
+    "half-elf",
+    "half-orc",
+    "tiefling"
+]
+
 classes = [
     "artificer",
     "barbarian",
