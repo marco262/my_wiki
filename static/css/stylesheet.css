@@ -345,26 +345,27 @@ div#show-advanced-block, div#hide-advanced-block {
 }
 
 button.accordion-button {
-    background-color: #eee;
-    color: #444;
+    background-color: #A4121A;
+    color: white;
     cursor: pointer;
     padding: 10px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
+    font-family: 'Bree Serif', serif;
     font-size: 12pt;
     transition: 0.4s;
     margin-top: 5px;
 }
 
 .accordion-active, button.accordion-button:hover {
-    background-color: #ccc;
+    background-color: #730c12;
 }
 
 button.accordion-button:before {
-    content: '\002B';
-    color: #777;
+    content: "\002B";
+    color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -377,7 +378,7 @@ button.accordion-active:before {
 div.accordion-panel {
     text-align: left;
     padding: 0 18px;
-    background-color: white;
+    background-color: antiquewhite;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
