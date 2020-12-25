@@ -1,0 +1,32 @@
+width = "500px"
+name = "Gladiator"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "16 (studded leather, shield)"
+hit_points = "112 (15d8 + 45)"
+speed = "30 ft."
+strength = 18
+dexterity = 15
+constitution = 16
+intelligence = 10
+wisdom = 12
+charisma = 15
+saves = "Str +7, Dex +5, Con +6"
+skills = "Athletics +10, Intimidation +5"
+senses = "passive Perception 11"
+languages = "any one language (usually Common)"
+challenge = "5 (1,800 XP)"
+special_abilities = """!
+***Brave.*** The gladiator has advantage on saving throws against being frightened.
+
+***Brute.*** A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).
+"""
+actions = """!
+***Multiattack.*** The gladiator makes three melee attacks or two ranged attacks.
+
+***Spear.*** _Melee or Ranged Weapon Attack:_ +7 to hit, reach 5 ft. and range 20/60 ft., one target. _Hit:_ 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.
+
+***Shield Bash.*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+"""
+reactions = "!***Parry.*** The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."

@@ -12,4 +12,4 @@ Strahd chats with the party, dropping hints he's been watching them, and talks a
 
 Eventually, he departs as a blood-red mist, his laughter echoing the whole time.
 
-Once his laughter dies away, there's pounding at the door as zombies and wolves try to get in.
+Once his laughter dies away, there's pounding at the door as [zombies](Strahd Zombie) try to get in.
