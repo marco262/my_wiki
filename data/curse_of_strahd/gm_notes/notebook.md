@@ -35,6 +35,7 @@ Cursed with Lycanthropy
 * Ask the players what they did with Nails' bite wound. Did they bandage it? Hide it?
 * Have the players roll a d20. This is how many days into the lunar cycle they currently are.
 * Let the players know that there are some heavy themes in here (e.g. suicide, torture, mental illness, abuse). What themes should be avoided?
-* Ismarck is taking them to his place.
+* Mention the constantly overcast skies. It is around sunset.
+* Ismark is taking them to his place. He should emphasize they need to make it to his house before dark.
 * On the way, they will see Morgantha peddling her wares.
-* Ismarck will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
+* Ismark will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
