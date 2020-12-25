@@ -60,3 +60,4 @@ Strahd curses any adventurer souls to never reincarnate, and are instead forced 
     * With each item they find, he visits with more gifts of increasing rarity, to Rare, Very Rare, and Legendary.
 * Lord Jared wants something from Strahd. The sunsword? The tome? The holy symbol? Something else?
 * Give the party a Tarokka deck, and give Caytlin a guide on how to use it. Let her do actual "tarot" readings for the game.
+* Most NPCs in Barovia are some flavor of either Neutral or Evil. Goodness died out long ago.

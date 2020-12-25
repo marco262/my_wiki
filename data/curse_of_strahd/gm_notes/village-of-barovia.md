@@ -4,7 +4,18 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 
 * [Ismark Kolyanovich](^curse_of_strahd/ismark.jpg) [(stats)](https://roll20.net/compendium/dnd5e/Monsters:Veteran/#attributes)
 * [Ireena Kolyana](^curse_of_strahd/ireena.jpg) [(stats)](/dnd/monster/Noble)
-
+  * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
+  * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)
+  * Noble (sister of current Burgomaster of the Village of Barovia), treated well by others during travels
+  * Unused to travel by foot, but will not complain
+  * Top priority is keeping herself safe, willing to help the party to that end
+  * Terrified of Strahd
+  * Sense of humor
+  * One of the few people in Barovia who are Lawful Good
+  * Dyes her hair from red to black. Red hair is "unlucky" and it makes her stand out. Her natural hair color will start to come out.
+  * Has embroidery as a hobby. Embroiders her clothes and items with little designs.
+  * May eventually pick up the Healer feat.
+  
 # Places
 
 [Shops of Barovia](https://www.gmbinder.com/share/-LTK3X6AKprD0KM1RLYC)
@@ -25,6 +36,7 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 * E5. [Church](^curse_of_strahd/church_of_the_morninglord.jpg)
   * [Father Donavich](^curse_of_strahd/Father_Donavich.png) [(stats)](https://roll20.net/compendium/dnd5e/Monsters:Acolyte/#attributes)
   * [Doru](^curse_of_strahd/Doru.jpg) [(stats)](https://roll20.net/compendium/dnd5e/Vampire%20Spawn#attributes)
+  * Encounter: [Burying the Burgomaster](Burying the Burgomaster)
 * E6. [Graveyard](^curse_of_strahd/graveyard.jpg)
 * E7. [Dragomir's Curio and Relic Emporium](^curse_of_strahd/dragomirs_emporium.jpg)
   * [Dragomir](^curse_of_strahd/dragomir.jpg), owner, rotting immortal human, happy to have customers
