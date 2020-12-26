@@ -49,11 +49,12 @@ Characters in wagons, carriages, or other land vehicles choose a pace as normal.
 Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a *carpet of flying*, allow you to travel more swiftly. The *Dungeon Master's Guide* contains more information on special methods of travel.
 
 **Travel Pace**
-||||||||||~ Distance Traveled per... ||
+
 ||~ Pace ||~ Minute ||~ Hour ||~ Day ||~ Effect ||
 || Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores<br>-5 penalty to checks to avoid becoming lost<sup>1</sup><br>Can't forage<sup>1</sup> ||
 || Normal || 300 feet || 3 miles || 24 miles || -- ||
 || Slow || 200 feet || 2 miles || 18 miles || Able to use stealth<br>+5 bonus to checks to avoid becoming lost<sup>1</sup> ||
+
 <sup>1</sup> *Dungeon Master's Guide, p. 111*
 
 ### Special Travel Pace (DMG 242)

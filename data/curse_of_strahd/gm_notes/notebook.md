@@ -25,17 +25,22 @@ Cursed with Lycanthropy
 * Passive Per: 14
 * Passive Ins: 12
 
+## Journal
+
+* 23: Arrived in the Village of Barovia
+* 24: Went to the church (Today) 
+
 ## General Notes
 
 * DON'T FORGET ABOUT WISHES
+* Add Strahd theme music
+* Add ambience for the church
+* Add interior shot of church, especially shot of altar
 * Implement Path of the Beast only after Ethel's first transformation?
 
 ## Notes for Next Session
 
-* Ask the players what they did with Nails' bite wound. Did they bandage it? Hide it?
-* Have the players roll a d20. This is how many days into the lunar cycle they currently are.
-* Let the players know that there are some heavy themes in here (e.g. suicide, torture, mental illness, abuse). What themes should be avoided?
-* Mention the constantly overcast skies. It is around sunset.
-* Ismark is taking them to his place. He should emphasize they need to make it to his house before dark.
-* On the way, they will see Morgantha peddling her wares.
+* They've arrived at the Church
+* They plan to bury Kolyan today and then sneak out of town with Ireena. Tomorrow, Ismark will say that Ireena died of a broken heart.
+    * Marblepaw will be ready to cast Protection from Good and Evil on Ireena at the drop of a hat.
 * Ismark will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
