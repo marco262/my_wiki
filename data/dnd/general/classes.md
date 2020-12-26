@@ -24,3 +24,13 @@ The twelve classes from the Player's Handbook -- listed in the Classes table -- 
 || [[[class:Sorcerer]]] || d6 || Constitution, Charisma || Daggers, darts, slings, quarterstaffs, light crossbows ||
 || [[[class:Warlock]]] || d8 || Wisdom, Charisma || Light armor, simple weapons ||
 || [[[class:Wizard]]] || d6 || Intelligence, Wisdom || Daggers, darts, slings, quarterstaffs, light crossbows ||
+
+## Tasha's Cauldron of Everything
+
+||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
+|| [[[class:Artificer]]] || d8 || Constitution, Intelligence || Light armor, medium armor, shields, simple weapons ||
+
+## Homebrew
+
+||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
+|| [[[class:Dragonfire Adept]]] || d8 || Constitution, Charisma || Daggers, darts, slings, quarterstaffs, light crossbows ||

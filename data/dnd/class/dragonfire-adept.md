@@ -45,7 +45,7 @@ As a dragonfire adept, you gain the following class features.
 ## Proficiencies
 
 * Armor: None
-* Weapons: Simple weapons
+* Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
 * Tools: None
 * Saving Throws: Constitution, Charisma
 * Skills: Choose two skills from Arcana, History, Intimidation, Nature, Religion, Perception, Insight
@@ -132,8 +132,8 @@ Your choice of draconic patron greatly influences your abilities as you progress
 || 1st || *[[[spell:color spray]]]*, *[[[spell:protection from evil and good]]]* ||
 || 2nd || *[[[spell:calm emotions]]]*, *[[[spell:heat metal]]]* ||
 || 3rd || *[[[spell:counterspell]]]*, *[[[spell:gaseous form]]]* ||
-|| 4th || *[[[spell:hallucinatory terrain]]]*, *[[[spell:otiluke's resilient sphere]]]* ||
-|| 5th || *[[[spell:bigby's hand]]]*, *[[[spell:contact other plane]]]* ||
+|| 4th || *[[[spell:hallucinatory terrain]]]*, *[[[spell:Otiluke's resilient sphere]]]* ||
+|| 5th || *[[[spell:Bigby's hand]]]*, *[[[spell:contact other plane]]]* ||
 
 ### Aspect of the Metallic Dragons
 
@@ -175,7 +175,7 @@ At 10th level, you become immune to [[[general:conditions#paralyzed|paralysis]]]
 
 ### Discorporating Breath of Bahamut
 
-At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust (see the disintegrate spell for details). Once you use this ability, you can not do so again until you finish a short rest.
+At 14th level, you learn to mimic the effects of the mighty breath weapon of Bahamut. As an action on your turn, you can produce a breath weapon that inflicts 10d10 untyped damage to those in range unless they succeed on a dexterity saving throw. Those that do save take half damage. This damage bypasses all resistances and immunities. If a creature is dropped to 0 hit points with this damage, it and all of its non-magical possessions turn to dust (see the _[[[spell:disintegrate]]]_ spell for details). Once you use this ability, you can not do so again until you finish a short rest.
 
 ## Tiamat
 
