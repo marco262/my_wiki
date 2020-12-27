@@ -327,7 +327,7 @@ div#show-advanced-block, div#hide-advanced-block {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
+  max-width: 300px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -398,6 +398,30 @@ blockquote {
     color: blue;
     text-decoration: underline dashed blue;
     cursor: pointer;
+}
+
+.visual-aid-hover {
+    visibility: hidden;
+    max-height: 300px;
+    max-width: 300px;
+    background-color: black;
+    padding: 5px 3px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    transform: translateX(50px);
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.visual-aid-link:hover .visual-aid-hover {
+    visibility: visible;
+}
+
+.visual-aid-hover-img {
+    height: 100%;
+    width: 100%;
 }
 
 .search-result-path {

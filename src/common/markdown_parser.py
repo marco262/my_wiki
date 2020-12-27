@@ -83,12 +83,12 @@ class MarkdownParser:
         pattern = r"\[([^]]+?)]\(([\^\$])(.*?)\)"
         for m in re.finditer(pattern, text):
             if m.group(2) == "^":
-                value = f"visual_aid|{m.group(3)}"
+                hover_panel = f'<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/static/img/visual_aids/{m.group(3)}"></span>'
+                replace = f'<span class="visual-aid-link" title="visual_aid|{m.group(3)}">{m.group(1)}{hover_panel}</span>'
             elif m.group(2) == "$":
-                value = m.group(3)
+                replace = f'<span class="visual-aid-link" title="{m.group(3)}">{m.group(1)}</span>'
             else:
                 raise ValueError(f"Unknown link flag: {m.group(2)}")
-            replace = f'<span class="visual-aid-link" title="{value}">{m.group(1)}</span>'
             text = text.replace(m.group(0), replace)
         return text
 

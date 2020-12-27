@@ -33,11 +33,12 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
   * [Interior](^curse_of_strahd/burgomasters_mansion_interior.jpg)
   * [Picture over the fireplace](^curse_of_strahd/kolyan_indirovich.jpg)
   * Kolyan Indirovich is in a coffin in a side drawing room
-* E5. [Church](^curse_of_strahd/church_of_the_morninglord.jpg)
+* E5. [Church of the Morninglord](^curse_of_strahd/church_of_the_morninglord.jpg)
+  * Interior [1](^curse_of_strahd/church_of_the_morninglord_interior_1.jpg), [2](^curse_of_strahd/church_of_the_morninglord_interior_2.jpg), [3](^curse_of_strahd/church_of_the_morninglord_interior_3.jpg), [4](^curse_of_strahd/church_of_the_morninglord_interior_4.jpg)
   * [Father Donavich](^curse_of_strahd/Father_Donavich.png) [(stats)](/dnd/monster/Acolyte)
   * [Doru](^curse_of_strahd/Doru.jpg) [(stats)](/dnd/monster/Vampire Spawn)
   * Encounter: [Burying the Burgomaster](Burying the Burgomaster)
-* E6. [Graveyard](^curse_of_strahd/graveyard.jpg)
+* E6. Graveyard [1](^curse_of_strahd/graveyard_1.jpg), [2](^curse_of_strahd/graveyard_2.jpg)
 * E7. [Dragomir's Curio and Relic Emporium](^curse_of_strahd/dragomirs_emporium.jpg)
   * [Dragomir](^curse_of_strahd/dragomir.jpg), owner, rotting immortal human, happy to have customers
 
@@ -47,7 +48,6 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 * [Morgantha](^curse_of_strahd/morgantha.png) [(stats)](/dnd/monster/Night Hag)
 
 <script type="module">
-    import {init_links, init_visual_aid} from "/js/common/visual_aid_backend.js";
+    import {init_links} from "/js/common/visual_aid_backend.js";
     init_links();
-    init_visual_aid();
 </script>

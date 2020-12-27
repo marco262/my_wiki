@@ -89,7 +89,7 @@ Text block
         expected = """<button class="accordion-button">Test Title</button>
 <div class="accordion-panel">
 
-<h1 id="header">Header</h1>
+<h1 id="header">Header<a href="#header" class="header-link">¶</a></h1>
 
 <ul>
 <li>Item 1</li>
@@ -124,20 +124,20 @@ Text block
         """
 
         expected = """
-        * <span class="visual-aid-link" title="visual_aid|ulkoria_stronemarrow.jpg">Ulkoria Stronemarrow</span>, representative for the Watchful Order of Magists and Protectors
+        * <span class="visual-aid-link" title="visual_aid|ulkoria_stronemarrow.jpg">Ulkoria Stronemarrow<div class="visual-aid-hover">ulkoria_stronemarrow.jpg</div></span>, representative for the Watchful Order of Magists and Protectors
 
         ## [Faction NPCs](Faction NPCs)
         
         ## Enemy NPCs
-        * <span class="visual-aid-link" title="visual_aid|kenku.jpg">Kenku</span>
-        * <span class="visual-aid-link" title="visual_aid|gazer.jpg">Gazer</span>
+        * <span class="visual-aid-link" title="visual_aid|kenku.jpg">Kenku<div class="visual-aid-hover">kenku.jpg</div></span>
+        * <span class="visual-aid-link" title="visual_aid|gazer.jpg">Gazer<div class="visual-aid-hover">gazer.jpg</div></span>
         
         * <span class="visual-aid-link" title="load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3">Sword</span>
         <span class="visual-aid-link" title="pause|all">Pause All</span>
         
-        <span class="visual-aid-link" title="visual_aid|some_visual_aids.jpg">Some visual aids</span> all on the <span class="visual-aid-link" title="visual_aid|same-line.jpg">same line</span>.
+        <span class="visual-aid-link" title="visual_aid|some_visual_aids.jpg">Some visual aids<div class="visual-aid-hover">some_visual_aids.jpg</div></span> all on the <span class="visual-aid-link" title="visual_aid|same-line.jpg">same line<div class="visual-aid-hover">same-line.jpg</div></span>.
         
-        [Wiki link](/dnd/wiki-link) before a <span class="visual-aid-link" title="visual_aid|visual_aid.jpg">Visual aid</span>.
+        [Wiki link](/dnd/wiki-link) before a <span class="visual-aid-link" title="visual_aid|visual_aid.jpg">Visual aid<div class="visual-aid-hover">visual_aid.jpg</div></span>.
         """
 
         md = MarkdownParser()
@@ -189,8 +189,6 @@ Text block
 
 <p><strong>Before text</strong> <span class="test"><em>middle text</em></span> <em>after text</em></p>
 """
-        MarkdownParser.pre_parsing = lambda s, x: x
-        MarkdownParser.post_parsing = lambda s, x: x
         md = MarkdownParser()
         text = md.parse_md(text)
         actual = md.convert_wiki_divs(text)
@@ -200,7 +198,7 @@ Text block
         text = """[[breadcrumb /dnd/class/Druid|Druid]]
         
         Fake text"""
-        expected = """< [Druid](/dnd/class/Druid)
+        expected = """⟵ [Druid](/dnd/class/Druid)
         
         Fake text"""
         md = MarkdownParser()

@@ -18,13 +18,13 @@ senses = darkvision 60ft., passive Perception 13
 languages = Draconic, Sylvan
 challenge = 1 (200 XP) for a red, orange, or yellow faerie dragon; 2 (450 XP) for a green, blue, indigo, or violet faerie dragon
 special_abilities = !!!
-**Superior Invisibility.** As a bonus action, the dragon can magically turn [[[general:conditions#invisible|invisible]]] until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is [[[general:conditions#invisible|invisible]]] with it.
+***Superior Invisibility.*** As a bonus action, the dragon can magically turn [[[general:conditions#invisible|invisible]]] until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is [[[general:conditions#invisible|invisible]]] with it.
 
-**Limited Telepathy.** Using telepathy, the dragon can magically communicate with any other faerie dragon within 60 feet of it.
+***Limited Telepathy.*** Using telepathy, the dragon can magically communicate with any other faerie dragon within 60 feet of it.
 
-**Magic Resistance.** The dragon has advantage on saving throws against spells and other magical effects.
+***Magic Resistance.*** The dragon has advantage on saving throws against spells and other magical effects.
 
-Innate Spellcasting. The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.
+***Innate Spellcasting.*** The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.
 
 * Red, 1/day each: *[[[spell:dancing lights]]]*, *[[[spell:mage hand]]]*, *[[[spell:minor illusion]]]*
 * Orange, 1/day: *[[[spell:color spray]]]*
@@ -35,9 +35,9 @@ Innate Spellcasting. The dragon's innate spellcasting ability is Charisma (spell
 * Violet, 1/day: *[[[spell:polymorph]]]*
 !!!
 actions = !!!
-**Bite.** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 1 piercing damage.
+***Bite.*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 1 piercing damage.
 
-**Euphoria Breath (Recharge 5-6).** The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:
+***Euphoria Breath (Recharge 5-6).*** The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:
 
 **1-4.** The target takes no action or bonus action and uses all of its movement to move in a random direction.  
 **5-6.** The target doesn't move, and the only thing it can do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself on a success.
