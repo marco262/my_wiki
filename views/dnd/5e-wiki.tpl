@@ -43,15 +43,9 @@
 
 ## Spells
 
-[Find a Spell](/dnd/find_spell)<br>
+[Find a Spell](/dnd/find_spell)
 
 [Spell Filter](/dnd/spell_filter)
-
-[All Spells By Name](/dnd/all_spells_by_name/true)
-
-[Concentration Spells](/dnd/concentration_spells/true)
-
-[Ritual Spells](/dnd/ritual_spells/true)
 
 ## Class Spell Lists
 
