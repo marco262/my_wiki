@@ -13,7 +13,7 @@ Enter another URL to set as Visual Aid here:
 
 <input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
 
-[Visual aid](/dragon_heist/visual_aid)
+[Visual aid](/visual_aid)
 
 # Pages
 
