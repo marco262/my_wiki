@@ -22,7 +22,7 @@ skills = Deception +11, Perception +17, Stealth +8
 damage_immunities = acid
 senses = blindsight 60ft., darkvision 120 ft., passive Perception 27
 languages = Common, Draconic
-challenge = 21 (27,500 XP)
+challenge = 21 (33,000 XP)
 special_abilities = !**Legendary Resistance (3/Day).** If the dragon fails a saving throw, it can choose to succeed instead.
 actions = !!!
 **Multiattack.** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.

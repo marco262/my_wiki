@@ -22,7 +22,7 @@ damage_immunities = poison
 condition_immunities = poisoned
 senses = blindsight 60 ft., darkvision 120 ft., passive Perception 27
 languages = Common, Draconic
-challenge = 22 (30,000 XP)
+challenge = 22 (41,000 XP)
 special_abilities = !!!
 **Amphibious.** The dragon can breathe air and water.
 

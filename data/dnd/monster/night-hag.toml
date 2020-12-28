@@ -20,7 +20,7 @@ senses = "darkvision 120ft., passive Perception 16"
 languagues = "Abyssal, Common, Infernal, Primordial"
 challenge = "5 (1,800 XP)"
 special_abilities = """!
-***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
+***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
 
 At will: _[[[spell:detect magic]]]_, _[[[spell:magic missile]]]_  
 2/day each: _[[[spell:plane shift]]]_ (self only), _[[[spell:ray of enfeeblement]]]_, _[[[spell:sleep]]]_
@@ -28,7 +28,7 @@ At will: _[[[spell:detect magic]]]_, _[[[spell:magic missile]]]_
 ***Magic Resistance.*** The hag has advantage on saving throws against spells and other magical effects.
 """
 actions = """!
-***Claws (Hag Form Only).*** _Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ (2d8 + 4) slashing damage.
+***Claws (Hag Form Only).*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ (2d8 + 4) slashing damage.
 
 ***Change Shape.*** The hag magically polymorphs into a Small or Medium female humanoid, or back into her true form. Her statistics are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies.
 
