@@ -21,7 +21,7 @@ skills = Perception +13, Stealth +6
 damage_immunities = cold
 senses = blindsight 60ft., darkvision 120 ft., passive Perception 23
 languages = Common, Draconic
-challenge = 20 (24,500 XP)
+challenge = 20 (25,000 XP)
 special_abilities = !!!
 **Ice Walk.** The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
 

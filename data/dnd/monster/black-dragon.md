@@ -21,7 +21,7 @@ skills = Perception +16, Stealth +9
 damage_immunities = acid
 senses = blindsight 60 ft., darkvision 120 ft., passive Perception 26
 languages = Common, Draconic
-challenge = 21 (27,500 XP)
+challenge = 21 (33,000 XP)
 special_abilities = !!!
 **Amphibious.** The dragon can breathe air and water.
 
