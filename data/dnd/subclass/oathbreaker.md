@@ -53,7 +53,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 ## Supernatural Resistance
 
-At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
 
 ## Dread Lord
 
