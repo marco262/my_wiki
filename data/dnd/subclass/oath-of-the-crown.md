@@ -52,7 +52,7 @@ Starting at 15th level, you have advantage on saving throws to avoid becoming [[
 
 At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:
 
-* You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+* You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
 * Your allies have advantage on death saving throws while within 30 feet of you.
 * You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.
 

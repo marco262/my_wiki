@@ -102,7 +102,7 @@ An object that bears no resemblance to a weapon deals 1d4 damage (the DM assigns
 
 ### Silvered Weapons
 
-Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.
+Some monsters that have immunity or resistance to nonmagical attacks are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.
 
 ### Special Weapons
 

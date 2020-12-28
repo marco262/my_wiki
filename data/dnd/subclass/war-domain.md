@@ -47,7 +47,7 @@ You are blessed with divine might in battle. When a creature takes damage from o
 
 ## Avatar of Battle
 
-At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
 
 ----
 
