@@ -1,9 +1,9 @@
 You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
 
-**Skill Proficiencies:** Insight, Persuasion
-**Tool Proficiencies:** One type of artisan's tools
-**Languages:** One of your choice
-**Equipment:** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 15 gp
+* **Skill Proficiencies:** Insight, Persuasion
+* **Tool Proficiencies:** One type of artisan's tools
+* **Languages:** One of your choice
+* **Equipment:** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 15 gp
 
 ### Guild Business
 

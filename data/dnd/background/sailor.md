@@ -4,9 +4,9 @@ Discuss the nature of the ship you previously sailed with your Dungeon Master. W
 
 What were your duties on board -- boatswain, captain, navigator, cook, or some other position? W ho were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?
 
-**Skill Proficiencies:** Athletics, Perception
-**Tool Proficiencies:** Navigator's tools, vehicles (water)
-**Equipment:** A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the [[[equipment:Trinkets]]] table), a set of common clothes, and a belt pouch containing 10 gp
+* **Skill Proficiencies:** Athletics, Perception
+* **Tool Proficiencies:** Navigator's tools, vehicles (water)
+* **Equipment:** A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the [[[equipment:Trinkets]]] table), a set of common clothes, and a belt pouch containing 10 gp
 
 ### Feature: Ship's Passage
 

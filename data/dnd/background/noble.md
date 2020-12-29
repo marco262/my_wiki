@@ -10,10 +10,10 @@ Does your family have a coat of arms? An insignia you might wear on a signet rin
 
 These details help establish your family and your title as features of the world of the campaign.
 
-**Skill Proficiencies:** History, Persuasion
-**Tool Proficiencies:** One type of gaming set
-**Languages:** One of your choice
-**Equipment:** A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp
+* **Skill Proficiencies:** History, Persuasion
+* **Tool Proficiencies:** One type of gaming set
+* **Languages:** One of your choice
+* **Equipment:** A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp
 
 ### Feature: Position of Privilege
 
