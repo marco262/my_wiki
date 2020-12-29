@@ -1,7 +1,11 @@
+[[breadcrumb /curse_of_strahd/|Curse of Strahd]]
+
 <script type="module">
     import {init_links, init_visual_aid} from "/js/common/visual_aid_backend.js";
+    import {init_accordions} from "/js/common/utils.js";
     init_links();
     init_visual_aid();
+    init_accordions();
 </script>
 
 * [Notebook](Notebook)
@@ -15,13 +19,47 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
-# Pages
+# Barovia
+
+## Areas of Barovia
+
+[Map of Barovia](https://i.redd.it/7d0q3j8rkxy41.jpg) (with enemies of Strahd highlighted)
+
+[Player's Map of Barovia](^curse_of_strahd/players_map.png)
+
+* A. Old Svalich Road [1](^curse_of_strahd/old_svalich_road_1.png), [2](^curse_of_strahd/old_svalich_road_2.jpg)
+* B. Gates of Barovia [1](^curse_of_strahd/gates_dim.jpg), [2](^curse_of_strahd/gates_2.jpg), [doors opening]($load|effect|curse_of_strahd/Horror Door Sound Effect _ HQ.mp3)
+* C. Svalich Woods [1](^curse_of_strahd/svalich_woods_1.jpg), [2](^curse_of_strahd/svalich_woods_2.jpg)
+* D. River Ivlis [1](^curse_of_strahd/river_ivlis_1.jpg), [2](^curse_of_strahd/river_ivlis_2.jpg)
+* E. [Village of Barovia](Village of Barovia)
+* F. River Ivlis Crossroads [1](^curse_of_strahd/river_ivlis_crossroads_1.jpg), [2](^curse_of_strahd/river_ivlis_crossroads_2.jpg), [3](^curse_of_strahd/river_ivlis_crossroads_3.jpg)
+  * A Vistani Caravan approaches [1](^curse_of_strahd/vistani_caravan_1.jpg), [2](^curse_of_strahd/vistani_caravan_2.jpg), [3](^curse_of_strahd/vistani_caravan_3.jpg)
+* G. Tser Pool Encampment [1](^curse_of_strahd/tser_pool_encampment_1.jpg), [2](^curse_of_strahd/tser_pool_encampment_2.jpg), [3](^curse_of_strahd/tser_pool_encampment_3.jpg)
+  * [Vistani around the fire](^curse_of_strahd/vistani_around_the_fire.jpg)
+  * [Madame Eva](^curse_of_strahd/madame_eva.jpg) 
+* H. [Tser Falls](^curse_of_strahd/tser_falls_1.jpg) 
+* I. [Black Carriage](^curse_of_strahd/black_carriage.jpg)
+
+## Other Resources
+
+* [Landmarks of Barovia](Landmarks of Barovia)
+* [Random Encounters](Random Encounters)
+
+# Other Pages
 
 * [Daggerford](Daggerford)
-* [Svalich Woods](Svalich Woods)
-* [Village of Barovia](Village of Barovia)
 
-# Tarokka Deck (First Reading)
+# Tarokka Reading
+
+1. Priest (Master of Glyphs) - The Tome is in Castle Ravenloft's Chapel
+2. Tax Collector (8 of Coins) - The Holy Symbol is in a Vistani treasure wagon in Vallaki
+3. Missionary (2 of Glyphs) - The Sunsword is in a scarecrow in the garden of the Abbey of Saint Markovia
+4. Mists - The Enemy of Strahd is Ezmerelda (but see Possible Ideas below)
+5. Broken One - Strahd faces the characters in Sergei's Tomb
+
+Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.485000/#post-6890591>
+
+[[accordion First Random Reading]]
 
 1. Miser - The Tome is in Castle Ravenloft's Treasury
 2. Priest - The Holy Symbol is in Castle Ravenloft's Chapel
@@ -29,13 +67,16 @@ Enter another URL to set as Visual Aid here:
 4. Beast - The Enemy of Strahd is the werewolf Zuleika Toranescu
 5. Donjon - Strahd faces the characters in the Hall of Bones 
 
-Alternate suggested reading: https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.485000/#post-6890591
+[[/accordion]]
 
 # References
 
+* [Curse of Strahd online](https://5e-spelljammer.github.io/adventure.html#cos) 
 * [So You Want to Run Curse of Strahd: A Primer on Preparing (and Running) the Game](https://old.reddit.com/r/CurseofStrahd/comments/f3w658/so_you_want_to_run_curse_of_strahd_a_primer_on/)
 * [So You Want to Play Curse of Strahd: A Player's Primer on Enjoying the Game](https://old.reddit.com/r/CurseofStrahd/comments/hhezj2/so_you_want_to_play_curse_of_strahd_a_players/)
 * [The Genre-Savvy Strahd: A Guide to Running Combat for D&D's Most Dangerous Villain](https://old.reddit.com/r/CurseofStrahd/comments/eekl2g/the_genresavvy_strahd_a_guide_to_running_combat/)
+* [Landmarks on the Svalich Road: Battle Maps & Location Images](https://old.reddit.com/r/CurseofStrahd/comments/etzcys/landmarks_on_the_svalich_road_battle_maps/)
+* [Alternate map of Barovia](https://imgur.com/t/curse_of_strahd/GKDGBt2)
 
 # The Soulless
 

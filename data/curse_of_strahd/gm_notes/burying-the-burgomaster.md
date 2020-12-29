@@ -1,3 +1,5 @@
+[[breadcrumb /curse_of_strahd/gm_notes/Village of Barovia|Village of Barovia]]
+
 Inspired by: <https://old.reddit.com/r/DnD/comments/6hncb7/5e_what_is_a_memorable_way_to_introduce_strahd/dizxzze/>
 
 As per tradition of the Morninglord, the burial rites must be performed all night, and the body is buried in the graveyard at first light. The body is taken into a side room, where Donavich (and probably Ireena) stay all night.
