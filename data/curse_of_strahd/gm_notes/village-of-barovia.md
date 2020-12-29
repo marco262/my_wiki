@@ -1,4 +1,6 @@
-Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of_strahd/village_of_barovia_2.jpg), [3](^curse_of_strahd/village_of_barovia_3.jpg)
+[[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
+
+Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of_strahd/village_of_barovia_2.jpg), [3](^curse_of_strahd/village_of_barovia_3.jpg), [4](^curse_of_strahd/village_of_barovia_4.jpg), [5](^curse_of_strahd/village_of_barovia_5.jpg)
 
 # People
 

@@ -2,7 +2,7 @@
     <title>Visual Aid</title>
     <link rel="stylesheet" type="text/css" href="/static/css/visual_aid.css">
 </head>
-<body style="background-color: white;">
+<body>
     <div id="notification-popup">
         <div id="arrow"></div>
         <div id="box">
