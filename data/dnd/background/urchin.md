@@ -2,9 +2,9 @@ You grew up on the streets alone, orphaned, and poor. You had no one to watch ov
 
 You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?
 
-**Skill Proficiencies:** Sleight of Hand, Stealth
-**Tool Proficiencies:** Disguise kit, thieves' tools
-**Equipment:** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp
+* **Skill Proficiencies:** Sleight of Hand, Stealth
+* **Tool Proficiencies:** Disguise kit, thieves' tools
+* **Equipment:** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp
 
 ### Feature: City Streets
 

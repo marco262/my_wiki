@@ -2,9 +2,9 @@ You have always had a way with people. You know what makes them tick, you can te
 
 You know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you're around. The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment -- nothing more than a bit of fat with a sprinkle of silver dust -- can restore youth and vigor, and there's a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal.
 
-**Skill Proficiencies:** Deception, Sleight of Hand
-**Tool Proficiencies:** Disguise kit, forgery kit
-**Equipment:** A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp
+* **Skill Proficiencies:** Deception, Sleight of Hand
+* **Tool Proficiencies:** Disguise kit, forgery kit
+* **Equipment:** A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp
 
 ### Favorite Schemes
 

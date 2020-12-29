@@ -6,9 +6,9 @@ Perhaps you hail from Neverwinter and have served as one of its Wintershield wat
 
 Even if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sheriffs and bailiffs who stand ready to protect their community.
 
-**Skill Proficiencies:** Athletics, Insight
-**Languages:** Two of your choice
-**Equipment:** A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10 gp
+* **Skill Proficiencies:** Athletics, Insight
+* **Languages:** Two of your choice
+* **Equipment:** A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10 gp
 
 ### Feature: Watcher's Eye
 
