@@ -1,9 +1,6 @@
 body {
-  background-image: url("/static/img/wooden_table_background.jpeg"); /* The image used */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
   background-repeat: repeat;
-  /*background-size: cover;*/
+  background-size: 700px;
 }
 
 #grid {
@@ -51,7 +48,6 @@ body {
   height: 90%;
   margin: 5%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-
 }
 
 /* This container is needed to position the front and back side */
@@ -59,8 +55,9 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.8s;
+  transition-duration: 600ms;
   transform-style: preserve-3d;
+  box-shadow: 5px 5px 2px #70533b;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -93,20 +90,20 @@ body {
 }
 
 .off-grid {
-  animation: deal-cards 0.8s forwards;
-}
-
-@keyframes deal-cards {
-  100% { position: absolute; top: -20vh; left: -40vh; }
-}
-
-#slide-off-button {
-  height: 40px;
-  width: 100px;
-  text-align: center;
-  border: 1px solid black;
-  background-color: red;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0;
+  left: 0;
+  transform: translateY(-350%);
+}
+
+#error-message {
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: white;
+  border: 3px solid red;
+  box-shadow: 10px 10px 0 red;
 }
