@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Bronze Dragon#bronze-dragon-wyrmling
