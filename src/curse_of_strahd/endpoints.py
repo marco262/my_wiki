@@ -1,11 +1,13 @@
 import bcrypt
-from bottle import Bottle, view, auth_basic
+from bottle import Bottle, view, auth_basic, request
+from bottle_websocket import websocket
 
-from src.common.utils import md_page
+from src.common.utils import md_page, websocket_loop, send_to_websockets
 
 # Default password: dancinglikeastripper
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
+websocket_list = []
 
 def init(cfg):
     global GM_NOTES_PW_HASH
@@ -38,6 +40,16 @@ def load_wsgi_endpoints(app: Bottle):
     @view("curse_of_strahd/tarokka.tpl")
     def calendar():
         return
+
+    @app.get("/tarokka_websocket", apply=[websocket])
+    def tarokka_websocket(ws):
+        global websocket_list
+        websocket_loop(ws, websocket_list)
+
+    @app.post("/play_tarokka")
+    @auth_basic(gm_notes_auth_check)
+    def play_tarokka():
+        send_to_websockets(dict(request.params), websocket_list)
 
 
 def gm_notes_auth_check(username, password):
