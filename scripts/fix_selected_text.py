@@ -42,15 +42,10 @@ elif sys.argv[1] == "add_spell":
     text = re.sub(r"^", "_[[[spell:", text)
     text = re.sub(r"$", "]]]_", text)
 elif sys.argv[1] == "add_special_formatting":
-    lines = []
-    for i, line in enumerate(re.split(r"\r?\n", text)):
-        m = re.match(r"\*\*Fighting Style:\*\* (.*)", line)
-        if not m:
-            lines.append(line)
-        else:
-            feats = m.group(1).split(", ")
-            lines.append("**Fighting Style:** " + ", ".join([f"[[[class:fighter#{f.lower().replace(' ', '-')}|{f}]]]" for f in feats]))
-    text = "\n".join(lines)
+    text = text.replace("\r", "")
+    text = re.sub(r" = !!!", ' = """!', text)
+    text = re.sub(r"!!!", '"""', text)
+    text = re.sub(r'([a-z_]+) = ([^\"].*[a-zA-Z].*)', r'\1 = "\2"', text)
 else:
     raise Exception("Unknown function: {}".format(sys.argv[1]))
 
