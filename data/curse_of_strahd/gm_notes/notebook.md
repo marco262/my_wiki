@@ -36,6 +36,8 @@ Cursed with Lycanthropy
 ## General Notes
 
 * DON'T FORGET ABOUT WISHES
+* Fix volume on ambience
+* Download all youtube music to media PC (avoid YouTube player not working properly)
 * Implement Path of the Beast only after Ethel's first transformation?
 
 ## Notes for Next Session
