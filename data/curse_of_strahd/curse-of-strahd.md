@@ -56,7 +56,23 @@ Have fun!
 
 ## Village of Barovia
 
-* [Ismark Kolyanovich](/static/img/visual_aids/curse_of_strahd/ismark.jpg)
+* [Ismark Kolyanovich](/static/img/visual_aids/curse_of_strahd/ismark.jpg), Burgomaster of the Village of Barovia
+* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg), sister of Ismark
+* [Dragomir](/static/img/visual_aids/curse_of_strahd/dragomir.jpg), owner of Dragomir's Curio and Relic Emporium
+
+# Enemy NPCs
+
+* [Count Strahd von Zarovich](/static/img/visual_aids/curse_of_strahd/strahd_1.jpg)
+
+# Other NPCs
+
+## Village of Barovia
+
+* [Father Donavich](/static/img/visual_aids/curse_of_strahd/Father_Donavich.png), priest of the Church of the Morninglord
+* [Doru](/static/img/visual_aids/curse_of_strahd/Doru.jpg), Donavich's basement, locked up in his basement
+* [Bildrath](/static/img/visual_aids/curse_of_strahd/COS_Bildrath.jpg), owner of Bildrath's Mercantiles
+* [Parriwimple](/static/img/visual_aids/curse_of_strahd/parriwimple.jpg), Bildrath's helper
+
 
 [[accordion Meanwhile in Waterdeep...]]
 
