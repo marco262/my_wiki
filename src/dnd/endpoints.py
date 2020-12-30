@@ -84,7 +84,10 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/site_search')
     @view('dnd/site_search.tpl')
     def site_search():
-        return {}
+        return {
+            "title": "Search",
+            "include_search_box": True,
+        }
 
     @app.route('/site_search/<search_term>')
     @view('dnd/site_search.tpl')
