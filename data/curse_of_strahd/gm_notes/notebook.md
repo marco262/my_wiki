@@ -19,6 +19,8 @@ Cursed with Lycanthropy
 * Passive Per: 13
 * Passive Ins: 11
 
+* All food he eats now tastes like hot borscht (cursed Spoon item from Dragomir)
+
 ### Marbleclaw
 
 * Armor Class: 14
@@ -28,19 +30,18 @@ Cursed with Lycanthropy
 ## Journal
 
 * 23: Arrived in the Village of Barovia
-* 24: Went to the church (Today) 
+* 24: Went to the church (Today)
+* 25: Buried Kolyan
 
 ## General Notes
 
 * DON'T FORGET ABOUT WISHES
-* Add Strahd theme music
-* Add ambience for the church
-* Add interior shot of church, especially shot of altar
 * Implement Path of the Beast only after Ethel's first transformation?
 
 ## Notes for Next Session
 
-* They've arrived at the Church
-* They plan to bury Kolyan today and then sneak out of town with Ireena. Tomorrow, Ismark will say that Ireena died of a broken heart.
-    * Marblepaw will be ready to cast Protection from Good and Evil on Ireena at the drop of a hat.
+* Zombies are attacking the church!
+* Get Tarokka reading done before next session
+* Dig up some interesting history for Orin
+* Tell Ethel about her cursed sword when she first critical hits/fails with it
 * Ismark will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
