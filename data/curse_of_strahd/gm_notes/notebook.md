@@ -36,14 +36,11 @@ Cursed with Lycanthropy
 ## General Notes
 
 * DON'T FORGET ABOUT WISHES
-* Fix volume on ambience
-* Download all youtube music to media PC (avoid YouTube player not working properly)
 * Implement Path of the Beast only after Ethel's first transformation?
 
 ## Notes for Next Session
 
 * Zombies are attacking the church!
-* Get Tarokka reading done before next session
 * Dig up some interesting history for Orin
 * Tell Ethel about her cursed sword when she first critical hits/fails with it
 * Ismark will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
