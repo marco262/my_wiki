@@ -57,7 +57,7 @@ body {
   height: 100%;
   transition-duration: 600ms;
   transform-style: preserve-3d;
-  box-shadow: 5px 5px 2px #70533b;
+  box-shadow: 5px 5px 2px #403022;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -90,9 +90,6 @@ body {
 }
 
 .off-grid {
-  position: absolute;
-  top: 0;
-  left: 0;
   transform: translateY(-350%);
 }
 

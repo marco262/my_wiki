@@ -30,8 +30,8 @@ Cursed with Lycanthropy
 ## Journal
 
 * 23: Arrived in the Village of Barovia
-* 24: Went to the church (Today)
-* 25: Buried Kolyan
+* 24: Went to the church
+* 25: Buried Kolyan (Today)
 
 ## General Notes
 
