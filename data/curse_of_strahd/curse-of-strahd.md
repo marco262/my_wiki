@@ -44,7 +44,6 @@ Have fun!
 
 # Resources
 
-* [Calendar](/curse_of_strahd/calendar)
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 
