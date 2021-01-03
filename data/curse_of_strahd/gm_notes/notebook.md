@@ -31,7 +31,7 @@ Cursed with Lycanthropy
 
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
-* 25: Buried Kolyan (Today)
+* 25: Buried Kolyan, traveled to Vallaki (Today)
 
 ## General Notes
 
@@ -40,7 +40,8 @@ Cursed with Lycanthropy
 
 ## Notes for Next Session
 
-* Zombies are attacking the church!
-* Dig up some interesting history for Orin
-* Tell Ethel about her cursed sword when she first critical hits/fails with it
-* Ismark will not come with the PCs when they take Ireena with them. He needs to stay and care for the Village of Barovia.
+* Have Orin do History checks as they come across stuff on the road
+* Prep the rest of the road and the landmarks
+* Prep Vallaki 
+* Prep random encounters
+* Get more battle/Vallaki/character theme music
