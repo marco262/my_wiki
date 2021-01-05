@@ -8,6 +8,8 @@ export function init_events() {
     document.getElementById("filter_button").onclick = filter;
     document.getElementById("reset_button").onclick = reset_ui;
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
+    document.getElementById("show-subtypes").onclick = on_click_show_subtypes;
+    document.getElementById("hide-subtypes").onclick = on_click_hide_subtypes;
     filter();
 }
 
@@ -84,4 +86,14 @@ function set_radio_group_value(name, value) {
             return;
         }
     }
+}
+
+function on_click_show_subtypes(e) {
+    document.getElementById("show-subtypes").style.display = "none";
+    document.getElementById("subtypes-block").style.display = "block";
+}
+
+function on_click_hide_subtypes(e) {
+    document.getElementById("show-subtypes").style.display = "block";
+    document.getElementById("subtypes-block").style.display = "none";
 }
