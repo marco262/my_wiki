@@ -71,7 +71,7 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 
 # References
 
-* [Curse of Strahd online](https://5e-spelljammer.github.io/adventure.html#cos) 
+* [Curse of Strahd online](https://5e.tools/adventure.html#cos)
 * [So You Want to Run Curse of Strahd: A Primer on Preparing (and Running) the Game](https://old.reddit.com/r/CurseofStrahd/comments/f3w658/so_you_want_to_run_curse_of_strahd_a_primer_on/)
 * [So You Want to Play Curse of Strahd: A Player's Primer on Enjoying the Game](https://old.reddit.com/r/CurseofStrahd/comments/hhezj2/so_you_want_to_play_curse_of_strahd_a_players/)
 * [The Genre-Savvy Strahd: A Guide to Running Combat for D&D's Most Dangerous Villain](https://old.reddit.com/r/CurseofStrahd/comments/eekl2g/the_genresavvy_strahd_a_guide_to_running_combat/)
