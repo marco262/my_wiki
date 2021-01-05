@@ -316,7 +316,7 @@ a.wiki-link-broken {
     color: #5f9ea0;
 }
 
-div#show-advanced-block, div#hide-advanced-block {
+div#show-advanced-block, div#hide-advanced-block, div#show-subtypes, div#hide-subtypes {
     font-size: small;
     color: #8C1717;
     text-decoration: underline dotted;
