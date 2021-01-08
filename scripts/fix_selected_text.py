@@ -17,7 +17,7 @@ if sys.argv[1] == "create_wiki_spell_table":
 elif sys.argv[1] == "create_wiki_table":
     text = text.replace("\r", "")
     text = re.sub(r"^", "|| ", text, flags=re.MULTILINE)
-    text = re.sub(r" \s+", " || ", text)
+    text = re.sub(r"( \s+|\t+)", " || ", text)
     text = re.sub(r"$", " ||@", text, flags=re.MULTILINE)
     first_line = text.split("\n")[0]
     first_line_repl = first_line.replace("|| ", "||~ ")
