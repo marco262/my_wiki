@@ -19,6 +19,8 @@ Cursed with Lycanthropy
 * Passive Per: 13
 * Passive Ins: 11
 
+Notes
+
 * All food he eats now tastes like hot borscht (cursed Spoon item from Dragomir)
 
 ### Marbleclaw
@@ -41,7 +43,5 @@ Cursed with Lycanthropy
 ## Notes for Next Session
 
 * Have Orin do History checks as they come across stuff on the road
-* Prep the rest of the road and the landmarks
-* Prep Vallaki 
-* Prep random encounters
+* Create tokens
 * Get more battle/Vallaki/character theme music

@@ -6,6 +6,7 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 
 * [Ismark Kolyanovich](^curse_of_strahd/ismark.jpg) [(stats)](/dnd/monster/Veteran)
 * [Ireena Kolyana](^curse_of_strahd/ireena.jpg) [(stats)](/dnd/monster/Noble)
+  * Has taken on the pseudonym Ivan Mikanovich
   * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
   * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)
   * Noble (sister of current Burgomaster of the Village of Barovia), treated well by others during travels

@@ -36,9 +36,15 @@ Enter another URL to set as Visual Aid here:
   * A Vistani Caravan approaches [1](^curse_of_strahd/vistani_caravan_1.jpg), [2](^curse_of_strahd/vistani_caravan_2.jpg), [3](^curse_of_strahd/vistani_caravan_3.jpg)
 * G. Tser Pool Encampment [1](^curse_of_strahd/tser_pool_encampment_1.jpg), [2](^curse_of_strahd/tser_pool_encampment_2.jpg), [3](^curse_of_strahd/tser_pool_encampment_3.jpg)
   * [Vistani around the fire](^curse_of_strahd/vistani_around_the_fire.jpg)
-  * [Madame Eva](^curse_of_strahd/madame_eva.jpg) 
-* H. [Tser Falls](^curse_of_strahd/tser_falls_1.jpg) 
+  * [Madame Eva](^curse_of_strahd/madame_eva.jpg)
+* H. [Tser Falls](^curse_of_strahd/tser_falls_1.jpg)
 * I. [Black Carriage](^curse_of_strahd/black_carriage.jpg)
+* J. Gates of Ravenloft
+* K. [Castle Ravenloft](Castle Ravenloft)
+* L. Lake Zarovich
+* M. Mad Mage of Mount Baratok
+* N. [Town of Vallaki](Town of Vallaki)
+* O. [Old Bonegrinder](Old Bonegrinder)
 
 ## Other Resources
 

@@ -86,11 +86,11 @@ When a character attempts an action that puts it in direct opposition with anoth
 
 ## Working Together
 
-When two or more characters work together to accomplish the same task, the character with the higher modifier leads the effort. The leader makes the appropriate ability check and enjoys a +2 bonus for one or two helpers or a +5 bonus for three or more helpers. Characters can only work together if it is task where such help is feasible and possible. In addition, a character can only help with a task if they would not be incapable of attempting the task on their own (due to a lack of Proficiency for instance).
+When two or more characters work together to accomplish the same task, the character with the higher modifier leads the effort. The leader makes the appropriate ability check and enjoys a +2 bonus for one or two helpers or a +5 bonus for three or more helpers. Characters can only work together if it is a task where such help is feasible and possible. In addition, a character can only help with a task if they would not be incapable of attempting the task on their own (due to a lack of Proficiency for instance).
 
 ## Group Checks
 
-When several PCs are trying to accomplish something as a group, the GM can call for a group check. First, the GM determines whether the group will succeed if any member succeeds (such as with searching) or if the group will fail if any member fails (such as with stealth). In the first scenario, the character with the highest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. In the second scenario, the character with the lowest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. Bonuses, penalties, Advantage, and Disadvantage are applied normally to the character rolling the check, but these should only be applied after the GM has determined which player has rolled the check.
+When several PCs are trying to accomplish something as a group, the GM can call for a Group Check. First, the GM determines whether the group will succeed if any member succeeds (such as with searching) or if the group will fail if any member fails (such as with stealth). In the first scenario, the character with the highest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. In the second scenario, the character with the lowest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. Bonuses, penalties, Advantage, and Disadvantage are applied normally to the character rolling the check, but these should only be applied after the GM has determined which player has rolled the check.
 
 ----
 

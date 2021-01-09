@@ -42,24 +42,48 @@
         </div>
     </div>
     <div class="dropdown">
+        <a href="/dnd/general/equipment">Equipment</a>
+        <div class="dropdown-content">
+            <a href="/dnd/equipment/Starting Equipment">Starting Equipment</a>
+            <a href="/dnd/equipment/Wealth">Wealth</a>
+            <a href="/dnd/equipment/Armor and Shields">Armor and Shields</a>
+            <a href="/dnd/equipment/Weapons">Weapons</a>
+            <a href="/dnd/equipment/Adventuring Gear">Adventuring Gear</a>
+            <a href="/dnd/equipment/Tools">Tools</a>
+            <a href="/dnd/equipment/Mounts and Vehicles">Mounts and Vehicles</a>
+            <a href="/dnd/equipment/Trade Goods">Trade Goods</a>
+            <a href="/dnd/equipment/Expenses">Expenses</a>
+            <a href="/dnd/equipment/Trinkets">Trinkets</a>
+        </div>
+    </div>
+    <div class="dropdown">
         <a href="/dnd/spell_filter">Spells</a>
         <div class="dropdown-content">
             <a href="/dnd/find_a_spell">Find a Spell</a>
             <a href="/dnd/spell_filter">Spell Filter</a>
             <hr>
-            <a href="/dnd/artificer_spells/true">Artificer Spells</a>
-            <a href="/dnd/bard_spells/true">Bard Spells</a>
-            <a href="/dnd/cleric_spells/true">Cleric Spells</a>
-            <a href="/dnd/druid_spells/true">Druid Spells</a>
-            <a href="/dnd/paladin_spells/true">Paladin Spells</a>
-            <a href="/dnd/ranger_spells/true">Ranger Spells</a>
-            <a href="/dnd/sorcerer_spells/true">Sorcerer Spells</a>
-            <a href="/dnd/warlock_spells/true">Warlock Spells</a>
-            <a href="/dnd/wizard_spells/true">Wizard Spells</a>
+            <a href="/dnd/class_spell_list/artificer/true">Artificer Spells</a>
+            <a href="/dnd/class_spell_list/bard/true">Bard Spells</a>
+            <a href="/dnd/class_spell_list/cleric/true">Cleric Spells</a>
+            <a href="/dnd/class_spell_list/druid/true">Druid Spells</a>
+            <a href="/dnd/class_spell_list/paladin/true">Paladin Spells</a>
+            <a href="/dnd/class_spell_list/ranger/true">Ranger Spells</a>
+            <a href="/dnd/class_spell_list/sorcerer/true">Sorcerer Spells</a>
+            <a href="/dnd/class_spell_list/warlock/true">Warlock Spells</a>
+            <a href="/dnd/class_spell_list/wizard/true">Wizard Spells</a>
         </div>
     </div>
     <div class="dropdown">
-        <a href="/numenera/">Numenera Resources</a>
+        <a href="/dnd/general/How To Play">System Info</a>
+        <div class="dropdown-content">
+            <a href="/dnd/general/How to Play">How to Play</a>
+            <a href="/dnd/general/Using Ability Scores">Using Ability Scores</a>
+            <a href="/dnd/general/Adventuring">Adventuring</a>
+            <a href="/dnd/general/Combat">Combat</a>
+            <a href="/dnd/general/Running Encounters">Running Encounters</a>
+            <a href="/dnd/general/Spellcasting Rules">Spellcasting Rules</a>
+            <a href="/dnd/general/Conditions">Conditions</a>
+        </div>
     </div>
     <div class="dropdown">
         <a href="/curse_of_strahd/">Curse of Strahd</a>
