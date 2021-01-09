@@ -43,5 +43,6 @@ Notes
 ## Notes for Next Session
 
 * Have Orin do History checks as they come across stuff on the road
-* Create tokens
 * Get more battle/Vallaki/character theme music
+* Create tokens
+* Find visual aids for special events

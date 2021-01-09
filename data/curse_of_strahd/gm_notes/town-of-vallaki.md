@@ -62,11 +62,8 @@
   * [Wolf's Head Jamboree posters](^curse_of_strahd/wolfs_head_jamboree_poster.jpg) are in the middle of being replaced by [Festival of the Blazing Sun posters](^curse_of_strahd/festival_of_the_blazing_sun_poster.jpg).
 * N9. [Vistani Camp](^curse_of_strahd/vistani_camp.jpg)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vistani Camp.jpg)
-  * Led by brothers [Luvash](^curse_of_strahd/luvash.jpg) and [Arrigal](^curse_of_strahd/arrigal.jpg)
+  * Led by brothers [Luvash](^curse_of_strahd/luvash.jpg) and [Arrigal](^curse_of_strahd/arrigal.png)
   * [Kasimir Velikov](^curse_of_strahd/kasimir_velikov.jpg)
 
 
 # Events
-
-* [March of the Dead](^curse_of_strahd/march_of_the_dead.jpg)
-* [Morgantha](^curse_of_strahd/morgantha.png) [(stats)](/dnd/monster/Night Hag)
