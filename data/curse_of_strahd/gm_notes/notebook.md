@@ -33,7 +33,7 @@ Notes
 
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
-* 25: Buried Kolyan, traveled to Vallaki (Today)
+* 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped the Blue Water Inn (Today)
 
 ## General Notes
 
@@ -46,3 +46,4 @@ Notes
 * Get more battle/Vallaki/character theme music
 * Create tokens
 * Find visual aids for special events
+* Add https://i.4pcdn.org/x/1525144668250.jpg to Old Bonegrinder Visual Aid
