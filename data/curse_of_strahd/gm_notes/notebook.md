@@ -47,3 +47,5 @@ Notes
 * Create tokens
 * Find visual aids for special events
 * Add https://i.4pcdn.org/x/1525144668250.jpg to Old Bonegrinder Visual Aid
+* Figure out where the fuck Jared is at
+* Add https://i.4pcdn.org/x/1525144668250.jpg to Old Bonegrinder Visual Aid
