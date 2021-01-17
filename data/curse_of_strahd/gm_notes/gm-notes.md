@@ -21,6 +21,22 @@ Enter another URL to set as Visual Aid here:
 
 # Barovia
 
+## NPCs
+
+* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) [(stats)](/dnd/monster/Noble)
+  * Has taken on the pseudonym Ivan Mikanovich
+  * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
+  * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)
+  * Noble (sister of current Burgomaster of the Village of Barovia), treated well by others during travels
+  * Unused to travel by foot, but will not complain
+  * Top priority is keeping herself safe, willing to help the party to that end
+  * Terrified of Strahd
+  * Sense of humor
+  * One of the few people in Barovia who are Lawful Good
+  * Dyes her hair from red to black. Red hair is "unlucky" and it makes her stand out. Her natural hair color will start to come out.
+  * Has embroidery as a hobby. Embroiders her clothes and items with little designs.
+  * May eventually pick up the Healer feat.
+
 ## Areas of Barovia
 
 [Map of Barovia](https://i.redd.it/7d0q3j8rkxy41.jpg) (with enemies of Strahd highlighted)
@@ -29,7 +45,7 @@ Enter another URL to set as Visual Aid here:
 
 * A. Old Svalich Road [1](^curse_of_strahd/old_svalich_road_1.png), [2](^curse_of_strahd/old_svalich_road_2.jpg)
 * B. Gates of Barovia [1](^curse_of_strahd/gates_dim.jpg), [2](^curse_of_strahd/gates_2.jpg), [doors opening]($load|effect|curse_of_strahd/Horror Door Sound Effect _ HQ.mp3)
-* C. Svalich Woods [1](^curse_of_strahd/svalich_woods_1.jpg), [2](^curse_of_strahd/svalich_woods_2.jpg)
+* C. Svalich Woods [1](^curse_of_strahd/svalich_woods.mp4), [2](^curse_of_strahd/svalich_woods_2.jpg)
 * D. River Ivlis [1](^curse_of_strahd/river_ivlis_1.jpg), [2](^curse_of_strahd/river_ivlis_2.jpg)
 * E. [Village of Barovia](Village of Barovia)
 * F. River Ivlis Crossroads [1](^curse_of_strahd/river_ivlis_crossroads_1.jpg), [2](^curse_of_strahd/river_ivlis_crossroads_2.jpg), [3](^curse_of_strahd/river_ivlis_crossroads_3.jpg)
@@ -41,10 +57,14 @@ Enter another URL to set as Visual Aid here:
 * I. [Black Carriage](^curse_of_strahd/black_carriage.jpg)
 * J. Gates of Ravenloft
 * K. [Castle Ravenloft](Castle Ravenloft)
-* L. Lake Zarovich
+* L. [Lake Zarovich](^curse_of_strahd/lake_zarovich.mp4)
 * M. Mad Mage of Mount Baratok
 * N. [Town of Vallaki](Town of Vallaki)
 * O. [Old Bonegrinder](Old Bonegrinder)
+* P. Luna River Crossroads
+* Q. [Argynvostholt](Argynvostholt)
+* R. Raven River Crossroads
+* S. [Village of Krezk](Village of Krezk)
 
 ## Other Resources
 
@@ -100,10 +120,6 @@ Strahd curses any adventurer souls to never reincarnate, and are instead forced 
 * Their Ally is Rudolph van Richten. They first encounter Esmerelda who journeys with them to find Richten. However, Strahd kills Richten. In despair, Esmerelda finally comes into her own and takes on the power Richten possessed.
   * Maybe a vampire hunter needs to learn to channel divine power of some kind? She regains her faith?
 * Lord Jared is a Summer Court Fey, and so is not "welcome" in the Shadowfell where Barovia's demiplane exists
-  * When they meet with Madame Eva, she'll seek counsel from Mother Night, but the "Divine Power" she channels will be Lord Jared. 
-  * He'll speak with the party and tell them he doesn't have much time, but will tell them two things:
-    * To put great weight onto any advice Madame Eva gives them.
-    * To seek out a <insert object here> when they get to Vallaki and to do <thing> with it. This will allow him to visit them for solidly.
     * On his first visit, he will bring some Uncommon magic items with him as presents, and give them more instructions for other items to seek out.
     * With each item they find, he visits with more gifts of increasing rarity, to Rare, Very Rare, and Legendary.
 * Lord Jared wants something from Strahd. The sunsword? The tome? The holy symbol? Something else?

@@ -65,6 +65,8 @@
 * [Svalich Woods]($load|ambience|curse_of_strahd/D&D Ambience CoS Svalich Woods.mp3)
 * [Village of Barovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Barovia.mp3)
 * [Town of Vallaki]($load|ambience|curse_of_strahd/D&D Ambience CoS Town of Vallaki.mp3)
+* [Village of Krezk]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Krezk.mp3)
+* [Abbey of St Markovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Abbey of St Markovia.mp3)
 
 ## Effect
 

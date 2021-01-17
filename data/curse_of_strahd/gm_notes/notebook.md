@@ -42,10 +42,8 @@ Notes
 
 ## Notes for Next Session
 
-* Have Orin do History checks as they come across stuff on the road
-* Get more battle/Vallaki/character theme music
 * Create tokens
-* Find visual aids for special events
-* Add https://i.4pcdn.org/x/1525144668250.jpg to Old Bonegrinder Visual Aid
-* Figure out where the fuck Jared is at
-* Add https://i.4pcdn.org/x/1525144668250.jpg to Old Bonegrinder Visual Aid
+* Create guard/cultist tokens
+* Fill out visual aids for Krezk
+* Get more battle/Vallaki/character theme music
+* Have Orin do History checks as they come across stuff on the road 
