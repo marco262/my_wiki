@@ -15,5 +15,7 @@ _Source:_ <https://docs.google.com/document/d/1p6IdiO82ve2xHbRvfevp8iKQ1wwX447Ss
   * [Vistani bandits](^curse_of_strahd/vistani_2.jpg) ([stats](/dnd/monster/bandit))
   * [Ghouls](^curse_of_strahd/ghoul.jpg) ([stats](https://5e.tools/bestiary/ghoul-mm.html))
 * [Vallaki Valley](https://docs.google.com/document/d/1p6IdiO82ve2xHbRvfevp8iKQ1wwX447Ss_D2Ob1dJOY/view#heading=h.xg0jleyg8523)
-
+  * [Skeletal Rider](^curse_of_strahd/skeletal_rider.jpg) ([link](https://5e.tools/adventure.html#cos,2,skeletal%20rider,0)), seeking a way to escape this land
+* [Wolfrun](https://docs.google.com/document/d/1p6IdiO82ve2xHbRvfevp8iKQ1wwX447Ss_D2Ob1dJOY/view#heading=h.pf5fg4u6eh3)
+  * [Revenant](^curse_of_strahd/revenant.jpg) ([stats](https://5e.tools/bestiary.html#revenant_mm)), name forgotten, hunting wolves
 

@@ -78,8 +78,19 @@ function handle_websocket(msg) {
 function handle_visual_aid(url) {
     console.log("Setting img src: " + url);
     document.getElementById("iframe").hidden = true;
-    document.getElementById("picture").hidden = false;
-    document.getElementById("picture").style.backgroundImage = "url('" + url + "')";
+    let picture = document.getElementById("picture");
+    let video = document.getElementById("video");
+    if (url.endsWith(".mp4")) {
+        picture.hidden = true;
+        video.hidden = false;
+        video.src = url;
+        video.play();
+    } else {
+        video.hidden = true;
+        video.pause();
+        picture.style.backgroundImage = "url('" + url + "')";
+        picture.hidden = false;
+    }
 }
 
 function handle_audio(action, target, url) {
@@ -127,6 +138,9 @@ function handle_audio(action, target, url) {
 function handle_iframe(url) {
     console.log(`Loading ${url} in iframe`);
     document.getElementById("picture").hidden = true;
+    let video = document.getElementById("video");
+    video.hidden = true;
+    video.pause();
     let iframe = document.getElementById("iframe");
     iframe.hidden = false;
     // Set onload so that once it's loaded, it goes to the right hash
