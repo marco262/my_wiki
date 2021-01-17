@@ -61,6 +61,8 @@
 
 ## Ambience
 
+
+* [Nighttime Forest]($load|ambience|Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp3)
 * [Mists of Ravenloft]($load|ambience|curse_of_strahd/D&D Ambience CoS Mists of Ravenloft.mp3)
 * [Svalich Woods]($load|ambience|curse_of_strahd/D&D Ambience CoS Svalich Woods.mp3)
 * [Village of Barovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Barovia.mp3)
