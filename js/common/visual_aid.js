@@ -1,6 +1,7 @@
 let websocket_errors = 0;
 let max_websocket_errors = 3;
 let ws = null;
+let visual_aid_version = null;
 
 let all_audio = [];
 let music_audio = [];
@@ -36,7 +37,7 @@ function load_websocket() {
     ws = new WebSocket(ws_uri);
     ws.onmessage = handle_websocket;
     ws.onerror = on_websocket_error;
-    console.log(`Loaded websocket`)
+    console.log(`Loaded websocket`);
 }
 
 function on_websocket_error(error) {
@@ -66,6 +67,16 @@ function handle_websocket(msg) {
     let response = msg.data;
     console.log(response);
     let json = JSON.parse(response);
+    // Check if we need to reload the page
+    if (visual_aid_version === null) {
+        visual_aid_version = json["version"];
+        console.log(`Visual aid version ${visual_aid_version}`);
+    } else if (visual_aid_version !== json["version"]) {
+        console.log(`Current visual aid version (${visual_aid_version}) doesn't match value returned by server (${json["version"]}). Refreshing page...`);
+        force_page_refresh();
+        return;
+    }
+    // Handle remaining data
     if (json["action"] === "visual_aid") {
         handle_visual_aid(json["url"]);
     } else if (json["action"] === "iframe") {
@@ -73,6 +84,10 @@ function handle_websocket(msg) {
     } else {
         handle_audio(json["action"], json["target"], json["url"]);
     }
+}
+
+function force_page_refresh() {
+    location.reload(true);
 }
 
 function handle_visual_aid(url) {
