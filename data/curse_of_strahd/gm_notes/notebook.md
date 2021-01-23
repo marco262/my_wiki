@@ -34,6 +34,7 @@ Notes
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
 * 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped the Blue Water Inn (Today)
+* 26: Left Vallaki, got to Krezk
 
 ## General Notes
 
@@ -42,8 +43,8 @@ Notes
 
 ## Notes for Next Session
 
-* Create tokens
-* Create guard/cultist tokens
 * Fill out visual aids for Krezk
+* Finish prepping abbey
 * Get more battle/Vallaki/character theme music
+* FIRST DAY OF FULL MOON YAAAAASSSSS
 * Have Orin do History checks as they come across stuff on the road 

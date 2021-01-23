@@ -26,7 +26,8 @@
 **Locations**
 
 * [Church of the Morninglord]($load|music|curse_of_strahd/Music Of Cathedrals and Forgotten Temples _ 1 Hour Atmospheric Choir Mix.mp3)
-* [Vistani Camp]($load|music|curse_of_strahd/CoS Vistani Camp-8TtFIT3x2PI.mp3)
+* [Vistani Camp]($load|music|curse_of_strahd/CoS Vistani Camp 8TtFIT3x2PI.mp3)
+* [Abbey of Saint Markovia - Main Hall]($load|music|curse_of_strahd/Luigi Boccherini Minuet String Quintet 2AZOknKotVc.mp3)
 
 **Fight Music**
 
@@ -61,14 +62,20 @@
 
 ## Ambience
 
+### General
 
 * [Nighttime Forest]($load|ambience|Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp3)
+* [Nighttime Indoors - Rain]($load|ambience|Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp3)
+
+### Location Specific
+
 * [Mists of Ravenloft]($load|ambience|curse_of_strahd/D&D Ambience CoS Mists of Ravenloft.mp3)
 * [Svalich Woods]($load|ambience|curse_of_strahd/D&D Ambience CoS Svalich Woods.mp3)
 * [Village of Barovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Barovia.mp3)
 * [Town of Vallaki]($load|ambience|curse_of_strahd/D&D Ambience CoS Town of Vallaki.mp3)
 * [Village of Krezk]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Krezk.mp3)
 * [Abbey of St Markovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Abbey of St Markovia.mp3)
+* [Wizard of Wines]($load|ambience|curse_of_strahd/D&D Ambience CoS Wizard Of Wines.mp3)
 
 ## Effect
 

@@ -45,7 +45,7 @@ Enter another URL to set as Visual Aid here:
 
 * A. Old Svalich Road [1](^curse_of_strahd/old_svalich_road_1.png), [2](^curse_of_strahd/old_svalich_road_2.jpg)
 * B. Gates of Barovia [1](^curse_of_strahd/gates_dim.jpg), [2](^curse_of_strahd/gates_2.jpg), [doors opening]($load|effect|curse_of_strahd/Horror Door Sound Effect _ HQ.mp3)
-* C. Svalich Woods [1](^curse_of_strahd/svalich_woods.mp4), [2](^curse_of_strahd/svalich_woods_2.jpg)
+* C. Svalich Woods [1](^curse_of_strahd/svalich_woods.mp4), [2](^curse_of_strahd/svalich_woods_2.jpg), [3](^curse_of_strahd/svalich_woods_3.jpg)
 * D. River Ivlis [1](^curse_of_strahd/river_ivlis_1.jpg), [2](^curse_of_strahd/river_ivlis_2.jpg)
 * E. [Village of Barovia](Village of Barovia)
 * F. River Ivlis Crossroads [1](^curse_of_strahd/river_ivlis_crossroads_1.jpg), [2](^curse_of_strahd/river_ivlis_crossroads_2.jpg), [3](^curse_of_strahd/river_ivlis_crossroads_3.jpg)
@@ -65,6 +65,10 @@ Enter another URL to set as Visual Aid here:
 * Q. [Argynvostholt](Argynvostholt)
 * R. Raven River Crossroads
 * S. [Village of Krezk](Village of Krezk)
+* T. Tsolenka Pass
+* U. Ruins of Berez
+* V. Van Richten's Tower
+* W. [Wizard of Wines](Wizard of Wines)
 
 ## Other Resources
 

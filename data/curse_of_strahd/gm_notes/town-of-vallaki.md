@@ -31,7 +31,7 @@
   * [Szoldar Szoldarovich](^curse_of_strahd/szoldar_szoldarovich.jpg) and [Yevgeni Krushkin](^curse_of_strahd/yevgeni_krushkin.jpg), wolf hunters
   * [Nikolai and Karl Wachter](^curse_of_strahd/nikolai_and_karl_wachter.jpg), drunkards, sons of [Fiona Wachter](^curse_of_strahd/fiona_wachter.jpg)
   * [Rictavio](^curse_of_strahd/rictavio.jpg), carnival ringmaster from a distant land, actually Rudolph van Ricten
-* N3. [Burgomaster's Mansion](^curse_of_strahd/vallaki_burgomasters_mansion.jpg)
+* N3. [Burgomaster's Mansion](^curse_of_strahd/vallaki_burgomasters_mansion.mp4)
   * [Interior](^curse_of_strahd/vallaki_burgomasters_mansion_interior.jpg)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vallaki Burgomaster's Mansion.jpg)
   * [Baron Vargas Vallakovich](^curse_of_strahd/baron_vargas_vallakovich.jpg)
