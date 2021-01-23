@@ -14,7 +14,9 @@ START_TIME = None
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
+visual_aid_type = "visual_aid"
 visual_aid_url = "/static/img/visual_aids/curse_of_strahd/gates_dim.jpg"
+visual_aid_version = "1.0.0"
 websocket_list = []
 
 
@@ -95,27 +97,30 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/visual_aid_websocket', apply=[websocket])
     def visual_aid_websocket(ws):
         global visual_aid_url, websocket_list
-        ws.send(dumps({"action": "visual_aid", "url": visual_aid_url}))
+        ws.send(dumps({"action": visual_aid_type, "url": visual_aid_url, "version": visual_aid_version}))
         websocket_loop(ws, websocket_list)
 
     @app.post("/set_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
-        global visual_aid_url
+        global visual_aid_url, visual_aid_type
         params = dict(request.params)
         print(params)
         if params["action"] == "visual_aid":
+            visual_aid_type = "visual_aid"
             visual_aid_url = params["url"]
             print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
         elif params["action"] == "iframe":
-            print("Loading iframe with URL: {!r}".format(params["url"]), flush=True)
+            visual_aid_type = "iframe"
+            visual_aid_url = params["url"]
+            print("Loading iframe with URL: {!r}".format(visual_aid_url), flush=True)
         else:
-            print(f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(params["url"])}', 
-                  flush=True)
-        if params["debug"] == "true":
-            return params["url"]
-        else:
-            send_to_websockets(params, websocket_list)
+            print(
+                f'Sending new {params.get("action")} URL to {params.get("target")}: {repr(params["url"])}',
+                flush=True
+            )
+        params["version"] = visual_aid_version
+        send_to_websockets(params, websocket_list)
 
     @app.get("/player soundboard")
     def player_soundboard():
