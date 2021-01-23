@@ -44,7 +44,7 @@
 * S15. Madhouse
   * [Flesh Golem](^curse_of_strahd/flesh_golem.jpg) ([stats](https://5e.tools/bestiary.html#flesh%20golem_mm))
 * S17. Loft and Belfry
-  * [Clovin Belview](^curse_of_strahd/clovin_belview.jpeg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Two-Headed), "Being drunk keeps me sane."
+  * [Clovin Belview](^curse_of_strahd/clovin_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Two-Headed), "Being drunk keeps me sane."
 * S19. Barracks
   * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
 * S21. Haunted Hospital
