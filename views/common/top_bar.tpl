@@ -54,6 +54,8 @@
             <a href="/dnd/equipment/Trade Goods">Trade Goods</a>
             <a href="/dnd/equipment/Expenses">Expenses</a>
             <a href="/dnd/equipment/Trinkets">Trinkets</a>
+            <hr>
+            <a href="/dnd/equipment/magic_item_filter/">Magic Item Filter</a>
         </div>
     </div>
     <div class="dropdown">
