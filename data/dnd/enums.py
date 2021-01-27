@@ -202,5 +202,6 @@ magic_item_sources = [
     "Dungeon Master's Guide",
     "Xanathar's Guide to Everything",
     "Tasha's Cauldron of Everything",
-    "Waterdeep: Dragon Heist"
+    "Waterdeep: Dragon Heist",
+    "Homebrew"
 ]
