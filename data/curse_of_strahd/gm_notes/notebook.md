@@ -38,13 +38,16 @@ Notes
 
 ## General Notes
 
-* DON'T FORGET ABOUT WISHES
+* ETHEL CHANGES TONIGHT!!!
 * Implement Path of the Beast only after Ethel's first transformation?
 
 ## Notes for Next Session
 
-* Fill out visual aids for Krezk
-* Finish prepping abbey
 * Get more battle/Vallaki/character theme music
 * FIRST DAY OF FULL MOON YAAAAASSSSS
-* Have Orin do History checks as they come across stuff on the road 
+* Have Orin do History checks as they come across stuff on the road
+* Add HP to monsters in Roll20
+* Reread the Abbey
+* Read up on Berez and consider pointing the PCs there before Wizard of Wines
+* Ponder motivations of Ezmerelda
+* Get more fight music

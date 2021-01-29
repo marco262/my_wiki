@@ -6,6 +6,8 @@
 </script>
 
 * [Approaching](^curse_of_strahd/krezk.mp4)
+* [Inside the Walls](^curse_of_strahd/krezk_1.jpg)
+* [Looking Down from the Abbey](^curse_of_strahd/krezk_2.jpg)
  
 # Places
 
@@ -35,18 +37,19 @@
   * [Zygrek Belview](^curse_of_strahd/zygfrek_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Darkvision), "I don't like the way people judge me all the time."
 * S12. [Courtyard](^curse_of_strahd/abbey_of_saint_markovia_courtyard.jpeg)
   * S12a. Well
-    * [Mishka Belview](^curse_of_strahd/mishka_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Spider Climb), enjoys killing people
+      * [Mishka Belview](^curse_of_strahd/mishka_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Spider Climb), enjoys killing people
   * S12d. Tethering Posts
-    * [Marzena Belview](^curse_of_strahd/marzena_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Flight), "I am convinced that powerful enemies are hunting me, and their agents are everywhere I go. I am sure they're watching me all the time."
+      * [Marzena Belview](^curse_of_strahd/marzena_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Flight), "I am convinced that powerful enemies are hunting me, and their agents are everywhere I go. I am sure they're watching me all the time."
 * S13. [Main Hall](^curse_of_strahd/abbet_of_saint_markovia_main_hall.jpg)
-  * [The Abbot](^curse_of_strahd/the_abbot.jpg), disguised deva ([stats](https://5e.tools/bestiary.html#deva_mm))
-  * [Vasilka](^curse_of_strahd/vasilka.png), flesh golem ([stats](https://5e.tools/bestiary.html#flesh%20golem_mm))
+  * [The Abbot](^curse_of_strahd/the_abbot.jpg), disguised [deva](^curse_of_strahd/deva.png) ([stats](https://5e.tools/bestiary.html#deva_mm))
+  * [Vasilka](^curse_of_strahd/vasilka.jpg), flesh golem ([stats](https://5e.tools/bestiary.html#flesh%20golem_mm))
 * S15. Madhouse
   * [Flesh Golem](^curse_of_strahd/flesh_golem.jpg) ([stats](https://5e.tools/bestiary.html#flesh%20golem_mm))
+  * [Statuette of Saint Markovia](^curse_of_strahd/statuette_of_saint_markovia.jpg)
 * S17. Loft and Belfry
   * [Clovin Belview](^curse_of_strahd/clovin_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Two-Headed), "Being drunk keeps me sane."
 * S19. Barracks
-  * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
+  * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
 * S21. Haunted Hospital
   * [Shadow](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 

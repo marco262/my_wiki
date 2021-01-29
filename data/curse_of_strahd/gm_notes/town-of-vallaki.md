@@ -39,7 +39,7 @@
   * [Izek Strazni](^curse_of_strahd/izek_strazni.jpg), the Baron's henchman, Ireena's long-lost brother ([Izek's room](^curse_of_strahd/izeks_room.jpg))
   * [Victor Vallakovich](^curse_of_strahd/victor_vallakovich.jpg), son
   * [Udo Lukovich](^curse_of_strahd/udo_lukovich.jpg), prisoner
-* N4. [Wachterhaus](^curse_of_strahd/wachterhaus.jpg)
+* N4. [Wachterhaus](^curse_of_strahd/wachterhaus.mp4)
   * [Interior](^curse_of_strahd/wachterhaus_interior.jpg)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Wachterhaus.jpg)
   * [Fiona Wachter](^curse_of_strahd/fiona_wachter.jpg)
