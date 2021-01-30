@@ -33,8 +33,8 @@ Notes
 
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
-* 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped the Blue Water Inn (Today)
-* 26: Left Vallaki, got to Krezk
+* 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped at the Blue Water Inn
+* 26: Left Vallaki, got to Krezk, saw dead people (Today)
 
 ## General Notes
 

@@ -89,6 +89,10 @@ body {
   height: 100%;
 }
 
+.inverted {
+  transform: rotateZ(180deg);
+}
+
 .off-grid {
   transform: translateY(-350%);
 }

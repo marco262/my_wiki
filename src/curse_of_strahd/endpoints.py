@@ -38,7 +38,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("tarokka")
     @view("curse_of_strahd/tarokka.tpl")
-    def calendar():
+    def tarokka():
         return
 
     @app.get("/tarokka_websocket", apply=[websocket])

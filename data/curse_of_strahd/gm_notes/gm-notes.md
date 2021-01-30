@@ -19,6 +19,8 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
+<span class="visual-aid-link" title="iframe|curse_of_strahd/tarokka">Display Tarokka Table</span>
+
 # Barovia
 
 ## NPCs

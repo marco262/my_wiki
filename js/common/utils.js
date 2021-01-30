@@ -89,3 +89,11 @@ export function click_tab(event) {
         pages[i].style.display = (pages[i].id === active_page_id) ? "inline-block" : "none";
     }
 }
+
+// Durstenfeld Shuffle from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+export function shuffle_array(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}

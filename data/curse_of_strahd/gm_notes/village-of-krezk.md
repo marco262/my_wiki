@@ -57,7 +57,7 @@
       2. Torturer. He carries with him great pain and loss (Ezmerelda already knows this).
       3. Mists. He seeks knowledge, but such knowledge is hard to come by, or hidden from him in same way.
       4. Traitor, inverted. If his disguise is uncovered, he could be in great danger.
-      5. Shepherd, inverted. He travels with a domesticated animal of some kind, who is his closest companion.
+      5. Shepherd, inverted. He travels with someone, perhaps a domesticated animal of some kind, who is his closest companion.
   * She's heard of a werewolf den to the north, and plans to completely avoid it. 
   * She's heard of a Vistani caravan near Vallaki, and though she plans to avoid the town altogether, she wants to stop by the encampment there to gather intel.
   * She is friendly but guarded, not used to trusting others. She can be convinced to walk alongside the PCs, but isn't interested in joining them in their quests without good reason.
