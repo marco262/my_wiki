@@ -10,11 +10,22 @@
 </head>
 <body style="background-image: url(/static/img/tileable-wood-texture.jpg)">
 <%
-left = "Master of Glyphs - Priest"
-top = "8 of Coins - Tax Collector"
-right = "2 of Glyphs - Missionary"
-bottom = "High Deck - Mists"
-middle = "High Deck - Broken One"
+# left = "Master of Glyphs - Priest"
+# top = "8 of Coins - Tax Collector"
+# right = "2 of Glyphs - Missionary"
+# bottom = "High Deck - Mists"
+# middle = "High Deck - Broken One"
+
+middle = "7 of Glyphs - Charlatan"
+middle_class = ""
+bottom = "9 of Swords - Torturer"
+bottom_class = ""
+left = "High Deck - Mists"
+left_class = ""
+top = "9 of Glyphs - Traitor"
+top_class = "inverted"
+right = "4 of Glyphs - Shepherd"
+right_class = "inverted"
 %>
 
 <div id='grid'>
@@ -24,7 +35,7 @@ middle = "High Deck - Broken One"
                 <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
             </div>
             <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ top }}.png" alt="Front">
+                <img id="card-img-top" class="card {{ top_class }}" src="/static/img/tarokka/{{ top }}.png" alt="Front">
             </div>
         </div>
     </article>
@@ -34,7 +45,7 @@ middle = "High Deck - Broken One"
                 <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
             </div>
             <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ left }}.png" alt="Front">
+                <img id="card-img-left" class="card {{ left_class }}" src="/static/img/tarokka/{{ left }}.png" alt="Front">
             </div>
         </div>
     </article>
@@ -44,7 +55,7 @@ middle = "High Deck - Broken One"
                 <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
             </div>
             <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ middle }}.png" alt="Front">
+                <img id="card-img-middle" class="card {{ middle_class }}" src="/static/img/tarokka/{{ middle }}.png" alt="Front">
             </div>
         </div>
     </article>
@@ -54,7 +65,7 @@ middle = "High Deck - Broken One"
                 <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
             </div>
             <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ right }}.png" alt="Front">
+                <img id="card-img-right" class="card {{ right_class }}" src="/static/img/tarokka/{{ right }}.png" alt="Front">
             </div>
         </div>
     </article>
@@ -64,7 +75,7 @@ middle = "High Deck - Broken One"
                 <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
             </div>
             <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ bottom }}.png" alt="Front">
+                <img id="card-img-bottom" class="card {{ bottom_class }}" src="/static/img/tarokka/{{ bottom }}.png" alt="Front">
             </div>
         </div>
     </article>
