@@ -46,8 +46,6 @@ Notes
 * Get more battle/Vallaki/character theme music
 * FIRST DAY OF FULL MOON YAAAAASSSSS
 * Have Orin do History checks as they come across stuff on the road
-* Add HP to monsters in Roll20
 * Reread the Abbey
 * Read up on Berez and consider pointing the PCs there before Wizard of Wines
-* Ponder motivations of Ezmerelda
 * Get more fight music
