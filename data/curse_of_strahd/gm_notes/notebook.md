@@ -23,7 +23,7 @@ Notes
 
 * All food he eats now tastes like hot borscht (cursed Spoon item from Dragomir)
 
-### Marbleclaw
+### Marblepaw
 
 * Armor Class: 14
 * Passive Per: 14
