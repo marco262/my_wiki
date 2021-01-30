@@ -50,6 +50,17 @@
   * [Clovin Belview](^curse_of_strahd/clovin_belview.jpg) ([stats](https://5e.tools/bestiary.html#mongrelfolk_cos), with Two-Headed), "Being drunk keeps me sane."
 * S19. Barracks
   * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
+  * Ezmerelda is visiting to try to seek out more info about Strahd, and try to find her mentor, the great vampire hunter Rudolph van Richten, and help him defeat Strahd.
+  * She has already infiltrated his tower, and has his research notes on her
+  * She's done a reading on his present state, and pulled the following cards:
+      1. Charlatan. He is hidden somewhere, likely in a disguise of some kind. 
+      2. Torturer. He carries with him great pain and loss (Ezmerelda already knows this).
+      3. Mists. He seeks knowledge, but such knowledge is hard to come by, or hidden from him in same way.
+      4. Traitor, inverted. If his disguise is uncovered, he could be in great danger.
+      5. Shepherd, inverted. He travels with a domesticated animal of some kind, who is his closest companion.
+  * She's heard of a werewolf den to the north, and plans to completely avoid it. 
+  * She's heard of a Vistani caravan near Vallaki, and though she plans to avoid the town altogether, she wants to stop by the encampment there to gather intel.
+  * She is friendly but guarded, not used to trusting others. She can be convinced to walk alongside the PCs, but isn't interested in joining them in their quests without good reason.
 * S21. Haunted Hospital
   * [Shadow](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 
