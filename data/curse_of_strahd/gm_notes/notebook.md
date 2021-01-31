@@ -47,5 +47,5 @@ Notes
 * FIRST DAY OF FULL MOON YAAAAASSSSS
 * Have Orin do History checks as they come across stuff on the road
 * Reread the Abbey
-* Read up on Berez and consider pointing the PCs there before Wizard of Wines
 * Get more fight music
+* Vasili von Holtz: https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg
