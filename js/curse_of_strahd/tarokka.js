@@ -85,11 +85,12 @@ function set_cards(data) {
 function deal_cards() {
     console.log("Dealing cards");
     let next_delay = 0;
-    for (const [key, value] of Object.entries(flip_card_inner_elements)) {
-        if (value.classList.contains("off-grid")) {
+    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+        let card = flip_card_inner_elements[key];
+        if (card.classList.contains("off-grid")) {
             setTimeout(function () {
                 card_deal_sfx.play();
-                value.classList.toggle("off-grid", false);
+                card.classList.toggle("off-grid", false);
             }, next_delay);
             next_delay += 750;
         }
@@ -99,11 +100,12 @@ function deal_cards() {
 function flip_card(data) {
     console.log(`Flipping card ${data}`);
     let next_delay = 0;
-    for (const [key, value] of Object.entries(flip_card_inner_elements)) {
+    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+        let card = flip_card_inner_elements[key];
         if (data === "all" || data === key) {
             setTimeout(function () {
                 card_flip_sfx.play();
-                value.classList.toggle("flipped");
+                card.classList.toggle("flipped");
             }, next_delay);
             next_delay += 750;
         }
@@ -112,10 +114,11 @@ function flip_card(data) {
 
 function hide_cards() {
     let cards_flipped = false;
-    for (const [key, value] of Object.entries(flip_card_inner_elements)) {
-        if (value.classList.contains("flipped")) {
+    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+        let card = flip_card_inner_elements[key];
+        if (card.classList.contains("flipped")) {
             cards_flipped = true;
-            value.classList.toggle("flipped", false);
+            card.classList.toggle("flipped", false);
         }
     }
     if (cards_flipped) {
@@ -128,8 +131,9 @@ function reset_cards() {
     console.log("Resetting cards");
     let reset_delay = hide_cards() ? 750 : 0;
     setTimeout(function () {
-        for (const [key, value] of Object.entries(flip_card_inner_elements)) {
-            value.classList.toggle("off-grid", true);
+        for (const key of ["top", "left", "middle", "right", "bottom"]) {
+            let card = flip_card_inner_elements[key];
+            card.classList.toggle("off-grid", true);
         }
     }, reset_delay);
     return reset_delay;

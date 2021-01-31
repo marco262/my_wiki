@@ -1,6 +1,4 @@
-import {ajax_call, shuffle_array} from "../common/utils.js";
-
-const tarokka_card_list = ['1 of Coins - Swashbuckler', '1 of Glyphs - Monk', '1 of Stars - Transmuter', '1 of Swords - Avenger', '2 of Coins - Philanthropist', '2 of Glyphs - Missionary', '2 of Stars - Diviner', '2 of Swords - Paladin', '3 of Coins - Trader', '3 of Glyphs - Healer', '3 of Stars - Enchanter', '3 of Swords - Soldier', '4 of Coins - Merchant', '4 of Glyphs - Shepherd', '4 of Stars - Abjurer', '4 of Swords - Mercenary', '5 of Coins - Guild Member', '5 of Glyphs - Druid', '5 of Stars - Elementalist', '5 of Swords - Myrmidon', '6 of Coins - Beggar', '6 of Glyphs - Anarchist', '6 of Stars - Evoker', '6 of Swords - Berserker', '7 of Coins - Thief', '7 of Glyphs - Charlatan', '7 of Stars - Illusionist', '7 of Swords - Hooded One', '8 of Coins - Tax Collector', '8 of Glyphs - Bishop', '8 of Stars - Necromancer', '8 of Swords - Dictator', '9 of Coins - Miser', '9 of Glyphs - Traitor', '9 of Stars - Conjurer', '9 of Swords - Torturer', 'High Deck - Artifact', 'High Deck - Beast', 'High Deck - Broken One', 'High Deck - Darklord', 'High Deck - Donjon', 'High Deck - Executioner', 'High Deck - Ghost', 'High Deck - Horseman', 'High Deck - Innocent', 'High Deck - Marionette', 'High Deck - Mists', 'High Deck - Raven', 'High Deck - Seer', 'High Deck - Tempter', 'High Deck - Temptress', 'Master of Coins - Rogue', 'Master of Glyphs - Priest', 'Master of Stars - Wizard', 'Master of Swords - Warrior'];
+import {ajax_call} from "../common/utils.js";
 
 export function init() {
     document.getElementById("deal-button").onclick = () => { send_to_websocket("deal"); };
@@ -11,94 +9,10 @@ export function init() {
     document.getElementById("flip-right-button").onclick = () => { send_to_websocket("flip", "right"); };
     document.getElementById("flip-bottom-button").onclick = () => { send_to_websocket("flip", "bottom"); };
     document.getElementById("reset-button").onclick = () => { send_to_websocket("reset"); };
-    document.getElementById("set-prophecy-button").onclick = set_prophecy;
-    document.getElementById("set-ezmerelda-reading-button").onclick = set_ezmerelda_reading;
-    document.getElementById("set-random-reading-button").onclick = set_random_reading;
-}
-
-function set_prophecy() {
-    send_to_websocket(
-        "set",
-        JSON.stringify({
-            "top": {
-                "card": "8 of Coins - Tax Collector",
-                "inverted": false
-            },
-            "left": {
-                "card": "Master of Glyphs - Priest",
-                "inverted": false
-            },
-            "middle": {
-                "card": "High Deck - Broken One",
-                "inverted": false
-            },
-            "right": {
-                "card": "2 of Glyphs - Missionary",
-                "inverted": false
-            },
-            "bottom": {
-                "card": "High Deck - Mists",
-                "inverted": false
-            },
-        })
-    );
-}
-
-function set_ezmerelda_reading() {
-    send_to_websocket(
-        "set",
-        JSON.stringify({
-            "top": {
-                "card": "9 of Glyphs - Traitor",
-                "inverted": true
-            },
-            "left": {
-                "card": "High Deck - Mists",
-                "inverted": false
-            },
-            "middle": {
-                "card": "7 of Glyphs - Charlatan",
-                "inverted": false
-            },
-            "right": {
-                "card": "4 of Glyphs - Shepherd",
-                "inverted": true
-            },
-            "bottom": {
-                "card": "9 of Swords - Torturer",
-                "inverted": false
-            },
-        })
-    );
-}
-
-function set_random_reading() {
-    shuffle_array(tarokka_card_list);
-    send_to_websocket(
-        "set",
-        JSON.stringify({
-            "top": {
-                "card": tarokka_card_list[0],
-                "inverted": Math.random() < 0.5
-            },
-            "left": {
-                "card": tarokka_card_list[1],
-                "inverted": Math.random() < 0.5
-            },
-            "middle": {
-                "card": tarokka_card_list[2],
-                "inverted": Math.random() < 0.5
-            },
-            "right": {
-                "card": tarokka_card_list[3],
-                "inverted": Math.random() < 0.5
-            },
-            "bottom": {
-                "card": tarokka_card_list[4],
-                "inverted": Math.random() < 0.5
-            },
-        })
-    );
+    document.getElementById("set-reading-button").onclick = () => {
+        send_to_websocket("set_from_file", document.getElementById("reading-name").value);
+    };
+    document.getElementById("set-random-reading-button").onclick = () => { send_to_websocket("set_random_reading", null); };
 }
 
 function send_to_websocket(action, data=null) {
@@ -107,4 +21,48 @@ function send_to_websocket(action, data=null) {
         "data": data
     }
     ajax_call("/curse_of_strahd/play_tarokka", null, params)
+}
+
+function load_websocket() {
+    let loc = window.location;
+    let ws_uri = (loc.protocol === "https:") ? "wss:" : "ws:";
+    ws_uri += `//${loc.host}/curse_of_strahd/tarokka_websocket`;
+    ws = new WebSocket(ws_uri);
+    ws.onmessage = handle_websocket;
+    ws.onerror = on_websocket_error;
+    console.log(`Loaded websocket`);
+}
+
+function on_websocket_error(error) {
+    console.error("WebSocket error:");
+    console.error(error);
+    websocket_errors += 1;
+    if (websocket_errors >= max_websocket_errors) {
+        document.getElementById("grid").hidden = true;
+        let error_msg = document.getElementById("error-message");
+        error_msg.innerText = `Failed to connect to WebSocket after ${websocket_errors} attempts. ` +
+            `Please reload page to try again.`;
+        error_msg.hidden = false;
+        return;
+    }
+    console.log("Reconnecting in 5 seconds...");
+    setTimeout(load_websocket, 5000);
+}
+
+function handle_websocket(msg) {
+    websocket_errors = 0;
+    console.log(msg);
+    let json = JSON.parse(msg.data);
+    console.log(json);
+    if (json["action"] === "deal") {
+        deal_cards();
+    } else if (json["action"] === "flip") {
+        flip_card(json["data"]);
+    } else if (json["action"] === "reset") {
+        reset_cards();
+    } else if (json["action"] === "set") {
+        set_cards(json["data"]);
+    } else {
+        console.error(`Unknown action: ${json["action"]}`);
+    }
 }
