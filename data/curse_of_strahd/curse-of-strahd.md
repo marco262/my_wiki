@@ -46,6 +46,7 @@ Have fun!
 
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
+* [Tarokka Table](tarokka)
 
 # Friendly NPCs
 

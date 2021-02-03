@@ -56,7 +56,9 @@ function handle_websocket(msg) {
     console.log(msg);
     let json = JSON.parse(msg.data);
     console.log(json);
-    if (json["action"] === "deal") {
+    if (json["action"] === "sync") {
+        sync_cards(json["data"]);
+    } else if (json["action"] === "deal") {
         deal_cards();
     } else if (json["action"] === "flip") {
         flip_card(json["data"]);
@@ -69,17 +71,38 @@ function handle_websocket(msg) {
     }
 }
 
+function sync_cards(data) {
+    console.log(`Syncing cards to ${data}`);
+    const json = JSON.parse(data);
+    set_cards_inner_func(json);
+    for (const [key, card_dict] of Object.entries(json)) {
+        let card = flip_card_inner_elements[key];
+        card.classList.toggle("off-grid", get_w_default(card_dict, "off-grid", true));
+        card.classList.toggle("flipped", get_w_default(card_dict, "flipped", false));
+    }
+}
+
+function get_w_default(dict, key, def) {
+    if (!dict.hasOwnProperty(key))
+        return def;
+    return dict[key]
+}
+
 function set_cards(data) {
     const reset_delay = reset_cards();
     console.log(`Setting cards to ${data}`);
     const json = JSON.parse(data);
     setTimeout(function () {
-        for (const [key, card_dict] of Object.entries(json)) {
-            const card_img = document.getElementById(`card-img-${key}`);
-            card_img.src = `/static/img/tarokka/${card_dict["card"]}.png`;
-            card_img.classList.toggle("inverted", card_dict["inverted"]);
-        }
+        set_cards_inner_func(json)
     }, reset_delay);
+}
+
+function set_cards_inner_func(json) {
+    for (const [key, card_dict] of Object.entries(json)) {
+        const card_img = document.getElementById(`card-img-${key}`);
+        card_img.src = `/static/img/tarokka/${card_dict["card"]}.png`;
+        card_img.classList.toggle("inverted", card_dict["inverted"]);
+    }
 }
 
 function deal_cards() {

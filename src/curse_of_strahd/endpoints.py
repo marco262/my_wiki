@@ -1,5 +1,5 @@
 from glob import glob
-from json import dumps
+from json import dumps, loads
 
 import bcrypt
 import os
@@ -14,7 +14,13 @@ GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcH
 
 websocket_list = []
 TAROKKA_CARD_LIST = None
-last_tarokka_setup = '{"top": {"card": "6 of Glyphs - Anarchist", "inverted": true}, "left": {"card": "Master of Coins - Rogue", "inverted": false}, "middle": {"card": "High Deck - Temptress", "inverted": true}, "right": {"card": "4 of Glyphs - Shepherd", "inverted": true}, "bottom": {"card": "9 of Glyphs - Traitor", "inverted": false}}'
+last_tarokka_setup = {
+    "top": {"card": "6 of Glyphs - Anarchist", "inverted": True},
+    "left": {"card": "Master of Coins - Rogue", "inverted": False},
+    "middle": {"card": "High Deck - Temptress", "inverted": True},
+    "right": {"card": "4 of Glyphs - Shepherd", "inverted": True},
+    "bottom": {"card": "9 of Glyphs - Traitor", "inverted": False}
+}
 
 
 def init(cfg):
@@ -93,7 +99,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/tarokka_websocket", apply=[websocket])
     def tarokka_websocket(ws):
         global websocket_list
-        ws.send(dumps({"action": "set", "data": last_tarokka_setup}))
+        ws.send(dumps({"action": "sync", "data": dumps(last_tarokka_setup)}))
         websocket_loop(ws, websocket_list)
 
     @app.post("/play_tarokka")
@@ -102,14 +108,29 @@ def load_wsgi_endpoints(app: Bottle):
         global last_tarokka_setup
         payload = dict(request.params)
         if payload["action"] == "set_random_reading":
-            payload = {"action": "set", "data": dumps(create_random_reading())}
+            last_tarokka_setup = create_random_reading()
+            payload = {"action": "set", "data": dumps(last_tarokka_setup)}
         elif payload["action"] == "set_from_file":
             with open(f"data/curse_of_strahd/gm_notes/tarroka_readings/{payload['data']}.json") as f:
-                payload = {"action": "set", "data": f.read().strip("\n")}
-        # Save last tarokka setup
-        if payload["action"] == "set":
-            last_tarokka_setup = payload["data"]
+                data = f.read().strip("\n")
+            last_tarokka_setup = loads(data)
+            payload = {"action": "set", "data": data}
+        elif payload["action"] == "deal":
+            for d in last_tarokka_setup.values():
+                d["off-grid"] = False
+        elif payload["action"] == "reset":
+            for d in last_tarokka_setup.values():
+                d["off-grid"] = True
+                d["flipped"] = False
+        elif payload["action"] == "flip":
+            key = payload["data"]
+            if key == "all":
+                for d in last_tarokka_setup.values():
+                    d["flipped"] = not d.get("flipped", False)
+            else:
+                last_tarokka_setup[key]["flipped"] = not last_tarokka_setup[key].get("flipped", False)
         send_to_websockets(payload, websocket_list)
+        return last_tarokka_setup
 
 
 def gm_notes_auth_check(username, password):
