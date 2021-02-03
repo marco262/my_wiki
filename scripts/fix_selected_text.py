@@ -42,10 +42,8 @@ elif sys.argv[1] == "add_spell":
     text = re.sub(r"^", "_[[[spell:", text)
     text = re.sub(r"$", "]]]_", text)
 elif sys.argv[1] == "add_special_formatting":
-    text = text.replace("\r", "")
-    text = re.sub(r" = !!!", ' = """!', text)
-    text = re.sub(r"!!!", '"""', text)
-    text = re.sub(r'([a-z_]+) = ([^\"].*[a-zA-Z].*)', r'\1 = "\2"', text)
+    for m in re.finditer(r'": "(\w)', text):
+        text = text.replace(m.group(0), f'": "Represents {m.group(1).lower()}')
 else:
     raise Exception("Unknown function: {}".format(sys.argv[1]))
 

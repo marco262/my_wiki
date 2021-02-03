@@ -1,3 +1,5 @@
+import {get_tarokka_data} from "./tarokka_data.js";
+
 const card_deal_sfx = document.getElementById("card-deal-effect");
 card_deal_sfx.volume = 0.6;
 const card_flip_sfx = document.getElementById("card-flip-effect");
@@ -15,6 +17,8 @@ let websocket_errors = 0;
 let max_websocket_errors = 3;
 let ws = null;
 
+let tarokka_data = get_tarokka_data();
+
 export function init() {
     // Array.prototype.forEach.call(flip_card_inner_elements, function (element) {
     //     element.onclick = function (event) {
@@ -23,6 +27,9 @@ export function init() {
     //     };
     // });
     load_websocket();
+    for (const element of document.getElementsByClassName("card-front")) {
+        element.onmouseover = () => { set_info_box(element); };
+    }
 }
 
 function load_websocket() {
@@ -102,6 +109,7 @@ function set_cards_inner_func(json) {
         const card_img = document.getElementById(`card-img-${key}`);
         card_img.src = `/static/img/tarokka/${card_dict["card"]}.png`;
         card_img.classList.toggle("inverted", card_dict["inverted"]);
+        card_img.alt = card_dict["card"];
     }
 }
 
@@ -160,4 +168,22 @@ function reset_cards() {
         }
     }, reset_delay);
     return reset_delay;
+}
+
+function set_info_box(element) {
+    const card_name = element.alt;
+    document.getElementById("card-name").innerText = card_name;
+    let suit_description;
+    if (card_name.includes("High Deck"))
+        suit_description = tarokka_data["High Deck"];
+    else if (card_name.includes("of Swords"))
+        suit_description = tarokka_data["Swords Suit"];
+    else if (card_name.includes("of Stars"))
+        suit_description = tarokka_data["Stars Suit"];
+    else if (card_name.includes("of Coins"))
+        suit_description = tarokka_data["Coins Suit"];
+    else if (card_name.includes("of Glyphs"))
+        suit_description = tarokka_data["Glyphs Suit"];
+    document.getElementById("suit-description").innerText = suit_description;
+    document.getElementById("card-description").innerText = tarokka_data[card_name];
 }

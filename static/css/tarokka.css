@@ -3,17 +3,22 @@ body {
   background-size: 700px;
 }
 
+#container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 #grid {
   /* background-color: red; */
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 35%;
   transform: translate(-50%, -50%);
   height: 90vh;
   width: 64vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr)
+  grid-template-rows: repeat(3, 1fr);
 }
 
 #top{
@@ -95,6 +100,17 @@ body {
 
 .off-grid {
   transform: translateY(-350%);
+}
+
+#info-box {
+  font-family: 'PT Sans', sans-serif;
+  background: url(/static/img/vellum-plain-background-repeating.jpg) repeat top center;
+  box-shadow: 5px 5px 5px black;
+  position: fixed;
+  left: 70%;
+  width: 28%;
+  height: 96%;
+  padding: 10px;
 }
 
 #error-message {

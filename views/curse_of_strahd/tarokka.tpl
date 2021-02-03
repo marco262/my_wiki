@@ -9,76 +9,65 @@
     <link rel="preload" href="/static/audio/240776__f4ngy__card-flip.wav" as="audio">
 </head>
 <body style="background-image: url(/static/img/tileable-wood-texture.jpg)">
-<%
-# left = "Master of Glyphs - Priest"
-# top = "8 of Coins - Tax Collector"
-# right = "2 of Glyphs - Missionary"
-# bottom = "High Deck - Mists"
-# middle = "High Deck - Broken One"
 
-middle = "7 of Glyphs - Charlatan"
-middle_class = ""
-bottom = "9 of Swords - Torturer"
-bottom_class = ""
-left = "High Deck - Mists"
-left_class = ""
-top = "9 of Glyphs - Traitor"
-top_class = "inverted"
-right = "4 of Glyphs - Shepherd"
-right_class = "inverted"
-%>
-
-<div id='grid'>
-    <article class="flip-card" id='top'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-top">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+<div id="container">
+    <div id='grid'>
+        <article class="flip-card" id='top'>
+            <div class="flip-card-inner off-grid" id="flip-card-inner-top">
+                <div class="flip-card-back">
+                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                </div>
+                <div class="flip-card-front">
+                    <img id="card-img-top" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
+                </div>
             </div>
-            <div class="flip-card-front">
-                <img id="card-img-top" class="card {{ top_class }}" src="/static/img/tarokka/{{ top }}.png" alt="Front">
+        </article>
+        <article class="flip-card" id='left'>
+            <div class="flip-card-inner off-grid" id="flip-card-inner-left">
+                <div class="flip-card-back">
+                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                </div>
+                <div class="flip-card-front">
+                    <img id="card-img-left" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
+                </div>
             </div>
-        </div>
-    </article>
-    <article class="flip-card" id='left'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-left">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+        </article>
+        <article class="flip-card" id='middle'>
+            <div class="flip-card-inner off-grid" id="flip-card-inner-middle">
+                <div class="flip-card-back">
+                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                </div>
+                <div class="flip-card-front">
+                    <img id="card-img-middle" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
+                </div>
             </div>
-            <div class="flip-card-front">
-                <img id="card-img-left" class="card {{ left_class }}" src="/static/img/tarokka/{{ left }}.png" alt="Front">
+        </article>
+        <article class="flip-card" id='right'>
+            <div class="flip-card-inner off-grid" id="flip-card-inner-right">
+                <div class="flip-card-back">
+                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                </div>
+                <div class="flip-card-front">
+                    <img id="card-img-right" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
+                </div>
             </div>
-        </div>
-    </article>
-    <article class="flip-card" id='middle'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-middle">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+        </article>
+        <article class="flip-card" id='bottom'>
+            <div class="flip-card-inner off-grid" id="flip-card-inner-bottom">
+                <div class="flip-card-back">
+                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                </div>
+                <div class="flip-card-front">
+                    <img id="card-img-bottom" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
+                </div>
             </div>
-            <div class="flip-card-front">
-                <img id="card-img-middle" class="card {{ middle_class }}" src="/static/img/tarokka/{{ middle }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
-    <article class="flip-card" id='right'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-right">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
-            </div>
-            <div class="flip-card-front">
-                <img id="card-img-right" class="card {{ right_class }}" src="/static/img/tarokka/{{ right }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
-    <article class="flip-card" id='bottom'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-bottom">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
-            </div>
-            <div class="flip-card-front">
-                <img id="card-img-bottom" class="card {{ bottom_class }}" src="/static/img/tarokka/{{ bottom }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
+        </article>
+    </div>
+    <div id="info-box">
+        <h1 id="card-name"></h1>
+        <p id="card-description"></p>
+        <p id="suit-description"></p>
+    </div>
 </div>
 
 <div id="audio-controls" hidden>
