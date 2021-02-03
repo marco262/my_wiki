@@ -171,6 +171,10 @@ function reset_cards() {
 }
 
 function set_info_box(element) {
+    document.getElementById("card-info").hidden = false;
+    const card_position = element.id.substring(9);
+    document.getElementById("prophecy_summary").innerText = tarokka_data[card_position]["prophecy"];
+    document.getElementById("vibe_check_summary").innerText = tarokka_data[card_position]["vibe_check"];
     const card_name = element.alt;
     document.getElementById("card-name").innerText = card_name;
     let suit_description;

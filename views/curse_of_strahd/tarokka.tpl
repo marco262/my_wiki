@@ -64,9 +64,14 @@
         </article>
     </div>
     <div id="info-box">
-        <h1 id="card-name"></h1>
-        <p id="card-description"></p>
-        <p id="suit-description"></p>
+        <div id="card-info" hidden>
+            <p><strong>Prophecy:</strong> <span id="prophecy_summary"></span></p>
+            <p><strong>Vibe Check:</strong> <span id="vibe_check_summary"></span></p>
+            <hr>
+            <h1 id="card-name"></h1>
+            <p id="card-description"></p>
+            <p id="suit-description"></p>
+        </div>
     </div>
 </div>
 

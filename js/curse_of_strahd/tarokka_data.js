@@ -58,6 +58,26 @@ let data = {
     "7 of Glyphs - Charlatan": "Represents liars -- those who profess to believe one thing but actually believe another",
     "8 of Glyphs - Bishop": "Represents strict adherence to a code or a belief -- those who plot, plan, and scheme",
     "9 of Glyphs - Traitor": "Represents betrayal by someone close and trusted -- a weakening or loss of faith",
+    "middle": {
+        "prophecy": "Focus of the reading. Can indicate how accurate the reading is going to be.",
+        "vibe_check": "Focus of the reading. Can indicate how accurate the reading is going to be.",
+    },
+    "bottom": {
+        "prophecy": "Refers to a relevant detail of the past that is important to this flow of events.",
+        "vibe_check": "Refers to an important element of the subject's past.",
+    },
+    "left": {
+        "prophecy": "Refers to the present state of the Focus.",
+        "vibe_check": "Refers to something that opposes the subject. It can indicate anything from an active enemy, to a possible set-back, or any other 'bad thing' that involves the subject.",
+    },
+    "top": {
+        "prophecy": "Refers to a future action that can bring about some important result.",
+        "vibe_check": "Refers to a (possible) future of the subject. This card is always subject to speculation as the future is not set in stone. It generally refers to an impending threat or event, rather than speaking of an 'outcome.'",
+    },
+    "right": {
+        "prophecy": "Refers to the actual result that may occur if this flow is followed.",
+        "vibe_check": "Refers to something that is an ally, friend, or boon towards the subject. As with card 3, this can represent anything 'good' that is related to the subject.",
+    },
 }
 
 export function get_tarokka_data() {
