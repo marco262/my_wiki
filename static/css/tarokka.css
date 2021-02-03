@@ -78,6 +78,7 @@ body {
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   background-color: #bbb;
+  cursor: pointer;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -87,6 +88,12 @@ body {
 
 /* Style the back side */
 .flip-card-back {
+  background: url("/static/img/tarokka/__Back.png");
+  background-size: contain;
+  font-size: 20vh;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
 }
 
 .card {

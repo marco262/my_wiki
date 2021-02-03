@@ -2,9 +2,10 @@
 <head>
     <title>Tarokka Reading</title>
     <meta name="viewport" content="width=device-width">
+    <link rel="preload" href="/static/css/tarokka.css" as="style">
     <link rel="stylesheet" type="text/css" href="/static/css/tarokka.css">
+    <link rel="prefetch" href="/static/img/tarokka/__Back.png" as="image">
     <link rel="preload" href="/static/img/tileable-wood-texture.jpg" as="image">
-    <link rel="preload" href="/static/img/tarokka/__Back.png" as="image">
     <link rel="preload" href="/static/audio/536784__egomassive__deal.ogg" as="audio">
     <link rel="preload" href="/static/audio/240776__f4ngy__card-flip.wav" as="audio">
 </head>
@@ -15,7 +16,7 @@
         <article class="flip-card" id='top'>
             <div class="flip-card-inner off-grid" id="flip-card-inner-top">
                 <div class="flip-card-back">
-                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                    4
                 </div>
                 <div class="flip-card-front">
                     <img id="card-img-top" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
@@ -25,7 +26,7 @@
         <article class="flip-card" id='left'>
             <div class="flip-card-inner off-grid" id="flip-card-inner-left">
                 <div class="flip-card-back">
-                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                    3
                 </div>
                 <div class="flip-card-front">
                     <img id="card-img-left" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
@@ -35,7 +36,7 @@
         <article class="flip-card" id='middle'>
             <div class="flip-card-inner off-grid" id="flip-card-inner-middle">
                 <div class="flip-card-back">
-                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                    1
                 </div>
                 <div class="flip-card-front">
                     <img id="card-img-middle" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
@@ -45,7 +46,7 @@
         <article class="flip-card" id='right'>
             <div class="flip-card-inner off-grid" id="flip-card-inner-right">
                 <div class="flip-card-back">
-                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                    5
                 </div>
                 <div class="flip-card-front">
                     <img id="card-img-right" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
@@ -55,7 +56,7 @@
         <article class="flip-card" id='bottom'>
             <div class="flip-card-inner off-grid" id="flip-card-inner-bottom">
                 <div class="flip-card-back">
-                    <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+                    2
                 </div>
                 <div class="flip-card-front">
                     <img id="card-img-bottom" class="card card-front" src="/static/img/tarokka/High Deck - Mists.png" alt="Front">
@@ -89,6 +90,6 @@
 
 <script type="module">
     import { init } from "/js/curse_of_strahd/tarokka.js";
-    init();
+    window.onload = init;
 </script>
 </body>

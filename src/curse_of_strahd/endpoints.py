@@ -103,7 +103,6 @@ def load_wsgi_endpoints(app: Bottle):
         websocket_loop(ws, websocket_list)
 
     @app.post("/play_tarokka")
-    @auth_basic(gm_notes_auth_check)
     def play_tarokka():
         global last_tarokka_setup
         payload = dict(request.params)

@@ -1,4 +1,5 @@
 import {get_tarokka_data} from "./tarokka_data.js";
+import {ajax_call} from "../common/utils.js";
 
 const card_deal_sfx = document.getElementById("card-deal-effect");
 card_deal_sfx.volume = 0.6;
@@ -20,16 +21,15 @@ let ws = null;
 let tarokka_data = get_tarokka_data();
 
 export function init() {
-    // Array.prototype.forEach.call(flip_card_inner_elements, function (element) {
-    //     element.onclick = function (event) {
-    //         card_flip_sfx.play();
-    //         element.classList.toggle("flipped");
-    //     };
-    // });
-    load_websocket();
+    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+        document.getElementById(key).onclick = function (event) {
+            send_to_websocket("flip", key);
+        };
+    }
     for (const element of document.getElementsByClassName("card-front")) {
         element.onmouseover = () => { set_info_box(element); };
     }
+    load_websocket();
 }
 
 function load_websocket() {
@@ -190,4 +190,12 @@ function set_info_box(element) {
         suit_description = tarokka_data["Glyphs Suit"];
     document.getElementById("suit-description").innerText = suit_description;
     document.getElementById("card-description").innerText = tarokka_data[card_name];
+}
+
+function send_to_websocket(action, data=null) {
+    let params = {
+        "action": action,
+        "data": data
+    }
+    ajax_call("/curse_of_strahd/play_tarokka", null, params)
 }
