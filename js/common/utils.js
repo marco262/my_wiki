@@ -97,3 +97,9 @@ export function shuffle_array(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+export function get_w_default(dict, key, def) {
+    if (!dict.hasOwnProperty(key))
+        return def;
+    return dict[key]
+}

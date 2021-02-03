@@ -80,12 +80,6 @@ def load_wsgi_endpoints(app: Bottle):
     def page(name):
         return md_page(name, "curse_of_strahd")
 
-    @app.get("gm_notes/<name>")
-    @view("common/page.tpl")
-    @auth_basic(gm_notes_auth_check)
-    def gm_notes(name):
-        return md_page(name, "curse_of_strahd", directory="gm_notes")
-
     @app.get("")
     @view("common/page.tpl")
     def calendar():
@@ -128,8 +122,20 @@ def load_wsgi_endpoints(app: Bottle):
                     d["flipped"] = not d.get("flipped", False)
             else:
                 last_tarokka_setup[key]["flipped"] = not last_tarokka_setup[key].get("flipped", False)
-        send_to_websockets(payload, websocket_list)
+        if payload["action"] != "get_sync_data":
+            send_to_websockets(payload, websocket_list)
         return last_tarokka_setup
+
+    @app.get("gm_notes/Tarokka Controls")
+    @view("curse_of_strahd/tarokka_controls.tpl")
+    def tarokka_controls():
+        return
+
+    @app.get("gm_notes/<name>")
+    @view("common/page.tpl")
+    @auth_basic(gm_notes_auth_check)
+    def gm_notes(name):
+        return md_page(name, "curse_of_strahd", directory="gm_notes")
 
 
 def gm_notes_auth_check(username, password):

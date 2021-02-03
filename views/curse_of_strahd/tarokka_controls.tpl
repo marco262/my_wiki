@@ -1,69 +1,84 @@
-<!DOCTYPE html>
-<head>
-    <title>Tarokka Reading</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/static/css/tarokka.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/tarokka_controls.css">
-    <link rel="preload" href="/static/img/tileable-wood-texture.jpg" as="image">
-    <link rel="preload" href="/static/img/tarokka/__Back.png" as="image">
-</head>
-<body style="background-image: url(/static/img/tileable-wood-texture.jpg)">
+% rebase("common/base.tpl", title="Tarokka Controls")
 
-<div id='grid'>
-    <article class="flip-card" id='top'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-top">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+<link rel="stylesheet" type="text/css" href="/static/css/tarokka_controls.css">
+
+<p class="visual-aid-link" title="iframe|/curse_of_strahd/tarokka">Display Tarokka Table</p>
+
+<table>
+    <tr>
+        <td></td>
+        <td>
+            <img class="card" id="top" src="/static/img/tarokka/__Back.png">
+            <div class="button-div">
+                <input type="checkbox" class="inverted-checkbox" id="inverted-top">Inverted
+                <input type="checkbox" class="off-grid-checkbox" id="off-grid-top">Off Grid
+                <input type="checkbox" class="flipped-checkbox" id="flipped-top">Flipped
             </div>
-            <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ top }}.png" alt="Front">
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <img class="card" id="left" src="/static/img/tarokka/__Back.png">
+            <div class="button-div">
+                <input type="checkbox" class="inverted-checkbox" id="inverted-left">Inverted
+                <input type="checkbox" class="off-grid-checkbox" id="off-grid-left">Off Grid
+                <input type="checkbox" class="flipped-checkbox" id="flipped-left">Flipped
             </div>
-        </div>
-    </article>
-    <article class="flip-card" id='left'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-left">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+        </td>
+        <td>
+            <img class="card" id="middle" src="/static/img/tarokka/__Back.png">
+            <div class="button-div">
+                <input type="checkbox" class="inverted-checkbox" id="inverted-middle">Inverted
+                <input type="checkbox" class="off-grid-checkbox" id="off-grid-middle">Off Grid
+                <input type="checkbox" class="flipped-checkbox" id="flipped-middle">Flipped
             </div>
-            <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ left }}.png" alt="Front">
+        </td>
+        <td>
+            <img class="card" id="right" src="/static/img/tarokka/__Back.png">
+            <div class="button-div">
+                <input type="checkbox" class="inverted-checkbox" id="inverted-right">Inverted
+                <input type="checkbox" class="off-grid-checkbox" id="off-grid-right">Off Grid
+                <input type="checkbox" class="flipped-checkbox" id="flipped-right">Flipped
             </div>
-        </div>
-    </article>
-    <article class="flip-card" id='middle'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-middle">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <img class="card" id="bottom" src="/static/img/tarokka/__Back.png">
+            <div class="button-div">
+                <input type="checkbox" class="inverted-checkbox" id="inverted-bottom">Inverted
+                <input type="checkbox" class="off-grid-checkbox" id="off-grid-bottom">Off Grid
+                <input type="checkbox" class="flipped-checkbox" id="flipped-bottom">Flipped
             </div>
-            <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ middle }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
-    <article class="flip-card" id='right'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-right">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
-            </div>
-            <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ right }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
-    <article class="flip-card" id='bottom'>
-        <div class="flip-card-inner off-grid" id="flip-card-inner-bottom">
-            <div class="flip-card-back">
-                <img class="card" src="/static/img/tarokka/__Back.png" alt="Back">
-            </div>
-            <div class="flip-card-front">
-                <img class="card" src="/static/img/tarokka/{{ bottom }}.png" alt="Front">
-            </div>
-        </div>
-    </article>
-</div>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<p>
+    <button id="deal-button">Deal</button>
+    <button id="flip-all-button">Flip All</button>
+    <button id="reset-button">Reset</button>
+</p>
+
+<p>
+    <select name="reading" id="reading-name">
+      <option value="Ezmerelda Reading">Ezmerelda Reading</option>
+      <option value="Ireena Reading">Ireena Reading</option>
+      <option value="Prophecy">Prophecy</option>
+    </select>
+    <button id="set-reading-button">Set Reading</button>
+</p>
+
+<p>
+    <button id="set-random-reading-button">Set Random Reading</button>
+</p>
 
 <script type="module">
-    import { init } from "/js/curse_of_strahd/tarokka_controls.js";
+    import {init} from "/js/curse_of_strahd/tarokka_controls.js";
+    import {init_links} from "/js/common/visual_aid_backend.js";
     init();
+    init_links();
 </script>
-</body>

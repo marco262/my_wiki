@@ -1,5 +1,5 @@
 import {get_tarokka_data} from "./tarokka_data.js";
-import {ajax_call} from "../common/utils.js";
+import {ajax_call, get_w_default} from "../common/utils.js";
 
 const card_deal_sfx = document.getElementById("card-deal-effect");
 card_deal_sfx.volume = 0.6;
@@ -87,12 +87,6 @@ function sync_cards(data) {
         card.classList.toggle("off-grid", get_w_default(card_dict, "off-grid", true));
         card.classList.toggle("flipped", get_w_default(card_dict, "flipped", false));
     }
-}
-
-function get_w_default(dict, key, def) {
-    if (!dict.hasOwnProperty(key))
-        return def;
-    return dict[key]
 }
 
 function set_cards(data) {
