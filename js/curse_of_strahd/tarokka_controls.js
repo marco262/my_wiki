@@ -24,7 +24,7 @@ export function init() {
         send_to_websocket("set_from_file", document.getElementById("reading-name").value);
     };
     document.getElementById("set-random-reading-button").onclick = () => { send_to_websocket("set_random_reading"); };
-    document.getElementById("sync-button").onclick = () => { send_to_websocket("get_sync_data"); };
+    document.getElementById("sync-button").onclick = () => { send_to_websocket("sync"); };
     send_to_websocket("get_sync_data");
 }
 
@@ -37,6 +37,7 @@ function send_to_websocket(action, data=null) {
         "action": action,
         "data": data
     }
+    console.debug(params);
     ajax_call("/curse_of_strahd/play_tarokka", handle_sync, params)
 }
 

@@ -24,7 +24,8 @@ let tarokka_data = get_tarokka_data();
 export function init() {
     for (const [key, element] of Object.entries(flip_card_inner_elements)) {
         document.getElementById(key).onclick = function (event) {
-            send_to_websocket("flip", JSON.stringify({"position": key, "state": !element.classList.contains("flipped")}));
+            element.classList.toggle("flipped");
+            send_to_websocket("flip", JSON.stringify({"position": key, "state": element.classList.contains("flipped")}));
         };
     }
     for (const element of document.getElementsByClassName("card-front")) {

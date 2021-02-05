@@ -128,6 +128,8 @@ def load_wsgi_endpoints(app: Bottle):
             for d in last_tarokka_setup.values():
                 d["off-grid"] = True
                 d["flipped"] = False
+        elif payload["action"] == "sync":
+            payload["data"] = dumps(last_tarokka_setup)
         if payload["action"] != "get_sync_data":
             send_to_websockets(payload, websocket_list)
         return last_tarokka_setup
