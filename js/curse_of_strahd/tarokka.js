@@ -13,6 +13,7 @@ let flip_card_inner_elements = {
     "right": document.getElementById("flip-card-inner-right"),
     "bottom": document.getElementById("flip-card-inner-bottom")
 }
+const card_order = ["middle", "bottom", "left", "top", "right"];
 
 let websocket_errors = 0;
 let max_websocket_errors = 3;
@@ -21,9 +22,9 @@ let ws = null;
 let tarokka_data = get_tarokka_data();
 
 export function init() {
-    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+    for (const [key, element] of Object.entries(flip_card_inner_elements)) {
         document.getElementById(key).onclick = function (event) {
-            send_to_websocket("flip", key);
+            send_to_websocket("flip", JSON.stringify({"position": key, "state": !element.classList.contains("flipped")}));
         };
     }
     for (const element of document.getElementsByClassName("card-front")) {
@@ -60,13 +61,12 @@ function on_websocket_error(error) {
 
 function handle_websocket(msg) {
     websocket_errors = 0;
-    console.log(msg);
+    console.debug(msg);
     let json = JSON.parse(msg.data);
-    console.log(json);
     if (json["action"] === "sync") {
         sync_cards(json["data"]);
     } else if (json["action"] === "deal") {
-        deal_cards();
+        deal_cards(json["data"]);
     } else if (json["action"] === "flip") {
         flip_card(json["data"]);
     } else if (json["action"] === "reset") {
@@ -107,39 +107,41 @@ function set_cards_inner_func(json) {
     }
 }
 
-function deal_cards() {
-    console.log("Dealing cards");
+function deal_cards(data) {
+    console.log(`Dealing cards ${data}`);
+    const json = JSON.parse(data);
     let next_delay = 0;
-    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+    for (const key of card_order) {
         let card = flip_card_inner_elements[key];
-        if (card.classList.contains("off-grid")) {
+        if ((json["position"] === "all" || json["position"] === key) && json["state"] !== card.classList.contains("off-grid")) {
             setTimeout(function () {
                 card_deal_sfx.play();
-                card.classList.toggle("off-grid", false);
+                card.classList.toggle("off-grid", json["state"]);
             }, next_delay);
-            next_delay += 750;
+            next_delay += 1000;
         }
     }
 }
 
 function flip_card(data) {
     console.log(`Flipping card ${data}`);
+    const json = JSON.parse(data);
     let next_delay = 0;
-    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+    for (const key of card_order) {
         let card = flip_card_inner_elements[key];
-        if (data === "all" || data === key) {
+        if ((json["position"] === "all" || json["position"] === key) && json["state"] !== card.classList.contains("flipped")) {
             setTimeout(function () {
                 card_flip_sfx.play();
-                card.classList.toggle("flipped");
+                card.classList.toggle("flipped", json["state"]);
             }, next_delay);
-            next_delay += 750;
+            next_delay += 1000;
         }
     }
 }
 
 function hide_cards() {
     let cards_flipped = false;
-    for (const key of ["top", "left", "middle", "right", "bottom"]) {
+    for (const key of card_order) {
         let card = flip_card_inner_elements[key];
         if (card.classList.contains("flipped")) {
             cards_flipped = true;
@@ -156,7 +158,7 @@ function reset_cards() {
     console.log("Resetting cards");
     let reset_delay = hide_cards() ? 750 : 0;
     setTimeout(function () {
-        for (const key of ["top", "left", "middle", "right", "bottom"]) {
+        for (const key of card_order) {
             let card = flip_card_inner_elements[key];
             card.classList.toggle("off-grid", true);
         }

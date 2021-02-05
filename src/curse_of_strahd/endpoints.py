@@ -43,6 +43,15 @@ def get_tarokka_card_list():
     return TAROKKA_CARD_LIST
 
 
+def alter_tarokka_list(key, payload):
+    global last_tarokka_setup
+    data = loads(payload["data"])
+    if data["position"] == "all":
+        for d in last_tarokka_setup.values():
+            d[key] = data["state"]
+    else:
+        last_tarokka_setup[data["position"]][key] = data["state"]
+
 def create_random_reading():
     chosen_cards = random.sample(get_tarokka_card_list(), 5)
     return {
@@ -108,20 +117,17 @@ def load_wsgi_endpoints(app: Bottle):
                 data = f.read().strip("\n")
             last_tarokka_setup = loads(data)
             payload = {"action": "set", "data": data}
+        elif payload["action"] == "invert":
+            alter_tarokka_list("inverted", payload)
+            payload = {"action": "sync", "data": dumps(last_tarokka_setup)}
         elif payload["action"] == "deal":
-            for d in last_tarokka_setup.values():
-                d["off-grid"] = False
+            alter_tarokka_list("off-grid", payload)
+        elif payload["action"] == "flip":
+            alter_tarokka_list("flipped", payload)
         elif payload["action"] == "reset":
             for d in last_tarokka_setup.values():
                 d["off-grid"] = True
                 d["flipped"] = False
-        elif payload["action"] == "flip":
-            key = payload["data"]
-            if key == "all":
-                for d in last_tarokka_setup.values():
-                    d["flipped"] = not d.get("flipped", False)
-            else:
-                last_tarokka_setup[key]["flipped"] = not last_tarokka_setup[key].get("flipped", False)
         if payload["action"] != "get_sync_data":
             send_to_websockets(payload, websocket_list)
         return last_tarokka_setup
