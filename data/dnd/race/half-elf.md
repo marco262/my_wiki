@@ -10,11 +10,15 @@ Walking in two worlds but truly belonging to neither, half-elves combine what so
 To humans, half-elves look like elves, and to elves, they look human. In height, they're on par with both parents, though they're neither as slender as elves nor as broad as humans. They range from under 5 feet to about 6 feet tall, and from 100 to 180 pounds, with men only slightly taller and heavier than women. Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents.
 
 # Diplomats or Wanderers
+
 [[div class="phb-sidebar"]]
+
 **Excellent Ambassadors**
 
 Many half-elves learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elven grace without elven aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens (except between elves and humans, since each side suspects the half-elf of favoring the other).
+
 [[/div]]
+
 Half-elves have no lands of their own, though they are welcome in human cities and somewhat less welcome in elven forests. In large cities in regions where elves and humans interact often, half-elves are sometimes numerous enough to form small communities of their own. They enjoy the company of other half-elves, the only people who truly understand what it is to live between these two worlds.
 
 In most parts of the world, though, half-elves are uncommon enough that one might live for years without meeting another. Some half-elves prefer to avoid company altogether, wandering the wilds as trappers, foresters, hunters, or adventurers and visiting civilization only rarely. Like elves, they are driven by the wanderlust that comes of their longevity. Others, in contrast, throw themselves into the thick of society, putting their charisma and social skills to great use in diplomatic roles or as swindlers.

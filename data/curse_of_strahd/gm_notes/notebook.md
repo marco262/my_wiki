@@ -34,17 +34,17 @@ Notes
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
 * 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped at the Blue Water Inn
-* 26: Left Vallaki, got to Krezk, saw dead people (Today)
+* 26: Left Vallaki, got to Krezk, saw dead people, met Abbot, met Ezmerelda, spent night at abbey (Today)
 
 ## General Notes
 
-* ETHEL CHANGES TONIGHT!!!
 * Implement Path of the Beast only after Ethel's first transformation?
+* Get more battle/Vallaki/character theme music
+* Have Orin do History checks as they come across stuff on the road
+* Vasili von Holtz: https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg
+* Make calendar page
 
 ## Notes for Next Session
 
 * Make sure to RP Clovin ringing the dinner bell and taking food to all the mongrelfolk
 * FIRST DAY OF FULL MOON YAAAAASSSSS
-* Get more battle/Vallaki/character theme music
-* Have Orin do History checks as they come across stuff on the road
-* Vasili von Holtz: https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg
