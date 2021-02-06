@@ -50,29 +50,53 @@ Have fun!
 
 # Friendly NPCs
 
-* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
-* [Lord Zelraun Roaringhorn](/static/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg)
-* [Duchess Morwen of Daggerford](/static/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
+* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg), aka "Ivan"
 
 ## Village of Barovia
 
 * [Ismark Kolyanovich](/static/img/visual_aids/curse_of_strahd/ismark.jpg), Burgomaster of the Village of Barovia
-* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg), sister of Ismark
 * [Dragomir](/static/img/visual_aids/curse_of_strahd/dragomir.jpg), owner of Dragomir's Curio and Relic Emporium
+* [Father Donavich](/static/img/visual_aids/curse_of_strahd/Father_Donavich.png), priest of the Church of the Morninglord
+
+## Abbey of Saint Markovia
+
+* [The Abbot](/static/img/visual_aids/curse_of_strahd/the_abbot.jpg)
+* [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg), guest of the Abbey
 
 # Enemy NPCs
 
 * [Count Strahd von Zarovich](/static/img/visual_aids/curse_of_strahd/strahd_1.jpg)
 
+## Abbey of Saint Markovia
+
+* [Mishka Belview](/static/img/visual_aids/curse_of_strahd/mishka_belview.jpg), enjoys killing people
+
 # Other NPCs
 
 ## Village of Barovia
 
-* [Father Donavich](/static/img/visual_aids/curse_of_strahd/Father_Donavich.png), priest of the Church of the Morninglord
-* [Doru](/static/img/visual_aids/curse_of_strahd/Doru.jpg), Donavich's basement, locked up in his basement
+* [Doru](/static/img/visual_aids/curse_of_strahd/Doru.jpg), Donavich's son, locked up in his basement
 * [Bildrath](/static/img/visual_aids/curse_of_strahd/COS_Bildrath.jpg), owner of Bildrath's Mercantiles
 * [Parriwimple](/static/img/visual_aids/curse_of_strahd/parriwimple.jpg), Bildrath's helper
 
+## Town of Vallaki
+
+* [Blue dude](/static/img/visual_aids/curse_of_strahd/izek_strazni.jpg), has resting bitch face
+* [Urwin Martikov](/static/img/visual_aids/curse_of_strahd/urwin_martikov.jpg) and [Danika Martikov](/static/img/visual_aids/curse_of_strahd/danika_martikov.jpg), owners of the Blue Water Inn
+* [Szoldar Szoldarovich](/static/img/visual_aids/curse_of_strahd/szoldar_szoldarovich.jpg) and [Yevgeni Krushkin](/static/img/visual_aids/curse_of_strahd/yevgeni_krushkin.jpg), wolf hunters
+* [Rictavio](/static/img/visual_aids/curse_of_strahd/rictavio.jpg), traveler from a distant land
+
+## Village of Krezk
+
+* [Dmitri Krezkov](/static/img/visual_aids/curse_of_strahd/dmitri_krezkov.png), burgomaster of Krezk
+* [Anna Krezkov](/static/img/visual_aids/curse_of_strahd/anna_krezkov.jpg), wife of Dmitri
+
+## Abbey of St. Markovia
+
+* [Vasilka](/static/img/visual_aids/curse_of_strahd/vasilka.jpg), "future bride" of Strahd
+* [Otto Belview](/static/img/visual_aids/curse_of_strahd/otto_belview.jpg), groundskeeper/guard for the Abbey
+* [Zygrek Belview](/static/img/visual_aids/curse_of_strahd/zygfrek_belview.jpg), groundskeeper/guard for the Abbey
+* [Marzena Belview](/static/img/visual_aids/curse_of_strahd/marzena_belview.jpg), tethered to a post in the Abbey courtyard, scared of everyone
 
 [[accordion Meanwhile in Waterdeep...]]
 
@@ -88,6 +112,7 @@ Have fun!
 
 ## Erwaren's Rest Residents
 
+* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
 * [Brendaniel Skwik](/static/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/static/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
 * [Lif Erwaren](/static/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
 * Adalbert "Orin" Teppichverkäufer, emo gnome teenager
@@ -144,6 +169,11 @@ Have fun!
  * Chihuahua
 * [Grinda Garloth](/static/img/visual_aids/dragon_heist/Grinda_garloth_and_apparatus.jpg), treasure hunter
 * [Mary Pickford](/static/img/visual_aids/dragon_heist/mary_pickford.jpg), plays the handmaiden in *Kiss of the Lamia*, friendly with Emir
+
+# Daggerford
+
+* [Lord Zelraun Roaringhorn](/static/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg), et by warrwuffs
+* [Duchess Morwen of Daggerford](/static/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
 
 [[/accordion]]
 

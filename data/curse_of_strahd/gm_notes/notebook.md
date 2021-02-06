@@ -43,9 +43,8 @@ Notes
 
 ## Notes for Next Session
 
-* Get more battle/Vallaki/character theme music
+* Make sure to RP Clovin ringing the dinner bell and taking food to all the mongrelfolk
 * FIRST DAY OF FULL MOON YAAAAASSSSS
+* Get more battle/Vallaki/character theme music
 * Have Orin do History checks as they come across stuff on the road
-* Reread the Abbey
-* Get more fight music
 * Vasili von Holtz: https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg
