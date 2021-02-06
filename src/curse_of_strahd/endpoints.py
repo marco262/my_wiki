@@ -7,6 +7,7 @@ import random
 from bottle_websocket import websocket
 
 from bottle import Bottle, view, auth_basic, request
+from data.curse_of_strahd.enums import tarokka_deck
 from src.common.utils import md_page, websocket_loop, send_to_websockets
 
 # Default password: dancinglikeastripper
@@ -88,6 +89,11 @@ def load_wsgi_endpoints(app: Bottle):
     @view("curse_of_strahd/tarokka.tpl")
     def tarokka():
         return
+
+    @app.get("tarokka_card_list")
+    @view("curse_of_strahd/tarokka_card_list.tpl")
+    def tarokka_card_list():
+        return {"title": "Tarokka Card List", "tarokka_deck": tarokka_deck}
 
     @app.get("/tarokka_websocket", apply=[websocket])
     def tarokka_websocket(ws):
