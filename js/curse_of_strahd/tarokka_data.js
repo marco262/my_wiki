@@ -61,24 +61,24 @@ let data = {
         "9 of Glyphs - Traitor": "Represents betrayal by someone close and trusted -- a weakening or loss of faith.",
     },
     "middle": {
-        "prophecy": "Focus of the reading. Can indicate how accurate the reading is going to be.",
-        "vibe_check": "Focus of the reading. Can indicate how accurate the reading is going to be.",
+        "prophecy": "Subject of the reading. Can indicate how accurate the reading is going to be.",
+        "vibe_check": "Subject of the reading. Can indicate how accurate the reading is going to be.",
     },
     "bottom": {
         "prophecy": "Refers to a relevant detail of the past that is important to this flow of events.",
-        "vibe_check": "Refers to an important element of the subject's past.",
+        "vibe_check": "Refers to an important element of the Subject's past.",
     },
     "left": {
-        "prophecy": "Refers to the present state of the Focus.",
-        "vibe_check": "Refers to something that opposes the subject. It can indicate anything from an active enemy, to a possible set-back, or any other 'bad thing' that involves the subject.",
+        "prophecy": "Refers to the present state of the Subject.",
+        "vibe_check": "Refers to something that opposes the Subject. It can indicate anything from an active enemy, to a possible set-back, or any other 'bad thing' that involves the Subject.",
     },
     "top": {
         "prophecy": "Refers to a future action that can bring about some important result.",
-        "vibe_check": "Refers to a (possible) future of the subject. This card is always subject to speculation as the future is not set in stone. It generally refers to an impending threat or event, rather than speaking of an 'outcome.'",
+        "vibe_check": "Refers to a (possible) future of the Subject. This card is always subject to speculation as the future is not set in stone. It generally refers to an impending threat or event, rather than speaking of an 'outcome'.",
     },
     "right": {
         "prophecy": "Refers to the actual result that may occur if this flow is followed.",
-        "vibe_check": "Refers to something that is an ally, friend, or boon towards the subject. As with card 3, this can represent anything 'good' that is related to the subject.",
+        "vibe_check": "Refers to something that is an ally, friend, or boon towards the Subject. As with card 3, this can represent anything 'good' that is related to the subject.",
     },
 }
 

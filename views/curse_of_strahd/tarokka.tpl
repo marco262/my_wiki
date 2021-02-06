@@ -65,7 +65,8 @@
         </article>
     </div>
     <div id="info-box">
-        <a href="tarokka_card_list">Tarokka Card List</a>
+        <p><a href="tarokka_card_list">Tarokka Card List</a></p>
+        <p><a href="Tarokka Reading Rules">Tarokka Reading Rules</a></p>
         <div id="card-info" hidden>
             <p><strong>Prophecy:</strong> <span id="prophecy_summary"></span></p>
             <p><strong>Vibe Check:</strong> <span id="vibe_check_summary"></span></p>
