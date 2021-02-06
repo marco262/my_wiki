@@ -186,7 +186,7 @@ function set_info_box(element) {
     else if (card_name.includes("of Glyphs"))
         suit_description = tarokka_data["Glyphs Suit"];
     document.getElementById("suit-description").innerText = suit_description;
-    document.getElementById("card-description").innerText = tarokka_data[card_name];
+    document.getElementById("card-description").innerText = tarokka_data["cards"][card_name];
 }
 
 function send_to_websocket(action, data=null) {

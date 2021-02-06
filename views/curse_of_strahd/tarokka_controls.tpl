@@ -14,6 +14,11 @@
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-top" value="top">Off Grid
                 <input type="checkbox" class="flipped-checkbox" id="flipped-top" value="top">Flipped
             </div>
+            <div class="dropdown-div">
+                <select class="force-card-set" id="force-card-set-top">
+                    <option value="">&lt;random&gt;</option>
+                </select>
+            </div>
         </td>
         <td></td>
     </tr>
@@ -25,6 +30,11 @@
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-left" value="left">Off Grid
                 <input type="checkbox" class="flipped-checkbox" id="flipped-left" value="left">Flipped
             </div>
+            <div class="dropdown-div">
+                <select class="force-card-set" id="force-card-set-left">
+                    <option value="">&lt;random&gt;</option>
+                </select>
+            </div>
         </td>
         <td>
             <img class="card" id="middle" src="/static/img/tarokka/__Back.png">
@@ -33,6 +43,11 @@
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-middle" value="middle">Off Grid
                 <input type="checkbox" class="flipped-checkbox" id="flipped-middle" value="middle">Flipped
             </div>
+            <div class="dropdown-div">
+                <select class="force-card-set" id="force-card-set-middle">
+                    <option value="">&lt;random&gt;</option>
+                </select>
+            </div>
         </td>
         <td>
             <img class="card" id="right" src="/static/img/tarokka/__Back.png">
@@ -40,6 +55,11 @@
                 <input type="checkbox" class="inverted-checkbox" id="inverted-right" value="right">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-right" value="right">Off Grid
                 <input type="checkbox" class="flipped-checkbox" id="flipped-right" value="right">Flipped
+            </div>
+            <div class="dropdown-div">
+                <select class="force-card-set" id="force-card-set-right">
+                    <option value="">&lt;random&gt;</option>
+                </select>
             </div>
         </td>
     </tr>
@@ -51,6 +71,11 @@
                 <input type="checkbox" class="inverted-checkbox" id="inverted-bottom" value="bottom">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-bottom" value="bottom">Off Grid
                 <input type="checkbox" class="flipped-checkbox" id="flipped-bottom" value="bottom">Flipped
+            </div>
+            <div class="dropdown-div">
+                <select class="force-card-set" id="force-card-set-bottom">
+                    <option value="">&lt;random&gt;</option>
+                </select>
             </div>
         </td>
         <td></td>
@@ -75,6 +100,9 @@
 
 <p>
     <button id="set-random-reading-button">Set Random Reading</button>
+    <button id="set-random-reading-w-force-button">Set Random Reading (w/ force)</button>
+    <button id="force-cards-button">Force Cards</button>
+    <button id="clear-forced-cards">Clear Forced Cards</button>
 </p>
 
 <p>

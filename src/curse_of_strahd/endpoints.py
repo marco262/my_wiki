@@ -43,6 +43,21 @@ def get_tarokka_card_list():
     return TAROKKA_CARD_LIST
 
 
+def create_random_reading(forced_cards):
+    chosen_cards = random.sample(get_tarokka_card_list(), 5)
+    reading = {}
+    for position in ["top", "left", "middle", "right", "bottom"]:
+        if position in forced_cards:
+            reading[position] = forced_cards[position]
+            chosen_cards.remove(forced_cards[position]["card"])
+        else:
+            reading[position] = {
+                "card": chosen_cards.pop(),
+                "inverted": random.choice([True, False])
+            }
+    return reading
+
+
 def alter_tarokka_list(key, payload):
     global last_tarokka_setup
     data = loads(payload["data"])
@@ -51,31 +66,6 @@ def alter_tarokka_list(key, payload):
             d[key] = data["state"]
     else:
         last_tarokka_setup[data["position"]][key] = data["state"]
-
-def create_random_reading():
-    chosen_cards = random.sample(get_tarokka_card_list(), 5)
-    return {
-        "top": {
-            "card": chosen_cards[0],
-            "inverted": random.choice([True, False])
-        },
-        "left": {
-            "card": chosen_cards[1],
-            "inverted": random.choice([True, False])
-        },
-        "middle": {
-            "card": chosen_cards[2],
-            "inverted": random.choice([True, False])
-        },
-        "right": {
-            "card": chosen_cards[3],
-            "inverted": random.choice([True, False])
-        },
-        "bottom": {
-            "card": chosen_cards[4],
-            "inverted": random.choice([True, False])
-        },
-    }
 
 
 def load_wsgi_endpoints(app: Bottle):
