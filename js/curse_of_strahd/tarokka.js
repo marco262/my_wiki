@@ -1,5 +1,6 @@
 import {get_tarokka_data} from "./tarokka_data.js";
 import {ajax_call, get_w_default} from "../common/utils.js";
+import {MyWebsocket} from "../common/mywebsocket.js";
 
 const card_deal_sfx = document.getElementById("card-deal-effect");
 card_deal_sfx.volume = 0.6;
@@ -15,8 +16,6 @@ let flip_card_inner_elements = {
 }
 const card_order = ["middle", "bottom", "left", "top", "right"];
 
-let websocket_errors = 0;
-let max_websocket_errors = 3;
 let ws = null;
 
 let tarokka_data = get_tarokka_data();
@@ -31,37 +30,11 @@ export function init() {
     for (const element of document.getElementsByClassName("card-front")) {
         element.onmouseover = () => { set_info_box(element); };
     }
-    load_websocket();
-}
-
-function load_websocket() {
-    let loc = window.location;
-    let ws_uri = (loc.protocol === "https:") ? "wss:" : "ws:";
-    ws_uri += `//${loc.host}/curse_of_strahd/tarokka_websocket`;
-    ws = new WebSocket(ws_uri);
-    ws.onmessage = handle_websocket;
-    ws.onerror = on_websocket_error;
-    console.log(`Loaded websocket`);
-}
-
-function on_websocket_error(error) {
-    console.error("WebSocket error:");
-    console.error(error);
-    websocket_errors += 1;
-    if (websocket_errors >= max_websocket_errors) {
-        document.getElementById("grid").hidden = true;
-        let error_msg = document.getElementById("error-message");
-        error_msg.innerText = `Failed to connect to WebSocket after ${websocket_errors} attempts. ` +
-            `Please reload page to try again.`;
-        error_msg.hidden = false;
-        return;
-    }
-    console.log("Reconnecting in 5 seconds...");
-    setTimeout(load_websocket, 5000);
+    ws = new MyWebsocket("/curse_of_strahd/tarokka_websocket", handle_websocket);
+    ws.load();
 }
 
 function handle_websocket(msg) {
-    websocket_errors = 0;
     console.debug(msg);
     let json = JSON.parse(msg.data);
     if (json["action"] === "sync") {

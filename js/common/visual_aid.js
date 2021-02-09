@@ -1,5 +1,5 @@
-let websocket_errors = 0;
-let max_websocket_errors = 3;
+import {MyWebsocket} from "./mywebsocket.js";
+
 let ws = null;
 let visual_aid_version = null;
 
@@ -17,7 +17,8 @@ export function init() {
     effect_audio = Array.from(document.getElementsByClassName("effect"));
     all_audio = music_audio.concat(ambience_audio).concat(effect_audio);
 
-    load_websocket();
+    ws = new MyWebsocket("/visual_aid_websocket", handle_websocket);
+    ws.load();
 
     window.addEventListener("beforeunload", event => {
         console.log("Closing websocket");
@@ -30,39 +31,12 @@ export function init() {
     window.onload = play_sound;
 }
 
-function load_websocket() {
-    let loc = window.location;
-    let ws_uri = (loc.protocol === "https:") ? "wss:" : "ws:";
-    ws_uri += `//${loc.host}/visual_aid_websocket`;
-    ws = new WebSocket(ws_uri);
-    ws.onmessage = handle_websocket;
-    ws.onerror = on_websocket_error;
-    console.log(`Loaded websocket`);
-}
-
-function on_websocket_error(error) {
-    console.log("WebSocket error:");
-    console.log(error);
-    websocket_errors += 1;
-    if (websocket_errors >= max_websocket_errors) {
-        document.getElementById("page").hidden = true;
-        let error_msg = document.getElementById("error-message");
-        error_msg.innerText = `Failed to connect to WebSocket after ${websocket_errors} attempts. ` +
-            `Please reload page to try again.`;
-        error_msg.hidden = false;
-        return;
-    }
-    console.log("Reconnecting in 5 seconds...");
-    setTimeout(load_websocket, 5000);
-}
-
 function toggle_audio_controls(e) {
     let audio_controls = document.getElementById("audio-controls");
     audio_controls.hidden = !audio_controls.hidden;
 }
 
 function handle_websocket(msg) {
-    websocket_errors = 0;
     console.log(msg);
     let response = msg.data;
     console.log(response);
