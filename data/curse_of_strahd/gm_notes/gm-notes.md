@@ -110,6 +110,8 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 * [So You Want to Run Curse of Strahd: A Primer on Preparing (and Running) the Game](https://old.reddit.com/r/CurseofStrahd/comments/f3w658/so_you_want_to_run_curse_of_strahd_a_primer_on/)
 * [So You Want to Play Curse of Strahd: A Player's Primer on Enjoying the Game](https://old.reddit.com/r/CurseofStrahd/comments/hhezj2/so_you_want_to_play_curse_of_strahd_a_players/)
 * [The Genre-Savvy Strahd: A Guide to Running Combat for D&D's Most Dangerous Villain](https://old.reddit.com/r/CurseofStrahd/comments/eekl2g/the_genresavvy_strahd_a_guide_to_running_combat/)
+* [My Notes on running Ireena without making her a badass](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
+* [My notes on running Strahd like an Unholy Terror](https://old.reddit.com/r/CurseofStrahd/comments/8ts5bg/my_notes_on_running_strahd_like_an_unholy_terror/)
 * [Landmarks on the Svalich Road: Battle Maps & Location Images](https://old.reddit.com/r/CurseofStrahd/comments/etzcys/landmarks_on_the_svalich_road_battle_maps/)
 * [Alternate map of Barovia](https://imgur.com/t/curse_of_strahd/GKDGBt2)
 * [My Notes on Further Use of the Tarokka Deck](https://old.reddit.com/r/CurseofStrahd/comments/9l40pt/my_notes_on_further_use_of_the_tarokka_deck/), aka how to use the Tarokka Deck as a fortunetelling device
