@@ -30,7 +30,7 @@ export function init() {
     };
 
     document.getElementById("set-random-reading-button").onclick = function() {
-        send_to_websocket("set_random_reading");
+        send_to_websocket("set_random_reading", "{}");
     };
     document.getElementById("set-random-reading-w-force-button").onclick = function() {
         send_to_websocket("set_random_reading", JSON.stringify(get_forced_cards()));

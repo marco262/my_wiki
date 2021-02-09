@@ -50,7 +50,9 @@ def create_random_reading(forced_cards):
     for position in ["top", "left", "middle", "right", "bottom"]:
         if position in forced_cards:
             reading[position] = forced_cards[position]
-            chosen_cards.remove(forced_cards[position]["card"])
+            forced_card = forced_cards[position]["card"]
+            if forced_card in chosen_cards:
+                chosen_cards.remove(forced_card)
         else:
             reading[position] = {
                 "card": chosen_cards.pop(),
@@ -106,13 +108,18 @@ def load_wsgi_endpoints(app: Bottle):
         global last_tarokka_setup
         payload = dict(request.params)
         if payload["action"] == "set_random_reading":
-            last_tarokka_setup = create_random_reading()
+            last_tarokka_setup = create_random_reading(loads(payload["data"]))
             payload = {"action": "set", "data": dumps(last_tarokka_setup)}
         elif payload["action"] == "set_from_file":
             with open(f"data/curse_of_strahd/gm_notes/tarroka_readings/{payload['data']}.json") as f:
                 data = f.read().strip("\n")
             last_tarokka_setup = loads(data)
             payload = {"action": "set", "data": data}
+        elif payload["action"] == "force_cards":
+            data = loads(payload["data"])
+            for position, card_dict in data.items():
+                last_tarokka_setup[position] = card_dict
+            payload = {"action": "sync", "data": dumps(last_tarokka_setup)}
         elif payload["action"] == "invert":
             alter_tarokka_list("inverted", payload)
             payload = {"action": "sync", "data": dumps(last_tarokka_setup)}
