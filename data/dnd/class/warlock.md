@@ -26,7 +26,7 @@ Once a pact is made, a warlock's thirst for knowledge and power can't be slaked 
 || 1st || +2 || Otherworldly Patron, Pact Magic || 2 || 2 || 1 || 1st || -- ||
 || 2nd || +2 || Eldritch Invocations || 2 || 3 || 2 || 1st || 2 ||
 || 3rd || +2 || Pact Boon || 2 || 4 || 2 || 2nd || 2 ||
-|| 4th || +2 || Ability Score Improvement || 3 || 5 || 2 || 2nd || 2 ||
+|| 4th || +2 || Ability Score Improvement, Eldritch Versatility || 3 || 5 || 2 || 2nd || 2 ||
 || 5th || +3 || -- || 3 || 6 || 2 || 3rd || 3 ||
 || 6th || +3 || Otherworldly Patron feature || 3 || 7 || 2 || 3rd || 3 ||
 || 7th || +3 || -- || 3 || 8 || 2 || 4th || 4 ||
@@ -124,7 +124,7 @@ You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a s
 
 [[accordion Optional Class Features: Spell Versatility]]
 
-## Spell Versatility
+### Spell Versatility
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 

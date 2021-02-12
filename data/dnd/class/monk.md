@@ -24,10 +24,10 @@ For a monk, becoming an adventurer means leaving a structured, communal lifestyl
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Martial<br>Arts ||~ Ki<br>Points ||~ Unarmored<br>Movement ||~ Features ||
 || 1st || +2 || 1d4 || -- || -- || Unarmored Defense, Martial Arts ||
-|| 2nd || +2 || 1d4 || 2 || +10 ft. || Ki, Unarmored Movement ||
-|| 3rd || +2 || 1d4 || 3 || +10 ft. || Monastic Tradition, Deflect Missiles ||
-|| 4th || +2 || 1d4 || 4 || +10 ft. || Ability Score Improvement, Slow Fall ||
-|| 5th || +3 || 1d6 || 5 || +10 ft. || Extra Attack, Stunning Strike ||
+|| 2nd || +2 || 1d4 || 2 || +10 ft. || Ki, Unarmored Movement, Dedicated Weapon ||
+|| 3rd || +2 || 1d4 || 3 || +10 ft. || Monastic Tradition, Deflect Missiles, Ki-Fueled Attack ||
+|| 4th || +2 || 1d4 || 4 || +10 ft. || Ability Score Improvement, Slow Fall, Quickened Healing ||
+|| 5th || +3 || 1d6 || 5 || +10 ft. || Extra Attack, Stunning Strike, Focused Aim ||
 || 6th || +3 || 1d6 || 6 || +15 ft. || Ki-Empowered Strikes, Monastic Tradition feature ||
 || 7th || +3 || 1d6 || 7 || +15 ft. || Evasion, Stillness of Mind ||
 || 8th || +3 || 1d6 || 8 || +15 ft. || Ability Score Improvement ||

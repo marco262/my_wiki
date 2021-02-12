@@ -23,7 +23,7 @@ But the lure of knowledge and power calls even the most unadventurous wizards ou
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Arcane Recovery || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Arcane Tradition || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 3rd || +2 || -- || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
+|| 3rd || +2 || Cantrip Formulas || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
 || 4th || +2 || Ability Score Improvement || 4 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
 || 5th || +3 || -- || 4 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
 || 6th || +3 || Arcane Tradition feature || 4 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||

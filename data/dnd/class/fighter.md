@@ -32,7 +32,7 @@ You can make a fighter quickly by following these suggestions. First, make Stren
 || 1st || +2 || Fighting Style, Martial Versatility, Second Wind ||
 || 2nd || +2 || Action Surge (one use) ||
 || 3rd || +2 || Martial Archetype ||
-|| 4th || +2 || Ability Score Improvement ||
+|| 4th || +2 || Ability Score Improvement, Martial Versatility ||
 || 5th || +3 || Extra Attack ||
 || 6th || +3 || Ability Score Improvement ||
 || 7th || +3 || Martial Archetype feature ||

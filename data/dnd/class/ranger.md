@@ -35,16 +35,16 @@ You can make a ranger quickly by following these suggestions. First, make Dexter
 # The Ranger
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||
-|| 1st || +2 || Favored Enemy, Natural Explorer || -- || -- || -- || -- || -- || -- ||
+|| 1st || +2 || Favored Enemy/Favored Foe, Natural Explorer/Deft Explorer || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Fighting Style, Martial Versatility, Spellcasting || 2 || 2 || -- || -- || -- || -- ||
-|| 3rd || +2 || Ranger Archetype, Primeval Awareness || 3 || 3 || -- || -- || -- || -- ||
-|| 4th || +2 || Ability Score Improvement || 3 || 3 || -- || -- || -- || -- ||
+|| 3rd || +2 || Ranger Archetype, Primeval Awareness/Primal Awareness || 3 || 3 || -- || -- || -- || -- ||
+|| 4th || +2 || Ability Score Improvement, Martial Versatility || 3 || 3 || -- || -- || -- || -- ||
 || 5th || +3 || Extra Attack || 4 || 4 || 2 || -- || -- || -- ||
 || 6th || +3 || Favored Enemy and Natural Explorer improvements || 4 || 4 || 2 || -- || -- || -- ||
 || 7th || +3 || Ranger Archetype feature || 5 || 4 || 3 || -- || -- || -- ||
 || 8th || +3 || Ability Score Improvement, Land's Stride || 5 || 4 || 3 || -- || -- || -- ||
 || 9th || +4 || -- || 6 || 4 || 3 || 2 || -- || -- ||
-|| 10th || +4 || Natural Explorer improvement, Hide in Plain Sight || 6 || 4 || 3 || 2 || -- || -- ||
+|| 10th || +4 || Natural Explorer improvement, Hide in Plain Sight/Nature's Veil || 6 || 4 || 3 || 2 || -- || -- ||
 || 11th || +4 || Ranger Archetype feature || 7 || 4 || 3 || 3 || -- || -- ||
 || 12th || +4 || Ability Score Improvement || 7 || 4 || 3 || 3 || -- || -- ||
 || 13th || +5 || -- || 8 || 4 || 3 || 3 || 1 || -- ||
@@ -226,20 +226,19 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 [[accordion Optional Class Features: Spellcasting Focus and Spell Versatility]]
 
-## Spellcasting Focus
+### Spellcasting Focus
 
 _Source: Tasha's Cauldron of Everything, p. 57_
 
 _2nd-level ranger feature_
 
-You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of
-yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
+You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
 
-## Spell Versatility
+### Spell Versatility
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 
-_1st-level ranger feature (enhances Spellcasting)_
+_2nd-level ranger feature (enhances Spellcasting)_
 
 Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace.
 
@@ -259,7 +258,7 @@ Beginning at 3rd level, you can use your action and expend one ranger spell slot
 
 _Source: Tasha's Cauldron of Everything, p. 57_
 
-_3rd-level ranger feature_
+_3rd-level ranger feature, which replaces the Primeval Awareness feature_
 
 You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.
 
@@ -284,7 +283,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 
 ## Martial Versatility
 
-_Source: Tasha's Cauldron of Everything, p. 57_ 
+_Source: Tasha's Cauldron of Everything, p. 57_
 
 _4th-level paladin feature_
 

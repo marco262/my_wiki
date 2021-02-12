@@ -26,8 +26,8 @@ Sorcerers often have obscure or quixotic motivations driving them to adventure. 
 || 1st || 2 || -- || Spellcasting, Sorcerous Origin || 4 || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || 2 || 2 || Font of Magic || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || 2 || 3 || Metamagic || 4 || 4 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || 2 || 4 || Ability Score Improvement || 5 || 5 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
-|| 5th || 3 || 5 || -- || 5 || 6 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
+|| 4th || 2 || 4 || Ability Score Improvement, Sorcerous Versatility || 5 || 5 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
+|| 5th || 3 || 5 || Magical Guidance || 5 || 6 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
 || 6th || 3 || 6 || Sorcerous Origin feature || 5 || 7 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
 || 7th || 3 || 7 || -- || 5 || 8 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
 || 8th || 3 || 8 || Ability Score Improvement || 5 || 9 || 4 || 3 || 3 || 2 || -- || -- || -- || -- || -- ||
@@ -116,7 +116,7 @@ You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a s
 
 [[accordion Optional Class Features: Spell Versatility]]
 
-## Spell Versatility
+### Spell Versatility
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 

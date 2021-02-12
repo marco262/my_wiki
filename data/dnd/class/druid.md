@@ -36,7 +36,7 @@ You can make a druid quickly by following these suggestions. First, Wisdom shoul
 || 1st || +2 || Druidic, Spellcasting || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Wild Shape, Wild Companion, Druid Circle || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Wild Shape improvement, Ability Score Improvement || 3 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
+|| 4th || +2 || Wild Shape improvement, Ability Score Improvement, Cantrip Versatility || 3 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
 || 5th || +3 || -- || 3 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
 || 6th || +3 || Druidic Circle feature || 3 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
 || 7th || +3 || -- || 3 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||

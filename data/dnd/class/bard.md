@@ -32,9 +32,9 @@ You can make a bard quickly by following these suggestions. First, Charisma shou
 
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
 || 1st || +2 || Spellcasting, Bardic Inspiration (d6) || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Jack of All Trades, Song of Rest (d6) || 2 || 5 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
+|| 2nd || +2 || Jack of All Trades, Song of Rest (d6), Magical Inspiration || 2 || 5 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || Bard College, Expertise || 2 || 6 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Ability Score Improvement || 3 || 7 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
+|| 4th || +2 || Ability Score Improvement, Bardic Versatility || 3 || 7 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
 || 5th || +3 || Bardic Inspiration (d8), Font of Inspiration || 3 || 8 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
 || 6th || +3 || Countercharm, Bard College feature || 3 || 9 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
 || 7th || +3 || -- || 3 || 10 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
@@ -122,7 +122,7 @@ You can use a musical instrument (see [[[general:Equipment]]]) as a spellcasting
 
 [[accordion Optional Class Features: Spell Versatility]]
 
-## Spell Versatility
+### Spell Versatility
 
 _Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
 

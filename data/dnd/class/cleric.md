@@ -24,7 +24,7 @@ Most adventuring clerics maintain some connection to established temples and ord
 || 1st || +2 || Spellcasting, Divine Domain || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 2nd || +2 || Channel Divinity (1/rest), Divine Domain feature || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
 || 3rd || +2 || -- || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Ability Score Improvement || 4 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
+|| 4th || +2 || Ability Score Improvement, Cantrip Versatility || 4 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
 || 5th || +3 || Destroy Undead (CR 1/2) || 4 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
 || 6th || +3 || Channel Divinity (2/rest), Divine Domain feature || 4 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
 || 7th || +3 || -- || 4 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
@@ -142,7 +142,7 @@ A turned creature must spend its turns trying to move as far away from you as it
 
 [[accordion Optional Class Features: Harness Divine Power]]
 
-## Harness Divine Power
+### Harness Divine Power
 
 _Source: Tasha's Cauldron of Everything, p. 30_
 

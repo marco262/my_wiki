@@ -33,8 +33,8 @@ You can make a barbarian quickly by following these suggestions. First, put your
 ||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
 || 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
 || 2nd || +2 || Reckless Attack, Danger Sense || 2 || +2 ||
-|| 3rd || +2 || Primal Path || 3 || +2 ||
-|| 4th || +2 || Ability Score Improvement || 3 || +2 ||
+|| 3rd || +2 || Primal Path, Primal Knowledge || 3 || +2 ||
+|| 4th || +2 || Ability Score Improvement, Instinctive Pounce || 3 || +2 ||
 || 5th || +3 || Extra Attack, Fast Movement || 3 || +2 ||
 || 6th || +3 || Path feature || 4 || +2 ||
 || 7th || +3 || Feral Instinct || 4 || +2 ||
