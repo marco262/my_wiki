@@ -33,8 +33,9 @@ Notes
 
 * 23: Arrived in the Village of Barovia
 * 24: Went to the church
-* 25: Buried Kolyan, traveled to Vallaki, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped at the Blue Water Inn
-* 26: Left Vallaki, got to Krezk, saw dead people, met Abbot, met Ezmerelda, spent night at abbey (Today)
+* 25: Buried Kolyan, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped at the Blue Water Inn in Vallaki
+* 26: Left Vallaki, got to Krezk, saw dead people, met Abbot, met Ezmerelda, spent night at abbey
+* 27: Went to Wizards of Winery, fought off druids (Today)
 
 ## General Notes
 

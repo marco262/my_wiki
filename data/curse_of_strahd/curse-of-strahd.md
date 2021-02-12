@@ -47,6 +47,7 @@ Have fun!
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 * [Tarokka Table](tarokka)
+* [Map of Barovia](/static/img/visual_aids/curse_of_strahd/players_map.png) (from Kolyan's personal files)
 
 # Friendly NPCs
 
@@ -62,6 +63,10 @@ Have fun!
 
 * [The Abbot](/static/img/visual_aids/curse_of_strahd/the_abbot.jpg)
 * [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg), guest of the Abbey
+
+## The Wizard of Wines
+
+* [Davian Martikov](/static/img/visual_aids/curse_of_strahd/davian_martikov.jpg)
 
 # Enemy NPCs
 

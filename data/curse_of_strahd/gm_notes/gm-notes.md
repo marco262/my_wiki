@@ -115,6 +115,7 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 * [Landmarks on the Svalich Road: Battle Maps & Location Images](https://old.reddit.com/r/CurseofStrahd/comments/etzcys/landmarks_on_the_svalich_road_battle_maps/)
 * [Alternate map of Barovia](https://imgur.com/t/curse_of_strahd/GKDGBt2)
 * [My Notes on Further Use of the Tarokka Deck](https://old.reddit.com/r/CurseofStrahd/comments/9l40pt/my_notes_on_further_use_of_the_tarokka_deck/), aka how to use the Tarokka Deck as a fortunetelling device
+* [Fleshing Out Curse of Strahd: The Fanes and the Origin of the Winery Gems](https://old.reddit.com/r/CurseofStrahd/comments/9l5zfh/fleshing_out_curse_of_strahd_the_fanes_and_the/)
 
 # The Soulless
 
