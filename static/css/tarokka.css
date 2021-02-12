@@ -114,10 +114,16 @@ body {
   background: url(/static/img/vellum-plain-background-repeating.jpg) repeat top center;
   box-shadow: 5px 5px 5px black;
   position: fixed;
-  left: 70%;
-  width: 28%;
-  height: 96%;
-  padding: 10px;
+  left: 70vw;
+  width: 28vw;
+  height: 95vh;
+  padding: 10px 10px 20px;
+  display: grid;
+  grid-template-rows: auto 2em 2em;
+}
+
+#card-info {
+  visibility: hidden;
 }
 
 #error-message {

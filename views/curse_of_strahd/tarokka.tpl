@@ -12,8 +12,8 @@
 <body style="background-image: url(/static/img/tileable-wood-texture.jpg)">
 
 <div id="container">
-    <div id='grid'>
-        <article class="flip-card" id='top'>
+    <div id="grid">
+        <article class="flip-card" id="top">
             <div class="flip-card-inner off-grid" id="flip-card-inner-top">
                 <div class="flip-card-back">
                     4
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </article>
-        <article class="flip-card" id='left'>
+        <article class="flip-card" id="left">
             <div class="flip-card-inner off-grid" id="flip-card-inner-left">
                 <div class="flip-card-back">
                     3
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </article>
-        <article class="flip-card" id='middle'>
+        <article class="flip-card" id="middle">
             <div class="flip-card-inner off-grid" id="flip-card-inner-middle">
                 <div class="flip-card-back">
                     1
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </article>
-        <article class="flip-card" id='right'>
+        <article class="flip-card" id="right">
             <div class="flip-card-inner off-grid" id="flip-card-inner-right">
                 <div class="flip-card-back">
                     5
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </article>
-        <article class="flip-card" id='bottom'>
+        <article class="flip-card" id="bottom">
             <div class="flip-card-inner off-grid" id="flip-card-inner-bottom">
                 <div class="flip-card-back">
                     2
@@ -65,9 +65,7 @@
         </article>
     </div>
     <div id="info-box">
-        <p><a href="tarokka_card_list">Tarokka Card List</a></p>
-        <p><a href="Tarokka Reading Rules">Tarokka Reading Rules</a></p>
-        <div id="card-info" hidden>
+        <div id="card-info">
             <p><strong>Prophecy:</strong> <span id="prophecy_summary"></span></p>
             <p><strong>Vibe Check:</strong> <span id="vibe_check_summary"></span></p>
             <hr>
@@ -75,6 +73,8 @@
             <p id="card-description"></p>
             <p id="suit-description"></p>
         </div>
+        <p><a href="tarokka_card_list">Tarokka Card List</a></p>
+        <p><a href="Tarokka Reading Rules">Tarokka Reading Rules</a></p>
     </div>
 </div>
 
