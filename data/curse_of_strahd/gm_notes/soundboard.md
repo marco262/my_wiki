@@ -76,6 +76,10 @@
 * [Village of Krezk]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Krezk.mp3)
 * [Abbey of St Markovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Abbey of St Markovia.mp3)
 * [Wizard of Wines]($load|ambience|curse_of_strahd/D&D Ambience CoS Wizard Of Wines.mp3)
+* Yester Hill
+  * [Thunder]($load|ambience|curse_of_strahd/thunder.ogg)
+  * [Abandoned Fields (music)]($load|ambience|curse_of_strahd/abandoned_fields.ogg)
+  * [Ravens]($load|ambience|curse_of_strahd/ravens.ogg)
 
 ## Effect
 

@@ -20,7 +20,7 @@ skills = Arcana +7, History +7
 senses = passive Perception 11
 languages = Common, Dwarvish, Draconic, any other language
 special_abilities = !!!
-***Spellcasting.*** Grinda is a 4th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). Grinds has the following artificer spells prepared (7 class, 6 subclass):
+***Spellcasting.*** Grinda is a 4th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). Grinda has the following artificer spells prepared (7 class, 6 subclass):
 
 Cantrips (at will): _[light](/dnd/spell/light)_, _[mending](/dnd/spell/mending)_  
 1st level (4 slots): _[detect magic](/dnd/spell/detect magic)_<sup>rc</sup>, _[grease](/dnd/spell/grease)_, _[heroism](/dnd/spell/heroism)_<sup>c</sup>, _[sanctuary](/dnd/spell/sanctuary)_, _[shield](/dnd/spell/shield)_  

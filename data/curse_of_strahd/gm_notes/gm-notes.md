@@ -41,7 +41,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Areas of Barovia
 
-[Map of Barovia](https://i.redd.it/7d0q3j8rkxy41.jpg) (with enemies of Strahd highlighted)
+[Map of Barovia](/static/img/visual_aids/curse_of_strahd/barovia_gm_map.jpg) (with enemies of Strahd highlighted)
 
 [Player's Map of Barovia](^curse_of_strahd/players_map.png)
 
@@ -72,7 +72,7 @@ Enter another URL to set as Visual Aid here:
 * V. Van Richten's Tower
 * W. [Wizard of Wines](Wizard of Wines)
 * X. The Amber Temple
-* Y. Yester Hill
+* Y. [Yester Hill](Yester Hill)
 * Z. Werewolf Den
 
 ## Other Resources
@@ -116,6 +116,7 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 * [Alternate map of Barovia](https://imgur.com/t/curse_of_strahd/GKDGBt2)
 * [My Notes on Further Use of the Tarokka Deck](https://old.reddit.com/r/CurseofStrahd/comments/9l40pt/my_notes_on_further_use_of_the_tarokka_deck/), aka how to use the Tarokka Deck as a fortunetelling device
 * [Fleshing Out Curse of Strahd: The Fanes and the Origin of the Winery Gems](https://old.reddit.com/r/CurseofStrahd/comments/9l5zfh/fleshing_out_curse_of_strahd_the_fanes_and_the/)
+* [The Traitorous Bride: An Intrigue Encounter at Castle Ravenloft (perfect for Dinner with Strahd)](https://old.reddit.com/r/CurseofStrahd/comments/bhplvp/the_traitorous_bride_an_intrigue_encounter_at/)
 
 # The Soulless
 
@@ -135,5 +136,5 @@ Strahd curses any adventurer souls to never reincarnate, and are instead forced 
     * On his first visit, he will bring some Uncommon magic items with him as presents, and give them more instructions for other items to seek out.
     * With each item they find, he visits with more gifts of increasing rarity, to Rare, Very Rare, and Legendary.
 * Lord Jared wants something from Strahd. The sunsword? The tome? The holy symbol? Something else?
-* Give the party a Tarokka deck, and give Caytlin a guide on how to use it. Let her do actual "tarot" readings for the game.
+    * A piece of each of the Three Fanes, which he will acquire by asking the players to drop the items into the blessed pool.
 * Most NPCs in Barovia are some flavor of either Neutral or Evil. Goodness died out long ago.
