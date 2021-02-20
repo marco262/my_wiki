@@ -68,7 +68,7 @@ Enter another URL to set as Visual Aid here:
 * R. Raven River Crossroads
 * S. [Village of Krezk](Village of Krezk)
 * T. Tsolenka Pass
-* U. Ruins of Berez
+* U. [Ruins of Berez](Ruins of Berez)
 * V. Van Richten's Tower
 * W. [Wizard of Wines](Wizard of Wines)
 * X. The Amber Temple

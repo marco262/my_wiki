@@ -13,7 +13,7 @@
 
 * [Yester Hill](^curse_of_strahd/yester_hill.mp4)
 * [Kavan's Shrine](^curse_of_strahd/kavans_shrine.jpg)
-* [Kavan](^curse_of_strahd/kavan.jpg), dead barbarian chieftain
+* [Kavan](^curse_of_strahd/kavan.jpg), dead barbarian chieftainno
 * [Svarog, Druid Elder](^curse_of_strahd/svarog.png) ([stats](Svarog, Druid Elder))
 * [Strahd astride Beucephalus](^curse_of_strahd/strahd_5.jpg)
 * [Anastraya](^curse_of_strahd/anastraya.jpg)

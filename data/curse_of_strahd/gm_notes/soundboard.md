@@ -80,6 +80,7 @@
   * [Thunder]($load|ambience|curse_of_strahd/thunder.ogg)
   * [Abandoned Fields (music)]($load|ambience|curse_of_strahd/abandoned_fields.ogg)
   * [Ravens]($load|ambience|curse_of_strahd/ravens.ogg)
+* [Ruins of Berez]($load|ambience|curse_of_strahd/D&D Ambience CoS Ruins of Berez.mp3)
 
 ## Effect
 

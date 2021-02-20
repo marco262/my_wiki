@@ -1,8 +1,8 @@
 ### Ethel
 
 * Armor Class: 14
-* Passive Per: 13
-* Passive Ins: 11
+* Passive Per: 14
+* Passive Ins: 12
 
 Cursed with Lycanthropy
 
@@ -16,8 +16,8 @@ Cursed with Lycanthropy
 ### Orin
 
 * Armor Class: 14
-* Passive Per: 13
-* Passive Ins: 11
+* Passive Per: 14
+* Passive Ins: 12
 
 Notes
 
@@ -26,8 +26,8 @@ Notes
 ### Marblepaw
 
 * Armor Class: 14
-* Passive Per: 14
-* Passive Ins: 12
+* Passive Per: 16
+* Passive Ins: 13
 
 ## Journal
 
@@ -41,10 +41,12 @@ Notes
 
 * Get more battle/Vallaki/character theme music
 * Have Orin do History checks as they come across stuff on the road
-* Vasili von Holtz: https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg
+* Vasili von Holtz: <https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg>
 * Make calendar page
-* Add Map of Barovia to the main page
 
 ## Notes for Next Session
 
-* Prep Yester Hill, maybe also Berez?
+* Have Ireena act apologetic to party
+* Davian Martikov asks the party to retrieve the second gem from Berez
+  * Warns them about Baba Lysaga
+  * Tells them to look for Muriel Vinshaw
