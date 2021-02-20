@@ -9,6 +9,7 @@
 
 [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Wizard of Wines Winery.jpg)
 
+* [Davian Martikov](^curse_of_strahd/davian_martikov.jpg)
 * [Wereraven](^curse_of_strahd/wereraven_forms.jpg) ([stats](https://5e.tools/bestiary.html#wereraven_cos))
 * Evil Druid, [male](^curse_of_strahd/evil_druid_male.jpg)/[female](^curse_of_strahd/evil_druid_female.png) ([stats](https://5e.tools/bestiary.html#druid_mm))
   * Druid in W16 wields the [Gulthias Staff](^curse_of_strahd/gulthias_staff.jpg) ([link](https://5e.tools/items.html#gulthias%20staff_cos))
