@@ -43,10 +43,13 @@ Notes
 * Have Orin do History checks as they come across stuff on the road
 * Vasili von Holtz: <https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg>
 * Make calendar page
+* Traumatize Orin
 
 ## Notes for Next Session
 
-* Have Ireena act apologetic to party
-* Davian Martikov asks the party to retrieve the second gem from Berez
-  * Warns them about Baba Lysaga
-  * Tells them to look for Muriel Vinshaw
+* Weapon from Kavan
+* Make Ireena show off her dead husband
+* Purify the wine
+* Deliver dress, remove Ethel's curse
+* Talk with Jared at the pond
+* Marblepaw does a Tarroka reading
