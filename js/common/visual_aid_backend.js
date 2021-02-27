@@ -43,8 +43,6 @@ export function init_soundboard() {
 }
 
 function set_visual_aid(event, value) {
-    console.log(event);
-    console.log(value);
     let array = value.split("|");
     let action = array[0]
     let params = {
@@ -56,7 +54,9 @@ function set_visual_aid(event, value) {
         if (url && !url.startsWith("http")) {
             url = "/static/img/visual_aids/" + url;
         }
+        let title = array.length >= 3 ? array[2] : "";
         params["url"] = url;
+        params["title"] = event.altKey ? title : "";
     } else if (action === "iframe") {
         params["url"] = array[1];
     } else {

@@ -87,7 +87,7 @@ class MarkdownParser:
                 if not url.startswith("http"):
                     url = "/static/img/visual_aids/" + url
                 hover_panel = f'<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="{url}"></span>'
-                replace = f'<span class="visual-aid-link" title="visual_aid|{m.group(3)}">{m.group(1)}{hover_panel}</span>'
+                replace = f'<span class="visual-aid-link" title="visual_aid|{m.group(3)}|{m.group(1)}">{m.group(1)}{hover_panel}</span>'
             elif m.group(2) == "$":
                 replace = f'<span class="visual-aid-link" title="{m.group(3)}">{m.group(1)}</span>'
             else:

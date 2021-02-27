@@ -3,6 +3,23 @@ body {
     color: white;
 }
 
+#picture {
+    background-size: contain; 
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#picture-title {
+    position: absolute;
+    font-size: 10vh;
+    text-shadow: 0 0 0.5rem black;
+    width: 99%;
+    text-align: center;
+    top: 80%;
+}
+
 #notification-popup {
     color: black;
     position: fixed;

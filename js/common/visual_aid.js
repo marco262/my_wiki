@@ -52,7 +52,7 @@ function handle_websocket(msg) {
     }
     // Handle remaining data
     if (json["action"] === "visual_aid") {
-        handle_visual_aid(json["url"]);
+        handle_visual_aid(json["url"], json["title"]);
     } else if (json["action"] === "iframe") {
         handle_iframe(json["url"]);
     } else {
@@ -64,7 +64,7 @@ function force_page_refresh() {
     location.reload(true);
 }
 
-function handle_visual_aid(url) {
+function handle_visual_aid(url, title) {
     console.log("Setting img src: " + url);
     document.getElementById("iframe").hidden = true;
     let picture = document.getElementById("picture");
@@ -80,6 +80,9 @@ function handle_visual_aid(url) {
         picture.style.backgroundImage = "url('" + url + "')";
         picture.hidden = false;
     }
+    let picture_title = document.getElementById("picture-title");
+    picture_title.innerText = decodeURIComponent(title);
+    picture_title.hidden = false;
 }
 
 function handle_audio(action, target, url) {
@@ -130,6 +133,7 @@ function handle_iframe(url) {
     let video = document.getElementById("video");
     video.hidden = true;
     video.pause();
+    document.getElementById("picture-title").hidden = true;
     let iframe = document.getElementById("iframe");
     iframe.hidden = false;
     // Set onload so that once it's loaded, it goes to the right hash
