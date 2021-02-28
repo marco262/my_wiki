@@ -40,7 +40,7 @@ You can make a barbarian quickly by following these suggestions. First, put your
 || 7th || +3 || Feral Instinct || 4 || +2 ||
 || 8th || +3 || Ability Score Improvement || 4 || +2 ||
 || 9th || +4 || Brutal Critical (1 die) || 4 || +3 ||
-|| 10th || +4 || Path feature || 4 || +3 ||
+|| 10th || +4 || Path feature, Primal Knowledge || 4 || +3 ||
 || 11th || +4 || Relentless Rage || 4 || +3 ||
 || 12th || +4 || Ability Score Improvement || 5 || +3 ||
 || 13th || +5 || Brutal Critical (2 dice) || 5 || +3 ||

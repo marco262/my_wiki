@@ -48,9 +48,23 @@ Notes
 
 ## Notes for Next Session
 
+### Player Plans
+
 * Weapon from Kavan
 * Make Ireena show off her dead husband
 * Purify the wine
 * Deliver dress, remove Ethel's curse
 * Talk with Jared at the pond
 * Marblepaw does a Tarroka reading
+
+### Notes for me
+
+#### Vallaki
+
+* Mention how the people of Vallaki are all putting on fake smiles when out in public "as usual".
+* Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while.
+* Ireena wants to attended service at the church to pay her respects to the Morning Lord.
+  * Give the [Arabelle](Town of Vallaki#missing-vistana) hook here
+  * Willemina Rikalova will be talking about her husband(??)
+* Have Ernst spying on the players
+* Have Rictavio's tiger break out?

@@ -87,3 +87,8 @@ Flashback to Erwaren's Rest: The party has been missing for days now, ask the pl
 Flashback again: Uncle David says he can deliver three items to them that might help them on their quest. They cannot be very powerful (no better than Uncommon). Let the players pick three items, and then the tree grows three more fruits which contain the magic items.
 
 When Lord Jared says goodbye, his tiny body turns into honey and flows over the ground/someone's hand. The tree quickly shrivels and dies until it's just a husk, its magic expended. 
+
+## Missing Vistana
+
+* [Quest Description](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#heading=h.w6irt8m66qdy)
+* [Lada](^curse_of_strahd/orphan.jpg), orphan at St. Andral's

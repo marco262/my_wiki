@@ -117,6 +117,7 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 * [My Notes on Further Use of the Tarokka Deck](https://old.reddit.com/r/CurseofStrahd/comments/9l40pt/my_notes_on_further_use_of_the_tarokka_deck/), aka how to use the Tarokka Deck as a fortunetelling device
 * [Fleshing Out Curse of Strahd: The Fanes and the Origin of the Winery Gems](https://old.reddit.com/r/CurseofStrahd/comments/9l5zfh/fleshing_out_curse_of_strahd_the_fanes_and_the/)
 * [The Traitorous Bride: An Intrigue Encounter at Castle Ravenloft (perfect for Dinner with Strahd)](https://old.reddit.com/r/CurseofStrahd/comments/bhplvp/the_traitorous_bride_an_intrigue_encounter_at/)
+* [Alternate (very negative) take on Victor Vallakovich](https://old.reddit.com/r/CurseofStrahd/comments/8eex9m/alternate_very_negative_take_on_victor_vallakovich/)
 
 # The Soulless
 
