@@ -36,7 +36,7 @@ Notes
 * 25: Buried Kolyan, got a horse, watched a guy die, fixed a guy's hemorrhoids, stopped at the Blue Water Inn in Vallaki
 * 26: Left Vallaki, got to Krezk, saw dead people, met Abbot, met Ezmerelda, spent night at abbey
 * 27: Went to Wizards of Winery, fought off druids, invaded Yester Hill, took druid to Vallaki, met baron, got bridal gown, got message from Lord Jared
-* 28: (Today)
+* 28: Uncursed Ethel, delivered baby present, talked to Jared and Sergei, did Tarokka reading (Today)
 
 ## General Notes
 
@@ -50,14 +50,14 @@ Notes
 
 ### Player Plans
 
-* Weapon from Kavan
-* Make Ireena show off her dead husband
 * Purify the wine
-* Deliver dress, remove Ethel's curse
-* Talk with Jared at the pond
-* Marblepaw does a Tarroka reading
+* Weapon from Kavan
 
 ### Notes for me
+
+#### Yester Hill
+
+* Plan out what the players are told by Kavan about the Fanes, Strahd, the spear, the holy artifacts, etc.
 
 #### Vallaki
 
