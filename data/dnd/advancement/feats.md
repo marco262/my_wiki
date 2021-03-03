@@ -105,6 +105,17 @@ You've developed the skills necessary to hold your own in close-quarters grappli
 * You have advantage on attack rolls against a creature you are grappling.
 * You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both [[[general:conditions#restrained|restrained]]] until the grapple ends.
 
+## Grappler (Homebrew)
+
+*Source: Homebrew*
+
+You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
+
+* Increase your Strength or Constitution score by 1, to a maximum of 20.
+* You have advantage on attack rolls against a creature you are grappling.
+* You can use your bonus action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both [[[general:conditions#restrained|restrained]]] until the grapple ends.
+* When you make an opportunity attack, you can use your reaction to attempt to grapple the creature, rather than making a melee attack. You must have at least one free hand to attempt this grapple.
+
 ## Great Weapon Master
 
 You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:
