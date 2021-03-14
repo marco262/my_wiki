@@ -69,7 +69,7 @@ Enter another URL to set as Visual Aid here:
 * S. [Village of Krezk](Village of Krezk)
 * T. Tsolenka Pass
 * U. [Ruins of Berez](Ruins of Berez)
-* V. Van Richten's Tower
+* V. [Van Richten's Tower](Van Richten's Tower)
 * W. [Wizard of Wines](Wizard of Wines)
 * X. The Amber Temple
 * Y. [Yester Hill](Yester Hill)
@@ -107,6 +107,7 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 # References
 
 * [Curse of Strahd online](https://5e.tools/adventure.html#cos)
+* [Curse of Strahd Reloaded](https://old.reddit.com/r/CurseofStrahd/comments/9bpzbh/curse_of_strahd_reloaded_compilation_thread/)
 * [So You Want to Run Curse of Strahd: A Primer on Preparing (and Running) the Game](https://old.reddit.com/r/CurseofStrahd/comments/f3w658/so_you_want_to_run_curse_of_strahd_a_primer_on/)
 * [So You Want to Play Curse of Strahd: A Player's Primer on Enjoying the Game](https://old.reddit.com/r/CurseofStrahd/comments/hhezj2/so_you_want_to_play_curse_of_strahd_a_players/)
 * [The Genre-Savvy Strahd: A Guide to Running Combat for D&D's Most Dangerous Villain](https://old.reddit.com/r/CurseofStrahd/comments/eekl2g/the_genresavvy_strahd_a_guide_to_running_combat/)
