@@ -55,6 +55,8 @@ Notes
 
 ### Notes for me
 
+* Ezmerelda meets the party on the road, asks for help going to the tower to get her cart
+
 #### Yester Hill
 
 * Plan out what the players are told by Kavan about the Fanes, Strahd, the spear, the holy artifacts, etc.

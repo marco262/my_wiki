@@ -21,7 +21,7 @@
   * [Dmitri Krezkov](^curse_of_strahd/dmitri_krezkov.png), burgomaster of Krezk
   * [Anna Krezkov](^curse_of_strahd/anna_krezkov.jpg), wife of Dmitri
 * S4. [Pool and Shrine](^curse_of_strahd/krezk_shrine.mp4)
-  * [Mysterious Fiance](^curse_of_strahd/mysterious_fiance.jpg)
+  * [Sergei von Zarovich](^curse_of_strahd/mysterious_fiance.jpg)
 
 ## Abbey of St. Markovia
 
