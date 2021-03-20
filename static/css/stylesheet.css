@@ -267,6 +267,12 @@ div.errata {
     background-color: #FEA;
 }
 
+div.homebrew-note {
+    border: 1px solid gray;
+    background-color: #FEA;
+    padding: 5px 10px 5px 10px;
+}
+
 /* Enable borders on tables by default (copy default browser border look) */
 
 table, th, td {

@@ -29,5 +29,9 @@ end
 <p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
 
 % end
+% if defined('at_higher_levels_homebrew'):
+<div class="homebrew-note"><strong>At Higher Levels (homebrew):</strong> {{at_higher_levels_homebrew}}</div>
+
+% end
 <hr class="no-float">
 <p><em>Source: {{source}}</em></p>
