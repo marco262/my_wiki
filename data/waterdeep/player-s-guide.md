@@ -244,7 +244,7 @@ Forewarned is forearmed. The research downtime activity allows a character to de
 
 ***Resources.*** Typically, a character needs access to a library or a sage to conduct research. Assuming such access is available, conducting research requires one tenday of effort and at least 50 gp spent on materials, bribes, gifts, and other expenses.
 
-***Resolution.*** The character declares the focus of the research-a specific person, place, or thing. After one tenday, the character makes an Intelligence check with a +1 bonus per 100 gp spent beyond the initial 100 gp, to a maximum of +6. In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. Determine how much lore a character learns using the following table.
+***Resolution.*** The character declares the focus of the research-a specific person, place, or thing. After one tenday, the character makes an Intelligence check with a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6. In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. Determine how much lore a character learns using the following table.
 
 ||~ Check Total ||~ Outcome ||
 || 1-5 || No effect. ||
