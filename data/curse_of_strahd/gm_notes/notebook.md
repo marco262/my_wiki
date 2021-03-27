@@ -41,10 +41,10 @@ Notes
 ## General Notes
 
 * Get more battle/Vallaki/character theme music
-* Have Orin do History checks as they come across stuff on the road
 * Vasili von Holtz: <https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg>
 * Make calendar page
-* Traumatize Orin
+* Traumatize Orin/Marblepaw
+* Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
 
 ## Notes for Next Session
 
@@ -69,4 +69,4 @@ Notes
   * Give the [Arabelle](Town of Vallaki#missing-vistana) hook here
   * Willemina Rikalova will be talking about her husband(??)
 * Have Ernst spying on the players
-* Have Rictavio's tiger break out?
+* Have Rictavio's tiger break out

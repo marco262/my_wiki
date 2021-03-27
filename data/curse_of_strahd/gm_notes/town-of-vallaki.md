@@ -24,6 +24,8 @@
   * [Milivoj Plavsic](^curse_of_strahd/milivoj_plavsic.png), groundskeeper ([stats](https://5e.tools/bestiary.html#commoner_mm) but Str +2 and +4/1d4+2 shovel attack)
   * [Willemina Rikalova](^curse_of_strahd/willemina_rikalova.jpg), parishoner, worried for her husband who has been captured by the Burgomaster
   * [Map](https://old.reddit.com/r/dungeondraft/comments/grnmuy/the_church_of_saint_andral_23x34_ppi_100/), if needed
+  * [Orphanage of St. Andral](^curse_of_strahd/st_andrals_orphanage.jpg)
+      * [Claudia Belasco](^curse_of_strahd/claudia_belasco.jpg), matron of the orphanage
 * N2. [Blue Water Inn](^curse_of_strahd/blue_water_inn.mp4)
   * [Interior](^curse_of_strahd/blue_water_inn_interior.jpg)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Blue Water Inn.jpg)
@@ -60,6 +62,7 @@
   * [Gadof Blinsky](^curse_of_strahd/gadof_blinsky.jpg)
 * N8. Vallaki Town Square [1](^curse_of_strahd/vallaki_town_square.jpg), [2](^curse_of_strahd/vallaki_5.jpg), [video](^curse_of_strahd/vallaki_town_square.mp4)
   * [Wolf's Head Jamboree posters](^curse_of_strahd/wolfs_head_jamboree_poster.jpg) are in the middle of being replaced by [Festival of the Blazing Sun posters](^curse_of_strahd/festival_of_the_blazing_sun_poster.jpg).
+  * Later, the posters are replaced by [Festival of the Friendly Neighbor posters](^curse_of_strahd/festival_of_the_friendly_neighbor.png).
 * N9. [Vistani Camp](^curse_of_strahd/vistani_camp.mp4)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vistani Camp.jpg)
   * Led by brothers [Luvash](^curse_of_strahd/luvash.jpg) and [Arrigal](^curse_of_strahd/arrigal.png)
@@ -92,3 +95,11 @@ When Lord Jared says goodbye, his tiny body turns into honey and flows over the 
 
 * [Quest Description](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#heading=h.w6irt8m66qdy)
 * [Lada](^curse_of_strahd/orphan.jpg), orphan at St. Andral's
+
+## Cursed Orphanage
+
+* [Ludmilla Vilisevic](^curse_of_strahd/ludmilla_vilisevic.jpg)
+
+## Lady Wachter's Wish
+
+Lady Fiona Wachter sends Ernst Larnak to invite the PCs to dine with her. Her goal in this dinner is to convince the PCs she needs their help, and to have them look into what Victor did to Stella to destroy her mind. She has a good idea already, but she wants the PCs to discover it for themselves, so she can use this as emotional leverage to convince the PCs to help her in her coup against Baron Vallakovich.
