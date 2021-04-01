@@ -251,12 +251,12 @@ def load_wsgi_endpoints(app: Bottle):
         }
         return d
 
-    @app.get("/magic_item_generator/")
+    @app.get("/equipment/magic_item_generator/")
     @view("dnd/magic_item_generator.tpl")
     def magic_item_generator():
         return
 
-    @app.post("/magic_item_generator_results/")
+    @app.post("/equipment/magic_item_generator_results/")
     def magic_item_generator():
         d = {
             "A": ("Minor", "Common"),

@@ -51,13 +51,15 @@ Certain special mounts, such as a pegasus or griffon, or special vehicles, such 
 **Travel Pace**
 
 ||~ Pace ||~ Minute ||~ Hour ||~ Day ||~ Effect ||
-|| Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores<br>-5 penalty to checks to avoid becoming lost<sup>1</sup><br>Can't forage<sup>1</sup> ||
+|| Fast || 400 feet || 4 miles || 30 miles || -5 penalty to passive Wisdom (Perception) scores ||
 || Normal || 300 feet || 3 miles || 24 miles || -- ||
-|| Slow || 200 feet || 2 miles || 18 miles || Able to use stealth<br>+5 bonus to checks to avoid becoming lost<sup>1</sup> ||
+|| Slow || 200 feet || 2 miles || 18 miles || Able to use stealth ||
 
-<sup>1</sup> *Dungeon Master's Guide, p. 111*
+[[accordion DMG Variant Rules]]
 
-### Special Travel Pace (DMG 242)
+### Special Travel Pace
+
+*Source: Dungeon Master's Guide, p. 242*
 
 The rules on travel pace in the Player's Handbook assume that a group of travelers adopts a pace that, over time, is unaffected by the individual members' walking speeds. The difference between walking speeds can be significant during combat, but during an overland journey, the difference vanishes as travelers pause to catch their breath, the faster ones wait for the slower ones, and one traveler's quickness is matched by another traveler's endurance.
 
@@ -72,6 +74,8 @@ A character bestride a phantom steed, soaring through the air on a *carpet of fl
 For example, a character under the effect of a *[[[spell:wind walk]]]* spell gains a flying speed of 300 feet. In 1 minute, the character can move 3,000 feet at a normal pace, 4,000 feet at a fast pace, or 2,000 feet at a slow pace. The character can also cover 20, 30, or 40 miles in an hour. The spell lasts for 8 hours, allowing the character to travel 160, 240, or 320 miles in a day.
 
 Similarly, a *[[[spell:phantom steed]]]* spell creates a magical mount with a speed of 100 feet that doesn't tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
+
+[[/accordion]]
 
 ### Difficult Terrain
 
@@ -149,19 +153,41 @@ Characters who turn their attention to other tasks as the group travels are not 
 
 **Forage.** The character can keep an eye out for ready sources of food and water, making a Wisdom (Survival) check when the DM calls for it.
 
-### Becoming Lost (DMG 111)
+[[accordion DMG Variant Rules]]
+
+### Becoming Lost
+
+*Source: Dungeon Master's Guide, p. 111*
 
 Unless they are following a path, or something like it, adventurers traveling in the wilderness run the risk of becoming lost. The party's navigator makes a Wisdom (Survival) check when you decide it's appropriate, against a DC determined by the prevailing terrain, as shown on the Wilderness Navigation table. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, and a fast pace imposes a -5 penalty. If the party has an accurate map of the region or can see the sun or stars, the navigator has advantage on the check.
 
 If the Wisdom (Survival) check succeeds, the party travels in the desired direction without becoming lost. If the check fails, the party inadvertently travels in the wrong direction and becomes lost. The party's navigator can repeat the check after the party spends 1d6 hours trying to get back on course.
 
 **Wilderness Navigation**
+
 ||~ Terrain ||~ DC ||
 || Forest, jungle, swamp, mountains, or open sea with overcast skies and no land in sight || 15 ||
 || Arctic, desert, hills, or open sea with clear skies and no land in sight || 10 ||
 || Grassland, meadow, farmland || 5 ||
 
-### Tracking (DMG 244)
+### Foraging
+
+*Source: Dungeon Master's Guide, p. 111*
+
+Characters can gather food and water as the party travels at a normal or slow pace. A foraging character makes a Wisdom (Survival) check whenever you call for it, with the DC determined by the abundance of food and water in the region.
+
+**Foraging DCs**
+
+||~ Food and Water Availability ||~ DC ||
+|| Abundant food and water sources || 10 ||
+|| Limited food and water sources || 15 ||
+|| Very little, if any, food and water sources || 20 ||
+
+If multiple characters forage, each character makes a separate check. A foraging character finds nothing on a failed check. On a successful check, roll 1d6 + the character's Wisdom modifier to determine how much food (in pounds) the character finds, then repeat the roll for water (in gallons).
+
+### Tracking
+
+*Source: Dungeon Master's Guide, p. 244*
 
 Adventurers sometimes choose their path by following the tracks of other creatures -- or other creatures might track the adventurers! To track, one or more creatures must succeed on a Wisdom (Survival) check. The DM might require trackers to make a new check in any of the following circumstances:
 
@@ -176,6 +202,7 @@ The Tracking DCs table offers guidelines for setting the DC or, if you prefer, y
 On a failed check, the character loses the trail but can attempt to find it again by making a careful search of the area. It takes 10 minutes to find a trail in a confined area such as a dungeon, or 1 hour outdoors.
 
 **Tracking DCs**
+
 ||~ Ground Surface ||~ DC ||
 || Soft surface such as snow || 10 ||
 || Dirt or grass || 15 ||
@@ -183,17 +210,7 @@ On a failed check, the character loses the trail but can attempt to find it agai
 || Each day since the creature passed || +5 ||
 || Creature left a trail such as blood || -5 ||
 
-### Foraging (DMG 111)
-
-Characters can gather food and water as the party travels at a normal or slow pace. A foraging character makes a Wisdom (Survival) check whenever you call for it, with the DC determined by the abundance of food and water in the region.
-
-**Foraging DCs**
-||~ Food and Water Availability ||~ DC ||
-|| Abundant food and water sources || 10 ||
-|| Li mited food and water sources || 15 ||
-|| Very little, if any, food and water sources || 20 ||
-
-If multiple characters forage, each character makes a separate check. A foraging character finds nothing on a failed check. On a successful check, roll 1d6 + the character's Wisdom modifier to determine how much food (in pounds) the character finds, then repeat the roll for water (in gallons).
+[[/accordion]]
 
 # The Environment
 
@@ -400,7 +417,7 @@ Living a particular lifestyle doesn't have a huge effect on your character, but 
 
 Between adventures, the DM might ask you what your character is doing during his or her downtime. Periods of downtime can vary in duration, but each downtime activity requires a certain number of days to complete before you gain any benefit, and at least 8 hours of each day must be spent on the downtime activity for the day to count. The days do not need to be consecutive. If you have more than the minimum amount of days to spend, you can keep doing the same thing for a longer period of time, or switch to a new downtime activity.
 
-Downtime activities other than the ones presented below are possible. If you want your character to spend his or her downtime performing an activity not covered here, discuss it with your DM.
+Downtime activities other than the ones presented below are possible. If you want your character to spend his or her downtime performing an activity not covered here, discuss it with your DM. Some extra Downtime Activity options are listed [here](Downtime Activities).
 
 ### Crafting
 
@@ -442,3 +459,8 @@ You can spend time between adventures learning a new language or training with a
 First, you must find an instructor willing to teach you. The DM determines how long it takes, and whether one or more ability checks are required.
 
 The training lasts for 250 days and costs 1 gp per day. After you spend the requisite amount of time and money, you learn the new language or gain proficiency with the new tool.
+
+<script type="module">
+    import {init_accordions} from "/js/common/utils.js";
+    init_accordions();
+</script>
