@@ -2,7 +2,7 @@ import os
 
 import youtube_dl
 
-os.chdir("../static/audio")
+os.chdir("../static/audio/curse_of_strahd")
 
 ydl_opts = {
     'format': 'bestaudio/best',
@@ -13,5 +13,5 @@ ydl_opts = {
 }
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([
-        "https://www.youtube.com/watch?v=2AZOknKotVc",
+        "https://www.youtube.com/watch?v=vSjHFfoN9NM",
     ])

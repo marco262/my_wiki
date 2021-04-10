@@ -66,6 +66,9 @@
 
 * [Nighttime Forest]($load|ambience|Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp3)
 * [Nighttime Indoors - Rain]($load|ambience|Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp3)
+* [Panicked Crowd]($load|ambience|curse_of_strahd/D&D Ambience _ Panicked Crowd _ Movement, Stuff Breaking, People Crying and Yelling, Fear-whtz44p9oII.mp3)
+* [Angry Tiger]($load|ambience|curse_of_strahd/Angry Tiger Growling Roar- 1 Hour 1080p HD Tingle Sounds For Sleep Relax Study-ldOpNgvWvcQ.mp3)
+* [Angry Men]($load|ambience|curse_of_strahd/Sound _ Human _ Angry Male Crowd Ambience-vSjHFfoN9NM.mp3)
 
 ### Location Specific
 
