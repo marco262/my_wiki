@@ -202,7 +202,7 @@ Kobolds infest the lairs of many black dragons like vermin. They become as cruel
 
 # A Black Dragon's Lair
 
-Black dragons dwell in swamps on the frayed edges of civilization. A black dragon's lair is a dismal cave, grotto, or ruin that is at least partially flooded, providing pools where the dragon rests, and where its victims can fr rment. The lair is littered with the acid-pitted bones qf previous victims and the fly-ridden carcasses of fresh kills,,watched over by crumbling statues. Centipedes, scorpions, and snakes infest the lair, which is filled with the stench of death and decay.
+Black dragons dwell in swamps on the frayed edges of civilization. A black dragon's lair is a dismal cave, grotto, or ruin that is at least partially flooded, providing pools where the dragon rests, and where its victims can ferment. The lair is littered with the acid-pitted bones qf previous victims and the fly-ridden carcasses of fresh kills, watched over by crumbling statues. Centipedes, scorpions, and snakes infest the lair, which is filled with the stench of death and decay.
 
 ## Lair Actions
 
