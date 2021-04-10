@@ -57,7 +57,7 @@
   * [Henrik van der Voort](^curse_of_strahd/henrik_van_der_voort.jpg), owner
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Coffin Maker's Shop.jpg)
   * Six [vampire spawn](^curse_of_strahd/vampire_spawn.jpg) ([stats](https://5e.tools/bestiary.html#vampire%20spawn_mm)) are in the crates in the northern part of area F.
-* N7. Blinsky Toys
+* N7. [Blinsky Toys](^curse_of_strahd/Blinsky Toys.mp4)
   * Toys [1](^curse_of_strahd/blinsky_toys_1.jpg), [2](^curse_of_strahd/blinsky_toys_2.jpg), [3](^curse_of_strahd/blinsky_toys_3.jpg), [4](^curse_of_strahd/blinsky_toys_4.jpg)
   * [Gadof Blinsky](^curse_of_strahd/gadof_blinsky.jpg)
 * N8. Vallaki Town Square [1](^curse_of_strahd/vallaki_town_square.jpg), [2](^curse_of_strahd/vallaki_5.jpg), [video](^curse_of_strahd/vallaki_town_square.mp4)
