@@ -25,7 +25,7 @@ Enter another URL to set as Visual Aid here:
 
 ## NPCs
 
-* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) [(stats)](/dnd/monster/Noble)
+* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble))
   * Has taken on the pseudonym Ivan Mikanovich
   * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
   * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)

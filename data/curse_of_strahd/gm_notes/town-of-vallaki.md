@@ -103,3 +103,21 @@ When Lord Jared says goodbye, his tiny body turns into honey and flows over the 
 ## Lady Wachter's Wish
 
 Lady Fiona Wachter sends Ernst Larnak to invite the PCs to dine with her. Her goal in this dinner is to convince the PCs she needs their help, and to have them look into what Victor did to Stella to destroy her mind. She has a good idea already, but she wants the PCs to discover it for themselves, so she can use this as emotional leverage to convince the PCs to help her in her coup against Baron Vallakovich.
+
+## Tyger, Tyger
+
+[Quest Description](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#heading=h.dns09xlressa)
+
+The PCs are in the Blue Water Inn when they hear screams coming from outside to the East. If they follow the screams, they'll be lead to the Town Square. Here, they'll see [Izek Strazni](^curse_of_strahd/izek_strazni.jpg) and a bunch of guards questioning some freaked out villagers. Izek will come over and question the PCs and order them to stay indoors. A good insight check will notice that his gaze is lingering longer on Ireena than anyone else.  
+
+People in general are in a panick, either packing up their carts, hurrying home, or standing around trying to understand what's going on. 
+
+If the PCs ask around, they'll eventually come across Rictavio who is also trying to question people where the tiger went, though attempting to be discreet about it. He'll be evasive around the party unless someone references they know who he is. He'll offer to tell them all he knows, if they will find the tiger before the guards do and stop it from coming to harm. He mentions that the tiger has been trained to hunt down Vistani, both by their smell and their colorful clothes. He'll then attempt to split ways with the party to try and find the tiger on his own.
+
+The PCs will need to accomplish a skill challenge to find the tiger. Refer to the quest description for the rest of the quest.
+
+## Kelemen von Vollner
+
+* [Reference](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#heading=h.20skvrao5ies)
+* [Kelemen von Vollner](^curse_of_strahd/kelemen_von_vollner.jpg)
+* Kelemen uses the stat block of a [noble](/dnd/monster/Noble) with 16 hitpoints and a Dexterity of 18 (+4), and uses the multiattack feature of his original stat block to make two rapier attacks every turn (1d8+4 or 9 damage).

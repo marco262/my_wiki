@@ -85,6 +85,7 @@
   * [Ravens]($load|ambience|curse_of_strahd/ravens.ogg)
 * [Ruins of Berez]($load|ambience|curse_of_strahd/D&D Ambience CoS Ruins of Berez.mp3)
 * [Van Richten's Tower]($load|ambience|curse_of_strahd/D&D Ambience CoS Van Richten's Tower.mp3)
+* [Old Bonegrinder]($load|ambience|curse_of_strahd/D&D Ambience CoS Old Bonegrinder.mp3)
 
 ## Effect
 
