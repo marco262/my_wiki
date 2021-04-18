@@ -1,3 +1,5 @@
+## Party
+
 ### Ethel
 
 * Armor Class: 14
@@ -29,6 +31,12 @@ Notes
 * Passive Per: 16
 * Passive Ins: 13
 
+### NPCs
+
+* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble) with the [Healer](/dnd/general/Feats#Healer) feat)
+* [Esmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
+* [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg) ([stats](https://5e.tools/bestiary.html#rictavio_cos))
+
 ## Journal
 
 * 23: Arrived in the Village of Barovia
@@ -50,23 +58,11 @@ Notes
 
 ### Player Plans
 
-* Purify the wine
-* Weapon from Kavan
-
 ### Notes for me
-
-* Ezmerelda meets the party on the road, asks for help going to the tower to get her cart
-
-#### Yester Hill
-
-* Plan out what the players are told by Kavan about the Fanes, Strahd, the spear, the holy artifacts, etc.
 
 #### Vallaki
 
 * Mention how the people of Vallaki are all putting on fake smiles when out in public "as usual".
 * Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while.
-* Ireena wants to attended service at the church to pay her respects to the Morning Lord.
-  * Give the [Arabelle](Town of Vallaki#missing-vistana) hook here
-  * Willemina Rikalova will be talking about her husband(??)
-* Have Ernst spying on the players
-* Have Rictavio's tiger break out
+
+#### 

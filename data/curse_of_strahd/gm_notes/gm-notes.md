@@ -25,7 +25,7 @@ Enter another URL to set as Visual Aid here:
 
 ## NPCs
 
-* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble))
+* [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble) with the [Healer](/dnd/general/Feats#Healer) feat)
   * Has taken on the pseudonym Ivan Mikanovich
   * [Tips on properly running Ireena](https://old.reddit.com/r/CurseofStrahd/comments/8vsw2p/my_notes_on_running_ireena_without_making_her_a/)
   * Fights with a sword defensively (Dodge action, and uses reaction for +2 to AC)
@@ -60,7 +60,10 @@ Enter another URL to set as Visual Aid here:
 * J. Gates of Ravenloft
 * K. [Castle Ravenloft](Castle Ravenloft)
 * L. [Lake Zarovich](^curse_of_strahd/lake_zarovich.mp4)
-* M. Mad Mage of Mount Baratok
+* M. [Mount Baratok](^curse_of_strahd/MountBaratok.mp4)
+  * [5eTools - Mad Mage of Mount Baratok](https://5e.tools/adventure.html#cos,2,m.%20mad%20mage%20of%20mount%20baratok,0)
+  * [Mad Mage](^curse_of_strahd/mad_mage.jpg)
+  * [Mad Mage's Mansion](^curse_of_strahd/magnificent_mansion.jpg)
 * N. [Town of Vallaki](Town of Vallaki)
 * O. [Old Bonegrinder](Old Bonegrinder)
 * P. Luna River Crossroads
@@ -119,6 +122,9 @@ Taken from <https://www.enworld.org/threads/cos-ideal-tarokka-reading-storywise.
 * [Fleshing Out Curse of Strahd: The Fanes and the Origin of the Winery Gems](https://old.reddit.com/r/CurseofStrahd/comments/9l5zfh/fleshing_out_curse_of_strahd_the_fanes_and_the/)
 * [The Traitorous Bride: An Intrigue Encounter at Castle Ravenloft (perfect for Dinner with Strahd)](https://old.reddit.com/r/CurseofStrahd/comments/bhplvp/the_traitorous_bride_an_intrigue_encounter_at/)
 * [Alternate (very negative) take on Victor Vallakovich](https://old.reddit.com/r/CurseofStrahd/comments/8eex9m/alternate_very_negative_take_on_victor_vallakovich/)
+* [My Notes on Doctor Rudolph van Richten - The Legendary Slayer](https://old.reddit.com/r/CurseofStrahd/comments/8xcf57/my_notes_on_doctor_rudolph_van_richten_the/)
+* [My notes on Ezmerelda d'Avenir - Vistani Monster Hunter Extraordinaire](https://old.reddit.com/r/CurseofStrahd/comments/8wct9k/my_notes_on_ezmerelda_davenir_vistani_monster/)
+* [Useful/Optional Fluff (collated by me)](https://old.reddit.com/r/CurseofStrahd/comments/8a2b91/usefuloptional_fluff_collated_by_me/)
 
 # The Soulless
 
