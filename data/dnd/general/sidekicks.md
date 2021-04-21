@@ -208,7 +208,7 @@ The sidekick gains the ability to cast spells. (If the creature already has the 
 || Healer || Cleric and Druid || Wisdom ||
 || Prodigy || Bard and Warlock || Charisma ||
 
-***Spell Slots.*** The Spellcaster table shows how many spell slots the sidekick has to cast its Spellcaster spells of 1st level and higher. To cast one of these spells, the sidekick must expend a slot of the spell’s level or higher. The sidekick regains all expended spell slots when it finishes a long rest.
+***Spell Slots.*** The Spellcaster table shows how many spell slots the sidekick has to cast its Spellcaster spells of 1st level and higher. To cast one of these spells, the sidekick must expend a slot of the spell's level or higher. The sidekick regains all expended spell slots when it finishes a long rest.
 
 ***Spells Known.*** The sidekick knows two cantrips and one 1st-level spell of your choice from its spell list. Here are recommendations for a 1st-level spellcaster of each role:
 
@@ -224,8 +224,8 @@ Additionally, when the sidekick gains a level in this class, you can choose one 
 
 The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.
 
-* **Spell save DC** = 8 + sidekick’s proficiency bonus + spellcasting ability modifier
-* **Spell attack modifier** = sidekick’s proficiency bonus + spellcasting ability modifier
+* **Spell save DC** = 8 + sidekick's proficiency bonus + spellcasting ability modifier
+* **Spell attack modifier** = sidekick's proficiency bonus + spellcasting ability modifier
 
 ***Spellcasting Focus.*** The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a musical instrument.
 
@@ -302,7 +302,7 @@ _1st-level Warrior feature_
 Each warrior focuses on offense or defense in their training. Choose one of the following options:
 
 * **Attacker.** The sidekick gains a +2 bonus to all attack rolls.
-* **Defender.** The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn’t the sidekick, provided the sidekick can see the attacker.
+* **Defender.** The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.
 
 ## Second Wind
 
