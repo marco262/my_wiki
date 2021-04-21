@@ -149,12 +149,21 @@ img[alt$="<"] {
     float: left;
 }
 
-img[alt$="><"] {
+img[alt$="><"], img.illustration {
     display: block;
     max-width: 100%;
     height: auto;
     margin: auto;
     float: none!important;
+}
+
+img.illustration {
+    width: 50em;
+}
+
+p.image-caption {
+    font-style: italic;
+    text-align: center;
 }
 
 /*div#toc {*/

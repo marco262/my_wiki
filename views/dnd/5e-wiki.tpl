@@ -91,9 +91,16 @@
 * [[[general:Using Ability Scores]]]
 * [[[general:Adventuring]]]
 * [[[general:Combat]]]
-* [[[general:Running Encounters]]]
 * [[[general:Spellcasting Rules]]]
 * [[[general:Conditions]]]
+
+### Dungeon Master's Guide
+
+* [[[general:Running Encounters]]]
+
+### Tasha's Cauldron of Everything
+
+* [[[general:Sidekicks]]]
 
 [[/div]]
 
