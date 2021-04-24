@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 # Links
 
 * [5eTools - Mad Mage of Mount Baratok](https://5e.tools/adventure.html#cos,2,m.%20mad%20mage%20of%20mount%20baratok,0)
@@ -52,3 +47,9 @@ TBD
 ## Jade Circlet
 
 If removed from the Mad Mage's head, the jade circlet is still irreparably damaged, but it has enough lingering magic to be useful to anyone who might attune to it. Whoever attunes to the circlet gains the ability to activate the circlet as an action. When they do, they change into a random monster per the _[shapechange](/dnd/spell/shapechange)_ spell. The monster must be between CR 1 and CR 12, monstrous in appearance, and one of the following types: aberration, celestial, dragon, elemental, fey, fiend, or monstrosity. So the circlet can turn a creature into an abominable yeti or an earth elemental, but not a deva or bone devil.
+
+
+<script type="module">
+    import { init_links } from "/js/common/visual_aid_backend.js";
+    init_links();
+</script>

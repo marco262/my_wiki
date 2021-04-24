@@ -38,4 +38,9 @@ The players must first speak Khazan's name, which will cause the runes (actually
 
 If the arm positions are done out of order, a [young blue dragon](^curse_of_strahd/young_blue_dragon.jpg) ([stats](https://5e.tools/bestiary.html#young%20blue%20dragon_mm)) magically appears within 30 feet of the door and attacks all creatures it can see. The characters can keep trying to open the door while the dragon is attacking them. The dragon disappears if it is reduced to 0 hit points or if the characters open the door.
 
-History checks can help you recognize the name Khazan 
+History checks can help you recognize the name Khazan as an ancient wizard who loved power and dance in equal measures. He disappeared long ago.
+
+## Pack Attack
+
+* [Kiril](^curse_of_strahd/kiril.jpg), a [werewolf](^curse_of_strahd/werewolf.jpg) ([stats](https://5e.tools/bestiary.html#werewolf_mm)) with 90 hitpoints
+* [Wolf](^curse_of_strahd/wolf.jpg) ([stats](https://5e.tools/bestiary.html#wolf_mm))
