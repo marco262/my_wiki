@@ -69,7 +69,6 @@ Notes
 * Prep werewolf encounter
 * Make Vampire/vampire spawn notes for wiki front page
 * Figure out what Van Richten knows about Baba Lysaga
-* Figure out what I want to do about Mad Mage
 * Read up on Amber Temple/Argynvostholt
 
 #### Vallaki
