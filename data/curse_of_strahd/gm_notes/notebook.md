@@ -58,11 +58,21 @@ Notes
 
 ### Player Plans
 
+* Fight werewolves
+* Talk to Ezmerelda, ideas to defeat Strahd?
+* Ask about Baba Lysaga
+* Teach Ireena to handle herself
+* Pursue the Mad Mage 
+
 ### Notes for me
+
+* Prep werewolf encounter
+* Make Vampire/vampire spawn notes for wiki front page
+* Figure out what Van Richten knows about Baba Lysaga
+* Figure out what I want to do about Mad Mage
+* Read up on Amber Temple/Argynvostholt
 
 #### Vallaki
 
 * Mention how the people of Vallaki are all putting on fake smiles when out in public "as usual".
-* Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while.
-
-#### 
+* Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while. 

@@ -60,10 +60,7 @@ Enter another URL to set as Visual Aid here:
 * J. Gates of Ravenloft
 * K. [Castle Ravenloft](Castle Ravenloft)
 * L. [Lake Zarovich](^curse_of_strahd/lake_zarovich.mp4)
-* M. [Mount Baratok](^curse_of_strahd/MountBaratok.mp4)
-  * [5eTools - Mad Mage of Mount Baratok](https://5e.tools/adventure.html#cos,2,m.%20mad%20mage%20of%20mount%20baratok,0)
-  * [Mad Mage](^curse_of_strahd/mad_mage.jpg)
-  * [Mad Mage's Mansion](^curse_of_strahd/magnificent_mansion.jpg)
+* M. [Mount Baratok](Mount Baratok)
 * N. [Town of Vallaki](Town of Vallaki)
 * O. [Old Bonegrinder](Old Bonegrinder)
 * P. Luna River Crossroads
