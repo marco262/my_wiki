@@ -103,6 +103,53 @@ Have fun!
 * [Zygrek Belview](/static/img/visual_aids/curse_of_strahd/zygfrek_belview.jpg), groundskeeper/guard for the Abbey
 * [Marzena Belview](/static/img/visual_aids/curse_of_strahd/marzena_belview.jpg), tethered to a post in the Abbey courtyard, scared of everyone
 
+# So You Want To Know About Vampires
+
+## Vampires
+
+*Note: Van Richten believes that Strahd is the Prime Vampire, the eldest of all. As such, it is unknown how much of the following information applies to Strahd, or if there are further powers and abilities Strahd possesses that other vampires do not.*
+
+Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.
+
+***Dark Desires.*** Whether or not a vampire retains any memories from its former life, its emotional attachments wither as once-pure feelings become twisted by undeath. Love turns into hungry obsession, while friendship becomes bitter jealousy. In place of emotion, vampires pursue physical symbols of what they crave, so that a vampire seeking love might fixate on a young beauty. A child might become an object of fascination for a vampire obsessed with youth and potential. Others surround themselves with art, books, or sinister items such as torture devices or trophies from creatures they have killed.
+
+***Born from Death.*** Most of a vampire's victims become vampire spawn -- ravenous creatures with a vampire's hunger for blood, but under the control of the vampire that created them. If a true vampire allows a spawn to draw blood from its own body, the spawn transforms into a true vampire no longer under its master's control. Few vampires are willing to relinquish their control in this manner. Vampire spawn become free-willed when their creator dies.
+
+***Chained to the Grave.*** Every vampire remains bound to its coffin, crypt, or grave site, where it must rest by day. If a vampire didn't receive a formal burial, it must lie beneath a foot of earth at the place of its transition to undeath. A vampire can move its place of burial by transporting its coffin or a significant amount of grave dirt to another location. Some vampires set up multiple resting places this way.
+
+***Undead Nature.*** Neither a vampire nor a vampire spawn requires air.
+
+### Further Notes
+
+* A vampire can walk on ceilings and walls as if they were floors.
+* A vampire can't enter a Residence without an invitation from one of the occupants.
+* A vampire is hurt by running water and sunlight.
+* A vampire can transform into a bat or a cloud of mist at will, as long as it isn't in sunlight or running water.
+* A vampire magically heals its wounds if it isn't in sunlight or running water. If the vampire takes radiant damage or damage from Holy Water, the vampire spawn's magical healing is disabled for one round.
+* When a vampire is killed, it will change into a misty vapor and retreat to its Resting Place. If it is in sunlight or running water, it cannot transform.
+* If a wooden stake is driven into a vampire's heart while the vampire is asleep in its Resting place, the vampire is Paralyzed until the stake is removed.
+* Looking a vampire in the eyes or hearing its voice can subject you to its magical charm. A charmed person regards the vampire as a trusted friend to be heeded and protected, though the target isn't under the vampire's control. 
+* A bite from a vampire will drain its target's blood (reducing its maximum HP). Recovering from a vampire's bite requires a long rest.
+
+### Combat Info
+
+* A vampire is cold and calculating, its behavior in combat marked predominantly by patience and guile. A smart vampire will not engage in a fight it knows it can't win.
+* A vampire retains the abilities it had in life, and can gain more abilities during its undeath. Vampire weapon masters or mages are not unheard of.
+* A vampire can command the beasts in its domain to attack for them, usually preferring bats, rats, and wolves.
+
+## Vampire Spawn
+
+* A vampire spawn can walk on ceilings and walls as if they were floors.
+* A vampire spawn can't enter a Residence without an invitation from one of the occupants.
+* A vampire spawn is hurt by running water and sunlight.
+* A vampire spawn magically heals its wounds if it isn't in sunlight or running water. If the vampire spawn takes radiant damage or damage from Holy Water, the vampire spawn's magical healing is disabled for one round.
+* A bite from a vampire spawn will drain its target's blood (reducing its maximum HP). Recovering from a vampire spawn's bite requires a long rest.
+
+### Combat Info
+  
+* A vampire spawn is vicious and aggressive, driven mostly by an instinctual need to feed. It will often use its ability to climb on walls and ceilings to ambush its victim, latch on, and try to drain it dry before it can fight back.
+* A vampire spawn will attack with its claws. A vampire spawn's claws are especially adept at snagging targets and pulling it in, at which point it will attempt to bite its target and drain its blood.
+
 [[accordion Meanwhile in Waterdeep...]]
 
 # Trollskull Alley

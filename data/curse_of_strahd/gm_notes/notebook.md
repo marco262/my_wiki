@@ -58,7 +58,7 @@ Notes
 
 ### Player Plans
 
-* Fight werewolves
+* Look for Ethel's javelin/don't get ambushed
 * Talk to Ezmerelda, ideas to defeat Strahd?
 * Ask about Baba Lysaga
 * Teach Ireena to handle herself
@@ -66,10 +66,13 @@ Notes
 
 ### Notes for me
 
-* Prep werewolf encounter
+* Ambush the players
+* Ethel's javelin got left behind
 * Make Vampire/vampire spawn notes for wiki front page
 * Figure out what Van Richten knows about Baba Lysaga
 * Read up on Amber Temple/Argynvostholt
+* Have Strahd interact with the players again, and be both charming and vaguely threatening
+* After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
 
 #### Vallaki
 

@@ -41,6 +41,7 @@ elif sys.argv[1] == "add_spell":
     text = text.lower()
     text = re.sub(r"^", "_[[[spell:", text)
     text = re.sub(r"$", "]]]_", text)
+    text = re.sub(r", ?", "]]]_, _[[[spell:", text)
 elif sys.argv[1] == "add_special_formatting":
     for m in re.finditer(r'": "(\w)', text):
         text = text.replace(m.group(0), f'": "Represents {m.group(1).lower()}')

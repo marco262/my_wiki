@@ -258,9 +258,7 @@ h6:hover > .header-link {
     visibility: visible;
 }
 
-div.phb-sidebar, div.errata {
-    float: right;
-    width: 30%;
+div.phb-sidebar, div.phb-sidebar-no-float, div.errata, div.errata-no-float {
     padding: 0 1em;
     margin-left: 10px;
     margin-right: 5px;
@@ -268,12 +266,17 @@ div.phb-sidebar, div.errata {
     border: 1px solid gray;
 }
 
-div.phb-sidebar {
+div.phb-sidebar, div.phb-sidebar-no-float {
     background-color: #CEC;
 }
 
-div.errata {
+div.errata, div.errata-no-float {
     background-color: #FEA;
+}
+
+div.phb-sidebar, div.errata {
+    float: right;
+    width: 30%;
 }
 
 div.homebrew-note {
