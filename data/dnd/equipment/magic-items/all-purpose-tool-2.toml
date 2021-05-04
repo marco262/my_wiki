@@ -8,7 +8,7 @@ classes = ["artificer"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 119"
 description = """
-This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of [[[equipment:tools|artisan's tool]]] of your choice. Whatever form the tool takes, you are proficient with it.
+This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of [[[general:Equipment#tools|artisan's tool]]] of your choice. Whatever form the tool takes, you are proficient with it.
 
 While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity.
 

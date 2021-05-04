@@ -270,7 +270,7 @@ You add your Dexterity modifier to your attack roll and your damage roll when at
 
 ### Armor Class
 
-Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class, as described in [[[equipment:Armor and Shields]]].
+Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class, as described in [[[general:Equipment#armor-and-shields|Armor and Shields]]].
 
 ### Initiative
 

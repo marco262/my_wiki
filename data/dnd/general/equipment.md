@@ -1,6 +1,6 @@
 The marketplace of a large city teems with buyers and sellers of many sorts: dwarf smiths and elf woodcarvers, halfling farmers and gnome jewelers, not to mention humans of every shape, size, and color drawn from a spectrum of nations and cultures. In the largest cities, almost anything imaginable is offered for sale, from exotic spices and luxurious clothing to wicker baskets and practical swords.
 
-For an adventurer, the availability of armor, weapons, backpacks, rope, and similar goods is of paramount im portance, since proper equipment can mean the difference between life and death in a dungeon or the untamed wilds. This chapter details the mundane and exotic merchandise that adventurers commonly find useful in the face of the threats that the worlds of D&D present.
+For an adventurer, the availability of armor, weapons, backpacks, rope, and similar goods is of paramount importance, since proper equipment can mean the difference between life and death in a dungeon or the untamed wilds. This chapter details the mundane and exotic merchandise that adventurers commonly find useful in the face of the threats that the worlds of D&D present.
 
 # Starting Equipment
 
@@ -38,7 +38,7 @@ One gold piece is worth ten silver pieces, the most prevalent coin among commone
 
 One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
 
-In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen em pires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
 
 A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
 
@@ -504,7 +504,7 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 
 Instead of choosing an Equipment Pack, you can instead decide to pick up an *Adventurer's Pack* for 25 gp.
 
-Each *Adventurer's Pack* has 5 uses and a *Theme*. You can expend a use to pull any non-magical item with a value of up to 10 gp that adheres to the *Theme*. The items pulled out are permanent (add them to your inventory list) and can include any item in the [Adventuring Gear](/dnd/general/equipment#adventuring-gear) section, or whatever you can come up with, subject to DM discretion.
+Each *Adventurer's Pack* has 5 uses and a *Theme*. You can expend a use to pull any non-magical item with a value of up to 10 gp that adheres to the *Theme*. The items pulled out are permanent (add them to your inventory list) and can include any item in the [[[general:Equipment#adventuring-gear|Adventuring Gear]]] section, or whatever you can come up with, subject to DM discretion.
 
 Different *Themes* will allow different possible items, like the *Entertainer* theme can contain a disguise kit but an *Explorer* theme will not.
 
@@ -592,7 +592,7 @@ The starting equipment you get from your class includes a collection of useful a
 || Poisoner's kit || 50 gp || 2 lb. ||
 || Thieves' tools || 25 gp || 1 lb. ||
 || Vehicles (land or water) || * || * ||
-<sup>* See the [[[equipment:Mounts and Vehicles]]] section.</sup>
+<sup>* See the [[[general:Equipment#mounts-and-vehicles|Mounts and Vehicles]]] section.</sup>
 
 [[/div]]
 
@@ -808,7 +808,7 @@ The Food, Drink, and Lodging table gives prices for individual food items and a 
 
 Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.
 
-Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the Leomund's secret chest spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.
+Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the _[[[spell:Leomund's secret chest]]]_ spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.
 
 Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.
 

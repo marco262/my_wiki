@@ -164,7 +164,7 @@ Charisma is your spellcasting ability for your paladin spells, since their power
 
 ### Spellcasting Focus
 
-You can use a [[[equipment:adventuring-gear#holy-symbol|holy symbol]]] as a spellcasting focus for your paladin spells.
+You can use a [[[general:Equipment#adventuring-gear|holy symbol]]] as a spellcasting focus for your paladin spells.
 
 ## Divine Smite
 

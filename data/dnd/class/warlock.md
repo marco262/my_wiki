@@ -120,7 +120,7 @@ Charisma is your spellcasting ability for your warlock spells, so you use your C
 
 ### Spellcasting Focus
 
-You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your warlock spells.
+You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your warlock spells.
 
 [[accordion Optional Class Features: Spell Versatility]]
 

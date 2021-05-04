@@ -32,7 +32,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 _9th-level Phantom feature_
 
-When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the [[[equipment:Trinkets]]] table to generate it.
+When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the [[[general:Equipment#trinkets|Trinkets]]] table to generate it.
 
 You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.
 

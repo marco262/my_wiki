@@ -122,7 +122,7 @@ You've studied the workings of magic and how to cast spells, channeling the magi
 
 ### Tools Required
 
-You produce your artificer spell effects through your [[[equipment:tools]]]. You must have a spellcasting focus -- specifically thieves' tools or some kind of artisan's tool -- in hand when you cast any spell with this Spellcasting feature (meaning the spell has an "M" component when you cast it). You must be proficient with the tool to use it in this way.
+You produce your artificer spell effects through your [[[general:equipment#tools|tools]]]. You must have a spellcasting focus -- specifically thieves' tools or some kind of artisan's tool -- in hand when you cast any spell with this Spellcasting feature (meaning the spell has an "M" component when you cast it). You must be proficient with the tool to use it in this way.
 
 After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.
 

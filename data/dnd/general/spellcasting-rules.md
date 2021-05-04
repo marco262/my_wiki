@@ -128,7 +128,7 @@ Spellcasting gestures might include a forceful gesticulation or an intricate set
 
 ### Material (M)
 
-Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a [[[equipment:adventuring-gear#component-pouch|component pouch]]] or a [[[equipment:adventuring-gear#material-m|spellcasting focus]]] in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
+Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a [[[general:Equipment#adventuring-gear|component pouch]]] or a [[[general:Equipment#adventuring-gear|spellcasting focus]]] in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
 
 If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.
 

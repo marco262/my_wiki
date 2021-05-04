@@ -409,7 +409,7 @@ In some cases, the passage of time is something that occurs with little fanfare 
 
 ## Lifestyle Expenses
 
-Between adventures, you choose a particular quality of life and pay the cost of maintaining that lifestyle, as described in chapter 5.
+Between adventures, you choose a particular quality of life and pay the cost of maintaining that lifestyle, as described in the [[[general:Equipment#lifestyle-expenses|Lifestyle Expenses]]] section.
 
 Living a particular lifestyle doesn't have a huge effect on your character, but your lifestyle can affect the way other individuals and groups react to you. For example, when you lead an aristocratic lifestyle, it might be easier for you to influence the nobles of the city than if you live in poverty.
 
@@ -450,7 +450,7 @@ The time between adventures is a great chance to perform research, gaining insig
 
 When you begin your research, the DM determines whether the information is available, how many days of downtime it will take to find it, and whether there are any restrictions on your research (such as needing to seek out a specific individual, tome, or location). The DM might also require you to make one or more ability checks, such as an Intelligence (Investigation) check to find clues pointing toward the information you seek, or a Charisma (Persuasion) check to secure someone's aid. Once those conditions are met, you learn the information if it is available.
 
-For each day of research, you must spend 1 gp to cover your expenses. This cost is in addition to your normal [[[equipment:expenses|lifestyle expenses]]].
+For each day of research, you must spend 1 gp to cover your expenses. This cost is in addition to your normal [[[general:Equipment#expenses|lifestyle expenses]]].
 
 ### Training
 

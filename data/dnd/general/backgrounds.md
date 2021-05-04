@@ -8,7 +8,7 @@ The sample backgrounds in this chapter provide both concrete benefits (features,
 
 Each background gives a character proficiency in two [[[general:using-ability-scores#skills|skills]]].
 
-In addition, most backgrounds give a character proficiency with one or more [[[equipment:tools]]].
+In addition, most backgrounds give a character proficiency with one or more [[[general:Equipment#tools|tools]]].
 
 If a character would gain the same proficiency from two different sources, he or she can choose a different proficiency of the same kind (skill or tool) instead.
 
@@ -18,7 +18,7 @@ Some backgrounds also allow characters to learn additional [[[general:languages]
 
 ## Equipment
 
-Each background provides a package of starting equipment. If you use the [[[equipment:starting-equipment|optional rule to spend coin on gear]]], you do not receive the starting equipment from your background.
+Each background provides a package of starting equipment. If you use the [[[general:Equipment#starting-equipment|optional rule to spend coin on gear]]], you do not receive the starting equipment from your background.
 
 ## Suggested Characteristics
 
@@ -26,7 +26,7 @@ A background contains suggested personal characteristics based on your backgroun
 
 ## Customizing a Background
 
-You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or [[[equipment:starting-equipment|spend coin on gear]]]. (If you spend coin, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you can't find a feature that matches your desired background, work with your DM to create one.
+You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or [[[general:Equipment#starting-equipment|spend coin on gear]]]. (If you spend coin, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you can't find a feature that matches your desired background, work with your DM to create one.
 
 # Published Backgrounds
 

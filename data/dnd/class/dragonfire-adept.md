@@ -94,7 +94,7 @@ Charisma is your spellcasting ability for your dragonfire adept spells, so you u
 
 ### Spellcasting Focus
 
-You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your dragonfire adept spells.
+You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your dragonfire adept spells.
 
 ## Draconic Invocations
 

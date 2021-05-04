@@ -112,7 +112,7 @@ Charisma is your spellcasting ability for your sorcerer spells, since the power 
 
 ### Spellcasting Focus
 
-You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your sorcerer spells.
+You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your sorcerer spells.
 
 [[accordion Optional Class Features: Spell Versatility]]
 

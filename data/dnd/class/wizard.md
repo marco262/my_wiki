@@ -134,7 +134,7 @@ You can cast a wizard spell as a ritual if that spell has the ritual tag and you
 
 ### Spellcasting Focus
 
-You can use an [[[equipment:adventuring-gear#arcane-focus|arcane focus]]] as a spellcasting focus for your wizard spells.
+You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your wizard spells.
 
 ### Learning Spells of 1st Level and Higher
 

@@ -232,7 +232,7 @@ _Source: Tasha's Cauldron of Everything, p. 57_
 
 _2nd-level ranger feature_
 
-You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
+You can use a [[[general:Equipment#adventuring-gear|druidic focus]]] as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
 
 ### Spell Versatility
 

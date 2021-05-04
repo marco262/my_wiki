@@ -139,7 +139,7 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 
 ### Spellcasting Focus
 
-You can use a [[[equipment:adventuring-gear#druidic-focus|druidic focus]]] as a spellcasting focus for your druid spells.
+You can use a [[[general:Equipment#adventuring-gear|druidic focus]]] as a spellcasting focus for your druid spells.
 
 ## Wild Shape
 

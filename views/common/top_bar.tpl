@@ -44,16 +44,16 @@
     <div class="dropdown">
         <a href="/dnd/general/equipment">Equipment</a>
         <div class="dropdown-content">
-            <a href="/dnd/equipment/Starting Equipment">Starting Equipment</a>
-            <a href="/dnd/equipment/Wealth">Wealth</a>
-            <a href="/dnd/equipment/Armor and Shields">Armor and Shields</a>
-            <a href="/dnd/equipment/Weapons">Weapons</a>
-            <a href="/dnd/equipment/Adventuring Gear">Adventuring Gear</a>
-            <a href="/dnd/equipment/Tools">Tools</a>
-            <a href="/dnd/equipment/Mounts and Vehicles">Mounts and Vehicles</a>
-            <a href="/dnd/equipment/Trade Goods">Trade Goods</a>
-            <a href="/dnd/equipment/Expenses">Expenses</a>
-            <a href="/dnd/equipment/Trinkets">Trinkets</a>
+            <a href="/dnd/general/equipment#starting-equipment">Starting Equipment</a>
+            <a href="/dnd/general/equipment#wealth">Wealth</a>
+            <a href="/dnd/general/equipment#armor-and-shields">Armor and Shields</a>
+            <a href="/dnd/general/equipment#weapons">Weapons</a>
+            <a href="/dnd/general/equipment#adventuring-gear">Adventuring Gear</a>
+            <a href="/dnd/general/equipment#tools">Tools</a>
+            <a href="/dnd/general/equipment#mounts-and-vehicles">Mounts and Vehicles</a>
+            <a href="/dnd/general/equipment#trade-goods">Trade Goods</a>
+            <a href="/dnd/general/equipment#expenses">Expenses</a>
+            <a href="/dnd/general/equipment#trinkets">Trinkets</a>
             <hr>
             <a href="/dnd/equipment/magic_item_filter/">Magic Item Filter</a>
         </div>

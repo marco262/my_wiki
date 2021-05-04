@@ -12,7 +12,7 @@ Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf f
 
 ## Battlerager Armor
 
-When you choose this path at 3rd level, you gain a set of [[[equipment:Armor and Shields#spiked-armor|spiked armor]]] as a weapon. If you use Unarmored Defense while wearing the armor your AC increases by 1, otherwise it counts as Medium Armor with an AC of 14 + your Constitution modifier.
+When you choose this path at 3rd level, you gain a set of [[[general:Equipment#armor-and-shields|spiked armor]]] as a weapon. If you use Unarmored Defense while wearing the armor your AC increases by 1, otherwise it counts as Medium Armor with an AC of 14 + your Constitution modifier.
 
 While you are wearing spiked armor and raging, and either wielding a shield, a single weapon, or no weapons, you can use a bonus action to make one unarmed strike empowered by your armor at a target within 5 feet of you. While wearing the armor your unarmed strikes count as weapon attacks, and deal 1d4 + your Strength modifier in piercing damage.
 
