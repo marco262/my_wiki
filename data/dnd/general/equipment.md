@@ -498,6 +498,20 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 
 ## Equipment Packs
 
+[[div class="errata"]]
+
+**Houserule: Adventurer's Pack**
+
+Instead of choosing an Equipment Pack, you can instead decide to pick up an *Adventurer's Pack* for 25 gp.
+
+Each *Adventurer's Pack* has 5 uses and a *Theme*. You can expend a use to pull any non-magical item with a value of up to 10 gp that adheres to the *Theme*. The items pulled out are permanent (add them to your inventory list) and can include any item in the [Adventuring Gear](/dnd/general/equipment#adventuring-gear) section, or whatever you can come up with, subject to DM discretion.
+
+Different *Themes* will allow different possible items, like the *Entertainer* theme can contain a disguise kit but an *Explorer* theme will not.
+
+Once you've pulled five items out of your *Adventurer's Pack*, it is fully expended and just counts as an empty backpack.
+
+[[/div]]
+
 The starting equipment you get from your class includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.
 
 ***Burglar's Pack (16 gp).*** Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.
