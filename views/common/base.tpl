@@ -13,9 +13,8 @@
         <h1 id="page-title">{{title}}</h1>
         <hr>
         {{ !base }}
-        <hr>
         <div class="footer">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScvmgZcJHNDEs_Zp0hMveXWwlO6ggKuMO7FygE1pN4ijL5Uyw/viewform?usp=sf_link" target="_blank">Submit Feeback/Bug Report</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScvmgZcJHNDEs_Zp0hMveXWwlO6ggKuMO7FygE1pN4ijL5Uyw/viewform?usp=sf_link" target="_blank">Submit Feedback/Bug Report</a>
         </div>
         <br>
     </article>
