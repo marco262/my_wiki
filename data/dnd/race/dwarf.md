@@ -71,7 +71,7 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 
 ## Hill Dwarf
 
-As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.
+As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.
 
 **Ability Score Increase.** Your Wisdom score increases by 1.
 
@@ -79,7 +79,7 @@ As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience
 
 ## Mountain Dwarf
 
-As a mountain dwarf, you're strong and hardy, accustom ed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.
+As a mountain dwarf, you're strong and hardy, accustom ed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.
 
 **Ability Score Increase.** Your Strength score increases by 2.
 
