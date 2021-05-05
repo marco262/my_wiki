@@ -2,7 +2,7 @@ You sailed on a seagoing vessel for years. In that time, you faced down mighty s
 
 Discuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?
 
-What were your duties on board -- boatswain, captain, navigator, cook, or some other position? W ho were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?
+What were your duties on board -- boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?
 
 * **Skill Proficiencies:** Athletics, Perception
 * **Tool Proficiencies:** Navigator's tools, vehicles (water)
