@@ -49,10 +49,12 @@
 
 # Tortle Package
 
+||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Tortle]]] || None || Medium || 30 feet || Normal || +2 Strength, +1 Wisdom || Common, Aquan ||
 
 # Eberron: Rising from the Last War
 
+||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Changeling]]] || None || Medium || 30 feet || Normal || +2 Charisma, +1 any || Common and two extra ||
 || [[[race:Kalashtar]]] || None || Medium || 30 feet || Normal || +2 Wisdom, +1 Charisma || Common, Quori, and one extra ||
 || [[[race:Orc of Eberron]]] || None || Medium || 30 feet || Normal || +2 Strength, +1 Constitution || Common, Orc ||
@@ -61,4 +63,5 @@
 
 # Mordenkainen's Tome of Foes
 
+||~ Name ||~ Subtypes ||~ Size ||~ Speed ||~ Vision||~ Attribute Bonuses ||~ Languages ||
 || [[[race:Gith]]] || Githyanki, Githzerai || Medium || 30 feet || Normal || +1 Intelligence<br>Githyanki: +2 Strength<br>Githzerai: +2 Wisdom || Common, Gith ||
