@@ -190,7 +190,7 @@ A creature's space is the area in feet that it effectively controls in combat, n
 
 A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 5-foot radius around another one.
 
-Because larger creatures take up more space, fewer of them can surround a creature. If five Large creatures crow d around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
+Because larger creatures take up more space, fewer of them can surround a creature. If four Large creatures crowd around a Medium or smaller one, there's little room for anyone else.[((bibcite errata))] In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
 
 ### Squeezing into a Smaller Space
 
@@ -276,15 +276,7 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 
 ## Ready
 
-[[div class="errata"]]
-
-**Errata**
-
-"You have until the start of your next turn to use a readied action." [Player's Handbook Errata](https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf)
-
-[[/div]]
-
-Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction.
+Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.[((bibcite errata))]
 
 First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include "If the cultist steps on the trapdoor, I'll pull the lever that opens it," and "If the goblin steps next to me, I move away."
 
@@ -358,21 +350,13 @@ Some ranged attacks, such as those made with a longbow or a shortbow, have two r
 
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't [[[general:conditions#incapacitated|incapacitated]]].
 
-[[div class="errata"]]
-
-**Errata**
-
-The rule on unarmed strikes should read as follows: "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes." [Player's Handbook Errata](https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf)
-
-[[/div]]
-
 ## Melee Attacks
 
 Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.
 
 Most creatures have a 5-foot **reach** and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions.
 
-When you are **unarmed**, you can fight in melee by making an unarmed strike, as shown in the weapon table in chapter 5.
+Instead of using a weapon to make a melee weapon attack, you can use an **unarmed strike**: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.[((bibcite errata))]
 
 ### Opportunity Attacks
 
@@ -400,7 +384,7 @@ Battle often involves pitting your prowess against that of your foe. Such a chal
 
 When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the [[[general:conditions#grappled|grappled]]] condition. The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated.[((bibcite errata))] If you succeed, you subject the target to the [[[general:conditions#grappled|grappled]]] condition. The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
 **Escaping a Grapple.** A [[[general:conditions#grappled|grappled]]] creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
 
@@ -410,7 +394,7 @@ The target of your grapple must be no more than one size larger than you, and it
 
 Using the Attack action, you can make a special melee attack to shove a creature, either to knock it [[[general:conditions#prone|prone]]] or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target [[[general:conditions#prone|prone]]] or push it 5 feet away from you.
+The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you either knock the target [[[general:conditions#prone|prone]]] or push it 5 feet away from you.[((bibcite errata))]
 
 # Cover
 
@@ -601,3 +585,8 @@ Creatures and objects that are fully immersed in water have resistance to fire d
 # Conditions
 
 See the [[[general:Conditions]]] page.
+
+
+[[bibliography]]
+: errata : <https://media.wizards.com/2020/dnd/downloads/PH-Errata.pdf>
+[[/bibliography]]
