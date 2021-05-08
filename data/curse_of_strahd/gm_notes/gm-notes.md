@@ -73,7 +73,7 @@ Enter another URL to set as Visual Aid here:
 * W. [Wizard of Wines](Wizard of Wines)
 * X. The Amber Temple
 * Y. [Yester Hill](Yester Hill)
-* Z. Werewolf Den
+* Z. [Werewolf Den](Werewolf Den)
 
 ## Other Resources
 
