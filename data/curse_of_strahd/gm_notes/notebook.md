@@ -77,3 +77,9 @@ Notes
 
 * Mention how the people of Vallaki are all putting on fake smiles when out in public "as usual".
 * Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while. 
+
+
+<script type="module">
+    import { init_links } from "/js/common/visual_aid_backend.js";
+    init_links();
+</script>
