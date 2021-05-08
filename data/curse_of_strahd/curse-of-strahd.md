@@ -51,7 +51,9 @@ Have fun!
 
 # Friendly NPCs
 
-* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg), aka "Ivan"
+* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg)
+* [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg)
+* [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg)
 
 ## Village of Barovia
 
@@ -62,7 +64,6 @@ Have fun!
 ## Abbey of Saint Markovia
 
 * [The Abbot](/static/img/visual_aids/curse_of_strahd/the_abbot.jpg)
-* [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg), guest of the Abbey
 
 ## The Wizard of Wines
 
@@ -125,9 +126,9 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
 * A vampire can't enter a Residence without an invitation from one of the occupants.
 * A vampire is hurt by running water and sunlight.
 * A vampire can transform into a bat or a cloud of mist at will, as long as it isn't in sunlight or running water.
-* A vampire magically heals its wounds if it isn't in sunlight or running water. If the vampire takes radiant damage or damage from Holy Water, the vampire spawn's magical healing is disabled for one round.
+* A vampire magically heals its wounds if it isn't in sunlight or running water. If the vampire takes radiant damage or damage from Holy Water, the vampire's magical healing is disabled for one round.
 * When a vampire is killed, it will change into a misty vapor and retreat to its Resting Place. If it is in sunlight or running water, it cannot transform.
-* If a wooden stake is driven into a vampire's heart while the vampire is asleep in its Resting place, the vampire is Paralyzed until the stake is removed.
+* If a wooden stake is driven into a vampire's heart while the vampire is asleep in its Resting Place, the vampire is Paralyzed until the stake is removed.
 * Looking a vampire in the eyes or hearing its voice can subject you to its magical charm. A charmed person regards the vampire as a trusted friend to be heeded and protected, though the target isn't under the vampire's control. 
 * A bite from a vampire will drain its target's blood (reducing its maximum HP). Recovering from a vampire's bite requires a long rest.
 
@@ -148,7 +149,7 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
 ### Combat Info
   
 * A vampire spawn is vicious and aggressive, driven mostly by an instinctual need to feed. It will often use its ability to climb on walls and ceilings to ambush its victim, latch on, and try to drain it dry before it can fight back.
-* A vampire spawn will attack with its claws. A vampire spawn's claws are especially adept at snagging targets and pulling it in, at which point it will attempt to bite its target and drain its blood.
+* A vampire spawn will attack with its claws. A vampire spawn's claws are especially adept at snagging targets and pulling them in, at which point it will attempt to bite its target and drain its blood.
 
 [[accordion Meanwhile in Waterdeep...]]
 
