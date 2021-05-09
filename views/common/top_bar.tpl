@@ -90,4 +90,7 @@
     <div class="dropdown">
         <a href="/curse_of_strahd/">Curse of Strahd</a>
     </div>
+    <div class="dropdown">
+        <a href="/pirates/">Here There Be Pirates!</a>
+    </div>
 </div>
