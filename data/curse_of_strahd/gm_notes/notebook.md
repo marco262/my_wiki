@@ -58,18 +58,16 @@ Notes
 
 ### Player Plans
 
-* Look for Ethel's javelin/don't get ambushed
-* Talk to Ezmerelda, ideas to defeat Strahd?
-* Ask about Baba Lysaga
-* Teach Ireena to handle herself
+* Head to Vallaki
+* Take boat across Lake Baratok, and up one of the streams to Mount Baratok
 * Pursue the Mad Mage 
 
 ### Notes for me
 
-* Ambush the players
-* Ethel's javelin got left behind
-* Figure out what Van Richten knows about Baba Lysaga
-* Read up on Amber Temple/Argynvostholt
+* Kelemen von Vollner is being attacked by wolves/dire wolves and needs to be "saved"
+* Have them see Bluto throwing that bag into the water
+* Finish Werewolf Den/Argynvostholt maps
+* Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
 * After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
 
