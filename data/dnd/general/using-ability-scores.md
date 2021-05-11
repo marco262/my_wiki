@@ -87,6 +87,16 @@ Both participants in a contest make ability checks appropriate to their efforts.
 
 If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut.
 
+[[accordion Optional rule: Opposed Rolls]]
+
+*Source: <https://theangrygm.com/tweaking-the-core-of-dd-5e/>*
+
+When a character attempts an action that puts it in direct opposition with another character's skills or proficiencies, the DC for the character's action is 8 + target's Ability Modifier + target's Proficiency Bonus for the relevant skill. If the target has Advantage or Disadvantage on the skill, apply +5 or -5 to the DC. Any bonus that can be granted to the target's skill roll, such as from Bardic Inspiration or from a Cleric's bless spell may also be applied to the DC. The notation for this is an Ability (Skill) Check vs. Ability (Skill). E.g.: Roll a Dexterity (Stealth) check vs. the scout's Wisdom (Perception).
+
+> Example: Dave is trying to bluff his way past a guard. Dave would roll a Charisma check and add his Proficiency Bonus for his Deception Skill. The DC would be equal to 8 + the guard's Wisdom modifier + the guard's Proficiency Bonus for her Insight Skill.
+
+[[/accordion]]
+
 ## Skills
 
 Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)
@@ -158,6 +168,24 @@ For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perc
 
 The rules on hiding in the "Dexterity" section below rely on [[[general:passive checks]]], as do the [[[general:exploration]]] rules.
 
+[[accordion Optional rule: Passive Proficiencies as Knowledge]]
+
+*Source: <https://theangrygm.com/tweaking-the-core-of-dd-5e/>*
+
+All Proficiencies (skills, tools, weapons, and armor) are assumed to represent both active uses of those things and relevant background knowledge, lore, information, and awareness. When a player with a Proficiency encounters something in the game, the GM should simply give them any relevant information based on their expertise. The GM is advised to gate information based on skill proficiencies in the flavor text and descriptions of items and monsters. In addition, advanced knowledge may be gated behind specific levels of knowledge. A character's Passive Skill is equal to 8 + Ability Modifier + Proficiency Bonus. If the character has Advantage on such skill checks, the Passive Skill gains an additional +5. If the character has Disadvantage, the character suffers an additional -5. Any bonus that can be granted to a skill roll, such as from Bardic Inspiration or from a Cleric's bless spell may also be applied to Passive Skills.
+
+Under this rule, flavor text information could be written as follows:
+
+> This small, natural grotto is covered with strange glowing fungus.  
+> [Nature] The fungus is naturally occurring and harmless.  
+> [Herbalism Kit, Alchemy Tools or Arcana] The fungus is useful for making antivenoms and medicines.
+
+> A skeletal creature wrapped in tattered linens with glowing eyes.  
+> [Religion 20] The creature is not a skeleton. It's a lich. Liches are powerful magic users that have turned themselves into undead creatures. They retain their spellcasting abilities and have other abilities such as...  
+> [Religion] The creature does not appear to be a normal skeleton at all.
+
+[[/accordion]]
+
 ## Working Together
 
 Sometimes two or more characters team up to attempt a task. The character who's leading the effort -- or the one with the highest ability modifier -- can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action (see chapter 9).
@@ -171,6 +199,20 @@ When a number of individuals are trying to accomplish something as a group, the 
 To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.
 
 Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
+
+[[accordion Optional Working Together rules]]
+
+*Source: <https://theangrygm.com/tweaking-the-core-of-dd-5e/>*
+
+## Working Together
+
+When two or more characters work together to accomplish the same task, the character with the higher modifier leads the effort. The leader makes the appropriate ability check and enjoys a +2 bonus for one or two helpers or a +5 bonus for three or more helpers. Characters can only work together if it is a task where such help is feasible and possible. In addition, a character can only help with a task if they would not be incapable of attempting the task on their own (due to a lack of Proficiency for instance).
+
+## Group Checks
+
+When several PCs are trying to accomplish something as a group, the GM can call for a Group Check. First, the GM determines whether the group will succeed if any member succeeds (such as with searching) or if the group will fail if any member fails (such as with stealth). In the first scenario, the character with the highest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. In the second scenario, the character with the lowest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. Bonuses, penalties, Advantage, and Disadvantage are applied normally to the character rolling the check, but these should only be applied after the GM has determined which player will roll the check.
+
+[[/accordion]]
 
 # Using Each Ability
 
@@ -408,3 +450,8 @@ The result of a successful or failed saving throw is also detailed in the effect
 ----
 
 _Source: Player's Handbook, p. 173_
+
+<script type="module">
+    import { init_accordions } from "/js/common/utils.js";
+    init_accordions();
+</script>

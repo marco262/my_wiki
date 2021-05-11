@@ -52,11 +52,9 @@ Exceptions to the rules are often minor. For instance, many adventurers don't ha
 
 There's one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater.
 
-# The Angry GM's Tweaks
+[[accordion Optional rule: The Reaction Rule]]
 
-The Angry GM put out [an article](https://theangrygm.com/tweaking-the-core-of-dd-5e/) recommending small tweaks to the core rules of Dungeons and Dragons. These rules are laid out here for easy reference. Some of these tweaks are intended as clarifications on the existing core rules, and may seem redundant, but spell out things in more plain language. Other tweaks are intended as additions on top of the core rules, and help shore up small holes in the rules to help explicitly cover common situations.
-
-## The Reaction Rule
+*Source: <https://theangrygm.com/tweaking-the-core-of-dd-5e/>*
 
 A GM can use the Reaction Rule whenever a character has a moment to respond to something unexpected. The GM describes what the character is aware of. The player then describes their reaction. The GM then determines if the reaction could avoid or mitigate the unexpected event, whether it can succeed, and whether it can fail. The GM then asks for a Saving Throw or Ability Check based on the action. Any spell that can be cast as a reaction can be used in this instance.
 
@@ -64,34 +62,13 @@ A GM can use the Reaction Rule whenever a character has a moment to respond to s
 
 > Example: Carol is trying to sneak past a patrolling goblin to steal a valuable thing. The goblin is walking ahead of her and she's creeping silently behind, several feet back. Unbeknownst to Carol, she has failed her stealth check and the goblin is about to turn around because he thought he heard her breathing. "Suddenly, the goblin freezes. He's about to turn, what do you do?" Carol thinks for a minute. "Is the cave wall irregular enough? Can I hide in the folds and crevices?" The GM says, "You could, but you'll have Disadvantage since you have to move fast." Carol thinks and says, "I'll whip my dagger and try to take out the goblin before he turns." The GM says "Okay, roll initiative! The goblin is surprised, and you'll get advantage if you manage to make your attack before he turns around."
 
-## Passive Proficiences as Knowledge
-
-All Proficiencies (skills, tools, weapons, and armor) are assumed to represent both active uses of those things and relevant background knowledge, lore, information, and awareness. When a player with a Proficiency encounters something in the game, the GM should simply give them any relevant information based on their expertise. The GM is advised to gate information based on skill proficiencies in the flavor text and descriptions of items and monsters. In addition, advanced knowledge may be gated behind specific levels of knowledge. A character's Passive Skill is equal to 8 + Ability Modifier + Proficiency Bonus. If the character has Advantage on such skill checks, the Passive Skill gains an additional +5. If the character has Disadvantage, the character suffers an additional -5. Any bonus that can be granted to a skill roll, such as from Bardic Inspiration or from a Cleric's bless spell may also be applied to Passive Skills.
-
-Under this rule, flavor text information could be written as follows:
-
-> This small, natural grotto is covered with strange glowing fungus.  
-> [Nature] The fungus is naturally occurring and harmless.  
-> [Herbalism Kit, Alchemy Tools or Arcana] The fungus is useful for making antivenoms and medicines.
-
-> A skeletal creature wrapped in tattered linens with glowing eyes.  
-> [Religion 20] The creature is not a skeleton. It's a lich. Liches are powerful magic users that have turned themselves into undead creatures. They retain their spellcasting abilities and have other abilities such as...  
-> [Religion] The creature does not appear to be a normal skeleton at all.
-
-## Opposed Rolls
-
-When a character attempts an action that puts it in direct opposition with another character's skills or proficiencies, the DC for the character's action is 8 + target's Ability Modifier + target's Proficiency Bonus for the relevant skill. If the target has Advantage or Disadvantage on the skill, apply +5 or -5 to the DC. Any bonus that can be granted to the target's skill roll, such as from Bardic Inspiration or from a Cleric's bless spell may also be applied to the DC. The notation for this is an Ability (Skill) Check vs. Ability (Skill). E.g.: Roll a Dexterity (Stealth) check vs. the scout's Wisdom (Perception).
-
-> Example: Dave is trying to bluff his way past a guard. Dave would roll a Charisma check and add his Proficiency Bonus for his Deception Skill. The DC would be equal to 8 + the guard's Wisdom modifier + the guard's Proficiency Bonus for her Insight Skill.
-
-## Working Together
-
-When two or more characters work together to accomplish the same task, the character with the higher modifier leads the effort. The leader makes the appropriate ability check and enjoys a +2 bonus for one or two helpers or a +5 bonus for three or more helpers. Characters can only work together if it is a task where such help is feasible and possible. In addition, a character can only help with a task if they would not be incapable of attempting the task on their own (due to a lack of Proficiency for instance).
-
-## Group Checks
-
-When several PCs are trying to accomplish something as a group, the GM can call for a Group Check. First, the GM determines whether the group will succeed if any member succeeds (such as with searching) or if the group will fail if any member fails (such as with stealth). In the first scenario, the character with the highest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. In the second scenario, the character with the lowest base Ability Check modifier (Proficiency Bonus + Ability Bonus) rolls the check. Bonuses, penalties, Advantage, and Disadvantage are applied normally to the character rolling the check, but these should only be applied after the GM has determined which player has rolled the check.
+[[/accordion]]
 
 ----
 
 _Source: Player's Handbook, p. 6_
+
+<script type="module">
+    import { init_accordions } from "/js/common/utils.js";
+    init_accordions();
+</script>
