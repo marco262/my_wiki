@@ -60,7 +60,7 @@ Notes
 
 * Head to Vallaki
 * Take boat across Lake Baratok, and up one of the streams to Mount Baratok
-* Pursue the Mad Mage 
+* Pursue the Mad Mage
 
 ### Notes for me
 
