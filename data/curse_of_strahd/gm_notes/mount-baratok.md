@@ -44,7 +44,7 @@ If the book is brought to Van Richten's Tower, the arcane lock and beacon are di
 
 The staff has been found by a fisherman in Vallaki, [Bill Stutton](^curse_of_strahd/bill_stutton.jpg). It was damaged, however, and can only cast Lightning Bolt as if it were a [Wand of Lightning Bolts](http://mywiki.zapto.org/dnd/equipment/magic-item/wand-of-lightning-bolts). This can be done even by a creature who isn't attuned to the staff by shaking it vigorously, though whenever it casts the spell the staff sparks violently. Every time the spell is cast, there is a 5% chance it explodes as in the staff's [Retributive Strike](http://mywiki.zapto.org/dnd/equipment/magic-item/Staff%20of%20the%20Magi).
 
-The players become aware of the staff when there's a crack of thunder and a flash of light a little ways across town. If they investigate, they'll arrive a little before the town guard and witness the side of a house having been blown open, dead and dying people laying nearby, and a wild-eyed [Bill](^curse_of_strahd/bill_stutton.jpg) holding the sparking staff, pointing it at anyone who would come near.
+The players become aware of the staff when there's a crack of thunder and a flash of light a little ways across town. If they investigate, they'll arrive a little before the town guard and witness the side of a house having been blown open, dead and dying people laying nearby, and a wild-eyed Bill holding the sparking staff, pointing it at anyone who would come near.
 
 If the players are hostile, the fisherman will attack with the staff, getting off 1 or 2 lightning bolts before it explodes, vaporizing him and hurting anyone nearby.
 
