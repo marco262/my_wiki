@@ -125,4 +125,4 @@ The PCs will need to accomplish a skill challenge to find the tiger. Refer to th
 ## Bluto and Arabelle
 
 * [Bluto](^curse_of_strahd/bluto.jpg)
-* [Arabelle](^curse_of_strahd/arabelle.jpg)
+* [Arabelle](^curse_of_strahd/arabelle_2.png)
