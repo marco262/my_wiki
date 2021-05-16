@@ -64,7 +64,7 @@ Notes
 
 ### Notes for me
 
-* Kelemen von Vollner is being attacked by wolves/dire wolves and needs to be "saved"
+* Update Ireena as a Sidekick
 * Have them see Bluto throwing that bag into the water
 * Finish Werewolf Den/Argynvostholt maps
 * Read up on Amber Temple

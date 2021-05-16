@@ -122,7 +122,8 @@ The PCs will need to accomplish a skill challenge to find the tiger. Refer to th
 * [Kelemen von Vollner](^curse_of_strahd/kelemen_von_vollner.jpg)
 * Kelemen uses the stat block of a [noble](/dnd/monster/Noble) with 16 hitpoints and a Dexterity of 18 (+4), and uses the multiattack feature of his original stat block to make two rapier attacks every turn (1d8+4 or 9 damage).
 
-## Bluto and Arabelle
+## The Missing Vistana
 
+* [Reference](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#heading=h.w6irt8m66qdy)
 * [Bluto](^curse_of_strahd/bluto.jpg)
 * [Arabelle](^curse_of_strahd/arabelle_2.png)
