@@ -23,13 +23,13 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("<name>")
     @view("common/page.tpl")
     def page(name):
-        return md_page(name, "curse_of_strahd")
+        return md_page(name, "pirates")
 
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")
     @auth_basic(gm_notes_auth_check)
     def gm_notes(name):
-        return md_page(name, "curse_of_strahd", directory="gm_notes")
+        return md_page(name, "pirates", directory="gm_notes")
 
 
 def gm_notes_auth_check(username, password):
