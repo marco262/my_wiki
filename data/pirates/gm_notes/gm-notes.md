@@ -8,6 +8,10 @@
     init_accordions();
 </script>
 
-
 * [Pirate Flag](^pirates/pirate_flag.bmp)
 * [Pirate Theme Song]($load|music|pirates/Pirates Of The Caribbean Theme Song.mp3)
+
+## Notes for next time
+
+* Figure out what their hook for money is
+* Get visual aid images for Rough Water, pirates

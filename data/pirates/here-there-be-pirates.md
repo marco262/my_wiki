@@ -21,6 +21,47 @@
 * The Knights of Twilight patrol the mainland, and some of the nearest islands, keeping the peace and swiftly punishing any criminal acts.
 * The people of the Sunset Isles are generally very hostile to any talk of the Dread Pirate Lord that doesn't paint him as an irredeemable monster. But in recent years, some grumblings have arisen speaking out against the common thought.
 
+## Meet the Gang!
+
+### Koya
+
+- Born 3rd of 11 children
+- Father died when she was young
+- Mother and most of her siblings died in a storm
+- One of her other siblings was sacrificed by the village priest to end a famine
+- Blamed for the storm and famine
+- Two older siblings are out in the world somewhere
+- Took on a druid mentor, but the mentor died protecting her
+- Lives alone outside Roughwater
+
+### Rek
+
+- Born the youngest of six children in a shitty nest on a cliff
+- Runty, small, always wanted to be someone else
+- Joined a merchant ship to see the world
+- Pissed off a Neutral Evil (DM's choice race) Paladin, injured them, and earned an enemy for life
+
+### Azurhel
+
+- Born in a deep gnome clan sanctuary
+- Deep gnome life is dangerous, so all deep gnome children learn spellcasting
+- Single child, but big family
+- Lost father to cave collapse while foraging for magical stones (suspicion is the nearby dwarves did it)
+- Exiled from clan for reasons he doesn't know
+- Met wandering human merchant who turned out to be a Monk with a Vow of Passivity
+- Was in a battle and came away with no scars, but applies a fake scar anyway, because scars are cool
+
+## Campaign Log
+
+### Session 1 (2021-05-18)
+
+* Koya was swallowed by a big fuckoff fish
+* Found a ring
+* Agreed to help the Dread Pirate Lord find his First Mate
+* Rek faceplanted in the beach
+* Koya and Rek got chased by Pirates into Roughwater
+* Azurhel was hauled (unconscious?) into Roughwater in a rubbish cart
+
 # Resources
 
 * [World Map](/static/img/visual_aids/pirates/the_sunset_isles.jpg)
