@@ -234,6 +234,10 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 * [[[subclass:College of Creation]]]
 * [[[subclass:College of Eloquence]]]
 
+## Van Richten's Guide to Ravenloft
+
+* [[[subclass:College of Spirits]]]
+
 ## Unearthed Arcana
 
 * [[[subclass:College of Eloquence (UA)]]]

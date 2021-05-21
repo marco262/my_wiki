@@ -240,6 +240,10 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 * [[[subclass:The Fathomless]]]
 * [[[subclass:The Genie]]]
 
+## Van Richten's Guide to Ravenloft
+
+* [[[subclass:The Undead]]]
+
 # Eldritch Invocations
 
 If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.
