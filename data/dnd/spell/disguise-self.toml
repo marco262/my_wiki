@@ -1,5 +1,5 @@
 title = "Disguise Self"
-classes = ["artificer", "bard", "cleric", "sorcerer", "wizard"]
+classes = ["artificer", "bard", "sorcerer", "wizard"]
 level = "1"
 school = "illusion"
 concentration_spell = false
