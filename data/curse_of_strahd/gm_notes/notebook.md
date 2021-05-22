@@ -64,7 +64,6 @@ Notes
 
 ### Notes for me
 
-* Update Ireena as a Sidekick
 * Have them see Bluto throwing that bag into the water
 * Finish Werewolf Den/Argynvostholt maps
 * Read up on Amber Temple
