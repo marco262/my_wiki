@@ -8,8 +8,23 @@
     init_accordions();
 </script>
 
+Enter another URL to set as Visual Aid here:
+
+<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
+
+## Visuals Aids
+
 * [Pirate Flag](^pirates/pirate_flag.bmp)
+* Roughwater [1](^curse_of_strahd/roughwater_1.jpg), [2](^curse_of_strahd/roughwater_2.jpg)
+* Lord's Landing [1](^curse_of_strahd/lords_landing_1.jpg)
+
+## Soundboard
+
 * [Pirate Theme Song]($load|music|pirates/Pirates Of The Caribbean Theme Song.mp3)
+
+## NPCs
+
+
 
 ## Notes
 
@@ -41,9 +56,13 @@
 
 * [Vessels](/dnd/general/equipment#mounts-and-vehicles)
 * Ship's passage:
-    * To islands: 1 sp per mile
-    * Outside the map: (depends on general map distances, probably 50gp)
-    * Hazard pay: 5x to 10x cost
+    * Mainland: 1 gp
+    * First islands: 1 gp
+    * Second islands: 5 gp
+    * Third islands: 25 gp
+    * HQ island: 100 gp (but all ships are banned from landing there by the Knights of Twilight)
+    * Outside the map: 20 gp to nearest ports
+    * Hazard pay: 10x
 
 ## TODO
 
@@ -77,3 +96,10 @@
     * Hooks in some quests can be just partial hooks to later quests; need multiple hooks to get later quests
 * Drop connections in some places to history of raiding/connection to lieutenants
 * Come up with stories of the Dread Pirate Lord when he was a youngin that he can use or advice or parables
+
+# Resources
+
+## Art
+
+* https://conceptartworld.com/inspiration/sailing-ship-concept-art-and-illustrations/
+* https://imgur.com/gallery/7ydqtOi

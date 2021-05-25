@@ -43,8 +43,13 @@ elif sys.argv[1] == "add_spell":
     text = re.sub(r"$", "]]]_", text)
     text = re.sub(r", ?", "]]]_, _[[[spell:", text)
 elif sys.argv[1] == "add_special_formatting":
-    for m in re.finditer(r'": "(\w)', text):
-        text = text.replace(m.group(0), f'": "Represents {m.group(1).lower()}')
+    for m in re.finditer(r'^(.*?),', text, re.MULTILINE):
+        title = m.group(1).capitalize()
+        for n in re.finditer(r" ([a-z])", title):
+            title = title.replace(n.group(0), f" {n.group(1).upper()}")
+        for n in re.finditer(r"\(([a-z])", title):
+            title = title.replace(n.group(0), f"({n.group(1).upper()}")
+        text = text.replace(m.group(0), f'{title},')
 else:
     raise Exception("Unknown function: {}".format(sys.argv[1]))
 

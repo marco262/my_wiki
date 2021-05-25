@@ -64,7 +64,7 @@
 
 # Resources
 
-* [World Map](/static/img/visual_aids/pirates/the_sunset_isles.jpg)
+* [World Map](/static/img/visual_aids/pirates/the_sunset_isles_2.jpg)
 * [Roll20 link](https://app.roll20.net/join/10582314/bu05aQ)
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
