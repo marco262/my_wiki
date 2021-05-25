@@ -15,8 +15,8 @@ Enter another URL to set as Visual Aid here:
 ## Visuals Aids
 
 * [Pirate Flag](^pirates/pirate_flag.bmp)
-* Roughwater [1](^curse_of_strahd/roughwater_1.jpg), [2](^curse_of_strahd/roughwater_2.jpg)
-* Lord's Landing [1](^curse_of_strahd/lords_landing_1.jpg)
+* Roughwater [1](^pirates/roughwater_1.jpg), [2](^pirates/roughwater_2.jpg)
+* Lord's Landing [1](^pirates/lords_landing_1.jpg)
 
 ## Soundboard
 
