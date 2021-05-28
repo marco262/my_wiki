@@ -8,6 +8,14 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 
 *Source: Player's Handbook, p. 165*
 
+## Actor
+
+Skilled at mimicry and dramatics, you gain the following benefits:
+
+* Increase your Charisma score by 1, to a maximum of 20.
+* You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
+* You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
+
 ## Alert
 
 Always on the lookout for danger, you gain the following benefits:
@@ -24,14 +32,6 @@ You have undergone extensive physical training to gain the following benefits:
 * When you are [[[general:conditions#prone|prone]]], standing up uses only 5 feet of your movement.
 * Climbing doesn't cost you extra movement.[((bibcite errata))]
 * You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.
-
-## Actor
-
-Skilled at mimicry and dramatics, you gain the following benefits:
-
-* Increase your Charisma score by 1, to a maximum of 20.
-* You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
-* You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
 
 ## Charger
 

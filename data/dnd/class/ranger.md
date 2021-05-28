@@ -299,7 +299,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to im pede movement, such those created by the *[[[spell:entangle]]]* spell.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the *[[[spell:entangle]]]* spell.
 
 ## Hide in Plain Sight
 
