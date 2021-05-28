@@ -502,13 +502,13 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 
 **Houserule: Adventurer's Pack**
 
-Instead of choosing an Equipment Pack, you can instead decide to pick up an *Adventurer's Pack* for 25 gp which weighs 30 lbs.
+Instead of choosing an Equipment Pack, you can instead decide to pick up an *Adventurer's Pack*. The *Adventurer's Pack* weighs 30 lbs, and costs 25 gp. When you get an Equipment Pack from your class or background, you can exchange it for an *Adventurer's Pack* at no extra cost.
 
 Each *Adventurer's Pack* has 5 uses and a *Theme*. You can expend a use to pull any non-magical item with a value of up to 10 gp that adheres to the *Theme*. The items pulled out are permanent (add them to your inventory list) and can include any item in the [[[general:Equipment#adventuring-gear|Adventuring Gear]]] section, or whatever you can come up with, subject to DM discretion.
 
 Different *Themes* will allow different possible items, like the *Entertainer* theme can contain a disguise kit but an *Explorer* theme will not.
 
-Each time you expend a use of your *Adventurer's Pack*, its weight reduced by 5 lbs. Once you've pulled five items out of your *Adventurer's Pack*, it is fully expended and just counts as an empty backpack.
+Each time you expend a use of your *Adventurer's Pack*, its weight is reduced by 5 lbs. Once you've pulled five items out of your *Adventurer's Pack*, it is fully expended and just counts as an empty backpack.
 
 [[/div]]
 
