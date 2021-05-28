@@ -109,6 +109,8 @@ You've developed the skills necessary to hold your own in close-quarters grappli
 
 *Source: Homebrew*
 
+*Prerequisite: Strength 13 or higher*
+
 You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
 
 * Increase your Strength or Constitution score by 1, to a maximum of 20.
