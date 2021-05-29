@@ -8,12 +8,12 @@
 
 * [Mount Baratok](^curse_of_strahd/MountBaratok.jpg)
 * [Mad Mage](^curse_of_strahd/mad_mage.jpg)
-  * [Lightning Kirin](^curse_of_strahd/lightning_kirin.jpg) ([stats](https://5e.tools/bestiary/kirin-vgm.html))
-  * [Blink Dog](^curse_of_strahd/blink_dog.jpeg) ([stats](https://5e.tools/bestiary.html#blink%20dog_mm))
-  * [Owlbear](^curse_of_strahd/owlbear.jpg) ([stats](https://5e.tools/bestiary.html#owlbear_mm))
-  * [Wyvern](^curse_of_strahd/wyvern.png) ([stats](https://5e.tools/bestiary.html#wyvern_mm))
-  * [Pseudodragon](^curse_of_strahd/pseudodragon.jpg) ([stats](https://5e.tools/bestiary.html#pseudodragon_mm))
-  * [Abominable Yeti](^curse_of_strahd/abominable_yeti.jpg) ([stats](https://5e.tools/bestiary.html#abominable%20yeti_mm))
+  * [Lightning Kirin](^curse_of_strahd/lightning_kirin.jpg) ([stats](https://5e.tools/bestiary/kirin-vgm.html)) -- Pride
+  * [Blink Dog](^curse_of_strahd/blink_dog.jpeg) ([stats](https://5e.tools/bestiary.html#blink%20dog_mm)) -- Caution
+  * [Owlbear](^curse_of_strahd/owlbear.jpg) ([stats](https://5e.tools/bestiary.html#owlbear_mm)) -- Anger
+  * [Wyvern](^curse_of_strahd/wyvern.png) ([stats](https://5e.tools/bestiary.html#wyvern_mm)) -- Safety
+  * [Pseudodragon](^curse_of_strahd/pseudodragon.jpg) ([stats](https://5e.tools/bestiary.html#pseudodragon_mm)) -- Fear
+  * [Abominable Yeti](^curse_of_strahd/abominable_yeti.jpg) ([stats](https://5e.tools/bestiary.html#abominable%20yeti_mm)) -- Hunger
 * [Jade Circlet](^curse_of_strahd/jade_circlet.jpg)
 * [Mage's Spellbook](^curse_of_strahd/mordenkainens_spellbook.jpg) ([stats](/dnd/equipment/magic-item/alchemical-compendium))
 * [Mage's Staff](^curse_of_strahd/staff_of_the_magi.jpeg) ([stats](/dnd/equipment/magic-item/staff-of-the-magi))
