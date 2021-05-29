@@ -65,15 +65,18 @@ Enter another URL to set as Visual Aid here:
     * Outside the map: 20 gp to nearest ports
     * Hazard pay: 10x
 
+## Player Plans
+
+Go to Everbrook to make money/avenge Azurhel
+
 ## TODO
 
 ### Before next session
 
 * Get visual aid images for
-    * Rough Water
-    * Pirates
-    * Lord's Landing
-    * Uh.... other towns
+    * Everbrook
+* Figure out what people Azurhel stole from and how much more money they have
+* Figure out who else can be stolen from in Everbrook
 * Create a grab bag of NPCs, at least 5
 * Add distance legend to the world map
 
@@ -102,5 +105,5 @@ Enter another URL to set as Visual Aid here:
 
 ## Art
 
-* https://conceptartworld.com/inspiration/sailing-ship-concept-art-and-illustrations/
-* https://imgur.com/gallery/7ydqtOi
+* <https://conceptartworld.com/inspiration/sailing-ship-concept-art-and-illustrations/>
+* <https://imgur.com/gallery/7ydqtOi>
