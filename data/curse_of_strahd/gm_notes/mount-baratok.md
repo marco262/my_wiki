@@ -16,7 +16,7 @@
   * [Abominable Yeti](^curse_of_strahd/abominable_yeti.jpg) ([stats](https://5e.tools/bestiary.html#abominable%20yeti_mm))
 * [Jade Circlet](^curse_of_strahd/jade_circlet.jpg)
 * [Mage's Spellbook](^curse_of_strahd/mordenkainens_spellbook.jpg) ([stats](/dnd/equipment/magic-item/alchemical-compendium))
-* [Mage's Staff](^curse_of_strahd/jade_circlet.jpg) ([stats](/dnd/equipment/magic-item/staff-of-the-magi))
+* [Mage's Staff](^curse_of_strahd/staff_of_the_magi.jpeg) ([stats](/dnd/equipment/magic-item/staff-of-the-magi))
 * [Mad Mage's Mansion](^curse_of_strahd/magnificent_mansion.jpg)
 
 ## Origin
