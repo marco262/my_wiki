@@ -6,6 +6,7 @@
 
 # Visual Aids
 
+* [Mount Baratok](^curse_of_strahd/MountBaratok.jpg)
 * [Mad Mage](^curse_of_strahd/mad_mage.jpg)
   * [Lightning Kirin](^curse_of_strahd/lightning_kirin.jpg) ([stats](https://5e.tools/bestiary/kirin-vgm.html))
   * [Blink Dog](^curse_of_strahd/blink_dog.jpeg) ([stats](https://5e.tools/bestiary.html#blink%20dog_mm))
