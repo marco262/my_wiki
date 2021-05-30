@@ -58,23 +58,18 @@ Notes
 
 ### Player Plans
 
-* Head to Vallaki
-* Take boat across Lake Baratok, and up one of the streams to Mount Baratok
-* Pursue the Mad Mage
+* Ethel is arrested and taken to the Baron's mansion on suspicion of being involved in the explosion
 
 ### Notes for me
 
-* Have them see Bluto throwing that bag into the water
+* Come up with the Baron's reaction to Ethel/the whole situation. Probably freaked out, because his carefully feigned peace in Vallaki has been disturbed. Does he blame Ethel?
+* Introduce Viktor somehow? Allude to his magic use?
 * Finish Werewolf Den/Argynvostholt maps
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
 * After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
 
 #### Vallaki
-
-* Mention how the people of Vallaki are all putting on fake smiles when out in public "as usual".
-* Mention Bluto, the Blue Water Inn's "best customer". He usually trades fish for wine, but hasn't been seen in a while. 
-
 
 <script type="module">
     import { init_links } from "/js/common/visual_aid_backend.js";
