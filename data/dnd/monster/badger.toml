@@ -1,0 +1,23 @@
+width = "500px"
+name = "Badger"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "10"
+hit_points = "3 (1d4 + 1)"
+speed = "20 ft., burrow 5 ft."
+strength = 4
+dexterity = 11
+constitution = 12
+intelligence = 2
+wisdom = 12
+charisma = 5
+senses = "darkvision 30 ft., passive Perception 11"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Keen Smell.*** The badger has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 piercing damage.
+"""
+source = "Monster Manual, p. 318"

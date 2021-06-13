@@ -56,7 +56,7 @@ def handle_resistances(resistances, r_type="resist"):
             delimiter = "; "
             r_string = ", ".join(r[r_type])
             if "preNote" in r:
-                r_string = f"{r['prenote']} {r_string}"
+                r_string = f"{r['preNote']} {r_string}"
             if "note" in r:
                 r_string += f" {r['note']}"
             r_string = r_string
@@ -108,6 +108,14 @@ def main():
         if not isinstance(m_type, str):
             m_type = "{} ({})".format(m_type["type"], ", ".join(m_type["tags"]))
         alignment_dict = {"L": "lawful", "N": "neutral", "C": "chaotic", "G": "good", "E": "evil", "U": "unaligned", "A": "any alignment"}
+        if monster["alignment"] == ["L", "NX", "C", "NY", "E"]:
+            alignment = "any non-good alignment"
+        elif monster["alignment"] == ["NX", "C", "G", "NY", "E"]:
+            alignment = "any non-lawful alignment"
+        elif monster["alignment"] == ["L", "NX", "C", "E"]:
+            alignment = "any evil alignment"
+        else:
+            alignment = " ".join([alignment_dict[a] for a in monster["alignment"]])
         ac_list = []
         for ac in monster["ac"]:
             if isinstance(ac, int):
@@ -126,7 +134,7 @@ def main():
             f'name = "{name}"',
             f'size = "{size_dict[monster["size"]]}"',
             f'type = "{m_type}"',
-            f'alignment = "{" ".join([alignment_dict[a] for a in monster["alignment"]])}"',
+            f'alignment = "{alignment}"',
             f'armor_class = "{", ".join(ac_list)}"',
             f'hit_points = "{monster["hp"]["average"]} ({monster["hp"]["formula"]})"',
             f'speed = "{", ".join(speed_list)}"',
@@ -180,7 +188,7 @@ def main():
         filepath = f"../data/dnd/monster/{title_to_page_name(name)}.toml"
         with open(filepath, 'w') as f:
             f.writelines(line + '\n' for line in output)
-        if i >= 30:
+        if i >= 40:
             break
 
 

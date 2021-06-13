@@ -1,0 +1,26 @@
+width = "500px"
+name = "Awakened Shrub"
+size = "Small"
+type = "plant"
+alignment = "unaligned"
+armor_class = "9"
+hit_points = "10 (3d6)"
+speed = "20 ft."
+strength = 3
+dexterity = 8
+constitution = 11
+intelligence = 10
+wisdom = 10
+charisma = 6
+damage_vulnerabilities = "fire"
+damage_resistances = "piercing"
+senses = "passive Perception 10"
+languages = "one language known by its creator"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***False Appearance.*** While the shrub remains motionless, it is indistinguishable from a normal shrub.
+"""
+actions = """!
+***Rake.*** {@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) slashing damage.
+"""
+source = "Monster Manual, p. 317"

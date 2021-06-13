@@ -1,0 +1,42 @@
+width = "500px"
+name = "Archmage"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "12, 15 with {@spell mage armor}"
+hit_points = "99 (18d8 + 18)"
+speed = "30 ft."
+strength = 10
+dexterity = 14
+constitution = 12
+intelligence = 20
+wisdom = 15
+charisma = 16
+saves = "Int +9, Wis +6"
+skills = "Arcana +13, History +13"
+damage_resistances = "damage from spells; nonmagical bludgeoning, piercing, slashing (from stoneskin)"
+senses = "passive Perception 12"
+languages = "any six languages"
+challenge = "12 (8,400 XP)"
+spellcasting = """!
+***Spellcasting.*** The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The archmage can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:
+
+At will: {@spell disguise self}, {@spell invisibility}
+Cantrips (at will): {@spell fire bolt}, {@spell light}, {@spell mage hand}, {@spell prestidigitation}, {@spell shocking grasp}  
+1st level (4 slots): {@spell detect magic}, {@spell identify}, {@spell mage armor}*, {@spell magic missile}  
+2nd level (3 slots): {@spell detect thoughts}, {@spell mirror image}, {@spell misty step}  
+3rd level (3 slots): {@spell counterspell}, {@spell fly}, {@spell lightning bolt}  
+4th level (3 slots): {@spell banishment}, {@spell fire shield}, {@spell stoneskin}*  
+5th level (3 slots): {@spell cone of cold}, {@spell scrying}, {@spell wall of force}  
+6th level (1 slot): {@spell globe of invulnerability}  
+7th level (1 slot): {@spell teleport}  
+8th level (1 slot): {@spell mind blank}*  
+9th level (1 slot): {@spell time stop}  
+"""
+special_abilities = """!
+***Magic Resistance.*** The archmage has advantage on saving throws against spells and other magical effects.
+"""
+actions = """!
+***Dagger.*** {@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 342"

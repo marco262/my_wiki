@@ -1,0 +1,20 @@
+width = "500px"
+name = "Axe Beak"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "11"
+hit_points = "19 (3d10 + 3)"
+speed = "50 ft."
+strength = 14
+dexterity = 12
+constitution = 12
+intelligence = 2
+wisdom = 10
+charisma = 5
+senses = "passive Perception 10"
+challenge = "1/4 (50 XP)"
+actions = """!
+***Beak.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage.
+"""
+source = "Monster Manual, p. 317"

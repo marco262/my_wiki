@@ -1,0 +1,25 @@
+width = "500px"
+name = "Ape"
+size = "Medium"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "19 (3d8 + 6)"
+speed = "30 ft., climb 30 ft."
+strength = 16
+dexterity = 14
+constitution = 14
+intelligence = 6
+wisdom = 12
+charisma = 7
+skills = "Athletics +5, Perception +3"
+senses = "passive Perception 13"
+challenge = "1/2 (100 XP)"
+actions = """!
+***Multiattack.*** The ape makes two fist attacks.
+
+***Fist.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage.
+
+***Rock.*** {@atk rw} {@hit 5} to hit, range 25/50 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 317"

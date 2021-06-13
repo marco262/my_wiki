@@ -1,0 +1,23 @@
+width = "500px"
+name = "Baboon"
+size = "Small"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "3 (1d6)"
+speed = "30 ft., climb 30 ft."
+strength = 8
+dexterity = 14
+constitution = 11
+intelligence = 4
+wisdom = 12
+charisma = 6
+senses = "passive Perception 11"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Pack Tactics.*** The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage.
+"""
+source = "Monster Manual, p. 318"

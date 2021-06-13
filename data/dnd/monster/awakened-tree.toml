@@ -1,0 +1,26 @@
+width = "500px"
+name = "Awakened Tree"
+size = "Huge"
+type = "plant"
+alignment = "unaligned"
+armor_class = "13 (natural armor)"
+hit_points = "59 (7d12 + 14)"
+speed = "20 ft."
+strength = 19
+dexterity = 6
+constitution = 15
+intelligence = 10
+wisdom = 10
+charisma = 7
+damage_vulnerabilities = "fire"
+damage_resistances = "bludgeoning, piercing"
+senses = "passive Perception 10"
+languages = "one language known by its creator"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***False Appearance.*** While the tree remains motionless, it is indistinguishable from a normal tree.
+"""
+actions = """!
+***Slam.*** {@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 317"
