@@ -1,0 +1,25 @@
+width = "500px"
+name = "Bat"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "1 (1d4 - 1)"
+speed = "5 ft., fly 30 ft."
+strength = 2
+dexterity = 15
+constitution = 8
+intelligence = 2
+wisdom = 12
+charisma = 4
+senses = "blindsight 60 ft., passive Perception 11"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Echolocation.*** The bat can't use its blindsight while {@condition deafened}.
+
+***Keen Hearing.*** The bat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 0} to hit, reach 5 ft., one creature. {@h}1 piercing damage.
+"""
+source = "Monster Manual, p. 318"

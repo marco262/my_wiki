@@ -1,0 +1,39 @@
+width = "500px"
+name = "Barlgura"
+size = "Large"
+type = "fiend (demon)"
+alignment = "chaotic evil"
+armor_class = "15 (natural armor)"
+hit_points = "68 (8d10 + 24)"
+speed = "40 ft., climb 40 ft."
+strength = 18
+dexterity = 15
+constitution = 16
+intelligence = 7
+wisdom = 14
+charisma = 9
+saves = "Dex +5, Con +6"
+skills = "Perception +5, Stealth +5"
+damage_resistances = "cold, fire, lightning"
+damage_immunities = "poison"
+condition_immunities = "!{@condition poisoned}"
+senses = "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
+languages = "Abyssal, telepathy 120 ft."
+challenge = "5 (1,800 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The barlgura's spellcasting ability is Wisdom (spell save {@dc 13}). The barlgura can innately cast the following spells, requiring no material components:
+
+"""
+special_abilities = """!
+***Reckless.*** At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
+
+***Running Leap.*** The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.
+"""
+actions = """!
+***Multiattack.*** The barlgura makes three attacks: one with its bite and two with its fists.
+
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage.
+
+***Fist.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 56"

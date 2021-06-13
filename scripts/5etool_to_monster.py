@@ -74,9 +74,22 @@ def handle_entries(output, name, entries):
         output.append("")
         if isinstance(line, dict):
             for item in line["items"]:
-                output.append(f"**{item['name']}** {item['entry']}  ")
+                if item.get("style") == "italic":
+                    header = f"_{item['name']}_"
+                else:
+                    header = f"**{item['name']}**"
+                if "entry" in item:
+                    output.append(f"{header} {item['entry']}  ")
+                elif "entries" in item:
+                    output.append(f"{header} {item['entries'][0]}  ")
+                    for entry in item["entries"][1:]:
+                        output.append(f"{entry}  ")
         else:
             output.append(line)
+
+
+def handle_cr(cr):
+    return f"{cr} ({cr_to_xp[cr]} XP)"
 
 
 def add_actions_and_stuff(output, monster, key, name):
@@ -162,7 +175,11 @@ def main():
         if "languages" in monster:
             output.append(f'languages = "{", ".join(monster["languages"])}"')
         if "cr" in monster:
-            output.append(f'challenge = "{monster["cr"]} ({cr_to_xp[monster["cr"]]} XP)"')
+            if isinstance(monster["cr"], str):
+                cr = handle_cr(monster["cr"])
+            else:
+                cr = f'{handle_cr(monster["cr"]["cr"])} or {handle_cr(monster["cr"]["cr"])} when encountered in lair'
+            output.append(f'challenge = "{cr}"')
         if "spellcasting" in monster:
             output.append(f'spellcasting = """!')
             for spellcasting_type in monster["spellcasting"]:
@@ -188,8 +205,6 @@ def main():
         filepath = f"../data/dnd/monster/{title_to_page_name(name)}.toml"
         with open(filepath, 'w') as f:
             f.writelines(line + '\n' for line in output)
-        if i >= 40:
-            break
 
 
 if __name__ == "__main__":
