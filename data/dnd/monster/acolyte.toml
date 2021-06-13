@@ -16,10 +16,13 @@ skills = "Medicine +4, Religion +2"
 senses = "passive Perception 12"
 languages = "any one language (usually Common)"
 challenge = "1/4 (50 XP)"
-special_abilities = """!
-***Spellcasting.*** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:
+spellcasting = """!
+***Spellcasting.*** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The acolyte has following cleric spells prepared:
 
-Cantrips (at will): _[[[spell:light]]]_, _[[[spell:sacred flame]]]_, _[[[spell:thaumaturgy]]]_  
-1st level (3 slots): _[[[spell:bless]]]_, _[[[spell:cure wounds]]]_, _[[[spell:sanctuary]]]_
+Cantrips (at will): {@spell light}, {@spell sacred flame}, {@spell thaumaturgy}  
+1st level (3 slots): {@spell bless}, {@spell cure wounds}, {@spell sanctuary}  
 """
-actions = "!***Club.*** _Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) bludgeoning damage."
+actions = """!
+***Club.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 342"
