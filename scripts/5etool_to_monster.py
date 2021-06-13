@@ -176,7 +176,7 @@ def main():
         filepath = f"../data/dnd/monster/{title_to_page_name(name)}.toml"
         with open(filepath, 'w') as f:
             f.writelines(line + '\n' for line in output)
-        if i >= 10:
+        if i >= 20:
             break
 
 

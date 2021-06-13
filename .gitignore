@@ -130,6 +130,8 @@ dmypy.json
 
 logs/
 
+bestiary-mm.json
+
 # Files that are too big to commit
 ## Audio
 D&D Ambience *.mp3
