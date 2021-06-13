@@ -140,8 +140,18 @@ def main():
             else:
                 raise ValueError(ac)
         speed_list = []
+        if "walk" not in monster["speed"]:
+            speed_list.append("0 ft.")
         for speed, val in monster["speed"].items():
-            speed_list.append(f"{val} ft." if speed == "walk" else f"{speed} {val} ft.")
+            if speed == "canHover":
+                continue
+            elif speed == "walk":
+                speed_list.append(f"{val} ft.")
+            else:
+                if isinstance(val, int):
+                    speed_list.append(f"{speed} {val} ft.")
+                else:
+                    speed_list.append(f"{speed} {val['number']} ft. {val['condition']}")
         output = [
             f'width = "500px"',
             f'name = "{name}"',

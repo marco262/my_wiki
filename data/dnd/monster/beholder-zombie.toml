@@ -1,4 +1,3 @@
-redirect = "/dnd/monster/Zombie"
 width = "500px"
 name = "Beholder Zombie"
 size = "Large"
@@ -15,18 +14,22 @@ wisdom = 8
 charisma = 5
 saves = "Wis +2"
 damage_immunities = "poison"
-condition_immunities = "poisoned"
+condition_immunities = "!{@condition poisoned}, {@condition prone}"
 senses = "darkvision 60 ft., passive Perception 9"
-languages = "understands Deepspeech and Undercommon but can't speak"
+languages = "understands Deep Speech and Undercommon but can't speak"
 challenge = "5 (1,800 XP)"
-special_abilities = "!**Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-actions = """!
-**Bite.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 14 (4d6) piercing damage.
-
-**Eye Ray.** The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.
-
-1. Paralyzing Ray. The targeted creature must succeed on a DC 14 Constitution saving throw or be [[[general:conditions#paralyzed|paralyzed]]] for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-2. Fear Ray. The targeted creature must succeed on a DC 14 Wisdom saving throw or be [[[general:conditions#frightened|frightened]]] for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-3. Enervation Ray. The targeted creature must make a DC 14 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.
-4. Disintegration Ray. If the target is a creature, it must succeed on a DC 14 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.<br>If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger non magical object or creation of magical force, this ray disintegrates a 10-foot cube of it.
+special_abilities = """!
+***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 """
+actions = """!
+***Bite.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6}) piercing damage.
+
+***Eye Ray.*** The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.
+
+_1. Paralyzing Ray._ The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+_2. Fear Ray._ The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+_3. Enervation Ray._ The targeted creature must make a {@dc 14} Constitution saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one.  
+_4. Disintegration Ray._ If the target is a creature, it must succeed on a {@dc 14} Dexterity saving throw or take 45 ({@damage 10d8}) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.  
+If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-foot cube of it.  
+"""
+source = "Monster Manual, p. 316"
