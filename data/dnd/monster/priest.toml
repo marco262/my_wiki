@@ -1,0 +1,33 @@
+width = "500px"
+name = "Priest"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "13 ({@item chain shirt|phb})"
+hit_points = "27 (5d8 + 5)"
+speed = "30 ft."
+strength = 10
+dexterity = 10
+constitution = 12
+intelligence = 13
+wisdom = 16
+charisma = 13
+skills = "Medicine +7, Persuasion +3, Religion +5"
+senses = "passive Perception 13"
+languages = "any two languages"
+challenge = "2 (450 XP)"
+spellcasting = """!
+***Spellcasting.*** The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The priest has the following cleric spells prepared:
+
+Cantrips (at will): {@spell light}, {@spell sacred flame}, {@spell thaumaturgy}  
+1st level (4 slots): {@spell cure wounds}, {@spell guiding bolt}, {@spell sanctuary}  
+2nd level (3 slots): {@spell lesser restoration}, {@spell spiritual weapon}  
+3rd level (2 slots): {@spell dispel magic}, {@spell spirit guardians}  
+"""
+special_abilities = """!
+***Divine Eminence.*** As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st.
+"""
+actions = """!
+***Mace.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 348"

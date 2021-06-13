@@ -1,0 +1,30 @@
+width = "500px"
+name = "Manticore"
+size = "Large"
+type = "monstrosity"
+alignment = "lawful evil"
+armor_class = "14 (natural armor)"
+hit_points = "68 (8d10 + 24)"
+speed = "30 ft., fly 50 ft."
+strength = 17
+dexterity = 16
+constitution = 17
+intelligence = 7
+wisdom = 12
+charisma = 8
+senses = "darkvision 60 ft., passive Perception 11"
+languages = "Common"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Tail Spike Regrowth.*** The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest.
+"""
+actions = """!
+***Multiattack.*** The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes.
+
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage.
+
+***Claw.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage.
+
+***Tail Spike.*** {@atk rw} {@hit 5} to hit, range 100/200 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage.
+"""
+source = "Monster Manual, p. 213"

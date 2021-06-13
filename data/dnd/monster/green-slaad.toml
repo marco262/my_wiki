@@ -1,0 +1,43 @@
+width = "500px"
+name = "Green Slaad"
+size = "Large"
+type = "aberration (shapechanger)"
+alignment = "chaotic neutral"
+armor_class = "16 (natural armor)"
+hit_points = "127 (15d10 + 45)"
+speed = "30 ft."
+strength = 18
+dexterity = 15
+constitution = 16
+intelligence = 11
+wisdom = 8
+charisma = 12
+skills = "Arcana +3, Perception +2"
+damage_resistances = "acid, cold, fire, lightning, thunder"
+senses = "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+languages = "Slaad, telepathy 60 ft."
+challenge = "8 (3,900 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The slaad's innate spellcasting ability is Charisma (spell save {@dc 12}). The slaad can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect magic}, {@spell detect thoughts}, {@spell mage hand}
+"""
+special_abilities = """!
+***Shapechanger.*** The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
+
+***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
+"""
+actions = """!
+***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws or staff. Alternatively, it uses its Hurl Flame twice.
+
+***Bite (Slaad Form Only).*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage.
+
+***Claw (Slaad Form Only).*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage.
+
+***Staff.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage.
+
+***Hurl Flame.*** {@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}10 ({@damage 3d6}) fire damage. The fire ignites flammable objects that aren't being worn or carried.
+"""
+source = "Monster Manual, p. 277"

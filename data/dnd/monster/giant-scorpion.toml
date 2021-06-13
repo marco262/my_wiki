@@ -1,0 +1,24 @@
+width = "500px"
+name = "Giant Scorpion"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "15 (natural armor)"
+hit_points = "52 (7d10 + 14)"
+speed = "40 ft."
+strength = 15
+dexterity = 13
+constitution = 15
+intelligence = 1
+wisdom = 9
+charisma = 3
+senses = "blindsight 60 ft., passive Perception 9"
+challenge = "3 (700 XP)"
+actions = """!
+***Multiattack.*** The scorpion makes three attacks: two with its claws and one with its sting.
+
+***Claw.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). The scorpion has two claws, each of which can grapple only one target.
+
+***Sting.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target must make a {@dc 12} Constitution saving throw, taking 22 ({@damage 4d10}) poison damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 327"

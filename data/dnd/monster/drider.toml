@@ -1,0 +1,42 @@
+width = "500px"
+name = "Drider"
+size = "Large"
+type = "monstrosity"
+alignment = "chaotic evil"
+armor_class = "19 (natural armor)"
+hit_points = "123 (13d10 + 52)"
+speed = "30 ft., climb 30 ft."
+strength = 16
+dexterity = 16
+constitution = 18
+intelligence = 13
+wisdom = 14
+charisma = 12
+skills = "Perception +5, Stealth +9"
+senses = "darkvision 120 ft., passive Perception 15"
+languages = "Elvish, Undercommon"
+challenge = "6 (2,300 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The drider's innate spellcasting ability is Wisdom (spell save {@dc 13}). The drider can innately cast the following spells, requiring no material components:
+
+At will: {@spell dancing lights}
+"""
+special_abilities = """!
+***Fey Ancestry.*** The drider has advantage on saving throws against being {@condition charmed}, and magic can't put the drider to sleep.
+
+***Spider Climb.*** The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+
+***Web Walker.*** The drider ignores movement restrictions caused by webbing.
+"""
+actions = """!
+***Multiattack.*** The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.
+
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}2 ({@damage 1d4}) piercing damage plus 9 ({@damage 2d8}) poison damage.
+
+***Longsword.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands.
+
+***Longbow.*** {@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 4 ({@damage 1d8}) poison damage.
+"""
+source = "Monster Manual, p. 120"

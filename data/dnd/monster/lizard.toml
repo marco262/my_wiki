@@ -1,0 +1,20 @@
+width = "500px"
+name = "Lizard"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "10"
+hit_points = "2 (1d4)"
+speed = "20 ft., climb 20 ft."
+strength = 2
+dexterity = 11
+constitution = 10
+intelligence = 1
+wisdom = 8
+charisma = 3
+senses = "darkvision 30 ft., passive Perception 9"
+challenge = "0 (10 XP)"
+actions = """!
+***Bite.*** {@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage.
+"""
+source = "Monster Manual, p. 332"

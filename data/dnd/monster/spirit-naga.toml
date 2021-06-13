@@ -1,0 +1,37 @@
+width = "500px"
+name = "Spirit Naga"
+size = "Large"
+type = "monstrosity"
+alignment = "chaotic evil"
+armor_class = "15 (natural armor)"
+hit_points = "75 (10d10 + 20)"
+speed = "40 ft."
+strength = 18
+dexterity = 17
+constitution = 14
+intelligence = 16
+wisdom = 15
+charisma = 16
+saves = "Dex +6, Con +5, Wis +5, Cha +6"
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 12"
+languages = "Abyssal, Common"
+challenge = "8 (3,900 XP)"
+spellcasting = """!
+***Spellcasting.*** The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
+
+Cantrips (at will): {@spell mage hand}, {@spell minor illusion}, {@spell ray of frost}  
+1st level (4 slots): {@spell charm person}, {@spell detect magic}, {@spell sleep}  
+2nd level (3 slots): {@spell detect thoughts}, {@spell hold person}  
+3rd level (3 slots): {@spell lightning bolt}, {@spell water breathing}  
+4th level (3 slots): {@spell blight}, {@spell dimension door}  
+5th level (2 slots): {@spell dominate person}  
+"""
+special_abilities = """!
+***Rejuvenation.*** If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell wish} spell can prevent this trait from functioning.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 13} Constitution saving throw, taking 31 ({@damage 7d8}) poison damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 234"

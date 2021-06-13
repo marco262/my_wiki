@@ -1,0 +1,36 @@
+width = "500px"
+name = "Hobgoblin Warlord"
+size = "Medium"
+type = "humanoid (goblinoid)"
+alignment = "lawful evil"
+armor_class = "20 ({@item plate armor|phb}, {@item shield|phb})"
+hit_points = "97 (13d8 + 39)"
+speed = "30 ft."
+strength = 16
+dexterity = 14
+constitution = 16
+intelligence = 14
+wisdom = 11
+charisma = 15
+saves = "Int +5, Wis +3, Cha +5"
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Common, Goblin"
+challenge = "6 (2,300 XP)"
+special_abilities = """!
+***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra 14 ({@dice 4d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitated}.
+"""
+actions = """!
+***Multiattack.*** The hobgoblin makes three melee attacks. Alternatively, it can make two ranged attacks with its javelins.
+
+***Longsword.*** {@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands.
+
+***Shield Bash.*** {@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is Large or smaller, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}.
+
+***Javelin.*** {@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+
+***Leadership (Recharges after a Short or Long Rest).*** For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is {@condition incapacitated}.
+"""
+reactions = """!
+***Parry.*** The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.
+"""
+source = "Monster Manual, p. 187"

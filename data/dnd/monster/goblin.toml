@@ -1,0 +1,27 @@
+width = "500px"
+name = "Goblin"
+size = "Small"
+type = "humanoid (goblinoid)"
+alignment = "neutral evil"
+armor_class = "15 ({@item leather armor|phb}, {@item shield|phb})"
+hit_points = "7 (2d6)"
+speed = "30 ft."
+strength = 8
+dexterity = 14
+constitution = 10
+intelligence = 10
+wisdom = 8
+charisma = 8
+skills = "Stealth +6"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "Common, Goblin"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+"""
+actions = """!
+***Scimitar.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage.
+
+***Shortbow.*** {@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 166"

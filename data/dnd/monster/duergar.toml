@@ -1,0 +1,33 @@
+width = "500px"
+name = "Duergar"
+size = "Medium"
+type = "humanoid (dwarf)"
+alignment = "lawful evil"
+armor_class = "16 ({@item scale mail|phb}, {@item shield|phb})"
+hit_points = "26 (4d8 + 4)"
+speed = "25 ft."
+strength = 14
+dexterity = 11
+constitution = 14
+intelligence = 11
+wisdom = 10
+charisma = 9
+damage_resistances = "poison"
+senses = "darkvision 120 ft., passive Perception 10"
+languages = "Dwarvish, Undercommon"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition charmed} or {@condition paralyzed}.
+
+***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Enlarge (Recharges after a Short or Long Rest).*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.
+
+***War Pick.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, or 11 ({@damage 2d8 + 2}) piercing damage while enlarged.
+
+***Javelin.*** {@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 9 ({@damage 2d6 + 2}) piercing damage while enlarged.
+
+***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it.
+"""
+source = "Monster Manual, p. 122"

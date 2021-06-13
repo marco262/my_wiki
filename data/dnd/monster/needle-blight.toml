@@ -1,0 +1,24 @@
+width = "500px"
+name = "Needle Blight"
+size = "Medium"
+type = "plant"
+alignment = "neutral evil"
+armor_class = "12 (natural armor)"
+hit_points = "11 (2d8 + 2)"
+speed = "30 ft."
+strength = 12
+dexterity = 12
+constitution = 13
+intelligence = 4
+wisdom = 8
+charisma = 3
+condition_immunities = "!{@condition blinded}, {@condition deafened}"
+senses = "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
+languages = "understands Common but can't speak"
+challenge = "1/4 (50 XP)"
+actions = """!
+***Claws.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage.
+
+***Needles.*** {@atk rw} {@hit 3} to hit, range 30/60 ft., one target. {@h}8 ({@damage 2d6 + 1}) piercing damage.
+"""
+source = "Monster Manual, p. 32"

@@ -1,0 +1,25 @@
+width = "500px"
+name = "Merfolk"
+size = "Medium"
+type = "humanoid (merfolk)"
+alignment = "neutral"
+armor_class = "11"
+hit_points = "11 (2d8 + 2)"
+speed = "10 ft., swim 40 ft."
+strength = 10
+dexterity = 13
+constitution = 12
+intelligence = 11
+wisdom = 11
+charisma = 12
+skills = "Perception +2"
+senses = "passive Perception 12"
+languages = "Aquan, Common"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***Amphibious.*** The merfolk can breathe air and water.
+"""
+actions = """!
+***Spear.*** {@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d6}) piercing damage, or 4 ({@damage 1d8}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 218"

@@ -1,0 +1,41 @@
+width = "500px"
+name = "Kuo-toa Whip"
+size = "Medium"
+type = "humanoid (kuo-toa)"
+alignment = "neutral evil"
+armor_class = "11 (natural armor)"
+hit_points = "65 (10d8 + 20)"
+speed = "30 ft., swim 30 ft."
+strength = 14
+dexterity = 10
+constitution = 14
+intelligence = 12
+wisdom = 14
+charisma = 11
+skills = "Perception +6, Religion +5"
+senses = "darkvision 120 ft., passive Perception 16"
+languages = "Undercommon"
+challenge = "1 (200 XP)"
+spellcasting = """!
+***Spellcasting.*** The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
+
+Cantrips (at will): {@spell sacred flame}, {@spell thaumaturgy}  
+1st level (3 slots): {@spell bane}, {@spell shield of faith}  
+"""
+special_abilities = """!
+***Amphibious.*** The kuo-toa can breathe air and water.
+
+***Otherworldly Perception.*** The kuo-toa can sense the presence of any creature within 30 feet of it that is {@condition invisible} or on the Ethereal Plane. It can pinpoint such a creature that is moving.
+
+***Slippery.*** The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
+
+***Sunlight Sensitivity.*** While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The kuo-toa makes two attacks: one with its bite and one with its pincer staff.
+
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+
+***Pincer Staff.*** {@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the kuo-toa can't use its pincer staff on another target.
+"""
+source = "Monster Manual, p. 200"

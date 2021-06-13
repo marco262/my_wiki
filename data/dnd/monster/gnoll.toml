@@ -1,0 +1,28 @@
+width = "500px"
+name = "Gnoll"
+size = "Medium"
+type = "humanoid (gnoll)"
+alignment = "chaotic evil"
+armor_class = "15 ({@item hide armor|phb}, {@item shield|phb})"
+hit_points = "22 (5d8)"
+speed = "30 ft."
+strength = 14
+dexterity = 12
+constitution = 11
+intelligence = 6
+wisdom = 10
+charisma = 7
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Gnoll"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+
+***Spear.*** {@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack.
+
+***Longbow.*** {@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage.
+"""
+source = "Monster Manual, p. 163"

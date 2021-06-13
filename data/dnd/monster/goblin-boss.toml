@@ -1,0 +1,32 @@
+width = "500px"
+name = "Goblin Boss"
+size = "Small"
+type = "humanoid (goblinoid)"
+alignment = "neutral evil"
+armor_class = "17 ({@item chain shirt|phb}, {@item shield|phb})"
+hit_points = "21 (6d6)"
+speed = "30 ft."
+strength = 10
+dexterity = 14
+constitution = 10
+intelligence = 10
+wisdom = 8
+charisma = 10
+skills = "Stealth +6"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "Common, Goblin"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+"""
+actions = """!
+***Multiattack.*** The goblin makes two attacks with its scimitar. The second attack has disadvantage.
+
+***Scimitar.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage.
+
+***Javelin.*** {@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage.
+"""
+reactions = """!
+***Redirect Attack.*** When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
+"""
+source = "Monster Manual, p. 166"

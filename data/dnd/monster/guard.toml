@@ -1,0 +1,22 @@
+width = "500px"
+name = "Guard"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "16 ({@item chain shirt|phb}, {@item shield|phb})"
+hit_points = "11 (2d8 + 2)"
+speed = "30 ft."
+strength = 13
+dexterity = 12
+constitution = 12
+intelligence = 10
+wisdom = 11
+charisma = 10
+skills = "Perception +2"
+senses = "passive Perception 12"
+languages = "any one language (usually Common)"
+challenge = "1/8 (25 XP)"
+actions = """!
+***Spear.*** {@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 347"

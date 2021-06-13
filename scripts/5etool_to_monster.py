@@ -38,10 +38,16 @@ cr_to_xp = {
     "29": "135,000",
     "30": "155,000"
 }
+size_dict = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
+alignment_dict = {"L": "lawful", "N": "neutral", "C": "chaotic", "G": "good", "E": "evil", "U": "unaligned", "A": "any alignment"}
 
 
 def dict_to_stats(d):
     return ", ".join([f"{stat.title()} {score}" for stat, score in d.items()])
+
+
+def handle_alignment(alignment_list):
+    return " ".join([alignment_dict[a] for a in alignment_list])
 
 
 def handle_resistances(resistances, r_type="resist"):
@@ -116,19 +122,25 @@ def main():
     for i, monster in enumerate(monsters):
         name = monster["name"]
         print(f"Creating {name}")
-        size_dict = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
         m_type = monster["type"]
         if not isinstance(m_type, str):
             m_type = "{} ({})".format(m_type["type"], ", ".join(m_type["tags"]))
-        alignment_dict = {"L": "lawful", "N": "neutral", "C": "chaotic", "G": "good", "E": "evil", "U": "unaligned", "A": "any alignment"}
         if monster["alignment"] == ["L", "NX", "C", "NY", "E"]:
             alignment = "any non-good alignment"
         elif monster["alignment"] == ["NX", "C", "G", "NY", "E"]:
             alignment = "any non-lawful alignment"
         elif monster["alignment"] == ["L", "NX", "C", "E"]:
             alignment = "any evil alignment"
+        elif monster["alignment"] == ["C", "G", "NY", "E"]:
+            alignment = "any chaotic alignment"
         else:
-            alignment = " ".join([alignment_dict[a] for a in monster["alignment"]])
+            if isinstance(monster["alignment"][0], dict):
+                alignment_list = []
+                for a in monster["alignment"]:
+                    alignment_list.append(f"{handle_alignment(a['alignment'])} ({a['chance']}%)")
+                alignment = " or ".join(alignment_list)
+            else:
+                alignment = handle_alignment(monster['alignment'])
         ac_list = []
         for ac in monster["ac"]:
             if isinstance(ac, int):
@@ -214,7 +226,12 @@ def main():
 
         filepath = f"../data/dnd/monster/{title_to_page_name(name)}.toml"
         with open(filepath, 'w') as f:
-            f.writelines(line + '\n' for line in output)
+            try:
+                for line in output:
+                    f.write(line + '\n')
+            except UnicodeEncodeError:
+                print(repr(line))
+                raise
 
 
 if __name__ == "__main__":

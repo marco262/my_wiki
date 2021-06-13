@@ -1,0 +1,26 @@
+width = "500px"
+name = "Piercer"
+size = "Medium"
+type = "monstrosity"
+alignment = "unaligned"
+armor_class = "15 (natural armor)"
+hit_points = "22 (3d8 + 9)"
+speed = "5 ft., climb 5 ft."
+strength = 10
+dexterity = 13
+constitution = 16
+intelligence = 1
+wisdom = 7
+charisma = 3
+skills = "Stealth +5"
+senses = "blindsight 30 ft., darkvision 60 ft., passive Perception 8"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***False Appearance.*** While the piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite.
+
+***Spider Climb.*** The piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+actions = """!
+***Drop.*** {@atk mw} {@hit 3} to hit, one creature directly underneath the piercer. {@h}3 ({@damage 1d6}) piercing damage per 10 feet fallen, up to 21 ({@dice 6d6}). Miss: The piercer takes half the normal falling damage for the distance fallen.
+"""
+source = "Monster Manual, p. 252"

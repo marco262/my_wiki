@@ -1,0 +1,26 @@
+width = "500px"
+name = "Death Dog"
+size = "Medium"
+type = "monstrosity"
+alignment = "neutral evil"
+armor_class = "12"
+hit_points = "39 (6d8 + 12)"
+speed = "40 ft."
+strength = 15
+dexterity = 14
+constitution = 14
+intelligence = 3
+wisdom = 13
+charisma = 6
+skills = "Perception +5, Stealth +4"
+senses = "darkvision 120 ft., passive Perception 15"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Two-Headed.*** The dog has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}.
+"""
+actions = """!
+***Multiattack.*** The dog makes two bite attacks.
+
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw against disease or become {@condition poisoned} until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.
+"""
+source = "Monster Manual, p. 321"

@@ -1,0 +1,33 @@
+width = "500px"
+name = "Bugbear Chief"
+size = "Medium"
+type = "humanoid (goblinoid)"
+alignment = "chaotic evil"
+armor_class = "17 ({@item chain shirt|phb}, {@item shield|phb})"
+hit_points = "65 (10d8 + 20)"
+speed = "30 ft."
+strength = 17
+dexterity = 14
+constitution = 14
+intelligence = 11
+wisdom = 12
+charisma = 11
+skills = "Intimidation +2, Stealth +6, Survival +3"
+senses = "darkvision 60 ft., passive Perception 11"
+languages = "Common, Goblin"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
+
+***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@dice 2d6}) damage from the attack.
+
+***Heart of Hruggek.*** The bugbear has advantage on saving throws against being {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition stunned}, or put to sleep.
+"""
+actions = """!
+***Multiattack.*** The bugbear makes two melee attacks.
+
+***Morningstar.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 3}) piercing damage.
+
+***Javelin.*** {@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 3}) piercing damage in melee or 5 ({@damage 1d6 + 3}) piercing damage at range.
+"""
+source = "Monster Manual, p. 33"

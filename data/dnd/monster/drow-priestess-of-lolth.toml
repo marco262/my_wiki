@@ -1,0 +1,45 @@
+width = "500px"
+name = "Drow Priestess of Lolth"
+size = "Medium"
+type = "humanoid (elf)"
+alignment = "neutral evil"
+armor_class = "16 ({@item scale mail|phb})"
+hit_points = "71 (13d8 + 13)"
+speed = "30 ft."
+strength = 10
+dexterity = 14
+constitution = 12
+intelligence = 13
+wisdom = 17
+charisma = 18
+saves = "Con +4, Wis +6, Cha +7"
+skills = "Insight +6, Perception +6, Religion +4, Stealth +5"
+senses = "darkvision 120 ft., passive Perception 16"
+languages = "Elvish, Undercommon"
+challenge = "8 (3,900 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:
+
+At will: {@spell dancing lights}
+***Spellcasting.*** The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save {@dc 14}, {@hit 6} to hit with spell attacks). The drow has the following cleric spells prepared:
+
+Cantrips (at will): {@spell guidance}, {@spell poison spray}, {@spell resistance}, {@spell spare the dying}, {@spell thaumaturgy}  
+1st level (4 slots): {@spell animal friendship}, {@spell cure wounds}, {@spell detect poison and disease}, {@spell ray of sickness}  
+2nd level (3 slots): {@spell lesser restoration}, {@spell protection from poison}, {@spell web}  
+3rd level (3 slots): {@spell conjure animals} (2 giant spiders), {@spell dispel magic}  
+4th level (3 slots): {@spell divination}, {@spell freedom of movement}  
+5th level (2 slots): {@spell insect plague}, {@spell mass cure wounds}  
+"""
+special_abilities = """!
+***Fey Ancestry.*** The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep.
+
+***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The drow makes two scourge attacks.
+
+***Scourge.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 17 ({@damage 5d6}) poison damage.
+
+***Summon Demon (1/Day).*** The drow attempts to magically summon a {@creature yochlol} with a {@chance 30|30 percent|30% summoning chance} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
+"""
+source = "Monster Manual, p. 129"

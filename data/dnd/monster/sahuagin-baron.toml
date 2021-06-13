@@ -1,0 +1,36 @@
+width = "500px"
+name = "Sahuagin Baron"
+size = "Large"
+type = "humanoid (sahuagin)"
+alignment = "lawful evil"
+armor_class = "16 ({@item breastplate|phb})"
+hit_points = "76 (9d10 + 27)"
+speed = "30 ft., swim 50 ft."
+strength = 19
+dexterity = 15
+constitution = 16
+intelligence = 14
+wisdom = 13
+charisma = 17
+saves = "Dex +5, Con +6, Int +5, Wis +4"
+skills = "Perception +7"
+senses = "darkvision 120 ft., passive Perception 17"
+languages = "Sahuagin"
+challenge = "5 (1,800 XP)"
+special_abilities = """!
+***Blood Frenzy.*** The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+***Limited Amphibiousness.*** The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
+
+***Shark Telepathy.*** The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
+"""
+actions = """!
+***Multiattack.*** The sahuagin makes three attacks: one with his bite and two with his claws or trident.
+
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage.
+
+***Trident.*** {@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 264"

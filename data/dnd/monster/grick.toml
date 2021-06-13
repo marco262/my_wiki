@@ -1,0 +1,28 @@
+width = "500px"
+name = "Grick"
+size = "Medium"
+type = "monstrosity"
+alignment = "neutral"
+armor_class = "14 (natural armor)"
+hit_points = "27 (6d8)"
+speed = "30 ft., climb 30 ft."
+strength = 14
+dexterity = 14
+constitution = 11
+intelligence = 3
+wisdom = 14
+charisma = 5
+damage_resistances = "bludgeoning, piercing, slashing from nonmagical attacks"
+senses = "darkvision 60 ft., passive Perception 12"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Stone Camouflage.*** The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+"""
+actions = """!
+***Multiattack.*** The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.
+
+***Tentacles.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage.
+
+***Beak.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 173"

@@ -1,0 +1,21 @@
+width = "500px"
+name = "Commoner"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "10"
+hit_points = "4 (1d8)"
+speed = "30 ft."
+strength = 10
+dexterity = 10
+constitution = 10
+intelligence = 10
+wisdom = 10
+charisma = 10
+senses = "passive Perception 10"
+languages = "any one language (usually Common)"
+challenge = "0 (10 XP)"
+actions = """!
+***Club.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 345"

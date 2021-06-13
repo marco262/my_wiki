@@ -1,0 +1,45 @@
+width = "500px"
+name = "Death Knight"
+size = "Medium"
+type = "undead"
+alignment = "chaotic evil"
+armor_class = "20 ({@item plate armor|phb}, {@item shield|phb})"
+hit_points = "180 (19d8 + 95)"
+speed = "30 ft."
+strength = 20
+dexterity = 11
+constitution = 20
+intelligence = 12
+wisdom = 16
+charisma = 18
+saves = "Dex +6, Wis +9, Cha +10"
+damage_immunities = "necrotic, poison"
+condition_immunities = "!{@condition exhaustion}, {@condition frightened}, {@condition poisoned}"
+senses = "darkvision 120 ft., passive Perception 13"
+languages = "Abyssal, Common"
+challenge = "17 (18,000 XP)"
+spellcasting = """!
+***Spellcasting.*** The death knight is a 19th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following paladin spells prepared:
+
+1st level (4 slots): {@spell command}, {@spell compelled duel}, {@spell searing smite}  
+2nd level (3 slots): {@spell hold person}, {@spell magic weapon}  
+3rd level (3 slots): {@spell dispel magic}, {@spell elemental weapon}  
+4th level (3 slots): {@spell banishment}, {@spell staggering smite}  
+5th level (2 slots): {@spell destructive wave} (necrotic)  
+"""
+special_abilities = """!
+***Magic Resistance.*** The death knight has advantage on saving throws against spells and other magical effects.
+
+***Marshal Undead.*** Unless the death knight is {@condition incapacitated}, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead.
+"""
+actions = """!
+***Multiattack.*** The death knight makes three longsword attacks.
+
+***Longsword.*** {@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage.
+
+***Hellfire Orb (1/Day).*** The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 18} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) necrotic damage on a failed save, or half as much damage on a successful one.
+"""
+reactions = """!
+***Parry.*** The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon.
+"""
+source = "Monster Manual, p. 47"

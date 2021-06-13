@@ -1,0 +1,29 @@
+width = "500px"
+name = "Roc"
+size = "Gargantuan"
+type = "monstrosity"
+alignment = "unaligned"
+armor_class = "15 (natural armor)"
+hit_points = "248 (16d20 + 80)"
+speed = "20 ft., fly 120 ft."
+strength = 28
+dexterity = 10
+constitution = 20
+intelligence = 3
+wisdom = 10
+charisma = 9
+saves = "Dex +4, Con +9, Wis +4, Cha +3"
+skills = "Perception +4"
+senses = "passive Perception 14"
+challenge = "11 (7,200 XP)"
+special_abilities = """!
+***Keen Sight.*** The roc has advantage on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The roc makes two attacks: one with its beak and one with its talons.
+
+***Beak.*** {@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d8 + 9}) piercing damage.
+
+***Talons.*** {@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d6 + 9}) slashing damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the roc can't use its talons on another target.
+"""
+source = "Monster Manual, p. 260"

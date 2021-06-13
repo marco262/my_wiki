@@ -1,0 +1,22 @@
+width = "500px"
+name = "Stirge"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "14 (natural armor)"
+hit_points = "2 (1d4)"
+speed = "10 ft., fly 40 ft."
+strength = 4
+dexterity = 16
+constitution = 11
+intelligence = 2
+wisdom = 8
+charisma = 6
+senses = "darkvision 60 ft., passive Perception 9"
+challenge = "1/8 (25 XP)"
+actions = """!
+***Blood Drain.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 ({@dice 1d4 + 3}) hit points due to blood loss.
+
+The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.
+"""
+source = "Monster Manual, p. 284"

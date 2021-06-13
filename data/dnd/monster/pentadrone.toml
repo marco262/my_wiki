@@ -1,12 +1,11 @@
-redirect = "/dnd/monster/Modrons#pentadrone"
 width = "500px"
 name = "Pentadrone"
-size = "Medium"
+size = "Large"
 type = "construct"
 alignment = "lawful neutral"
 armor_class = "16 (natural armor)"
 hit_points = "32 (5d10 + 5)"
-speed = "40ft."
+speed = "40 ft."
 strength = 15
 dexterity = 14
 constitution = 12
@@ -15,7 +14,7 @@ wisdom = 10
 charisma = 13
 skills = "Perception +4"
 senses = "truesight 120 ft., passive Perception 14"
-languagues = "Modron"
+languages = "Modron"
 challenge = "2 (450 XP)"
 special_abilities = """!
 ***Axiomatic Mind.*** The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions.
@@ -25,7 +24,8 @@ special_abilities = """!
 actions = """!
 ***Multiattack.*** The pentadrone makes five arm attacks.
 
-***Arm.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+***Arm.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage.
 
-***Paralysis Gas (Recharge 5-6).*** The pentadrone exhales a 30- foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be [[[general:conditions#paralyzed|paralyzed]]] for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Paralysis Gas {@recharge 5}.*** The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a {@dc 11} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 """
+source = "Monster Manual, p. 226"

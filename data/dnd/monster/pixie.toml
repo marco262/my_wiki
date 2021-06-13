@@ -1,0 +1,30 @@
+width = "500px"
+name = "Pixie"
+size = "Tiny"
+type = "fey"
+alignment = "neutral good"
+armor_class = "15"
+hit_points = "1 (1d4 - 1)"
+speed = "10 ft., fly 30 ft."
+strength = 2
+dexterity = 20
+constitution = 8
+intelligence = 10
+wisdom = 14
+charisma = 15
+skills = "Perception +4, Stealth +7"
+senses = "passive Perception 14"
+languages = "Sylvan"
+challenge = "1/4 (50 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The pixie's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring only its pixie dust as a component:
+
+At will: {@spell druidcraft}
+"""
+special_abilities = """!
+***Magic Resistance.*** The pixie has advantage on saving throws against spells and other magical effects.
+"""
+actions = """!
+***Superior Invisibility.*** The pixie magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is {@condition invisible} with it.
+"""
+source = "Monster Manual, p. 253"

@@ -1,0 +1,32 @@
+width = "500px"
+name = "Scarecrow"
+size = "Medium"
+type = "construct"
+alignment = "chaotic evil"
+armor_class = "11"
+hit_points = "36 (8d8)"
+speed = "30 ft."
+strength = 11
+dexterity = 13
+constitution = 11
+intelligence = 10
+wisdom = 10
+charisma = 13
+damage_vulnerabilities = "fire"
+damage_resistances = "bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition unconscious}"
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "understands the languages of its creator but can't speak"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***False Appearance.*** While the scarecrow remains motionless, it is indistinguishable from an ordinary, inanimate scarecrow.
+"""
+actions = """!
+***Multiattack.*** The scarecrow makes two claw attacks.
+
+***Claw.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage. If the target is a creature, it must succeed on a {@dc 11} Wisdom saving throw or be {@condition frightened} until the end of the scarecrow's next turn.
+
+***Terrifying Glare.*** The scarecrow targets one creature it can see within 30 feet of it. If the target can see the scarecrow, the target must succeed on a {@dc 11} Wisdom saving throw or be magically {@condition frightened} until the end of the scarecrow's next turn. The {@condition frightened} target is {@condition paralyzed}.
+"""
+source = "Monster Manual, p. 268"

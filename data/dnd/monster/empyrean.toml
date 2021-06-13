@@ -1,0 +1,47 @@
+width = "500px"
+name = "Empyrean"
+size = "Huge"
+type = "celestial (titan)"
+alignment = "chaotic good (75%) or neutral evil (25%)"
+armor_class = "22 (natural armor)"
+hit_points = "313 (19d12 + 190)"
+speed = "50 ft., fly 50 ft., swim 50 ft."
+strength = 30
+dexterity = 21
+constitution = 30
+intelligence = 21
+wisdom = 22
+charisma = 27
+saves = "Str +17, Int +12, Wis +13, Cha +15"
+skills = "Insight +13, Persuasion +15"
+damage_immunities = "bludgeoning, piercing, slashing from nonmagical attacks"
+senses = "truesight 120 ft., passive Perception 16"
+languages = "all"
+challenge = "23 (50,000 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The empyrean's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell greater restoration}, {@spell pass without trace}, {@spell water breathing}, {@spell water walk}
+"""
+special_abilities = """!
+***Legendary Resistance (3/Day).*** If the empyrean fails a saving throw, it can choose to succeed instead.
+
+***Magic Resistance.*** The empyrean has advantage on saving throws against spells and other magical effects.
+
+***Magic Weapons.*** The empyrean's weapon attacks are magical.
+"""
+actions = """!
+***Maul.*** {@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}31 ({@damage 6d6 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of the empyrean's next turn.
+
+***Bolt.*** {@atk rs} {@hit 15} to hit, range 600 ft., one target. {@h}24 ({@dice 7d6}) damage of one of the following types (empyrean's choice): acid, cold, fire, force, lightning, radiant, or thunder.
+"""
+legendary_actions = """!
+The Empyrean can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Empyrean regains spent legendary actions at the start of its turn.
+
+***Attack.*** The empyrean makes one attack.
+
+***Bolster.*** The empyrean bolsters all nonhostile creatures within 120 feet of it until the end of its next turn. Bolstered creatures can't be {@condition charmed} or {@condition frightened}, and they gain advantage on ability checks and saving throws until the end of the empyrean's next turn.
+
+***Trembling Strike (Costs 2 Actions).*** The empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 feet of the empyrean must succeed on a {@dc 25} Strength saving throw or be knocked {@condition prone}.
+"""
+source = "Monster Manual, p. 130"

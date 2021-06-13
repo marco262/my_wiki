@@ -1,0 +1,27 @@
+width = "500px"
+name = "Orc"
+size = "Medium"
+type = "humanoid (orc)"
+alignment = "chaotic evil"
+armor_class = "13 ({@item hide armor|phb})"
+hit_points = "15 (2d8 + 6)"
+speed = "30 ft."
+strength = 16
+dexterity = 12
+constitution = 16
+intelligence = 7
+wisdom = 11
+charisma = 10
+skills = "Intimidation +2"
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Common, Orc"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+"""
+actions = """!
+***Greataxe.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage.
+
+***Javelin.*** {@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+"""
+source = "Monster Manual, p. 246"

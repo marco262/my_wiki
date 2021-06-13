@@ -1,0 +1,36 @@
+width = "500px"
+name = "Nalfeshnee"
+size = "Large"
+type = "fiend (demon)"
+alignment = "chaotic evil"
+armor_class = "18 (natural armor)"
+hit_points = "184 (16d10 + 96)"
+speed = "20 ft., fly 30 ft."
+strength = 21
+dexterity = 10
+constitution = 22
+intelligence = 19
+wisdom = 12
+charisma = 15
+saves = "Con +11, Int +9, Wis +6, Cha +7"
+damage_resistances = "cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition poisoned}"
+senses = "truesight 120 ft., passive Perception 11"
+languages = "Abyssal, telepathy 120 ft."
+challenge = "13 (10,000 XP)"
+special_abilities = """!
+***Magic Resistance.*** The nalfeshnee has advantage on saving throws against spells and other magical effects.
+"""
+actions = """!
+***Multiattack.*** The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws.
+
+***Bite.*** {@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}32 ({@damage 5d10 + 5}) piercing damage.
+
+***Claw.*** {@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 3d6 + 5}) slashing damage.
+
+***Horror Nimbus {@recharge 5}.*** The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.
+
+***Teleport.*** The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
+"""
+source = "Monster Manual, p. 62"

@@ -1,0 +1,25 @@
+width = "500px"
+name = "Giant Ape"
+size = "Huge"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "157 (15d12 + 60)"
+speed = "40 ft., climb 40 ft."
+strength = 23
+dexterity = 14
+constitution = 18
+intelligence = 7
+wisdom = 12
+charisma = 7
+skills = "Athletics +9, Perception +4"
+senses = "passive Perception 14"
+challenge = "7 (2,900 XP)"
+actions = """!
+***Multiattack.*** The ape makes two fist attacks.
+
+***Fist.*** {@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage.
+
+***Rock.*** {@atk rw} {@hit 9} to hit, range 50/100 ft., one target. {@h}30 ({@damage 7d6 + 6}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 323"

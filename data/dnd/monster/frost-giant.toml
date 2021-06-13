@@ -1,0 +1,28 @@
+width = "500px"
+name = "Frost Giant"
+size = "Huge"
+type = "giant"
+alignment = "neutral evil"
+armor_class = "15 (patchwork armor)"
+hit_points = "138 (12d12 + 60)"
+speed = "40 ft."
+strength = 23
+dexterity = 9
+constitution = 21
+intelligence = 9
+wisdom = 10
+charisma = 12
+saves = "Con +8, Wis +3, Cha +4"
+skills = "Athletics +9, Perception +3"
+damage_immunities = "cold"
+senses = "passive Perception 13"
+languages = "Giant"
+challenge = "8 (3,900 XP)"
+actions = """!
+***Multiattack.*** The giant makes two greataxe attacks.
+
+***Greataxe.*** {@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) slashing damage.
+
+***Rock.*** {@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 155"

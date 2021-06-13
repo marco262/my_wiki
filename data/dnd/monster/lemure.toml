@@ -1,0 +1,29 @@
+width = "500px"
+name = "Lemure"
+size = "Medium"
+type = "fiend (devil)"
+alignment = "lawful evil"
+armor_class = "7"
+hit_points = "13 (3d8)"
+speed = "15 ft."
+strength = 10
+dexterity = 5
+constitution = 11
+intelligence = 1
+wisdom = 11
+charisma = 3
+damage_resistances = "cold"
+damage_immunities = "fire, poison"
+condition_immunities = "!{@condition charmed}, {@condition frightened}, {@condition poisoned}"
+senses = "darkvision 120 ft., passive Perception 10"
+languages = "understands Infernal but can't speak"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Devil's Sight.*** Magical darkness doesn't impede the lemure's darkvision.
+
+***Hellish Rejuvenation.*** A lemure that dies in the Nine Hells comes back to life with all its hit points in {@dice 1d10} days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.
+"""
+actions = """!
+***Fist.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage
+"""
+source = "Monster Manual, p. 76"

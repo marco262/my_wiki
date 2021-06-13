@@ -1,0 +1,20 @@
+width = "500px"
+name = "Pony"
+size = "Medium"
+type = "beast"
+alignment = "unaligned"
+armor_class = "10"
+hit_points = "11 (2d8 + 2)"
+speed = "40 ft."
+strength = 15
+dexterity = 10
+constitution = 13
+intelligence = 2
+wisdom = 11
+charisma = 7
+senses = "passive Perception 10"
+challenge = "1/8 (25 XP)"
+actions = """!
+***Hooves.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 335"

@@ -1,0 +1,43 @@
+width = "500px"
+name = "Gray Slaad"
+size = "Medium"
+type = "aberration (shapechanger)"
+alignment = "chaotic neutral"
+armor_class = "18 (natural armor)"
+hit_points = "127 (17d8 + 51)"
+speed = "30 ft."
+strength = 17
+dexterity = 17
+constitution = 16
+intelligence = 13
+wisdom = 8
+charisma = 14
+skills = "Arcana +5, Perception +7"
+damage_resistances = "acid, cold, fire, lightning, thunder"
+senses = "blindsight 60 ft., darkvision 60 ft., passive Perception 17"
+languages = "Slaad, telepathy 60 ft."
+challenge = "9 (5,000 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The slaad's innate spellcasting ability is Charisma (spell save {@dc 14}). The slaad can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect magic}, {@spell detect thoughts}, {@spell invisibility} (self only), {@spell mage hand}, {@spell major image}
+"""
+special_abilities = """!
+***Shapechanger.*** The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
+
+***Magic Weapons.*** The slaad's weapon attacks are magical.
+
+***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
+"""
+actions = """!
+***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws or greatsword.
+
+***Bite (Slaad Form Only).*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+
+***Claws (Slaad Form Only).*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage.
+
+***Greatsword.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage.
+"""
+source = "Monster Manual, p. 277"

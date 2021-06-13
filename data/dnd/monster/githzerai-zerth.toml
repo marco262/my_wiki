@@ -1,0 +1,33 @@
+width = "500px"
+name = "Githzerai Zerth"
+size = "Medium"
+type = "humanoid (gith)"
+alignment = "lawful neutral"
+armor_class = "17"
+hit_points = "84 (13d8 + 26)"
+speed = "30 ft."
+strength = 13
+dexterity = 18
+constitution = 15
+intelligence = 16
+wisdom = 17
+charisma = 12
+saves = "Str +4, Dex +7, Int +6, Wis +6"
+skills = "Arcana +6, Insight +6, Perception +6"
+senses = "passive Perception 16"
+languages = "Gith"
+challenge = "6 (2,300 XP)"
+spellcasting = """!
+***Innate Spellcasting (Psionics).*** The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:
+
+At will: {@spell mage hand} (the hand is invisible)
+"""
+special_abilities = """!
+***Psychic Defense.*** While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+"""
+actions = """!
+***Multiattack.*** The githzerai makes two unarmed strikes.
+
+***Unarmed Strike.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage plus 13 ({@damage 3d8}) psychic damage. This is a magic weapon attack.
+"""
+source = "Monster Manual, p. 161"

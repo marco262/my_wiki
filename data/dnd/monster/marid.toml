@@ -1,0 +1,37 @@
+width = "500px"
+name = "Marid"
+size = "Large"
+type = "elemental"
+alignment = "chaotic neutral"
+armor_class = "17 (natural armor)"
+hit_points = "229 (17d10 + 136)"
+speed = "30 ft., fly 60 ft., swim 90 ft."
+strength = 22
+dexterity = 12
+constitution = 26
+intelligence = 18
+wisdom = 17
+charisma = 18
+saves = "Dex +5, Wis +7, Cha +8"
+damage_resistances = "acid, cold, lightning"
+senses = "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+languages = "Aquan"
+challenge = "11 (7,200 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The marid's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell create or destroy water}, {@spell detect evil and good}, {@spell detect magic}, {@spell fog cloud}, {@spell purify food and drink}
+"""
+special_abilities = """!
+***Amphibious.*** The marid can breathe air and water.
+
+***Elemental Demise.*** If the marid dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the marid was wearing or carrying.
+"""
+actions = """!
+***Multiattack.*** The marid makes two trident attacks.
+
+***Trident.*** {@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage, or 15 ({@damage 2d8 + 6}) piercing damage if used with two hands to make a melee attack.
+
+***Water Jet.*** The marid magically shoots water in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw. On a failure, a target takes 21 ({@damage 6d6}) bludgeoning damage and, if it is Huge or smaller, is pushed up to 20 feet away from the marid and knocked {@condition prone}. On a success, a target takes half the bludgeoning damage, but is neither pushed nor knocked {@condition prone}.
+"""
+source = "Monster Manual, p. 146"

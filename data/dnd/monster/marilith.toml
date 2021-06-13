@@ -1,0 +1,41 @@
+width = "500px"
+name = "Marilith"
+size = "Large"
+type = "fiend (demon)"
+alignment = "chaotic evil"
+armor_class = "18 (natural armor)"
+hit_points = "189 (18d10 + 90)"
+speed = "40 ft."
+strength = 18
+dexterity = 20
+constitution = 20
+intelligence = 18
+wisdom = 16
+charisma = 20
+saves = "Str +9, Con +10, Wis +8, Cha +10"
+damage_resistances = "cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition poisoned}"
+senses = "truesight 120 ft., passive Perception 13"
+languages = "Abyssal, telepathy 120 ft."
+challenge = "16 (15,000 XP)"
+special_abilities = """!
+***Magic Resistance.*** The marilith has advantage on saving throws against spells and other magical effects.
+
+***Magic Weapons.*** The marilith's weapon attacks are magical.
+
+***Reactive.*** The marilith can take one reaction on every turn in combat.
+"""
+actions = """!
+***Multiattack.*** The marilith can make seven attacks: six with its longswords and one with its tail.
+
+***Longsword.*** {@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage.
+
+***Tail.*** {@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.
+
+***Teleport.*** The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
+"""
+reactions = """!
+***Parry.*** The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.
+"""
+source = "Monster Manual, p. 61"

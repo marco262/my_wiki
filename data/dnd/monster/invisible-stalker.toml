@@ -1,0 +1,32 @@
+width = "500px"
+name = "Invisible Stalker"
+size = "Medium"
+type = "elemental"
+alignment = "neutral"
+armor_class = "14"
+hit_points = "104 (16d8 + 32)"
+speed = "50 ft., fly 50 ft. (hover)"
+strength = 16
+dexterity = 19
+constitution = 14
+intelligence = 10
+wisdom = 15
+charisma = 11
+skills = "Perception +8, Stealth +10"
+damage_resistances = "bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition exhaustion}, {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition restrained}, {@condition unconscious}"
+senses = "darkvision 60 ft., passive Perception 18"
+languages = "Auran, understands Common but doesn't speak it"
+challenge = "6 (2,300 XP)"
+special_abilities = """!
+***Invisibility.*** The stalker is {@condition invisible}.
+
+***Faultless Tracker.*** The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+"""
+actions = """!
+***Multiattack.*** The stalker makes two slam attacks.
+
+***Slam.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 192"

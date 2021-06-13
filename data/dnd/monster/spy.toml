@@ -1,0 +1,31 @@
+width = "500px"
+name = "Spy"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "12"
+hit_points = "27 (6d8)"
+speed = "30 ft."
+strength = 10
+dexterity = 15
+constitution = 10
+intelligence = 12
+wisdom = 14
+charisma = 16
+skills = "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight Of Hand +4, Stealth +4"
+senses = "passive Perception 16"
+languages = "any two languages"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Cunning Action.*** On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.
+
+***Sneak Attack (1/Turn).*** The spy deals an extra 7 ({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't {@condition incapacitated} and the spy doesn't have disadvantage on the attack roll.
+"""
+actions = """!
+***Multiattack.*** The spy makes two melee attacks.
+
+***Shortsword.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+
+***Hand Crossbow.*** {@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 349"

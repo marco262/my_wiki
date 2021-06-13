@@ -1,0 +1,26 @@
+width = "500px"
+name = "Homunculus"
+size = "Tiny"
+type = "construct"
+alignment = "neutral"
+armor_class = "13 (natural armor)"
+hit_points = "5 (2d4)"
+speed = "20 ft., fly 40 ft."
+strength = 4
+dexterity = 15
+constitution = 11
+intelligence = 10
+wisdom = 10
+charisma = 7
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "understands the languages of its creator but can't speak"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Telepathic Bond.*** While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way.
+"""
+source = "Monster Manual, p. 188"

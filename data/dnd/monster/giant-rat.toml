@@ -1,0 +1,25 @@
+width = "500px"
+name = "Giant Rat"
+size = "Small"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "7 (2d6)"
+speed = "30 ft."
+strength = 7
+dexterity = 15
+constitution = 11
+intelligence = 2
+wisdom = 10
+charisma = 4
+senses = "darkvision 60 ft., passive Perception 10"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***Keen Smell.*** The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+
+***Pack Tactics.*** The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 327"

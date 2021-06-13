@@ -1,0 +1,24 @@
+width = "500px"
+name = "Eagle"
+size = "Small"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "3 (1d6)"
+speed = "10 ft., fly 60 ft."
+strength = 6
+dexterity = 15
+constitution = 10
+intelligence = 2
+wisdom = 14
+charisma = 7
+skills = "Perception +4"
+senses = "passive Perception 14"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Keen Sight.*** The eagle has advantage on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Talons.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage.
+"""
+source = "Monster Manual, p. 322"

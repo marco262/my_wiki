@@ -1,0 +1,25 @@
+width = "500px"
+name = "Elk"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "10"
+hit_points = "13 (2d10 + 2)"
+speed = "50 ft."
+strength = 16
+dexterity = 10
+constitution = 12
+intelligence = 2
+wisdom = 10
+charisma = 6
+senses = "passive Perception 10"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Charge.*** If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@dice 2d6}) damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.
+"""
+actions = """!
+***Ram.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage.
+
+***Hooves.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition prone} creature. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 322"

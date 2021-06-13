@@ -1,0 +1,24 @@
+width = "500px"
+name = "Giant Weasel"
+size = "Medium"
+type = "beast"
+alignment = "unaligned"
+armor_class = "13"
+hit_points = "9 (2d8)"
+speed = "40 ft."
+strength = 11
+dexterity = 16
+constitution = 10
+intelligence = 4
+wisdom = 12
+charisma = 5
+skills = "Perception +3, Stealth +5"
+senses = "darkvision 60 ft., passive Perception 13"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***Keen Hearing and Smell.*** The weasel has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage.
+"""
+source = "Monster Manual, p. 329"

@@ -1,0 +1,29 @@
+width = "500px"
+name = "Bugbear"
+size = "Medium"
+type = "humanoid (goblinoid)"
+alignment = "chaotic evil"
+armor_class = "16 ({@item hide armor|phb}, {@item shield|phb})"
+hit_points = "27 (5d8 + 5)"
+speed = "30 ft."
+strength = 15
+dexterity = 14
+constitution = 13
+intelligence = 8
+wisdom = 11
+charisma = 9
+skills = "Stealth +6, Survival +2"
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Common, Goblin"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
+
+***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@dice 2d6}) damage from the attack.
+"""
+actions = """!
+***Morningstar.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage.
+
+***Javelin.*** {@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage in melee or 5 ({@damage 1d6 + 2}) piercing damage at range.
+"""
+source = "Monster Manual, p. 33"

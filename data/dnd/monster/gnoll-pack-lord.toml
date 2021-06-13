@@ -1,0 +1,32 @@
+width = "500px"
+name = "Gnoll Pack Lord"
+size = "Medium"
+type = "humanoid (gnoll)"
+alignment = "chaotic evil"
+armor_class = "15 ({@item chain shirt|phb})"
+hit_points = "49 (9d8 + 9)"
+speed = "30 ft."
+strength = 16
+dexterity = 14
+constitution = 13
+intelligence = 8
+wisdom = 11
+charisma = 9
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Gnoll"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
+"""
+actions = """!
+***Multiattack.*** The gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can.
+
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage.
+
+***Glaive.*** {@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage.
+
+***Longbow.*** {@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage.
+
+***Incite Rampage {@recharge 5}.*** One creature the gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the gnoll and has the Rampage trait.
+"""
+source = "Monster Manual, p. 163"

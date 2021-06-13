@@ -1,0 +1,34 @@
+width = "500px"
+name = "Orc Eye of Gruumsh"
+size = "Medium"
+type = "humanoid (orc)"
+alignment = "chaotic evil"
+armor_class = "16 ({@item ring mail|phb}, {@item shield|phb})"
+hit_points = "45 (6d8 + 18)"
+speed = "30 ft."
+strength = 16
+dexterity = 12
+constitution = 17
+intelligence = 9
+wisdom = 13
+charisma = 12
+skills = "Intimidation +3, Religion +1"
+senses = "darkvision 60 ft., passive Perception 11"
+languages = "Common, Orc"
+challenge = "2 (450 XP)"
+spellcasting = """!
+***Spellcasting.*** The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The orc has the following cleric spells prepared:
+
+Cantrips (at will): {@spell guidance}, {@spell resistance}, {@spell thaumaturgy}  
+1st level (4 slots): {@spell bless}, {@spell command}  
+2nd level (2 slots): {@spell augury}, {@spell spiritual weapon} (spear)  
+"""
+special_abilities = """!
+***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+
+***Gruumsh's Fury.*** The orc deals an extra 4 ({@dice 1d8}) damage when it hits with a weapon attack (included in the attacks).
+"""
+actions = """!
+***Spear.*** {@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@dice 1d6 + 3} plus {@dice 1d8}) piercing damage, or 12 ({@damage 2d8 + 3}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 247"

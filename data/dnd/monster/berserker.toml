@@ -1,0 +1,24 @@
+width = "500px"
+name = "Berserker"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any chaotic alignment"
+armor_class = "13 ({@item hide armor|phb})"
+hit_points = "67 (9d8 + 27)"
+speed = "30 ft."
+strength = 16
+dexterity = 12
+constitution = 17
+intelligence = 9
+wisdom = 11
+charisma = 9
+senses = "passive Perception 10"
+languages = "any one language (usually Common)"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Reckless.*** At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+"""
+actions = """!
+***Greataxe.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage.
+"""
+source = "Monster Manual, p. 344"

@@ -1,0 +1,28 @@
+width = "500px"
+name = "Saber-Toothed Tiger"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "52 (7d10 + 14)"
+speed = "40 ft."
+strength = 18
+dexterity = 14
+constitution = 15
+intelligence = 3
+wisdom = 12
+charisma = 8
+skills = "Perception +3, Stealth +6"
+senses = "passive Perception 13"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Keen Smell.*** The tiger has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+
+***Pounce.*** If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the tiger can make one bite attack against it as a bonus action.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage.
+
+***Claw.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage.
+"""
+source = "Monster Manual, p. 336"

@@ -1,0 +1,23 @@
+width = "500px"
+name = "Rat"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "10"
+hit_points = "1 (1d4 - 1)"
+speed = "20 ft."
+strength = 2
+dexterity = 11
+constitution = 9
+intelligence = 2
+wisdom = 10
+charisma = 4
+senses = "darkvision 30 ft., passive Perception 10"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Keen Smell.*** The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage.
+"""
+source = "Monster Manual, p. 335"

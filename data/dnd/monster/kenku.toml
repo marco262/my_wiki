@@ -1,0 +1,29 @@
+width = "500px"
+name = "Kenku"
+size = "Medium"
+type = "humanoid (kenku)"
+alignment = "chaotic neutral"
+armor_class = "13"
+hit_points = "13 (3d8)"
+speed = "30 ft."
+strength = 10
+dexterity = 16
+constitution = 10
+intelligence = 11
+wisdom = 10
+charisma = 10
+skills = "Deception +4, Perception +2, Stealth +5"
+senses = "passive Perception 12"
+languages = "understands Auran and Common but speaks only through the use of its Mimicry trait"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Ambusher.*** In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised.
+
+***Mimicry.*** The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check.
+"""
+actions = """!
+***Shortsword.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+
+***Shortbow.*** {@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+"""
+source = "Monster Manual, p. 194"

@@ -1,0 +1,31 @@
+width = "500px"
+name = "Galeb Duhr"
+size = "Medium"
+type = "elemental"
+alignment = "neutral"
+armor_class = "16 (natural armor)"
+hit_points = "85 (9d8 + 45)"
+speed = "{'number': 15, 'condition': '(30 ft. when rolling, 60 ft. rolling downhill)'} ft."
+strength = 20
+dexterity = 14
+constitution = 20
+intelligence = 11
+wisdom = 12
+charisma = 11
+damage_resistances = "bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition exhaustion}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}"
+senses = "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
+languages = "Terran"
+challenge = "6 (2,300 XP)"
+special_abilities = """!
+***False Appearance.*** While the galeb duhr remains motionless, it is indistinguishable from a normal boulder.
+
+***Rolling Charge.*** If the galeb duhr rolls at least 20 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}.
+"""
+actions = """!
+***Slam.*** {@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage.
+
+***Animate Boulders (1/Day).*** The galeb duhr magically animates up to two boulders it can see within 60 feet of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be {@condition charmed} or {@condition frightened}, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).
+"""
+source = "Monster Manual, p. 139"

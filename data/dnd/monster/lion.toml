@@ -1,0 +1,32 @@
+width = "500px"
+name = "Lion"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "26 (4d10 + 4)"
+speed = "50 ft."
+strength = 17
+dexterity = 15
+constitution = 13
+intelligence = 3
+wisdom = 12
+charisma = 8
+skills = "Perception +3, Stealth +6"
+senses = "passive Perception 13"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Keen Smell.*** The lion has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+
+***Pack Tactics.*** The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+
+***Pounce.*** If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the lion can make one bite attack against it as a bonus action.
+
+***Running Leap.*** With a 10-foot running start, the lion can long jump up to 25 feet.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage.
+
+***Claw.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage.
+"""
+source = "Monster Manual, p. 331"

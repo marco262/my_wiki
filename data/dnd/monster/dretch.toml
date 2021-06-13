@@ -1,0 +1,30 @@
+width = "500px"
+name = "Dretch"
+size = "Small"
+type = "fiend (demon)"
+alignment = "chaotic evil"
+armor_class = "11 (natural armor)"
+hit_points = "18 (4d6 + 4)"
+speed = "20 ft."
+strength = 11
+dexterity = 11
+constitution = 12
+intelligence = 5
+wisdom = 8
+charisma = 3
+damage_resistances = "cold, fire, lightning"
+damage_immunities = "poison"
+condition_immunities = "!{@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)"
+challenge = "1/4 (50 XP)"
+actions = """!
+***Multiattack.*** The dretch makes two attacks: one with its bite and one with its claws.
+
+***Bite.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) slashing damage.
+
+***Fetid Cloud (1/Day).*** A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned} until the start of its next turn. While {@condition poisoned} in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.
+"""
+source = "Monster Manual, p. 57"

@@ -1,0 +1,30 @@
+width = "500px"
+name = "Grimlock"
+size = "Medium"
+type = "humanoid (grimlock)"
+alignment = "neutral evil"
+armor_class = "11"
+hit_points = "11 (2d8 + 2)"
+speed = "30 ft."
+strength = 16
+dexterity = 12
+constitution = 12
+intelligence = 9
+wisdom = 8
+charisma = 6
+skills = "Athletics +5, Perception +3, Stealth +3"
+condition_immunities = "!{@condition blinded}"
+senses = "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13"
+languages = "Undercommon"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Blind Senses.*** The grimlock can't use its blindsight while {@condition deafened} and unable to smell.
+
+***Keen Hearing and Smell.*** The grimlock has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell.
+
+***Stone Camouflage.*** The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+"""
+actions = """!
+***Spiked Bone Club.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 2 ({@damage 1d4}) piercing damage.
+"""
+source = "Monster Manual, p. 175"

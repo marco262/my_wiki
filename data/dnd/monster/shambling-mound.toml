@@ -1,0 +1,31 @@
+width = "500px"
+name = "Shambling Mound"
+size = "Large"
+type = "plant"
+alignment = "unaligned"
+armor_class = "15 (natural armor)"
+hit_points = "136 (16d10 + 48)"
+speed = "20 ft., swim 20 ft."
+strength = 18
+dexterity = 8
+constitution = 16
+intelligence = 5
+wisdom = 10
+charisma = 5
+skills = "Stealth +2"
+damage_resistances = "cold, fire"
+damage_immunities = "lightning"
+condition_immunities = "!{@condition blinded}, {@condition deafened}, {@condition exhaustion}"
+senses = "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+challenge = "5 (1,800 XP)"
+special_abilities = """!
+***Lightning Absorption.*** Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt.
+"""
+actions = """!
+***Multiattack.*** The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 14}), and the shambling mound uses its Engulf on it.
+
+***Slam.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage.
+
+***Engulf.*** The shambling mound engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 14} Constitution saving throw at the start of each of the mound's turns or take 13 ({@damage 2d8 + 4}) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.
+"""
+source = "Monster Manual, p. 270"

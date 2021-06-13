@@ -1,0 +1,23 @@
+width = "500px"
+name = "Ogre"
+size = "Large"
+type = "giant"
+alignment = "chaotic evil"
+armor_class = "11 ({@item hide armor|phb})"
+hit_points = "59 (7d10 + 21)"
+speed = "40 ft."
+strength = 19
+dexterity = 8
+constitution = 16
+intelligence = 5
+wisdom = 7
+charisma = 7
+senses = "darkvision 60 ft., passive Perception 8"
+languages = "Common, Giant"
+challenge = "2 (450 XP)"
+actions = """!
+***Greatclub.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage.
+
+***Javelin.*** {@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage.
+"""
+source = "Monster Manual, p. 237"

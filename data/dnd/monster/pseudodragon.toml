@@ -1,0 +1,31 @@
+width = "500px"
+name = "Pseudodragon"
+size = "Tiny"
+type = "dragon"
+alignment = "neutral good"
+armor_class = "13"
+hit_points = "7 (2d4 + 2)"
+speed = "15 ft., fly 60 ft."
+strength = 6
+dexterity = 15
+constitution = 13
+intelligence = 10
+wisdom = 12
+charisma = 10
+skills = "Perception +3, Stealth +4"
+senses = "blindsight 10 ft., darkvision 60 ft., passive Perception 13"
+languages = "understands Common and Draconic but can't speak"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Keen Senses.*** The pseudodragon has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing, or smell.
+
+***Magic Resistance.*** The pseudodragon has advantage on saving throws against spells and other magical effects.
+
+***Limited Telepathy.*** The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+
+***Sting.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or become {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target falls {@condition unconscious} for the same duration, or until it takes damage or another creature uses an action to shake it awake.
+"""
+source = "Monster Manual, p. 254"

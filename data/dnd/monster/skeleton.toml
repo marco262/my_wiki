@@ -1,0 +1,26 @@
+width = "500px"
+name = "Skeleton"
+size = "Medium"
+type = "undead"
+alignment = "lawful evil"
+armor_class = "13 (armor scraps)"
+hit_points = "13 (2d8 + 4)"
+speed = "30 ft."
+strength = 10
+dexterity = 14
+constitution = 15
+intelligence = 6
+wisdom = 8
+charisma = 5
+damage_vulnerabilities = "bludgeoning"
+damage_immunities = "poison"
+condition_immunities = "!{@condition exhaustion}, {@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "understands all languages it spoke in life but can't speak"
+challenge = "1/4 (50 XP)"
+actions = """!
+***Shortsword.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+
+***Shortbow.*** {@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 272"

@@ -1,0 +1,23 @@
+width = "500px"
+name = "Giant Fire Beetle"
+size = "Small"
+type = "beast"
+alignment = "unaligned"
+armor_class = "13 (natural armor)"
+hit_points = "4 (1d6 + 1)"
+speed = "30 ft."
+strength = 8
+dexterity = 10
+constitution = 12
+intelligence = 1
+wisdom = 7
+charisma = 3
+senses = "blindsight 30 ft., passive Perception 8"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Illumination.*** The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) slashing damage.
+"""
+source = "Monster Manual, p. 325"

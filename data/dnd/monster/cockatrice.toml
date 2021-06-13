@@ -1,0 +1,20 @@
+width = "500px"
+name = "Cockatrice"
+size = "Small"
+type = "monstrosity"
+alignment = "unaligned"
+armor_class = "11"
+hit_points = "27 (6d6 + 6)"
+speed = "20 ft., fly 40 ft."
+strength = 6
+dexterity = 12
+constitution = 12
+intelligence = 2
+wisdom = 13
+charisma = 5
+senses = "darkvision 60 ft., passive Perception 11"
+challenge = "1/2 (100 XP)"
+actions = """!
+***Bite.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw against being magically {@condition petrified}. On a failed save, the creature begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} for 24 hours.
+"""
+source = "Monster Manual, p. 42"

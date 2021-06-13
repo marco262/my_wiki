@@ -1,0 +1,27 @@
+width = "500px"
+name = "Myconid Sprout"
+size = "Small"
+type = "plant"
+alignment = "lawful neutral"
+armor_class = "10"
+hit_points = "7 (2d6)"
+speed = "10 ft."
+strength = 8
+dexterity = 10
+constitution = 10
+intelligence = 8
+wisdom = 11
+charisma = 5
+senses = "darkvision 120 ft., passive Perception 10"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Distress Spores.*** When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.
+
+***Sun Sickness.*** While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.
+"""
+actions = """!
+***Fist.*** {@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) bludgeoning damage plus 2 ({@damage 1d4}) poison damage.
+
+***Rapport Spores (3/Day).*** A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.
+"""
+source = "Monster Manual, p. 230"

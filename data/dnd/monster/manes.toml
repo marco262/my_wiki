@@ -1,0 +1,24 @@
+width = "500px"
+name = "Manes"
+size = "Small"
+type = "fiend (demon)"
+alignment = "chaotic evil"
+armor_class = "9 (natural armor)"
+hit_points = "9 (2d6 + 2)"
+speed = "20 ft."
+strength = 10
+dexterity = 9
+constitution = 13
+intelligence = 3
+wisdom = 8
+charisma = 4
+damage_resistances = "cold, fire, lightning"
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition frightened}, {@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "understands Abyssal but can't speak"
+challenge = "1/8 (25 XP)"
+actions = """!
+***Claws.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) slashing damage.
+"""
+source = "Monster Manual, p. 60"

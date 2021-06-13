@@ -1,0 +1,30 @@
+width = "500px"
+name = "Merrow"
+size = "Large"
+type = "monstrosity"
+alignment = "chaotic evil"
+armor_class = "13 (natural armor)"
+hit_points = "45 (6d10 + 12)"
+speed = "10 ft., swim 40 ft."
+strength = 18
+dexterity = 10
+constitution = 15
+intelligence = 8
+wisdom = 10
+charisma = 9
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Abyssal, Aquan"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Amphibious.*** The merrow can breathe air and water.
+"""
+actions = """!
+***Multiattack.*** The merrow makes two attacks: one with its bite and one with its claws or harpoon.
+
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage.
+
+***Harpoon.*** {@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.
+"""
+source = "Monster Manual, p. 219"

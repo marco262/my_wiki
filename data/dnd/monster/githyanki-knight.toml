@@ -1,0 +1,29 @@
+width = "500px"
+name = "Githyanki Knight"
+size = "Medium"
+type = "humanoid (gith)"
+alignment = "lawful evil"
+armor_class = "18 ({@item plate armor|phb})"
+hit_points = "91 (14d8 + 28)"
+speed = "30 ft."
+strength = 16
+dexterity = 14
+constitution = 15
+intelligence = 14
+wisdom = 14
+charisma = 15
+saves = "Con +5, Int +5, Wis +5"
+senses = "passive Perception 12"
+languages = "Gith"
+challenge = "8 (3,900 XP)"
+spellcasting = """!
+***Innate Spellcasting (Psionics).*** The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no components:
+
+At will: {@spell mage hand} (the hand is invisible)
+"""
+actions = """!
+***Multiattack.*** The githyanki makes two silver greatsword attacks.
+
+***Silver Greatsword.*** {@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 10 ({@damage 3d6}) psychic damage. This is a magic weapon attack. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage.
+"""
+source = "Monster Manual, p. 160"

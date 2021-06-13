@@ -1,0 +1,37 @@
+width = "500px"
+name = "Cambion"
+size = "Medium"
+type = "fiend"
+alignment = "any evil alignment"
+armor_class = "19 ({@item scale mail|phb})"
+hit_points = "82 (11d8 + 33)"
+speed = "30 ft., fly 60 ft."
+strength = 18
+dexterity = 18
+constitution = 16
+intelligence = 14
+wisdom = 12
+charisma = 16
+saves = "Str +7, Con +6, Int +5, Cha +6"
+skills = "Deception +6, Intimidation +6, Perception +4, Stealth +7"
+damage_resistances = "cold; fire; lightning; poison; bludgeoning, piercing, slashing from nonmagical attacks"
+senses = "darkvision 60 ft., passive Perception 14"
+languages = "Abyssal, Common, Infernal"
+challenge = "5 (1,800 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The cambion's spellcasting ability is Charisma (spell save {@dc 14}). The cambion can innately cast the following spells, requiring no material components:
+
+"""
+special_abilities = """!
+***Fiendish Blessing.*** The AC of the cambion includes its Charisma bonus.
+"""
+actions = """!
+***Multiattack.*** The cambion makes two melee attacks or uses its Fire Ray twice.
+
+***Spear.*** {@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 8 ({@damage 1d8 + 4}) piercing damage if used with two hands to make a melee attack, plus 3 ({@damage 1d6}) fire damage.
+
+***Fire Ray.*** {@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}10 ({@damage 3d6}) fire damage.
+
+***Fiendish Charm.*** One humanoid the cambion can see within 30 feet of it must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours.
+"""
+source = "Monster Manual, p. 36"

@@ -1,0 +1,27 @@
+width = "500px"
+name = "Displacer Beast"
+size = "Large"
+type = "monstrosity"
+alignment = "lawful evil"
+armor_class = "13 (natural armor)"
+hit_points = "85 (10d10 + 30)"
+speed = "40 ft."
+strength = 18
+dexterity = 15
+constitution = 16
+intelligence = 6
+wisdom = 12
+charisma = 8
+senses = "darkvision 60 ft., passive Perception 11"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Avoidance.*** If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+***Displacement.*** The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is {@condition incapacitated} or has a speed of 0.
+"""
+actions = """!
+***Multiattack.*** The displacer beast makes two attacks with its tentacles.
+
+***Tentacle.*** {@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 3 ({@damage 1d6}) piercing damage.
+"""
+source = "Monster Manual, p. 81"

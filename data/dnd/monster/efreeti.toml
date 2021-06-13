@@ -1,0 +1,35 @@
+width = "500px"
+name = "Efreeti"
+size = "Large"
+type = "elemental"
+alignment = "lawful evil"
+armor_class = "17 (natural armor)"
+hit_points = "200 (16d10 + 112)"
+speed = "40 ft., fly 60 ft."
+strength = 22
+dexterity = 12
+constitution = 24
+intelligence = 16
+wisdom = 15
+charisma = 16
+saves = "Int +7, Wis +6, Cha +7"
+damage_immunities = "fire"
+senses = "darkvision 120 ft., passive Perception 12"
+languages = "Ignan"
+challenge = "11 (7,200 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The efreeti's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect magic}
+"""
+special_abilities = """!
+***Elemental Demise.*** If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the djinni was wearing or carrying.
+"""
+actions = """!
+***Multiattack.*** The efreeti makes two scimitar attacks or uses its Hurl Flame twice.
+
+***Scimitar.*** {@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 7 ({@damage 2d6}) fire damage.
+
+***Hurl Flame.*** {@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}17 ({@damage 5d6}) fire damage.
+"""
+source = "Monster Manual, p. 145"

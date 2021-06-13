@@ -1,0 +1,34 @@
+width = "500px"
+name = "Shadow"
+size = "Medium"
+type = "undead"
+alignment = "chaotic evil"
+armor_class = "12"
+hit_points = "16 (3d8 + 3)"
+speed = "40 ft."
+strength = 6
+dexterity = 14
+constitution = 13
+intelligence = 6
+wisdom = 10
+charisma = 8
+skills = "Stealth +4"
+damage_vulnerabilities = "radiant"
+damage_resistances = "acid; cold; fire; lightning; thunder; bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "necrotic, poison"
+condition_immunities = "!{@condition exhaustion}, {@condition frightened}, {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition restrained}"
+senses = "darkvision 60 ft., passive Perception 10"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Amorphous.*** The shadow can move through a space as narrow as 1 inch wide without squeezing.
+
+***Shadow Stealth.*** While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6.
+
+***Sunlight Weakness.*** While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.
+"""
+actions = """!
+***Strength Drain.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.
+
+If a non-evil humanoid dies from this attack, a new shadow rises from the corpse {@dice 1d4} hours later.
+"""
+source = "Monster Manual, p. 269"

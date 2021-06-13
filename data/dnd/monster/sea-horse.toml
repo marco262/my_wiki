@@ -1,0 +1,20 @@
+width = "500px"
+name = "Sea Horse"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "11"
+hit_points = "1 (1d4 - 1)"
+speed = "0 ft., swim 20 ft."
+strength = 1
+dexterity = 12
+constitution = 8
+intelligence = 1
+wisdom = 10
+charisma = 2
+senses = "passive Perception 10"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Water Breathing.*** The sea horse can breathe only underwater.
+"""
+source = "Monster Manual, p. 337"

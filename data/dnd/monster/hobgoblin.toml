@@ -1,0 +1,26 @@
+width = "500px"
+name = "Hobgoblin"
+size = "Medium"
+type = "humanoid (goblinoid)"
+alignment = "lawful evil"
+armor_class = "18 ({@item chain mail|phb}, {@item shield|phb})"
+hit_points = "11 (2d8 + 2)"
+speed = "30 ft."
+strength = 13
+dexterity = 12
+constitution = 12
+intelligence = 10
+wisdom = 10
+charisma = 9
+senses = "darkvision 60 ft., passive Perception 10"
+languages = "Common, Goblin"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitated}.
+"""
+actions = """!
+***Longsword.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage, or 6 ({@damage 1d10 + 1}) slashing damage if used with two hands.
+
+***Longbow.*** {@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage.
+"""
+source = "Monster Manual, p. 186"

@@ -1,0 +1,29 @@
+width = "500px"
+name = "Minotaur Skeleton"
+size = "Large"
+type = "undead"
+alignment = "lawful evil"
+armor_class = "12 (natural armor)"
+hit_points = "67 (9d10 + 18)"
+speed = "40 ft."
+strength = 18
+dexterity = 11
+constitution = 15
+intelligence = 6
+wisdom = 8
+charisma = 5
+damage_vulnerabilities = "bludgeoning"
+damage_immunities = "poison"
+condition_immunities = "!{@condition exhaustion}, {@condition poisoned}"
+senses = "darkvision 60 ft., passive Perception 9"
+languages = "understands Abyssal but can't speak"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Charge.*** If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}.
+"""
+actions = """!
+***Greataxe.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) slashing damage.
+
+***Gore.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage.
+"""
+source = "Monster Manual, p. 273"

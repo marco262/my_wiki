@@ -1,0 +1,29 @@
+width = "500px"
+name = "Druid"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "11, 16 with {@spell barkskin}"
+hit_points = "27 (5d8 + 5)"
+speed = "30 ft."
+strength = 10
+dexterity = 12
+constitution = 13
+intelligence = 12
+wisdom = 15
+charisma = 11
+skills = "Medicine +4, Nature +3, Perception +4"
+senses = "passive Perception 14"
+languages = "Druidic plus any two languages"
+challenge = "2 (450 XP)"
+spellcasting = """!
+***Spellcasting.*** The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:
+
+Cantrips (at will): {@spell druidcraft}, {@spell produce flame}, {@spell shillelagh}  
+1st level (4 slots): {@spell entangle}, {@spell longstrider}, {@spell speak with animals}, {@spell thunderwave}  
+2nd level (3 slots): {@spell animal messenger}, {@spell barkskin}  
+"""
+actions = """!
+***Quarterstaff.*** {@atk mw} {@hit 2} to hit ({@hit 4} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with shillelagh or if wielded with two hands.
+"""
+source = "Monster Manual, p. 346"

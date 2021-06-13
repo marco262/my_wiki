@@ -1,0 +1,26 @@
+width = "500px"
+name = "Red Dragon Wyrmling"
+size = "Medium"
+type = "dragon"
+alignment = "chaotic evil"
+armor_class = "17 (natural armor)"
+hit_points = "75 (10d8 + 30)"
+speed = "30 ft., climb 30 ft., fly 60 ft."
+strength = 19
+dexterity = 10
+constitution = 17
+intelligence = 12
+wisdom = 11
+charisma = 15
+saves = "Dex +2, Con +5, Wis +2, Cha +4"
+skills = "Perception +4, Stealth +2"
+damage_immunities = "fire"
+senses = "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+languages = "Draconic"
+challenge = "4 (1,100 XP)"
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage.
+
+***Fire Breath {@recharge 5}.*** The dragon exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 98"

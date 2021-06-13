@@ -1,0 +1,42 @@
+width = "500px"
+name = "Flameskull"
+size = "Tiny"
+type = "undead"
+alignment = "neutral evil"
+armor_class = "13"
+hit_points = "40 (9d4 + 18)"
+speed = "0 ft., fly 40 ft. (hover)"
+strength = 1
+dexterity = 17
+constitution = 14
+intelligence = 16
+wisdom = 10
+charisma = 11
+skills = "Arcana +5, Perception +2"
+damage_resistances = "lightning, necrotic, piercing"
+damage_immunities = "cold, fire, poison"
+condition_immunities = "!{@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition prone}"
+senses = "darkvision 60 ft., passive Perception 12"
+languages = "Common"
+challenge = "4 (1,100 XP)"
+spellcasting = """!
+***Spellcasting.*** The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:
+
+Cantrips (at will): {@spell mage hand}  
+1st level (3 slots): {@spell magic missile}, {@spell shield}  
+2nd level (2 slots): {@spell blur}, {@spell flaming sphere}  
+3rd level (1 slot): {@spell fireball}  
+"""
+special_abilities = """!
+***Illumination.*** The flameskull sheds either dim light in a 15-foot radius, or bright light in a 15-foot radius and dim light for an additional 15 feet. It can switch between the options as an action.
+
+***Magic Resistance.*** The flameskull has advantage on saving throws against spells and other magical effects.
+
+***Rejuvenation.*** If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or {@spell remove curse} spell is cast on them.
+"""
+actions = """!
+***Multiattack.*** The flameskull uses Fire Ray twice.
+
+***Fire Ray.*** {@atk rs} {@hit 5} to hit, range 30 ft., one target. {@h}10 ({@damage 3d6}) fire damage.
+"""
+source = "Monster Manual, p. 134"

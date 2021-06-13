@@ -1,0 +1,28 @@
+width = "500px"
+name = "Giant Crocodile"
+size = "Huge"
+type = "beast"
+alignment = "unaligned"
+armor_class = "14 (natural armor)"
+hit_points = "85 (9d12 + 27)"
+speed = "30 ft., swim 50 ft."
+strength = 21
+dexterity = 9
+constitution = 17
+intelligence = 2
+wisdom = 10
+charisma = 7
+skills = "Stealth +5"
+senses = "passive Perception 10"
+challenge = "5 (1,800 XP)"
+special_abilities = """!
+***Hold Breath.*** The crocodile can hold its breath for 30 minutes.
+"""
+actions = """!
+***Multiattack.*** The crocodile makes two attacks: one with its bite and one with its tail.
+
+***Bite.*** {@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the crocodile can't bite another target.
+
+***Tail.*** {@atk mw} {@hit 8} to hit, reach 10 ft., one target not {@condition grappled} by the crocodile. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}.
+"""
+source = "Monster Manual, p. 324"

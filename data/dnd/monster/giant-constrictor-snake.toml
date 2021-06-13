@@ -1,0 +1,23 @@
+width = "500px"
+name = "Giant Constrictor Snake"
+size = "Huge"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "60 (8d12 + 8)"
+speed = "30 ft., swim 30 ft."
+strength = 19
+dexterity = 14
+constitution = 12
+intelligence = 1
+wisdom = 10
+charisma = 3
+skills = "Perception +2"
+senses = "blindsight 10 ft., passive Perception 12"
+challenge = "2 (450 XP)"
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage.
+
+***Constrict.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained}, and the snake can't constrict another target.
+"""
+source = "Monster Manual, p. 324"

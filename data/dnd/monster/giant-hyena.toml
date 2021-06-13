@@ -1,0 +1,24 @@
+width = "500px"
+name = "Giant Hyena"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "45 (6d10 + 12)"
+speed = "50 ft."
+strength = 16
+dexterity = 14
+constitution = 14
+intelligence = 2
+wisdom = 12
+charisma = 7
+skills = "Perception +3"
+senses = "passive Perception 13"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Rampage.*** When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage.
+"""
+source = "Monster Manual, p. 326"

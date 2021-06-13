@@ -15,19 +15,20 @@ charisma = 14
 saves = "Dex +5, Cha +4"
 skills = "Stealth +7"
 damage_vulnerabilities = "radiant"
-damage_resistances = "acid, fire, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks"
+damage_resistances = "acid; fire; necrotic; thunder; bludgeoning, piercing, slashing from nonmagical attacks"
 damage_immunities = "cold, lightning, poison"
-condition_immunities = "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained"
+condition_immunities = "!{@condition exhaustion}, {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition restrained}"
 senses = "darkvision 120 ft., passive Perception 11"
 languages = "Abyssal, telepathy 120 ft."
-challenge = "4 (1100 XP)"
+challenge = "4 (1,100 XP)"
 special_abilities = """!
-***Incorporeal Movement.*** The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+***Incorporeal Movement.*** The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object.
 
-***Light Sensitivity.*** While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+***Light Sensitivity.*** While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
 
 ***Shadow Stealth.*** While in dim light or darkness, the demon can take the Hide action as a bonus action.
 """
 actions = """!
-***Claws.*** _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.
+***Claws.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6 + 3}) psychic damage or, if the demon had advantage on the attack roll, 17 ({@damage 4d6 + 3}) psychic damage.
 """
+source = "Monster Manual, p. 64"

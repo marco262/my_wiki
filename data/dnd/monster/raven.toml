@@ -1,0 +1,24 @@
+width = "500px"
+name = "Raven"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "1 (1d4 - 1)"
+speed = "10 ft., fly 50 ft."
+strength = 2
+dexterity = 14
+constitution = 8
+intelligence = 2
+wisdom = 12
+charisma = 6
+skills = "Perception +3"
+senses = "passive Perception 13"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Mimicry.*** The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom (Insight) check.
+"""
+actions = """!
+***Beak.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage.
+"""
+source = "Monster Manual, p. 335"

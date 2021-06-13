@@ -1,4 +1,3 @@
-redirect = "/dnd/monster/Modrons#duodrone"
 width = "500px"
 name = "Duodrone"
 size = "Medium"
@@ -6,7 +5,7 @@ type = "construct"
 alignment = "lawful neutral"
 armor_class = "15 (natural armor)"
 hit_points = "11 (2d8 + 2)"
-speed = "30ft."
+speed = "30 ft."
 strength = 11
 dexterity = 13
 constitution = 12
@@ -14,7 +13,7 @@ intelligence = 6
 wisdom = 10
 charisma = 7
 senses = "truesight 120 ft., passive Perception 10"
-languagues = "Modron"
+languages = "Modron"
 challenge = "1/4 (50 XP)"
 special_abilities = """!
 ***Axiomatic Mind.*** The duodrone can't be compelled to act in a manner contrary to its nature or its instructions.
@@ -24,7 +23,8 @@ special_abilities = """!
 actions = """!
 ***Multiattack.*** The duodrone makes two fist attacks or two javelin attacks.
 
-***Fist.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) piercing damage.
+***Fist.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage.
 
-***Javelin.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage.
+***Javelin.*** {@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage.
 """
+source = "Monster Manual, p. 225"

@@ -1,0 +1,26 @@
+width = "500px"
+name = "Slaad Tadpole"
+size = "Tiny"
+type = "aberration"
+alignment = "chaotic neutral"
+armor_class = "12"
+hit_points = "10 (4d4)"
+speed = "30 ft."
+strength = 7
+dexterity = 15
+constitution = 10
+intelligence = 3
+wisdom = 5
+charisma = 3
+skills = "Stealth +4"
+damage_resistances = "acid, cold, fire, lightning, thunder"
+senses = "darkvision 60 ft., passive Perception 7"
+languages = "understands Slaad but can't speak"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 276"

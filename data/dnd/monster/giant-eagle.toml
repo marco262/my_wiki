@@ -1,0 +1,29 @@
+width = "500px"
+name = "Giant Eagle"
+size = "Large"
+type = "beast"
+alignment = "neutral good"
+armor_class = "13"
+hit_points = "26 (4d10 + 4)"
+speed = "10 ft., fly 80 ft."
+strength = 16
+dexterity = 17
+constitution = 13
+intelligence = 8
+wisdom = 14
+charisma = 10
+skills = "Perception +4"
+senses = "passive Perception 14"
+languages = "Giant Eagle, understands Common and Auran but can't speak them"
+challenge = "1 (200 XP)"
+special_abilities = """!
+***Keen Sight.*** The eagle has advantage on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The eagle makes two attacks: one with its beak and one with its talons.
+
+***Beak.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+
+***Talons.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage.
+"""
+source = "Monster Manual, p. 324"

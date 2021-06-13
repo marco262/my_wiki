@@ -1,0 +1,25 @@
+width = "500px"
+name = "Elephant"
+size = "Huge"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12 (natural armor)"
+hit_points = "76 (8d12 + 24)"
+speed = "40 ft."
+strength = 22
+dexterity = 9
+constitution = 17
+intelligence = 3
+wisdom = 11
+charisma = 6
+senses = "passive Perception 10"
+challenge = "4 (1,100 XP)"
+special_abilities = """!
+***Trampling Charge.*** If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the elephant can make one stomp attack against it as a bonus action.
+"""
+actions = """!
+***Gore.*** {@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage.
+
+***Stomp.*** {@atk mw} {@hit 8} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 322"

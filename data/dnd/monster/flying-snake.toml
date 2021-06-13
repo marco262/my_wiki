@@ -1,0 +1,23 @@
+width = "500px"
+name = "Flying Snake"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "14"
+hit_points = "5 (2d4)"
+speed = "30 ft., fly 60 ft., swim 30 ft."
+strength = 4
+dexterity = 18
+constitution = 11
+intelligence = 2
+wisdom = 12
+charisma = 5
+senses = "blindsight 10 ft., passive Perception 11"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***Flyby.*** The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}1 piercing damage plus 7 ({@damage 3d4}) poison damage.
+"""
+source = "Monster Manual, p. 322"

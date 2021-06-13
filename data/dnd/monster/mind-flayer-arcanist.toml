@@ -1,0 +1,43 @@
+width = "500px"
+name = "Mind Flayer Arcanist"
+size = "Medium"
+type = "aberration"
+alignment = "lawful evil"
+armor_class = "15 ({@item breastplate|phb})"
+hit_points = "71 (13d8 + 13)"
+speed = "30 ft."
+strength = 11
+dexterity = 12
+constitution = 12
+intelligence = 19
+wisdom = 17
+charisma = 17
+saves = "Int +7, Wis +6, Cha +6"
+skills = "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4"
+senses = "darkvision 120 ft., passive Perception 16"
+languages = "Deep Speech, Undercommon, telepathy 120 ft."
+challenge = "8 (3,900 XP)"
+spellcasting = """!
+***Innate Spellcasting (Psionics).*** The mind flayer's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:
+
+At will: {@spell detect thoughts}, {@spell levitate}
+***Spellcasting.*** The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save {@dc 15}, {@hit 7} to hit with spell attacks). The mind flayer has the following wizard spells prepared:
+
+Cantrips (at will): {@spell blade ward}, {@spell dancing lights}, {@spell mage hand}, {@spell shocking grasp}  
+1st level (4 slots): {@spell detect magic}, {@spell disguise self}, {@spell shield}, {@spell sleep}  
+2nd level (3 slots): {@spell blur}, {@spell invisibility}, {@spell ray of enfeeblement}  
+3rd level (3 slots): {@spell clairvoyance}, {@spell lightning bolt}, {@spell sending}  
+4th level (3 slots): {@spell confusion}, {@spell hallucinatory terrain}  
+5th level (2 slots): {@spell telekinesis}, {@spell wall of force}  
+"""
+special_abilities = """!
+***Magic Resistance.*** The mind flayer has advantage on saving throws against spells and other magical effects.
+"""
+actions = """!
+***Tentacles.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}15 ({@damage 2d10 + 4}) psychic damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}) and must succeed on a {@dc 15} Intelligence saving throw or be {@condition stunned} until this grapple ends.
+
+***Extract Brain.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one {@condition incapacitated} humanoid {@condition grappled} by the mind flayer. {@h}The target takes 55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.
+
+***Mind Blast {@recharge 5}.*** The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+"""
+source = "Monster Manual, p. 222"

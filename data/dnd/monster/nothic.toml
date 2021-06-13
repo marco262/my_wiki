@@ -1,0 +1,31 @@
+width = "500px"
+name = "Nothic"
+size = "Medium"
+type = "aberration"
+alignment = "neutral evil"
+armor_class = "15 (natural armor)"
+hit_points = "45 (6d8 + 18)"
+speed = "30 ft."
+strength = 14
+dexterity = 16
+constitution = 16
+intelligence = 13
+wisdom = 10
+charisma = 8
+skills = "Arcana +3, Insight +4, Perception +2, Stealth +5"
+senses = "truesight 120 ft., passive Perception 12"
+languages = "Undercommon"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Keen Sight.*** The nothic has advantage on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The nothic makes two claw attacks.
+
+***Claw.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage.
+
+***Rotting Gaze.*** The nothic targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Constitution saving throw against this magic or take 10 ({@damage 3d6}) necrotic damage.
+
+***Weird Insight.*** The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being {@condition charmed}.
+"""
+source = "Monster Manual, p. 236"

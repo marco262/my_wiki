@@ -1,0 +1,35 @@
+width = "500px"
+name = "Bullywug"
+size = "Medium"
+type = "humanoid (bullywug)"
+alignment = "neutral evil"
+armor_class = "15 ({@item hide armor|phb}, {@item shield|phb})"
+hit_points = "11 (2d8 + 2)"
+speed = "20 ft., swim 40 ft."
+strength = 12
+dexterity = 12
+constitution = 13
+intelligence = 7
+wisdom = 10
+charisma = 7
+skills = "Stealth +3"
+senses = "passive Perception 10"
+languages = "Bullywug"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Amphibious.*** The bullywug can breathe air and water.
+
+***Speak with Frogs and Toads.*** The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.
+
+***Swamp Camouflage.*** The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
+
+***Standing Leap.*** The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.
+"""
+actions = """!
+***Multiattack.*** The bullywug makes two melee attacks: one with its bite and one with its spear.
+
+***Bite.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage.
+
+***Spear.*** {@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 35"

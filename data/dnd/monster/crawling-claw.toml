@@ -1,0 +1,26 @@
+width = "500px"
+name = "Crawling Claw"
+size = "Tiny"
+type = "undead"
+alignment = "neutral evil"
+armor_class = "12"
+hit_points = "2 (1d4)"
+speed = "20 ft., climb 20 ft."
+strength = 13
+dexterity = 14
+constitution = 11
+intelligence = 5
+wisdom = 10
+charisma = 4
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition exhaustion}, {@condition poisoned}"
+senses = "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
+languages = "understands Common but can't speak"
+challenge = "0 (10 XP)"
+special_abilities = """!
+***Turn Immunity.*** The claw is immune to effects that turn undead.
+"""
+actions = """!
+***Claw.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning or slashing damage (claw's choice).
+"""
+source = "Monster Manual, p. 44"

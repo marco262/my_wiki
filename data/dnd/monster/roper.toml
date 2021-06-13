@@ -1,0 +1,34 @@
+width = "500px"
+name = "Roper"
+size = "Large"
+type = "monstrosity"
+alignment = "neutral evil"
+armor_class = "20 (natural armor)"
+hit_points = "93 (11d10 + 33)"
+speed = "10 ft., climb 10 ft."
+strength = 18
+dexterity = 8
+constitution = 17
+intelligence = 7
+wisdom = 16
+charisma = 6
+skills = "Perception +6, Stealth +5"
+senses = "darkvision 60 ft., passive Perception 16"
+challenge = "5 (1,800 XP)"
+special_abilities = """!
+***False Appearance.*** While the roper remains motionless, it is indistinguishable from a normal cave formation, such as a stalagmite.
+
+***Grasping Tendrils.*** The roper can have up to six tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the roper, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it.
+
+***Spider Climb.*** The roper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+actions = """!
+***Multiattack.*** The roper makes four attacks with its tendrils, uses Reel, and makes one attack with its bite.
+
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) piercing damage.
+
+***Tendril.*** {@atk mw} {@hit 7} to hit, reach 50 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target.
+
+***Reel.*** The roper pulls each creature {@condition grappled} by it up to 25 feet straight toward it.
+"""
+source = "Monster Manual, p. 261"

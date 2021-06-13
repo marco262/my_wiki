@@ -1,0 +1,28 @@
+width = "500px"
+name = "Sprite"
+size = "Tiny"
+type = "fey"
+alignment = "neutral good"
+armor_class = "15 ({@item leather armor|phb})"
+hit_points = "2 (1d4)"
+speed = "10 ft., fly 40 ft."
+strength = 3
+dexterity = 18
+constitution = 10
+intelligence = 14
+wisdom = 13
+charisma = 11
+skills = "Perception +3, Stealth +8"
+senses = "passive Perception 13"
+languages = "Common, Elvish, Sylvan"
+challenge = "1/4 (50 XP)"
+actions = """!
+***Longsword.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 slashing damage.
+
+***Shortbow.*** {@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}1 piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or become {@condition poisoned} for 1 minute. If its saving throw result is 5 or lower, the {@condition poisoned} target falls {@condition unconscious} for the same duration, or until it takes damage or another creature takes an action to shake it awake.
+
+***Heart Sight.*** The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a {@dc 10} Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.
+
+***Invisibility.*** The sprite magically turns {@condition invisible} until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is {@condition invisible} with it.
+"""
+source = "Monster Manual, p. 283"

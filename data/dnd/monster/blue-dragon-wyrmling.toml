@@ -1,0 +1,26 @@
+width = "500px"
+name = "Blue Dragon Wyrmling"
+size = "Medium"
+type = "dragon"
+alignment = "lawful evil"
+armor_class = "17 (natural armor)"
+hit_points = "52 (8d8 + 16)"
+speed = "30 ft., burrow 15 ft., fly 60 ft."
+strength = 17
+dexterity = 10
+constitution = 15
+intelligence = 12
+wisdom = 11
+charisma = 15
+saves = "Dex +2, Con +4, Wis +2, Cha +4"
+skills = "Perception +4, Stealth +2"
+damage_immunities = "lightning"
+senses = "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+languages = "Draconic"
+challenge = "3 (700 XP)"
+actions = """!
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 3 ({@damage 1d6}) lightning damage.
+
+***Lightning Breath {@recharge 5}.*** The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 12} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 91"

@@ -1,0 +1,50 @@
+width = "500px"
+name = "Death Tyrant"
+size = "Large"
+type = "undead"
+alignment = "lawful evil"
+armor_class = "19 (natural armor)"
+hit_points = "187 (25d10 + 50)"
+speed = "0 ft., fly 20 ft. (hover)"
+strength = 10
+dexterity = 14
+constitution = 14
+intelligence = 19
+wisdom = 15
+charisma = 19
+saves = "Str +5, Con +7, Int +9, Wis +7, Cha +9"
+skills = "Perception +12"
+damage_immunities = "poison"
+condition_immunities = "!{@condition charmed}, {@condition exhaustion}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}"
+senses = "darkvision 120 ft., passive Perception 22"
+languages = "Deep Speech, Undercommon"
+challenge = "14 (11,500 XP) or 14 (11,500 XP) when encountered in lair"
+special_abilities = """!
+***Negative Energy Cone.*** The death tyrant's central eye emits an {@condition invisible}, magical 150-foot cone of negative energy. At the start of each of its turns, the tyrant decides which way the cone faces and whether the cone is active.
+
+Any creature in that area can't regain hit points. Any humanoid that dies there becomes a zombie under the tyrant's command. The dead humanoid retains its place in the initiative order and animates at the start of its next turn, provided that its body hasn't been completely destroyed.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6}) piercing damage.
+
+***Eye Rays.*** The death tyrant shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:
+
+_1. Charm Ray._ The targeted creature must succeed on a {@dc 17} Wisdom saving throw or be {@condition charmed} by the death tyrant for 1 hour, or until the death tyrant harms the creature.  
+_2. Paralyzing Ray._ The targeted creature must succeed on a {@dc 17} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+_3. Fear Ray._ The targeted creature must succeed on a {@dc 17} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+_4. Slowing Ray._ The targeted creature must succeed on a {@dc 17} Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+_5. Enervation Ray._ The targeted creature must make a {@dc 17} Constitution saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one.  
+_6. Telekinetic Ray._ If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or the death tyrant moves it up to 30 feet in any direction. It is {@condition restrained} by the ray's telekinetic grip until the start of the death tyrant's next turn or until the death tyrant is {@condition incapacitated}.  
+If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The death tyrant can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.  
+_7. Sleep Ray._ The targeted creature must succeed on a {@dc 17} Wisdom saving throw or fall asleep and remain {@condition unconscious} for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.  
+_8. Petrification Ray._ The targeted creature must make a {@dc 17} Dexterity saving throw. On a failed save, the creature begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the  {@spell greater restoration} spell or other magic.  
+_9. Disintegration Ray._ If the target is a creature, it must succeed on a {@dc 17} Dexterity saving throw or take 45 ({@damage 10d8}) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.  
+If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.  
+_10. Death Ray._ The targeted creature must succeed on a {@dc 17} Dexterity saving throw or take 55 ({@damage 10d10}) necrotic damage. The target dies if the ray reduces it to 0 hit points.  
+"""
+legendary_actions = """!
+The Death Tyrant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Death Tyrant regains spent legendary actions at the start of its turn.
+
+***Eye Ray.*** The death tyrant uses one random eye ray.
+"""
+source = "Monster Manual, p. 29"

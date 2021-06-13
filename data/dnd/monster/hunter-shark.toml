@@ -1,0 +1,26 @@
+width = "500px"
+name = "Hunter Shark"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12 (natural armor)"
+hit_points = "45 (6d10 + 12)"
+speed = "0 ft., swim 40 ft."
+strength = 18
+dexterity = 13
+constitution = 15
+intelligence = 1
+wisdom = 10
+charisma = 4
+skills = "Perception +2"
+senses = "blindsight 30 ft., passive Perception 12"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Blood Frenzy.*** The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+***Water Breathing.*** The shark can breathe only underwater.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage.
+"""
+source = "Monster Manual, p. 330"

@@ -1,0 +1,28 @@
+width = "500px"
+name = "Griffon"
+size = "Large"
+type = "monstrosity"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "59 (7d10 + 21)"
+speed = "30 ft., fly 80 ft."
+strength = 18
+dexterity = 15
+constitution = 16
+intelligence = 2
+wisdom = 13
+charisma = 8
+skills = "Perception +5"
+senses = "darkvision 60 ft., passive Perception 15"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Keen Sight.*** The griffon has advantage on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The griffon makes two attacks: one with its beak and one with its claws.
+
+***Beak.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage.
+"""
+source = "Monster Manual, p. 174"

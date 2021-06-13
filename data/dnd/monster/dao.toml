@@ -1,0 +1,39 @@
+width = "500px"
+name = "Dao"
+size = "Large"
+type = "elemental"
+alignment = "neutral evil"
+armor_class = "18 (natural armor)"
+hit_points = "187 (15d10 + 105)"
+speed = "30 ft., burrow 30 ft., fly 30 ft."
+strength = 23
+dexterity = 12
+constitution = 24
+intelligence = 12
+wisdom = 13
+charisma = 14
+saves = "Int +5, Wis +5, Cha +6"
+condition_immunities = "!{@condition petrified}"
+senses = "darkvision 120 ft., passive Perception 11"
+languages = "Terran"
+challenge = "11 (7,200 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The dao's innate spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect evil and good}, {@spell detect magic}, {@spell stone shape}
+"""
+special_abilities = """!
+***Earth Glide.*** The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through.
+
+***Elemental Demise.*** If the dao dies, its body disintegrates into crystalline powder, leaving behind only equipment the dao was wearing or carrying.
+
+***Sure-Footed.*** The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}.
+"""
+actions = """!
+***Multiattack.*** The Dao makes two fist attacks or two maul attacks.
+
+***Fist.*** {@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage.
+
+***Maul.*** {@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a {@dc 18} Strength check or be knocked {@condition prone}.
+"""
+source = "Monster Manual, p. 143"

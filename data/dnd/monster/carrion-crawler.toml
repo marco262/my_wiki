@@ -1,0 +1,30 @@
+width = "500px"
+name = "Carrion Crawler"
+size = "Large"
+type = "monstrosity"
+alignment = "unaligned"
+armor_class = "13 (natural armor)"
+hit_points = "51 (6d10 + 18)"
+speed = "30 ft., climb 30 ft."
+strength = 14
+dexterity = 13
+constitution = 16
+intelligence = 1
+wisdom = 12
+charisma = 5
+skills = "Perception +3"
+senses = "darkvision 60 ft., passive Perception 13"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Keen Smell.*** The carrion crawler has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+
+***Spider Climb.*** The carrion crawler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+actions = """!
+***Multiattack.*** The carrion crawler makes two attacks: one with its tentacles and one with its bite.
+
+***Tentacles.*** {@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.
+
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 37"

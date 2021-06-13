@@ -1,0 +1,28 @@
+width = "500px"
+name = "Polar Bear"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12 (natural armor)"
+hit_points = "42 (5d10 + 15)"
+speed = "40 ft., swim 30 ft."
+strength = 20
+dexterity = 10
+constitution = 16
+intelligence = 2
+wisdom = 13
+charisma = 7
+skills = "Perception +3"
+senses = "passive Perception 13"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Keen Smell.*** The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+"""
+actions = """!
+***Multiattack.*** The bear makes two attacks: one with its bite and one with its claws.
+
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage.
+"""
+source = "Monster Manual, p. 334"

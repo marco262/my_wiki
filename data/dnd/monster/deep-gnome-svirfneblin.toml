@@ -1,0 +1,34 @@
+width = "500px"
+name = "Deep Gnome (Svirfneblin)"
+size = "Small"
+type = "humanoid (gnome)"
+alignment = "neutral good"
+armor_class = "15 ({@item chain shirt|phb})"
+hit_points = "16 (3d6 + 6)"
+speed = "20 ft."
+strength = 15
+dexterity = 14
+constitution = 14
+intelligence = 12
+wisdom = 10
+charisma = 9
+skills = "Investigation +3, Perception +2, Stealth +4"
+senses = "darkvision 120 ft., passive Perception 12"
+languages = "Gnomish, Terran, Undercommon"
+challenge = "1/2 (100 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The gnome's innate spellcasting ability is Intelligence (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell nondetection} (self only)
+"""
+special_abilities = """!
+***Stone Camouflage.*** The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+
+***Gnome Cunning.*** The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
+"""
+actions = """!
+***War Pick.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage.
+
+***Poisoned Dart.*** {@atk rw} {@hit 4} to hit, range 30/120 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success
+"""
+source = "Monster Manual, p. 164"

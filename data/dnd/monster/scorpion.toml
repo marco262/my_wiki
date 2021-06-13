@@ -1,0 +1,20 @@
+width = "500px"
+name = "Scorpion"
+size = "Tiny"
+type = "beast"
+alignment = "unaligned"
+armor_class = "11 (natural armor)"
+hit_points = "1 (1d4 - 1)"
+speed = "10 ft."
+strength = 2
+dexterity = 11
+constitution = 8
+intelligence = 1
+wisdom = 8
+charisma = 2
+senses = "blindsight 10 ft., passive Perception 9"
+challenge = "0 (10 XP)"
+actions = """!
+***Sting.*** {@atk mw} {@hit 2} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must make a {@dc 9} Constitution saving throw, taking 4 ({@damage 1d8}) poison damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 337"

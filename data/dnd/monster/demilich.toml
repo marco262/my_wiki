@@ -1,0 +1,44 @@
+width = "500px"
+name = "Demilich"
+size = "Tiny"
+type = "undead"
+alignment = "neutral evil"
+armor_class = "20 (natural armor)"
+hit_points = "80 (32d4)"
+speed = "0 ft., fly 30 ft. (hover)"
+strength = 1
+dexterity = 20
+constitution = 10
+intelligence = 20
+wisdom = 17
+charisma = 20
+saves = "Con +6, Int +11, Wis +9, Cha +11"
+damage_resistances = "bludgeoning, piercing, slashing from magic weapons"
+damage_immunities = "necrotic; poison; psychic; bludgeoning, piercing, slashing from nonmagical attacks"
+condition_immunities = "!{@condition charmed}, {@condition deafened}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition stunned}"
+senses = "truesight 120 ft., passive Perception 13"
+challenge = "18 (20,000 XP) or 18 (20,000 XP) when encountered in lair"
+special_abilities = """!
+***Avoidance.*** If the demilich is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+***Legendary Resistance (3/Day).*** If the demilich fails a saving throw, it can choose to succeed instead.
+
+***Turn Immunity.*** The demilich is immune to effects that turn undead.
+"""
+actions = """!
+***Howl {@recharge 5}.*** The demilich emits a bloodcurdling howl. Each creature within 30 feet of the demilich that can hear the howl must succeed on a {@dc 15} Constitution saving throw or drop to 0 hit points. On a successful save, the creature is {@condition frightened} until the end of its next turn.
+
+***Life Drain.*** The demilich targets up to three creatures that it can see within 10 feet of it. Each target must succeed on a {@dc 19} Constitution saving throw or take 21 ({@damage 6d6}) necrotic damage, and the demilich regains hit points equal to the total damage dealt to all targets.
+"""
+legendary_actions = """!
+The Demilich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Demilich regains spent legendary actions at the start of its turn.
+
+***Flight.*** The demilich flies up to half its flying speed.
+
+***Cloud of Dust.*** The demilich magically swirls its dusty remains. Each creature within 10 feet of the demilich, including around a corner, must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until the end of the demilich's next turn. A creature that succeeds on the saving throw is immune to this effect until the end of the demilich's next turn.
+
+***Energy Drain (Costs 2 Actions).*** Each creature with in 30 feet of the demilich must make a {@dc 15} Constitution saving throw. On a failed save, the creature's hit point maximum is magically reduced by 10 ({@dice 3d6}). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. A creature's hit point maximum can be restored with the  {@spell greater restoration} spell or similar magic.
+
+***Vile Curse (Costs 3 Actions).*** The demilich targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success.
+"""
+source = "Monster Manual, p. 48"

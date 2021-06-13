@@ -1,0 +1,40 @@
+width = "500px"
+name = "Drow Elite Warrior"
+size = "Medium"
+type = "humanoid (elf)"
+alignment = "neutral evil"
+armor_class = "18 ({@item studded leather armor|phb}, {@item shield|phb})"
+hit_points = "71 (11d8 + 22)"
+speed = "30 ft."
+strength = 13
+dexterity = 18
+constitution = 14
+intelligence = 11
+wisdom = 13
+charisma = 12
+saves = "Dex +7, Con +5, Wis +4"
+skills = "Perception +4, Stealth +10"
+senses = "darkvision 120 ft., passive Perception 14"
+languages = "Elvish, Undercommon"
+challenge = "5 (1,800 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell dancing lights}
+"""
+special_abilities = """!
+***Fey Ancestry.*** The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep.
+
+***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+"""
+actions = """!
+***Multiattack.*** The drow makes two shortsword attacks.
+
+***Shortsword.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage.
+
+***Hand Crossbow.*** {@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+"""
+reactions = """!
+***Parry.*** The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.
+"""
+source = "Monster Manual, p. 128"

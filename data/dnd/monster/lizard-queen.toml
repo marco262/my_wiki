@@ -1,0 +1,35 @@
+width = "500px"
+name = "Lizard Queen"
+size = "Medium"
+type = "humanoid (lizardfolk)"
+alignment = "chaotic evil"
+armor_class = "15 (natural armor)"
+hit_points = "78 (12d8 + 24)"
+speed = "30 ft., swim 30 ft."
+strength = 17
+dexterity = 12
+constitution = 15
+intelligence = 11
+wisdom = 11
+charisma = 15
+saves = "Con +4, Wis +2"
+skills = "Perception +4, Stealth +5, Survival +4"
+condition_immunities = "!{@condition frightened}"
+senses = "darkvision 60 ft., passive Perception 14"
+languages = "Abyssal, Draconic"
+challenge = "4 (1,100 XP)"
+special_abilities = """!
+***Hold Breath.*** The lizardfolk can hold its breath for 15 minutes.
+
+***Skewer.*** Once per turn, when the lizardfolk makes a melee attack with its trident and hits, the target takes an extra 10 ({@dice 3d6}) damage, and the lizardfolk gains temporary hit points equal to the extra damage dealt.
+"""
+actions = """!
+***Multiattack.*** The lizardfolk makes two attacks: one with its bite and one with its claws or trident or two melee attacks with its trident.
+
+***Bite.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage.
+
+***Trident.*** {@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack.
+"""
+source = "Monster Manual, p. 205"

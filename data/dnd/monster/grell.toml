@@ -13,16 +13,18 @@ intelligence = 12
 wisdom = 11
 charisma = 9
 skills = "Perception +4, Stealth +6"
-damage_vulnerabilities = "radiant"
 damage_immunities = "lightning"
-condition_immunities = "blinded, prone"
+condition_immunities = "!{@condition blinded}, {@condition prone}"
 senses = "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
 languages = "Grell"
 challenge = "3 (700 XP)"
 actions = """!
 ***Multiattack.*** The grell makes two attacks: one with its tentacles and one with its beak.
 
-***Tentacles.*** _Melee Weapon Attack:_ +4 to hit, reach 10 ft., one creature. _Hit:_ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be [[[general:conditions#poisoned|poisoned]]] for 1 minute. The [[[general:conditions#poisoned|poisoned]]] target is [[[general:conditions#paralyzed|paralyzed]]], and it can repeat the saving throw at the end of each of its turns, ending the effect on a success. The target is also [[[general:conditions#grappled|grappled]]] (escape DC 15). If the target is Medium or smaller, it is also [[[general:conditions#restrained|restrained]]] until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.
+***Tentacles.*** {@atk mw} {@hit 4} to hit, reach 10 ft., one creature. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} target is {@condition paralyzed}, and it can repeat the saving throw at the end of each of its turns, ending the effect on a success.
 
-***Beak.*** _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (2d4 + 2) piercing damage.
+The target is also {@condition grappled} (escape {@dc 15}). If the target is Medium or smaller, it is also {@condition restrained} until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can 't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.
+
+***Beak.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage.
 """
+source = "Monster Manual, p. 172"

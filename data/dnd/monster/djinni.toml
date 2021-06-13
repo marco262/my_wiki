@@ -1,0 +1,37 @@
+width = "500px"
+name = "Djinni"
+size = "Large"
+type = "elemental"
+alignment = "chaotic good"
+armor_class = "17 (natural armor)"
+hit_points = "161 (14d10 + 84)"
+speed = "30 ft., fly 90 ft."
+strength = 21
+dexterity = 15
+constitution = 22
+intelligence = 15
+wisdom = 16
+charisma = 20
+saves = "Dex +6, Wis +7, Cha +9"
+damage_immunities = "lightning, thunder"
+senses = "darkvision 120 ft., passive Perception 13"
+languages = "Auran"
+challenge = "11 (7,200 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The djinni's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect evil and good}, {@spell detect magic}, {@spell thunderwave}
+"""
+special_abilities = """!
+***Elemental Demise.*** If the djinni dies, its body disintegrates into a warm breeze, leaving behind only equipment the djinni was wearing or carrying.
+"""
+actions = """!
+***Multiattack.*** The djinni makes three scimitar attacks.
+
+***Scimitar.*** {@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 3 ({@damage 1d6}) lightning or thunder damage (djinni's choice).
+
+***Create Whirlwind.*** A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a {@dc 18} Strength saving throw or be {@condition restrained} by it. The djinni can move the whirlwind up to 60 feet as an action, and creatures {@condition restrained} by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.
+
+A creature can use its action to free a creature {@condition restrained} by the whirlwind, including itself, by succeeding on a {@dc 18} Strength check. If the check succeeds, the creature is no longer {@condition restrained} and moves to the nearest space outside the whirlwind.
+"""
+source = "Monster Manual, p. 144"

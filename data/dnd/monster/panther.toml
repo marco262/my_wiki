@@ -1,0 +1,28 @@
+width = "500px"
+name = "Panther"
+size = "Medium"
+type = "beast"
+alignment = "unaligned"
+armor_class = "12"
+hit_points = "13 (3d8)"
+speed = "50 ft., climb 40 ft."
+strength = 14
+dexterity = 15
+constitution = 10
+intelligence = 3
+wisdom = 14
+charisma = 7
+skills = "Perception +4, Stealth +6"
+senses = "passive Perception 14"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Keen Smell.*** The panther has advantage on Wisdom ({@skill Perception}) checks that rely on smell.
+
+***Pounce.*** If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the panther can make one bite attack against it as a bonus action.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+
+***Claw.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage.
+"""
+source = "Monster Manual, p. 333"

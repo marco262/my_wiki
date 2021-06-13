@@ -1,0 +1,29 @@
+width = "500px"
+name = "Scout"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any alignment"
+armor_class = "13 ({@item leather armor|phb})"
+hit_points = "16 (3d8 + 3)"
+speed = "30 ft."
+strength = 11
+dexterity = 14
+constitution = 12
+intelligence = 11
+wisdom = 13
+charisma = 11
+skills = "Nature +4, Perception +5, Stealth +6, Survival +5"
+senses = "passive Perception 15"
+languages = "any one language (usually Common)"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Keen Hearing and Sight.*** The scout has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight.
+"""
+actions = """!
+***Multiattack.*** The scout makes two melee attacks or two ranged attacks.
+
+***Shortsword.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.
+
+***Longbow.*** {@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage.
+"""
+source = "Monster Manual, p. 349"

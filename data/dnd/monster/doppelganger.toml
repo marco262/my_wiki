@@ -1,0 +1,34 @@
+width = "500px"
+name = "Doppelganger"
+size = "Medium"
+type = "monstrosity (shapechanger)"
+alignment = "neutral"
+armor_class = "14"
+hit_points = "52 (8d8 + 16)"
+speed = "30 ft."
+strength = 11
+dexterity = 18
+constitution = 14
+intelligence = 11
+wisdom = 12
+charisma = 14
+skills = "Deception +6, Insight +3"
+condition_immunities = "!{@condition charmed}"
+senses = "darkvision 60 ft., passive Perception 11"
+languages = "Common"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Shapechanger.*** The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+***Ambusher.*** In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised.
+
+***Surprise Attack.*** If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@dice 3d6}) damage from the attack.
+"""
+actions = """!
+***Multiattack.*** The doppelganger makes two melee attacks.
+
+***Slam.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage.
+
+***Read Thoughts.*** The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target.
+"""
+source = "Monster Manual, p. 82"
