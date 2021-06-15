@@ -17,7 +17,7 @@ Enter another URL to set as Visual Aid here:
 * [Pirate Flag](^pirates/pirate_flag.bmp)
 * [Pirate](^pirates/pirate.jpg)
 * Roughwater [1](^pirates/roughwater_1.jpg), [2](^pirates/roughwater_2.jpg)
-* Everbrook [1](^pirates/everbrook.jpg)
+* Everbrook [1](^pirates/everbrook.png)
 * Knight of Twilight [1](^pirates/knight_of_twilight.png)
 * Lord's Landing [1](^pirates/lords_landing_1.jpg)
 
