@@ -67,7 +67,7 @@ Enter another URL to set as Visual Aid here:
 * Q. [Argynvostholt](Argynvostholt)
 * R. Raven River Crossroads
 * S. [Village of Krezk](Village of Krezk)
-* T. Tsolenka Pass
+* T. [Tsolenka Pass](Tsolenka Pass)
 * U. [Ruins of Berez](Ruins of Berez)
 * V. [Van Richten's Tower](Van Richten's Tower)
 * W. [Wizard of Wines](Wizard of Wines)

@@ -53,6 +53,9 @@ Notes
 * Make calendar page
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
+* Have Strahd approach Orin to help him win over Ireena
+* Do more second/third degree interactions with Strahd
+* INTRODUCE THE BRIDES
 
 ## Notes for Next Session
 
@@ -62,7 +65,6 @@ Notes
 
 ### Notes for me
 
-* Come up with the Baron's reaction to Ethel/the whole situation. Probably freaked out, because his carefully feigned peace in Vallaki has been disturbed. Does he blame Ethel?
 * Introduce Viktor somehow? Allude to his magic use?
 * Finish Werewolf Den/Argynvostholt maps
 * Read up on Amber Temple

@@ -27,7 +27,14 @@ Enter another URL to set as Visual Aid here:
 
 ## NPCs
 
+## Places
 
+### Everbrook
+
+* Itsa Gem: Owned by Tony Roamer, high elf
+* The Dancing Bunny: Inn for adventures and traveling merchants
+* Bertha and Tom's Weapons' Shop: Owned by half-orc Bertha (in a pretty dress) and short human man Tom
+* The Doubletree Inn: Middle-of-the-road inn (Modest, 5 sp per day)
 
 ## Notes
 
@@ -49,8 +56,13 @@ Enter another URL to set as Visual Aid here:
 ### Ways to Get Money
 
 * Working (lol)
+  * Farmer Tenzin Acres lost his prize cow Milky, will pay anyone who rescues her "hansumlee"
 * Stealing
+  * Bertha and Tom just sold a bunch of weapons to the Knights of Twilight, and there's some criminals about to rob them. Azurhel plyed them with drinks, so they'll be a little drink.
 * Goblin ears
+  * 2 sp per goblin ear
+* Bounty
+  * Grinda Garloth, female dwarf, 100 gp bounty, wanted for Grand Larceny, Resisting Arrest, and Jaywalking
 * Caravan guards
 * Running cons with Azurhel
 * Delivery quests from mainland towns to nearby islands
