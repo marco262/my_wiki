@@ -1,0 +1,27 @@
+width = "500px"
+name = "Wyvern"
+size = "Large"
+type = "dragon"
+alignment = "unaligned"
+armor_class = "!13 (natural armor)"
+hit_points = "110 (13d10 + 39)"
+speed = "20 ft., fly 80 ft."
+strength = 19
+dexterity = 10
+constitution = 16
+intelligence = 5
+wisdom = 12
+charisma = 6
+skills = "Perception +4"
+senses = "darkvision 60 ft., passive Perception 14"
+challenge = "6 (2,300 XP)"
+actions = """!
+***Multiattack.*** The wyvern makes two attacks: one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack.
+
+***Bite.*** {@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage.
+
+***Claws.*** {@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage.
+
+***Stinger.*** {@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage. The target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 303"

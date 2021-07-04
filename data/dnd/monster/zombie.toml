@@ -1,10 +1,9 @@
-redirect = "/dnd/monster/Zombie"
-width = "400px"
+width = "500px"
 name = "Zombie"
 size = "Medium"
 type = "undead"
 alignment = "neutral evil"
-armor_class = 8
+armor_class = "!8"
 hit_points = "22 (3d8 + 9)"
 speed = "20 ft."
 strength = 13
@@ -15,9 +14,14 @@ wisdom = 6
 charisma = 5
 saves = "Wis +0"
 damage_immunities = "poison"
-condition_immunities = "poisoned"
+condition_immunities = "!{@condition poisoned}"
 senses = "darkvision 60 ft., passive Perception 8"
-languages = "understands the languages it knew in life but can't speak"
+languages = "understands all languages it spoke in life but can't speak"
 challenge = "1/4 (50 XP)"
-special_abilities = "!**Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-actions = "!**Slam.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage."
+special_abilities = """!
+***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
+"""
+actions = """!
+***Slam.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 316"

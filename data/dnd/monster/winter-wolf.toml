@@ -1,0 +1,32 @@
+width = "500px"
+name = "Winter Wolf"
+size = "Large"
+type = "monstrosity"
+alignment = "neutral evil"
+armor_class = "!13 (natural armor)"
+hit_points = "75 (10d10 + 20)"
+speed = "50 ft."
+strength = 18
+dexterity = 13
+constitution = 14
+intelligence = 7
+wisdom = 12
+charisma = 8
+skills = "Perception +5, Stealth +3"
+damage_immunities = "cold"
+senses = "passive Perception 15"
+languages = "Common, Giant, Winter Wolf"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Keen Hearing and Smell.*** The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell.
+
+***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+
+***Snow Camouflage.*** The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}.
+
+***Cold Breath {@recharge 5}.*** The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 18 ({@damage 4d8}) cold damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 340"

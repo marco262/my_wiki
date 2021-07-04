@@ -1,0 +1,23 @@
+width = "500px"
+name = "Warhorse"
+size = "Large"
+type = "beast"
+alignment = "unaligned"
+armor_class = "!11"
+hit_points = "19 (3d10 + 3)"
+speed = "60 ft."
+strength = 18
+dexterity = 12
+constitution = 13
+intelligence = 2
+wisdom = 12
+charisma = 7
+senses = "passive Perception 11"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Trampling Charge.*** If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the horse can make another attack with its hooves against it as a bonus action.
+"""
+actions = """!
+***Hooves.*** {@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 340"

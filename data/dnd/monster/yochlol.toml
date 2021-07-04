@@ -1,0 +1,48 @@
+width = "500px"
+name = "Yochlol"
+size = "Medium"
+type = "fiend (demon, shapechanger)"
+alignment = "chaotic evil"
+armor_class = "!15 (natural armor)"
+hit_points = "136 (16d8 + 64)"
+speed = "30 ft., climb 30 ft."
+strength = 15
+dexterity = 14
+constitution = 18
+intelligence = 13
+wisdom = 15
+charisma = 15
+saves = "Dex +6, Int +5, Wis +6, Cha +6"
+skills = "Deception +10, Insight +6"
+damage_resistances = "cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition poisoned}"
+senses = "darkvision 120 ft., passive Perception 12"
+languages = "Abyssal, Elvish, Undercommon"
+challenge = "10 (5,900 XP)"
+spellcasting = """!
+***Innate Spellcasting.*** The yochlol's spellcasting ability is Charisma (spell save {@dc 14}). The yochlol can innately cast the following spells, requiring no material components:
+
+At will: {@spell detect thoughts}, {@spell web}
+"""
+special_abilities = """!
+***Shapechanger.*** The yochlol can use its action to polymorph into a form that resembles a female drow or giant spider, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+***Magic Resistance.*** The yochlol has advantage on saving throws against spells and other magical effects.
+
+***Spider Climb.*** The yochlol can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+***Web Walker.*** The yochlol ignores movement restrictions caused by webbing.
+"""
+actions = """!
+***Multiattack.*** The yochlol makes two melee attacks.
+
+***Slam (Bite in Spider Form).*** {@atk mw} {@hit 6} to hit, reach 5 ft. (10 feet in demon form), one target. {@h}5 ({@dice 1d6 + 2}) bludgeoning (piercing in spider form) damage plus 21 ({@damage 6d6}) poison damage.
+
+***Mist Form.*** The yochlol transforms into toxic mist or reverts to its true form. Any equipment it is wearing or carrying is also transformed. It reverts to its true form if it dies.
+
+While in mist form, the yochlol is {@condition incapacitated} and can't speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn't airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage.
+
+While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} until the start of its next turn. While {@condition poisoned} in this way, the target is {@condition incapacitated}.
+"""
+source = "Monster Manual, p. 65"

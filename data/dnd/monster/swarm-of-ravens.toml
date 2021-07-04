@@ -1,0 +1,26 @@
+width = "500px"
+name = "Swarm of Ravens"
+size = "Medium"
+type = "swarm of T beasts"
+alignment = "unaligned"
+armor_class = "!12"
+hit_points = "24 (7d8 - 7)"
+speed = "10 ft., fly 50 ft."
+strength = 6
+dexterity = 14
+constitution = 8
+intelligence = 3
+wisdom = 12
+charisma = 6
+skills = "Perception +5"
+damage_resistances = "bludgeoning, piercing, slashing"
+condition_immunities = "!{@condition charmed}, {@condition frightened}, {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition prone}, {@condition restrained}, {@condition stunned}"
+senses = "passive Perception 15"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain hit points or gain temporary hit points.
+"""
+actions = """!
+***Beaks.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer.
+"""
+source = "Monster Manual, p. 339"

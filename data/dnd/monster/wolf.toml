@@ -1,0 +1,26 @@
+width = "500px"
+name = "Wolf"
+size = "Medium"
+type = "beast"
+alignment = "unaligned"
+armor_class = "!13 (natural armor)"
+hit_points = "11 (2d8 + 2)"
+speed = "40 ft."
+strength = 12
+dexterity = 15
+constitution = 12
+intelligence = 3
+wisdom = 12
+charisma = 6
+skills = "Perception +3, Stealth +4"
+senses = "passive Perception 13"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Keen Hearing and Smell.*** The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell.
+
+***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+"""
+actions = """!
+***Bite.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}.
+"""
+source = "Monster Manual, p. 341"

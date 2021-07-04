@@ -1,0 +1,29 @@
+width = "500px"
+name = "Water Weird"
+size = "Large"
+type = "elemental"
+alignment = "neutral"
+armor_class = "!13"
+hit_points = "58 (9d10 + 9)"
+speed = "0 ft., swim 60 ft."
+strength = 17
+dexterity = 16
+constitution = 13
+intelligence = 11
+wisdom = 10
+charisma = 10
+damage_resistances = "fire; bludgeoning, piercing, slashing from nonmagical attacks"
+damage_immunities = "poison"
+condition_immunities = "!{@condition exhaustion}, {@condition grappled}, {@condition paralyzed}, {@condition poisoned}, {@condition restrained}, {@condition prone}, {@condition unconscious}"
+senses = "blindsight 30 ft., passive Perception 10"
+languages = "understands Aquan but doesn't speak"
+challenge = "3 (700 XP)"
+special_abilities = """!
+***Invisible in Water.*** The water weird is {@condition invisible} while fully immersed in water.
+
+***Water Bound.*** The water weird dies if it leaves the water to which it is bound or if that water is destroyed.
+"""
+actions = """!
+***Constrict.*** {@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}13 ({@damage 3d6 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward the water weird. Until this grapple ends, the target is {@condition restrained}, the water weird tries to drown it, and the water weird can't constrict another target.
+"""
+source = "Monster Manual, p. 299"

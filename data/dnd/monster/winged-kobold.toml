@@ -1,0 +1,28 @@
+width = "500px"
+name = "Winged Kobold"
+size = "Small"
+type = "humanoid (kobold)"
+alignment = "lawful evil"
+armor_class = "!13"
+hit_points = "7 (3d6 - 3)"
+speed = "30 ft., fly 30 ft."
+strength = 7
+dexterity = 16
+constitution = 9
+intelligence = 8
+wisdom = 7
+charisma = 8
+senses = "darkvision 60 ft., passive Perception 8"
+languages = "Common, Draconic"
+challenge = "1/4 (50 XP)"
+special_abilities = """!
+***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.
+
+***Pack Tactics.*** The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+"""
+actions = """!
+***Dagger.*** {@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage.
+
+***Dropped Rock.*** {@atk rw} {@hit 5} to hit, one target directly below the kobold. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage.
+"""
+source = "Monster Manual, p. 195"

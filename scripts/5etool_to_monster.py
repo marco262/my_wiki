@@ -124,7 +124,10 @@ def main():
         print(f"Creating {name}")
         m_type = monster["type"]
         if not isinstance(m_type, str):
-            m_type = "{} ({})".format(m_type["type"], ", ".join(m_type["tags"]))
+            if "tags" in m_type:
+                m_type = "{} ({})".format(m_type["type"], ", ".join(m_type["tags"]))
+            else:
+                m_type = "swarm of {} {}s".format(m_type["swarmSize"], m_type["type"])
         if monster["alignment"] == ["L", "NX", "C", "NY", "E"]:
             alignment = "any non-good alignment"
         elif monster["alignment"] == ["NX", "C", "G", "NY", "E"]:
@@ -170,7 +173,7 @@ def main():
             f'size = "{size_dict[monster["size"]]}"',
             f'type = "{m_type}"',
             f'alignment = "{alignment}"',
-            f'armor_class = "{", ".join(ac_list)}"',
+            f'armor_class = "!{", ".join(ac_list)}"',
             f'hit_points = "{monster["hp"]["average"]} ({monster["hp"]["formula"]})"',
             f'speed = "{", ".join(speed_list)}"',
             f'strength = {monster["str"]}',

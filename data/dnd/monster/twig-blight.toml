@@ -1,0 +1,27 @@
+width = "500px"
+name = "Twig Blight"
+size = "Small"
+type = "plant"
+alignment = "neutral evil"
+armor_class = "!13 (natural armor)"
+hit_points = "4 (1d6 + 1)"
+speed = "20 ft."
+strength = 6
+dexterity = 13
+constitution = 12
+intelligence = 4
+wisdom = 8
+charisma = 3
+skills = "Stealth +3"
+damage_vulnerabilities = "fire"
+condition_immunities = "!{@condition blinded}, {@condition deafened}"
+senses = "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
+languages = "understands Common but can't speak"
+challenge = "1/8 (25 XP)"
+special_abilities = """!
+***False Appearance.*** While the blight remains motionless, it is indistinguishable from a dead shrub.
+"""
+actions = """!
+***Claws.*** {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage.
+"""
+source = "Monster Manual, p. 32"

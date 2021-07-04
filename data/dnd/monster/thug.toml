@@ -1,0 +1,29 @@
+width = "500px"
+name = "Thug"
+size = "Medium"
+type = "humanoid (any race)"
+alignment = "any non-good alignment"
+armor_class = "!11 ({@item leather armor|phb})"
+hit_points = "32 (5d8 + 10)"
+speed = "30 ft."
+strength = 15
+dexterity = 11
+constitution = 14
+intelligence = 10
+wisdom = 10
+charisma = 11
+skills = "Intimidation +2"
+senses = "passive Perception 10"
+languages = "any one language (usually Common)"
+challenge = "1/2 (100 XP)"
+special_abilities = """!
+***Pack Tactics.*** The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}.
+"""
+actions = """!
+***Multiattack.*** The thug makes two melee attacks.
+
+***Mace.*** {@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage.
+
+***Heavy Crossbow.*** {@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage.
+"""
+source = "Monster Manual, p. 350"

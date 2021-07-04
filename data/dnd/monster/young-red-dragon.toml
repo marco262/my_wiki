@@ -1,0 +1,30 @@
+width = "500px"
+name = "Young Red Dragon"
+size = "Large"
+type = "dragon"
+alignment = "chaotic evil"
+armor_class = "!18 (natural armor)"
+hit_points = "178 (17d10 + 85)"
+speed = "40 ft., climb 40 ft., fly 80 ft."
+strength = 23
+dexterity = 10
+constitution = 21
+intelligence = 14
+wisdom = 11
+charisma = 19
+saves = "Dex +4, Con +9, Wis +4, Cha +8"
+skills = "Perception +8, Stealth +4"
+damage_immunities = "fire"
+senses = "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+languages = "Common, Draconic"
+challenge = "10 (5,900 XP)"
+actions = """!
+***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
+
+***Bite.*** {@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 3 ({@damage 1d6}) fire damage.
+
+***Claw.*** {@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage.
+
+***Fire Breath {@recharge 5}.*** The dragon exhales fire in a 30-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 98"

@@ -1,0 +1,25 @@
+width = "500px"
+name = "Swarm of Poisonous Snakes"
+size = "Medium"
+type = "swarm of T beasts"
+alignment = "unaligned"
+armor_class = "!14"
+hit_points = "36 (8d8)"
+speed = "30 ft., swim 30 ft."
+strength = 8
+dexterity = 18
+constitution = 11
+intelligence = 1
+wisdom = 10
+charisma = 3
+damage_resistances = "bludgeoning, piercing, slashing"
+condition_immunities = "!{@condition charmed}, {@condition frightened}, {@condition grappled}, {@condition paralyzed}, {@condition petrified}, {@condition prone}, {@condition restrained}, {@condition stunned}"
+senses = "blindsight 10 ft., passive Perception 10"
+challenge = "2 (450 XP)"
+special_abilities = """!
+***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain hit points or gain temporary hit points.
+"""
+actions = """!
+***Bites.*** {@atk mw} {@hit 6} to hit, reach 0 ft., one creature in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer. The target must make a {@dc 10} Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one.
+"""
+source = "Monster Manual, p. 338"
