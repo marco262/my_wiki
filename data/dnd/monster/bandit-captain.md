@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/bandit#bandit-captain

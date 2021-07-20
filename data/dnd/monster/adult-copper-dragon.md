@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Copper Dragon#adult-copper-dragon

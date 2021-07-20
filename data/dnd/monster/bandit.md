@@ -3,28 +3,7 @@
 [[div class="monster-include"]]
 
 [[include dnd/monster-sheet.tpl]]
-width = 400px
-name = Bandit
-size = Medium
-type = humanoid (any race)
-alignment = any non-lawful alignment
-armor_class = 12 (leather armor)
-hit_points = 11 (2d8 + 2)
-speed = 30 ft.
-strength = 11
-dexterity = 12
-constitution = 12
-intelligence = 10
-wisdom = 10
-charisma = 10
-senses = passive Perception 10
-languages = any one language (usually Common)
-challenge = 1/8 (25 XP)
-actions = !!!
-**Scimitar.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage.
-
-**Light Crossbow.** *Ranged Weapon Attack:* +3 to hit, range 80 ft./320ft., one target. *Hit:* 5 (1d8 + 1) piercing damage.
-!!!
+file = dnd/monster/bandit.toml
 [[/include]]
 
 [[/div]]
@@ -34,33 +13,7 @@ actions = !!!
 [[div class="monster-include"]]
 
 [[include dnd/monster-sheet.tpl]]
-width = 400px
-name = Bandit Captain
-size = Medium
-type = humanoid (any race)
-alignment = any non-lawful alignment
-armor_class = 15 (studded leather armor)
-hit_points = 65 (10d8 + 20)
-speed = 30 ft.
-strength = 15
-dexterity = 16
-constitution = 14
-intelligence = 14
-wisdom = 11
-charisma = 14
-saves = Str +4, Dex +5, Wis +2
-skills = Atheltics +4, Deception +4
-senses = passive Perception 10
-languages = any two languages
-challenge = 2 (450 XP)
-actions = !!!
-**Multiattack.** The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
-
-**Scimitar.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
-
-**Dagger.** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage.
-!!!
-reactions = !**Parry.** The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
+file = dnd/monster/bandit-captain.toml
 [[/include]]
 
 [[/div]]

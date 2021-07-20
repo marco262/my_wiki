@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/elementals#air-elemental
