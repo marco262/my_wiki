@@ -32,6 +32,26 @@
 * [Winter Wolf](^curse_of_strahd/winter_wolf.jpeg) ([stats](https://5e.tools/bestiary.html#winter%20wolf_mm))
 * [Kaldur](^curse_of_strahd/kaldur.png)
 
+### Overgrown Woods
+
+* [Overgrown Woods](^curse_of_strahd/tsolenka_pass_5.jpg)
+* [Stone Obelisk](^curse_of_strahd/stone_obelisk.jpg)
+* [Order of the Silver Dragon](^curse_of_strahd/order_of_the_silver_dragon.png)
+* [Snow Maiden](^curse_of_strahd/snow_maiden.jpg) ([stats](https://5e.tools/bestiary.html#snow%20maiden_cos))
+
+### Ancient Ruins
+
+* [Yaedrag Ruins](^curse_of_strahd/yaedrag_ruins.jpg)
+* [Frozen Waterfall](^curse_of_strahd/frozen_waterfall.jpg)
+* [Behind the Frozen Waterfall](^curse_of_strahd/behind_the_frozen_waterfall.jpg)
+* [Icy Cliffs](^curse_of_strahd/icy_cliffs.jpg)
+* [Shoosuva](^curse_of_strahd/shoosuva.jpg) ([stats](https://5e.tools/bestiary.html#shoosuva_vgm))
+* [Hezrou](^curse_of_strahd/hezrou.jpeg) ([stats](https://5e.tools/bestiary.html#hezrou_mm))
+
+### Yaedrag
+
+* [Yaedrag](^curse_of_strahd/yaedrag.jpg)
+
 ### Other
 
 * [Danger](^curse_of_strahd/tsolenka_pass_1.jpg)
