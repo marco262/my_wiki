@@ -2,6 +2,14 @@
 <head>
     <title>{{title}} - Private 5e Wiki</title>
     <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2XK16KVEW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-V2XK16KVEW');
+    </script>
 </head>
 <body>
 <div id="content">
