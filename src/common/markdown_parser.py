@@ -105,11 +105,16 @@ class MarkdownParser:
                 rows = content.split("\n")
                 index = 0
                 while index < len(rows):
-                    arg = rows[index]
+                    arg = rows[index].strip()
+                    print(repr(arg))
+                    # Skip blank lines
+                    if not arg:
+                        index += 1
+                        continue
                     try:
                         k, v = arg.split("=", 1)
                     except ValueError:
-                        raise ValueError("Can't split line: " + arg)
+                        raise ValueError("Can't split line: {!r}".format(arg))
                     k, v = k.strip(), v.strip()
                     if k == "file":
                         toml_dict = toml.load(os.path.join("data", v))

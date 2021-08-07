@@ -22,7 +22,6 @@
 
 ### Abandoned Campsite
 
-* [Snowy Pass](^curse_of_strahd/tsolenka_pass_3.jpg)
 * [Abandoned Campsite](^curse_of_strahd/abandoned_campsite.jpg)
 * [Severed Hand](^curse_of_strahd/severed_hand.jpg)
 
@@ -51,6 +50,12 @@
 ### Yaedrag
 
 * [Yaedrag](^curse_of_strahd/yaedrag.jpg)
+* [Stigr](^curse_of_strahd/stigr.jpg), chieftain of Yaedrag, father of Kaldur
+* [Elder Ormir]()
+
+### Shoosuva's Canyon
+
+* [Snowy Pass](^curse_of_strahd/tsolenka_pass_3.jpg)
 
 ### Other
 

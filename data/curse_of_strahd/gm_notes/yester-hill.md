@@ -15,8 +15,9 @@
 * [Kavan's Shrine](^curse_of_strahd/kavans_shrine.jpg)
 * [Kavan](^curse_of_strahd/kavan.jpg), dead barbarian chieftainno
 * [Svarog, Druid Elder](^curse_of_strahd/svarog.png) ([stats](Svarog, Druid Elder))
-* [Strahd astride Beucephalus](^curse_of_strahd/strahd_5.jpg)
-* [Anastraya](^curse_of_strahd/anastraya.jpg)
+* [Strahd astride Bucephalus](^curse_of_strahd/strahd_5.jpg)
+* [Bucephalus](^curse_of_strahd/bucephalus.jpg)
+* [Anastrasya](^curse_of_strahd/Anastrasya.jpg)
 * [Wintersplinter](^curse_of_strahd/wintersplinter.jpg)
 * Gulthias Tree [1](^curse_of_strahd/gulthias_tree.jpg), [2](^curse_of_strahd/gulthias_tree_2.jpg), [awake](^curse_of_strahd/gulthias_tree_3.jpg)
 
