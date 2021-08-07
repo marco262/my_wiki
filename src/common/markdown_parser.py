@@ -106,7 +106,6 @@ class MarkdownParser:
                 index = 0
                 while index < len(rows):
                     arg = rows[index].strip()
-                    print(repr(arg))
                     # Skip blank lines
                     if not arg:
                         index += 1

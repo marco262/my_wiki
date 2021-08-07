@@ -6,7 +6,7 @@ name = Anastrasya Karelova
 size = Medium
 type = humanoid
 alignment = neutral evil
-armor_class = 15 (natural armor)
+armor_class = 17 (natural armor, shield)
 hit_points = 105 (14d8 + 42)
 speed = 30 ft.
 strength = 16
@@ -20,12 +20,12 @@ skills = Deception +7, Persuasion +4, Perception +3, Stealth +6
 damage_resistances = necrotic; bludgeoning, piercing, and slashing from nonmagical weapons
 senses = darkvision 60ft., passive Perception 13
 languages = the languages she knew in life
-challenge = 5 (1 ,800 XP)
+challenge = 5 (1,800 XP)
 special_abilities = !!!
-***Shapechanger.*** If Anastrasya isn't in sunlight or running water, she can use her action to Polymorph into a Tiny bat or a Medium cloud of mist, or back into her true form.
-While in bat form, Anastrasya can't speak, her walking speed is 5 feet, and she has a flying speed of 30 feet. Her Statistics, other than her size and speed, are unchanged. Anything she is wearing transforms with her, but nothing she is carrying does. She reverts to her true form if she dies.
+***Shapechanger.*** If Anastrasya isn't in sunlight or running water, she can use her action to polymorph into a Tiny bat or a Medium cloud of mist, or back into her true form.
+While in bat form, Anastrasya can't speak, her walking speed is 5 feet, and she has a flying speed of 30 feet. Her statistics, other than her size and speed, are unchanged. Anything she is wearing transforms with her, but nothing she is carrying does. She reverts to her true form if she dies.
 
-While in mist form, Anastrasya can't take any Actions, speak, or manipulate Objects. She is weightless, has a flying speed of 20 feet, can hover, and can enter a Hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and she can't pass through water. She has advantage on Strength, Dexterity, and Constitution Saving Throws, and she is immune to all nonmagical damage, except the damage she takes from sunlight.
+While in mist form, Anastrasya can't take any actions, speak, or manipulate objects. She is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and she can't pass through water. She has advantage on Strength, Dexterity, and Constitution saving throws, and she is immune to all nonmagical damage, except the damage she takes from sunlight.
 
 ***Regeneration.*** Anastrasya regains 10 hit points at the start of her turn if she has at least 1 hit point and isn't in sunlight or running water. If Anastrasya takes radiant damage or damage from holy water, this trait doesn't function at the start of Anastrasya's next turn.
 
@@ -50,7 +50,7 @@ actions = !!!
 
 Each time Anastrasya or Anastrasya's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Anastrasya is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.
 
-***Children of the Night (1/Day).*** Anastrasya magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, Anastrasya can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of Anastrasya and obeying her spoken commands. The beasts remain for 1 hour, until Anastrasya dies, or until Anastrasya dismisses them as a bonus action.
+***Children of the Night (1/Day).*** Anastrasya magically calls 2d4 swarms of [bats](https://5e.tools/bestiary.html#swarm%20of%20bats_mm) or [rats](https://5e.tools/bestiary.html#swarm%20of%20rats_mm), provided that the sun isn't up. While outdoors, Anastrasya can call 3d6 [wolves](/dnd/monster/Wolf) instead. The called creatures arrive in 1d4 rounds, acting as allies of Anastrasya and obeying her spoken commands. The beasts remain for 1 hour, until Anastrasya dies, or until Anastrasya dismisses them as a bonus action.
 !!!
 
 bonus_actions = !!!

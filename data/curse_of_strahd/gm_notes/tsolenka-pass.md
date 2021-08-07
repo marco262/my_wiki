@@ -50,8 +50,12 @@
 ### Yaedrag
 
 * [Yaedrag](^curse_of_strahd/yaedrag.jpg)
-* [Stigr](^curse_of_strahd/stigr.jpg), chieftain of Yaedrag, father of Kaldur
-* [Elder Ormir]()
+* [Stigr](^curse_of_strahd/stigr.png), chieftain of Yaedrag, father of Kaldur
+* [Elder Ormir](^curse_of_strahd/elder_ormir.jpg), elder seer of Yaedrag
+  * Knows that the Mountain Fane's shrine is protected by minions of Strahd, and a great sacrifice will be required to cleanse it
+* [Seeker Statue](^curse_of_strahd/eye_statue.jpg)
+* [Huntress Statue](^curse_of_strahd/wolf_statue.jpg)
+* [Weaver Statue](^curse_of_strahd/tree_statue.jpg)
 
 ### Shoosuva's Canyon
 

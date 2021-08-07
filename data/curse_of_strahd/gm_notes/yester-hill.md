@@ -13,11 +13,11 @@
 
 * [Yester Hill](^curse_of_strahd/yester_hill.mp4)
 * [Kavan's Shrine](^curse_of_strahd/kavans_shrine.jpg)
-* [Kavan](^curse_of_strahd/kavan.jpg), dead barbarian chieftainno
+* [Kavan](^curse_of_strahd/kavan.jpg), dead barbarian chieftain
 * [Svarog, Druid Elder](^curse_of_strahd/svarog.png) ([stats](Svarog, Druid Elder))
 * [Strahd astride Bucephalus](^curse_of_strahd/strahd_5.jpg)
-* [Bucephalus](^curse_of_strahd/bucephalus.jpg)
-* [Anastrasya](^curse_of_strahd/Anastrasya.jpg)
+* [Bucephalus](^curse_of_strahd/bucephalus.jpg) ([stats](https://5e.tools/bestiary.html#nightmare_mm))
+* [Anastrasya Karelova](^curse_of_strahd/Anastrasya.jpg) ([stats](Anastrasya Karelova))
 * [Wintersplinter](^curse_of_strahd/wintersplinter.jpg)
 * Gulthias Tree [1](^curse_of_strahd/gulthias_tree.jpg), [2](^curse_of_strahd/gulthias_tree_2.jpg), [awake](^curse_of_strahd/gulthias_tree_3.jpg)
 
