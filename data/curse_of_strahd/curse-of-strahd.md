@@ -42,18 +42,18 @@ Have fun!
 
 [[/accordion]]
 
-# PCs
-
-* Ethel "Nails" Carpenter
-* Adalbert "Orin" Teppichverkaufer
-* Marblepaw ([in booties](^curse_of_strahd/marblepaw_booties.jpg))
-
 # Resources
 
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 * [Tarokka Table](tarokka)
 * [Map of Barovia](/static/img/visual_aids/curse_of_strahd/players_map.png) (from Kolyan's personal files)
+
+# PCs
+
+* Ethel "Nails" Carpenter
+* Adalbert "Orin" Teppichverkaufer
+* Marblepaw ([in booties](^curse_of_strahd/marblepaw_booties.jpg))
 
 # Friendly NPCs
 
