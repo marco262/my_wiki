@@ -42,6 +42,12 @@ Have fun!
 
 [[/accordion]]
 
+# PCs
+
+* Ethel "Nails" Carpenter
+* Adalbert "Orin" Teppichverkaufer
+* Marblepaw ([in booties](^curse_of_strahd/marblepaw_booties.jpg))
+
 # Resources
 
 * [Visual Aid](/visual_aid)
@@ -233,6 +239,8 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
 [GM Notes](/curse_of_strahd/gm_notes/GM Notes)
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import { init_accordions } from "/js/common/utils.js";
     init_accordions();
+    import { init_links } from "/js/common/visual_aid_backend.js";
+    init_links();
 </script>
