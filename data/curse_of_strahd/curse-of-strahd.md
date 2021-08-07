@@ -51,6 +51,7 @@ Have fun!
 
 # PCs
 
+* [Strahd Squad!](^curse_of_strahd/Strahd_Squad.png)
 * Ethel "Nails" Carpenter
 * Adalbert "Orin" Teppichverkaufer
 * Marblepaw ([in booties](^curse_of_strahd/marblepaw_booties.jpg))
