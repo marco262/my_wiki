@@ -60,6 +60,7 @@
 ### Shoosuva's Canyon
 
 * [Snowy Pass](^curse_of_strahd/tsolenka_pass_3.jpg)
+* Heartseeker, a +2 shortbow with the [Nine Lives Stealer](/dnd/equipment/magic-item/nine-lives-stealer) property, is in the Shoosuva's cave instead of an axe
 
 ### Other
 
