@@ -94,8 +94,6 @@ You start with the following equipment, in addition to the equipment granted by 
 
 ## Druidic
 
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
-
 [[div class="phb-sidebar"]]
 
 **Druids and the Gods**
@@ -107,6 +105,8 @@ In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usua
 The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
 
 [[/div]]
+
+You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
 
 ## Spellcasting
 
@@ -142,6 +142,14 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 You can use a [[[general:Equipment#adventuring-gear|druidic focus]]] as a spellcasting focus for your druid spells.
 
 ## Wild Shape
+
+[[div class="errata"]]
+
+**Editor's Note**
+
+In my games, a druid can only magically assume the shape of a beast that they have **encountered** before. This means physically interacting with the beast, whether by fighting it, playing with it, living with it, etc. The beast must have been alive during this encounter. I may require a little extra interaction for the druid to get a better feel for the beast's physiology, behavior, and abilities, but nothing more than could reasonably expected for a single encounter.
+
+[[/div]]
 
 Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
 
