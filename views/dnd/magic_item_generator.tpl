@@ -20,7 +20,9 @@
 <input type="button" value="Generate" id="generate_button" />
 </p>
 
-<div id="generator_results"><i>Magic items will appear here</i></div>
+<div id="generator_results">
+    <p><i>Magic items will appear here</i></p>
+</div>
 
 <script type="module">
     import {generate} from "/js/dnd/magic_item_generator.js";

@@ -56,6 +56,7 @@
             <a href="/dnd/general/equipment#trinkets">Trinkets</a>
             <hr>
             <a href="/dnd/equipment/magic_item_filter/">Magic Item Filter</a>
+            <a href="/dnd/equipment/magic_item_generator/">Magic Item Generator</a>
         </div>
     </div>
     <div class="dropdown">

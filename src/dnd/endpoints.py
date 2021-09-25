@@ -113,6 +113,7 @@ def load_wsgi_endpoints(app: Bottle):
             "include_search_box": True,
         }
 
+    # Intended for use as a browser bookmark for quickly searching for any specific page
     @app.route("/page_search/<search_term>")
     def page_search_with_results(search_term):
         t = time()

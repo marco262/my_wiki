@@ -1,7 +1,5 @@
 % from data.dnd.enums import races, classes, spell_classes
 
-[Site Search](/dnd/site_search)<br>
-
 [[div id="index-container"]]
 
 [[div class="index-column"]]
@@ -79,7 +77,10 @@
 * [[[general:equipment#expenses|Expenses]]]
 * [[[general:equipment#trinkets|Trinkets]]]
 
-[Magic Items Filter](/dnd/equipment/magic_item_filter/)
+## Magic Items
+
+* [Magic Items Filter](/dnd/equipment/magic_item_filter/)
+* [Magic Item Generator](/dnd/equipment/magic_item_generator/)
 
 [[/div]]
 
@@ -113,3 +114,5 @@
 [[/div]]
 
 [[/div]]
+
+[Site Search](/dnd/site_search)
