@@ -21,5 +21,7 @@
   * [Interior](^curse_of_strahd/ulrich_mansion_interior.jpg)
   * [Lazlo Ulrich](^curse_of_strahd/lazlo_ulrich.jpg)
 * [Baba Lysaga's Hut](^curse_of_strahd/baba_lysagas_hut.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga's%20creeping%20hut_cos))
+  * [Baba Lysaga's Hut (closeup)](^curse_of_strahd/baba_lysagas_hut_closeup.jpg)
   * [Baba Lysaga](^curse_of_strahd/baba_lysaga.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga_cos))
+  * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull.jpg)
   * [Scarecrow](^curse_of_strahd/scarecrow.jpg) ([stats](https://5e.tools/bestiary.html#scarecrow_mm))
