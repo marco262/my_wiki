@@ -1,4 +1,11 @@
+<script type="module">
+    import { init_links } from "/js/common/visual_aid_backend.js";
+    init_links();
+</script>
+
 ## Party
+
+[Strahd Squad!](^curse_of_strahd/Strahd_Squad.png)
 
 ### Ethel
 
@@ -26,6 +33,8 @@ Notes
 * All food he eats now tastes like hot borscht (cursed Spoon item from Dragomir)
 
 ### Marblepaw
+
+[Marblepaw in booties](^curse_of_strahd/marblepaw_booties.jpg)
 
 * Armor Class: 14
 * Passive Per: 16
@@ -61,19 +70,15 @@ Notes
 
 ### Player Plans
 
-* Ethel is arrested and taken to the Baron's mansion on suspicion of being involved in the explosion
+* Ireena is the ritualist
+* Ireena has finished the Spring part of the ritual, but the skill challenge for the Spring part has not happened yet
 
 ### Notes for me
 
+* After the ritual, have Anastraya show up on Beaucephalus, and be appropriately fiery and pissed on Strahd's behalf
 * Introduce Viktor somehow? Allude to his magic use?
-* Finish Werewolf Den/Argynvostholt maps
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
 * After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
 
 #### Vallaki
-
-<script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
-    init_links();
-</script>

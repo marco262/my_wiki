@@ -51,16 +51,16 @@ Have fun!
 
 # PCs
 
-* [Strahd Squad!](^curse_of_strahd/Strahd_Squad.png)
+* [Strahd Squad!](/static/img/visual_aids/curse_of_strahd/Strahd_Squad.png)
 * Ethel "Nails" Carpenter
 * Adalbert "Orin" Teppichverkaufer
-* Marblepaw ([in booties](^curse_of_strahd/marblepaw_booties.jpg))
+* Marblepaw ([in booties](/static/img/visual_aids/curse_of_strahd/marblepaw_booties.jpg))
 
 # Friendly NPCs
 
 * [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg)
 * [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg)
-* [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg)
+* [Rudolph van Richten](/static/img/visual_aids/curse_of_strahd/rudolph_van_richten.jpg)
 
 ## Village of Barovia
 
@@ -125,7 +125,7 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
 
 ***Chained to the Grave.*** Every vampire remains bound to its coffin, crypt, or grave site, where it must rest by day. If a vampire didn't receive a formal burial, it must lie beneath a foot of earth at the place of its transition to undeath. A vampire can move its place of burial by transporting its coffin or a significant amount of grave dirt to another location. Some vampires set up multiple resting places this way.
 
-***Undead Nature.*** Neither a vampire nor a vampire spawn requires air.
+***Undead Nature.*** Neither a vampire nor a vampire spawn requires air. (Vampires have the undead type)
 
 ### Further Notes
 
