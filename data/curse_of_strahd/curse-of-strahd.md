@@ -28,7 +28,7 @@ If, after reading this far, you think Curse of Strahd may be the campaign for yo
 * Play smart. Many of the enemies in this adventure cannot be overcome easily in direct combat. Use guile, preparation, subterfuge, diplomacy, and research to achieve your goals.
 * Spend time engaging with the other characters, even when not discussing plans, tactics, or objectives. Learn about their fears, their perspectives, and their experiences. Build meaningful relationships, not apathetic battle teams.
 * Outside goals are hard (if not impossible) to achieve in Barovia. It's worth working with your DM to create a character driven to Barovia for some purpose that can only be fulfilled within its borders. Make sure to speak with your DM about how to shape your backstory into something that can be relevant in the world of Barovia.
-* Try to remove yourself from the “XP and loot” model of progression in traditional campaigns and video games, and instead try to enjoy the narrative progression of winning allies, fulfilling objectives, and advancing the story of the campaign and player characters.
+* Try to remove yourself from the "XP and loot" model of progression in traditional campaigns and video games, and instead try to enjoy the narrative progression of winning allies, fulfilling objectives, and advancing the story of the campaign and player characters.
 * Don't try to play an apathetic or evil player character unless you are 100% sure that you can pull it off while being a supportive team player and engaging the story like a normal PC. Seriously. You'll make this adventure a lot more difficult and unenjoyable for your DM, and you'll be cheating yourself out of a fun experience. You don't need to play a knight in shining armor, but you definitely shouldn't play a villain.
 * Curse of Strahd, as-written, is full of disturbing and graphic content. If you are potentially triggered by elements of child abuse, murder, stalking, gaslighting, racism, torture, mind control, cannibalism, situations paralleling sexual assault, child death, references to stillbirth/miscarriage, abuse of those with disabilities or mental illness, animal cruelty, body horror, child abandonment, portrayals of alcoholism or drug abuse, potential incest, implied necrophilia, or suicide, speak with your DM about potentially working around or entirely avoiding these elements.
 
@@ -157,6 +157,39 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
   
 * A vampire spawn is vicious and aggressive, driven mostly by an instinctual need to feed. It will often use its ability to climb on walls and ceilings to ambush its victim, latch on, and try to drain it dry before it can fight back.
 * A vampire spawn will attack with its claws. A vampire spawn's claws are especially adept at snagging targets and pulling them in, at which point it will attempt to bite its target and drain its blood.
+
+# The Rozana (aka the Ladies Three)
+
+Before Strahd von Zarovich - called the "Shadowsworn" by the Mountain Folk - or his predecessors, the Delmoreans, conquered Barovia, it was inhabited by a civilization that called itself the First Folk. The First Folk worshipped the Rozana, or Ladies Three - a trio of ancient goddesses that ruled over the land - and made sacrifices in their name, seeking omens and fortune in the entrails of beasts and mortals alike. 
+
+The Rozana wielded powerful magic, bringing good fortune to those that followed their ways. Only their most devout priests knew the Ladies' names; to all others, they were known as the Weaver, the Huntress, and the Seeker.
+
+For as long as they ruled the land, known in those days as Cerrunos, the Ladies acted as its sovereigns, making their will known through auguries and omens. Through intermediaries, they wielded powerful magic, drawing power from water, earth, and air. It was said that the Ladies could hear everything that happened in their woods, predict the future, twist the threads of human lives, and bring blessings as well as curses.
+
+When the men of Delmor first invaded Cerrunos, the druids and berserkers fought bravely in defense of their ancient land. Even so, the technology of iron and steel drove the native warriors back to the mountains and wild places, where they hid from the wrath of the Delmoreans. Worship of the Ladies continued, but with fewer followers and more doubt than before. Many amongst the tribes believed their failure to drive out the invaders to be a punishment sent by the Ladies for their failures and flaws; in their oral histories, the First Folk's failure to serve the Ladies adequately became known as the Second Betrayal.
+
+Two hundred years later, a haughty warlord named Strahd von Zarovich conquered the fledgling kingdom of Delmor. Fearful, yet optimistic that Zarovich could yet be their savior, the druids of the forest approached him soon after his coronation. They offered him forbidden secrets - hidden knowledge that would bind his power to the land, if only he would promise them patronage and safety. Strahd, his interest piqued, accepted.
+
+Thrice did the druids of old Cerrunos guide Strahd von Zarovich, mortal that he was, to the Fanes of the Ladies Three. As he stood in these sanctums and felt their primal, ancient magic, Strahd became determined that these, too, must be conquered. In the Swamp Fane, temple of the reclusive Weaver; in the Forest Fane, home of the wise Huntress; and in the Mountain Fane, home of the mystic Seeker, Strahd re-consecrated each to his own image, sealing rites of blood and powerful magic that bound his soul to the magic of the Ladies - and so became the Land.
+
+The druids, desperate for a protector, were silent in the face of this profane desecration; the warrior tribes, however, saw it as blasphemy, and separated from the company of the druids in disgust, disappearing into the mountains. This became known as the Third Betrayal, and split the First Folk into two tribes: the Forest Folk, ever loyal to Strahd, and the Mountain Folk, opposed to his rule but unable to oppose him directly, hiding away in Yaedrag and biding their time. 
+
+Today, the Ladies and their rituals are lost to time and mist, the power of the Rozana bound by Strahd's desecrations. Elder Ormir and those that preceded him believe from ancient prophecies that the Fanes can still be cleansed of Strahd's taint, restoring the Ladies to power and greatly weakening Zarovich's defenses and his connection to the land. However, the locations of these Fanes were once guarded fiercely by the druidic tribes, and the Mountain Folk only know the location of the Mountain Fane, which lies atop Yester Hill.
+
+## The Seeker
+
+ * Connected to the Mountain Fane
+ * Holy symbol is an Eye
+
+## The Weaver
+
+ * Connected to the Swamp Fane
+ * Holy symbol is a Tree
+
+## The Huntress
+
+ * Connected to the Forest Fane
+ * Holy symbol is a Wolf
 
 [[accordion Meanwhile in Waterdeep...]]
 
