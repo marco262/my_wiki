@@ -43,14 +43,14 @@ speed = 30 ft.
 strength = 16
 dexterity = 12
 constitution = 15
-intelligence = 8
+intelligence = 5
 wisdom = 14
 charisma = 8
 skills = Athletics +3 + PB, Perception +2 + PB
 senses = passive Perception 12 + PB
 languages = Draconic
 proficiency_bonus = equals your bonus
-special_abilities = !***Rider's Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+special_abilities = !***Rider's Bond.*** You can add your proficiency bonus to any ability check or saving throw that your drake companion makes.
 actions = !**Bite.** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 1d6 + 3 + PB piercing damage.
 [[/include]]
 
@@ -82,7 +82,7 @@ Your drake acts as a Controlled mount, meaning it acts on your turn and can only
 
 **Nightfury**
 
-The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15 and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
+The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
 
 [[/div]]
 
