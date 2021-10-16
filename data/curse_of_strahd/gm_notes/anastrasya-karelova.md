@@ -19,7 +19,7 @@ saves = Dex +6, Wis +3
 skills = Deception +7, Persuasion +4, Perception +3, Stealth +6
 damage_resistances = necrotic; bludgeoning, piercing, and slashing from nonmagical weapons
 senses = darkvision 60ft., passive Perception 13
-languages = the languages she knew in life
+languages = Common
 challenge = 5 (1,800 XP)
 special_abilities = !!!
 ***Shapechanger.*** If Anastrasya isn't in sunlight or running water, she can use her action to polymorph into a Tiny bat or a Medium cloud of mist, or back into her true form.
