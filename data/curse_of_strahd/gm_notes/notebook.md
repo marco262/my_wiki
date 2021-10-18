@@ -80,7 +80,7 @@ Notes
   * Dan saying, "Get bigger hands!"
   * Arin yelling, "Don't you fucking jump at me, you piece of shit! I'll fucking stab your parents!"
   * Drunk Star Trek: Pew pew pew pew gun noises
-* After the ritual, have Anastraya show up on Beaucephalus, and be appropriately fiery and pissed on Strahd's behalf
+* Pull my python-markdown2 library on the media PC
 * Introduce Viktor somehow? Allude to his magic use?
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
