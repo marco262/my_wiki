@@ -74,6 +74,12 @@ Notes
 
 ### Notes for me
 
+* Add to Soundboard:
+  * Dan singing "Ra-da-da ba da da"
+  * Dan saying "Sonic Heroes NOOOOOOOO!"
+  * Dan saying, "Get bigger hands!"
+  * Arin yelling, "Don't you fucking jump at me, you piece of shit! I'll fucking stab your parents!"
+  * Drunk Star Trek: Pew pew pew pew gun noises
 * After the ritual, have Anastraya show up on Beaucephalus, and be appropriately fiery and pissed on Strahd's behalf
 * Introduce Viktor somehow? Allude to his magic use?
 * Read up on Amber Temple
