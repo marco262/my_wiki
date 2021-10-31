@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/static/css/player_soundboard.css">
+
 || All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||
 || Music || [Play]($play|music|none) || [Pause]($pause|music|none) || [Stop]($stop|music|none) ||
 || Ambience || [Play]($play|ambience|none) || [Pause]($pause|ambience|none) || [Stop]($stop|ambience|none) ||
@@ -35,7 +37,7 @@
 ## Effects
 
 * [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
-* [Rick Roll]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0) (youtube)
+* [Rick Roll (youtube)]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
 
 ### Sound FX
 
@@ -50,17 +52,18 @@
 * [Roblox Oof]($load|effect|roblox-death-sound_1.mp3)
 * [Sad Trombone]($load|effect|sadtrombone.mp3)
 * [Slide Whistle]($load|effect|slidewhistle.mp3)
+* [Wilhelm Scream]($load|effect|wilhelmscream.mp3)
 * [Yee Haw]($load|effect|yeehaw.mp3)
 * [YEEEEEEAAAAAAHHHHH!]($load|effect|csi.mp3)
 
 ### Silly
 
-* [Buddy Holly Slaps The Seal]($load|youtube|https://www.youtube.com/watch?v=KduJS8y48jc) (youtube)
+* [Buddy Holly Slaps The Seal (youtube)]($load|youtube|https://www.youtube.com/watch?v=KduJS8y48jc)
 * [Damn It Feels Good To Be A Gangsta]($load|effect|damn-it-feels-good-to-be-a-gangsta.mp3)
 * [Don't Be Suspicious]($load|effect|Dont be suspicious.mp3)
 * [Fuck This Shit I'm Out]($load|effect|fuck-this-shit-im-out.mp3)
 * [I Just Did A Bad Thing]($load|effect|i just did a bad thing.mp3)
-* [Sounds from behind Brendaniel's bedroom door]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s) (youtube)
+* [Sounds from behind Brendaniel's bedroom door (youtube)]($load|youtube|https://www.youtube.com/watch?v=KLtLbiQBe8s)
 * [Trololol]($load|effect|trololol.mp3)
 * [U Can't Touch This]($load|effect|mc-hammer-u-cant-touch-this.mp3)
 * [Wiggle Wiggle Wiggle]($load|effect|wiggle_wiggle_wiggle.mp3)

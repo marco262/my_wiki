@@ -128,7 +128,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/player soundboard")
     def player_soundboard():
-        return md_page("Player Soundboard", "common")
+        return md_page("Player Soundboard", "common", build_toc=False)
 
 
 def visual_aid_auth_check(username, password):
