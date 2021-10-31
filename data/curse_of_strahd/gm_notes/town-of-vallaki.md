@@ -5,19 +5,22 @@
     init_links();
 </script>
 
+
+# References
+
+* [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vallaki.jpg)
+* [Shops of Barovia](https://www.gmbinder.com/share/-LTK3X6AKprD0KM1RLYC)
+* [Town of Vallaki - 5etools](https://5e.tools/adventure.html#cos,6)
+* [Town of Vallaki - Curse of Strahd Reloaded](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#)
+
+# Places
+
 * [Approaching](^curse_of_strahd/vallaki_1.jpg), ([video](^curse_of_strahd/vallaki.mp4))
 * [Gates of Vallaki](^curse_of_strahd/vallaki_2.jpg) ([at night](^curse_of_strahd/vallaki_3.jpg))
 * [Pleasant](^curse_of_strahd/vallaki_9.png)
 * [Raining](^curse_of_strahd/vallaki_6.jpg)
 * [Guard and rundown houses](^curse_of_strahd/vallaki_7.jpg)
 * [At sunset](^curse_of_strahd/vallaki_8.png)
- 
-# Places
-
-[DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vallaki.jpg)
-
-[Shops of Barovia](https://www.gmbinder.com/share/-LTK3X6AKprD0KM1RLYC)
-
 * N1. [St. Andral's Church](^curse_of_strahd/st_andrals_church.mp4)
   * [Interior](^curse_of_strahd/st_andrals_church_interior.jpg)
   * [Father Lucian Petrovich](^curse_of_strahd/father_lucian_petrovich.png) ([stats](https://5e.tools/bestiary.html#priest_mm))
@@ -25,7 +28,6 @@
   * [Willemina Rikalova](^curse_of_strahd/willemina_rikalova.jpg), parishoner, worried for her husband who has been captured by the Burgomaster
   * [Map](https://old.reddit.com/r/dungeondraft/comments/grnmuy/the_church_of_saint_andral_23x34_ppi_100/), if needed
   * [Orphanage of St. Andral](^curse_of_strahd/st_andrals_orphanage.jpg)
-      * [Claudia Belasco](^curse_of_strahd/claudia_belasco.jpg), matron of the orphanage
 * N2. [Blue Water Inn](^curse_of_strahd/blue_water_inn.mp4)
   * [Interior](^curse_of_strahd/blue_water_inn_interior.jpg)
   * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Blue Water Inn.jpg)
@@ -99,6 +101,8 @@ When Lord Jared says goodbye, his tiny body turns into honey and flows over the 
 ## Cursed Orphanage
 
 * [Ludmilla Vilisevic](^curse_of_strahd/ludmilla_vilisevic.jpg)
+* [Claudia Belasco](^curse_of_strahd/claudia_belasco.jpg), matron of the orphanage
+* [Felix](^curse_of_strahd/felix.jpg), an orphan at St. Andral's, being impersonated by a [maurezhi](^curse_of_strahd/maurezhi.jpg) ([stats](https://5e.tools/bestiary.html#maurezhi_mtf))
 
 ## Lady Wachter's Wish
 
