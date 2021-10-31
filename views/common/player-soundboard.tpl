@@ -26,6 +26,11 @@
 * [Goofy Scream]($load|effect|goofy_yell.mp3)
 * [Wilhelm Scream]($load|effect|wilhelmscream.mp3)
 * [♫ Who's That Pokémon? ♫]($load|effect|whos_that_pokemon.mp3)
+* [♫ Arin Loves Penis ♫]($load|effect|Game Grumps - Arin Loves Penis Sbassbear Remix.mp3)
+* [♫ Arin Loves Penis (short) ♫]($load|effect|arin_loves_penis_short.mp3)
+* [♫ Mmm, Whatcha Say? ♫]($load|effect|mmm_whatcha_say.mp3)
+* [Talkin' Smachck]($load|effect|talkin_smachck.mp3)
+* [♫ Fuck Your Dad ♫]($load|effect|fuck_your_dad.mp3)
 
 ## Effects
 
