@@ -44,7 +44,7 @@
 ## Effects
 
 * [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
-* [Rick Roll (youtube)]($load|youtube|https://www.youtube.com/watch?v=oHg5SJYRHA0)
+* [Rick Roll]($load|effect|Rick Astley - Never Gonna Give You Up.mp3)
 
 ### Sound FX
 

@@ -25,3 +25,8 @@
   * [Baba Lysaga](^curse_of_strahd/baba_lysaga.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga_cos))
   * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull.jpg)
   * [Scarecrow](^curse_of_strahd/scarecrow.jpg) ([stats](https://5e.tools/bestiary.html#scarecrow_mm))
+
+## Marina's Visions
+
+* [Vasili von Holtz](^curse_of_strahd/vasili_von_holtz.jpg)
+* [Shuttle of the Weaver](^curse_of_strahd/shuttle_of_the_weaver.jpg)

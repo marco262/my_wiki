@@ -58,7 +58,6 @@ Notes
 ## General Notes
 
 * Get more battle/Vallaki/character theme music
-* Vasili von Holtz: <https://db4sgowjqfwig.cloudfront.net/images/5363887/Vasili_von_Holtz.jpg>
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
 * Have Strahd approach Orin to help him win over Ireena
