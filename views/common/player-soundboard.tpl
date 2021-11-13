@@ -17,22 +17,29 @@
 
 ## Requested
 
-* [♫ Doo Doo-Doo Doo Doo Doo Kill Your Parents ♫]($load|effect|kill_your_parents.mp3)
-* [♫ Sonic Heroes NOOOOOOOOO! ♫]($load|effect|sonic_heroes_nooooo.mp3)
-* [Get Bigger Hands!]($load|effect|get_bigger_hands.mp3)
-* [Don't Fucking Jump at Me, You Piece of Shit! I'll Fucking Stab Your Parents!]($load|effect|ill_fucking_stab_your_parents.mp3)
-* [Is He Cool? He's Not Cool! He's Not Cool!]($load|effect|game_grumps_is_he_cool_hes_not_cool.mp3)
 * [Star Drunk - Pew Pew Pew!]($load|effect|pew_pew_pew.mp3)
 * [♫ Science Adjacent with Evan and Katelyn, Yeah! ♫]($load|effect|science_adjacent.mp3)
 * [♫ Resin Time ♫]($load|effect|resin_time.mp3)
 * [Goofy Scream]($load|effect|goofy_yell.mp3)
 * [Wilhelm Scream]($load|effect|wilhelmscream.mp3)
 * [♫ Who's That Pokémon? ♫]($load|effect|whos_that_pokemon.mp3)
-* [♫ Arin Loves Penis ♫]($load|effect|Game Grumps - Arin Loves Penis Sbassbear Remix.mp3)
-* [♫ Arin Loves Penis (short) ♫]($load|effect|arin_loves_penis_short.mp3)
 * [♫ Mmm, Whatcha Say? ♫]($load|effect|mmm_whatcha_say.mp3)
 * [Talkin' Smachck]($load|effect|talkin_smachck.mp3)
-* [♫ Fuck Your Dad ♫]($load|effect|fuck_your_dad.mp3)
+
+### Game Grumps
+
+* [🎬 Last Time On Game Grumps]($load|effect|last_time_on_game_grumps.mp3)
+* [🦔 Sonic Heroes NOOOOOOOOO!]($load|effect|sonic_heroes_nooooo.mp3)
+* [💀 Doo Doo-Doo Doo Doo Doo Kill Your Parents]($load|effect|kill_your_parents.mp3)
+* [👐 Get Bigger Hands!]($load|effect|get_bigger_hands.mp3)
+* [🔪Don't Fucking Jump at Me, You Piece of Shit! I'll Fucking Stab Your Parents!]($load|effect|ill_fucking_stab_your_parents.mp3)
+* [😎Is He Cool? He's Not Cool! He's Not Cool!]($load|effect|game_grumps_is_he_cool_hes_not_cool.mp3)
+* [🍆 Arin Loves Penis]($load|effect|Game Grumps - Arin Loves Penis Sbassbear Remix.mp3)
+* [🍆 Arin Loves Penis (short)]($load|effect|arin_loves_penis_short.mp3)
+* [👨 Fuck Your Dad]($load|effect|fuck_your_dad.mp3)
+* [😡 KILL ME]($load|effect|kill_me.mp3)
+* [☕ Hot Pot of Coffee!]($load|effect|hot_pot_of_coffee.mp3)
+* [😢 Oh, That Didn't Help At All!]($load|effect|oh_that_didnt_help_at_all.mp3)
 
 ## Effects
 
