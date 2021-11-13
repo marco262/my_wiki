@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="/static/css/player_soundboard.css">
 
-|| All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||
-|| Music || [Play]($play|music|none) || [Pause]($pause|music|none) || [Stop]($stop|music|none) ||
-|| Ambience || [Play]($play|ambience|none) || [Pause]($pause|ambience|none) || [Stop]($stop|ambience|none) ||
-|| Effect || [Play]($play|effect|none) || [Pause]($pause|effect|none) || [Stop]($stop|effect|none) ||
-|| Youtube || [Play]($play|youtube|none) || [Pause]($pause|youtube|none) || [Stop]($stop|youtube|none) ||
+|| All || [▶]($play|all|none) || [⏸]($pause|all|none) || [⏹]($stop|all|none) ||
+|| Music || [▶]($play|music|none) || [⏸]($pause|music|none) || [⏹]($stop|music|none) ||
+|| Ambience || [▶]($play|ambience|none) || [⏸]($pause|ambience|none) || [⏹]($stop|ambience|none) ||
+|| Effect || [▶]($play|effect|none) || [⏸]($pause|effect|none) || [⏹]($stop|effect|none) ||
+|| Youtube || [▶]($play|youtube|none) || [⏸]($pause|youtube|none) || [⏹]($stop|youtube|none) ||
 
 <p><input type="text" id="custom_soundboard_url"></p>
 
