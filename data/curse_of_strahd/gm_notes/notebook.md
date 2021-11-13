@@ -45,6 +45,7 @@ Notes
 * [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble) with the [Healer](/dnd/general/Feats#Healer) feat)
 * [Esmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
 * [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg) ([stats](https://5e.tools/bestiary.html#rictavio_cos))
+* [Lord Jared](^lord_jared.jpg) / [Uncle David](^uncle_david.jpg)
 
 ## Journal
 
@@ -73,14 +74,10 @@ Notes
 
 ### Notes for me
 
+* Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
 * Add to Soundboard:
-  * Dan singing "Ra-da-da ba da da"
-  * Dan saying "Sonic Heroes NOOOOOOOO!"
-  * Dan saying, "Get bigger hands!"
-  * Arin yelling, "Don't you fucking jump at me, you piece of shit! I'll fucking stab your parents!"
-  * Drunk Star Trek: Pew pew pew pew gun noises
+  * Kill Bill Siren
 * Pull my python-markdown2 library on the media PC
-* Introduce Viktor somehow? Allude to his magic use?
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
 * After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
