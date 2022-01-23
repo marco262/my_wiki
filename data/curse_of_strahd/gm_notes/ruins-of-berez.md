@@ -7,7 +7,7 @@
 
 # Links
 
-* [5etools - Ruins of Berez](https://5e.tools/adventure.html#cos,10)
+* [5etools - Ruins of Berez](https://5e.tools/adventure.html#cos,11)
 * [Curse of Strahd: Reloaded - Ruins of Berez](https://docs.google.com/document/d/181PaAJTefUhlK-x9EAQDK1Yt70n9eZBXZU6kehKNfX8/view)
 * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Berez.jpg)
 
