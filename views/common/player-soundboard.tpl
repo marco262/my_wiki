@@ -55,7 +55,7 @@
 
 * [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
 * [Rick Roll]($load|effect|Rick Astley - Never Gonna Give You Up.mp3)
-* [Brody Quest (travel music)]($load|effect|Lemon Demon - BRODYQUEST.mp3)
+* [Brody Quest (travel music)]($load|effect|Lemon Demon - BRODYQUEST quieter.mp3)
 
 ### Sound FX
 
