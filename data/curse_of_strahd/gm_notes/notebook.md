@@ -76,11 +76,7 @@ Notes
 
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
 * Add to Soundboard:
-  * Brody Quest (travel music)
-  * Kill Bill Siren
-  * Mine is an evil laugh
   * Some sound from Jareth in Labyrinth
-  * Kuzco's Poison
 * Pull my python-markdown2 library on the media PC
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening

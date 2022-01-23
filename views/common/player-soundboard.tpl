@@ -24,7 +24,15 @@
 * [Wilhelm Scream]($load|effect|wilhelmscream.mp3)
 * [♫ Who's That Pokémon? ♫]($load|effect|whos_that_pokemon.mp3)
 * [♫ Mmm, Whatcha Say? ♫]($load|effect|mmm_whatcha_say.mp3)
-* [Talkin' Smachck]($load|effect|talkin_smachck.mp3)
+* [✋ Talkin' Smachck]($load|effect|talkin_smachck.mp3)
+* [🚨 Kill Bill Siren]($load|effect|Kill Bill Ironside Siren Sound.mp3)
+* [🇬🇧 I Might Have Made An Error]($load|effect|i_might_have_made_an_error.mp3)
+* [🎸 Here Come The Consequences!]($load|effect|here_come_the_consequences.mp3)
+* [😈 Mine Is An Evil Laugh]($load|effect|mine_is_an_evil_laugh.mp3)
+* [Curse Your Sudden But Inevitable Betrayal]($load|effect|curse_your_sudden_but_inevitable_betrayal.mp3)
+* [⚗️Kuzco's Poison]($load|effect|kuzcos_poison.mp3)
+* [🛑 I Thought Someone Was Gonna Stop Me]($load|effect|i_thought_someone_was_gonna_stop_me.mp3)
+* [😭 STOP YELLING AT ME]($load|effect|STOP_YELLING_AT_ME.mp3)
 
 ### Game Grumps
 
@@ -32,19 +40,22 @@
 * [🦔 Sonic Heroes NOOOOOOOOO!]($load|effect|sonic_heroes_nooooo.mp3)
 * [💀 Doo Doo-Doo Doo Doo Doo Kill Your Parents]($load|effect|kill_your_parents.mp3)
 * [👐 Get Bigger Hands!]($load|effect|get_bigger_hands.mp3)
-* [🔪Don't Fucking Jump at Me, You Piece of Shit! I'll Fucking Stab Your Parents!]($load|effect|ill_fucking_stab_your_parents.mp3)
-* [😎Is He Cool? He's Not Cool! He's Not Cool!]($load|effect|game_grumps_is_he_cool_hes_not_cool.mp3)
+* [🔪 Don't Fucking Jump at Me, You Piece of Shit! I'll Fucking Stab Your Parents!]($load|effect|ill_fucking_stab_your_parents.mp3)
+* [😎 Is He Cool? He's Not Cool! He's Not Cool!]($load|effect|game_grumps_is_he_cool_hes_not_cool.mp3)
 * [🍆 Arin Loves Penis]($load|effect|Game Grumps - Arin Loves Penis Sbassbear Remix.mp3)
 * [🍆 Arin Loves Penis (short)]($load|effect|arin_loves_penis_short.mp3)
 * [👨 Fuck Your Dad]($load|effect|fuck_your_dad.mp3)
 * [😡 KILL ME]($load|effect|kill_me.mp3)
 * [☕ Hot Pot of Coffee!]($load|effect|hot_pot_of_coffee.mp3)
 * [😢 Oh, That Didn't Help At All!]($load|effect|oh_that_didnt_help_at_all.mp3)
+* [💥 AWWWWWWwwwwww *explosion*]($load|effect|awwwwwwwww_bkewww.mp3)
+* [🌼 Granola Eating Hippie Bullshit]($load|effect|granola_eating_hippie_bullshit.mp3)
 
 ## Effects
 
 * [Sailor Moon Transformation]($load|effect|Sailor Moon Transformation.mp3)
 * [Rick Roll]($load|effect|Rick Astley - Never Gonna Give You Up.mp3)
+* [Brody Quest (travel music)]($load|effect|Lemon Demon - BRODYQUEST.mp3)
 
 ### Sound FX
 
