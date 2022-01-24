@@ -50,7 +50,7 @@ Enter another URL to set as Visual Aid here:
 * C. Svalich Woods [1](^curse_of_strahd/svalich_woods.mp4), [2](^curse_of_strahd/svalich_woods_2.jpg), [3](^curse_of_strahd/svalich_woods_3.jpg)
 * D. River Ivlis [1](^curse_of_strahd/river_ivlis_1.jpg), [2](^curse_of_strahd/river_ivlis_2.jpg)
 * E. [Village of Barovia](Village of Barovia)
-* F. River Ivlis Crossroads [1](^curse_of_strahd/river_ivlis_crossroads_1.jpg), [2](^curse_of_strahd/river_ivlis_crossroads_2.jpg), [3](^curse_of_strahd/river_ivlis_crossroads_3.jpg)
+* F. River Ivlis Crossroads [1](^curse_of_strahd/river_ivlis_crossroads_1.jpg), [2](^curse_of_strahd/river_ivlis_crossroads_2.jpg), [3](^curse_of_strahd/river_ivlis_crossroads_3.jpg), [video](^curse_of_strahd/River Ivlis Bridge.mp4)
   * A Vistani Caravan approaches [1](^curse_of_strahd/vistani_caravan_1.jpg), [2](^curse_of_strahd/vistani_caravan_2.jpg), [3](^curse_of_strahd/vistani_caravan_3.jpg)
 * G. Tser Pool Encampment [1](^curse_of_strahd/tser_pool_encampment_1.jpg), [2](^curse_of_strahd/tser_pool_encampment_2.jpg), [3](^curse_of_strahd/tser_pool_encampment_3.jpg)
   * [Vistani around the fire](^curse_of_strahd/vistani_around_the_fire.jpg)
