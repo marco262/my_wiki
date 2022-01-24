@@ -75,8 +75,22 @@ Notes
 ### Notes for me
 
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
+* Check Ireena's stats. Does she need to level up?
+* Add "sacrifices" to the list of the Rozana
+  * The Huntress’ altar must receive the sacrifice of a predator beast, its organs removed and sealed in stone jars. The Weaver must be provided an offering of fruits and berries, with a mixture of honey and goat’s milk smeared across its altar. Finally, the Seeker also requires blood - but it must be the lifeblood of a mortal, willingly given.
+* Add images to notes:
+  * https://i.ebayimg.com/images/g/VUQAAOSwzkVfQaTI/s-l300.jpg
+  * https://halcyonyarn.com/images_products_huge/69001000.jpg
+  * More pictures of the standing stones and carving
+* Figure out how the hell the part is supposed to get the spindle without killing Baba Lysaga
 * Add to Soundboard:
   * Some sound from Jareth in Labyrinth
+* Make quieter:
+* Make louder:
+  * Yee haw
+  * Roblox Oof
+  * Wilhelm Scream
+  * Don't Be Suspicious
 * Pull my python-markdown2 library on the media PC
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
