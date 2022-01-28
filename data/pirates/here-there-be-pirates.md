@@ -62,6 +62,15 @@
 * Koya and Rek got chased by Pirates into Roughwater
 * Azurhel was hauled (unconscious?) into Roughwater in a rubbish cart
 
+### Session 2 (2021-07-03)
+
+* Traveled to Everbrook
+* Robbed Itsa Gem, Tony Roamer's shop, taking 220 gp of gems
+* Avoided the guards
+* Visited Bertha and Tom's weapons shop
+* Visited the Doubletree Inn
+* Overheard thieves planning to rob Bertha and Tom, got them drunk
+
 # Resources
 
 * [World Map](/static/img/visual_aids/pirates/the_sunset_isles_2.jpg)

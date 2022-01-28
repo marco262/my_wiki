@@ -87,11 +87,6 @@ Go to Everbrook to make money/avenge Azurhel
 
 ### Before next session
 
-* Get visual aid images for
-    * Everbrook
-* Figure out what people Azurhel stole from and how much more money they have
-* Figure out who else can be stolen from in Everbrook
-* Create a grab bag of NPCs, at least 5
 * Add distance legend to the world map
 
 ### Later...
@@ -113,7 +108,7 @@ Go to Everbrook to make money/avenge Azurhel
 * String quests together (e.g. during goblin hunting, plant hook to another quest)
     * Hooks in some quests can be just partial hooks to later quests; need multiple hooks to get later quests
 * Drop connections in some places to history of raiding/connection to lieutenants
-* Come up with stories of the Dread Pirate Lord when he was a youngin that he can use or advice or parables
+* Come up with stories of the Dread Pirate Lord when he was a youngun that he can use or advice or parables
 
 # Resources
 
