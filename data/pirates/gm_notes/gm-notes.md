@@ -81,7 +81,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Player Plans
 
-Go to Everbrook to make money/avenge Azurhel
+Use the intel the other robbers had to rob Bertha and Tom
 
 ## TODO
 
