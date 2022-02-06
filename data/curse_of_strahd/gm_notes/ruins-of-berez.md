@@ -16,19 +16,25 @@
 * [Swamps/Mists/Approaching](^curse_of_strahd/swamp_of_berez.jpg)
 * [Ruins of Berez, from a distance](^curse_of_strahd/berez.mp4)
 * [Ruins of Berez](^curse_of_strahd/ruins_of_berez.jpg)
-* [Muriel Vinshaw](^curse_of_strahd/muriel_vinshaw.jpg)
-* [Ulrich Mansion](^curse_of_strahd/ulrich_mansion.jpg)
-  * [Interior](^curse_of_strahd/ulrich_mansion_interior.jpg)
-  * [Lazlo Ulrich](^curse_of_strahd/lazlo_ulrich.jpg)
-* [Baba Lysaga's Hut](^curse_of_strahd/baba_lysagas_hut.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga's%20creeping%20hut_cos))
+* U1. Abandoned Cottages
+* U2. [Ulrich Mansion](^curse_of_strahd/ulrich_mansion.jpg)
+* U3. [Baba Lysaga's Hut](^curse_of_strahd/baba_lysagas_hut.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga's%20creeping%20hut_cos))
   * [Baba Lysaga's Hut (closeup)](^curse_of_strahd/baba_lysagas_hut_closeup.jpg)
   * [Baba Lysaga](^curse_of_strahd/baba_lysaga.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga_cos))
   * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull.jpg)
   * [Scarecrow](^curse_of_strahd/scarecrow.jpg) ([stats](https://5e.tools/bestiary.html#scarecrow_mm))
+* U4. Churchyard
+* U5. [Marina's Monument](^curse_of_strahd/marinas_monument.jpg)
+* U6. [Standing Stones](^curse_of_strahd/swamp_fane_stones.jpg)
+  * [Muriel Vinshaw](^curse_of_strahd/muriel_vinshaw.jpg)
+  * [Interior](^curse_of_strahd/ulrich_mansion_interior.jpg)
+  * [Lazlo Ulrich](^curse_of_strahd/lazlo_ulrich.jpg)
+  * [Carving of the Weaver](^curse_of_strahd/carving_of_the_weaver.png)
+  * [Sanziene Flower](^curse_of_strahd/sanziene_flower.jpg)
+  * [Shuttle of the Weaver](^curse_of_strahd/shuttle_of_the_weaver.jpg)
+  * [Spindle of the Weaver](^curse_of_strahd/spindle_of_the_weaver.jpg)
 
 ## Ireena's Visions
-
-* [Marina's Monument](^curse_of_strahd/marinas_monument.jpg)
 
 ### Marina
 
@@ -56,10 +62,3 @@
 * [Lavinia Swilova](^curse_of_strahd/lavinia_swilova.jpg) ([stats](https://5e.tools/bestiary.html#commoner_mm))
 * [Isabella](^curse_of_strahd/isabella.jpg) ([stats](https://5e.tools/bestiary.html#acolyte_mm))
 
-## Swamp Fane
-
-* [Standing Stones](^curse_of_strahd/swamp_fane_stones.jpg)
-* [Carving of the Weaver](^curse_of_strahd/carving_of_the_weaver.png)
-* [Sanziene Flower](^curse_of_strahd/sanziene_flower.jpg)
-* [Shuttle of the Weaver](^curse_of_strahd/shuttle_of_the_weaver.jpg)
-* [Spindle of the Weaver](^curse_of_strahd/spindle_of_the_weaver.jpg)
