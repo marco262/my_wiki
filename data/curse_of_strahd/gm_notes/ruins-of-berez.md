@@ -29,4 +29,9 @@
 ## Marina's Visions
 
 * [Vasili von Holtz](^curse_of_strahd/vasili_von_holtz.jpg)
+
+## Swamp Fane
+
+* [Sanziene Flower](^curse_of_strahd/sanziene_flower.jpg)
 * [Shuttle of the Weaver](^curse_of_strahd/shuttle_of_the_weaver.jpg)
+* [Spindle of the Weaver](^curse_of_strahd/spindle_of_the_weaver.jpg)

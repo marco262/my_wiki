@@ -180,16 +180,19 @@ Today, the Ladies and their rituals are lost to time and mist, the power of the 
 
  * Connected to the Mountain Fane
  * Holy symbol is an Eye
+ * Traditional sacrifice: The lifeblood of a mortal, willingly given.
 
 ## The Weaver
 
  * Connected to the Swamp Fane
  * Holy symbol is a Tree
+ * Traditional sacrifice: An offering of fruits and berries, with a mixture of honey and goat's milk smeared across the altar.
 
 ## The Huntress
 
  * Connected to the Forest Fane
  * Holy symbol is a Wolf
+ * Traditional sacrifice: A predator beast, its organs removed and sealed in stone jars.
 
 [[accordion Meanwhile in Waterdeep...]]
 
