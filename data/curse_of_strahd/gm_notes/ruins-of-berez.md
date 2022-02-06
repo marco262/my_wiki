@@ -26,12 +26,40 @@
   * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull.jpg)
   * [Scarecrow](^curse_of_strahd/scarecrow.jpg) ([stats](https://5e.tools/bestiary.html#scarecrow_mm))
 
-## Marina's Visions
+## Ireena's Visions
 
-* [Vasili von Holtz](^curse_of_strahd/vasili_von_holtz.jpg)
+* [Marina's Monument](^curse_of_strahd/marinas_monument.jpg)
+
+### Marina
+
+* [Marina's Cottage](^curse_of_strahd/marinas_cottage.jpg)
+* [Marina](^curse_of_strahd/marina.jpg)
+* [Kelemen von Vollner](^curse_of_strahd/kelemen_von_vollner.jpg)
+* [Lazlo Ulrich](^curse_of_strahd/lazlo_ulrich.jpg) ([stats](https://5e.tools/bestiary.html#commoner_mm))
+* [Brother Grigori](^curse_of_strahd/brother_grigori.jpg) ([stats](https://5e.tools/bestiary.html#acolyte_mm))
+
+### Sorina
+
+* [Snowy Woods](^curse_of_strahd/snowy_woods.jpg)
+* [Sorina](^curse_of_strahd/sorina.jpg) ([stats](https://5e.tools/bestiary.html#scout_mm))
+* [Gorek](^curse_of_strahd/gorek.jpg) ([stats](https://5e.tools/bestiary.html#werewolf_mm))
+
+### Victoria
+
+* [Mountain Peak](^curse_of_strahd/mountain_peak.jpg)
+* [Victoria Voltanescu](^curse_of_strahd/victoria.jpg) ([stats](https://5e.tools/bestiary.html#mage_mm))
+
+### Isabella
+
+* [Burning Church](^curse_of_strahd/burning_church.jpg)
+* [Father Marek](^curse_of_strahd/father_marek.jpg) ([stats](https://5e.tools/bestiary.html#priest_mm))
+* [Lavinia Swilova](^curse_of_strahd/lavinia_swilova.jpg) ([stats](https://5e.tools/bestiary.html#commoner_mm))
+* [Isabella](^curse_of_strahd/isabella.jpg) ([stats](https://5e.tools/bestiary.html#acolyte_mm))
 
 ## Swamp Fane
 
+* [Standing Stones](^curse_of_strahd/swamp_fane_stones.jpg)
+* [Carving of the Weaver](^curse_of_strahd/carving_of_the_weaver.png)
 * [Sanziene Flower](^curse_of_strahd/sanziene_flower.jpg)
 * [Shuttle of the Weaver](^curse_of_strahd/shuttle_of_the_weaver.jpg)
 * [Spindle of the Weaver](^curse_of_strahd/spindle_of_the_weaver.jpg)

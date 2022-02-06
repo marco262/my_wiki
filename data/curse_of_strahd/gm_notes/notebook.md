@@ -75,11 +75,13 @@ Notes
 ### Notes for me
 
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
-* Add images to notes:
-  * https://i.ebayimg.com/images/g/VUQAAOSwzkVfQaTI/s-l300.jpg
-  * https://halcyonyarn.com/images_products_huge/69001000.jpg
-  * More pictures of the standing stones and carving
+* Add images/sounds to notes:
+  * More pictures of the standing stones
+  * Burning rooms and Isabella
+  * Sound of a burning building
+  * Bloody Wedding
 * Figure out how the hell the party is supposed to get the spindle without killing Baba Lysaga
+  * They'll have to be creative ¯\_(ツ)_/¯
 * Add to Soundboard:
   * Some sound from Jareth in Labyrinth
 * Make quieter:
