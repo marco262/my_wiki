@@ -80,6 +80,8 @@ Notes
   * Burning rooms and Isabella
   * Sound of a burning building
   * Bloody Wedding
+* Finish prepping Ireena's visions
+* Decide what benefits Ireena gets after it's all done
 * Figure out how the hell the party is supposed to get the spindle without killing Baba Lysaga
   * They'll have to be creative ¯\_(ツ)_/¯
 * Add to Soundboard:
