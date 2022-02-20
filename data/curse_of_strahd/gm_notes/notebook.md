@@ -76,21 +76,13 @@ Notes
 
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
 * Add images/sounds to notes:
-  * More pictures of the standing stones
-  * Burning rooms and Isabella
-  * Sound of a burning building
-  * Bloody Wedding
-* Finish prepping Ireena's visions
-* Decide what benefits Ireena gets after it's all done
+* Update Ireena's statblock to "Ireena, Reborn" (don't include spells)
 * Figure out how the hell the party is supposed to get the spindle without killing Baba Lysaga
   * They'll have to be creative ¯\_(ツ)_/¯
 * Add to Soundboard:
   * Some sound from Jareth in Labyrinth
 * Make quieter:
 * Make louder:
-  * Yee haw
-  * Roblox Oof
-  * Wilhelm Scream
   * Don't Be Suspicious
 * Pull my python-markdown2 library on the media PC
 * Read up on Amber Temple

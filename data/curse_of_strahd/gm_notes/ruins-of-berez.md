@@ -57,8 +57,24 @@
 
 ### Isabella
 
-* [Burning Church](^curse_of_strahd/burning_church.jpg)
-* [Father Marek](^curse_of_strahd/father_marek.jpg) ([stats](https://5e.tools/bestiary.html#priest_mm))
-* [Lavinia Swilova](^curse_of_strahd/lavinia_swilova.jpg) ([stats](https://5e.tools/bestiary.html#commoner_mm))
+* [Burning Church](^curse_of_strahd/burning_church.jpeg) ([audio]($load|ambience|curse_of_strahd/burning_building2.ogg))
+* [Lavinia Swilova](^curse_of_strahd/lavinia_swilova.jpg)
+* [Burning Church, Interior](^curse_of_strahd/burning_room2.jpg) 
 * [Isabella](^curse_of_strahd/isabella.jpg) ([stats](https://5e.tools/bestiary.html#acolyte_mm))
 
+### Tatyana
+
+[Lightning ambience]($load|ambience|curse_of_strahd/thunder.ogg)
+
+> You find yourselves atop a [stone-paved overlook](^curse_of_strahd/castle_ravenloft_overlooking_barovia.jpg), with a low stone wall adorned with outward-facing gargoyle carvings. A flash of lightning illuminates a quiet village lying far below. Overhead, dark clouds rain from a black sky, the [silhouette of Castle Ravenloft](^curse_of_strahd/castle_ravenloft_6.jpg) towering ominously above you. [A woman in a torn and red-stained bridal gown](^curse_of_strahd/bloody_tatyana.png) stands backed up against the edge of the overlook, mere inches away from a thousand-foot fall into the swirling mists beneath. She holds a dagger in a white-knuckled grip, and her features are the spitting image of Ireena.
+> 
+> Corpses of men and women in livery lie across a flagstone avenue that connects the overlook to the castle, discarded swords and spears lying beside them in pools of crimson blood. At the center of the avenue stands [a tall, gaunt man](^curse_of_strahd/strahd_7.jpg) wearing a noble's finery that has been torn and ripped by dozens of arrows that still protrude from his flesh. His gaze snaps to the woman's, his crimson eyes gleaming in the darkness. He hisses: "Tatyana... please. I did this for you. All of this, for you. My brother is dead, and now you are mine. With the pact I have made, power and eternal life are within my grasp. OUR grasp! You can deny my love no longer."
+> 
+> The woman takes a half-step back, glancing uncertainly over the ledge. The dagger trembles in her hands, and you see a flash of fear and hesitation in her eyes.
+
+* [Castle Ravenloft Overview](^curse_of_strahd/castle_ravenloft_overview1.jpg)
+* [Sad music, rising to Angry]($load|music|curse_of_strahd/Scary Dark and Evil Piano and Violin Music Lucifers Waltz.mp3)
+
+### Epilogue
+
+* [Tatyana](^curse_of_strahd/tatyana4.png)
