@@ -33,6 +33,9 @@
 * [⚗️Kuzco's Poison]($load|effect|kuzcos_poison.mp3)
 * [🛑 I Thought Someone Was Gonna Stop Me]($load|effect|i_thought_someone_was_gonna_stop_me.mp3)
 * [😭 STOP YELLING AT ME]($load|effect|STOP_YELLING_AT_ME.mp3)
+* [😏 I Know Something You Don't~]($load|effect|i_know_something_you_dont.ogg)
+* [🐷 Piggy Dippin!]($load|effect|piggy_dippin.ogg)
+* [😵 EMOTIONAL DAMAGE!]($load|effect|emotional_damage.ogg)
 
 ### Game Grumps
 
@@ -50,6 +53,8 @@
 * [😢 Oh, That Didn't Help At All!]($load|effect|oh_that_didnt_help_at_all.mp3)
 * [💥 AWWWWWWwwwwww *explosion*]($load|effect|awwwwwwwww_bkewww.mp3)
 * [🌼 Granola Eating Hippie Bullshit]($load|effect|granola_eating_hippie_bullshit.mp3)
+* [🕹️ I'm the Video Game Boy!]($load|effect|im_the_video_game_boy.ogg)
+* [♟️I'm Gonna Do Something Real Stupid...]($load|effect|im_gonna_do_something_real_stupid.ogg)
 
 ## Effects
 
