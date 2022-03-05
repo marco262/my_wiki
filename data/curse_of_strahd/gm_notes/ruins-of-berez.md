@@ -20,9 +20,15 @@
 * U2. [Ulrich Mansion](^curse_of_strahd/ulrich_mansion.jpg)
 * U3. [Baba Lysaga's Hut](^curse_of_strahd/baba_lysagas_hut.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga's%20creeping%20hut_cos))
   * [Baba Lysaga's Hut (closeup)](^curse_of_strahd/baba_lysagas_hut_closeup.jpg)
+  * Seeing the green light through the floor of the hut beneath the crib requires a DC 15 Perception check, DC 20 if the PC is outside the hut.
   * [Baba Lysaga](^curse_of_strahd/baba_lysaga.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga_cos))
-  * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull.jpg)
+      * [Additional actions/reactions for Baba Lysaga](https://old.reddit.com/r/mattcolville/comments/dwhbuq/actionoriented_baba_lysaga_curse_of_strahd/)
+      * Her heart became the Heart of Sorrow in Ravenloft. ([info](https://old.reddit.com/r/CurseofStrahd/comments/j1kkel/giving_baba_lysaga_her_rightful_place_in_the_story/))
+      * She cannot lay eyes on her "son".
+      * She is fused with the demon Sekhmet, the Devouring Mother (see Amber Temple)
+  * [Baba Lysaga's Skull](^curse_of_strahd/baba_lysagas_skull2.jpg)
   * [Scarecrow](^curse_of_strahd/scarecrow.jpg) ([stats](https://5e.tools/bestiary.html#scarecrow_mm))
+  * [Crawling Claw](^curse_of_strahd/crawling_claw.jpg) ([stats](https://5e.tools/bestiary.html#crawling%20claw_mm))
 * U4. Churchyard
 * U5. [Marina's Monument](^curse_of_strahd/marinas_monument.jpg)
 * U6. [Standing Stones](^curse_of_strahd/swamp_fane_stones.jpg)
