@@ -56,13 +56,12 @@ Enter another URL to set as Visual Aid here:
 ### Ways to Get Money
 
 * Working (lol)
-  * Farmer Tenzin Acres lost his prize cow Milky, will pay anyone who rescues her "hansumlee"
+    * Farmer Tenzin Acres lost his prize cow Milky, will pay anyone who rescues her "hansumlee"
 * Stealing
-  * Bertha and Tom just sold a bunch of weapons to the Knights of Twilight, and there's some criminals about to rob them. Azurhel plyed them with drinks, so they'll be a little drink.
 * Goblin ears
-  * 2 sp per goblin ear
+    * 2 sp per goblin ear
 * Bounty
-  * Grinda Garloth, female dwarf, 100 gp bounty, wanted for Grand Larceny, Resisting Arrest, and Jaywalking
+    * Grinda Garloth, female dwarf, 100 gp bounty, wanted for Grand Larceny, Resisting Arrest, and Jaywalking
 * Caravan guards
 * Running cons with Azurhel
 * Delivery quests from mainland towns to nearby islands
@@ -82,6 +81,10 @@ Enter another URL to set as Visual Aid here:
 ## Player Plans
 
 Use the intel the other robbers had to rob Bertha and Tom
+
+## My Plans
+
+* [Weapon Shop Robbery](weapon-shop-robbery)
 
 ## TODO
 
