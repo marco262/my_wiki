@@ -51,6 +51,17 @@
 - Met wandering human merchant who turned out to be a Monk with a Vow of Passivity
 - Was in a battle and came away with no scars, but applies a fake scar anyway, because scars are cool
 
+### Salvia
+
+- Born to a large, happy halfling family in the Shaded Forest
+- Had a happy childhood, enjoyed wandering the forest
+- Decided to go wandering when he came of age
+- Met a traveling merchant who told him about a hidden ruins with a great treasure inside
+- The merchant taught him all about being a rogue
+- He snuck into the ruins and emerged unscathed and rich af
+- The merchant got drunk with him, then took off in the middle of the night with nearly all the treasure
+- He has now sworn vengeance on the merchant and is honing his rogue-ish skills in preparation for his revenge
+
 ## Campaign Log
 
 ### Session 1 (2021-05-18)
