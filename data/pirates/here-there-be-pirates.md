@@ -71,6 +71,25 @@
 * Visited the Doubletree Inn
 * Overheard thieves planning to rob Bertha and Tom, got them drunk
 
+### Session 3 (2022-03-26)
+
+* We decided that today is the 18th of Alturik (Calendar here: https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf)
+* Party met Salvia, the halfling rogue and took him (her?) along on their burglary
+* Party got pastries while scoping out Tom and Bertha's shop
+* Zoya ordered a plate of taco-cannolis to be delivered to Tom and Bertha on their wedding anniversary (20th of Kythorn)
+* They avoided guards while waiting for nightfall
+* Zoya and Salvia slipped into the back room through the window, while Azurhel and Rek kept watch on the roof
+* While Salvia messed with the safe, Zoya scoped out the main room, locked Tom/Bertha in their bedroom, and drooled over some weapons
+* Salvia and Zoya looked for clues to the safe's password in the back room. Rek figured out it was "Taco Twosday".
+* They stole a chest full of money (300+ gold) and a mystery key.
+* They split into two groups, but each was noticed by the guards.
+* Salvia hid and Zoya managed to convince the guard she was just a cute dog.
+* Azurhel trust fell off Rek to do his best rock impression. It didn't work out to well.
+* Rek screeched and raised his wings to try to scare the guards. It REALLY worked, and there's now rumors of an owl monster in Everbrook among the guards.
+* Rek got away, and Azurhel hid in a chimney while the guards searched for them.
+* Azurhel got away for good by casting Disguise Self to look like a guard.
+* Everyone met in the sparse forests outside the west gate of Everbrook, split up the loot, and planned to move onto Lord's Landing in search of a ship to take them closer to wherever the Dread Pirate Lord wants them to go next. 
+
 # Resources
 
 * [World Map](/static/img/visual_aids/pirates/the_sunset_isles_2.jpg)
