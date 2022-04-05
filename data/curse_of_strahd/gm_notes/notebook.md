@@ -11,7 +11,7 @@
 
 * Armor Class: 14
 * Passive Per: 14
-* Passive Ins: 12
+* Passive Ins: 14
 
 Cursed with Lycanthropy
 
@@ -26,7 +26,7 @@ Cursed with Lycanthropy
 
 * Armor Class: 14
 * Passive Per: 14
-* Passive Ins: 12
+* Passive Ins: 11
 
 Notes
 
@@ -36,9 +36,9 @@ Notes
 
 [Marblepaw in booties](^curse_of_strahd/marblepaw_booties.jpg)
 
-* Armor Class: 14
-* Passive Per: 16
-* Passive Ins: 13
+* Armor Class: 13
+* Passive Per: 17
+* Passive Ins: 14
 
 ### NPCs
 
@@ -58,6 +58,8 @@ Notes
 
 ## General Notes
 
+* COME UP WITH MORE IDEAS FOR FUCKING WITH BABA LYSAGA DO NOT WING IT THIS TIME
+* Next time Kelemen talks to Ireena, he wants to deepen their relationship. Go on a "date". (Figure out how Strahd will try to hook her) 
 * Get more battle/Vallaki/character theme music
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
@@ -69,8 +71,7 @@ Notes
 
 ### Player Plans
 
-* Ireena is the ritualist
-* Ireena has finished the Spring part of the ritual, but the skill challenge for the Spring part has not happened yet
+* Find the Spindel
 
 ### Notes for me
 
