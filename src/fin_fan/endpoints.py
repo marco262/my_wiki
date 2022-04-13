@@ -18,7 +18,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     @app.get("/home")
     def home():
-        return md_page("Fin Fan!", "arr")
+        return md_page("A Realm Reborn", "arr")
 
     @app.get("<name>")
     @view("common/page.tpl")
