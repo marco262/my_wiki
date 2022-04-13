@@ -11,6 +11,17 @@ Stuff here
 
 [[/accordion]]
 
+# Races
+* [Au Ra](race/aura)
+* [Elezen](race/elezen)
+* [Garlean](race/garlean)
+* [Hrothgar](race/hrothgar)
+* [Hyur](race/hyur)
+* [Lalafell](race/lalafell)
+* [Miqo'te](race/miqote)
+* [Roegadyn](race/roegadyn)
+* [Viera](race/viera)
+
 # Resources
 
 * [Visual Aid](/visual_aid)
