@@ -1,4 +1,4 @@
-[[breadcrumb /fin_fan/|Fin Fan!]]
+[[breadcrumb /arr/|Fin Fan!]]
 
 <script type="module">
     import {init_links, init_visual_aid} from "/js/common/visual_aid_backend.js";
@@ -17,4 +17,4 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
-[Visual Aid Picture Example](^fin_fan/VisualAidPicture.png)  # Pictures go in /static/img/visual_aids/fin_fan
+[Visual Aid Picture Example](^arr/VisualAidPicture.png)  # Pictures go in /static/img/visual_aids/arr
