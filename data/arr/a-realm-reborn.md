@@ -22,6 +22,17 @@ Stuff here
 * [Roegadyn](race/roegadyn)
 * [Viera](race/viera)
 
+# Backgrounds
+* [Aetherologist](background/aetherologist)
+* [Adventurers' Guild Veteran](background/adventurers guild veteran)
+* [Chocobo Handler](background/chocobo handler)
+* [Gleaner](background/gleaner)
+* [Hearer](background/hearer)
+* [Imperial Spy](background/imperial spy)
+* [Magitek Engineer](background/magitek engineer)
+* [Sundered](background/sundered)
+* [XIIth Legion Experiment](background/xiith legion experiment)
+
 # Resources
 
 * [Visual Aid](/visual_aid)
