@@ -44,12 +44,12 @@ Aetherology is perhaps the most vast and diverse field of study on Hydaelyn, so 
 || 6 || My mentor taught me everything, and I'm thankful. ||
 
 || d6 || Flaw ||
-|| 1 || I don't need any Sharlayan accreditations to use these. Besides, tuition fees are all a godsdamned scam.
-|| 2 || Don't ask me how many of these I've accidentally broken. And I'm dreading the day I break this set, too.
-|| 3 || I feel like I haven't the faintest idea of what I'm doing.
-|| 4 || This is both sensitive and expensive equipment here. So unless you're me, nobody touches or else!
-|| 5 || Sometimes I get so lost in the moment with these on, I don't know what's going on around me.
-|| 6 || I don't really see anything wrong with fluffing up my report to sound a little more engaging, it'll be fiiiine.
+|| 1 || I don't need any Sharlayan accreditations to use these. Besides, tuition fees are all a godsdamned scam. ||
+|| 2 || Don't ask me how many of these I've accidentally broken. And I'm dreading the day I break this set, too. ||
+|| 3 || I feel like I haven't the faintest idea of what I'm doing. ||
+|| 4 || This is both sensitive and expensive equipment here. So unless you're me, nobody touches or else! ||
+|| 5 || Sometimes I get so lost in the moment with these on, I don't know what's going on around me. ||
+|| 6 || I don't really see anything wrong with fluffing up my report to sound a little more engaging, it'll be fiiiine. ||
 
 ## Variant Aetherologist: Chirurgeon
 
