@@ -5,7 +5,7 @@
     init_links();
 </script>
 
-[[accordion What is Fin Fan?]]
+[[accordion What is A Realm Reborn?]]
 
 Stuff here
 
