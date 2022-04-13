@@ -30,6 +30,11 @@ def load_wsgi_endpoints(app: Bottle):
     def race(name):
         return md_page(name, "arr", directory="race")
 
+    @app.get("background/<name>")
+    @view("common/page.tpl")
+    def race(name):
+        return md_page(name, "arr", directory="background")
+
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")
     @auth_basic(gm_notes_auth_check)
