@@ -30,6 +30,7 @@ Stuff here
 * [Hearer](background/hearer)
 * [Imperial Spy](background/imperial spy)
 * [Magitek Engineer](background/magitek engineer)
+* [Sharlayan Scholar](background/sharlayan scholar)
 * [Sundered](background/sundered)
 * [XIIth Legion Experiment](background/xiith legion experiment)
 
