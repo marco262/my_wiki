@@ -34,8 +34,13 @@ Stuff here
 * [XIIth Legion Experiment](background/xiith legion experiment)
 
 # Resources
-
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
+
+* [Calendar](general/calendar)
+* [Deities](general/deities)
+* [Languages](general/Languages)
+* [The City of Limsa Lominsa](general/Limsa Lominsa)
+* [Magic](general/Magic)
 
 [GM Notes](gm_notes/GM Notes)
