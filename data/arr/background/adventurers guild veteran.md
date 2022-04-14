@@ -44,12 +44,12 @@ Adventurers come from a myriad of backgrounds, and with their own dreams and mot
 || 8 || I love those levequests about picking flowers and knitting socks for the poor! ||
 
 ||~ d6 ||~ Ideal ||
-|| 1 || Threats. After I help someone, I insist they return the favor when I end up needing something myself. (Evil) ||
-|| 2 || Money. 'Tis a dangerous job, but it pays well. (Neutral) ||
-|| 3 || Process. I cannot accept polite requests for help, I only pursue official guildleves. (Lawful) ||
-|| 4 || Virtue. Like the saints depicted on the leveplates, I will stand for those ideals that help others in need. (Good) ||
-|| 5 || Travel. As an adventurer, I get to see, explore, and experience all of Etheirys' beauty. (Any) ||
-|| 6 || Apathy. As long as the job gets done, I get to choose how I do it. (Chaotic) ||
+|| 1 || **Threats.** After I help someone, I insist they return the favor when I end up needing something myself. (Evil) ||
+|| 2 || **Money.** 'Tis a dangerous job, but it pays well. (Neutral) ||
+|| 3 || **Process.** I cannot accept polite requests for help, I only pursue official guildleves. (Lawful) ||
+|| 4 || **Virtue.** Like the saints depicted on the leveplates, I will stand for those ideals that help others in need. (Good) ||
+|| 5 || **Travel.** As an adventurer, I get to see, explore, and experience all of Etheirys' beauty. (Any) ||
+|| 6 || **Apathy.** As long as the job gets done, I get to choose how I do it. (Chaotic) ||
 
 ||~ d6 ||~ Bond ||
 || 1 || I don't like authority, so I freelance to help the realm. ||
