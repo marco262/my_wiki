@@ -37,7 +37,6 @@ Stuff here
 # Resources
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
-
 * [Calendar](general/calendar)
 * [Deities](general/deities)
 * [Languages](general/Languages)
