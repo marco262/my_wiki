@@ -23,8 +23,8 @@ Stuff here
 * [Viera](race/viera)
 
 # Backgrounds
-* [Aetherologist](background/aetherologist)
 * [Adventurers' Guild Veteran](background/adventurers guild veteran)
+* [Aetherologist](background/aetherologist)
 * [Chocobo Handler](background/chocobo handler)
 * [Gleaner](background/gleaner)
 * [Hearer](background/hearer)

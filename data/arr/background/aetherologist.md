@@ -9,7 +9,7 @@ Aetherologists are scholars in the field of magic, otherwise known as aether. It
 
 ## Feature: Preternatural Forensics
 
-You know how to further use aetherologists’ tools to read the ambient aether around you, yielding additional, imperceivable information. Making an Intelligence (Investigation) check with an aetherometer will allow you to reliably predict, in an area, who or what may have been present, the events that may have occurred, how recently it may have been, and any consequential effects.
+You know how to further use aetherologists’ tools to read the ambient aether around you, yielding additional, imperceivable information. Making an **Intelligence (Investigation)** check with an aetherometer will allow you to reliably predict, in an area, who or what may have been present, the events that may have occurred, how recently it may have been, and any consequential effects.
 
 You know that the information you glean with an aetherometer is not conclusive proof of a matter, only supplementary to physical evidence at best.
 
@@ -28,12 +28,12 @@ Aetherology is perhaps the most vast and diverse field of study on Hydaelyn, so 
 || 8 || Nothing escapes my eyes...err, lenses. ||
 
 ||~ d6 ||~ Ideal ||
-|| 1 || Life. All I think about is using my knowledge to help people, or better yet, help all of Etheirys. (Good) ||
-|| 2 || Duty. Aether is our star's very lifeblood, I and others like me made an oath to safeguard it. (Lawful) ||
-|| 3 || Greed. Services such as mine are in high demand and because of that, they're far from free. (Evil) ||
-|| 4 || Knowledge. There's always more to learn, and the more I learn the better off I will be. (Any) ||
-|| 5 || Work. Watching aether is mesmerizing and it happens to pay well. That's why I went into this field. (Neutral) ||
-|| 6 || Fun. I always put these on when everything goes to shite, 'tis like a damned light show! (Chaotic) ||
+|| 1 || **Life.** All I think about is using my knowledge to help people, or better yet, help all of Etheirys. (Good) ||
+|| 2 || **Duty.** Aether is our star's very lifeblood, I and others like me made an oath to safeguard it. (Lawful) ||
+|| 3 || **Greed.** Services such as mine are in high demand and because of that, they're far from free. (Evil) ||
+|| 4 || **Knowledge.** There's always more to learn, and the more I learn the better off I will be. (Any) ||
+|| 5 || **Work.** Watching aether is mesmerizing and it happens to pay well. That's why I went into this field. (Neutral) ||
+|| 6 || **Fun.** I always put these on when everything goes to shite, 'tis like a damned light show! (Chaotic) ||
 
 || d6 || Bond ||
 || 1 || Aetherologists' tools are like their own badge of office. ||
