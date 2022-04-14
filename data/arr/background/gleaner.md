@@ -1,6 +1,3 @@
-___
-*Prerequisite:* Intelligence or Wisdom score of 13 or higher.
-___
 You are a graduate of the Studium, an alumni of the most prestigious institution of learning across the Three Great Continents. But before you can author the world's next groundbreaking thesis, you help a scholarch pen theirs - by traveling that world, acquiring all manner of trinkets and miscellany for your masters of academia.  
 
 - **Skill Proficiencies:** *Special.* Choose one from each table

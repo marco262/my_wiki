@@ -11,7 +11,7 @@ from markdown2 import Markdown
 from src.common.utils import title_to_page_name
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable"]
+EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
 
 
 class MarkdownParser:
