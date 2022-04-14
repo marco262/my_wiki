@@ -61,4 +61,4 @@ You can fashion a decent trap using only gysahl greens and hempen rope. You can 
 * **Discarded downs** - signs of stress or potential danger, something in the area may be of concern.
 * **Previously-hatched eggs** - indicate a breeding ground, it may be an area of relative safety.
 
-Additionally, whenever you visit the Tailfeather settlement in Dravania, you have access to free room and board.
+Additionally, whenever you visit the Tailfeather settlement in Dravania, you have access to free room and board for you and your companions.
