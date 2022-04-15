@@ -31,8 +31,10 @@ Stuff here
 * [Imperial Spy](background/imperial spy)
 * [Magitek Engineer](background/magitek engineer)
 * [Sharlayan Scholar](background/sharlayan scholar)
+* [Sailor (Pirate)](/background/sailor)
 * [Sundered](background/sundered)
 * [XIIth Legion Experiment](background/xiith legion experiment)
+* [Yellowjacket Navyman](background/yellowjacket-navyman)
 
 # Resources
 * [Visual Aid](/visual_aid)
