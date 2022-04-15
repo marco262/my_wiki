@@ -31,7 +31,7 @@ Stuff here
 * [Imperial Spy](background/imperial spy)
 * [Magitek Engineer](background/magitek engineer)
 * [Sharlayan Scholar](background/sharlayan scholar)
-* [Sailor (Pirate)](/background:sailor)
+* [Sailor (Pirate)](/dnd/background/sailor)
 * [Sundered](background/sundered)
 * [XIIth Legion Experiment](background/xiith legion experiment)
 * [Yellowjacket Navyman](background/yellowjacket-navyman)
