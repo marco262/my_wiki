@@ -135,7 +135,7 @@ def page_name_to_title(page_name):
     return page_name.replace("-", " ").title()
 
 
-def md_page(page_title, namespace, directory=None, build_toc=True, markdown_parser=None, **kwargs):
+def md_page(page_title, namespace, directory=None, build_toc=True, markdown_parser=None, load_template=True, **kwargs):
     if markdown_parser is None:
         # Avoiding circular dependencies
         from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
@@ -162,7 +162,7 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         raise
     if md.startswith("<p>REDIRECT "):
         redirect(md[12:-5])
-    else:
+    elif load_template:
         if "title" not in kwargs:
             kwargs["title"] = page_title.title()
         if build_toc and not md.startswith("<!-- no-toc -->"):
@@ -171,6 +171,8 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         kwargs["accordion_text"] = markdown_parser.accordion_text
 
         return template("common/page.tpl", kwargs)
+    else:
+        return md
 
 
 def websocket_loop(ws, websocket_list):

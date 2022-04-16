@@ -47,6 +47,7 @@ class MarkdownParser:
         text = self.parse_accordions(text)
         text = self.convert_wiki_divs(text)
         text = self.build_bibliography(text)
+        text = self.convert_gm_notes_inserts(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -204,6 +205,19 @@ class MarkdownParser:
             text = text.replace(m.group(0),
                                 "<p><strong>Bibliography</strong></p>\n\n<ol>\n{}\n</ol>".format("\n".join(bib_list)))
 
+        return text
+
+    @staticmethod
+    def convert_gm_notes_inserts(text):
+        for m in re.finditer(r"<p>\[\[gm_notes(.*?)]]</p>", text):
+            name = m.group(1).strip(" ")
+            element_id = title_to_page_name(name)
+            text = text.replace(
+                m.group(0),
+                f"""<details class="gm-notes" id="{element_id}">
+    <summary>GM Notes for {name}</summary>
+</details>"""
+            )
         return text
 
 

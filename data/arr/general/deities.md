@@ -1,3 +1,10 @@
+[[breadcrumb /arr/|A Realm Reborn]]
+
+<script type="module">
+    import {init_gm_notes_inserts} from "/js/arr/gm_notes.js";
+    init_gm_notes_inserts();
+</script>
+
 ## The Twelve
 The Twelve are a pantheon of deities revered by the majority of Eorzea's populace. They are said to have ruled the continent and its surrounding islands until the arrival of wandering tribes. Impressed by the resilience of the primitive settlers, each of the Twelve mercifully saw fit to ensure their welfare.
 
@@ -22,6 +29,8 @@ These are the deities in FF14 for clerics, druids, warlocks with the Divine patr
 
 ### Halone
 Halone, the Fury, mover of glaciers and goddess of war, commands the element of ice and is tied to the First Astral Moon (first month). She is depicted as a relentless warrior holding a bronze greatshield, and her symbol is three spears. Halone is the patron of the **Holy See of Ishgard**, and is bitter rivals with Nophica.
+
+[[gm_notes Halone]]
 
 ### Menphina
 

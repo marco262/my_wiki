@@ -46,6 +46,11 @@ def load_wsgi_endpoints(app: Bottle):
     def gm_notes(name):
         return md_page(name, "arr", directory="gm_notes")
 
+    @app.get("gm_notes/insert/<name>")
+    @auth_basic(gm_notes_auth_check)
+    def gm_notes_insert(name):
+        return md_page(name, "arr", directory="gm_notes/inserts", load_template=False)
+
 
 def gm_notes_auth_check(username, password):
     return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)

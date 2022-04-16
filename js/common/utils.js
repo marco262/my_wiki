@@ -1,4 +1,4 @@
-export function ajax_call(url, func, params=null) {
+export function ajax_call(url, func, params=null, error_func=null) {
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState === 4) {
@@ -8,6 +8,9 @@ export function ajax_call(url, func, params=null) {
                 }
             } else {
                 console.error(xhttp);
+                if (error_func) {
+                    error_func(this);
+                }
             }
         }
     };
