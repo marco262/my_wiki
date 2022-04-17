@@ -24,17 +24,16 @@ Stuff here
 
 # Backgrounds
 ||~ Background ||~ Proficiencies ||~ Feature ||~ Source ||
-||[Adventurers' Guild Veteran](background/adventurers guild veteran)|| || || FFXIV Compendium ||
-||[Aetherologist](background/aetherologist)|| || || FFXIV Compendium ||
-||[[Charlatan]] || || || PHB ||
-||[Chocobo Handler](background/chocobo handler)|| || || FFXIV Compendium ||
+||[Adventurers' Guild Veteran](background/adventurers guild veteran)|| || || Homebrew ||
+||[Aetherologist](background/aetherologist)|| || || Homebrew ||
+||[Chocobo Handler](background/chocobo handler)|| || || Homebrew ||
 ||[Commoner](background/commoner) || || || PHB (Homebrew Flavor) ||
-||[[Criminal]] || || || PHB ||
 ||[Disciple of the Land and Hand](background/disciple of the land and hand) || || || PHB (Homebrew Flavor) ||
 ||[Entertainer](background/entertainer) || || || PHB (Homebrew Flavor) ||
+||[Ex-Pirate](background/ex-pirate) || || || Homebrew ||
 ||[Maelstrom Officer](background/maelstrom officer) || || || PHB (Homebrew Flavor) ||
-||[Sharlayan Scholar](background/sharlayan scholar)|| || || FFXIV Compendium ||
-||[Sailor (Pirate)](/dnd/background/sailor)||Athletics, Perception, Navigator's tools, Vehicles (water) || Ship's Passage (Bad Reputation) || PhB ||
+||[Sharlayan Scholar](background/sharlayan scholar)|| || || Homebrew ||
+||[Sailor](background/sailor)||Athletics, Perception, Navigator's tools, Vehicles (water) || Ship's Passage (Bad Reputation) || PhB ||
 ||[Yellowjacket Navyman](background/yellowjacket-navyman)|| Athletics, Insight, Two languages || Watcher's Eye || SCAG (Reflavored) ||
 
 # Resources
