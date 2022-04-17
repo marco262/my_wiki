@@ -23,18 +23,19 @@ Stuff here
 * [Viera](race/viera)
 
 # Backgrounds
-* [Adventurers' Guild Veteran](background/adventurers guild veteran)
-* [Aetherologist](background/aetherologist)
-* [Chocobo Handler](background/chocobo handler)
-* [Gleaner](background/gleaner)
-* [Hearer](background/hearer)
-* [Imperial Spy](background/imperial spy)
-* [Magitek Engineer](background/magitek engineer)
-* [Sharlayan Scholar](background/sharlayan scholar)
-* [Sailor (Pirate)](/dnd/background/sailor)
-* [Sundered](background/sundered)
-* [XIIth Legion Experiment](background/xiith legion experiment)
-* [Yellowjacket Navyman](background/yellowjacket-navyman)
+||~ Background ||~ Proficiencies ||~ Feature ||~ Source ||
+||[Adventurers' Guild Veteran](background/adventurers guild veteran)|| || || FFXIV Compendium ||
+||[Aetherologist](background/aetherologist)|| || || FFXIV Compendium ||
+||[[Charlatan]] || || || PHB ||
+||[Chocobo Handler](background/chocobo handler)|| || || FFXIV Compendium ||
+||[Commoner](background/commoner) || || || PHB (Homebrew Flavor) ||
+||[[Criminal]] || || || PHB ||
+||[Disciple of the Land and Hand](background/disciple of the land and hand) || || || PHB (Homebrew Flavor) ||
+||[Entertainer](background/entertainer) || || || PHB (Homebrew Flavor) ||
+||[Maelstrom Officer](background/maelstrom officer) || || || PHB (Homebrew Flavor) ||
+||[Sharlayan Scholar](background/sharlayan scholar)|| || || FFXIV Compendium ||
+||[Sailor (Pirate)](/dnd/background/sailor)||Athletics, Perception, Navigator's tools, Vehicles (water) || Ship's Passage (Bad Reputation) || PhB ||
+||[Yellowjacket Navyman](background/yellowjacket-navyman)|| Athletics, Insight, Two languages || Watcher's Eye || SCAG (Reflavored) ||
 
 # Resources
 * [Visual Aid](/visual_aid)
