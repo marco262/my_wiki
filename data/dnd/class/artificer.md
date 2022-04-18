@@ -259,6 +259,10 @@ Artificers pursue many disciplines. Here are specialist options you can choose f
  * [[[subclass:Artillerist]]]
  * [[[subclass:Battle Smith]]]
 
+## Homebrew
+
+ * [[[subclass:Combat Medic]]]
+
 # Infusions
 
 Artificer infusions are extraordinary processes that rapidly turn a nonmagical object into a magic item. The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.
