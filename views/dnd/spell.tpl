@@ -34,4 +34,10 @@ end
 
 % end
 <hr class="no-float">
-<p><em>Source: {{source}}</em></p>
+<p><em>
+    % if defined('source_extended'):
+    Source: {{!source_extended}}
+    % else:
+    Source: {{source}}
+    % end
+</em></p>

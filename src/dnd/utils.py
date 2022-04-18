@@ -109,6 +109,8 @@ def load_spells():
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            if "source_extended" in d:
+                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd")
             k = splitext(basename(path))[0]
             spells[k] = d
             SPELLS_BY_LEVEL[d["level"]].append((k, d))
