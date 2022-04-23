@@ -25,21 +25,6 @@ def load_wsgi_endpoints(app: Bottle):
     def page(name):
         return md_page(name, "arr")
 
-    @app.get("race/<name>")
-    @view("common/page.tpl")
-    def race(name):
-        return md_page(name, "arr", directory="race")
-
-    @app.get("background/<name>")
-    @view("common/page.tpl")
-    def race(name):
-        return md_page(name, "arr", directory="background")
-
-    @app.get("general/<name>")
-    @view("common/page.tpl")
-    def race(name):
-        return md_page(name, "arr", directory="general")
-
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")
     @auth_basic(gm_notes_auth_check)
@@ -50,6 +35,11 @@ def load_wsgi_endpoints(app: Bottle):
     @auth_basic(gm_notes_auth_check)
     def gm_notes_insert(name):
         return md_page(name, "arr", directory="gm_notes/inserts", load_template=False)
+
+    @app.get("<category:path>/<name>")
+    @view("common/page.tpl")
+    def category_page(category, name):
+        return md_page(name, "arr", directory=category)
 
 
 def gm_notes_auth_check(username, password):
