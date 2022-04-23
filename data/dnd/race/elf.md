@@ -74,7 +74,9 @@ As a wood elf, you have keen senses and intuition, and your fleet feet carry you
 * **Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
 
 ## Dark Elf (Drow)
+
 [[div class="phb-sidebar"]]
+
 **The Darkness Of The Drow**
 
 Were it not for one renowned exception, the race of drow would be universally reviled. To most, they are a race of demon-worshiping marauders dwelling in the subterranean depths of the Underdark, emerging only on the blackest nights to pillage and slaughter the surface dwellers they despise. Their society is depraved and preoccupied with the favor of Lolth, their spider-goddess, who sanctions murder and the extermination of entire families as noble houses vie for position.
@@ -82,12 +84,15 @@ Were it not for one renowned exception, the race of drow would be universally re
 Yet one drow, at least, broke the mold. In the world of the Forgotten Realms, Drizzt Do'Urden, ranger of the North, has proven his quality as a good-hearted defender of the weak and innocent. Rejecting his heritage and adrift in a world that looks upon him with terror and loathing, Drizzt is a model for those few drow who follow in his footsteps, trying to find a life apart from the evil society of their Underdark homes. 
 
 Drow grow up believing that surface-dwelling races are inferior, worthless except as slaves. Drow who develop a conscience or find it necessary to cooperate with members of other races find it hard to overcome that prejudice, especially when they are so often on the receiving end of hatred.
-[[/div]]Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves. Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.
+
+[[/div]]
+
+Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves. Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.
 
 * **Ability Score Increase.** Your Charisma score increases by 1.
 * **Superior Darkvision.** Your darkvision has a radius of 120 feet.
 * **Sunlight Sensitivity.** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
-* **Drow Magic.** You know the *[[[spell:dancing lights]]]*. When you reach 3rd level, you can cast *[[[spell:faerie fire]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
+* **Drow Magic.** You know the *[[[spell:dancing lights]]]* cantrip. When you reach 3rd level, you can cast *[[[spell:faerie fire]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
 * **Drow Weapon Training.** You have proficiency with rapiers, shortswords, and hand crossbows.
 
 ## Eladrin

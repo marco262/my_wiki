@@ -8,6 +8,8 @@
     init_accordions();
 </script>
 
+* [Soundboard](Soundboard)
+
 Enter another URL to set as Visual Aid here:
 
 <input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
@@ -18,7 +20,7 @@ Enter another URL to set as Visual Aid here:
 * [Pirate](^pirates/pirate.jpg)
 * Roughwater [1](^pirates/roughwater_1.jpg), [2](^pirates/roughwater_2.jpg)
 * Everbrook [1](^pirates/everbrook.png)
-* Knight of Twilight [1](^pirates/knight_of_twilight.png)
+* Knight of Twilight [1](^pirates/knight_of_twilight.png) ([stats](https://5e.tools/bestiary.html#veteran_mm))
 * Lord's Landing [1](^pirates/lords_landing_1.jpg)
 
 ## Soundboard
@@ -40,7 +42,7 @@ Enter another URL to set as Visual Aid here:
 
 * The players need to find the Dread Pirate Lord's first mate, who is hiding on the Dread Pirate Lord's HQ island.
     * She's a half-elf, so she has not aged as much as everyone else. Maybe a cleric so she can create food and shelter for herself?
-    * Knows Scry, but doesn't have a focus. Quest for players later?
+    * Knows Scrying, but doesn't have a focus. Quest for players later?
     * Stays on the HQ island, because she's been foiling the Knights of Twilight's attempts to uncover the DPL's treasure for 50 goddamn years
 * Players need to search for the first mate but have no idea where she is:
     * Need ideas on where to find her (need informants, guides)
@@ -85,6 +87,7 @@ Use the intel the other robbers had to rob Bertha and Tom
 ## My Plans
 
 * [Weapon Shop Robbery](weapon-shop-robbery)
+* [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
 
 ## TODO
 
@@ -111,9 +114,11 @@ Use the intel the other robbers had to rob Bertha and Tom
 * String quests together (e.g. during goblin hunting, plant hook to another quest)
     * Hooks in some quests can be just partial hooks to later quests; need multiple hooks to get later quests
 * Drop connections in some places to history of raiding/connection to lieutenants
-* Come up with stories of the Dread Pirate Lord when he was a youngun that he can use or advice or parables
+* Come up with stories of the Dread Pirate Lord when he was a youngun that he can use for advice or parables
 
 # Resources
+
+* [Heraldry creator](https://worldspinner.com/heraldry/device_editor/)
 
 ## Art
 
