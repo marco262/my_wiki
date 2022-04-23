@@ -117,6 +117,7 @@ Use the intel the other robbers had to rob Bertha and Tom
     * Hooks in some quests can be just partial hooks to later quests; need multiple hooks to get later quests
 * Drop connections in some places to history of raiding/connection to lieutenants
 * Come up with stories of the Dread Pirate Lord when he was a youngun that he can use for advice or parables
+* Have them pass a ship full of characters from the other campaign (descriptions TBD)
 
 # Resources
 

@@ -84,7 +84,7 @@
 
 ### Session 3 (2022-03-26)
 
-* We decided that today is the 18th of Alturik (Calendar here: https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf)
+* We decided that today is the 18th of Alturik ([Calendar](https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf))
 * Party met Salvia, the halfling rogue and took him (her?) along on their burglary
 * Party got pastries while scoping out Tom and Bertha's shop
 * Zoya ordered a plate of taco-cannolis to be delivered to Tom and Bertha on their wedding anniversary (20th of Kythorn)
