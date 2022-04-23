@@ -5,6 +5,24 @@
     init_links();
 </script>
 
+## Visual Aids
+
+* Inner city [1](^pirates/lords_landing_2.jpg), [2](^pirates/lords_landing_4.jpg), [3](^pirates/lords_landing_6.jpg)
+* From the water [1](^pirates/lords_landing_1.jpg), [2](^pirates/lords_landing_docks.png), [3](^pirates/lords_landing_5.jpg)
+* [Bird's Eye](^pirates/lords_landing_3.jpg)
+* [Knights of Twilight Crest](^pirates/knights_of_twilight_crest.png)
+
+## Ambience
+
+[Stop all sounds]($stop|all|none)
+
+* [Coastal Town]($load|youtube|https://www.youtube.com/watch?v=CY97XoaEjFg)
+* [Crowded Local Tavern]($load|youtube|https://www.youtube.com/watch?v=EULoybB2Nsw)
+* [Dockside Market]($load|youtube|https://www.youtube.com/watch?v=YZkFjWJVt6c)
+* [Docks at Night]($load|youtube|https://www.youtube.com/watch?v=DWGrFtyAFVc)
+* [Calm Sea Sailing]($load|youtube|https://www.youtube.com/watch?v=Lyt7enNpwvk)
+* [Ship Cabin]($load|youtube|https://www.youtube.com/watch?v=D4juEBifIMk)
+
 ## Mention the Knights of Twilight
 
 While the party is wandering through the town, roll on the [100 non-combat urban encounters](https://www.dndspeak.com/2021/07/100-non-combat-urban-encounters/) table. Play up the tone of the city, and have them interact with the guard if you can. The guard, or some of the NPCs, should mention the Knights of Twilight in some fashion. There should be a focus on how they're ostensibly a force for good and law in the city, but how they're a threat/headache to be around.
@@ -48,24 +66,6 @@ Wherever they have dinner for the night, they'll witness a Knight of Twilight ge
   * Second islands: 5 gp
   * Third islands: 25 gp
   * Outside the map: 20 gp to nearest ports
-
-## Visual Aids
-
-* Inner city [1](^pirates/lords_landing_2.jpg), [2](^pirates/lords_landing_4.jpg), [3](^pirates/lords_landing_6.jpg)
-* From the water [1](^pirates/lords_landing_1.jpg), [2](^pirates/lords_landing_docks.png), [3](^pirates/lords_landing_5.jpg)
-* [Bird's Eye](^pirates/lords_landing_3.jpg)
-* [Knights of Twilight Crest](^pirates/knights_of_twilight_crest.png)
-
-## Ambience
-
-[Stop all sounds]($stop|all|none)
-
-* [Coastal Town]($load|youtube|https://www.youtube.com/watch?v=CY97XoaEjFg)
-* [Crowded Local Tavern]($load|youtube|https://www.youtube.com/watch?v=EULoybB2Nsw)
-* [Dockside Market]($load|youtube|https://www.youtube.com/watch?v=YZkFjWJVt6c)
-* [Docks at Night]($load|youtube|https://www.youtube.com/watch?v=DWGrFtyAFVc)
-* [Calm Sea Sailing]($load|youtube|https://www.youtube.com/watch?v=Lyt7enNpwvk)
-* [Ship Cabin]($load|youtube|https://www.youtube.com/watch?v=D4juEBifIMk)
 
 ## Resources
 
