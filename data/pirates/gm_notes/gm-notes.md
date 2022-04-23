@@ -27,7 +27,7 @@ Enter another URL to set as Visual Aid here:
 
 [Stop all sounds]($stop|all|none)
 
-* [Pirate Theme Song]($load|music|pirates/Pirates Of The Caribbean Theme Song.mp3)
+* Pirate Theme Songs [1]($load|music|pirates/Pirates Of The Caribbean Theme Song.mp3), [2]($load|youtube|https://www.youtube.com/watch?v=JYVMnLUZu9Y)
 
 ## NPCs
 
