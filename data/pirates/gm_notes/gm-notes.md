@@ -84,7 +84,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Player Plans
 
-Use the intel the other robbers had to rob Bertha and Tom
+Find dude and assassinate him
 
 ## My Plans
 
@@ -96,6 +96,12 @@ Use the intel the other robbers had to rob Bertha and Tom
 ### Before next session
 
 * Add distance legend to the world map
+* Come up with name/description/bodyguards for target (Rek is doing recon)
+* Come up with what they find at the museum at the castle
+* Come up with evil magic items for Nic (baby armor for one of them)
+* Add Downtime Activities link to the main wiki page
+* Invent Druid book club for Zoya
+* Zoya wants to get into the Knights of Twilight to sabotage them. Think of ways that she could get in on them.
 
 ### Later...
 
