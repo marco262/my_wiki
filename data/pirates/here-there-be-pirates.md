@@ -1,8 +1,24 @@
+<script type="module">
+    import { init_accordions } from "/js/common/utils.js";
+    init_accordions();
+</script>
+
 # Campaign Synopsis
 
 > Set beyond the Skyshear Mountains, the Sunset Isles are a wonderland of beautiful islands, rich in resources and adventure. The people living there carved out little nooks of civilization, spreading to the different islands and setting down roots. Over time, each settlement developed its own culture and identity, distinct from the others but ultimately harmonious. The mainland towns and the islands shared their trade, letting the people in this area prosper. 
 > 
 > But there is always someone out there who wants what you have. 20 years ago, the Dread Pirate Lord's fleets sailed in from the west, and aimed to make the Sunset Isles their own. His forces were ruthless and strong, taking life and plunder with delight and dread efficiency. The previously peaceful people of the Isles eventually took up arms and managed to kill the Dread Pirate Lord and stop his invasion, but at great cost. Their previously prosperous nation was broken, with many historical sites burned to the ground. Countless lives were lost, and the Sunset Isles are still suffering the predations of his lieutenants. Still, hope has rekindled as many people they can eventually return to the peaceful life they once had. 
+
+# Resources
+
+* [World Map](/static/img/visual_aids/pirates/the_sunset_isles_2.jpg)
+* [Roll20 link](https://app.roll20.net/campaigns/details/10582314)
+* [Visual Aid](/visual_aid)
+* [Player Soundboard](/player soundboard)
+* [Calendar](/static/img/calendar_natural20.pdf)
+* Downtime Activities
+  * [Player's Handbook](/dnd/general/Adventuring#downtime-activities)
+  * [Additional](/dnd/general/Downtime Activities)
 
 ## Historical Timeline
 
@@ -18,7 +34,7 @@
 
 * The islands range from inhabited to wild to overrun with pirates. In general, the farther west you go, the more dangerous it is.
 * Four different pirate fleets roam the Sunset Isles, fighting amongst each other as much as they plunder the remaining settlements of the Sunset Isles.
-* The Knights of Twilight patrol the mainland, and some of the nearest islands, keeping the peace and swiftly punishing any criminal acts.
+* The Knights of Twilight patrol the mainland, and some of the nearest islands, hunting down and swiftly executing pirates. And sometimes other criminals.
 * The people of the Sunset Isles are generally very hostile to any talk of the Dread Pirate Lord that doesn't paint him as an irredeemable monster. But in recent years, some grumblings have arisen speaking out against the common thought.
 
 ## Meet the Gang!
@@ -32,7 +48,7 @@
 - Blamed for the storm and famine
 - Two older siblings are out in the world somewhere
 - Took on a druid mentor, but the mentor died protecting her
-- Lives alone outside Roughwater
+- Lived alone outside Roughwater
 
 ### Rek
 
@@ -64,6 +80,24 @@
 
 ## Campaign Log
 
+### Sessions 4 (2022-04-24)
+
+* Started on the 19th of Alturik
+* Party got a job as caravan guards, escorting an old elf named Tommy Turnip, and his old mule Betsy, to Lord's Landing.
+* Group was attacked by wolves. Killed 3, drove off 1. 
+* Betsy was almost killed but was healed. Tommy was hurt but healed. Rek ate a turnip he killed.
+* Witnessed two inventors arguing in the middle of the street in Lord's Landing. Two Knights of Twilight came by and diffused the situation just by glaring.
+* Got some rooms at the Thorny Rose, a mid-scale inn.
+* Next day (20th of Alturik), went out to the Adventurer's guild to look for jobs.
+* Rek lost money on a pushups competition between a dragonborn and a half-orc. Azurhel played the part of a training weight.
+* Salvia was approached by Xanner Silentbrush, a halfling trying to make his way as a handler.
+* Everyone but Zoya met Xanner at the Mermaid's Kiss, a dive bar down by the docks. Salvia gave his name as "Indica", everyone else introduced themselves normally.
+* Xanner gave them a job to take out a rival handler who works out of an old warehouse near the docks. He says to put in a word for him back at the Mermaid's Kiss when the job is done.
+* Zoya met up with everyone later, they shot the shit, then the party went shopping. 
+* Zoya and Salvia each bought a healing potion. Azurhel bought jewelers' tools. Rek went to scout out their target. 
+
+[[accordion Past Sessions]]
+
 ### Session 1 (2021-05-18)
 
 * Koya was swallowed by a big fuckoff fish
@@ -84,7 +118,7 @@
 
 ### Session 3 (2022-03-26)
 
-* We decided that today is the 18th of Alturik ([Calendar](https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf))
+* We decided that today is the 18th of Alturik
 * Party met Salvia, the halfling rogue and took him (her?) along on their burglary
 * Party got pastries while scoping out Tom and Bertha's shop
 * Zoya ordered a plate of taco-cannolis to be delivered to Tom and Bertha on their wedding anniversary (20th of Kythorn)
@@ -99,14 +133,8 @@
 * Rek screeched and raised his wings to try to scare the guards. It REALLY worked, and there's now rumors of an owl monster in Everbrook among the guards.
 * Rek got away, and Azurhel hid in a chimney while the guards searched for them.
 * Azurhel got away for good by casting Disguise Self to look like a guard.
-* Everyone met in the sparse forests outside the west gate of Everbrook, split up the loot, and planned to move onto Lord's Landing in search of a ship to take them closer to wherever the Dread Pirate Lord wants them to go next. 
+* Everyone met in the sparse forests outside the west gate of Everbrook, split up the loot, and planned to move onto Lord's Landing in search of a ship to take them closer to wherever the Dread Pirate Lord wants them to go next.
 
-# Resources
-
-* [World Map](/static/img/visual_aids/pirates/the_sunset_isles_2.jpg)
-* [Roll20 link](https://app.roll20.net/campaigns/details/10582314)
-* [Visual Aid](/visual_aid)
-* [Player Soundboard](/player soundboard)
-
+[[/accordion]]
 
 [GM Notes](/pirates/gm_notes/GM Notes)

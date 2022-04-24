@@ -109,9 +109,9 @@ Find dude and assassinate him
     * HQ island has a VOLCANO! :O
 * Figure out what the Dread Pirate Lord can provide, other than quests
     * Advantage on skill checks, esp. knowledge checks
-* Make Knights of Twilight part of the forces of the local kingdom
 * Remake map to have multiple "layers" of islands (3-4) with the HQ island as the last one.
     * Progressively more dangerous waters between layers
+* Come up with names and identities for the four pirate fleets
 
 ## Hooks to keep in mind
 
