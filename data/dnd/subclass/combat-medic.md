@@ -43,7 +43,7 @@ The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th
 
 _3rd-level Combat Medic feature_
 
-You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Aetheric Link. This link lasts until you give it another creature, or you finish a long rest.
+You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Aetheric Link. This link lasts until you give it to another creature, or you finish a long rest.
 
 Whenever you deal damage with your Aether Turret, the creature with your Aetheric Link gains a number of temporary hit points equal to the damage you dealt.
 
