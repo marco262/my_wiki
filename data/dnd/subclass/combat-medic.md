@@ -29,27 +29,29 @@ You always have certain spells prepared after you reach particular levels in thi
 || 13th || _[[[spell:aura of purity]]]_, _[[[spell:death ward]]]_ ||
 || 17th || _[[[spell:circle of power]]]_, _[[[spell:mass cure wounds]]]_ ||
 
-## Aether Turrets
+## Aether Turret
 
 _3rd-level Combat Medic feature_
 
-You have developed a set of four aetherically-empowered turrets that sit sheathed upon your back. You can mentally command them to float around you, requiring no action, or return them to your back in the same manner.
+You have developed an aetherically-empowered turret that sits sheathed upon your back when not in use. You can mentally command it to float over your shoulder, requiring no action, or return it to your back in the same manner. 
 
-The aether turrets are a magical ranged weapon that deal 1d6 force damage, with a range of 30/120 feet. When attacking with your aether turrets, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
+The Aether Turret are a magical ranged weapon that you are proficient with. It deals 1d6 force damage, with a range of 30/120 feet. When attacking with your Aether Turrets, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
+
+The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d10).
 
 ## Aetheric Link
 
 _3rd-level Combat Medic feature_
 
-You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your aetheric link. This link lasts until you give it another creature, or you finish a long rest.
+You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Aetheric Link. This link lasts until you give it another creature, or you finish a long rest.
 
-Whenever you deal damage with your aether turrets, the creature with your aetheric link gains a number of temporary hit points equal to the damage you dealt.
+Whenever you deal damage with your Aether Turrets, the creature with your Aetheric Link gains a number of temporary hit points equal to the damage you dealt.
 
 ## Aetheric Burst
 
 _5th-level Combat Medic feature_
 
-When you cast an artificer spell, you may choose a number of creatures you can see within 30 feet of you, up to your Intelligence modifier (minimum of 1). Roll a d6. Each of those creatures earn that many temporary hit points.  
+When you cast an artificer spell, you may choose a number of creatures you can see within 30 feet of you, up to your Intelligence modifier (minimum of 1). Roll a d6. Each of those creatures earn that many temporary hit points.
 
 ## Aetheric Charge
 
@@ -57,7 +59,10 @@ _9th-level Combat Medic feature_
 
 When the creature with your Aetheric Link loses all temporary hit points they have, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
 
-As an action, can you expend this Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
+You have two options for how to expend your Aetheric Charge:
+
+* **Turret Overcharge** When you attack with your Aether Turret, you can expend your Aetheric Charge to increase its damage by 2d6.
+* **Aether Bomb** As an action, you can expend your Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw vs your spell save DC. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
 
 ## 15th Level Feature 
 
