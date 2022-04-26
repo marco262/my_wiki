@@ -55,7 +55,9 @@ When you cast an artificer spell, you may choose a number of creatures you can s
 
 _9th-level Combat Medic feature_
 
-When the creature with your Aetheric Link loses all temporary hit points they have, you gain an Aetheric Charge. As an action, can you expend this Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
+When the creature with your Aetheric Link loses all temporary hit points they have, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
+
+As an action, can you expend this Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
 
 ## 15th Level Feature 
 
