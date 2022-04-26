@@ -35,7 +35,7 @@ _3rd-level Combat Medic feature_
 
 You have developed an aetherically-empowered turret that sits sheathed upon your back when not in use. You can mentally command it to float over your shoulder, requiring no action, or return it to your back in the same manner. 
 
-The Aether Turret are a magical ranged weapon that you are proficient with. It deals 1d6 force damage, with a range of 30/120 feet. When attacking with your Aether Turrets, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
+Your Aether Turret is a magical ranged weapon that you are proficient with. It deals 1d6 force damage, with a range of 30/120 feet. When attacking with your Aether Turret, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
 
 The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d10).
 
@@ -45,7 +45,7 @@ _3rd-level Combat Medic feature_
 
 You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Aetheric Link. This link lasts until you give it another creature, or you finish a long rest.
 
-Whenever you deal damage with your Aether Turrets, the creature with your Aetheric Link gains a number of temporary hit points equal to the damage you dealt.
+Whenever you deal damage with your Aether Turret, the creature with your Aetheric Link gains a number of temporary hit points equal to the damage you dealt.
 
 ## Aetheric Burst
 
