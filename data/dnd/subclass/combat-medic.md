@@ -24,10 +24,10 @@ You always have certain spells prepared after you reach particular levels in thi
 
 ||~ Artificer Level ||~ Combat Medic Spells ||
 || 3rd || _[[[spell:healing word]]]_, _[[[spell:shield of faith]]]_ ||
-|| 5th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
-|| 9th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
-|| 13th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
-|| 17th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
+|| 5th || _[[[spell:healing spirit]]]_, _[[[spell:warding bond]]]_ ||
+|| 9th || _[[[spell:beacon of hope]]]_, _[[[spell:life transference]]]_ ||
+|| 13th || _[[[spell:aura of purity]]]_, _[[[spell:death ward]]]_ ||
+|| 17th || _[[[spell:circle of power]]]_, _[[[spell:mass cure wounds]]]_ ||
 
 ## Aether Turrets
 
