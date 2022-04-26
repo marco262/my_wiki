@@ -37,7 +37,7 @@ You have developed an aetherically-empowered turret that sits sheathed upon your
 
 Your Aether Turret is a magical ranged weapon that you are proficient with. It deals 1d6 force damage, with a range of 30/120 feet. When attacking with your Aether Turret, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
 
-The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d10).
+The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6).
 
 ## Aetheric Link
 
