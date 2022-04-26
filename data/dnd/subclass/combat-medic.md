@@ -29,37 +29,33 @@ You always have certain spells prepared after you reach particular levels in thi
 || 13th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
 || 17th || _[[[spell:placeholder]]]_, _[[[spell:placeholder]]]_ ||
 
-## Nouliths
+## Aether Turrets
 
 _3rd-level Combat Medic feature_
 
-You have developed a set of nouliths, four magically empowered turrets that sit sheathed upon your back, but can be made to float around you with a simple mental command, requiring no action from you, or return them to your back in the same manner.
+You have developed a set of four aetherically-empowered turrets that sit sheathed upon your back. You can mentally command them to float around you, requiring no action, or return them to your back in the same manner.
 
-The nouliths are a magical ranged weapon that deal 1d6 force damage, with a range of 30/120 feet. When attacking with the nouliths, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls. 
+The aether turrets are a magical ranged weapon that deal 1d6 force damage, with a range of 30/120 feet. When attacking with your aether turrets, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
 
-// TODO: Rename and reflavor
-
-## Kardia
+## Aetheric Link
 
 _3rd-level Combat Medic feature_
 
-You have learned to achieve an arcane connection with an ally, which lets you channel power to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Kardia.
+You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your aetheric link. This link lasts until you give it another creature, or you finish a long rest.
 
-Whenever you deal damage with your nouliths, X, Y, or Z, the ally who has your Kardia gains temporary HP equal to the damage you dealt.
+Whenever you deal damage with your aether turrets, the creature with your aetheric link gains a number of temporary hit points equal to the damage you dealt.
 
-// TODO: Rename
-
-## 5th Level Feature
+## Aetheric Burst
 
 _5th-level Combat Medic feature_
 
-TBC
+When you cast an artificer spell, you may choose a number of creatures you can see within 30 feet of you, up to your Intelligence modifier (minimum of 1). Roll a d6. Each of those creatures earn that many temporary hit points.  
 
-## 9th Level Feature
+## Aetheric Charge
 
 _9th-level Combat Medic feature_
 
-TBC
+When the creature with your Aetheric Link loses all temporary hit points they have, you gain an Aetheric Charge. As an action, can you expend this Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
 
 ## 15th Level Feature 
 
