@@ -70,7 +70,7 @@ _15th-level Combat Medic feature_
 
 You have learned to manage your efforts to provide assistance to your allies faster than ever. You can make a weapon attack, throw an Aether Bomb, or cast an artificer spell as a bonus action, rather than an action.
 
-You can use this feature a number of times equal to your Intelligence modifier (minimum 1), and you regain all expended uses when you finish a short rest.
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ----
 
