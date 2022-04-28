@@ -2,7 +2,7 @@
 
 [[div class="theme-restricted"]]
 
-This subclass is **Under Development** and is not yet available for play.
+This subclass is **Under Review** and may go through significant changes as a result of playtesting.
  
 [[/div]]
 
@@ -33,7 +33,7 @@ You always have certain spells prepared after you reach particular levels in thi
 
 _3rd-level Combat Medic feature_
 
-You have developed an aetherically-empowered turret that sits sheathed upon your back when not in use. You can mentally command it to float over your shoulder, requiring no action, or return it to your back in the same manner. 
+You have developed an aetherically-empowered turret that sits sheathed upon your back when not in use. You can mentally command it to float over your shoulder, requiring no action, or return it to your back in the same manner.
 
 Your Aether Turret is a magical ranged weapon that you are proficient with. It deals 1d6 force damage, with a range of 30/120 feet. When attacking with your Aether Turret, you can use your Intelligence modifier, instead of your Dexterity modifier, for the attack and damage rolls.
 
@@ -64,11 +64,13 @@ You have two options for how to expend your Aetheric Charge:
 * **Turret Overcharge.** When you attack with your Aether Turret, you can expend your Aetheric Charge to increase its damage by 2d6.
 * **Aether Bomb.** As an action, you can expend your Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw vs your spell save DC. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
 
-## 15th Level Feature 
+## Expedient Aid
 
 _15th-level Combat Medic feature_
 
-TBC
+You have learned to manage your efforts to provide assistance to your allies faster than ever. You can make a weapon attack, throw an Aether Bomb, or cast an artificer spell as a bonus action, rather than an action.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum 1), and you regain all expended uses when you finish a short rest.
 
 ----
 
