@@ -12,7 +12,7 @@ A combat medic is an artificer who has developed mechanisms by which to support 
 
 _3rd-level Combat Medic feature_
 
-You gain proficiency with the herbalism kit. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.
+You gain proficiency with the herbalism kit. If you already have this proficiency, you gain proficiency with one type of artisan's tools of your choice.
 
 ## Combat Medic Spells
 
