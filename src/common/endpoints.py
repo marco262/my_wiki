@@ -3,11 +3,12 @@ from threading import Thread
 from time import ctime
 
 import bcrypt
-from bottle import static_file, Bottle, view, request, auth_basic
 from bottle_websocket import websocket
 from git import Repo
 
-from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks
+from bottle import static_file, Bottle, view, request, auth_basic
+from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
+    get_player_soundboard_stats
 
 START_TIME = None
 # Default password: dancinglikeastripper
@@ -131,6 +132,18 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/player soundboard")
     def player_soundboard():
         return md_page("Player Soundboard", "common", build_toc=False)
+
+    @app.get("/player soundboard stats")
+    @auth_basic(gm_auth_check)
+    @view("common/player_soundboard_stats.tpl")
+    def player_soundboard_stats():
+        stats = get_player_soundboard_stats()
+        stats["title"] = "Player Soundboard Stats"
+        return stats
+
+
+def gm_auth_check(username, password):
+    return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)
 
 
 def visual_aid_auth_check(username, password):

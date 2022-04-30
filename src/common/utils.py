@@ -10,6 +10,7 @@ from html import unescape
 from html.parser import HTMLParser
 from json import dumps
 from logging.handlers import TimedRotatingFileHandler
+from operator import itemgetter
 from os.path import isfile
 from shutil import copyfile
 
@@ -19,7 +20,8 @@ from geventwebsocket import WebSocketError
 
 from bottle import template, HTTPError, redirect
 
-threading_lock = threading.Lock()
+player_soundboard_stats_threading_lock = threading.Lock()
+player_soundboard_stats_filepath = "player_soundboard_stats.json"
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -223,16 +225,56 @@ def track_player_soundboard_clicks(params):
     print("player soundboard click", params)
     if params["action"] != "load":
         return
-    with threading_lock:
-        filepath = "player_soundboard_stats.json"
+    with player_soundboard_stats_threading_lock:
         file_url = params["url"]
-        if os.path.isfile(filepath):
-            with open(filepath) as f:
+        if os.path.isfile(player_soundboard_stats_filepath):
+            with open(player_soundboard_stats_filepath) as f:
                 player_soundboard_stats = json.load(f)
         else:
             player_soundboard_stats = {}
         if file_url not in player_soundboard_stats:
             player_soundboard_stats[file_url] = []
-        player_soundboard_stats[file_url].append(time.ctime())
-        with open(filepath, "w") as f:
+        player_soundboard_stats[file_url].append(time.time())
+        with open(player_soundboard_stats_filepath, "w") as f:
             json.dump(player_soundboard_stats, f)
+
+
+def get_player_soundboard_stats():
+    last_week_start = time.time() - (7 * 86400)
+    last_week_stats = {}
+    unplayed_in_last_week = []
+    last_month_start = time.time() - (30 * 86400)
+    last_month_stats = {}
+    unplayed_in_last_month = []
+    all_time_stats = {}
+    unplayed_all_time = []
+    with player_soundboard_stats_threading_lock:
+        with open(player_soundboard_stats_filepath) as f:
+            player_soundboard_stats = json.load(f)
+    for filepath, times_played in player_soundboard_stats.items():
+        last_week = 0
+        last_month = 0
+        all_time = 0
+        for time_played in times_played:
+            if time_played > last_week_start:
+                last_week += 1
+            if time_played > last_month_start:
+                last_month += 1
+            all_time += 1
+        last_week_stats[filepath] = last_week
+        if last_week == 0:
+            unplayed_in_last_week.append(filepath)
+        last_month_stats[filepath] = last_month
+        if last_month == 0:
+            unplayed_in_last_month.append(filepath)
+        all_time_stats[filepath] = all_time
+        if all_time == 0:
+            unplayed_all_time.append(filepath)
+    return {
+        "last_week_stats": sorted(last_week_stats.items(), key=itemgetter(1), reverse=True),
+        "unplayed_in_last_week": unplayed_in_last_week,
+        "last_month_stats": sorted(last_month_stats.items(), key=itemgetter(1), reverse=True),
+        "unplayed_in_last_month": unplayed_in_last_month,
+        "all_time_stats": sorted(all_time_stats.items(), key=itemgetter(1), reverse=True),
+        "unplayed_all_time": unplayed_all_time,
+    }
