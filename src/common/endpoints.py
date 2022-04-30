@@ -7,7 +7,7 @@ from bottle import static_file, Bottle, view, request, auth_basic
 from bottle_websocket import websocket
 from git import Repo
 
-from src.common.utils import md_page, websocket_loop, send_to_websockets
+from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks
 
 START_TIME = None
 # Default password: dancinglikeastripper
@@ -17,7 +17,7 @@ GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcH
 visual_aid_type = "visual_aid"
 visual_aid_url = "/static/img/visual_aids/curse_of_strahd/gates_dim.jpg"
 visual_aid_title = "Welcome to Barovia!"
-visual_aid_version = "1.2.1"
+visual_aid_version = "1.2.2"
 websocket_list = []
 
 
@@ -124,6 +124,8 @@ def load_wsgi_endpoints(app: Bottle):
                 flush=True
             )
         params["version"] = visual_aid_version
+        if params.get("player_soundboard"):
+            track_player_soundboard_clicks(params)
         send_to_websockets(params, websocket_list)
 
     @app.get("/player soundboard")

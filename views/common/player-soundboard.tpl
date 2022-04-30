@@ -92,7 +92,8 @@
 * [Wiggle Wiggle Wiggle]($load|effect|wiggle_wiggle_wiggle.mp3)
 
 <script type="module">
-    import { init_links, init_soundboard } from "/js/common/visual_aid_backend.js";
+    import { init_links, init_soundboard, set_player_soundboard } from "/js/common/visual_aid_backend.js";
     init_links();
     init_soundboard();
+    set_player_soundboard();
 </script>

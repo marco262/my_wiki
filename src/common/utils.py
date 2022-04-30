@@ -1,7 +1,10 @@
+import json
 import logging
 import os
 import re
 import sys
+import threading
+import time
 from configparser import RawConfigParser
 from html import unescape
 from html.parser import HTMLParser
@@ -11,9 +14,12 @@ from os.path import isfile
 from shutil import copyfile
 
 import gevent
-from bottle import template, HTTPError, redirect
 from gevent import sleep
 from geventwebsocket import WebSocketError
+
+from bottle import template, HTTPError, redirect
+
+threading_lock = threading.Lock()
 
 
 # Taken from http://www.electricmonk.nl/log/2011/08/14/redirect-stdout-and-stderr-to-a-logger-in-python/
@@ -211,3 +217,22 @@ def send_to_websockets(payload, websocket_list):
         except Exception as e:
             print(f"Error when sending message to {ws}. {e}", flush=True)
             websocket_list.remove(ws)
+
+
+def track_player_soundboard_clicks(params):
+    print("player soundboard click", params)
+    if params["action"] != "load":
+        return
+    with threading_lock:
+        filepath = "player_soundboard_stats.json"
+        file_url = params["url"]
+        if os.path.isfile(filepath):
+            with open(filepath) as f:
+                player_soundboard_stats = json.load(f)
+        else:
+            player_soundboard_stats = {}
+        if file_url not in player_soundboard_stats:
+            player_soundboard_stats[file_url] = []
+        player_soundboard_stats[file_url].append(time.ctime())
+        with open(filepath, "w") as f:
+            json.dump(player_soundboard_stats, f)

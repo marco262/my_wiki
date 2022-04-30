@@ -1,5 +1,11 @@
 import { ajax_call } from "./utils.js";
 
+let player_soundboard = false;
+
+export function set_player_soundboard() {
+    player_soundboard = true;
+}
+
 export function init_links() {
     let visual_aid_buttons = document.getElementsByClassName("visual-aid-link");
     Array.prototype.forEach.call(visual_aid_buttons, function (link) {
@@ -47,7 +53,7 @@ function set_visual_aid(event, value) {
     let action = array[0]
     let params = {
         "action": action,
-        "debug": event.ctrlKey
+        "player_soundboard": player_soundboard
     };
     if (action === "visual_aid") {
         let url = array[1];
