@@ -4,7 +4,7 @@ Monks of the Way of the Kensei train relentlessly with their weapons, to the poi
 
 A kensei sees a weapon much in the same way a calligrapher or a painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.
 
-# Way of the Drunken Master
+# Way of the Kensei
 
 ||~ Monk Level ||~ Feature ||
 || 3rd || Path of the Kensei (2 weapons) ||

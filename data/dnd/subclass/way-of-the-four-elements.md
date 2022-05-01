@@ -17,6 +17,7 @@ Whenever you learn a new elemental discipline, you can also replace one elementa
 The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table.
 
 **Spells and Ki Points**
+
 ||~ Monk Levels ||~ Maximum Ki Points for a Spell ||
 || 5th -- 8th || 3 ||
 || 9th -- 12th || 4 ||
