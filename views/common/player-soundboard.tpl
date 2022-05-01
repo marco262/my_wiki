@@ -36,6 +36,7 @@
 * [😏 I Know Something You Don't~]($load|effect|requests/i_know_something_you_dont.ogg)
 * [🐷 Piggy Dippin!]($load|effect|requests/piggy_dippin.ogg)
 * [😵 EMOTIONAL DAMAGE!]($load|effect|requests/emotional_damage.ogg)
+* [😬 I Got It, I Got It]($load|effect|requests/i_got_it.ogg)
 
 ### Game Grumps
 
@@ -54,7 +55,18 @@
 * [💥 AWWWWWWwwwwww *explosion*]($load|effect|requests/awwwwwwwww_bkewww.mp3)
 * [🌼 Granola Eating Hippie Bullshit]($load|effect|requests/granola_eating_hippie_bullshit.mp3)
 * [🕹️ I'm the Video Game Boy!]($load|effect|requests/im_the_video_game_boy.ogg)
-* [♟️I'm Gonna Do Something Real Stupid...]($load|effect|requests/im_gonna_do_something_real_stupid.ogg)
+* [♟️ I'm Gonna Do Something Real Stupid...]($load|effect|requests/im_gonna_do_something_real_stupid.ogg)
+* [💀 I Don't Even Know If It's Alive]($load|effect|requests/i_dont_even_know_if_its_alive.ogg)
+* [🏖️ I Would Not Have Sex With That Sand Castle]($load|effect|requests/i_would_not_have_sex_with_that_sand_castle.ogg)
+* [😱 Yes Yes Yes NO NO NO!!]($load|effect|requests/yes_yes_yes_NO_NO_NO.ogg)
+* [🚦 Is It Go Time?]($load|effect|requests/is_it_go_time.ogg)
+* [😘 I'm A Bitch~]($load|effect|requests/im_a_bitch.ogg)
+* [😂 Oh My God, I Did Go First!]($load|effect|requests/oh_my_god_i_did_go_first.ogg)
+* [🥲 It's Fagony]($load|effect|requests/its_fagony.ogg)
+
+### Music
+
+* [🎶 Love Pony Mashup]($load|music|requests/dj_cummerbund.mp3)
 
 ## Effects
 
