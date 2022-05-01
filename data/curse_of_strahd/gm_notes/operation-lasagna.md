@@ -43,7 +43,9 @@ Why would Ireena agree? Van Richten will appeal to her sense of duty and the val
 
 ## Ezmerelda
 
-At Van Richten's request, she's been hiding our near Castle Ravenloft, sending raven familiars into the Castle to scout the place out. Hasn't had much, if any, interaction with the rest of Barovia since she last met the players. 
+At Van Richten's request, she's been hiding our near Castle Ravenloft, sending raven familiars into the Castle to scout the place out. Hasn't had much, if any, interaction with the rest of Barovia since she last met the players.
+
+She's found the [Heart of Sorrow](https://5e.tools/adventure.html#cos,5,k20.%20heart%20of%20sorrow) in Castle Ravenloft, but doesn't know what it's called. She knows the [witches](https://5e.tools/adventure.html#cos,5,k56.%20cauldron) are interested in it, and have made at least one report to someone she can't see about it, as well as Strahd's status.
 
 # So You Want To Know About Baba Lysaga...
 
