@@ -4,13 +4,13 @@
 
 <table>
     <tr>
-        <th>File</th>
         <th>Times Played</th>
+        <th>File list</th>
     </tr>
-    % for filepath, times_played in last_week_stats:
+    % for times_played, file_list in last_week_stats:
     <tr>
-        <td>{{ filepath }}</td>
         <td>{{ times_played }}</td>
+        <td>{{ ", ".join(file_list) }}</td>
     </tr>
     % end
 </table>
@@ -19,13 +19,13 @@
 
 <table>
     <tr>
-        <th>File</th>
         <th>Times Played</th>
+        <th>File list</th>
     </tr>
-    % for filepath, times_played in last_month_stats:
+    % for times_played, file_list in last_month_stats:
     <tr>
-        <td>{{ filepath }}</td>
         <td>{{ times_played }}</td>
+        <td>{{ ", ".join(file_list) }}</td>
     </tr>
     % end
 </table>
@@ -34,13 +34,13 @@
 
 <table>
     <tr>
-        <th>File</th>
         <th>Times Played</th>
+        <th>File list</th>
     </tr>
-    % for filepath, times_played in all_time_stats:
+    % for times_played, file_list in all_time_stats:
     <tr>
-        <td>{{ filepath }}</td>
         <td>{{ times_played }}</td>
+        <td>{{ ", ".join(file_list) }}</td>
     </tr>
     % end
 </table>

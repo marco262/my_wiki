@@ -5,6 +5,7 @@ import re
 import sys
 import threading
 import time
+from collections import defaultdict
 from configparser import RawConfigParser
 from html import unescape
 from html.parser import HTMLParser
@@ -241,13 +242,10 @@ def track_player_soundboard_clicks(params):
 
 def get_player_soundboard_stats():
     last_week_start = time.time() - (7 * 86400)
-    last_week_stats = {}
-    unplayed_in_last_week = []
+    last_week_stats = defaultdict(list)
     last_month_start = time.time() - (30 * 86400)
-    last_month_stats = {}
-    unplayed_in_last_month = []
-    all_time_stats = {}
-    unplayed_all_time = []
+    last_month_stats = defaultdict(list)
+    all_time_stats = defaultdict(list)
     with player_soundboard_stats_threading_lock:
         with open(player_soundboard_stats_filepath) as f:
             player_soundboard_stats = json.load(f)
@@ -261,20 +259,12 @@ def get_player_soundboard_stats():
             if time_played > last_month_start:
                 last_month += 1
             all_time += 1
-        last_week_stats[filepath] = last_week
-        if last_week == 0:
-            unplayed_in_last_week.append(filepath)
-        last_month_stats[filepath] = last_month
-        if last_month == 0:
-            unplayed_in_last_month.append(filepath)
-        all_time_stats[filepath] = all_time
-        if all_time == 0:
-            unplayed_all_time.append(filepath)
+        trimmed_filepath = os.path.basename(filepath)
+        last_week_stats[last_week].append(trimmed_filepath)
+        last_month_stats[last_month].append(trimmed_filepath)
+        all_time_stats[all_time].append(trimmed_filepath)
     return {
-        "last_week_stats": sorted(last_week_stats.items(), key=itemgetter(1), reverse=True),
-        "unplayed_in_last_week": unplayed_in_last_week,
-        "last_month_stats": sorted(last_month_stats.items(), key=itemgetter(1), reverse=True),
-        "unplayed_in_last_month": unplayed_in_last_month,
-        "all_time_stats": sorted(all_time_stats.items(), key=itemgetter(1), reverse=True),
-        "unplayed_all_time": unplayed_all_time,
+        "last_week_stats": sorted(last_week_stats.items(), key=itemgetter(0), reverse=True),
+        "last_month_stats": sorted(last_month_stats.items(), key=itemgetter(0), reverse=True),
+        "all_time_stats": sorted(all_time_stats.items(), key=itemgetter(0), reverse=True),
     }
