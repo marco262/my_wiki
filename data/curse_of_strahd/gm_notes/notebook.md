@@ -71,12 +71,15 @@ Notes
 
 ### Player Plans
 
-* Find the Spindel
+* You're Strahd? WHAT THE FUCK???
 
 ### Notes for me
 
+* Collate information on werewolves/hags for the party
+* Prep Werewolf Den/Marblepaw's body
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
 * Add images/sounds to notes:
+  * Cut down Piggy Dippin' to just the first part
 * Update Ireena's statblock to "Ireena, Reborn" (don't include spells)
 * Figure out how the hell the party is supposed to get the spindle without killing Baba Lysaga
   * They'll have to be creative ¯\_(ツ)_/¯
@@ -85,6 +88,7 @@ Notes
 * Make quieter:
 * Make louder:
   * Don't Be Suspicious
+  * I'm a bitch
 * Pull my python-markdown2 library on the media PC
 * Read up on Amber Temple
 * Have Strahd interact with the players again, and be both charming and vaguely threatening
