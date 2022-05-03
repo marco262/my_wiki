@@ -2,6 +2,7 @@
 <head>
     <title>{{title}} - Private 5e Wiki</title>
     <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2XK16KVEW"></script>
     <script>
