@@ -68,7 +68,11 @@ Notes
 
 ### Player Plans
 
-* You're Strahd? WHAT THE FUCK???
+* Figure out gift they'll bring for Strahd
+* Lay out Castle Ravenloft maps
+* Work out more questions Van Richten wants them to ask
+* Esmerelda will send in a spider to spy with them
+* Have Strahd reveal Bride Ceremony to party during dinner?
 
 ### Notes for me
 
