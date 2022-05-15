@@ -80,6 +80,7 @@ Enter another URL to set as Visual Aid here:
 * [Landmarks of Barovia](Landmarks of Barovia)
 * [Random Encounters](Random Encounters)
 * [Operation Lasagna](Operation Lasagna), aka How Do You Kill An Ancient Hag Who Knows Your Every Move?
+* [Who's That Pokémon? It's Strahd!](It's Strahd)
 
 # Other Pages
 

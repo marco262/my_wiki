@@ -58,12 +58,9 @@ Notes
 
 ## General Notes
 
-* COME UP WITH MORE IDEAS FOR FUCKING WITH BABA LYSAGA DO NOT WING IT THIS TIME
-* Next time Kelemen talks to Ireena, he wants to deepen their relationship. Go on a "date". (Figure out how Strahd will try to hook her) 
 * Get more battle/Vallaki/character theme music
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
-* Have Strahd approach Orin to help him win over Ireena
 * Do more second/third degree interactions with Strahd
 * INTRODUCE THE BRIDES
 
@@ -80,7 +77,6 @@ Notes
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
 * Add images/sounds to notes:
   * Cut down Piggy Dippin' to just the first part
-* Update Ireena's statblock to "Ireena, Reborn" (don't include spells)
 * Figure out how the hell the party is supposed to get the spindle without killing Baba Lysaga
   * They'll have to be creative ¯\_(ツ)_/¯
 * Add to Soundboard:
