@@ -111,7 +111,9 @@ Have fun!
 * [Zygrek Belview](/static/img/visual_aids/curse_of_strahd/zygfrek_belview.jpg), groundskeeper/guard for the Abbey
 * [Marzena Belview](/static/img/visual_aids/curse_of_strahd/marzena_belview.jpg), tethered to a post in the Abbey courtyard, scared of everyone
 
-# So You Want To Know About Vampires
+# Miscellaneous Notes
+
+[[accordion So You Want To Know About Vampires]]
 
 ## Vampires
 
@@ -158,7 +160,9 @@ Awakened to an endless night, vampires hunger for the life they have lost and sa
 * A vampire spawn is vicious and aggressive, driven mostly by an instinctual need to feed. It will often use its ability to climb on walls and ceilings to ambush its victim, latch on, and try to drain it dry before it can fight back.
 * A vampire spawn will attack with its claws. A vampire spawn's claws are especially adept at snagging targets and pulling them in, at which point it will attempt to bite its target and drain its blood.
 
-# The Rozana (aka the Ladies Three)
+[[/accordion]]
+
+[[accordion The Rozana (aka the Ladies Three)]]
 
 Before Strahd von Zarovich - called the "Shadowsworn" by the Mountain Folk - or his predecessors, the Delmoreans, conquered Barovia, it was inhabited by a civilization that called itself the First Folk. The First Folk worshipped the Rozana, or Ladies Three - a trio of ancient goddesses that ruled over the land - and made sacrifices in their name, seeking omens and fortune in the entrails of beasts and mortals alike. 
 
@@ -193,6 +197,68 @@ Today, the Ladies and their rituals are lost to time and mist, the power of the 
  * Connected to the Forest Fane
  * Holy symbol is a Wolf
  * Traditional sacrifice: A predator beast, its organs removed and sealed in stone jars.
+
+[[/accordion]]
+
+[[accordion Rules of Hospitality in Barovia]]
+
+## Hosts
+
+* **Set a specific start and end date for the visit.** A good host can become a bad host very quickly when guests overstay their welcome.
+* **Be a prepared hostess.** Inquire ahead of time about any food allergies or restricted diets.
+* **Ensure everyone's comfortable.** 
+* **Do not speak poorly of the servants or others in your household around your guests.** 
+* **Make your home visitor-friendly.** All rooms intended for guests to visit should be left open, cleaned, and ready for company. Any other rooms should be closed, with the assumption that your guests will respect your privacy and not go nosing around.
+
+## Guests
+
+* **Never make a surprise visit.** Don't drop in on friends or family, no matter how comfortable you feel with them. For acquaintances especially, always announce your arrival ahead of time, through a letter or messenger, and wait for an acknowledgement and formal invitation.
+* **Don't overstay your welcome.** Err on the side of making your visit shorter rather than longer. This rule is a good way to make sure you're not over-imposing with the potential side benefit of having your hosts feel really, truly sorrowful when you leave. It is advised that guests should never stay a full week, with three days as the suggested maximum visit.
+* **Let your host know how long you'll be staying.** It's suggested that one should announce the length of his or her visit upon arrival, if the hosts have not already stipulated how long they'd like the visit to be.
+* **Conform.** If invited to spend a few days at a friend's house, conform as much as possible to the habits of the family. When parting for the night, inquire respecting the breakfast hour, and ascertain at what time the family meet for prayers. It's always good manners to do what you can to not disrupt the flow of your hosts or their household.
+* **Avert your attention.** At the end of the day, it will always be true that being invited into someone's home means you may witness some awkwardness. If you should be witness to such unfortunate events, it would behoove you to ignore such instances and allow the host to regain control of the situation. In addition, it is considered rude to carry news of the goings-on within the home of your hose to outsiders. Well-bred persons will never repeat what a Mrs. A. said, nor tell what Mr. A. did, when they were visiting at their house. Such discrepancies of good manners are perfectly unendurable, and no respectable person will excuse them.
+* **Bring gifts.** While it is not expected that every visitation requires the guests arrive with a gift, doing so is a strong sign of respect and highly encouraged, especially when visiting a host with whom you wish to make a good impression. In general, any gift that will beautify a home, like flowers or art, are welcome. There are some additional rules around gifts which must be kept in mind:
+  * **No food.** When attending a dinner, one should not bring food as a gift, unless it is agreed upon beforehand. It is generally seen as rude, as it implies the assumption that the host will not be able to feed all their guests without assistance.
+  * **Be mindful of cost.** Any gift should not be too cheap or too expensive. The former implies you believe the host to be unrefined or unused to fine objects. However, the latter will appear to be showboating; an attempt to emphasize your advantageous wealth over the host. A good rule of thumb is to only buy gifts that will fit well with the host's existing decor. When in doubt, or if you haven't been to the host's home before, err on the side of slightly cheaper than what you expect to see in their home. If you guess wrong, this will allow the host an opportuntiy to impress you with their wealth.
+  * **Wine.** Wine is an exception to most rules around gifts in Barovia, as it is nearly always a welcome gift. The rules around cost are relaxed a little: a cheap wine will restock the host's late-party supply, and an expensive wine can be saved for a special occasion. However, suggesting that a gift of wine be drunk and shared at the given gathering is a major faux pas. All gifts should be expected to be used purely at the host's discretion.
+* **Say yes.** When a host proposes activities for amusement or entertainment, go with the flow and enjoy what they have planned for you. Another point of good-breeding is to be punctual at meals. if, however, a guest should fail in this particular, a well-bred entertainer will not only take no notice of it, but attempt to set the late comer as much at his ease as possible.
+* **Be inclusive.** Should you receive an invitation from a third party during your stay, it's only polite to invite your host along unless it's a date or some other outing where it would be inappropriate. Your host ought to do the same for you, though, either should generally refuse to accept an invitation to him alone.
+* **Don't cause any trouble...** ...but don't apologize for your presence either! Give as little trouble as possible; and never think of apologizing for the extra trouble which your visit occasions. Such an apology implies that the host cannot conveniently entertain you.
+* **Be tidy.** Guests ought to make efforts to avoid making messes, or make their presence a burden on the host or their servants. However, if the host has servants, guests should leave any cleanup to the servants. The staff of any household are the most knowledgeable about where cleaning supplies are kept, if certain items need special consideration when cleaning, etc.
+* **Don't be too needy.** Guests must be careful not to demand too constant attention from their entertainers, especially in the morning when the hostess has duties of her own. That said, it's not right to seek entertainment elsewhere and avoid your hosts, either. The theme here is essentially to make yourself available, but not too available, while also submitting to the desires of those you're indebted to, which basically sums up most rules of etiquette.
+* **Give thanks.** It is presumed that few people will leave a host's house without some expression of regret, and some acknowledgement proffered for the pleasure that has been afforded them. This small act of politeness is indispensable, not in the form of a set speech, but by a natural flowing forth of right feeling.
+* **Let them know you made it home safely.** A letter is the suggested medium for informing your hosts that you made it home okay and to reiterate your appreciation.
+* **Reciprocate with an invitation.** The chain which binds society together is composed of innumerable links, and it should be the part of hosts and guests to keep them uniformly bright; and to let neither moth nor rust corrupt them. Your final duty as a good guest is to offer your former host an invitation to stay with you, if such a thing would be desirable. That said, when making visits to those of considerable station above you, such invitations can be avoided without concern; it is understood that while the wealthy and privileged can provide well for those of lower station during visitations, it is well understood that reciprocation is not always reasonable.
+
+## Table Manners
+
+* Do not smell or examine any of the food.
+* Do not chew with your mouth open.
+* Do not speak with food in your mouth. 
+* Be polite to the waiting staff.
+  * Do not shout or voice your displeasure them.
+  * Never apologize for calling them forward to serve you – as it is their job to do so!
+* Food is to be enjoyed, not rushed. 
+* Do not eat too much of anything, to the point that it is noticeable. 
+* Do not pick up boned meat to clean remnants of meat off the bone. 
+* Do not comment overtly about any of the dishes – everything should be considered as favourable as the next.
+* Once the meal is over, all guests should retire to the drawing room for at least one hour afterwards
+* Conversation should always be light and positive, and refrain from any heated debates or arguments.
+
+## Breaches of Etiquette
+
+* To remove one's gloves when making a formal call.
+* To stare around the room.
+* To go to the room of an invalid unless invited.
+* To look at your watch when calling.
+* To walk around the room when waiting for the hostess.
+* To open or shut a door, raise or lower a window curtain, or in any other way alter the arrangement of a room when visiting.
+* Turn your chair so that your back faces another guest.
+* To play with any ornament in the room or to seem to be aware of anything but the company present while visiting.
+* To remain when you find the host or hostess dressed to go out.
+* To make remarks about another caller who has just left the room.
+
+[[/accordion]]
 
 [[accordion Meanwhile in Waterdeep...]]
 
