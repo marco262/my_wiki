@@ -90,6 +90,7 @@ Find dude and assassinate him
 
 * [Weapon Shop Robbery](weapon-shop-robbery)
 * [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
+* [Someone Needs To Die](Someone Needs To Die)
 
 ## TODO
 
