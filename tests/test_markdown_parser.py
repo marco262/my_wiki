@@ -203,3 +203,22 @@ Text block
         Fake text"""
         md = MarkdownParser()
         self.assertEqual(expected, md.add_breadcrumbs(text))
+
+    @mock.patch("src.common.markdown_parser.template", return_value="PARSER_MOCK_OUTPUT")
+    def test_generate_npc_blocks(self, *m):
+        text = """<p>I am a bear</p>
+        <p>[[npc cr=2|race=Human]]</p>
+        <p>Rawr</p>"""
+        expected = """<p>I am a bear</p>
+        <p>PARSER_MOCK_OUTPUT</p>
+        <p>Rawr</p>"""
+        md = MarkdownParser()
+        self.assertEqual(expected, md.generate_npc_blocks(text))
+        m[0].assert_called_with(
+            "dnd/npc-sheet.tpl", cr="2", race="Human", role="", speed="30 ft.", stat_bonus=1, prof_bonus=2,
+            armor_class=13, hit_points=93, damage_resistances="", damage_immunities="", senses="",
+            special_abilities="",
+            actions="<p><strong><em>Weapon attack x2.</em></strong> +3 to hit. <strong>Hit:</strong> 9 (2d6 + 2) damage.</p>\n",
+            reactions="", attack=3, damage="9 (2d6 + 2)", save_dc=13, num_attacks=2, width="400px", untrained="+1",
+            proficient="+3", expertise="+5"
+        )

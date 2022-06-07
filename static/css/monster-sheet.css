@@ -66,3 +66,24 @@
 .monster-sheet .ability-score-name {
     font-weight: bold;
 }
+
+.npc-sheet {
+    display: inline-block;
+}
+
+.npc-sheet-hover {
+    color: blue;
+    text-decoration: underline dotted blue;
+    cursor: help;
+    display: inline-block;
+}
+
+.npc-sheet .monster-sheet {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.npc-sheet-hover:hover ~ .monster-sheet {
+    visibility: visible;
+}

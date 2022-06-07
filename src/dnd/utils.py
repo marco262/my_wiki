@@ -7,7 +7,6 @@ from typing import List, Optional, Union
 import toml
 from bottle import HTTPError, redirect, template
 
-from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import md_page, title_to_page_name
 
 
@@ -91,6 +90,8 @@ def open_monster_sheet(name):
         toml_dict = toml.load(pjoin("data", toml_path))
         if "redirect" in toml_dict:
             return redirect(toml_dict["redirect"])
+        # Avoiding circular dependencies
+        from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
         md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
         return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 

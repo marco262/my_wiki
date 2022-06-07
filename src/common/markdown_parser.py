@@ -7,8 +7,9 @@ import re
 import toml
 from bottle import template, TemplateError
 from markdown2 import Markdown
-
 from src.common.utils import title_to_page_name
+from src.dnd.npc_generator import create_npc
+from src.dnd.utils import to_mod
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
@@ -48,6 +49,7 @@ class MarkdownParser:
         text = self.convert_wiki_divs(text)
         text = self.build_bibliography(text)
         text = self.convert_gm_notes_inserts(text)
+        text = self.generate_npc_blocks(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -218,6 +220,23 @@ class MarkdownParser:
     <summary>GM Notes for {name}</summary>
 </details>"""
             )
+        return text
+
+    def generate_npc_blocks(self, text):
+        for m in re.finditer(r"\[\[npc (.*?)]]", text):
+            d = dict([x.split("=") for x in m.group(1).split("|")])
+            npc = create_npc(**d)
+            npc["width"] = d.get("width", "400px")
+            npc["untrained"] = to_mod(npc["stat_bonus"])
+            npc["proficient"] = to_mod(npc["stat_bonus"] + npc["prof_bonus"])
+            npc["expertise"] = to_mod(npc["stat_bonus"] + npc["prof_bonus"] * 2)
+            weapon_attack = d.get('weapon', 'Weapon attack')
+            npc["actions"] = [f"***{weapon_attack} x{npc['num_attacks']}.*** {to_mod(npc['attack'])} to hit. "
+                              f"**Hit:** {npc['damage']} damage."] + npc["actions"]
+            for section in ["special_abilities", "actions", "reactions"]:
+                npc[section] = self.parse_md("\n\n".join(npc[section])) if npc[section] else ""
+            t = template("dnd/npc-sheet.tpl", **npc)
+            text = text.replace(m.group(0), t)
         return text
 
 

@@ -31,13 +31,13 @@ The meeting that night will happen in the street in front of the warehouse, with
 
 ## NPCs
 
-* Quizno Bubblypots, Goblin Prodigy ([stats](https://5e.tools/bestiary.html#zhentarim%20thug_oota))
+* Quizno Bubblypots, Goblin Prodigy ([[npc cr=1/2|race=Goblin|weapon=Alchemist's Fire]])
   * Well-spoken goblin
   * Considers himself smartest goblin ever
   * Tries to use articles and correct pronouns, but falls into goblin talk when he gets frustrated
-* Goblin Thug ([stats](https://5e.tools/bestiary.html#goblin%20gang%20member_kkw))
-* Duergar Boss ([stats](https://5e.tools/bestiary.html#battlehammer%20dwarf_idrotf))
-* Duergar Thugs ([stats](https://5e.tools/bestiary.html#shield%20dwarf%20guard_skt))
+* Goblin Thug ([[npc cr=1/4|race=Goblin]])
+* Duergar Boss ([[npc cr=1/2|race=Duergar]])
+* Duergar Thugs ([[npc cr=1/4|race=Duergar]])
 
 ## Quick Notes
 
