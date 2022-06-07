@@ -104,6 +104,7 @@ def load_spells():
     spells = {}
     path = None
     print("Loading spells into memory", end='')
+    from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
         for path in glob("data/dnd/spell/*"):
             print(".", end='', flush=True)
@@ -135,6 +136,7 @@ def load_magic_items():
     magic_items = {}
     path = None
     print("Loading magic items into memory", end='')
+    from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
         for path in glob("data/dnd/equipment/magic-items/*"):
             print(".", end='', flush=True)
