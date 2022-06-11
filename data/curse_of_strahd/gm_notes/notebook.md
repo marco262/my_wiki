@@ -61,8 +61,6 @@ Notes
 * Get more battle/Vallaki/character theme music
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
-* Do more second/third degree interactions with Strahd
-* INTRODUCE THE BRIDES
 
 ## Notes for Next Session
 
@@ -76,6 +74,35 @@ Notes
 
 ### Notes for me
 
+* Find references/make tokens
+  * Ludmilla
+  * Volenta
+  * Escher
+  * Sasha
+  * Rahadin
+  * Lief
+  * Rooms in Main Floor
+  * Rooms in Larder
+  * Rooms in Court
+* Prep Strahd's answers
+* Get soundtracks
+* Write descriptions for missing/changed rooms
+  * K19
+  * K57
+* Place light sources in Ravenloft
+* Draw out territories in Ravenloft
+* Build out stat blocks
+  * Anastrasya
+  * Ludmilla
+  * Volenta
+  * Escher
+  * Rahadin
+* Finish putting monster tokens in Ravenloft
+* Read up on the Bride Ceremony
+
+Other shit
+
+* After the players return from the dinner, they'll meet van Richten who will mention the Bride Ceremony 
 * Collate information on werewolves/hags for the party
 * Prep Werewolf Den/Marblepaw's body
 * Victor will use Modify Memory to "lobotomize" the malcontent carpenter who lost his daughter
@@ -91,7 +118,5 @@ Notes
   * I'm a bitch
 * Pull my python-markdown2 library on the media PC
 * Read up on Amber Temple
-* Have Strahd interact with the players again, and be both charming and vaguely threatening
-* After the players have met Strahd again, they'll run into van Richten who will mention the Bride Ceremony 
 
 #### Vallaki
