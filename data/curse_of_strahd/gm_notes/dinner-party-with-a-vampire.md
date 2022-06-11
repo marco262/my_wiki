@@ -26,6 +26,17 @@
 # Q&A
 
 * **Will he submit to Zone of Truth?** Yes, without concern or complaint.
+* **Did Strahd purposely allow all the adventurers, including us, into Barovia?** Indeed.
+* **Why?** It's nothing personal. You were chosen because you were easy prey of my werewolf servants. They're given standing orders to herd any worthwhile or entertaining game into my domain.
+* **Did he create the parade? What is the purpose of the parade?** In a sense. What do you know of the parade? ... yes, that's the sum of it. Tell me where you come from? Does your ruler prefer shows of force? Regular reminders to his subjects of his reach and power? This is one of mine. A reminder to my subjects of the power of their ruler.
+* **How long has he been Count?** I have lost count of the years. Well over 5 centuries, I'm sure.
+* **Has he made other Vampires? How many?** A small handful. I only create consorts for those who are particularly worthy.
+* **Do they have the ability to leave? Have they?** Any and only those I allow to leave can do so. (He lets the vampires around the table answer the second question)
+* **How do we get home?** Through earning my favor.
+* **What's his version of events with his brother & Bride?** (Strahd refuses to answer, and Rahadin asks that the party not bring up such painful memories)
+* **Who are his enemies? Who are his allies?** I have no allies, aside from those you see around you. The People of Barovia are my subjects, and I am their ruler. My enemies are Barovia's enemies. Any who seek to harm me thus harm Barovia, and must be dealt with as such.
+* **How can we make Barovia less terrible and sad and depressing?** Why do think this is your role?
+* **What's the deal with babies being born without souls? How is that helpful?** That is not by choice. It is a consequence of this land. Souls do not pass on, they 
 * **Why Ireena?** Do you believe in souls? More importantly, do you believe in soulmates? When I look at Ireena, I know who she truly is: My beloved Tatyana. My one. My only. We are destined for each other. Did you not feel it, Ireena? When you looked upon Kelemen's face? A connection? My apologies for the facade, but when the world sees you as a monster, do you have any choice but to play the part?
   * *to Marblepaw* Destiny destiny destiny
   * *to Orin* Romance romance romance
