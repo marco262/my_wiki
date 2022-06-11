@@ -202,12 +202,12 @@ Today, the Ladies and their rituals are lost to time and mist, the power of the 
 
 [[accordion Rules of Hospitality in Barovia]]
 
-The rules of polite behavior, especially when visiting another's home, are very dense and well-defined in Barovia. While there's no way Ireena can give you all a thorough course on etiquette, a quick refresher on the way to the dinner party is certainly doable. Below is an excerpt of those impromptu lessons, with small grab bag of general remembered etiquette lessons, as well as specific advice for the upcoming dinner party in particular.
+The rules of polite behavior, especially when visiting another's home, are very dense and well-defined in Barovia. While there's no way Ireena can give you all a thorough course on etiquette, a quick refresher on the way to the dinner party is certainly doable. Below is an excerpt of those impromptu lessons, with a small grab bag of general remembered etiquette lessons, as well as specific advice for the upcoming dinner party in particular.
 
 ## Hosts
 
 * **Set a specific start and end date for the visit.** A good host can become a bad host very quickly when guests overstay their welcome.
-* **Be a prepared hostess.** Inquire ahead of time about any food allergies or restricted diets.
+* **Be a prepared host.** Inquire ahead of time about any food allergies or restricted diets.
 * **Ensure everyone's comfortable.** 
 * **Do not speak poorly of the servants or others in your household around your guests.** 
 * **Make your home visitor-friendly.** All rooms intended for guests to visit should be left open, cleaned, and ready for company. Any other rooms should be closed, with the assumption that your guests will respect your privacy and not go nosing around.
