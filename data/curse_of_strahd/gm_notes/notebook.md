@@ -75,12 +75,6 @@ Notes
 ### Notes for me
 
 * Find references/make tokens
-  * Ludmilla
-  * Volenta
-  * Escher
-  * Sasha
-  * Rahadin
-  * Lief
   * Rooms in Main Floor
   * Rooms in Larder
   * Rooms in Court

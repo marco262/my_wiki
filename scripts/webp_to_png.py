@@ -4,11 +4,11 @@ from os.path import splitext
 
 from PIL import Image
 
-dir = r"C:\Users\marco\Documents\Github\my_wiki\static\img\visual_aids\pirates"
+dir = r"C:\Users\marco\Documents\Github\my_wiki\static\img\visual_aids\curse_of_strahd"
 # dir = r"C:\Users\marco\Pictures"
 
 in_ext = ".webp"
-out_ext = ".jpg"
+out_ext = ".png"
 
 
 for filepath in glob(dir + r"\*" + in_ext):

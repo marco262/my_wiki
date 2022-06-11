@@ -81,6 +81,7 @@ Enter another URL to set as Visual Aid here:
 * [Random Encounters](Random Encounters)
 * [Operation Lasagna](Operation Lasagna), aka How Do You Kill An Ancient Hag Who Knows Your Every Move?
 * [Who's That Pokémon? It's Strahd!](It's Strahd)
+* [Dinner Party With A Vampire](Dinner Party With A Vampire)
 
 # Other Pages
 

@@ -45,7 +45,11 @@
 
 **Castle Ravenloft**
 
-* [Entering the Castle]($load|youtube|https://www.youtube.com/watch?v=nVoFLM_BDgs)
+* [Dining Hall]($load|youtube|https://www.youtube.com/watch?v=nVoFLM_BDgs)
+* [Graveyard]($load|youtube|https://www.youtube.com/watch?v=CC_SKcMBpjc)
+* [Opus 186 Eternal Night]($load|youtube|https://www.youtube.com/watch?v=Yaq0KuIHQNQ)
+* [An Ominous Place]($load|youtube|https://www.youtube.com/watch?v=3LiJZRw7bDQ)
+* [Ominous Ambience]($load|youtube|https://www.youtube.com/watch?v=7zz8Qs9JUfo)
 
 [[accordion Other Music]]
 
@@ -75,6 +79,7 @@
 * [Mists of Ravenloft]($load|ambience|curse_of_strahd/D&D Ambience CoS Mists of Ravenloft.mp3)
 * [Svalich Woods]($load|ambience|curse_of_strahd/D&D Ambience CoS Svalich Woods.mp3)
 * [Village of Barovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Barovia.mp3)
+* [Castle Ravenloft]($load|music|D&D Ambience CoS Castle Ravenloft.mp3)
 * [Town of Vallaki]($load|ambience|curse_of_strahd/D&D Ambience CoS Town of Vallaki.mp3)
 * [Village of Krezk]($load|ambience|curse_of_strahd/D&D Ambience CoS Village of Krezk.mp3)
 * [Abbey of St Markovia]($load|ambience|curse_of_strahd/D&D Ambience CoS Abbey of St Markovia.mp3)
