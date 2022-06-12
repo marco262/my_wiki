@@ -17,7 +17,7 @@
   * [2](^curse_of_strahd/anastrasya_2.jpg) [3](^curse_of_strahd/anastrasya_3.jpg) [4](^curse_of_strahd/anastrasya_rude.jpg) [5](^curse_of_strahd/anastrasya_smile.jpg) [6](^curse_of_strahd/anastrasya_angry.jpg)
 * [Volenta](^curse_of_strahd/volenta.jpg) ([stats](https://i.imgur.com/VPtDgcC.png))
   * [1](^curse_of_strahd/volenta_mask_off.jpg) [2](^curse_of_strahd/volenta_makeup.png) [3](^curse_of_strahd/volenta_hot.jpg) [4](^curse_of_strahd/volenta_creepy.jpg)
-* [Escher](^curse_of_strahd/escher_1.png) ([stats](https://i.imgur.com/yLzaDiO.png))
+* [Escher](^curse_of_strahd/escher_1.jpg) ([stats](https://i.imgur.com/yLzaDiO.png))
   * ***Taunt (2/Day).*** The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
   * [1](^curse_of_strahd/escher_1.jpg) [2](^curse_of_strahd/escher_2.jpg) [lol](^curse_of_strahd/escher_lol.jpg)
 * [Lief Liepsiege](^curse_of_strahd/lief_liepsiege.png)
