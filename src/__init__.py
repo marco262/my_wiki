@@ -4,7 +4,9 @@ from configparser import RawConfigParser
 
 from bottle import Bottle
 
-MODULE_NAMES = ["common", "dnd", "numenera", "dragon_heist", "waterdeep", "curse_of_strahd", "pirates", "arr"]
+MODULE_NAMES = [
+    "common", "dnd", "numenera", "dragon_heist", "waterdeep", "curse_of_strahd", "pirates", "arr", "sandpoint"
+]
 
 
 def load_wsgi_endpoints(app: Bottle, cfg: RawConfigParser):

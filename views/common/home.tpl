@@ -5,6 +5,7 @@
 * [Curse of Strahd](/curse_of_strahd/)
 * [Here There Be Pirates!](/pirates/)
 * [A Realm Reborn](/arr/)
+* [Sandpoint](/sandpoint/)
 
 <div id="last-commit-text">
     <strong>Last commit:</strong> {{ commit_history }}<br>
