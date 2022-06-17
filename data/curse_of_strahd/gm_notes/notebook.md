@@ -10,8 +10,8 @@
 ### Ethel
 
 * Armor Class: 14
-* Passive Per: 14
-* Passive Ins: 14
+* Passive Per: 15
+* Passive Ins: 15
 
 Cursed with Lycanthropy
 
@@ -25,8 +25,8 @@ Cursed with Lycanthropy
 ### Orin
 
 * Armor Class: 14
-* Passive Per: 14
-* Passive Ins: 11
+* Passive Per: 11
+* Passive Ins: 15
 
 Notes
 
@@ -37,7 +37,7 @@ Notes
 [Marblepaw in booties](^curse_of_strahd/marblepaw_booties.jpg)
 
 * Armor Class: 13
-* Passive Per: 17
+* Passive Per: 18
 * Passive Ins: 14
 
 ### NPCs
@@ -61,6 +61,12 @@ Notes
 * Get more battle/Vallaki/character theme music
 * Traumatize Orin/Marblepaw
 * Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
+* Strahd may be willing to let Ireena consecrate the remaining Fanes, in return for her promising herself to him.
+* Van Richten is absolutely convinced that Strahd is evil and perfectly manipulating people. He will try to convince Ireena that the only way to end Strahd for good is through the Bride Ceremony.
+* The Abbot will try to kidnap and keep Ireena if he finds out she's the Bride.
+* Have Ireena show reservations towards being courted by Strahd.
+* Make the players like Strahd.
+* When Ireena kills herself to kill Strahd, he is severely weakened but not killed outright. The players will have to decide whether they want to help him or kill him.
 
 ## Notes for Next Session
 
@@ -73,6 +79,10 @@ Notes
 * Have Strahd reveal Bride Ceremony to party during dinner?
 
 ### Notes for me
+
+* Have Strahd send Ireena a love letter
+
+#### Other shit
 
 * Find references/make tokens
   * Rooms in Main Floor
@@ -93,9 +103,6 @@ Notes
   * Rahadin
 * Finish putting monster tokens in Ravenloft
 * Read up on the Bride Ceremony
-
-Other shit
-
 * After the players return from the dinner, they'll meet van Richten who will mention the Bride Ceremony 
 * Collate information on werewolves/hags for the party
 * Prep Werewolf Den/Marblepaw's body
