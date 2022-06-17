@@ -204,7 +204,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Battleaxe || 10 gp || 1d8 slashing || 4 lb. || Versatile (1d10) ||
-|| Dwarven Throwing Axe || 3 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
+|| Dwarven Throwing Axe[((bibcite homebrew))] || 3 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
 || Flail || 10 gp || 1d8 bludgeoning || 2 lb. || -- ||
 || Glaive || 20 gp || 1d10 slashing || 6 lb. || Heavy, reach, two-handed ||
 || Greataxe || 30 gp || 1d12 slashing || 7 lb. || Heavy, two-handed ||
@@ -261,6 +261,8 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 **Special.** A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
 
 **Thrown.** If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+You may draw a sheathed weapon with the thrown property as part of the attack you make with that weapon.[((bibcite homebrew))] 
 
 **Two-Handed.** Attacking with this weapon requires two hands.[((bibcite errata))]
 
