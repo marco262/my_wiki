@@ -32,37 +32,40 @@ def set_options(hp="average", damage="average"):
     g_dmg = damage
 
 
-def create_npc(cr, race="", role="", damage_die_type="", hp="", dmg="", **kwargs):
+def create_npc(cr, race="", role="", damage_die_type="", hp_option=None, dmg_option=None, **kwargs):
     if race == "":
         race = "Human"
-    if hp == "":
-        hp = g_hp
-    if dmg == "":
-        dmg = g_dmg
+    if not hp_option:
+        hp_option = g_hp
+    if not dmg_option:
+        dmg_option = g_dmg
+    # Allow "hp" as a valid kwarg
+    if "hp" in kwargs:
+        kwargs["hit_points"] = kwargs["hp"]
     cr_values = cr_dict[cr]
     atk_dict = get_attack(cr, race, role)
     def_dict = get_defense(cr, race, role)
-    damage = get_dmg_value(atk_dict["total_damage"], dmg, atk_dict["num_attacks"], damage_die_type)
+    damage = get_dmg_value(atk_dict["total_damage"], dmg_option, atk_dict["num_attacks"], damage_die_type)
     save_dc = atk_dict["save_dc"]
     return {
         "cr": cr,
         "race": race,
         "role": role,
-        "speed": get_speed(races[race]),
-        "stat_bonus": cr_values["stat_bonus"],
-        "prof_bonus": cr_values["prof_bonus"],
-        "armor_class": def_dict["ac"],
-        "hit_points": get_hp_value(def_dict["hp"], hp),
-        "damage_resistances": get_trait(race, role, "damage_resistances"),
-        "damage_immunities": get_trait(race, role, "damage_immunities"),
-        "senses": get_trait(race, role, "senses"),
-        "special_abilities": fill_placeholders(get_list(race, role, "special_abilities"), damage, save_dc),
-        "actions": fill_placeholders(get_list(race, role, "actions"), damage, save_dc),
-        "reactions": fill_placeholders(get_list(race, role, "reactions"), damage, save_dc),
-        "attack": atk_dict["attack"],
-        "damage": damage,
-        "save_dc": save_dc,
-        "num_attacks": atk_dict["num_attacks"],
+        "speed": kwargs.get("speed") or get_speed(races[race]),
+        "stat_bonus": kwargs.get("stat_bonus") or cr_values["stat_bonus"],
+        "prof_bonus": kwargs.get("prof_bonus") or cr_values["prof_bonus"],
+        "armor_class": kwargs.get("armor_class") or def_dict["ac"],
+        "hit_points": kwargs.get("hit_points") or get_hp_value(def_dict["hp"], hp_option),
+        "damage_resistances": kwargs.get("damage_resistances") or get_trait(race, role, "damage_resistances"),
+        "damage_immunities": kwargs.get("damage_immunities") or get_trait(race, role, "damage_immunities"),
+        "senses": kwargs.get("senses") or get_trait(race, role, "senses"),
+        "special_abilities": kwargs.get("special_abilities") or fill_placeholders(get_list(race, role, "special_abilities"), damage, save_dc),
+        "actions": kwargs.get("actions") or fill_placeholders(get_list(race, role, "actions"), damage, save_dc),
+        "reactions": kwargs.get("reactions") or fill_placeholders(get_list(race, role, "reactions"), damage, save_dc),
+        "attack": kwargs.get("attack") or atk_dict["attack"],
+        "damage": kwargs.get("damage") or damage,
+        "save_dc": kwargs.get("save_dc") or save_dc,
+        "num_attacks": kwargs.get("num_attacks") or atk_dict["num_attacks"],
     }
 
 

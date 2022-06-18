@@ -4,8 +4,8 @@ cr_list = [
 ]
 cr_dict = {
     "0": {"stat_bonus": 0, "prof_bonus": 2, "ac": 10, "hp": [1, 6], "attack": 2, "total_damage": [0, 1], "save_dc": 12, "num_attacks": 1},
-    "1/8": {"stat_bonus": 1, "prof_bonus": 2, "ac": 11, "hp": [7, 35], "attack": 3, "total_damage": [2, 3], "save_dc": 13, "num_attacks": 1},
-    "1/4": {"stat_bonus": 1, "prof_bonus": 2, "ac": 12, "hp": [36, 49], "attack": 3, "total_damage": [4, 5], "save_dc": 13, "num_attacks": 1},
+    "1/8": {"stat_bonus": 1, "prof_bonus": 2, "ac": 11, "hp": [7, 23], "attack": 3, "total_damage": [2, 3], "save_dc": 13, "num_attacks": 1},
+    "1/4": {"stat_bonus": 1, "prof_bonus": 2, "ac": 12, "hp": [24, 49], "attack": 3, "total_damage": [4, 5], "save_dc": 13, "num_attacks": 1},
     "1/2": {"stat_bonus": 1, "prof_bonus": 2, "ac": 13, "hp": [50, 70], "attack": 3, "total_damage": [6, 8], "save_dc": 13, "num_attacks": 1},
     "1": {"stat_bonus": 1, "prof_bonus": 2, "ac": 13, "hp": [71, 85], "attack": 3, "total_damage": [9, 14], "save_dc": 13, "num_attacks": 2},
     "2": {"stat_bonus": 1, "prof_bonus": 2, "ac": 13, "hp": [86, 100], "attack": 3, "total_damage": [15, 20], "save_dc": 13, "num_attacks": 2},
@@ -226,7 +226,16 @@ races = {
             "***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its "
             "turn, the gnoll can take a bonus action to move up to half its speed and make an attack."
         ]
-    }
+    },
+    "Wolf": {
+        "atk_cr": -1,
+        "special_abilities": [
+            "***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely "
+            "on hearing or smell.",
+            "***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least "
+            "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+        ]
+    },
 }
 die_types = {
     "d2": 1.5,
@@ -246,3 +255,179 @@ roles = {
     "Soldier": {},
     "Skirmisher": {},
 }
+
+npc_gender = [
+    "Male",
+    "Female",
+]
+npc_appearance = [
+    "Distinctive jewelry: earrings, necklace, circlet, bracelets",
+    "Piercings",
+    "Flamboyant or outlandish clothes",
+    "Formal, clean clothes",
+    "Ragged, dirty clothes",
+    "Pronounced scar",
+    "Missing teeth",
+    "Missing fingers",
+    "Unusual eye color (or two different colors)",
+    "Tattoos",
+    "Birthmark",
+    "Unusual skin color",
+    "Bald",
+    "Braided beard or hair",
+    "Unusual hair color",
+    "Nervous eye twitch",
+    "Distinctive nose",
+    "Distinctive posture (crooked or rigid)",
+    "Exceptionally beautiful",
+    "Exceptionally ugly",
+]
+npc_high_ability = [
+    "Strength -- powerful, brawny, strong as an ox",
+    "Dexterity -- lithe, agile, graceful",
+    "Constitution -- hardy, hale, healthy",
+    "Intelligence -- studious, learned, inquisitive",
+    "Wisdom -- perceptive, spiritual, insightful",
+    "Charisma -- persuasive, forceful, born leader",
+    "Nothing notable"
+]
+npc_low_ability = [
+    "Strength -- feeble, scrawny",
+    "Dexterity -- clumsy, fumbling",
+    "Constitution -- sickly, pale",
+    "Intelligence -- dim-witted, slow",
+    "Wisdom -- oblivious, absentminded",
+    "Charisma -- dull, boring",
+]
+npc_talent = [
+    "Plays a musical instrument",
+    "Speaks several languages fluently",
+    "Unbelievably lucky",
+    "Perfect memory",
+    "Great with animals",
+    "Great with children",
+    "Great at solving puzzles",
+    "Great at one game",
+    "Great at impersonations",
+    "Draws beautifully",
+    "Paints beautifully",
+    "Sings beautifully",
+    "Drinks everyone under the table",
+    "Expert carpenter",
+    "Expert cook",
+    "Expert dart thrower and rock skipper",
+    "Expert juggler",
+    "Skilled actor and master of disguise",
+    "Skilled dancer",
+    "Knows Thieves' Cant",
+]
+npc_mannerisms = [
+    "Prone to singing, whistling, or humming quietly",
+    "Speaks in rhyme or some other peculiar way",
+    "Particularly low or high voice",
+    "Slurs words, lisps, or stutters",
+    "Enunciates overly clearly",
+    "Speaks loudly",
+    "Whispers",
+    "Uses flowery speech or long words",
+    "Frequently uses the wrong word",
+    "Uses colorful oaths and exclamations",
+    "Makes constant jokes or puns",
+    "Prone to predictions of doom",
+    "Fidgets",
+    "Squints",
+    "Stares into the distance",
+    "Chews something",
+    "Paces",
+    "Taps fingers",
+    "Bites fingernails",
+    "Twirls hair or tugs beard",
+]
+npc_interaction_trait = [
+    "Argumentative",
+    "Arrogant",
+    "Blustering",
+    "Rude",
+    "Curious",
+    "Friendly",
+    "Honest",
+    "Hot tempered",
+    "Irritable",
+    "Ponderous",
+    "Quiet",
+    "Suspicious",
+]
+npc_good_ideals = [
+    "Beauty",
+    "Charity",
+    "Greater good",
+    "Life",
+    "Respect",
+    "Self-sacrifice",
+]
+npc_evil_ideals = [
+    "Domination",
+    "Greed",
+    "Might",
+    "Pain",
+    "Retribution",
+    "Slaughter",
+]
+npc_lawful_ideals = [
+    "Community",
+    "Fairness",
+    "Honor",
+    "Logic",
+    "Responsibility",
+    "Tradition",
+]
+npc_chaotic_ideals = [
+    "Change",
+    "Creativity",
+    "Freedom",
+    "Independence",
+    "No limits",
+    "Whimsy",
+]
+npc_neutral_ideals = [
+    "Balance",
+    "Knowledge",
+    "Live and let live",
+    "Moderation",
+    "Neutrality",
+    "People",
+]
+npc_other_ideals = [
+    "Aspiration",
+    "Discovery",
+    "Glory",
+    "Nation",
+    "Redemption",
+    "Self-knowledge",
+]
+npc_bonds = [
+    "Dedicated to fulfilling a personal life goal",
+    "Protective of close family members",
+    "Protective of colleagues or compatriots",
+    "Loyal to a benefactor, patron, or employer",
+    "Captivated by a romantic interest",
+    "Drawn to a special place",
+    "Protective of a sentimental keepsake",
+    "Protective of a va luable possession",
+    "Out for revenge",
+    "Roll twice, ignoring results of10",
+]
+npc_flaws_and_secrets = [
+    "Forbidden love or susceptibility to romance",
+    "Enjoys decadent pleasures",
+    "Arrogance",
+    "Envies another creature's possessions or station",
+    "Overpowering greed",
+    "Prone to rage",
+    "Has a powerful enemy",
+    "Specific phobia",
+    "Shameful or scandalous history",
+    "Secret crime or misdeed",
+    "Possession of forbidden lore",
+    "Foolhardy bravery",
+]

@@ -133,7 +133,10 @@ player_soundboard_stats.json
 
 # Files that are too big to commit
 ## Audio
+D&D Music *.mp3
 D&D Ambience *.mp3
+RPG Music *.mp3
+RPG Ambience *.mp3
 Epic Zombie Fighting Music Mix.mp3
 Jesper Kyd Apocalypse Lyrics.mp3
 Michiru Yamane Wood Carving Partita Slowed Extended.mp3
@@ -146,6 +149,8 @@ Forest Edge _ Nighttime Ambience _ 10 Hours _ Nature Sleep Sounds-_FJIH0Yi2Mk.mp
 Rain On Window with Thunder Sounds - Rain in Forest at Night - 10 Hours-x7SQaDTSrVg.mp3
 Luigi Boccherini Minuet String Quintet 2AZOknKotVc.mp3
 Angry Tiger Growling Roar*.mp3
+Goblin Attack.mp3
+01 - Goblin Ambush - Lost Mine of Phandelver Soundtrack.mp3
 
 ## Video
 *.mp4
