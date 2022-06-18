@@ -22,6 +22,7 @@ Enter another URL to set as Visual Aid here:
 
 [Stop all sounds]($stop|all|none)
 
+* [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
 * [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
 * Festival Sounds! [1]($load|ambience|sandpoint/RPG Ambience - Joyful Festival crowd, music, cheering.mp3) [2]($load|ambience|sandpoint/D&D Music - DnD Festival.mp3) [3]($load|ambience|sandpoint/RPG Music - Tavern_Festival.mp3)
 * Goblin Fight! [1]($load|music|sandpoint/Goblin Attack.mp3) [2]($load|music|sandpoint/D&D Music - Goblin Goofy.mp3) [3]($load|music|sandpoint/01 - Goblin Ambush - Lost Mine of Phandelver Soundtrack.mp3)
