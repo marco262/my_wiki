@@ -45,7 +45,7 @@ Enter another URL to set as Visual Aid here:
 * The players need to find the Dread Pirate Lord's first mate, who is hiding on the Dread Pirate Lord's HQ island.
     * She's a half-elf, so she has not aged as much as everyone else. Maybe a cleric so she can create food and shelter for herself?
     * Knows Scrying, but doesn't have a focus. Quest for players later?
-    * Stays on the HQ island, because she's been foiling the Knights of Twilight's attempts to uncover the DPL's treasure for 50 goddamn years
+    * Stays on the HQ island, because she's been foiling the Knights of Twilight's attempts to uncover the DPL's treasure for 20 goddamn years
 * Players need to search for the first mate but have no idea where she is:
     * Need ideas on where to find her (need informants, guides)
     * Need access to the islands for either exploration or just getting to the first mate

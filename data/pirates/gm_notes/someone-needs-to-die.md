@@ -16,38 +16,49 @@
 
 [Stop all sounds]($stop|all|none)
 
-* [Coastal Town]($load|youtube|https://www.youtube.com/watch?v=CY97XoaEjFg)
-* [Crowded Local Tavern]($load|youtube|https://www.youtube.com/watch?v=EULoybB2Nsw)
-* [Dockside Market]($load|youtube|https://www.youtube.com/watch?v=YZkFjWJVt6c)
-* [Docks at Night]($load|youtube|https://www.youtube.com/watch?v=DWGrFtyAFVc)
+* [Coastal Town]($load|ambience|D&D Ambience - Coastal Town.mp3)
+* [Crowded Local Tavern]($load|ambience|D&D Ambience - Crowded Local Tavern.mp3)
+* [Dockside Market]($load|ambience|D&D Ambience - Dockside Market.mp3)
+* [Docks at Night]($load|ambience|D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
 
 ## Story
 
-When Rek arrives at the warehouse, Quizno will be having a meeting with a duergar gang inside the warehouse, with his goblin henchmen hanging around and acting all menacing. It's an unfriendly meeting, as the duergar are angry that Quizno hasn't delivered his [insert item here]. Hands are on weapons, and it's not looking good.
+When Rek arrives at the [warehouse](^pirates/warehouse_interior_3.jpg), [Quizno](^pirates/quizno_bubblypots.png) will be having a meeting with a [duergar gang](^pirates/duergar_4.png) inside the warehouse, with his goblin henchmen hanging around and acting all menacing. It's an unfriendly meeting, as the duergar are angry that Quizno underpaid them the advance for their delivery. Hands are on weapons, and it's not looking good.
 
-The goblins are on edge, the duergar guards are on edge, the duergar boss is unhappy... and Quizno is calm. He manages to convince the duergar that they'll have their stuff for them that night. The duergar are barely appeased and head off. The goblin thugs ask Quizno how they're gonna deliver when they don't actually have the stuff, and Quizno says they'll just ambush the duergar that night.
+The goblins are on edge, the duergar guards are on edge, the [duergar boss](^pirates/duergar_3.png) is unhappy... and Quizno is calm. He manages to get talked into paying a higher price for the delivery. The duergar are appeased and head off, feeling like they pulled one over on the goblins. The goblins plan once the duergar are gone to just kill the duergar once they arrive with the delivery.
 
-The meeting that night will happen in the street in front of the warehouse, with weapons bristling and tensions high. Extra goblin thugs will be waiting hidden behind crates and in windows to ambush the duergar.
+The meeting that night will happen in the [street in front of the warehouse](^pirates/warehouse_exterior_1.jpg), with weapons bristling and tensions high. Extra goblin thugs will be waiting hidden behind crates and in windows to ambush the duergar.
+
+## Places
+
+* Warehouse Interior [1](^pirates/warehouse_interior_1.jpg), [2](^pirates/warehouse_interior_2.jpg), [3](^pirates/warehouse_interior_3.jpg)
+* [Warehouse Exterior](^pirates/warehouse_exterior_1.jpg)
 
 ## NPCs
 
-* Quizno Bubblypots, Goblin Prodigy ([[npc cr=1/2|race=Goblin|weapon=Alchemist's Fire]])
+* [Quizno Bubblypots](^pirates/quizno_bubblypots.png), Goblin Prodigy ([[npc cr=1/2|race=Goblin|weapon=Alchemist's Fire]])
   * Well-spoken goblin
   * Considers himself smartest goblin ever
   * Tries to use articles and correct pronouns, but falls into goblin talk when he gets frustrated
-* Goblin Thug ([[npc cr=1/4|race=Goblin]])
-* Duergar Boss ([[npc cr=1/2|race=Duergar]])
-* Duergar Thugs ([[npc cr=1/4|race=Duergar]])
+* [Goblin Lackey](^pirates/goblin_lackey.png) ([[npc cr=1/4|race=Goblin]])
+* [Duergar Boss](^pirates/duergar_3.png) ([[npc cr=1/2|race=Duergar]])
+* [Duergar Thugs](^pirates/duergar_4.png) ([[npc cr=1/4|race=Duergar]])
 
 ## Quick Notes
 
 * Use warehouse from beginning of Dragon Heist
-* Make the dudes they fight be monstrous races? Kenku?
-* Have this lead into ways for them to get a boat/lead them back on the main story track
-* Drop lore bits about the Dread Pirate Lord/pirate fleets
-* Maybe the rival is getting cozy with one of the pirate lieutenants
-* Make this handler a small obstacle on their way to greatness. He should be a fun power fantasy and lore dump
-* Play around with the battleground. 
+* The delivery is fine wine, bon bons, and Binge.
+  * Binge is a drug that makes a person immune to pain. 
+  * For 1 minute after taking it, they have the Relentless Endurance feature: They ignore the effects of going to 0 HP.
+  * Every "hit" of Binge counts as an extra use of the feature.
+  * While high, they have an insatiable appetite. Binge-users often will eat the bodies of the people they kill mid-fight.
+  * After they come down, if they're still at negative hit points, they die.
+* The delivery is intended for Gula, the Pirate Lieutenant. 
+  * Searching the warehouse will reveal notes from Quizno that one of the pirate lieutenant's crew will come get the shipment.
+  * The notes say it's for The Grand Gourmand.
+* Have this lead into ways for them to get a boat/lead them back on the main story track.
+* Make this handler a small obstacle on their way to greatness. He should be a fun power fantasy and lore dump.
+* Play around with the battleground.
   * Rek should be able to fly in the warehouse. 
   * Give environmental hazards for people to mess with and cover for Salvia.
 * What is the warehouse being used for? What can be looted?
