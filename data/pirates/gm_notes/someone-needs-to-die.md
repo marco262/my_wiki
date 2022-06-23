@@ -20,6 +20,8 @@
 * [Crowded Local Tavern]($load|ambience|D&D Ambience - Crowded Local Tavern.mp3)
 * [Dockside Market]($load|ambience|D&D Ambience - Dockside Market.mp3)
 * [Docks at Night]($load|ambience|D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
+* [Calm Sea Sailing]($load|ambience|D&D Ambience - Calm Sea Sailing.mp3)
+* [Ship Cabin]($load|ambience|D&D Ambience - Ship Cabin.mp3)
 
 ## Story
 
@@ -46,7 +48,6 @@ The meeting that night will happen in the [street in front of the warehouse](^pi
 
 ## Quick Notes
 
-* Use warehouse from beginning of Dragon Heist
 * The delivery is fine wine, bon bons, and Binge.
   * Binge is a drug that makes a person immune to pain. 
   * For 1 minute after taking it, they have the Relentless Endurance feature: They ignore the effects of going to 0 HP.
@@ -56,20 +57,25 @@ The meeting that night will happen in the [street in front of the warehouse](^pi
 * The delivery is intended for Gula, the Pirate Lieutenant. 
   * Searching the warehouse will reveal notes from Quizno that one of the pirate lieutenant's crew will come get the shipment.
   * The notes say it's for The Grand Gourmand.
-* Have this lead into ways for them to get a boat/lead them back on the main story track.
-* Make this handler a small obstacle on their way to greatness. He should be a fun power fantasy and lore dump.
+  * The DPL will recognize this name and peg it as Gula.
 * Play around with the battleground.
   * Rek should be able to fly in the warehouse. 
   * Give environmental hazards for people to mess with and cover for Salvia.
 * What is the warehouse being used for? What can be looted?
   * What can be burned down?
-  * Bootlegging? Moonshining?
+  * [Random Table for Warehouse](https://www.dicegeeks.com/fantasy-warehouse-1d100/)
   * Counterfeit potions? Roll on potion mishap tables! >:D
-  * Have Xanner be ready to haul all the stuff away after they're done killing
-* Visual aids to get:
-  * Warehouses
-  * Seedy parts of town
-  * Menacing alleys (ambience)
+
+## Aftermath
+
+* Have Xanner be ready to haul all the stuff away after they're done killing
+* His followup job is, if they make it to Pleasure Island, to get in touch with <NPC> and get the money he owes Xanner (500gp).
+* If they try to buy passage at the docks, they'll find the [Knights of Twilight](^pirates/knight_of_twilight.png) ([theme]($load|youtube|https://www.youtube.com/watch?v=nEvrAAVEaGg)) have locked down the harbor.
+  * They're pissed that someone killed Quizno, because they were keeping an eye on him to try to figure out which lieutenant he was selling to, and what he was selling.
+* They'll be approached by [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg), to provide passage for an exorbitant price, or a promise of favors and such.
+* He'll ferry them across the waters, managing to bribe a harbormaster to categorize him as "essential traffic".
+* Once they're within sight of Pleasure Island, Yendan will turn on the players.
+  * Pleasure island [1](^pirates/pleasure_island_day_1.jpg) [2](^pirates/pleasure_island_day_2.jpg), sunset [1](^pirates/pleasure_island_sunset_1.jpg) [2](^pirates/pleasure_island_sunset_2.jpg) [3](^pirates/pleasure_island_sunset_3.jpg), night [1](^pirates/pleasure_island_night_1.jpg) [2](^pirates/pleasure_island_night_2.jpg)
 
 ## Resources
 
