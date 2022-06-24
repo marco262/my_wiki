@@ -38,7 +38,7 @@ After this, let the PCs plot and plan amongst each other. Meanwhile, Van Richten
 
 Ireena will be horrified but agree, as Van Richten leans hard into the "You're the only one who can save this land" guilt-tripping. She will not tell the PCs, and pretend she's nervous about the plan to marry Strahd.
 
-## The Courtship
+# The Courtship
 
 *These following sections should be moved to another page. Saving here as basic notes.*
 
@@ -46,7 +46,7 @@ Ireena will insist they Do Things Properly, and go through a whole Courtship wit
 
 Eventually, Strahd will propose to Ireena, who will give an apparently enthusiastic Yes!
 
-## The Ceremony
+# The Ceremony
 
 The [ceremony](https://old.reddit.com/r/CurseofStrahd/comments/8a2b91/usefuloptional_fluff_collated_by_me/) will be held in Castle Ravenloft's chapel (be open to players insisting it happen elsewhere). Lean into wedding symbology, with Rahadin officiating. It will end with "You may now bite the bride," and Strahd biting Ireena, who will gasp in pleasure. Then Strahd will bite open his wrist and give Ireena his blood. She'll drink hungrily, both of them clearly getting a lot of sexual pleasure from it, moaning and pressing together.
 
