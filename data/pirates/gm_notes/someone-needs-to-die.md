@@ -16,12 +16,12 @@
 
 [Stop all sounds]($stop|all|none)
 
-* [Coastal Town]($load|ambience|D&D Ambience - Coastal Town.mp3)
-* [Crowded Local Tavern]($load|ambience|D&D Ambience - Crowded Local Tavern.mp3)
-* [Dockside Market]($load|ambience|D&D Ambience - Dockside Market.mp3)
-* [Docks at Night]($load|ambience|D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
-* [Calm Sea Sailing]($load|ambience|D&D Ambience - Calm Sea Sailing.mp3)
-* [Ship Cabin]($load|ambience|D&D Ambience - Ship Cabin.mp3)
+* [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
+* [Crowded Local Tavern]($load|ambience|pirates/D&D Ambience - Crowded Local Tavern.mp3)
+* [Dockside Market]($load|ambience|pirates/D&D Ambience - Dockside Market.mp3)
+* [Docks at Night]($load|ambience|pirates/D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
+* [Calm Sea Sailing]($load|ambience|pirates/D&D Ambience - Calm Sea Sailing.mp3)
+* [Ship Cabin]($load|ambience|pirates/D&D Ambience - Ship Cabin.mp3)
 
 ## Story
 
@@ -70,7 +70,7 @@ The meeting that night will happen in the [street in front of the warehouse](^pi
 
 * Have Xanner be ready to haul all the stuff away after they're done killing
 * His followup job is, if they make it to Pleasure Island, to get in touch with <NPC> and get the money he owes Xanner (500gp).
-* If they try to buy passage at the docks, they'll find the [Knights of Twilight](^pirates/knight_of_twilight.png) ([theme]($load|youtube|https://www.youtube.com/watch?v=nEvrAAVEaGg)) have locked down the harbor.
+* If they try to buy passage at the docks, they'll find the [Knights of Twilight](^pirates/knight_of_twilight.png) ([theme]($load|music|pirates/'Fantasy for Brass Band Op. 114' - Sir Malcolm Arnold.mp3)) have locked down the harbor.
   * They're pissed that someone killed Quizno, because they were keeping an eye on him to try to figure out which lieutenant he was selling to, and what he was selling.
 * They'll be approached by [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg), to provide passage for an exorbitant price, or a promise of favors and such.
 * He'll ferry them across the waters, managing to bribe a harbormaster to categorize him as "essential traffic".

@@ -16,12 +16,12 @@
 
 [Stop all sounds]($stop|all|none)
 
-* [Coastal Town]($load|youtube|https://www.youtube.com/watch?v=CY97XoaEjFg)
-* [Crowded Local Tavern]($load|youtube|https://www.youtube.com/watch?v=EULoybB2Nsw)
-* [Dockside Market]($load|youtube|https://www.youtube.com/watch?v=YZkFjWJVt6c)
-* [Docks at Night]($load|youtube|https://www.youtube.com/watch?v=DWGrFtyAFVc)
-* [Calm Sea Sailing]($load|youtube|https://www.youtube.com/watch?v=Lyt7enNpwvk)
-* [Ship Cabin]($load|youtube|https://www.youtube.com/watch?v=D4juEBifIMk)
+* [Coastal Town]($load|ambience|D&D Ambience - Coastal Town.mp3)
+* [Crowded Local Tavern]($load|ambience|D&D Ambience - Crowded Local Tavern.mp3)
+* [Dockside Market]($load|ambience|D&D Ambience - Dockside Market.mp3)
+* [Docks at Night]($load|ambience|D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
+* [Calm Sea Sailing]($load|ambience|D&D Ambience - Calm Sea Sailing.mp3)
+* [Ship Cabin]($load|ambience|D&D Ambience - Ship Cabin.mp3)
 
 ## Mention the Knights of Twilight
 
