@@ -1,0 +1,22 @@
+{
+  "top": {
+    "card": "High Deck - Broken One",
+    "inverted": true
+  },
+  "left": {
+    "card": "High Deck - Beast",
+    "inverted": true
+  },
+  "middle": {
+    "card": "High Deck - Darklord",
+    "inverted": false
+  },
+  "right": {
+    "card": "High Deck - Raven",
+    "inverted": true
+  },
+  "bottom": {
+    "card": "High Deck - Donjon",
+    "inverted": false
+  }
+}
