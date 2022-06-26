@@ -16,6 +16,7 @@ Marblepaw will recommend they talk to the Vistani to ask for their favor... but 
   * [5e tools](https://5e.tools/adventure.html#cos,6,n9.%20vistani%20camp)
 * Led by brothers [Luvash](^curse_of_strahd/luvash.jpg) and [Arrigal](^curse_of_strahd/arrigal.png)
 * Vistani around the fire [1](^curse_of_strahd/vistani_around_the_fire_1.jpg), [2](^curse_of_strahd/vistani_around_the_fire_2.jpeg), [3](^curse_of_strahd/vistani_around_the_fire_3.jpg), [4](^curse_of_strahd/vistani_around_the_fire_4.jpg)
+  * [Prastonata dancer](^curse_of_strahd/vistani_dancing.jpg)
 * [Kasimir Velikov](^curse_of_strahd/kasimir_velikov.jpg)
 * [Vistani Ambience]($load|ambience|curse_of_strahd/CoS Vistani Camp 8TtFIT3x2PI.mp3)
   * [The Ballad of the Mists]($load|effect|curse_of_strahd/Transylvanian Lullaby - arranged and performed by Erutan.mp3)
