@@ -93,7 +93,7 @@ If the party does go to the Amber Temple, and they make a stop by [Yaedrag](Tsol
 
 # Meanwhile...
 
-Strahd should send a [love letter](^curse_of_strahd/strahds_love_letter.jpg) to Ireena. It will include a gift from Volenta for Oren: A rose made of jet black beetle carapaces.
+Strahd should send a [love letter](^curse_of_strahd/strahds_love_letter.jpg) to Ireena. It will include a gift from Volenta for Oren: [A rose made of jet black beetle carapaces](^curse_of_strahd/black_rose.jpg).
 
 # The Amber Temple
 
