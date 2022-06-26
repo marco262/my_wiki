@@ -16,7 +16,7 @@ Van Richten will not necessarily be easy to find, but there should be ways to ge
 
 * Most obvious one is to check out his tower. He will either be there, or will be there eventually.
 * Hire someone to cast Sending. Harder to accomplish, since there are very few spellcasters in Barovia who can cast 3rd level spells.
-  * Esmerelda? The Abbot?
+  * Ezmerelda? The Abbot?
 * Paper Birds? Where would they find them?
   * Remember that anyone in Van Richten's Tower is protected from Divination magic, including Sending or Paper Birds.
 * Ask Keepers of the Feather to keep an eye out for him

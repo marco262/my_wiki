@@ -143,4 +143,4 @@ Roll initiative! The party must decide if they wish to kill Strahd while he's we
 
 Notes:
 
-* Figure out what happens to Van Richten and Esmerelda during all of this. If they can appear to defend the PCs in the middle of the battle, all the better.
+* Figure out what happens to Van Richten and Ezmerelda during all of this. If they can appear to defend the PCs in the middle of the battle, all the better.

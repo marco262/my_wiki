@@ -43,7 +43,7 @@ Notes
 ### NPCs
 
 * [Ireena Kolyana](^curse_of_strahd/ireena.jpg) ([stats](/dnd/monster/Noble) with the [Healer](/dnd/general/Feats#Healer) feat)
-* [Esmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
+* [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
 * [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg) ([stats](https://5e.tools/bestiary.html#rictavio_cos))
 * [Lord Jared](^lord_jared.jpg) / [Uncle David](^uncle_david.jpg)
 
@@ -75,7 +75,7 @@ Notes
 * Figure out gift they'll bring for Strahd
 * Lay out Castle Ravenloft maps
 * Work out more questions Van Richten wants them to ask
-* Esmerelda will send in a spider to spy with them
+* Ezmerelda will send in a spider to spy with them
 * Have Strahd reveal Bride Ceremony to party during dinner?
 
 ### Notes for me

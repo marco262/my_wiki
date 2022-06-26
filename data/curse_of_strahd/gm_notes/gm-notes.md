@@ -139,7 +139,7 @@ Strahd curses any adventurer souls to never reincarnate, and are instead forced 
 
 # Possible Ideas
 
-* Their Ally is Rudolph van Richten. They first encounter Esmerelda who journeys with them to find Richten. However, Strahd kills Richten. In despair, Esmerelda finally comes into her own and takes on the power Richten possessed.
+* Their Ally is Rudolph van Richten. They first encounter Ezmerelda who journeys with them to find Richten. However, Strahd kills Richten. In despair, Ezmerelda finally comes into her own and takes on the power Richten possessed.
   * Maybe a vampire hunter needs to learn to channel divine power of some kind? She regains her faith?
 * Lord Jared is a Summer Court Fey, and so is not "welcome" in the Shadowfell where Barovia's demiplane exists
     * On his first visit, he will bring some Uncommon magic items with him as presents, and give them more instructions for other items to seek out.
