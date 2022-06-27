@@ -80,21 +80,24 @@
 
 ## Campaign Log
 
-### Sessions 4 (2022-04-24)
+### Sessions 5 (2022-06-25)
 
-* Started on the 19th of Alturik
-* Party got a job as caravan guards, escorting an old elf named Tommy Turnip, and his old mule Betsy, to Lord's Landing.
-* Group was attacked by wolves. Killed 3, drove off 1. 
-* Betsy was almost killed but was healed. Tommy was hurt but healed. Rek ate a turnip he killed.
-* Witnessed two inventors arguing in the middle of the street in Lord's Landing. Two Knights of Twilight came by and diffused the situation just by glaring.
-* Got some rooms at the Thorny Rose, a mid-scale inn.
-* Next day (20th of Alturik), went out to the Adventurer's guild to look for jobs.
-* Rek lost money on a pushups competition between a dragonborn and a half-orc. Azurhel played the part of a training weight.
-* Salvia was approached by Xanner Silentbrush, a halfling trying to make his way as a handler.
-* Everyone but Zoya met Xanner at the Mermaid's Kiss, a dive bar down by the docks. Salvia gave his name as "Indica", everyone else introduced themselves normally.
-* Xanner gave them a job to take out a rival handler who works out of an old warehouse near the docks. He says to put in a word for him back at the Mermaid's Kiss when the job is done.
-* Zoya met up with everyone later, they shot the shit, then the party went shopping. 
-* Zoya and Salvia each bought a healing potion. Azurhel bought jewelers' tools. Rek went to scout out their target. 
+* 20th of Alturik
+* Rek went to scout out their target, Quizno Bubblysort.
+* He saw Quizno and his goblins having an argument with a bunch of duergar (gray dwarves).
+* Rek went to get reinforcements.
+* When they returned, the goblins and duergar were talking about a purchase the goblins had made from the duergar.
+* The duergar wanted more money, and finally talked Quizno into paying an extra 20 gp.
+* Zoya followed the goblin who went to get the money.
+* Salvia snuck in along the rafters, and when the duergar turned to leave, he threw a dagger at one to try to start a fight.
+* The duergar turned around and yelled at the goblins about who attacked him.
+* The duergar and goblins nearly turned on each other... but Quizno figured out the dagger was thrown from up above.
+* A fight ensued. Four goblins and three duergar were killed. The duergar boss and one of his thugs got away.
+* The party chased Quizno out into the street.
+* Quizno nearly got away, with the help of a fog cloud in a bottle.
+* The party killed Quizno and cut off his head... on the porch of a café, with families watching.
+* The party ran back to the Mermaid's Kiss before the guards arrived, and were paid 50 gp by Xanner who was on his way to do "clean up" after their job.
+* Rek and Salvia bought some healing potions. Azurhel started to learn Prestidigitation from the gnome running the magic items shop.
 
 [[accordion Past Sessions]]
 
@@ -134,6 +137,22 @@
 * Rek got away, and Azurhel hid in a chimney while the guards searched for them.
 * Azurhel got away for good by casting Disguise Self to look like a guard.
 * Everyone met in the sparse forests outside the west gate of Everbrook, split up the loot, and planned to move onto Lord's Landing in search of a ship to take them closer to wherever the Dread Pirate Lord wants them to go next.
+
+### Sessions 4 (2022-04-24)
+
+* Started on the 19th of Alturik
+* Party got a job as caravan guards, escorting an old elf named Tommy Turnip, and his old mule Betsy, to Lord's Landing.
+* Group was attacked by wolves. Killed 3, drove off 1. 
+* Betsy was almost killed but was healed. Tommy was hurt but healed. Rek ate a turnip he killed.
+* Witnessed two inventors arguing in the middle of the street in Lord's Landing. Two Knights of Twilight came by and diffused the situation just by glaring.
+* Got some rooms at the Thorny Rose, a mid-scale inn.
+* Next day (20th of Alturik), went out to the Adventurer's guild to look for jobs.
+* Rek lost money on a pushups competition between a dragonborn and a half-orc. Azurhel played the part of a training weight.
+* Salvia was approached by Xanner Silentbrush, a halfling trying to make his way as a handler.
+* Everyone but Zoya met Xanner at the Mermaid's Kiss, a dive bar down by the docks. Salvia gave his name as "Indica", everyone else introduced themselves normally.
+* Xanner gave them a job to take out a rival handler who works out of an old warehouse near the docks. He says to put in a word for him back at the Mermaid's Kiss when the job is done.
+* Zoya met up with everyone later, they shot the shit, then the party went shopping. 
+* Zoya and Salvia each bought a healing potion. Azurhel bought jewelers' tools. Rek went to scout out their target. 
 
 [[/accordion]]
 

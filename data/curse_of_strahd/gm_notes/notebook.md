@@ -72,15 +72,18 @@ Notes
 
 ### Player Plans
 
-* Figure out gift they'll bring for Strahd
-* Lay out Castle Ravenloft maps
-* Work out more questions Van Richten wants them to ask
-* Ezmerelda will send in a spider to spy with them
-* Have Strahd reveal Bride Ceremony to party during dinner?
+* Wtf news?
+* Chieftain's daughter went to Amber Place.
+* Tell Yaedrag about the Fane
+* Do NOT talk about wedding/dinner with Strahd
+* Ask about place under a mountain
+* Do you need our help?
+* Contact Van Richten, tell him that Strahd knows he's here
 
 ### Notes for me
 
-* Have Strahd send Ireena a love letter
+* Set up dinner with Strahd. Ask about courtship plans.
+* Prep Amber Temple
 
 #### Other shit
 
