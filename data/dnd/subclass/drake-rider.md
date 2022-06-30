@@ -62,8 +62,6 @@ Your drake is strong enough to enter combat with you. It uses the Drake Companio
 
 You and your drake share an empathic link and can communicate clearly with each other, even if you don't speak the same language. Your drake is solely devoted to you and will not willingly let anyone but you ride it. It follows your commands without question and will protect you with its life if necessary.
 
-In combat, your drake acts as a Controlled mount, meaning it acts on your turn and can only take the Dash, Disengage, and Dodge actions, whether you're mounted on it or not, unless you use a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.
-
 Choose a type for your drake from the Drake Types table below. Your drake gains resistance to its element type as shown in the Drake Types table.
 
 ### Drake Types
@@ -87,6 +85,8 @@ Choose a type for your drake from the Drake Types table below. Your drake gains 
 The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, the attack bonus for its Bite attack is reduced to +2 plus PB, and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
 
 [[/div]]
+
+In combat, your drake acts as a Controlled mount, meaning it acts on your turn and can only take the Dash, Disengage, and Dodge actions, whether you're mounted on it or not, unless you use a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.
 
 If your drake is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your drake's spirit and use your magic to create a new body for it. You can return your drake to life in this manner even if you do not possess any part of its body.
 
