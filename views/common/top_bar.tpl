@@ -62,7 +62,7 @@
     <div class="dropdown">
         <a href="/dnd/spell_filter">Spells</a>
         <div class="dropdown-content">
-            <a href="/dnd/find_a_spell">Find a Spell</a>
+            <a href="/dnd/find_spell">Find a Spell</a>
             <a href="/dnd/spell_filter">Spell Filter</a>
             <hr>
             <a href="/dnd/class_spell_list/artificer/true">Artificer Spells</a>
