@@ -71,7 +71,7 @@ Enter another URL to set as Visual Aid here:
 * U. [Ruins of Berez](Ruins of Berez)
 * V. [Van Richten's Tower](Van Richten's Tower)
 * W. [Wizard of Wines](Wizard of Wines)
-* X. The Amber Temple
+* X. [The Amber Temple](The Amber Temple)
 * Y. [Yester Hill](Yester Hill)
 * Z. [Werewolf Den](Werewolf Den)
 

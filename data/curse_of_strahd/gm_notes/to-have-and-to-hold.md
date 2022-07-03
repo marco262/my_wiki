@@ -98,7 +98,11 @@ Strahd should send a [love letter](^curse_of_strahd/strahds_love_letter.jpg) to 
 
 # The Amber Temple
 
-The party will learn everything the temple has to offer in the module/supplement, especially that Strahd was originally given his power by the Dark Power Vampyr. Make sure to have Ireena use her Divine Eminence power several times.
+The party will learn everything [the temple](The Amber Temple) has to offer in the module/supplement, especially that Strahd was originally given his power by the Dark Power Vampyr. Make sure to have Ireena use her Divine Eminence power several times.
+
+Make it so that the Amber Temple proves that Strahd did not lose his soul when he was turned into a vampire. This will make it so that there's justification for the idea that Strahd is not an irredeemable monster. Helps with player buy-in to the idea that Strahd can be redeemed with Ireena's love.
+
+(Strahd IS an irredeemable monster, but that's just who he is. He's lost his ability to empathize with people during all his centuries as a moving corpse, and he was already very cruel and horrible to start with.)
 
 # Van Richten's Debriefing
 
