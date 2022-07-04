@@ -9,6 +9,8 @@
 
 * [The Amber Temple - 5etools](https://5e.tools/adventure.html#cos,14)
 * [The Amber Temple - Curse of Strahd Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view)
+* [MandyMod's Amber Temple - Part 1](https://old.reddit.com/r/CurseofStrahd/comments/9vj5x5/fleshing_out_curse_of_strahd_the_amber_temple/)
+* [MandyMod's Amber Temple - Part 2](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
 
 # Notes
 
@@ -50,14 +52,11 @@ Before going into the Amber Temple, tell the players the following things:
   * 15x iron pots filled with copper coins (1,000 cp each and weighing 25 lbs each)
   * 15x thin, leather-bound tomes, all of them signed copies of a storybook called Snow Dwarf and the Seven Wights, by Nitch Rackmay.
 
-# Visual Aids
-
-* [Amber Temple](^curse_of_strahd/Amber Temple.mp4) [1](^curse_of_strahd/amber_temple_facade_1.jpg) [2](^curse_of_strahd/amber_temple_facade_2.jpg) [3](^curse_of_strahd/amber_temple_facade_3.jpg) [4](^curse_of_strahd/amber_temple_facade_4.jpg)
-
 # Rooms
 
 * X1. [Temple Facade](https://5e.tools/adventure.html#cos,14,x1.%20temple%20facade,0)
-  * The following inscription has been carved into the frame above the front door into the Amber Temple:<br><blockquote markdown=1>*If you seek honor or power, turn back - for these walls hold naught but doom.*<br>*In amber tombs below, the darkness shelters a timeless evil.*<br>*This temple is infected with a scourge of malevolent divinity.*<br>*Our arrogance and folly forged this place into our prison.*<br>*Leave now, before our damnation becomes yours.*</blockquote>
+  * Visual Aids: [video](^curse_of_strahd/Amber Temple.mp4) [1](^curse_of_strahd/amber_temple_facade_1.jpg) [2](^curse_of_strahd/amber_temple_facade_2.jpg) [3](^curse_of_strahd/amber_temple_facade_3.jpg) [4](^curse_of_strahd/amber_temple_facade_4.jpg)
+  * The following inscription has been carved into the frame above the front door into the Amber Temple:<br><blockquote style="margin-left: 0;"><p><i>If you seek honor or power, turn back - for these walls hold naught but doom.<br>In amber tombs below, the darkness shelters a timeless evil.<br>This temple is infected with a scourge of malevolent divinity.<br>Our arrogance and folly forged this place into our prison.<br>Leave now, before our damnation becomes yours.</i></p></blockquote>
   * A character with a passive Perception of 15 or greater notices that the snow to the left side of the temple entrance appears to have been traversed recently. A DC 15 Survival check reveals a set of human footprints alongside a much larger pair of canine paw prints leading to Area X1a (Narrow Fissure). A DC 15 Nature check can identify the paw prints as belonging to a winter wolf.
   * X1a. [Narrow Fissure](https://5e.tools/adventure.html#cos,14,x1a.%20narrow%20fissure,0)
 * X2. [Entrance](https://5e.tools/adventure.html#cos,14,x2.%20entrance,0)
@@ -66,13 +65,63 @@ Before going into the Amber Temple, tell the players the following things:
       * Treasure: [Wand of secrets](/dnd/equipment/magic-item/Wand of Secrets)
 * X3. [Empty Barracks](https://5e.tools/adventure.html#cos,14,x3.%20empty%20barracks,0)
 * X4. [Overlook](https://5e.tools/adventure.html#cos,14,x4.%20overlook,0)
-  * [Visual Aid](^curse_of_strahd/amber_temple_overlook.jpg)
+  * [Visual Aid](^curse_of_strahd/TempleofLostSecrets.mp4)
   * [Reloaded notes](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.31zglo1va2pf)
 * X5. [Temple of Lost Secrets](https://5e.tools/adventure.html#cos,14,x5.%20temple%20of%20lost%20secrets,0)
-  * [Hooded Statue](^curse_of_strahd/hooded_statue.jpg)
-  * [Neferon, the arcanaloth](^curse_of_strahd/neferon.jpg) ([stats](https://5e.tools/bestiary.html#arcanaloth_mm))
-      * [Looming over the party](^curse_of_strahd/neferon_and_the_statue.jpg)
-      * Stops the party, demanding to know if they have come to steal the secrets of the Amber Temple. You can't, because the secrets are "mine".
-      * Will allow them to go forth if they share secrets of their own. The secrets must be significant and impactful.
-      * "Go forth and seek out the secrets of the temple. But be warned! "
-      * Loot: Spellbook, gold spectacles, robe of useful items
+  * X5a. [God of Secrets](https://5e.tools/adventure.html#cos,14,x5a.%20god%20of%20secrets,0)
+      * [Visual Aid](^curse_of_strahd/hooded_statue.jpg)
+      * [Neferon, the arcanaloth](^curse_of_strahd/neferon.jpg) ([stats](https://5e.tools/bestiary.html#arcanaloth_mm))
+          * [Looming over the party](^curse_of_strahd/neferon_and_the_statue.jpg)
+          * Stops the party, demanding to know if they have come to steal the secrets of the Amber Temple. You can't, because the secrets are "mine".
+          * Will allow them to go forth if they share secrets of their own. The secrets must be significant and impactful.
+          * "Go forth and seek out the secrets of the temple. But be warned! ..." [finish writing this]
+          * Loot: Spellbook, gold spectacles, robe of useful items
+  * X5b. [Secret Door](https://5e.tools/adventure.html#cos,14,x5b.%20secret%20door,0)
+  * X5c. [Locked Doors](https://5e.tools/adventure.html#cos,14,x5c.%20locked%20doors,0)
+  * X5d. [Amber Reflections](https://5e.tools/adventure.html#cos,14,x5d.%20amber%20reflections,0)
+* X6. [Southeast Annex](https://5e.tools/adventure.html#cos,14,x6.%20southeast%20annex,0)
+* X7. [Secret Scroll Repository](https://5e.tools/adventure.html#cos,14,x7.%20secret%20scroll%20repository,0)
+* X8. [Upper East Hall](https://5e.tools/adventure.html#cos,14,x8.%20upper%20east%20hall,0)
+* X9. [Lecture Hall](https://5e.tools/adventure.html#cos,14,x9.%20lecture%20hall,0)
+  * <blockquote style="margin-left: 0;"><p>While this library seems small at first glance, you quickly find that the ceiling is so high, you cannot spot its end. Six immense, black marble bookcases line the walls and stretch up into unending heights. Each shelf on each bookcase is filled with well preserved tomes and carefully stacked scrolls. The amount of knowledge stored within this single room seems unfathomable.</p><p>Dozens of floating, copper lanterns light the room, hovering at various heights throughout the library. To the north, a black marble railing encloses an amber staircase that spirals gently down to a lower level. Embroidered rugs, chairs, and lit candelabras fill the center of the room.</p></blockquote>
+  * [Vilnius](^curse_of_strahd/vilnius_without_quasit.png) ([stats](https://preview.redd.it/lsqurm8a0ax11.png?width=413&format=png&auto=webp&s=0d2e234526477c1eb9abed7d6a180ff3a2267cee))
+    * [Details](https://old.reddit.com/r/CurseofStrahd/comments/9vj5x5/fleshing_out_curse_of_strahd_the_amber_temple/)
+* X10. [Northeast Annex](https://5e.tools/adventure.html#cos,14,x10.%20northeast%20annex,0)
+  * [Jackal Amber Golem](^curse_of_strahd/jackal_amber_golem.jpg) ([stats](https://5e.tools/bestiary.html#amber%20golem_cos), with 145 HP)
+* X11. [Northeast Balcony](https://5e.tools/adventure.html#cos,14,x11.%20northeast%20balcony,0)
+* X12. [East Shrine](https://5e.tools/adventure.html#cos,14,x12.%20east%20shrine,0)
+* X13. [East Archer Post](https://5e.tools/adventure.html#cos,14,x13.%20east%20archer%20post,0)
+* X14. [North Staircase](https://5e.tools/adventure.html#cos,14,x14.%20north%20staircase,0)
+  * X14a. [Collapsed Lower Hall](https://5e.tools/adventure.html#cos,14,x14a.%20collapsed%20lower%20hall,0)
+* X15. [Southwest Annex](https://5e.tools/adventure.html#cos,14,x15.%20southwest%20annex,0)
+  * [Helwa](^curse_of_strahd/helwa.png), eldest daughter of Chief Sigrid, heir to Yaedrag's leadership ([stats](https://5e.tools/bestiary.html#gladiator_mm))
+  * [Keldei](^curse_of_strahd/keldei.png), Helwa's First Spear, a stubborn, and powerfully loyal warrior ([stats](https://5e.tools/bestiary.html#berserker_mm))
+  * [Astrid](^curse_of_strahd/astrid.png), an inquisitive and curious tracker ([stats](https://5e.tools/bestiary.html#berserker_mm))
+  * [Frida](^curse_of_strahd/frida.png), a timid but fierce hunter ([stats](https://5e.tools/bestiary.html#berserker_mm))
+  * [Harald](^curse_of_strahd/harald.png), a proud, stocky fighter ([stats](https://5e.tools/bestiary.html#berserker_mm))
+  * [Skald](^curse_of_strahd/skald.png), Helwa's winter wolf companion ([stats](https://5e.tools/bestiary.html#winter%20wolf_mm))
+* X16. [West Scroll Repository](https://5e.tools/adventure.html#cos,14,x16.%20west%20scroll%20repository,0)
+* X17. [Upper West Hall](https://5e.tools/adventure.html#cos,14,x17.%20upper%20west%20hall,0)
+  * [Flameskulls](^curse_of_strahd/flameskull.jpg) ([stats](https://5e.tools/bestiary.html#flameskull_mm))
+* X18. [Hallway](https://5e.tools/adventure.html#cos,14,x18.%20hallway,0)
+* X19. [Potion Storage](https://5e.tools/adventure.html#cos,14,x19.%20potion%20storage,0)
+* X20. [Architect's Room](https://5e.tools/adventure.html#cos,14,x20.%20architect's%20room,0)
+* X21. [West Staircase](https://5e.tools/adventure.html#cos,14,x21.%20west%20staircase,0)
+* X22. [Northwest Annex](https://5e.tools/adventure.html#cos,14,x22.%20northwest%20annex,0)
+  * [Visual Aid](^curse_of_strahd/amber_temple_dining_hall.jpeg)
+  * [Ewer](^curse_of_strahd/green_copper_ewer.jpeg)
+* X23. [Northwest Balcony](https://5e.tools/adventure.html#cos,14,x23.%20northwest%20balcony,0)
+* X24. [West Shrine](https://5e.tools/adventure.html#cos,14,x24.%20west%20shrine,0)
+* X25. [West Archer Post](https://5e.tools/adventure.html#cos,14,x25.%20west%20archer%20post,0)
+* X26. [Secret Alcove](https://5e.tools/adventure.html#cos,14,x26.%20secret%20alcove,0)
+* X27. [Lich's Lair](https://5e.tools/adventure.html#cos,14,x27.%20lich's%20lair,0)
+  * <blockquote style="margin-left: 0;"><p>This fifteen-foot-high room contains the trappings of royalty: ornate furniture, exquisite rugs and tapestries, and decorative statuary. Everywhere you look are lit candelabras atop small tables. The beauty of the decor is undone by thick dust and cobwebs.</p></blockquote>
+  * [Visual Aid](^curse_of_strahd/lichs_lair.jpg)
+  * [Lich](^curse_of_strahd/exethanter.jpg), with the long-forgotten name [Exethanter](^curse_of_strahd/exethanter.jpg) ([stats](https://5e.tools/bestiary.html#exethanter_cos))
+      * [Details](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
+* X28. [Hidden Phylactery](https://5e.tools/adventure.html#cos,14,x28.%20hidden%20phylactery,0)
+* X29. [Secret Room](https://5e.tools/adventure.html#cos,14,x29.%20secret%20room,0)
+* X30. [Preserved Library](https://5e.tools/adventure.html#cos,14,x30.%20preserved%20library,0)
+  * Visual Aids: [1](^curse_of_strahd/preserved_library.jpg), [2](^curse_of_strahd/amber_temple_library.jpg)
+  * <blockquote style="margin-left: 0;"><p>While this library seems small at first glance, you quickly find that the ceiling is so high, you cannot spot its end. Six immense, black marble bookcases line the walls and stretch up into unending heights. Each shelf on each bookcase is filled with well preserved tomes and carefully stacked scrolls. The amount of knowledge stored within this single room seems unfathomable.</p><p>Dozens of floating, copper lanterns light the room, hovering at various heights throughout the library. To the north, a black marble railing encloses an amber staircase that spirals gently down to a lower level. Embroidered rugs, chairs, and lit candelabras fill the center of the room.</p></blockquote>
+  * [Details](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
