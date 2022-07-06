@@ -1,7 +1,7 @@
 import sys
 from random import randint
 
-from src.dnd.npc_enums import cr_dict, races, roles, die_types, cr_list
+from src.dnd.npc_enums import cr_list, races, roles, die_types, total_damage_dict
 
 g_hp = "average"
 g_dmg = "dice"
@@ -11,7 +11,7 @@ def get_options():
     """
     Returns the available CR, Race, and Weapon values, as well as the HP and Damage options.
     """
-    return [cr_dict.keys(), races.keys(), roles.keys(), die_types.keys(), g_hp, g_dmg]
+    return [cr_list, races.keys(), roles.keys(), die_types.keys(), g_hp, g_dmg]
 
 
 def set_options(hp="average", damage="average"):
@@ -42,7 +42,7 @@ def create_npc(cr, race="", role="", damage_die_type="", hp_option=None, dmg_opt
     # Allow "hp" as a valid kwarg
     if "hp" in kwargs:
         kwargs["hit_points"] = kwargs["hp"]
-    cr_values = cr_dict[cr]
+    cr_values = get_cr_values(cr)
     atk_dict = get_attack(cr, race, role)
     def_dict = get_defense(cr, race, role)
     damage = get_dmg_value(atk_dict["total_damage"], dmg_option, atk_dict["num_attacks"], damage_die_type)
@@ -55,7 +55,7 @@ def create_npc(cr, race="", role="", damage_die_type="", hp_option=None, dmg_opt
         "stat_bonus": kwargs.get("stat_bonus") or cr_values["stat_bonus"],
         "prof_bonus": kwargs.get("prof_bonus") or cr_values["prof_bonus"],
         "armor_class": kwargs.get("armor_class") or def_dict["ac"],
-        "hit_points": kwargs.get("hit_points") or get_hp_value(def_dict["hp"], hp_option),
+        "hit_points": kwargs.get("hit_points") or def_dict["hp"],
         "damage_resistances": kwargs.get("damage_resistances") or get_trait(race, role, "damage_resistances"),
         "damage_immunities": kwargs.get("damage_immunities") or get_trait(race, role, "damage_immunities"),
         "senses": kwargs.get("senses") or get_trait(race, role, "senses"),
@@ -69,6 +69,36 @@ def create_npc(cr, race="", role="", damage_die_type="", hp_option=None, dmg_opt
     }
 
 
+def get_cr_values(cr):
+    """
+    Using equations from http://blogofholding.com/?p=7338
+    """
+    cr = get_adjusted_cr(cr)
+    total_damage = total_damage_dict.get(cr, 5 * (cr + 1))
+    s = 2 + cr // 4
+    good_save = 4 + cr // 2
+    return {
+        "stat_bonus": s,
+        "prof_bonus": good_save - s,
+        "ac": 13 + cr // 3,
+        "hp": total_damage * 3,
+        "attack": 4 + cr // 2,
+        "total_damage": total_damage,
+        "save_dc": 11 + cr // 2,
+        "num_attacks": (cr - 1) // 5 + 2
+    }
+
+
+def get_adjusted_cr(cr):
+    """
+    Adjusts "0", "1/8", "1/4", and "1/2" to -3, -2, -1, and 0 respectively
+    """
+    c = ("0", "1/8", "1/4", "1/2")
+    if str(cr) in c:
+        return c.index(str(cr)) - 3
+    return int(cr)
+
+
 def get_speed(d):
     if "speed" in d:
         return d["speed"]
@@ -76,21 +106,21 @@ def get_speed(d):
 
 
 def get_attack(cr, race, role):
-    return get_adjusted_cr_dict(cr, race, role, "atk_cr")
+    return get_adjusted_cr_values(cr, race, role, "atk_cr")
 
 
 def get_defense(cr, race, role):
-    return get_adjusted_cr_dict(cr, race, role, "def_cr")
+    return get_adjusted_cr_values(cr, race, role, "def_cr")
 
 
-def get_adjusted_cr_dict(cr, race, role, key):
+def get_adjusted_cr_values(cr, race, role, key):
     d = races[race]
     if key in d:
         cr = adjust_cr(cr, d[key])
     d = roles[role]
     if key in d:
         cr = adjust_cr(cr, d[key])
-    return cr_dict[cr]
+    return get_cr_values(cr)
 
 
 def adjust_cr(cr, adjustment):
@@ -102,13 +132,13 @@ def adjust_cr(cr, adjustment):
     return cr_list[index]
 
 
-def get_hp_value(values, hp_option):
-    if hp_option == "average":
-        return avg(values)
-    elif hp_option == "random":
-        return randint(values[0], values[1])
-    print(f"Invalid HP option: {hp_option}")
-    return None
+# def get_hp_value(values, hp_option):
+#     if hp_option == "average":
+#         return avg(values)
+#     elif hp_option == "random":
+#         return randint(values[0], values[1])
+#     print(f"Invalid HP option: {hp_option}")
+#     return None
 
 
 def get_trait(race, role, key):
@@ -133,13 +163,11 @@ def get_list(race, role, key):
     return item_list
 
 
-def get_dmg_value(values, dmg_option, num_attacks, die_type):
+def get_dmg_value(value, dmg_option, num_attacks, die_type):
+    avg_damage = round(value / num_attacks)
     if dmg_option == "average":
-        return round(avg(values) / num_attacks)
-    elif dmg_option == "random":
-        return round(randint(values[0], values[1]) / num_attacks)
+        return avg_damage
     elif dmg_option == "dice":
-        avg_damage = round(avg(values) / num_attacks)
         # print(f"Average damage: {avg_damage}")
         if die_type == "":
             die_avg = 3.5  # Default to d6
@@ -182,16 +210,32 @@ def assertEqual(actual, expected):
         print(f"{actual} (type={type(actual)}) != {expected} (type={type(expected)})")
 
 
-assertEqual(adjust_cr("0", 1),  "1/8")
-assertEqual(adjust_cr("0", 2),  "1/4")
-assertEqual(adjust_cr("0", 3),  "1/2")
-assertEqual(adjust_cr("0", 4),  "1")
-assertEqual(adjust_cr("0", 5),  "2")
-assertEqual(adjust_cr("29", 5),  "30")
-assertEqual(adjust_cr("2", 0),  "2")
-assertEqual(adjust_cr("2", -1),  "1")
-assertEqual(adjust_cr("2", -2),  "1/2")
-assertEqual(adjust_cr("2", -3),  "1/4")
-assertEqual(adjust_cr("2", -4),  "1/8")
-assertEqual(adjust_cr("2", -5),  "0")
-assertEqual(adjust_cr("2", -6),  "0")
+if __name__ == "__main__":
+    assertEqual(adjust_cr("0", 1),  "1/8")
+    assertEqual(adjust_cr("0", 2),  "1/4")
+    assertEqual(adjust_cr("0", 3),  "1/2")
+    assertEqual(adjust_cr("0", 4),  "1")
+    assertEqual(adjust_cr("0", 5),  "2")
+    assertEqual(adjust_cr("29", 5),  "30")
+    assertEqual(adjust_cr("2", 0),  "2")
+    assertEqual(adjust_cr("2", -1),  "1")
+    assertEqual(adjust_cr("2", -2),  "1/2")
+    assertEqual(adjust_cr("2", -3),  "1/4")
+    assertEqual(adjust_cr("2", -4),  "1/8")
+    assertEqual(adjust_cr("2", -5),  "0")
+    assertEqual(adjust_cr("2", -6),  "0")
+
+    assertEqual(get_adjusted_cr("0"), -3)
+    assertEqual(get_adjusted_cr("1/8"), -2)
+    assertEqual(get_adjusted_cr("1/4"), -1)
+    assertEqual(get_adjusted_cr("1/2"), 0)
+    assertEqual(get_adjusted_cr("1"), 1)
+    assertEqual(get_adjusted_cr("2"), 2)
+    assertEqual(get_adjusted_cr("3"), 3)
+
+    for i in cr_list:
+        print(f"{i}: {get_cr_values(i)}")
+
+    for i in cr_list:
+        npc = create_npc(i)
+        print(f"{i}: {npc['num_attacks']} / {npc['damage']}")
