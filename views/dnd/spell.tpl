@@ -35,9 +35,9 @@ end
 % end
 <hr class="no-float">
 <p><em>
-    % if defined('source_extended'):
-    Source: {{!source_extended}}
+    % if defined('source_link'):
+    Source: <a href="{{ source_link }}">{{ source }}</a>
     % else:
-    Source: {{source}}
+    Source: {{ source }}
     % end
 </em></p>
