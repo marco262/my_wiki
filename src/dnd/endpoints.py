@@ -198,7 +198,7 @@ def load_wsgi_endpoints(app: Bottle):
                     (filter_keys["material"] == "no" and "M" in v["components"])):
                 continue
             if ((filter_keys["expensive"] == "yes" and not v.get("expensive_material_component")) or
-                    (filter_keys["expensive"] == "no" and v("expensive_material_component"))):
+                    (filter_keys["expensive"] == "no" and v.get("expensive_material_component"))):
                 continue
             if ((filter_keys["consumed"] == "yes" and not v.get("material_component_consumed")) or
                     (filter_keys["consumed"] == "no" and v.get("material_component_consumed"))):

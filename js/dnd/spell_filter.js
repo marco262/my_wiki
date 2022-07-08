@@ -8,6 +8,7 @@ export function init_events() {
         set_ui_state(JSON.parse(filter_state));
     }
     document.getElementById("filter_button").onclick = filter;
+    document.getElementById("reset_button").onclick = reset_ui;
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
     document.getElementById("show-advanced-block").onclick = on_click_show_advanced_block;
     document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced_block;
@@ -33,6 +34,7 @@ function get_ui_state() {
     d["sources"] = get_checkboxes("source");
     d["casting_times"] = get_checkboxes("casting-time");
     d["durations"] = get_checkboxes("duration");
+    d["all"] = get_checkboxes("all");
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
     d["ua_spells"] = document.getElementById("checkbox-ua-spells").checked;
@@ -46,10 +48,21 @@ function set_ui_state(d) {
     set_checkboxes("source", d["sources"]);
     set_checkboxes("casting-time", d["casting_times"]);
     set_checkboxes("duration", d["durations"]);
+    set_checkboxes("all", d["all"]);
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
     document.getElementById("checkbox-ua-spells").checked = d["ua_spells"];
     return d;
+}
+
+function reset_ui() {
+    let checkboxes = ["class", "level", "school", "source", "casting-time", "duration", "all"];
+    checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
+    let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
+    toggles.forEach(toggle => set_radio_group_value(toggle, "both"));
+    document.getElementById("checkbox-ua-spells").checked = true;
+    let json = JSON.stringify(get_ui_state());
+    setCookie("filter_state", json);
 }
 
 function check_all(e) {
@@ -79,7 +92,7 @@ function get_checkboxes(name) {
 function set_checkboxes(name, to_set) {
     let list = document.getElementsByName("checkbox-" + name);
     if (to_set)
-        list.forEach(n => n.checked = to_set.includes(n.value));
+        list.forEach(n => n.checked = (to_set.includes(n.value) || to_set === "all"));
 }
 
 function get_radio_group_value(name) {

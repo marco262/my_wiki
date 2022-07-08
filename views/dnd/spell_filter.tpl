@@ -83,6 +83,7 @@
 <p>
 
 <input type="button" value="Filter" id="filter_button" />
+<input type="button" value="Reset" id="reset_button" />
 
 <p>
 
