@@ -89,9 +89,11 @@
         </div>
     </div>
     <div class="dropdown">
-        <a href="/curse_of_strahd/">Curse of Strahd</a>
-    </div>
-    <div class="dropdown">
-        <a href="/pirates/">Here There Be Pirates!</a>
+        <a href="/">Campaigns</a>
+        <div class="dropdown-content" style="width: 13em;">
+            <a href="/curse_of_strahd/">Curse of Strahd</a>
+            <a href="/pirates/">Here There Be Pirates!</a>
+            <a href="/sandpoint/">The Heroes of Sandpoint</a>
+        </div>
     </div>
 </div>
