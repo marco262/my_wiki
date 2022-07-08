@@ -18,7 +18,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/")
     @app.get("/home")
     def home():
-        return md_page("Sandpoint", "sandpoint")
+        return md_page("The Heroes of Sandpoint", "sandpoint", build_toc=False)
 
     @app.get("<name>")
     @view("common/page.tpl")

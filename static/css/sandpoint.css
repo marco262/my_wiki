@@ -1,0 +1,13 @@
+.map-float {
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+.map-float, a, img {
+    max-width: 20vw;
+}
+
+h2 {
+    clear: both;
+}

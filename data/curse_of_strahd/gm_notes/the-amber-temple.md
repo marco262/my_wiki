@@ -98,6 +98,7 @@ Before going into the Amber Temple, tell the players the following things:
   * [Keldei](^curse_of_strahd/keldei.png), Helwa's First Spear, a stubborn, and powerfully loyal warrior ([stats](https://5e.tools/bestiary.html#berserker_mm))
   * [Astrid](^curse_of_strahd/astrid.png), an inquisitive and curious tracker ([stats](https://5e.tools/bestiary.html#berserker_mm))
   * [Frida](^curse_of_strahd/frida.png), a timid but fierce hunter ([stats](https://5e.tools/bestiary.html#berserker_mm))
+      * [Crawling on the ceiling](^curse_of_strahd/crawling_on_the_ceiling.jpeg)
   * [Harald](^curse_of_strahd/harald.png), a proud, stocky fighter ([stats](https://5e.tools/bestiary.html#berserker_mm))
   * [Skald](^curse_of_strahd/skald.png), Helwa's winter wolf companion ([stats](https://5e.tools/bestiary.html#winter%20wolf_mm))
 * X16. [West Scroll Repository](https://5e.tools/adventure.html#cos,14,x16.%20west%20scroll%20repository,0)

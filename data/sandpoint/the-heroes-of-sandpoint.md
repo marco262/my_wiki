@@ -1,0 +1,331 @@
+<script type="module">
+    import { init_accordions } from "/js/common/utils.js";
+    init_accordions();
+    import { init_links } from "/js/common/visual_aid_backend.js";
+    init_links();
+</script>
+
+<link rel="stylesheet" type="text/css" href="/static/css/sandpoint.css">
+
+# The Heroes
+
+* Rusty Stoutfield, human fighter
+* Vellyse Lostren, elven bard
+* Delfie Greenbottle, halfling monk
+* Althaea Meliamne, elven fighter
+* Oscar "Grog" Deadhand, half-orc ranger
+
+# The NPCs
+
+* <a href="/static/img/visual_aids/sandpoint/kendra_deverin.jpg" target="_blank">Mayor Kendra Deverin</a>
+* <a href="/static/img/visual_aids/sandpoint/sheriff_hemlock.jpg" target="_blank">Sheriff Hemlock</a>
+* <a href="/static/img/visual_aids/sandpoint/cyrdak_drokkus.jpg" target="_blank">Cyrdak Drokkus</a>
+* <a href="/static/img/visual_aids/sandpoint/father_zantus.png" target="_blank">Father Zantus</a>
+* <a href="/static/img/visual_aids/sandpoint/ameiko_kaijitsu_1.png" target="_blank">Ameiko Kaijitsu</a>
+
+# Varisia, Cradle of Legends
+
+<div class="map-float">
+    <a href="/static/img/visual_aids/sandpoint/varisia_map.jpg" target="_blank">
+        <img src="/static/img/visual_aids/sandpoint/varisia_map.jpg">
+    </a>
+</div>
+
+Dotted with the monolithic relics of an empire long since crumbled, Varisia is a rough but majestic land, its misty forests and rolling plains bordered by sharp peaks and bountiful seas. Its people, recently released from colonialism, are hardy frontier folk and new-money nobles, all eager to carve names for themselves from Varisia's stern landscape. Yet beyond their village borders, beasts and giants unused to civilization's encroachment stalk the hills and woods, making short work of both the unwary and the bold.
+
+What follows is a gazetteer of the region known as Varisia. While much of this rugged land remains unexplored, what little is known tempts the daring and holds the potential for untold adventure. For fortune hunters, Varisia is a land of limitless opportunity, its ancient monuments reminding them just how far the truly driven can rise.
+
+## Magnimar
+
+<div class="map-float">
+    <a href="/static/img/visual_aids/sandpoint/magnimar_map.jpg" target="_blank">
+        <img src="/static/img/visual_aids/sandpoint/magnimar_map.jpg">
+    </a>
+</div>
+
+Founded by former Korvosans seeking to throw off Chelish rule and form a democratic metropolis, the renowned City of Monuments lies at the southern tip of the Varisian Gulf, built up around one of the last surviving remnants of the enormous bridge that purportedly once stretched all the way to Hollow Mountain.
+
+## Sandpoint
+
+<div class="map-float">
+    <a href="/static/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg" target="_blank">
+        <img src="/static/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg">
+    </a>
+</div>
+
+Sandpoint is a sleepy fishing town known primarily for its excellent theater and exquisite glassblowing, and is the only settlement of note on the Lost Coast. Of late, the town has been experiencing an unusual spate of murders and goblin troubles...
+
+
+[[accordion And a few other places...]]
+
+## Abken
+
+The town of Abken was founded on a belief: that given the right blend of people, a town might work as a single family, with no individual better than any other. Originally composed of just a few families from the Korvosan underclass, this simple farming commune grew slowly, with new members admitted only through marriage or majority vote. Although friendly to strangers, the now-sizeable village remains insular and tight-lipped about its internal processes, and the large log palisade around the primary compound protects its privacy. Outsiders causing trouble can expect to be subdued in short order, as every man, woman, and child is quick to raise arms in defense of his or her "family." 
+
+## Ashwood
+
+While many forests in Varisia bear dark reputations, Ashwood's is legendary. Everyone within a hundred miles claims to have a relative or friend-of-a-friend who personally encountered a ghost, werewolf, or other spook within the wood's brooding borders. Yet while locals might boast excitedly and exchange tales by day, at night they bar their doors and pile firewood high. The Church of Erastil takes these stories particularly seriously, and worshipers of Old Deadeye are frequently seen patrolling the dells and towns along the forest's ragged edge, making sure the dark creatures within its borders stay there. 
+
+## Baslwief
+
+Baslwief is one of the primary mining towns in the Korvosan region; its residents pry iron, copper, and rarer metals from the foothills of the Fenwall Mountains and ship them downriver. In addition to human prospectors, the town boasts a large population of halflings, who find the city's frontier aesthetic much to their liking. 
+
+## Biston
+
+Here the shores of Lake Syrantula rise up from the water in a great overhanging cliff of stone. Covering the escarpment is an ancient and crumbling community, its caves drilled back into the rock to form a cozy, interconnected warren of ladders and ropes. Although the town is currently inhabited primarily by fishermen and farmers, its original architects are rumored to have been a now-extinct tribe of harpies. 
+
+## Bloodsworn Vale
+
+The site of a bloody engagement between invading Chelish forces and desperate Shoanti barbarians, Bloodsworn Vale was a primary trade route between Cheliax and its Varisian colonies. It fell into disuse after the empire's collapse. As a few Varisian port cities grow increasingly wealthy from southern trade, many landlocked towns have begun clamoring for the pass to be reopened. 
+
+## Brinewall
+
+Originally settled by Chelaxians out of Korvosa, and once the northernmost Chelish holding in Varisia, this fortress was perfectly situated to defend against and facilitate trade with the harsh warriors from the Lands of the Linnorm Kings. Despite the constant threat of Nolander barbarians, the dragon-helmed militia manning the fort's eponymous curtain wall proved more than capable of rebuffing attacks. Twenty years ago, however, all communication with the fortress suddenly ceased. Investigations revealed an empty citadel, devoid of all evidence of attack or disaster. Although most blame the Nolanders, the complete absence of bodies and the pristine shape of the empty ships bobbing in the harbor speak toward a more sinister calamity. 
+
+## Calphiak Mountains
+
+The Calphiak Mountains are the youngest range in Varisia, dating back a mere 10,000 years to the cataclysmic end of the Thassilonian Empire. Today, the mountains are renowned for their high concentration of Thassilonian artifacts, most famously at the Valley of Stars, a heavily etched crater many explorers believe to be a massive celestial observatory. 
+
+## Celwynvian
+
+Deep in the Mierani Forest, the ancient elven capital of Celwynvian stands empty, its verdant palaces and delicate towers poised breathlessly in the half-light beneath the canopy. Avoided superstitiously by other races during the elves' long absence, the City of Emerald Rains has been quarantined since their return. Refusing all requests by outsiders to enter their ancestral home, the elves claim to have cut off the city to provide their kind with a refuge from the outside world. Those who deal with the denizens of the Mierani Forest, however, whisper that the elves themselves actually reside outside the city, fighting a hidden war to retake their capital from a sinister and unnamed force. Chorak's Tomb: The giants of the Storval Plateau were not always the barbarians they are today, and perhaps the best proof of this lies on the tiny island in Lake Skotha known to the giants as Chorak's Tomb. Here, it is rumored, the descendants of the giant warlord's honor guard still cling to the remnants of civilization, protecting the last traces of their race's glory. All of this remains speculation, however, as any sentient creatures attempting to approach the island are bombarded with rocks or shot down with rune-carved ballista bolts. Not even other giants know what secrets lie at the island's center, and for now, beyond a few glints of metallic structures in the distance, the mystery of Chorak's Tomb goes unanswered. 
+
+## Churlwood
+
+A tangled forest choked by tenacious vines, Churlwood is almost impossible for non-natives to navigate, making it the perfect refuge for the bandit gangs and goblin tribes that raid from its borders. With its plentiful game and renowned ability to confuse even the most canny trackers, the wood is a popular destination for wanted criminals, its borders a haven for rogues and escaped slaves alike—hence the expression, "Safe as a thief in Churlwood." Of course, what the stories of outlaw folk heroes and egalitarian bandits fail to mention is just how many enter the forest never to be seen again. 
+
+## Cinderlands
+
+The Cinderlands take up the majority of the southern Storval Plateau, its dry, ashen soil approaching desert status in many places. Many of the plants here require fire to split open their seedpods, and in the summer, wildfires race across the badlands in vast sheets of flame ignited by the ferocious seasonal thunderstorms. In these harsh environs, only the Shoanti make any real settlements, and these generally consist of yurts and other easily transportable structures. Fire plays a central role in the lives of these upland tribes as well, and many promote harsh rites of passage in which young warriors must outpace a wildfire or run down an animal driven before the flames. 
+
+## Crystalrock
+
+Originally discovered by the dwarves of Janderhoff, who sometimes refer to it as the "Heart of the World," this massive crystalline formation hangs suspended from frail-looking crystal threads in a natural cavern far beneath the edge of the Mindspin Mountains. For hundreds of years, dwarven elders have gathered here annually to watch as the crystal suddenly convulses, sending out a deep, vibrating pulse that can be felt in creatures' bones for miles around. Recently, however, the dwarves who study Crystalrock have grown withdrawn with concern and excitement as the beating has begun speeding up, currently coinciding with the changing of the seasons. 
+
+## Crystilan
+
+While its original name has long been lost, the site called Crystilan is today among the best-known Thassilonian artifacts, and has provided scholars with much of what they now know about Thassilonian life. Visible from the sea, the shining dome of translucent crystal is glorious to behold, catching the sun's light and making it too bright to stare at directly. Up close, the adventurous can peer through the smooth, almost frictionless crystal at the chunk of city within, perfectly preserved like a fly in amber. Though many have attempted to break through and reach the great stepped temples and vast arches, no magic or weapon currently known has ever been able to mar or otherwise penetrate the crystal, and those who have attempted to tunnel under it believe the strange shield to be a perfect sphere. For now, at least, most scholars are content to transcribe the visible runes and watch the strangely deserted city as it proceeds, unchanging, through the ages toward some unknown purpose. 
+
+## Curchain Hills
+
+The hollows and grassy dells of the Curchain Hills are home to relatively peaceful tribes of Shoanti, great herds of grazing aurochs, and several superstitious families of frontier folk. Travelers through the region often claim that certain hills appear too similar, suggesting an unnatural formation. 
+
+## Ember Lake
+
+Presumably fed by hot springs as well as the Lampblack and Malgorian rivers, the waters of Ember Lake rise up warm from the rolling plains, and certain spots along the shore steam in the colder months. The lake is also home to strange aquatic creatures that dart like fireflies in massive schools beneath the surface. Not quite fish, these tiny creatures called "charigs" resemble salamanders, their transparent skin phosphorescing in the clear waters. Although the creatures appear harmless, locals avoid eating them, claiming that on certain nights of the year the schools assemble in flickering patterns miles wide, moving with purpose and intelligence, as if creating glowing signals visible only from the sky. 
+
+## Fenwall Mountains
+
+While few attempt to establish any real homesteads in the monster-infested Fenwall Mountains, the peaks' rich lodes of iron and precious metals make them an attractive destination for lower-class Korvosans and undesirables seeking to strike it big as prospectors. As such, the valleys of the Fenwalls are dotted with tiny one-person camps as well as heavily guarded strip-mining excavations bankrolled by larger, Korvosa-based mining concerns. 
+
+## Fogscar Mountains
+
+The dense-packed goblins of the Fogscar Mountains squabble among themselves constantly, with each stony gully seeming to host a new tribe of knee-biting scavengers. Although narrow roads run between the misty peaks, travelers seeking a shortcut between Magnimar and Roderic's Cove are advised to go well armed and carry large stores of cheap trinkets—or moderately useful garbage—with which to buy off the notoriously covetous natives. 
+
+## Galduria
+
+While the town of Galduria survives primarily by ferrying grain and lumber along the Lampblack River and Ember Lake, its true claim to fame is its college. By far the oldest structure in town, the Twilight Academy is one of the premier schools of magic in Varisia, rivaled only by the Stone of the Seers in Magnimar and the notorious Acadamae of Korvosa, both of which consider it an upstart devoid of their own rich heritages. Founded in Galduria specifically to avoid the political pressure and intrigues of those two cities, the Twilight Academy has a reputation for being experimental and unconventional in many of its practices, but frequent donations to public works keep locals from probing too deeply into the occasional haywire spell or necromantic accident. 
+
+## The Gnashers
+
+The traditional home of several hill giant tribes, the Gnashers offer the brave explorer a rare glimpse into the vast giant empire that predated human settlement in Varisia. Unfortunately, the brutish natures of its current residents make such expeditions a dangerous gamble at best. 
+
+## Gruankus
+
+Its original purpose unknown, the great stone wheel of Gruankus lies on the shore of the Varisian Gulf, its rune-carved bulk half-buried in the sand. Today, it's better remembered as the site of the negotiations between Riddleport and Magnimarian diplomats that led to the Treaty of Gruankus, which has kept traders in the Varisian Gulf nominally safe from pirate attacks for nearly a hundred years. 
+
+## Guiltspur
+
+Even the giant savages who dominate the northern Storval Plateau avoid Guiltspur, an ever-deepening excavation into ages long past, dug by giant sweat and dragon claw. Unmarked and unknown for centuries, only recently has the site revealed itself to be a complex Thassilonian catacomb. 
+
+## Harse
+
+This village perches on the spit of land where the Sarwin and Falcon rivers meet, and the twin Harse ferries are the easiest way for travelers in the area to cross either of the great rivers. In addition, Harse boasts the best horse and livestock breeders south of the Velashu Uplands, and each year holds an enormous rodeo designed to single out the best animals and riders. 
+
+## Hollow Mountain
+
+Upon the largest of Rivenrake Island's jagged peaks sneers the shattered, monumental visage of a stern-looking woman scowling ever southward over the remnants of the titanic ancient bridge that connected Rivenrake to Argavist Island. Shorn vertically in two, the face reveals levels upon levels of exposed architecture within the mountain, while below, the ruined foundations of a dust-choked tomb of a city climb the mountainside, tempting adventurers with the promise of untold discoveries. 
+
+## Hook Mountain
+
+This massive mountain is at the southernmost reaches of the Iron Peaks and looms over the Sanos Forest. Hunters and trappers in the region steer clear of the area because they claim savage tribes of inbred ogres inhabit the place. 
+
+## Ilsurian
+
+In the years immediately following the crumbling of the Chelish Empire, Korvosa was embroiled in turmoil, with various noble houses and government officials squabbling over where the colony's allegiance would fall. While many loyal to the old empire eventually left Korvosa and relocated to Magnimar, theirs was not the only faction to desert the quarreling city. Ilsur, formerly a First Sword among the Knights of Aroden, advocated shaking off noble rule altogether and restructuring Korvosa as an efficient, military meritocracy. He campaigned for years but conceded failure in 4631 ar with the foundation of the Korvosan royal house. Ilsur led his troops to the coast of Lake Syrantula, where they settled in a small fishing village and dug in to await their chance to return and put the new aristocracy to the sword. Although Ilsur is long dead and his descendants are more woodsmen and fishmongers than soldiers, the village remains fiercely independent—ceding to neither Korvosan nor Magnimarian rule—and all townsfolk are required to maintain a sharp sword and train against the day when they might have to defend their freedom from tyrants. 
+
+## The Iron Peaks
+
+Although the farms in the valleys along their southwestern edge benefit from the heavy rains that break on the western side of the mountains, the Iron Peaks are renowned as the domain of easily irritated ogres, hill giants, and stone giants. Wherever possible, locals avoid venturing beyond the range's foothills, and advise travelers to do the same. 
+
+## Janderhoff
+
+With its massive iron curtain wall and steeples of beaten copper, the dwarven stronghold of Janderhoff squats like a great armored beast among the foothills of the Mindspin Mountains. Yet, despite its forbidding appearance, the city is a bustling nexus of trade, with Shoanti and Chelaxians alike passing through the well-guarded tunnels that form the city's only entrances. Once inside, visitors quickly find themselves in the low-ceilinged markets and smithies that provide the city's livelihood. These surface buildings are mostly for receiving outsiders, as the majority of the town's population lives belowground in an intricate lattice of subterranean streets. 
+
+## Kaer Maga
+
+The City of Strangers, as Kaer Maga is also called, is an anarchic cliff-top city is built inside the ruins of an ancient monument. The city is known as a place where someone can hide from persecution or start a new life amid dozens of strange factions and thousands of its unique residents. 
+
+## Kodar Mountains
+
+Tall and forbidding, the jagged snow-capped peaks of the Kodar Mountains are among the highest in the world. Only the hardiest creatures, such as storm giants, rocs, and dragons, are able to withstand the extreme climate and treacherous cliffs. Numerous mysteries and legends have origins hidden deep within the Kodar Mountains, such as the quixotic Monastery of the Peacock Spirit, the cloud citadel of Chadra-Oon, and the lost city of Xin-Shalast. 
+
+## Korvosa
+
+Formerly the capital of colonial Varisia, Korvosa suffered several years of turmoil after the fall of the Chelish Empire, and emerged from this struggle roughly equivalent with Magnimar in terms of political power—a fact that still irks many of Korvosa's residents. These days, most of Korvosa's decadent nobles continue to play up their ties to Cheliax and their endorsement of southern fashions, fancying themselves Varisia's center of culture and enlightenment. Whether or not such conceits are accurate, the city is certainly tied closer than any of its neighbors to the land's imperial past. The Lady's Light: Leaning precariously at the end of a rocky spit, the Lady's Light is a southern sailor's first glimpse of Varisia. Nearly 200 feet high, the enormous stone lighthouse is shaped like a sensuous woman in a flowing dress that leaves one breast bare, her right hand pointing a staff that shines a brilliant beam of light out to sea at regular intervals. At the statue's base, a gigantic, strangely hinged stone door presumably colony's allegiance would fall. While many loyal to the old empire eventually left Korvosa and relocated to Magnimar, theirs was not the only faction to desert the quarreling city. Ilsur, formerly a First Sword among the Knights of Aroden, advocated shaking off noble rule altogether and restructuring Korvosa as an efficient, military meritocracy. He campaigned for years but conceded failure in 4631 ar with the foundation of the Korvosan royal house. Ilsur led his troops to the coast of Lake Syrantula, where they settled in a small fishing village and dug in to await their chance to return and put the new aristocracy to the sword. Although Ilsur is long dead and his descendants are more woodsmen and fishmongers than soldiers, the village remains fiercely independent—ceding to neither Korvosan nor Magnimarian rule—and all townsfolk are required to maintain a sharp sword and train against the day when they might have to defend their freedom from tyrants. 
+
+## The Iron Peaks
+
+Although the farms in the valleys along their southwestern edge benefit from the heavy rains that break on the western side of the mountains, the Iron Peaks are renowned as the domain of easily irritated ogres, hill giants, and stone giants. Wherever possible, locals avoid venturing beyond the range's foothills, and advise travelers to do the same. 
+
+## Janderhoff
+
+With its massive iron curtain wall and steeples of beaten copper, the dwarven stronghold of Janderhoff squats like a great armored beast among the foothills of the Mindspin Mountains. Yet, despite its forbidding appearance, the city is a bustling nexus of trade, with Shoanti and Chelaxians alike passing through the well-guarded tunnels that form the city's only entrances. Once inside, visitors quickly find themselves in the low-ceilinged markets and smithies that provide the city's livelihood. These surface buildings are mostly for receiving outsiders, as the majority of the town's population lives belowground in an intricate lattice of subterranean streets. 
+
+## Kaer Maga
+
+The City of Strangers, as Kaer Maga is also called, is an anarchic cliff-top city is built inside the ruins of an ancient monument. The city is known as a place where someone can hide from persecution or start a new life amid dozens of strange factions and thousands of its unique residents. 
+
+## Kodar Mountains
+
+Tall and forbidding, the jagged snow-capped peaks of the Kodar Mountains are among the highest in the world. Only the hardiest creatures, such as storm giants, rocs, and dragons, are able to withstand the extreme climate and treacherous cliffs. Numerous mysteries and legends have origins hidden deep within the Kodar Mountains, such as the quixotic Monastery of the Peacock Spirit, the cloud citadel of Chadra-Oon, and the lost city of Xin-Shalast. 
+
+## Korvosa
+
+Formerly the capital of colonial Varisia, Korvosa suffered several years of turmoil after the fall of the Chelish Empire, and emerged from this struggle roughly equivalent with Magnimar in terms of political power—a fact that still irks many of Korvosa's residents. These days, most of Korvosa's decadent nobles continue to play up their ties to Cheliax and their endorsement of southern fashions, fancying themselves Varisia's center of culture and enlightenment. Whether or not such conceits are accurate, the city is certainly tied closer than any of its neighbors to the land's imperial past. The Lady's Light: Leaning precariously at the end of a rocky spit, the Lady's Light is a southern sailor's first glimpse of Varisia. Nearly 200 feet high, the enormous stone lighthouse is shaped like a sensuous woman in a flowing dress that leaves one breast bare, her right hand pointing a staff that shines a brilliant beam of light out to sea at regular intervals. At the statue's base, a gigantic, strangely hinged stone door presumably feral-born patrol the depths, the elves are still in the process of cleansing the forest after their centuries-long absence, their most persistent quarries being tribes of ettercaps, ravenous plants, and a singularly elusive green dragon known as Razorhorn. Minderhal's Anvil: This ancient temple-mountain rises in honor of Minderhal, the brooding smith-god of the giants. Beyond its cracking marble pillars, the massive forge-altar still stands, its cold furnace once fed with the bodies of convicted lawbreakers. Few giants now come here, and the stone statue of the giant lord of judgment sits unattended on his throne, chin resting on his fist, staring out across the Storval Deep. 
+
+## Mindspin Mountains
+
+Filled with giants, ogres, and trolls, not to mention deep crevasses and dangerous rockslides, the Mindspin Mountains are considered a deathtrap for all but the most experienced travelers. Ironically, such dangers might be one of Varisia's greatest assets, as to date they've kept the warring orc tribes of the Hold of Belkzen from sweeping across the range into Korvosa. 
+
+## The Mobhad Leigh
+
+With a Shoanti name meaning "steps into hell," the Mobhad Leigh has captivated imaginations for ages. A perfectly round pit in an otherwise nondescript field at the foot of the Kodar Mountains, the Leigh has so far never been conclusively proven to have a bottom. Steps spiraling along the pit's sheer walls extend down for several hundred feet before collapsing, and those who have ventured farther have never returned to say whether or not they begin again lower down. The local Shoanti generally avoid the Leigh, particularly after several of their magic-users dropped dead while attempting to scout the pit with scrying magic. Yet on certain nights of the year, flickering orange lights can be seen dancing deep within its depths. 
+
+## Mundatei
+
+The Obelisk Forest of Mundatei is no true forest. Rather, when travelers pass over the ridge into Mundatei's wide valley, their first impression is of a vast tangle of menhirs—thousands upon thousands of 10-foot-high stones carved in places with spiraling patterns of runes. It's a breathtaking display, and rumor has long held that some of the obelisks are hollow and contain treasures. But when a group of Korvosan explorers broke open a dozen of the obelisks nearly a hundred years ago, they found that each obelisk contained a twisted, long-dead human body, its limbs and expression frozen in pain and horror. That evening, the explorers' camps were assaulted by horrific undead whose flesh was hard as stone and whose eyes were horribly alive and fresh. A dozen folk were carried off by the undead, and when the survivors searched for them the next day, no trace was found— but the 12 opened obelisks had reformed into their previous shapes as if they had never been touched. Few have returned to Mundatei since that fateful day. 
+
+## The Mushfens
+
+South of the Yondabakari, the land becomes a sweating tangle of boggy marshes and impenetrable mangroves, endless meres and fens capable of swallowing men without a trace. Along with the usual dangers of the swamp, the Mushfens are known for their vicious populations of boggards, marsh giants, and faceless stalkers. 
+
+## The Nolands
+
+The Nolands are rough, stony plains where the tribes of the Linnorm Kings exile their most despicable and craven criminals. Centuries of this practice have given rise to numerous bands of berserkers who roam the land, preying upon each other, slaughtering without mercy, and feasting on the flesh of their enemies. While the Nolanders are too disorganized to prove any real threat to Varisia, residents of the Velashu Uplands and Red Mountains are constantly on guard against the savage raids of the northerners. Some Shoanti tribes banish their criminals to the Nolands as well, although such a punishment is generally seen as less honorable than a clean death. 
+
+## Nybor
+
+Renowned for its racial tolerance, this peaceful farming community has a greater number of half-breeds per capita than anywhere else in Varisia, and strongly encourages interracial marriages. While the town occasionally draws the ire of puritan sects, many are the young Magnimarian noblewomen who are quietly bundled up and shipped off to Nybor when illicit flings result in pregnancy. Palin's Cove: Here the clear waters of the Falcon River turn brown and black as the factories of Palin's Cove, Korvosa's industrial center, vent waste material into its current. A relatively recent development, the factories have drawn great animosity and even violence from druids, Gozreh worshipers, and even ordinary smiths and artisans, but none can deny that the quality of the goods turned out by these workhouses provides a huge boost to the Korvosan economy. 
+
+## Ravenmoor
+
+Quaint and isolated, the residents of Ravenmoor are happy to trade with those passing through along the Lampblack River, but travelers seeking to spend the night find that none of the empty-looking inns accept boarders. Additionally, while apparently extremely pious, the residents are loath to discuss their religious beliefs with outsiders. 
+
+## Red Mountains
+
+The Red Mountains are relatively low by Varisian standards, their rocky soil rusted red with thick iron deposits. The residents, primarily miners and herders, eke out meager livings from the barren hills, banding together on their shaggy upland ponies against the lawless raiders of the Nolands. So close to the berserkers, the ridges and gullies of the Red Mountains hold a natural appeal for paladins and rangers, who make it their calling to protect Varisia's northern border. Of late, the raiders appear disturbingly organized, and many of the local leaders have begun appealing to the southlands for aid, even going so far as to send emissaries to Riddleport and the Hellknights stationed in Magnimar. 
+
+## Riddleport
+
+Varisia's northernmost port, the infamous city of Riddleport is renowned as a haven for scoundrels, outcasts, and worse. Cutthroats fill its harbor and dockside brothels, with Riddleport's officers of the law being just another gang of thieves (and hardly the most powerful one at that). Yet even in such a den of inequity and vice, scholars and historians abound, attempting to decipher the runes of the great arch known as the Cyphergate, which spans the mouth of the harbor and looms over each vessel that passes into the city. Although any progress on the inscription has been kept quiet, recent excavation hints that the massive arch might actually be just one segment of a ring that extends into the cliffs surrounding the port. 
+
+## Rift of Niltak
+
+Whether the Rift of Niltak was opened by great magic or some geologic calamity, none alive today can say. Filled with strange, pulsing structures and bizarre flora, the canyon's mist-shrouded depths swarm with enormous centipede-like horrors, shrieking batlike predators, and other terrors. It should be noted that accurate descriptions of the depths are made that much rarer by the high suicide rate among the few explorers who return from journeys below. 
+
+## Rimeskull
+
+From where they stand, high on the mountain's steep western slopes and staring out toward Lake Stormunder, the strange, heavy stone statues of Rimeskull—each a massive head of eroded rock—have puzzled scholars for ages. Who made them and why they all stare fixedly west remain mysteries, due in no small part to the white dragon Arkrhyst, who makes Rimeskull his home and is notoriously disinclined to allow guests. Roderic's Cove: Besieged by the goblins and bandits of Churlwood on one side and pirates on the other, the port town of Roderic's Cove submitted to Riddleport 10 years ago. To everyone's surprise, both in the town and throughout Varisia, the pirates spared the community, employing it as a shipping and trading port for merchants without the stomach to enter Riddleport. Captain Jess Gildersleeve serves as port-governor, guaranteeing that the gangs of Riddleport get their cut of the local trade while assuring her own sizable take. In the wake of a recent rash of mysteriously scuttled ships in the harbor, many citizens who remember life before the pirates' rule have chalked up the sabotage to the ghost of Sir Roderic, the town's founder and a notorious privateer, while those in power blame rebellion and insurgents. With tensions rising, many believe it's only a matter of time before the battle lines are drawn and Roderic's Cove erupts in flames of revolution. 
+
+## Sandpoint
+
+Sandpoint is a sleepy fishing town known primarily for its excellent theater and exquisite glassblowing, and is the only settlement of note on the Lost Coast. Of late, the town has been experiencing an unusual spate of murders and goblin troubles. 
+
+## Sanos Forest
+
+While Whistledown is regarded by other races as the primary gnome settlement in Varisia, Sanos Forest is their true domain. Here, under sun-dappled branches bowed low with moss and fungus, the gnomes prune and twist the living plants into elaborate dwellings. Here, too, they're free to drop the masks they ordinarily wear among other sentient races and revel in their true natures, organizing themselves along principles unknown to outsiders. Although gnomes as a race are extremely tight-lipped about what goes on in Sanos Forest, there are whispers that somewhere deep in its heart they maintain a gateway to the First World of the fey. 
+
+## Shimmerglens
+
+This reputedly haunted patch of swampland lies between the Skull River and the Sanos Forest. Those traveling through this area make certain to keep to the river and not stray too far into the marsh. 
+
+## Sirathu
+
+This hamlet is both the poorest and farthest removed of Korvosa's holdings. Although generally dismissed by their "leaders" to the south as filthy peasants, the folk of Sirathu have recently come to the city's notice by rallying behind a 10-year-old child who reportedly predicts the future and urges secession from the corruption of Korvosa "before the storm breaks." Skull's Crossing: This immense Thassilonian dam holds back the water of the Storval Deep. Reportedly built by ancient giants, the massive structure is decorated with skulls carved into its face. 
+
+## Spindlehorn
+
+Thousands of feet high, Spindlehorn thrusts up from the shore of the Storval Deep like a needle against the sky, its sides sheer except for the treacherous set of stairs that winds around the crooked spire until it reaches the flattened peak, an open space barely 10 feet in diameter. None know what purpose the mysterious spire once served, but tales tell of dark-robed pilgrims seen climbing the dizzying stairs but never descending. 
+
+## Spire of Lemriss
+
+Not exactly a tree, the Spire of Lemriss is an enormous spike of plant matter stretching hundreds of feet into the sky, its nearly vertical sides covered in an arm-deep shell of vines and its inner structure made of twisted and braided wooden trunks sprouting from each other in an endless cascade. Within its branches, birds and rodents nest and breed, their hoots echoed from the nearby Churlwood, along with the occasional screeching of something far larger. While some believe the spire to be a sprouted cutting from the World Tree, its true origins remain unknown. 
+
+## Stony Mountains
+
+While one of the few relatively giant-free mountain ranges in Varisia—kept that way by the warlike Shoanti of the Tamiir-Quah—the Stony Mountains are still dangerous for the unwary, as griffons, manticores, tribes of harpies, and other dangerous creatures make the craggy peaks their home. 
+
+## The Storval Deep
+
+Filling the entire valley between the Iron Peaks and the Wyvern Mountains, the Storval Deep is a massive lake held back by an ancient dam, Skull's Crossing, at its southern tip. What's more, the banks of the lake themselves seem curiously worked, as if carved from the surrounding stone by more than water. Although rumors abound of sunken cities, flooded mineshafts, and relics so powerful the ancients created the lake just to hide them, few have ever ventured into the dark water's unfathomed depths. 
+
+## Storval Plateau
+
+The land of Varisia is split in half by the Storval Rise, a thousand-foot-tall cliff sculpted for much of its length into ancient weatherworn statues, cliff fortresses, and strange portals into eldritch depths. The Rise separates the lush, fertile lowlands from the harsh, arid lands of the eastern plateau. Here, giants and tribes of hard-edged Shoanti hold sway, scraping an existence from the plateau hardpan or chasing herds of thundering aurochs across the sparse grasslands. 
+
+## The Storval Stairs
+
+Although sized for a colossus, the Storval Stairs are still the most expedient route from Varisia's western lowlands onto the plateau. Here, where the Storval Rise shrinks to only a few hundred feet of vertical cliff face, great stairs have been cut from the cliff, flanked on either side by enormous statues. In the thousands of years since the stairs' sculpting, lesser engineers have cut more convenient, human-sized steps and ramps into their sides, routes capable of handling entire platoons of explorers and adventurers. 
+
+## The Sunken Queen
+
+Slowly sinking into the waters of the swamp, this enormous stone pyramid is still imposing, with one entire side carved in a bas-relief of a beautiful naked woman. From the pyramid's peak numerous curving towers extend at strange angles, like growths or chimneys, and legends hold that within the Sunken Queen's austere walls lie layer upon layer of deadly catacombs filled with the secrets of the lost Thassilonian Empire. 
+
+## Turtleback Ferry
+
+This remote settlement on the banks of the Skull River maintains a quiet and easy-going populace. Far from other larger settlements, this village must sustain itself as it sees few visitors. 
+
+## Urglin
+
+The broken towers of Urglin rise like a sore from the blasted plain of the Cinderlands. It was once the site of an ancient city, but orcs from the Hold of Belkzen have plundered and ruined anything of value through decades of squatting and abuse, building over the ruined foundations with ramshackle ghettos of scavenged rock, iron, and bone. Outcast Shoanti, giants, half-breeds, and other monstrosities roam the treacherous streets where strength is the only law. Through the center of the city flows the sluggish Ooze, a stream that once gave life to the city but is now polluted to the consistency of pudding by the city's waste. 
+
+## Varisian Gulf
+
+When the Thassilonian Empire shattered 10,000 years ago, much of western Varisia fell into the sea, becoming what is now known as the Varisian Gulf. Although only Hollow Mountain and a few remnants of Magnimar's great Irespan remain as reminders of nations lost to the waves, those salvagers who earn their living exploring the sea bottom here find it rife with ruined cities and ancient relics of extraordinary size. 
+
+## Velashu Uplands
+
+The horse lords of the Velashu Uplands are widely regarded as the best horse breeders in Varisia. Astride their great destriers, the Velashans race across their domain, thanklessly protecting the southern lands and occasionally venturing to Riddleport or beyond to charge top price for their magnificent steeds. 
+
+## Veldraine
+
+Known as the "Gateway to Korvosa," Veldraine is an important trade port and a key military position, given its placement at the mouth of Conqueror's Bay. In addition to housing much of the Korvosan navy and vast amounts of artillery, the town of Veldraine is also equipped with an enormous winch capable of raising an immense chain off the sea floor and stretching it taut across the bay's narrow mouth, sealing off Korvosa from the ocean and potentially stranding attackers in the bay, where they can easily be picked off. 
+
+## Viperwall
+
+Embossed with great stone serpents, the conical roofs of this brooding castle's many towers shine in the moonlight. Avoided by locals, the structure is often surrounded by a greenish haze of poisonous gas that leaks steadily from fanged sculptures in its walls. 
+
+## Wartle
+
+A ramshackle trading post full of swampers and fur traders, Wartle perches on stilts above the muck of the Mushfens. 
+
+## Whistledown
+
+Named for the distinctive wooden charms that hang from house eaves to turn the evening wind off the lake into haunting melodies, Whistledown lies at the western tip of the Fenwall Mountains, where Lake Syrantula becomes the Yondabakari once more. Although the town is home to almost as many humans as gnomes, Whistledown is generally regarded as the primary gnome settlement in Varisia, and most of the quaint, white-walled cottages are sized accordingly. Although the town has a reputation as a peaceful, friendly trade stop, most non-gnome visitors find the town's nightly serenade disturbing in ways they can't quite explain. 
+
+## Windsong Abbey
+
+Established by scholarly, pacifist monks as a forum for interfaith discussion, the vast sandstone edifice of Windsong Abbey emerges from the seaside cliffs in sweeping arches and towers, stained-glass windows catching the light and tunnels in its walls and foundation channeling the wind into music like that of a pipe organ. Although at one time clergy from all of Varisia's major religions—both good and evil—met here to resolve conflicts and diplomatically further the goals of their various deities, since Aroden's death several churches have withdrawn from the assembly, disregarding years of cooperation and collected prophecy. Although the abbey is an impressive architectural feat in its own right, the Masked Abbess and her closest advisors know it's actually built atop the ruins of a much older structure. Wolf 's Ear: At one time, Wolf 's Ear was the lycanthrope version of a leper colony, where werewolves and other such persecuted humanoids could live together in relative safety and comfort. When the town was annexed by Magnimar, however, the Lord-Mayor decided that such things were indecent and bankrolled a pogrom by the Church of Erastil designed to "cleanse" the town. In the ensuing bloody fracas, the lycanthropes were driven underground, where the Magnimarian leaders, unprepared for such passionate resistance, were content to let them stay. The official Magnimarian position is that any rumors of lycanthropy are just that, and those pointing out the townsfolk's unusual habits are quickly coerced into silence. 
+
+## Wormwood Hall
+
+Overgrown with creeping vines, this large manor house deep within the Lurkwood squats forebodingly, its windows dark and lintels covered with strange, twisting runes. While none in recent memory have ventured inside, many believe that Wormwood Hall is somehow tied to the forest's unnatural seasons. 
+
+## Wyvern Mountains
+
+This range's name says it all, and travelers here are advised to keep a sharp eye out for roving packs of the poisonous draconic predators that subsist on the mountains' wild goats and sheep.
+
+[[/accordion]]
+
+[GM Notes](gm_notes/GM Notes)
