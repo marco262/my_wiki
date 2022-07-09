@@ -11,6 +11,7 @@
 * [The Amber Temple - Curse of Strahd Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view)
 * [MandyMod's Amber Temple - Part 1](https://old.reddit.com/r/CurseofStrahd/comments/9vj5x5/fleshing_out_curse_of_strahd_the_amber_temple/)
 * [MandyMod's Amber Temple - Part 2](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
+* [MandyMod's Amber Temple - Part 3](https://old.reddit.com/r/CurseofStrahd/comments/a4lj86/fleshing_out_curse_of_strahd_the_amber_temple/)
 
 # Notes
 
@@ -25,6 +26,13 @@ Before going into the Amber Temple, tell the players the following things:
 * Your choice of whether to bring a light source will be important. Having a light source means it will be easier to see around you, but it may tip off things in the dungeon that you're approaching.
 * Reminder: If you have darkvision, you treat complete darkness as dim light. This means that any Perception check related to sight is made at disadvantage. This means that it's easier for things to sneak up on you in darkness, even if you have darkvision.
 * What loot you can carry out will be limited by your carrying capacity (15 x Strength score), so take some time to work out the weight of the items you currently have on hand. If you don't know the weight of any of your items, let me know and I'll tell you.
+
+# Sounds
+
+[Stop all sounds]($stop|all|none)
+
+* [Ambience]($load|ambience|curse_of_strahd/D&D Ambience CoS Amber Temple.mp3)
+* [Spotify Playlist](https://open.spotify.com/playlist/7Bl4DZ8i6EtpeRJpAIIXID?si=83ead812c0b94597)
 
 # Rooms
 
@@ -76,7 +84,6 @@ Treasure: [Wand of secrets](/dnd/equipment/magic-item/Wand of Secrets)
 > Beyond this corpse, you can see the dark shapes of others, strewn about the stairs leading downwards, and all along the dark marble floor below.
 
 * [Visual Aid](^curse_of_strahd/TempleofLostSecrets.mp4)
-* [Reloaded notes](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.31zglo1va2pf)
 
 ## X5. Temple of Lost Secrets
 
@@ -228,7 +235,7 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 > This fifteen-foot-high room contains the trappings of royalty: ornate furniture, exquisite rugs and tapestries, and decorative statuary. Everywhere you look are lit candelabras atop small tables. The beauty of the decor is undone by thick dust and cobwebs.
 
 * [Visual Aid](^curse_of_strahd/lichs_lair.jpg)
-* [Lich](^curse_of_strahd/exethanter.jpg) ([stats](https://5e.tools/bestiary.html#exethanter_cos))
+* [Lich](^curse_of_strahd/lich.jpg) ([stats](https://5e.tools/bestiary.html#exethanter_cos))
     * [Details](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
 
 ## X28. Hidden Phylactery
@@ -310,6 +317,7 @@ She offers Orin her dark gift: the power to instill great passion in others. To 
 * [Link](https://5e.tools/adventure.html#cos,14,x33c.%20ghastly%20vault,0)
 * [Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.pf8znam1nz9g)
 * [Ghasts](^curse_of_strahd/ghast.jpg) ([stats](https://5e.tools/bestiary.html#ghast_mm))
+* [Shatterspike](^curse_of_strahd/shatterspike.png)
 
 Marblepaw is drawn to the East Sarcophagus, containing Amberstripe, She of Many Lives.
 
@@ -317,7 +325,7 @@ Marblepaw is drawn to the East Sarcophagus, containing Amberstripe, She of Many 
 > 
 > The low-slung form of [a tortoiseshell](^curse_of_strahd/amberstripe.png) slinks out of the gloom towards you, her amber eyes bright in the darkness. She mrowls low, her tone and posture not threatening, and yet you feel a chill run down your spine, and your fur stands on end. "Greetings, my champion," she mews, coming within a tail's length of you, eyes boring into yours, "I am Amberstripe, She of Many Lives. And I have come to help you fulfill your destiny."
 
-She offers Marblepaw her dark gift: the power to live many lives, and to give life to others. To accept, she must let Amberstripe tear out her throat. This dark gift allows her to  cast the *[reincarnate](/dnd/spell/Reincarnate)*. Alternately, her body will reincarnate upon death. This power can only activate or be activated once per day. Any stages of corruption received from this or any other dark gift are preserved each time a creature is reincarnated.
+She offers Marblepaw her dark gift: the power to live many lives, and to give life to others. To accept, she must let Amberstripe tear out her throat. This dark gift allows her to  cast the *[reincarnate](/dnd/spell/Reincarnate)* spell. Alternately, her body will reincarnate upon death. This power can only activate or be activated once per day. Any stages of corruption received from this or any other dark gift are preserved each time a creature is reincarnated.
 
 ***Corruption Effects***
 

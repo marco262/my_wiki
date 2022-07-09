@@ -68,4 +68,7 @@
 * [High in the Mountains](^curse_of_strahd/tsolenka_pass_4.jpg)
 * [Smoky Gate](^curse_of_strahd/Tsolenka_Pass.mp4)
 
+### Blizzard Fields
+
+* [Blizzard Fields](^curse_of_strahd/blizzard_fields.jpg)
 

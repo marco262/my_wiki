@@ -88,9 +88,9 @@ If the party still isn't piecing things together, have Marblepaw roll an Intelli
 
 ## Alternate Route
 
-If the party doesn't follow the hook to the Amber Temple, or don't visit the Vistani, they will be visited by a golden eagle, which delivers the message from Elder Ormir of Yaedrag to inform them that they've witnessed one of Strahd's servants traveling through Tsolenka Pass "on a horse made of shadows", and they should come and investigate quickly if they still seek knowledge.
+If the party doesn't follow the hook to the Amber Temple, or don't visit the Vistani, they will be visited by a golden eagle, which delivers the message from Elder Ormir of [Yaedrag](Tsolenka Pass#yaedrag) to inform them that they are in need of the party's help.
 
-If the party does go to the Amber Temple, and they make a stop by [Yaedrag](Tsolenka Pass#yaedrag) on the way, the shaman will tell them all this in person.
+When the party gets to Yaedrag, they'll be told that Helwa, Chief Sigrid's daughter, is late returning from her rite of passage. She should have returned the previous day. They were about to head out to check on her themselves, but with the party passing by, they ask them to seek out Helwa. And if she's dead, at least to return with Shatterspike, her magic spear that has been in the family for generations, and is a symbol of the right to lead the tribe.
 
 # Meanwhile...
 
