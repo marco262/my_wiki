@@ -32,11 +32,12 @@ def set_options(hp="average", damage="average"):
     g_dmg = damage
 
 
-def create_npc(cr, race="", role="", damage_die_type="", hp_option=None, dmg_option=None, **kwargs):
+def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwargs):
+    """
+    Meant to be used with encounter calculators like https://kastark.co.uk/rpgs/encounter-calculator-5th/
+    """
     if race == "":
         race = "Human"
-    if not hp_option:
-        hp_option = g_hp
     if not dmg_option:
         dmg_option = g_dmg
     # Allow "hp" as a valid kwarg
