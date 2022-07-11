@@ -16,9 +16,7 @@
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 * [Calendar](/static/img/calendar_natural20.pdf)
-* Downtime Activities
-  * [Player's Handbook](/dnd/general/Adventuring#downtime-activities)
-  * [Additional](/dnd/general/Downtime Activities)
+* [Downtime Activities](/dnd/general/Downtime Activities)
 
 ## Historical Timeline
 
