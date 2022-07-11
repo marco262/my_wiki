@@ -283,6 +283,10 @@ Three traditions of monastic pursuit are common in the monasteries scattered acr
 * [[[subclass:Way of Mercy]]]
 * [[[subclass:Way of the Astral Self]]]
 
+## Fizban's Treasury of Dragons
+
+* [[[subclass:Way of the Ascendant Dragon]]]
+
 ## Homebrew
 
 * [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/1JHPeVRiUiy04OE4V2nk_pzV0GMQiWvuc/view)

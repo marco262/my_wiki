@@ -6,11 +6,11 @@ You have formed a special bond with a drake, to the point of being magically con
 
 # Drake Rider
 
-||~ Barbarian Level ||~ Feature ||
+||~ Ranger Level ||~ Feature ||
 || 3rd || Drake Rider Magic, Draconic Mount, Combat Training ||
-|| 6th || Bond of Fang and Scale ||
-|| 10th || Drake's Breath ||
-|| 14th || Perfected Bond ||
+|| 7th || Bond of Fang and Scale ||
+|| 11th || Drake's Breath ||
+|| 15th || Perfected Bond ||
 
 ## Drake Rider Magic
 

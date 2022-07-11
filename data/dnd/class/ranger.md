@@ -353,6 +353,10 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 * [[[subclass:Fey Wanderer]]]
 * [[[subclass:Swarmkeeper]]]
 
+## Fizban's Treasure of Dragons
+
+* [[[subclass:Drakewarden]]]
+
 ## Homebrew
 
 * [[[subclass:Beast Master (Revamped)]]]
