@@ -10,13 +10,24 @@ The Player's Handbook describes a few downtime activities to fill the void betwe
 
 ## Building a Stronghold
 
-## Carousing
+A character can spend time between adventures building a stronghold. Before work can begin, the character must acquire a plot of land. If the estate lies within a kingdom or similar domain, the character will need a royal charter (a legal document granting permission to oversee the estate in the name of the crown), a land grant (a legal document bequeathing custody of the land to the character for as long as he or she remains loyal to the crown), or a deed (a legal document that serves as proof of ownership). Land can also be acquired by inheritance or other means.
 
-## Crafting a Magic Item
+Royal charters and land grants are usually given by the crown as a reward for faithful service, although they can also be bought. Deeds can be bought or inherited. A small estate might sell for as little as 100 gp or as much as 1,000 gp. A large estate might cost 5,000 gp or more, if it can be bought at all.
 
-## Gaining Renown
+Once the estate is secured, a character needs access to building materials and laborers. The Building a Stronghold table shows the cost of building the stronghold (including materials and labor) and the amount of time it takes, provided that the character is using downtime to oversee construction. Work can continue while the character is away, but each day the character is away adds 3 days to the construction time.
 
-## Performing Sacred Rites
+***Building A Stronghold***
+
+||~ Stronghold ||~ Construction Cost ||~ Construction Time ||
+|| Abbey || 50,000 gp || 400 days ||
+|| Guildhall, town or city || 5,000 gp || 60 days ||
+|| Keep or small castle || 50,000 gp || 400 days ||
+|| Noble estate with manor || 25,000 gp || 150 days ||
+|| Outpost or fort || 15,000 gp || 100 days ||
+|| Palace or large castle || 500,000 gp || 1,200 days ||
+|| Temple || 50,000 gp || 400 days ||
+|| Tower, fortified || 15,000 gp || 100 days ||
+|| Trading post || 5,000 gp || 60 days ||
 
 ## Running a Business
 
@@ -37,11 +48,22 @@ If the character is required to pay a cost as a result of rolling on this table 
 || 81-90 || The business covers its own maintenance cost for each of the days. It earns a profit of 2d8 x 5 gp. ||
 || 91 or higher || The business covers its own maintenance cost for each of the days. It earns a profit of 3d10 x 5 gp. ||
 
-## Selling Magic Items
-
 ## Sowing Rumors
 
-## Training to Gain Levels
+Swaying public opinion can be an effective way to bring down a villain or elevate a friend. Spreading rumors is an efficient, if underhanded, way to accomplish that goal. Well-placed rumors can increase the subject's standing in a community or embroil someone in scandal. A rumor needs to be simple, concrete, and hard to disprove. An effective rumor also has to be believable, playing off what people want to believe about the person in question.
+
+Sowing a rumor about an individual or organization requires a number of days depending on the size of the community, as shown in the Sowing Rumors table. In a town or city, the time spent must be continuous. If the character spreads a rumor for ten days, disappears on an adventure for another few days and then returns, the rumor fades away without the benefit of constant repetition.
+
+***Sowing Rumors***
+
+||~ Settlement Size ||~ Time Required ||
+|| Village || 2d6 days ||
+|| Town || 4d6 days ||
+|| City || 6d6 days ||
+
+The character must spend 1 gp per day to cover the cost of drinks, social appearances, and the like. At the end of the time spent sowing the rumor, the character must make a DC 15 Charisma (Deception or Persuasion) check. If the check succeeds, the community's prevailing attitude toward the subject shifts one step toward friendly or hostile, as the character wishes. If the check fails, the rumor gains no traction, and further attempts to propagate it fail.
+
+Shifting a community's general attitude toward a person or organization doesn't affect everyone in the community. Individuals might hold to their own opinions, particularly if they have personal experience in dealing with the subject of the rumors.
 
 # Xanathar's Guide to Everything
 
@@ -594,7 +616,7 @@ If the scribed spell is a cantrip, the version on the scroll works as if the cas
 ||~ Spell Level ||~ Time ||~ Cost ||
 || Cantrip || 1 day || 15 gp ||
 || 1st || 1 day || 25 gp ||
-|| 2nd || 5 days || 250 gp ||
+|| 2nd || 3 days || 250 gp ||
 || 3rd || 1 workweek || 500 gp ||
 || 4th || 2 workweeks || 2,500 gp ||
 || 5th || 4 workweeks || 5,000 gp ||
