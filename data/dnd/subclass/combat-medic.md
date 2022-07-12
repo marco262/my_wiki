@@ -57,7 +57,7 @@ When you cast an artificer spell of 1st level or higher, you may choose a number
 
 _9th-level Combat Medic feature_
 
-When the creature with your Aetheric Link loses all temporary hit points they have, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
+When the creature with your Aetheric Link loses all temporary hit points they have due to taking damage, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
 
 You have two options for how to expend your Aetheric Charge:
 
