@@ -202,6 +202,10 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 * [[[subclass:Path of the Beast]]]
 * [[[subclass:Path of Wild Magic]]]
 
+## Unearthed Arcana
+
+* [[[subclass:Path of the Giant]]]
+
 ## Homebrew
 
 * [[[subclass:Path of the Battlerager (Homebrew)]]]
