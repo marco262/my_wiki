@@ -51,7 +51,7 @@ Whenever you deal damage with your Aether Turret, the creature with your Aetheri
 
 _5th-level Combat Medic feature_
 
-When you cast an artificer spell, you may choose a number of creatures you can see within 30 feet of you, up to your Intelligence modifier (minimum of 1). Roll a d6. Each of those creatures earn that many temporary hit points.
+When you cast an artificer spell of 1st level or higher, you may choose a number of creatures you can see within 30 feet of you, up to your Intelligence modifier (minimum of 1). Roll a d6. Each of those creatures earn that many temporary hit points.
 
 ## Aetheric Charge
 
@@ -62,7 +62,7 @@ When the creature with your Aetheric Link loses all temporary hit points they ha
 You have two options for how to expend your Aetheric Charge:
 
 * **Turret Overcharge.** When you attack with your Aether Turret, you can expend your Aetheric Charge to increase its damage by 2d6.
-* **Aether Bomb.** As an action, you can expend your Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw vs your spell save DC. A creature takes 3d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
+* **Aether Bomb.** As an action, you can expend your Aetheric Charge and choose a point within 30 feet of you. Each creature within a 20-foot-radius sphere centered on that point must make a Dexterity saving throw vs your spell save DC. A creature takes 5d6 force damage on a failed save, or half as much damage on a successful one. If you damage any creature with this ability, the creature with your Aetheric Link gains a number of temporary hit points equal to the number you rolled for damage.   
 
 ## Expedient Aid
 
