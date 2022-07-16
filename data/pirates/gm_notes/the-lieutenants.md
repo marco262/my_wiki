@@ -14,10 +14,9 @@
 * Name: Gula Vraatsug
 * Home base: Island 1
   * Las Vegas of the Sea (Atlantic City hurr hurr hurr)
-* Personality: 
+* Personality: Drunken Monk and Womanizer
 * Crew: Surrounds himself with crew who are also low on self-control, has a lot of starving dogs he can sic on people
   * 
-* Personality: Drunken Monk and Womanizer
 * Class: Monk
 * Race: 
 * Cursed Item: 
@@ -28,7 +27,6 @@
 * Homebase: 
 * Personality: 
 * Crew: 
-* Personality: 
 * Class: Paladin/Cleric
 * Race: 
 * Cursed Item: 
@@ -38,8 +36,7 @@
 * Name: Ira Woed
 * Homebase: 
 * Personality: 
-* Crew:  
-* Personality: 
+* Crew: 
 * Class: Barbarian
 * Race: 
 * Cursed Item: 
@@ -49,8 +46,7 @@
 * Name: Acedia "Cedi" Dovendyr
 * Homebase: 
 * Personality: Baron Harkonen
-* Crew:  
-* Personality: 
+* Crew: 
 * Class: Wizard
 * Race:
 * Cursed Item: 
@@ -59,9 +55,8 @@
 
 * Name: Sophia the Snack
 * Homebase: 
-* Personality: 
-* Crew:  
 * Personality: Lady of the Night
+* Crew: 
 * Class: Bard
 * Race:
 * Cursed Item: 
@@ -71,8 +66,7 @@
 * Name: Avar Kasakiman
 * Homebase: 
 * Personality: 
-* Crew:  
-* Personality: 
+* Crew: 
 * Class: Rogue
 * Race:
 * Cursed Item: 
@@ -81,9 +75,8 @@
 
 * Name: Miss Delisse
 * Homebase: 
-* Personality: 
-* Crew:  
-* Personality: Collector/trophy hunter
+* Personality: Collector/trophy hunter 
+* Crew: 
 * Class: Fighter/Ranger
 * Race:
 * Cursed Item: 

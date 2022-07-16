@@ -75,7 +75,7 @@ The meeting that night will happen in the [street in front of the warehouse](^pi
 * They'll be approached by [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg), to provide passage for an exorbitant price, or a promise of favors and such.
 * He'll ferry them across the waters, managing to bribe a harbormaster to categorize him as "essential traffic".
 * Once they're within sight of Pleasure Island, Yendan will turn on the players.
-  * Pleasure island [1](^pirates/pleasure_island_day_1.jpg) [2](^pirates/pleasure_island_day_2.jpg), sunset [1](^pirates/pleasure_island_sunset_1.jpg) [2](^pirates/pleasure_island_sunset_2.jpg) [3](^pirates/pleasure_island_sunset_3.jpg), night [1](^pirates/pleasure_island_night_1.jpg) [2](^pirates/pleasure_island_night_2.jpg)
+
 
 ## Resources
 

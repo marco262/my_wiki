@@ -40,6 +40,8 @@ Enter another URL to set as Visual Aid here:
 * Bertha and Tom's Weapons' Shop: Owned by half-orc Bertha (in a pretty dress) and short human man Tom
 * The Doubletree Inn: Middle-of-the-road inn (Modest, 5 sp per day)
 
+### [Lord's Landing](Lord's Landing)
+
 ## Notes
 
 * The players need to find the Dread Pirate Lord's first mate, who is hiding on the Dread Pirate Lord's HQ island.
@@ -91,6 +93,7 @@ Find dude and assassinate him
 * [Weapon Shop Robbery](weapon-shop-robbery)
 * [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
 * [Someone Needs To Die](Someone Needs To Die)
+* [A Brief Respite](A Brief Respite)
 
 ## TODO
 
