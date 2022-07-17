@@ -23,7 +23,7 @@ After that, the players are allowed to do whatever they want for downtime. Roll 
 
 ## Introduce Tuga
 
-Tuga will approach the party when they're in a tight bind, as part of a complication of one of their downtime activities, especially if it involves the Knights of Twilight. She'll use her Marnie persona to defuse the situation and let things go on their way.
+[Tuga](^pirates/marnie.jpg) will approach the party when they're in a tight bind, as part of a complication of one of their downtime activities, especially if it involves the Knights of Twilight. She'll use her Marnie persona to defuse the situation and let things go on their way.
 
 ## A New Job
 
