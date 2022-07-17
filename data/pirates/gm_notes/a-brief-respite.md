@@ -45,6 +45,10 @@ On their travels, a Knights of Twilight [1](^pirates/knight_of_twilight.png) ([s
 
 If the session is running long, you can TBC here with the KoT ship calling out to them.
 
+## Delays
+
+The ship is becalmed for 1d4 hours. The crew takes time to chat with the party, play games, gamble, and pick the party's minds about what they're doing and where they're going in the interest of robbing them.
+
 ## Arriving at the Island
 
 Once they get within range of Pleasure island ([1](^pirates/pleasure_island_day_1.jpg) [2](^pirates/pleasure_island_day_2.jpg), sunset [1](^pirates/pleasure_island_sunset_1.jpg) [2](^pirates/pleasure_island_sunset_2.jpg) [3](^pirates/pleasure_island_sunset_3.jpg), night [1](^pirates/pleasure_island_night_1.jpg) [2](^pirates/pleasure_island_night_2.jpg)), he'll turn on the players, and we TBC.
