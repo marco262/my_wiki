@@ -21,12 +21,12 @@
 
 [Stop all sounds]($stop|all|none)
 
-* [Coastal Town]($load|ambience|D&D Ambience - Coastal Town.mp3)
-* [Crowded Local Tavern]($load|ambience|D&D Ambience - Crowded Local Tavern.mp3)
-* [Dockside Market]($load|ambience|D&D Ambience - Dockside Market.mp3)
-* [Docks at Night]($load|ambience|D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
-* [Calm Sea Sailing]($load|ambience|D&D Ambience - Calm Sea Sailing.mp3)
-* [Ship Cabin]($load|ambience|D&D Ambience - Ship Cabin.mp3)
+* [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
+* [Crowded Local Tavern]($load|ambience|pirates/D&D Ambience - Crowded Local Tavern.mp3)
+* [Dockside Market]($load|ambience|pirates/D&D Ambience - Dockside Market.mp3)
+* [Docks at Night]($load|ambience|pirates/D&D Ambience - [Neverwinter Series] - Docks at Night.mp3)
+* [Calm Sea Sailing]($load|ambience|pirates/D&D Ambience - Calm Sea Sailing.mp3)
+* [Ship Cabin]($load|ambience|pirates/D&D Ambience - Ship Cabin.mp3)
 
 ## Places
 
