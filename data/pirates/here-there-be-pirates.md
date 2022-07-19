@@ -78,24 +78,24 @@
 
 ## Campaign Log
 
-### Sessions 5 (2022-06-25)
+### Session 6 (2022-07-18)
 
-* 20th of Alturik
-* Rek went to scout out their target, Quizno Bubblysort.
-* He saw Quizno and his goblins having an argument with a bunch of duergar (gray dwarves).
-* Rek went to get reinforcements.
-* When they returned, the goblins and duergar were talking about a purchase the goblins had made from the duergar.
-* The duergar wanted more money, and finally talked Quizno into paying an extra 20 gp.
-* Zoya followed the goblin who went to get the money.
-* Salvia snuck in along the rafters, and when the duergar turned to leave, he threw a dagger at one to try to start a fight.
-* The duergar turned around and yelled at the goblins about who attacked him.
-* The duergar and goblins nearly turned on each other... but Quizno figured out the dagger was thrown from up above.
-* A fight ensued. Four goblins and three duergar were killed. The duergar boss and one of his thugs got away.
-* The party chased Quizno out into the street.
-* Quizno nearly got away, with the help of a fog cloud in a bottle.
-* The party killed Quizno and cut off his head... on the porch of a café, with families watching.
-* The party ran back to the Mermaid's Kiss before the guards arrived, and were paid 50 gp by Xanner who was on his way to do "clean up" after their job.
-* Rek and Salvia bought some healing potions. Azurhel started to learn Prestidigitation from the gnome running the magic items shop.
+* Started on the 20th of Alturik
+* Xanner told the party that the guards and Knights of Twilight are out in force, after their murder in broad twilight.
+* He recommended they stay hidden while the heat died down.
+* With Xanner's help, the party took up a number of downtime activities over the next several days:
+* Zoya attended religious services, attempting to strike up some relationships, but struck out.
+* Azurhel created a bangle with a roughcut sapphire as the main gem.
+* Rek played his luck at cards and dice at the back tables of the Mermaid's Kiss, but got cleaned out.
+* Salvia attempted to rob a merchant's cart, but nearly got caught by the Knights of Twilight.
+* A kindly old lady Tortle stepped in and distracted the Knights long enough for Salvia to get away.
+* The next day, Marnie the Tortle... ahem, I mean Tuga, the Paladin of Conquest approached the party and asked to join.
+* Turns out, she's an old crew member of the Dread Pirate Lord, and wants to "help the next generation get their foot in the door".
+* Xanner gave the party a job: To deliver a crate of fine wines, exotic candy, and 3 doses of "Binge" to One-Eyed Jacko on Pleasure Island. The party will get 250 gp as a delivery fee.
+* They managed to charter a ride from the Bonnie Mistress, captained by Yandan Snazzyfeet. Since he was the only captain willing to take them on under the nose of the Knights of Twilight.
+* The party hid themselves during the pre-trip inspection, and managed to sneak out of Lord's Landing safely on the 28th of Alturik.
+* The ship was becalmed for a few hours during the trip, during which the party played some Liar's Dice and Azurhel won the pot.
+* As Pleasure Island came into view, Yandan and his crew turned on the party! Dun dun DUNNNN!
 
 [[accordion Past Sessions]]
 
@@ -136,7 +136,7 @@
 * Azurhel got away for good by casting Disguise Self to look like a guard.
 * Everyone met in the sparse forests outside the west gate of Everbrook, split up the loot, and planned to move onto Lord's Landing in search of a ship to take them closer to wherever the Dread Pirate Lord wants them to go next.
 
-### Sessions 4 (2022-04-24)
+### Session 4 (2022-04-24)
 
 * Started on the 19th of Alturik
 * Party got a job as caravan guards, escorting an old elf named Tommy Turnip, and his old mule Betsy, to Lord's Landing.
@@ -151,6 +151,25 @@
 * Xanner gave them a job to take out a rival handler who works out of an old warehouse near the docks. He says to put in a word for him back at the Mermaid's Kiss when the job is done.
 * Zoya met up with everyone later, they shot the shit, then the party went shopping. 
 * Zoya and Salvia each bought a healing potion. Azurhel bought jewelers' tools. Rek went to scout out their target. 
+
+### Session 5 (2022-06-25)
+
+* 20th of Alturik
+* Rek went to scout out their target, Quizno Bubblysort.
+* He saw Quizno and his goblins having an argument with a bunch of duergar (gray dwarves).
+* Rek went to get reinforcements.
+* When they returned, the goblins and duergar were talking about a purchase the goblins had made from the duergar.
+* The duergar wanted more money, and finally talked Quizno into paying an extra 20 gp.
+* Zoya followed the goblin who went to get the money.
+* Salvia snuck in along the rafters, and when the duergar turned to leave, he threw a dagger at one to try to start a fight.
+* The duergar turned around and yelled at the goblins about who attacked him.
+* The duergar and goblins nearly turned on each other... but Quizno figured out the dagger was thrown from up above.
+* A fight ensued. Four goblins and three duergar were killed. The duergar boss and one of his thugs got away.
+* The party chased Quizno out into the street.
+* Quizno nearly got away, with the help of a fog cloud in a bottle.
+* The party killed Quizno and cut off his head... on the porch of a café, with families watching.
+* The party ran back to the Mermaid's Kiss before the guards arrived, and were paid 50 gp by Xanner who was on his way to do "clean up" after their job.
+* Rek and Salvia bought some healing potions. Azurhel started to learn Prestidigitation from the gnome running the magic items shop.
 
 [[/accordion]]
 
