@@ -84,6 +84,7 @@ Treasure: [Wand of secrets](/dnd/equipment/magic-item/Wand of Secrets)
 > Beyond this corpse, you can see the dark shapes of others, strewn about the stairs leading downwards, and all along the dark marble floor below.
 
 * [Visual Aid](^curse_of_strahd/TempleofLostSecrets.mp4)
+* **Reminder**: Mention that Orin and Marblepaw's darkvision is limited here.
 
 ## X5. Temple of Lost Secrets
 
@@ -119,7 +120,9 @@ Treasure: [Wand of secrets](/dnd/equipment/magic-item/Wand of Secrets)
 
 [Link](https://5e.tools/adventure.html#cos,14,x6.%20southeast%20annex,0)
 
-Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg) ([stats](https://5e.tools/bestiary.html#flameskull_mm)) from X33a.
+> This room is featureless except for a rough-edged, 10-foot-diameter circular depression in the floor to the east and empty torch sconces along the walls. Double doors of amber stand open to the north and west. A single closed door lies just south of the western set of double doors.
+
+The depression in the room is filled with a [Gray Ooze](^curse_of_strahd/gray_ooze.jpg) ([stats](https://5e.tools/bestiary.html#huge%20gray%20ooze_wdmm,scaled:4))
 
 ## X7. Secret Scroll Repository
 
@@ -140,12 +143,14 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 * [Vilnius](^curse_of_strahd/vilnius_without_quasit.png) ([stats](https://preview.redd.it/lsqurm8a0ax11.png?width=413&format=png&auto=webp&s=0d2e234526477c1eb9abed7d6a180ff3a2267cee))
     * [Details](https://old.reddit.com/r/CurseofStrahd/comments/9vj5x5/fleshing_out_curse_of_strahd_the_amber_temple/)
     * Drawn to the [West Sarcophagus in X33a](#x33a-vault-of-shalx)
+    * Is holding one of the [keys](^curse_of_strahd/amber_key.jpg)
 
 ## X10. Northeast Annex
 
 [Link](https://5e.tools/adventure.html#cos,14,x10.%20northeast%20annex,0)
 
-[Jackal Amber Golem](^curse_of_strahd/jackal_amber_golem.jpg) ([stats](https://5e.tools/bestiary.html#amber%20golem_cos), with 145 HP)
+* [Jackal Amber Golem](^curse_of_strahd/jackal_amber_golem.jpg) ([stats](https://5e.tools/bestiary.html#amber%20golem_cos), with 145 HP)
+  * Is holding one of the [keys](^curse_of_strahd/amber_key.jpg)
 
 ## X11. Northeast Balcony
 
@@ -154,6 +159,8 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 ## X12. East Shrine
 
 [Link](https://5e.tools/adventure.html#cos,14,x12.%20east%20shrine,0)
+
+The [statue](^curse_of_strahd/broken_statue.jpg), when disturbed or when someone gets close enough, will start to come together into an unordered amalgamation of stone pieces, and will attack anyone nearby. ([stats](https://5e.tools/bestiary.html#earth%20elemental_mm,scaled:8)) 
 
 ## X13. East Archer Post
 
@@ -197,9 +204,13 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 
 [Link](https://5e.tools/adventure.html#cos,14,x19.%20potion%20storage,0)
 
+* 6x [Shadows](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
+
 ## X20. Architect's Room
 
 [Link](https://5e.tools/adventure.html#cos,14,x20.%20architect's%20room,0)
+
+* One of the [keys](^curse_of_strahd/amber_key.jpg) might be here.
 
 ## X21. West Staircase
 
@@ -211,6 +222,8 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 
 * [Visual Aid](^curse_of_strahd/amber_temple_dining_hall.jpeg)
 * [Ewer](^curse_of_strahd/green_copper_ewer.jpeg)
+* 7x [Specters](^curse_of_strahd/specter.jpg) ([stats](https://5e.tools/bestiary.html#specter_mm), vulnerable to radiant damage)
+* One of the [keys](^curse_of_strahd/amber_key.jpg) might be here.
 
 ## X23. Northwest Balcony
 
@@ -220,6 +233,8 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 
 [Link](https://5e.tools/adventure.html#cos,14,x24.%20west%20shrine,0)
 
+Sympathy statue
+
 ## X25. West Archer Post
 
 [Link](https://5e.tools/adventure.html#cos,14,x25.%20west%20archer%20post,0)
@@ -227,6 +242,16 @@ Noise in this room can draw the 3 [Flameskulls](^curse_of_strahd/flameskull.jpg)
 ## X26. Secret Alcove
 
 [Link](https://5e.tools/adventure.html#cos,14,x26.%20secret%20alcove,0)
+
+> This small 10 foot by 10 foot room feels claustrophobic. Unlike the rest of the temple, with its cavernous ceilings, the dips low making Ethel want to duck her head. The everpresent oppressive darkness of the temple seems to press in further, crowding the edges of your vision, filling your ears with a noiseless hum. As such, your eyes are drawn even more strongly to the [door](^curse_of_strahd/lich_study_door.jpg) in front of you.
+> 
+> This oaken door stands out as the only wooden door you've seen in this amber-themed fortress. Its wood is carved with artistic reliefs of symbols and figures. It's banded with metal on all sides, clearly meant to reinforce it. But the most prominent feature of the door is its magic circle inscribed in the middle. Glowing blue lines run through the metal and wood, not like they were carved out of the door after the fact, but that the material itself was shaped with the lines in mind. Runic symbols seem to float an inch off the wood, fading in and out of view, to be replaced by others that then float away to nothingness after a few moments. You can *feel* the magic imbued in it, like an immovable barrier before you.
+> 
+> Three locks surround the magic circle, placed at equidistant points. Magic lines run like threads through the wood and metal from the circle into the locks themselves, tying them to whatever magical enchantment is before you.
+
+Lockpicking DC is 25. Anyone who fails to pick a lock is thrown forcefully away from the door, taking 4d6 falling damage, DC 20 Dex save for half. When a lockpicking check fails, any other locks that were successfully picked reset.
+
+The DC for breaking down the door is 30. Failure is the same as failing to pick a lock above. 
 
 ## X27. Lich's Lair
 

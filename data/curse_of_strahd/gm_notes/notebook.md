@@ -72,18 +72,7 @@ Notes
 
 ### Player Plans
 
-* Wtf news?
-* Chieftain's daughter went to Amber Place.
-* Tell Yaedrag about the Fane
-* Do NOT talk about wedding/dinner with Strahd
-* Ask about place under a mountain
-* Do you need our help?
-* Contact Van Richten, tell him that Strahd knows he's here
-
 ### Notes for me
-
-* Set up dinner with Strahd. Ask about courtship plans.
-* Prep Amber Temple
 
 #### Other shit
 
