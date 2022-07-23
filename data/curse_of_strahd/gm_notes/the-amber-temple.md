@@ -132,6 +132,8 @@ The depression in the room is filled with a [Gray Ooze](^curse_of_strahd/gray_oo
 
 [Link](https://5e.tools/adventure.html#cos,14,x8.%20upper%20east%20hall,0)
 
+Heavy footsteps can be heard coming from beyond the north door.
+
 ## X9. Lecture Hall
 
 [Link](https://5e.tools/adventure.html#cos,14,x9.%20lecture%20hall,0)
@@ -142,6 +144,10 @@ The depression in the room is filled with a [Gray Ooze](^curse_of_strahd/gray_oo
 
 * [Vilnius](^curse_of_strahd/vilnius_without_quasit.png) ([stats](https://preview.redd.it/lsqurm8a0ax11.png?width=413&format=png&auto=webp&s=0d2e234526477c1eb9abed7d6a180ff3a2267cee))
     * [Details](https://old.reddit.com/r/CurseofStrahd/comments/9vj5x5/fleshing_out_curse_of_strahd_the_amber_temple/)
+    * Upon meeting the PCs, he'll flinch away from them in abject terror, begging for his life. Once calmed, he'll tell them a tragic story to try and get them on his side:
+        * That his family has been unfortunate enough to be afflicted by a terrible disease. He lies and says that it's not contagious, and stays within his family (basically saying it's genetic).
+        * Vilnius will tell the PCs that he has a daughter who's shown signs of the disease. While it's too late for him, he desperately wants to find a cure for her. He's heard that such a cure lies somewhere in the Temple, but the various monsters and creatures have kept him from moving on any further.
+        * Vilnius then begs the party to escort him deeper into the temple where a miracle cure-all is said to be hidden.
     * Drawn to the [West Sarcophagus in X33a](#x33a-vault-of-shalx)
     * Is holding one of the [keys](^curse_of_strahd/amber_key.jpg)
 
@@ -196,20 +202,18 @@ The [statue](^curse_of_strahd/broken_statue.jpg), when disturbed or when someone
 
 [Flameskulls](^curse_of_strahd/flameskull.jpg) ([stats](https://5e.tools/bestiary.html#flameskull_mm))
 
-## X18. Hallway
-
-[Link](https://5e.tools/adventure.html#cos,14,x18.%20hallway,0)
-
 ## X19. Potion Storage
 
 [Link](https://5e.tools/adventure.html#cos,14,x19.%20potion%20storage,0)
 
+* [Visual Aid](^curse_of_strahd/potion_storage.jpg)
 * 6x [Shadows](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 
 ## X20. Architect's Room
 
 [Link](https://5e.tools/adventure.html#cos,14,x20.%20architect's%20room,0)
 
+* [Castle Ravenloft Model](^curse_of_strahd/castle_ravenloft_model.jpg)
 * One of the [keys](^curse_of_strahd/amber_key.jpg) might be here.
 
 ## X21. West Staircase
@@ -233,7 +237,7 @@ The [statue](^curse_of_strahd/broken_statue.jpg), when disturbed or when someone
 
 [Link](https://5e.tools/adventure.html#cos,14,x24.%20west%20shrine,0)
 
-Sympathy statue
+[Sympathy statue](^curse_of_strahd/weeping_statue.jpg)
 
 ## X25. West Archer Post
 
@@ -243,7 +247,7 @@ Sympathy statue
 
 [Link](https://5e.tools/adventure.html#cos,14,x26.%20secret%20alcove,0)
 
-> This small 10 foot by 10 foot room feels claustrophobic. Unlike the rest of the temple, with its cavernous ceilings, the dips low making Ethel want to duck her head. The everpresent oppressive darkness of the temple seems to press in further, crowding the edges of your vision, filling your ears with a noiseless hum. As such, your eyes are drawn even more strongly to the [door](^curse_of_strahd/lich_study_door.jpg) in front of you.
+> This small 10 foot by 10 foot room feels claustrophobic. Unlike the rest of the temple, with its cavernous ceilings, this room dips down to a low 6 feet and change, making Ethel want to duck her head. The everpresent oppressive darkness of the temple seems to press in further, crowding the edges of your vision, filling your ears with a noiseless hum. As such, your eyes are drawn even more strongly to the [door](^curse_of_strahd/lich_study_door.jpg) in front of you.
 > 
 > This oaken door stands out as the only wooden door you've seen in this amber-themed fortress. Its wood is carved with artistic reliefs of symbols and figures. It's banded with metal on all sides, clearly meant to reinforce it. But the most prominent feature of the door is its magic circle inscribed in the middle. Glowing blue lines run through the metal and wood, not like they were carved out of the door after the fact, but that the material itself was shaped with the lines in mind. Runic symbols seem to float an inch off the wood, fading in and out of view, to be replaced by others that then float away to nothingness after a few moments. You can *feel* the magic imbued in it, like an immovable barrier before you.
 > 
