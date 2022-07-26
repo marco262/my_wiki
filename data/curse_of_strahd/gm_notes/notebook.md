@@ -58,9 +58,7 @@ Notes
 
 ## General Notes
 
-* Get more battle/Vallaki/character theme music
-* Traumatize Orin/Marblepaw
-* Look into possibility of Ireena going to Strahd willingly (and how it will go horribly lol)
+* Figure out freaky way Orin is connected to Barovia that explains his Phantom Rogueness.
 * Strahd may be willing to let Ireena consecrate the remaining Fanes, in return for her promising herself to him.
 * Van Richten is absolutely convinced that Strahd is evil and perfectly manipulating people. He will try to convince Ireena that the only way to end Strahd for good is through the Bride Ceremony.
 * The Abbot will try to kidnap and keep Ireena if he finds out she's the Bride.
