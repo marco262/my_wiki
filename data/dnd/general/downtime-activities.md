@@ -480,7 +480,7 @@ The character makes three checks: Wisdom (Insight), Charisma (Deception), and Ch
 
 [[/accordion]]
 
-### Manage a Business (homebrew)
+### Managing a Business (homebrew)
 
 A successful business requires a savvy manager to truly prosper. 
 
@@ -541,7 +541,7 @@ Favors earned need not be expended immediately, but only a certain number can be
 
 [[/accordion]]
 
-### Renovate a Business (homebrew)
+### Renovating a Business (homebrew)
 
 When running a business, it's important to keep on top of maintenance, and even moreso to work to update and improve your business to keep your customers' interest. Renovations can consist of planting a garden, fixing holes in the wall, replacing wallpaper, or even adding a disco dance area to the attic.
 
@@ -736,7 +736,7 @@ When all else fails, an adventurer can turn to an honest trade to earn a living.
 || 2 || Your employer's financial difficulties result in your not being paid.\* ||
 || 3 || A coworker with ties to an important family in town takes a dislike to you.\* ||
 || 4 || Your employer is involved with a dark cult or a criminal enterprise. ||
-|| 5 || A crime ring targets you r business for extortion.\* ||
+|| 5 || A crime ring targets your business for extortion.\* ||
 || 6 || You gain a reputation for laziness (unjustified or not, as you choose), giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.\* ||
 
 *Might involve a rival
