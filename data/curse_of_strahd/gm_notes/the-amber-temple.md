@@ -286,11 +286,19 @@ The DC for breaking down the door is 30. Failure is the same as failing to pick 
 * Visual Aids: [1](^curse_of_strahd/preserved_library.jpg), [2](^curse_of_strahd/amber_temple_library.jpg)
 * [Details](https://old.reddit.com/r/CurseofStrahd/comments/a1x1pz/fleshing_out_curse_of_strahd_the_amber_temple/)
 
-## X31.
+## X31. Catacombs
 
-## X32.
+[Link](https://5e.tools/adventure.html#cos,14,x31.%20central%20catacombs)
+
+* [Visual Aid](^curse_of_strahd/catacombs.jpg)
+
+## X32. Lower East Hall
+
+[Link](https://5e.tools/adventure.html#cos,14,x32.%20lower%20east%20hall,0)
 
 ## X33. Amber Vaults
+
+[Visual Aid](^curse_of_strahd/Amber Vaults.mp4)
 
 ### PCs' Vestiges
 
@@ -314,6 +322,10 @@ The DC for breaking down the door is 30. Failure is the same as failing to pick 
   * Drawn to the [West Sarcophagus in X42](#x42-amber-vault)
   * Will not take the Dark Gift
   * Will learn that Vampyr gave Strahd his Dark Gift, but Strahd did NOT lose his soul
+
+### Corruption Rules
+
+Each time a creature uses a dark gift received from one of the vestiges of the Amber Temple, it must make a DC 10 Charisma saving throw; on a failure, the creature gains a stage of corruption. Creatures accrue corruption from different dark gifts separately.
 
 ### X33a. Vault of Shalx
 
@@ -395,5 +407,6 @@ It offers Ethel its dark gift: the power of great physical strength. To accept, 
 
 ## X42. Amber Vault
 
+* [Visual Aid](^curse_of_strahd/Amber Vault.mp4)
 * [Link](https://5e.tools/adventure.html#cos,14,x42.%20amber%20vault,0)
 * [Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.bd924wt84ww)
