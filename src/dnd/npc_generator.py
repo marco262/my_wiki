@@ -1,5 +1,6 @@
 import sys
 from random import randint
+from typing import Any, Union, List
 
 from src.dnd.npc_enums import cr_list, races, roles, die_types, total_damage_dict
 
@@ -47,27 +48,51 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
     atk_dict = get_attack(cr, race, role)
     def_dict = get_defense(cr, race, role)
     damage = get_dmg_value(atk_dict["total_damage"], dmg_option, atk_dict["num_attacks"], damage_die_type)
+    double_damage = get_dmg_value(atk_dict["total_damage"] * 2, dmg_option, 1, "")
+    triple_damage = get_dmg_value(atk_dict["total_damage"] * 3, dmg_option, 1, "")
     save_dc = atk_dict["save_dc"]
+    special_abilities = adjust(
+        fill_placeholders(get_list(race, role, "special_abilities"), damage, double_damage, triple_damage, save_dc),
+        kwargs.get("special_abilities")
+    )
+    bonus_actions = adjust(
+        fill_placeholders(get_list(race, role, "bonus_actions"), damage, double_damage, triple_damage, save_dc),
+        kwargs.get("bonus_actions")
+    )
+    actions = adjust(
+        fill_placeholders(get_list(race, role, "actions"), damage, double_damage, triple_damage, save_dc),
+        kwargs.get("actions")
+    )
+    reactions = adjust(
+        fill_placeholders(get_list(race, role, "reactions"), damage, double_damage, triple_damage, save_dc),
+        kwargs.get("reactions")
+    )
     return {
         "cr": cr,
         "race": race,
         "role": role,
-        "speed": kwargs.get("speed") or get_speed(races[race]),
-        "stat_bonus": kwargs.get("stat_bonus") or cr_values["stat_bonus"],
-        "prof_bonus": kwargs.get("prof_bonus") or cr_values["prof_bonus"],
-        "armor_class": kwargs.get("armor_class") or def_dict["ac"],
-        "hit_points": kwargs.get("hit_points") or def_dict["hp"],
-        "damage_resistances": kwargs.get("damage_resistances") or get_trait(race, role, "damage_resistances"),
-        "damage_immunities": kwargs.get("damage_immunities") or get_trait(race, role, "damage_immunities"),
-        "senses": kwargs.get("senses") or get_trait(race, role, "senses"),
-        "special_abilities": kwargs.get("special_abilities") or fill_placeholders(get_list(race, role, "special_abilities"), damage, save_dc),
-        "actions": kwargs.get("actions") or fill_placeholders(get_list(race, role, "actions"), damage, save_dc),
-        "reactions": kwargs.get("reactions") or fill_placeholders(get_list(race, role, "reactions"), damage, save_dc),
-        "attack": kwargs.get("attack") or atk_dict["attack"],
-        "damage": kwargs.get("damage") or damage,
-        "save_dc": kwargs.get("save_dc") or save_dc,
-        "num_attacks": kwargs.get("num_attacks") or atk_dict["num_attacks"],
+        "speed": adjust(get_speed(races[race]), kwargs.get("speed")),
+        "stat_bonus": adjust(cr_values["stat_bonus"], kwargs.get("stat_bonus")),
+        "prof_bonus": adjust(cr_values["prof_bonus"], kwargs.get("prof_bonus")),
+        "armor_class": adjust(def_dict["ac"], kwargs.get("armor_class")),
+        "hit_points": adjust(def_dict["hp"], kwargs.get("hit_points")),
+        "damage_resistances": adjust(get_trait(race, role, "damage_resistances"), kwargs.get("damage_resistances")),
+        "damage_immunities": adjust(get_trait(race, role, "damage_immunities"), kwargs.get("damage_immunities")),
+        "senses": adjust(get_trait(race, role, "senses"), kwargs.get("senses")),
+        "special_abilities": special_abilities,
+        "bonus_actions": bonus_actions,
+        "actions": actions,
+        "reactions": reactions,
+        "attack": adjust(atk_dict["attack"], kwargs.get("attack")),
+        "damage": adjust(damage, kwargs.get("damage")),
+        "double_damage": double_damage,
+        "triple_damage": triple_damage,
+        "save_dc": adjust(save_dc, kwargs.get("save_dc")),
+        "num_attacks": adjust(atk_dict["num_attacks"], kwargs.get("num_attacks")),
     }
+    # except Exception as e:
+    #     raise Exception(f"Error when generating NPC({cr}, {race}, {role}, {damage_die_type}, {dmg_option}, {kwargs})\n"
+    #                     f"{e}")
 
 
 def get_cr_values(cr):
@@ -107,22 +132,22 @@ def get_speed(d):
 
 
 def get_attack(cr, race, role):
-    return get_adjusted_cr_values(cr, race, role, "atk_cr")
+    return get_adjusted_cr_values(cr, race, role, "atk_cr", ["num_attacks"])
 
 
 def get_defense(cr, race, role):
-    return get_adjusted_cr_values(cr, race, role, "def_cr")
+    return get_adjusted_cr_values(cr, race, role, "def_cr", ["ac"])
 
 
-def get_adjusted_cr_values(cr, race, role, key):
-    d = races[race]
-    if key in d:
-        cr = adjust_cr(cr, d[key])
-    d = roles[role]
-    if key in d:
-        cr = adjust_cr(cr, d[key])
-    return get_cr_values(cr)
-
+def get_adjusted_cr_values(cr, race, role, key: str, extra_keys: List[str] = None) -> dict:
+    cr = adjust_cr(cr, races[race].get(key, 0))
+    cr = adjust_cr(cr, roles[role].get(key, 0))
+    cr_values = get_cr_values(cr)
+    if extra_keys:
+        for extra_key in extra_keys:
+            cr_values[extra_key] = adjust(cr_values[extra_key], races[race].get(extra_key))
+            cr_values[extra_key] = adjust(cr_values[extra_key], roles[role].get(extra_key))
+    return cr_values
 
 def adjust_cr(cr, adjustment):
     if adjustment == 0:
@@ -146,10 +171,15 @@ def get_trait(race, role, key):
     return ",".join(get_list(race, role, key))
 
 
-def fill_placeholders(ability_list, damage, save_dc):
+def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc):
     for i in range(len(ability_list)):
         # noinspection StrFormat
-        ability_list[i] = ability_list[i].format(damage=damage, save_dc=save_dc)
+        ability_list[i] = ability_list[i].format(
+            damage=damage,
+            double_damage=double_damage,
+            triple_damage=triple_damage,
+            save_dc=save_dc
+        )
     return ability_list
 
 
@@ -165,7 +195,7 @@ def get_list(race, role, key):
 
 
 def get_dmg_value(value, dmg_option, num_attacks, die_type):
-    avg_damage = round(value / num_attacks)
+    avg_damage = round(value / int(num_attacks))
     if dmg_option == "average":
         return avg_damage
     elif dmg_option == "dice":
@@ -204,11 +234,30 @@ def avg(t):
     return round((t[0] + t[1]) / 2)
 
 
+def adjust(value: Any, adjustment: Any) -> Union[str, list, dict]:
+    # If adjustment isn't defined, just return value
+    if adjustment is None:
+        return value
+    try:
+        value = int(value)
+    except ValueError:
+        pass
+    # If the adjustment is a string, try to process it like a number
+    if isinstance(adjustment, str):
+        if adjustment.startswith("+") or adjustment.startswith("-"):
+            return str(value + int(adjustment))
+        if adjustment.startswith("x"):
+            return str(value * int(adjustment[1:]))
+    if isinstance(adjustment, (int, float)):
+        return str(adjustment)
+    return adjustment
+
+
 # Unit Tests
 
 def assertEqual(actual, expected):
     if actual != expected:
-        print(f"{actual} (type={type(actual)}) != {expected} (type={type(expected)})")
+        raise AssertionError(f"{actual} (type={type(actual)}) != {expected} (type={type(expected)})")
 
 
 if __name__ == "__main__":
@@ -234,9 +283,22 @@ if __name__ == "__main__":
     assertEqual(get_adjusted_cr("2"), 2)
     assertEqual(get_adjusted_cr("3"), 3)
 
+    assertEqual("13", adjust(10, "+3"))
+    assertEqual("7", adjust(10, "-3"))
+    assertEqual("30", adjust(10, "x3"))
+    assertEqual("3", adjust(10, "3"))
+    assertEqual("3", adjust(10, +3))
+    assertEqual("-3", adjust(10, -3))
+    assertEqual([1, 2, 3], adjust(10, [1, 2, 3]))
+    assertEqual({"a": 1, "b": 2}, adjust(10, {"a": 1, "b": 2}))
+    assertEqual(10, adjust(10, None))
+    assertEqual("soup", adjust(10, "soup"))
+    assertEqual("13", adjust("10", "+3"))
+    assertEqual("soup", adjust("soap", "soup"))
+
     for i in cr_list:
         print(f"{i}: {get_cr_values(i)}")
 
     for i in cr_list:
         npc = create_npc(i)
-        print(f"{i}: {npc['num_attacks']} / {npc['damage']}")
+        print(f"{i}: {npc['num_attacks']} / {npc['damage']} / {npc['double_damage']} / {npc['triple_damage']}")

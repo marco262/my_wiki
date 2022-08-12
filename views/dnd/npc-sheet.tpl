@@ -34,6 +34,13 @@
             {{! special_abilities }}
         </div>
         % end
+        % if bonus_actions:
+        <h2 class="actions-header">Bonus Actions</h2>
+        <div class="text-black">
+            % for bonus_action in bonus_actions:
+            {{! bonus_actions }}
+        </div>
+        % end
         <h2 class="actions-header">Actions</h2>
         <div class="text-black">
             {{! actions }}

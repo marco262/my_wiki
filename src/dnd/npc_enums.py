@@ -173,13 +173,10 @@ races = {
         ]
     },
     "Goblin": {
-        # "atk_cr": 2,
-        # "def_cr": 2,
-        "atk_cr": -1,
         "def_cr": -1,
-        "special_abilities": [
-            "***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on "
-            "each of its turns.",
+        "reactions": [
+            "***Painful Tumble.*** When the goblin is hit by an attack, it may gain resistance to the attack's damage, "
+            "move up to half its speed away from the attacker without provoking opportunity attacks, and land prone.",
         ]
     },
     "Hobgoblin": {
@@ -258,11 +255,48 @@ die_types = {
 }
 roles = {
     "": {},
-    "Artillery": {},
-    "Brute": {},
-    "Minion": {},
-    "Soldier": {},
-    "Skirmisher": {},
+    "Mage": {
+        "atk_cr": +1,
+        "def_cr": -1,
+        "num_attacks": 1,
+        "actions": [
+            "***Close Range AoE (recharge 1-2).*** 15-foot cone. {double_damage} damage "
+            "(save for half, Dex DC {save_dc}).",
+            "***Long Range AoE (recharge 3).*** 30-foot range, 10-foot radius sphere. {triple_damage} damage "
+            "(save for half, Dex DC {save_dc})."
+        ]
+    },
+    "Healer": {
+        "bonus_actions": [
+            "***Quick Heal (recharge 1).*** Heal 1 ally within 30 feet for {damage}.",
+        ],
+        "actions": [
+            "***Mass Heal (recharge 2).*** Heal all allies within 30 feet for {damage}.",
+            "***Remove Condition (recharge 3).*** Removes 1 condition from ally within 30 feet.",
+            # "***Inflict Condition (recharge 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
+            # "Poisoned, or Prone) to enemy within 30 feet. DC {save_dc} Wisdom save to negate.",
+        ]
+    },
+    "Tank": {
+        "def_cr": +1,
+        "ac": "+2",
+        "reactions": [
+            # "***Shield Block.*** Give disadvantage on melee attack from adjacent enemy against an ally.",
+            "***Intercept.*** Take a hit meant for another ally from adjacent enemy. Resistance to that damage.",
+        ],
+    },
+    "Soldier": {
+        "actions": [
+            "***Reposition (recharge 4-6).*** Make an attack, and shove an enemy 10 feet (4), pull 10 feet (5), "
+            "or shift 5 feet (6). DC {save_dc} Str save to resist."
+        ]
+    },
+    "Skirmisher": {
+        "special_abilities": [
+            "***Evasion.*** Half damage on a failed Dex save, no damage on a success.",
+        ]
+    },
+    "Boss": {},
 }
 
 npc_gender = [
