@@ -92,10 +92,10 @@
 * The next day, Marnie the Tortle... ahem, I mean Tuga, the Paladin of Conquest approached the party and asked to join.
 * Turns out, she's an old crew member of the Dread Pirate Lord, and wants to "help the next generation get their foot in the door".
 * On the 1st of Ches, Xanner gave the party a job: To deliver a crate of fine wines, exotic candy, and 3 doses of "Binge" to One-Eyed Jacko on Pleasure Island. The party will get 250 gp as a delivery fee.
-* They managed to charter a ride from the Bonnie Mistress, captained by Yandan Snazzyfeet. Since he was the only captain willing to take them on under the nose of the Knights of Twilight.
+* They managed to charter a ride from the Bonnie Mistress, captained by Yendan Snazzyfeet. Since he was the only captain willing to take them on under the nose of the Knights of Twilight.
 * On the 2nd of Ches, the party hid themselves during the pre-trip inspection, and managed to sneak out of Lord's Landing safely on the 28th of Alturik.
 * The ship was becalmed for a few hours during the trip, during which the party played some Liar's Dice and Azurhel won the pot.
-* As Pleasure Island came into view, Yandan and his crew turned on the party! Dun dun DUNNNN!
+* As Pleasure Island came into view, Yendan and his crew turned on the party! Dun dun DUNNNN!
 
 [[accordion Past Sessions]]
 

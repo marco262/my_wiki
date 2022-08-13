@@ -217,14 +217,14 @@ def get_dmg_value(value, dmg_option, num_attacks, die_type):
             if die_type == "":  # If die_type is undefined and the damage is too small, allow us to drop to d4
                 die_type = "d4"
                 die_avg = 2.5
-                num_dice = round(avg_damage / die_avg)  # Number of d4s
+                num_dice = int(avg_damage / die_avg)  # Number of d4s
             if num_dice == 0:
-                num_dice = 1  # Always roll a minimum of 1 die, and the modifier be negative
+                num_dice = 1  # Always roll a minimum of 1 die, and let the modifier be negative
             # print(f"Num dice: {num_dice}")
-        mod = int(avg_damage - num_dice * die_avg)
-        # print(f"Mod: {mod}")
         if die_type == "":
             die_type = "d6"
+        mod = int(avg_damage - num_dice * die_avg)
+        # print(f"Mod: {mod}")
         if mod == 0:
             return f"{avg_damage} ({num_dice}{die_type})"
         elif mod > 0:

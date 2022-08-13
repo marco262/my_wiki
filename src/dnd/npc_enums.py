@@ -296,7 +296,19 @@ roles = {
             "***Evasion.*** Half damage on a failed Dex save, no damage on a success.",
         ]
     },
-    "Boss": {},
+    "Boss": {
+        "special_abilities": [
+            "***All Hands On Deck!*** On initiative count 20, after the first round, 2-4 pirates emerge from below "
+            "decks, or swing in from the rigging.",
+        ],
+        "bonus_actions": [
+            "***Avast Ye Scurvy Dogs!*** The captain barks an order and one pirate gets to make a basic attack.",
+        ],
+        "reactions": [
+            "***Eek!*** When an enemy would hit Yendan with an attack, he swaps places with an adjacent pirate, "
+            "causing them to take the hit instead. He can then move up to his speed."
+        ]
+    },
 }
 
 npc_gender = [

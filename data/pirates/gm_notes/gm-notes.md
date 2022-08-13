@@ -8,11 +8,13 @@
     init_accordions();
 </script>
 
-* [Soundboard](Soundboard)
+## Encounters
 
-Enter another URL to set as Visual Aid here:
-
-<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
+* [Weapon Shop Robbery](weapon-shop-robbery)
+* [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
+* [Someone Needs To Die](Someone Needs To Die)
+* [A Brief Respite](A Brief Respite)
+* [Journey to Pleasure Island](Journey to Pleasure Island)
 
 ## Visuals Aids
 
@@ -23,7 +25,13 @@ Enter another URL to set as Visual Aid here:
 * Knight of Twilight [1](^pirates/knight_of_twilight.png) ([stats](https://5e.tools/bestiary.html#veteran_mm))
 * Lord's Landing [1](^pirates/lords_landing_1.jpg)
 
+Enter another URL to set as Visual Aid here:
+
+<input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
+
 ## Soundboard
+
+* [Soundboard](Soundboard)
 
 [Stop all sounds]($stop|all|none)
 
@@ -89,12 +97,6 @@ Enter another URL to set as Visual Aid here:
 Find dude and assassinate him
 
 ## My Plans
-
-* [Weapon Shop Robbery](weapon-shop-robbery)
-* [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
-* [Someone Needs To Die](Someone Needs To Die)
-* [A Brief Respite](A Brief Respite)
-* [Journey to Pleasure Island](Journey to Pleasure Island)
 
 ## TODO
 

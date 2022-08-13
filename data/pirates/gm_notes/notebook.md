@@ -14,8 +14,8 @@ Marnie's equipment:
 
 
 Next session:
- * Get battle with Yandan put together
+ * Get battle with Yendan put together
  * Plot out Pleasure Island
  * Figure a better gambling game (Ship, Captain, Crew)
  * Let Zoya meet other animal forms (Giant Ape) at some point
- * Put money on the crew members. Give Yandan 30+ gp.
+ * Put money on the crew members. Give Yendan 30+ gp.
