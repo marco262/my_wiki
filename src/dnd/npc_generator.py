@@ -67,6 +67,10 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
         fill_placeholders(get_list(race, role, "reactions"), damage, double_damage, triple_damage, save_dc),
         kwargs.get("reactions")
     )
+    villain_actions = adjust(
+        fill_placeholders(get_list(race, role, "villain_actions"), damage, double_damage, triple_damage, save_dc),
+        kwargs.get("villain_actions")
+    )
     return {
         "cr": cr,
         "race": race,
@@ -83,6 +87,7 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
         "bonus_actions": bonus_actions,
         "actions": actions,
         "reactions": reactions,
+        "villain_actions": villain_actions,
         "attack": adjust(atk_dict["attack"], kwargs.get("attack")),
         "damage": adjust(damage, kwargs.get("damage")),
         "double_damage": double_damage,
@@ -238,6 +243,14 @@ def adjust(value: Any, adjustment: Any) -> Union[str, list, dict]:
     # If adjustment isn't defined, just return value
     if adjustment is None:
         return value
+    # If value is a list, assume adjustment is a list and concat them
+    if isinstance(value, list):
+        return value + adjustment
+    # If value is a dict, assume adjustment is a dict and merge them
+    if isinstance(value, dict):
+        value = value.copy()
+        value.update(adjustment)
+        return value
     try:
         value = int(value)
     except ValueError:
@@ -295,6 +308,8 @@ if __name__ == "__main__":
     assertEqual("soup", adjust(10, "soup"))
     assertEqual("13", adjust("10", "+3"))
     assertEqual("soup", adjust("soap", "soup"))
+    assertEqual(["a", "b", "c", 1, 2, 3], adjust(["a", "b", "c"], [1, 2, 3]))
+    assertEqual({"a": 1, "b": 2, "c": 3, "d": 4}, adjust({"c": 3, "d": 4}, {"a": 1, "b": 2}))
 
     for i in cr_list:
         print(f"{i}: {get_cr_values(i)}")

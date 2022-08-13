@@ -37,7 +37,6 @@
         % if bonus_actions:
         <h2 class="actions-header">Bonus Actions</h2>
         <div class="text-black">
-            % for bonus_action in bonus_actions:
             {{! bonus_actions }}
         </div>
         % end
@@ -49,6 +48,12 @@
         <h2 class="actions-header">Reactions</h2>
         <div class="text-black">
             {{! reactions }}
+        </div>
+        % end
+        % if villain_actions:
+        <h2 class="actions-header">Villain Actions</h2>
+        <div class="text-black">
+            {{! villain_actions }}
         </div>
         % end
         <div class="top-bottom-bar"></div>

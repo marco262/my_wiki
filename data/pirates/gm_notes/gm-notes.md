@@ -94,6 +94,7 @@ Find dude and assassinate him
 * [Making Friends in Lord's Landing](Making Friends in Lord's Landing)
 * [Someone Needs To Die](Someone Needs To Die)
 * [A Brief Respite](A Brief Respite)
+* [Journey to Pleasure Island](Journey to Pleasure Island)
 
 ## TODO
 

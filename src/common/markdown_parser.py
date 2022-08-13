@@ -233,7 +233,7 @@ class MarkdownParser:
             weapon_attack = d.get('weapon', 'Weapon attack')
             npc["actions"] = [f"***{weapon_attack} x{npc['num_attacks']}.*** {to_mod(npc['attack'])} to hit. "
                               f"**Hit:** {npc['damage']} damage."] + npc["actions"]
-            for section in ["special_abilities", "actions", "reactions"]:
+            for section in ["special_abilities", "bonus_actions", "actions", "reactions", "villain_actions"]:
                 npc[section] = self.parse_md("\n\n".join(npc[section])) if npc[section] else ""
             t = template("dnd/npc-sheet.tpl", **npc)
             text = text.replace(m.group(0), t)
