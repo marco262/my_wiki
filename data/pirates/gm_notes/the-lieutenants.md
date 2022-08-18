@@ -11,7 +11,7 @@
 
 # Gluttony
 
-* Name: Gula Vraatsug
+* Name: Gula Vraatsug (The Gourmand)
 * Home base: Island 1
   * Las Vegas of the Sea (Atlantic City hurr hurr hurr)
 * Personality: Drunken Monk and Womanizer
