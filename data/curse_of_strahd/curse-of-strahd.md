@@ -341,7 +341,13 @@ The rules of polite behavior, especially when visiting another's home, are very 
 
 [[/accordion]]
 
-[GM Notes](/curse_of_strahd/gm_notes/GM Notes)
+[[include common/light_gallery.tpl]]
+glob = static/img/fanart/curse_of_strahd/*.*
+[[/include]]
+
+<p>
+<a href="/curse_of_strahd/gm_notes/GM Notes">GM Notes</a>
+</p>
 
 <script type="module">
     import { init_accordions } from "/js/common/utils.js";

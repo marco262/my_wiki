@@ -130,6 +130,7 @@ dmypy.json
 
 logs/
 player_soundboard_stats.json
+bestiary-mm.json
 
 # Files that are too big to commit
 ## Audio

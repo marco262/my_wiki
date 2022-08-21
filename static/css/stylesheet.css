@@ -489,3 +489,12 @@ div.theme-restricted {
     margin: 0;
     padding: 0;
 }
+
+.light_gallery_thumbnail {
+    text-decoration: none;
+}
+
+.light_gallery_thumbnail > img {
+    max-width: 10rem;
+    max-height: 10rem;
+}
