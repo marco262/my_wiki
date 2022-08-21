@@ -341,9 +341,13 @@ The rules of polite behavior, especially when visiting another's home, are very 
 
 [[/accordion]]
 
+# Fanart Gallery
+
 [[include common/light_gallery.tpl]]
 glob = static/img/fanart/curse_of_strahd/*.*
 [[/include]]
+
+<hr>
 
 <p>
 <a href="/curse_of_strahd/gm_notes/GM Notes">GM Notes</a>
