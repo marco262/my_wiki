@@ -331,7 +331,7 @@ Each time a creature uses a dark gift received from one of the vestiges of the A
 
 * [Link](https://5e.tools/adventure.html#cos,14,x33a.%20vault%20of%20shalx,0)
 * [Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.686hbvc3v3un)
-* [Flameskulls](^curse_of_strahd/flameskull.jpg) ([stats](https://5e.tools/bestiary.html#flameskull_mm))
+* [Bulezau](^curse_of_strahd/bulezau.jpg) is in this room, instead of Flameskulls ([stats](https://5e.tools/bestiary.html#bulezau_mpmm))
 * [Fekre](^curse_of_strahd/fekre.jpg)
 
 ### X33b. Vault of Maverus
@@ -404,6 +404,48 @@ It offers Ethel its dark gift: the power of great physical strength. To accept, 
 
 * [Link](https://5e.tools/adventure.html#cos,14,x33f.%20vault%20of%20thangob,0)
 * [Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.7myx6j6r8xlz)
+
+## X34. Wizard's Bedchamber
+
+* [Visual Aid](^curse_of_strahd/wizards_bedchamber_1.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x34.%20wizard's%20bedchamber,0)
+
+## X35. Sleeping Guardian
+
+* [Link](https://5e.tools/adventure.html#cos,14,x35.%20sleeping%20guardian,0)
+* [Incapacitated Shield Guardian](^curse_of_strahd/shield_guardian.jpeg)
+
+## X36. Lower West Hall
+
+* [Visual Aid](^curse_of_strahd/amber_hallway.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x36.%20lower%20west%20hall,0)
+
+## X37. Wizard's Bedchamber
+
+* [Visual Aid](^curse_of_strahd/wizards_bedchamber_2.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x37.%20wizard's%20bedchamber,0)
+
+## X38. Haunted Room
+
+* [Visual Aid](^curse_of_strahd/wizards_bedchamber_3.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x38.%20haunted%20room,0)
+* Poltergeist ([stats](https://5e.tools/bestiary.html#poltergeist_mm))
+
+## X39. Plundered Treasury
+
+* [Visual Aid](^curse_of_strahd/plundered_treasury.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x39.%20plundered%20treasury,0)
+* [Ghost Robbers](^curse_of_strahd/ghost_robber.jpg) ([stats](https://5e.tools/bestiary.html#ghost_mm))
+  * The Ghost Robbers are prevented from going to the afterlife by the magic of the Amber Temple and Strahd's sadistic will. 
+  * They will try to possess one or more party members.
+  * They will try to kill other creatures for their "treasure".
+  * The lich can paralyze a possessed PC with his Paralyzing Touch, or expel a ghost with his Frightening Gaze.
+
+## X40. Sealed Treasury
+
+* [Visual Aid](^curse_of_strahd/sealed_treasury.jpg)
+* [Link](https://5e.tools/adventure.html#cos,14,x40.%20sealed%20treasury,0)
+* [Amber Golem](^curse_of_strahd/amber_golem.jpg) ([stats](https://5e.tools/bestiary.html#amber%20golem_cos))
 
 ## X42. Amber Vault
 
