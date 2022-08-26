@@ -5,7 +5,8 @@
 
 # First Mate
 
-* Race: Half-elf/Warforged
+* Name: Vivienne Millbone
+* Race: Half-elf
 * Class: Artificer
   * She made all the magic items for the lieutenants, and can make more for the players
 
@@ -14,11 +15,14 @@
 * Name: Gula Vraatsug (The Gourmand)
 * Home base: Island 1
   * Las Vegas of the Sea (Atlantic City hurr hurr hurr)
-* Personality: Drunken Monk and Womanizer
+* Personality: 
+  * Vauthry
+  * Drunken Monk
+  * Any entertainment is good entertainment
 * Crew: Surrounds himself with crew who are also low on self-control, has a lot of starving dogs he can sic on people
   * 
 * Class: Monk
-* Race: 
+* Race: Half-orc
 * Cursed Item: 
 
 # Pride
@@ -45,7 +49,7 @@
 
 * Name: Acedia "Cedi" Dovendyr
 * Homebase: 
-* Personality: Baron Harkonen
+* Personality: Baron Harkonen, but wasting away
 * Crew: 
 * Class: Wizard
 * Race:

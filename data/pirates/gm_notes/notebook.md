@@ -7,7 +7,6 @@ Lom Jomson
 
 
 Next session:
- * Get battle with Yendan put together
  * Plot out Pleasure Island
  * Figure a better gambling game (Ship, Captain, Crew)
  * Let Zoya meet other animal forms (Giant Ape) at some point

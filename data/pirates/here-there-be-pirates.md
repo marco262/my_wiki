@@ -80,7 +80,7 @@
 
 ### Session 6 (2022-07-18)
 
-* Started on the 20th of Alturik
+* Started on the 20th of Alturik, as fresh Level 3s.
 * Xanner told the party that the guards and Knights of Twilight are out in force, after their murder in broad twilight.
 * He recommended they stay hidden while the heat died down.
 * With Xanner's help, the party took up a number of downtime activities over the next several days:

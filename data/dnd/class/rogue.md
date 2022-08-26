@@ -107,17 +107,12 @@ Starting at 2nd level, your quick thinking and agility allow you to move and act
 
 At 3rd level, you choose an [[[class:rogue#roguish-archetypes|archetype]]] that you emulate in the exercise of your rogue abilities, detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
 
-[[accordion Optional Class Features: Steady Aim]]
-
-## Steady Aim
-
-_Source: Tasha's Cauldron of Everything, p. 62_
-
-_3rd-level rogue feature_
-
-As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
-
-[[/accordion]]
+[//]: # ([[accordion Optional Class Features: Steady Aim]])
+[//]: # (## Steady Aim)
+[//]: # (_Source: Tasha's Cauldron of Everything, p. 62_)
+[//]: # (_3rd-level rogue feature_)
+[//]: # (As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.)
+[//]: # ([[/accordion]])
 
 ## Ability Score Improvement
 
