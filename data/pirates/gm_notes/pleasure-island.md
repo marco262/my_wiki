@@ -8,14 +8,22 @@
 ## Visual Aids
 
 * [Yendan's Ship](^pirates/caravel.jpg)
-* Pleasure island ([1](^pirates/pleasure_island_day_1.jpg) [2](^pirates/pleasure_island_day_2.jpg), sunset [1](^pirates/pleasure_island_sunset_1.jpg) [2](^pirates/pleasure_island_sunset_2.jpg) [3](^pirates/pleasure_island_sunset_3.jpg), night [1](^pirates/pleasure_island_night_1.jpg) [2](^pirates/pleasure_island_night_2.jpg))
 
+## NPCs
 
+* [Gula Vraatsug](^pirates/gula_vraatsug.jpg) (The Gourmand)
+  * Runs Pleasure Island
+  * Very charming, likes to buddy up to people and then turn them on each other
+  * Delights in any kind of entertainment, especially when it's shocking or excessive
+* [One-Eyed Jacko](^pirates/one_eyed_jacko.jpg), male dwarf
+  * Ran the Staring Contest booth
+* [Vivienne Millbone](^pirates/vivienne_millbone.png), the DPL's First Mate
 
 ## Places
 
-* Docks
-* Carnival Area
+* Pleasure island ([1](^pirates/pleasure_island_day_1.jpg) [2](^pirates/pleasure_island_day_2.jpg), sunset [1](^pirates/pleasure_island_sunset_1.jpg) [2](^pirates/pleasure_island_sunset_2.jpg) [3](^pirates/pleasure_island_sunset_3.jpg), night [1](^pirates/pleasure_island_night_1.jpg) [2](^pirates/pleasure_island_night_2.jpg))
+* Docks ([1](^pirates/pleasure_island_docks1.jpeg), [2](^pirates/pleasure_island_docks2.jpg))
+* Carnival Area (day [1](^pirates/pleasure_island_carnival_day1.png), [2](^pirates/pleasure_island_carnival_day2.png); night [1](^pirates/pleasure_island_carnival_night1.png), [2](^pirates/pleasure_island_carnival_night2.png))
   * Next to docks
   * Designed to be a tourist trap
   * Contains rides, carnival food, games (you can only win chintzy prizes), and overpriced mediocre inn rooms
@@ -68,21 +76,10 @@
       * Prize: Roll on the trinkets table
   * Rides: Ferris wheel, roller coaster, tunnel of love, big slide, tea cups
   * Food: Ale, grog, lemonade, funnel cakes, cotton candy, corn dogs, fish cakes, roasted rat on a stick
-* Slums
+* [Slums](^pirates/pleasure_island_slums1.png)
   * Where the carnies live
-* Tower
+* [The Gourmand's Tower](^pirates/the_gourmands_tower.jpg)
   * Where the "cool shit" happens
-
-
-## NPCs
-
-* Gula Vraatsug (The Gourmand)
-  * Runs Pleasure Island
-  * Very charming, likes to buddy up to people and then turn them on each other
-  * Delights in any kind of entertainment, especially when it's shocking or excessive
-* One-Eyed Jacko, male dwarf
-  * Ran the Staring Contest booth
-* Vivienne Millbone, the DPL's First Mate
 
 
 ## Plot

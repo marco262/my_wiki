@@ -50,6 +50,8 @@ Enter another URL to set as Visual Aid here:
 
 ### [Lord's Landing](Lord's Landing)
 
+### [Pleasure Island](Pleasure Island)
+
 ## Notes
 
 * The players need to find the Dread Pirate Lord's first mate, who is hiding on the Dread Pirate Lord's HQ island.
