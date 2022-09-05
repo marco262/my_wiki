@@ -450,5 +450,7 @@ It offers Ethel its dark gift: the power of great physical strength. To accept, 
 ## X42. Amber Vault
 
 * [Visual Aid](^curse_of_strahd/Amber Vault.mp4)
+  * [Gulthias Tree](curse_of_strahd/Gulthias Tree.mp4)
+  * [Vampyr](curse_of_strahd/)
 * [Link](https://5e.tools/adventure.html#cos,14,x42.%20amber%20vault,0)
 * [Reloaded](https://docs.google.com/document/d/1uSy0EgkXQvUrEoTLRvg6aQnl3vOCYYiI04eS6cR83zA/view#heading=h.bd924wt84ww)
