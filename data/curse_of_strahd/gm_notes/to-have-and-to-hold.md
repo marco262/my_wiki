@@ -149,3 +149,21 @@ Roll initiative! The party must decide if they wish to kill Strahd while he's we
 Notes:
 
 * Figure out what happens to Van Richten and Ezmerelda during all of this. If they can appear to defend the PCs in the middle of the battle, all the better.
+* Party leaves Amber Temple
+* Goes to Yaedrag
+* Meets Van Richten maybe?
+* Meets with Strahd
+* Ireena is convinced to be courted
+  * Figure out courting
+* Strahd eventually brings up he wants to do the Bride Ceremony
+* Ireena has to think about it
+* Ireena has 1v1 meetings with all PCs, Esmeralda, and Van Richten
+* Van Richten talks her up into the idea of killing Strahd as part of the ceremony
+* Ireena is unconvinced, Van Richten tells her to think on it
+* Ireena agrees to the wedding
+  * Why? Work out better details
+* Bunch of fetch quests for ceremony
+  * Figure out fetch quests
+* Ireena is along for some of them, and they remind her that Barovia is a prison, and Strahd is the jailer
+  * She goes to meet Ismark, the village is morose as fuck, bad stuff has happened (pies?)
+* Ireena decides it is her *duty* to free the people of Barovia by killing Strahd
