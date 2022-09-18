@@ -41,7 +41,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Areas of Barovia
 
-[Map of Barovia](/static/img/visual_aids/curse_of_strahd/barovia_gm_map.jpg) (with enemies of Strahd highlighted)
+[Map of Barovia](/media/img/visual_aids/curse_of_strahd/barovia_gm_map.jpg) (with enemies of Strahd highlighted)
 
 [Player's Map of Barovia](^curse_of_strahd/players_map.png)
 
@@ -82,7 +82,8 @@ Enter another URL to set as Visual Aid here:
 * [Operation Lasagna](Operation Lasagna), aka How Do You Kill An Ancient Hag Who Knows Your Every Move?
 * [Who's That Pokémon? It's Strahd!](It's Strahd)
 * [Dinner Party With A Vampire](Dinner Party With A Vampire)
-* [To Have And To Hold](To Have And To Hold)
+* [I Want To Know Your Soul](I Want To Know Your Soul)
+* [Planning A Wedding](Planning A Wedding)
 
 # Other Pages
 
