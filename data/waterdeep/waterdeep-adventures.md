@@ -45,7 +45,7 @@
         </td>
     </tr>
     <tr>
-        <td><a href="/static/img/visual_aids/bag_of_holding.jpeg">Bag of Holding</a></td>
+        <td><a href="/media/img/visual_aids/bag_of_holding.jpeg">Bag of Holding</a></td>
         <td>
             <p>This bag has an interior space considerably larger than its outside dimensions, roughly <strong>2 feet in diameter</strong> at the mouth and <strong>4 feet deep</strong>. The bag can hold up to <strong>500 pounds</strong>, not exceeding a volume of <strong>64 cubic feet</strong>. The bag weighs <strong>15 pounds</strong>, regardless of its contents. Retrieving an item from the bag requires an action.</p>
             <p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>

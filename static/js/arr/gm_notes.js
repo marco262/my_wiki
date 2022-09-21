@@ -1,4 +1,4 @@
-import {ajax_call} from "/js/common/utils.js";
+import {ajax_call} from "/static/js/common/utils.js";
 
 export function init_gm_notes_inserts() {
     document.querySelectorAll("details.gm-notes").forEach(e => e.addEventListener(

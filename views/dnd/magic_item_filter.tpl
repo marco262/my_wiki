@@ -81,6 +81,6 @@
 <div id="filter_results"><i>Filter results will appear here</i></div>
 
 <script type="module">
-    import { init_events } from "/js/dnd/magic_item_filter.js";
+    import { init_events } from "/static/js/dnd/magic_item_filter.js";
     init_events();
 </script>

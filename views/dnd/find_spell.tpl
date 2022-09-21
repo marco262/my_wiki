@@ -9,7 +9,7 @@ Spell Name (partial matches allowed):
 <div id="search_results"><i>Search results will appear here</i></div>
 
 <script type="module">
-    import {search, on_key_press} from "/js/dnd/find_spell.js";
+    import {search, on_key_press} from "/static/js/dnd/find_spell.js";
     document.getElementById("search_key").focus();
     document.getElementById("search_key").onkeypress = on_key_press;
     document.getElementById("search_button").onclick = search;

@@ -14,7 +14,7 @@
 
 % for card_name, description in tarokka_deck["cards"].items():
 <tr>
-    <td><img style="width: 15vw;" src="/static/img/tarokka/{{card_name}}.png" alt="{{card_name}}"></td>
+    <td><img style="width: 15vw;" src="/media/img/tarokka/{{card_name}}.png" alt="{{card_name}}"></td>
     <td>
         <p><strong>{{card_name}}</strong></p>
         <p>{{description}}</p>

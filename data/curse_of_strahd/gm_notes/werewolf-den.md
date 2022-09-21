@@ -25,6 +25,6 @@ In the wake of Kiril's death, Petru has taken Zuleika as his mate. She is 6 mont
 * [Petru Botezatu](^curse_of_strahd/petru_botezatu.jpg), current werewolf alpha
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

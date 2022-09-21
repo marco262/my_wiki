@@ -23,7 +23,7 @@
 <div id="generator_results"><i>Your generated mutations will appear here</i></div>
 
 <script type="module">
-    import {generate, on_key_press} from "/js/numenera/mutations_generator.js";
+    import {generate, on_key_press} from "/static/js/numenera/mutations_generator.js";
     document.getElementById("selected_mutation").onkeypress = on_key_press;
     document.getElementById("generate_button").onclick = generate;
 </script>

@@ -291,6 +291,6 @@ Becoming a paladin involves taking vows that commit the paladin to the cause of 
 *Source: Player's Handbook, p. 82*
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

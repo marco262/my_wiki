@@ -250,10 +250,10 @@ def get_player_soundboard_stats():
     with player_soundboard_stats_threading_lock:
         with open(player_soundboard_stats_filepath) as f:
             player_soundboard_stats = json.load(f)
-    g = glob.glob("static/audio/requests/*")
+    g = glob.glob("media/audio/requests/*")
     print(os.getcwd())
     print(g)
-    for filepath in glob.glob("static/audio/requests/*"):
+    for filepath in glob.glob("media/audio/requests/*"):
         print(filepath)
         normalized_filepath = "/" + filepath.replace("\\", "/")
         times_played = player_soundboard_stats.get(normalized_filepath, [])
@@ -266,7 +266,7 @@ def get_player_soundboard_stats():
             if time_played > last_month_start:
                 last_month += 1
             all_time += 1
-        trimmed_filepath = normalized_filepath.replace("/static/audio/", "")
+        trimmed_filepath = normalized_filepath.replace("/media/audio/", "")
         last_week_stats[last_week].append(trimmed_filepath)
         last_month_stats[last_month].append(trimmed_filepath)
         all_time_stats[all_time].append(trimmed_filepath)

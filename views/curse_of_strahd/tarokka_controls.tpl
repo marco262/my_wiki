@@ -8,7 +8,7 @@
     <tr>
         <td></td>
         <td>
-            <img class="card" id="top" src="/static/img/tarokka/__Back.png">
+            <img class="card" id="top" src="/media/img/tarokka/__Back.png">
             <div class="button-div">
                 <input type="checkbox" class="inverted-checkbox" id="inverted-top" value="top">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-top" value="top">Off Grid
@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <td>
-            <img class="card" id="left" src="/static/img/tarokka/__Back.png">
+            <img class="card" id="left" src="/media/img/tarokka/__Back.png">
             <div class="button-div">
                 <input type="checkbox" class="inverted-checkbox" id="inverted-left" value="left">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-left" value="left">Off Grid
@@ -37,7 +37,7 @@
             </div>
         </td>
         <td>
-            <img class="card" id="middle" src="/static/img/tarokka/__Back.png">
+            <img class="card" id="middle" src="/media/img/tarokka/__Back.png">
             <div class="button-div">
                 <input type="checkbox" class="inverted-checkbox" id="inverted-middle" value="middle">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-middle" value="middle">Off Grid
@@ -50,7 +50,7 @@
             </div>
         </td>
         <td>
-            <img class="card" id="right" src="/static/img/tarokka/__Back.png">
+            <img class="card" id="right" src="/media/img/tarokka/__Back.png">
             <div class="button-div">
                 <input type="checkbox" class="inverted-checkbox" id="inverted-right" value="right">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-right" value="right">Off Grid
@@ -66,7 +66,7 @@
     <tr>
         <td></td>
         <td>
-            <img class="card" id="bottom" src="/static/img/tarokka/__Back.png">
+            <img class="card" id="bottom" src="/media/img/tarokka/__Back.png">
             <div class="button-div">
                 <input type="checkbox" class="inverted-checkbox" id="inverted-bottom" value="bottom">Inverted
                 <input type="checkbox" class="off-grid-checkbox" id="off-grid-bottom" value="bottom">Off Grid
@@ -111,8 +111,8 @@
 </p>
 
 <script type="module">
-    import {init} from "/js/curse_of_strahd/tarokka_controls.js";
-    import {init_links} from "/js/common/visual_aid_backend.js";
+    import {init} from "/static/js/curse_of_strahd/tarokka_controls.js";
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
     init();
     init_links();
 </script>

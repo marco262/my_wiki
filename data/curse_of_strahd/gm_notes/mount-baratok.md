@@ -57,6 +57,6 @@ If removed from the Mad Mage's head, the jade circlet is still irreparably damag
 
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

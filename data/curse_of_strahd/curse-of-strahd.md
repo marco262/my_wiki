@@ -47,69 +47,69 @@ Have fun!
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 * [Tarokka Table](tarokka)
-* [Map of Barovia](/static/img/visual_aids/curse_of_strahd/players_map.png) (from Kolyan's personal files)
+* [Map of Barovia](/media/img/visual_aids/curse_of_strahd/players_map.png) (from Kolyan's personal files)
 
 # PCs
 
-* [Strahd Squad!](/static/img/visual_aids/curse_of_strahd/Strahd_Squad.png)
+* [Strahd Squad!](/media/img/visual_aids/curse_of_strahd/Strahd_Squad.png)
 * Ethel "Nails" Carpenter
 * Adalbert "Orin" Teppichverkaufer
-* Marblepaw ([in booties](/static/img/visual_aids/curse_of_strahd/marblepaw_booties.jpg))
+* Marblepaw ([in booties](/media/img/visual_aids/curse_of_strahd/marblepaw_booties.jpg))
 
 # Friendly NPCs
 
-* [Ireena Kolyana](/static/img/visual_aids/curse_of_strahd/ireena.jpg)
-* [Ezmerelda d'Avenir](/static/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg)
-* [Rudolph van Richten](/static/img/visual_aids/curse_of_strahd/rudolph_van_richten.jpg)
+* [Ireena Kolyana](/media/img/visual_aids/curse_of_strahd/ireena.jpg)
+* [Ezmerelda d'Avenir](/media/img/visual_aids/curse_of_strahd/ezmerelda_2.jpg)
+* [Rudolph van Richten](/media/img/visual_aids/curse_of_strahd/rudolph_van_richten.jpg)
 
 ## Village of Barovia
 
-* [Ismark Kolyanovich](/static/img/visual_aids/curse_of_strahd/ismark.jpg), Burgomaster of the Village of Barovia
-* [Dragomir](/static/img/visual_aids/curse_of_strahd/dragomir.jpg), owner of Dragomir's Curio and Relic Emporium
-* [Father Donavich](/static/img/visual_aids/curse_of_strahd/Father_Donavich.png), priest of the Church of the Morninglord
+* [Ismark Kolyanovich](/media/img/visual_aids/curse_of_strahd/ismark.jpg), Burgomaster of the Village of Barovia
+* [Dragomir](/media/img/visual_aids/curse_of_strahd/dragomir.jpg), owner of Dragomir's Curio and Relic Emporium
+* [Father Donavich](/media/img/visual_aids/curse_of_strahd/Father_Donavich.png), priest of the Church of the Morninglord
 
 ## Abbey of Saint Markovia
 
-* [The Abbot](/static/img/visual_aids/curse_of_strahd/the_abbot.jpg)
+* [The Abbot](/media/img/visual_aids/curse_of_strahd/the_abbot.jpg)
 
 ## The Wizard of Wines
 
-* [Davian Martikov](/static/img/visual_aids/curse_of_strahd/davian_martikov.jpg)
+* [Davian Martikov](/media/img/visual_aids/curse_of_strahd/davian_martikov.jpg)
 
 # Enemy NPCs
 
-* [Count Strahd von Zarovich](/static/img/visual_aids/curse_of_strahd/strahd_1.jpg)
+* [Count Strahd von Zarovich](/media/img/visual_aids/curse_of_strahd/strahd_1.jpg)
 
 ## Abbey of Saint Markovia
 
-* [Mishka Belview](/static/img/visual_aids/curse_of_strahd/mishka_belview.jpg), enjoys killing people
+* [Mishka Belview](/media/img/visual_aids/curse_of_strahd/mishka_belview.jpg), enjoys killing people
 
 # Other NPCs
 
 ## Village of Barovia
 
-* [Doru](/static/img/visual_aids/curse_of_strahd/Doru.jpg), Donavich's son, locked up in his basement
-* [Bildrath](/static/img/visual_aids/curse_of_strahd/COS_Bildrath.jpg), owner of Bildrath's Mercantiles
-* [Parriwimple](/static/img/visual_aids/curse_of_strahd/parriwimple.jpg), Bildrath's helper
+* [Doru](/media/img/visual_aids/curse_of_strahd/Doru.jpg), Donavich's son, locked up in his basement
+* [Bildrath](/media/img/visual_aids/curse_of_strahd/COS_Bildrath.jpg), owner of Bildrath's Mercantiles
+* [Parriwimple](/media/img/visual_aids/curse_of_strahd/parriwimple.jpg), Bildrath's helper
 
 ## Town of Vallaki
 
-* [Blue dude](/static/img/visual_aids/curse_of_strahd/izek_strazni.jpg), has resting bitch face
-* [Urwin Martikov](/static/img/visual_aids/curse_of_strahd/urwin_martikov.jpg) and [Danika Martikov](/static/img/visual_aids/curse_of_strahd/danika_martikov.jpg), owners of the Blue Water Inn
-* [Szoldar Szoldarovich](/static/img/visual_aids/curse_of_strahd/szoldar_szoldarovich.jpg) and [Yevgeni Krushkin](/static/img/visual_aids/curse_of_strahd/yevgeni_krushkin.jpg), wolf hunters
-* [Rictavio](/static/img/visual_aids/curse_of_strahd/rictavio.jpg), traveler from a distant land
+* [Blue dude](/media/img/visual_aids/curse_of_strahd/izek_strazni.jpg), has resting bitch face
+* [Urwin Martikov](/media/img/visual_aids/curse_of_strahd/urwin_martikov.jpg) and [Danika Martikov](/media/img/visual_aids/curse_of_strahd/danika_martikov.jpg), owners of the Blue Water Inn
+* [Szoldar Szoldarovich](/media/img/visual_aids/curse_of_strahd/szoldar_szoldarovich.jpg) and [Yevgeni Krushkin](/media/img/visual_aids/curse_of_strahd/yevgeni_krushkin.jpg), wolf hunters
+* [Rictavio](/media/img/visual_aids/curse_of_strahd/rictavio.jpg), traveler from a distant land
 
 ## Village of Krezk
 
-* [Dmitri Krezkov](/static/img/visual_aids/curse_of_strahd/dmitri_krezkov.png), burgomaster of Krezk
-* [Anna Krezkov](/static/img/visual_aids/curse_of_strahd/anna_krezkov.jpg), wife of Dmitri
+* [Dmitri Krezkov](/media/img/visual_aids/curse_of_strahd/dmitri_krezkov.png), burgomaster of Krezk
+* [Anna Krezkov](/media/img/visual_aids/curse_of_strahd/anna_krezkov.jpg), wife of Dmitri
 
 ## Abbey of St. Markovia
 
-* [Vasilka](/static/img/visual_aids/curse_of_strahd/vasilka.jpg), "future bride" of Strahd
-* [Otto Belview](/static/img/visual_aids/curse_of_strahd/otto_belview.jpg), groundskeeper/guard for the Abbey
-* [Zygrek Belview](/static/img/visual_aids/curse_of_strahd/zygfrek_belview.jpg), groundskeeper/guard for the Abbey
-* [Marzena Belview](/static/img/visual_aids/curse_of_strahd/marzena_belview.jpg), tethered to a post in the Abbey courtyard, scared of everyone
+* [Vasilka](/media/img/visual_aids/curse_of_strahd/vasilka.jpg), "future bride" of Strahd
+* [Otto Belview](/media/img/visual_aids/curse_of_strahd/otto_belview.jpg), groundskeeper/guard for the Abbey
+* [Zygrek Belview](/media/img/visual_aids/curse_of_strahd/zygfrek_belview.jpg), groundskeeper/guard for the Abbey
+* [Marzena Belview](/media/img/visual_aids/curse_of_strahd/marzena_belview.jpg), tethered to a post in the Abbey courtyard, scared of everyone
 
 # Miscellaneous Notes
 
@@ -276,9 +276,9 @@ The rules of polite behavior, especially when visiting another's home, are very 
 
 ## Erwaren's Rest Residents
 
-* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/static/img/visual_aids/dragon_heist/DnD Party 2.png)
-* [Brendaniel Skwik](/static/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/static/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
-* [Lif Erwaren](/static/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
+* [Guy Buddie, Emir d'Amour, Thomas Nielson Alley](/media/img/visual_aids/dragon_heist/DnD Party 2.png)
+* [Brendaniel Skwik](/media/img/visual_aids/dragon_heist/brendaniel_skwik.jpg) and [his goggles](/media/img/visual_aids/dragon_heist/brendaniels_goggles.jpg)
+* [Lif Erwaren](/media/img/visual_aids/dragon_heist/lif_erwaren.jpg), poltergeist, ex-owner of Trollskull Manor
 * Adalbert "Orin" Teppichverkäufer, emo gnome teenager
 * Ethel "Nails" Carpenter, middle-aged human, ex-Watch, recovering "Heroes' Dust" addict
 * Llethen Rain-Seeker, dragonborn, niece of Rishaal
@@ -287,24 +287,24 @@ The rules of polite behavior, especially when visiting another's home, are very 
 * Doug "Snout" Stoutkettle, were-chihuahua, Shard Shunner
 * Macadrian "Mac" Blair, were-scottish terrier, Shard Shunner
 * Noska Ur'Gray, deep iron dwarf, ex-Xanathar, semi-willingly on parole for community service 
-* [Wishes](/static/img/visual_aids/dragon_heist/faerie_dragon.jpg), faerie dragon, former resident of the Pink Flumph theater
+* [Wishes](/media/img/visual_aids/dragon_heist/faerie_dragon.jpg), faerie dragon, former resident of the Pink Flumph theater
 
 ## Trollskull Alley Shop Owners
 
-* [Talisolvanar "Tally" Fellbranch](/static/img/visual_aids/dragon_heist/talisolvanar_tally_fellbranch.jpg), carpenter, owner of [The Bent Nail](/static/img/visual_aids/dragon_heist/the_bent_nail.jpg)
-* [Embric](/static/img/visual_aids/dragon_heist/embric.jpg), weaponsmith, co-owner of [Steam and Steel](/static/img/visual_aids/dragon_heist/steam_and_steel.jpg) ([at night](/static/img/visual_aids/dragon_heist/steam_and_steel_2.jpg), [at sunrise](/static/img/visual_aids/dragon_heist/steam_and_steel_3.jpg))
-* [Avi](/static/img/visual_aids/dragon_heist/avi.jpg), armorsmith, co-owner of Steam and Steel
-* [Fala Lefaliir](/static/img/visual_aids/dragon_heist/fala_lefaliir.jpg), herbalist, owner of [Corellon's Crown](/static/img/visual_aids/dragon_heist/corellons_crown.jpg) ([at night](/static/img/visual_aids/dragon_heist/corellons_crown_2.jpg))
-* Vincent Trench ([1](/static/img/visual_aids/dragon_heist/vincent_trench_1.jpg), [2](/static/img/visual_aids/dragon_heist/vincent_trench_2.jpg)), detective, owner of [The Tiger's Eye](/static/img/visual_aids/dragon_heist/the_tigers_eye.jpg)
-* [Rishaal the Page-Turner](/static/img/visual_aids/dragon_heist/rishaal_the_pageturner.jpg), mage, owner of the Book Wyrm's Treasure ([1](/static/img/visual_aids/dragon_heist/book_wyrms_treasure_1.jpg), [2](/static/img/visual_aids/dragon_heist/book_wyrms_treasure_2.jpg), [at night](/static/img/visual_aids/dragon_heist/book_wyrms_treasure_3.jpg), [back entrance](/static/img/visual_aids/dragon_heist/book_wyrms_treasure_4.jpg))
+* [Talisolvanar "Tally" Fellbranch](/media/img/visual_aids/dragon_heist/talisolvanar_tally_fellbranch.jpg), carpenter, owner of [The Bent Nail](/media/img/visual_aids/dragon_heist/the_bent_nail.jpg)
+* [Embric](/media/img/visual_aids/dragon_heist/embric.jpg), weaponsmith, co-owner of [Steam and Steel](/media/img/visual_aids/dragon_heist/steam_and_steel.jpg) ([at night](/media/img/visual_aids/dragon_heist/steam_and_steel_2.jpg), [at sunrise](/media/img/visual_aids/dragon_heist/steam_and_steel_3.jpg))
+* [Avi](/media/img/visual_aids/dragon_heist/avi.jpg), armorsmith, co-owner of Steam and Steel
+* [Fala Lefaliir](/media/img/visual_aids/dragon_heist/fala_lefaliir.jpg), herbalist, owner of [Corellon's Crown](/media/img/visual_aids/dragon_heist/corellons_crown.jpg) ([at night](/media/img/visual_aids/dragon_heist/corellons_crown_2.jpg))
+* Vincent Trench ([1](/media/img/visual_aids/dragon_heist/vincent_trench_1.jpg), [2](/media/img/visual_aids/dragon_heist/vincent_trench_2.jpg)), detective, owner of [The Tiger's Eye](/media/img/visual_aids/dragon_heist/the_tigers_eye.jpg)
+* [Rishaal the Page-Turner](/media/img/visual_aids/dragon_heist/rishaal_the_pageturner.jpg), mage, owner of the Book Wyrm's Treasure ([1](/media/img/visual_aids/dragon_heist/book_wyrms_treasure_1.jpg), [2](/media/img/visual_aids/dragon_heist/book_wyrms_treasure_2.jpg), [at night](/media/img/visual_aids/dragon_heist/book_wyrms_treasure_3.jpg), [back entrance](/media/img/visual_aids/dragon_heist/book_wyrms_treasure_4.jpg))
 
 ## Trollskull Alley Residents
 
-* [Anna Gable](/static/img/visual_aids/dragon_heist/anna_gable.jpg), medium who ran the seance to contact Lif
-* [Lorelai Green](/static/img/visual_aids/dragon_heist/lorelai_green.jpg), human farmer, ex-lover of Lif and current lover of Embric
-* [Jezrynne Hornraven](/static/img/visual_aids/dragon_heist/jezrynne_hornraven.jpg), wealthy wife who witnessed the Nimblewright
-* [Martem Trec](/static/img/visual_aids/dragon_heist/martem_trec.jpg), child who found the Necklace of Fireballs
-* [Tomassin Gralhund](/static/img/visual_aids/dragon_heist/tomassin_gralhund.jpg), daughter of the Gralhund family, has a crush on Emir
+* [Anna Gable](/media/img/visual_aids/dragon_heist/anna_gable.jpg), medium who ran the seance to contact Lif
+* [Lorelai Green](/media/img/visual_aids/dragon_heist/lorelai_green.jpg), human farmer, ex-lover of Lif and current lover of Embric
+* [Jezrynne Hornraven](/media/img/visual_aids/dragon_heist/jezrynne_hornraven.jpg), wealthy wife who witnessed the Nimblewright
+* [Martem Trec](/media/img/visual_aids/dragon_heist/martem_trec.jpg), child who found the Necklace of Fireballs
+* [Tomassin Gralhund](/media/img/visual_aids/dragon_heist/tomassin_gralhund.jpg), daughter of the Gralhund family, has a crush on Emir
 * [Halgraek Barrelshoulder](https://www.worldanvil.com/uploads/images/cd7a36d19295661d8de12e8534a58edf.jpg), dwarf who had the troll skull
 * [Brigid Mountainshear](https://i.pinimg.com/originals/3f/73/fc/3f73fc0e15a4785245f669eb8213b3c1.jpg), Halgraek's mortal enemy (she has a nicer house)
 * [Florence Ableton](https://i.pinimg.com/originals/0e/d6/16/0ed616b05ba2236698c5cc109ef0ec2b.jpg), saved Tom's life, got invited to Erwaren's Rest. Has 14 and 16 year old boys.
@@ -318,33 +318,33 @@ The rules of polite behavior, especially when visiting another's home, are very 
 
 ## Friendly NPCs
 
-* [Uncle David](/static/img/visual_aids/dragon_heist/uncle_david.jpg), (aka [Lord Jared](/static/img/visual_aids/dragon_heist/lord_jared.jpg))
-* [Volothamp Geddarm](/static/img/visual_aids/dragon_heist/volothamp_geddarm.jpg)
-* [Floon Blagmaar](/static/img/visual_aids/dragon_heist/floon_blagmaar.jpg)
-* [Renaer Neverember](/static/img/visual_aids/dragon_heist/renaer_neverember.jpg)
-* [Yendan Snazzyfeet](/static/img/visual_aids/dragon_heist/yendan_snazzyfeet.jpg)
-* [Ulkoria Stronemarrow](/static/img/visual_aids/dragon_heist/ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
-  * [Ulkoria's Shield Guardian](/static/img/visual_aids/sdragon_heist/shield_guardian.jpeg)
+* [Uncle David](/media/img/visual_aids/dragon_heist/uncle_david.jpg), (aka [Lord Jared](/media/img/visual_aids/dragon_heist/lord_jared.jpg))
+* [Volothamp Geddarm](/media/img/visual_aids/dragon_heist/volothamp_geddarm.jpg)
+* [Floon Blagmaar](/media/img/visual_aids/dragon_heist/floon_blagmaar.jpg)
+* [Renaer Neverember](/media/img/visual_aids/dragon_heist/renaer_neverember.jpg)
+* [Yendan Snazzyfeet](/media/img/visual_aids/dragon_heist/yendan_snazzyfeet.jpg)
+* [Ulkoria Stronemarrow](/media/img/visual_aids/dragon_heist/ulkoria_stronemarrow.jpg), representative for the Watchful Order of Magists and Protectors
+  * [Ulkoria's Shield Guardian](/media/img/visual_aids/sdragon_heist/shield_guardian.jpeg)
 * Shard Shunners, pack of weredogs
- * [Dasher Snobeedle](/static/img/visual_aids/dragon_heist/dasher_snobeedle.jpg), [were-irish terrier](/static/img/visual_aids/dragon_heist/dasher_snobeedle_weredog.png), alpha
- * [Vaniel Shortwick](/static/img/visual_aids/dragon_heist/vaniel_shortwick.png), were-papillon, Dasher's Lover
+ * [Dasher Snobeedle](/media/img/visual_aids/dragon_heist/dasher_snobeedle.jpg), [were-irish terrier](/media/img/visual_aids/dragon_heist/dasher_snobeedle_weredog.png), alpha
+ * [Vaniel Shortwick](/media/img/visual_aids/dragon_heist/vaniel_shortwick.png), were-papillon, Dasher's Lover
  * Shitzu, possibly interested in being a Secret Agent Shitzu
  * Jack Russell Terrier, mohawked halfling with a pointy beard
  * Chihuahua
-* [Grinda Garloth](/static/img/visual_aids/dragon_heist/Grinda_garloth_and_apparatus.jpg), treasure hunter
-* [Mary Pickford](/static/img/visual_aids/dragon_heist/mary_pickford.jpg), plays the handmaiden in *Kiss of the Lamia*, friendly with Emir
+* [Grinda Garloth](/media/img/visual_aids/dragon_heist/Grinda_garloth_and_apparatus.jpg), treasure hunter
+* [Mary Pickford](/media/img/visual_aids/dragon_heist/mary_pickford.jpg), plays the handmaiden in *Kiss of the Lamia*, friendly with Emir
 
 # Daggerford
 
-* [Lord Zelraun Roaringhorn](/static/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg), et by warrwuffs
-* [Duchess Morwen of Daggerford](/static/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
+* [Lord Zelraun Roaringhorn](/media/img/visual_aids/curse_of_strahd/Lord_Zelraun_Roaringhorn.jpg), et by warrwuffs
+* [Duchess Morwen of Daggerford](/media/img/visual_aids/curse_of_strahd/duchess-morwen.jpg)
 
 [[/accordion]]
 
 # Fanart Gallery
 
 [[include common/light_gallery.tpl]]
-glob = static/img/fanart/curse_of_strahd/*.*
+glob = media/img/fanart/curse_of_strahd/*.*
 [[/include]]
 
 <hr>
@@ -354,8 +354,8 @@ glob = static/img/fanart/curse_of_strahd/*.*
 </p>
 
 <script type="module">
-    import { init_accordions } from "/js/common/utils.js";
+    import { init_accordions } from "/static/js/common/utils.js";
     init_accordions();
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

@@ -11,7 +11,7 @@ material = "a diamond worth at least 500 gp, which the spell consumes"
 expensive_material_component = true
 material_component_consumed = false
 duration = "Instantaneous"
-description = """![Mighty Fortress top-down diagram >](/static/img/mighty_fortress.png)
+description = """![Mighty Fortress top-down diagram >](/media/img/mighty_fortress.png)
 
 A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.
 

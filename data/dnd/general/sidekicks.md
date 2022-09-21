@@ -49,7 +49,7 @@ Whenever the sidekick gains the Ability Score Improvement feature, adjust anythi
 
 If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either.
 
-<img class="illustration" src="/static/img/sidekicks_expert.png" alt="Experts">
+<img class="illustration" src="/media/img/sidekicks_expert.png" alt="Experts">
 
 <p class="image-caption">Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku</p>
 
@@ -149,7 +149,7 @@ _18th-level Expert feature_
 
 The sidekick gains proficiency in one of the following saving throws of your choice: Intelligence, Wisdom, or Charisma.
 
-<img class="illustration" src="/static/img/sidekicks_spellcaster.png" alt="Spellcasters">
+<img class="illustration" src="/media/img/sidekicks_spellcaster.png" alt="Spellcasters">
 
 <p class="image-caption">Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi</p>
 
@@ -253,7 +253,7 @@ _20th-level Spellcaster feature_
 
 Taking damage can't break the sidekick's concentration on a spell.
 
-<img class="illustration" src="/static/img/sidekicks_warrior.png" alt="Warriors">
+<img class="illustration" src="/media/img/sidekicks_warrior.png" alt="Warriors">
 
 <p class="image-caption">Spellcasters, Left to Right: an Aasimar, a Firbolg, and a Wolf</p>
 

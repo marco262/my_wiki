@@ -1,7 +1,7 @@
 <script type="module">
-    import { init_accordions } from "/js/common/utils.js";
+    import { init_accordions } from "/static/js/common/utils.js";
     init_accordions();
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
@@ -17,17 +17,17 @@
 
 # The NPCs
 
-* <a href="/static/img/visual_aids/sandpoint/kendra_deverin.jpg" target="_blank">Mayor Kendra Deverin</a>
-* <a href="/static/img/visual_aids/sandpoint/sheriff_hemlock.jpg" target="_blank">Sheriff Hemlock</a>
-* <a href="/static/img/visual_aids/sandpoint/cyrdak_drokkus.jpg" target="_blank">Cyrdak Drokkus</a>
-* <a href="/static/img/visual_aids/sandpoint/father_zantus.png" target="_blank">Father Zantus</a>
-* <a href="/static/img/visual_aids/sandpoint/ameiko_kaijitsu_1.png" target="_blank">Ameiko Kaijitsu</a>
+* <a href="/media/img/visual_aids/sandpoint/kendra_deverin.jpg" target="_blank">Mayor Kendra Deverin</a>
+* <a href="/media/img/visual_aids/sandpoint/sheriff_hemlock.jpg" target="_blank">Sheriff Hemlock</a>
+* <a href="/media/img/visual_aids/sandpoint/cyrdak_drokkus.jpg" target="_blank">Cyrdak Drokkus</a>
+* <a href="/media/img/visual_aids/sandpoint/father_zantus.png" target="_blank">Father Zantus</a>
+* <a href="/media/img/visual_aids/sandpoint/ameiko_kaijitsu_1.png" target="_blank">Ameiko Kaijitsu</a>
 
 # Varisia, Cradle of Legends
 
 <div class="map-float">
-    <a href="/static/img/visual_aids/sandpoint/varisia_map.jpg" target="_blank">
-        <img src="/static/img/visual_aids/sandpoint/varisia_map.jpg">
+    <a href="/media/img/visual_aids/sandpoint/varisia_map.jpg" target="_blank">
+        <img src="/media/img/visual_aids/sandpoint/varisia_map.jpg">
     </a>
 </div>
 
@@ -38,8 +38,8 @@ What follows is a gazetteer of the region known as Varisia. While much of this r
 ## Magnimar
 
 <div class="map-float">
-    <a href="/static/img/visual_aids/sandpoint/magnimar_map.jpg" target="_blank">
-        <img src="/static/img/visual_aids/sandpoint/magnimar_map.jpg">
+    <a href="/media/img/visual_aids/sandpoint/magnimar_map.jpg" target="_blank">
+        <img src="/media/img/visual_aids/sandpoint/magnimar_map.jpg">
     </a>
 </div>
 
@@ -48,8 +48,8 @@ Founded by former Korvosans seeking to throw off Chelish rule and form a democra
 ## Sandpoint
 
 <div class="map-float">
-    <a href="/static/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg" target="_blank">
-        <img src="/static/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg">
+    <a href="/media/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg" target="_blank">
+        <img src="/media/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg">
     </a>
 </div>
 

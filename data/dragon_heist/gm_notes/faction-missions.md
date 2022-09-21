@@ -74,6 +74,6 @@ The recent uptick in monster-people causing problems in Waterdeep (mostly XG is 
 * [Dasher Snobeedle](^dragon_heist/dasher_snobeedle.jpg) ([weredog form](^dragon_heist/dasher_snobeedle_weredog.png)), part of the [Shard Shunners](Shard Shunners)
 
 <script type="module">
-    import {init_links} from "/js/common/visual_aid_backend.js";
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

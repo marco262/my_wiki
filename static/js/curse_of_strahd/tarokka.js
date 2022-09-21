@@ -75,7 +75,7 @@ function set_cards(data) {
 function set_cards_inner_func(json) {
     for (const [key, card_dict] of Object.entries(json)) {
         const card_img = document.getElementById(`card-img-${key}`);
-        card_img.src = `/static/img/tarokka/${card_dict["card"]}.png`;
+        card_img.src = `/media/img/tarokka/${card_dict["card"]}.png`;
         card_img.classList.toggle("inverted", card_dict["inverted"]);
         card_img.alt = card_dict["card"];
     }

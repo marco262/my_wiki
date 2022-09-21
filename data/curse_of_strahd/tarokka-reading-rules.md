@@ -16,7 +16,7 @@ The Focus card is always the first card laid down and, regardless of the layout 
 
 ## Basic Cross
 
-<img src="/static/img/tarokka_basic_cross.jpeg" alt="Tarokka Basic Cross">
+<img src="/media/img/tarokka_basic_cross.jpeg" alt="Tarokka Basic Cross">
 
 ## Prophecy
 

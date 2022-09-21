@@ -90,6 +90,6 @@ Enemies you designate for destruction wilt under the combined efforts of you and
 *Source: Tasha's Cauldron of Everything, p. 31*
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

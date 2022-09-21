@@ -1,8 +1,8 @@
 [[breadcrumb /pirates/|Here There Be Pirates!]]
 
 <script type="module">
-    import {init_links} from "/js/common/visual_aid_backend.js";
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_links();
     init_accordions();
 </script>

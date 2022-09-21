@@ -1,13 +1,13 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
 [Wizard of Wines](^curse_of_strahd/wizard_of_wines.mp4)
 
-[DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Wizard of Wines Winery.jpg)
+[DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Wizard of Wines Winery.jpg)
 
 * [Davian Martikov](^curse_of_strahd/davian_martikov.jpg)
 * [Wereraven](^curse_of_strahd/wereraven_forms.jpg) ([stats](https://5e.tools/bestiary.html#wereraven_cos))

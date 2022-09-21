@@ -62,7 +62,7 @@ function handle_sync(data) {
     console.debug(JSON.parse(data.response));
     for (const [key, card_dict] of Object.entries(JSON.parse(data.response))) {
         const card = document.getElementById(key);
-        card.src = `/static/img/tarokka/${card_dict["card"]}.png`;
+        card.src = `/media/img/tarokka/${card_dict["card"]}.png`;
         document.getElementById(`inverted-${key}`).checked = get_w_default(card_dict, "inverted", false);
         document.getElementById(`off-grid-${key}`).checked = get_w_default(card_dict, "off-grid", true);
         document.getElementById(`flipped-${key}`).checked = get_w_default(card_dict, "flipped", false);

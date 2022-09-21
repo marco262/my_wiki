@@ -61,6 +61,6 @@ At 17th level, you chose four spells from the [wizard spell list](/dnd/class_spe
 *Source: Sword Coast Adventurer's Guide, p. 125*
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

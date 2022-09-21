@@ -15,7 +15,7 @@ cb = CalendarBuilder(
 )
 %>
 <div class="month" id="kythorn">
-    <img class="month-img" src="/static/img/kythorn.png">
+    <img class="month-img" src="/media/img/kythorn.png">
     {{ cb.day(5, "Met at Yawning Portal") }}
     {{ cb.day(6, "Saved Renaer") }}
     {{ cb.day(7, "Saved Floon") }}
@@ -32,7 +32,7 @@ cb = CalendarBuilder(
 <span class="visual-aid-link" title="iframe|/dragon_heist/calendar#kythorn">Send to Visual Aid</span>
 
 <div class="month" id="flamerule">
-    <img class="month-img" src="/static/img/flamerule.png">
+    <img class="month-img" src="/media/img/flamerule.png">
     {{ cb.add_recurring() }}
     {{ cb.day(23, "Fireball!") }}
     {{ cb.day(24, "Morgue trip") }}
@@ -49,7 +49,7 @@ cb = CalendarBuilder(
 * Fought gazer in bookstore
 
 <div class="month" id="eleasis">
-    <img class="month-img" src="/static/img/eleasis.png">
+    <img class="month-img" src="/media/img/eleasis.png">
     {{ cb.add_recurring() }}
     {{ cb.day(1, "Took in Istrid Horn") }}
     {{ cb.day(2, "Nimblewright") }}
@@ -70,7 +70,7 @@ cb = CalendarBuilder(
 <span class="visual-aid-link" title="iframe|/dragon_heist/calendar#eleasis">Send to Visual Aid</span>
 
 <div class="month" id="elient">
-    <img class="month-img" src="/static/img/elient.png">
+    <img class="month-img" src="/media/img/elient.png">
     {{ cb.add_recurring() }}
     {{ cb.day(1, "Skeemo Sting") }}
 </div>  
@@ -83,6 +83,6 @@ cb = CalendarBuilder(
 <a href="https://natural20.co.uk/wp-content/uploads/2019/06/calendar_natural20.pdf">Full Calendar PDF</a>
 
 <script type="module">
-    import {init_links} from "/js/common/visual_aid_backend.js";
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

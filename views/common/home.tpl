@@ -14,7 +14,7 @@
 <span id="status-text" hidden><em>Already up to date!</em></span>
 
 <script type="module">
-    import { ajax_call } from "/js/common/utils.js";
+    import { ajax_call } from "/static/js/common/utils.js";
 
     function load_changes() {
         ajax_call("/load_changes", handle_load)

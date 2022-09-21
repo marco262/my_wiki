@@ -13,7 +13,7 @@ for m in re.finditer(r"\[(.*?)\]\(\^(.*?)\)", text):
     url = m.group(2)
     if not url.startswith("http"):
         # Check that existing links actually point somewhere
-        if not os.path.isfile("../static/img/visual_aids/" + url):
+        if not os.path.isfile("../media/img/visual_aids/" + url):
             print("Missing file: " + url)
     if url.startswith("http"):
         if not m.group(1).isdigit():
@@ -29,7 +29,7 @@ for m in re.finditer(r"\[(.*?)\]\(\^(.*?)\)", text):
                 extension = content_type.replace("image/", "")
                 if extension == "jpeg":
                     extension = "jpg"
-                filepath = "/static/img/visual_aids/{}.{}".format(name, extension)
+                filepath = "/media/img/visual_aids/{}.{}".format(name, extension)
                 print(filepath)
                 with open(".." + filepath, "wb") as f:
                     f.write(r.content)

@@ -229,6 +229,6 @@ The most common arcane traditions in the multiverse revolve around the schools o
 [[/bibliography]]
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

@@ -1,0 +1,15 @@
+.git/
+.github/
+.idea/
+backup/
+media/
+scripts/
+tests/
+venv/
+
+.dockerignore
+Dockerfile
+config.ini
+player_soundboard_stats.json
+README.md
+server.lock

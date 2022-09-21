@@ -1,8 +1,8 @@
 [[breadcrumb /arr/|A Realm Reborn]]
 
 <script type="module">
-    import {init_links, init_visual_aid} from "/js/common/visual_aid_backend.js";
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_links();
     init_visual_aid();
     init_accordions();
@@ -17,4 +17,4 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
-[Visual Aid Picture Example](^arr/VisualAidPicture.png)  # Pictures go in /static/img/visual_aids/arr
+[Visual Aid Picture Example](^arr/VisualAidPicture.png)  # Pictures go in /media/img/visual_aids/arr

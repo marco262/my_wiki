@@ -5,7 +5,7 @@ import re
 import os
 from glob import glob
 
-os.chdir("../static/audio/curse_of_strahd")
+os.chdir("../media/audio/curse_of_strahd")
 
 
 def human_readable_size(size, decimal_places=2):

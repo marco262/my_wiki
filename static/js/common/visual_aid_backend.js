@@ -58,7 +58,7 @@ function set_visual_aid(event, value) {
     if (action === "visual_aid") {
         let url = array[1];
         if (url && !url.startsWith("http")) {
-            url = "/static/img/visual_aids/" + url;
+            url = "/media/img/visual_aids/" + url;
         }
         let title = array.length >= 3 ? array[2] : "";
         params["url"] = url;
@@ -70,7 +70,7 @@ function set_visual_aid(event, value) {
         if (array.length === 3) {
             let url = array[2];
             if (url && !url.startsWith("http")) {
-                url = "/static/audio/" + url;
+                url = "/media/audio/" + url;
             }
             params["url"] = url;
         }

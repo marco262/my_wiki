@@ -34,7 +34,7 @@ def get_tarokka_card_list():
     if TAROKKA_CARD_LIST is not None:
         return TAROKKA_CARD_LIST
     TAROKKA_CARD_LIST = []
-    for filepath in glob("static/img/tarokka/*"):
+    for filepath in glob("media/img/tarokka/*"):
         filename = os.path.basename(filepath)
         if not filename.endswith(".png"):
             continue

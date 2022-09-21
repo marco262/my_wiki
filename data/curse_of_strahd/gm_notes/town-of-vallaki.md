@@ -1,14 +1,14 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
 
 # References
 
-* [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vallaki.jpg)
+* [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Vallaki.jpg)
 * [Shops of Barovia](https://www.gmbinder.com/share/-LTK3X6AKprD0KM1RLYC)
 * [Town of Vallaki - 5etools](https://5e.tools/adventure.html#cos,6)
 * [Town of Vallaki - Curse of Strahd Reloaded](https://docs.google.com/document/d/12EbCatMMviZfxQy1Ldh9Rk3Rez_J70yI0UJG8gSrnbw/view#)
@@ -30,14 +30,14 @@
   * [Orphanage of St. Andral](^curse_of_strahd/st_andrals_orphanage.jpg)
 * N2. [Blue Water Inn](^curse_of_strahd/blue_water_inn.mp4)
   * [Interior](^curse_of_strahd/blue_water_inn_interior.jpg)
-  * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Blue Water Inn.jpg)
+  * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Blue Water Inn.jpg)
   * [Urwin Martikov](^curse_of_strahd/urwin_martikov.jpg) and [Danika Martikov](^curse_of_strahd/danika_martikov.jpg), owners
   * [Szoldar Szoldarovich](^curse_of_strahd/szoldar_szoldarovich.jpg) and [Yevgeni Krushkin](^curse_of_strahd/yevgeni_krushkin.jpg), wolf hunters
   * [Nikolai and Karl Wachter](^curse_of_strahd/nikolai_and_karl_wachter.jpg), drunkards, sons of [Fiona Wachter](^curse_of_strahd/fiona_wachter.jpg)
   * [Rictavio](^curse_of_strahd/rictavio.jpg), carnival ringmaster from a distant land, actually [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg)
 * N3. [Burgomaster's Mansion](^curse_of_strahd/vallaki_burgomasters_mansion.mp4)
   * [Interior](^curse_of_strahd/vallaki_burgomasters_mansion_interior.jpg)
-  * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vallaki Burgomaster's Mansion.jpg)
+  * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Vallaki Burgomaster's Mansion.jpg)
   * [Baron Vargas Vallakovich](^curse_of_strahd/baron_vargas_vallakovich.jpg)
   * [Lydia Petrovna](^curse_of_strahd/lydia_petrovna.png)
   * [Izek Strazni](^curse_of_strahd/izek_strazni.jpg), the Baron's henchman, Ireena's long-lost brother ([Izek's room](^curse_of_strahd/izeks_room.jpg))
@@ -45,7 +45,7 @@
   * [Udo Lukovich](^curse_of_strahd/udo_lukovich.jpg), prisoner
 * N4. [Wachterhaus](^curse_of_strahd/wachterhaus.mp4)
   * [Interior](^curse_of_strahd/wachterhaus_interior.jpg)
-  * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Wachterhaus.jpg)
+  * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Wachterhaus.jpg)
   * [Fiona Wachter](^curse_of_strahd/fiona_wachter.jpg)
   * [Majesto](^curse_of_strahd/majesto.jpg), Fiona's imp familiar
   * [Nikolai and Karl Wachter](^curse_of_strahd/nikolai_and_karl_wachter.jpg), sons
@@ -57,7 +57,7 @@
   * [Saber Tooth Tiger](^curse_of_strahd/saber_tooth_tiger.jpg) ([stats](https://5e.tools/bestiary.html#saber-toothed%20tiger_mm) but AC 17 from armor it wears)
 * N6. Coffin Maker's Shop
   * [Henrik van der Voort](^curse_of_strahd/henrik_van_der_voort.jpg), owner
-  * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Coffin Maker's Shop.jpg)
+  * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Coffin Maker's Shop.jpg)
   * Six [vampire spawn](^curse_of_strahd/vampire_spawn.jpg) ([stats](https://5e.tools/bestiary.html#vampire%20spawn_mm)) are in the crates in the northern part of area F.
 * N7. [Blinsky Toys](^curse_of_strahd/Blinsky Toys.mp4)
   * Toys [1](^curse_of_strahd/blinsky_toys_1.jpg), [2](^curse_of_strahd/blinsky_toys_2.jpg), [3](^curse_of_strahd/blinsky_toys_3.jpg), [4](^curse_of_strahd/blinsky_toys_4.jpg)
@@ -66,7 +66,7 @@
   * [Wolf's Head Jamboree posters](^curse_of_strahd/wolfs_head_jamboree_poster.jpg) are in the middle of being replaced by [Festival of the Blazing Sun posters](^curse_of_strahd/festival_of_the_blazing_sun_poster.jpg).
   * Later, the posters are replaced by [Festival of the Friendly Neighbor posters](^curse_of_strahd/festival_of_the_friendly_neighbor.png).
 * N9. [Vistani Camp](^curse_of_strahd/vistani_camp.mp4)
-  * [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Vistani Camp.jpg)
+  * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Vistani Camp.jpg)
   * Led by brothers [Luvash](^curse_of_strahd/luvash.jpg) and [Arrigal](^curse_of_strahd/arrigal.png)
   * [Kasimir Velikov](^curse_of_strahd/kasimir_velikov.jpg)
 

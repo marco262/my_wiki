@@ -1,5 +1,5 @@
 <script type="module">
-    import {init_links, init_visual_aid, init_soundboard} from "/js/common/visual_aid_backend.js";
+    import {init_links, init_visual_aid, init_soundboard} from "/static/js/common/visual_aid_backend.js";
     init_links();
     init_visual_aid();
     init_soundboard();

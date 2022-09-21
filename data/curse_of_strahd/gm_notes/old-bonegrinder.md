@@ -1,7 +1,7 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
@@ -15,7 +15,7 @@
   * [Offalia](^curse_of_strahd/offalia.jpg)
   * [Night Hag](^curse_of_strahd/night_hag.jpg) ([stats](https://5e.tools/bestiary.html#night%20hag_mm))
   * [Coven spells](https://docs.google.com/document/d/1riz5-dBzJpwVrqC7wIeIUr-WEK_W2fo972UdaCoiJ1Y/view#heading=h.hk98kydgecmj)
-* [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Old Bonegrinder.jpg)
+* [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Old Bonegrinder.jpg)
 * [Twig Figurine](^curse_of_strahd/twig_figurine.jpg)
 
 When the PCs first arrive at Old Bonegrinder, only [Bella and Offalia](^curse_of_strahd/bella_and_offalia.jpg) are home.

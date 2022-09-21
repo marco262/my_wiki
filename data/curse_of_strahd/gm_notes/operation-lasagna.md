@@ -1,7 +1,7 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
@@ -76,7 +76,7 @@ She's found the [Heart of Sorrow](https://5e.tools/adventure.html#cos,5,k20.%20h
 
 * [5etools - Ruins of Berez](https://5e.tools/adventure.html#cos,11)
 * [Curse of Strahd: Reloaded - Ruins of Berez](https://docs.google.com/document/d/181PaAJTefUhlK-x9EAQDK1Yt70n9eZBXZU6kehKNfX8/view)
-* [DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Berez.jpg)
+* [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Berez.jpg)
 * [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg)
 * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg)
 * [Baba Lysaga](^curse_of_strahd/baba_lysaga.jpg) ([stats](https://5e.tools/bestiary.html#baba%20lysaga_cos))

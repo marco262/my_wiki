@@ -252,6 +252,6 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 [[/bibliography]]
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

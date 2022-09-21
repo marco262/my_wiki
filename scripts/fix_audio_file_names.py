@@ -3,7 +3,7 @@ import re
 import os
 from glob import glob
 
-os.chdir("../static/audio/curse_of_strahd")
+os.chdir("../media/audio/curse_of_strahd")
 
 for filepath in glob("*.mp3"):
     # Replace unallowed characters with spaces

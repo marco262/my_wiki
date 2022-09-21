@@ -371,6 +371,6 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 [[/bibliography]]
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

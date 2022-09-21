@@ -60,8 +60,8 @@
     <div id="error-message" hidden></div>
 </body>
 
-<script id="youtube-script" src="/js/common/youtube.js"></script>
+<script id="youtube-script" src="/static/js/common/youtube.js"></script>
 <script type="module">
-    import { init } from "/js/common/visual_aid.js";
+    import { init } from "/static/js/common/visual_aid.js";
     init();
 </script>

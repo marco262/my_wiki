@@ -105,8 +105,8 @@
 
 
 <script type="module">
-    import { load_json } from "/js/dnd/character-sheet.js";
+    import { load_json } from "/static/js/dnd/character-sheet.js";
     load_json({{! json }});
-    import { init_tabs } from "/js/common/utils.js";
+    import { init_tabs } from "/static/js/common/utils.js";
     init_tabs();
 </script>

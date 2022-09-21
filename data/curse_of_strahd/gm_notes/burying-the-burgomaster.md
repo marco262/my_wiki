@@ -25,6 +25,6 @@ Eventually, he departs as a blood-red mist, his laughter echoing the whole time.
 Once his laughter dies away, there's pounding at the door as [zombies](^curse_of_strahd/strahd_zombie.jpg) [[stats]](Strahd Zombie) try to get in.
 
 <script type="module">
-    import {init_links} from "/js/common/visual_aid_backend.js";
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>

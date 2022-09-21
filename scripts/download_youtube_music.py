@@ -2,7 +2,7 @@ import os
 
 import youtube_dl
 
-os.chdir("../static/audio/curse_of_strahd")
+os.chdir("../media/audio/curse_of_strahd")
 
 ydl_opts = {
     'format': 'bestaudio/best',

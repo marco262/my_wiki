@@ -337,6 +337,6 @@ Across the wilds, rangers come together to form conclaves -- loose associations 
 *Source:* [Unearthed Arcana](http://media.wizards.com/2016/dnd/UA_RevisedRanger.pdf)
 
 <script type="module">
-    import {init_accordions} from "/js/common/utils.js";
+    import {init_accordions} from "/static/js/common/utils.js";
     init_accordions();
 </script>

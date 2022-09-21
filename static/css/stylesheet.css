@@ -2,7 +2,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    background: url(/static/img/vellum-plain-background-repeating.jpg) repeat top center;
+    background: url(/media/img/vellum-plain-background-repeating.jpg) repeat top center;
 }
 
 #content {
@@ -13,7 +13,7 @@ body {
 }
 
 #banner-image {
-    background: url(/static/img/Banner.jpg) top center;
+    background: url(/media/img/Banner.jpg) top center;
     height: 130px;
     padding: 20px;
     position: relative;
@@ -119,7 +119,7 @@ body {
 }
 
 .index-column ul {
-    list-style-image: url("/static/img/bullet.png");
+    list-style-image: url("/media/img/bullet.png");
 }
 
 .index-column p {

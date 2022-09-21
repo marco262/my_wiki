@@ -1,3 +1,4 @@
+import os
 from json import dumps
 from threading import Thread
 from time import ctime
@@ -6,7 +7,7 @@ import bcrypt
 from bottle_websocket import websocket
 from git import Repo
 
-from bottle import static_file, Bottle, view, request, auth_basic
+from bottle import static_file, Bottle, view, request, auth_basic, redirect
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats
 
@@ -16,7 +17,7 @@ PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAU
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
 visual_aid_type = "visual_aid"
-visual_aid_url = "/static/img/visual_aids/curse_of_strahd/gates_dim.jpg"
+visual_aid_url = "/media/img/visual_aids/curse_of_strahd/gates_dim.jpg"
 visual_aid_title = "Welcome to Barovia!"
 visual_aid_version = "1.2.2"
 websocket_list = []
@@ -32,23 +33,23 @@ def init(cfg):
 def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
     def index_help():
-        repo = Repo()
-        last_commit = repo.head.commit
-        commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
-        return md_page("home", "common", build_toc=False, commit_history=commit_history, up_to_date_msg=False,
+        # repo = Repo()
+        # last_commit = repo.head.commit
+        # commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
+        return md_page("home", "common", build_toc=False, commit_history="NULL", up_to_date_msg=False,
                        last_restart=START_TIME)
 
     @app.get("/static/<path:path>", name="static")
     def static(path):
         return static_file(path, root="static")
 
-    @app.get("/js/<path:path>", name="js")
-    def js(path):
-        # # Try to get minified version of JS file first
-        # f = static_file(path + ".min", root="js")
-        # if isinstance(f, HTTPError) and f.status_code == 404:
-        f = static_file(path, root="js")
-        return f
+    @app.get("/media/<path:path>", name="media")
+    def static(path):
+        print(os.getenv("RUNNING_IN_DOCKER"))
+        if os.getenv("RUNNING_IN_DOCKER") == "True":
+            redirect("https://marco262.github.io/my_wiki/media/" + path)
+        else:
+            return static_file(path, root="media")
 
     @app.get("/favicon.ico", name="favicon")
     def favicon():

@@ -88,7 +88,7 @@ body {
 
 /* Style the back side */
 .flip-card-back {
-  background: url("/static/img/tarokka/__Back.png");
+  background: url("/media/img/tarokka/__Back.png");
   background-size: contain;
   font-size: 20vh;
   color: white;
@@ -111,7 +111,7 @@ body {
 
 #info-box {
   font-family: 'PT Sans', sans-serif;
-  background: url(/static/img/vellum-plain-background-repeating.jpg) repeat top center;
+  background: url(/media/img/vellum-plain-background-repeating.jpg) repeat top center;
   box-shadow: 5px 5px 5px black;
   position: fixed;
   left: 70vw;

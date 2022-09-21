@@ -57,7 +57,7 @@
 % end
 
 <script type="module">
-    import {search, on_key_press} from "/js/dnd/search.js";
+    import {search, on_key_press} from "/static/js/dnd/search.js";
     let search_key_box = document.getElementById("search_key");
     search_key_box.focus();
     search_key_box.onkeypress = on_key_press;

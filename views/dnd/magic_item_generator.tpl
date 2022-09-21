@@ -25,6 +25,6 @@
 </div>
 
 <script type="module">
-    import {generate} from "/js/dnd/magic_item_generator.js";
+    import {generate} from "/static/js/dnd/magic_item_generator.js";
     document.getElementById("generate_button").onclick = generate;
 </script>

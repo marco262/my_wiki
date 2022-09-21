@@ -1,7 +1,7 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links } from "/js/common/visual_aid_backend.js";
+    import { init_links } from "/static/js/common/visual_aid_backend.js";
     init_links();
 </script>
 
@@ -11,7 +11,7 @@
  
 # Places
 
-[DM Map](/static/img/visual_aids/curse_of_strahd/DM Map - Krezk.jpg)
+[DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Krezk.jpg)
 
 [Shops of Barovia](https://www.gmbinder.com/share/-LTK3X6AKprD0KM1RLYC)
 
@@ -27,7 +27,7 @@
 
 * [Approaching the Abbey](^curse_of_strahd/abbey_of_saint_markovia_approach.jpeg)
 * [Abbey of St. Markovia](^curse_of_strahd/abbey_of_saint_markovia_1.jpg)
-* DM Map - Abbey of St. Markovia [1st floor](/static/img/visual_aids/curse_of_strahd/DM Map - Abbey of Saint Markovia 1.jpeg), [2nd floor](/static/img/visual_aids/curse_of_strahd/DM Map - Abbey of Saint Markovia 2.jpeg)
+* DM Map - Abbey of St. Markovia [1st floor](/media/img/visual_aids/curse_of_strahd/DM Map - Abbey of Saint Markovia 1.jpeg), [2nd floor](/media/img/visual_aids/curse_of_strahd/DM Map - Abbey of Saint Markovia 2.jpeg)
 
 ### Rooms
 

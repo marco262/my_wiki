@@ -10,7 +10,7 @@
   % end
 </div>
 
-<script src="/js/common/lightgallery.umd.js"></script>
+<script src="/static/js/common/lightgallery.umd.js"></script>
 <script type="text/javascript">
     lightGallery(document.getElementById('lightgallery'));
 </script>
