@@ -9,6 +9,15 @@
 
 * [Yendan's Ship](^pirates/caravel.jpg)
 
+## Audio
+
+[Stop all sounds]($stop|all|none)
+
+* [Carnival Music]($load|music|pirates/Danny Elfman - Carnival Music From 'Dumbo' Audio Only.mp3)
+* [Creepy Carnival Music](https://www.youtube.com/watch?v=Jr9JVhr4R5Q)
+* [Vauthry's Theme](https://www.youtube.com/watch?v=tuUxMZlr_Lk)
+* [Vauthry's Battle Theme](https://www.youtube.com/watch?v=r3fhfL4KUW0)
+
 ## NPCs
 
 * [Gula Vraatsug](^pirates/gula_vraatsug.jpg) (The Gourmand)
@@ -76,6 +85,12 @@
       * Prize: Roll on the trinkets table
   * Rides: Ferris wheel, roller coaster, tunnel of love, big slide, tea cups
   * Food: Ale, grog, lemonade, funnel cakes, cotton candy, corn dogs, fish cakes, roasted rat on a stick
+  * Petting Zoo
+      * [Giant Toad](^pirates/giant_toad.jpg) ([stats](https://5e.tools/bestiary.html#giant%20toad_mm))
+      * [Giant Hyena](^pirates/giant_hyena.jpg) ([stats](https://5e.tools/bestiary.html#giant%20hyena_mm))
+      * [Axe Beak](^pirates/axe_beak.jpg) ([stats](https://5e.tools/bestiary.html#axe%20beak_mm))
+      * [Giant Octopus](^pirates/giant_octopus.jpg) ([stats](https://5e.tools/bestiary.html#giant%20octopus_mm))
+      * [Giant Spider](^pirates/giant_spider.jpg) ([stats](https://5e.tools/bestiary.html#giant%20spider_mm))
 * [Slums](^pirates/pleasure_island_slums1.png)
   * Where the carnies live
 * [The Gourmand's Tower](^pirates/the_gourmands_tower.jpg)

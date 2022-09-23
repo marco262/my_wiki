@@ -7,7 +7,7 @@ Lom Jomson
 
 
 Next session:
- * Plot out Pleasure Island
+
  * Figure a better gambling game (Ship, Captain, Crew)
  * Let Zoya meet other animal forms (Giant Ape) at some point
  * Put money on the crew members. Give Yendan 30+ gp.
