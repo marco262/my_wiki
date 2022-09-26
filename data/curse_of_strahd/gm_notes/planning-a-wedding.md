@@ -23,11 +23,17 @@ Clearly, more investigation is needed. He will encourage Ireena to continue her 
 
 Ireena will insist they Do Things Properly, and go through a whole Courtship with Strahd. Play along with this, encourage the PCs to get involved with planning. Use *Can You Feel The Love Tonight* or *Bella Noche* as background music at some point.
 
-Eventually, Strahd will propose to Ireena, who will give an apparently enthusiastic Yes!
+If Ireena shares with Strahd that she talked to Vampyr, he will at first be furious. But after some thought, he will be excited, as it means he has some extra reason to think the Bride Ceremony will work. 
+
+Eventually, Strahd will propose to Ireena, who will need time to think about it.
+
+## The Bride Ceremony
+
+The Bride Ceremony is a method that Strahd has devised to share his Dark Gift with someone else. It requires a magical ritual where he fills a goblet with his blood, and Ireena must drink it. After she's drunk it, she will take on the same powers as Strahd, including his immortal, vampiric nature.
 
 # Van Richten's Revelation
 
-After the PCs notify Van Richten of the Bride 
+After the PCs notify Van Richten of the Bride Ceremony...
 
 Van Richten's theory is that, because Strahd has made his pact with a Dark Power, it means that the source of his strength can also be a weakness. Dark Powers are the antithesis to all things good, beautiful, and pure. But that means that those things are also the antithesis to the Dark Powers. And in a moment of revelation, Van Richten will reveal his theory that Strahd is trying to kill two birds with one stone: To get Ireena into his unlife, but also loosen the Dark Powers' hold on him with one weapon they can't defend against: Love. (If Marsha starts to come up with this idea, lean into it.)
 
