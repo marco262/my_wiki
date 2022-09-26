@@ -38,51 +38,51 @@
   * Contains rides, carnival food, games (you can only win chintzy prizes), and overpriced mediocre inn rooms
   * All carnival games cost 5sp to play
   * Games:
-    * Arm wrasslin'
-      * Contested Atheltics rolls
-      * Opponent has +5
-      * First to win 3 more contests than the other person wins
-      * Or they can actually arm-wrestle me lol
-      * Prize: Stuffed Monkey
-    * Hit the Bell
-      * Strength check, DC 20
-      * Prize: Stuffed parrot
-    * Toy catapults to knock over tiny castles
-      * Ten ranged attack rolls at disadvantage, AC 10
-      * Need five successes
-      * Prize: Toy knight
-    * Knock over the cans
-      * Ten ranged attack rolls, AC 10
-      * Need six successes, last bottle is always AC 20
-      * Prize: Dried seaweed ball
-    * Staring Contest
-      * Constitution Check, DC 5, first person to fail loses
-      * Prize: Bottle of Eye Drops (actually sea water)
-      * Used to be run by One-Eyed Jacko
-      * Watery-Eyed Willy has taken over while Jacko is gone
-      * He has +2 bonus but disadvantage on his rolls
-      * He's almost out of prizes
-    * Count the Feathers
-      * Perception or Investigation check, DC 20
-      * Prize: Stuffed chicken with its eyes pecked out
-    * Barrel Roll
-      * The PC is rolled down a ramp in a barrel, to be dumped in front of an obstacle course. They must make it across the course first. 
-      * Disadvantage to Acrobatics/Athletics checks, DC 15
-        * Cross a Rope Bridge over an uneven pit
-        * Climb logs of varying heights
-        * Jump across stepping stones
-        * Then run to the finish line.
-      * Prize: Roll on the [Trinkets](/dnd/general/equipment#trinkets) table
-    * Ride the Bull
-      * Athletics check or Constitution saving throw, DC 15
-      * 3 rounds
-      * Good roleplay/Animal Handling check (DC 12) can give advantage
-      * Prize: Stuffed Bull
-    * Tiny Bicycles
-      * Athletics or Acrobatics, DC 10
-      * 4 competitors
-      * First to 5 successes wins
-      * Prize: Roll on the trinkets table
+      * Arm wrasslin'
+          * Contested Athletics rolls
+          * Opponent has +5
+          * First to win 3 more contests than the other person wins
+          * Or they can actually arm-wrestle me lol
+          * Prize: Stuffed Monkey
+      * Hit the Bell
+          * Strength check, DC 20
+          * Prize: Stuffed parrot
+      * Toy catapults to knock over tiny castles
+          * Ten ranged attack rolls at disadvantage, AC 10
+          * Need five successes
+          * Prize: Toy knight
+      * Knock over the cans
+          * Ten ranged attack rolls, AC 10
+          * Need six successes, last bottle is always AC 20
+          * Prize: Dried seaweed ball
+      * Staring Contest
+          * Constitution Check, DC 5, first person to fail loses
+          * Prize: Bottle of Eye Drops (actually seawater)
+          * Used to be run by One-Eyed Jacko
+          * Watery-Eyed Willy has taken over while Jacko is gone
+          * He has +2 bonus but disadvantage on his rolls
+          * He's almost out of prizes
+      * Count the Feathers
+          * Perception or Investigation check, DC 20
+          * Prize: Stuffed chicken with its eyes pecked out
+      * Barrel Roll
+          * The PC is rolled down a ramp in a barrel, to be dumped in front of an obstacle course. They must make it across the course first. 
+          * Disadvantage to Acrobatics/Athletics checks, DC 15
+              * Cross a Rope Bridge over an uneven pit
+              * Climb logs of varying heights
+              * Jump across stepping stones
+              * Then run to the finish line.
+          * Prize: Roll on the [Trinkets](/dnd/general/equipment#trinkets) table
+      * Ride the Bull
+          * Athletics check or Constitution saving throw, DC 15
+          * 3 rounds
+          * Good roleplay/Animal Handling check (DC 12) can give advantage
+          * Prize: Stuffed Bull
+      * Tiny Bicycles
+          * Athletics or Acrobatics, DC 10
+          * 4 competitors
+          * First to 5 successes wins
+          * Prize: Roll on the trinkets table
   * Rides: Ferris wheel, roller coaster, tunnel of love, big slide, tea cups
   * Food: Ale, grog, lemonade, funnel cakes, cotton candy, corn dogs, fish cakes, roasted rat on a stick
   * Petting Zoo
@@ -110,11 +110,11 @@
   * The Tower only wants people who know how to "take the goblet of Life in both hands, and drink until it's drained!" 
   * Gula will put forth a game for the people who want to get in. The five winners will be admitted.
   * Games:
-    * Running of the bulls
-    * Running away from starved bears
-    * Catch the Stirge (have to get a pendant off a stirge)
-    * Swim a lap through monster infested moat
-    * Obstacle course over a minefield
+      * Running of the bulls
+      * Running away from starved bears
+      * Catch the Stirge (have to get a pendant off a stirge)
+      * Swim a lap through monster infested moat
+      * Obstacle course over a minefield
 * Every night, one or more prisoners are forced into The Grand Venue to be The Entertainment. They must do *something* to entertain the audience so they can live. If they're not entertaining enough, the audience will throw things on the stage floor, possibly hurting or killing the prisoner.
   * The audience might also chant for Gula to release one of various beasts into the Venue to chase down and kill the prisoner.
 * The First Mate has recently been captured by another Lieutenant. Gula bought her and is keeping her in his Tower to turn her into the bread, so he can "eat his past".
