@@ -21,8 +21,6 @@ Clearly, more investigation is needed. He will encourage Ireena to continue her 
 
 # The Courtship
 
-*These following sections should be moved to another page. Saving here as basic notes.*
-
 Ireena will insist they Do Things Properly, and go through a whole Courtship with Strahd. Play along with this, encourage the PCs to get involved with planning. Use *Can You Feel The Love Tonight* or *Bella Noche* as background music at some point.
 
 Eventually, Strahd will propose to Ireena, who will give an apparently enthusiastic Yes!
