@@ -13,7 +13,7 @@
 
 # Visual Aids
 
-* Count Strahd von Zarovich [1](^curse_of_strahd/strahd_1.jpg), [2](^curse_of_strahd/strahd_2.jpg), [2](^curse_of_strahd/strahd_2.jpg), [3](^curse_of_strahd/strahd_3.jpg), [4](^curse_of_strahd/strahd_4.jpg), [5](^curse_of_strahd/strahd_5.jpg), [6](^curse_of_strahd/strahd_6.jpg), [7](^curse_of_strahd/strahd_7.jpg), [8](^curse_of_strahd/strahd_8.jpg), [9](^curse_of_strahd/strahd_9.jpg)
+* Count Strahd von Zarovich [1](^curse_of_strahd/strahd_1.jpg), [2](^curse_of_strahd/strahd_2.jpg), [3](^curse_of_strahd/strahd_3.jpg), [4](^curse_of_strahd/strahd_4.jpg), [5](^curse_of_strahd/strahd_5.jpg), [6](^curse_of_strahd/strahd_6.jpg), [7](^curse_of_strahd/strahd_7.jpg), [8](^curse_of_strahd/strahd_8.jpg), [9](^curse_of_strahd/strahd_9.jpg)
 * [Rahadin](^curse_of_strahd/Rahadin.png) ([stats](https://5e.tools/bestiary.html#rahadin_cos))
 * [Sasha Ivliskova](^curse_of_strahd/sasha_ivliskova.png) ([stats](https://5e.tools/bestiary.html#vampire%20spawn_mm))
 * [Ludmilla Vilisevic](^curse_of_strahd/ludmilla_vilisevic.jpg) ([stats](https://i.imgur.com/2wAjyLe.png))
