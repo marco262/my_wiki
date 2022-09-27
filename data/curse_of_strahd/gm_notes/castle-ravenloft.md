@@ -11,6 +11,20 @@
 * [Castle Ravenloft - 5etools](https://5e.tools/adventure.html#cos,5)
 * [Castle Ravenloft - Curse of Strahd Reloaded](https://docs.google.com/document/d/1VCgr1LuGW3-tEx_8p-3osWze2pEn6zc-pN9hofkXtcw/view)
 
+# Visual Aids
+
+* Count Strahd von Zarovich [1](^curse_of_strahd/strahd_1.jpg), [2](^curse_of_strahd/strahd_2.jpg), [2](^curse_of_strahd/strahd_2.jpg), [3](^curse_of_strahd/strahd_3.jpg), [4](^curse_of_strahd/strahd_4.jpg), [5](^curse_of_strahd/strahd_5.jpg), [6](^curse_of_strahd/strahd_6.jpg), [7](^curse_of_strahd/strahd_7.jpg), [8](^curse_of_strahd/strahd_8.jpg), [9](^curse_of_strahd/strahd_9.jpg)
+* [Rahadin](^curse_of_strahd/Rahadin.png) ([stats](https://5e.tools/bestiary.html#rahadin_cos))
+* [Sasha Ivliskova](^curse_of_strahd/sasha_ivliskova.png) ([stats](https://5e.tools/bestiary.html#vampire%20spawn_mm))
+* [Ludmilla Vilisevic](^curse_of_strahd/ludmilla_vilisevic.jpg) ([stats](https://i.imgur.com/2wAjyLe.png))
+* [Anastrasya](^curse_of_strahd/anastrasya.jpg) ([stats](https://i.imgur.com/wQ76Gx8.png))
+  * [2](^curse_of_strahd/anastrasya_2.jpg) [3](^curse_of_strahd/anastrasya_3.jpg) [4](^curse_of_strahd/anastrasya_rude.jpg) [5](^curse_of_strahd/anastrasya_smile.jpg) [6](^curse_of_strahd/anastrasya_angry.jpg)
+* [Volenta](^curse_of_strahd/volenta.jpg) ([stats](https://i.imgur.com/VPtDgcC.png))
+  * [1](^curse_of_strahd/volenta_mask_off.jpg) [2](^curse_of_strahd/volenta_makeup.png) [3](^curse_of_strahd/volenta_hot.jpg) [4](^curse_of_strahd/volenta_creepy.jpg)
+* [Escher](^curse_of_strahd/escher_1.jpg) ([stats](https://i.imgur.com/yLzaDiO.png))
+  * ***Taunt (2/Day).*** The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
+  * [1](^curse_of_strahd/escher_1.jpg) [2](^curse_of_strahd/escher_2.jpg) [lol](^curse_of_strahd/escher_lol.jpg)
+
 # Places
 
 * [Front Gates](^curse_of_strahd/Castle Ravenloft.mp4), [1](^curse_of_strahd/castle_ravenloft_1.jpg), [2](^curse_of_strahd/castle_ravenloft_2.png), [3](^curse_of_strahd/castle_ravenloft_3.jpg), [4](^curse_of_strahd/castle_ravenloft_4.jpg), [5](^curse_of_strahd/castle_ravenloft_5.jpg), [7](^curse_of_strahd/castle_ravenloft_7.jpg)

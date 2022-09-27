@@ -211,7 +211,7 @@ You have final say in determining which items are for sale and their final price
 || 6 || The seller is murdered before the sale.\* ||
 || 7 || The seller is a devil looking to make a bargain. ||
 || 8 || The item is the key to freeing an evil entity. ||
-|| 9 || A third party bids o n the item, doubling its price.\* ||
+|| 9 || A third party bids on the item, doubling its price.\* ||
 || 10 || The item is an enslaved, intelligent entity. ||
 || 11 || The item is tied to a cult. ||
 || 12 || The party's enemies spread rumors that the item is an artifact of evil.\* ||
