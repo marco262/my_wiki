@@ -258,7 +258,7 @@ def load_wsgi_endpoints(app: Bottle):
         return
 
     @app.post("/equipment/magic_item_generator_results/")
-    def magic_item_generator():
+    def magic_item_generator_results():
         d = {
             "A": ("Minor", "Common"),
             "B": ("Minor", "Uncommon"),
@@ -274,15 +274,13 @@ def load_wsgi_endpoints(app: Bottle):
         if not args:
             return HTTPError(status=406, body=f'No magic item table {request.params["table_name"]}')
         table = get_magic_item_table(*args)
-        items, weights = zip(*table.items())
-        chosen_items = []
+        items_with_weights = list(table.items())
+        _, weights = zip(*items_with_weights)
         spells_by_level = load_spells_by_level()
         output = "\n"
-        while len(chosen_items) < int(request.params["max_items"]):
-            magic_item = random.choices(items, weights=weights, k=1)[0]
-            if request.params["no_duplicates"] == "true" and magic_item in chosen_items:
-                print(f"Already picked {magic_item}")
-                continue
+        for _ in range(int(request.params["max_items"])):
+            magic_item_tuple = random.choices(items_with_weights, weights=weights, k=1)[0]
+            magic_item = magic_item_tuple[0]
             m = re.search(r"(.*) \(.*\)$", magic_item)
             if m:
                 page_name = m.group(1)
@@ -295,9 +293,13 @@ def load_wsgi_endpoints(app: Bottle):
                 level = "cantrip" if m.group(1) == "Cantrip" else m.group(1)[0]
                 _, random_spell = random.choice(spells_by_level[level])
                 output += f" (_[[[spell:{random_spell['title'].lower()}]]]_)"
-                chosen_items.append(f"{magic_item} ({random_spell})")
             else:
-                chosen_items.append(magic_item)
+                # If it's not a spell scroll or tattoo, and we want to avoid duplicates, remove the chosen item from set
+                if request.params["no_duplicates"] == "true":
+                    items_with_weights.remove(magic_item_tuple)
+                    if len(items_with_weights) == 0:
+                        break
+                    _, weights = zip(*items_with_weights)
             output += "\n"
         return MD.parse_md(output, namespace="dnd")
 
