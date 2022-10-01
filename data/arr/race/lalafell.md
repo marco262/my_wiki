@@ -1,49 +1,43 @@
-> _But I will see them suffer no longer. The victory feast shall provide the stage on which I declare the dissoultion of the sultanate. 'Tis mine intent that the ruling class of our golden city should take its place beside the common man in a fair and equitable republic. No more shall this nation bow to the whims of a privileged few._
-> 
-> -Nanamo Ul Namo, Sultana of Ul'Dah
+*Most don't know it, but Ul'dah was once ours &mdash; the Lalafells'. Till the promise of gil brought in all the others, that is. Now I can't talk to half these leeches without looking up. Ruined my bloody neck, it has.*
 
-The Lalafell are generally a cheery race of people. Long ago the Lalafells lived as masters of agriculture and spread across the land along trade routes, selling their produce becoming one of the most widespread races there is. In time the Dunesfolk went as far as establishing their own desert city-state known as Ul'Dah. These tiny folk are highly ambitious and are not afraid to take hold of opportunity when it appears before them.
+&mdash; Neymumu, Ul'dahn Citizen
 
-## Tiny Yet Mighty
+Long ago, the lalafell lived as masters of agriculture and spread across the land along trade routes, selling their produce and becoming one of the most widespread races there is. In time, the Dunesfolk became so wealthy, they established their own desert city-state known as Ul'dah. Though generally cheery, these tiny folk are highly ambitious and are not afraid to take hold of opportunity when it appears before them.
 
-Lalafell anatomy sees these kindly people rarely growing to be 3 feet tall. Their short bodies are rotund, with short feeble looking legs. But appearances can be deceiving as Lalafells bodies are highly efficient, allowing them to travel long distances on their short legs.
+Their singularly business-minded nature can lead to them being perceived as greedy and calculating, but few can find in their hearts to entirely dislike the lalafell, with their inherently bright and jovial nature. As such, examples of lalafell being persecuted by other races are few and far between.
 
-In general, Lalafell lack much sexual dimorphism, and short of males sometimes sporting facial hair, it can be hard to tell at a glance what gender a Lalafell is. Due to this as well as their general bodyshape, some folk may, out of earshot, disparagingly call them 'popotoes,' the Eorzean word for potatoes.
+### Tiny Yet Mighty
+Lalafell anatomy sees these kindly people rarely growing to be 3 feet tall. Their short bodies are rotund, with short feeble looking legs. But appearances can be deceiving, as lalafellin bodies are highly efficient, allowing them to travel long distances on their short legs. 
 
-The Plainsfolk have larger, pointed ears which greatly improved their hearing, while the Dunesfolk developed a film which covers their eyes, protecting them from the sun and sand of the desert. Additionally, out of tradition, Dunesfolk sometimes place gemstones associated with their zodiac sign on their foreheads.
+According to outside races, lalafell lack any sexual dimorphism short of males sometimes sporting facial hair. It can be often hard to tell at a glance what gender a lalafell is, nor even their age. 
 
-[[div class="phb-sidebar"]]
+Due to their general bodyshape (and their agricultural heritage), some crasser folk may — out of earshot, of course — disparagingly call them 'popotoes,' the word for potatoes in the Common tongue.
 
-**Good Relations All Around**
+In regards to the lalafellin subraces themselves, the Plainsfolk have larger, pointed ears with greatly improved hearing, while the Dunesfolk developed a film which covers their eyes, protecting them from the sun and sand of the desert. 
 
-Thanks to their charming demeanors and financial ties across the world, Lalafells are one of the few races who can say it is on good terms with nearly everyone. Most Lalafells are kindly and outgoing, allowing them to seem like the younger sibling of all the races.
+### Products of the Land
+When lalafell set out thousands of years ago from their homeland in the fertile isles of the South Seas, their landing places set the scene for two diverse peoples. The Plainsfolk started off as agriculturalists living their lives on their farms, eventually trading their goods across the land, as well as lalafellin children. The Dunesfolk began and remain as desert-dwelling folk, their bodies adapting to the harsh conditions. It is said that the Dunesfolk have long laced their teas with traces of venom, that they might better survive in a land rife with deadly snakes and scorpions.
 
-[[/div]]
+### Rolling Planes and Towering Dunes
+The lalafell can trace their ancestry back to two key areas. The Plainsfolk began as farmers across the southern seas, farming the fertile lands of their namesake. 
 
-## Products of the Land
+The Dunesfolk were not so lucky to have farmable land and instead turned to animal husbandry. Traditionally Dunesfolk built their homes on the backs of beasts of burden, traveling with their herds. Originally hailing from the fallen city of Mhach, the ancestors of the Dunesfolk sought a new homeland after its fall. Eventually, the Dunesfolk founded Ul'dah, a great city of wealth, where many of their kind live today.
 
-The Lalafellin homelands produced two types of people, from which they take their names. The Plainsfolk started off as agriculturalists living their lives on their farms, eventually trading their goods across the land, leading for lalafells to spread across the world. The Dunesfolk began and remain as desert dwelling folk, their bodies adapting to the harsh conditions.
+### Family and Fortune
+Lalafells care deeply for their small families and would do anything for them. They may set out on an adventure to support their families or in their defense. Not all lalafells have such pure goals though: ambition is rampant within the tiny lalafellin race. Their merchants traverse the most harrowing obstacles, their researchers seek knowledge in the most dangerous places, and their sellswords take on the hairiest tasks. Lalafells may be small, but they take on the world in a *big* way. 
 
-## Rolling Planes and Towering Dunes
+### Lalafell Names
+Lalafellin names are made up of a given name and a ‘courtesy name' bestowed upon reaching adulthood. The latter is not a family name, but rather unique to the individual. Lalafellin names trace their origins to songs and poems in the old tongue, and are ruled by rhyme, rhythm, and repetition.
 
-The Lalafell can trace their ancestry back to two key area. The Plainsfolk began as farmers on fertile lands across the southern seas, farming the fertile lands of their namesake. The Dunesfolk were not so lucky to have farmable land and instead turned to animal husbandry.
+This means that lalafells generally do not have surnames unless they come from royalty, which adds their family name in the middle. Each gender and subrace of lalafell have their own set of naming rules, detailed below. Each letter indicates a syllable or pair of syllables.
 
-Traditionally Dunesfolk built their homes on the backs of beasts of burden, traveling with their herds. Eventually the Dunesfolk founded a great city of wealth, where many Dunesfolk live today.
-
-## Family and Fortune
-
-Lalafells care deeply for their small families and would do anything for them. They may set out on an adventure to support their families or in their defense. Not all Lalafells have such pure goals though as many contain a great deal of ambition in their tiny bodies. Merchants travel all over the land, researchers seeking knowledge in secret places, sellswords bravely take on jobs to prove themselves. Lalafells may be small, but they take on the world in a big way.
-
-## Lalafell Names
-
-Both the Plainsfolk and the Dunesfolk name themselves using set rhyming schemes, ruled by rhythm and repetition. Syllables are combining in various combinations to form playful sounding names. This means that Lalafells generally do not have surnames unless they come from royalty, which adds their family name in the middle. Each gender and subrace of Lalafell have their own rule set detailed below. Each letter indicates a syllable or pair of syllables.
-
-## Lalafell Naming Convention
-||~ Gender and Subrace ||~ Rhyming Scheme ||
-||Male Plainsfolk || AB - CB ||
-||Female Plainsfolk || ABB - AB ||
-||Male Dunesfolk || AAB - CCB ||
-||Female Dunesfolk || AAB - AB ||
+##### Lalafell Naming Convention
+| Gender and Subrace | Rhyming Scheme |
+|:----:|:-------------|
+| Male Plainsfolk  | AB - CB |
+| Female Plainsfolk  | ABB - AB |
+| Male Dunesfolk | AAB - CCB |
+| Female Dunesfolk | AAB - AB |
 
 **Male Plainsfolk Names.** Budadi Yidadi, Egul Sagul, Erelo Forelo, Elehul Pedulehul, Gusis Shisis
 
@@ -53,31 +47,36 @@ Both the Plainsfolk and the Dunesfolk name themselves using set rhyming schemes,
 
 **Female Dunesfolk Names.** Ejaja Eja, Babayi Bayi, Rerega Rega, Chochosha Chosha, Bobochu Bochu, Lelepu Lepu
 
-## Lalafell Traits
+### Lalafell Traits
+Your lalafell character has certain characteristics in common with all other lalafell.
 
-Your Lalafell character has a variety of natural abilities derived from their ancestry.
+**Ability Score Increase.** Your Charisma score increases by 2.
 
-* ***Ability Score Increase.*** Your Charisma score increases by 2.
-* ***Age.*** These smallfolk are able to live just as long as the other races. Lalafells reach physical maturity around the age of 18, and live until their mid eighties.
-* ***Alignment.*** Generally speaking, Lalafells lean towards a good natured alignment, though some shrewd business men may push far away from this approach to life. Neither the Plainsfolk or Dunesfolk have a inclination to law or chaos, with individuals falling into all categories.
-* ***Size.*** Lalafells are a diminutive people who see no difference in height due to gender. Their heights on average range from 2 feet and 8 inches to just over 3 feet. Your size is small.
-* ***Speed.*** Your base walking speed is 25ft.
-* ***Cunning.*** You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
-* ***Lalafellin Nimbleness.*** You can move through the space of any creature that is of a size larger than yours.
-* ***Languages.*** You can speak, read and write Common and one other language.
-* ***Subrace.*** The Lalafell come from two distinct groups of people. Select one of the two subraces of Lalafell.
+**Age.** These smallfolk are able to live just as long as the other races. Lalafells reach physical maturity around the age of 18, and live until their mid-eighties. 
 
-### Plainsfolk
+**Alignment.** Generally speaking, lalafells lean towards a Good-natured alignment, though some shrewder businessmen may venture away from this approach to life. Neither the Plainsfolk or Dunesfolk have a inclination to Law or Chaos, with individuals falling into all categories. 
 
-As a Plainsfolk, you have spent some time working in agriculture, or have had information passed down to you from your family. Your highly sensitive ears and knowledge of farming has led to the development that sets you apart from your fellow Lalafell, the Dunesfolk.
+**Size.** Lalafells are a diminutive people who see no difference in height due to gender. Their heights on average range from 2 fulms and 8 ilms to just over 3 fulms. Your size is small.
 
-**Ability Score Increase.** Your Dexterity score increases by 1.
+**Speed.** Your base walking speed is 25 fulms.
+
+**Cunning.** You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+
+**Lalafellin Nimbleness.** You can move through the space of any creature that is of a size larger than yours.
+
+**Languages.** You can speak, read and write Common and Lalafellin. 
+
+**Subrace.** The lalafell come from two distinct groups of people. Select one of the two subraces of lalafell. 
+
+#### Plainsfolk
+As a Plainsfolk, you have spent some time working in agriculture, or have had information passed down to you from your family. Your highly sensitive ears and knowledge of farming has led to the development that sets you apart from your fellow lalafell, the Dunesfolk.
+
+**Ability Score Increase.** Your Dexterity score increases by 1. 
 
 **Naturally Stealthy.** You can attempt to hide even when when you are obscured only by a creature that is at least one size larger than you.
 
-### Dunesfolk
-
-As a Dunesfolk, you've adapted to the harsh desert environments and thrived. The land from which you hail is known for its riches and merchantry as much as its known for his corruption.
+#### Dunesfolk
+As a Dunesfolk, you've adapted to the harsh desert environments and thrived. The land from which you hail is known for its riches and merchantry as much as its known for his corruption. 
 
 **Ability Score Increase.** Your Intelligence score increases by 1.
 

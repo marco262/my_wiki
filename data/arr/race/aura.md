@@ -67,8 +67,8 @@ Growing up as a part of your nomadic tribe, life on the road has hardened you. A
 
 **Savage Attacks.** When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
 
-##### Xaela Tribes
-An extended list and descriptions of the 51 Xaela Tribes have been provided in Appendix D. TODO
+> ##### Xaela Tribes
+> An extended list and descriptions of the 51 Xaela Tribes have been provided in Appendix D. TODO
 
 #### Raen
 The Raen live in harmony with the other civilized races of the East. They've assimilated fully into Doman culture, becoming valued for their unwavering determination and loyalty to their allies. They are largely looked upon favorably by the other races for their peaceful demeanor and respectable approach to life.
