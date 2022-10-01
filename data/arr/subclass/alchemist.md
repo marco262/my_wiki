@@ -21,11 +21,11 @@ You always have certain spells prepared after you reach particular levels in thi
 **Alchemist Spells**
 
 || Artificer Level ||~ Alchemist Spells ||
-|| 3rd || _[[[spell:healing word]]]_, _[[[spell:ray of sickness]]]_ ||
-|| 5th || _[[[spell:flaming sphere]]]_, _[[[spell:Melf's acid arrow]]]_ ||
-|| 9th || _[[[spell:gaseous form]]]_, _[[[spell:mass healing word]]]_ ||
-|| 13th || _[[[spell:blight]]]_, _[[[spell:death ward]]]_ ||
-|| 17th || _[[[spell:cloudkill]]]_, _[[[spell:raise dead]]]_ ||
+|| 3rd || _[healing word](/dnd/spell/healing word)_, _[ray of sickness](/dnd/spell/ray of sickness)_ ||
+|| 5th || _[flaming sphere](/dnd/spell/flaming sphere)_, _[Melf's acid arrow](/dnd/spell/Melf's acid arrow)_ ||
+|| 9th || _[gaseous form](/dnd/spell/gaseous form)_, _[mass healing word](/dnd/spell/mass healing word)_ ||
+|| 13th || _[blight](/dnd/spell/blight)_, _[death ward](/dnd/spell/death ward)_ ||
+|| 17th || _[cloudkill](/dnd/spell/cloudkill)_, _[raise dead](/dnd/spell/raise dead)_ ||
 
 ## Experimental Elixir
 
@@ -47,7 +47,7 @@ When you reach certain levels in this class, you can make more elixirs at the en
 || 3 || **Resilience.** The drinker gains a +1 bonus to AC for 10 minutes. ||
 || 4 || **Boldness.** The drinker can roll a d4 and add the number rolled to every attack roll and saving throw they make for the next minute. ||
 || 5 || **Flight.** The drinker gains a flying speed of 10 feet for 10 minutes. ||
-|| 6 || **Transformation.** The drinker's body is transformed as if by the _[[[spell:alter self]]]_ spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes. ||
+|| 6 || **Transformation.** The drinker's body is transformed as if by the _[alter self](/dnd/spell/alter self)_ spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes. ||
 
 ## Alchemical Savant
 
@@ -62,7 +62,7 @@ _9th-level Alchemist feature_
 You can incorporate restorative reagents into some of your works:
 
 * Whenever a creature drinks an _experimental elixir_ you created, the creature gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum of 1 temporary hit point).
-* You can cast _[[[spell:lesser restoration]]]_ without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+* You can cast _[lesser restoration](/dnd/spell/lesser restoration)_ without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ## Chemical Mastery
 
@@ -71,7 +71,7 @@ _15th-level Alchemist feature_
 You have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:
 
 * You gain resistance to acid damage and poison damage, and you are immune to the [[[general:conditions#poisoned|poisoned]]] condition.
-* You can cast _[[[spell:greater restoration]]]_ and _[[[spell:heal]]]_ without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.
+* You can cast _[greater restoration](/dnd/spell/greater restoration)_ and _[heal](/dnd/spell/heal)_ without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.
 
 ----
 

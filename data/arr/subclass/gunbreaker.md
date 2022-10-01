@@ -17,11 +17,11 @@ You always have certain spells prepared after you reach particular levels in thi
 **Armorer Spells**
 
 ||~ Artificer Level ||~ Armorer Spells ||
-|| 3rd || _[[[spell:magic missile]]]_, _[[[spell:thunderwave]]]_ ||
-|| 5th || _[[[spell:mirror image]]]_, _[[[spell:shatter]]]_ ||
-|| 9th || _[[[spell:hypnotic pattern]]]_, _[[[spell:lightning bolt]]]_ ||
-|| 13th || _[[[spell:fire shield]]]_, _[[[spell:greater invisibility]]]_ ||
-|| 17th || _[[[spell:passwall]]]_, _[[[spell:wall of force]]]_ ||
+|| 3rd || _[magic missile](/dnd/spell/magic missile)_, _[thunderwave](/dnd/spell/thunderwave)_ ||
+|| 5th || _[mirror image](/dnd/spell/mirror image)_, _[shatter](/dnd/spell/shatter)_ ||
+|| 9th || _[hypnotic pattern](/dnd/spell/hypnotic pattern)_, _[lightning bolt](/dnd/spell/lightning bolt)_ ||
+|| 13th || _[fire shield](/dnd/spell/fire shield)_, _[greater invisibility](/dnd/spell/greater invisibility)_ ||
+|| 17th || _[passwall](/dnd/spell/passwall)_, _[wall of force](/dnd/spell/wall of force)_ ||
 
 ## Arcane Armor
 

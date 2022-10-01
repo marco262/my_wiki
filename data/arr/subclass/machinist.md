@@ -17,11 +17,11 @@ You always have certain spells prepared after you reach particular levels in thi
 **Machinist Spells**
 
 || Artificer Level ||~ Machinist Spells ||
-|| 3rd || _[[[spell:shield]]]_, _[[[spell:thunderwave]]]_ ||
-|| 5th || _[[[spell:scorching ray]]]_, _[[[spell:shatter]]]_ ||
-|| 9th || _[[[spell:fireball]]]_, _[[[spell:wind wall]]]_ ||
-|| 13th || _[[[spell:ice storm]]]_, _[[[spell:wall of fire]]]_ ||
-|| 17th || _[[[spell:cone of cold]]]_, _[[[spell:wall of force]]]_ ||
+|| 3rd || _[shield](/dnd/spell/shield)_, _[thunderwave](/dnd/spell/thunderwave)_ ||
+|| 5th || _[scorching ray](/dnd/spell/scorching ray)_, _[shatter](/dnd/spell/shatter)_ ||
+|| 9th || _[fireball](/dnd/spell/fireball)_, _[wind wall](/dnd/spell/wind wall)_ ||
+|| 13th || _[ice storm](/dnd/spell/ice storm)_, _[wall of fire](/dnd/spell/wall of fire)_ ||
+|| 17th || _[cone of cold](/dnd/spell/cone of cold)_, _[wall of force](/dnd/spell/wall of force)_ ||
 
 ## Eldritch Cannon
 
