@@ -46,6 +46,7 @@ Notes
 * [Ezmerelda d'Avenir](^curse_of_strahd/ezmerelda_2.jpg) ([stats](https://5e.tools/bestiary.html#ezmerelda%20d'avenir_cos))
 * [Rudolph van Richten](^curse_of_strahd/rudolph_van_richten.jpg) ([stats](https://5e.tools/bestiary.html#rictavio_cos))
 * [Lord Jared](^lord_jared.jpg) / [Uncle David](^uncle_david.jpg)
+* [Ismark Kolyanovich](^curse_of_strahd/ismark.jpg) ([stats](https://5e.tools/bestiary.html#ismark%20kolyanovich_cos))
 
 ## Journal
 

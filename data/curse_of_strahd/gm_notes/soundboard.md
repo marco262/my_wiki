@@ -19,7 +19,7 @@
 <button id="custom_effect_button">Effect</button> 
 <button id="custom_youtube_button">Youtube</button> 
 
-[Visual aid](/dragon_heist/visual_aid)
+[Visual aid](/visual_aid)
 
 ## Music
 
