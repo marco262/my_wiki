@@ -39,15 +39,15 @@ Your Aether Turret is a magical ranged weapon that you are proficient with. It d
 
 The Aether Turret's damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6).
 
-## Aetheric Link
+## Dialysis
 
 _3rd-level Combat Medic feature_
 
-You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Aetheric Link. This link lasts until you give it to another creature, or you finish a long rest.
+You have learned to achieve an arcane connection with an ally, which lets you channel aether to them during combat to help keep them invigorated and fighting ready. As an action, you choose a willing creature you can see to give them your Dialysis. This link lasts until you give it to another creature, or you finish a long rest.
 
-Whenever you deal damage with your Aether Turret, the creature with your Aetheric Link gains a number of temporary hit points equal to the damage you dealt.
+Whenever you deal damage with your Aether Turret, the creature with your Dialysis gains a number of temporary hit points equal to the damage you dealt.
 
-## Aetheric Burst
+## Shielding Tesseract
 
 _5th-level Combat Medic feature_
 
@@ -57,7 +57,7 @@ When you cast an artificer spell of 1st level or higher, you may choose a number
 
 _9th-level Combat Medic feature_
 
-When the creature with your Aetheric Link loses all temporary hit points they have due to taking damage, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
+When the creature with your Dialysis loses all temporary hit points they have due to taking damage, you gain an Aetheric Charge. You may only ever have one Aetheric Charge at a time, and it dissipates when you finish a short or long rest.
 
 You have two options for how to expend your Aetheric Charge:
 
