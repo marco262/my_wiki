@@ -130,31 +130,33 @@ class MarkdownParser:
                             if isinstance(v, str) and v.startswith("!"):
                                 v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
                             args[k] = v
-                    elif v.startswith("!!!"):
-                        # Parse all text between the !!! and the next !!! as one block of markdown
-                        # First gather the entire block into one string
-                        full_value = v[3:] + "\n"
-                        while True:
-                            index += 1
-                            row = rows[index]
-                            if row.endswith("!!!"):
-                                full_value += row[:-3]
-                                break
-                            full_value += row + "\n"
-                        # Parse that whole string as markdown
-                        v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
-                    elif v.startswith("!"):
-                        # Parse a single line as markdown
-                        v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
                     elif k == "glob":
                         # Use the value as a glob pattern match, search for all files at that location
                         # and return all found files as glob_file_list in arguments
                         # Useful for lightgallery
                         cwd = os.getcwd()
                         full_glob = os.path.join(os.getcwd(), v.strip())
-                        print(full_glob)
                         args["glob_file_list"] = [path.replace(cwd, "").replace("\\", "/")
                                                   for path in glob.glob(full_glob)]
+                    elif v.startswith("!!!"):
+                        # Parse all text between the !!! and the next !!! as one block of markdown
+                        # First gather the entire block into one string
+                        full_value = v[3:] + "\n"
+                        while index < len(rows):
+                            index += 1
+                            row = rows[index]
+                            if row.endswith("!!!"):
+                                full_value += row[:-3]
+                                break
+                            full_value += row + "\n"
+                        else:
+                            raise ValueError(f"Ran out of data while looking for closing !!! "
+                                             f"(template_name={template_name}, key={k})")
+                        # Parse that whole string as markdown
+                        v = self.parse_md(full_value.strip(" \n"), namespace=self.namespace)
+                    elif v.startswith("!"):
+                        # Parse a single line as markdown
+                        v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace)
                     args[k] = v
                     index += 1
 

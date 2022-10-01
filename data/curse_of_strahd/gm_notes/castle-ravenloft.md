@@ -128,6 +128,10 @@
 
 ## Dungeon and Catacombs
 
-* [1](^curse_of_strahd/Ravenloft Catacombs.mp4)
-* [1](^curse_of_strahd/Tomb.mp4)
-* [1](^curse_of_strahd/Strahds Tomb.mp4), [2](^curse_of_strahd/Strahds Tomb - Gate Up.mp4)
+* K84. Catacombs
+  * [Visual Aid](^curse_of_strahd/Ravenloft Catacombs.mp4)
+* K88. Tomb of King Barov and Queen Ravenovia
+  * [Visual Aid](^curse_of_strahd/Tomb.mp4)
+* K86. Strahd's Tomb
+  * [Gate Down](^curse_of_strahd/Strahds Tomb.mp4), [Gate Up](^curse_of_strahd/Strahds Tomb - Gate Up.mp4)
+  * [Coffin Closed](^curse_of_strahd/strahds_coffin.jpg), [Coffin Open](^curse_of_strahd/strahds_coffin_open.jpg)

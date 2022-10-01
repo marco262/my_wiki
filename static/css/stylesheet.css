@@ -427,7 +427,7 @@ blockquote {
 
 .visual-aid-hover {
     visibility: hidden;
-    max-height: 300px;
+    /*max-height: 300px;*/
     max-width: 300px;
     background-color: black;
     padding: 5px 3px;
@@ -497,4 +497,6 @@ div.theme-restricted {
 .light_gallery_thumbnail > img {
     max-width: 10rem;
     max-height: 10rem;
+    background-color: rgba(2, 2, 2, 0.2);
+    padding: 0.2em;
 }

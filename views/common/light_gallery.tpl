@@ -1,4 +1,3 @@
-
 <!-- https://github.com/sachinchoolur/lightGallery -->
 <link rel="stylesheet" href="/static/css/lightgallery-bundle.min.css">
 
