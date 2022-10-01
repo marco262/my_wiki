@@ -77,24 +77,24 @@ Be sure to read through all of your options before settling on your character fo
 # Races
 | Race                                        |   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA   |
 |:--------------------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| [Au Ra (Xaela)](race/aura)                  |   +1    | &mdash; | &mdash; | &mdash; |   +2    | &mdash; |
-| [Au Ra (Raen)](race/aura)                   | &mdash; | &mdash; | &mdash; | &mdash; |   +2    |   +1    |
-| [Elezen (Wildwood)](race/elezen)            | &mdash; |   +1    | &mdash; | &mdash; |   +2    | &mdash; |
-| [Elezen (Duskwight)](race/elezen)           | &mdash; | &mdash; |   +1    | &mdash; |   +2    | &mdash; |
-| [Elezen (Ishgardian)](race/elezen)          |   +1    | &mdash; | &mdash; | &mdash; |   +2    | &mdash; |
-| [Garlean](race/garlean)                     | &mdash; | &mdash; |   +1    |   +2    | &mdash; | &mdash; |
-| [Hrothgar (Helion)](race/hrothgar)          |   +2    | &mdash; | &mdash; | &mdash; |   +1    | &mdash; |
-| [Hrothgar (The Lost)](race/hrothgar)        |   +2    | &mdash; | &mdash; |   +1    | &mdash; | &mdash; |
+| [Au Ra (Xaela)](race/aura)                  |   +1    | -- | -- | -- |   +2    | -- |
+| [Au Ra (Raen)](race/aura)                   | -- | -- | -- | -- |   +2    |   +1    |
+| [Elezen (Wildwood)](race/elezen)            | -- |   +1    | -- | -- |   +2    | -- |
+| [Elezen (Duskwight)](race/elezen)           | -- | -- |   +1    | -- |   +2    | -- |
+| [Elezen (Ishgardian)](race/elezen)          |   +1    | -- | -- | -- |   +2    | -- |
+| [Garlean](race/garlean)                     | -- | -- |   +1    |   +2    | -- | -- |
+| [Hrothgar (Helion)](race/hrothgar)          |   +2    | -- | -- | -- |   +1    | -- |
+| [Hrothgar (The Lost)](race/hrothgar)        |   +2    | -- | -- |   +1    | -- | -- |
 | [Hyur (Midlander)](race/hyur)               |    *    |    *    |    *    |    *    |    *    |   +1    |
 | [Hyur (Highlander)](race/hyur)              |    *    |    *    |   +1    |    *    |    *    |    *    |
-| [Lalafell (Plainsfolk)](race/lalafell)      | &mdash; |   +1    | &mdash; | &mdash; | &mdash; |   +2    |
-| [Lalafell (Dunesfolk)](race/lalafell)       | &mdash; | &mdash; | &mdash; |   +1    | &mdash; |   +2    |
-| [Miqo'te (Seeker of the Sun)](race/miqote)  | &mdash; |   +2    | &mdash; | &mdash; | &mdash; |   +1    |
-| [Miqo'te (Keeper of the Moon)](race/miqote) | &mdash; |   +2    |   +1    | &mdash; | &mdash; | &mdash; |
-| [Roegadyn (Sea Wolf)](race/roegadyn)        |   +2    | &mdash; | &mdash; | &mdash; | &mdash; |   +1    |
-| [Roegadyn (Hellguard)](race/roegadyn)       |   +2    | &mdash; |   +1    | &mdash; | &mdash; | &mdash; |
-| [Viera (Rava)](race/viera)                  | &mdash; |   +2    | &mdash; | &mdash; |   +1    | &mdash; |
-| [Viera (Veena)](race/viera)                 | &mdash; |   +2    | &mdash; |   +1    | &mdash; | &mdash; |
+| [Lalafell (Plainsfolk)](race/lalafell)      | -- |   +1    | -- | -- | -- |   +2    |
+| [Lalafell (Dunesfolk)](race/lalafell)       | -- | -- | -- |   +1    | -- |   +2    |
+| [Miqo'te (Seeker of the Sun)](race/miqote)  | -- |   +2    | -- | -- | -- |   +1    |
+| [Miqo'te (Keeper of the Moon)](race/miqote) | -- |   +2    |   +1    | -- | -- | -- |
+| [Roegadyn (Sea Wolf)](race/roegadyn)        |   +2    | -- | -- | -- | -- |   +1    |
+| [Roegadyn (Hellguard)](race/roegadyn)       |   +2    | -- |   +1    | -- | -- | -- |
+| [Viera (Rava)](race/viera)                  | -- |   +2    | -- | -- |   +1    | -- |
+| [Viera (Veena)](race/viera)                 | -- |   +2    | -- |   +1    | -- | -- |
 
 * Hyurs get +1 to 3 ability scores of their choice as well.
 
@@ -129,7 +129,8 @@ Be sure to read through all of your options before settling on your character fo
 | [Maelstrom Officer](background/maelstrom-officer) (Yellowjacket)   | An officer in Limsa Lominsa's vast military.  | Athletics, Intimidation, one type of gaming set, vehicles (land) | Military Rank (Watcher) | 
 | [Sharlayan Scholar](background/sharlayan-scholar) (Archon)         | A scholar seeking to apply their thesis to the greater world. | Investigation, Arcana or Nature or History or Religion, One language, one set of artisan's tools or one musical instrument | Library Access (Sage's Mark) |
 
-# Hydaelyn
+# Hydaelyn 
+*(All files in this section are not considered reliable yet. WIP!)
 * [Historical Timeline](general/timeline)
 * [The World](general/world)
 * [Beast Tribes & Primals](general/beast-tribes)
