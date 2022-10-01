@@ -28,4 +28,8 @@
         <br>
     </article>
 </div>
+<script type="module">
+    import {init_accordions} from "/static/js/common/utils.js";
+    init_accordions();
+</script>
 </body>
