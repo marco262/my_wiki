@@ -229,14 +229,14 @@ Text block
 Text--more text -- Yes
 
 +-----------+
-| -- Yugiri |
+-- Yugiri
 +-----------+
 """
         expected = """
 Text&mdash;more text &mdash; Yes
 
 +-----------+
-| &mdash; Yugiri |
+&mdash; Yugiri
 +-----------+
 """
         self.assertEqual(expected, md.fancy_text(text))
