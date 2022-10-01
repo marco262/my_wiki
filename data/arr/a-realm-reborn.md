@@ -5,7 +5,7 @@
 
 [[accordion What is A Realm Reborn?]]
 
-> ##### Five years ago, the lesser moon Dalamud exploded.
+> # Five years ago, the lesser moon Dalamud exploded.
 > An extended war raged between your country of Eorzea and the Garlean Empire which has conquered half the globe. The Garleans sought to stamp out the menace of Primals: the Beastman tribes' summoned gods. And though Eorzea wished to do the same, Eorzea and Garlemald differed vastly on which means are justified to do so. 
 <br><br>
 At the climax of the war, the Empire enacted its wild plan to pull the lesser moon Dalamud down from the sky as a giant meteor, and rid the world of the Primal threat altogether.
@@ -75,26 +75,26 @@ Be sure to read through all of your options before settling on your character fo
 [[/accordion]]
 
 # Races
-| Race                      | Subrace | STR | DEX | CON | INT | WIS | CHA |
-|:--------------------------|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| [Au Ra](race/aura)        | Xaela | +1 | &mdash; | &mdash; | &mdash; | +2 | &mdash; |
-| [Au Ra](race/aura)        | Raen | &mdash; | &mdash; | &mdash; | &mdash; | +2 | +1 |
-| [Elezen](race/elezen)     | Wildwood | &mdash; | +1 | &mdash; | &mdash; | +2 | &mdash; |
-| [Elezen](race/elezen)     | Duskwight | &mdash; | &mdash; | +1 | &mdash; | +2 | &mdash; |
-| [Elezen](race/elezen)     | Ishgardian | +1 | &mdash; | &mdash; | &mdash; | +2 | &mdash; |
-| [Garlean](race/garlean)   | &mdash; | &mdash; | &mdash; | +1 | +2 | &mdash; | &mdash; |
-| [Hrothgar](race/hrothgar) | Helion | +2 | &mdash; | &mdash; | &mdash; | +1 | &mdash; |
-| [Hrothgar](race/hrothgar) | The Lost | +2 | &mdash; | &mdash; | +1 | &mdash; | &mdash; |
-| [Hyur](race/hyur)         | Midlanders | * | * | * | * | * | +1 |
-| [Hyur](race/hyur)         | Highlanders | * | * | +1 | * | * | * |
-| [Lalafell](race/lalafell) | Plainsfolk | &mdash; | +1 | &mdash; | &mdash; | &mdash; | +2 |
-| [Lalafell](race/lalafell) | Dunesfolk | &mdash; | &mdash; | &mdash; | +1 | &mdash; | +2 |
-| [Miqo'te](race/miqote)    | Seeker of the Sun | &mdash; | +2 | &mdash; | &mdash; | &mdash; | +1 |
-| [Miqo'te](race/miqote)    | Keeper of the Moon | &mdash; | +2 | +1 | &mdash; | &mdash; | &mdash; |
-| [Roegadyn](race/roegadyn) | Sea Wolf | +2 | &mdash; | &mdash; | &mdash; | &mdash; | +1 |
-| [Roegadyn](race/roegadyn) | Hellsguard | +2 | &mdash; | +1 | &mdash; | &mdash; | &mdash; |
-| [Viera](race/viera)       | Rava  | &mdash; | +2 | &mdash; | &mdash; | +1 | &mdash; |
-| [Viera](race/viera)       | Veena | &mdash; | +2 | &mdash; | +1 | &mdash; | &mdash; |
+| Race                                        |   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA   |
+|:--------------------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| [Au Ra (Xaela)](race/aura)                  |   +1    | &mdash; | &mdash; | &mdash; |   +2    | &mdash; |
+| [Au Ra (Raen)](race/aura)                   | &mdash; | &mdash; | &mdash; | &mdash; |   +2    |   +1    |
+| [Elezen (Wildwood)](race/elezen)            | &mdash; |   +1    | &mdash; | &mdash; |   +2    | &mdash; |
+| [Elezen (Duskwight)](race/elezen)           | &mdash; | &mdash; |   +1    | &mdash; |   +2    | &mdash; |
+| [Elezen (Ishgardian)](race/elezen)          |   +1    | &mdash; | &mdash; | &mdash; |   +2    | &mdash; |
+| [Garlean](race/garlean)                     | &mdash; | &mdash; |   +1    |   +2    | &mdash; | &mdash; |
+| [Hrothgar (Helion)](race/hrothgar)          |   +2    | &mdash; | &mdash; | &mdash; |   +1    | &mdash; |
+| [Hrothgar (The Lost)](race/hrothgar)        |   +2    | &mdash; | &mdash; |   +1    | &mdash; | &mdash; |
+| [Hyur (Midlander)](race/hyur)               |    *    |    *    |    *    |    *    |    *    |   +1    |
+| [Hyur (Highlander)](race/hyur)              |    *    |    *    |   +1    |    *    |    *    |    *    |
+| [Lalafell (Plainsfolk)](race/lalafell)      | &mdash; |   +1    | &mdash; | &mdash; | &mdash; |   +2    |
+| [Lalafell (Dunesfolk)](race/lalafell)       | &mdash; | &mdash; | &mdash; |   +1    | &mdash; |   +2    |
+| [Miqo'te (Seeker of the Sun)](race/miqote)  | &mdash; |   +2    | &mdash; | &mdash; | &mdash; |   +1    |
+| [Miqo'te (Keeper of the Moon)](race/miqote) | &mdash; |   +2    |   +1    | &mdash; | &mdash; | &mdash; |
+| [Roegadyn (Sea Wolf)](race/roegadyn)        |   +2    | &mdash; | &mdash; | &mdash; | &mdash; |   +1    |
+| [Roegadyn (Hellguard)](race/roegadyn)       |   +2    | &mdash; |   +1    | &mdash; | &mdash; | &mdash; |
+| [Viera (Rava)](race/viera)                  | &mdash; |   +2    | &mdash; | &mdash; |   +1    | &mdash; |
+| [Viera (Veena)](race/viera)                 | &mdash; |   +2    | &mdash; |   +1    | &mdash; | &mdash; |
 
 * Hyurs get +1 to 3 ability scores of their choice as well.
 

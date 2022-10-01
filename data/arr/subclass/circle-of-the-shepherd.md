@@ -1,6 +1,8 @@
-[[breadcrumb /dnd/class/Druid|Druid]]
+[[breadcrumb /arr/class/Druid|Druid]]
 
-Shepherds are also colloquially called summoners in Eorzea. These druids are often deeply academic, using their knowledge of mathematics and arcanum to summon forth spiritual allies to aid them. The most typical summons are the Carbuncle, aetherial beings summoned forth and given form from a gemstone.
+Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey.
+
+Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds. Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.
 
 # Circle of the Shepherd
 
@@ -26,11 +28,11 @@ The spirit persists for 1 minute. Once you use this feature, you can't use it ag
 
 The effect of the spirit's aura depends on the type of spirit you summon from the options below.
 
-***Bear Spirit.*** The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura.
+***Topaz Carbuncle.*** The topaz carbuncle grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura.
 
-***Hawk Spirit.*** The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have advantage on Wisdom (Perception) checks while in the aura.
+***Ruby Carbuncle.*** The ruby carbuncle is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have advantage on Wisdom (Perception) checks while in the aura.
 
-***Unicorn Spirit.*** The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level.
+***Emerald Carbuncle.*** The emerald carbuncle lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level.
 
 ## Mighty Summoner
 
