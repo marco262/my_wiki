@@ -51,6 +51,7 @@ class MarkdownParser:
         text = self.build_bibliography(text)
         text = self.convert_gm_notes_inserts(text)
         text = self.generate_npc_blocks(text)
+        text = self.fancy_text(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -257,6 +258,11 @@ class MarkdownParser:
                 npc[section] = self.parse_md("\n\n".join(npc[section])) if npc[section] else ""
             t = template("dnd/npc-sheet.tpl", **npc)
             text = text.replace(m.group(0), t)
+        return text
+
+    @staticmethod
+    def fancy_text(text):
+        text = re.sub(r"(?<!-)--(?!-)", "&mdash;", text)
         return text
 
 

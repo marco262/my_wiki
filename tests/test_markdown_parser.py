@@ -222,3 +222,21 @@ Text block
             reactions="", attack=3, damage="9 (2d6 + 2)", save_dc=13, num_attacks=2, width="400px", untrained="+1",
             proficient="+3", expertise="+5"
         )
+
+    def test_fancy_text(self):
+        md = MarkdownParser()
+        text = """
+Text--more text -- Yes
+
++-----------+
+| -- Yugiri |
++-----------+
+"""
+        expected = """
+Text&mdash;more text &mdash; Yes
+
++-----------+
+| &mdash; Yugiri |
++-----------+
+"""
+        self.assertEqual(expected, md.fancy_text(text))
