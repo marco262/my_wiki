@@ -52,8 +52,3 @@ At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage
 ----
 
 *Source: Player's Handbook, p. 63*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

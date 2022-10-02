@@ -58,8 +58,3 @@ At 17th level, you can seize a trace of vitality from a parting soul and use it 
 ----
 
 *Source: Xanathar's Guide to Everything, p. 19*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

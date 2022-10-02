@@ -58,8 +58,3 @@ Once you use this feature, you can't use it again until you finish a short or lo
 ----
 
 *Source: Player's Handbook, p. 59*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

@@ -213,8 +213,3 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 ----
 
 *Source: Player's Handbook, p. 46*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

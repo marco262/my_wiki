@@ -1,9 +1,7 @@
 <script type="module">
     import { init_links, init_soundboard } from "/static/js/common/visual_aid_backend.js";
-    import { init_accordions } from "/static/js/common/utils.js";
     init_links();
     init_soundboard();
-    init_accordions();
 </script>
 
 || All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||

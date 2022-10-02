@@ -2,10 +2,8 @@
 
 <script type="module">
     import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";
-    import {init_accordions} from "/static/js/common/utils.js";
     init_links();
     init_visual_aid();
-    init_accordions();
 </script>
 
 ## Encounters

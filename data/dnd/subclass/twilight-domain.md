@@ -95,8 +95,3 @@ The twilight that you summon offers a protective embrace: you and your allies ha
 ----
 
 *Source: Tasha's Cauldron of Everything, p. 34*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

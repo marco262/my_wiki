@@ -1,8 +1,3 @@
-<script type="module">
-    import { init_accordions } from "/static/js/common/utils.js";
-    init_accordions();
-</script>
-
 # Campaign Synopsis
 
 > Set beyond the Skyshear Mountains, the Sunset Isles are a wonderland of beautiful islands, rich in resources and adventure. The people living there carved out little nooks of civilization, spreading to the different islands and setting down roots. Over time, each settlement developed its own culture and identity, distinct from the others but ultimately harmonious. The mainland towns and the islands shared their trade, letting the people in this area prosper. 

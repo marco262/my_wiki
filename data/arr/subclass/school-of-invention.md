@@ -152,8 +152,3 @@ At 14th level, your ability to improvise magic grows stronger. Whenever you roll
 ----
 
 *Source:* <https://media.wizards.com/2018/dnd/downloads/UA-3Subclasses0108.pdf>
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

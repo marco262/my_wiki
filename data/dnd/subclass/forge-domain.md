@@ -64,8 +64,3 @@ At 17th level, your blessed affinity with fire and metal becomes more powerful:
 ----
 
 *Source: Xanathar's Guide to Everything, p. 18*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

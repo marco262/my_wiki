@@ -64,8 +64,3 @@ At 17th level, you have a flying speed equal to your current walking speed whene
 ----
 
 *Source: Player's Handbook, p. 62*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

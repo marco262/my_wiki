@@ -369,8 +369,3 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

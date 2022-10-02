@@ -742,9 +742,3 @@ When all else fails, an adventurer can turn to an honest trade to earn a living.
 *Might involve a rival
 
 [[/accordion]]
-
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

@@ -589,8 +589,3 @@ You can cast _[[[spell:animate dead]]]_ without using a spell slot. Once you do 
 ----
 
 *Source: Player's Handbook, p. 105*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

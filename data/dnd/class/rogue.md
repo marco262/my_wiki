@@ -173,8 +173,3 @@ Rogues have many features in common, including their emphasis on perfecting thei
 ----
 
 *Source: Player's Handbook, p. 94*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

@@ -54,8 +54,3 @@ Starting at 17th level, you can use your action to activate an aura of sunlight 
 ----
 
 *Source: Player's Handbook, p. 60*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

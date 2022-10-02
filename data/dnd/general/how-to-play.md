@@ -67,8 +67,3 @@ A GM can use the Reaction Rule whenever a character has a moment to respond to s
 ----
 
 _Source: Player's Handbook, p. 6_
-
-<script type="module">
-    import { init_accordions } from "/static/js/common/utils.js";
-    init_accordions();
-</script>

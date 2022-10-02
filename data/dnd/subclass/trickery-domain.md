@@ -52,8 +52,3 @@ At 17th level, you can create up to four duplicates of yourself, instead of one,
 ----
 
 *Source: Player's Handbook, p. 62*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

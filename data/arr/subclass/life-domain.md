@@ -54,8 +54,3 @@ Starting at 17th level, when you would normally roll one or more dice to restore
 ----
 
 *Source: Player's Handbook, p. 60*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

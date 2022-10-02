@@ -249,8 +249,3 @@ At a local scale, druids are organized into circles that share certain perspecti
 [[bibliography]]
 : errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
 [[/bibliography]]
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

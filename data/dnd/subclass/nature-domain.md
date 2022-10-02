@@ -52,8 +52,3 @@ At 17th level, you gain the ability to command animals and plant creatures. Whil
 ----
 
 *Source: Player's Handbook, p. 61*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

@@ -107,8 +107,3 @@ But that is a story for another time. This story has more humble beginnings. We 
 </table>
 
 [GM Notes](/dragon_heist/gm_notes/GM Notes)
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>

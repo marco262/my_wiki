@@ -272,8 +272,3 @@ Different sorcerers claim different origins for their innate magic. Although man
 ----
 
 *Source: Player's Handbook, p. 99*
-
-<script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
-    init_accordions();
-</script>
