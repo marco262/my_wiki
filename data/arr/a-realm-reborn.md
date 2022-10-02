@@ -3,23 +3,21 @@
     init_links();
 </script>
 
-[[accordion What is A Realm Reborn?]]
+# Five years ago, the lesser moon Dalamud exploded.
+An extended war raged between your country of Eorzea and the Garlean Empire which has conquered half the globe. The Garleans sought to stamp out the menace of Primals: the Beastman tribes' summoned gods. And though Eorzea wished to do the same, Eorzea and Garlemald differed vastly on which means are justified to do so. 
 
-> # Five years ago, the lesser moon Dalamud exploded.
-> An extended war raged between your country of Eorzea and the Garlean Empire which has conquered half the globe. The Garleans sought to stamp out the menace of Primals: the Beastman tribes' summoned gods. And though Eorzea wished to do the same, Eorzea and Garlemald differed vastly on which means are justified to do so. 
-<br><br>
 At the climax of the war, the Empire enacted its wild plan to pull the lesser moon Dalamud down from the sky as a giant meteor, and rid the world of the Primal threat altogether.
-<br><br>
+
 However, it turns out that Dalamud was no moon: it was a prison for the elder Primal, Bahamut. Bahamut decimated both sides. The Garleans fled, and destruction rained down upon Eorzea. It was only by the daring actions of Archon Louisoix Leveilleur that the people of Eorzea were saved: with a massive spell, Louisoix bound Bahamut to a new prison and teleported Eorzea's people forward in time.
-<br><br>
+
 That was the **Calamity of the Seventh Umbral Era**, and Eorzeans have felt the ripples ever since. 
-<br><br>
+
 **You are three 2nd-level adventurers.** You have newly turned to the adventuring life, and are currently on a boat on your way to the formerly piratical marine city-state, Limsa Lominsa. You have appointments to meet with **Baderon Tenfingers**, the proprietor of Limsa Lominsa's Adventurers' Guild.
-<br><br>
+
 But there are rumblings that the Primal threat is resurfacing across the land…
-<br><br>
+
 … a strange cult others call the Paragons have started making moves in the shadows …
-<br><br>
+
 … and the Garlean Empire has begun to stir once more …
 
 # In this campaign, expect...
@@ -32,69 +30,32 @@ But there are rumblings that the Primal threat is resurfacing across the land…
 - ...The clash of magic versus technology, imperial conquerors versus scrappy city-states!
 - ...A game more storyline than sandbox, but your choices and decisions still matter!
 
-## Who are you, sprouts?
-
-You might be a **Hyur**, a human-like race. Of those, perhaps you are a Midlander, a race found all over the world, adaptable to the max. Or, perhaps you are a Highlander, a race primarily from Ala Mhigo, a city-state that was conquered by the Garlean Empire.
-
------
-
-You might be an **Elezen**, a tall, elf-like race. The Wildwood live in the Twelveswood, and are fiercely protective of their forest. Perhaps you are a Duskwight, making your way in a world that views you with suspicion. Or perhaps you hail from Ishgard, the staunchly religious and fiercely regimented city-state isolated in northern Eorzea.
-
------
-
-You might be a **Roegadyn**, a goliath-like race who hail from mountain and sea. You may be a Sea Wolf pirate from Limsa Lominsa, or perhaps a Hellsguard from a distant volcano.
-
------
-
-You might be a **Lalafell**, an adorable halfling-like race known for being full of ambition, greed, and good cheer. You might be a Dunesfolk hailing from the desert land of Thanalan, making your way amongst the refugees in Ul'dah. Or perhaps you are a Plainsfolk who took up farming in Limsa Lominsa, and you're scratching out every gil you can manage.
-
------
-
-You might be a **Miqo'te**, a cat-like race of humanoids. Perhaps you're a nomadic Seeker of the Sun who crosses the deserts looking for treasure. Or maybe you're a Keeper of the Moon in the Twelveswood, trying to carve a life for yourself from the woods. 
-
------
-
-You might be **Garlean**, a human-like race with a talent for magitek but no capacity for magic. You defected from the Empire and perhaps you are looking to enact change from the other side, disguised as an Eorzean. Or perhaps you just want to get away from Garlemald and see Eorzea's beauty.
-
------
-
-You might be an **Au Ra**, a draconic humanoid race. Perhaps you've left your native home of the Azim Steppes as a Xaela, looking to explore the world or prove your might in battle. Or maybe you're one of the Raen, and your people integrated into Eorzea long ago, and you wish to wake up from your sleepy life with a new thrill.
-
------
-
-You might be a **Hrothgar**, a powerful lion-like bestial race that is steeped in tradition and wanderlust both. You might be a Helion, set adrift after the loss of your queen, or you might be a Lost, thirsting for the freedom that adventure grants you.
-
------
-
-You might be a **Viera**, an elusive rabbit-like humanoid that lived in secret seclusion. Perhaps your strict roles started to chafe, and you adventure for freedom. Or maybe your home was destroyed and you're trying to find your way in an unfamiliar world.
-
 ## Get Ready!
 The classes have been rewritten for flavor, and the number of available subclasses reduced. In addition, there are all new backgrounds and a fresh "This Is Your Life" section to suit the campaign.
 
 Be sure to read through all of your options before settling on your character for... **A Realm Reborn**!
-[[/accordion]]
 
 # Races
-| Race                                        |   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA   |
-|:--------------------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| [Au Ra (Xaela)](race/aura)                  |   +1    | -- | -- | -- |   +2    | -- |
-| [Au Ra (Raen)](race/aura)                   | -- | -- | -- | -- |   +2    |   +1    |
-| [Elezen (Wildwood)](race/elezen)            | -- |   +1    | -- | -- |   +2    | -- |
-| [Elezen (Duskwight)](race/elezen)           | -- | -- |   +1    | -- |   +2    | -- |
-| [Elezen (Ishgardian)](race/elezen)          |   +1    | -- | -- | -- |   +2    | -- |
-| [Garlean](race/garlean)                     | -- | -- |   +1    |   +2    | -- | -- |
-| [Hrothgar (Helion)](race/hrothgar)          |   +2    | -- | -- | -- |   +1    | -- |
-| [Hrothgar (The Lost)](race/hrothgar)        |   +2    | -- | -- |   +1    | -- | -- |
-| [Hyur (Midlander)](race/hyur)               |    *    |    *    |    *    |    *    |    *    |   +1    |
-| [Hyur (Highlander)](race/hyur)              |    *    |    *    |   +1    |    *    |    *    |    *    |
-| [Lalafell (Plainsfolk)](race/lalafell)      | -- |   +1    | -- | -- | -- |   +2    |
-| [Lalafell (Dunesfolk)](race/lalafell)       | -- | -- | -- |   +1    | -- |   +2    |
-| [Miqo'te (Seeker of the Sun)](race/miqote)  | -- |   +2    | -- | -- | -- |   +1    |
-| [Miqo'te (Keeper of the Moon)](race/miqote) | -- |   +2    |   +1    | -- | -- | -- |
-| [Roegadyn (Sea Wolf)](race/roegadyn)        |   +2    | -- | -- | -- | -- |   +1    |
-| [Roegadyn (Hellguard)](race/roegadyn)       |   +2    | -- |   +1    | -- | -- | -- |
-| [Viera (Rava)](race/viera)                  | -- |   +2    | -- | -- |   +1    | -- |
-| [Viera (Veena)](race/viera)                 | -- |   +2    | -- |   +1    | -- | -- |
+| Race                                        | STR | DEX | CON | INT | WIS | CHA  | Features                                                               |
+|:--------------------------------------------|:---:|:---:|:---:|:---:|:---:|:----:|:-----------------------------------------------------------------------|
+| [Au Ra (Xaela)](race/aura)                  | +1  | --  | --  | --  | +2  |  --  | Tribal Trance, Scaled Toughness, Primal Battleshout, Savage Attacks    |
+| [Au Ra (Raen)](race/aura)                   | --  | --  | --  | --  | +2  |  +1  | Tribal Trance, Scaled Toughness, Polite Society, Unwavering Loyalty    |
+| [Elezen (Wildwood)](race/elezen)            | --  | +1  | --  | --  | +2  |  --  | Superb Awareness, Fleet of Foot, Natural Hunter                        |
+| [Elezen (Duskwight)](race/elezen)           | --  | --  | +1  | --  | +2  |  --  | Superb Awareness, Cave Dweller, Darkvision                             |
+| [Elezen (Ishgardian)](race/elezen)          | +1  | --  | --  | --  | +2  | --   | Superb Awareness, Conscription, Halone's Scriptures                    |
+| [Garlean](race/garlean)                     | --  | --  | +1  | +2  | --  |  --  | Imperial Education, Marksmanship, Legacy of Engineering, Conscription  |
+| [Hrothgar (Helion)](race/hrothgar)          | +2  | --  | --  | --  | +1  |  --  | Powerful Build, Claws, Keen Smell, Lionhearted, Aggressive             |
+| [Hrothgar (The Lost)](race/hrothgar)        | +2  | --  | --  | +1  | --  |  --  | Powerful Build, Claws, Keen Smell, Contractor's Life, Unbending        |
+| [Hyur (Midlander)](race/hyur)               |  *  |  *  |  *  |  *  |  *  |  +1  | Spread of Culture, Versatility, Variable Education                     |
+| [Hyur (Highlander)](race/hyur)              |  *  |  *  | +1  |  *  |  *  |  *   | Spread of Culture, Versatility, Naturally Honed Body                   |
+| [Lalafell (Plainsfolk)](race/lalafell)      | --  | +1  | --  | --  | --  |  +2  | Cunning, Lalafellin Nimbleness, Naturally Stealthy                     |
+| [Lalafell (Dunesfolk)](race/lalafell)       | --  | --  | --  | +1  | --  |  +2  | Cunning, Lalafellin Nimbleness, Dustshield, Land of Merchants          |
+| [Miqo'te (Seeker of the Sun)](race/miqote)  | --  | +2  | --  | --  | --  |  +1  | Darkvision, Feline Agility, Natural Athleticism, Graceful Speed        |
+| [Miqo'te (Keeper of the Moon)](race/miqote) | --  | +2  | +1  | --  | --  |  --  | Darkvision, Feline Agility, Woodcraft, Tenacity                        |
+| [Roegadyn (Sea Wolf)](race/roegadyn)        | +2  | --  | --  | --  | --  |  +1  | Brave, Powerful Build, Knowing the Ropes, Toughness                    |
+| [Roegadyn (Hellguard)](race/roegadyn)       | +2  | --  | +1  | --  | --  |  --  | Brave, Powerful Build, Magical Knowledge, Spiritual Guardian           |
+| [Viera (Rava)](race/viera)                  | --  | +2  | --  | --  | +1  |  --  | Lapine Hop, Lucky, Mask of the Wild, Woodland Adept, Powerful Presence |
+| [Viera (Veena)](race/viera)                 | --  | +2  | --  | +1  | --  |  --  | Lapine Hop, Lucky, Mask of the Wild, Woodland Adept, Approachable      |
 
 * Hyurs get +1 to 3 ability scores of their choice as well.
 
@@ -130,7 +91,8 @@ Be sure to read through all of your options before settling on your character fo
 | [Sharlayan Scholar](background/sharlayan-scholar) (Archon)         | A scholar seeking to apply their thesis to the greater world. | Investigation, Arcana or Nature or History or Religion, One language, one set of artisan's tools or one musical instrument | Library Access (Sage's Mark) |
 
 # Hydaelyn 
-*(All files in this section are not considered reliable yet. WIP!)
+*(All files in this section are out of date. See the PDF/book for correct versions for now!)*
+
 * [Historical Timeline](general/timeline)
 * [The World](general/world)
 * [Beast Tribes & Primals](general/beast-tribes)
