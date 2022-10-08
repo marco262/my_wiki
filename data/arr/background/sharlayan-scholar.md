@@ -4,19 +4,19 @@ Old Sharlayan is a city-state located far to the northwest across the Bloodbrine
 
 After many years of study, you are one of the nation's many alumni, ready to venture across the seas and apply your knowledge for the betterment of all! Or, perhaps, to serve your own agenda.
 
-- **Skill Proficiency:** Investigation, plus one more from your choice below
+- **Skill Proficiency:** Perception, plus one more from your choice below
 - **Language:** One of your choice.
 - **Tool Proficiencies:** One set of artisans' tools or one musical instrument of your choice.
 - **Equipment:** A set of work clothes or fine clothes, a thick book containing your years of accumulated knowledge, an ink and quill set, and a purse containing 5 gp.
 
 ### Academic Major 
 
-| d4 | Study Major | Proficiency |
-|:----:|:-----------|:---|
-|  1  | Aetherology | Arcana |
-|  2  | Anthropology | Nature |
-|  3  | Mythology | History |
-|  4  | Theology | Religion |
+| d4 | Study Major | Proficiency        |
+|:----:|:-----------|:-------------------|
+|  1  | Aetherology | Arcana             |
+|  2  | Anthropology | Knowledge (Place)  |
+|  3  | Mythology | Lore               |
+|  4  | Theology | Religion           |
 
 ### Feature: Library Access
 Sharlayan may be quite a trip away, but you still have friends and colleagues in Sharlayan who are happy to help you. You can send letters or even call your buddies over your linkpearl to ask questions whose answers can be found in the Noumenon: Sharlayan's great library. However, the restricted section remains beyond your grasp, as it contains repositories of lore that are too valuable, magical, or secret to permit just anyone immediate access.

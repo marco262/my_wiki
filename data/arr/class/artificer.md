@@ -70,7 +70,7 @@ If your group uses the optional rule on multiclassing in the Player's Handbook, 
 * Weapons: Simple weapons, firearms
 * Tools: Thieves' tools, tinker's tools, one type of artisan's tools of your choice
 * Saving Throws: Constitution, Intelligence
-* Skills: Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand
+* Skills: Choose two from Arcana, History, Lore, Medicine, Perception, Stealth
 
 The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in the _Dungeon Master's Guide_ and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.
 

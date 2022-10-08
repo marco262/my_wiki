@@ -2,7 +2,7 @@
 An archaeologist learns about the rich tapestry of Eorzea's past by studying the remains of her many fallen civilizations – their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of Hydaelyn to root through ancient technological ruins from Allag or more arcane civilizations like the ancient cities of Mhach and Amdapor, digging in search of artifacts that might tell the truer, deeper stories of the calamities.
 
 ___
-- **Skill Proficiencies:** History, Survival
+- **Skill Proficiencies:** Lore or Knowledge (Place), Survival
 - **Tool Proficiencies:** Cartographer's tools or navigator's tools
 - **Languages:** One of your choice
 - **Equipment:** A wooden case containing a map to a ruin or dungeon, a bullseye lantern, a miner's pick, a set of traveler's clothes, a shovel, a two-person tent, a trinket recovered from a dig site, and a pouch containing 25gp.

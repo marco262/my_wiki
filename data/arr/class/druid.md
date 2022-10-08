@@ -64,7 +64,7 @@ As a druid, you gain the following class features.
 * Weapons: Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
 * Tools: Herbalism kit
 * Saving Throws: Intelligence, Wisdom
-* Skills: Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival
+* Skills: Choose two from Animal Handling, Arcana, Knowledge (Place), Lore, Medicine, Perception, Religion, and Survival
 
 ## Equipment
 

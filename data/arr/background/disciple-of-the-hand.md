@@ -1,7 +1,7 @@
 ## Disciple of the Hand
 You are a member of the intranational artisans' guild, the Disciples of the Hand. You are skilled in a particular field, closely associated with other artisans, and well-established in the mercantile world. You learned your skills as an apprentice to a master artisan under the sponsorship of the Hand, and you can't wait until you can become a master in your own right. For now, you are a journeyman, and you are expected to, well, *journey*, and learn more skills from other craftsmen around Eorzea.
 
-* **Skill Proficiencies:** Insight, Persuasion
+* **Skill Proficiencies:** Perception, Speechcraft
 * **Tool Proficiencies:** One type of artisan's tools
 * **Languages:** One of your choice
 * **Equipment:** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 15 gp.

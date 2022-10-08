@@ -6,7 +6,7 @@ You seldom saw your celebrity-adventurer parent, and when they were around, it w
 In the end, all you have to show for your lineage is your name. Most of the family's money was spent on consumables, from potions of healing and spell scrolls to copious amounts of dwarven ale. And everyone expects you to swing a sword or sling spells like your famous forebear, making it doubly hard for you to prove yourself.
 
 ___
-- **Skill Proficiences:** Perception, Performance
+- **Skill Proficiences:** Perception, Speechcraft
 - **Tool Proficiencies:** Disguise kit
 - **Languages:** Two of your choice
 - **Equipment:** A disguise kit, a set of fine clothes, and a belt pouch containing 30 gp.

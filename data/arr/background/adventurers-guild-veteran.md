@@ -7,7 +7,7 @@ Your local adventurer's guild proprietor is **Baderon Tenfingers** at the Drowni
 He knows you, if not by reputation then at least by sight. You're in his good graces...or not his bad ones.
 
 ___
-- **Skill Proficiencies:** Persuasion, and choose one from Athletics, Acrobatics, or Arcana
+- **Skill Proficiencies:** Speechcraft, and choose one from Athletics or Arcana
 - **Tool Proficiencies:** Two of your choice
 - **Languages:** One common language of your choice
 - **Equipment:** A set of traveler's clothes, stamped leveplates from past levequests, letters of appreciation, a sigil of the guild's crest, and a pouch containing 10 gp.

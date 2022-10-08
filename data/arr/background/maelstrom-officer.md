@@ -1,7 +1,7 @@
 ## Maelstrom Officer
 War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, and learned basic survival techniques, including how to stay alive on the battlefield. You were a part of Limsa Lominsa's Maelstrom, a regiment of the Knights of the Barracuda, who serve under the Admiral and protect the land of Vylbrand and, when called upon, the entire nation of Eorzea with the other two Grand Companies. You've fought Imperials, witnessed the Calamity, and bled for your nation, and in return, you've earned a rank in the Company you're proud of.
 
-- **Skill Proficiencies:** Athletics, Intimidation
+- **Skill Proficiencies:** Athletics, Speechcraft
 - **Tool Proficiencies:** One type of gaming set, vehicles (land)
 - **Equipment:** An insignia of rank, a trophy taken from a fallen enemy (a dagger, a Sahagin tooth, a broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a belt pouch containing 10 gp
 

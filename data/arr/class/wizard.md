@@ -78,7 +78,7 @@ As a wizard, you gain the following class features.
 * Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
 * Tools: None
 * Saving Throws: Intelligence, Wisdom
-* Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+* Skills: Choose two from Arcana, Knowledge (Place), Lore, Medicine, Perception, and Religion
 
 ## Equipment
 

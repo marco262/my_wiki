@@ -1,7 +1,7 @@
 ## Investigator
 You relentlessly seek the truth. Perhaps you're motivated by &nbsp;&nbsp;&nbsp;belief in the law and a sense of universal justice, or maybe &nbsp;&nbsp;&nbsp;that very law has failed you and you seek to make things &nbsp;&nbsp;&nbsp;&nbsp;right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you're a detective for hire, uncovering secrets for well-paying clients. Whether the mysteries you're embroiled in are local crimes or realm-spanning conspiracies, you're driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows.
 
-- **Skill Proficiencies:** Choose two from among Insight, Investigation, or Perception
+- **Skill Proficiencies:** Choose two from among Lore, Perception, or Speechcraft
 - **Tool Proficiencies:** Disguise kit, thieves' tools
 - **Equipment:** A magnifying glass, evidence from a past case (choose one or roll for a trinket from the Horror Trinkets table) a set of common clothes, and 10gp.
 

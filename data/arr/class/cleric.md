@@ -65,7 +65,7 @@ As a cleric, you gain the following class features.
 * Weapons: All simple weapons
 * Tools: None
 * Saving Throws: Wisdom, Charisma
-* Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion
+* Skills: Choose two from Lore, Medicine, Persuasion, Perception, and Religion
 
 ## Equipment
 
