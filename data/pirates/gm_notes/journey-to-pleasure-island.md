@@ -5,7 +5,7 @@
     init_links();
 </script>
 
-* [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg) ([[npc cr=1|race=Halfling|role=Boss|armor_class=+1|hp=x3|weapon=Flintlock Pistol]])
+* [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg) ([[npc cr=1|race=Halfling|role=Yendan|armor_class=+1|hp=x3|weapon=Flintlock Pistol]])
   * Wearing a +1 Mithral Chain Shirt (14 + Dex (max 2), light armor)
   * Snazzy hat
 * [Friday, First Mate Half-Orc](^pirates/half_orc_pirate2.png) ([[npc cr=1/2|race=Half-orc|role=Healer]])

@@ -242,6 +242,15 @@ races = {
             "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
         ]
     },
+    "Moogle": {
+        "atk_cr": -1,
+        "speed": "0 ft., fly 40 ft.",
+        "actions": [
+            "***Invisibility.*** The moogle magically turns invisible until it attacks, casts a spell, "
+            "or until its concentration is broken, up to 1 hour (as if concentrating on a spell). "
+            "Any equipment the moogle wears or carries is invisible with it."
+        ]
+    }
 }
 die_types = {
     "d2": 1.5,
@@ -260,20 +269,20 @@ roles = {
         "def_cr": -1,
         "num_attacks": 1,
         "actions": [
-            "***Close Range AoE (recharge 1-2).*** 15-foot cone. {double_damage} damage "
+            "***Close Range AoE (roll 1-2).*** 15-foot cone. {double_damage} damage "
             "(save for half, Dex DC {save_dc}).",
-            "***Long Range AoE (recharge 3).*** 30-foot range, 10-foot radius sphere. {triple_damage} damage "
+            "***Long Range AoE (roll 3).*** 30-foot range, 10-foot radius sphere. {triple_damage} damage "
             "(save for half, Dex DC {save_dc})."
         ]
     },
     "Healer": {
         "bonus_actions": [
-            "***Quick Heal (recharge 1).*** Heal 1 ally within 30 feet for {damage}.",
+            "***Quick Heal (roll 1).*** Heal 1 ally within 30 feet for {damage}.",
         ],
         "actions": [
-            "***Mass Heal (recharge 2).*** Heal all allies within 30 feet for {damage}.",
-            "***Remove Condition (recharge 3).*** Removes 1 condition from ally within 30 feet.",
-            # "***Inflict Condition (recharge 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
+            "***Mass Heal (roll 2).*** Heal all allies within 30 feet for {damage}.",
+            "***Remove Condition (roll 3).*** Removes 1 condition from ally within 30 feet.",
+            # "***Inflict Condition (roll 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
             # "Poisoned, or Prone) to enemy within 30 feet. DC {save_dc} Wisdom save to negate.",
         ]
     },
@@ -287,7 +296,7 @@ roles = {
     },
     "Soldier": {
         "actions": [
-            "***Reposition (recharge 4-6).*** Make an attack, and shove an enemy 10 feet (4), pull 10 feet (5), "
+            "***Reposition (roll 4-6).*** Make an attack, and shove an enemy 10 feet (4), pull 10 feet (5), "
             "or shift 5 feet (6). DC {save_dc} Str save to resist."
         ]
     },
@@ -296,7 +305,15 @@ roles = {
             "***Evasion.*** Half damage on a failed Dex save, no damage on a success.",
         ]
     },
-    "Boss": {
+    "Bard": {
+        "bonus_actions": [
+            "***Inspire Courage***. The bard gives an ally advantage on their next attack roll."
+        ],
+        "reactions": [
+            "***Inspire Heroism***. When an ally would make a saving throw, the bard gives them advantage."
+        ]
+    },
+    "Yendan": {
         "special_abilities": [
             "***All Hands On Deck!*** On initiative count 20, after the first round, 2-4 pirates emerge from below "
             "decks, or swing in from the rigging.",
@@ -307,6 +324,20 @@ roles = {
         "reactions": [
             "***Eek!*** When an enemy would hit Yendan with an attack, he swaps places with an adjacent pirate, "
             "causing them to take the hit instead. He can then move up to his speed."
+        ]
+    },
+    "Mama Moogle": {
+        "special_abilities": [
+            "***Fly My Pretties!*** On initiative count 20, after the first round, 1d4-1 (minimum 1) "
+            "moogle minions appear.",
+        ],
+        "bonus_actions": [
+            "***Kick Them In The Kupo!*** Mama Moogle commands a moogle she can see to make a basic attack.",
+        ],
+        "reactions": [
+            "***Eek!*** When an enemy would hit Mama Moogle with an attack, they have to make a "
+            "Wisdom saving throw (DC 12) or be forced to give up their attack, as they are awestruck by Mama's "
+            "magnificence."
         ]
     },
 }
