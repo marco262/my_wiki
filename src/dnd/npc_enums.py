@@ -242,6 +242,9 @@ races = {
             "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
         ]
     },
+    "Elezen": {
+        "speed": "35 ft.",
+    },
     "Moogle": {
         "atk_cr": -1,
         "speed": "0 ft., fly 40 ft.",
@@ -282,8 +285,8 @@ roles = {
         "actions": [
             "***Mass Heal (roll 2).*** Heal all allies within 30 feet for {damage}.",
             "***Remove Condition (roll 3).*** Removes 1 condition from ally within 30 feet.",
-            # "***Inflict Condition (roll 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
-            # "Poisoned, or Prone) to enemy within 30 feet. DC {save_dc} Wisdom save to negate.",
+            "***Inflict Condition (roll 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
+            "Poisoned, or Prone) to enemy within 30 feet. DC {save_dc} Wisdom save to negate.",
         ]
     },
     "Tank": {
@@ -328,15 +331,15 @@ roles = {
     },
     "Mama Moogle": {
         "special_abilities": [
-            "***Fly My Pretties!*** On initiative count 20, after the first round, 1d4-1 (minimum 1) "
+            "***Fly My Pretties!*** On initiative count 20, after the first round, 1d4 - 1 (minimum 1) "
             "moogle minions appear.",
         ],
         "bonus_actions": [
-            "***Kick Them In The Kupo!*** Mama Moogle commands a moogle she can see to make a basic attack.",
+            "***Kick Them In The Kupo!*** Mama Moogle commands a moogle she can see to make a weapon attack.",
         ],
         "reactions": [
             "***Eek!*** When an enemy would hit Mama Moogle with an attack, they have to make a "
-            "Wisdom saving throw (DC 12) or be forced to give up their attack, as they are awestruck by Mama's "
+            "Wisdom saving throw (DC {save_dc}) or be forced to give up their attack, as they are awestruck by Mama's "
             "magnificence."
         ]
     },

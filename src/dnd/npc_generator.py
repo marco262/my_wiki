@@ -1,6 +1,5 @@
 import sys
-from random import randint
-from typing import Any, Union, List
+from typing import Any, Union, List, Optional
 
 from src.dnd.npc_enums import cr_list, races, roles, die_types, total_damage_dict
 
@@ -33,7 +32,7 @@ def set_options(hp="average", damage="average"):
     g_dmg = damage
 
 
-def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwargs):
+def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type="", dmg_option: str=None, **kwargs):
     """
     Meant to be used with encounter calculators like https://kastark.co.uk/rpgs/encounter-calculator-5th/
     """
@@ -44,9 +43,10 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
     # Allow "hp" as a valid kwarg
     if "hp" in kwargs:
         kwargs["hit_points"] = kwargs["hp"]
-    cr_values = get_cr_values(cr)
-    atk_dict = get_attack(cr, race, role)
-    def_dict = get_defense(cr, race, role)
+    normalized_cr = get_normalized_cr(cr, level)
+    cr_values = get_cr_values(normalized_cr)
+    atk_dict = get_attack(normalized_cr, race, role)
+    def_dict = get_defense(normalized_cr, race, role)
     damage = get_dmg_value(atk_dict["total_damage"], dmg_option, atk_dict["num_attacks"], damage_die_type)
     double_damage = get_dmg_value(atk_dict["total_damage"] * 2, dmg_option, 1, "")
     triple_damage = get_dmg_value(atk_dict["total_damage"] * 3, dmg_option, 1, "")
@@ -73,6 +73,7 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
     )
     return {
         "cr": cr,
+        "level": level,
         "race": race,
         "role": role,
         "speed": adjust(get_speed(races[race]), kwargs.get("speed")),
@@ -100,30 +101,31 @@ def create_npc(cr, race="", role="", damage_die_type="", dmg_option=None, **kwar
     #                     f"{e}")
 
 
-def get_cr_values(cr):
+def get_cr_values(normalized_cr: int):
     """
     Using equations from http://blogofholding.com/?p=7338
     """
-    cr = get_adjusted_cr(cr)
-    total_damage = total_damage_dict.get(cr, 5 * (cr + 1))
-    s = 2 + cr // 4
-    good_save = 4 + cr // 2
+    total_damage = total_damage_dict.get(normalized_cr, 5 * (normalized_cr + 1))
+    s = 2 + normalized_cr // 4
+    good_save = 4 + normalized_cr // 2
     return {
         "stat_bonus": s,
         "prof_bonus": good_save - s,
-        "ac": 13 + cr // 3,
+        "ac": 13 + normalized_cr // 3,
         "hp": total_damage * 3,
-        "attack": 4 + cr // 2,
+        "attack": 4 + normalized_cr // 2,
         "total_damage": total_damage,
-        "save_dc": 11 + cr // 2,
-        "num_attacks": (cr - 1) // 5 + 2
+        "save_dc": 11 + normalized_cr // 2,
+        "num_attacks": (normalized_cr - 1) // 5 + 2
     }
 
 
-def get_adjusted_cr(cr):
+def get_normalized_cr(cr: Optional[str], level: str = None) -> int:
     """
     Adjusts "0", "1/8", "1/4", and "1/2" to -3, -2, -1, and 0 respectively
     """
+    if level is not None:
+        return int(level) - 3
     c = ("0", "1/8", "1/4", "1/2")
     if str(cr) in c:
         return c.index(str(cr)) - 3
@@ -136,15 +138,15 @@ def get_speed(d):
     return "30 ft."
 
 
-def get_attack(cr, race, role):
+def get_attack(cr: int, race: str, role: str):
     return get_adjusted_cr_values(cr, race, role, "atk_cr", ["num_attacks"])
 
 
-def get_defense(cr, race, role):
+def get_defense(cr: int, race: str, role: str):
     return get_adjusted_cr_values(cr, race, role, "def_cr", ["ac"])
 
 
-def get_adjusted_cr_values(cr, race, role, key: str, extra_keys: List[str] = None) -> dict:
+def get_adjusted_cr_values(cr: int, race: str, role: str, key: str, extra_keys: List[str] = None) -> dict:
     cr = adjust_cr(cr, races[race].get(key, 0))
     cr = adjust_cr(cr, roles[role].get(key, 0))
     cr_values = get_cr_values(cr)
@@ -154,13 +156,16 @@ def get_adjusted_cr_values(cr, race, role, key: str, extra_keys: List[str] = Non
             cr_values[extra_key] = adjust(cr_values[extra_key], roles[role].get(extra_key))
     return cr_values
 
-def adjust_cr(cr, adjustment):
+
+def adjust_cr(cr: int, adjustment: int) -> int:
     if adjustment == 0:
         return cr
-    index = cr_list.index(str(cr))
-    index += adjustment
-    index = min(max(index, 0), len(cr_list) - 1)
-    return cr_list[index]
+    # index = cr_list.index(str(cr))
+    # index += adjustment
+    # index = min(max(index, 0), len(cr_list) - 1)
+    # return cr_list[index]
+    cr += adjustment
+    return min(max(cr, -3), 30)
 
 
 # def get_hp_value(values, hp_option):
@@ -274,27 +279,31 @@ def assertEqual(actual, expected):
 
 
 if __name__ == "__main__":
-    assertEqual(adjust_cr("0", 1),  "1/8")
-    assertEqual(adjust_cr("0", 2),  "1/4")
-    assertEqual(adjust_cr("0", 3),  "1/2")
-    assertEqual(adjust_cr("0", 4),  "1")
-    assertEqual(adjust_cr("0", 5),  "2")
-    assertEqual(adjust_cr("29", 5),  "30")
-    assertEqual(adjust_cr("2", 0),  "2")
-    assertEqual(adjust_cr("2", -1),  "1")
-    assertEqual(adjust_cr("2", -2),  "1/2")
-    assertEqual(adjust_cr("2", -3),  "1/4")
-    assertEqual(adjust_cr("2", -4),  "1/8")
-    assertEqual(adjust_cr("2", -5),  "0")
-    assertEqual(adjust_cr("2", -6),  "0")
+    assertEqual(adjust_cr(-3, 1), -2)
+    assertEqual(adjust_cr(-3, 2), -1)
+    assertEqual(adjust_cr(-3, 3), 0)
+    assertEqual(adjust_cr(-3, 4), 1)
+    assertEqual(adjust_cr(-3, 5), 2)
+    assertEqual(adjust_cr(29, 5), 30)
+    assertEqual(adjust_cr(2, 0),  2)
+    assertEqual(adjust_cr(2, -1), 1)
+    assertEqual(adjust_cr(2, -2), 0)
+    assertEqual(adjust_cr(2, -3), -1)
+    assertEqual(adjust_cr(2, -4), -2)
+    assertEqual(adjust_cr(2, -5), -3)
+    assertEqual(adjust_cr(2, -6), -3)
 
-    assertEqual(get_adjusted_cr("0"), -3)
-    assertEqual(get_adjusted_cr("1/8"), -2)
-    assertEqual(get_adjusted_cr("1/4"), -1)
-    assertEqual(get_adjusted_cr("1/2"), 0)
-    assertEqual(get_adjusted_cr("1"), 1)
-    assertEqual(get_adjusted_cr("2"), 2)
-    assertEqual(get_adjusted_cr("3"), 3)
+    assertEqual(get_normalized_cr("0"), -3)
+    assertEqual(get_normalized_cr("1/8"), -2)
+    assertEqual(get_normalized_cr("1/4"), -1)
+    assertEqual(get_normalized_cr("1/2"), 0)
+    assertEqual(get_normalized_cr("1"), 1)
+    assertEqual(get_normalized_cr("2"), 2)
+    assertEqual(get_normalized_cr("3"), 3)
+    assertEqual(get_normalized_cr(None, "1"), -2)
+    assertEqual(get_normalized_cr(None, "2"), -1)
+    assertEqual(get_normalized_cr(None, "3"), 0)
+    assertEqual(get_normalized_cr(None, "4"), 1)
 
     assertEqual("13", adjust(10, "+3"))
     assertEqual("7", adjust(10, "-3"))
@@ -311,7 +320,7 @@ if __name__ == "__main__":
     assertEqual(["a", "b", "c", 1, 2, 3], adjust(["a", "b", "c"], [1, 2, 3]))
     assertEqual({"a": 1, "b": 2, "c": 3, "d": 4}, adjust({"c": 3, "d": 4}, {"a": 1, "b": 2}))
 
-    for i in cr_list:
+    for i in range(-3, 21):
         print(f"{i}: {get_cr_values(i)}")
 
     for i in cr_list:

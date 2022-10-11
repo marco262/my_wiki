@@ -3,7 +3,7 @@
     <span class="npc-sheet-hover">npc</span>
     <div class="monster-sheet" style="max-width: {{ width }};">
         <div class="top-bottom-bar"></div>
-        <h1 class="name">CR {{ cr }} {{ race }} {{ role }}</h1>
+        <h1 class="name">{{ f"CR {cr}" if cr is not None else f"Level {level}" }} {{ race }} {{ role }}</h1>
         <div class="red-bar"></div>
         <div class="text"><strong>Armor Class</strong> {{ armor_class }}</div>
         <div class="text"><strong>Hit Points</strong> {{ hit_points }}</div>
