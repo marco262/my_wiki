@@ -20,3 +20,13 @@ Enter another URL to set as Visual Aid here:
 # Encounters
 
 * [Tower of Light](Tower of Light)
+
+# Audio
+
+[Stop all sounds]($stop|all|none)
+
+* [FFXIV OST Cheeky BGM]($load|music|arr/FFXIV OST Cheeky BGM.ogg)
+* [FFXIV OST Duty Complete Theme]($load|music|arr/FFXIV OST Duty Complete Theme.mp3)
+* [FFXIV OST Gold Saucer Theme]($load|music|arr/FFXIV OST Gold Saucer Theme.mp3)
+* [FFXIV OST Halatali Theme]($load|music|arr/FFXIV OST Halatali Theme.ogg)
+* [FFXIV OST Hildibrand FATE _ Hall of Novice]($load|music|arr/FFXIV OST Hildibrand FATE _ Hall of Novice.mp3)
