@@ -31,11 +31,14 @@ Maeda's Backstory
 
 - Old Sharlayan: [Old Sharlayan](^arr/Image - Old Sharlayan.bmp)
 - Studium: [The Studium](^arr/Image - Old Sharlayan Studium.bmp)
+- Dad: [Dei Matsu](^arr/dei matsu.png)
+- Mom: [Shina Matsu](^arr/shina matsu.png)
 - Krile Baldesion: [Krile Baldesion](^arr/Image - Krile Baldesion.bmp)
 
 Sayonji's Backstory
 
 - Skatay Range: [Skatay Range](^arr/Skatay Range.png)
+- Mother: [Renne](^arr/renne.jpg)
 
 ## Gold Saucer
 
