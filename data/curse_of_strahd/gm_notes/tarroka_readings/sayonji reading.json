@@ -1,0 +1,22 @@
+{
+  "middle": {
+    "card": "7 of Stars - Illusionist",
+    "inverted": true
+  },
+  "bottom": {
+    "card": "",
+    "inverted": false
+  },
+  "left": {
+    "card": "2 of Swords - Paladin",
+    "inverted": false
+  },
+  "top": {
+    "card": "High Deck - Mists",
+    "inverted": false
+  },
+  "right": {
+    "card": "4 of Stars - Abjurer",
+    "inverted": false
+  }
+}

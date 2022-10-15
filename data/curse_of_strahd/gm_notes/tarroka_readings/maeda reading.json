@@ -1,0 +1,22 @@
+{
+  "middle": {
+    "card": "2 of Stars - Diviner",
+    "inverted": false
+  },
+  "bottom": {
+    "card": "",
+    "inverted": false
+  },
+  "left": {
+    "card": "6 of Glyphs - Anarchist",
+    "inverted": false
+  },
+  "top": {
+    "card": "4 of Glyphs - Shepherd",
+    "inverted": false
+  },
+  "right": {
+    "card": "Master of Glyphs - Priest",
+    "inverted": false
+  }
+}

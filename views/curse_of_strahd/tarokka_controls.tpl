@@ -96,6 +96,9 @@
       <option value="Prophecy">Prophecy</option>
       <option value="Strahd Reading">Strahd Reading</option>
       <option value="barry reading">Barry Reading</option>
+        <option value="maeda reading">Maeda Reading</option>
+        <option value="sayonji reading">Sayonji Reading</option>
+        <option value="party reading">Party Reading</option>
     </select>
     <button id="set-reading-button">Set Reading</button>
 </p>

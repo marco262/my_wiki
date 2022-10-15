@@ -1,0 +1,22 @@
+{
+  "middle": {
+    "card": "5 of Coins - Guild Member",
+    "inverted": false
+  },
+  "bottom": {
+    "card": "High Deck - Horseman",
+    "inverted": false
+  },
+  "left": {
+    "card": "9 of Swords - Torturer",
+    "inverted": false
+  },
+  "top": {
+    "card": "High Deck - Ghost",
+    "inverted": false
+  },
+  "right": {
+    "card": "4 of Glyphs - Shepherd",
+    "inverted": false
+  }
+}
