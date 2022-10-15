@@ -23,7 +23,7 @@ Barry's Backstory
 - [Airship](^arr/Airship.bmp)
 - The groom, ["Bill"](^arr/Image%20-%20Roger.jpg)
 - Younger loser ["Zack"](^arr/Image%20-%20Abram.jpg)
-- Amused chaos rarity ["Jack"]((^arr/Image%20-%20Noah.jpg))
+- Amused chaos rarity ["Jack"](^arr/Image%20-%20Noah.jpg)
 - Flirty Flirter ["John"](^arr/Image%20-%20Emmet.jpg)
 - Best man ["Richard"](^arr/Image%20-%20Nero%20Tol%20Scaeva.jpg) -- I mean, ["Richard" (with a Hat)](^arr/Image%20-%20Nero Tol Scaeva with Hat.jpg)
 
@@ -48,6 +48,7 @@ Sayonji's Backstory
 - Wonder Square: [Wonder Square](^arr/Gold Saucer - Wonder Square.jpg)
 
 NPCs
+
 - Alphinaud: [Alphinaud Leveilleur](^arr/Image - Alphinaud.png) 
 - Alisaie: [Alisaie Leveilleur](^arr/Image - Alisaie.png)
 - Alphinaud & Alisaie: [Alphinaud & Alisaie Leveilleur](^arr/Image - Alphinaud and Alisaie Leveilleur.bmp)
