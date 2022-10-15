@@ -1,0 +1,22 @@
+{
+  "middle": {
+    "card": "8 of Coins - Tax Collector",
+    "inverted": true
+  },
+  "bottom": {
+    "card": "Master of Stars - Wizard",
+    "inverted": false
+  },
+  "left": {
+    "card": "Eight of Swords - Dictator",
+    "inverted": false
+  },
+  "top": {
+    "card": "Mists",
+    "inverted": false
+  },
+  "right": {
+    "card": "5 of Swords - Myrmidon",
+    "inverted": false
+  }
+}
