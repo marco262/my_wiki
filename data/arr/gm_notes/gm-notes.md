@@ -6,7 +6,7 @@
     init_visual_aid();
 </script>
 
-* [Soundboard](/pirates/Soundboard)
+* [Soundboard](Soundboard)
 
 Enter another URL to set as Visual Aid here:
 
@@ -83,6 +83,8 @@ Tower of Light
 # Audio
 
 [Stop all sounds]($stop|all|none)
+
+* Crowd Sounds: [Happy Crowd]($load|music|arr/happy crowd.wav)
 
 * ARR Login Screen: [ARR Login Screen]($load|music|arr/ARR Login Screen.mp3)
 * Gold Saucer Theme: [FFXIV OST Gold Saucer Theme]($load|music|arr/FFXIV OST Gold Saucer Theme.mp3)
