@@ -84,13 +84,13 @@ Tower of Light
 
 [Stop all sounds]($stop|all|none)
 
-Ambience
+## Ambience
 
 [Stop]($stop|ambience|none) [Pause]($pause|ambience|none) [Play]($play|ambience|none)
 
 * Crowd Sounds: [Happy Crowd]($load|ambience|arr/happy crowd.wav)
 
-Music
+## Music
 
 [Stop]($stop|music|none)
 
