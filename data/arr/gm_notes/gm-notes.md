@@ -82,9 +82,13 @@ Tower of Light
 
 # Audio
 
-[Stop all sounds]($stop|all|none)
+[Stop all sounds]($stop|all|none), [Stop Music]($stop|music|none), [Stop Ambience]($stop|ambience|none)
 
-* Crowd Sounds: [Happy Crowd]($load|music|arr/happy crowd.wav)
+Ambience
+
+* Crowd Sounds: [Happy Crowd]($load|ambience|arr/happy crowd.wav)
+
+Music 
 
 * ARR Login Screen: [ARR Login Screen]($load|music|arr/ARR Login Screen.mp3)
 * Gold Saucer Theme: [FFXIV OST Gold Saucer Theme]($load|music|arr/FFXIV OST Gold Saucer Theme.mp3)
