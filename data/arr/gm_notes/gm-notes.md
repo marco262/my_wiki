@@ -32,7 +32,7 @@ Matsu's Backstory
 - Old Sharlayan: [Old Sharlayan](^arr/Image - Old Sharlayan.bmp)
 - Studium: [The Studium](^arr/Image - Old Sharlayan Studium.bmp)
 - Dad: [Dei Maeda](^arr/dei matsu.png)
-- Mom: [Shina Maeda](^arr/shina matsu.png)
+- Mom: [Shina Maeda](^arr/shina matsu.jpg)
 - Krile Baldesion: [Krile Baldesion](^arr/Image - Krile Baldesion.bmp)
 
 Sayonji's Backstory
