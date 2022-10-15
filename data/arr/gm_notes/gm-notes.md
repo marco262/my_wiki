@@ -15,7 +15,23 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
-[Ameliance Leveilleur](^arr/Ameliance.jpg)  # Pictures go in /media/img/visual_aids/arr
+## Gold Saucer
+
+- Exterior: [The Gold Saucer](/media/img/visual_aids/arr/Gold%20Saucer%20exterior.jpg):
+Entrance Square: [Gold Saucer: Entrance Square](/media/img/visual_aids/arr/Gold Saucer - Entrance Square.jpg)
+
+
+## Nero's Friends
+
+[Airship](^arr/Airship.bmp)
+
+- The groom, ["Bill"](^arr/Image%20-%20Roger.jpg)
+- Younger loser ["Zack"](^arr/Image%20-%20Abram.jpg)
+- Amused chaos rarity ["Jack"]((^arr/Image%20-%20Noah.jpg))
+- Flirty Flirter ["John"](^arr/Image%20-%20Emmet.jpg)
+- Best man ["Richard"](^arr/Image%20-%20Nero%20Tol%20Scaeva.jpg) -- I mean, ["Richard" (with a Hat)](^arr/Image%20-%20Nero Tol Scaeva with Hat.jpg)
+
+
 
 # Encounters
 
