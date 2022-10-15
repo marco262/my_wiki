@@ -15,7 +15,7 @@ Enter another URL to set as Visual Aid here:
 
 [Visual aid](/visual_aid)
 
-[Visual Aid Picture Example](^arr/Ameliance.jpg)  # Pictures go in /media/img/visual_aids/arr
+[Ameliance Leveilleur](^arr/Ameliance.jpg)  # Pictures go in /media/img/visual_aids/arr
 
 # Encounters
 
