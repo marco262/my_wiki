@@ -27,12 +27,12 @@ Barry's Backstory
 - Flirty Flirter ["John"](^arr/Image%20-%20Emmet.jpg)
 - Best man ["Richard"](^arr/Image%20-%20Nero%20Tol%20Scaeva.jpg) -- I mean, ["Richard" (with a Hat)](^arr/Image%20-%20Nero Tol Scaeva with Hat.jpg)
 
-Maeda's Backstory
+Matsu's Backstory
 
 - Old Sharlayan: [Old Sharlayan](^arr/Image - Old Sharlayan.bmp)
 - Studium: [The Studium](^arr/Image - Old Sharlayan Studium.bmp)
-- Dad: [Dei Matsu](^arr/dei matsu.png)
-- Mom: [Shina Matsu](^arr/shina matsu.png)
+- Dad: [Dei Maeda](^arr/dei matsu.png)
+- Mom: [Shina Maeda](^arr/shina matsu.png)
 - Krile Baldesion: [Krile Baldesion](^arr/Image - Krile Baldesion.bmp)
 
 Sayonji's Backstory
