@@ -95,6 +95,7 @@
       <option value="Ireena Reading">Ireena Reading</option>
       <option value="Prophecy">Prophecy</option>
       <option value="Strahd Reading">Strahd Reading</option>
+      <option value="barry reading">Barry Reading</option>
     </select>
     <button id="set-reading-button">Set Reading</button>
 </p>
