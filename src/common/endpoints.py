@@ -4,10 +4,10 @@ from threading import Thread
 from time import ctime
 
 import bcrypt
+from bottle import static_file, Bottle, view, request, auth_basic, redirect, response
 from bottle_websocket import websocket
 from git import Repo
 
-from bottle import static_file, Bottle, view, request, auth_basic, redirect
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats
 
@@ -28,6 +28,20 @@ def init(cfg):
     START_TIME = ctime()
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
+
+
+def enable_cors(fn):
+    def _enable_cors(*args, **kwargs):
+        # set CORS headers
+        response.headers['Access-Control-Allow-Origin'] = "app://obsidian.md"
+        response.headers['Access-Control-Allow-Methods'] = "POST, OPTIONS"
+        response.headers['Access-Control-Allow-Headers'] = "Authorization, X-Requested-With"
+
+        if request.method != 'OPTIONS':
+            # actual request; reply with the actual response
+            return fn(*args, **kwargs)
+
+    return _enable_cors
 
 
 def load_wsgi_endpoints(app: Bottle):
@@ -105,7 +119,8 @@ def load_wsgi_endpoints(app: Bottle):
         }))
         websocket_loop(ws, websocket_list)
 
-    @app.post("/set_visual_aid")
+    @app.route("/set_visual_aid", method=["OPTIONS", "POST"])
+    @enable_cors
     @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_type, visual_aid_url, visual_aid_title
