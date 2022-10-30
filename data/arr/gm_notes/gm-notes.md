@@ -6,7 +6,7 @@
     init_visual_aid();
 </script>
 
-* [Soundboard](Soundboard)
+* [Soundboard](/arr/GM Soundboard)
 
 Enter another URL to set as Visual Aid here:
 
@@ -82,24 +82,3 @@ Tower of Light
 # Encounters
 
 * [Tower of Light](Tower of Light)
-
-# Audio
-
-[Stop all sounds]($stop|all|none)
-
-## Ambience
-
-[Stop]($stop|ambience|none) [Pause]($pause|ambience|none) [Play]($play|ambience|none)
-
-* Crowd Sounds: [Happy Crowd]($load|ambience|arr/happy crowd.wav)
-
-## Music
-
-[Stop]($stop|music|none)
-
-* ARR Login Screen: [ARR Login Screen]($load|music|arr/ARR Login Screen.mp3)
-* Gold Saucer Theme: [FFXIV OST Gold Saucer Theme]($load|music|arr/FFXIV OST Gold Saucer Theme.mp3)
-* Manderville Theme: [FFXIV OST Cheeky BGM]($load|music|arr/FFXIV OST Cheeky BGM.ogg)
-* Tower Theme: [FFXIV OST Halatali Theme]($load|music|arr/FFXIV OST Halatali Theme.ogg)
-* Battle Theme: [FFXIV OST Hildibrand FATE _ Hall of Novice]($load|music|arr/FFXIV OST Hildibrand FATE _ Hall of Novice.mp3)
-* Battle Won: [FFXIV OST Duty Complete Theme]($load|music|arr/FFXIV OST Duty Complete Theme.mp3)
