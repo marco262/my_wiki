@@ -90,7 +90,7 @@
   * [Jesk "Cracktooth" Berinni](^sandpoint/jesk_berinni.jpg)
 * 19: House of Blue Stones (p379)
   * [Sabyl Sorn](^sandpoint/sabyl_sorn.jpg)
-* 20: Sandpoint Glassworks (p)
+* 20: Sandpoint Glassworks (p28)
 * 21: Sandpoint Savories (p379)
   * [Alma Avertin](^sandpoint/alma_avertin.jpg)
   * [Arika Avertin](^sandpoint/arika_avertin.png)
@@ -115,8 +115,12 @@
   * [Madame Niska Mvashti](^sandpoint/niska_mvashti.jpg)
   * [Koya Mvashti](^sandpoint/koya_mvashti.jpg)
 * 29: Grocer's Hall (p381)
+  * [Olmur Danvakus](^sandpoint/olmur_danvakus.jpg)
 * 30: Vernah's Fine Clothing (p381)
+  * [Rynshinn Povalli](^sandpoint/rynshinn_povalli.jpg)
 * 31: Wheen's Wagons (p381)
+  * [Bilivar Wheen](^sandpoint/bilivar_wheen.jpg)
+  * [Vorah Wheen](^sandpoint/vorah_wheen.jpg)
 * 32: Scarnetti Mill (p381)
 * 33: The Hagfish (p381)
 * 34: Valdemar Fishmarket
@@ -129,7 +133,7 @@
 * 41: Sandpoint Boutique
 * 42: Fatman's Feedbag
 * 43: The Pixie's Kitten
-  * Kaye Tesarani
+  * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
 * 44: The Feathered Serpent
 * 45: Hannah's
 * 46: Sandpoint Shipyard
