@@ -4,17 +4,17 @@ body {
 }
 
 #picture {
-    background-size: contain; 
-    width: 100%; 
-    height: 100%; 
-    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
 #picture-title {
     position: absolute;
     font-size: 10vh;
-    text-shadow: 0 0 0.5rem black;
+    text-shadow: 0 0 1rem black;
     width: 99%;
     text-align: center;
     top: 80%;

@@ -83,6 +83,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
         "hit_points": adjust(def_dict["hp"], kwargs.get("hit_points")),
         "damage_resistances": adjust(get_trait(race, role, "damage_resistances"), kwargs.get("damage_resistances")),
         "damage_immunities": adjust(get_trait(race, role, "damage_immunities"), kwargs.get("damage_immunities")),
+        "damage_vulnerabilities": adjust(get_trait(race, role, "damage_vulnerabilities"), kwargs.get("damage_vulnerabilities")),
         "senses": adjust(get_trait(race, role, "senses"), kwargs.get("senses")),
         "special_abilities": special_abilities,
         "bonus_actions": bonus_actions,

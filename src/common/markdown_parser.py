@@ -40,6 +40,7 @@ class MarkdownParser:
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
         text = self.convert_popup_links(text)
+        text = self.convert_simple_links(text)
         text = self.add_includes(text)
         text = self.add_breadcrumbs(text)
         return text
@@ -98,6 +99,16 @@ class MarkdownParser:
             else:
                 raise ValueError(f"Unknown link flag: {m.group(2)}")
             text = text.replace(m.group(0), replace)
+        return text
+
+    @staticmethod
+    def convert_simple_links(text):
+        """
+        Finds links with format [text]() and fills them out with [text](text).
+        Useful for quick links to markdown files in the same folder.
+        """
+        for m in re.finditer(r"\[(.*?)]\(\)", text):
+            text = text.replace(m.group(0), "[{link}]({link})".format(link=m.group(1)))
         return text
 
     def add_includes(self, text):

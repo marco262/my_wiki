@@ -1,0 +1,139 @@
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
+<script type="module">
+    import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";
+    init_links();
+    init_visual_aid();
+</script>
+
+* Sandpoint [1](^sandpoint/sandpoint1.jpg) [2](^sandpoint/sandpoint2.jpg) [3](^sandpoint/sandpoint3.jpg) 
+
+## Sounds
+
+[Stop all sounds]($stop|all|none)
+
+* [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
+* [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
+* [Tavern Ambience]($load|youtube|https://www.youtube.com/watch?v=rv3Nl-Od9YU)
+
+## NPCs
+
+* [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
+* [Sheriff Belor Hemlock](^sandpoint/sheriff_hemlock.jpg)
+* [Cyrdak Drokkus](^sandpoint/cyrdak_drokkus.jpg)
+* [Father Zantus](^sandpoint/father_zantus.png)
+
+## Story
+
+* [Desecrated Tomb](^sandpoint/desecrated_tomb.jpg)
+  * [Skeleton](^dragon_heist/skeleton.jpeg) ([[npc cr=1/4|race=Skeleton]])
+* Boar Hunt
+  * [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg)
+  * [Tickwood Forest](^sandpoint/tickwood_forest.jpg)
+  * [Boar](^sandpoint/boar.jpg) ([[npc cr=2]])
+* Trouble at the Rusty Dragon
+  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
+  * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
+  * "Ore no musume wa **doko** ni iru no??" = "Where the hell is my daughter?"
+  * "Ha**ha**oya, to onaji, kurai shinde imasu." = "You're as dead to me as your mother."
+* Monster in the Closet
+  * [Amele Barett](^sandpoint/amele_barett.jpg)
+  * [Aeren Barett](^sandpoint/aeren_barett.jpg)
+  * [Trapped Goblin](^sandpoint/trapped_goblin.png)
+* Grim News from Mosswood
+  * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
+* The Missing Bartender
+  * [Bethana Corwin](^sandpoint/bethana_corwin.jpeg)
+
+## Sandpoint
+
+* 1: [Sandpoint Cathedral](^sandpoint/sandpoint_cathedral.png) (p375)
+  * [Sandpoint Cathedral Interior](^sandpoint/sandpoint_cathedral_interior.jpg)
+  * [Father Abstalar Zantus](^sandpoint/father_zantus.png)
+* 2: Sandpoint Boneyard (p376)
+  * Visual Aids: [1](^sandpoint/sandpoint_boneyard_1.jpg), [2](^sandpoint/sandpoint_boneyard_2.jpg), [night](^sandpoint/sandpoint_boneyard_night.jpg)
+  * [Naffer Vosk](^sandpoint/naffer_vosk.jpg)
+* 3: [The White Deer](^sandpoint/white_deer_tavern.jpg) (p376)
+  * [Garridan Viskalai](^sandpoint/garridan_viskalai.jpg)
+* 4: [The Way North](^sandpoint/the_way_north.jpg) (p376)
+  * [Veznutt Parooh](^sandpoint/veznutt_parooh.jpg)
+* 5: Jeweler (p376)
+  * [Maver Kesk](^sandpoint/maver_kesk.jpg)
+  * [Pennae Kesk](^sandpoint/pennae_kesk.jpg)
+* 6: Junker's Edge (p376)
+* 7: Gorvi's Shack (p376)
+  * [Gorvi](^sandpoint/gorvi.jpg)
+* 8: Sage (p377)
+  * [Brodert Quink](^sandpoint/brodert_quink.jpg)
+* 9: Locksmith (p377)
+  * [Volioker Briskalberd](^sandpoint/volioker_briskalberd.jpg)
+* 10: Sandpoint Garrison (p377)
+  * [Sheriff Belor Hemlock](^sandpoint/sheriff_hemlock.jpg)
+  * [Vachedi](^sandpoint/vachedi.jpg)
+* 11: Sandpoint Town Hall (p378)
+  * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
+* 12: Savah's Armory (p378)
+  * [Savah Bevaniky](^sandpoint/savah_bevaniky.jpg)
+  * Magic Items:
+      * +1 Repeating Crossbow
+* 13: Risa's Place (p378)
+  * [Risa Magravi](^sandpoint/risa_magravi.jpg)
+* 14: Rovanky Tannery (p378)
+  * [Larz Rovanky](^sandpoint/larz_rovanky.jpg)
+* 15: Red Dog Smithy (p378)
+  * [Das Korvut](^sandpoint/das_korvut.jpg)
+* 16: The Pillbug's Pantry (p378)
+  * [Aliver "Pillbug" Podiker](^sandpoint/aliver_podiker.png)
+* 17: Bottled Solutions (p379)
+  * [Nisk Tander](^sandpoint/nisk_tander.jpg)
+* 18: Cracktooth's Tavern (p379)
+  * [Jesk "Cracktooth" Berinni](^sandpoint/jesk_berinni.jpg)
+* 19: House of Blue Stones (p379)
+  * [Sabyl Sorn](^sandpoint/sabyl_sorn.jpg)
+* 20: Sandpoint Glassworks (p)
+* 21: Sandpoint Savories (p379)
+  * [Alma Avertin](^sandpoint/alma_avertin.jpg)
+  * [Arika Avertin](^sandpoint/arika_avertin.png)
+  * [Aneka Avertin](^sandpoint/aneka_avertin.jpg)
+* 22: The Curious Goblin (p379)
+  * [Chask Haladan](^sandpoint/chask_haladan.jpg)
+* 23: Sandpoint Theater (p379)
+  * [Cyrdak Drokkus](^sandpoint/cyrdak_drokkus.jpg)
+* 24: Carpenter's Guild (p380)
+  * [Aesrick Battlehorn](^sandpoint/aesrick_battlehorn.jpg)
+* 25: Sandpoint Lumber Mill (p380)
+  * [Banny Harker](^sandpoint/banny_harker.jpg)
+  * Ibor Thorn
+* 26: General Store (p380)
+  * [Ven Vinder](^sandpoint/ven_vinder.jpg), owner
+  * [Solsta Vinder](^sandpoint/solsta_vinder.jpg), wife
+  * [Katrine Vinder](^sandpoint/katrine_vinder.jpeg)
+  * [Shayliss Vinder](^sandpoint/shayliss_vinder.jpg)
+* 27: Turandurok Academy (p380)
+  * [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg)
+* 28: Madame Mvashti's House (p380)
+  * [Madame Niska Mvashti](^sandpoint/niska_mvashti.jpg)
+  * [Koya Mvashti](^sandpoint/koya_mvashti.jpg)
+* 29: Grocer's Hall (p381)
+* 30: Vernah's Fine Clothing (p381)
+* 31: Wheen's Wagons (p381)
+* 32: Scarnetti Mill (p381)
+* 33: The Hagfish (p381)
+* 34: Valdemar Fishmarket
+* 35: Sandpoint Market
+* 36: Sandpoint Meat Market
+* 37: The Rusty Dragon
+* 38: Goblin Squash Stables
+* 39: Two Knight Brewery
+* 40: Sandpoint Mercantile League
+* 41: Sandpoint Boutique
+* 42: Fatman's Feedbag
+* 43: The Pixie's Kitten
+  * Kaye Tesarani
+* 44: The Feathered Serpent
+* 45: Hannah's
+* 46: Sandpoint Shipyard
+* 47: Valdemar Manor
+* 48: Scarnetti Manor
+* 49: Kaijitsu Manor
+* 50: Deverin Manor

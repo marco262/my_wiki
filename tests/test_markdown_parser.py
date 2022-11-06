@@ -144,6 +144,21 @@ Text block
         actual = md.convert_popup_links(text)
         self.assertEqual(expected, actual)
 
+    def test_convert_simple_links(self):
+        text = """
+* [Test Link 1]()
+* [Test Link 2]()
+* [Test Link 3](folder/Test Link)
+        """
+        expected = """
+* [Test Link 1](Test Link 1)
+* [Test Link 2](Test Link 2)
+* [Test Link 3](folder/Test Link)
+        """
+        md = MarkdownParser()
+        actual = md.convert_simple_links(text)
+        self.assertEqual(expected, actual)
+
     def test_build_bibliography(self):
         text = """
 <p><strong>Garrote.</strong>[((bibcite homebrew))] Can only be used on ...</p>

@@ -9,11 +9,8 @@
         <div class="text"><strong>Hit Points</strong> {{ hit_points }}</div>
         <div class="text"><strong>Speed</strong> {{ speed }}</div>
         <div class="red-bar"></div>
-        % if defined("saves"):
-        <div class="text"><strong>Saving Throws</strong> {{ saves }}</div>
-        % end
-        <div class="text"><strong>Skills</strong> Untrained {{ untrained }}, Proficient {{ proficient }}, Expertise {{ expertise }}</div>
-        % if defined("damage_vulnerabilities"):
+        <div class="text"><strong>Skills/Saves</strong> Untrained {{ untrained }}, Proficient {{ proficient }}, Expertise {{ expertise }}</div>
+        % if damage_vulnerabilities:
         <div class="text"><strong>Damage Vulnerabilities</strong> {{ damage_vulnerabilities }}</div>
         % end
         % if damage_resistances:

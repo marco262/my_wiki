@@ -92,7 +92,6 @@
         <a href="/">Campaigns</a>
         <div class="dropdown-content" style="width: 13em;">
             <a href="/arr/">A Realm Reborn</a>
-            <a href="/pirates/">Here There Be Pirates!</a>
             <a href="/sandpoint/">The Heroes of Sandpoint</a>
         </div>
     </div>

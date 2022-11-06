@@ -242,6 +242,9 @@ races = {
             "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
         ]
     },
+    "Skeleton": {
+        "damage_vulnerabilities": ["bludgeoning"],
+    },
     "Elezen": {
         "speed": "35 ft.",
     },
