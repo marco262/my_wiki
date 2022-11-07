@@ -127,7 +127,7 @@
 * 35: Sandpoint Market
 * 36: Sandpoint Meat Market
 * 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg)
-  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
+  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
 * 38: Goblin Squash Stables
 * 39: Two Knight Brewery
 * 40: Sandpoint Mercantile League
