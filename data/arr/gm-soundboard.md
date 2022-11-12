@@ -24,6 +24,8 @@
 ## Ambience
 
 * Crowd Sounds: [Happy Crowd]($load|ambience|arr/happy crowd.wav)
+* [Calm Sea Sailing]($load|ambience|pirates/D&D Ambience - Calm Sea Sailing.mp3)
+* [Ship Cabin]($load|ambience|pirates/D&D Ambience - Ship Cabin.mp3)
 
 ## Music
 
@@ -33,3 +35,8 @@
 * Tower Theme: [FFXIV OST Halatali Theme]($load|music|arr/FFXIV OST Halatali Theme.ogg)
 * Battle Theme: [FFXIV OST Hildibrand FATE _ Hall of Novice]($load|music|arr/FFXIV OST Hildibrand FATE _ Hall of Novice.mp3)
 * Battle Won: [FFXIV OST Duty Complete Theme]($load|music|arr/FFXIV OST Duty Complete Theme.mp3)
+* [Pirate Fight!]($load|music|arr/pirate_fight.mp3)
+* [Limsa Lominsa Night Theme]($load|music|arr/FFXIV OST Limsa Lominsa Night Time Theme - A Sailor Never Sleeps.mp3)
+* [Limsa Lominsa Day Theme]($load|music|arr/FFXIV OST Limsa Lominsa Day Time Theme - I Am the Sea.mp3)
+* [Drowning Wench]($load|music|arr/drowning_wench.mp3)
+* [Battle Theme - La Noscea]($load|music|arr/FFXIV OST La Noscea Battle Theme - The Land Breathes.mp3)
