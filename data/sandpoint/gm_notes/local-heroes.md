@@ -127,6 +127,7 @@
   * [Jargie Quinn](^sandpoint/jargie_quinn.jpg), [Jargie Quinn](^sandpoint/jargie_quinn_full_body.jpg) full body
   * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.png)
 * 34: Valdemar Fishmarket
+  * [Turch Sterglus](^sandpoint/turch_sterglus.jpg)
 * 35: Sandpoint Market
 * 36: Sandpoint Meat Market
 * 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg)
