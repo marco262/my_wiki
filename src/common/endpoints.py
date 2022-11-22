@@ -93,7 +93,7 @@ def load_wsgi_endpoints(app: Bottle):
         remote_last_commit = remote.repo.head.commit
         print("Remote HEAD:", remote_last_commit)
         print("Applying any stashed changes")
-        repo.git.stash("apply")
+        repo.git.stash("push")
         if remote_last_commit == last_commit:
             print("No updates found.")
             return "No updates found."
