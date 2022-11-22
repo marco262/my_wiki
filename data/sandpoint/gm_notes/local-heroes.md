@@ -124,6 +124,8 @@
 * 32: Scarnetti Mill (p381)
   * [Courrin Whesterwill](^sandpoint/courrin_whesterwill.png)
 * 33: The Hagfish (p381)
+  * [Jargie Quinn](^sandpoint/jargie_quinn.jpg), [Jargie Quinn](^sandpoint/jargie_quinn_full_body.jpg) full body
+  * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.png)
 * 34: Valdemar Fishmarket
 * 35: Sandpoint Market
 * 36: Sandpoint Meat Market
