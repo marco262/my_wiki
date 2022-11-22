@@ -16,4 +16,4 @@ Alternatively, you can choose for each target to be [[[general:conditions#charme
 
 When the spell ends on a creature, it must make an Intelligence saving throw. On a success, it is aware that its emotions were influenced by the spell. Otherwise, the creature remains unaware of the spell's effect."""
 source = "Homebrew"
-source_link = "https://www.dndunleashed.com/home/new-minor-enchantments"
+source_extended = "<https://www.dndunleashed.com/home/new-minor-enchantments>"
