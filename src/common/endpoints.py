@@ -47,10 +47,10 @@ def enable_cors(fn):
 def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
     def index_help():
-        # repo = Repo()
-        # last_commit = repo.head.commit
-        # commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
-        return md_page("home", "common", build_toc=False, commit_history="NULL", up_to_date_msg=False,
+        repo = Repo()
+        last_commit = repo.head.commit
+        commit_history = "{} ({})".format(last_commit.message, ctime(last_commit.committed_date))
+        return md_page("home", "common", build_toc=False, commit_history=commit_history, up_to_date_msg=False,
                        last_restart=START_TIME)
 
     @app.get("/static/<path:path>", name="static")
@@ -85,12 +85,16 @@ def load_wsgi_endpoints(app: Bottle):
         repo = Repo()
         last_commit = repo.head.commit
         print("HEAD:", last_commit)
-        repo.remote().pull()
-        new_last_commit = repo.head.commit
-        print("New HEAD:", new_last_commit)
-        if new_last_commit == last_commit:
+        remote = repo.remote()
+        remote.fetch()
+        remote_last_commit = remote.repo.head.commit
+        print("Remote HEAD:", remote_last_commit)
+        if remote_last_commit == last_commit:
             print("No updates found.")
             return "No updates found."
+        repo.git.stash("save")
+        remote.pull()
+        repo.git.stash("apply")
         print("Waiting for server restart")
 
     @app.get("/restart")
