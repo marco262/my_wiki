@@ -16,4 +16,4 @@ description = """You flourish the weapon used in the casting and then vanish to 
 You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."""
 at_higher_levels = "When you cast this spell using a spell slot of 3rd level or higher, the number of targets increases by 1, and the damage increases by 1d10, for each slot level above 2nd."
 source = "Homebrew"
-source_extended = "<https://old.reddit.com/r/dndnext/comments/t3dttx/steel_wind_strike_is_better_than_people_think/hys9n5l/>"
+source_link = "https://old.reddit.com/r/dndnext/comments/t3dttx/steel_wind_strike_is_better_than_people_think/hys9n5l/"

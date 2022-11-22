@@ -15,4 +15,4 @@ description = """You attempt to suppress the personality of a creature you can s
 
 This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."""
 source = "Homebrew"
-source_extended = "<https://www.dndunleashed.com/home/new-minor-enchantments>"
+source_link = "https://www.dndunleashed.com/home/new-minor-enchantments"

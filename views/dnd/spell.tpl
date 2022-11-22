@@ -15,7 +15,7 @@ end
 %>
 <p><em>{{!('&nbsp;' * 4).join(spell_class_list)}}</em></p>
 
-% fmt = "{school} cantrip" if level.lower() == "cantrip" else "Level {level} {school}"
+% fmt = "{school} cantrip" if level.lower() == "cantrip" else "Level {level} {school}" 
 <p>{{fmt.format(level=level, school=school.title())}}{{" (ritual)" if ritual_spell else ""}}</p>
 
 <p>
@@ -35,9 +35,9 @@ end
 % end
 <hr class="no-float">
 <p><em>
-    % if defined('source_extended'):
-    Source: {{!source_extended}}
+    % if defined('source_link'):
+    Source: <a href="{{ source_link }}">{{ source }}</a>
     % else:
-    Source: {{source}}
+    Source: {{ source }}
     % end
 </em></p>
