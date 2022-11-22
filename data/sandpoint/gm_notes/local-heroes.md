@@ -122,6 +122,7 @@
   * [Bilivar Wheen](^sandpoint/bilivar_wheen.jpg)
   * [Vorah Wheen](^sandpoint/vorah_wheen.jpg)
 * 32: Scarnetti Mill (p381)
+  * [Courrin Whesterwill](^sandpoint/courrin_whesterwill.png)
 * 33: The Hagfish (p381)
 * 34: Valdemar Fishmarket
 * 35: Sandpoint Market
