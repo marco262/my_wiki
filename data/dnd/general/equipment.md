@@ -204,7 +204,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 ||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
 || Battleaxe || 10 gp || 1d8 slashing || 4 lb. || Versatile (1d10) ||
-|| Dwarven Throwing Axe[((bibcite homebrew))] || 5 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
+|| Dwarven throwing axe[((bibcite homebrew))] || 5 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
 || Flail || 10 gp || 1d8 bludgeoning || 2 lb. || -- ||
 || Glaive || 20 gp || 1d10 slashing || 6 lb. || Heavy, reach, two-handed ||
 || Greataxe || 30 gp || 1d12 slashing || 7 lb. || Heavy, two-handed ||
