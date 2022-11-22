@@ -81,13 +81,16 @@ def load_wsgi_endpoints(app: Bottle):
         return "Checking for git changes..."
 
     def get_git_changes():
-        print("Pulling from git...")
+        print("Checking GitHub for any changes...")
         repo = Repo()
         last_commit = repo.head.commit
         print("HEAD:", last_commit)
         remote = repo.remote()
+        print("Stashing any existing changes")
         repo.git.stash("save")
+        print("Pulling from GitHub")
         remote.pull()
+        print("Applying any stashed changes")
         repo.git.stash("apply")
         remote_last_commit = remote.repo.head.commit
         print("Remote HEAD:", remote_last_commit)
