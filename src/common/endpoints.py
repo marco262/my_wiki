@@ -86,15 +86,14 @@ def load_wsgi_endpoints(app: Bottle):
         last_commit = repo.head.commit
         print("HEAD:", last_commit)
         remote = repo.remote()
-        remote.fetch()
+        repo.git.stash("save")
+        remote.pull()
+        repo.git.stash("apply")
         remote_last_commit = remote.repo.head.commit
         print("Remote HEAD:", remote_last_commit)
         if remote_last_commit == last_commit:
             print("No updates found.")
             return "No updates found."
-        repo.git.stash("save")
-        remote.pull()
-        repo.git.stash("apply")
         print("Waiting for server restart")
 
     @app.get("/restart")
