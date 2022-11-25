@@ -24,7 +24,7 @@
 * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
 * [Sheriff Hemlock](^sandpoint/sheriff_hemlock.jpg)
 * [Cyrdak Drokkus](^sandpoint/cyrdak_drokkus.jpg)
-* [Father Zantus](^sandpoint/father_zantus.png)
+* [Father Zantus](^sandpoint/father_zantus.jpg)
 * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
 * [Swallowtail Butterflies](^sandpoint/swallowtail_butterfly.jpg)
 

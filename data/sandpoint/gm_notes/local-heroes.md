@@ -21,7 +21,7 @@
 * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
 * [Sheriff Belor Hemlock](^sandpoint/sheriff_hemlock.jpg)
 * [Cyrdak Drokkus](^sandpoint/cyrdak_drokkus.jpg)
-* [Father Zantus](^sandpoint/father_zantus.png)
+* [Father Zantus](^sandpoint/father_zantus.jpg)
 
 ## Story
 
@@ -49,7 +49,7 @@
 
 * 1: [Sandpoint Cathedral](^sandpoint/sandpoint_cathedral.png) (p375)
   * [Sandpoint Cathedral Interior](^sandpoint/sandpoint_cathedral_interior.jpg)
-  * [Father Abstalar Zantus](^sandpoint/father_zantus.png)
+  * [Father Abstalar Zantus](^sandpoint/father_zantus.jpg)
 * 2: Sandpoint Boneyard (p376)
   * Visual Aids: [1](^sandpoint/sandpoint_boneyard_1.jpg), [2](^sandpoint/sandpoint_boneyard_2.jpg), [night](^sandpoint/sandpoint_boneyard_night.jpg)
   * [Naffer Vosk](^sandpoint/naffer_vosk.jpg)
@@ -63,8 +63,9 @@
 * 6: Junker's Edge (p376)
 * 7: Gorvi's Shack (p376)
   * [Gorvi](^sandpoint/gorvi.jpg)
-* 8: Sage (p377)
+* 8: [Brodert Quink's Home](^sandpoint/brodert_quinks_home.jpg) (p377)
   * [Brodert Quink](^sandpoint/brodert_quink.jpg)
+  * [Misty](^sandpoint/misty.jpg), his cat
 * 9: Locksmith (p377)
   * [Volioker Briskalberd](^sandpoint/volioker_briskalberd.jpg)
 * 10: Sandpoint Garrison (p377)
@@ -75,7 +76,8 @@
 * 12: Savah's Armory (p378)
   * [Savah Bevaniky](^sandpoint/savah_bevaniky.jpg)
   * Magic Items:
-      * +1 Repeating Crossbow
+      * Smoldering studded leather (100 gp)
+      * +1 repeating crossbow (400 gp)
 * 13: Risa's Place (p378)
   * [Risa Magravi](^sandpoint/risa_magravi.jpg)
 * 14: Rovanky Tannery (p378)
@@ -90,7 +92,7 @@
   * [Jesk "Cracktooth" Berinni](^sandpoint/jesk_berinni.jpg)
 * 19: House of Blue Stones (p379)
   * [Sabyl Sorn](^sandpoint/sabyl_sorn.jpg)
-* 20: Sandpoint Glassworks (p28)
+* 20: [Sandpoint Glassworks](^sandpoint/sandpoint_glassworks_interior.jpg) (p28)
 * 21: Sandpoint Savories (p379)
   * [Alma Avertin](^sandpoint/alma_avertin.jpg)
   * [Arika Avertin](^sandpoint/arika_avertin.png)
@@ -149,9 +151,14 @@
 * 44: The Feathered Serpent (p384)
   * [Vorshali Voon](^sandpoint/vorshali_voon.jpg)
 * 45: Hannah's (p384)
-  * 
+  * [Hannah Velerin](^sandpoint/hannah_velerin.jpg)
 * 46: Sandpoint Shipyard (p384)
+  * [Belven Valdemar](^sandpoint/belven_valdemar.jpg)
 * 47: Valdemar Manor (p384)
+  * [Ethram Valdemar](^sandpoint/ethram_valdemar.jpg)
 * 48: Scarnetti Manor (p385)
+  * [Titus Scarnetti](^sandpoint/titus_scarnetti.jpg)
 * 49: Kaijitsu Manor (p385)
+  * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
 * 50: Deverin Manor (p385)
+  * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)

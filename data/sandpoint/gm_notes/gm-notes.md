@@ -29,7 +29,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
 * [Sheriff Hemlock](^sandpoint/sheriff_hemlock.jpg)
-* [Father Zantus](^sandpoint/father_zantus.png)
+* [Father Zantus](^sandpoint/father_zantus.jpg)
 * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
 
 ## Story
