@@ -18,7 +18,8 @@ Always on the lookout for danger, you gain the following benefits:
 You are adept at crafting things and bargaining with merchants, granting you the following benefits:
 
 * **Tool Proficiency.** You gain Tool Proficiency with three different Artisan's Tools of your choice.
-* **Discount.** Whenever you buy a nonmagical item, you receive a 20 percent discount on it. Faster Crafting. When you craft an item using a tool with which you have Tool Proficiency, the required crafting time is reduced by 20 percent.
+* **Discount.** Whenever you buy a nonmagical item, you receive a 20 percent discount on it.
+* **Faster Crafting.** When you craft an item using a tool with which you have Tool Proficiency, the required crafting time is reduced by 20 percent.
 
 ## Fighting Style: Archery
 
