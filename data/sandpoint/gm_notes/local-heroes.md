@@ -125,24 +125,33 @@
   * [Courrin Whesterwill](^sandpoint/courrin_whesterwill.png)
 * 33: The Hagfish (p381)
   * [Jargie Quinn](^sandpoint/jargie_quinn.jpg), [Jargie Quinn](^sandpoint/jargie_quinn_full_body.jpg) full body
-  * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.png)
-* 34: Valdemar Fishmarket
+  * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.jpg), [Norah's... mouth?](^sandpoint/norahs_mouth.jpg)
+* 34: Valdemar Fishmarket (p382)
   * [Turch Sterglus](^sandpoint/turch_sterglus.jpg)
-* 35: Sandpoint Market
-* 36: Sandpoint Meat Market
+* 35: Sandpoint Market (p382)
+* 36: Sandpoint Meat Market (p382)
+  * [Chod Bevuk](^sandpoint/chod_bevuk.jpg)
 * 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
-* 38: Goblin Squash Stables
-* 39: Two Knight Brewery
-* 40: Sandpoint Mercantile League
-* 41: Sandpoint Boutique
-* 42: Fatman's Feedbag
-* 43: The Pixie's Kitten
+* 38: Goblin Squash Stables (p383)
+  * [Daviren Hosk](^sandpoint/daviren_hosk.jpg)
+* 39: Two Knight Brewery (p383)
+  * [Gaven Deverin](^sandpoint/gaven_deverin.jpg)
+* 40: Sandpoint Mercantile League (p383)
+  * [Jasper Korvaski](^sandpoint/jasper_korvaski.jpg)
+* 41: Sandpoint Boutique (p383)
+  * [Hayliss Korvaski](^sandpoint/hayliss_korvaski.jpg)
+* 42: Fatman's Feedbag (p383)
+  * [Gressel Tenniwar](^sandpoint/gressel_tenniwar.jpg)
+  * [Jubrayl Vhiski](^sandpoint/jubrayl_vhiski.png)
+* 43: The Pixie's Kitten (p384)
   * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
-* 44: The Feathered Serpent
-* 45: Hannah's
-* 46: Sandpoint Shipyard
-* 47: Valdemar Manor
-* 48: Scarnetti Manor
-* 49: Kaijitsu Manor
-* 50: Deverin Manor
+* 44: The Feathered Serpent (p384)
+  * [Vorshali Voon](^sandpoint/vorshali_voon.jpg)
+* 45: Hannah's (p384)
+  * 
+* 46: Sandpoint Shipyard (p384)
+* 47: Valdemar Manor (p384)
+* 48: Scarnetti Manor (p385)
+* 49: Kaijitsu Manor (p385)
+* 50: Deverin Manor (p385)

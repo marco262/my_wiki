@@ -42,6 +42,7 @@ body {
     background-color: lightgray;
     padding: 20px;
     contain: content;
+    cursor: pointer;
 }
 
 #error-message {

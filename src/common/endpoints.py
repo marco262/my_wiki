@@ -17,9 +17,9 @@ PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAU
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
 visual_aid_type = "visual_aid"
-visual_aid_url = "/media/img/visual_aids/arr/arr screen.jpg"
-visual_aid_title = "Eorzea welcomes you!"
-visual_aid_version = "1.2.2"
+visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
+visual_aid_title = "The Nerds of Light"
+visual_aid_version = "1.2.3"
 websocket_list = []
 
 
