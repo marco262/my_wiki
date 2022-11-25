@@ -371,7 +371,7 @@ You have trained extensively with pole weapons that have Reach, granting you the
 
 You have developed the resilience to better withstand certain dangers, granting you the following benefits:
 
-* **Ability Score Increase.** Choose one ability in which you lack * **Saving Throw Proficiency.** Increase the chosen Ability Score by 1, to a maximum of 20.
+* **Ability Score Increase.** Choose one ability in which you lack Saving Throw Proficiency. Increase the chosen Ability Score by 1, to a maximum of 20.
 * **Saving Throw Proficiency.** You gain Saving Throw Proficiency with the chosen ability.
 
 ## Ritual Caster
