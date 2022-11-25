@@ -560,4 +560,4 @@ You can't be seen or heard by any means -- magical or nonmagical -- while you ar
 As a Bonus Action, you can take the Disengage Action, which also ends the Grappled and the Restrained Conditions on you.
 
 
-**Source: <https://www.dndbeyond.com/sources/one-dnd>**
+*Source:* <https://www.dndbeyond.com/sources/one-dnd>
