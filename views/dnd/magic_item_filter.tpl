@@ -42,33 +42,33 @@
     </tr>
 </table>
 
-<div id="show-subtypes">Show subtype options</div>
-<div id="subtypes-block" style="display: none">
+<div id="show-advanced-block">Show subtype options</div>
+<div id="advanced-block" style="display: none">
+    <div id="hide-advanced-block">Hide subtype options</div>
     <b>Subtype:</b><br>
-        <table class="no-border">
-            <tr>
-                <td>
-                    <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
-                    <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
-                    % subtypes = ["", ""] + subtypes  # Account for the (All/None) and (no subtype) checkboxes
-                    % sublist_length = ceil(len(subtypes) / 3)
-                    % for s in subtypes[2:sublist_length]:
-                        <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
-                    % end
-                </td>
-                <td>
-                    % for s in subtypes[sublist_length:sublist_length * 2]:
-                        <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
-                    % end
-                </td>
-                <td>
-                    % for s in subtypes[sublist_length * 2:]:
-                        <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
-                    % end
-                </td>
-            </tr>
-        </table>
-    <div id="hide-subtypes">Hide subtype options</div>
+    <table class="no-border">
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
+                <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
+                % subtypes = ["", ""] + subtypes  # Account for the (All/None) and (no subtype) checkboxes
+                % sublist_length = ceil(len(subtypes) / 3)
+                % for s in subtypes[2:sublist_length]:
+                    <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                % end
+            </td>
+            <td>
+                % for s in subtypes[sublist_length:sublist_length * 2]:
+                    <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                % end
+            </td>
+            <td>
+                % for s in subtypes[sublist_length * 2:]:
+                    <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>
+                % end
+            </td>
+        </tr>
+    </table>
 </div>
 
 <p>
@@ -81,6 +81,6 @@
 <div id="filter_results"><i>Filter results will appear here</i></div>
 
 <script type="module">
-    import { init_events } from "/static/js/dnd/magic_item_filter.js";
-    init_events();
+    import { init } from "/static/js/dnd/magic_item_filter.js";
+    init();
 </script>

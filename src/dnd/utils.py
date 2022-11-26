@@ -22,6 +22,7 @@ file = {}
 SPELLS = None
 SPELLS_BY_LEVEL = None
 MAGIC_ITEMS = None
+MAGIC_ITEM_SUBTYPES = []
 
 
 def init_spells_and_magic_items():
@@ -130,9 +131,10 @@ def load_spells_by_level():
 
 
 def load_magic_items():
-    global MAGIC_ITEMS
+    global MAGIC_ITEMS, MAGIC_ITEM_SUBTYPES
     if MAGIC_ITEMS:
         return MAGIC_ITEMS
+    MAGIC_ITEM_SUBTYPES = set()
     magic_items = {}
     path = None
     print("Loading magic items into memory", end='')
@@ -143,16 +145,51 @@ def load_magic_items():
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            if d["subtype"]:
+                MAGIC_ITEM_SUBTYPES.add(d["subtype"])
             magic_items[splitext(basename(path))[0]] = d
     except Exception:
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.", flush=True)
     MAGIC_ITEMS = magic_items
+    MAGIC_ITEM_SUBTYPES = sorted(MAGIC_ITEM_SUBTYPES)
     return MAGIC_ITEMS
 
 
-def get_magic_item_table(rarity_type, rarity):
+def get_magic_item_subtypes():
+    load_magic_items()
+    return MAGIC_ITEM_SUBTYPES
+
+
+def filter_magic_items(filter_keys):
+    d = {}
+    for k, v in load_magic_items().items():
+        if v["type"] not in filter_keys["type"]:
+            continue
+        if v["rarity"] not in filter_keys["rarity"]:
+            continue
+        if filter_keys["attunement"] == "yes" and not v["attunement"] or \
+                filter_keys["attunement"] == "no" and v["attunement"]:
+            continue
+        if not v["subtype"] and "no-subtype" not in filter_keys["subtype"]:
+            continue
+        if v["subtype"] and v["subtype"] not in filter_keys["subtype"]:
+            continue
+        if not v["classes"] and "no-restrictions" not in filter_keys["classes"]:
+            continue
+        if v["classes"] and not set(v["classes"]).intersection(filter_keys["classes"]):
+            continue
+        for s in filter_keys["source"]:
+            if s in v["source"]:
+                break
+        else:
+            continue
+        d[k] = v
+    return d
+
+
+def get_magic_item_table(filtered_magic_items, rarity_type, rarity):
     if rarity == "Common":
         rarity_type = "Minor"
 
@@ -371,7 +408,13 @@ def get_magic_item_table(rarity_type, rarity):
     else:
         raise ValueError(rarity_type, rarity)
 
-    for magic_item in load_magic_items().values():
+    # Remove items that are not already in the included list of filtered magic items
+    for k, v in list(table.items()):
+        if k not in filtered_magic_items:
+            del table[k]
+
+    # Add more items to the table that fit the rarity_type and rarity
+    for magic_item in filtered_magic_items.values():
         if magic_item["rarity_type"] == rarity_type and magic_item["rarity"] == rarity and \
                 magic_item["name"] not in table.keys() and magic_item["name"] not in excluded_items:
             table[magic_item["name"]] = 1

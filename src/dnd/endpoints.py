@@ -13,7 +13,7 @@ from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
 from src.dnd.utils import init_spells_and_magic_items, class_spell, open_monster_sheet, load_spells, \
-    load_spells_by_level, load_magic_items, get_magic_item_table
+    load_spells_by_level, load_magic_items, get_magic_item_table, get_magic_item_subtypes, filter_magic_items
 
 SEARCH_OBJ = Search()
 
@@ -214,48 +214,22 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/equipment/magic_item_filter/")
     @view("dnd/magic_item_filter.tpl")
     def magic_item_filter():
-        subtypes = set()
-        for k, v in load_magic_items().items():
-            if v["subtype"]:
-                subtypes.add(v["subtype"])
-        return {"subtypes": sorted(subtypes)}
+        return {"subtypes": get_magic_item_subtypes()}
 
     @app.post('/equipment/magic_item_filter_results')
     @view("dnd/magic-items.tpl")
     def magic_item_filter_results():
         filter_keys = loads(request.params["filter_keys"])
+        filtered_magic_items = filter_magic_items(filter_keys)
         results = defaultdict(list)
-        for k, v in load_magic_items().items():
-            if v["type"] not in filter_keys["type"]:
-                continue
-            if v["rarity"] not in filter_keys["rarity"]:
-                continue
-            if filter_keys["attunement"] == "yes" and not v["attunement"] or \
-                    filter_keys["attunement"] == "no" and v["attunement"]:
-                continue
-            if not v["subtype"] and "no-subtype" not in filter_keys["subtype"]:
-                continue
-            if v["subtype"] and v["subtype"] not in filter_keys["subtype"]:
-                continue
-            if not v["classes"] and "no-restrictions" not in filter_keys["classes"]:
-                continue
-            if v["classes"] and not set(v["classes"]).intersection(filter_keys["classes"]):
-                continue
-            for s in filter_keys["source"]:
-                if s in v["source"]:
-                    break
-            else:
-                continue
+        for k, v in filtered_magic_items.items():
             results[v["rarity"]].append((k, v))
-        d = {
-            "magic_items": results
-        }
-        return d
+        return {"magic_items": results}
 
     @app.get("/equipment/magic_item_generator/")
     @view("dnd/magic_item_generator.tpl")
     def magic_item_generator():
-        return
+        return {"subtypes": get_magic_item_subtypes()}
 
     @app.post("/equipment/magic_item_generator_results/")
     def magic_item_generator_results():
@@ -270,10 +244,13 @@ def load_wsgi_endpoints(app: Bottle):
             "H": ("Major", "Very Rare"),
             "I": ("Major", "Legendary"),
         }
-        args = d.get(request.params["table_name"].upper())
-        if not args:
+        table_type = d.get(request.params["table_name"].upper())
+        if not table_type:
             return HTTPError(status=406, body=f'No magic item table {request.params["table_name"]}')
-        table = get_magic_item_table(*args)
+        rarity_type, rarity = table_type
+        filter_keys = loads(request.params["filter_keys"])
+        filtered_magic_items = filter_magic_items(filter_keys)
+        table = get_magic_item_table(filtered_magic_items, rarity_type, rarity)
         items_with_weights = list(table.items())
         _, weights = zip(*items_with_weights)
         spells_by_level = load_spells_by_level()

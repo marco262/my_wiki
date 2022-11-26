@@ -1,16 +1,23 @@
 import { ajax_call, getCookie, setCookie } from "../common/utils.js";
 
-export function init_events() {
-    let filter_state = getCookie("magic_item_filter_state");
+let cookie_name = "";
+
+export function init() {
+    init_events("magic_item_filter_state");
+    document.getElementById("filter_button").onclick = filter;
+    filter();
+}
+
+export function init_events(v_cookie_name) {
+    cookie_name = v_cookie_name;
+    let filter_state = getCookie(cookie_name);
     if (filter_state !== "") {
         set_ui_state(JSON.parse(filter_state));
     }
-    document.getElementById("filter_button").onclick = filter;
     document.getElementById("reset_button").onclick = reset_ui;
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
-    document.getElementById("show-subtypes").onclick = on_click_show_subtypes;
-    document.getElementById("hide-subtypes").onclick = on_click_hide_subtypes;
-    filter();
+    document.getElementById("show-advanced-block").onclick = on_click_show_advanced;
+    document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced;
 }
 
 function filter() {
@@ -23,7 +30,7 @@ function handle_filter_results(xhttp) {
     document.getElementById("filter_results").innerHTML = xhttp.responseText;
 }
 
-function get_ui_state() {
+export function get_ui_state() {
     let d = {};
     let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
     checkboxes.forEach(checkbox_name => d[checkbox_name] = get_checkboxes(checkbox_name));
@@ -46,7 +53,7 @@ function reset_ui() {
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, "both"));
     let json = JSON.stringify(get_ui_state());
-    setCookie("magic_item_filter_state", json);
+    setCookie(cookie_name, json);
 }
 
 function check_all(e) {
@@ -88,12 +95,12 @@ function set_radio_group_value(name, value) {
     }
 }
 
-function on_click_show_subtypes(e) {
-    document.getElementById("show-subtypes").style.display = "none";
-    document.getElementById("subtypes-block").style.display = "block";
+function on_click_show_advanced(e) {
+    document.getElementById("show-advanced-block").style.display = "none";
+    document.getElementById("advanced-block").style.display = "block";
 }
 
-function on_click_hide_subtypes(e) {
-    document.getElementById("show-subtypes").style.display = "block";
-    document.getElementById("subtypes-block").style.display = "none";
+function on_click_hide_advanced(e) {
+    document.getElementById("show-advanced-block").style.display = "block";
+    document.getElementById("advanced-block").style.display = "none";
 }
