@@ -148,7 +148,7 @@
   * [Jubrayl Vhiski](^sandpoint/jubrayl_vhiski.png)
 * 43: The Pixie's Kitten (p384)
   * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
-* 44: The Feathered Serpent (p384)
+* 44: [The Feathered Serpent](^sandpoint/feathered_serpent.jpg) (p384)
   * [Vorvashali Voon](^sandpoint/vorvashali_voon.jpg)
 * 45: Hannah's (p384)
   * [Hannah Velerin](^sandpoint/hannah_velerin.jpg)
