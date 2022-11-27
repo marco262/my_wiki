@@ -149,7 +149,7 @@
 * 43: The Pixie's Kitten (p384)
   * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
 * 44: The Feathered Serpent (p384)
-  * [Vorshali Voon](^sandpoint/vorshali_voon.jpg)
+  * [Vorvashali Voon](^sandpoint/vorvashali_voon.jpg)
 * 45: Hannah's (p384)
   * [Hannah Velerin](^sandpoint/hannah_velerin.jpg)
 * 46: Sandpoint Shipyard (p384)
