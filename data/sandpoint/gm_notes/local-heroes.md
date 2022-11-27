@@ -150,6 +150,7 @@
   * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
 * 44: [The Feathered Serpent](^sandpoint/feathered_serpent.jpg) (p384)
   * [Vorvashali Voon](^sandpoint/vorvashali_voon.jpg)
+  * Lyse put 5gp on layaway for Illuminator's Tattoo
 * 45: Hannah's (p384)
   * [Hannah Velerin](^sandpoint/hannah_velerin.jpg)
 * 46: Sandpoint Shipyard (p384)
