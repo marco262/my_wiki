@@ -32,7 +32,7 @@
   * [Tickwood Forest](^sandpoint/tickwood_forest.jpg)
   * [Boar](^sandpoint/boar.jpg) ([[npc cr=2]])
 * Trouble at the Rusty Dragon
-  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
+  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
   * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
   * "Ore no musume wa **doko** ni iru no??" = "Where the hell is my daughter?"
   * "Ha**ha**oya, to onaji, kurai shinde imasu." = "You're as dead to me as your mother."
