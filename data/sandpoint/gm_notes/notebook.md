@@ -1,6 +1,4 @@
 
 
-Savah's Armory stock:
-
-* Smoldering studded leather (100 gp)
-* +1 repeating crossbow (400 gp)
+* Lyse put 5gp on layaway for Illuminator's Tattoo
+* Fix audio for Local Heroes
