@@ -116,9 +116,54 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 50: Deverin Manor
   * [Mayor Kendra Deverin](@sandpoint/kendra_deverin.jpg)
 
-# Other NPCs
+### Other NPCs
 
 * [Aldern Foxglove](@sandpoint/aldern_foxglove.jpg)
+* Jervis Stoot, deceased
+  * Beloved carver of birds
+  * Serial killer, known as the Chopper
+* Ezakien Tobyn, deceased
+  * Previous head priest of Sandpoint
+  * Died in the Sandpoint Fire
+* Nualia, deceased
+  * Foundling
+  * Adopted daughter of Ezakien Tobyn
+  * Incredibly beautiful, thought to be "blessed by Desna" by the people of Sandpoint
+  * Conceived a child with Delek Viskanta, a local Varisian youth
+  * When he found out about her pregnancy Delek ran away from Sandpoint
+  * Father Tobyn sequestered her at the Chapel
+  * Miscarried
+  * Died in the Sandpoint Fire
+
+[[accordion What you've learn so far about Sandpoint's history...]]
+
+Throughout its history, Sandpoint has been thankfully free of major disasters. Only two events stand out as recent tragedies: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
+
+### The Chopper
+
+When Jervis Stoot made clear his intentions to build a home on the then-nameless tidal island just north of the Old Light, many worried that he'd break his neck climbing up and down the isle's cliffs. Jervis had already garnered something of a reputation for eccentricity when he began his one-man crusade to carve depictions of birds on every building in town. Stoot never made a carving without securing permission, but his incredible skill at woodcarving made it a given that, if Stoot picked your building as the site of his latest project, you seized the opportunity. "Sporting a Stoot" soon grew to be something of a bragging point, and Jervis eventually extended his gift to include ships and carriages. Those who asked or tried to pay him for his skill were rebuffed -- Stoot told them, "There ain't no birds in that wood for me t'set free," and went on his way, often wandering the streets for days before noticing a hidden bird in a fence post, lintel, steeple, or doorframe, which he'd then secure permission to "release" with his trusty hatchets and carving knives.
+
+Stoot's excuse for wanting to move onto the isle seemed innocent enough. The place was a haven for local birdlife, and his claim of "wantin' ta be with th' birds" seemed to make sense -- so much so, in fact, that the guild of carpenters (with whom Stoot had maintained a friendly competition for several years) volunteered to build a staircase, free of charge, along the southern cliff face so that Stoot could come and go from his new home without risking life and limb. For 15 years, Stoot lived on the island. His trips into town grew less and less frequent, making it something of an event when he chose a building to host a new Stoot.
+
+Sandpoint was no stranger to crime, or even to murder. Once or twice in a year, passions flared, robberies went bad, jealousy grew too much to bear, or one too many drinks were drunk, and someone would end up dead. But when bodies began to mount in late 4702 AR, the town initially had no idea how to react. Sandpoint's sheriff at the time was a no-nonsense man named Casp Avertin, a retired city watch officer from Magnimar. Yet even he was ill-prepared for the murderer who came to be known as Chopper. Over the course of one long month, it seemed that every day brought a new victim to light. Each was found in the same terrible state: body bearing deep cuts to the neck and torso, hands and feet severed and stacked nearby, and the eyes and tongue missing entirely, having been plucked crudely from each head.
+
+Over the course of that terrible month, Chopper claimed 25 victims. His uncanny knack at eluding traps and pursuit quickly wore on the town guard, taking a toll on Sheriff Avertin in particular, who increasingly took to drinking. In any event, Sheriff Avertin himself became Chopper's last victim, slain upon catching the murderer in a narrow lane -- known now as Chopper's Alley -- as he was mutilating his latest victim. In the battle that followed, Avertin landed a telling blow against the killer. When Belor Hemlock, then merely a town guard, found both bodies (Avertin's and the penultimate victim) several minutes later, he rallied the guards, and they were able to follow the killer's bloody trail.
+
+The trail led straight to the stairs of Stoot's Rock.
+
+At first, the town guard refused to believe the implications, and feared that Chopper had come to claim poor Jervis Stoot as his 26th victim. Yet what the guards found in the modest home atop the isle and in the larger complex of rooms that had been carved into the bedrock below left no room for doubt. Jervis Stoot and Chopper were one and the same, and the eyes and tongues of all 25 victims were found upon a horrific altar to a vile demon lord of winged creatures and temptation whose name none dared speak aloud. Stoot himself was found dead at the base of the altar, having plucked his own eyes and tongue loose in a final offering. The guards collapsed the entrance to the lower chambers, burned Stoot's house, tore down the stairs, and did their best to forget. Stoot himself was burned on the beach in a pyre, his ashes blessed and then scattered in an attempt to stave off an unholy return of his evil spirit.
+
+### The Sandpoint Fire
+
+But as fate would have it, the people ofSandpoint would soon have a new tragedy to bear, one that almost eclipsed Chopper's rampage. A month after the murderer was slain, a terrible fire struck Sandpoint. The fire started in the Sandpoint Chapel and spread quickly. As the town rallied to save the church, the inferno expanded, consuming the North Coast Stables, the White Deer Inn, and three homes. In the end, the church burnt to the ground, leaving the town's beloved priest Ezakien Tobyn and his beautiful, adopted daughter Nualia dead.
+
+### Recent Events
+
+All that remains today of the once-loved Stoot carvings are ragged scars on buildings and figureheads where owners used hatchets to remove what had become a haunting reminder of the wolf in the fold. The homes and businesses ravaged by the fire have been reconstructed, and the Sandpoint Chapel has finally been rebuilt as well. With the consecration of this new cathedral, Sandpoint had hoped to finally put the dark times of the Late Unpleasantness in the past.
+
+Unfortunately, there was one more tragedy in store for the people of Sandpoint. During the Swallowtail Festival, an annual celebration in honor of Desna, the goddess of freedom and luck, goblins attacked Sandpoint, injuring many residents and nearly burning down the newly built cathedral. Though the cathedral was saved and the goblins killed or driven off by newly arrived adventurers, it was later discovered that a tomb behind the cathedral was robbed during the chaos, and the thieves' made off with the burnt remains of Father Tobyn. To what end, however, is anyone's guess...  
+
+[[/accordion]]
 
 [[accordion And a few other places...]]
 
