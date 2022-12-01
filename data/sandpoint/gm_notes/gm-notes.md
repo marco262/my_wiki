@@ -14,6 +14,12 @@ Enter another URL to set as Visual Aid here:
 
 <input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
 
+## Resources
+
+* [Timeline of Events](https://rise-of-the-runelords-rphaven.obsidianportal.com/wikis/timeline-of-events)
+
+## Visual Aids
+
 * [Welcome to Varisia!](^sandpoint/varisia.jpg)
 * [Magnimar](^sandpoint/magnimar2.jpg)
 * Sandpoint [1](^sandpoint/sandpoint1.jpg) [2](^sandpoint/sandpoint2.jpg) [3](^sandpoint/sandpoint3.jpg) 

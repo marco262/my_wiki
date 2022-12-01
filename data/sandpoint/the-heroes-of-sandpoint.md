@@ -5,6 +5,8 @@
 
 <link rel="stylesheet" type="text/css" href="/static/css/sandpoint.css">
 
+**Current Year:** 4707 AR
+
 # The Heroes
 
 * Rusty Stoutfield, human fighter
@@ -24,16 +26,6 @@
 Dotted with the monolithic relics of an empire long since crumbled, Varisia is a rough but majestic land, its misty forests and rolling plains bordered by sharp peaks and bountiful seas. Its people, recently released from colonialism, are hardy frontier folk and new-money nobles, all eager to carve names for themselves from Varisia's stern landscape. Yet beyond their village borders, beasts and giants unused to civilization's encroachment stalk the hills and woods, making short work of both the unwary and the bold.
 
 What follows is a gazetteer of the region known as Varisia. While much of this rugged land remains unexplored, what little is known tempts the daring and holds the potential for untold adventure. For fortune hunters, Varisia is a land of limitless opportunity, its ancient monuments reminding them just how far the truly driven can rise.
-
-## Magnimar
-
-<div class="map-float">
-    <a href="/media/img/visual_aids/sandpoint/magnimar_map.jpg" target="_blank">
-        <img src="/media/img/visual_aids/sandpoint/magnimar_map.jpg">
-    </a>
-</div>
-
-Founded by former Korvosans seeking to throw off Chelish rule and form a democratic metropolis, the renowned City of Monuments lies at the southern tip of the Varisian Gulf, built up around one of the last surviving remnants of the enormous bridge that purportedly once stretched all the way to Hollow Mountain.
 
 ## Sandpoint
 
@@ -137,7 +129,7 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 
 [[accordion What you've learn so far about Sandpoint's history...]]
 
-Throughout its history, Sandpoint has been thankfully free of major disasters. Only two events stand out as recent tragedies: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
+Throughout its history, Sandpoint has been thankfully free of major disasters. Only two events stand out as significant tragedies: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
 
 ### The Chopper
 
@@ -164,6 +156,16 @@ All that remains today of the once-loved Stoot carvings are ragged scars on buil
 Unfortunately, there was one more tragedy in store for the people of Sandpoint. During the Swallowtail Festival, an annual celebration in honor of Desna, the goddess of freedom and luck, goblins attacked Sandpoint, injuring many residents and nearly burning down the newly built cathedral. Though the cathedral was saved and the goblins killed or driven off by newly arrived adventurers, it was later discovered that a tomb behind the cathedral was robbed during the chaos, and the thieves' made off with the burnt remains of Father Tobyn. To what end, however, is anyone's guess...  
 
 [[/accordion]]
+
+## Magnimar
+
+<div class="map-float">
+    <a href="/media/img/visual_aids/sandpoint/magnimar_map.jpg" target="_blank">
+        <img src="/media/img/visual_aids/sandpoint/magnimar_map.jpg">
+    </a>
+</div>
+
+Founded by former Korvosans seeking to throw off Chelish rule and form a democratic metropolis, the renowned City of Monuments lies at the southern tip of the Varisian Gulf, built up around one of the last surviving remnants of the enormous bridge that purportedly once stretched all the way to Hollow Mountain.
 
 [[accordion And a few other places...]]
 
