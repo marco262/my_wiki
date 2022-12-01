@@ -444,6 +444,10 @@ blockquote {
     visibility: visible;
 }
 
+.popup-link:hover .visual-aid-hover {
+    visibility: visible;
+}
+
 .visual-aid-hover-img {
     height: 100%;
     width: 100%;

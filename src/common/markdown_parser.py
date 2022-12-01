@@ -86,6 +86,7 @@ class MarkdownParser:
 
     @staticmethod
     def convert_popup_links(text):
+        # Convert visual aid links
         pattern = r"\[([^]]+?)]\(([\^\$])(.*?)\)"
         for m in re.finditer(pattern, text):
             if m.group(2) == "^":
@@ -98,6 +99,15 @@ class MarkdownParser:
                 replace = f'<span class="visual-aid-link" title="{m.group(3)}">{m.group(1)}</span>'
             else:
                 raise ValueError(f"Unknown link flag: {m.group(2)}")
+            text = text.replace(m.group(0), replace)
+        # Convert popup links
+        pattern = r"\[([^]]+?)]\(([\@])(.*?)\)"
+        for m in re.finditer(pattern, text):
+            url = m.group(3)
+            if not url.startswith("http"):
+                url = "/media/img/visual_aids/" + url
+            hover_panel = f'<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="{url}"></span>'
+            replace = f'<a href="{url}" class="popup-link" target="_blank">{m.group(1)}{hover_panel}</a>'
             text = text.replace(m.group(0), replace)
         return text
 

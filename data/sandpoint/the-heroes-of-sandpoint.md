@@ -13,14 +13,6 @@
 * Althaea Meliamne, elven fighter
 * Oscar "Grog" Deadhand, half-orc ranger
 
-# The NPCs
-
-* <a href="/media/img/visual_aids/sandpoint/kendra_deverin.jpg" target="_blank">Mayor Kendra Deverin</a>
-* <a href="/media/img/visual_aids/sandpoint/sheriff_hemlock.jpg" target="_blank">Sheriff Hemlock</a>
-* <a href="/media/img/visual_aids/sandpoint/cyrdak_drokkus.jpg" target="_blank">Cyrdak Drokkus</a>
-* <a href="/media/img/visual_aids/sandpoint/father_zantus.png" target="_blank">Father Zantus</a>
-* <a href="/media/img/visual_aids/sandpoint/ameiko_kaijitsu_1.png" target="_blank">Ameiko Kaijitsu</a>
-
 # Varisia, Cradle of Legends
 
 <div class="map-float">
@@ -46,13 +38,87 @@ Founded by former Korvosans seeking to throw off Chelish rule and form a democra
 ## Sandpoint
 
 <div class="map-float">
-    <a href="/media/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg" target="_blank">
-        <img src="/media/img/visual_aids/sandpoint/sandpoint_map_with_labels.jpeg">
+    <a href="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg" target="_blank">
+        <img src="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg">
     </a>
 </div>
 
 Sandpoint is a sleepy fishing town known primarily for its excellent theater and exquisite glassblowing, and is the only settlement of note on the Lost Coast. Of late, the town has been experiencing an unusual spate of murders and goblin troubles...
 
+### People and Places
+
+* 1: [Sandpoint Cathedral](@sandpoint/sandpoint_cathedral.png)
+  * [Interior](@sandpoint/sandpoint_cathedral_interior.jpg)
+  * [Father Abstalar Zantus](@sandpoint/father_zantus.jpg), head priest of Sandpoint
+* 2: Sandpoint Boneyard
+  * [Day](@sandpoint/sandpoint_boneyard_1.jpg), [Day](@sandpoint/sandpoint_boneyard_2.jpg), [Night](@sandpoint/sandpoint_boneyard_night.jpg)
+* 3: The White Deer
+* 4: The Way North
+  * [Veznutt Parooh](@sandpoint/veznutt_parooh.jpg), owner
+* 5: Jeweler
+* 6: Junker's Edge
+* 7: Gorvi's Shack
+* 8: [Brodert Quink's Home](@sandpoint/brodert_quinks_home.jpg)
+  * [Brodert Quink](@sandpoint/brodert_quink.jpg), local sage and historian specializing in Thassilonian structures
+  * [Misty](@sandpoint/misty.jpg), his cat
+* 9: Locksmith
+* 10: Sandpoint Garrison
+  * [Sheriff Belor Hemlock](@sandpoint/sheriff_hemlock.jpg)
+  * [Vachedi](@sandpoint/vachedi.jpg), jailer
+* 11: Sandpoint Town Hall
+  * [Mayor Kendra Deverin](@sandpoint/kendra_deverin.jpg)
+* 12: Savah's Armory
+  * [Savah Bevaniky](@sandpoint/savah_bevaniky.jpg), owner
+  * Magic Items available:
+      * Smoldering studded leather (100 gp)
+      * +1 repeating crossbow (400 gp)
+* 13: Risa's Place
+* 14: Rovanky Tannery
+* 15: Red Dog Smithy
+* 16: The Pillbug's Pantry
+* 17: Bottled Solutions
+* 18: Cracktooth's Tavern
+* 19: House of Blue Stones
+* 20: Sandpoint Glassworks
+* 21: Sandpoint Savories
+* 22: The Curious Goblin
+* 23: Sandpoint Theater
+  * [Cyrdak Drokkus](@sandpoint/cyrdak_drokkus.jpg), owner and enthusiastic patron of the arts
+* 24: Carpenter's Guild
+* 25: Sandpoint Lumber Mill
+* 26: General Store
+* 27: Turandurok Academy
+* 28: Madame Mvashti's House
+* 29: Grocer's Hall
+* 30: Vernah's Fine Clothing
+* 31: Wheen's Wagons
+* 32: Scarnetti Mill
+* 33: The Hagfish
+* 34: Valdemar Fishmarket
+* 35: Sandpoint Market
+* 36: Sandpoint Meat Market
+* 37: [The Rusty Dragon](@sandpoint/rusty_dragon_interior.jpg)
+  * [Ameiko Kaijitsu](@sandpoint/ameiko_kaijitsu_2.jpg), owner
+* 38: Goblin Squash Stables
+* 39: Two Knight Brewery
+* 40: Sandpoint Mercantile League
+* 41: Sandpoint Boutique
+* 42: Fatman's Feedbag
+* 43: The Pixie's Kitten
+* 44: [The Feathered Serpent](@sandpoint/feathered_serpent.jpg)
+  * [Vorvashali Voon](@sandpoint/vorvashali_voon.jpg), owner
+  * Lyse put 5gp on layaway for [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo)
+* 45: Hannah's
+* 46: Sandpoint Shipyard
+* 47: Valdemar Manor
+* 48: Scarnetti Manor
+* 49: Kaijitsu Manor
+* 50: Deverin Manor
+  * [Mayor Kendra Deverin](@sandpoint/kendra_deverin.jpg)
+
+# Other NPCs
+
+* [Aldern Foxglove](@sandpoint/aldern_foxglove.jpg)
 
 [[accordion And a few other places...]]
 
