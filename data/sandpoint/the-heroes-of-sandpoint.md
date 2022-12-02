@@ -127,13 +127,13 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
   * Miscarried
   * Died in the Sandpoint Fire
 
-[[accordion What you've learn so far about Sandpoint's history...]]
+[[accordion What you've learned so far about Sandpoint's history...]]
 
 Throughout its history, Sandpoint has been thankfully free of major disasters. Only two events stand out as significant tragedies: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
 
 ### The Chopper
 
-When Jervis Stoot made clear his intentions to build a home on the then-nameless tidal island just north of the Old Light, many worried that he'd break his neck climbing up and down the isle's cliffs. Jervis had already garnered something of a reputation for eccentricity when he began his one-man crusade to carve depictions of birds on every building in town. Stoot never made a carving without securing permission, but his incredible skill at woodcarving made it a given that, if Stoot picked your building as the site of his latest project, you seized the opportunity. "Sporting a Stoot" soon grew to be something of a bragging point, and Jervis eventually extended his gift to include ships and carriages. Those who asked or tried to pay him for his skill were rebuffed -- Stoot told them, "There ain't no birds in that wood for me t'set free," and went on his way, often wandering the streets for days before noticing a hidden bird in a fence post, lintel, steeple, or doorframe, which he'd then secure permission to "release" with his trusty hatchets and carving knives.
+When Jervis Stoot made clear his intentions to build a home on the then-nameless tidal island just north of the Old Light, many worried that he'd break his neck climbing up and down the isle's cliffs. Jervis had already garnered something of a reputation for eccentricity when he began his one-man crusade to carve depictions of birds on every building in town. Stoot never made a carving without securing permission, but his incredible skill at woodcarving made it a given that, if Stoot picked your building as the site of his latest project, you seized the opportunity. "Sporting a Stoot" soon grew to be something of a bragging point, and Jervis eventually extended his gift to include ships and carriages. Those who asked or tried to pay him for his skill were rebuffed -- Stoot told them, "There ain't no birds in that wood for me t'set free," and went on his way, often wandering the streets for days before noticing a hidden bird in a fence post, lintel, steeple, or door frame, which he'd then secure permission to "release" with his trusty hatchets and carving knives.
 
 Stoot's excuse for wanting to move onto the isle seemed innocent enough. The place was a haven for local birdlife, and his claim of "wantin' ta be with th' birds" seemed to make sense -- so much so, in fact, that the guild of carpenters (with whom Stoot had maintained a friendly competition for several years) volunteered to build a staircase, free of charge, along the southern cliff face so that Stoot could come and go from his new home without risking life and limb. For 15 years, Stoot lived on the island. His trips into town grew less and less frequent, making it something of an event when he chose a building to host a new Stoot.
 
@@ -147,7 +147,7 @@ At first, the town guard refused to believe the implications, and feared that Ch
 
 ### The Sandpoint Fire
 
-But as fate would have it, the people ofSandpoint would soon have a new tragedy to bear, one that almost eclipsed Chopper's rampage. A month after the murderer was slain, a terrible fire struck Sandpoint. The fire started in the Sandpoint Chapel and spread quickly. As the town rallied to save the church, the inferno expanded, consuming the North Coast Stables, the White Deer Inn, and three homes. In the end, the church burnt to the ground, leaving the town's beloved priest Ezakien Tobyn and his beautiful, adopted daughter Nualia dead.
+But as fate would have it, the people of Sandpoint would soon have a new tragedy to bear, one that almost eclipsed Chopper's rampage. A month after the murderer was slain, a terrible fire struck Sandpoint. The fire started in the Sandpoint Chapel and spread quickly. As the town rallied to save the church, the inferno expanded, consuming the North Coast Stables, the White Deer Inn, and three homes. In the end, the church burnt to the ground, leaving the town's beloved priest Ezakien Tobyn and his beautiful, adopted daughter Nualia dead.
 
 ### Recent Events
 
