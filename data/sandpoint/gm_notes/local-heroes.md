@@ -13,8 +13,9 @@
 [Stop all sounds]($stop|all|none)
 
 * [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
-* [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
-* [Tavern Ambience]($load|youtube|https://www.youtube.com/watch?v=rv3Nl-Od9YU)
+* [Coastal Town]($load|ambience|sandpoint/D&D Ambience - Coastal Town.mp3)
+* [Tavern Ambience]($load|ambience|sandpoint/Fireplace Sounds - Medieval Tavern - Inn Ambience _ 1 hour.mp3)
+* [Forest Ambience]($load|ambience|sandpoint/Forest Sounds _ Woodland Ambience, Bird Song.mp3)
 
 ## NPCs
 
@@ -30,7 +31,8 @@
 * Boar Hunt
   * [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg)
   * [Tickwood Forest](^sandpoint/tickwood_forest.jpg)
-  * [Boar](^sandpoint/boar.jpg) ([[npc cr=2]])
+  * [Goretusk](^sandpoint/boar.jpg) ([[npc cr=2]])
+      * Sounds: [distant]($load|effect|sandpoint/distant_boar.ogg), [1]($load|effect|sandpoint/boar_1.ogg), [2]($load|effect|sandpoint/boar_2.ogg), [3]($load|effect|sandpoint/boar_3.ogg), [injured 1]($load|effect|sandpoint/injured_boar_1.ogg), [injured 2]($load|effect|sandpoint/injured_boar_2.ogg), [dying]($load|effect|sandpoint/dying_boar.ogg) 
 * Trouble at the Rusty Dragon
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
   * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
