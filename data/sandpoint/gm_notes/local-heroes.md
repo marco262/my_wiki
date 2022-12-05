@@ -49,6 +49,8 @@
 
 ## Sandpoint
 
+[Sandpoint Map](@sandpoint/sandpoint_gm_map.jpg)
+
 * 1: [Sandpoint Cathedral](^sandpoint/sandpoint_cathedral.png) (p375)
   * [Sandpoint Cathedral Interior](^sandpoint/sandpoint_cathedral_interior.jpg)
   * [Father Abstalar Zantus](^sandpoint/father_zantus.jpg)
@@ -135,7 +137,7 @@
 * 35: Sandpoint Market (p382)
 * 36: Sandpoint Meat Market (p382)
   * [Chod Bevuk](^sandpoint/chod_bevuk.jpg)
-* 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg)
+* 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg) (p382)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
 * 38: Goblin Squash Stables (p383)
   * [Daviren Hosk](^sandpoint/daviren_hosk.jpg)
