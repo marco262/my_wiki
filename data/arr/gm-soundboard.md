@@ -38,6 +38,10 @@
 * [BGM ORCH 179-Ambient Kitchen.mp3]($load|ambience|arr/BGM_ORCH_179-Ambient Kitchen.mp3)
 * [BGM ORCH 230-Ambient Wind Chime.mp3]($load|ambience|arr/BGM_ORCH_230-Ambient Wind Chime.mp3)
 * [BGM ORCH 231-Ambient Abyss.mp3]($load|ambience|arr/BGM_ORCH_231-Ambient Abyss.mp3)
+* [BGM ORCH 203-Babbling Brook.mp3]($load|ambience|arr/BGM_ORCH_203-Babbling Brook.mp3)
+* [BGM ORCH 204-Bustling Boulevard.mp3]($load|ambience|arr/BGM_ORCH_204-Bustling Boulevard.mp3)
+* [BGM ORCH 205-Temple Bell.mp3]($load|ambience|arr/BGM_ORCH_205-Temple Bell.mp3)
+* [BGM ORCH 206-Chapel Bell.mp3]($load|ambience|arr/BGM_ORCH_206-Chapel Bell.mp3)
 
 *Crowd/Fighting*
 
@@ -119,10 +123,6 @@ Downloaded from <https://ffxiv.tylian.net>
 * [BGM ORCH 136-Canticle.mp3]($load|music|arr/BGM_ORCH_136-Canticle.mp3)
 * [BGM ORCH 137-Forever Lost.mp3]($load|music|arr/BGM_ORCH_137-Forever Lost.mp3)
 * [BGM ORCH 202-Starlit Gateway.mp3]($load|music|arr/BGM_ORCH_202-Starlit Gateway.mp3)
-* [BGM ORCH 203-Babbling Brook.mp3]($load|music|arr/BGM_ORCH_203-Babbling Brook.mp3)
-* [BGM ORCH 204-Bustling Boulevard.mp3]($load|music|arr/BGM_ORCH_204-Bustling Boulevard.mp3)
-* [BGM ORCH 205-Temple Bell.mp3]($load|music|arr/BGM_ORCH_205-Temple Bell.mp3)
-* [BGM ORCH 206-Chapel Bell.mp3]($load|music|arr/BGM_ORCH_206-Chapel Bell.mp3)
 * [BGM ORCH 207-Crimson Sunset.mp3]($load|music|arr/BGM_ORCH_207-Crimson Sunset.mp3)
 
 [[/accordion]]
