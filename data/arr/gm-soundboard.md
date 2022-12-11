@@ -76,7 +76,7 @@
 ||[Saltswept]($load|music|arr/BGM_ORCH_130-Saltswept.mp3) || ARR, Sailory || La Noscea Indoors Music ||
 
 ## Middle La Noscea
-||[On Westerly Winds]($load|music|arr/BGM_ORCH_058-One Westerly Winds.mp3) || ARR || Middle La Noscea Field Theme ||
+||[On Westerly Winds]($load|music|arr/BGM_ORCH_058-On Westerly Winds.mp3) || ARR || Middle La Noscea Field Theme ||
 ||[On Windy Meadows]($load|music|arr/On Windy Meadows.mp3) || 1.0, Sailory || 1.0 Limsa Lominsa theme ||
 ||[Homestead]($load|music|arr/BGM_ORCH_103-Homestead.mp3) || ARR, Peaceful || Indoors music ||
 ||[Another Round]($load|music|arr/BGM_ORCH_009-Another Round.mp3) || ARR, Cheerful || Bar music ||
