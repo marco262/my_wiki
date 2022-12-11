@@ -56,7 +56,7 @@
 * [Limsa Lominsa Opening - On Windy Meadows]($load|music|arr/FFXIV OST - Limsa Lominsa Opening - On Windy Meadows.mp3)
 
 # Specific Instance
-||= Sound ||= Tags ||= Usage ||
+||~ Sound ||~ Tags ||~ Usage ||
 ||[ARR Login Screen]($load|music|arr/ARR Login Screen.mp3) || ARR, Peaceful || ARR Login Screen ||
 ||[BGM ORCH 079-Dragonsong.mp3]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
 
