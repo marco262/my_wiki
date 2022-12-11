@@ -60,6 +60,12 @@
 ||[ARR Login Screen]($load|music|arr/ARR Login Screen.mp3) || ARR, Peaceful || ARR Login Screen ||
 ||[BGM ORCH 079-Dragonsong.mp3]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
 
+# Locations
+|||||| Limsa Lominsa ||
+||~ Sound ||~ Tags ||~ Usage ||
+||[I Am the Sea]($load|music|arr/FFXIV OST Limsa Lominsa Day Time Theme - I Am the Sea.mp3)|| || Limsa Lominsa: Daytime||
+
+
 [[accordion Uncategorized Music]]
 
 Downloaded from <https://ffxiv.tylian.net>
