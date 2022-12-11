@@ -2,6 +2,7 @@
 * Veznutt asked to look for a map of Sandpoint prior to the Sandpoint Chapel burning down
 * Add pictures for Goblin Squash Stables
 * Add pictures for Fatman's Feedbag
+* Get pictures/description of an egg for Grog to find.
 
 
 Silly notes:
