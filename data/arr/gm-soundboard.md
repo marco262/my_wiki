@@ -61,7 +61,7 @@
 ||[BGM ORCH 079-Dragonsong.mp3]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
 
 # Locations
-|||||| Limsa Lominsa ||
+||||||~ Limsa Lominsa ||
 ||~ Sound ||~ Tags ||~ Usage ||
 ||[I Am the Sea]($load|music|arr/FFXIV OST Limsa Lominsa Day Time Theme - I Am the Sea.mp3)|| || Limsa Lominsa: Daytime||
 
