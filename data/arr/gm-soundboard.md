@@ -30,6 +30,14 @@
 * [Sea Birds]($load|ambience|Seagulls and various birds - ambience on Lake Superior - some surf - loud birds_.mp3)
 * Underwater Tone [1]($load|ambience|EFX SD Underwater World 01.mp3), [2]($load|ambience|underwater_drone_041.mp3), [3]($load|ambience|underwater_drone_042.mp3)
 * [Underwater Bubbles]($load|ambience|Uw Amb 03.mp3)
+* [BGM ORCH 161-Ambient Birdsong.mp3]($load|ambience|arr/BGM_ORCH_161-Ambient Birdsong.mp3)
+* [BGM ORCH 162-Ambient Rainfall.mp3]($load|ambience|arr/BGM_ORCH_162-Ambient Rainfall.mp3)
+* [BGM ORCH 163-Ambient Cricketsong.mp3]($load|ambience|arr/BGM_ORCH_163-Ambient Cricketsong.mp3)
+* [BGM ORCH 177-Ambient Insects.mp3]($load|ambience|arr/BGM_ORCH_177-Ambient Insects.mp3)
+* [BGM ORCH 178-Ambient Bonfire.mp3]($load|ambience|arr/BGM_ORCH_178-Ambient Bonfire.mp3)
+* [BGM ORCH 179-Ambient Kitchen.mp3]($load|ambience|arr/BGM_ORCH_179-Ambient Kitchen.mp3)
+* [BGM ORCH 230-Ambient Wind Chime.mp3]($load|ambience|arr/BGM_ORCH_230-Ambient Wind Chime.mp3)
+* [BGM ORCH 231-Ambient Abyss.mp3]($load|ambience|arr/BGM_ORCH_231-Ambient Abyss.mp3)
 
 *Crowd/Fighting*
 
@@ -61,10 +69,25 @@
 ||[BGM ORCH 079-Dragonsong.mp3]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
 
 # Locations
-||||||~ Limsa Lominsa ||
+## Limsa Lominsa
 ||~ Sound ||~ Tags ||~ Usage ||
-||[I Am the Sea]($load|music|arr/FFXIV OST Limsa Lominsa Day Time Theme - I Am the Sea.mp3)|| || Limsa Lominsa: Daytime||
+||[I Am the Sea]($load|music|arr/FFXIV OST Limsa Lominsa Day Time Theme - I Am the Sea.mp3)|| ARR || Limsa Lominsa: Daytime||
+||[A Sailor Never Sleeps]($load|music|arr/FFXIV OST Limsa Lominsa Night Time Theme - A Sailor Never Sleeps.mp3)|| ARR || Limsa Lominsa: Night Time||
+||[Saltswept]($load|music|arr/BGM_ORCH_130-Saltswept.mp3) || ARR, Sailory || La Noscea Indoors Music ||
 
+## Middle La Noscea
+||[On Westerly Winds]($load|music|arr/BGM_ORCH_058-One Westerly Winds.mp3) || ARR || Middle La Noscea Field Theme ||
+||[On Windy Meadows]($load|music|arr/On Windy Meadows.mp3) || 1.0, Sailory || 1.0 Limsa Lominsa theme ||
+||[Homestead]($load|music|arr/BGM_ORCH_103-Homestead.mp3) || ARR, Peaceful || Indoors music ||
+||[Another Round]($load|music|arr/BGM_ORCH_009-Another Round.mp3) || ARR, Cheerful || Bar music ||
+||[Cheeky BGM]($load|music|arr/FFXIV OST Cheeky BGM.ogg) || ARR, Goofy, Cheeky || Goofy conversation ||
+
+
+### Middle La Noscea Combat
+||[The Land Breathes]($load|music|arr/FFXIV OST La Noscea Battle Theme - The Land Breathes.mp3) || ARR, Combat || La Noscea Combat Theme ||
+||[Tenacity]($load|music|arr/BGM_ORCH_017-Tenacity.mp3) || ARR, Combat || FATE Combat Theme ||
+||[Ominous Prognisticks]($load|music|arr/BGM_ORCH_063-Ominous Prognisticks.mp3) || ARR, Combat || Important Combat ||
+||[Hall of Novice Battle Theme]($load|music|arr/FFXIV OST Hildibrand FATE _ Hall of Novice.mp3) || ARR, Combat, Upbeat || Silly or Casual Combat ||
 
 [[accordion Uncategorized Music]]
 
@@ -95,20 +118,12 @@ Downloaded from <https://ffxiv.tylian.net>
 * [BGM ORCH 134-Imperial Will.mp3]($load|music|arr/BGM_ORCH_134-Imperial Will.mp3)
 * [BGM ORCH 136-Canticle.mp3]($load|music|arr/BGM_ORCH_136-Canticle.mp3)
 * [BGM ORCH 137-Forever Lost.mp3]($load|music|arr/BGM_ORCH_137-Forever Lost.mp3)
-* [BGM ORCH 161-Ambient Birdsong.mp3]($load|music|arr/BGM_ORCH_161-Ambient Birdsong.mp3)
-* [BGM ORCH 162-Ambient Rainfall.mp3]($load|music|arr/BGM_ORCH_162-Ambient Rainfall.mp3)
-* [BGM ORCH 163-Ambient Cricketsong.mp3]($load|music|arr/BGM_ORCH_163-Ambient Cricketsong.mp3)
-* [BGM ORCH 177-Ambient Insects.mp3]($load|music|arr/BGM_ORCH_177-Ambient Insects.mp3)
-* [BGM ORCH 178-Ambient Bonfire.mp3]($load|music|arr/BGM_ORCH_178-Ambient Bonfire.mp3)
-* [BGM ORCH 179-Ambient Kitchen.mp3]($load|music|arr/BGM_ORCH_179-Ambient Kitchen.mp3)
 * [BGM ORCH 202-Starlit Gateway.mp3]($load|music|arr/BGM_ORCH_202-Starlit Gateway.mp3)
 * [BGM ORCH 203-Babbling Brook.mp3]($load|music|arr/BGM_ORCH_203-Babbling Brook.mp3)
 * [BGM ORCH 204-Bustling Boulevard.mp3]($load|music|arr/BGM_ORCH_204-Bustling Boulevard.mp3)
 * [BGM ORCH 205-Temple Bell.mp3]($load|music|arr/BGM_ORCH_205-Temple Bell.mp3)
 * [BGM ORCH 206-Chapel Bell.mp3]($load|music|arr/BGM_ORCH_206-Chapel Bell.mp3)
 * [BGM ORCH 207-Crimson Sunset.mp3]($load|music|arr/BGM_ORCH_207-Crimson Sunset.mp3)
-* [BGM ORCH 230-Ambient Wind Chime.mp3]($load|music|arr/BGM_ORCH_230-Ambient Wind Chime.mp3)
-* [BGM ORCH 231-Ambient Abyss.mp3]($load|music|arr/BGM_ORCH_231-Ambient Abyss.mp3)
 
 [[/accordion]]
 
