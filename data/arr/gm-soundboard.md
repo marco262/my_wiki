@@ -53,6 +53,7 @@
 * [Drowning Wench]($load|music|arr/drowning_wench.mp3)
 * [La Noscea Field Theme]($load|music|arr/FFXIV OST La Noscea Field Theme - On Westerly Winds no intro.mp3)
 * [Battle Theme - La Noscea]($load|music|arr/FFXIV OST La Noscea Battle Theme - The Land Breathes.mp3)
+* [Limsa Lominsa Opening - On Windy Meadows]($load|music|arr/FFXIV OST - Limsa Lominsa Opening - On Windy Meadows.mp3)
 
 [[accordion Uncategorized Music]]
 
