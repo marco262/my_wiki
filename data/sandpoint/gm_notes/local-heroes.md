@@ -121,9 +121,10 @@
   * [Solsta Vinder](^sandpoint/solsta_vinder.jpg), wife
   * [Katrine Vinder](^sandpoint/katrine_vinder.jpeg)
   * [Shayliss Vinder](^sandpoint/shayliss_vinder.jpg)
-* 27: Turandurok Academy (p380)
+* 27: [Turandurok Academy](^sandpoint/turandarok_academy.jpg) (p380)
+  * [Turandarok Academy](^sandpoint/turandarok_academy_interior.png), interior
   * [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg)
-* 28: Madame Mvashti's House (p380)
+* 28: [Madame Mvashti's House](^sandpoint/madame_mvashtis_house.png) (p380)
   * [Madame Niska Mvashti](^sandpoint/niska_mvashti.jpg)
   * [Koya Mvashti](^sandpoint/koya_mvashti.jpg)
 * 29: Grocer's Hall (p381)
