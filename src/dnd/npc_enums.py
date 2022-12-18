@@ -242,6 +242,13 @@ races = {
             "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
         ]
     },
+    "Boar": {
+        "special_abilities": [
+            "***Charge.*** If the boar moves up to 10 feet before attacking, it can do a single weapon attack that "
+            "does double damage. If it hits, the enemy must make a DC {save_dc} Strength saving throw or be knocked "
+            "prone.",
+        ]
+    },
     "Skeleton": {
         "damage_vulnerabilities": ["bludgeoning"],
     },

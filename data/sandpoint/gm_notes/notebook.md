@@ -1,5 +1,5 @@
 * Veznutt will provide them with a rough map of the Sandpoint Hinterlands the next day for 10gp
-* Veznutt asked to look for a map of Sandpoint prior to the Sandpoint Chapel burning down
+* Veznutt was asked to look for a map of Sandpoint prior to the Sandpoint Chapel burning down
 * Add pictures for Goblin Squash Stables
 * Add pictures for Fatman's Feedbag
 * Get pictures/description of an egg for Grog to find.

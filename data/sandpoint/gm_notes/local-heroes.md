@@ -13,8 +13,14 @@
 [Stop all sounds]($stop|all|none)
 
 * [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
-* [Coastal Town]($load|ambience|sandpoint/D&D Ambience - Coastal Town.mp3)
-* [Tavern Ambience]($load|ambience|sandpoint/Fireplace Sounds - Medieval Tavern - Inn Ambience _ 1 hour.mp3)
+* Town Ambience
+  * [Coastal]($load|ambience|sandpoint/D&D Ambience - Coastal Town.mp3)
+  * [Evening](https://www.youtube.com/watch?v=bSbYpFMNxLI)
+* Tavern Ambience
+  * [Calm, fireplace]($load|ambience|sandpoint/Fireplace Sounds - Medieval Tavern - Inn Ambience _ 1 hour.mp3)
+  * [Rowdy]($load|ambience|sandpoint/Rowdy Tavern.mp3)
+  * [Party](https://www.youtube.com/watch?v=FM3Ep3yka44)
+  * [Brawl](https://www.youtube.com/watch?v=0p79IBaksXU)
 * [Forest Ambience]($load|ambience|sandpoint/Forest Sounds _ Woodland Ambience, Bird Song.mp3)
 
 ## NPCs
@@ -31,7 +37,7 @@
 * Boar Hunt
   * [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg)
   * [Tickwood Forest](^sandpoint/tickwood_forest.jpg)
-  * [Goretusk](^sandpoint/boar.jpg) ([[npc cr=2]])
+  * [Goretusk](^sandpoint/boar.jpg) ([[npc cr=2|race=Boar]])
       * Sounds: [distant]($load|effect|sandpoint/distant_boar.ogg), [1]($load|effect|sandpoint/boar_1.ogg), [2]($load|effect|sandpoint/boar_2.ogg), [3]($load|effect|sandpoint/boar_3.ogg), [injured 1]($load|effect|sandpoint/injured_boar_1.ogg), [injured 2]($load|effect|sandpoint/injured_boar_2.ogg), [dying]($load|effect|sandpoint/dying_boar.ogg) 
 * Trouble at the Rusty Dragon
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
@@ -41,7 +47,7 @@
 * Monster in the Closet
   * [Amele Barett](^sandpoint/amele_barett.jpg)
   * [Aeren Barett](^sandpoint/aeren_barett.jpg)
-  * [Trapped Goblin](^sandpoint/trapped_goblin.png)
+  * [Trapped Goblin](^sandpoint/trapped_goblin.png) ([[npc cr=1/4]])
 * Grim News from Mosswood
   * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
 * The Missing Bartender
@@ -139,17 +145,21 @@
   * [Chod Bevuk](^sandpoint/chod_bevuk.jpg)
 * 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg) (p382)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
-* 38: Goblin Squash Stables (p383)
+* 38: [Goblin Squash Stables](^sandpoint/goblin_squash_stables.jpg) (p383)
   * [Daviren Hosk](^sandpoint/daviren_hosk.jpg)
+  * [Front Room](^sandpoint/goblin_squash_stables_office.jpg)
+  * [Goblin in a Jar](^sandpoint/goblin_jar.jpg), Chief Whartus of the now-extinct (due in large part to Daviren) Bonegrinder Tribe
+  * [Stables](^sandpoint/goblin_squash_stables_interior.jpg)
 * 39: Two Knight Brewery (p383)
   * [Gaven Deverin](^sandpoint/gaven_deverin.jpg)
 * 40: Sandpoint Mercantile League (p383)
   * [Jasper Korvaski](^sandpoint/jasper_korvaski.jpg)
 * 41: Sandpoint Boutique (p383)
   * [Hayliss Korvaski](^sandpoint/hayliss_korvaski.jpg)
-* 42: Fatman's Feedbag (p383)
+* 42: [Fatman's Feedbag](^sandpoint/fatmans_feedbag.jpg) (p383)
   * [Gressel Tenniwar](^sandpoint/gressel_tenniwar.jpg)
   * [Jubrayl Vhiski](^sandpoint/jubrayl_vhiski.png)
+  * [Back room](^sandpoint/fatmans_feedbag_back_room.png)
 * 43: The Pixie's Kitten (p384)
   * [Kaye Tesarani](^sandpoint/kaye_tesarani.png)
 * 44: [The Feathered Serpent](^sandpoint/feathered_serpent.jpg) (p384)

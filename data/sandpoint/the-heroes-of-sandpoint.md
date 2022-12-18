@@ -47,6 +47,7 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 3: The White Deer
 * 4: The Way North
   * [Veznutt Parooh](@sandpoint/veznutt_parooh.jpg), owner
+  * Veznutt will provide the party with a rough map of the Sandpoint Hinterlands the next day for 10gp
 * 5: Jeweler
 * 6: Junker's Edge
 * 7: Gorvi's Shack
@@ -91,7 +92,9 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 36: Sandpoint Meat Market
 * 37: [The Rusty Dragon](@sandpoint/rusty_dragon_interior.jpg)
   * [Ameiko Kaijitsu](@sandpoint/ameiko_kaijitsu_2.jpg), owner
-* 38: Goblin Squash Stables
+* 38: [Goblin Squash Stables](@sandpoint/goblin_squash_stables.jpg)
+  * [Daviren Hosk](@sandpoint/daviren_hosk.jpg), owner
+  * [Front Room](@sandpoint/goblin_squash_stables_office.jpg)
 * 39: Two Knight Brewery
 * 40: Sandpoint Mercantile League
 * 41: Sandpoint Boutique
@@ -105,6 +108,7 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 47: Valdemar Manor
 * 48: Scarnetti Manor
 * 49: Kaijitsu Manor
+  * [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father
 * 50: Deverin Manor
   * [Mayor Kendra Deverin](@sandpoint/kendra_deverin.jpg)
 
