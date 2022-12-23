@@ -130,6 +130,7 @@ Downloaded from <https://ffxiv.tylian.net>
 ## Effect
 
 * [Cannon Boom]($load|effect|arr/cannon_1.ogg)
+* Evil Goobbue: [1]($load|effect|arr/evil_goobbue_1.ogg), [2]($load|effect|arr/evil_goobbue_2.ogg), [3]($load|effect|arr/evil_goobbue_3.ogg), [4]($load|effect|arr/evil_goobbue_4.ogg), [5]($load|effect|arr/evil_goobbue_5.ogg), [6]($load|effect|arr/evil_goobbue_6.ogg), 
 
 [[accordion Other]]
 
