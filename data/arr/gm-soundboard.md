@@ -124,6 +124,12 @@ Downloaded from <https://ffxiv.tylian.net>
 * [BGM ORCH 137-Forever Lost.mp3]($load|music|arr/BGM_ORCH_137-Forever Lost.mp3)
 * [BGM ORCH 202-Starlit Gateway.mp3]($load|music|arr/BGM_ORCH_202-Starlit Gateway.mp3)
 * [BGM ORCH 207-Crimson Sunset.mp3]($load|music|arr/BGM_ORCH_207-Crimson Sunset.mp3)
+* [BGM_Event_Ascian.mp3]($load|music|arr/BGM_Event_Ascian.mp3)
+* [BGM_Event_BKC05.mp3]($load|music|arr/BGM_Event_BKC05.mp3)
+* [BGM_Event_Craft.mp3]($load|music|arr/BGM_Event_Craft.mp3)
+* [BGM_Event_Huon.mp3]($load|music|arr/BGM_Event_Huon.mp3)
+* [BGM_Event_Kincho.mp3]($load|music|arr/BGM_Event_Kincho.mp3)
+* [BGM_LoV_Boss04.mp3]($load|music|arr/BGM_LoV_Boss04.mp3)
 
 [[/accordion]]
 
