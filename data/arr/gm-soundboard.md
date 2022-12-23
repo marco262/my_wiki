@@ -70,7 +70,8 @@
 # Specific Instance
 ||~ Sound ||~ Tags ||~ Usage ||
 ||[ARR Login Screen]($load|music|arr/ARR Login Screen.mp3) || ARR, Peaceful || ARR Login Screen ||
-||[BGM ORCH 079-Dragonsong.mp3]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
+||[Ascian Music]($load|music|arr/BGM_Event_Ascian.mp3) || ARR, Unsettling || Nervous, tense, violin sting ||
+||[Dragonsong]($load|music|arr/BGM_ORCH_079-Dragonsong.mp3)|| Heavensward, Mournful, Voice || Heavensward Theme Song ||
 
 # Locations
 ## Limsa Lominsa
@@ -92,6 +93,17 @@
 ||[Tenacity]($load|music|arr/BGM_ORCH_017-Tenacity.mp3) || ARR, Combat || FATE Combat Theme ||
 ||[Ominous Prognisticks]($load|music|arr/BGM_ORCH_063-Ominous Prognisticks.mp3) || ARR, Combat || Important Combat ||
 ||[Hall of Novice Battle Theme]($load|music|arr/FFXIV OST Hildibrand FATE _ Hall of Novice.mp3) || ARR, Combat, Upbeat || Silly or Casual Combat ||
+
+# By Feeling
+## Tension
+||[BKC 05]($load|music|arr/BGM_Event_BKC05.mp3) || ARR, Frantic || Frantic, tense chase ||
+||[Huon]($load|music|arr/BGM_Event_Huon.mp3) || ARR, Unsettling || Nervous, tense, violin strum ||
+||[Kincho]($load|music|arr/BGM_Event_Kincho.mp3) || ARR, Unsettling || Quick, tense, violin sting ||
+||[LoV Boss]($load|music|arr/BGM_LoV_Boss04.mp3) || ARR, Creepy || Quiet, creepy, nervous, string plucks ||
+
+## Casual Conversation
+||[Craft]($load|music|arr/BGM_Event_Craft.mp3) || ARR, Upbeat || Kind of goofy but mostly casual upbeat conversation ||
+
 
 [[accordion Uncategorized Music]]
 
@@ -124,19 +136,14 @@ Downloaded from <https://ffxiv.tylian.net>
 * [BGM ORCH 137-Forever Lost.mp3]($load|music|arr/BGM_ORCH_137-Forever Lost.mp3)
 * [BGM ORCH 202-Starlit Gateway.mp3]($load|music|arr/BGM_ORCH_202-Starlit Gateway.mp3)
 * [BGM ORCH 207-Crimson Sunset.mp3]($load|music|arr/BGM_ORCH_207-Crimson Sunset.mp3)
-* [BGM_Event_Ascian.mp3]($load|music|arr/BGM_Event_Ascian.mp3)
-* [BGM_Event_BKC05.mp3]($load|music|arr/BGM_Event_BKC05.mp3)
-* [BGM_Event_Craft.mp3]($load|music|arr/BGM_Event_Craft.mp3)
-* [BGM_Event_Huon.mp3]($load|music|arr/BGM_Event_Huon.mp3)
-* [BGM_Event_Kincho.mp3]($load|music|arr/BGM_Event_Kincho.mp3)
-* [BGM_LoV_Boss04.mp3]($load|music|arr/BGM_LoV_Boss04.mp3)
-
 [[/accordion]]
 
 ## Effect
 
 * [Cannon Boom]($load|effect|arr/cannon_1.ogg)
-* Evil Goobbue: [1]($load|effect|arr/evil_goobbue_1.ogg), [2]($load|effect|arr/evil_goobbue_2.ogg), [3]($load|effect|arr/evil_goobbue_3.ogg), [4]($load|effect|arr/evil_goobbue_4.ogg), [5]($load|effect|arr/evil_goobbue_5.ogg), [6]($load|effect|arr/evil_goobbue_6.ogg), 
+* Evil Goobbue: 
+  * Intimidating Roar [1]($load|effect|arr/evil_goobbue_1.ogg), [2]($load|effect|arr/evil_goobbue_6.ogg)
+  * Level of Injury: [1]($load|effect|arr/evil_goobbue_2.ogg) [2]($load|effect|arr/evil_goobbue_3.ogg) [3]($load|effect|arr/evil_goobbue_4.ogg) [4]($load|effect|arr/evil_goobbue_5.ogg)
 
 [[accordion Other]]
 
