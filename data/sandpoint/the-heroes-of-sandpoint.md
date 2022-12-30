@@ -35,7 +35,13 @@ What follows is a gazetteer of the region known as Varisia. While much of this r
     </a>
 </div>
 
-Sandpoint is a sleepy fishing town known primarily for its excellent theater and exquisite glassblowing, and is the only settlement of note on the Lost Coast. Of late, the town has been experiencing an unusual spate of murders and goblin troubles...
+There are pockets of civilization along the Lost Coast. Traditional Varisian campsites can be found in nearly every gulch and hollow along the cliff-lined reaches, and lonely houses sit upon bluffs now and then-domiciles for eccentrics or the rich seeking a bit of peace far from the bustle of Magnimar's streets. Roadside inns grace the Lost Coast road every 24 miles or so, placed by virtue of the distance most travelers can walk given a day's travel. Low stone shrines to Desna, goddess of wanderers and patron of the Varisians, give further opportunities for shelter should one of the all-too-common rainstorms catch travelers unaware. Given time, any of these seeds of civilization could bloom into a full-grown town, or even a city. It's happened once already, along the shores of a natural harbor nestled among the cliffs some so miles northeast of Magnimar. What was once a larger-than-normal Varisian campsite in the shadow of an ancient ruined tower has become the Lost Coast's largest town: Sandpoint, the Light of the Lost Coast.
+
+### Light of the Lost Coast
+
+As one approaches the town of Sandpoint, the footprint of civilization upon the Lost Coast grows more clear. Farmlands in the outlying moors and river valleys grow more numerous, and the blue-green waters of the Varisian Gulf bear more and more fishing vessels upon the waves. Passage over creeks and rivers is more often accomplished by wooden bridge than ford, and the Lost Coast Road itself grows wider and better-kept. Sight of Sandpoint from either approach (south or east) is kept hidden by the large upthrust limestone pavements known as the Devil's Platter and the arc of the rocky outcroppings and lightly forested hilltops that rise up just east of town, but as the final bend in the road is rounded, Sandpoint's smoking chimneys and bustling streets greet the traveler with open arms and the promise of warm beds, a welcome sight indeed for those who have spent the last few days alone on the Lost Coast Road.
+
+From the south, entrance to Sandpoint is governed by a wooden bridge, while from the north a low stone wall gives the town a bit of protection. Here, the Lost Coast Road passes through a stone gatehouse that is generally watched by one or two guards; the southern bridge is typically unattended. Aside from the occasional goblin, the citizens of Sandpoint have traditionally had little cause to worry about invasion or banditry-the region simply isn't populated enough to make theft a lucrative business. Hanging from a bent nail at both the gatehouse and the southern bridge is a sign and a mirror-painted on each sign is the message: "Welcome to Sandpoint! Please stop to see yourself as we see you!"
 
 ### People and Places
 
@@ -73,6 +79,7 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 18: Cracktooth's Tavern
 * 19: House of Blue Stones
 * 20: Sandpoint Glassworks
+  * Owned by [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father
 * 21: Sandpoint Savories
 * 22: The Curious Goblin
 * 23: Sandpoint Theater
@@ -92,9 +99,12 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 * 36: Sandpoint Meat Market
 * 37: [The Rusty Dragon](@sandpoint/rusty_dragon_interior.jpg)
   * [Ameiko Kaijitsu](@sandpoint/ameiko_kaijitsu_2.jpg), owner
+  * [Bethana Corwin](@sandpoint/bethana_corwin.jpeg), barmaid
 * 38: [Goblin Squash Stables](@sandpoint/goblin_squash_stables.jpg)
   * [Daviren Hosk](@sandpoint/daviren_hosk.jpg), owner
   * [Front Room](@sandpoint/goblin_squash_stables_office.jpg)
+  * [Goblin in a Jar](@sandpoint/goblin_jar.jpg), Chief Whartus of the now-extinct (due in large part to Daviren) Bonegrinder Tribe
+  * [Stables](@sandpoint/goblin_squash_stables_interior.jpg)
 * 39: Two Knight Brewery
 * 40: Sandpoint Mercantile League
 * 41: Sandpoint Boutique
@@ -115,6 +125,9 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 ### Other NPCs
 
 * [Aldern Foxglove](@sandpoint/aldern_foxglove.jpg)
+* [Shalelu Andosana](@sandpoint/shalelu_andosana.jpg)
+  * Former adventuring companion of Ameiko
+  * Local goblin exterminator/expert
 * Jervis Stoot, deceased
   * Beloved carver of birds
   * Serial killer, known as the Chopper
@@ -133,7 +146,17 @@ Sandpoint is a sleepy fishing town known primarily for its excellent theater and
 
 [[accordion What you've learned so far about Sandpoint's history...]]
 
-Throughout its history, Sandpoint has been thankfully free of major disasters. Only two events stand out as significant tragedies: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
+Settlers from the southern nation of Cheliax have come to Varisia. The city of Magnimar was settled by colonists dissatisfied with the strong reliance on Chelish support in Eastern Varisia, and before long the need for additional farmland grew apparent. To the south, the sloppy expanse of the Mushfens made farming difficult, so the settlers turned their eyes north along the Lost Coast. For much of its length, the coast offered little shelter, with one exception -- a perfect cove about so miles away from Magnimar. A cove overlooked by a curious stone ruin.
+
+The foundation of a new town is not a matter to be taken lightly, nor one to be funded by a single investor. Four powerful families from Magnimar had designs on the region, and rather than work against each other, they consolidated their efforts and formed the Sandpoint Mercantile League. These four families -- the Kaijitsus (glassmakers) the Valdemars, (shipbuilders), the Scarnettis (loggers), and the Deverins (farmers and brewers) -- sailed north to claim their land after securing the rights from Magnimar. Yet when they arrived in the spring of 4666 AR, they found the place already settled by a large tribe of Varisians.
+
+Refusing to be set back, the Sandpoint Mercantile League began a series of talks with the Varisians, promising them an important place in the new township. Unfortunately, after a week of talks that seemed to be going nowhere, an impatient man named Alamon Scarnetti took matters into his own hands. Rounding up a group of his brothers and cousins, the Scarnettis mounted a murderous raid on the Varisian camp, intent on killing them all and leaving evidence to blame local goblins for the deed. Yet the Scarnettis, too drunk and overconfident, managed to kill only five Varisians before they were themselves forced to flee, leaving behind three of their own.
+
+The Sandpoint Mercantile League fled back to Magnimar, and in the months to follow were embroiled in the repercussions of Alamon's assault. Magnimar's Varisian Council demanded punishment for all four families, but the High Court arbitrated a peace between them, in no small thanks to the remarkable diplomatic skills of a young bard and member of one of the families accused -- Almah Deverin. Not only did she manage to assuage the Varisians' call for blood payment, she also managed to salvage the plans for Sandpoint by promising not only to incorporate the worship of Desna into the new town's cathedral, but also to pay the Varisian Council a generous share of any profits made by Sandpoint businesses over the course of the next 40 years. One year later, the Sandpoint Mercantile League began construction on several buildings with the full cooperation of the Varisian people. In the years since Sandpoint's foundation, the settlement has flourished. Although the initial term of the compact with the Varisian Council has passed, Sandpoint's government has elected to extend the compact another 20 years, much to the consternation of a few locals.
+
+Today, Sandpoint is a thriving community. Many industries, including fishing, lumber, farming, hunting, brewing, shipbuilding, tanning, and glassmaking, have boomed, luring skilled laborers from as far as Korvosa and Riddleport to relocate here. Yet Sandpoint's location on the Lost Coast has also recently drawn settlers of another bent. As explorers and adventurers begin to piece together the fragments of ancient Thassilon's influence over the region so long ago, Varisia's Thassilonian ruins have acted as a magnet for such lore-seekers. The Old Light is no exception, and a few of Sandpoint's recent arrivals are more interested in this ruin than anything else.
+
+Throughout its history, Sandpoint has been thankfully free of major disasters. Every winter brings its share of strong storms, yet the natural harbor, sandbars, and cliffs do a remarkable job of blunting the force of wind and wave, leaving the town relatively unscathed. Elders in town spin yarns of a few really big storms, but apart from the town's somewhat rocky beginning with the Varisians, only two events have really qualified as disasters: the Chopper and the Sandpoint Fire. These two events, occurring in such close and recent proximity as they have, are generally lumped together as the "Late Unpleasantness," even though the incidents didn't have any obvious links. Natives of Sandpoint are reluctant to talk about either event, preferring to look ahead to brighter times.
 
 ### The Chopper
 
@@ -157,7 +180,7 @@ But as fate would have it, the people of Sandpoint would soon have a new tragedy
 
 All that remains today of the once-loved Stoot carvings are ragged scars on buildings and figureheads where owners used hatchets to remove what had become a haunting reminder of the wolf in the fold. The homes and businesses ravaged by the fire have been reconstructed, and the Sandpoint Chapel has finally been rebuilt as well. With the consecration of this new cathedral, Sandpoint had hoped to finally put the dark times of the Late Unpleasantness in the past.
 
-Unfortunately, there was one more tragedy in store for the people of Sandpoint. During the Swallowtail Festival, an annual celebration in honor of Desna, the goddess of freedom and luck, goblins attacked Sandpoint, injuring many residents and nearly burning down the newly built cathedral. Though the cathedral was saved and the goblins killed or driven off by newly arrived adventurers, it was later discovered that a tomb behind the cathedral was robbed during the chaos, and the thieves' made off with the burnt remains of Father Tobyn. To what end, however, is anyone's guess...  
+Unfortunately, there was one more tragedy in store for the people of Sandpoint. During the Swallowtail Festival, an annual celebration in honor of Desna, the goddess of freedom and luck, goblins attacked Sandpoint, injuring many residents and nearly burning down the newly built cathedral. Though the cathedral was saved and the goblins killed or driven off by newly arrived adventurers, it was later discovered that a tomb behind the cathedral was robbed during the chaos, and the thieves made off with the burnt remains of Father Tobyn. To what end, however, is anyone's guess...  
 
 [[/accordion]]
 
