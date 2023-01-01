@@ -44,13 +44,23 @@
   * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
   * "Ore no musume wa **doko** ni iru no??" = "Where the hell is my daughter?"
   * "Ha**ha**oya, to onaji, kurai shinde imasu." = "You're as dead to me as your mother."
+* Grim News from Mosswood
+  * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
+* Filler (2023-01-01)
+  * Sheriff Hemlock heads out of Sandpoint early in the morning
+  * PCs hear citizens gossiping about it everywhere
+  * They stop by The Way North, and see a note on the door saying: 
+      * _Heroes: If you see this before I get back, I have your map finished and have brought it with me to Turandarok Academy, where I am visiting with my good friend Ilsoari. Please stop by when you get a chance. He would love to meet you._
+  * [Alma Avertin](^sandpoint/alma_avertin.jpg) stops them on their way to the Academy, semi-demanding answers from them about what's happening and why Sheriff Hemlock left.
+  * [Gorvi](^sandpoint/gorvi.jpg) will stop them, acting all puffed up, and say he can get you a bunch of "deputies" for a good price.
+  * At the [Turandurok Academy](^sandpoint/turandarok_academy.jpg) ([Turandarok Academy](^sandpoint/turandarok_academy_interior.png) interior), [Veznutt Parooh](^sandpoint/veznutt_parooh.jpg) will introduce the party to [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg).
+  * Veznutt will insist that Ilsoari show off his collection. Grog will see and haggle for the [Drake Egg](^sandpoint/drake_egg.jpg).
 * Monster in the Closet
   * [Amele Barett](^sandpoint/amele_barett.jpg)
   * [Aeren Barett](^sandpoint/aeren_barett.jpg)
   * [Trapped Goblin](^sandpoint/trapped_goblin.png) ([[npc cr=1/4]])
-* Grim News from Mosswood
-  * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
 * The Missing Bartender
+  * Will happen in the morning
   * [Bethana Corwin](^sandpoint/bethana_corwin.jpeg)
 
 ## Sandpoint
