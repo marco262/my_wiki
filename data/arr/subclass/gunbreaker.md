@@ -56,7 +56,7 @@ You can change the armor's model whenever you finish a short or long rest, provi
 
 ***Infiltrator.*** You customize your armor for subtle undertakings. It has the following features:
 
-**Manatrigger.** You have a gunblade specialized in ranged attacks. It counts as a simple ranged weapon with a normal range of 90 feet and a long range of 50 feet, and it deals 1d6 force damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 force damage to that target.
+**Manatrigger.** You have a gunblade specialized in ranged attacks. It counts as a simple ranged weapon with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 force damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 force damage to that target.
 
 **Powered Steps.** Your walking speed increases by 5 feet.
 
