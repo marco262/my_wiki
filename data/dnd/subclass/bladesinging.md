@@ -32,7 +32,7 @@ _Source: Sword Coast Adventurer's Guide, p. 142_
 
 ## Training in War and Song
 
-2nd-level Bladesinging feature
+_2nd-level Bladesinging feature_
 
 You gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.
 
