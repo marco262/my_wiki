@@ -143,6 +143,17 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
   * Father Tobyn sequestered her at the Chapel
   * Miscarried
   * Died in the Sandpoint Fire
+* Tsuto Kaijitsu
+  * Half-elf
+  * Ameiko's half-brother
+  * Born of an illicit affair between Atsuii Kaijitsu and an unknown elf/half-elf.
+  * Born in 4688 (19 years ago), a year before Ameiko.
+  * Handed over to the Turandarok academy, ignored by his father and forbidden visits by his mother.
+  * Ameiko started visiting him in secret when she was 10.
+  * Had a terrible argument with Ameiko two years ago, where he struck Ameiko.
+  * At his mother's funeral, one year ago, accused Lonjiku of killing Atsuii.
+  * Lonjiku broke his jaw with his cane.
+  * Tsuto hasn't been seen in Sandpoint since. Ameiko hasn't been able to contact him.
 
 [[accordion What you've learned so far about Sandpoint's history...]]
 
