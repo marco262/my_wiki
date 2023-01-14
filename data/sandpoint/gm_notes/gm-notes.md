@@ -40,5 +40,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Story
 
-* [The Swallowtail Festival]()
-* [Local Heroes]()
+* Burnt Offerings
+  * [The Swallowtail Festival]()
+  * [Local Heroes]()
+  * [Glass and Wrath]()

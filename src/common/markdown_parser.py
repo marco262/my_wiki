@@ -266,7 +266,9 @@ class MarkdownParser:
 
     def generate_npc_blocks(self, text):
         for m in re.finditer(r"\[\[npc (.*?)]]", text):
-            d = dict([x.split("=") for x in m.group(1).split("|")])
+            # Fix issue where markdown may have converted underscores to <em> tags
+            group_1 = re.sub(r"</?em>", "_", m.group(1))
+            d = dict([x.split("=") for x in group_1.split("|")])
             npc = create_npc(**d)
             npc["width"] = d.get("width", "400px")
             npc["untrained"] = to_mod(npc["stat_bonus"])

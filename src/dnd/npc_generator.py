@@ -47,9 +47,11 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
     cr_values = get_cr_values(normalized_cr)
     atk_dict = get_attack(normalized_cr, race, role)
     def_dict = get_defense(normalized_cr, race, role)
-    damage = get_dmg_value(atk_dict["total_damage"], dmg_option, atk_dict["num_attacks"], damage_die_type)
-    double_damage = get_dmg_value(atk_dict["total_damage"] * 2, dmg_option, 1, "")
-    triple_damage = get_dmg_value(atk_dict["total_damage"] * 3, dmg_option, 1, "")
+    num_attacks = adjust(atk_dict["num_attacks"], kwargs.get("num_attacks"))
+    total_damage = int(adjust(atk_dict["total_damage"], kwargs.get("total_damage")))
+    damage = get_dmg_value(total_damage, dmg_option, num_attacks, damage_die_type)
+    double_damage = get_dmg_value(total_damage * 2, dmg_option, 1, "")
+    triple_damage = get_dmg_value(total_damage * 3, dmg_option, 1, "")
     save_dc = atk_dict["save_dc"]
     special_abilities = adjust(
         fill_placeholders(get_list(race, role, "special_abilities"), damage, double_damage, triple_damage, save_dc),
@@ -95,7 +97,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
         "double_damage": double_damage,
         "triple_damage": triple_damage,
         "save_dc": adjust(save_dc, kwargs.get("save_dc")),
-        "num_attacks": adjust(atk_dict["num_attacks"], kwargs.get("num_attacks")),
+        "num_attacks": num_attacks,
     }
     # except Exception as e:
     #     raise Exception(f"Error when generating NPC({cr}, {race}, {role}, {damage_die_type}, {dmg_option}, {kwargs})\n"
