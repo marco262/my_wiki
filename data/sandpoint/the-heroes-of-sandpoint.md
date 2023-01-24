@@ -53,7 +53,6 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 3: The White Deer
 * 4: The Way North
   * [Veznutt Parooh](@sandpoint/veznutt_parooh.jpg), owner
-  * Veznutt will provide the party with a rough map of the Sandpoint Hinterlands the next day for 10gp
 * 5: Jeweler
 * 6: Junker's Edge
 * 7: Gorvi's Shack
@@ -73,6 +72,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
       * +1 repeating crossbow (400 gp)
 * 13: Risa's Place
 * 14: Rovanky Tannery
+  * [Larz Rovanky](@sandpoint/larz_rovanky.jpg), owner
 * 15: Red Dog Smithy
 * 16: The Pillbug's Pantry
 * 17: Bottled Solutions
@@ -81,13 +81,18 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 20: Sandpoint Glassworks
   * Owned by [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father
 * 21: Sandpoint Savories
+  * [Alma Avertin](@sandpoint/alma_avertin.jpg), owner
+  * [Arika Avertin](@sandpoint/arika_avertin.png)
+  * [Aneka Avertin](@sandpoint/aneka_avertin.jpg)
 * 22: The Curious Goblin
 * 23: Sandpoint Theater
   * [Cyrdak Drokkus](@sandpoint/cyrdak_drokkus.jpg), owner and enthusiastic patron of the arts
 * 24: Carpenter's Guild
 * 25: Sandpoint Lumber Mill
 * 26: General Store
-* 27: Turandurok Academy
+* 27: [Turandurok Academy](@sandpoint/turandarok_academy.jpg)
+  * [Interior](@sandpoint/turandarok_academy_interior.png)
+  * [Ilsoari Gandethus](@sandpoint/ilsoari_gandethus.jpg), headmaster
 * 28: Madame Mvashti's House
 * 29: Grocer's Hall
 * 30: Vernah's Fine Clothing
