@@ -1,4 +1,4 @@
-[[breadcrumb /arr/|Sandpoint]]
+[[breadcrumb /sandpoint/|Sandpoint]]
 
 <script type="module">
     import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";

@@ -9,11 +9,12 @@
 
 # The Heroes
 
-* Rusty Stoutfield, human fighter
-* Vellyse Lostren, elven bard
-* Delfie Greenbottle, halfling monk
-* Althaea Meliamne, elven fighter
-* Oscar "Grog" Deadhand, half-orc ranger
+* [Rusty Stoutfield](@sandpoint/Rusty.png), human fighter
+* [Vellyse "Lyse" Lostren](@sandpoint/Lyse.png), elven bard
+* [Delfie Greenbottle](@sandpoint/Delfie.png), halfling monk
+* [Althaea Meliamne](@sandpoint/Althaea.png), elven fighter
+* [Oskar "Grog" Deadhand](@sandpoint/Oskar.png), half-orc ranger
+* [Group photo](@sandpoint/Heroes of Sandpoint.png)
 
 # Varisia, Cradle of Legends
 
@@ -159,6 +160,10 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
   * At his mother's funeral, one year ago, accused Lonjiku of killing Atsuii.
   * Lonjiku broke his jaw with his cane.
   * Tsuto hasn't been seen in Sandpoint since. Ameiko hasn't been able to contact him.
+* [Amele Barett](@sandpoint/amele_barett.jpg)
+  * Has two children: [Aeren Barett](@sandpoint/aeren_barett.jpg), her son. And Verah, her infant daughter.
+  * Her husband, Alergast, was killed by a goblin trapped in her son's closet.
+  * Amele and her remaining family have been taken in by her sister, Jastice, in Magnimar.
 
 [[accordion What you've learned so far about Sandpoint's history...]]
 

@@ -18,6 +18,7 @@
 
 * [Tsuto Kaijitsu](^sandpoint/tsuto_kaijitsu.jpg) ([[npc cr=2|race=Half-elf|role=Skirmisher|num_attacks=+1|armor_class=+2|hp=30]])
 * [Goblin](^sandpoint/goblin_2.png) x8 ([[npc cr=1/4|race=Goblin]])
+* [Sinspawn](^sandpoint/sinspawn_of_wrath.png)
 
 ## Places
 
