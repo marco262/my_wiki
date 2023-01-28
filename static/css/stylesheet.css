@@ -314,16 +314,19 @@ th, td {
 div#toc {
     float: right;
     margin: 1em;
-	padding: 0.5em 0.5em 0.5em 0;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	border: 1px dashed gray;
 	background-color: #F7F7F7;
 	display: table;
 }
 
 div#toc ul {
-    list-style-type: none;
     margin: 0 0 0 1em;
     padding: 0 0 0 0;
+}
+
+div#toc li {
+    list-style-type: none;
 }
 
 a, a:visited {
