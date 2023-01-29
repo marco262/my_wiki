@@ -38,6 +38,7 @@
 
 ## Places
 
+* [Glassworks](^sandpoint/sandpoint_glassworks.jpg)
 * [Glassworks, Interior](^sandpoint/sandpoint_glassworks_interior.jpg)
 * [Furnace Room](^sandpoint/sandpoint_glassworks_furnace.jpg)
 * [Underground Storage Room](^sandpoint/underground_storage_room.jpeg)
