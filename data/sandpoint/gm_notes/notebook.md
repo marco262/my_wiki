@@ -1,7 +1,5 @@
 * Veznutt was asked to look for a map of Sandpoint prior to the Sandpoint Chapel burning down
 * Add to wiki page:
-  * Ilsoari/Academy
-  * Alma/Savories
   * Tsuto's note
 
 
