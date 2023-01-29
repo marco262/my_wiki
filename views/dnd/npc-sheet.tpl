@@ -1,6 +1,6 @@
 <div class="npc-sheet">
     <link rel="stylesheet" type="text/css" href="/static/css/monster-sheet.css">
-    <span class="npc-sheet-hover">npc</span>
+    <span class="npc-sheet-hover">stats</span>
     <div class="monster-sheet" style="max-width: {{ width }};">
         <div class="top-bottom-bar"></div>
         <h1 class="name">{{ f"CR {cr}" if cr is not None else f"Level {level}" }} {{ race }} {{ role }}</h1>

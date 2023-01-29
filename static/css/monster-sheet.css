@@ -1,7 +1,7 @@
 .monster-sheet {
     background-color: rgb(253, 241, 220);
     box-shadow: 0 0 5px;
-    margin: 0 2px;
+    margin: 10px 10px;
     padding: 5px;
     z-index: -10;
     color: rgb(146, 38, 16);

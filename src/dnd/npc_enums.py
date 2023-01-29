@@ -95,7 +95,7 @@ races = {
     "Half-elf": {
         "senses": ["darkvision 60 ft."],
         "special_abilities": [
-            "***Fey Ancestry.*** The half-elf has advantage on saving throws against being charmed, and "
+            "***Fey Ancestry.*** {name} has advantage on saving throws against being charmed, and "
             "magic can't put him to sleep."
         ],
     },
@@ -175,7 +175,7 @@ races = {
     "Goblin": {
         "def_cr": -1,
         "reactions": [
-            "***Painful Tumble.*** When the goblin is hit by an attack, it may gain resistance to the attack's damage, "
+            "***Painful Tumble.*** When {name} is hit by an attack, it may gain resistance to the attack's damage, "
             "move up to half its speed away from the attacker without provoking opportunity attacks, and land prone.",
         ]
     },
@@ -316,6 +316,9 @@ roles = {
     "Skirmisher": {
         "special_abilities": [
             "***Evasion.*** Half damage on a failed Dex save, no damage on a success.",
+        ],
+        "bonus_actions": [
+            "***Nimble Escape.*** Disengage as a bonus action.",
         ]
     },
     "Bard": {

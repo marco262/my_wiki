@@ -43,6 +43,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
     # Allow "hp" as a valid kwarg
     if "hp" in kwargs:
         kwargs["hit_points"] = kwargs["hp"]
+    name = kwargs.get("name") or f"the {race.lower()}"
     normalized_cr = get_normalized_cr(cr, level)
     cr_values = get_cr_values(normalized_cr)
     atk_dict = get_attack(normalized_cr, race, role)
@@ -53,24 +54,25 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
     double_damage = get_dmg_value(total_damage * 2, dmg_option, 1, "")
     triple_damage = get_dmg_value(total_damage * 3, dmg_option, 1, "")
     save_dc = atk_dict["save_dc"]
+    placeholders_values = [damage, double_damage, triple_damage, save_dc, name]
     special_abilities = adjust(
-        fill_placeholders(get_list(race, role, "special_abilities"), damage, double_damage, triple_damage, save_dc),
+        fill_placeholders(get_list(race, role, "special_abilities"), *placeholders_values),
         kwargs.get("special_abilities")
     )
     bonus_actions = adjust(
-        fill_placeholders(get_list(race, role, "bonus_actions"), damage, double_damage, triple_damage, save_dc),
+        fill_placeholders(get_list(race, role, "bonus_actions"), *placeholders_values),
         kwargs.get("bonus_actions")
     )
     actions = adjust(
-        fill_placeholders(get_list(race, role, "actions"), damage, double_damage, triple_damage, save_dc),
+        fill_placeholders(get_list(race, role, "actions"), *placeholders_values),
         kwargs.get("actions")
     )
     reactions = adjust(
-        fill_placeholders(get_list(race, role, "reactions"), damage, double_damage, triple_damage, save_dc),
+        fill_placeholders(get_list(race, role, "reactions"), *placeholders_values),
         kwargs.get("reactions")
     )
     villain_actions = adjust(
-        fill_placeholders(get_list(race, role, "villain_actions"), damage, double_damage, triple_damage, save_dc),
+        fill_placeholders(get_list(race, role, "villain_actions"), *placeholders_values),
         kwargs.get("villain_actions")
     )
     return {
@@ -184,14 +186,16 @@ def get_trait(race, role, key):
     return ",".join(get_list(race, role, key))
 
 
-def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc):
+def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc, name):
     for i in range(len(ability_list)):
         # noinspection StrFormat
         ability_list[i] = ability_list[i].format(
             damage=damage,
             double_damage=double_damage,
             triple_damage=triple_damage,
-            save_dc=save_dc
+            save_dc=save_dc,
+            name=name,
+            Name=name.title(),
         )
     return ability_list
 
