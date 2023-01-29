@@ -53,6 +53,7 @@
   * [Alma Avertin](^sandpoint/alma_avertin.jpg) stops them on their way to the Academy, semi-demanding answers from them about what's happening and why Sheriff Hemlock left.
   * [Gorvi](^sandpoint/gorvi.jpg) will stop them, acting all puffed up, and say he can get you a bunch of "deputies" for a good price.
   * At the [Turandurok Academy](^sandpoint/turandarok_academy.jpg) ([Turandarok Academy](^sandpoint/turandarok_academy_interior.png) interior), [Veznutt Parooh](^sandpoint/veznutt_parooh.jpg) will introduce the party to [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg).
+  * Veznutt's Map: 
   * Veznutt will insist that Ilsoari show off his collection. Grog will see and haggle for the [Drake Egg](^sandpoint/drake_egg.jpg).
 * Monster in the Closet
   * [Amele Barett](^sandpoint/amele_barett.jpg)

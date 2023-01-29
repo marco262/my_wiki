@@ -96,6 +96,14 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 * Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.
 * The creature has disadvantage on Dexterity saving throws.
 
+## Slowed
+
+*Source: Homebrew*
+
+* A slowed creature's speed is halved.
+* The creature has disadvantage on Dexterity saving throws.
+* The creature can't take reactions.
+
 ## Stunned
 
 * A stunned creature is [[[general:conditions#incapacitated|incapacitated]]], can't move, and can speak only falteringly.

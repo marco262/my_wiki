@@ -118,7 +118,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 43: The Pixie's Kitten
 * 44: [The Feathered Serpent](@sandpoint/feathered_serpent.jpg)
   * [Vorvashali Voon](@sandpoint/vorvashali_voon.jpg), owner
-  * Lyse put 5gp on layaway for [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo)
+  * Lyse put 5gp on layaway for [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo) (40gp total)
 * 45: Hannah's
 * 46: Sandpoint Shipyard
 * 47: Valdemar Manor

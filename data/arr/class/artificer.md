@@ -197,12 +197,12 @@ _3rd-level artificer feature_
 
 Artificers pursue many disciplines. Here are specialist options you can choose from at 3rd level.
 
-|                     Specialty                     | Source |
-|:-------------------------------------------------:|:-----------:|
-|       [Alchemist](/arr/subclass/alchemist)        | *TCoE* |
-|    [Gunbreaker](/arr/subclass/gunbreaker) (Armorer)    | *Homebrew/TCoE* |
-|   [Machinist](/arr/subclass/machinist) (Artillerist)   | *Homwbrew/TCoE* |
-| [Sage](/dnd/subclass/combat medic) (Combat Medic) | *Homebrew* |
+|                     Specialty                      |     Source      |
+|:--------------------------------------------------:|:---------------:|
+|        [Alchemist](/arr/subclass/alchemist)        |     *TCoE*      |
+|  [Gunbreaker](/arr/subclass/gunbreaker) (Armorer)  | *Homebrew/TCoE* |
+| [Machinist](/arr/subclass/machinist) (Artillerist) | *Homebrew/TCoE* |
+| [Sage](/dnd/subclass/combat medic) (Combat Medic)  |   *Homebrew*    |
 
 ## The Right Tool for the Job
 
