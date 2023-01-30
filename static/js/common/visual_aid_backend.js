@@ -75,7 +75,8 @@ function set_visual_aid(event, value) {
             params["url"] = url;
         }
     }
-    if (event.ctrlKey) {
+    console.log(event);
+    if (event.ctrlKey || event.metaKey) {
         set_visual_aid_response(params["url"]);
     } else {
         ajax_call("/set_visual_aid", null, params)
