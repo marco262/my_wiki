@@ -1,6 +1,11 @@
-* Veznutt was asked to look for a map of Sandpoint prior to the Sandpoint Chapel burning down
 * Add to wiki page:
   * Tsuto's note
+  * Tsuto's pic
+  * Tunnel pic: https://i.imgur.com/ax14OMQ.jpeg
+* Prep Catacombs of Wrath
+* Prep stuff for when the players don't go to the Catacombs of Wrath
+* Find out where Tsuto took Ameiko after the fire
+* Figure out what of the Glassworks burned down, if any
 
 
 Silly notes:
@@ -11,10 +16,10 @@ Silly notes:
 
 
 
-Delfi: 15
-Goblin: 13
-Grog: 9
-Lyse: 4
-Alathea: 
-Ameiko: 
-Rusty: 
+Lyse: 17
+Rusty: 16
+Grog: 13
+Delfi: 7
+Alathea: 6
+Tsuto: 4 | 5
+
