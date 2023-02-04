@@ -1,0 +1,10 @@
+{
+  "Sinspawn": {
+    "special_abilities": [
+      "***Sin-Scent.*** Sinspawn can smell creatures whose nature reflects the sinspawn's sin. For example, wrathful sinspawn can smell a barbarian who is raging, or just a creature who is predisposed to anger. This ability gives the sinspawn advantage on any Perception checks made to detect that creature by scent."
+    ],
+    "actions": [
+      "***Sinful Bite.*** The sinspawn may bite a creature as one of its attacks. A creature bitten by the sinspawn must make a DC 12 Wisdom saving throw or be overwhelmed by sinful thoughts. These emotions are so powerful that the target becomes [poisoned](/dnd/general/conditions#poisoned) for 1 minute. An affected target that is bitten a second time is [staggered](/dnd/general/conditions#staggered) for 1 round if it fails its saving throw. [Calm emotions](/dnd/spell/Calm Emotions), [remove curse](/dnd/spell/Remove Curse), or [greater restoration](/dnd/spell/Greater Restoration) removes this effect."
+    ]
+  }
+}

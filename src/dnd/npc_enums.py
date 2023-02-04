@@ -1,3 +1,6 @@
+import glob
+from json import load
+
 cr_list = [
     "0", "1/8", "1/4", "1/2", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14",
     "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
@@ -47,224 +50,19 @@ total_damage_dict = {
 }
 
 
-races = {
-    "Human": {},
-    "Dwarf": {
-        "speed": "25 ft.",
-        "damage_resistances": ["poison"],
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison, and has "
-            "resistance against poison damage."
-        ]
-    },
-    "Elf": {
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Fey Ancestry.*** The elf has advantage on saving throws against being charmed, and magic "
-            "can't put him to sleep."
-        ]
-    },
-    "Halfling": {
-        "speed": "25 ft.",
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Brave.*** The halfling has advantage on any saving throws against being frightened.",
-            "***Halfling Nimbleness.*** The halfling can move through the space of a medium or larger "
-            "creature."
-        ]
-    },
-    "Dragonborn": {
-        # "atk_cr": 1,
-        "damage_resistances": ["fire"],
-        "actions": [
-            "***Breath Weapon (Recharge 5-6).*** The dragonborn can use his action to exhale a 15-foot "
-            "cone of fire. Each creature in the cone must make a DC {save_dc} Dexterity saving throw, taking {damage} "
-            "fire damage on a failed save, or half as much damage on a successful one."
-        ]
-    },
-    "Gnome": {
-        # "def_cr": 1,
-        "speed": "25 ft.",
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Gnome Cunning.*** The gnome has advantage on all Intelligence, Wisdom, and Charisma saving "
-            "throws against magic."
-        ],
-    },
-    "Half-elf": {
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Fey Ancestry.*** {name} has advantage on saving throws against being charmed, and "
-            "magic can't put him to sleep."
-        ],
-    },
-    "Half-orc": {
-        # "def_cr": 1,
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Relentless Endurance.*** When reduced to 0 hit points, the half-orc drops to 1 hit point "
-            "instead (but can't do this again until he finishes a long rest).",
-            "***Savage Attacks.*** When he scores a critical hit, the half-orc can roll one of the weapon's "
-            "damage dice and add it to the extra damage of the critical hit."
-        ],
-    },
-    "Tiefling": {
-        # "atk_cr": 1,
-        "damage_resistances": ["fire"],
-        "senses": ["darkvision 60 ft."],
-        "reactions": [
-            "***Hellish Rebuke (1/day).*** When the tiefling takes damage from a creature within 60 feet "
-            "that he can see, he can lash out with hellish flames. The creature must make a Dexterity saving throw "
-            "(DC {save_dc}). It takes {damage} fire damage on a failed save, or half as much damage on a successful "
-            "one."
-        ]
-    },
-    "Aarakocra": {
-        # "atk_cr": 1,
-        "speed": "20 ft., fly 50 ft.",
-        "special_abilities": [
-            "***Dive Attack.*** If the aarakocra is flying and dives at least 30 feet straight toward a "
-            "target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the "
-            "target."
-        ]
-    },
-    "Deep Gnome": {
-        # "def_cr": 1,
-        "speed": "20 ft.",
-        "senses": ["darkvision 120 ft."],
-        "special_abilities": [
-            "***Gnome Cunning.*** The deep gnome has advantage on all Intelligence, Wisdom, and Charisma "
-            "saving throws against magic."
-        ],
-    },
-    "Goliath": {
-        # "def_cr": 1,
-        "reactions": [
-            "***Stone's Endurance (Recharge 5-6).*** When the goliath takes damage, he can use his reaction "
-            "to reduce the damage taken by {damage}."
-        ],
-    },
-    "Kenku": {
-        # "atk_cr": 1,
-        "special_abilities": [
-            "***Ambusher.*** In the first round of a combat, the kenku has advantage on attack rolls "
-            "against any creature it surprised.",
-            "***Mimicry.*** The kenku can mimic any sounds it has heard, including voices. A creature that "
-            "hears the sounds can tell they are imitations with a successful DC {save_dc} Wisdom (Insight) check."
-        ]
-    },
-    "Tabaxi": {
-        "speed": "30 ft., climb 20 ft.",
-        "senses": ["darkvision 60 ft."],
-        "special_abilities": [
-            "***Feline Agility.*** When the tabaxi moves on its turn in combat, it can double its speed "
-            "until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 "
-            "feet on one of its turns."
-        ],
-    },
-    "Bugbear": {
-        # "atk_cr": 2,
-        "atk_cr": -1,
-        "special_abilities": [
-            "***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it.",
-            "***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during "
-            "the first round of combat, the target takes an extra {damage} damage from the attack."
-        ]
-    },
-    "Goblin": {
-        "def_cr": -1,
-        "reactions": [
-            "***Painful Tumble.*** When {name} is hit by an attack, it may gain resistance to the attack's damage, "
-            "move up to half its speed away from the attacker without provoking opportunity attacks, and land prone.",
-        ]
-    },
-    "Hobgoblin": {
-        # "atk_cr": 1,
-        "special_abilities": [
-            "***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra {damage} damage to "
-            "a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin "
-            "that isn't incapacitated."
-        ]
-    },
-    "Kobold": {
-        # "atk_cr": 1,
-        "special_abilities": [
-            "***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls, "
-            "as well as on Wisdom (Perception) checks that rely on sight.",
-            "***Pack Tactics.*** The kobold has advantage on an attack roll against a creature if at least "
-            "one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
-        ]
-    },
-    "Orc": {
-        # "atk_cr": 1,
-        "special_abilities": [
-            "***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature "
-            "that it can see."
-        ]
-    },
-    "Duergar": {
-        # "atk_cr": 2,  # +1 for Enlarge, +1 for Invisibility
-        # "def_cr": 2,  # +1 for Duergar Resilience, +1 for Invisibility
-        "atk_cr": -1,
-        "def_cr": -1,
-        "speed": "25 ft.",
-        "special_abilities": [
-            "***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, "
-            "and illusions, as well as to resist being charmed or paralyzed.",
-            "***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, "
-            "as well as on Wisdom (Perception) checks that rely on sight."
-        ],
-        "actions": [
-            "***Enlarge.*** For 1 minute, the duergar magically increases in size, along with anything it "
-            "is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based "
-            "weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with "
-            "advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the "
-            "space available.",
-            "***Invisibility.*** The duergar magically turns invisible until it attacks, casts a spell, or "
-            "uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). "
-            "Any equipment the duergar wears or carries is invisible with it."
-        ]
-    },
-    "Gnoll": {
-        # "atk_cr": 1,
-        "special_abilities": [
-            "***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its "
-            "turn, the gnoll can take a bonus action to move up to half its speed and make an attack."
-        ]
-    },
-    "Wolf": {
-        "atk_cr": -1,
-        "special_abilities": [
-            "***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely "
-            "on hearing or smell.",
-            "***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least "
-            "one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
-        ]
-    },
-    "Boar": {
-        "special_abilities": [
-            "***Charge.*** If the boar moves up to 10 feet before attacking, it can do a single weapon attack that "
-            "does double damage. If it hits, the enemy must make a DC {save_dc} Strength saving throw or be knocked "
-            "prone.",
-        ]
-    },
-    "Skeleton": {
-        "damage_vulnerabilities": ["bludgeoning"],
-    },
-    "Elezen": {
-        "speed": "35 ft.",
-    },
-    "Moogle": {
-        "atk_cr": -1,
-        "speed": "0 ft., fly 40 ft.",
-        "actions": [
-            "***Invisibility.*** The moogle magically turns invisible until it attacks, casts a spell, "
-            "or until its concentration is broken, up to 1 hour (as if concentrating on a spell). "
-            "Any equipment the moogle wears or carries is invisible with it."
-        ]
-    }
-}
+def build_enum_dict(enum_type: str):
+    d = {}
+    for filepath in glob.glob(f"data/dnd/npc/npc_{enum_type}_*.json"):
+        print(f"Loading {filepath} into NPC {enum_type} enum...")
+        with open(filepath) as f:
+            d.update(load(f))
+    return d
+
+
+races = build_enum_dict("races")
+roles = build_enum_dict("roles")
+
+
 die_types = {
     "d2": 1.5,
     "d3": 2,
@@ -274,88 +72,6 @@ die_types = {
     "d10": 5.5,
     "d12": 6.5,
     "d20": 10.5,
-}
-roles = {
-    "": {},
-    "Mage": {
-        "atk_cr": +1,
-        "def_cr": -1,
-        "num_attacks": 1,
-        "actions": [
-            "***Close Range AoE (roll 1-2).*** 15-foot cone. {double_damage} damage "
-            "(save for half, Dex DC {save_dc}).",
-            "***Long Range AoE (roll 3).*** 30-foot range, 10-foot radius sphere. {triple_damage} damage "
-            "(save for half, Dex DC {save_dc})."
-        ]
-    },
-    "Healer": {
-        "bonus_actions": [
-            "***Quick Heal (roll 1).*** Heal 1 ally within 30 feet for {damage}.",
-        ],
-        "actions": [
-            "***Mass Heal (roll 2).*** Heal all allies within 30 feet for {damage}.",
-            "***Remove Condition (roll 3).*** Removes 1 condition from ally within 30 feet.",
-            "***Inflict Condition (roll 4).*** Inflicts 1 condition (Blinded, Charmed, Deafened, Frightened, "
-            "Poisoned, or Prone) to enemy within 30 feet. DC {save_dc} Wisdom save to negate.",
-        ]
-    },
-    "Tank": {
-        "def_cr": +1,
-        "ac": "+2",
-        "reactions": [
-            # "***Shield Block.*** Give disadvantage on melee attack from adjacent enemy against an ally.",
-            "***Intercept.*** Take a hit meant for another ally from adjacent enemy. Resistance to that damage.",
-        ],
-    },
-    "Soldier": {
-        "actions": [
-            "***Reposition (roll 4-6).*** Make an attack, and shove an enemy 10 feet (4), pull 10 feet (5), "
-            "or shift 5 feet (6). DC {save_dc} Str save to resist."
-        ]
-    },
-    "Skirmisher": {
-        "special_abilities": [
-            "***Evasion.*** Half damage on a failed Dex save, no damage on a success.",
-        ],
-        "bonus_actions": [
-            "***Nimble Escape.*** Disengage as a bonus action.",
-        ]
-    },
-    "Bard": {
-        "bonus_actions": [
-            "***Inspire Courage***. The bard gives an ally advantage on their next attack roll."
-        ],
-        "reactions": [
-            "***Inspire Heroism***. When an ally would make a saving throw, the bard gives them advantage."
-        ]
-    },
-    "Yendan": {
-        "special_abilities": [
-            "***All Hands On Deck!*** On initiative count 20, after the first round, 2-4 pirates emerge from below "
-            "decks, or swing in from the rigging.",
-        ],
-        "bonus_actions": [
-            "***Avast Ye Scurvy Dogs!*** The captain barks an order and one pirate gets to make a basic attack.",
-        ],
-        "reactions": [
-            "***Eek!*** When an enemy would hit Yendan with an attack, he swaps places with an adjacent pirate, "
-            "causing them to take the hit instead. He can then move up to his speed."
-        ]
-    },
-    "Mama Moogle": {
-        "special_abilities": [
-            "***Fly My Pretties!*** On initiative count 20, after the first round, 1d4 - 1 (minimum 1) "
-            "moogle minions appear.",
-        ],
-        "bonus_actions": [
-            "***Kick Them In The Kupo!*** Mama Moogle commands a moogle she can see to make a weapon attack.",
-        ],
-        "reactions": [
-            "***Eek!*** When an enemy would hit Mama Moogle with an attack, they have to make a "
-            "Wisdom saving throw (DC {save_dc}) or be forced to give up their attack, as they are awestruck by Mama's "
-            "magnificence."
-        ]
-    },
 }
 
 npc_gender = [

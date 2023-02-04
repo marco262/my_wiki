@@ -34,7 +34,9 @@
       * In his bedroom: Journal, 237 gp total, [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth), [Spellwrought Tattoo](/dnd/equipment/magic-item/Spellwrought Tattoo, 2nd level) ([see invisibility](/dnd/spell/See Invisibility))
           * Treasure breakdown: 1700 cp, 600 sp, 70 gp, 9x 10 gp gems
 * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg)
-* [Sinspawn](^sandpoint/sinspawn_of_wrath.png)
+* [Sinspawn](^sandpoint/sinspawn_of_wrath.png) ([[npc cr=1|race=Sinspawn]])
+* [Vargouille](^sandpoint/vargouille.jpg) ([stats](https://5e.tools/bestiary.html#vargouille_mpmm))
+* [Zombie](^sandpoint/zombie.png) ([[npc cr=1/4|race=Zombie|num_attacks=1]])
 
 ## Places
 

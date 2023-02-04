@@ -102,7 +102,14 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 
 * A slowed creature's speed is halved.
 * The creature has disadvantage on Dexterity saving throws.
+* The creature can only take a bonus action or an action on their turn.
 * The creature can't take reactions.
+
+## Staggered
+
+*Source: Homebrew*
+
+* A staggered creature can only take a bonus action or an action on their turn.
 
 ## Stunned
 
