@@ -44,3 +44,7 @@
 * [Underground Storage Room](^sandpoint/underground_storage_room.jpeg)
 * [Underground Passage](^sandpoint/underground_passage2.jpeg)
 * [Underground Tunnel](^sandpoint/tunnel1.jpeg)
+
+# So the Heroes Fucked Up. Now What?
+
+* 

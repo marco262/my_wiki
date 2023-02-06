@@ -5,7 +5,15 @@
 * Prep Catacombs of Wrath
 * Prep stuff for when the players don't go to the Catacombs of Wrath
 * Find out where Tsuto took Ameiko after the fire
-* Figure out what of the Glassworks burned down, if any
+* Post-fire prep
+  * Burning building image?
+  * Burning building sounds
+  * Burning building music
+  * Mechanics for rushing into a burning building
+* Figure out what to do/what happens if the players *don't* go to the checkout the fire.
+* Set up hooks for when players inevitably feel lost
+* Slip Aldern in there somewhere, to wrap up his story before Chapter 2
+* Get Judge Ironbriar involved early
 
 
 Silly notes:

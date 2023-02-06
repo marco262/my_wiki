@@ -1,19 +1,14 @@
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 <link rel="stylesheet" type="text/css" href="/static/css/sandpoint.css">
 
 **Current Year:** 4707 AR
 
 # The Heroes
 
+* [Althaea Meliamne](@sandpoint/Althaea.png), elven fighter
+* [Delfie Greenbottle](@sandpoint/Delfie.png), halfling monk
+* [Oskar "Grog" Deadhand](@sandpoint/Oskar.png), half-orc ranger
 * [Rusty Stoutfield](@sandpoint/Rusty.png), human fighter
 * [Vellyse "Lyse" Lostren](@sandpoint/Lyse.png), elven bard
-* [Delfie Greenbottle](@sandpoint/Delfie.png), halfling monk
-* [Althaea Meliamne](@sandpoint/Althaea.png), elven fighter
-* [Oskar "Grog" Deadhand](@sandpoint/Oskar.png), half-orc ranger
 * [Group photo](@sandpoint/Heroes of Sandpoint.png)
 
 # Varisia, Cradle of Legends
@@ -149,7 +144,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
   * Father Tobyn sequestered her at the Chapel
   * Miscarried
   * Died in the Sandpoint Fire
-* Tsuto Kaijitsu
+* [Tsuto Kaijitsu](@sandpoint/tsuto_kaijitsu.jpg)
   * Half-elf
   * Ameiko's half-brother
   * Born of an illicit affair between Atsuii Kaijitsu and an unknown elf/half-elf.
