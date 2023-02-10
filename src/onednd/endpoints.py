@@ -15,9 +15,17 @@ def load_wsgi_endpoints(app: Bottle):
     # Categories
 
     @app.get('/advancement/<name>')
-    def general(name):
+    def advancement(name):
         return md_page(name, "onednd", "advancement")
+
+    @app.get('/class/<name>')
+    def dnd_class(name):
+        return md_page(name, "onednd", "class")
 
     @app.get('/general/<name>')
     def general(name):
         return md_page(name, "onednd", "general")
+
+    @app.get('/subclass/<name>')
+    def subclass(name):
+        return md_page(name, "onednd", "subclass")

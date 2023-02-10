@@ -7,28 +7,28 @@ Almost anything can inspire a new song or tale, so Bards are fascinated by almos
 
 Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. It can sometimes be hard to spot the difference between these performers and Bards, though. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge, level of musical skill, and mastery of magic sets them apart.
 
-| Level | Prof.<br>Bonus |            Class Features             | Bardic<br>Die | Cantrips<br>Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|:-----:|:--------------:|:-------------------------------------:|---------------|:-----------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  1st  |       +2       | Bardic Inspiration (d6), Spellcasting | d6            |         2         |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  2nd  |       +2       |    Expertise, Songs of Restoration    | d6            |         2         |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  3rd  |       +2       |             Bard Subclass             | d6            |         2         |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
-|  4th  |       +2       |                 Feat                  | d6            |         3         |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
-|  5th  |       +3       |          Jack of All Trades           | d8            |         3         |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
-|  6th  |       +3       |           Subclass Feature            | d8            |         3         |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
-|  7th  |       +3       |      Font of Bardic Inspiration       | d8            |         3         |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
-|  8th  |       +3       |                 Feat                  | d8            |         3         |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
-|  9th  |       +4       |               Expertise               | d8            |         3         |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
-| 10th  |       +4       |           Subclass Feature            | d10           |         4         |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
-| 11th  |       +4       |            Magical Secrets            | d10           |         4         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 12th  |       +4       |                 Feat                  | d10           |         4         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 13th  |       +5       |                  --                   | d10           |         4         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 14th  |       +5       |           Subclass Feature            | d10           |         4         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 15th  |       +5       |        Further Magical Secrets        | d12           |         4         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 16th  |       +5       |                 Feat                  | d12           |         4         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 17th  |       +6       |                  --                   | d12           |         4         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
-| 18th  |       +6       |      Superior Bardic Inspiration      | d12           |         4         |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
-| 19th  |       +6       |                 Feat                  | d12           |         4         |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
-| 20th  |       +6       |               Epic Boon               | d12           |         4         |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
+| Level | Prof.<br>Bonus |            Class Features             |  Bardic<br>Die  | Cantrips | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:-----:|:--------------:|:-------------------------------------:|:---------------:|:--------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  1st  |       +2       | Bardic Inspiration (d6), Spellcasting |       d6        |    2     |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  2nd  |       +2       |    Expertise, Songs of Restoration    |       d6        |    2     |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  3rd  |       +2       |             Bard Subclass             |       d6        |    2     |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
+|  4th  |       +2       |                 Feat                  |       d6        |    3     |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
+|  5th  |       +3       |          Jack of All Trades           |       d8        |    3     |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
+|  6th  |       +3       |           Subclass Feature            |       d8        |    3     |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
+|  7th  |       +3       |      Font of Bardic Inspiration       |       d8        |    3     |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
+|  8th  |       +3       |                 Feat                  |       d8        |    3     |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
+|  9th  |       +4       |               Expertise               |       d8        |    3     |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
+| 10th  |       +4       |           Subclass Feature            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
+| 11th  |       +4       |            Magical Secrets            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 12th  |       +4       |                 Feat                  |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 13th  |       +5       |                  --                   |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 14th  |       +5       |           Subclass Feature            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 15th  |       +5       |        Further Magical Secrets        |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 16th  |       +5       |                 Feat                  |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 17th  |       +6       |                  --                   |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
+| 18th  |       +6       |      Superior Bardic Inspiration      |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
+| 19th  |       +6       |                 Feat                  |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
+| 20th  |       +6       |               Epic Boon               |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
 ## Creating a Bard
 

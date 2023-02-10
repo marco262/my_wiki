@@ -33,16 +33,16 @@ elif sys.argv[1] == "fix_line_breaks":
     text = re.sub(r"¨", "ffi", text)
     text = re.sub(r"©", "ffi", text)
     text = re.sub(r" ?— ?", " -- ", text)
-    text = re.sub(r"\r?\n", " ", text)
-    text = re.sub(r"\s+", " ", text)
-    text = re.sub(r"@ ", "@", text)
-    text = re.sub(r"@", "\n", text)
     # 3 RD L EVEL: B ONUS P ROFICIENCIES => ### 3rd Level: Bonus Proficiencies
     for m in re.finditer(r"(\d+) (st|nd|rd|th) L EVEL:(.*)", text, re.IGNORECASE | re.MULTILINE):
         feature_name = m.group(3).lower()
         for n in re.finditer(r" (\w) ", feature_name):
             feature_name = feature_name.replace(n.group(0), " " + n.group(1).upper())
-        text = text.replace(m.group(0), f"### {m.group(1)}{m.group(2).lower()} Level:{feature_name}")
+        text = text.replace(m.group(0), f"@@### {m.group(1)}{m.group(2).lower()} Level:{feature_name}@@")
+    text = re.sub(r"\r?\n", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"@ ", "@", text)
+    text = re.sub(r"@", "\n", text)
 elif sys.argv[1] == "add_spell":
     text = text.lower()
     text = re.sub(r"^", "_[[[spell:", text)
