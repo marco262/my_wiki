@@ -23,6 +23,37 @@ Silly notes:
 * Fancifer the Vicarious
 
 
+# Sins
+
+|   Vice   |   Virtue   |
+|:--------:|:----------:|
+|  Wrath   |  Patience  |
+|   Lust   |  Chastity  |
+| Gluttony | Temperance |
+|  Green   |  Charity   |
+|  Sloth   | Diligence  |
+|   Envy   |  Kindness  |
+|  Pride   |  Humility  |
+
+## PC Inclinations
+
+* Althaea:
+  * Virtue: Diligence
+  * Vice: Wrath
+* Delfie:
+  * Virtue: Patience
+  * Vice: Pride
+* Grog:
+  * Virtue: Humility
+  * Vice: Greed
+* Rusty:
+  * Virtue:
+  * Vice:
+* Lyse:
+  * Virtue: Patience
+  * Vice: Lust
+
+
 
 Lyse: 17
 Rusty: 16
