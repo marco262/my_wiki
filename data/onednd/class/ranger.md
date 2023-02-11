@@ -100,7 +100,7 @@ You are adept at focusing your ire on a single foe. You always have the *Hunter'
 
 You have learned to channel the magical essence of nature to cast Spells. See the *Player's Handbook* for the rules on spellcasting. The information below details how you use those rules as a Ranger.
 
-***Spell Preparation.*** You have the following Spells prepared: *Cure Wounds*, *Guidance*, *Entangle*, and *Thorn Whip*. Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a Primal Spell, and it can be from any School of Magic except Evocation.
+***Spell Preparation.*** You have the following Spells prepared: *Cure Wounds*, *Guidance*, *Entangle*, and *Thorn Whip*. Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a [Primal](/onednd/general/Spellcasting Rules#primal-spells) Spell, and it can be from any School of Magic except Evocation.
 
 Whenever you finish a Long Rest, you can commune with nature and replace any Spell you have prepared for this Class with another Primal Spell of the same level that isn't an Evocation.
 

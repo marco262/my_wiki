@@ -101,7 +101,7 @@ You have learned to cast Spells through your bardic arts. See the _Player's Hand
 
 ***Prepared Spells.*** You have the following Spells prepared: _[Color Spray](/onednd/spell/Color Spray)_, _[Disguise Self](/onednd/spell/Disguise Self)_, _[Prestidigitation](/onednd/spell/Prestidigitation)_, and _[Vicious Mockery](/onednd/spell/Vicious Mockery)_.
 
-Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an Arcane Spell, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.
+Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an [Arcane](/onednd/general/Spellcasting Rules#arcane-spells) Spell, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.
 
 Whenever you finish a Long Rest, you can practice your bardic arts and replace any Spell you have prepared for this Class with another Arcane Spell of the same level, abiding by the school restriction above.
 
@@ -173,7 +173,7 @@ You gain a feature from your Bard Subclass.
 
 ### 11th Level: Magical Secrets
 
-You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: Arcane, Divine, or Primal. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
+You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
 
 ### 12th Level: Feat
 
@@ -185,7 +185,7 @@ You gain a feature from your Bard Subclass.
 
 ### 15th Level: Further Magical Secrets
 
-Your understanding of magic has grown even broader. Choose a Spell List -- Arcane, Divine, or Primal -- that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
+Your understanding of magic has grown even broader. Choose a Spell List -- [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) -- that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
 
 ### 16th Level: Feat
 

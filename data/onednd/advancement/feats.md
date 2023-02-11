@@ -96,7 +96,7 @@ You gain the following Armor Training: Light Armor, Medium Armor, and Shield.
 **Prerequisite:** None  
 **Repeatable:** Yes, but you must choose a different Spell list each time
 
-You have learned the basics of a particular magical tradition. Choose one Spell list: Arcane, Divine, or Primal. You gain the following benefits related to that choice:
+You have learned the basics of a particular magical tradition. Choose one Spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). You gain the following benefits related to that choice:
 
 * **Two Cantrips.** You learn two cantrips of your choice from the Spell list.
 * **1st-Level Spell.** Choose one 1st-level Spell from the Spell list. You always have that Spell prepared. You can cast it once without a Spell Slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the Spell using any Spell Slots you have.
@@ -382,7 +382,7 @@ You have developed the resilience to better withstand certain dangers, granting 
 You have studied ritual magic, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag from the Arcane, Divine, and Primal Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
+* **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag from the [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
 * **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a Ritual. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a Long Rest.
 
 ## Sentinel
