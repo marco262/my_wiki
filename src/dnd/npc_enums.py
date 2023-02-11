@@ -1,5 +1,7 @@
 import glob
+import os
 from json import load
+from pathlib import Path
 
 cr_list = [
     "0", "1/8", "1/4", "1/2", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14",
@@ -52,7 +54,11 @@ total_damage_dict = {
 
 def build_enum_dict(enum_type: str):
     d = {}
-    for filepath in glob.glob(f"data/dnd/npc/npc_{enum_type}_*.json"):
+    # Find npc folder relative to this file, so we don't have to care about the current working directory
+    p = Path(__file__)
+    p = p.parent / "../../data/dnd/npc"
+    p = p.resolve()
+    for filepath in p.glob(f"npc_{enum_type}_*.json"):
         print(f"Loading {filepath} into NPC {enum_type} enum...")
         with open(filepath) as f:
             d.update(load(f))

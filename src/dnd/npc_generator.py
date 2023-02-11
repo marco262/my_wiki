@@ -272,7 +272,9 @@ def adjust(value: Any, adjustment: Any) -> Union[str, list, dict]:
         if adjustment.startswith("+") or adjustment.startswith("-"):
             return str(value + int(adjustment))
         if adjustment.startswith("x"):
-            return str(value * int(adjustment[1:]))
+            return str(int(value * float(adjustment[1:])))
+        if adjustment.startswith("/"):
+            return str(int(value / float(adjustment[1:])))
     if isinstance(adjustment, (int, float)):
         return str(adjustment)
     return adjustment

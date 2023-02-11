@@ -252,6 +252,8 @@ def load_wsgi_endpoints(app: Bottle):
         filtered_magic_items = filter_magic_items(filter_keys)
         table = get_magic_item_table(filtered_magic_items, rarity_type, rarity)
         items_with_weights = list(table.items())
+        if not items_with_weights:
+            return MD.parse_md("*No items matched your filter.*")
         _, weights = zip(*items_with_weights)
         spells_by_level = load_spells_by_level()
         output = "\n"
