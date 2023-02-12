@@ -1,0 +1,16 @@
+{
+  "": {},
+  "Koruvus": {
+    "num_attacks": 3,
+    "actions": [
+      "***Foul Retch (roll 1-2).*** 20-foot cone. {double_damage} acid damage (save for half, Dex DC {save_dc}). A creature that takes damage is also poisoned for 1 round, Con DC {save_dc}."
+    ]
+  },
+  "Erylium": {
+    "atk_cr": -2,
+    "actions": [
+      "***Spells (roll 1-3).*** _[command](/dnd/spell/Command)_, _[hold person](/dnd/spell/Hold Person)_, _[ray of enfeeblement](/dnd/spell/Ray of Enfeeblement)_",
+      "***Summon Sinspawn.*** Elyrium slashes her own wrist with her dagger, allowing some of her blood to drip into the *minor runewell* and form a sinspawn. Each sinspawn created expends 6 wrath points from the *minor runewell*, which starts with 20."
+    ]
+  }
+}

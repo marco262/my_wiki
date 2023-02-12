@@ -1,21 +1,22 @@
 from math import pi
-from random import random
+import random
 
 COIN_PROBABILITIES = [
-    ("copper", 0.2),
-    ("silver", 0.3),
-    ("gem", 0.01),
-    ("gold", 1)
+    ("copper", 1),
+    ("silver", 0.9),
+    ("gold", 0.8),
+    ("platinum", 0.5),
 ]
 
 COIN_VALUES = {
     "copper": 0.01,
     "silver": 0.1,
     "gold": 1,
-    "gem": 10
+    "platinum": 10,
 }
 
-target_amount = round(500000 * (1 + random() * 0.10), 2)
+# target_amount = round(500000 * (1 + random() * 0.10), 2)
+target_amount = 237.49 - (30 * 4) - (3 * 4)
 
 print("Generating hoard equivalent to {} gp".format(target_amount))
 
@@ -23,7 +24,7 @@ hoard = {
     "copper": 0,
     "silver": 0,
     "gold": 0,
-    "gem": 0
+    "platinum": 0
 }
 
 
@@ -35,9 +36,8 @@ def hoard_total(hoard):
 
 
 while hoard_total(hoard) < target_amount:
-    for coin, p in COIN_PROBABILITIES:
-        if random() <= p:
-            hoard[coin] += 1
+    coin = random.choices(*zip(*COIN_PROBABILITIES))[0]
+    hoard[coin] += 1
 
 for coin, amount in hoard.items():
     print("* {:,} {} pieces".format(amount, coin))

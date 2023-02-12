@@ -1,0 +1,12 @@
+name = "Weapon of Returning"
+type = "Weapon"
+subtype = "dagger"
+rarity_type = "Major"
+rarity = "Uncommon"
+attunement = false
+classes = []
+notes = ""
+source = "Homebrew"
+description = """
+This weapon must be one with the thrown property. After this weapon is thrown as part of an attack, after the attack hits or misses, it disappears with a pop and a flash of light, and reappears in the thrower's hand.
+"""
