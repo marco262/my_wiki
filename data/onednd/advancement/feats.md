@@ -489,6 +489,13 @@ You gain Resistance to one of the following Damage Types of your choice: Acid, C
 
 Whenever you finish a Short Rest or a Long Rest, you can meditate and change that Damage Type choice.
 
+## Epic Boon of Fate
+
+**Prerequisite:** Mage or Priest Group  
+**Repeatable:** No
+
+When another creature that you can see within 60 feet of you makes a d20 Test, you can roll a d10 and apply the number rolled as a bonus or a penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a Long Rest.
+
 ## Epic Boon of Fortitude
 
 **Prerequisite:** None  
@@ -544,6 +551,20 @@ You gain Proficiency in all Skills.
 **Repeatable:** No
 
 Your Speed increases by 30 feet.
+
+## Epic Boon of Spell Recall
+
+**Prerequisite:** Mage or Priest Group  
+**Repeatable:** No
+
+You can cast any spell you have prepared without expending a spell slot, provided the spell is 5th level or lower. Once you do so, you can't use this benefit again until you finish a Long Rest.
+
+## Epic Boon of Truesight
+
+**Prerequisite:** Priest Group  
+**Repeatable:** No
+
+You have Truesight out to a range of 60 feet.
 
 ## Epic Boon of Undetectability
 
