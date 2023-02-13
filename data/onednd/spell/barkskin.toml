@@ -1,0 +1,16 @@
+title = "Barkskin"
+spell_lists = ["Primal"]
+level = "2"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Bonus Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a handful of bark"
+expensive_material_component = false
+material_component_consumed = false
+duration = "1 hour"
+description = """You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your spellcasting ability modifier plus your Proficiency Bonus."""
+at_higher_levels = "When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
+source = "Cleric and Revised Species"

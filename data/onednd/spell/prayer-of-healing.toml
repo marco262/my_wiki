@@ -1,0 +1,13 @@
+title = "Prayer of Healing"
+spell_lists = ["Divine"]
+level = "2"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "10 minutes"
+range = "30 feet"
+components = ["V"]
+duration = "Instantaneous"
+description = """You utter an extended prayer of restoration. Choose a number of willing creatures equal to your Spellcasting Ability Modifier (minimum of 1). Each of those creatures who remains within range for the Spell's entire casting gains the benefits of a Short Rest and also regains 2d8 Hit Points, and a creature can't be affected by this Spell again until that creature finishes a Long Rest."""
+at_higher_levels = "When you cast this Spell using a Spell Slot of 3rd level or higher, the healing increases by 1d8 for each slot above 2nd."
+source = "Cleric and Revised Species"

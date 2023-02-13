@@ -1,0 +1,12 @@
+title = "Resistance"
+spell_lists = ["Divine", "Primal"]
+level = "0"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Reaction, which you take in response to you or an ally within 10 feet of you failing a Saving Throw"
+range = "10 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """You channel magical protection to the creature who failed the Saving Throw. That creature can roll a d4 and add the number rolled to the save, potentially turning it into a success."""
+source = "Cleric and Revised Species"

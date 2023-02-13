@@ -57,12 +57,12 @@ elif sys.argv[1] == "add_special_formatting":
             title = title.replace(n.group(0), f"({n.group(1).upper()}")
         text = text.replace(m.group(0), f'{title},')
 elif sys.argv[1] == "feats":
-    text = text.replace("\r\n", "|")
-    for m in re.finditer(r"([ A-Z:]+)\|(.*?)-Level Feat\|Prerequisite: (.*?)\|Repeatable: (.*?)\|", text, re.MULTILINE):
+    text = text.replace("\r?\n", "|")
+    for m in re.finditer(r"([ A-Z:]+)\|(.*?)-Level Feat\|Prerequisite: (.*?)\|", text, re.MULTILINE):
         # print(m.groups())
         name = m.group(1)
         name = name.replace(" ", "").title()
-        header_text = f"## {name}@@|*{m.group(2)}-Level Feat*@@|**Prerequisite:** {m.group(3)}  @|**Repeatable:** {m.group(4)}@@|"
+        header_text = f"## {name}@@|*{m.group(2)}-Level Feat*@@|**Prerequisite:** {m.group(3)}  @@|"
         text = text.replace(m.group(0), header_text)
     text = text.replace("|", "\n")
 elif sys.argv[1] == "create_ability_list":
