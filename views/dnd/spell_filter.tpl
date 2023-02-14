@@ -18,7 +18,7 @@
             <b>Level:</b><br>
             <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
             % for l in spell_levels:
-                <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}}<br>
+                <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}} Level<br>
             % end
         </td>
         <td>

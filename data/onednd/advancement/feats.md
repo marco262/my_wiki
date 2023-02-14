@@ -252,7 +252,8 @@ In your spellcasting, you can harness a particular form of energy with deadly ma
 
 You're an accomplished wrestler, granting you the following benefits:
 
-* **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20. Attack Advantage. You have Advantage on Attack Rolls against a creature Grappled by you.
+* **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
+* **Attack Advantage.** You have Advantage on Attack Rolls against a creature Grappled by you.
 * **Fast Wrestler.** You aren't Slowed when you move a creature Grappled by you, provided the creature is your Size or smaller.
 * **Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
 
@@ -450,7 +451,8 @@ You possess exceptional speed and stamina, granting you the following benefits:
 You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* **Bypass Cover.** Your Attack Rolls for Spells ignore Half Cover and Three-Quarters Cover. Casting in Melee. Being within 5 feet of an enemy doesn't impose Disadvantage on your Attack Rolls with Spells.
+* **Bypass Cover.** Your Attack Rolls for Spells ignore Half Cover and Three-Quarters Cover.
+* **Casting in Melee.** Being within 5 feet of an enemy doesn't impose Disadvantage on your Attack Rolls with Spells.
 * **Increased Range.** When you cast a Spell that has a range of at least 10 feet and that requires you to make an Attack Roll, you can increase the Spell's range by 60 feet.
 
 ## War Caster
@@ -463,6 +465,16 @@ You have practiced casting spells in the midst of combat, granting you the follo
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 * **Concentration.** You have Advantage on Constitution Saving Throws that you make to maintain your Concentration.
 * **Reactive Spell.** When a creature provokes an Opportunity Attack from you by moving out of your Reach, you can use your Reaction to cast a Spell at the creature, rather than making an Opportunity Attack. The Spell must have a casting time of one Action and must target only that creature.
+
+## Weapon Training
+
+**Prerequisite:** None  
+**Repeatable:** No
+
+You have practiced extensively with a variety of weapons, gaining the following benefits:
+
+* **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
+* **Weapon Proficiency.** You gain Martial Weapon Proficiency.
 
 # 20th-Level Feats
 

@@ -30,11 +30,11 @@
 
 ## Spells
 
-## Class Spell Lists
+## Spell Lists
 
-% for c in spell_classes:
-* [{{c.title()}} Spells](/onednd/class_spell_list/{{c}}/true)
-% end
+* [Arcane Spells](/onednd/general/Spellcasting Rules#arcane-spells)
+* [Divine Spells](/onednd/general/Spellcasting Rules#divine-spells)
+* [Primal Spells](/onednd/general/Spellcasting Rules#primal-spells)
 
 [[/div]]
 

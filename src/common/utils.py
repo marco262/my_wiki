@@ -109,8 +109,10 @@ def strip_html(html):
 def ordinal(num: str):
     if not num.isdigit():
         return num.title()
+    if num == "0":
+        return num
     suffix = {"1": "st", "2": "nd", "3": "rd"}
-    return num + suffix.get(num, "th") + " Level"
+    return num + suffix.get(num, "th")
 
 
 def str_to_bool(s):

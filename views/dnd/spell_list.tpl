@@ -10,7 +10,7 @@ else:
         if level in spell_dict:
 %>
 
-<h2>{{ordinal(level)}}</h2>
+<h2>{{ordinal(level)}} Level</h2>
 <%
             include("dnd/spell_list_table.tpl", spells=spell_dict[level])
         end
