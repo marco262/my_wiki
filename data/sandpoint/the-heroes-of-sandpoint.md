@@ -11,6 +11,11 @@
 * [Vellyse "Lyse" Lostren](@sandpoint/Lyse.png), elven bard
 * [Group photo](@sandpoint/Heroes of Sandpoint.png)
 
+# Handouts
+
+* [Tsuto's Letter](@sandpoint/tsutos_letter.png)
+* Tsuto's Journal ([1](@sandpoint/tsutos_journal-page-001.jpg), [2](@sandpoint/tsutos_journal-page-002.jpg), [3](@sandpoint/tsutos_journal-page-003.jpg))
+
 # Varisia, Cradle of Legends
 
 <div class="map-float">
