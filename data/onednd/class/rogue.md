@@ -36,7 +36,7 @@ Some Rogues began their careers as criminals, while others used their cunning to
 
 To create a Rogue, consult the following lists, which provide Hit Points, Proficiencies, and Armor Training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Rogue](#multiclassing-and-the-rogue) section.
 
-Then look at the Rogue table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Rogue Class Features](#Rogue-class-features) section.
+Then look at the Rogue table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Rogue Class Features](#rogue-class-features) section.
 
 #### Hit Points
 

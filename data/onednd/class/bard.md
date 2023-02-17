@@ -125,13 +125,13 @@ Performance and Persuasion are iconic choices for a Bard if you have Proficiency
 
 You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare.
 
-**Songs of Restoration Repertoire**
+#### Songs of Restoration Repertoire
 
-| Bard<br>Level |                           Spell                            |
-|:-------------:|:----------------------------------------------------------:|
-|      2nd      |        _[Healing Word](/onednd/spell/Healing Word)_        |
-|      4th      |  _[Lesser Restoration](/onednd/spell/Lesser Restoration)_  |
-|      6th      |   _[Mass Healing Word](/onednd/spell/Mass Healing Word)_   |
+| Bard<br>Level | Spell                                                      |
+|:-------------:|------------------------------------------------------------|
+|      2nd      | _[Healing Word](/onednd/spell/Healing Word)_               |
+|      4th      | _[Lesser Restoration](/onednd/spell/Lesser Restoration)_   |
+|      6th      | _[Mass Healing Word](/onednd/spell/Mass Healing Word)_     |
 |      8th      | _[Freedom of Movement](/onednd/spell/Freedom of Movement)_ |
 |     10th      | _[Greater Restoration](/onednd/spell/Greater Restoration)_ |
 

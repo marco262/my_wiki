@@ -1,17 +1,3 @@
-from pprint import pprint
-
-races = [
-    "dwarf",
-    "elf",
-    "halfling",
-    "human",
-    "dragonborn",
-    "gnome",
-    "half-elf",
-    "half-orc",
-    "tiefling"
-]
-
 classes = [
     "artificer",
     "barbarian",
@@ -23,18 +9,6 @@ classes = [
     "paladin",
     "ranger",
     "rogue",
-    "sorcerer",
-    "warlock",
-    "wizard"
-]
-
-spell_classes = [
-    "artificer",
-    "bard",
-    "cleric",
-    "druid",
-    "paladin",
-    "ranger",
     "sorcerer",
     "warlock",
     "wizard"

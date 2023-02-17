@@ -200,8 +200,8 @@ h2 {
     text-decoration: none;
     color: #8C1717;
     background: #ECC3BF;
-    display:flex;
-    padding:3px 15px;
+    display: flex;
+    padding: 3px 15px;
     max-width: 100%;
 }
 h3 {
@@ -216,8 +216,8 @@ h4 {
     font-style: italic;
     font-size: 120%;
     text-decoration: none;
-    margin-top: -3px;
-    margin-bottom: -3px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 h5 {
     font-weight: bold;

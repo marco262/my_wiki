@@ -84,8 +84,6 @@ You prepare Spells for each of your Classes individually, referring to the Spell
 
 As a Ranger, you gain the following Class Features when you reach the specified levels in this Class. These features are listed on the Ranger table.
 
-
-
 ### 1st Level: Expertise
 
 You gain Expertise in two of your Skill Proficiencies of your choice.

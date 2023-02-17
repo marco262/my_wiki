@@ -63,6 +63,10 @@ def load_wsgi_endpoints(app: Bottle):
     def general(name):
         return md_page(name, "onednd", "general")
 
+    @app.get('/race/<name>')
+    def race(name):
+        return md_page(name, "onednd", "race", build_toc=False)
+
     @app.get('/subclass/<name>')
     def subclass(name):
         return md_page(name, "onednd", "subclass")

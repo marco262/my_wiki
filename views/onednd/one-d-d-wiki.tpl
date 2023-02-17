@@ -1,4 +1,4 @@
-% from data.onednd.enums import races, classes, spell_classes
+% from data.onednd.enums import classes
 
 [[div id="index-container"]]
 
@@ -6,17 +6,27 @@
 
 ## Races
 
-[[[general:Races|Races Overview]]]
+### Common Races
 
-% for r in races:
-* [[[race:{{r.title()}}]]]
-% end
+* [[[race:Dwarf]]]
+* [[[race:Elf]]]
+* [[[race:Gnome]]]
+* [[[race:Halfling]]]
+* [[[race:Human]]]
+
+### Uncommon Races
+
+* [[[race:Ardling]]]
+* [[[race:Dragonborn]]]
+* [[[race:Goliath]]]
+* [[[race:Orc]]]
+* [[[race:Tiefling]]]
 
 [[/div]]
 
 [[div class="index-column"]]
 
-## Published Classes
+## Classes
 
 [[[general:Classes|Classes Overview]]]
 
@@ -30,7 +40,7 @@
 
 ## Spells
 
-## Spell Lists
+### Spell Lists
 
 * [Arcane Spells](/onednd/general/Spellcasting Rules#arcane-spells)
 * [Divine Spells](/onednd/general/Spellcasting Rules#divine-spells)
@@ -42,12 +52,7 @@
 
 ## Character Information
 
-* [[[general:Backgrounds]]]
 * [[[advancement:Feats]]]
-
-[[/div]]
-
-[[div class="index-column"]]
 
 ## Equipment
 
