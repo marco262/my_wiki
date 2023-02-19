@@ -823,6 +823,44 @@ People who are able to cast spells don't fall into the category of ordinary hire
 
 Hiring someone to cast a relatively common spell of 1st or 2nd level, such as cure wounds or identify, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment -- the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.
 
+<div id="spellcasting-calculator">
+    <div>
+        <label for="spell-level">Spell Level:</label>
+        <select class="spellcasting-calculator-input" name="spell-level" id="spell-level">
+          <option value="0">Cantrip</option>
+          <option value="1">Level 1</option>
+          <option value="2">Level 2</option>
+          <option value="3">Level 3</option>
+          <option value="4">Level 4</option>
+          <option value="5">Level 5</option>
+          <option value="6">Level 6</option>
+          <option value="7">Level 7</option>
+          <option value="8">Level 8</option>
+          <option value="9">Level 9</option>
+        </select>
+    </div>
+    <div>
+        <label for="consumed-material">Consumed material cost:</label>
+        <input type="text" id="consumed-material" class="spellcasting-calculator-input"> gp
+    </div>
+    <div>
+        <label for="non-consumed-material">Non-consumed material cost:</label>
+        <input type="text" id="non-consumed-material" class="spellcasting-calculator-input"> gp
+    </div>
+    <div>
+        <label for="ritual-spell">Ritual spell:</label>
+        <input type="checkbox" id="ritual-spell" class="spellcasting-calculator-input">
+    </div>
+    <div id="spellcasting-service-cost">
+        Final cost: <span>0</span> gp
+    </div>
+</div>
+
+<script type="module">
+    import { init_calculator } from "/static/js/dnd/spellcasting-service.js";
+    init_calculator();
+</script>
+
 # Trinkets
 
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.

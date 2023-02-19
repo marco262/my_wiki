@@ -507,3 +507,23 @@ div.theme-restricted {
     background-color: rgba(2, 2, 2, 0.2);
     padding: 0.2em;
 }
+
+#spellcasting-calculator {
+    border: 2px solid black;
+    padding: 1em;
+    margin: auto;
+    width: 20em;
+}
+
+.spellcasting-calculator-input {
+    margin: 0.2em;
+}
+
+#consumed-material, #non-consumed-material {
+    width: 2em;
+}
+
+#spellcasting-service-cost {
+    font-weight: bold;
+    margin-top: 0.2em;
+}
