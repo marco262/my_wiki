@@ -7,6 +7,10 @@
   init_npc_sheets();
 </script>
 
+## Resources
+
+* [Sandpoint tunnels](/media/img/visual_aids/sandpoint/sandpoint_tunnels.jpg)
+
 ## NPCs
 
 * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png)
@@ -85,6 +89,8 @@
 
 # So the Heroes Fucked Up. Now What?
 
+[[accordion Pour One Out for All Our Prep Lost...]]
+
 ## As The Glassworks Burns
 
 As the heroes make their way back into Sandpoint, they will see smoke in the distance. As they get closer, they will hear shouting coming from the town. When they arrive, they'll see people running out of their homes and towards the Glassworks. The town guard is too busy running towards the fire to calm people down.
@@ -113,6 +119,35 @@ Depending on what the party does, they will either be accosted for help, or for 
 In that case, the yelling of the crowd gets louder, and the party can see the town guards struggling to try to calm people down. But they will be interrupted by a shrill whistle from [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg). He will speak up on behalf of the party, giving an impassioned speech about the party's past heroic deeds, and for the townsfolk to see to their friends and loved ones, and put their trust in the town guard.
 
 Aldern's pleas will silence the angriest of the mob, and let the more reasonable voices take over. The party will be escorted away by one particular guardsman, [Hanah Pirani](^sandpoint/hanah_pirani.jpg), and taken to the sheriff's office to be questioned. She isn't accusatory or intimidating to the party, but rather appeals to their sense of righteousness and justice. She's astute (DC 15 passive Insight), and catches onto any but the best lies, but doesn't press the party. If the party shares any especially difficult news, then Hanah says she'll need to bring in the mayor and get her to take charge. In the end, she lets them go if they promise to talk to Sheriff Hemlock when he returns.
+
+[[/accordion]]
+
+## The Aftermath
+
+As the heroes make their way back into Sandpoint, they will see smoke in the distance. As they get closer, they will hear more crowd noise coming from the town than is normal. When they arrive, they'll see people are milling about and in a state of distress, some running about with pails of water. The players will be approached by various townsfolk, and it will be hard to hear what they're saying, but the players should get the gist that a fire has happened and people have been hurt.
+
+Should the players wish to check out the Glassworks, they'll find it completely engulfed in flame ([1](^sandpoint/glassworks_burning1.jpg), [2](^sandpoint/glassworks_burning2.jpg), [3](^sandpoint/glassworks_burning3.jpg), [4](^sandpoint/glassworks_burning4.jpg), [5](^sandpoint/glassworks_burning5.jpg)). The heat from the fire makes it impossible to even approach the building, let alone head inside. People are going around with water buckets, mostly tossing water onto nearby houses, soaking the thatch to help prevent the fire from spreading. The House of Blue Stones has caught, but was put out and is being regularly soaked by a bucket line going up to its roof, including [Sabyl Sorn](^sandpoint/sabyl_sorn.jpg). 
+
+Unless they show up MUCH later, at which point it will be just the smoldering remains.
+
+## The Panicked Crowd
+
+Outside the building, the friends and families of the different workers are the most distraught.
+
+* William: [Regina](^sandpoint/crying_woman1.jpg) (wife), 3 children
+* Wilbur: [Loreni](^sandpoint/crying_woman2.jpg) (wife)
+* Wilson: [Brine](^sandpoint/crying_woman3.jpg) (wife), 2 children
+* Willow: [Gabriel](^sandpoint/crying_man1.jpg) (husband), 1 child, elderly mother
+* Willifred: 
+* Wilford: 
+* Willoughby:
+* Bill:
+
+Should the party head to the Sheriff's office first (or anywhere else heading in that vague direction), they'll come across a crowd around the Sheriff's office, demanding an explanation or a reassurance from the authorities. The inexperienced deputies are looking overwhelmed, and will naturally turn to the adventurers for help. If the party admits any responsibility for the fire, they will have a very angry crowd on their hands. Words like "rabid" and "jackal" will be thrown around: terms used to describe adventurers that have attack civilized people.
+
+In that case, the yelling of the crowd gets louder, and the party can see the town guards struggling to try to calm people down. But they will be interrupted by a shrill whistle from [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg). He will speak up on behalf of the party, giving an impassioned speech about the party's past heroic deeds, and for the townsfolk to see to their friends and loved ones, and put their trust in the town guard.
+
+Aldern's pleas will silence the angriest of the mob, and let the more reasonable voices take over. The party will be escorted away by one particular guardsman, [Hanah Pirani](^sandpoint/hanah_pirani.jpg), and taken into the sheriff's office to be questioned. She isn't accusatory or intimidating to the party, but rather appeals to their sense of righteousness and justice. She's astute (DC 15 passive Insight), and catches onto any but the best lies, but doesn't press the party. If the party shares any especially difficult news, then Hanah says she'll need to bring in the mayor and get her to take charge. In the end, she lets them go if they promise to talk to Sheriff Hemlock when he returns.
 
 ## Tsuto and the Goblins
 

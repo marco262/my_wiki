@@ -26,6 +26,19 @@ Enter another URL to set as Visual Aid here:
 
 * [Timeline of Events](https://rise-of-the-runelords-rphaven.obsidianportal.com/wikis/timeline-of-events)
 * [How much Brodert Quink knows about Thassilon](https://paizo.com/threads/rzs2q8vo?How-much-of-Thassilons-history-and)
+* [Medieval Resources Megapack](https://assetstore.unity.com/packages/3d/environments/fantasy/medieval-mega-pack-volume-2-208408)
+
+## Story
+
+* Burnt Offerings
+  * [The Swallowtail Festival]()
+  * [Local Heroes]()
+  * [Glass and Wrath]()
+  * [Thistletop]()
+
+## Places
+
+* [Sandpoint]()
 
 ## Visual Aids
 
@@ -39,18 +52,3 @@ Enter another URL to set as Visual Aid here:
 
 * [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
 * [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
-
-## NPCs
-
-* [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
-* [Sheriff Hemlock](^sandpoint/sheriff_hemlock.jpg)
-* [Father Zantus](^sandpoint/father_zantus.jpg)
-* [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
-
-## Story
-
-* Burnt Offerings
-  * [The Swallowtail Festival]()
-  * [Local Heroes]()
-  * [Glass and Wrath]()
-  * [Thistletop]()

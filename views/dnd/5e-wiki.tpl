@@ -103,6 +103,10 @@
 
 * [[[general:Sidekicks]]]
 
+### Exploration Activities
+
+* [[[general:Exploration Activities]]]
+
 [[/div]]
 
 [[div class="index-column"]]

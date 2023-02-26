@@ -40,6 +40,13 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 * A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
 * The charmer has advantage on any ability check to interact socially with the creature.
 
+## Dazed
+
+*Source: One D&D playtest*
+
+* A dazed creature can move or take an action on their turn, not both.
+* The creature can't take bonus actions or reactions.
+
 ## Deafened
 
 * A deafened creature can't hear and automatically fails any ability check that requires hearing.
@@ -100,16 +107,9 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 
 *Source: Homebrew*
 
-* A slowed creature's speed is halved.
+* A slowed creature's speed is [[[general:conditions#dazed|dazed]]].
+* The creature's speed is halved.
 * The creature has disadvantage on Dexterity saving throws.
-* The creature can only take a bonus action or an action on their turn.
-* The creature can't take reactions.
-
-## Staggered
-
-*Source: Homebrew*
-
-* A staggered creature can only take a bonus action or an action on their turn.
 
 ## Stunned
 
