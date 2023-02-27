@@ -31,9 +31,16 @@ What follows is a gazetteer of the region known as Varisia. While much of this r
 ## Sandpoint
 
 <div class="map-float">
-    <a href="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg" target="_blank">
-        <img src="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg">
-    </a>
+    <div>
+      <a href="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg" target="_blank">
+          <img src="/media/img/visual_aids/sandpoint/sandpoint_gm_map.jpg">
+      </a>
+    </div>
+    <div>
+      <a href="/media/img/visual_aids/sandpoint/sandpoint_hinterlands_drawn.jpg" target="_blank">
+          <img src="/media/img/visual_aids/sandpoint/sandpoint_hinterlands_drawn.jpg">
+      </a>
+    </div>
 </div>
 
 There are pockets of civilization along the Lost Coast. Traditional Varisian campsites can be found in nearly every gulch and hollow along the cliff-lined reaches, and lonely houses sit upon bluffs now and then-domiciles for eccentrics or the rich seeking a bit of peace far from the bustle of Magnimar's streets. Roadside inns grace the Lost Coast road every 24 miles or so, placed by virtue of the distance most travelers can walk given a day's travel. Low stone shrines to Desna, goddess of wanderers and patron of the Varisians, give further opportunities for shelter should one of the all-too-common rainstorms catch travelers unaware. Given time, any of these seeds of civilization could bloom into a full-grown town, or even a city. It's happened once already, along the shores of a natural harbor nestled among the cliffs some so miles northeast of Magnimar. What was once a larger-than-normal Varisian campsite in the shadow of an ancient ruined tower has become the Lost Coast's largest town: Sandpoint, the Light of the Lost Coast.
@@ -395,11 +402,7 @@ Whether the Rift of Niltak was opened by great magic or some geologic calamity, 
 
 ## Rimeskull
 
-From where they stand, high on the mountain's steep western slopes and staring out toward Lake Stormunder, the strange, heavy stone statues of Rimeskull—each a massive head of eroded rock—have puzzled scholars for ages. Who made them and why they all stare fixedly west remain mysteries, due in no small part to the white dragon Arkrhyst, who makes Rimeskull his home and is notoriously disinclined to allow guests. Roderic's Cove: Besieged by the goblins and bandits of Churlwood on one side and pirates on the other, the port town of Roderic's Cove submitted to Riddleport 10 years ago. To everyone's surprise, both in the town and throughout Varisia, the pirates spared the community, employing it as a shipping and trading port for merchants without the stomach to enter Riddleport. Captain Jess Gildersleeve serves as port-governor, guaranteeing that the gangs of Riddleport get their cut of the local trade while assuring her own sizable take. In the wake of a recent rash of mysteriously scuttled ships in the harbor, many citizens who remember life before the pirates' rule have chalked up the sabotage to the ghost of Sir Roderic, the town's founder and a notorious privateer, while those in power blame rebellion and insurgents. With tensions rising, many believe it's only a matter of time before the battle lines are drawn and Roderic's Cove erupts in flames of revolution. 
-
-## Sandpoint
-
-Sandpoint is a sleepy fishing town known primarily for its excellent theater and exquisite glassblowing, and is the only settlement of note on the Lost Coast. Of late, the town has been experiencing an unusual spate of murders and goblin troubles. 
+From where they stand, high on the mountain's steep western slopes and staring out toward Lake Stormunder, the strange, heavy stone statues of Rimeskull—each a massive head of eroded rock—have puzzled scholars for ages. Who made them and why they all stare fixedly west remain mysteries, due in no small part to the white dragon Arkrhyst, who makes Rimeskull his home and is notoriously disinclined to allow guests. Roderic's Cove: Besieged by the goblins and bandits of Churlwood on one side and pirates on the other, the port town of Roderic's Cove submitted to Riddleport 10 years ago. To everyone's surprise, both in the town and throughout Varisia, the pirates spared the community, employing it as a shipping and trading port for merchants without the stomach to enter Riddleport. Captain Jess Gildersleeve serves as port-governor, guaranteeing that the gangs of Riddleport get their cut of the local trade while assuring her own sizable take. In the wake of a recent rash of mysteriously scuttled ships in the harbor, many citizens who remember life before the pirates' rule have chalked up the sabotage to the ghost of Sir Roderic, the town's founder and a notorious privateer, while those in power blame rebellion and insurgents. With tensions rising, many believe it's only a matter of time before the battle lines are drawn and Roderic's Cove erupts in flames of revolution.
 
 ## Sanos Forest
 
