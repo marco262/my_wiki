@@ -17,7 +17,7 @@ Enter another URL to set as Visual Aid here:
 [The Heroes of Sandpoint](^sandpoint/Heroes of Sandpoint.png)
 
 * [Althaea Meliamne](^sandpoint/Althaea.png), elven fighter
-* [Delfie Greenbottle](^sandpoint/Delfie.png), halfling monk
+* [Delfi Greenbottle](^sandpoint/Delfi.png), halfling monk
 * [Oskar "Grog" Deadhand](^sandpoint/Oskar.png), half-orc ranger
 * [Rusty Stoutfield](^sandpoint/Rusty.png), human fighter
 * [Vellyse "Lyse" Lostren](^sandpoint/Lyse.png), elven bard

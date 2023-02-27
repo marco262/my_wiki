@@ -11,7 +11,7 @@ Silly notes:
 * Choppy McJervis
 * Introduce a character named Red Herring
 * Fancifer the Vicarious
-
+* Utharu the Dickish
 
 # Sins
 
@@ -31,7 +31,7 @@ Silly notes:
 * Althaea:
   * Virtue: Diligence
   * Vice: Wrath
-* Delfie:
+* Delfi:
   * Virtue: Patience
   * Vice: Pride
 * Grog:
@@ -57,10 +57,11 @@ Rusty: Searching
 
 ## Initiative
 
-| Name    | #   | HP  |
-|---------|-----|-----|
-| Alathea | 24  |     |
-| Rusty   | 12  |     |
-| Lyse    | 13  |     |
-| Delfi   | 15  |     |
-| Grog    | 14  |     |
+| Name       | Per | Inv | #   | HP      |
+|------------|-----|-----|-----|---------|
+| Alathea    | 14  | 11  | 21  |         |
+| Grog       | 13  | 10  | 13  |         |
+| Lyse       | 13  | 11  | 13  |         |
+| Rusty      | 10  | 13  | 9   |         |
+| Vargouille |     |     | 8   | 17 / 18 |
+| Delfi      | 12  | 10  | 6   |         |
