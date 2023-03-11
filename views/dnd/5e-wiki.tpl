@@ -98,12 +98,17 @@
 ### Dungeon Master's Guide
 
 * [[[general:Running Encounters]]]
+* [[[general:Downtime Activities#dungeon-masters-guide|Downtime Activities]]]
+
+### Xanathar's Guide to Everything
+
+* [[[general:Downtime Activities#xanathars-guide-to-everything|Downtime Activities]]]
 
 ### Tasha's Cauldron of Everything
 
 * [[[general:Sidekicks]]]
 
-### Exploration Activities
+### Homebrew
 
 * [[[general:Exploration Activities]]]
 
