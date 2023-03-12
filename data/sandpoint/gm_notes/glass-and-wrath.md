@@ -69,6 +69,7 @@
       * Treasure: Waters of Lamashtu
   * B13. [Cathedral of Wrath](^sandpoint/cathedral_of_wrath.jpg)
       * [Erylium](^sandpoint/erylium.jpg) ([[npc cr=3|width=800px|race=Quasit|role=Erylium|num_attacks=1|weapon=+1 cold iron returning dagger]])
+          * aka [Tinkerboob](^sandpoint/erylium.jpg)
           * Treasure: cold iron [dagger of returning](/dnd/equipment/magic-item/Weapon of Returning), tiara (50 gp), black silk gown (25 gp), obsidian unholy symbol of lamashtu (10 gp)
 
 ## Sounds
