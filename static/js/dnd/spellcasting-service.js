@@ -5,10 +5,10 @@ export function init_calculator() {
 }
 
 function calculate_cost() {
-    let spell_level = document.querySelector("#spell-level").value;
-    let consumed_material = document.querySelector("#consumed-material").value;
-    let non_consumed_material = document.querySelector("#non-consumed-material").value;
-    let ritual_spell = document.querySelector("#ritual-spell").checked;
+    const spell_level = document.querySelector("#spell-level").value;
+    const consumed_material = document.querySelector("#consumed-material").value;
+    const non_consumed_material = document.querySelector("#non-consumed-material").value;
+    const ritual_spell = document.querySelector("#ritual-spell").checked;
     let cost = Math.max((parseInt(spell_level) ** 2) * 10, 5);
     if (ritual_spell)
         cost *= 0.1;

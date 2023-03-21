@@ -823,6 +823,8 @@ People who are able to cast spells don't fall into the category of ordinary hire
 
 Hiring someone to cast a relatively common spell of 1st or 2nd level, such as cure wounds or identify, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment -- the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.
 
+Over time, spellcasters have started to develop a basic formula for how to charge a fair price for their services. The calculator below will help you calculate the baseline cost for any spellcasting services you may ask from an NPC. However, many factors can adjust this cost, including the NPC's disposition towards you, economic pressures of the local area, any gambling debts the NPC may need to pay off, etc.
+
 <div id="spellcasting-calculator">
     <div>
         <label for="spell-level">Spell Level:</label>
