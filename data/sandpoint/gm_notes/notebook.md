@@ -1,10 +1,12 @@
 * Add to wiki page:
 * Add to references: 
-* Set up hooks for when players inevitably feel lost
 * Get Judge Ironbriar involved early
-* Present Justice Ironbriar to the party as a way to "inquisition" the town
+  * He sends a vice justice back with Sheriff Hemlock
+  * Present the vice justice to the party as a way to "inquisition" the town
 * Why did Tsuto want to talk to Ameiko? Look into it
 * Was Father Tobyn Nualia's real father? Decide on this
+* Note to self: Add fire theming to this campaign
+* Why did Tsuto want to hit Risa's Place first?
 
 Silly notes:
 
@@ -59,9 +61,9 @@ Rusty: Searching
 
 | Name       | Per | Inv | #   | HP      |
 |------------|-----|-----|-----|---------|
-| Alathea    | 14  | 11  | 21  |         |
+| Delfi      | 12  | 10  | 22  |         |
 | Grog       | 13  | 10  | 13  |         |
-| Lyse       | 13  | 11  | 13  |         |
-| Rusty      | 10  | 13  | 9   |         |
-| Vargouille |     |     | 8   | 17 / 18 |
-| Delfi      | 12  | 10  | 6   |         |
+| Tinkerboob |     |     | 9   | 59 / 60 |
+| Althaea    | 14  | 11  | 6   |         |
+| Lyse       | 13  | 11  | 5   |         |
+| Rusty      | 10  | 13  | 5   |         |
