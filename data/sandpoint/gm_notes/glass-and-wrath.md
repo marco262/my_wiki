@@ -30,6 +30,17 @@
       * In his bedroom: Journal, 237 gp total, [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth), [Spellwrought Tattoo](/dnd/equipment/magic-item/Spellwrought Tattoo, 2nd level) ([see invisibility](/dnd/spell/See Invisibility))
           * Treasure breakdown: 19 cp, 32 sp, 53 gp, 5 pp, 4x pouches of gold dust (30 gp each), 4x pouches of silver dust (30 sp each) 
 * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg)
+* [Erylium](^sandpoint/erylium.jpg) ([[npc cr=3|width=800px|race=Quasit|role=Erylium|num_attacks=1]])
+  * Originally the familiar of the Scribbler, a cleric of Lamashtu, formerly known as Xaliasa
+  * Knew her master served Runelord Alaznist
+  * Is still a fervent admirer of Alaznist
+  * Became a cleric of Lamashtu after her master died
+  * Has spent centuries alone and trapped in the Catacombs of Wrath
+  * Was given a vision by Lamashtu of a woman with silver hair and violet eyes, who would be Erylium's general to lead an army on her behalf
+  * Trained Nualia as a cleric of Lamashtu
+  * Knows that soon her empire shall grow
+  * The Book of Lamashtu is Erylium's pride and joy, and she will be desperate to see that no harm comes to it
+  * Will panic if she realizes her crown has been removed
 
 ## Places
 
@@ -125,7 +136,7 @@ Aldern's pleas will silence the angriest of the mob, and let the more reasonable
 
 ## The Aftermath
 
-As the heroes make their way back into Sandpoint, they will see smoke in the distance. As they get closer, they will hear more crowd noise coming from the town than is normal. When they arrive, they'll see people are milling about and in a state of distress, some running about with pails of water. The players will be approached by various townsfolk, and it will be hard to hear what they're saying, but the players should get the gist that a fire has happened and people have been hurt.
+As the heroes make their way back into Sandpoint, they will see [smoke in the distance](^sandpoint/sandpoint_burning_in_the_distance.jpg). As they get closer, they will hear more crowd noise coming from the town than is normal. When they arrive, they'll see people are milling about and in a state of distress, some running about with pails of water. The players will be approached by various townsfolk, and it will be hard to hear what they're saying, but the players should get the gist that a fire has happened and people have been hurt.
 
 Should the players wish to check out the Glassworks, they'll find it completely engulfed in flame ([1](^sandpoint/glassworks_burning1.jpg), [2](^sandpoint/glassworks_burning2.jpg), [3](^sandpoint/glassworks_burning3.jpg), [4](^sandpoint/glassworks_burning4.jpg), [5](^sandpoint/glassworks_burning5.jpg)). The heat from the fire makes it impossible to even approach the building, let alone head inside. People are going around with water buckets, mostly tossing water onto nearby houses, soaking the thatch to help prevent the fire from spreading. The House of Blue Stones has caught, but was put out and is being regularly soaked by a bucket line going up to its roof, including [Sabyl Sorn](^sandpoint/sabyl_sorn.jpg). 
 
@@ -144,7 +155,7 @@ Outside the building, the friends and families of the different workers are the 
 * Willoughby:
 * Bill:
 
-Should the party head to the Sheriff's office first (or anywhere else heading in that vague direction), they'll come across a crowd around the Sheriff's office, demanding an explanation or a reassurance from the authorities. The inexperienced deputies are looking overwhelmed, and will naturally turn to the adventurers for help. If the party admits any responsibility for the fire, they will have a very angry crowd on their hands. Words like "rabid" and "jackal" will be thrown around: terms used to describe adventurers that have attack civilized people.
+Should the party head to the Sheriff's office first (or anywhere else heading in that vague direction), they'll come across a crowd around Town Hall, demanding an explanation or a reassurance from the authorities. The inexperienced town guard are looking overwhelmed, and will naturally turn to the adventurers for help. If the party admits any responsibility for the fire, they will have a very angry crowd on their hands. Words like "rabid" and "jackal" will be thrown around: terms used to describe adventurers that have attacked civilized people.
 
 In that case, the yelling of the crowd gets louder, and the party can see the town guards struggling to try to calm people down. But they will be interrupted by a shrill whistle from [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg). He will speak up on behalf of the party, giving an impassioned speech about the party's past heroic deeds, and for the townsfolk to see to their friends and loved ones, and put their trust in the town guard.
 
@@ -155,3 +166,20 @@ Aldern's pleas will silence the angriest of the mob, and let the more reasonable
 The back door of the glassworks is wide open, and although the area immediately around the building has been disturbed by the crowds and fire, and covered with ash and dirt, a simple Survival check will find goblin and humanoid footprints in the sand of the beach just down the slope. The tracks stick close to the short, dirt cliffs, heading east along the shore. An excellent Survival check will recognize that Tsuto's footprints are deeper in the sand than what you'd expect for someone his size, as if he was carrying something heavy.
 
 About a mile along the beach, the ocean encroaches against the shore to the point where the beach disappears. Tsuto waded out into the water and then turned inland, following a stream for a ways before continuing their journey, making sure to cover their tracks. Further tracking won't be useful to find them.
+
+## What Does Brodert Quink know?
+
+1. Thassilon was an ancient empire that existed thousands of years ago, before the rise of the modern nations of Avistan.
+2. Thassilon was ruled by powerful wizards known as "runelords," each of whom had dominion over a different aspect of magic and society.
+3. Thassilon's runelords were associated with seven virtues and seven sins, and each sin was said to be associated with a different school of magic.
+4. Thassilon's magic was highly advanced, and many of its secrets have been lost to time.
+5. Thassilon's capital city was known as Xin-Shalast, and it was said to be located somewhere in the mountains of the far north.
+6. Thassilon was eventually destroyed by a cataclysmic event known as the Earthfall, which is said to have been caused by the hubris and arrogance of Thassilon's rulers.
+
+* <https://rotrl.fandom.com/wiki/Brodert_Quink_(The_Runelords_of_Thassilon)>
+* <https://paizo.com/threads/rzs2q8vo?How-much-of-Thassilons-history-and#2>
+* <https://paizo.com/threads/rzs2may1?How-well-known-is-Thassilon#5>
+
+## Return of the Sheriff
+
+Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.

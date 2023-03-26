@@ -27,6 +27,7 @@ Enter another URL to set as Visual Aid here:
 * [Timeline of Events](https://rise-of-the-runelords-rphaven.obsidianportal.com/wikis/timeline-of-events)
 * [How much Brodert Quink knows about Thassilon](https://paizo.com/threads/rzs2q8vo?How-much-of-Thassilons-history-and)
 * [Medieval Resources Megapack](https://assetstore.unity.com/packages/3d/environments/fantasy/medieval-mega-pack-volume-2-208408)
+* [Miguel Regodon's Art](http://miguelregodon.blogspot.com/)
 
 ## Story
 

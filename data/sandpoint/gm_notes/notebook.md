@@ -13,7 +13,7 @@ Silly notes:
 * Choppy McJervis
 * Introduce a character named Red Herring
 * Fancifer the Vicarious
-* Utharu the Dickish
+* Utharu the Dickish (goblin chief?)
 
 # Sins
 
@@ -22,7 +22,7 @@ Silly notes:
 |  Wrath   |  Patience  |
 |   Lust   |  Chastity  |
 | Gluttony | Temperance |
-|  Green   |  Charity   |
+|  Greed   |  Charity   |
 |  Sloth   | Diligence  |
 |   Envy   |  Kindness  |
 |  Pride   |  Humility  |
