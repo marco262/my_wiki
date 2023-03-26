@@ -28,6 +28,8 @@
 * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
 * [Aldern Foxglove](^sandpoint/aldern_foxglove.jpg)
 * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
+* [Brodert Quink](^sandpoint/brodert_quink.jpg)
+* [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg)
 
 ## Places
 
