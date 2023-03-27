@@ -6,7 +6,6 @@
 * Why did Tsuto want to talk to Ameiko? Look into it
 * Was Father Tobyn Nualia's real father? Decide on this
 * Note to self: Add fire theming to this campaign
-* Why did Tsuto want to hit Risa's Place first?
 
 Silly notes:
 
@@ -84,3 +83,12 @@ Lastly, anyone taking a few moments to inspect a magic item can make an Arcana o
 | Rare      | 25  |
 | Very Rare | 30  |
 | Legendary | 35  |
+
+
+
+
+Mayor: 19 + 
+Hanah: 13 + 
+Aldern: 17 + 
+Ilsoari: 10 + 
+Bodert: 8 + 

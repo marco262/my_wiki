@@ -30,6 +30,7 @@
 * [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg)
 * [Brodert Quink](^sandpoint/brodert_quink.jpg)
 * [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg)
+* [Hanah Pirani](^sandpoint/hanah_pirani.jpg)
 
 ## Places
 
