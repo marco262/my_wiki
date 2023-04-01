@@ -13,7 +13,7 @@ from src.dnd.npc_generator import create_npc
 from src.dnd.utils import to_mod
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
+EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables", "metadata"]
 
 
 class MarkdownParser:
