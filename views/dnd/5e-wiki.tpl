@@ -98,6 +98,7 @@
 ### Dungeon Master's Guide
 
 * [[[general:Running Encounters]]]
+* [[[general:Awarding Magic Items]]]
 * [[[general:Downtime Activities#dungeon-masters-guide|Downtime Activities]]]
 
 ### Xanathar's Guide to Everything
