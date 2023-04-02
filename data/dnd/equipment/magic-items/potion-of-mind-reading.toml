@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 188"
 description = """
-When you drink this potion, you gain the effect of the _[[[spell:detect thoughts]]]_ spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
+When you drink this potion, you gain the effect of the _[detect thoughts](/dnd/spell/detect thoughts)_ spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
 """

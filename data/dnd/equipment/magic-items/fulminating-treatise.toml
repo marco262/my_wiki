@@ -8,7 +8,7 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 128"
 description = """
-This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: _[[[spell:contingency]]]_, _[[[spell:fireball]]]_, _[[[spell:gust of wind]]]_, _[[[spell:Leomund's tiny hut]]]_, _[[[spell:magic missile]]]_, _[[[spell:thunderwave]]]_, and _[[[spell:wall of force]]]_. It functions as a spellbook for you.
+This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: _[contingency](/dnd/spell/contingency)_, _[fireball](/dnd/spell/fireball)_, _[gust of wind](/dnd/spell/gust of wind)_, _[Leomund's tiny hut](/dnd/spell/Leomund's tiny hut)_, _[magic missile](/dnd/spell/magic missile)_, _[thunderwave](/dnd/spell/thunderwave)_, and _[wall of force](/dnd/spell/wall of force)_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

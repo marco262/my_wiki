@@ -8,7 +8,7 @@ classes = ["bard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 131"
 description = """
-While holding this lyre, you can cast _[[[spell:mending]]]_ as an action. You can also play the lyre as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.
+While holding this lyre, you can cast _[mending](/dnd/spell/mending)_ as an action. You can also play the lyre as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.
 
-In addition, you can play the lyre as an action to cast _[[[spell:fabricate]]]_, _[[[spell:move earth]]]_, _[[[spell:passwall]]]_, or _[[[spell:summon construct]]]_, and that spell can't be cast from it again until the next dawn.
+In addition, you can play the lyre as an action to cast _[fabricate](/dnd/spell/fabricate)_, _[move earth](/dnd/spell/move earth)_, _[passwall](/dnd/spell/passwall)_, or _[summon construct](/dnd/spell/summon construct)_, and that spell can't be cast from it again until the next dawn.
 """

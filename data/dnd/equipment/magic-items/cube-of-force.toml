@@ -25,9 +25,9 @@ If your movement causes the barrier to come into contact with a solid object tha
 The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.
 
 ||~ Spell or Item ||~ Charges Lost ||
-|| _[[[spell:disintegrate]]]_ || 1d12 ||
+|| _[disintegrate](/dnd/spell/disintegrate)_ || 1d12 ||
 || _Horn of Blasting_ || 1d10 ||
-|| _[[[spell:passwall]]]_ || 1d6 ||
-|| _[[[spell:prismatic spray]]]_ || 1d20 ||
-|| _[[[spell:wall of fire]]]_ || 1d4 ||
+|| _[passwall](/dnd/spell/passwall)_ || 1d6 ||
+|| _[prismatic spray](/dnd/spell/prismatic spray)_ || 1d20 ||
+|| _[wall of fire](/dnd/spell/wall of fire)_ || 1d4 ||
 """

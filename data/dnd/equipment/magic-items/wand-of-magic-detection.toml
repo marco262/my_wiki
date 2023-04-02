@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 211"
 description = """
-This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the _[[[spell:detect magic]]]_ spell from it. The wand regains 1d3 expended charges daily at dawn.
+This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the _[detect magic](/dnd/spell/detect magic)_ spell from it. The wand regains 1d3 expended charges daily at dawn.
 """

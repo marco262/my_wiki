@@ -8,11 +8,11 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 192"
 description = """
-While wearing this ring in dim light or darkness, you can cast _[[[spell:dancing lights]]]_ and _[[[spell:light]]]_ from the ring at will. Casting either spell from the ring requires an action.
+While wearing this ring in dim light or darkness, you can cast _[dancing lights](/dnd/spell/dancing lights)_ and _[light](/dnd/spell/light)_ from the ring at will. Casting either spell from the ring requires an action.
 
 The ring has 6 charges for the following other properties. The ring regains 1d6 expended charges daily at dawn.
 
-***Faerie Fire.*** You can expend 1 charge as an action to cast _[[[spell:faerie fire]]]_ from the ring.
+***Faerie Fire.*** You can expend 1 charge as an action to cast _[faerie fire](/dnd/spell/faerie fire)_ from the ring.
 
 ***Ball Lightning.*** You can expend 2 charges as an action to create one to four 3-foot-diameter spheres of lightning. The more spheres you create, the less powerful each sphere is individually.
 

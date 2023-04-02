@@ -8,7 +8,7 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 134"
 description = """
-This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast _[[[spell:arcane lock]]]_ on it. When found, the book contains the following spells: _[[[spell:arcane lock]]]_, _[[[spell:dispel magic]]]_, _[[[spell:globe of invulnerability]]]_, _[[[spell:glyph of warding]]]_, _[[[spell:Mordenkainen's private sanctum]]]_, _[[[spell:protection from evil and good]]]_, and _[[[spell:symbol]]]_. It functions as a spellbook for you.
+This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast _[arcane lock](/dnd/spell/arcane lock)_ on it. When found, the book contains the following spells: _[arcane lock](/dnd/spell/arcane lock)_, _[dispel magic](/dnd/spell/dispel magic)_, _[globe of invulnerability](/dnd/spell/globe of invulnerability)_, _[glyph of warding](/dnd/spell/glyph of warding)_, _[Mordenkainen's private sanctum](/dnd/spell/Mordenkainen's private sanctum)_, _[protection from evil and good](/dnd/spell/protection from evil and good)_, and _[symbol](/dnd/spell/symbol)_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

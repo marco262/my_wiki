@@ -42,7 +42,7 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Comet.*** If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no effect.
 
-***Donjon.*** You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared.  You remain imprisoned until you are found and removed from the sphere.  You can't be located by any divination magic, but a _[[[spell:wish]]]_ spell can reveal the location of your prison. You draw no more cards.
+***Donjon.*** You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared.  You remain imprisoned until you are found and removed from the sphere.  You can't be located by any divination magic, but a _[wish](/dnd/spell/wish)_ spell can reveal the location of your prison. You draw no more cards.
 
 ***Euryale.*** The card's medusa-like visage curses you. You take a -2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.
 
@@ -62,9 +62,9 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Knight.*** You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.
 
-***Moon.*** You are granted the ability to cast the _[[[spell:wish]]]_ spell 1d3 times.
+***Moon.*** You are granted the ability to cast the _[wish](/dnd/spell/wish)_ spell 1d3 times.
 
-***Rogue.*** A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a _[[[spell:wish]]]_ spell or divine intervention can end the NPC's hostility toward you.
+***Rogue.*** A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a _[wish](/dnd/spell/wish)_ spell or divine intervention can end the NPC's hostility toward you.
 
 ***Ruin.*** All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.
 
@@ -82,5 +82,5 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Vizier.*** At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.
 
-***The Void.*** This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [[[general:conditions#incapacitated|incapacitated]]]. A _[[[spell:wish]]]_ spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+***The Void.*** This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [[[general:conditions#incapacitated|incapacitated]]]. A _[wish](/dnd/spell/wish)_ spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 """

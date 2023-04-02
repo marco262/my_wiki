@@ -1,7 +1,7 @@
 name = "Weapon of Returning"
 type = "Weapon"
 subtype = "dagger"
-rarity_type = "Major"
+rarity_type = "Minor"
 rarity = "Uncommon"
 attunement = false
 classes = []

@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 174"
 description = """
-While wearing this helm, you can use an action to cast the _[[[spell:detect thoughts]]]_ spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply -- using a bonus action to do so -- while your focus on it continues.
+While wearing this helm, you can use an action to cast the _[detect thoughts](/dnd/spell/detect thoughts)_ spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply -- using a bonus action to do so -- while your focus on it continues.
 
-While focusing on a creature with _[[[spell:detect thoughts]]]_, you can use an action to cast the _[[[spell:suggestion]]]_ spell (save DC 13) from the helm on that creature. Once used, the _[[[spell:suggestion]]]_ property can't be used again until the next dawn.
+While focusing on a creature with _[detect thoughts](/dnd/spell/detect thoughts)_, you can use an action to cast the _[suggestion](/dnd/spell/suggestion)_ spell (save DC 13) from the helm on that creature. Once used, the _[suggestion](/dnd/spell/suggestion)_ property can't be used again until the next dawn.
 """

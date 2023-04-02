@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 173"
 description = """
-While wearing this helm, you can use an action to cast the _[[[spell:comprehend languages]]]_ spell from it at will.
+While wearing this helm, you can use an action to cast the _[comprehend languages](/dnd/spell/comprehend languages)_ spell from it at will.
 """

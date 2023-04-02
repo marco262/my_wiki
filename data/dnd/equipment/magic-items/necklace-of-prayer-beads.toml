@@ -13,10 +13,10 @@ This necklace has 1d4 + 2 magic beads made from aquamarine, black pearl, or topa
 Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace.  Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.
 
 ||~ d20 ||~ Bead of ... ||~ Spell ||
-|| 1-6 || Blessing || _[[[spell:bless]]]_ ||
-|| 7-12 || Curing || _[[[spell:cure wounds]]]_ (2nd level) or _[[[spell:lesser restoration]]]_ ||
-|| 13-16 || Favor || _[[[spell:greater restoration]]]_ ||
-|| 17-18 || Smiting || _[[[spell:branding smite]]]_ ||
-|| 19 || Summons || _[[[spell:planar ally]]]_ ||
-|| 20 || Wind walking || _[[[spell:wind walk]]]_ ||
+|| 1-6 || Blessing || _[bless](/dnd/spell/bless)_ ||
+|| 7-12 || Curing || _[cure wounds](/dnd/spell/cure wounds)_ (2nd level) or _[lesser restoration](/dnd/spell/lesser restoration)_ ||
+|| 13-16 || Favor || _[greater restoration](/dnd/spell/greater restoration)_ ||
+|| 17-18 || Smiting || _[branding smite](/dnd/spell/branding smite)_ ||
+|| 19 || Summons || _[planar ally](/dnd/spell/planar ally)_ ||
+|| 20 || Wind walking || _[wind walk](/dnd/spell/wind walk)_ ||
 """

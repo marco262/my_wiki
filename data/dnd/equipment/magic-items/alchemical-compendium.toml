@@ -8,7 +8,7 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 119"
 description = """
-Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: _[[[spell:enlarge/reduce]]]_, _[[[spell:feather fall]]]_, _[[[spell:flesh to stone]]]_, _[[[spell:gaseous form]]]_, _[[[spell:magic weapon]]]_, and _[[[spell:polymorph]]]_. It functions as a spellbook for you.
+Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: _[enlarge/reduce](/dnd/spell/enlarge/reduce)_, _[feather fall](/dnd/spell/feather fall)_, _[flesh to stone](/dnd/spell/flesh to stone)_, _[gaseous form](/dnd/spell/gaseous form)_, _[magic weapon](/dnd/spell/magic weapon)_, and _[polymorph](/dnd/spell/polymorph)_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

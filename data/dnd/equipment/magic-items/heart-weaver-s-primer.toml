@@ -8,7 +8,7 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 128"
 description = """
-This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: _[[[spell:antipathy/sympathy]]]_, _[[[spell:charm person]]]_, _[[[spell:dominate person]]]_, _[[[spell:enthrall]]]_, _[[[spell:hypnotic pattern]]]_, _[[[spell:modify memory]]]_, and _[[[spell:suggestion]]]_. It functions as a spellbook for you.
+This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: _[antipathy/sympathy](/dnd/spell/antipathy/sympathy)_, _[charm person](/dnd/spell/charm person)_, _[dominate person](/dnd/spell/dominate person)_, _[enthrall](/dnd/spell/enthrall)_, _[hypnotic pattern](/dnd/spell/hypnotic pattern)_, _[modify memory](/dnd/spell/modify memory)_, and _[suggestion](/dnd/spell/suggestion)_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

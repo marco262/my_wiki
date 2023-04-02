@@ -8,7 +8,7 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 134"
 description = """
-The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: _[[[spell:banishment]]]_, _[[[spell:find familiar]]]_, _[[[spell:gate]]]_, _[[[spell:magic circle]]]_, _[[[spell:planar binding]]]_, and _[[[spell:summon elemental]]]_. It functions as a spellbook for you.
+The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: _[banishment](/dnd/spell/banishment)_, _[find familiar](/dnd/spell/find familiar)_, _[gate](/dnd/spell/gate)_, _[magic circle](/dnd/spell/magic circle)_, _[planar binding](/dnd/spell/planar binding)_, and _[summon elemental](/dnd/spell/summon elemental)_. It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 

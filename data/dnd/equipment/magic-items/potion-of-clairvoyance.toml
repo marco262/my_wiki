@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 187"
 description = """
-When you drink this potion, you gain the effect of the _[[[spell:clairvoyance]]]_ spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.
+When you drink this potion, you gain the effect of the _[clairvoyance](/dnd/spell/clairvoyance)_ spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.
 """

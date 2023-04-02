@@ -10,7 +10,7 @@ source = "Dungeon Master's Guide, p. 176"
 description = """
 An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
 
-You can use an action to play the instrument and cast one of its spells: _[[[spell:barkskin]]]_, _[[[spell:cure wounds]]]_, _[[[spell:fly]]]_, _[[[spell:fog cloud]]]_, _[[[spell:invisibility]]]_, _[[[spell:levitate]]]_, _[[[spell:protection from evil and good]]]_. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+You can use an action to play the instrument and cast one of its spells: _[barkskin](/dnd/spell/barkskin)_, _[cure wounds](/dnd/spell/cure wounds)_, _[fly](/dnd/spell/fly)_, _[fog cloud](/dnd/spell/fog cloud)_, _[invisibility](/dnd/spell/invisibility)_, _[levitate](/dnd/spell/levitate)_, _[protection from evil and good](/dnd/spell/protection from evil and good)_. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
 
 When you use the instrument to cast a spell that causes targets to become charmed on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.
 """

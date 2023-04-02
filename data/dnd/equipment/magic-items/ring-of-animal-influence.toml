@@ -10,7 +10,7 @@ source = "Dungeon Master's Guide, p. 189"
 description = """
 This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:
 
-* _[[[spell:animal friendship]]]_ (save DC 13)
-* _[[[spell:fear]]]_ (save DC 13), targeting only beasts that have an Intelligence of 3 or lower
-* _[[[spell:speak with animals]]]_
+* _[animal friendship](/dnd/spell/animal friendship)_ (save DC 13)
+* _[fear](/dnd/spell/fear)_ (save DC 13), targeting only beasts that have an Intelligence of 3 or lower
+* _[speak with animals](/dnd/spell/speak with animals)_
 """

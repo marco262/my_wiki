@@ -8,9 +8,9 @@ classes = ["wizard"]
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 124"
 description = """
-An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: _[[[spell:detect thoughts]]]_, _[[[spell:intellect fortress]]]_, _[[[spell:Rary's telepathic bond]]]_, _[[[spell:sending]]]_, _[[[spell:telekinesis]]]_, _[[[spell:Tasha's mind whip]]]_, and _[[[spell:Tenser's floating disk]]]_. It functions as a spellbook for you, with its spells and other writing psychically encoded within it.
+An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: _[detect thoughts](/dnd/spell/detect thoughts)_, _[intellect fortress](/dnd/spell/intellect fortress)_, _[Rary's telepathic bond](/dnd/spell/Rary's telepathic bond)_, _[sending](/dnd/spell/sending)_, _[telekinesis](/dnd/spell/telekinesis)_, _[Tasha's mind whip](/dnd/spell/Tasha's mind whip)_, and _[Tenser's floating disk](/dnd/spell/Tenser's floating disk)_. It functions as a spellbook for you, with its spells and other writing psychically encoded within it.
 
-While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the _[[[spell:mage hand]]]_, _[[[spell:mind sliver]]]_, and _[[[spell:message]]]_ cantrips if you don't already know them.
+While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the _[mage hand](/dnd/spell/mage hand)_, _[mind sliver](/dnd/spell/mind sliver)_, and _[message](/dnd/spell/message)_ cantrips if you don't already know them.
 
 The crystal has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:
 

@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 159"
 description = """
-The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[[[spell:scrying]]]_ spell (save DC 17) with it.
+The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[scrying](/dnd/spell/scrying)_ spell (save DC 17) with it.
 """
