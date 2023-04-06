@@ -2,7 +2,11 @@ While you're traveling and exploring, tell the GM what you'd generally like to d
 
 You can only use exploration activities while your party is moving no faster than a [Normal Pace](/dnd/general/Adventuring#travel-pace).
 
-Below are the most common exploration activities, but the DM may provide additional options according to the situation, like climbing or swimming or pushing a heavy block down a hallway.
+Below are the most common exploration activities, but additional options may be available depending on the situation, like deciphering a secret message written on a wall, trying to piece together a puzzle, or navigating a set of dangerous runes inscribed on the floor.
+
+## Cover Tracks
+
+You take care to cover the party's tracks as you explore. Anyone tracking you must succeed at a Survival check against your passive Survival DC.
 
 ## Defend
 
@@ -30,7 +34,7 @@ You take it slow, focusing on letting yourself recuperate from your adventures. 
 
 ## Scout
 
-You scout ahead and behind the group to watch danger. You get advantage on Perception checks to detect any hidden creatures or ambushes. The DM will adjust your passive Perception score to account for this.
+You scout ahead and behind the group to watch for danger. You get advantage on Perception checks to detect any hidden creatures or ambushes. The DM will adjust your passive Perception score to account for this.
 
 ## Search
 

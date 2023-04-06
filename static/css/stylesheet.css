@@ -532,6 +532,7 @@ div.theme-restricted {
     display: inline;
     background-color: lightgray;
     padding: 0.5em;
+    cursor: help;
 }
 
 .gm-notes summary + * {
