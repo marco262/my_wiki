@@ -1,5 +1,6 @@
+
 **Class Group:** Expert  
-**Primary Ability:** Dexterity, Wisdom
+**Primary Abilities:** Dexterity, Wisdom
 
 Far from the bustle of cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch.
 

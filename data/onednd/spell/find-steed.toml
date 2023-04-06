@@ -1,0 +1,57 @@
+title = "Find Steed"
+spell_lists = ["Divine"]
+level = "2"
+school = "Conjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "10 minutes"
+range = "30 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """
+[[div class="monster-float"]]
+
+[[include dnd/monster-sheet.tpl]]
+width = 500px
+name = Otherworldly Steed
+size = Large
+type = Celestial, Fey, or Fiend (Choose When Casting the Spell)
+alignment = Neutral
+armor_class = 10 + 1 per spell level (natural armor)
+hit_points = 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)
+speed = 60 ft., Fly 60 ft. (requires 4th-level spell or higher)
+strength = 18
+dexterity = 12
+constitution = 14
+intelligence = 6
+wisdom = 12
+charisma = 8
+senses = Passive Perception 11
+languages = Telepathy 1 mile (only between you and the steed)
+proficiency_bonus = equals your bonus
+special_abilities = !!!
+***Life Bond.*** When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it.
+!!!
+actions = !!!
+***Otherworldly Maul.*** _Melee Spell Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1d8 + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend).
+!!!
+bonus_actions = !!!
+***Fey Step (Fey Only; Recharges after a Long Rest).*** The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away.
+
+***Fell Glare (Fiend Only; Recharges after a Long Rest).*** The steed's eyes gleam with fiendish light as it targets one creature it can perceive up to 60 feet away. The target must succeed on a Wisdom saving throw against your Spell Save DC or have the Frightened condition until the end of your next turn.
+
+***Healing Touch (Celestial Only; Recharges after a Long Rest).*** The steed touches another creature and restores a number of Hit Points to it equal to 2d8 + the spell's level.
+!!!
+[[/include]]
+
+[[/div]]
+
+You gain the service of an otherworldly being, which manifests as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, your steed is replaced by the new one.
+
+The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type -- Celestial, Fey, or Fiend -- which determines certain traits in the stat block.
+
+***Combat.*** The steed is an ally to you and your companions. In combat, it shares your initiative count, and it functions as a controlled mount (as defined in the rules on mounted combat). If you have the Incapacitated condition, it takes its turn immediately after yours and acts independently, focusing on protecting you.
+
+***Disappearance of the Steed.*** The steed disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one."""
+at_higher_levels = "When you cast this spell using a Spell Slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block."
+source = "Druid and Paladin"
