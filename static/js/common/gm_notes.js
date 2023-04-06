@@ -1,6 +1,9 @@
 import {ajax_call} from "/static/js/common/utils.js";
 
-export function init_gm_notes_inserts() {
+let namespace;
+
+export function init_gm_notes_inserts(v_namespace) {
+    namespace = v_namespace;
     document.querySelectorAll("details.gm-notes").forEach(e => e.addEventListener(
         "toggle", function() { on_insert_toggle(e) }
     ));
@@ -18,7 +21,7 @@ function on_insert_toggle(e) {
     e.appendChild(p);
     // Fetch the gm_notes insert
     ajax_call(
-        `/arr/gm_notes/insert/${e.id}`,
+        `/${namespace}/gm_notes/insert/${e.id}`,
         function (xhttp){ load_insert(e, xhttp) },
         null,
         function (xhttp) { insert_error(e, xhttp) }

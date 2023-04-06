@@ -1,8 +1,8 @@
 [[breadcrumb /arr/|A Realm Reborn]]
 
 <script type="module">
-    import {init_gm_notes_inserts} from "/static/js/arr/gm_notes.js";
-    init_gm_notes_inserts();
+    import {init_gm_notes_inserts} from "/static/js/common/gm_notes.js";
+    init_gm_notes_inserts("arr");
 </script>
 
 ## The Twelve

@@ -1,3 +1,8 @@
+<script type="module">
+    import {init_gm_notes_inserts} from "/static/js/common/gm_notes.js";
+    init_gm_notes_inserts("dnd");
+</script>
+
 The marketplace of a large city teems with buyers and sellers of many sorts: dwarf smiths and elf woodcarvers, halfling farmers and gnome jewelers, not to mention humans of every shape, size, and color drawn from a spectrum of nations and cultures. In the largest cities, almost anything imaginable is offered for sale, from exotic spices and luxurious clothing to wicker baskets and practical swords.
 
 For an adventurer, the availability of armor, weapons, backpacks, rope, and similar goods is of paramount importance, since proper equipment can mean the difference between life and death in a dungeon or the untamed wilds. This chapter details the mundane and exotic merchandise that adventurers commonly find useful in the face of the threats that the worlds of D&D present.
@@ -862,6 +867,18 @@ Over time, spellcasters have started to develop a basic formula for how to charg
     import { init_calculator } from "/static/js/dnd/spellcasting-service.js";
     init_calculator();
 </script>
+
+## Identifying Magic Items
+
+*Source: Homebrew*
+
+Thoroughly identifying a magic item requires the [identify](/dnd/spell/Identify) spell.
+
+If no one in the party knows the _identify_ spell, it will generally be pretty easy to find someone else who can cast it for you, though they may charge you for their services (see above), depending on how much they like you. Also, it will still be possible to spend some time playing with an item and learning at least a bit of its function, depending on how obvious it is. You won't risk using up consumable items this way.
+
+Lastly, anyone taking a few moments to inspect a magic item can make an Arcana or History check to see if they have come across the item before, or can use their knowledge of arcane theory to piece together the item's likely purpose.
+
+[[gm_notes Identifying Magic Items]]
 
 # Trinkets
 

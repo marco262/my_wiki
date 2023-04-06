@@ -527,3 +527,13 @@ div.theme-restricted {
     font-weight: bold;
     margin-top: 0.2em;
 }
+
+.gm-notes {
+    display: inline;
+    background-color: lightgray;
+    padding: 0.5em;
+}
+
+.gm-notes summary + * {
+    margin-top: 0.5em;
+}

@@ -94,28 +94,18 @@
 * [[[general:Combat]]]
 * [[[general:Spellcasting Rules]]]
 * [[[general:Conditions]]]
-
-### Dungeon Master's Guide
-
-* [[[general:Running Encounters]]]
-* [[[general:Awarding Magic Items]]]
-* [[[general:Downtime Activities#dungeon-masters-guide|Downtime Activities]]]
-
-### Xanathar's Guide to Everything
-
-* [[[general:Downtime Activities#xanathars-guide-to-everything|Downtime Activities]]]
-
-### Tasha's Cauldron of Everything
-
+* [[[general:Downtime Activities]]]
 * [[[general:Sidekicks]]]
-
-### Homebrew
-
 * [[[general:Exploration Activities]]]
 
 [[/div]]
 
 [[div class="index-column"]]
+
+## Dungeon Master's Toolbox
+
+* [[[dm_toolbox:Running Encounters]]]
+* [[[dm_toolbox:Magic Items]]]
 
 ## Monsters
 

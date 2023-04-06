@@ -83,7 +83,6 @@
             <a href="/dnd/general/Using Ability Scores">Using Ability Scores</a>
             <a href="/dnd/general/Adventuring">Adventuring</a>
             <a href="/dnd/general/Combat">Combat</a>
-            <a href="/dnd/general/Running Encounters">Running Encounters</a>
             <a href="/dnd/general/Spellcasting Rules">Spellcasting Rules</a>
             <a href="/dnd/general/Conditions">Conditions</a>
         </div>

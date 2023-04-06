@@ -7,7 +7,8 @@ from os.path import join as pjoin
 from os.path import splitext, basename, isfile
 from time import time
 
-from bottle import view, request, HTTPError, Bottle, template, redirect
+import bcrypt
+from bottle import view, request, HTTPError, Bottle, template, redirect, auth_basic
 
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
@@ -15,10 +16,15 @@ from src.dnd.search import Search
 from src.dnd.utils import init_spells_and_magic_items, class_spell, open_monster_sheet, load_spells, \
     load_spells_by_level, load_magic_items, get_magic_item_table, get_magic_item_subtypes, filter_magic_items
 
+
+# Default password: dancinglikeastripper
+GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 SEARCH_OBJ = Search()
 
 
 def init(cfg):
+    global GM_NOTES_PW_HASH
+    GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     init_spells_and_magic_items()
 
 
@@ -65,6 +71,10 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/subclass/<name>')
     def subclass(name):
         return md_page(name, "dnd", "subclass")
+
+    @app.get('/dm_toolbox/<name>')
+    def subclass(name):
+        return md_page(name, "dnd", "dm_toolbox")
 
     @app.get('/monster/<name>')
     def monster(name):
@@ -382,3 +392,12 @@ def load_wsgi_endpoints(app: Bottle):
                 continue
             monsters[name] = link
         return {"monsters": monsters}
+
+    @app.get("gm_notes/insert/<name>")
+    @auth_basic(gm_notes_auth_check)
+    def gm_notes_insert(name):
+        return md_page(name, "dnd", directory="gm_notes/inserts", load_template=False)
+
+
+def gm_notes_auth_check(username, password):
+    return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)
