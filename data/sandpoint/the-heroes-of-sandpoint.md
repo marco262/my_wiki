@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/static/css/sandpoint.css">
 
-**Current Year:** 4707 AR
+**Current Date:** [Rova 26, 4707 AR](https://dungeonetics.com/calendar/?calyear=4707&month=8&start_dow=1)
 
 # The Heroes
 

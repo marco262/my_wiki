@@ -175,10 +175,17 @@ About a mile along the beach, the ocean encroaches against the shore to the poin
 4. Thassilon's magic was highly advanced, and many of its secrets have been lost to time.
 5. Thassilon's capital city was known as Xin-Shalast, and it was said to be located somewhere in the mountains of the far north.
 6. Thassilon was eventually destroyed by a cataclysmic event known as the Earthfall, which is said to have been caused by the hubris and arrogance of Thassilon's rulers.
+7. Brodert theorizes the Old Light was once a war machine capable of spewing fire to a range of more than a mile.
 
 * <https://rotrl.fandom.com/wiki/Brodert_Quink_(The_Runelords_of_Thassilon)>
 * <https://paizo.com/threads/rzs2q8vo?How-much-of-Thassilons-history-and#2>
 * <https://paizo.com/threads/rzs2may1?How-well-known-is-Thassilon#5>
+
+## Goodbye to Aldern
+
+Aldern Foxglove is ready to say a bittersweet farewell to the Heroes. His story is that he must return to his recently reacquired ancestral home to continue renovations. He eagerly invites the Heroes to visit him soon, "after all this nasty business with goblins is taken care of, of course."
+
+Delve into small talk between Aldern and the PCs, and hint at Aldern's internal struggle and his self-hatred. Talk about how he envies the PCs, how he wishes he could be as brave and selfless and honest as them. Turn on the waterworks when you can.
 
 ## Return of the Sheriff
 
