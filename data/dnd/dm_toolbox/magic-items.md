@@ -20,7 +20,100 @@ This alternative method of treasure determination focuses on choosing magic item
 
 ***By Tier.*** The Magic Items Awarded by Tier table shows the number of magic items a D&D party typically gains during a campaign, culminating in the group's having accumulated one hundred magic items by 20th level. The table shows how many of those items are meant to be handed out during each of the four tiers of play. The emphasis on characters receiving more items during the second tier (levels 5-10) than in other tiers is by design. The second tier is where much of the play occurs in a typical D&D campaign, and the items gained in that tier prepare the characters for higher-level adventures.
 
+#### Magic Items Awarded by Tier
+
+| Character<br>Level | Minor Items | Major Items | All Items |
+|:------------------:|:-----------:|:-----------:|:---------:|
+|        1-4         |      9      |      2      |    11     |
+|        5-10        |     28      |      6      |    34     |
+|       11-16        |     24      |      6      |    30     |
+|       17-20        |     19      |      6      |    25     |
+|     **Total**      |   **80**    |   **20**    |  **100**  |
+
 ***By Rarity.*** The Magic Items Awarded by Rarity table takes the numbers from the Magic Items Awarded by Tier table and breaks them down to show the number of items of each rarity the characters are expected to have when they reach the end of a tier.
+
+
+#### Magic Items Awarded by Rarity
+
+<table>
+    <tr>
+        <th></th>
+        <th colspan="5">Minor Magic Items</th>
+        <th colspan="4">Major Magic Items</th>
+    </tr>
+    <tr>
+        <th>Level/CR</th>
+        <th>Common</th>
+        <th>Uncommon</th>
+        <th>Rare</th>
+        <th>Very Rare</th>
+        <th>Legendary</th>
+        <th>Uncommon</th>
+        <th>Rare</th>
+        <th>Very Rare</th>
+        <th>Legendary</th>
+    </tr>
+    <tr style="text-align: center">
+        <td>1—4</td>
+        <td>6</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr style="text-align: center">
+        <td>5—10</td>
+        <td>10</td>
+        <td>12</td>
+        <td>5</td>
+        <td>1</td>
+        <td>0</td>
+        <td>5</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr style="text-align: center">
+        <td>11—16</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>5</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+    <tr style="text-align: center">
+        <td>17+</td>
+        <td>0</td>
+        <td>0</td>
+        <td>4</td>
+        <td>9</td>
+        <td>6</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr style="text-align: center; font-weight: bold">
+        <td>Totals</td>
+        <td>19</td>
+        <td>20</td>
+        <td>19</td>
+        <td>15</td>
+        <td>7</td>
+        <td>8</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+    </tr>
+</table>
 
 ***Minor and Major Items.*** Both tables in this section make a distinction between minor magic items and major magic items. This distinction exists in the Dungeon Master's Guide, yet those terms aren't used there. In that book, the minor items are those listed on Magic Item Tables A through E, and the major items are on Magic Item Tables F through I. As you can see from the Treasure Hoard tables in that book, major magic items are meant to be handed out much less frequently than minor items, even at higher levels of play.
 
