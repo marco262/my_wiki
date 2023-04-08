@@ -1,10 +1,13 @@
+
 * Add to wiki page:
 * Add to references: 
 * Get Judge Ironbriar involved early
   * He sends a vice justice back with Sheriff Hemlock
   * Present the vice justice to the party as a way to "inquisition" the town
 * Why did Tsuto want to talk to Ameiko? Look into it
+  * To talk her into joining Nualia's band
 * Was Father Tobyn Nualia's real father? Decide on this
+  * Nah, probably not. Interesting, but it adds unnecessary complications
 * Note to self: Add fire theming to this campaign
 
 Silly notes:
