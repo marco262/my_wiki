@@ -42,12 +42,12 @@ class TestMagicItemTracker(unittest.TestCase):
         <td class="">2 / 6</td>
         <td class="faded-out">2 / 2</td>
         <td class="">0 / 1</td>
-        <td class="faded-out">0 / 0</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
+        <td class="faded-out">--</td>
         <td class="">1 / 2</td>
-        <td class="faded-out">0 / 0</td>
-        <td class="faded-out">0 / 0</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
+        <td class="faded-out">--</td>
+        <td class="faded-out">--</td>
     </tr>
     <tr style="text-align: center">
         <td>5—10</td>
@@ -55,11 +55,11 @@ class TestMagicItemTracker(unittest.TestCase):
         <td class="">0 / 12</td>
         <td class="">0 / 5</td>
         <td class="faded-out">1 / 1</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
         <td class="">0 / 5</td>
         <td class="faded-out">1 / 1</td>
-        <td class="faded-out">0 / 0</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
+        <td class="faded-out">--</td>
     </tr>
     <tr style="text-align: center">
         <td>11—16</td>
@@ -75,12 +75,12 @@ class TestMagicItemTracker(unittest.TestCase):
     </tr>
     <tr style="text-align: center">
         <td>17+</td>
-        <td class="faded-out">0 / 0</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
+        <td class="faded-out">--</td>
         <td class="">0 / 4</td>
         <td class="">0 / 9</td>
         <td class="">0 / 6</td>
-        <td class="faded-out">0 / 0</td>
+        <td class="faded-out">--</td>
         <td class="">0 / 1</td>
         <td class="">0 / 2</td>
         <td class="">0 / 3</td>
