@@ -10,7 +10,7 @@ elif attunement:
 end
 notes = f" ({notes})" if notes else ""
 %> 
-<p><em>{{type.title()}}{{!subtype}}, {{rarity.lower()}}{{!notes}}</em></p>
+<p><em>{{type.title()}}{{!subtype}}, {{ rarity_type.lower() }} {{rarity.lower()}}{{!notes}}</em></p>
 
 {{!description_md}}
 

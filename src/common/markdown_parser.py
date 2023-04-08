@@ -6,9 +6,11 @@ import os
 import re
 
 import toml
+
 from bottle import template, TemplateError
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name
+from src.dnd.magic_item_tracker import build_magic_item_tracker
 from src.dnd.npc_generator import create_npc
 from src.dnd.utils import to_mod
 
@@ -43,6 +45,7 @@ class MarkdownParser:
         text = self.convert_simple_links(text)
         text = self.add_includes(text)
         text = self.add_breadcrumbs(text)
+        text = self.insert_magic_item_trackers(text)
         return text
 
     def post_parsing(self, text):
@@ -206,8 +209,17 @@ class MarkdownParser:
         return text
 
     @staticmethod
+    def insert_magic_item_trackers(text):
+        pattern = r"\[\[magic-item-tracker]](.*?)\[\[/magic-item-tracker]]"
+        for m in re.finditer(pattern, text, re.DOTALL):
+            magic_items = m.group(1).strip("\n")
+            magic_item_tracker_table = build_magic_item_tracker(magic_items)
+            text = text.replace(m.group(0), f"{magic_items}\n\n{magic_item_tracker_table}")
+        return text
+
+    @staticmethod
     def add_header_links(text):
-        for m in re.finditer(r'(<h\d id="(.*?)".*?)(<\/h\d>)', text):
+        for m in re.finditer(r'(<h\d id="(.*?)".*?)(</h\d>)', text):
             text = text.replace(m.group(0),
                                 f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}')
         return text

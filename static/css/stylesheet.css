@@ -543,3 +543,11 @@ div.theme-restricted {
 .gm-notes summary + * {
     margin-top: 0.5em;
 }
+
+td.faded-out {
+    color: lightgray;
+}
+
+td.error-text {
+    color: red;
+}

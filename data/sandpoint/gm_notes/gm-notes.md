@@ -53,3 +53,13 @@ Enter another URL to set as Visual Aid here:
 
 * [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
 * [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
+
+## Awarded Magic Items
+
+[[magic-item-tracker]]
+* Illuminator's Tattoo -- Minor Common
+* Spell Scroll (Burning Hands) -- Minor Common
+* Spell Scroll (Flaming Sphere) -- Minor Uncommon
+* Dagger of Returning -- Minor Uncommon
+* [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
+[[/magic-item-tracker]]

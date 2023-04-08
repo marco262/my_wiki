@@ -255,3 +255,55 @@ Text&mdash;more text &mdash; Yes
 +-----------+
 """
         self.assertEqual(expected, md.fancy_text(text))
+
+    @mock.patch("src.common.markdown_parser.build_magic_item_tracker", return_value="<table>floomp</table>")
+    def test_insert_magic_item_trackers(self, *_mocks: mock.MagicMock):
+        text = """
+I am initial text here I am look at me
+
+[[magic-item-tracker]]
+* Illuminator's Tattoo -- Minor Common
+* Spell Scroll (Burning Hands) -- Minor Common
+* Spell Scroll (Flaming Sphere) -- Minor Uncommon
+* Dagger of Returning -- Minor Uncommon
+* Wand of Witch Bolt -- Major Uncommon
+* Wand of Witch Bolt -- Major Rare
+* Wand of Witch Bolt -- Minor Very Rare
+* Wand of Witch Bolt -- Major Legendary
+* Major Wand of Rare Bolt -- Minor Legendary
+[[/magic-item-tracker]]
+
+Here's another tracker doing other things:
+
+[[magic-item-tracker]]
+* Illuminator's Tattoo -- Minor Common
+* Spell Scroll (Burning Hands) -- Minor Common
+[[/magic-item-tracker]]
+
+And here's the ending
+        """
+        expected = """
+I am initial text here I am look at me
+
+* Illuminator's Tattoo -- Minor Common
+* Spell Scroll (Burning Hands) -- Minor Common
+* Spell Scroll (Flaming Sphere) -- Minor Uncommon
+* Dagger of Returning -- Minor Uncommon
+* Wand of Witch Bolt -- Major Uncommon
+* Wand of Witch Bolt -- Major Rare
+* Wand of Witch Bolt -- Minor Very Rare
+* Wand of Witch Bolt -- Major Legendary
+* Major Wand of Rare Bolt -- Minor Legendary
+
+<table>floomp</table>
+
+Here's another tracker doing other things:
+
+* Illuminator's Tattoo -- Minor Common
+* Spell Scroll (Burning Hands) -- Minor Common
+
+<table>floomp</table>
+
+And here's the ending
+"""
+        print(self.md.insert_magic_item_trackers(text))
