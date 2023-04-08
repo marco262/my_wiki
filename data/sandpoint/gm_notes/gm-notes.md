@@ -6,9 +6,10 @@
     init_visual_aid();
 </script>
 
-* [Notebook](Notebook)
-* [Soundboard](Soundboard)
+* [Notebook]()
+* [Soundboard]()
 * [Visual aid](/visual_aid)
+* [Timeline]()
 
 Enter another URL to set as Visual Aid here:
 
