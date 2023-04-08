@@ -77,11 +77,6 @@
 * [[[general:equipment#expenses|Expenses]]]
 * [[[general:equipment#trinkets|Trinkets]]]
 
-## Magic Items
-
-* [Magic Items Filter](/dnd/equipment/magic_item_filter/)
-* [Magic Item Generator](/dnd/equipment/magic_item_generator/)
-
 [[/div]]
 
 [[div class="index-column"]]
@@ -106,6 +101,8 @@
 
 * [[[dm_toolbox:Running Encounters]]]
 * [[[dm_toolbox:Magic Items]]]
+    * [Magic Items Filter](/dnd/equipment/magic_item_filter/)
+    * [Magic Item Generator](/dnd/equipment/magic_item_generator/)
 
 ## Monsters
 

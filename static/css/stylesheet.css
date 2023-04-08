@@ -120,10 +120,15 @@ body {
 
 .index-column ul {
     list-style-image: url("/media/img/bullet.png");
+    padding-left: 1em;
+}
+
+.index-column > ul {
+    margin-left: 1em;
 }
 
 .index-column p {
-    line-height: 0.8;
+    line-height: 0.8em;
 }
 
 .index-column h2 {
