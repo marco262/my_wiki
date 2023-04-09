@@ -58,9 +58,9 @@ Enter another URL to set as Visual Aid here:
 ## Awarded Magic Items
 
 [[magic-item-tracker]]
-* Illuminator's Tattoo -- Minor Common
-* Spell Scroll (Burning Hands) -- Minor Common
-* Spell Scroll (Flaming Sphere) -- Minor Uncommon
-* Dagger of Returning -- Minor Uncommon
+* [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo) -- Minor Common
+* [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-1st-level) (Burning Hands) -- Minor Common
+* [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
+* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Minor Uncommon
 * [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
 [[/magic-item-tracker]]

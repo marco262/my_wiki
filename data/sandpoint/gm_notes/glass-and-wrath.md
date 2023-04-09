@@ -98,7 +98,7 @@
   * [Ambience]($load|ambience|curse_of_strahd/burning_building1.ogg)
   * [Ambience]($load|ambience|curse_of_strahd/burning_building2.ogg)
   * [Panicked Crowd]($load|ambience|curse_of_strahd/D&D Ambience _ Panicked Crowd _ Movement, Stuff Breaking, People Crying and Yelling, Fear-whtz44p9oII.mp3)
-* Planning [Ominous]($load|music|arr/Huon.mp3), [Curious]($load|music|arr/BGM_Event_Fuan.mp3), [Solemn]($load|music|arr/BGM_ORCH_136-Canticle.mp3)
+* Planning [Ominous]($load|music|arr/Huon.mp3), [Curious]($load|music|arr/BGM_Event_Fuan.mp3), [Calm]($load|music|arr/BGM_ORCH_136-Canticle.mp3)
 
 # So the Heroes Fucked Up. Now What?
 
