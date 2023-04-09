@@ -65,6 +65,7 @@
   * [Sheriff Belor Hemlock](^sandpoint/sheriff_hemlock.jpg)
   * [Vachedi](^sandpoint/vachedi.jpg)
 * 11: Sandpoint Town Hall (p378)
+  * [Mayor's Office](^sandpoint/mayors_office.jpg)
   * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
 * 12: Savah's Armory (p378)
   * [Savah Bevaniky](^sandpoint/savah_bevaniky.jpg)
