@@ -19,6 +19,10 @@
   * [Rowdy]($load|ambience|sandpoint/Rowdy Tavern.mp3)
   * [Party](https://www.youtube.com/watch?v=FM3Ep3yka44)
   * [Brawl](https://www.youtube.com/watch?v=0p79IBaksXU)
+* Tavern Themes
+  * [Another Round]($load|music|arr/Another_Round.mp3) 
+  * [Homestead]($load|music|arr/Homestead.mp3)
+  * [On Windy Meadows]($load|music|arr/On Windy Meadows.mp3)
 
 ## Notable NPCs
 

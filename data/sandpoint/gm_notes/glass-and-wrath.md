@@ -98,6 +98,7 @@
   * [Ambience]($load|ambience|curse_of_strahd/burning_building1.ogg)
   * [Ambience]($load|ambience|curse_of_strahd/burning_building2.ogg)
   * [Panicked Crowd]($load|ambience|curse_of_strahd/D&D Ambience _ Panicked Crowd _ Movement, Stuff Breaking, People Crying and Yelling, Fear-whtz44p9oII.mp3)
+* [Planning]($load|music|arr/BGM_Event_Keikaku.mp3)
 
 # So the Heroes Fucked Up. Now What?
 
@@ -168,6 +169,8 @@ The back door of the glassworks is wide open, and although the area immediately 
 About a mile along the beach, the ocean encroaches against the shore to the point where the beach disappears. Tsuto waded out into the water and then turned inland, following a stream for a ways before continuing their journey, making sure to cover their tracks. Further tracking won't be useful to find them.
 
 ## What Does Brodert Quink know?
+
+[Theme]($load|music|arr/FFXIV OST Ascian Theme [Without Shadow].mp3)
 
 1. Thassilon was an ancient empire that existed thousands of years ago, before the rise of the modern nations of Avistan.
 2. Thassilon was ruled by powerful wizards known as "runelords," each of whom had dominion over a different aspect of magic and society.
