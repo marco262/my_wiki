@@ -9,6 +9,8 @@
 * Was Father Tobyn Nualia's real father? Decide on this
   * Nah, probably not. Interesting, but it adds unnecessary complications
 * Note to self: Add fire theming to this campaign
+* Drop info about the origin of Malfeshnekor as they explore Thistletop
+* Add Earthfall and Erylium to wiki page; fix ... something?
 
 Silly notes:
 
@@ -61,14 +63,14 @@ Rusty: Searching
 
 ## Initiative
 
-| Name       | Per | Inv | #   | HP      |
-|------------|-----|-----|-----|---------|
-| Delfi      | 12  | 10  | 22  |         |
-| Grog       | 13  | 10  | 13  |         |
-| Tinkerboob |     |     | 9   | 59 / 60 |
-| Althaea    | 14  | 11  | 6   |         |
-| Lyse       | 13  | 11  | 5   |         |
-| Rusty      | 10  | 13  | 5   |         |
+| Name       | Per | Inv | #  | HP |
+|------------|-----|-----|----|----|
+| Lyse       | 13  | 11  | 23 |    |
+| Delfi      | 12  | 10  | 22 |    |
+| Rusty      | 10  | 13  | 21 |    |
+| Tinkerboob |     |     | 11 |    |
+| Althaea    | 14  | 11  | 9  |    |
+| Grog       | 13  | 10  | 6  |    |
 
 
 ## Identifying Magic Items
