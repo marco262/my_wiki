@@ -111,9 +111,9 @@ def load_spells():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "source_extended" in d:
-                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd")
+                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             k = splitext(basename(path))[0]
             spells[k] = d
             SPELLS_BY_LEVEL[d["level"]].append((k, d))
@@ -144,7 +144,7 @@ def load_magic_items():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if d["subtype"]:
                 MAGIC_ITEM_SUBTYPES.add(d["subtype"])
             magic_items[splitext(basename(path))[0]] = d

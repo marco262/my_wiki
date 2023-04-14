@@ -15,7 +15,7 @@ from src.dnd.npc_generator import create_npc
 from src.dnd.utils import to_mod
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables", "metadata"]
+EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
 
 
 class MarkdownParser:
@@ -29,15 +29,21 @@ class MarkdownParser:
             self.markdown_obj = Markdown(extras=EXTRAS)
             self.markdown_obj.preprocess = self.pre_parsing
             self.markdown_obj.postprocess = self.post_parsing
+            self.markdown_obj_with_metadata = Markdown(extras=EXTRAS + ["metadata"])
+            self.markdown_obj_with_metadata.preprocess = self.pre_parsing
+            self.markdown_obj_with_metadata.postprocess = self.post_parsing
 
     def parse_md_path(self, path, namespace=""):
         with open(path, encoding="utf-8") as f:
             file_contents = f.read()
         return self.parse_md(file_contents, namespace)
 
-    def parse_md(self, text, namespace=""):
+    def parse_md(self, text, namespace="", with_metadata=True):
         self.namespace = namespace
-        return self.markdown_obj.convert(text)
+        if with_metadata:
+            return self.markdown_obj_with_metadata.convert(text)
+        else:
+            return self.markdown_obj.convert(text)
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
