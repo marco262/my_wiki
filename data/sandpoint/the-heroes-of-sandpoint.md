@@ -171,6 +171,24 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
   * Has two children: [Aeren Barett](@sandpoint/aeren_barett.jpg), her son. And Verah, her infant daughter.
   * Her husband, Alergast, was killed by a goblin trapped in her son's closet.
   * Amele and her remaining family have been taken in by her sister, Jastice, in Magnimar.
+* [Erylium](@sandpoint/erylium.jpg)
+  * Quasit queen who's been living in a series of catacombs/shrine to Lamashtu underneath Sandpoint for centuries (if her account is to be believed)
+  * Claims to have been the familiar of someone called the Scribbler, who was a follower of Runelord Alaznist.
+  * Claims to be a cleric of Lamashtu, who delivered her a "general" in the form of Nualia.
+  * Says she trained Nualia to be a cleric of Lamashtu, and sent her off to build her an army to conquer the Enemy Above (aka you guys)
+  * Super dead now, except really she just got sent back to her home plane
+
+[[accordion What you've learned so far about Golarion's history...]]
+
+Tens of thousands of years ago, an ancient civilization called Thassilon existed on Golarion (that's what your planet is called). Though details of this civilization are scarce and hotly debated, it is undoubtable that it actually existed, because it left behind dozens of ruins scattered all about Golarion's landscape that have managed to ward off the passage of time remarkably well for their age. One such ruin is that of the Old Light in Sandpoint, which most assume was some kind of ancient lighthouse.
+
+One thing known to all scholars of ancient Thassilon is that it was ruled by mage-kings, who wielded powerful magicks fueled by "passion" (rough translation).
+
+However, the estimated end of the civilization of Thassilon roughly coincides with the calamity known as Earthfall, where enormous stones the size of mountains fell from the heavens and plunged all of Golarion into the Age of Darkness for roughly 1000 years.
+
+Beneath the town of Sandpoint, you found a [red marble statue](@sandpoint/runelord_alaznist_statue.jpg) of an angry-looking woman wielding an [ornate ransuer](@sandpoint/ranseur.jpg). The inscription on the statue is written in Ancient Thassilonian, and Brodert Quink has provided a rough translation of "Runelord Alaznist, Master of Fury".
+
+[[/accordion]]
 
 [[accordion What you've learned so far about Sandpoint's history...]]
 
