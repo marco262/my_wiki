@@ -36,6 +36,11 @@ def load_wsgi_endpoints(app: Bottle):
     def category_page(category, name):
         return md_page(name, "sandpoint", directory=category)
 
+    @app.get("/calendar")
+    @view("sandpoint/calendar.tpl")
+    def calendar():
+        return
+
 
 def gm_notes_auth_check(username, password):
     return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)

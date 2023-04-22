@@ -10,6 +10,12 @@
 * [Soundboard]()
 * [Visual aid](/visual_aid)
 * [Timeline]()
+* [Calendar](/sandpoint/calendar)
+* Show Calendar on Visual Aid:
+  * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#monthly-calendar-4707-9">Rova, 4707</span>
+  * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#monthly-calendar-4707-10">Lamashan, 4707</span>
+  * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#monthly-calendar-4707-11">Neth, 4707</span>
+  * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#monthly-calendar-4707-12">Kuthona, 4707</span>
 
 Enter another URL to set as Visual Aid here:
 

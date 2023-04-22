@@ -46,8 +46,7 @@
   * The Minor Runewell of Wrath activates under Sandpoint.
   * Xaliasa awakens.
   * Karzoug forms an alliance with Lamiakin and sends them into Varsia including Riddleport, Janderhoff, Korvosa, Belkzen, Magnimar, and Turtleback Ferry.
-  * (Sarenith) The Late Unpleasantness unfolds in Sandpoint.
-  * Nualia flees Sandpoint and joins the Skinsaw Men in Magnimar.
+  * (Sarenith) The Late Unpleasantness unfolds in Sandpoint. Nualia flees Sandpoint and joins the Skinsaw Men in Magnimar.
   * (Erastus) Nualia uncovers the Catacombs of Wrath, and begins studying under Erylium.
   * (Neth) Nualia sets up camp in Thistletop, begins looking for Malfeshnekor.
 * [4704 AR](https://pathfinderwiki.com/wiki/4704_AR) (3 Years ago): Lucrecia arrives in Turtleback Ferry
@@ -65,7 +64,10 @@
   * Aldern goes bankrupt after being blackmailed by the Brothers of the Seven. To pay off the remainder of his debts to the Brothers, he agrees to return to Foxglove Manor and collect diseased rats for them.
 * [Rova 23, 4707](https://dungeonetics.com/calendar/?calyear=4707&month=5&start_dow=1): The Swallowtail Festival
 * [Rova 25, 4707](https://dungeonetics.com/calendar/?calyear=4707&month=5&start_dow=1): Shalelu Andosana returns to Sandpoint with harrowing news about the local goblins
-* [Rova 26, 4707](https://dungeonetics.com/calendar/?calyear=4707&month=5&start_dow=1):
+* [Rova 26, 4707](https://dungeonetics.com/calendar/?calyear=4707&month=5&start_dow=1): 
+  * Sheriff Hemlock leaves Sandpoint with some soldiers to go to Magnimar to request aid
+  * Shalelu Andosana leaves Sandpoint to continue her investigation into the goblins
+* [Rova 27, 4707](https://dungeonetics.com/calendar/?calyear=4707&month=5&start_dow=1):
   * Tsuto Kaijitsu murders his father, Lonjiku.
   * Ameiko is kidnapped by her brother, Tsuto, and taken to the Glassworks.
   * The Heroes raid the Glassworks and start a fire in the basement.
