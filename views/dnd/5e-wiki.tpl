@@ -89,9 +89,9 @@
 * [[[general:Combat]]]
 * [[[general:Spellcasting Rules]]]
 * [[[general:Conditions]]]
+* [[[general:Exploration Activities]]]
 * [[[general:Downtime Activities]]]
 * [[[general:Sidekicks]]]
-* [[[general:Exploration Activities]]]
 
 [[/div]]
 

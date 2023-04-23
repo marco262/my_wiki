@@ -164,3 +164,6 @@
   * [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_1.png) (angry), [Lonjiku Kaijitsu](^sandpoint/lonjiku_kaijitsu_2.jpg) (happy)
 * 50: Deverin Manor (p385)
   * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
+* [Chopper's Isle](^sandpoint/choppers_isle.jpg)
+  * [Ambience]($load|music|arr/BGM_EX3_Dan_D04.mp3)
+  * [Cave](^sandpoint/choppers_isle_cave.jpg)
