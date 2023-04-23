@@ -165,5 +165,5 @@
 * 50: Deverin Manor (p385)
   * [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg)
 * [Chopper's Isle](^sandpoint/choppers_isle.jpg)
-  * [Ambience]($load|music|arr/BGM_EX3_Dan_D04.mp3)
+  * Ambience: [Ominous]($load|music|arr/BGM_EX3_Dan_D04.mp3), [Sad]($load|music|arr/BGM_ORCH_137-Forever Lost.mp3)
   * [Cave](^sandpoint/choppers_isle_cave.jpg)
