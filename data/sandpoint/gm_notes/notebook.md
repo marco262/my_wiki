@@ -64,16 +64,13 @@ Player Plans:
   * Virtue: Patience
   * Vice: Lust
 
-
-
 # Exploration Activities
 
-Delfi: Searching
-Grog: Defending
-Lyse: Searching
-Alathea: Scouting
+Delfi: Searching  
+Grog: Defending  
+Lyse: Searching  
+Alathea: Scouting  
 Rusty: Searching
-
 
 # Initiative
 
