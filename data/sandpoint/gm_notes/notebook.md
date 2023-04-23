@@ -1,16 +1,13 @@
-
-* Add to wiki page:
+---
+---
+* Add to wiki page: 
 * Add to references: 
 * Get Judge Ironbriar involved early
   * He sends a vice justice back with Sheriff Hemlock
   * Present the vice justice to the party as a way to "inquisition" the town
-* Why did Tsuto want to talk to Ameiko? Look into it
-  * To talk her into joining Nualia's band
-* Was Father Tobyn Nualia's real father? Decide on this
-  * Nah, probably not. Interesting, but it adds unnecessary complications
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
-* Add Earthfall and Erylium to wiki page; fix ... something?
+* _Everyone_ is dour and on-edge after the fire
 
 Silly notes:
 
@@ -18,6 +15,23 @@ Silly notes:
 * Introduce a character named Red Herring
 * Fancifer the Vicarious
 * Utharu the Dickish (goblin chief?)
+
+Q&A:
+
+* Why did Tsuto want to talk to Ameiko? Look into it
+  * To talk her into joining Nualia's band
+* Was Father Tobyn Nualia's real father? Decide on this
+  * Nah, probably not. Interesting, but it adds unnecessary complications
+
+Player Plans:
+
+* talk to Aldern over dinner 
+* talk to Ilsoari and Brodert about our various items and learnings (potion, needle, dagger)
+* lead them to the demon temple to investigate
+* pick up tattoo needle
+* general vendor stuff (like althaea pearl)
+* long rest
+* rusty gonna look for ritual in prayer book involving wine/raven/wand
 
 # Sins
 
@@ -52,7 +66,7 @@ Silly notes:
 
 
 
-## Exploration Activities
+# Exploration Activities
 
 Delfi: Searching
 Grog: Defending
@@ -61,7 +75,7 @@ Alathea: Scouting
 Rusty: Searching
 
 
-## Initiative
+# Initiative
 
 | Name       | Per | Inv | #  | HP |
 |------------|-----|-----|----|----|
@@ -71,29 +85,3 @@ Rusty: Searching
 | Tinkerboob |     |     | 11 |    |
 | Althaea    | 14  | 11  | 9  |    |
 | Grog       | 13  | 10  | 6  |    |
-
-
-## Identifying Magic Items
-
-Thoroughly identifying a magic item requires the Identify spell. 
-
-If no one in the party knows the Identify spell, it will generally be pretty easy to find someone else who can cast it for you, though they may charge you up to 11 gp to cast it, depending on how much they like you. Also, it will still be possible to spend some time playing with an item and learning at least a bit of its function, depending on how obvious it is. You won't risk using up consumable items this way.
-
-Lastly, anyone taking a few moments to inspect a magic item can make an Arcana or History check to see if they have come across the item before, or can use their knowledge of arcane theory to piece together the item's likely purpose.
-
-| Rarity    | DC  |
-|-----------|-----|
-| Common    | 15  |
-| Uncommon  | 20  |
-| Rare      | 25  |
-| Very Rare | 30  |
-| Legendary | 35  |
-
-
-
-
-Mayor: 19 + 
-Hanah: 13 + 
-Aldern: 17 + 
-Ilsoari: 10 + 
-Bodert: 8 + 

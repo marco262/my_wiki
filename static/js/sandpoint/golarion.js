@@ -724,6 +724,12 @@ let  CustomCalendarData = {
                 "parameters": {"n": "27", "month": "8"},
                 "category": "Story"
             },
+            {
+                "name": "Hemlock returns (estimated)",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "3", "month": "9"},
+                "category": "Story"
+            },
         ]
     },
     "moonSet": {

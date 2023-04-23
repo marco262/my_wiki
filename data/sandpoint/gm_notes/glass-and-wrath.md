@@ -190,6 +190,12 @@ Aldern Foxglove is ready to say a bittersweet farewell to the Heroes. His story 
 
 Delve into small talk between Aldern and the PCs, and hint at Aldern's internal struggle and his self-hatred. Talk about how he envies the PCs, how he wishes he could be as brave and selfless and honest as them. Turn on the waterworks when you can.
 
+## The Aftermath
+
+Following the week after the Glassworks fire, the party will have to deal with multiple citizens of Sandpoint either coming to them for help or causing problems:
+
+* Bethana will approach the party, begging to hear what's happened with Ameiko, and if they found any trace of her
+
 ## Return of the Sheriff
 
 Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.

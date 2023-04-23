@@ -1,4 +1,4 @@
-[[breadcrumb /sandpoint/|Sandpoint]]
+[[breadcrumb /sandpoint/|The Heroes of Sandpoint]]
 
 <script type="module">
     import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";
