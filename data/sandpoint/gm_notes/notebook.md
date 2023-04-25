@@ -7,6 +7,7 @@
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * _Everyone_ is dour and on-edge after the fire
+* Have Aldern send a paper bird to the party, thanking them 
 
 Silly notes:
 
@@ -17,20 +18,17 @@ Silly notes:
 
 Q&A:
 
-* Why did Tsuto want to talk to Ameiko? Look into it
+* Why did Tsuto want to talk to Ameiko?
   * To talk her into joining Nualia's band
-* Was Father Tobyn Nualia's real father? Decide on this
+* Was Father Tobyn Nualia's real father?
   * Nah, probably not. Interesting, but it adds unnecessary complications
 
 Player Plans:
 
-* talk to Aldern over dinner 
 * talk to Ilsoari and Brodert about our various items and learnings (potion, needle, dagger)
 * lead them to the demon temple to investigate
-* pick up tattoo needle
-* general vendor stuff (like althaea pearl)
-* long rest
 * rusty gonna look for ritual in prayer book involving wine/raven/wand
+* Check out Chopper's Isle
 
 # Sins
 

@@ -16,6 +16,8 @@
 * [Tsuto's Letter](@sandpoint/tsutos_letter.png)
 * Tsuto's Journal ([1](@sandpoint/tsutos_journal-page-001.jpg), [2](@sandpoint/tsutos_journal-page-002.jpg), [3](@sandpoint/tsutos_journal-page-003.jpg))
 
+[Player Soundboard](/Player Soundboard)
+
 # Varisia, Cradle of Legends
 
 <div class="map-float">
