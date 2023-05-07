@@ -1,4 +1,4 @@
-===
+
 * Add to wiki page: 
 * Add to references: 
 * Note to self: Add fire theming to this campaign
