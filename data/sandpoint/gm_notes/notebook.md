@@ -1,13 +1,25 @@
 ===
 * Add to wiki page: 
 * Add to references: 
-* Get Judge Ironbriar involved early
-  * He sends a vice justice back with Sheriff Hemlock
-  * Present the vice justice to the party as a way to "inquisition" the town
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * _Everyone_ is dour and on-edge after the fire
-* Have Aldern send a paper bird to the party, thanking them 
+* Have Aldern send a paper bird to the party, thanking them
+
+Q&A:
+
+* Why did Tsuto want to talk to Ameiko?
+  * To talk her into joining Nualia's band
+* Was Father Tobyn Nualia's real father?
+  * Nah. Interesting, but it adds unnecessary complications
+
+Player Plans:
+
+* talk to Ilsoari and Brodert about our various items and learnings (potion, needle, dagger)
+* lead them to the demon temple to investigate
+* rusty gonna look for ritual in prayer book involving wine/raven/wand
+* Talk with Father Zantus
+* Check out Chopper's Isle
 
 Silly notes:
 
@@ -15,20 +27,6 @@ Silly notes:
 * Introduce a character named Red Herring
 * Fancifer the Vicarious
 * Utharu the Dickish (goblin chief?)
-
-Q&A:
-
-* Why did Tsuto want to talk to Ameiko?
-  * To talk her into joining Nualia's band
-* Was Father Tobyn Nualia's real father?
-  * Nah, probably not. Interesting, but it adds unnecessary complications
-
-Player Plans:
-
-* talk to Ilsoari and Brodert about our various items and learnings (potion, needle, dagger)
-* lead them to the demon temple to investigate
-* rusty gonna look for ritual in prayer book involving wine/raven/wand
-* Check out Chopper's Isle
 
 # Sins
 

@@ -194,8 +194,18 @@ Delve into small talk between Aldern and the PCs, and hint at Aldern's internal 
 
 Following the week after the Glassworks fire, the party will have to deal with multiple citizens of Sandpoint either coming to them for help or causing problems:
 
-* Bethana will approach the party, begging to hear what's happened with Ameiko, and if they found any trace of her
+* Bethana will approach the party, begging to hear what's happened with Ameiko, and if they found any trace of her.
 
 ## Return of the Sheriff
 
 Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.
+
+Roland is very serious man, who highly values professionalism and decorum. However, he is keen on being helpful to the people of Sandpoint. His orders from Justice Ironbriar are to make sure the regiment of soldiers sent from Magnimar are not being abused by Sheriff Hemlock. Secretly, he's also told to keep an eye on signs of moral and legal corruption in the people of Sandpoint.
+
+Roland's accent is Korvosan, and is similar to a Boston accent. His tone sits halfway between his nose and his throat, and he tends to draw out his words, while flattening his pronunciation. He speaks carefully and precisely. His humor is dry, and he tends to finish his jokes with belated half-smile.
+
+Roland is a Level 3 Bard.
+
+* +4 to Deception, History, Intimidation, Investigation
+* +6 to Insight, Persuasion
+* Spells: [friends](/dnd/spell/friends), [message](/dnd/spell/message), [charm person](/dnd/spell/charm person), [command](/dnd/spell/command), [comprehend languages](/dnd/spell/comprehend languages), [disguise self](/dnd/spell/disguise self), [detect thoughts](/dnd/spell/detect thoughts), [zone of truth](/dnd/spell/zone of truth)

@@ -36,6 +36,7 @@
 * [Brodert Quink](^sandpoint/brodert_quink.jpg)
 * [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg)
 * [Hanah Pirani](^sandpoint/hanah_pirani.jpg)
+* [Roland Hart](^sandpoint/roland_hart.jpg)
 
 ## Places
 

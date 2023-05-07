@@ -1,4 +1,5 @@
 import sys
+from math import ceil
 from typing import Any, Union, List, Optional
 
 from src.dnd.npc_enums import cr_list, races, roles, die_types, total_damage_dict
@@ -212,7 +213,8 @@ def get_list(race, role, key):
 
 
 def get_dmg_value(value, dmg_option, num_attacks, die_type):
-    avg_damage = round(value / int(num_attacks))
+    avg_damage = myround(value / int(num_attacks))
+    # print(f"Inputs: {value} | {num_attacks} | {int(num_attacks)} | {value / int(num_attacks)} | {avg_damage}")
     if dmg_option == "average":
         return avg_damage
     elif dmg_option == "dice":
@@ -236,7 +238,7 @@ def get_dmg_value(value, dmg_option, num_attacks, die_type):
         if die_type == "":
             die_type = "d6"
         mod = int(avg_damage - num_dice * die_avg)
-        # print(f"Mod: {mod}")
+        # print(f"Stuff: {avg_damage} | {num_dice} | {die_avg} | {mod}")
         if mod == 0:
             return f"{avg_damage} ({num_dice}{die_type})"
         elif mod > 0:
@@ -245,6 +247,12 @@ def get_dmg_value(value, dmg_option, num_attacks, die_type):
             return f"{avg_damage} ({num_dice}{die_type} - {abs(mod)})"
     print(f"Invalid damage option: {dmg_option}", file=sys.stderr)
     return None
+
+
+def myround(n):
+    if n * 10 % 10 == 5:
+        return ceil(n)
+    return round(n)
 
 
 def avg(t):
