@@ -4,14 +4,11 @@ from os.path import splitext
 
 from PIL import Image
 
-dir = r"D:\GitHub\my_wiki\media\img\visual_aids\arr"
-# dir = r"C:\Users\marco\Pictures"
-
 in_ext = ".webp"
 out_ext = ".jpg"
 
 
-for filepath in glob(dir + r"\*" + in_ext):
+for filepath in glob(os.environ["PICTURES_DIR"] + r"\*" + in_ext):
     print(filepath)
     out_filepath = splitext(filepath)[0] + out_ext
     im = Image.open(filepath)
