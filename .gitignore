@@ -129,6 +129,7 @@ dmypy.json
 *___jb_tmp___
 
 logs/
+scripts/scratch.py
 player_soundboard_stats.json
 bestiary-mm.json
 
