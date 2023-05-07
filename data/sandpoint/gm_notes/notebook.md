@@ -6,6 +6,9 @@
 * _Everyone_ is dour and on-edge after the fire
 * Have Aldern send a paper bird to the party, thanking them
 * Have someone die in Sandpoint in the following days, and the measuring equipment will pick up a strong increase in power of the Runewell.
+* Figure out what they can find out about the winged demon lord
+* Connect Stoot with the Skinsaw Cult somehow
+* Make Malfeshnekor the winged demon?
 
 Q&A:
 
@@ -16,11 +19,9 @@ Q&A:
 
 Player Plans:
 
-* talk to Ilsoari and Brodert about our various items and learnings (potion, needle, dagger)
 * lead them to the demon temple to investigate
 * rusty gonna look for ritual in prayer book involving wine/raven/wand
 * Talk with Father Zantus
-* Check out Chopper's Isle
 
 Silly notes:
 
