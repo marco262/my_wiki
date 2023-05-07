@@ -5,6 +5,7 @@
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * _Everyone_ is dour and on-edge after the fire
 * Have Aldern send a paper bird to the party, thanking them
+* Have someone die in Sandpoint in the following days, and the measuring equipment will pick up a strong increase in power of the Runewell.
 
 Q&A:
 
@@ -77,3 +78,11 @@ Rusty: Searching
 | Tinkerboob |     |     | 11 |    |
 | Althaea    | 14  | 11  | 9  |    |
 | Grog       | 13  | 10  | 6  |    |
+
+# Downtime Training
+
+* Rusty: Research (Malfeshnekor, Old Light)
+* Althaea: Work (??)
+* Delfie: Gambling
+* Lyse (Herbalist's Kit): 0 / 10 weeks
+* Grog: Work (Gorvi)
