@@ -1,0 +1,1 @@
+***Complications.*** Relaxation rarely comes with complications. If you want to make life complicated for the characters, introduce an action or an event connected to a rival.

@@ -1,5 +1,10 @@
 [[breadcrumb /dnd/general/Adventuring#downtime-activities|Downtime Activities]]
 
+<script type="module">
+    import {init_gm_notes_inserts} from "/static/js/common/gm_notes.js";
+    init_gm_notes_inserts("dnd");
+</script>
+
 This page lists extra Downtime Activities options gathered from other source books. Not all of these options will be available to you during your campaign, and your DM has the final say on how any of the mechanics work, regardless of what the text below may say.  
 
 # Dungeon Master's Guide
@@ -132,25 +137,7 @@ The character makes three checks: Strength (Athletics), Dexterity (Acrobatics), 
 || 2 successes || Win 100 gp. ||
 || 3 successes || Win 200 gp. ||
 
-[[accordion DM Notes]]
-
-***DCs.*** The DC for each of the checks is 5 + 2d10; generate a separate DC for each one.
-
-***Complications.*** Characters involved in arena fighting must deal with their opponents, the people who bet on matches, and the matches' promoters. Every workweek spent arena fighting brings a 10 percent chance of a complication, examples of which are on the Arena Fighting Complications table.
-
-**Arena Fighting Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || An opponent swears to take revenge on you.\* ||
-|| 2 || A crime boss approaches you and offers to pay you to intentionally lose a few matches.\* ||
-|| 3 || You defeat a popular local champion, drawing the crowd's ire. ||
-|| 4 || You defeat a noble's servant, drawing the wrath of the noble's house.\* ||
-|| 5 || You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished.\* ||
-|| 6 || You accidentally deliver a near-fatal wound to a foe. ||
-
-*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Arena Fighting]]
 
 ### Buying a Magic Item
 
@@ -164,61 +151,7 @@ The total of the check dictates what magic items are likely to be found, with a 
 
 If the character seeks a specific magic item, the desired item may be included among the items for sale on a check total of 10 or higher if the item is common, 15 or higher if it is uncommon, 20 or higher if it is rare, 25 or higher if it is very rare, and 30 or higher if it is legendary.
 
-[[accordion DM Notes]]
-
-***Resolution.*** As shown on the Buying Magic Items table, the total of the check dictates which table in the Dungeon Master's Guide to roll on to determine which items are on the market. Or you can roll for items from any table associated with a lower total on the Buying Magic Items table. As a further option to reflect the availability of items in your campaign, you can apply a -10 penalty for low magic campaigns or a +10 bonus for high magic campaigns. Furthermore, you can double magic item costs in low magic campaigns.
-
-The [Magic Item Generator](/dnd/equipment/magic_item_generator/) provides a convenient way to roll on the required tables, and also includes magic items from outside the DMG.
-
-**Buying Magic Items**
-
-||~ Check Total || Items Acquired ||
-|| 1-5 || Roll 1d6 times on Magic Item Table A. ||
-|| 6-10 || Roll 1d4 times on Magic Item Table B. ||
-|| 11-15 || Roll 1d4 times on Magic Item Table C. ||
-|| 16-20 || Roll 1d4 times on Magic Item Table D. ||
-|| 21-25 || Roll 1d4 times on Magic Item Table E. ||
-|| 26-30 || Roll 1d4 times on Magic Item Table F. ||
-|| 31-35 || Roll 1d4 times on Magic Item Table G. ||
-|| 36-40 || Roll 1d4 times on Magic Item Table H. ||
-|| 41+ ||Roll 1d4 times on Magic Item Table I. ||
-
-Using the Magic Item Price table, you then assign prices to the available items, based on their rarity. Halve the price of any consumable item, such as a potion or a scroll, when using the table to determine an asking price.
-
-**Magic Item Price**
-
-||~ Rarity ||~ Asking Price* || 
-|| Common || (1d6 + 1) x 10 gp ||
-|| Uncommon || 1d6 x 100 gp ||
-|| Rare || 2d10 x 1,000 gp ||
-|| Very rare || (1d4 + 1) x 10,000 gp ||
-|| Legendary || 2d6 x 25,000 gp ||
-
-\*Halved for a consumable item like a potion or scroll
-
-You have final say in determining which items are for sale and their final price, no matter what the tables say.
-
-***Complications.*** The magic item trade is fraught with peril. The large sums of money involved and the power offered by magic items attract thieves, con artists, and other villains. If you want to make things more interesting for the characters, roll on the Magic Item Purchase Complications table or invent your own complication.
-
-**Magic Item Purchase Complications**
-
-||~ d12 ||~ Complication ||
-|| 1 || The item is a fake, planted by an enemy.\* ||
-|| 2 || The item is stolen by the party's enemies.\* ||
-|| 3 || The item is cursed by a god. ||
-|| 4 || The item's original owner will kill to reclaim it; the party's enemies spread news of its sale.\* ||
-|| 5 || The item is at the center of a dark prophecy. ||
-|| 6 || The seller is murdered before the sale.\* ||
-|| 7 || The seller is a devil looking to make a bargain. ||
-|| 8 || The item is the key to freeing an evil entity. ||
-|| 9 || A third party bids on the item, doubling its price.\* ||
-|| 10 || The item is an enslaved, intelligent entity. ||
-|| 11 || The item is tied to a cult. ||
-|| 12 || The party's enemies spread rumors that the item is an artifact of evil.\* ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Buying a Magic Item]]
 
 ### Carousing
 
@@ -253,55 +186,7 @@ Alternatively, you can make an NPC into a contact on the spot, after carousing. 
 
 At any time, a character can have a maximum number of unspecified allied contacts equal to 1 + the character's Charisma modifier (minimum of 1).
 
-[[accordion DM Notes]]
-
-***Resolution.*** You can assign specific NPCs as contacts. You might decide that the barkeep at the Wretched Gorgon and a guard stationed at the western gate are the character's allied contacts. Assigning specific NPCs gives the players concrete options. It brings the campaign to life and seeds the area with NPCs that the characters care about. On the other hand, it can prove difficult to track and might render a contact useless if that character doesn't come into play.
-
-Using a mix of the above and allowing players to designate NPCs as contacts is a good idea, since it gives you the added depth of specific contacts while giving players the freedom to ensure that the contacts they accumulate are useful.
-
-The same process can apply to hostile contacts. You can give the characters a specific NPC they should avoid, or you might introduce one at an inopportune or dramatic moment.
-
-***Complications.*** Characters who carouse risk bar brawls, accumulating a cloud of nasty rumors, and building a bad reputation around town. As a rule of thumb, a character has a 10 percent chance of triggering a complication for each workweek of carousing.
-
-**Lower-Class Carousing Complications**
-
-||~ d8 ||~ Complication ||
-|| 1 || A pickpocket lifts 1d10 x 5 gp from you.\* ||
-|| 2 || A bar brawl leaves you with a scar.\* ||
-|| 3 || You have fuzzy memories of doing something very, very illegal, but can't remember exactly what. ||
-|| 4 || You are banned from a tavern after some obnoxious behavior.\* ||
-|| 5 || After a few drinks, you swore in the town square to pursue a dangerous quest. ||
-|| 6 || Surprise! You're married. ||
-|| 7 || Streaking naked through the streets seemed like a great idea at the time. ||
-|| 8 || Everyone is calling you by some weird, embarrassing nickname, like Puddle Drinker or Bench Slayer, and no one will say why. ||
-
-**Middle-Class Carousing Complications**
-
-||~ d8 ||~ Complication ||
-|| 1 || You accidentally insulted a guild master, and only a public apology will let you do business with the guild again.* ||
-|| 2 || You swore to complete some quest on behalf of a temple or a guild. ||
-|| 3 || A social gaffe has made you the talk of the town.* ||
-|| 4 || A particularly obnoxious person has taken an intense romantic interest in you.* ||
-|| 5 || You have made a foe out of a local spellcaster.* ||
-|| 6 || You have been recruited to help run a local festival, play, or similar event. ||
-|| 7 || You made a drunken toast that scandalized the locals. ||
-|| 8 || You spent an additional 100 gp trying to impress people. ||
-
-**Upper-Class Carousing Complications**
-
-||~ d8 ||~ Complication ||
-|| 1 || A pushy noble family wants to marry off one of their scions to you.\* ||
-|| 2 || You tripped and fell during a dance, and people can't stop talking about it. ||
-|| 3 || You have agreed to take on a noble's debts. ||
-|| 4 || You have been challenged to a joust by a knight.\* ||
-|| 5 || You have made a foe out ofa local noble.\* ||
-|| 6 || A boring noble insists you visit each day and listen to long, tedious theories of magic. ||
-|| 7 || You have become the target of a variety of embarrassing rumors.\* ||
-|| 8 || You spent an additional 500 gp trying to impress people. ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Carousing]]
 
 ### Crafting an Item
 
@@ -354,44 +239,7 @@ If all the above requirements are met, the result of the process is a magic item
 || Superior healing || 8d4 + 8 || 3 workweeks || 1,000 gp ||
 || Supreme healing || 10d4 + 20 || 4 workweeks || 10,000 gp ||
 
-[[accordion DM Notes]]
-
-***Crafting Items.*** You need to make any judgment calls regarding whether a character has the correct equipment to make an item. The following table provides some examples.
-
-||~ Proficiency ||~ Items ||
-|| Herbalism kit || Antitoxin, potion of healing ||
-|| Leatherworker's tools || Leather armor, boots ||
-|| Smith's tools || Armor, weapons ||
-|| Weaver's tools || Cloaks, robes ||
-
-***Crafting Magic Items.*** The Magic Item Ingredients table suggests the challenge rating of a creature that the characters need to face to acquire the materials for an item. Note that facing a creature does not necessarily mean that the characters must collect items from its corpse. Rather, the creature might guard a location or a resource that the characters need access to.
-
-**Magic Item Ingredients**
-
-||~ Item Rarity ||~ CR Range ||
-|| Common || 1-3 ||
-|| Uncommon || 4-8 ||
-|| Rare || 9-12 ||
-|| Very rare || 13-18 ||
-|| Legendary || 19+ ||
-
-If appropriate, pick a monster or a location that is a thematic fit for the item to be crafted. For example, creating _mariner's armor_ might require the essence of a water weird. Crafting a _staff of charming_ might require the cooperation of a specific arcanaloth, who will help only if the characters complete a task for it. Making a _staff of power_ might hinge on acquiring a piece of an ancient stone that was once touched by the god of magic -- a stone now guarded by a suspicious androsphinx.
-
-***Complications.*** Most of the complications involved in creating something, especially a magic item, a re linked to the difficulty in finding rare ingredients or components needed to complete the work. The complications a character might face as byproducts of the creation process are most interesting when the characters are working on a magic item: there's a 10 percent chance for every five workweeks spent on crafting an item that a complication occurs. The Crafting Complications table provides examples of what might happen.
-
-**Crafting Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || Rumors swirl that what you're working on is unstable and a threat to the community.\* ||
-|| 2 || Your tools are stolen, forcing you to buy new ones.\* ||
-|| 3 || A local wizard shows keen interest in your work and insists on observing you. ||
-|| 4 || A powerful noble offers a hefty price for your work and is not interested in hearing no for an answer.\* ||
-|| 5 || A dwarf clan accuses you of stealing its secret lore to fuel your work.\* ||
-|| 6 || A competitor spreads rumors that your work is shoddy and prone to failure.\* ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Crafting an Item]]
 
 ### Crime
 
@@ -421,26 +269,7 @@ If two checks are successful, the heist is a partial success, netting the charac
 
 If all three checks are successful, the character earns the full value of the loot.
 
-[[accordion DM Notes]]
-
-***Resolution.*** If the character rolls no successes, he must pay a fine equal to the profit the crime would have earned and must spend one week in jail for each 25 gp of the fine. 
-
-***Complications.*** A life of crime is filled with complications. Roll on the Crime Complications table (or create a complication of your own) if the character succeeds on only one check. If the character's rival is involved in crime or law enforcement, a complication ensues if the character succeeds on only two checks.
-
-**Crime Complications**
-
-|| 1 || A bounty equal to your earnings is offered for information about your crime.\* ||
-|| 2 || An unknown person contacts you, threatening to reveal your crime if you don't render a service.\* ||
-|| 3 || Your victim is financially ruined by your crime. ||
-|| 4 || Someone who knows of your crime has been arrested on an unrelated matter.\* ||
-|| S || Your loot is a single, easily identified item that you can't fence in this region. ||
-|| 6 || You robbed someone who was under a local crime lord's protection, and who now wants revenge. ||
-|| 7 || Your victim calls in a favor from a guard, doubling the efforts to solve the case. ||
-|| 8 || Your victim asks one of your adventuring companions to solve the crime. ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Crime]]
 
 ### Gambling
 
@@ -460,25 +289,7 @@ The character makes three checks: Wisdom (Insight), Charisma (Deception), and Ch
 || 2 successes || Gain the amount you bet plus half again more. ||
 || 3 successes || Gain double the amount you bet. ||
 
-[[accordion DM Notes]]
-
-***DCs.*** The DC for each of the checks is 5 + 2d10; generate a separate DC for each one.
-
-***Complications.*** Gambling tends to attract unsavory individuals. The potential complications involved come from run-ins with the law and associations with various criminals tied to the activity. Every workweek spent gambling brings a 10 percent chance of a complication, examples of which are on the Gambling Complications table.
-
-**Gambling Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || You are accused of cheating. You decide whether you actually did cheat or were framed.\* ||
-|| 2 || The town guards raid the gambling hall and throw you in jail.\* ||
-|| 3 || A noble in town loses badly to you and loudly vows to get revenge.\* ||
-|| 4 || You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back. ||
-|| 5 || A local crime boss insists you start frequenting the boss's gambling parlor and no others. ||
-|| 6 || A high-stakes gambler comes to town and insists that you take part in a game. ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Gambling]]
 
 ### Managing a Business (homebrew)
 
@@ -486,11 +297,7 @@ A successful business requires a savvy manager to truly prosper.
 
 The business gains +10 to its roll for determining its profits if at least one character spends their downtime managing it. For every consecutive workweek spent managing the business, gain an extra +10, up to a maximum of +30. Multiple characters managing the business at once do not provide extra bonuses.
 
-[[accordion DM Notes]]
-
-TBC
-
-[[/accordion]]
+[[gm_notes Managing a Business]]
 
 ### Relaxation
 
@@ -500,11 +307,7 @@ Sometimes the best thing to do between adventures is relax. Whether a character 
 
 ***Resolution.*** Characters who maintain at least a modest lifestyle while relaxing gain several benefits. While relaxing, a character gains advantage on saving throws to recover from long-acting diseases and poisons. In addition, at the end of the week, a character can end one effect that keeps the character from regaining hit points, or can restore one ability score that has been reduced to less than its normal value. This benefit cannot be used if the harmful effect was caused by a spell or some other magical effect with an ongoing duration.
 
-[[accordion DM Notes]]
-
-***Complications.*** Relaxation rarely comes with complications. If you want to make life complicated for the characters, introduce an action or an event connected to a rival.
-
-[[/accordion]]
+[[gm_notes Relaxation]]
 
 ### Religious Service
 
@@ -523,23 +326,7 @@ A favor, in broad terms, is a promise of future assistance from a representative
 
 Favors earned need not be expended immediately, but only a certain number can be stored up. A character can have a maximum number of unused favors equal to 1 + the character's Charisma modifier (minimum of one unused favor).
 
-[[accordion DM Notes]]
-
-***Complications.*** Temples can be labyrinths of political and social scheming. Even the best-intentioned sect can fall prone to rivalries. A character who serves a temple risks becoming embroiled in such struggles. Every workweek spent in religious service brings a 10 percent chance of a complication, examples of which are on the Religious Service Complications table.
-
-**Religious Service Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || You have offended a priest through your words or actions.\* ||
-|| 2 || Blasphemy is sti ll blasphemy, even if you did it by accident. ||
-|| 3 || A secret sect in the temple offers you membership. ||
-|| 4 || Another temple tries to recruit you as a spy.\* ||
-|| 5 || The temple elders implore you to take up a holy quest. ||
-|| 6 || You accidentally discover that an important person in the temple is a fiend worshiper. ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Religious Service]]
 
 ### Renovating a Business (homebrew)
 
@@ -559,11 +346,7 @@ When running a business, it's important to keep on top of maintenance, and even 
 
 If renovations are left uncompleted, the business suffers a -10 penalty for every week thereafter until the renovations are complete. Multiple characters can work on renovations for the business at once, and their bonuses stack.
 
-[[accordion DM Notes]]
-
-TBC
-
-[[/accordion]]
+[[gm_notes Renovating a Business]]
 
 ### Research
 
@@ -581,27 +364,7 @@ Forewarned is forearmed. The research downtime activity allows a character to de
 
 Each piece of lore is the equivalent of one true statement about a person, place, or thing. Examples include knowledge of a creature's resistances, the password needed to enter a sealed dungeon level, the spells commonly prepared by an order of wizards, and so on.
 
-[[accordion DM Notes]]
-
-***Resolution.*** As DM, you are the final arbiter concerning exactly what a character learns. For a monster or an NPC, you can reveal elements of statistics or personality. For a location, you can reveal secrets about it, such as a hidden entrance, the answer to a riddle, or the nature of a creature that guards the place. 
-
-***Complications.*** The greatest risk in research is uncovering false information. Not all lore is accurate or truthful, and a rival with a scholarly bent might try to lead the character astray, especially if the object of the research is known to the rival. The rival might plant false information, bribe sages to give bad advice, or steal key tomes needed to find the truth.
-
-In addition, a character might run into other complications during research. Every workweek spent in research brings a 10 percent chance of a complication, examples of which are on the Research Complications table.
-
-**Research Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || You accidentally damage a rare book. ||
-|| 2 || You offend a sage, who demands an extravagant gift.\* ||
-|| 3 || If you had known that book was cursed, you never would have opened it. ||
-|| 4 || A sage becomes obsessed with convincing you of a number of strange theories about reality.\* ||
-|| 5 || Your actions cause you to be banned from a library until you make reparations.\* ||
-|| 6 || You uncovered useful lore, but only by promising to complete a dangerous task in return. ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Research]]
 
 ### Scribing a Spell Scroll
 
@@ -625,23 +388,7 @@ If the scribed spell is a cantrip, the version on the scroll works as if the cas
 || 8th || 32 workweeks || 50,000 gp ||
 || 9th || 48 workweeks || 250,000 gp ||
 
-[[accordion DM Notes]]
-
-***Complications.*** Crafting a _spell scroll_ is a solitary task, unlikely to attract much attention. The complications that arise are more likely to involve the preparation needed for the activity. Every workweek spent scribing brings a 10 percent chance of a complication, examples of which are on the Scribe a Scroll Complications table.
-
-**Scribe a Scroll Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || You bought up the last of the rare ink used to craft scrolls, angering a wizard in town. ||
-|| 2 || The priest of a temple of good accuses you of trafficking in dark magic.\* ||
-|| 3 || A wizard eager to collect one of your spells in a book presses you to sell the scroll. ||
-|| 4 || Due to a strange error in creating the scroll, it is instead a random spell of the same level. ||
-|| 5 || The rare parchment you bought for your scroll has a barely visible map on it. ||
-|| 6 || A thief attempts to break into your workroom.\* ||
-
-*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Scribing a Spell Scroll]]
 
 ### Selling a Magic Item
 
@@ -660,30 +407,7 @@ Selling a magic item is by no means an easy task. Con artists and thieves are al
 
 \*Halved for a consumable item like a potion or scroll
 
-[[accordion DM Notes]]
-
-**Magic Item Offer**
-
-||~ Check Total ||~ Offer ||
-|| 1-10 || 50% of base price ||
-|| 11-20 || 100% of base price ||
-|| 21+ || 150% of base price ||
-
-***Complications.*** The main risk in selling a magic item lies in attracting thieves and anyone else who wants the item but doesn't want to pay for it. Other folk might try to undermine a deal in order to bolster their own business or seek to discredit the character as a legitimate seller. Every workweek spent trying to sell an item brings a 10 percent chance of a complication, examples of which are on the Magic Item Sale Complications table.
-
-**Magic Item Sale Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || Your enemy secretly arranges to buy the item to use it against you.\* ||
-|| 2 || A thieves' guild, alerted to the sale, attempts to steal your item.\* ||
-|| 3 || A foe circulates rumors that your item is a fake.\* ||
-|| 4 || A sorcerer claims your item as a birthright and demands you hand it over. ||
-|| 5 || Your item's previous owner, or surviving allies of the owner, vow to retake the item by force. ||
-|| 6 || The buyer is murdered before the sale is finalized. :)\* ||
-
-\*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Selling a Magic Item]]
 
 ### Training
 
@@ -693,23 +417,7 @@ Given enough free time and the services of an instructor, a character can learn 
 
 If the character is retraining a skill and has chosen an Expertise in that skill proficiency, they can choose to change that Expertise to match the new skill they're retraining into.
 
-[[accordion DM Notes]]
-
-***Complications.*** Complications that arise while training typically involve the teacher. Every ten workweeks spent in training brings a 10 percent chance of a complication, examples of which are on the Training Complications table.
-
-**Training Complications**
-
-||~ d6 ||~ Complication ||  
-|| 1 || Your instructor disappears, forcing you to spend one workweek finding a new one.\* ||
-|| 2 || Your teacher instructs you in rare, archaic methods, which draw comments from others. ||
-|| 3 || Your teacher is a spy sent to learn your plans.\* ||
-|| 4 || Your teacher is a wanted criminal. ||
-|| 5 || Your teacher is a cruel taskmaster. ||
-|| 6 || Your teacher asks for help dealing with a threat. ||
-
-*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Training]]
 
 ### Work
 
@@ -725,20 +433,4 @@ When all else fails, an adventurer can turn to an honest trade to earn a living.
 || 15-20 || Comfortable lifestyle for the week ||
 || 21+ || Comfortable lifestyle for the week + 25 gp ||
 
-[[accordion DM Notes]]
-
-***Complications.*** Ordinary work is rarely filled with significant complications. Still, the Work Complications table can add some difficulties to a worker's life. Each workweek of activity brings a 10 percent chance that a character encounters a complication.
-
-**Work Complications**
-
-||~ d6 ||~ Complication ||
-|| 1 || A difficult customer or a fight with a coworker reduces the wages you earn by one category.\* ||
-|| 2 || Your employer's financial difficulties result in your not being paid.\* ||
-|| 3 || A coworker with ties to an important family in town takes a dislike to you.\* ||
-|| 4 || Your employer is involved with a dark cult or a criminal enterprise. ||
-|| 5 || A crime ring targets your business for extortion.\* ||
-|| 6 || You gain a reputation for laziness (unjustified or not, as you choose), giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.\* ||
-
-*Might involve a rival
-
-[[/accordion]]
+[[gm_notes Work]]
