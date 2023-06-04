@@ -226,9 +226,17 @@ After a few days of work, one evening Ilsoari will ask the party to come down to
 
 ### Delfi: Gambling
 
-It's easy to find people to gamble with at any tavern in Sandpoint, but the majority of them only host friendly games that barely make any money (10gp betting limit). Though [the Hagfish](^sandpoint/hagfish.jpg) is the place to be if you want to gamble during the day.
+It's easy to find people to gamble with at any tavern in Sandpoint, but the majority of them only host friendly games that barely make any money (below the 10gp minimum for the gambling activity). Though [the Hagfish](^sandpoint/hagfish.jpg) is the place to be if you want to gamble during the day.
 
-If Delfi wants to bet more than that, she will need to ask around covertly, at which point she'll learn that the backrooms at the [Fatman's Feedbag](^sandpoint/fatmans_feedbag.jpg) are the place to be 
+If Delfi wants to bet more than that, she will need to ask around covertly, at which point she'll learn the [Fatman's Feedbag](^sandpoint/fatmans_feedbag.jpg) is the place to be for illegal, high-stakes gambling. She'll be initially rebuffed by [Gressel Tenniwar](^sandpoint/gressel_tenniwar.jpg), but [Jubrayl Vhiski](^sandpoint/jubrayl_vhiski.png) will call her over and make his introductions. He'll be charmed by Delfi's homey nature, and invite her to join his table the next night. But he'll warn her that the minimum buy-in is 10gp (or whatever amount she decided she wants to spend).
+
+The next night, Delphie will join a table of multiple intimidating ne'er-do-wells. As the gambling continues on, have Delfi roll Perception checks to catch hints of cheating around the table. She will have to roll VERY high to catch Jubrayl. Eventually, [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg) will get angry and accuse Jubrayl of cheating. They'll get into an argument, and it will end with Yendan leaping onto the table and lunging at Jubrayl with his rapier. If Delfi wants to join the fight, roll initiative. After a round or two of Yendan failing to hit his target, Jubrayl will get a dagger into Yendan's gut. The room will immediately clear out before the guards arrive, but not before everyone cashes out (and splits Yendan's winnings between the remaining players). Jubrayl playing it cool and asking Delfi to not mention what happened there.
+
+### Alarming News
+
+Give the players a chance to RP Delfi getting back from the inn. After Delfi gets a chance to share her news, a [red-winged blackbird](^sandpoint/redwinged_blackbird.jpg) will arrive with a note tied to its leg. The note is from Ilsoari, telling the party to come to the catacombs immediately, as the power level of the pool has suddenly increased.
+
+When the party arrives, they'll find Ilsoari and Brodert arguing over their notes, but they will inform the party of their findings and work with them to try to determine the simultaneity of events. Brodert has an hourglass and a small pendulum clock on table nearby, where he's taking meticulous notes.
 
 ### Lyse: Training (Herbalist's Kit)
 
@@ -253,13 +261,17 @@ Note: Because the party has free lodging at the Rusty Dragon, use the following 
 | 15-20       | 10 gp    |
 | 21+         | 35 gp    |
 
+### A Breakthrough
+
+The night before Hemlock returns from  
+
 ## Return of the Sheriff
 
-Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.
+Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with a contingent of soldiers all bearing the [standard of Magnimar](^sandpoint/magnimar_flag.jpg) and [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.
 
-Roland is very serious man, who highly values professionalism and decorum. However, he is keen on being helpful to the people of Sandpoint. His orders from Justice Ironbriar are to make sure the regiment of soldiers sent from Magnimar are not being abused by Sheriff Hemlock. Secretly, he's also told to keep an eye on signs of moral and legal corruption in the people of Sandpoint.
+Roland is a serious man, who highly values professionalism and decorum. However, he is keen on being helpful to the people of Sandpoint. His orders from Justice Ironbriar are to make sure the regiment of soldiers sent from Magnimar are not being abused by Sheriff Hemlock. Secretly, he's also told to keep an eye on signs of moral and legal corruption in the people of Sandpoint.
 
-Roland's accent is Korvosan, and is similar to a Boston accent. His tone sits halfway between his nose and his throat, and he tends to draw out his words, while flattening his pronunciation. He speaks carefully and precisely. His humor is dry, and he tends to finish his jokes with belated half-smile.
+Roland's accent is Korvosan, and is similar to a Boston accent. His tone sits halfway between his nose and his throat, and he tends to draw out his words, while flattening his pronunciation. He speaks carefully and precisely. His humor is dry, and he tends to finish his jokes with a belated half-smile.
 
 Roland is a Level 3 Bard.
 
