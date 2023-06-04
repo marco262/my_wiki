@@ -205,6 +205,17 @@ Following the week after the Glassworks fire, the party will have to deal with m
 * Malfeshnekor: He will not be able to find any information on Malfeshnekor in any reference material. The higher the roll, the more confident he'll be that this is very arcane knowledge. However, as part of this research, he will dig up the name [Pazuzu](https://pathfinderwiki.com/wiki/Pazuzu): Demon Lord of the Sky and Winged Creatures, and known to be a rival of Lamashtu.
 * [Old Light](^sandpoint/the_old_light.jpeg): Perched atop a 120-foot high cliff, the remains of the Old Light rises an additional 50 feet above that. Thought by most to be the ruins of an ancient lighthouse, Brodert has lengthy treatises and calculations and references that he believes "prove" the Old Light is the remains of an ancient weapon. He also believes there are hidden chambers in the rubble underneath the Old Light, but he hasn't been able to convince Sandpoint to supply the manpower to properly excavate it.
 
+### Letter from Aldern
+
+Two nights after Aldern left, he will send a paper bird to the party:
+
+> My Dear Friends,
+> 
+> I am writing to let you know I have arrived safely at Foxglove Manor. I wish to express my thanks once again for all you've done for not just myself, but the people of Sandpoint and, eventually I'm certain, all of Varisia. I do hope that the next time you are traveling along the Lost Coast Road, you will take time out of your day saving the world to pay my humble self a visit. I would be thrilled to have you, no matter the time or season.
+> 
+> Your Faithful Friend,
+> Aldern Tiberius Foxglove
+
 ### Althaea: Work
 
 Alathaea will spend her time working with Aesrick Battlehorn as well as a number of other tradesmen/dockworkers/etc to clear the rubble from the Glassworks. In a week, they will make noticeable progress, but not enough to clear an opening into the basement. During the work, Alathaea will either strike up a conversation with the workers or overhear their conversations. The workers will be complaining about getting into arguments with their husbands and wives, and as the days wear on, news will spread about the Banana inn shutting down and how sad and upsetting that is. 
