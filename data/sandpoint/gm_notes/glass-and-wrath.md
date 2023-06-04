@@ -203,7 +203,7 @@ Following the week after the Glassworks fire, the party will have to deal with m
 ### Rusty: Research
 
 * Malfeshnekor: He will not be able to find any information on Malfeshnekor in any reference material. The higher the roll, the more confident he'll be that this is very arcane knowledge. However, as part of this research, he will dig up the name [Pazuzu](https://pathfinderwiki.com/wiki/Pazuzu): Demon Lord of the Sky and Winged Creatures, and known to be a rival of Lamashtu.
-* Old Light: Perched atop a 120-foot high cliff, the remains of the Old Light rises an additional 50 feet above that. Thought by most to be the ruins of an ancient lighthouse, Brodert has lengthy treatises and calculations and references that he believes "prove" the Old Light is the remains of an ancient weapon. He also believes there are hidden chambers in the rubble underneath the Old Light, but he hasn't been able to convince Sandpoint to supply the manpower to properly excavate it.
+* [Old Light](^sandpoint/the_old_light.jpeg): Perched atop a 120-foot high cliff, the remains of the Old Light rises an additional 50 feet above that. Thought by most to be the ruins of an ancient lighthouse, Brodert has lengthy treatises and calculations and references that he believes "prove" the Old Light is the remains of an ancient weapon. He also believes there are hidden chambers in the rubble underneath the Old Light, but he hasn't been able to convince Sandpoint to supply the manpower to properly excavate it.
 
 ### Althaea: Work
 
