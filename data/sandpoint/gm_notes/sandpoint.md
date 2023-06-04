@@ -52,7 +52,7 @@
   * [Garridan Viskalai](^sandpoint/garridan_viskalai.jpg)
 * 4: [The Way North](^sandpoint/the_way_north.jpg) (p376)
   * [Veznutt Parooh](^sandpoint/veznutt_parooh.jpg)
-* 5: Jeweler (p376)
+* 5: Rings and Things (p376)
   * [Maver Kesk](^sandpoint/maver_kesk.jpg)
   * [Pennae Kesk](^sandpoint/pennae_kesk.jpg)
 * 6: Junker's Edge (p376)
@@ -123,7 +123,7 @@
   * [Vorah Wheen](^sandpoint/vorah_wheen.jpg)
 * 32: Scarnetti Mill (p381)
   * [Courrin Whesterwill](^sandpoint/courrin_whesterwill.png)
-* 33: The Hagfish (p381)
+* 33: [The Hagfish](^sandpoint/hagfish.jpg) (p381)
   * [Jargie Quinn](^sandpoint/jargie_quinn.jpg), [Jargie Quinn](^sandpoint/jargie_quinn_full_body.jpg) full body
   * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.jpg), [Norah's... mouth?](^sandpoint/norahs_mouth.jpg)
 * 34: Valdemar Fishmarket (p382)
@@ -133,6 +133,7 @@
   * [Chod Bevuk](^sandpoint/chod_bevuk.jpg)
 * 37: [The Rusty Dragon](^sandpoint/rusty_dragon_interior.jpg) (p382)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_1.png), [2](^sandpoint/ameiko_kaijitsu_3.jpg), [playing her instrument](^sandpoint/ameiko_kaijitsu_2.jpg)
+  * [Bethana Corwin](^sandpoint/bethana_corwin.jpeg), barmaid
 * 38: [Goblin Squash Stables](^sandpoint/goblin_squash_stables.jpg) (p383)
   * [Daviren Hosk](^sandpoint/daviren_hosk.jpg)
   * [Front Room](^sandpoint/goblin_squash_stables_office.jpg)
@@ -153,7 +154,7 @@
 * 44: [The Feathered Serpent](^sandpoint/feathered_serpent.jpg) (p384)
   * [Vorvashali Voon](^sandpoint/vorvashali_voon.jpg)
   * Lyse put 5gp on layaway for Illuminator's Tattoo
-* 45: Hannah's (p384)
+* 45: [Hannah's](^sandpoint/hannahs.jpg) (p384)
   * [Hannah Velerin](^sandpoint/hannah_velerin.jpg)
 * 46: Sandpoint Shipyard (p384)
   * [Belven Valdemar](^sandpoint/belven_valdemar.jpg)

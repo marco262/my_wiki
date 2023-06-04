@@ -1,3 +1,12 @@
+If the worker is already getting free lodgings elsewhere, use the following table for earnings instead.
+
+| Check Total | Earnings |
+|-------------|----------|
+| 9 or lower  | 1 gp     |
+| 10-14       | 5 gp     |
+| 15-20       | 10 gp    |
+| 21+         | 35 gp    |
+
 ***Complications.*** Ordinary work is rarely filled with significant complications. Still, the Work Complications table can add some difficulties to a worker's life. Each workweek of activity brings a 10 percent chance that a character encounters a complication.
 
 **Work Complications**

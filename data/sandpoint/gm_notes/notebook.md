@@ -79,11 +79,3 @@ Rusty: Searching
 | Tinkerboob |     |     | 11 |    |
 | Althaea    | 14  | 11  | 9  |    |
 | Grog       | 13  | 10  | 6  |    |
-
-# Downtime Training
-
-* Rusty: Research (Malfeshnekor, Old Light)
-* Althaea: Work (??)
-* Delfie: Gambling
-* Lyse (Herbalist's Kit): 0 / 10 weeks
-* Grog: Work (Gorvi)

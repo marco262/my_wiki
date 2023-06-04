@@ -61,11 +61,15 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 2: Sandpoint Boneyard
   * [Day](@sandpoint/sandpoint_boneyard_1.jpg), [Day](@sandpoint/sandpoint_boneyard_2.jpg), [Night](@sandpoint/sandpoint_boneyard_night.jpg)
 * 3: The White Deer
+  * [Garridan Viskalai](@sandpoint/garridan_viskalai.jpg), owner and proprietor
 * 4: The Way North
   * [Veznutt Parooh](@sandpoint/veznutt_parooh.jpg), owner
-* 5: Jeweler
+* 5: Rings and Things
+  * [Maver Kesk](@sandpoint/maver_kesk.jpg), owner
+  * [Pennae Kesk](@sandpoint/pennae_kesk.jpg), wife of Maver
 * 6: Junker's Edge
 * 7: Gorvi's Shack
+  * [Gorvi](@sandpoint/gorvi.jpg)
 * 8: [Brodert Quink's Home](@sandpoint/brodert_quinks_home.jpg)
   * [Brodert Quink](@sandpoint/brodert_quink.jpg), local sage and historian specializing in Thassilonian structures
   * [Misty](@sandpoint/misty.jpg), his cat
@@ -88,6 +92,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 17: Bottled Solutions
 * 18: Cracktooth's Tavern
 * 19: House of Blue Stones
+  * [Sabyl Sorn](@sandpoint/sabyl_sorn.jpg), owner and caretaker
 * 20: Sandpoint Glassworks
   * Owned by [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father
 * 21: Sandpoint Savories
@@ -98,6 +103,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 23: Sandpoint Theater
   * [Cyrdak Drokkus](@sandpoint/cyrdak_drokkus.jpg), owner and enthusiastic patron of the arts
 * 24: Carpenter's Guild
+  * [Aesrick Battlehorn](@sandpoint/aesrick_battlehorn.jpg), guildmaster
 * 25: Sandpoint Lumber Mill
 * 26: General Store
 * 27: [Turandurok Academy](@sandpoint/turandarok_academy.jpg)
@@ -106,6 +112,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 28: Madame Mvashti's House
 * 29: Grocer's Hall
 * 30: Vernah's Fine Clothing
+  * [Rynshinn Povalli](@sandpoint/rynshinn_povalli.jpg)
 * 31: Wheen's Wagons
 * 32: Scarnetti Mill
 * 33: The Hagfish
@@ -125,6 +132,7 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 41: Sandpoint Boutique
 * 42: Fatman's Feedbag
 * 43: The Pixie's Kitten
+  * [Kaye Tesarani](@sandpoint/kaye_tesarani.png), proprietor
 * 44: [The Feathered Serpent](@sandpoint/feathered_serpent.jpg)
   * [Vorvashali Voon](@sandpoint/vorvashali_voon.jpg), owner
   * Lyse put 5gp on layaway for [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo) (40gp total)

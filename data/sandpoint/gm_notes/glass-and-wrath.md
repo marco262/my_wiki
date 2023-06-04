@@ -194,7 +194,64 @@ Delve into small talk between Aldern and the PCs, and hint at Aldern's internal 
 
 Following the week after the Glassworks fire, the party will have to deal with multiple citizens of Sandpoint either coming to them for help or causing problems:
 
-* Bethana will approach the party, begging to hear what's happened with Ameiko, and if they found any trace of her.
+* ~~Bethana will approach the party, begging to hear what's happened with Ameiko, and if they found any trace of her.~~
+
+## Downtime Activities
+
+**Note:** Be sure to roll the dice for "complications" for each activity. Don't worry about the value, but make it look like these complications were randomly rolled, not planned. 
+
+### Rusty: Research
+
+* Malfeshnekor: He will not be able to find any information on Malfeshnekor in any reference material. The higher the roll, the more confident he'll be that this is very arcane knowledge. However, as part of this research, he will dig up the name [Pazuzu](https://pathfinderwiki.com/wiki/Pazuzu): Demon Lord of the Sky and Winged Creatures, and known to be a rival of Lamashtu.
+* Old Light: Perched atop a 120-foot high cliff, the remains of the Old Light rises an additional 50 feet above that. Thought by most to be the ruins of an ancient lighthouse, Brodert has lengthy treatises and calculations and references that he believes "prove" the Old Light is the remains of an ancient weapon. He also believes there are hidden chambers in the rubble underneath the Old Light, but he hasn't been able to convince Sandpoint to supply the manpower to properly excavate it.
+
+### Althaea: Work
+
+Alathaea will spend her time working with Aesrick Battlehorn as well as a number of other tradesmen/dockworkers/etc to clear the rubble from the Glassworks. In a week, they will make noticeable progress, but not enough to clear an opening into the basement. During the work, Alathaea will either strike up a conversation with the workers or overhear their conversations. The workers will be complaining about getting into arguments with their husbands and wives, and as the days wear on, news will spread about the Banana inn shutting down and how sad and upsetting that is. 
+
+While working on the stairs going down to the basement, part of the floor will collapse and one of the men will be pinned by the rubble. It will take a concerted effort by all the workers (including Althaea) to get the man free, and it ends with his leg being crushed, and he'll have to be carted off to the temple to be seen by Father Zantus.
+
+Note: When rolling for earned income, make Alathaea's DCs lower than normal due to her work being simple and straightforward. Because the party has free lodging at the Rusty Dragon, use the following table for earned income.
+
+| Check Total | Earnings |
+|-------------|----------|
+| 7 or lower  | 1 gp     |
+| 8-12        | 5 gp     |
+| 13-18       | 10 gp    |
+| 19+         | 35 gp    |
+
+### Angry Rats
+
+After a few days of work, one evening Ilsoari will ask the party to come down to the Catacombs. They'd been keeping a large cage of rats down there near the pool to do experiments on. And unfortunately when Ilsoari came down that evening to check measurements and do some more experiments, he found a few dead rats in the cage, torn up by their noticeably more-aggressive comrades. The power level of the pool has not noticeably changed.
+
+### Delfi: Gambling
+
+It's easy to find people to gamble with at any tavern in Sandpoint, but the majority of them only host friendly games that barely make any money (10gp betting limit). Though [the Hagfish](^sandpoint/hagfish.jpg) is the place to be if you want to gamble during the day.
+
+If Delfi wants to bet more than that, she will need to ask around covertly, at which point she'll learn that the backrooms at the [Fatman's Feedbag](^sandpoint/fatmans_feedbag.jpg) are the place to be 
+
+### Lyse: Training (Herbalist's Kit)
+
+0 / 10 weeks
+
+Lyse will be taught by [Hannah Velerin](^sandpoint/hannah_velerin.jpg) at [her herbalist shop](^sandpoint/hannahs.jpg). In the morning, she'll lead Lyse out to the surrounding wilds to gather herbs. In the afternoons, they'll return to her shop and home to prepare medicines and receive patients. During this training, Lyse will be present while she has a checkup with a pregnant woman and her husband, where Hannah will provide the couple herbs to help combat nausea and swollen feet. The wife will be extra frustrated about everything, complaining the whole time.
+
+At one point during the downtime, Lyse and Hannah will return to the shop to find that lye has been dumped all over Hannah's garden, killing the plants. Hannah will break down into tears and will need comforting. She'll share with Lyse that she suspects it's this woman who's been spreading nasty rumors about her, after she slept with the woman's husband.
+
+### Grog: Work
+
+Grog will spend time with [Gorvi](^sandpoint/gorvi.jpg) and his boys, mostly young men and homeless vagabonds who are too rough to hold down more dignified jobs, but can be easily cowed by a big half-orc threatening to "clean da streets wid yer face". Gorvi will be happy to talk about his backstory, mentioning how living in Sandpoint is nicer than the orc tribe he grew up in. If pressed, Gorvi will cheerily talk about how he was treated as a runt by the other orcs, beaten and made fun of. His mother died when he was too young to remember her, but he'd gathered from hearing the other orcs talk about her that she was kidnapped from a human settlement, taken back to the orcs' camp, and gangraped until she was pregnant. This happened a few times, with Gorvi being her youngest child, and his other siblings either died or naturalized with the orcs, and he doesn't really consider them family.
+
+One of the days Grog is working with Gorvi will be "dey pay day", as Gorvi puts it. They'll go around to the Sandpoint homes and "politely" ask for donations for their work. They're already paid a nominal fee by the city itself for their service, but this is just soliciting "tips". Gorvi is more than happy to use a little casual intimidation, not-at-all-subtly implying he might not clean up their junk so well if they don't tip him. Most people will react anywhere from openly annoyed to quietly cowed, but when they get to Rovanky Tannery, [Larz Rovanky](^sandpoint/larz_rovanky.jpg) will openly insult Gorvi and his boys for their extortion. This will provoke Gorvi's boys, and unless Grog intervenes somehow, a fight will break out that could easily lead to a death or two. Town guards will arrive after 2-3 rounds and put a stop to the fighting.
+
+Note: Because the party has free lodging at the Rusty Dragon, use the following table for earned income.
+
+| Check Total | Earnings |
+|-------------|----------|
+| 9 or lower  | 1 gp     |
+| 10-14       | 5 gp     |
+| 15-20       | 10 gp    |
+| 21+         | 35 gp    |
 
 ## Return of the Sheriff
 
@@ -209,3 +266,4 @@ Roland is a Level 3 Bard.
 * +4 to Deception, History, Intimidation, Investigation
 * +6 to Insight, Persuasion
 * Spells: [friends](/dnd/spell/friends), [message](/dnd/spell/message), [charm person](/dnd/spell/charm person), [command](/dnd/spell/command), [comprehend languages](/dnd/spell/comprehend languages), [disguise self](/dnd/spell/disguise self), [detect thoughts](/dnd/spell/detect thoughts), [zone of truth](/dnd/spell/zone of truth)
+* Musical instrument: Whistling, and he often walks into scenes already whistling a tune (Examples: [I'm Shipping Up To Boston](https://youtu.be/x-64CaD8GXw?t=10), [Seven Nation Army](https://www.youtube.com/watch?v=0J2QdDbelmY), [Sunshine of your Love](https://www.youtube.com/watch?v=f3y8jf01UY8), [Satisfaction](https://www.youtube.com/watch?v=nrIPxlFzDi0))
