@@ -1,0 +1,17 @@
+title = "Hunter's Mark"
+spell_lists = ["Ranger"]
+level = "1"
+school = "Divination"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Bonus Action"
+range = "90 feet"
+components = ["V"]
+duration = "Concentration, up to 1 hour"
+description = """
+You choose one creature you can see within range and magically mark it as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target the first time you hit it with an attack roll on any turn. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.
+
+If the target drops to 0 Hit Points before this spell ends, you can use a Bonus Action to mark a new creature.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours, and the extra damage increases to 2d6. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours, and the extra damage increases to 3d6."
+source = "Player's Handbook Playtest 6"

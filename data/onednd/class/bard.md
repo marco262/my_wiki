@@ -2,34 +2,38 @@
 **Class Group:** Expert  
 **Primary Ability:** Charisma
 
-Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words -- which transcend any language -- and direct them to create new wonders.
+Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.
 
-Almost anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including musical performance, the workings of magic, and the formation of jests.
+Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words -- which transcend any language -- and direct them to create new wonders.
 
-Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. It can sometimes be hard to spot the difference between these performers and Bards, though. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge, level of musical skill, and mastery of magic sets them apart.
+Because the Words of Creation resonate throughout the cosmos, different Bards choose different approaches to their magic. Some Bards practice their arts in temples or monasteries, drawing on the power of the Outer Planes to channel divine magic. Others listen to bird song and the music of the wind, associate with Druid circles, and wield primal magic. Still others immerse themselves in the study of magical lore, collecting scraps of mystic knowledge wherever their journeys take them as they master the secrets of arcane magic. Ultimately, though, these various paths converge as the most accomplished Bards learn to access almost the entire breadth of magical potential.
 
-| Level | Prof.<br>Bonus |            Class Features             |  Bardic<br>Die  | Cantrips | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|:-----:|:--------------:|:-------------------------------------:|:---------------:|:--------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  1st  |       +2       | Bardic Inspiration (d6), Spellcasting |       d6        |    2     |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  2nd  |       +2       |    Expertise, Songs of Restoration    |       d6        |    2     |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  3rd  |       +2       |             Bard Subclass             |       d6        |    2     |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
-|  4th  |       +2       |                 Feat                  |       d6        |    3     |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
-|  5th  |       +3       |          Jack of All Trades           |       d8        |    3     |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
-|  6th  |       +3       |           Subclass Feature            |       d8        |    3     |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
-|  7th  |       +3       |      Font of Bardic Inspiration       |       d8        |    3     |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
-|  8th  |       +3       |                 Feat                  |       d8        |    3     |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
-|  9th  |       +4       |               Expertise               |       d8        |    3     |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
-| 10th  |       +4       |           Subclass Feature            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
-| 11th  |       +4       |            Magical Secrets            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 12th  |       +4       |                 Feat                  |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 13th  |       +5       |                  --                   |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 14th  |       +5       |           Subclass Feature            |       d10       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 15th  |       +5       |        Further Magical Secrets        |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 16th  |       +5       |                 Feat                  |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 17th  |       +6       |                  --                   |       d12       |    4     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
-| 18th  |       +6       |      Superior Bardic Inspiration      |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
-| 19th  |       +6       |                 Feat                  |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
-| 20th  |       +6       |               Epic Boon               |       d12       |    4     |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
+Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including performing music, working magic, and making jests.
+
+Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge and mastery of magic sets them apart.
+
+| Level | Prof.<br>Bonus | Class Features                   | Bardic<br>Die | Cantrips | Prepared<br>Spells | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:-----:|:--------------:|:---------------------------------|:-------------:|:--------:|:------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  1st  |       +2       | Bardic Inspiration, Spellcasting |      d6       |    2     |         4          |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  2nd  |       +2       | Expertise, Jack of All Trades    |      d6       |    2     |         5          |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  3rd  |       +2       | Bard Subclass                    |      d6       |    2     |         6          |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
+|  4th  |       +2       | Ability Score Improvement        |      d6       |    3     |         7          |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
+|  5th  |       +3       | Font of Inspiration              |      d8       |    3     |         9          |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
+|  6th  |       +3       | Subclass Feature                 |      d8       |    3     |         10         |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
+|  7th  |       +3       | Countercharm                     |      d8       |    3     |         11         |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
+|  8th  |       +3       | Ability Score Improvement        |      d8       |    3     |         12         |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
+|  9th  |       +4       | Expertise                        |      d8       |    3     |         14         |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
+| 10th  |       +4       | Magical Secrets                  |      d10      |    4     |         15         |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
+| 11th  |       +4       | --                               |      d10      |    4     |         16         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 12th  |       +4       | Ability Score Improvement        |      d10      |    4     |         16         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 13th  |       +5       | --                               |      d10      |    4     |         17         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 14th  |       +5       | Subclass Feature                 |      d10      |    4     |         17         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 15th  |       +5       | --                               |      d12      |    4     |         18         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 16th  |       +5       | Ability Score Improvement        |      d12      |    4     |         18         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 17th  |       +6       | --                               |      d12      |    4     |         19         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
+| 18th  |       +6       | Superior Inspiration             |      d12      |    4     |         20         |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
+| 19th  |       +6       | Ability Score Improvement        |      d12      |    4     |         21         |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
+| 20th  |       +6       | Words of Creation                |      d12      |    4     |         22         |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
 ## Creating a Bard
 
@@ -46,7 +50,7 @@ Then look at the Bard table to see the Class Features you get at each level in t
 #### Proficiencies
 
 **Saving Throws:** Dexterity, Charisma  
-**Skills:** Deception, Performance, Persuasion (or any three Skills of your choice)  
+**Skills:** Any three Skills of your choice  
 **Weapons:** Simple Weapons  
 **Tools:** Three Musical Instruments of your choice  
 
@@ -58,12 +62,11 @@ Light Armor
 
 As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.
 
-* Dagger
+* Dagger (2)
 * Entertainer's Pack
 * Leather Armor
 * Musical Instrument (one of your choice)
-* Shortsword
-* 18 GP
+* 26 GP
 
 ### Multiclassing and the Bard
 
@@ -87,123 +90,112 @@ As a Bard, you gain the following Class Features when you reach the specified le
 
 You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
 
-***Using Bardic Inspiration.*** You can use your Bardic Inspiration die in the following ways:
+***Using Bardic Inspiration.*** As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time. 
 
-* **Boost a d20 Test.** When another creature within 60 feet of you that you can see or hear fails a d20 Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the d20, potentially turning the failure into a success.
-* **Heal.** Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled.
+Once within the next hour when the creature fails a d20 Test, the creature can roll that die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
 
-***Number of Uses.*** A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+***Number of Uses.*** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
 
-***At Higher Levels.*** Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+***At Higher Levels.*** Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
 ### 1st Level: Spellcasting
 
-You have learned to cast Spells through your bardic arts. See the _Player's Handbook_ for the rules on spellcasting. The information below details how you use those rules as a Bard.
+You have learned to cast spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.
 
-***Prepared Spells.*** You have the following Spells prepared: _[Color Spray](/onednd/spell/Color Spray)_, _[Disguise Self](/onednd/spell/Disguise Self)_, _[Prestidigitation](/onednd/spell/Prestidigitation)_, and _[Vicious Mockery](/onednd/spell/Vicious Mockery)_.
+***Chosen Spell List.*** At 1st level, choose a spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). The chosen list is your Bard spell list and represents the magical tradition in which you learned your bardic arts. Whichever list you choose, it includes the _[Vicious Mockery](/onednd/spell/Vicious Mockery)_ cantrip for you.
 
-Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an [Arcane](/onednd/general/Spellcasting Rules#arcane-spells) Spell, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.
+***Cantrips.*** You know two cantrips of your choice from your Bard spell list.
 
-Whenever you finish a Long Rest, you can practice your bardic arts and replace any Spell you have prepared for this Class with another Arcane Spell of the same level, abiding by the school restriction above.
+Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from your Bard spell list.
 
-At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2nd- level Spells.
+When you reach 4th and 10th level in this class, you learn another cantrip of your choice from your Bard spell list, as shown in the Cantrips column of the Bard table.
 
-Consult the [Prepared Bard Spells](#prepared-bard-spells) section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells.
+***Spell Slots.*** The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
 
-***Spell Slots.*** The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots.
+***Prepared Spells of 1st+ Level.*** You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose four 1st-level spells from your Bard spell list.
 
-***Spellcasting Ability.*** Charisma is your Spellcasting Ability for your Bard Spells.
+The number of spells on your list also increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard table. Whenever that number increases, choose additional spells from your Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 3rd-level Bard, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.
 
-***Spellcasting Focus.*** You can use a Musical Instrument as a Spellcasting Focus for the Spells you prepare for this Class.
+If another Bard feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
+
+***Changing Your Prepared Spells.*** Whenever you finish a Long Rest[((bibcite homebrew))], you can replace one spell on your list with another spell for which you have spell slots and that is on your Bard spell list.
+
+***Spellcasting Ability.*** Charisma is your Spellcasting Ability for your Bard spells.
+
+***Spellcasting Focus.*** You can use a musical instrument as a Spellcasting Focus for the spells you cast with your Bard features. 
 
 ### 2nd Level: Expertise
 
-You gain Expertise in two of your Skill Proficiencies of your choice.
+You gain Expertise in two of your skill proficiencies of your choice.
 
-Performance and Persuasion are iconic choices for a Bard if you have Proficiency in them.
+Performance and Persuasion are iconic choices for a Bard if you have proficiency in them. 
 
-### 2nd Level: Songs of Restoration
+### 2nd Level: Jack of All Trades
 
-You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare.
+You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.
 
-#### Songs of Restoration Repertoire
-
-| Bard<br>Level | Spell                                                      |
-|:-------------:|------------------------------------------------------------|
-|      2nd      | _[Healing Word](/onednd/spell/Healing Word)_               |
-|      4th      | _[Lesser Restoration](/onednd/spell/Lesser Restoration)_   |
-|      6th      | _[Mass Healing Word](/onednd/spell/Mass Healing Word)_     |
-|      8th      | _[Freedom of Movement](/onednd/spell/Freedom of Movement)_ |
-|     10th      | _[Greater Restoration](/onednd/spell/Greater Restoration)_ |
+For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check. 
 
 ### 3rd Level: Bard Subclass
 
-You gain the [College of Lore](/onednd/subclass/College of Lore) Subclass or another Bard Subclass of your choice. Other Subclasses will appear in future _Unearthed Arcana_ articles.
+You gain a Bard subclass of your choice: [College of Dance](/onednd/subclass/College of Dance), [College of Glamour](/onednd/subclass/College of Glamour), [College of Lore](/onednd/subclass/College of Lore), or [College of Valor](/onednd/subclass/College of Valor).
 
-A Subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your Subclass's features that are of your Bard level and lower. This Class's description tells you the levels when your Subclass provides features.
+A subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level and lower. 
 
-### 4th Level: Feat
+### 4th Level: Ability Score Improvement
 
-You gain the Ability Score Improvement Feat or another Feat of your choice.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
 
-### 5th Level: Jack of All Trades
+### 5th Level: Font of Inspiration
 
-You can add half your Proficiency Bonus (round down) to any Ability Check you make that uses a Skill Proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength Check (Athletics) and lack Athletics Proficiency, you can add half your Proficiency Bonus to the check.
+You now also regain all your expended uses of Bardic Inspiration when you finish a Short Rest.
+
+In addition, if you have no uses of Bardic Inspiration left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn. 
 
 ### 6th Level: Subclass Feature
 
-You gain a feature from your Bard Subclass.
+You gain a feature from your Bard subclass. 
 
-### 7th Level: Font of Bardic Inspiration
+### 7th Level: Countercharm
 
-You now regain all your expended uses of Bardic Inspiration when you finish a Short Rest or a Long Rest.
+You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can use your Reaction to cause the save to be rerolled, and the new roll has Advantage. 
 
-In addition, if a creature rolls your Bardic Inspiration die and gets a 1 (after any rerolls you might have), that use of your Bardic Inspiration isn't expended.
+### 8th Level: Ability Score Improvement
 
-### 8th Level: Feat
-
-You gain the Ability Score Improvement Feat or another Feat of your choice.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
 
 ### 9th Level: Expertise
 
-You gain Expertise in two of your Skill Proficiencies of your choice.
+You gain Expertise in two of your skill proficiencies of your choice. 
 
-### 10th Level: Subclass Feature
+### 10th Level: Magical Secrets
 
-You gain a feature from your Bard Subclass.
+You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard spell list now includes the Arcane, Divine, and Primal spell lists. 
 
-### 11th Level: Magical Secrets
+### 12th Level: Ability Score Improvement
 
-You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
-
-### 12th Level: Feat
-
-You gain the Ability Score Improvement Feat or another Feat of your choice.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
 
 ### 14th Level: Subclass Feature
 
-You gain a feature from your Bard Subclass.
+You gain a feature from your Bard subclass. 
 
-### 15th Level: Further Magical Secrets
+### 16th Level: Ability Score Improvement
 
-Your understanding of magic has grown even broader. Choose a Spell List -- [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) -- that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
 
-### 16th Level: Feat
+### 18th Level: Superior Inspiration
 
-You gain the Ability Score Improvement Feat or another Feat of your choice.
+When you roll Initiative and have no uses of Bardic Inspiration left, you regain two expended uses of it. 
 
-### 18th Level: Superior Bardic Inspiration
+### 19th Level: Ability Score Improvement
 
-When you roll Initiative, you regain two expended uses of your Bardic Inspiration.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
 
-### 19th Level: Feat
+### 20th Level: Words of Creation
 
-You gain the Ability Score Improvement Feat or another Feat of your choice.
+You have mastered two of the prime Words of Creation: the words of life and death. You therefore always have the _[Power Word Heal](/onednd/spell/Power Word Heal)_ and _[Power Word Kill](/onednd/spell/Power Word Kill)_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target.
 
-### 20th Level: Epic Boon
-
-You gain the Epic Boon of Luck Feat or another Epic Boon Feat of your choice.
-
-## Prepared Bard Spells
-
-***TBC***
+[[bibliography]]
+: homebrew : Homebrew
+[[/bibliography]]

@@ -1,480 +1,486 @@
-## Arcane Spells
-
-An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers.
-
-The Arcane Spells table is a partial list of Arcane Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.
+This section presents new or revised spells for you to playtest. It also includes the Arcane, Divine, and Primal spell lists.
 
 If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.
 
-| Lvl | Spell                                          | School         | Ritual |
-|:---:|------------------------------------------------|----------------|:------:|
-|  0  | [[[spell:Acid Splash]]]                        | Conjuration    |   No   |
-|  0  | [[[spell:Blade Ward]]]                         | Abjuration     |   No   |
-|  0  | [[[spell:Chill Touch]]]                        | Necromancy     |   No   |
-|  0  | [[[spell:Dancing Lights]]]                     | Illusion*      |   No   |
-|  0  | [[[spell:Fire Bolt]]]                          | Evocation      |   No   |
-|  0  | [[[spell:Friends]]]                            | Enchantment    |   No   |
-|  0  | [[[spell:Light]]]                              | Evocation      |   No   |
-|  0  | [[[spell:Mage Hand]]]                          | Conjuration    |   No   |
-|  0  | [[[spell:Mending]]]                            | Transmutation  |   No   |
-|  0  | [[[spell:Message]]]                            | Transmutation  |   No   |
-|  0  | [[[spell:Minor Illusion]]]                     | Illusion       |   No   |
-|  0  | [[[spell:Poison Spray]]]                       | Conjuration    |   No   |
-|  0  | [[[spell:Prestidigitation]]]                   | Transmutation  |   No   |
-|  0  | [[[spell:Ray of Frost]]]                       | Evocation      |   No   |
-|  0  | [[[spell:Shocking Grasp]]]                     | Evocation      |   No   |
-|  0  | [[[spell:True Strike]]]                        | Divination     |   No   |
-|  0  | [[[spell:Vicious Mockery]]]                    | Enchantment    |   No   |
-|  1  | [[[spell:Alarm]]]                              | Abjuration     |  Yes   |
-|  1  | [[[spell:Armor of Agathys]]]                   | Abjuration     |   No   |
-|  1  | [[[spell:Arms of Hadar]]]                      | Conjuration    |   No   |
-|  1  | [[[spell:Burning Hands]]]                      | Evocation      |   No   |
-|  1  | [[[spell:Charm Person]]]                       | Enchantment    |   No   |
-|  1  | [[[spell:Chromatic Orb]]]                      | Evocation      |   No   |
-|  1  | [[[spell:Color Spray]]]                        | Illusion       |   No   |
-|  1  | [[[spell:Comprehend Languages]]]               | Divination     |  Yes   |
-|  1  | [[[spell:Detect Magic]]]                       | Divination     |  Yes   |
-|  1  | [[[spell:Disguise Self]]]                      | Illusion       |   No   |
-|  1  | [[[spell:Dissonant Whispers]]]                 | Enchantment    |   No   |
-|  1  | [[[spell:Expeditious Retreat]]]                | Transmutation  |   No   |
-|  1  | [[[spell:False Life]]]                         | Necromancy     |   No   |
-|  1  | [[[spell:Feather Fall]]]                       | Transmutation  |   No   |
-|  1  | [[[spell:Find Familiar]]]                      | Conjuration    |  Yes   |
-|  1  | [[[spell:Fog Cloud]]]                          | Conjuration    |   No   |
-|  1  | [[[spell:Grease]]]                             | Conjuration    |   No   |
-|  1  | [[[spell:Hellish Rebuke]]]                     | Evocation      |   No   |
-|  1  | [[[spell:Hex]]]                                | Enchantment    |   No   |
-|  1  | [[[spell:Identify]]]                           | Divination     |  Yes   |
-|  1  | [[[spell:Illusory Script]]]                    | Illusion       |  Yes   |
-|  1  | [[[spell:Jump]]]                               | Transmutation  |   No   |
-|  1  | [[[spell:Longstrider]]]                        | Transmutation  |   No   |
-|  1  | [[[spell:Mage Armor]]]                         | Abjuration     |   No   |
-|  1  | [[[spell:Magic Missile]]]                      | Evocation      |   No   |
-|  1  | [[[spell:Protection from Evil and Good]]]      | Abjuration     |   No   |
-|  1  | [[[spell:Ray of Sickness]]]                    | Necromancy     |   No   |
-|  1  | [[[spell:Shield]]]                             | Abjuration     |   No   |
-|  1  | [[[spell:Silent Image]]]                       | Illusion       |   No   |
-|  1  | [[[spell:Sleep]]]                              | Enchantment    |   No   |
-|  1  | [[[spell:Tasha's Hideous Laughter]]]           | Enchantment    |   No   |
-|  1  | [[[spell:Tenser's Floating Disk]]]             | Conjuration    |  Yes   |
-|  1  | [[[spell:Thunderwave]]]                        | Transmutation* |   No   |
-|  1  | [[[spell:Unseen Servant]]]                     | Conjuration    |  Yes   |
-|  1  | [[[spell:Witch Bolt]]]                         | Evocation      |   No   |
-|  2  | [[[spell:Alter Self]]]                         | Transmutation  |   No   |
-|  2  | [[[spell:Arcane Lock]]]                        | Abjuration     |   No   |
-|  2  | [[[spell:Blindness/Deafness]]]                 | Transmutation* |   No   |
-|  2  | [[[spell:Blur]]]                               | Illusion       |   No   |
-|  2  | [[[spell:Calm Emotions]]]                      | Enchantment    |   No   |
-|  2  | [[[spell:Cloud of Daggers]]]                   | Conjuration    |   No   |
-|  2  | [[[spell:Continual Flame]]]                    | Evocation      |   No   |
-|  2  | [[[spell:Crown of Madness]]]                   | Enchantment    |   No   |
-|  2  | [[[spell:Darkness]]]                           | Evocation      |   No   |
-|  2  | [[[spell:Darkvision]]]                         | Transmutation  |   No   |
-|  2  | [[[spell:Detect Thoughts]]]                    | Divination     |   No   |
-|  2  | [[[spell:Enlarge/Reduce]]]                     | Transmutation  |   No   |
-|  2  | [[[spell:Enthrall]]]                           | Enchantment    |   No   |
-|  2  | [[[spell:Flaming Sphere]]]                     | Evocation*     |   No   |
-|  2  | [[[spell:Gust of Wind]]]                       | Evocation      |   No   |
-|  2  | [[[spell:Hold Person]]]                        | Enchantment    |   No   |
-|  2  | [[[spell:Invisibility]]]                       | Illusion       |   No   |
-|  2  | [[[spell:Knock]]]                              | Transmutation  |   No   |
-|  2  | [[[spell:Levitate]]]                           | Transmutation  |   No   |
-|  2  | [[[spell:Locate Object]]]                      | Divination     |   No   |
-|  2  | [[[spell:Magic Aura]]]                         | Illusion       |   No   |
-|  2  | [[[spell:Magic Mouth]]]                        | Illusion       |  Yes   |
-|  2  | [[[spell:Magic Weapon]]]                       | Transmutation  |   No   |
-|  2  | [[[spell:Melf's Acid Arrow]]]                  | Evocation      |   No   |
-|  2  | [[[spell:Mirror Image]]]                       | Illusion       |   No   |
-|  2  | [[[spell:Misty Step]]]                         | Conjuration    |   No   |
-|  2  | [[[spell:Phantasmal Force]]]                   | Illusion       |   No   |
-|  2  | [[[spell:Ray of Enfeeblement]]]                | Necromancy     |   No   |
-|  2  | [[[spell:Rope Trick]]]                         | Transmutation  |   No   |
-|  2  | [[[spell:Scorching Ray]]]                      | Evocation      |   No   |
-|  2  | [[[spell:See Invisibility]]]                   | Divination     |   No   |
-|  2  | [[[spell:Shatter]]]                            | Transmutation* |   No   |
-|  2  | [[[spell:Spider Climb]]]                       | Transmutation  |   No   |
-|  2  | [[[spell:Suggestion]]]                         | Enchantment    |   No   |
-|  2  | [[[spell:Web]]]                                | Conjuration    |   No   |
-|  3  | [[[spell:Animate Dead]]]                       | Necromancy     |   No   |
-|  3  | [[[spell:Bestow Curse]]]                       | Necromancy     |   No   |
-|  3  | [[[spell:Blink]]]                              | Transmutation  |   No   |
-|  3  | [[[spell:Clairvoyance]]]                       | Divination     |   No   |
-|  3  | [[[spell:Counterspell]]]                       | Abjuration     |   No   |
-|  3  | [[[spell:Dispel Magic]]]                       | Abjuration     |   No   |
-|  3  | [[[spell:Fear]]]                               | Illusion       |   No   |
-|  3  | [[[spell:Fireball]]]                           | Evocation      |   No   |
-|  3  | [[[spell:Fly]]]                                | Transmutation  |   No   |
-|  3  | [[[spell:Gaseous Form]]]                       | Transmutation  |   No   |
-|  3  | [[[spell:Glyph of Warding]]]                   | Abjuration     |   No   |
-|  3  | [[[spell:Haste]]]                              | Transmutation  |   No   |
-|  3  | [[[spell:Hunger of Hadar]]]                    | Conjuration    |   No   |
-|  3  | [[[spell:Hypnotic Pattern]]]                   | Illusion       |   No   |
-|  3  | [[[spell:Leomund's Tiny Hut]]]                 | Evocation      |  Yes   |
-|  3  | [[[spell:Lightning Bolt]]]                     | Evocation      |   No   |
-|  3  | [[[spell:Magic Circle]]]                       | Abjuration     |   No   |
-|  3  | [[[spell:Major Image]]]                        | Illusion       |   No   |
-|  3  | [[[spell:Nondetection]]]                       | Abjuration     |   No   |
-|  3  | [[[spell:Phantom Steed]]]                      | Illusion       |  Yes   |
-|  3  | [[[spell:Protection from Energy]]]             | Abjuration     |   No   |
-|  3  | [[[spell:Remove Curse]]]                       | Abjuration     |   No   |
-|  3  | [[[spell:Sending]]]                            | Divination*    |   No   |
-|  3  | [[[spell:Sleet Storm]]]                        | Conjuration    |   No   |
-|  3  | [[[spell:Slow]]]                               | Transmutation  |   No   |
-|  3  | [[[spell:Stinking Cloud]]]                     | Conjuration    |   No   |
-|  3  | [[[spell:Tongues]]]                            | Divination     |   No   |
-|  3  | [[[spell:Vampiric Touch]]]                     | Necromancy     |   No   |
-|  3  | [[[spell:Water Breathing]]]                    | Transmutation  |  Yes   |
-|  4  | [[[spell:Arcane Eye]]]                         | Divination     |   No   |
-|  4  | [[[spell:Banishment]]]                         | Abjuration     |   No   |
-|  4  | [[[spell:Blight]]]                             | Necromancy     |   No   |
-|  4  | [[[spell:Compulsion]]]                         | Enchantment    |   No   |
-|  4  | [[[spell:Confusion]]]                          | Enchantment    |   No   |
-|  4  | [[[spell:Conjure Minor Elementals]]]           | Conjuration    |   No   |
-|  4  | [[[spell:Control Water]]]                      | Transmutation  |   No   |
-|  4  | [[[spell:Dimension Door]]]                     | Conjuration    |   No   |
-|  4  | [[[spell:Evard's Black Tentacles]]]            | Conjuration    |   No   |
-|  4  | [[[spell:Fabricate]]]                          | Transmutation  |   No   |
-|  4  | [[[spell:Fire Shield]]]                        | Evocation      |   No   |
-|  4  | [[[spell:Greater Invisibility]]]               | Illusion       |   No   |
-|  4  | [[[spell:Hallucinatory Terrain]]]              | Illusion       |   No   |
-|  4  | [[[spell:Ice Storm]]]                          | Evocation      |   No   |
-|  4  | [[[spell:Leomund's Secret Chest]]]             | Conjuration    |   No   |
-|  4  | [[[spell:Locate Creature]]]                    | Divination     |   No   |
-|  4  | [[[spell:Mordenkainen's Faithful Hound]]]      | Conjuration    |   No   |
-|  4  | [[[spell:Mordenkainen's Private Sanctum]]]     | Abjuration     |   No   |
-|  4  | [[[spell:Otiluke's Resilient Sphere]]]         | Evocation      |   No   |
-|  4  | [[[spell:Phantasmal Killer]]]                  | Illusion       |   No   |
-|  4  | [[[spell:Polymorph]]]                          | Transmutation  |   No   |
-|  4  | [[[spell:Stone Shape]]]                        | Transmutation  |   No   |
-|  4  | [[[spell:Stoneskin]]]                          | Transmutation* |   No   |
-|  4  | [[[spell:Wall of Fire]]]                       | Evocation      |   No   |
-|  5  | [[[spell:Animate Objects]]]                    | Transmutation  |   No   |
-|  5  | [[[spell:Bigby's Hand]]]                       | Evocation      |   No   |
-|  5  | [[[spell:Cloudkill]]]                          | Conjuration    |   No   |
-|  5  | [[[spell:Cone of Cold]]]                       | Evocation      |   No   |
-|  5  | [[[spell:Conjure Elemental]]]                  | Conjuration    |   No   |
-|  5  | [[[spell:Contact Other Plane]]]                | Divination     |  Yes   |
-|  5  | [[[spell:Creation]]]                           | Illusion       |   No   |
-|  5  | [[[spell:Dominate Person]]]                    | Enchantment    |   No   |
-|  5  | [[[spell:Dream]]]                              | Illusion       |   No   |
-|  5  | [[[spell:Geas]]]                               | Enchantment    |   No   |
-|  5  | [[[spell:Hold Monster]]]                       | Enchantment    |   No   |
-|  5  | [[[spell:Legend Lore]]]                        | Divination     |   No   |
-|  5  | [[[spell:Mislead]]]                            | Illusion       |   No   |
-|  5  | [[[spell:Modify Memory]]]                      | Enchantment    |   No   |
-|  5  | [[[spell:Passwall]]]                           | Transmutation  |   No   |
-|  5  | [[[spell:Planar Binding]]]                     | Abjuration     |   No   |
-|  5  | [[[spell:Rary's Telepathic Bond]]]             | Divination     |  Yes   |
-|  5  | [[[spell:Scrying]]]                            | Divination     |   No   |
-|  5  | [[[spell:Seeming]]]                            | Illusion       |   No   |
-|  5  | [[[spell:Telekinesis]]]                        | Transmutation  |   No   |
-|  5  | [[[spell:Teleportation Circle]]]               | Conjuration    |   No   |
-|  5  | [[[spell:Wall of Force]]]                      | Evocation      |   No   |
-|  5  | [[[spell:Wall of Stone]]]                      | Evocation      |   No   |
-|  6  | [[[spell:Arcane Gate]]]                        | Conjuration    |   No   |
-|  6  | [[[spell:Chain Lightning]]]                    | Evocation      |   No   |
-|  6  | [[[spell:Circle of Death]]]                    | Necromancy     |   No   |
-|  6  | [[[spell:Contingency]]]                        | Abjuration*    |   No   |
-|  6  | [[[spell:Create Undead]]]                      | Necromancy     |   No   |
-|  6  | [[[spell:Disintegrate]]]                       | Transmutation  |   No   |
-|  6  | [[[spell:Eyebite]]]                            | Necromancy     |   No   |
-|  6  | [[[spell:Flesh to Stone]]]                     | Transmutation  |   No   |
-|  6  | [[[spell:Globe of Invulnerability]]]           | Abjuration     |   No   |
-|  6  | [[[spell:Guards and Wards]]]                   | Abjuration     |   No   |
-|  6  | [[[spell:Instant Summons]]]                    | Conjuration    |  Yes   |
-|  6  | [[[spell:Magic Jar]]]                          | Necromancy     |   No   |
-|  6  | [[[spell:Mass Suggestion]]]                    | Enchantment    |   No   |
-|  6  | [[[spell:Move Earth]]]                         | Transmutation  |   No   |
-|  6  | [[[spell:Otiluke's Freezing Sphere]]]          | Evocation      |   No   |
-|  6  | [[[spell:Otto's Irresistible Dance]]]          | Enchantment    |   No   |
-|  6  | [[[spell:Programmed Illusion]]]                | Illusion       |   No   |
-|  6  | [[[spell:Sunbeam]]]                            | Evocation      |   No   |
-|  6  | [[[spell:True Seeing]]]                        | Divination     |   No   |
-|  6  | [[[spell:Wall of Ice]]]                        | Evocation      |   No   |
-|  7  | [[[spell:Delayed Blast Fireball]]]             | Evocation      |   No   |
-|  7  | [[[spell:Etherealness]]]                       | Transmutation  |   No   |
-|  7  | [[[spell:Finger of Death]]]                    | Necromancy     |   No   |
-|  7  | [[[spell:Forcecage]]]                          | Evocation      |   No   |
-|  7  | [[[spell:Mirage Arcane]]]                      | Illusion       |   No   |
-|  7  | [[[spell:Mordenkainen's Magnificent Mansion]]] | Conjuration    |   No   |
-|  7  | [[[spell:Mordenkainen's Sword]]]               | Evocation      |   No   |
-|  7  | [[[spell:Plane Shift]]]                        | Conjuration    |   No   |
-|  7  | [[[spell:Prismatic Spray]]]                    | Evocation      |   No   |
-|  7  | [[[spell:Project Image]]]                      | Illusion       |   No   |
-|  7  | [[[spell:Reverse Gravity]]]                    | Transmutation  |   No   |
-|  7  | [[[spell:Sequester]]]                          | Transmutation  |   No   |
-|  7  | [[[spell:Simulacrum]]]                         | Illusion       |   No   |
-|  7  | [[[spell:Symbol]]]                             | Abjuration     |   No   |
-|  7  | [[[spell:Teleport]]]                           | Conjuration    |   No   |
-|  8  | [[[spell:Antimagic Field]]]                    | Abjuration     |   No   |
-|  8  | [[[spell:Antipathy/Sympathy]]]                 | Enchantment    |   No   |
-|  8  | [[[spell:Clone]]]                              | Necromancy     |   No   |
-|  8  | [[[spell:Control Weather]]]                    | Transmutation  |   No   |
-|  8  | [[[spell:Demiplane]]]                          | Conjuration    |   No   |
-|  8  | [[[spell:Dominate Monster]]]                   | Enchantment    |   No   |
-|  8  | [[[spell:Feeblemind]]]                         | Enchantment    |   No   |
-|  8  | [[[spell:Glibness]]]                           | Enchantment*   |   No   |
-|  8  | [[[spell:Incendiary Cloud]]]                   | Conjuration    |   No   |
-|  8  | [[[spell:Maze]]]                               | Conjuration    |   No   |
-|  8  | [[[spell:Mind Blank]]]                         | Abjuration     |   No   |
-|  8  | [[[spell:Power Word Stun]]]                    | Enchantment    |   No   |
-|  8  | [[[spell:Sunburst]]]                           | Evocation      |   No   |
-|  8  | [[[spell:Telepathy]]]                          | Divination*    |   No   |
-|  9  | [[[spell:Astral Projection]]]                  | Necromancy     |   No   |
-|  9  | [[[spell:Foresight]]]                          | Divination     |   No   |
-|  9  | [[[spell:Gate]]]                               | Conjuration    |   No   |
-|  9  | [[[spell:Imprisonment]]]                       | Abjuration     |   No   |
-|  9  | [[[spell:Meteor Swarm]]]                       | Evocation      |   No   |
-|  9  | [[[spell:Power Word Kill]]]                    | Enchantment    |   No   |
-|  9  | [[[spell:Prismatic Wall]]]                     | Abjuration     |   No   |
-|  9  | [[[spell:Shapechange]]]                        | Transmutation  |   No   |
-|  9  | [[[spell:Time Stop]]]                          | Transmutation  |   No   |
-|  9  | [[[spell:True Polymorph]]]                     | Transmutation  |   No   |
-|  9  | [[[spell:Weird]]]                              | Illusion       |   No   |
-|  9  | [[[spell:Wish]]]                               | Conjuration    |   No   |
+## Arcane Spells
+
+An Arcane spell draws on the ambient magic of the multiverse. Sorcerers, Warlocks, and Wizards are among those who harness this magic.
+
+The Arcane Spells table is a partial list of Arcane spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
+
+| Lvl | Spell                                            | School         | Ritual |
+|:---:|--------------------------------------------------|----------------|:------:|
+|  0  | _[[[spell:Acid Splash]]]_                        | Conjuration    |   No   |
+|  0  | _[[[spell:Blade Ward]]]_                         | Abjuration     |   No   |
+|  0  | _[[[spell:Chill Touch]]]_                        | Necromancy     |   No   |
+|  0  | _[[[spell:Dancing Lights]]]_                     | Illusion*      |   No   |
+|  0  | _[[[spell:Ego Shock]]]_                          | Enchantment    |   No   |
+|  0  | _[[[spell:Elementalism]]]_                       | Transmutation  |   No   |
+|  0  | _[[[spell:Fire Bolt]]]_                          | Evocation      |   No   |
+|  0  | _[[[spell:Friends]]]_                            | Enchantment    |   No   |
+|  0  | _[[[spell:Frostbite]]]_                          | Evocation      |   No   |
+|  0  | _[[[spell:Light]]]_                              | Evocation      |   No   |
+|  0  | _[[[spell:Mage Hand]]]_                          | Conjuration    |   No   |
+|  0  | _[[[spell:Mending]]]_                            | Transmutation  |   No   |
+|  0  | _[[[spell:Message]]]_                            | Transmutation  |   No   |
+|  0  | _[[[spell:Mind Sliver]]]_                        | Enchantment    |   No   |
+|  0  | _[[[spell:Minor Illusion]]]_                     | Illusion       |   No   |
+|  0  | _[[[spell:Poison Spray]]]_                       | Conjuration    |   No   |
+|  0  | _[[[spell:Prestidigitation]]]_                   | Transmutation  |   No   |
+|  0  | _[[[spell:Ray of Frost]]]_                       | Evocation      |   No   |
+|  0  | _[[[spell:Shocking Grasp]]]_                     | Evocation      |   No   |
+|  0  | _[[[spell:Thunderclap]]]_                        | Evocation      |   No   |
+|  0  | _[[[spell:Toll the Dead]]]_                      | Necromancy     |   No   |
+|  0  | _[[[spell:True Strike]]]_                        | Divination     |   No   |
+|  1  | _[[[spell:Alarm]]]_                              | Abjuration     |  Yes   |
+|  1  | _[[[spell:Armor of Agathys]]]_                   | Abjuration     |   No   |
+|  1  | _[[[spell:Arms of Hadar]]]_                      | Conjuration    |   No   |
+|  1  | _[[[spell:Burning Hands]]]_                      | Evocation      |   No   |
+|  1  | _[[[spell:Charm Person]]]_                       | Enchantment    |   No   |
+|  1  | _[[[spell:Chromatic Orb]]]_                      | Evocation      |   No   |
+|  1  | _[[[spell:Color Spray]]]_                        | Illusion       |   No   |
+|  1  | _[[[spell:Comprehend Languages]]]_               | Divination     |  Yes   |
+|  1  | _[[[spell:Detect Magic]]]_                       | Divination     |  Yes   |
+|  1  | _[[[spell:Disguise Self]]]_                      | Illusion       |   No   |
+|  1  | _[[[spell:Dissonant Whispers]]]_                 | Enchantment    |   No   |
+|  1  | _[[[spell:Expeditious Retreat]]]_                | Transmutation  |   No   |
+|  1  | _[[[spell:Fall]]]_                               | Transmutation  |   No   |
+|  1  | _[[[spell:False Life]]]_                         | Necromancy     |   No   |
+|  1  | _[[[spell:Feather Fall]]]_                       | Transmutation  |   No   |
+|  1  | _[[[spell:Find Familiar]]]_                      | Conjuration    |  Yes   |
+|  1  | _[[[spell:Fog Cloud]]]_                          | Conjuration    |   No   |
+|  1  | _[[[spell:Grease]]]_                             | Conjuration    |   No   |
+|  1  | _[[[spell:Hellish Rebuke]]]_                     | Evocation      |   No   |
+|  1  | _[[[spell:Identify]]]_                           | Divination     |  Yes   |
+|  1  | _[[[spell:Illusory Script]]]_                    | Illusion       |  Yes   |
+|  1  | _[[[spell:Jump]]]_                               | Transmutation  |   No   |
+|  1  | _[[[spell:Longstrider]]]_                        | Transmutation  |   No   |
+|  1  | _[[[spell:Mage Armor]]]_                         | Abjuration     |   No   |
+|  1  | _[[[spell:Magic Missile]]]_                      | Evocation      |   No   |
+|  1  | _[[[spell:Protection from Evil and Good]]]_      | Abjuration     |   No   |
+|  1  | _[[[spell:Ray of Sickness]]]_                    | Necromancy     |   No   |
+|  1  | _[[[spell:Shield]]]_                             | Abjuration     |   No   |
+|  1  | _[[[spell:Silent Image]]]_                       | Illusion       |   No   |
+|  1  | _[[[spell:Sleep]]]_                              | Enchantment    |   No   |
+|  1  | _[[[spell:Stranger's Guise]]]_                   | Illusion       |   No   |
+|  1  | _[[[spell:Tasha's Hideous Laughter]]]_           | Enchantment    |   No   |
+|  1  | _[[[spell:Tenser's Floating Disk]]]_             | Conjuration    |  Yes   |
+|  1  | _[[[spell:Thunderwave]]]_                        | Evocation      |   No   |
+|  1  | _[[[spell:Unseen Servant]]]_                     | Conjuration    |  Yes   |
+|  1  | _[[[spell:Witch Bolt]]]_                         | Evocation      |   No   |
+|  2  | _[[[spell:Alter Self]]]_                         | Transmutation  |   No   |
+|  2  | _[[[spell:Arcane Lock]]]_                        | Abjuration     |   No   |
+|  2  | _[[[spell:Blindness/Deafness]]]_                 | Transmutation* |   No   |
+|  2  | _[[[spell:Blur]]]_                               | Illusion       |   No   |
+|  2  | _[[[spell:Calm Emotions]]]_                      | Enchantment    |   No   |
+|  2  | _[[[spell:Cloud of Daggers]]]_                   | Conjuration    |   No   |
+|  2  | _[[[spell:Continual Flame]]]_                    | Evocation      |   No   |
+|  2  | _[[[spell:Crown of Madness]]]_                   | Enchantment    |   No   |
+|  2  | _[[[spell:Darkness]]]_                           | Evocation      |   No   |
+|  2  | _[[[spell:Darkvision]]]_                         | Transmutation  |   No   |
+|  2  | _[[[spell:Detect Thoughts]]]_                    | Divination     |   No   |
+|  2  | _[[[spell:Enlarge/Reduce]]]_                     | Transmutation  |   No   |
+|  2  | _[[[spell:Enthrall]]]_                           | Enchantment    |   No   |
+|  2  | _[[[spell:Flaming Sphere]]]_                     | Evocation*     |   No   |
+|  2  | _[[[spell:Gust of Wind]]]_                       | Evocation      |   No   |
+|  2  | _[[[spell:Hold Person]]]_                        | Enchantment    |   No   |
+|  2  | _[[[spell:Invisibility]]]_                       | Illusion       |   No   |
+|  2  | _[[[spell:Knock]]]_                              | Transmutation  |   No   |
+|  2  | _[[[spell:Levitate]]]_                           | Transmutation  |   No   |
+|  2  | _[[[spell:Locate Object]]]_                      | Divination     |   No   |
+|  2  | _[[[spell:Magic Mouth]]]_                        | Illusion       |  Yes   |
+|  2  | _[[[spell:Magic Weapon]]]_                       | Transmutation  |   No   |
+|  2  | _[[[spell:Melf's Acid Arrow]]]_                  | Evocation      |   No   |
+|  2  | _[[[spell:Mirror Image]]]_                       | Illusion       |   No   |
+|  2  | _[[[spell:Misty Step]]]_                         | Conjuration    |   No   |
+|  2  | _[[[spell:Nystul's Magic Aura]]]_                | Illusion       |   No   |
+|  2  | _[[[spell:Phantasmal Force]]]_                   | Illusion       |   No   |
+|  2  | _[[[spell:Ray of Enfeeblement]]]_                | Necromancy     |   No   |
+|  2  | _[[[spell:Rope Trick]]]_                         | Transmutation  |   No   |
+|  2  | _[[[spell:Scorching Ray]]]_                      | Evocation      |   No   |
+|  2  | _[[[spell:See Invisibility]]]_                   | Divination     |   No   |
+|  2  | _[[[spell:Shatter]]]_                            | Evocation      |   No   |
+|  2  | _[[[spell:Spider Climb]]]_                       | Transmutation  |   No   |
+|  2  | _[[[spell:Suggestion]]]_                         | Enchantment    |   No   |
+|  2  | _[[[spell:Web]]]_                                | Conjuration    |   No   |
+|  3  | _[[[spell:Animate Dead]]]_                       | Necromancy     |   No   |
+|  3  | _[[[spell:Bestow Curse]]]_                       | Necromancy     |   No   |
+|  3  | _[[[spell:Blink]]]_                              | Transmutation  |   No   |
+|  3  | _[[[spell:Clairvoyance]]]_                       | Divination     |   No   |
+|  3  | _[[[spell:Counterspell]]]_                       | Abjuration     |   No   |
+|  3  | _[[[spell:Dispel Magic]]]_                       | Abjuration     |   No   |
+|  3  | _[[[spell:Excite Emotions]]]_                    | Enchantment    |   No   |
+|  3  | _[[[spell:Fear]]]_                               | Illusion       |   No   |
+|  3  | _[[[spell:Fireball]]]_                           | Evocation      |   No   |
+|  3  | _[[[spell:Fly]]]_                                | Transmutation  |   No   |
+|  3  | _[[[spell:Gaseous Form]]]_                       | Transmutation  |   No   |
+|  3  | _[[[spell:Glyph of Warding]]]_                   | Abjuration     |   No   |
+|  3  | _[[[spell:Haste]]]_                              | Transmutation  |   No   |
+|  3  | _[[[spell:Hunger of Hadar]]]_                    | Conjuration    |   No   |
+|  3  | _[[[spell:Hypnotic Pattern]]]_                   | Illusion       |   No   |
+|  3  | _[[[spell:Leomund's Tiny Hut]]]_                 | Evocation      |  Yes   |
+|  3  | _[[[spell:Lightning Bolt]]]_                     | Evocation      |   No   |
+|  3  | _[[[spell:Magic Circle]]]_                       | Abjuration     |   No   |
+|  3  | _[[[spell:Major Image]]]_                        | Illusion       |   No   |
+|  3  | _[[[spell:Nondetection]]]_                       | Abjuration     |   No   |
+|  3  | _[[[spell:Phantom Steed]]]_                      | Illusion       |  Yes   |
+|  3  | _[[[spell:Protection from Energy]]]_             | Abjuration     |   No   |
+|  3  | _[[[spell:Remove Curse]]]_                       | Abjuration     |   No   |
+|  3  | _[[[spell:Sending]]]_                            | Divination*    |   No   |
+|  3  | _[[[spell:Sleet Storm]]]_                        | Conjuration    |   No   |
+|  3  | _[[[spell:Slow]]]_                               | Transmutation  |   No   |
+|  3  | _[[[spell:Stinking Cloud]]]_                     | Conjuration    |   No   |
+|  3  | _[[[spell:Tongues]]]_                            | Divination     |   No   |
+|  3  | _[[[spell:Vampiric Touch]]]_                     | Necromancy     |   No   |
+|  3  | _[[[spell:Water Breathing]]]_                    | Transmutation  |  Yes   |
+|  4  | _[[[spell:Arcane Eye]]]_                         | Divination     |   No   |
+|  4  | _[[[spell:Banishment]]]_                         | Abjuration     |   No   |
+|  4  | _[[[spell:Blight]]]_                             | Necromancy     |   No   |
+|  4  | _[[[spell:Compulsion]]]_                         | Enchantment    |   No   |
+|  4  | _[[[spell:Confusion]]]_                          | Enchantment    |   No   |
+|  4  | _[[[spell:Conjure Minor Elementals]]]_           | Conjuration    |   No   |
+|  4  | _[[[spell:Control Water]]]_                      | Transmutation  |   No   |
+|  4  | _[[[spell:Dimension Door]]]_                     | Conjuration    |   No   |
+|  4  | _[[[spell:Evard's Black Tentacles]]]_            | Conjuration    |   No   |
+|  4  | _[[[spell:Fabricate]]]_                          | Transmutation  |   No   |
+|  4  | _[[[spell:Fire Shield]]]_                        | Evocation      |   No   |
+|  4  | _[[[spell:Greater Invisibility]]]_               | Illusion       |   No   |
+|  4  | _[[[spell:Hallucinatory Terrain]]]_              | Illusion       |   No   |
+|  4  | _[[[spell:Ice Storm]]]_                          | Evocation      |   No   |
+|  4  | _[[[spell:Leomund's Secret Chest]]]_             | Conjuration    |   No   |
+|  4  | _[[[spell:Locate Creature]]]_                    | Divination     |   No   |
+|  4  | _[[[spell:Mordenkainen's Faithful Hound]]]_      | Conjuration    |   No   |
+|  4  | _[[[spell:Mordenkainen's Private Sanctum]]]_     | Abjuration     |   No   |
+|  4  | _[[[spell:Otiluke's Resilient Sphere]]]_         | Evocation      |   No   |
+|  4  | _[[[spell:Phantasmal Killer]]]_                  | Illusion       |   No   |
+|  4  | _[[[spell:Polymorph]]]_                          | Transmutation  |   No   |
+|  4  | _[[[spell:Stone Shape]]]_                        | Transmutation  |   No   |
+|  4  | _[[[spell:Stoneskin]]]_                          | Transmutation* |   No   |
+|  4  | _[[[spell:Wall of Fire]]]_                       | Evocation      |   No   |
+|  5  | _[[[spell:Animate Objects]]]_                    | Transmutation  |   No   |
+|  5  | _[[[spell:Bigby's Hand]]]_                       | Evocation      |   No   |
+|  5  | _[[[spell:Cloudkill]]]_                          | Conjuration    |   No   |
+|  5  | _[[[spell:Cone of Cold]]]_                       | Evocation      |   No   |
+|  5  | _[[[spell:Conjure Elemental]]]_                  | Conjuration    |   No   |
+|  5  | _[[[spell:Contact Other Plane]]]_                | Divination     |  Yes   |
+|  5  | _[[[spell:Creation]]]_                           | Illusion       |   No   |
+|  5  | _[[[spell:Dominate Person]]]_                    | Enchantment    |   No   |
+|  5  | _[[[spell:Dream]]]_                              | Illusion       |   No   |
+|  5  | _[[[spell:Geas]]]_                               | Enchantment    |   No   |
+|  5  | _[[[spell:Hold Monster]]]_                       | Enchantment    |   No   |
+|  5  | _[[[spell:Legend Lore]]]_                        | Divination     |   No   |
+|  5  | _[[[spell:Mislead]]]_                            | Illusion       |   No   |
+|  5  | _[[[spell:Modify Memory]]]_                      | Enchantment    |   No   |
+|  5  | _[[[spell:Passwall]]]_                           | Transmutation  |   No   |
+|  5  | _[[[spell:Planar Binding]]]_                     | Abjuration     |   No   |
+|  5  | _[[[spell:Rary's Telepathic Bond]]]_             | Divination     |  Yes   |
+|  5  | _[[[spell:Scrying]]]_                            | Divination     |   No   |
+|  5  | _[[[spell:Seeming]]]_                            | Illusion       |   No   |
+|  5  | _[[[spell:Telekinesis]]]_                        | Transmutation  |   No   |
+|  5  | _[[[spell:Teleportation Circle]]]_               | Conjuration    |   No   |
+|  5  | _[[[spell:Wall of Force]]]_                      | Evocation      |   No   |
+|  5  | _[[[spell:Wall of Stone]]]_                      | Evocation      |   No   |
+|  6  | _[[[spell:Arcane Gate]]]_                        | Conjuration    |   No   |
+|  6  | _[[[spell:Chain Lightning]]]_                    | Evocation      |   No   |
+|  6  | _[[[spell:Circle of Death]]]_                    | Necromancy     |   No   |
+|  6  | _[[[spell:Contingency]]]_                        | Abjuration*    |   No   |
+|  6  | _[[[spell:Create Undead]]]_                      | Necromancy     |   No   |
+|  6  | _[[[spell:Disintegrate]]]_                       | Transmutation  |   No   |
+|  6  | _[[[spell:Eyebite]]]_                            | Necromancy     |   No   |
+|  6  | _[[[spell:Flesh to Stone]]]_                     | Transmutation  |   No   |
+|  6  | _[[[spell:Globe of Invulnerability]]]_           | Abjuration     |   No   |
+|  6  | _[[[spell:Guards and Wards]]]_                   | Abjuration     |   No   |
+|  6  | _[[[spell:Instant Summons]]]_                    | Conjuration    |  Yes   |
+|  6  | _[[[spell:Magic Jar]]]_                          | Necromancy     |   No   |
+|  6  | _[[[spell:Mass Suggestion]]]_                    | Enchantment    |   No   |
+|  6  | _[[[spell:Move Earth]]]_                         | Transmutation  |   No   |
+|  6  | _[[[spell:Otiluke's Freezing Sphere]]]_          | Evocation      |   No   |
+|  6  | _[[[spell:Otto's Irresistible Dance]]]_          | Enchantment    |   No   |
+|  6  | _[[[spell:Programmed Illusion]]]_                | Illusion       |   No   |
+|  6  | _[[[spell:Sunbeam]]]_                            | Evocation      |   No   |
+|  6  | _[[[spell:True Seeing]]]_                        | Divination     |   No   |
+|  6  | _[[[spell:Wall of Ice]]]_                        | Evocation      |   No   |
+|  7  | _[[[spell:Delayed Blast Fireball]]]_             | Evocation      |   No   |
+|  7  | _[[[spell:Etherealness]]]_                       | Transmutation  |   No   |
+|  7  | _[[[spell:Finger of Death]]]_                    | Necromancy     |   No   |
+|  7  | _[[[spell:Forcecage]]]_                          | Evocation      |   No   |
+|  7  | _[[[spell:Mirage Arcane]]]_                      | Illusion       |   No   |
+|  7  | _[[[spell:Mordenkainen's Magnificent Mansion]]]_ | Conjuration    |   No   |
+|  7  | _[[[spell:Mordenkainen's Sword]]]_               | Evocation      |   No   |
+|  7  | _[[[spell:Otto's Majestic Musical Number]]]_     | Enchantment    |   No   |
+|  7  | _[[[spell:Plane Shift]]]_                        | Conjuration    |   No   |
+|  7  | _[[[spell:Prismatic Spray]]]_                    | Evocation      |   No   |
+|  7  | _[[[spell:Project Image]]]_                      | Illusion       |   No   |
+|  7  | _[[[spell:Reverse Gravity]]]_                    | Transmutation  |   No   |
+|  7  | _[[[spell:Sequester]]]_                          | Transmutation  |   No   |
+|  7  | _[[[spell:Simulacrum]]]_                         | Illusion       |   No   |
+|  7  | _[[[spell:Symbol]]]_                             | Abjuration     |   No   |
+|  7  | _[[[spell:Teleport]]]_                           | Conjuration    |   No   |
+|  8  | _[[[spell:Antimagic Field]]]_                    | Abjuration     |   No   |
+|  8  | _[[[spell:Antipathy/Sympathy]]]_                 | Enchantment    |   No   |
+|  8  | _[[[spell:Clone]]]_                              | Necromancy     |   No   |
+|  8  | _[[[spell:Control Weather]]]_                    | Transmutation  |   No   |
+|  8  | _[[[spell:Demiplane]]]_                          | Conjuration    |   No   |
+|  8  | _[[[spell:Dominate Monster]]]_                   | Enchantment    |   No   |
+|  8  | _[[[spell:Feeblemind]]]_                         | Enchantment    |   No   |
+|  8  | _[[[spell:Glibness]]]_                           | Enchantment*   |   No   |
+|  8  | _[[[spell:Incendiary Cloud]]]_                   | Conjuration    |   No   |
+|  8  | _[[[spell:Maze]]]_                               | Conjuration    |   No   |
+|  8  | _[[[spell:Mind Blank]]]_                         | Abjuration     |   No   |
+|  8  | _[[[spell:Power Word Stun]]]_                    | Enchantment    |   No   |
+|  8  | _[[[spell:Sunburst]]]_                           | Evocation      |   No   |
+|  8  | _[[[spell:Telepathy]]]_                          | Divination*    |   No   |
+|  9  | _[[[spell:Astral Projection]]]_                  | Necromancy     |   No   |
+|  9  | _[[[spell:Foresight]]]_                          | Divination     |   No   |
+|  9  | _[[[spell:Gate]]]_                               | Conjuration    |   No   |
+|  9  | _[[[spell:Imprisonment]]]_                       | Abjuration     |   No   |
+|  9  | _[[[spell:Meteor Swarm]]]_                       | Evocation      |   No   |
+|  9  | _[[[spell:Power Word Kill]]]_                    | Enchantment    |   No   |
+|  9  | _[[[spell:Prismatic Wall]]]_                     | Abjuration     |   No   |
+|  9  | _[[[spell:Shapechange]]]_                        | Transmutation  |   No   |
+|  9  | _[[[spell:Time Stop]]]_                          | Transmutation  |   No   |
+|  9  | _[[[spell:True Polymorph]]]_                     | Transmutation  |   No   |
+|  9  | _[[[spell:Weird]]]_                              | Illusion       |   No   |
+|  9  | _[[[spell:Wish]]]_                               | Conjuration    |   No   |
 
 ## Divine Spells
 
-A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic.
+A Divine spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic.
 
-The Divine Spells table is a partial list of Divine Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.
+The Divine Spells table is a partial list of Divine spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
 
-If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.
-
-| Lvl | Spell                                     | School         | Ritual |
-|:---:|-------------------------------------------|----------------|:------:|
-|  0  | [[[spell:Guidance]]]                      | Divination     |   No   |
-|  0  | [[[spell:Light]]]                         | Evocation      |   No   |
-|  0  | [[[spell:Resistance]]]                    | Abjuration     |   No   |
-|  0  | [[[spell:Sacred Flame]]]                  | Evocation      |   No   |
-|  0  | [[[spell:Spare the Dying]]]               | Necromancy     |   No   |
-|  0  | [[[spell:Thaumaturgy]]]                   | Transmutation  |   No   |
-|  1  | [[[spell:Bane]]]                          | Enchantment    |   No   |
-|  1  | [[[spell:Bless]]]                         | Enchantment    |   No   |
-|  1  | [[[spell:Command]]]                       | Enchantment    |   No   |
-|  1  | [[[spell:Compelled Duel]]]                | Enchantment    |   No   |
-|  1  | [[[spell:Cure Wounds]]]                   | Abjuration*    |   No   |
-|  1  | [[[spell:Detect Evil and Good]]]          | Divination     |   No   |
-|  1  | [[[spell:Detect Magic]]]                  | Divination     |  Yes   |
-|  1  | [[[spell:Detect Poison and Disease]]]     | Divination     |  Yes   |
-|  1  | [[[spell:Divine Favor]]]                  | Evocation      |   No   |
-|  1  | [[[spell:Guiding Bolt]]]                  | Evocation      |   No   |
-|  1  | [[[spell:Healing Word]]]                  | Abjuration*    |   No   |
-|  1  | [[[spell:Heroism]]]                       | Enchantment    |   No   |
-|  1  | [[[spell:Inflict Wounds]]]                | Necromancy     |   No   |
-|  1  | [[[spell:Protection from Evil and Good]]] | Abjuration     |   No   |
-|  1  | [[[spell:Purify Food and Drink]]]         | Transmutation  |  Yes   |
-|  1  | [[[spell:Sanctuary]]]                     | Abjuration     |   No   |
-|  1  | [[[spell:Searing Smite]]]                 | Evocation      |   No   |
-|  1  | [[[spell:Shield of Faith]]]               | Abjuration     |   No   |
-|  1  | [[[spell:Thunderous Smite]]]              | Evocation      |   No   |
-|  1  | [[[spell:Wrathful Smite]]]                | Evocation      |   No   |
-|  2  | [[[spell:Aid]]]                           | Abjuration     |   No   |
-|  2  | [[[spell:Augury]]]                        | Divination     |  Yes   |
-|  2  | [[[spell:Blindness/Deafness]]]            | Transmutation* |   No   |
-|  2  | [[[spell:Branding Smite]]]                | Evocation      |   No   |
-|  2  | [[[spell:Calm Emotions]]]                 | Enchantment    |   No   |
-|  2  | [[[spell:Find Steed]]]                    | Conjuration    |   No   |
-|  2  | [[[spell:Find Traps]]]                    | Divination     |   No   |
-|  2  | [[[spell:Gentle Repose]]]                 | Necromancy     |  Yes   |
-|  2  | [[[spell:Hold Person]]]                   | Enchantment    |   No   |
-|  2  | [[[spell:Lesser Restoration]]]            | Abjuration     |   No   |
-|  2  | [[[spell:Locate Object]]]                 | Divination     |   No   |
-|  2  | [[[spell:Magic Weapon]]]                  | Transmutation  |   No   |
-|  2  | [[[spell:Prayer of Healing]]]             | Abjuration*    |   No   |
-|  2  | [[[spell:Protection from Poison]]]        | Abjuration     |   No   |
-|  2  | [[[spell:Silence]]]                       | Illusion       |  Yes   |
-|  2  | [[[spell:Spiritual Weapon]]]              | Evocation      |   No   |
-|  2  | [[[spell:Warding Bond]]]                  | Abjuration     |   No   |
-|  2  | [[[spell:Zone of Truth]]]                 | Enchantment    |   No   |
-|  3  | [[[spell:Aura of Vitality]]]              | Abjuration*    |   No   |
-|  3  | [[[spell:Beacon of Hope]]]                | Abjuration     |   No   |
-|  3  | [[[spell:Blinding Smite]]]                | Evocation      |   No   |
-|  3  | [[[spell:Clairvoyance]]]                  | Divination     |   No   |
-|  3  | [[[spell:Create Food and Water]]]         | Conjuration    |   No   |
-|  3  | [[[spell:Crusader's Mantle]]]             | Evocation      |   No   |
-|  3  | [[[spell:Daylight]]]                      | Evocation      |   No   |
-|  3  | [[[spell:Dispel Magic]]]                  | Abjuration     |   No   |
-|  3  | [[[spell:Feign Death]]]                   | Necromancy     |  Yes   |
-|  3  | [[[spell:Glyph of Warding]]]              | Abjuration     |   No   |
-|  3  | [[[spell:Magic Circle]]]                  | Abjuration     |   No   |
-|  3  | [[[spell:Mass Healing Word]]]             | Abjuration*    |   No   |
-|  3  | [[[spell:Remove Curse]]]                  | Abjuration     |   No   |
-|  3  | [[[spell:Revivify]]]                      | Necromancy     |   No   |
-|  3  | [[[spell:Speak with Dead]]]               | Necromancy     |   No   |
-|  3  | [[[spell:Spirit Guardians]]]              | Conjuration    |   No   |
-|  3  | [[[spell:Tongues]]]                       | Divination     |   No   |
-|  4  | [[[spell:Aura of Life]]]                  | Abjuration     |   No   |
-|  4  | [[[spell:Aura of Purity]]]                | Abjuration     |   No   |
-|  4  | [[[spell:Banishment]]]                    | Abjuration     |   No   |
-|  4  | [[[spell:Death Ward]]]                    | Abjuration     |   No   |
-|  4  | [[[spell:Divination]]]                    | Divination     |  Yes   |
-|  4  | [[[spell:Freedom of Movement]]]           | Abjuration     |   No   |
-|  4  | [[[spell:Guardian of Faith]]]             | Abjuration     |   No   |
-|  4  | [[[spell:Locate Creature]]]               | Divination     |   No   |
-|  4  | [[[spell:Staggering Smite]]]              | Evocation      |   No   |
-|  5  | [[[spell:Banishing Smite]]]               | Abjuration     |   No   |
-|  5  | [[[spell:Circle of Power]]]               | Abjuration     |   No   |
-|  5  | [[[spell:Commune]]]                       | Divination     |  Yes   |
-|  5  | [[[spell:Contagion]]]                     | Necromancy     |   No   |
-|  5  | [[[spell:Destructive Wave]]]              | Evocation      |   No   |
-|  5  | [[[spell:Dispel Evil and Good]]]          | Abjuration     |   No   |
-|  5  | [[[spell:Flame Strike]]]                  | Evocation      |   No   |
-|  5  | [[[spell:Geas]]]                          | Enchantment    |   No   |
-|  5  | [[[spell:Greater Restoration]]]           | Abjuration     |   No   |
-|  5  | [[[spell:Hallow]]]                        | Abjuration*    |   No   |
-|  5  | [[[spell:Legend Lore]]]                   | Divination     |   No   |
-|  5  | [[[spell:Mass Cure Wounds]]]              | Abjuration*    |   No   |
-|  5  | [[[spell:Planar Binding]]]                | Abjuration     |   No   |
-|  5  | [[[spell:Raise Dead]]]                    | Necromancy     |   No   |
-|  5  | [[[spell:Scrying]]]                       | Divination     |   No   |
-|  6  | [[[spell:Blade Barrier]]]                 | Evocation      |   No   |
-|  6  | [[[spell:Find the Path]]]                 | Divination     |   No   |
-|  6  | [[[spell:Forbiddance]]]                   | Abjuration     |  Yes   |
-|  6  | [[[spell:Harm]]]                          | Necromancy     |   No   |
-|  6  | [[[spell:Heal]]]                          | Abjuration     |   No   |
-|  6  | [[[spell:Heroes' Feast]]]                 | Conjuration    |   No   |
-|  6  | [[[spell:Planar Ally]]]                   | Conjuration    |   No   |
-|  6  | [[[spell:Sunbeam]]]                       | Evocation      |   No   |
-|  6  | [[[spell:True Seeing]]]                   | Divination     |   No   |
-|  6  | [[[spell:Word of Recall]]]                | Conjuration    |   No   |
-|  7  | [[[spell:Conjure Celestial]]]             | Conjuration    |   No   |
-|  7  | [[[spell:Divine Word]]]                   | Evocation      |   No   |
-|  7  | [[[spell:Etherealness]]]                  | Transmutation  |   No   |
-|  7  | [[[spell:Plane Shift]]]                   | Conjuration    |   No   |
-|  7  | [[[spell:Regenerate]]]                    | Transmutation  |   No   |
-|  7  | [[[spell:Resurrection]]]                  | Necromancy     |   No   |
-|  7  | [[[spell:Symbol]]]                        | Abjuration     |   No   |
-|  8  | [[[spell:Antimagic Field]]]               | Abjuration     |   No   |
-|  8  | [[[spell:Antipathy/Sympathy]]]            | Enchantment    |   No   |
-|  8  | [[[spell:Holy Aura]]]                     | Abjuration     |   No   |
-|  8  | [[[spell:Sunburst]]]                      | Evocation      |   No   |
-|  9  | [[[spell:Astral Projection]]]             | Necromancy     |   No   |
-|  9  | [[[spell:Foresight]]]                     | Divination     |   No   |
-|  9  | [[[spell:Gate]]]                          | Conjuration    |   No   |
-|  9  | [[[spell:Mass Heal]]]                     | Abjuration*    |   No   |
-|  9  | [[[spell:Power Word Heal]]]               | Abjuration*    |   No   |
-|  9  | [[[spell:True Resurrection]]]             | Necromancy     |   No   |
+| Lvl | Spell                                       | School         | Ritual |
+|:---:|---------------------------------------------|----------------|:------:|
+|  0  | _[[[spell:Guidance]]]_                      | Divination     |   No   |
+|  0  | _[[[spell:Light]]]_                         | Evocation      |   No   |
+|  0  | _[[[spell:Resistance]]]_                    | Abjuration     |   No   |
+|  0  | _[[[spell:Sacred Flame]]]_                  | Evocation      |   No   |
+|  0  | _[[[spell:Spare the Dying]]]_               | Necromancy     |   No   |
+|  0  | _[[[spell:Thaumaturgy]]]_                   | Transmutation  |   No   |
+|  0  | _[[[spell:Toll the Dead]]]_                 | Necromancy     |   No   |
+|  0  | _[[[spell:Word of Radiance]]]_              | Evocation      |   No   |
+|  1  | _[[[spell:Bane]]]_                          | Enchantment    |   No   |
+|  1  | _[[[spell:Bless]]]_                         | Enchantment    |   No   |
+|  1  | _[[[spell:Command]]]_                       | Enchantment    |   No   |
+|  1  | _[[[spell:Compelled Duel]]]_                | Enchantment    |   No   |
+|  1  | _[[[spell:Cure Wounds]]]_                   | Abjuration*    |   No   |
+|  1  | _[[[spell:Detect Evil and Good]]]_          | Divination     |   No   |
+|  1  | _[[[spell:Detect Magic]]]_                  | Divination     |  Yes   |
+|  1  | _[[[spell:Detect Poison and Disease]]]_     | Divination     |  Yes   |
+|  1  | _[[[spell:Divine Favor]]]_                  | Transmutation* |   No   |
+|  1  | _[[[spell:Guiding Bolt]]]_                  | Evocation      |   No   |
+|  1  | _[[[spell:Healing Word]]]_                  | Abjuration*    |   No   |
+|  1  | _[[[spell:Heroism]]]_                       | Enchantment    |   No   |
+|  1  | _[[[spell:Inflict Wounds]]]_                | Necromancy     |   No   |
+|  1  | _[[[spell:Protection from Evil and Good]]]_ | Abjuration     |   No   |
+|  1  | _[[[spell:Purify Food and Drink]]]_         | Transmutation  |  Yes   |
+|  1  | _[[[spell:Sanctuary]]]_                     | Abjuration     |   No   |
+|  1  | _[[[spell:Searing Smite]]]_                 | Evocation      |   No   |
+|  1  | _[[[spell:Shield of Faith]]]_               | Abjuration     |   No   |
+|  1  | _[[[spell:Wrathful Smite]]]_                | Necromancy*    |   No   |
+|  2  | _[[[spell:Aid]]]_                           | Abjuration     |   No   |
+|  2  | _[[[spell:Augury]]]_                        | Divination     |  Yes   |
+|  2  | _[[[spell:Blindness/Deafness]]]_            | Transmutation* |   No   |
+|  2  | _[[[spell:Calm Emotions]]]_                 | Enchantment    |   No   |
+|  2  | _[[[spell:Find Traps]]]_                    | Divination     |   No   |
+|  2  | _[[[spell:Gentle Repose]]]_                 | Necromancy     |  Yes   |
+|  2  | _[[[spell:Hold Person]]]_                   | Enchantment    |   No   |
+|  2  | _[[[spell:Lesser Restoration]]]_            | Abjuration     |   No   |
+|  2  | _[[[spell:Locate Object]]]_                 | Divination     |   No   |
+|  2  | _[[[spell:Magic Weapon]]]_                  | Transmutation  |   No   |
+|  2  | _[[[spell:Prayer of Healing]]]_             | Abjuration*    |   No   |
+|  2  | _[[[spell:Protection from Poison]]]_        | Abjuration     |   No   |
+|  2  | _[[[spell:Silence]]]_                       | Illusion       |  Yes   |
+|  2  | _[[[spell:Spiritual Weapon]]]_              | Evocation      |   No   |
+|  2  | _[[[spell:Warding Bond]]]_                  | Abjuration     |   No   |
+|  2  | _[[[spell:Zone of Truth]]]_                 | Enchantment    |   No   |
+|  3  | _[[[spell:Aura of Vitality]]]_              | Abjuration*    |   No   |
+|  3  | _[[[spell:Beacon of Hope]]]_                | Abjuration     |   No   |
+|  3  | _[[[spell:Clairvoyance]]]_                  | Divination     |   No   |
+|  3  | _[[[spell:Create Food and Water]]]_         | Conjuration    |   No   |
+|  3  | _[[[spell:Crusader's Mantle]]]_             | Transmutation* |   No   |
+|  3  | _[[[spell:Daylight]]]_                      | Evocation      |   No   |
+|  3  | _[[[spell:Dispel Magic]]]_                  | Abjuration     |   No   |
+|  2  | _[[[spell:Excite Emotions]]]_               | Enchantment    |   No   |
+|  3  | _[[[spell:Feign Death]]]_                   | Necromancy     |  Yes   |
+|  3  | _[[[spell:Glyph of Warding]]]_              | Abjuration     |   No   |
+|  3  | _[[[spell:Magic Circle]]]_                  | Abjuration     |   No   |
+|  3  | _[[[spell:Mass Healing Word]]]_             | Abjuration*    |   No   |
+|  3  | _[[[spell:Remove Curse]]]_                  | Abjuration     |   No   |
+|  3  | _[[[spell:Revivify]]]_                      | Necromancy     |   No   |
+|  3  | _[[[spell:Speak with Dead]]]_               | Necromancy     |   No   |
+|  3  | _[[[spell:Spirit Guardians]]]_              | Conjuration    |   No   |
+|  3  | _[[[spell:Tongues]]]_                       | Divination     |   No   |
+|  4  | _[[[spell:Aura of Life]]]_                  | Abjuration     |   No   |
+|  4  | _[[[spell:Aura of Purity]]]_                | Abjuration     |   No   |
+|  4  | _[[[spell:Banishment]]]_                    | Conjuration*   |   No   |
+|  4  | _[[[spell:Death Ward]]]_                    | Abjuration     |   No   |
+|  4  | _[[[spell:Divination]]]_                    | Divination     |  Yes   |
+|  4  | _[[[spell:Freedom of Movement]]]_           | Abjuration     |   No   |
+|  4  | _[[[spell:Guardian of Faith]]]_             | Conjuration    |   No   |
+|  4  | _[[[spell:Locate Creature]]]_               | Divination     |   No   |
+|  5  | _[[[spell:Circle of Power]]]_               | Abjuration     |   No   |
+|  5  | _[[[spell:Commune]]]_                       | Divination     |  Yes   |
+|  5  | _[[[spell:Contagion]]]_                     | Necromancy     |   No   |
+|  5  | _[[[spell:Destructive Wave]]]_              | Evocation      |   No   |
+|  5  | _[[[spell:Dispel Evil and Good]]]_          | Abjuration     |   No   |
+|  5  | _[[[spell:Flame Strike]]]_                  | Evocation      |   No   |
+|  5  | _[[[spell:Geas]]]_                          | Enchantment    |   No   |
+|  5  | _[[[spell:Greater Restoration]]]_           | Abjuration     |   No   |
+|  5  | _[[[spell:Hallow]]]_                        | Abjuration*    |   No   |
+|  5  | _[[[spell:Legend Lore]]]_                   | Divination     |   No   |
+|  5  | _[[[spell:Mass Cure Wounds]]]_              | Abjuration*    |   No   |
+|  5  | _[[[spell:Planar Binding]]]_                | Abjuration     |   No   |
+|  5  | _[[[spell:Raise Dead]]]_                    | Necromancy     |   No   |
+|  5  | _[[[spell:Scrying]]]_                       | Divination     |   No   |
+|  6  | _[[[spell:Blade Barrier]]]_                 | Evocation      |   No   |
+|  6  | _[[[spell:Find the Path]]]_                 | Divination     |   No   |
+|  6  | _[[[spell:Forbiddance]]]_                   | Abjuration     |  Yes   |
+|  6  | _[[[spell:Harm]]]_                          | Necromancy     |   No   |
+|  6  | _[[[spell:Heal]]]_                          | Abjuration*    |   No   |
+|  6  | _[[[spell:Heroes' Feast]]]_                 | Conjuration    |   No   |
+|  6  | _[[[spell:Planar Ally]]]_                   | Conjuration    |   No   |
+|  6  | _[[[spell:Sunbeam]]]_                       | Evocation      |   No   |
+|  6  | _[[[spell:True Seeing]]]_                   | Divination     |   No   |
+|  6  | _[[[spell:Word of Recall]]]_                | Conjuration    |   No   |
+|  7  | _[[[spell:Conjure Celestial]]]_             | Conjuration    |   No   |
+|  7  | _[[[spell:Divine Word]]]_                   | Evocation      |   No   |
+|  7  | _[[[spell:Etherealness]]]_                  | Transmutation  |   No   |
+|  7  | _[[[spell:Plane Shift]]]_                   | Conjuration    |   No   |
+|  7  | _[[[spell:Regenerate]]]_                    | Transmutation  |   No   |
+|  7  | _[[[spell:Resurrection]]]_                  | Necromancy     |   No   |
+|  7  | _[[[spell:Symbol]]]_                        | Abjuration     |   No   |
+|  8  | _[[[spell:Antimagic Field]]]_               | Abjuration     |   No   |
+|  8  | _[[[spell:Antipathy/Sympathy]]]_            | Enchantment    |   No   |
+|  8  | _[[[spell:Holy Aura]]]_                     | Abjuration     |   No   |
+|  8  | _[[[spell:Sunburst]]]_                      | Evocation      |   No   |
+|  9  | _[[[spell:Astral Projection]]]_             | Necromancy     |   No   |
+|  9  | _[[[spell:Foresight]]]_                     | Divination     |   No   |
+|  9  | _[[[spell:Gate]]]_                          | Conjuration    |   No   |
+|  9  | _[[[spell:Mass Heal]]]_                     | Abjuration*    |   No   |
+|  9  | _[[[spell:Power Word Heal]]]_               | Enchantment*   |   No   |
+|  9  | _[[[spell:True Resurrection]]]_             | Necromancy     |   No   |
 
 ## Primal Spells
 
-A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic.
+A Primal spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic.
 
-| Lvl | Spell                                 | School         | Ritual |
-|:---:|---------------------------------------|----------------|:------:|
-|  0  | [[[spell:Druidcraft]]]                | Transmutation  |   No   |
-|  0  | [[[spell:Guidance]]]                  | Divination     |   No   |
-|  0  | [[[spell:Mending]]]                   | Transmutation  |   No   |
-|  0  | [[[spell:Message]]]                   | Transmutation  |   No   |
-|  0  | [[[spell:Poison Spray]]]              | Conjuration    |   No   |
-|  0  | [[[spell:Produce Flame]]]             | Evocation*     |   No   |
-|  0  | [[[spell:Resistance]]]                | Abjuration     |   No   |
-|  0  | [[[spell:Shillelagh]]]                | Transmutation  |   No   |
-|  0  | [[[spell:Spare the Dying]]]           | Necromancy     |   No   |
-|  0  | [[[spell:Thorn Whip]]]                | Transmutation  |   No   |
-|  1  | [[[spell:Animal Friendship]]]         | Enchantment    |   No   |
-|  1  | [[[spell:Create or Destroy Water]]]   | Transmutation  |   No   |
-|  1  | [[[spell:Cure Wounds]]]               | Abjuration*    |   No   |
-|  1  | [[[spell:Detect Magic]]]              | Divination     |  Yes   |
-|  1  | [[[spell:Detect Poison and Disease]]] | Divination     |  Yes   |
-|  1  | [[[spell:Ensnaring Strike]]]          | Conjuration    |   No   |
-|  1  | [[[spell:Entangle]]]                  | Conjuration    |   No   |
-|  1  | [[[spell:Faerie Fire]]]               | Evocation      |   No   |
-|  1  | [[[spell:Fog Cloud]]]                 | Conjuration    |   No   |
-|  1  | [[[spell:Goodberry]]]                 | Transmutation  |   No   |
-|  1  | [[[spell:Hail of Thorns]]]            | Conjuration    |   No   |
-|  1  | [[[spell:Healing Word]]]              | Abjuration*    |   No   |
-|  1  | [[[spell:Hunter's Mark]]]             | Divination     |   No   |
-|  1  | [[[spell:Jump]]]                      | Transmutation  |   No   |
-|  1  | [[[spell:Longstrider]]]               | Transmutation  |   No   |
-|  1  | [[[spell:Purify Food and Drink]]]     | Transmutation  |  Yes   |
-|  1  | [[[spell:Speak with Animals]]]        | Divination     |  Yes   |
-|  1  | [[[spell:Thunderwave]]]               | Transmutation  |   No   |
-|  2  | [[[spell:Animal Messenger]]]          | Enchantment    |  Yes   |
-|  2  | [[[spell:Augury]]]                    | Divination     |  Yes   |
-|  2  | [[[spell:Barkskin]]]                  | Transmutation  |   No   |
-|  2  | [[[spell:Beast Sense]]]               | Divination     |  Yes   |
-|  2  | [[[spell:Cordon of Arrows]]]          | Transmutation  |   No   |
-|  2  | [[[spell:Darkvision]]]                | Transmutation  |   No   |
-|  2  | [[[spell:Enhance Ability]]]           | Transmutation  |   No   |
-|  2  | [[[spell:Enlarge/Reduce]]]            | Transmutation  |   No   |
-|  2  | [[[spell:Find Traps]]]                | Divination     |   No   |
-|  2  | [[[spell:Flame Blade]]]               | Evocation      |   No   |
-|  2  | [[[spell:Flaming Sphere]]]            | Evocation*     |   No   |
-|  2  | [[[spell:Gentle Repose]]]             | Necromancy     |  Yes   |
-|  2  | [[[spell:Gust of Wind]]]              | Evocation      |   No   |
-|  2  | [[[spell:Heat Metal]]]                | Transmutation  |   No   |
-|  2  | [[[spell:Lesser Restoration]]]        | Abjuration     |   No   |
-|  2  | [[[spell:Locate Animals or Plants]]]  | Divination     |  Yes   |
-|  2  | [[[spell:Locate Object]]]             | Divination     |   No   |
-|  2  | [[[spell:Moonbeam]]]                  | Evocation      |   No   |
-|  2  | [[[spell:Pass without Trace]]]        | Abjuration     |   No   |
-|  2  | [[[spell:Protection from Poison]]]    | Abjuration     |   No   |
-|  2  | [[[spell:Silence]]]                   | Illusion       |  Yes   |
-|  2  | [[[spell:Spike Growth]]]              | Transmutation  |   No   |
-|  3  | [[[spell:Call Lightning]]]            | Conjuration    |   No   |
-|  3  | [[[spell:Conjure Animals]]]           | Conjuration    |   No   |
-|  3  | [[[spell:Conjure Barrage]]]           | Conjuration    |   No   |
-|  3  | [[[spell:Daylight]]]                  | Evocation      |   No   |
-|  3  | [[[spell:Dispel Magic]]]              | Abjuration     |   No   |
-|  3  | [[[spell:Elemental Weapon]]]          | Transmutation  |   No   |
-|  3  | [[[spell:Feign Death]]]               | Necromancy     |  Yes   |
-|  3  | [[[spell:Lightning Arrow]]]           | Transmutation  |   No   |
-|  3  | [[[spell:Mass Healing Word]]]         | Abjuration*    |   No   |
-|  3  | [[[spell:Meld into Stone]]]           | Transmutation  |  Yes   |
-|  3  | [[[spell:Nondetection]]]              | Abjuration     |   No   |
-|  3  | [[[spell:Plant Growth]]]              | Transmutation  |   No   |
-|  3  | [[[spell:Protection from Energy]]]    | Abjuration     |   No   |
-|  3  | [[[spell:Revivify]]]                  | Necromancy     |   No   |
-|  3  | [[[spell:Sleet Storm]]]               | Conjuration    |   No   |
-|  3  | [[[spell:Speak with Plants]]]         | Transmutation  |   No   |
-|  3  | [[[spell:Water Breathing]]]           | Transmutation  |  Yes   |
-|  3  | [[[spell:Water Walk]]]                | Transmutation  |  Yes   |
-|  3  | [[[spell:Wind Wall]]]                 | Evocation      |   No   |
-|  4  | [[[spell:Conjure Minor Elementals]]]  | Conjuration    |   No   |
-|  4  | [[[spell:Conjure Woodland Beings]]]   | Conjuration    |   No   | 
-|  4  | [[[spell:Control Water]]]             | Transmutation  |   No   |
-|  4  | [[[spell:Dominate Beast]]]            | Enchantment    |   No   |
-|  4  | [[[spell:Freedom of Movement]]]       | Abjuration     |   No   |
-|  4  | [[[spell:Giant Insect]]]              | Transmutation  |   No   |
-|  4  | [[[spell:Grasping Vine]]]             | Conjuration    |   No   |
-|  4  | [[[spell:Ice Storm]]]                 | Evocation      |   No   |
-|  4  | [[[spell:Locate Creature]]]           | Divination     |   No   |
-|  4  | [[[spell:Polymorph]]]                 | Transmutation  |   No   |
-|  4  | [[[spell:Stone Shape]]]               | Transmutation  |   No   |
-|  4  | [[[spell:Stoneskin]]]                 | Transmutation* |   No   |
-|  4  | [[[spell:Wall of Fire]]]              | Evocation      |   No   |
-|  5  | [[[spell:Antilife Shell]]]            | Abjuration     |   No   |
-|  5  | [[[spell:Awaken]]]                    | Transmutation  |   No   |
-|  5  | [[[spell:Commune with Nature]]]       | Divination     |  Yes   |
-|  5  | [[[spell:Conjure Elemental]]]         | Conjuration    |   No   |
-|  5  | [[[spell:Conjure Volley]]]            | Conjuration    |   No   |
-|  5  | [[[spell:Greater Restoration]]]       | Abjuration     |   No   |
-|  5  | [[[spell:Insect Plague]]]             | Conjuration    |   No   |
-|  5  | [[[spell:Mass Cure Wounds]]]          | Abjuration*    |   No   |
-|  5  | [[[spell:Reincarnate]]]               | Necromancy*    |   No   |
-|  5  | [[[spell:Scrying]]]                   | Divination     |   No   |
-|  5  | [[[spell:Swift Quiver]]]              | Transmutation  |   No   |
-|  5  | [[[spell:Tree Stride]]]               | Conjuration    |   No   |
-|  5  | [[[spell:Wall of Stone]]]             | Evocation      |   No   |
-|  6  | [[[spell:Conjure Fey]]]               | Conjuration    |   No   |
-|  6  | [[[spell:Find the Path]]]             | Divination     |   No   |
-|  6  | [[[spell:Heal]]]                      | Abjuration     |   No   |
-|  6  | [[[spell:Move Earth]]]                | Transmutation  |   No   |
-|  6  | [[[spell:Sunbeam]]]                   | Evocation      |   No   |
-|  6  | [[[spell:Transport via Plants]]]      | Conjuration    |   No   |
-|  6  | [[[spell:Wall of Ice]]]               | Evocation      |   No   |
-|  6  | [[[spell:Wall of Thorns]]]            | Conjuration    |   No   |
-|  6  | [[[spell:Wind Walk]]]                 | Transmutation  |   No   |
-|  7  | [[[spell:Fire Storm]]]                | Evocation      |   No   |
-|  7  | [[[spell:Regenerate]]]                | Transmutation  |   No   |
-|  7  | [[[spell:Reverse Gravity]]]           | Transmutation  |   No   |
-|  8  | [[[spell:Animal Shapes]]]             | Transmutation  |   No   |
-|  8  | [[[spell:Control Weather]]]           | Transmutation  |   No   |
-|  8  | [[[spell:Earthquake]]]                | Transmutation* |   No   |
-|  8  | [[[spell:Sunburst]]]                  | Evocation      |   No   |
-|  8  | [[[spell:Tsunami]]]                   | Conjuration    |   No   |
-|  9  | [[[spell:Power Word Heal]]]           | Abjuration*    |   No   |
-|  9  | [[[spell:Shapechange]]]               | Transmutation  |   No   |
-|  9  | [[[spell:Storm of Vengeance]]]        | Conjuration    |   No   |
-|  9  | [[[spell:True Resurrection]]]         | Necromancy     |   No   |
+The Primal Spells table is a partial list of Primal spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
+
+| Lvl | Spell                                   | School         | Ritual |
+|:---:|-----------------------------------------|----------------|:------:|
+|  0  | _[[[spell:Druidcraft]]]_                | Transmutation  |   No   |
+|  0  | _[[[spell:Elementalism]]]_              | Transmutation  |   No   |
+|  0  | _[[[spell:Frostbite]]]_                 | Evocation      |   No   |
+|  0  | _[[[spell:Guidance]]]_                  | Divination     |   No   |
+|  0  | _[[[spell:Mending]]]_                   | Transmutation  |   No   |
+|  0  | _[[[spell:Message]]]_                   | Transmutation  |   No   |
+|  0  | _[[[spell:Poison Spray]]]_              | Conjuration    |   No   |
+|  0  | _[[[spell:Produce Flame]]]_             | Evocation*     |   No   |
+|  0  | _[[[spell:Resistance]]]_                | Abjuration     |   No   |
+|  0  | _[[[spell:Shillelagh]]]_                | Transmutation  |   No   |
+|  0  | _[[[spell:Spare the Dying]]]_           | Necromancy     |   No   |
+|  0  | _[[[spell:Thorn Whip]]]_                | Transmutation  |   No   |
+|  0  | _[[[spell:Thunderclap]]]_               | Evocation      |   No   |
+|  1  | _[[[spell:Animal Friendship]]]_         | Enchantment    |   No   |
+|  1  | _[[[spell:Create or Destroy Water]]]_   | Transmutation  |   No   |
+|  1  | _[[[spell:Cure Wounds]]]_               | Abjuration*    |   No   |
+|  1  | _[[[spell:Detect Magic]]]_              | Divination     |  Yes   |
+|  1  | _[[[spell:Detect Poison and Disease]]]_ | Divination     |  Yes   |
+|  1  | _[[[spell:Entangle]]]_                  | Conjuration    |   No   |
+|  1  | _[[[spell:Faerie Fire]]]_               | Evocation      |   No   |
+|  1  | _[[[spell:Fog Cloud]]]_                 | Conjuration    |   No   |
+|  1  | _[[[spell:Goodberry]]]_                 | Transmutation  |   No   |
+|  1  | _[[[spell:Hail of Thorns]]]_            | Conjuration    |   No   |
+|  1  | _[[[spell:Healing Word]]]_              | Abjuration*    |   No   |
+|  1  | _[[[spell:Jump]]]_                      | Transmutation  |   No   |
+|  1  | _[[[spell:Longstrider]]]_               | Transmutation  |   No   |
+|  1  | _[[[spell:Purify Food and Drink]]]_     | Transmutation  |  Yes   |
+|  1  | _[[[spell:Speak with Animals]]]_        | Divination     |  Yes   |
+|  1  | _[[[spell:Thunderwave]]]_               | Transmutation* |   No   |
+|  2  | _[[[spell:Animal Messenger]]]_          | Enchantment    |  Yes   |
+|  2  | _[[[spell:Augury]]]_                    | Divination     |  Yes   |
+|  2  | _[[[spell:Barkskin]]]_                  | Transmutation  |   No   |
+|  2  | _[[[spell:Beast Sense]]]_               | Divination     |  Yes   |
+|  2  | _[[[spell:Cordon of Arrows]]]_          | Transmutation  |   No   |
+|  2  | _[[[spell:Darkvision]]]_                | Transmutation  |   No   |
+|  2  | _[[[spell:Enhance Ability]]]_           | Transmutation  |   No   |
+|  2  | _[[[spell:Enlarge/Reduce]]]_            | Transmutation  |   No   |
+|  2  | _[[[spell:Find Traps]]]_                | Divination     |   No   |
+|  2  | _[[[spell:Flame Blade]]]_               | Evocation      |   No   |
+|  2  | _[[[spell:Flaming Sphere]]]_            | Evocation*     |   No   |
+|  2  | _[[[spell:Gentle Repose]]]_             | Necromancy     |  Yes   |
+|  2  | _[[[spell:Gust of Wind]]]_              | Evocation      |   No   |
+|  2  | _[[[spell:Heat Metal]]]_                | Transmutation  |   No   |
+|  2  | _[[[spell:Lesser Restoration]]]_        | Abjuration     |   No   |
+|  2  | _[[[spell:Locate Animals or Plants]]]_  | Divination     |  Yes   |
+|  2  | _[[[spell:Locate Object]]]_             | Divination     |   No   |
+|  2  | _[[[spell:Moonbeam]]]_                  | Evocation      |   No   |
+|  2  | _[[[spell:Pass without Trace]]]_        | Abjuration     |   No   |
+|  2  | _[[[spell:Protection from Poison]]]_    | Abjuration     |   No   |
+|  2  | _[[[spell:Silence]]]_                   | Illusion       |  Yes   |
+|  2  | _[[[spell:Spike Growth]]]_              | Transmutation  |   No   |
+|  3  | _[[[spell:Call Lightning]]]_            | Conjuration    |   No   |
+|  3  | _[[[spell:Conjure Animals]]]_           | Conjuration    |   No   |
+|  3  | _[[[spell:Daylight]]]_                  | Evocation      |   No   |
+|  3  | _[[[spell:Dispel Magic]]]_              | Abjuration     |   No   |
+|  3  | _[[[spell:Elemental Weapon]]]_          | Transmutation  |   No   |
+|  3  | _[[[spell:Feign Death]]]_               | Necromancy     |  Yes   |
+|  3  | _[[[spell:Lightning Arrow]]]_           | Transmutation  |   No   |
+|  3  | _[[[spell:Mass Healing Word]]]_         | Abjuration*    |   No   |
+|  3  | _[[[spell:Meld into Stone]]]_           | Transmutation  |  Yes   |
+|  3  | _[[[spell:Nondetection]]]_              | Abjuration     |   No   |
+|  3  | _[[[spell:Plant Growth]]]_              | Transmutation  |   No   |
+|  3  | _[[[spell:Protection from Energy]]]_    | Abjuration     |   No   |
+|  3  | _[[[spell:Revivify]]]_                  | Necromancy     |   No   |
+|  3  | _[[[spell:Sleet Storm]]]_               | Conjuration    |   No   |
+|  3  | _[[[spell:Speak with Plants]]]_         | Transmutation  |   No   |
+|  3  | _[[[spell:Water Breathing]]]_           | Transmutation  |  Yes   |
+|  3  | _[[[spell:Water Walk]]]_                | Transmutation  |  Yes   |
+|  3  | _[[[spell:Wind Wall]]]_                 | Evocation      |   No   |
+|  4  | _[[[spell:Conjure Minor Elementals]]]_  | Conjuration    |   No   |
+|  4  | _[[[spell:Conjure Woodland Beings]]]_   | Conjuration    |   No   |
+|  4  | _[[[spell:Control Water]]]_             | Transmutation  |   No   |
+|  4  | _[[[spell:Dominate Beast]]]_            | Enchantment    |   No   |
+|  4  | _[[[spell:Freedom of Movement]]]_       | Abjuration     |   No   |
+|  4  | _[[[spell:Giant Insect]]]_              | Transmutation  |   No   |
+|  4  | _[[[spell:Grasping Vine]]]_             | Conjuration    |   No   |
+|  4  | _[[[spell:Ice Storm]]]_                 | Evocation      |   No   |
+|  4  | _[[[spell:Locate Creature]]]_           | Divination     |   No   |
+|  4  | _[[[spell:Polymorph]]]_                 | Transmutation  |   No   |
+|  4  | _[[[spell:Stone Shape]]]_               | Transmutation  |   No   |
+|  4  | _[[[spell:Stoneskin]]]_                 | Transmutation* |   No   |
+|  4  | _[[[spell:Wall of Fire]]]_              | Evocation      |   No   |
+|  5  | _[[[spell:Antilife Shell]]]_            | Abjuration     |   No   |
+|  5  | _[[[spell:Awaken]]]_                    | Transmutation  |   No   |
+|  5  | _[[[spell:Commune with Nature]]]_       | Divination     |  Yes   |
+|  5  | _[[[spell:Conjure Elemental]]]_         | Conjuration    |   No   |
+|  5  | _[[[spell:Greater Restoration]]]_       | Abjuration     |   No   |
+|  5  | _[[[spell:Insect Plague]]]_             | Conjuration    |   No   |
+|  5  | _[[[spell:Mass Cure Wounds]]]_          | Abjuration*    |   No   |
+|  5  | _[[[spell:Reincarnate]]]_               | Necromancy*    |   No   |
+|  5  | _[[[spell:Scrying]]]_                   | Divination     |   No   |
+|  5  | _[[[spell:Swift Quiver]]]_              | Transmutation  |   No   |
+|  5  | _[[[spell:Tree Stride]]]_               | Conjuration    |   No   |
+|  5  | _[[[spell:Wall of Stone]]]_             | Evocation      |   No   |
+|  6  | _[[[spell:Conjure Fey]]]_               | Conjuration    |   No   |
+|  6  | _[[[spell:Find the Path]]]_             | Divination     |   No   |
+|  6  | _[[[spell:Heal]]]_                      | Abjuration*    |   No   |
+|  6  | _[[[spell:Move Earth]]]_                | Transmutation  |   No   |
+|  6  | _[[[spell:Sunbeam]]]_                   | Evocation      |   No   |
+|  6  | _[[[spell:Transport via Plants]]]_      | Conjuration    |   No   |
+|  6  | _[[[spell:Wall of Ice]]]_               | Evocation      |   No   |
+|  6  | _[[[spell:Wall of Thorns]]]_            | Conjuration    |   No   |
+|  6  | _[[[spell:Wind Walk]]]_                 | Transmutation  |   No   |
+|  7  | _[[[spell:Fire Storm]]]_                | Evocation      |   No   |
+|  7  | _[[[spell:Regenerate]]]_                | Transmutation  |   No   |
+|  7  | _[[[spell:Reverse Gravity]]]_           | Transmutation  |   No   |
+|  8  | _[[[spell:Animal Shapes]]]_             | Transmutation  |   No   |
+|  8  | _[[[spell:Control Weather]]]_           | Transmutation  |   No   |
+|  8  | _[[[spell:Earthquake]]]_                | Transmutation* |   No   |
+|  8  | _[[[spell:Sunburst]]]_                  | Evocation      |   No   |
+|  8  | _[[[spell:Tsunami]]]_                   | Conjuration    |   No   |
+|  9  | _[[[spell:Power Word Heal]]]_           | Abjuration*    |   No   |
+|  9  | _[[[spell:Shapechange]]]_               | Transmutation  |   No   |
+|  9  | _[[[spell:Storm of Vengeance]]]_        | Conjuration    |   No   |
+|  9  | _[[[spell:True Resurrection]]]_         | Necromancy     |   No   |
