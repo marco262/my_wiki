@@ -3,12 +3,11 @@
 * Add to references: 
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
-* _Everyone_ is dour and on-edge after the fire
-* Have Aldern send a paper bird to the party, thanking them
-* Have someone die in Sandpoint in the following days, and the measuring equipment will pick up a strong increase in power of the Runewell.
-* Figure out what they can find out about the winged demon lord
 * Connect Stoot with the Skinsaw Cult somehow
-* Make Malfeshnekor the winged demon?
+* Update calendar with happenings
+* Hemlock will ask about the murder at the Fatman's Feedbag
+* Brainstorm more ways to activate the Runewell of Wrath
+* What will happen when they ask Mayor Deverin to evacuate the city?
 
 Q&A:
 
