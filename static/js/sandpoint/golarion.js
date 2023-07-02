@@ -33,19 +33,15 @@ let  CustomCalendarData = {
         }, {"name": "Kuthona", "nameShort": "Kuth", "nameAbbrev": "K", "days": 31}], "leapMonth": 1
     },
     "weekdaySet": {
-        "weekdays": [{"name": "Sunday", "nameShort": "Sun", "nameAbbrev": "Su"}, {
-            "name": "Moonday",
-            "nameShort": "Moon",
-            "nameAbbrev": "M"
-        }, {"name": "Toilday", "nameShort": "Toil", "nameAbbrev": "T"}, {
-            "name": "Wealday",
-            "nameShort": "Weal",
-            "nameAbbrev": "W"
-        }, {"name": "Oathday", "nameShort": "Oath", "nameAbbrev": "O"}, {
-            "name": "Fireday",
-            "nameShort": "Fire",
-            "nameAbbrev": "F"
-        }, {"name": "Starday", "nameShort": "Star", "nameAbbrev": "St"}]
+        "weekdays": [
+            {"name": "Sunday", "nameShort": "Sun", "nameAbbrev": "Su"},
+            {"name": "Moonday", "nameShort": "Moon", "nameAbbrev": "M"},
+            {"name": "Toilday", "nameShort": "Toil", "nameAbbrev": "T"},
+            {"name": "Wealday", "nameShort": "Weal", "nameAbbrev": "W"},
+            {"name": "Oathday", "nameShort": "Oath", "nameAbbrev": "O"},
+            {"name": "Fireday", "nameShort": "Fire", "nameAbbrev": "F"},
+            {"name": "Starday", "nameShort": "Star", "nameAbbrev": "St"}
+        ]
     },
     "holidaySet": {
         "holidays": [
@@ -725,9 +721,57 @@ let  CustomCalendarData = {
                 "category": "Story"
             },
             {
+                "name": "Catacombs under Sandpoint uncovered",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "27", "month": "8"},
+                "category": "Story"
+            },
+            {
+                "name": "[Downtime Starts]",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "29", "month": "8"},
+                "category": "Story"
+            },
+            {
+                "name": "Aldern arrives safely at Foxglove Manor",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "29", "month": "8"},
+                "category": "Story"
+            },
+            {
+                "name": "Mice experiments ramp up",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "30", "month": "8"},
+                "category": "Story"
+            },
+            {
                 "name": "Hemlock returns (estimated)",
                 "rule": "NthDayOfMonth",
                 "parameters": {"n": "3", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Yendan Snazzyfeet killed",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "1", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Wrath Pool power rises",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "1", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Hannah's garden destroyed",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "2", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Hemlock returns",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "4", "month": "9"},
                 "category": "Story"
             },
         ]

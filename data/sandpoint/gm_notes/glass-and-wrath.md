@@ -274,13 +274,54 @@ Note: Because the party has free lodging at the Rusty Dragon, use the following 
 
 ### A Breakthrough
 
-The night before Hemlock returns from  
+The night before Hemlock returns from Magnimar, Ilsoari and Brodert will develop a testable hypothesis. They will discover that the pool seems to be storing power, acquiring it from the deaths of any humanoids nearby. And because the pool was made with a purpose, and that purpose was to store power, it is reasonable to assume the pool is also designed to release that power for a purpose and in a controlled way. But the trick is to figure out what way that is.
+
+Hypothetical options to try to release power from the pool:
+
+* Dipping animals in the pool (not effective)
+* Animal blood in the pool (not effective)
+* Animal sacrifice (not effective)
+* Sacrifice of valuable items, like silver or gems (not effective)
+* Prayer or cleric spells (not effective)
+* Getting really rage/emo near the pool (not effective, but easier to accomplish than normal)
+* Dipping humanoids in the pool (costs 3 points, see [description](https://www.d20pfsrd.com/magic-items/artifacts/minor-artifacts/runewell-minor/))
+* Human blood in the pool (costs 6 points, see [description](https://www.d20pfsrd.com/magic-items/artifacts/minor-artifacts/runewell-minor/)) 
+
+Points in the Runewell: 21
 
 ## Return of the Sheriff
 
 Sheriff Hemlock will return 7 days after he left (6 days after the Glassworks fire). He will return with a contingent of soldiers all bearing the [standard of Magnimar](^sandpoint/magnimar_flag.jpg) and [Roland Hart](^sandpoint/roland_hart.jpg), a vice justice under Justice Ironbriar to keep an eye on the regiment of soldiers Sheriff Hemlock brought back.
 
-Roland is a serious man, who highly values professionalism and decorum. However, he is keen on being helpful to the people of Sandpoint. His orders from Justice Ironbriar are to make sure the regiment of soldiers sent from Magnimar are not being abused by Sheriff Hemlock. Secretly, he's also told to keep an eye on signs of moral and legal corruption in the people of Sandpoint.
+While at Magnimar, Hemlock was updated by the mayor of the Runewell as well as the emigration of people from Sandpoint. He reached out to contacts for further resources to house those people and, in the worst case, the possibility of handling a mass evacuation of the town. He was met largely with sympathy but no assistance or promises of assistance beyond the guards he was able to bring back to Sandpoint.
+
+### Briefing the Sheriff
+
+Hemlock will learn about the death at the Fatman's Feedbag, and want to question Delfi about it. He'll ask her for her story, and specifics like:
+
+* Was drinking involved? (Yes)
+* Was anyone noticeably drunk? (No)
+* Were there any threats made leading up to the attack? (Just about cheating)
+* Were tempers running high in general? (Not until the accusations of cheating, then things escalated very quickly)
+* Did you do anything to incite the attack? (No)
+* Did you join in the fighting? (No)
+* Was anyone else besides Yendan injured? (No)
+* What was Mr. Vhiski's demeanor after the attack? Did he seem flustered in any way? (No)
+* Was there any talk or information you heard prior to the attack that might indicate Mr. Vhiski planned this murder in any way? (No)
+* What did Mr. Vhiski do with the body? (Dunno)
+
+When Hemlock learns about the Runewell, he will trust Ilsoari's take on the situation over anyone else's. He will also say this is "adventurer shit" and ask the party to "take care of it".
+
+If the plan to evacuate the town is brought up, it will meet fierce resistance:
+
+* Hemlock was not able to get any assistance in Magnimar to handle a whole town arriving and needing refuge
+* Deverin will be convinced that most people will resist leaving their homes to be raided, especially after the arrival of the soldiers
+* Ilsoari specifically will not be willing to leave Turandorak Academy
+* Brodert will not want to leave his research and the learning opportunities behind
+
+### Roland Hart
+
+[Roland Hart](^sandpoint/roland_hart.jpg) is a serious man, who highly values professionalism and decorum. However, he is keen on being helpful to the people of Sandpoint. His orders from Justice Ironbriar are to make sure the regiment of soldiers sent from Magnimar are not being abused by Sheriff Hemlock. Secretly, he's also told to keep an eye on signs of moral and legal corruption in the people of Sandpoint.
 
 Roland's accent is Korvosan, and is similar to a Boston accent. His tone sits halfway between his nose and his throat, and he tends to draw out his words, while flattening his pronunciation. He speaks carefully and precisely. His humor is dry, and he tends to finish his jokes with a belated half-smile.
 

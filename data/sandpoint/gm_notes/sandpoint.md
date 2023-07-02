@@ -125,7 +125,7 @@
   * [Courrin Whesterwill](^sandpoint/courrin_whesterwill.png)
 * 33: [The Hagfish](^sandpoint/hagfish.jpg) (p381)
   * [Jargie Quinn](^sandpoint/jargie_quinn.jpg), [Jargie Quinn](^sandpoint/jargie_quinn_full_body.jpg) full body
-  * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.jpg), [Norah's... mouth?](^sandpoint/norahs_mouth.jpg)
+  * [Norah, the Hagfish](^sandpoint/norah_the_hagfish.jpg), [Norah's... *shudder* mouth](^sandpoint/norahs_mouth.jpg)
 * 34: Valdemar Fishmarket (p382)
   * [Turch Sterglus](^sandpoint/turch_sterglus.jpg)
 * 35: Sandpoint Market (p382)

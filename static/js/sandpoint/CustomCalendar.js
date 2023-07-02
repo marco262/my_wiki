@@ -2005,7 +2005,7 @@ var CustomCalendar= (function() {
                             mnset.Add(moon);
                         }
                     });
-                };
+                }
             };
 
             // Get the array index of the specified moon.
@@ -2019,7 +2019,7 @@ var CustomCalendar= (function() {
 
                 if ( 'index' in option ) {
                     if ( typeof option.index === "number" ) return option.index;
-                };
+                }
 
                 if ( 'moon' in option ) {
                     if ( typeof option['moon'] !== "object" ) {

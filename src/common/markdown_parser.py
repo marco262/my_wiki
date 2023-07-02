@@ -221,14 +221,18 @@ class MarkdownParser:
         for m in re.finditer(pattern, text, re.DOTALL):
             magic_items = m.group(1).strip("\n")
             magic_item_tracker_table = build_magic_item_tracker(magic_items)
-            text = text.replace(m.group(0), f"{magic_items}\n\n{magic_item_tracker_table}")
+            new_text = f"{magic_items}\n\n{magic_item_tracker_table}"
+            new_text += "\n\n*Reference: [Magic Items](/dnd/dm_toolbox/Magic Items)*"
+            text = text.replace(m.group(0), new_text)
         return text
 
     @staticmethod
     def add_header_links(text):
         for m in re.finditer(r'(<h\d id="(.*?)".*?)(</h\d>)', text):
-            text = text.replace(m.group(0),
-                                f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}')
+            text = text.replace(
+                m.group(0),
+                f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}'
+            )
         return text
 
     def parse_accordions(self, text):
@@ -293,11 +297,15 @@ class MarkdownParser:
             npc["untrained"] = to_mod(npc["stat_bonus"])
             npc["proficient"] = to_mod(npc["stat_bonus"] + npc["prof_bonus"])
             npc["expertise"] = to_mod(npc["stat_bonus"] + npc["prof_bonus"] * 2)
-            weapon_attack = d.get('weapon', 'Weapon attack')
-            npc["actions"] = [f"***{weapon_attack} x{npc['num_attacks']}.*** {to_mod(npc['attack'])} to hit. "
-                              f"**Hit:** {npc['damage']} damage."] + npc["actions"]
+            weapon_attack = \
+                f"***{d.get('weapon', 'Weapon attack')} x{npc['num_attacks']}.*** {to_mod(npc['attack'])} to hit. " \
+                f"**Hit:** {npc['damage']} damage.\n\n"
+            if "actions" in npc:
+                npc["actions"].insert(0, weapon_attack)
+            else:
+                npc["actions"] = [weapon_attack]
             for section in ["special_abilities", "bonus_actions", "actions", "reactions", "villain_actions"]:
-                npc[section] = self.parse_md("\n\n".join(npc[section])) if npc[section] else ""
+                npc[section] = self.parse_md("\n\n".join(npc[section]), with_metadata=False) if npc[section] else ""
             t = template("dnd/npc-sheet.tpl", **npc)
             text = text.replace(m.group(0), t)
         return text

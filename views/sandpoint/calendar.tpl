@@ -22,7 +22,7 @@ $(document).ready(function(){
         "start_month": 8,
         "start_dow": 1,
         "end_year": 4707,
-        "end_month": 8,
+        "end_month": 9,
     };
     let start_year = defaults.start_year;
     let start_month = defaults.start_month;

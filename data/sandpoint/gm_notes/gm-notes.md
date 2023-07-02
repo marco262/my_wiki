@@ -69,4 +69,6 @@ Enter another URL to set as Visual Aid here:
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
 * [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Minor Uncommon
 * [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
+* [Trident of Warning](/dnd/equipment/magic-item/Weapon of Warning) -- Major Uncommon
+* [Moon-Touched Scimitar](/dnd/equipment/magic-item/Moon-Touched Sword) -- Minor Common
 [[/magic-item-tracker]]

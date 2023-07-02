@@ -53,6 +53,14 @@
       "***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
     ]
   },
+  "Lion": {
+    "atk_cr": -1,
+    "special_abilities": [
+      "***Keen Hearing and Smell.*** The lion has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "***Pack Tactics.*** The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "***Pounce.*** If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+    ]
+  },
   "Boar": {
     "special_abilities": [
       "***Charge.*** If the boar moves up to 10 feet before attacking, it can do a single weapon attack that does double damage. If it hits, the enemy must make a DC {save_dc} Strength saving throw or be knocked prone."

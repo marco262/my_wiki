@@ -56,6 +56,9 @@
 
 ## Equipment
 
+* [[[general:equipment#weapons|Weapons]]]
+* [[[general:equipment#adventuring-gear|Adventuring Gear]]]
+
 ## Magic Items
 
 [[/div]]

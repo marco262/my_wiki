@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/static/css/sandpoint.css">
 
-**Current Date:** [Rova 27, 4707 AR](calendar)
+**Current Date:** [Lamashan 4, 4707 AR](calendar#monthly-calendar-4707-10)
 
 # The Heroes
 
@@ -130,20 +130,27 @@ From the south, entrance to Sandpoint is governed by a wooden bridge, while from
 * 39: Two Knight Brewery
 * 40: Sandpoint Mercantile League
 * 41: Sandpoint Boutique
-* 42: Fatman's Feedbag
+* 42: [Fatman's Feedbag](@sandpoint/fatmans_feedbag.jpg)
+  * [Gressel Tenniwar](@sandpoint/gressel_tenniwar.jpg), owner
+  * [Jubrayl Vhiski](@sandpoint/jubrayl_vhiski.png), backroom poker aficionado
+  * [Back room](@sandpoint/fatmans_feedbag_back_room.png)
 * 43: The Pixie's Kitten
   * [Kaye Tesarani](@sandpoint/kaye_tesarani.png), proprietor
 * 44: [The Feathered Serpent](@sandpoint/feathered_serpent.jpg)
   * [Vorvashali Voon](@sandpoint/vorvashali_voon.jpg), owner
-  * Lyse put 5gp on layaway for [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo) (40gp total)
-* 45: Hannah's
+* 45: [Hannah's](@sandpoint/hannahs.jpg)
+  * [Hannah Velerin](@sandpoint/hannah_velerin.jpg)
 * 46: Sandpoint Shipyard
 * 47: Valdemar Manor
 * 48: Scarnetti Manor
 * 49: Kaijitsu Manor
-  * [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father
+  * [Lonjiku Kaijitsu](@sandpoint/lonjiku_kaijitsu_1.png), Ameiko's father (deceased)
 * 50: Deverin Manor
   * [Mayor Kendra Deverin](@sandpoint/kendra_deverin.jpg)
+* [Chopper's Isle](@sandpoint/choppers_isle.jpg)
+  * [Burned Down Cottage](@sandpoint/stoots_home_burnt.jpg), Stoot's home
+  * [Cave](@sandpoint/choppers_isle_cave.jpg)
+  * [Shrine Cave](@sandpoint/underground_ruins.jpg)
 
 ### Other NPCs
 
