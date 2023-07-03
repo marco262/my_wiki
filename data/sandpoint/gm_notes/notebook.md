@@ -4,6 +4,9 @@
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
+* Mayor Deviren will send the party a Thank You for clearing out the well (make it very worthwhile)
+* Make a Potion of Bewitching card
+* Make a Ring of Swimming card
 
 Q&A:
 
@@ -74,3 +77,10 @@ Rusty: Searching
 | Tinkerboob |     |     | 11 |    |
 | Althaea    | 14  | 11  | 9  |    |
 | Grog       | 13  | 10  | 6  |    |
+
+
+
+Orb of Time 40gp
+Perfume of Bewitching 50gp
+Pole of Angling 20gp
+Ring of Swimming (can't wear it for more than 8 hours, or you grow gills and can't breathe air) 100gp
