@@ -50,3 +50,9 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * C2: [Thistle Tunnels](^sandpoint/thistle_tunnels.png)
 * C3: [The Howling Hole](^sandpoint/howling_hole.png)
 * C4: [Refugee Nest](^sandpoint/refugee_nest.png)
+* C5: [Goblin Dog Kennel](^sandpoint/goblin_dog_kennel.png)
+* C6: [Tangletooth's Den](^sandpoint/tangletooths_den.png)
+* C7: [Gogmurt's Lair](^sandpoint/gogmurts_lair.png)
+* C8: Watchposts
+* C9: [Rope Bridge](^sandpoint/thistletop_rope_bridge.jpeg)
+* C10: Thistletop [1](^sandpoint/thistletop_1.png), [2](^sandpoint/thistletop_2.png), [spoilers](^sandpoint/thistletop_spoilers.jpg), [bird's eye](^sandpoint/thistletop_birds_eye.jpg)
