@@ -5,10 +5,10 @@ let CustomCalendarView = (function(cal) {
         this.moonRenderSize = 18;
 
         this.EventTypeHoliday = CalendarEventTypeHoliday;
-        this.EventTypeMoonPhase = 1;
-        this.EventTypeSeason = 2;
-        this.EventTypeFullMoon = 3;
-        this.EventTypeUser = 4;
+        this.EventTypeMoonPhase = CalendarEventTypeMoonPhase;
+        this.EventTypeSeason = CalendarEventTypeSeason;
+        this.EventTypeFullMoon = CalendarEventTypeFullMoon;
+        this.EventTypeUser = CalendarEventTypeUser;
 
         let calendar = cal;
         let startWeekOn = 0;
@@ -454,7 +454,8 @@ let CustomCalendarView = (function(cal) {
     let CalendarEventTypeSeason = 2;
     let CalendarEventTypeFullMoon = 3;
     let CalendarEventTypeUser = 4;
-    let CalendarEventTypes = [ "holiday", "moon_phase", "season", "first_full", "user" ];
+    let CalendarEventTypeCurrentDay = 5;
+    let CalendarEventTypes = [ "holiday", "moon_phase", "season", "first_full", "user", "current_day" ];
 
     let CalendarEvent = function(name, type, obj) {
         this.name = name;

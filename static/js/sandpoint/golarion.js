@@ -1,36 +1,80 @@
 let  CustomCalendarData = {
     "monthSet": {
-        "months": [{
-            "name": "Abadius",
-            "nameShort": "Aba",
-            "nameAbbrev": "A",
-            "days": 31
-        }, {"name": "Calistril", "nameShort": "Cal", "nameAbbrev": "C", "days": 28}, {
-            "name": "Pharast",
-            "nameShort": "Phar",
-            "nameAbbrev": "P",
-            "days": 31
-        }, {"name": "Gozran", "nameShort": "Goz", "nameAbbrev": "G", "days": 30}, {
-            "name": "Desnus",
-            "nameShort": "Des",
-            "nameAbbrev": "D",
-            "days": 31
-        }, {"name": "Sarenith", "nameShort": "Sar", "nameAbbrev": "S", "days": 30}, {
-            "name": "Erastus",
-            "nameShort": "Eras",
-            "nameAbbrev": "E",
-            "days": 31
-        }, {"name": "Arodus", "nameShort": "Aro", "nameAbbrev": "Ar", "days": 31}, {
-            "name": "Rova",
-            "nameShort": "Rov",
-            "nameAbbrev": "R",
-            "days": 30
-        }, {"name": "Lamashan", "nameShort": "Lam", "nameAbbrev": "L", "days": 31}, {
-            "name": "Neth",
-            "nameShort": "Neth",
-            "nameAbbrev": "N",
-            "days": 30
-        }, {"name": "Kuthona", "nameShort": "Kuth", "nameAbbrev": "K", "days": 31}], "leapMonth": 1
+        "months": [
+            {
+                "name": "Abadius",
+                "nameShort": "Aba",
+                "nameAbbrev": "A",
+                "days": 31
+            },
+            {
+                "name": "Calistril",
+                "nameShort": "Cal",
+                "nameAbbrev": "C",
+                "days": 28
+            },
+            {
+                "name": "Pharast",
+                "nameShort": "Phar",
+                "nameAbbrev": "P",
+                "days": 31
+            },
+            {
+                "name": "Gozran",
+                "nameShort": "Goz",
+                "nameAbbrev": "G",
+                "days": 30
+            },
+            {
+                "name": "Desnus",
+                "nameShort": "Des",
+                "nameAbbrev": "D",
+                "days": 31
+            },
+            {
+                "name": "Sarenith",
+                "nameShort": "Sar",
+                "nameAbbrev": "S",
+                "days": 30
+            },
+            {
+                "name": "Erastus",
+                "nameShort": "Eras",
+                "nameAbbrev": "E",
+                "days": 31
+            },
+            {
+                "name": "Arodus",
+                "nameShort": "Aro",
+                "nameAbbrev": "Ar",
+                "days": 31
+            },
+            {
+                "name": "Rova",
+                "nameShort": "Rov",
+                "nameAbbrev": "R",
+                "days": 30
+            },
+            {
+                "name": "Lamashan",
+                "nameShort": "Lam",
+                "nameAbbrev": "L",
+                "days": 31
+            },
+            {
+                "name": "Neth",
+                "nameShort": "Neth",
+                "nameAbbrev": "N",
+                "days": 30
+            },
+            {
+                "name": "Kuthona",
+                "nameShort": "Kuth",
+                "nameAbbrev": "K",
+                "days": 31
+            }
+        ],
+        "leapMonth": 1
     },
     "weekdaySet": {
         "weekdays": [

@@ -55,4 +55,4 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * C7: [Gogmurt's Lair](^sandpoint/gogmurts_lair.png)
 * C8: Watchposts
 * C9: [Rope Bridge](^sandpoint/thistletop_rope_bridge.jpeg)
-* C10: Thistletop [1](^sandpoint/thistletop_1.png), [2](^sandpoint/thistletop_2.png), [spoilers](^sandpoint/thistletop_spoilers.jpg), [bird's eye](^sandpoint/thistletop_birds_eye.jpg)
+* C10: [Thistletop](^sandpoint/thistletop_3.png) [1](^sandpoint/thistletop_1.png), [2](^sandpoint/thistletop_2.png), [spoilers](^sandpoint/thistletop_spoilers.jpg), [bird's eye](^sandpoint/thistletop_birds_eye.jpg)

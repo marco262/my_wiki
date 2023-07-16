@@ -72,5 +72,5 @@ Enter another URL to set as Visual Aid here:
 * [Trident of Warning](/dnd/equipment/magic-item/Weapon of Warning) -- Major Uncommon
 * [Moon-Touched Scimitar](/dnd/equipment/magic-item/Moon-Touched Sword) -- Minor Common
 * [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) -- Minor Uncommon
-* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) -- Minor Uncommon
+* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
 [[/magic-item-tracker]]

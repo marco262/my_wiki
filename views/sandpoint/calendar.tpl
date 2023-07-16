@@ -157,7 +157,7 @@ $(document).ready(function(){
 
         if ( view.EventTypeFullMoon in egroups ) divEvent.appendChild(egroups[view.EventTypeFullMoon]);
         if ( view.EventTypeHoliday in egroups ) divEvent.appendChild(egroups[view.EventTypeHoliday]);
-        if ( view.EventTypeMisc in egroups ) divEvent.appendChild(egroups[view.EventTypeMisc]);
+        if ( view.EventTypeUser in egroups ) divEvent.appendChild(egroups[view.EventTypeUser]);
 
         divDay.appendChild(divEvent);
     };
