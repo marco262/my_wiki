@@ -51,7 +51,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 ## Places
 
 * C1: [Hidden Entrance](^sandpoint/brambles_hidden_entrance.png)
-* C2: [Thistle Tunnels](^sandpoint/thistle_tunnels.png)
+* C2: [Thistle Tunnels](^sandpoint/thistle_tunnels_1.png), [Thistle Tunnels](^sandpoint/thistle_tunnels_2.png), [Thistle Tunnels](^sandpoint/thistle_tunnels_3.png) 
 * C3: [The Howling Hole](^sandpoint/howling_hole.png)
 * C4: [Refugee Nest](^sandpoint/refugee_nest.png)
 * C5: [Goblin Dog Kennel](^sandpoint/goblin_dog_kennel.png)
