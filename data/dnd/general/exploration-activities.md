@@ -14,7 +14,7 @@ You move cautiously, ready to defend from attacks. If combat breaks out, you gai
 
 ## Follow the Expert
 
-Choose an ally attempting a recurring skill check while exploring, such as climbing, or performing a different exploration tactic that requires a skill check (like Sneaking). The ally must be at least an expert in that skill and must be willing to provide assistance. While Following the Expert, you match their tactic and attempt similar skill checks. Thanks to your ally's assistance, you can roll those checks with Proficiency if the ally has Proficiency in that check, or with Expertise if your ally has Expertise.
+Choose an ally attempting a recurring skill check while exploring, such as climbing, or performing a different exploration tactic that requires a skill check (like Sneaking). The ally must have Proficiency or Expertise in that skill and must be willing to provide assistance. While Following the Expert, you match their tactic and attempt similar skill checks. Thanks to your ally's assistance, you can roll those checks with Proficiency if the ally has Proficiency in that check, or with Expertise if your ally has Expertise.
 
 ## Hustle
 
