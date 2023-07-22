@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/visual_aid.css">
 </head>
 <body>
-    <div id="notification-popup">
+    <div id="notification-popup" hidden>
         <div id="arrow"></div>
         <div id="box">
             <p><strong>Sounds may not play properly on this page.</strong></p>
