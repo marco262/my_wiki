@@ -122,6 +122,7 @@ function handle_audio(action, target, url) {
             } else if (action === "stop") {
                 e.pause();
                 e.currentTime = 0;
+                e.src = "";
             }
         }
     }
