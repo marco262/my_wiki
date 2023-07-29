@@ -42,6 +42,8 @@ class Server:
         self._init_server(
             host=cfg.get("Settings", "host") if host is None else host,
             port=cfg.getint("Settings", "port") if port is None else port,
+            keyfile=cfg.get("Settings", "keyfile"),
+            certfile=cfg.get("Settings", "certfile"),
             run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is None else run_as_thread,
             debug=debug
         )
@@ -52,7 +54,7 @@ class Server:
         if not lock.acquire(blocking=False):
             raise ChildProcessError("Server process is already running")
 
-    def _init_server(self, host=None, port=None, run_as_thread=None, debug=False):
+    def _init_server(self, host=None, port=None, keyfile=None, certfile=None, run_as_thread=None, debug=False):
         if run_as_thread:
             from threading import Thread
             self.server_thread = Thread(name="MyWikiServer", target=self._run_server, args=[host, port],
@@ -60,11 +62,22 @@ class Server:
             self.server_thread.start()
             print("Server thread started.")
         else:
-            self._run_server(host, port, debug)
+            self._run_server(host, port, keyfile, certfile, debug)
 
-    def _run_server(self, host, port, debug=False):
+    def _run_server(self, host, port, keyfile=None, certfile=None, debug=False):
         # self.app.run(host=host, port=port, reloader=debug)
-        self.app.run(host=host, port=port, reloader=True, server=GeventWebSocketServer)
+        kwargs = {}
+        if keyfile:
+            kwargs["keyfile"] = keyfile
+        if certfile:
+            kwargs["certfile"] = certfile
+        self.app.run(
+            host=host,
+            port=port,
+            reloader=True,
+            server=GeventWebSocketServer,
+            **kwargs
+        )
         print("Server instance is ending.")
 
 

@@ -1,4 +1,4 @@
-A landing for my own personal use, primarily to present custom visualizations of any data I want
+A landing for my own personal use, primarily to present custom visualizations of any data I want.
 
 # Installation
 
@@ -15,11 +15,11 @@ python3 -m pip install -r requirements.txt
 2. Make a copy of `config.ini.dist` and rename it to `config.ini`.
    1. Alternately, run the server briefly to auto-create it.
 3. Update `config.ini` so `host` is the egress IP of the machine you're on, assuming you want this instance to host external traffic.
-   1. If running on Google Cloud, use the "Internal IP" of the VM, not the "External IP"
+   1. If running on Google Cloud, use the "Internal IP" of the VM, not the "External IP".
 
 ### Caddy
 
-Reverse proxy that will automatically authenticate https with LetsEncrypt, to allow us to use a subdomain that's configured with HSTS
+Reverse proxy that will automatically authenticate https with LetsEncrypt, to allow us to use a subdomain that's configured with HSTS.
 
 #### Install
 
@@ -43,6 +43,29 @@ your.hostname.com {
 ```
 
 Restart Caddy: `sudo service caddy restart`
+
+### Certbot
+
+A background process that can run and automatically configure and renew HTTPS certs with LetsEncrypt
+
+Kill the webserver if it's running, then run the following commands:
+
+```bash
+sudo apt install snapd
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot certonly --standalone
+```
+
+Follow the instructions onscreen. When you're done, the cert files will be created, and you'll see the paths in the console, like so:
+
+```bash
+Certificate is saved at: /etc/letsencrypt/live/<domain>/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/<domain>/privkey.pem
+```
+
+Add the key and certificate paths to the `keyfile` and `certfile` settings, respectively, in `config.ini`. Start the webserver.
+
 
 # Usage
 

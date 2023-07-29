@@ -4,9 +4,6 @@
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
-* Mayor Deviren will send the party a Thank You for clearing out the well (make it very worthwhile)
-* Make a Potion of Bewitching card
-* Make a Ring of Swimming card
 
 Q&A:
 
