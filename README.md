@@ -37,7 +37,7 @@ Edit `/etc/caddy/Caddyfile`:
 
 ```bash
 your.hostname.com {
-    reverse_proxy localhost:30000
+    reverse_proxy localhost:8080
     encode zstd gzip
 }
 ```
