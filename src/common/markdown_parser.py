@@ -148,7 +148,7 @@ class MarkdownParser:
                     if not arg:
                         index += 1
                         continue
-                    print(arg)
+                    # print(arg)
                     try:
                         k, v = arg.split("=", 1)
                     except ValueError:
@@ -191,7 +191,7 @@ class MarkdownParser:
                         v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace, with_metadata=False)
                     args[k] = v
                     index += 1
-            print(args)
+            # print(args)
             if template_name.endswith(".tpl"):
                 try:
                     t = template(template_name, args)
