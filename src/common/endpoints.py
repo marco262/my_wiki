@@ -59,7 +59,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/media/<path:path>", name="media")
     def static(path):
-        print(os.getenv("RUNNING_IN_DOCKER"))
+        print(f'RUNNING_IN_DOCKER={repr(os.getenv("RUNNING_IN_DOCKER"))}')
         if os.getenv("RUNNING_IN_DOCKER") == "True":
             redirect("https://marco262.github.io/my_wiki/media/" + path)
         else:
