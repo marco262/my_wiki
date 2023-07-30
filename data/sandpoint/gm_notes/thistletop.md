@@ -74,4 +74,5 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * C22: [Meeting Room](^sandpoint/thistletop_meeting_room.png)
 * C23: [Chieftain's Room](^sandpoint/thistletop_chieftains_room.png)
 * C24: [Latrine/Treasury](^sandpoint/thistletop_treasury.png)
+  * Trap: [[npc cr=3|role=Trap]]
 * C27: [Bunyip's Lair](^sandpoint/thistletop_bunyips_lair.png)

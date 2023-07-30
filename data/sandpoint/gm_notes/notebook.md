@@ -4,6 +4,9 @@
 * Note to self: Add fire theming to this campaign
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
+* When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
+* Remind players about potion homebrew rules
+* Have everyone go over their abilities!
 
 Q&A:
 

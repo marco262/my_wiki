@@ -58,5 +58,9 @@
     "reactions": [
       "***Eek!*** When an enemy would hit the pirate captain with an attack, he swaps places with an adjacent pirate, causing them to take the hit instead. He can then move up to his speed."
     ]
+  },
+  "Trap": {
+    "special_abilities": ["The DCs to spot and disarm the trap are {save_dc} + {prof_bonus}. The DC to save against any status effects is {save_dc}."],
+    "weapon": "Trap"
   }
 }

@@ -47,6 +47,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
     name = kwargs.get("name") or f"the {race.lower()}"
     normalized_cr = get_normalized_cr(cr, level)
     cr_values = get_cr_values(normalized_cr)
+    prof_bonus = adjust(cr_values["prof_bonus"], kwargs.get("prof_bonus"))
     atk_dict = get_attack(normalized_cr, race, role)
     def_dict = get_defense(normalized_cr, race, role)
     num_attacks = adjust(atk_dict["num_attacks"], kwargs.get("num_attacks"))
@@ -55,7 +56,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
     double_damage = get_dmg_value(total_damage * 2, dmg_option, 1, "")
     triple_damage = get_dmg_value(total_damage * 3, dmg_option, 1, "")
     save_dc = atk_dict["save_dc"]
-    placeholders_values = [damage, double_damage, triple_damage, save_dc, name]
+    placeholders_values = [damage, double_damage, triple_damage, save_dc, prof_bonus, name]
     special_abilities = adjust(
         fill_placeholders(get_list(race, role, "special_abilities"), *placeholders_values),
         kwargs.get("special_abilities")
@@ -83,7 +84,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
         "role": role,
         "speed": adjust(get_speed(races[race]), kwargs.get("speed")),
         "stat_bonus": adjust(cr_values["stat_bonus"], kwargs.get("stat_bonus")),
-        "prof_bonus": adjust(cr_values["prof_bonus"], kwargs.get("prof_bonus")),
+        "prof_bonus": prof_bonus,
         "armor_class": adjust(def_dict["ac"], kwargs.get("armor_class")),
         "hit_points": adjust(def_dict["hp"], kwargs.get("hit_points")),
         "damage_resistances": adjust(get_trait(race, role, "damage_resistances"), kwargs.get("damage_resistances")),
@@ -187,17 +188,22 @@ def get_trait(race, role, key):
     return ",".join(get_list(race, role, key))
 
 
-def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc, name):
+def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc, prof_bonus, name):
     for i in range(len(ability_list)):
         # noinspection StrFormat
-        ability_list[i] = ability_list[i].format(
-            damage=damage,
-            double_damage=double_damage,
-            triple_damage=triple_damage,
-            save_dc=save_dc,
-            name=name,
-            Name=name.title(),
-        )
+        try:
+            ability_list[i] = ability_list[i].format(
+                damage=damage,
+                double_damage=double_damage,
+                triple_damage=triple_damage,
+                save_dc=save_dc,
+                prof_bonus=prof_bonus,
+                name=name,
+                Name=name.title(),
+            )
+        except ValueError:
+            print(ability_list, file=sys.stderr)
+            raise
     return ability_list
 
 
