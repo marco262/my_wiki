@@ -6,7 +6,11 @@
 * Connect Stoot with the Skinsaw Cult somehow
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
 * Remind players about potion homebrew rules
+* Ask for party leader!
 * Have everyone go over their abilities!
+* Add "requires attunement" to item cards
+* Fix visual aid captions with quotes in them
+* Make treasure note for pearl-handled dagger
 
 Q&A:
 
@@ -69,14 +73,15 @@ Rusty: Searching
 
 # Initiative
 
-| Name       | Per | Inv | #  | HP |
-|------------|-----|-----|----|----|
-| Lyse       | 13  | 11  | 23 |    |
-| Delfi      | 12  | 10  | 22 |    |
-| Rusty      | 10  | 13  | 21 |    |
-| Tinkerboob |     |     | 11 |    |
-| Althaea    | 14  | 11  | 9  |    |
-| Grog       | 13  | 10  | 6  |    |
+| Name     | Per | Inv | #  | HP |
+|----------|-----|-----|----|----|
+| Rusty    | 10  | 13  | 19 |    |
+| Delfi    | 12  | 10  | 15 |    |
+| Lyse     | 13  | 11  | 21 |    |
+| Goblin R |     |     | 10 | 3  |
+| Althaea  | 14  | 11  | 9  |    |
+| Goblin Y |     |     | 5  | 2  |
+| Grog     | 13  | 10  | 4  |    |
 
 
 
