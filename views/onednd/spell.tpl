@@ -21,7 +21,7 @@
 
 % end
 % if defined('cantrip_upgrade'):
-<p><strong>Cantrip Upgrade:</strong> {{at_higher_levels}}</p>
+<p><strong>Cantrip Upgrade:</strong> {{cantrip_upgrade}}</p>
 
 % end
 % if defined('at_higher_levels_homebrew'):

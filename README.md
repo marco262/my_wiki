@@ -17,55 +17,87 @@ python3 -m pip install -r requirements.txt
 3. Update `config.ini` so `host` is the egress IP of the machine you're on, assuming you want this instance to host external traffic.
    1. If running on Google Cloud, use the "Internal IP" of the VM, not the "External IP".
 
-### Caddy
-
-Reverse proxy that will automatically authenticate https with LetsEncrypt, to allow us to use a subdomain that's configured with HSTS.
+### Nginx and Certbot
 
 #### Install
 
+Install nginx
+
 ```bash
-sudo apt-get install debian-keyring debian-archive-keyring apt-transport-https
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-sudo apt-get update
-sudo apt-get install caddy
+sudo apt-get install nginx certbot python3-certbot-nginx
 ```
 
 #### Configure
 
-Edit `/etc/caddy/Caddyfile`:
+Create a new file nginx file at `/etc/nginx/sites-available/my_wiki` with the following configuration:
 
 ```bash
-your.hostname.com {
-    reverse_proxy localhost:8080
-    encode zstd gzip
+server {
+    listen 80;
+    server_name subdomain.your-domain.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;  # Change to your Bottle server's port
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
 }
 ```
 
-Restart Caddy: `sudo service caddy restart`
-
-### Certbot
-
-A background process that can run and automatically configure and renew HTTPS certs with LetsEncrypt
-
-Kill the webserver if it's running, then run the following commands:
+Then, create a symbolic link to this configuration in the sites-enabled directory:
 
 ```bash
-sudo apt install snapd
-sudo snap install --classic certbot
-sudo ln -s /snap/bin/certbot /usr/bin/certbot
-sudo certbot certonly --standalone
+sudo ln -s /etc/nginx/sites-available/your-app.conf /etc/nginx/sites-enabled/
 ```
 
-Follow the instructions onscreen. When you're done, the cert files will be created, and you'll see the paths in the console, like so:
+Ensure there are no syntax errors in your Nginx configuration:
 
 ```bash
-Certificate is saved at: /etc/letsencrypt/live/<domain>/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/<domain>/privkey.pem
+sudo nginx -t
 ```
 
-Add the key and certificate paths to the `keyfile` and `certfile` settings, respectively, in `config.ini`. Start the webserver.
+Obtain SSL/TLS certificate using certbot
 
+```bash
+sudo certbot --nginx -d subdomain.your-domain.com --key-type ecdsa
+```
+
+After obtaining the certificate, Certbot should automatically update your Nginx configuration to handle HTTPS traffic. If not, you can update your server block in the Nginx configuration file to include the SSL settings:
+
+```nginx
+server {
+    listen 80;
+    server_name subdomain.your-domain.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name subdomain.your-domain.com;
+
+    ssl_certificate /etc/letsencrypt/live/subdomain.your-domain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/subdomain.your-domain.com/privkey.pem;
+
+    # Additional SSL settings go here
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+Test your Nginx configuration again and restart Nginx:
+
+```bash
+sudo nginx -t
+sudo systemctl restart nginx
+```
 
 # Usage
 
