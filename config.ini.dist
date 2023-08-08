@@ -2,8 +2,6 @@
 host = localhost
 port = 8080
 run as thread = False
-keyfile =
-certfile =
 
 [Logging]
 level = INFO
