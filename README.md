@@ -19,6 +19,8 @@ python3 -m pip install -r requirements.txt
 
 ### Nginx and Certbot
 
+These are basic instructions about how to use Nginx and certbot to allow the server to be hosted from a domain using HTTPS. 
+
 #### Install
 
 Install nginx
@@ -97,6 +99,13 @@ Test your Nginx configuration again and restart Nginx:
 ```bash
 sudo nginx -t
 sudo systemctl restart nginx
+```
+
+Update your `config.ini` file to host the Bottle server on `127.0.0.1:8080`:
+
+```ini
+host = 127.0.0.1
+port = 8080
 ```
 
 # Usage
