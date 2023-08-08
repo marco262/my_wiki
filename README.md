@@ -5,13 +5,13 @@ A landing for my own personal use, primarily to present custom visualizations of
 ## Debian
 
 1. Update system, clone repo, and install requirements:  
-```bash
-sudo apt-get update
-sudo apt-get install python3-pip tmux
-git clone https://github.com/marco262/my_wiki.git
-cd my_wiki
-python3 -m pip install -r requirements.txt
-```
+   ```bash
+   sudo apt-get update
+   sudo apt-get install python3-pip tmux
+   git clone https://github.com/marco262/my_wiki.git
+   cd my_wiki
+   python3 -m pip install -r requirements.txt
+   ```
 2. Make a copy of `config.ini.dist` and rename it to `config.ini`.
    1. Alternately, run the server briefly to auto-create it.
 3. Update `config.ini` so `host` is the egress IP of the machine you're on, assuming you want this instance to host external traffic.
@@ -23,7 +23,7 @@ These are basic instructions about how to use Nginx and certbot to allow the ser
 
 #### Install
 
-Install nginx
+Install Nginx and certbot
 
 ```bash
 sudo apt-get install nginx certbot python3-certbot-nginx
@@ -39,7 +39,7 @@ server {
     server_name subdomain.your-domain.com;
 
     location / {
-        proxy_pass http://127.0.0.1:8080;  # Change to your Bottle server's port
+        proxy_pass http://localhost:8080;  # Change to your Bottle server's port
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -85,7 +85,7 @@ server {
     # Additional SSL settings go here
 
     location / {
-        proxy_pass http://127.0.0.1:8080;
+        proxy_pass http://localhost:8080;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -101,10 +101,10 @@ sudo nginx -t
 sudo systemctl restart nginx
 ```
 
-Update your `config.ini` file to host the Bottle server on `127.0.0.1:8080`:
+Update your `config.ini` file to host the Bottle server on `localhost:8080`:
 
 ```ini
-host = 127.0.0.1
+host = localhost
 port = 8080
 ```
 
