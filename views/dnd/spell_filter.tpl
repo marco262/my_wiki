@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
-% from data.dnd.enums import spell_classes, spell_levels, schools, sources, casting_times, durations
+% from data.dnd.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
 <table border="0">
     <tr valign="top">
         <td>
@@ -18,7 +18,12 @@
             <b>Level:</b><br>
             <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
             % for l in spell_levels:
-                <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{ordinal(l)}} Level<br>
+                % if l == "cantrip":
+                %   level_name = "Cantrip"
+                % else:
+                %   level_name = ordinal(l) + " Level"
+                % end
+                <input type="checkbox" name="checkbox-level" value="{{l}}" checked>{{level_name}}<br>
             % end
         </td>
         <td>
@@ -29,13 +34,6 @@
             % end
         </td>
         <td>
-            <b>Source:</b><br>
-            <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
-            % for o in sources:
-                <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
-            % end
-        </td>
-        <td>
             <b>Casting Time:</b><br>
             <input type="checkbox" name="checkbox-all" value="casting-time" checked><i>All/None</i><br>
             % for t in casting_times:
@@ -43,10 +41,24 @@
             % end
         </td>
         <td>
+            <b>Range:</b><br>
+            <input type="checkbox" name="checkbox-all" value="range" checked><i>All/None</i><br>
+            % for t in ranges:
+                <input type="checkbox" name="checkbox-range" value="{{t}}" checked>{{t}}<br>
+            % end
+        </td>
+        <td>
             <b>Duration:</b><br>
             <input type="checkbox" name="checkbox-all" value="duration" checked><i>All/None</i><br>
             % for t in durations:
                 <input type="checkbox" name="checkbox-duration" value="{{t}}" checked>{{t}}<br>
+            % end
+        </td>
+        <td>
+            <b>Source:</b><br>
+            <input type="checkbox" name="checkbox-all" value="source" checked><i>All/None</i><br>
+            % for o in sources:
+                <input type="checkbox" name="checkbox-source" value="{{o}}" checked>{{o}}<br>
             % end
         </td>
     </tr>

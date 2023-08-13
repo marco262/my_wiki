@@ -96,10 +96,12 @@ durations = [
 ]
 
 ranges = [
+    "Self",
     "Touch",
     "5 feet",
     "10 feet",
     "15 feet",
+    "20 feet",
     "30 feet",
     "60 feet",
     "90 feet",
@@ -113,7 +115,7 @@ ranges = [
     "500 miles",
     "Sight",
     "Unlimited",
-    "Special"
+    "Special",
 ]
 
 shapes = [
@@ -131,7 +133,8 @@ sources = [
     "Lost Laboratory of Kwalish",
     "Explorer's Guide to Wildemount",
     "Tasha's Cauldron of Everything",
-    "Homebrew"
+    "Guildmaster's Guide to Ravnica",
+    "Homebrew",
 ]
 
 source_acronyms = {
@@ -144,7 +147,8 @@ source_acronyms = {
     "Explorer's Guide to Wildemount": "EGtW",
     "Tasha's Cauldron of Everything": "TCoE",
     "Waterdeep: Dragon Heist": "WDH",
-    "Homebrew": "Home"
+    "Guildmaster's Guide to Ravnica": "GGR",
+    "Homebrew": "Home",
 }
 
 ability_scores = [

@@ -165,9 +165,9 @@ def load_wsgi_endpoints(app: Bottle):
     def spell_filter():
         return
 
-    @app.post('/filter_results')
+    @app.post('/spell_filter_results')
     @view("dnd/spell_list.tpl")
-    def filter_results():
+    def spell_filter_results():
         filter_keys = loads(request.params["filter_keys"])
         results = defaultdict(list)
         for k, v in load_spells().items():
@@ -184,6 +184,11 @@ def load_wsgi_endpoints(app: Bottle):
                 continue
             for t in filter_keys["casting_times"]:
                 if t in v["casting_time"]:
+                    break
+            else:
+                continue
+            for t in filter_keys["ranges"]:
+                if t in v["range"]:
                     break
             else:
                 continue

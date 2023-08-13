@@ -19,7 +19,7 @@ function filter() {
     clearTimeout(key_press_timer);
     let json = JSON.stringify(get_ui_state());
     setCookie("filter_state", json);
-    ajax_call("/dnd/filter_results", handle_filter_results, {"filter_keys": json});
+    ajax_call("/dnd/spell_filter_results", handle_filter_results, {"filter_keys": json});
 }
 
 function handle_filter_results(xhttp) {
@@ -31,9 +31,10 @@ function get_ui_state() {
     d["classes"] = get_checkboxes("class");
     d["levels"] = get_checkboxes("level");
     d["schools"] = get_checkboxes("school");
-    d["sources"] = get_checkboxes("source");
     d["casting_times"] = get_checkboxes("casting-time");
+    d["ranges"] = get_checkboxes("range");
     d["durations"] = get_checkboxes("duration");
+    d["sources"] = get_checkboxes("source");
     d["all"] = get_checkboxes("all");
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
@@ -45,9 +46,10 @@ function set_ui_state(d) {
     set_checkboxes("class", d["classes"]);
     set_checkboxes("level", d["levels"]);
     set_checkboxes("school", d["schools"]);
-    set_checkboxes("source", d["sources"]);
     set_checkboxes("casting-time", d["casting_times"]);
+    set_checkboxes("range", d["ranges"]);
     set_checkboxes("duration", d["durations"]);
+    set_checkboxes("source", d["sources"]);
     set_checkboxes("all", d["all"]);
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
@@ -56,7 +58,7 @@ function set_ui_state(d) {
 }
 
 function reset_ui() {
-    let checkboxes = ["class", "level", "school", "source", "casting-time", "duration", "all"];
+    let checkboxes = ["class", "level", "school", "casting-time", "range", "duration", "source", "all"];
     checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => set_radio_group_value(toggle, "both"));
