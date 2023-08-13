@@ -8,8 +8,8 @@ in_ext = ".webp"
 out_ext = ".jpg"
 
 
+print(f'Searching for pictures in {os.environ["PICTURES_DIR"]} to convert...')
 glob_path = os.environ["PICTURES_DIR"].rstrip("/") + "/*" + in_ext
-print(glob_path)
 for filepath in glob(glob_path):
     print(filepath)
     out_filepath = splitext(filepath)[0] + out_ext
