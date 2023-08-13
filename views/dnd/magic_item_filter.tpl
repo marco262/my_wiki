@@ -19,6 +19,12 @@
             % end
         </td>
         <td>
+            <b>Minor/Major:</b><br>
+            <input type="checkbox" name="checkbox-all" value="minor-major" checked><i>(All/None)</i><br>
+            <input type="checkbox" name="checkbox-minor-major" value="Minor" checked>Minor<br>
+            <input type="checkbox" name="checkbox-minor-major" value="Major" checked>Major<br>
+        </td>
+        <td>
             <b>Requires<br>attunement?:</b><br>
             <input type="radio" name="radio-attunement" value="yes">Yes<br>
             <input type="radio" name="radio-attunement" value="no">No<br>

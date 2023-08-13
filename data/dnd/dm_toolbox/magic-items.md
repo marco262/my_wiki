@@ -134,7 +134,7 @@ If you prefer a more free-form method of choosing magic items, simply select eac
 
 ## Overstocking an Adventure
 
-The magic item tables in this section are based on the number of items the characters are expected to receive, not the number of items that are available in an adventure. When creating or modifying an adventure, assume that the characters won't find all the items you place in it, unless most of the loot is in easy-to-find locations. Here's a good rule of thumb: an adventure can include a number of items that's 25 percent higher than the numbers in the tables (round up). For example, an adventure designed to take characters from 1st to 4th level might include fourteen item s rather than eleven, in the expectation that three of those items won't be found.
+The magic item tables in this section are based on the number of items the characters are expected to receive, not the number of items that are available in an adventure. When creating or modifying an adventure, assume that the characters won't find all the items you place in it, unless most of the loot is in easy-to-find locations. Here's a good rule of thumb: an adventure can include a number of items that's 25 percent higher than the numbers in the tables (round up). For example, an adventure designed to take characters from 1st to 4th level might include fourteen items rather than eleven, in the expectation that three of those items won't be found.
 
 ---
 

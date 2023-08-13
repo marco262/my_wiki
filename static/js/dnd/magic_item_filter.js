@@ -32,7 +32,7 @@ function handle_filter_results(xhttp) {
 
 export function get_ui_state() {
     let d = {};
-    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    let checkboxes = ["type", "rarity", "minor-major", "subtype", "classes", "source", "all"];
     checkboxes.forEach(checkbox_name => d[checkbox_name] = get_checkboxes(checkbox_name));
     let toggles = ["attunement"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
@@ -40,7 +40,7 @@ export function get_ui_state() {
 }
 
 function set_ui_state(d) {
-    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    let checkboxes = ["type", "rarity", "minor-major", "subtype", "classes", "source", "all"];
     checkboxes.forEach(checkbox_name => set_checkboxes(checkbox_name, d[checkbox_name]));
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
@@ -48,7 +48,7 @@ function set_ui_state(d) {
 }
 
 function reset_ui() {
-    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    let checkboxes = ["type", "rarity", "minor-major", "subtype", "classes", "source", "all"];
     checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, "both"));

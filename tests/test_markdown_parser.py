@@ -124,7 +124,7 @@ Text block
         """
 
         expected = """
-        * <span class="visual-aid-link" title="visual_aid|ulkoria_stronemarrow.jpg|Ulkoria Stronemarrow">Ulkoria Stronemarrow<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/ulkoria_stronemarrow.jpg"></span></span>, representative for the Watchful Order of Magists and Protectors
+        * <span class="visual-aid-link" title="visual_aid|ulkoria_stronemarrow.jpg|Ulkoria%20Stronemarrow">Ulkoria Stronemarrow<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/ulkoria_stronemarrow.jpg"></span></span>, representative for the Watchful Order of Magists and Protectors
 
         ## [Faction NPCs](Faction NPCs)
         
@@ -135,9 +135,9 @@ Text block
         * <span class="visual-aid-link" title="load|effect|WARFARE WEAPON SWORD SCRAPE PIRATE CUTLASS CIVIL WAR 01.mp3">Sword</span>
         <span class="visual-aid-link" title="pause|all">Pause All</span>
         
-        <span class="visual-aid-link" title="visual_aid|some_visual_aids.jpg|Some visual aids">Some visual aids<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/some_visual_aids.jpg"></span></span> all on the <span class="visual-aid-link" title="visual_aid|same-line.jpg|same line">same line<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/same-line.jpg"></span></span>.
+        <span class="visual-aid-link" title="visual_aid|some_visual_aids.jpg|Some%20visual%20aids">Some visual aids<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/some_visual_aids.jpg"></span></span> all on the <span class="visual-aid-link" title="visual_aid|same-line.jpg|same%20line">same line<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/same-line.jpg"></span></span>.
         
-        [Wiki link](/dnd/wiki-link) before a <span class="visual-aid-link" title="visual_aid|visual_aid.jpg|Visual aid">Visual aid<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/visual_aid.jpg"></span></span>.
+        [Wiki link](/dnd/wiki-link) before a <span class="visual-aid-link" title="visual_aid|visual_aid.jpg|Visual%20aid">Visual aid<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="/media/img/visual_aids/visual_aid.jpg"></span></span>.
         """
 
         md = MarkdownParser()
@@ -230,12 +230,13 @@ Text block
         md = MarkdownParser()
         self.assertEqual(expected, md.generate_npc_blocks(text))
         m[0].assert_called_with(
-            "dnd/npc-sheet.tpl", cr="2", race="Human", role="", speed="30 ft.", stat_bonus=1, prof_bonus=2,
-            armor_class=13, hit_points=93, damage_resistances="", damage_immunities="", senses="",
-            special_abilities="",
-            actions="<p><strong><em>Weapon attack x2.</em></strong> +3 to hit. <strong>Hit:</strong> 9 (2d6 + 2) damage.</p>\n",
-            reactions="", attack=3, damage="9 (2d6 + 2)", save_dc=13, num_attacks=2, width="400px", untrained="+1",
-            proficient="+3", expertise="+5"
+            "dnd/npc-sheet.tpl", cr="2", level=None, race="Human", role="", speed="30 ft.", stat_bonus=2, prof_bonus=3,
+            armor_class=13, hit_points=45, damage_resistances="", damage_immunities="", damage_vulnerabilities="",
+            senses="", special_abilities="", bonus_actions="",
+            actions="<p><strong><em>Weapon attack x2.</em></strong> +5 to hit. <strong>Hit:</strong> 8 (2d6 + 1) damage.</p>\n",
+            reactions="", villain_actions="", attack=5, damage="8 (2d6 + 1)", double_damage="30 (8d6 + 2)",
+            triple_damage="45 (12d6 + 3)", save_dc=12, num_attacks=2, width="400px", untrained="+2", proficient="+5",
+            expertise="+8"
         )
 
     def test_fancy_text(self):

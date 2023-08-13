@@ -16,7 +16,7 @@
     <option value="I">Magic Item Table I (Major Legendary)</option>
 </select>
 <label for="max_items"># Items:</label>
-<input type="number" id="max_items" min="1" max="20" value="6" size="2" />
+<input type="number" id="max_items" min="1" max="20" value="6" size="4" />
 <label for="no_duplicates">No duplicates:</label>
 <input type="checkbox" id="no_duplicates" value="false"/>
 <input type="button" value="Generate" id="generate_button" />

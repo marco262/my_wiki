@@ -64,13 +64,11 @@ Enter another URL to set as Visual Aid here:
 ## Awarded Magic Items
 
 [[magic-item-tracker]]
-* [Illuminator's Tattoo](/dnd/equipment/magic-item/Illuminator's Tattoo) -- Minor Common
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-1st-level) (Burning Hands) -- Minor Common
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
-* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Minor Uncommon
+* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Major Uncommon
 * [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
-* [Trident of Warning](/dnd/equipment/magic-item/Weapon of Warning) -- Major Uncommon
-* [Moon-Touched Scimitar](/dnd/equipment/magic-item/Moon-Touched Sword) -- Minor Common
 * [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) -- Minor Uncommon
 * [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
+* [Necklace of Fireballs](/dnd/equipment/magic-item/necklace-of-fireballs) (Nualia) -- Minor Rare
 [[/magic-item-tracker]]

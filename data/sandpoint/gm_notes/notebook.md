@@ -5,12 +5,13 @@
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
+
+Pre-session checklist:
+
 * Remind players about potion homebrew rules
 * Ask for party leader!
 * Have everyone go over their abilities!
-* Add "requires attunement" to item cards
-* Fix visual aid captions with quotes in them
-* Make treasure note for pearl-handled dagger
+* Re-explain basic concepts like attack rolls and critical hits
 
 Q&A:
 

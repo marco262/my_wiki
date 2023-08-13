@@ -169,6 +169,8 @@ def filter_magic_items(filter_keys):
             continue
         if v["rarity"] not in filter_keys["rarity"]:
             continue
+        if v["rarity_type"] not in filter_keys["minor-major"]:
+            continue
         if filter_keys["attunement"] == "yes" and not v["attunement"] or \
                 filter_keys["attunement"] == "no" and v["attunement"]:
             continue
