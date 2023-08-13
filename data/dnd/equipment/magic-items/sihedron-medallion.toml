@@ -1,0 +1,29 @@
+name = "Sihedron Medallion"
+type = "Wondrous Item"
+subtype = "necklace"
+rarity_type = ""
+rarity = ""
+attunement = true
+classes = []
+notes = ""
+source = "Homebrew"
+description = """
+![Sihedron medallion >](/media/img/visual_aids/sandpoint/sihedron_medallion.png)
+
+***THIS ITEM NEEDS TO BE FINISHED.*** Use the ChatGPT generated text below as inspiration.
+
+Certainly, adapting the Sihedron Medallion to fit the D&D 5e ruleset requires some creative tweaking. Here are some alternative benefits that align more with 5e's design philosophy while still maintaining the theme and flavor of the original item:
+
+* Sihedron Ward: While wearing the medallion, the wearer gains advantage on saving throws against spells and magical effects originating from the school of necromancy.
+* Vital Essence: Once per day, as a reaction when the wearer takes damage that would reduce them to 0 hit points, the medallion flares to life, granting temporary hit points equal to their character level. These temporary hit points last for 1 minute.
+* Undying Preservation: As an action, the wearer can touch a dead creature and expend a hit die. The creature's body is preserved from decay, and if the medallion is worn by the creature when they are resurrected, they return to life with additional hit points equal to the number rolled on the expended hit die.
+* Resonant Shielding: The medallion resonates with protective energy. The wearer gains resistance to a specific type of damage (chosen when the medallion is attuned). This resistance can be changed during a long rest.
+* Lifebound Connection: The medallion enhances the wearer's connection to their allies. While attuned to the medallion, the wearer can use their reaction to grant an adjacent ally advantage on a saving throw.
+* Sihedron Infusion: Once per day, the wearer can concentrate for 1 minute to infuse the medallion with magical energy. This energy can be released later as a reaction to gain advantage on a single attack roll, saving throw, or ability check.
+* Death's Embrace: The medallion grants the wearer the ability to speak, read, and understand Abyssal. Additionally, the wearer can cast the Gentle Repose spell once per day without expending a spell slot.
+* Resilient Resurgence: As a reaction when the wearer fails a saving throw against an effect that causes them to be charmed, frightened, or paralyzed, the medallion triggers automatically, allowing the wearer to reroll the saving throw with advantage.
+* Sihedron Aura: While attuned to the medallion, the wearer gains a +1 bonus to their Armor Class and resistance to psychic damage. Additionally, they can use their reaction to impose disadvantage on an attack roll against themselves or an adjacent ally.
+* Soulbound: The medallion becomes attuned to the wearer's life force. If the wearer is reduced to 0 hit points and dies, the medallion shatters, sacrificing its magical essence to automatically stabilize the wearer and restore them to 1 hit point. The medallion cannot be used again and loses its magical properties.
+
+Feel free to choose or modify any of these ideas to best fit your campaign's tone, balance, and the preferences of your players.
+"""

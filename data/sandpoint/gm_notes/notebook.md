@@ -5,13 +5,24 @@
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
+* Make loot sacks for:
+  * Ripnugget
+  * Tsuto
+  * Lyrie
+  * Orik
+  * Bruthazmus
+  * Nualia
 
 Pre-session checklist:
 
+* Re-explain basic concepts
+  * Action, bonus action, movement, reactions
+  * Attack rolls and critical hits
+  * Skill checks
 * Remind players about potion homebrew rules
-* Ask for party leader!
 * Have everyone go over their abilities!
-* Re-explain basic concepts like attack rolls and critical hits
+* Ask for party leader!
+* Recap
 
 Q&A:
 

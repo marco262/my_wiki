@@ -23,6 +23,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Forest, tense]($load|music|arr/BGM_ORCH_055-Landlords.mp3)
   * [Brambles]($load|music|arr/BGM_LoV_Boss04.mp3)
   * [Thistletop]($load|music|arr/BGM_EX3_MYC_03.mp3)
+  * [Lamashtu]($load|music|arr/Dark Vows.mp3)
 * Goblins
   * [Scheming and quirky, a little Indian inspired]($load|music|arr/BGM_Field_BanColony_Kobold.mp3)
   * [Fae-inspired, non-threatening]($load|music|arr/BGM_Field_BanColony_Sylph.mp3)
@@ -34,10 +35,6 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Boss Fight, King Mog theme, Danny Elfman]($load|music|arr/BGM_Ban_Moogle_Goku.mp3)
 * Boss Battle
   * [Awesome]($load|music|arr/BGM_EX2_Dan_D11.mp3)
-
-## NPCs
-
-* [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg), kept in a cell in area D9
 
 ## Places
 
@@ -78,6 +75,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * C22: [Meeting Room](^sandpoint/thistletop/meeting_room.png)
 * C23: [Chieftain's Room](^sandpoint/thistletop/chieftains_room.png)
   * [Ripnugget](^sandpoint/thistletop/ripnugget.jpg) ([[npc cr=1|race=Goblin|role=Soldier]])
+    * Loot: Small breastplate, short sword, dented crown, keyring
   * 2x [Goblin Commando](^sandpoint/goblin_rider.jpg) ([[npc cr=1/2|race=Goblin|role=Soldier]])
   * [Goblin Warchanter](^sandpoint/goblin_warsinger.jpg) ([[npc cr=1/2|race=Goblin|role=Bard]])
   * 4x [Goblin](^sandpoint/goblin_2.png) ([[npc cr=1/4|race=Goblin|role=Skirmisher]])
@@ -90,12 +88,37 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 
 * D1: [Abandoned Feast Hall](^sandpoint/thistletop/abandoned_feast_hall.png)
 * D2: [Chieftain's Harem](^sandpoint/thistletop/chieftains_harem.png)
-  * [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear]])
+  * [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
+      * Flail property: If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
+      * Loot: Studded leather, flail, longbow with arrows, [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks), 20 gp
   * 4x [Goblin wives](^sandpoint/thistletop/goblin_wife.png)
-* D3: Goblin Nursery
+* D3: [Goblin Nursery](^sandpoint/thistletop/goblin_nursery.png)
   * [Goblin baby](^sandpoint/thistletop/goblin_baby.jpg), [Goblin child](^sandpoint/thistletop/goblin_child.jpg), [Goblin baby (terrifying)](^sandpoint/thistletop/goblin_baby_terrifying.jpg)
 * D4a: [Tsuto's Chambers](^sandpoint/thistletop/tsutos_chambers.png)
-  * [Tsuto Kaijitsu](^sandpoint/tsuto_kaijitsu.jpg) ([[npc cr=2|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|armor_class=+2|hp=30]])
-* D4b: [Orik's Chambers](^sandpoint/thistletop/tsutos_chambers.png)
-  * [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword|num_attacks=+1|armor_class=+2|hp=30]])
-* D4c: [Tsuto's Chambers](^sandpoint/thistletop/tsutos_chambers.png)
+  * [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=3|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
+      * Loot: shortbow with arrows, thieves' tools, silver earrings (25 gp for the pair), [Potion of Healing](/dnd/equipment/magic-item/Potion of Healing) (10 or 2d4 + 2)
+* D4b: [Orik's Chambers](^sandpoint/thistletop/oriks_chambers.png)
+  * [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=3|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
+      * Loot: longbow with arrows, longsword, shield, chain mail, [Mystery Key](/dnd/equipment/magic-item/mystery-key), 15 gp
+* D4c: [Lyrie's Chambers](^sandpoint/thistletop/lyries_chambers.png)
+  * Loot: [Everburning Candle](/dnd/spell/continual-flame)
+* D4d: [Bruthazmus' Chambers](^sandpoint/thistletop/bruthazmus_chambers.png)
+* D5: [Nualia's Chambers](^sandpoint/thistletop/nualias_chambers.png)
+* D6: [Storage Room](^sandpoint/thistletop/storage_room.png)
+* D7: [Tentamort Hunting Grounds](^sandpoint/thistletop/tentamort_hunting_grounds.png)
+  * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=4|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
+* D8: [Tentamort Lair](^sandpoint/thistletop/tentamort_lair.png)
+* D9: [Prison](^sandpoint/thistletop/prison.png)
+  * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg), stripped to her underclothes. Suffering from pneumonia due to smoke inhalation, she has a 50% chance every round she tries to take an action to be incapacitated by coughing fits. She has only 5 hit points.
+* D10: [Brunkel's Lair](^sandpoint/thistletop/brunkels_lair.png)
+* D11: [Chapel Entrance](^sandpoint/thistletop/chapel_entrance.png)
+  * [Music]($load|music|arr/Dark Vows.mp3)
+* D12: [Chapel to Lamashtu](^sandpoint/thistletop/chapel_to_lamashtu.png)
+  * [Lamashtu](^sandpoint/thistletop/lamashtu.png)
+  * [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
+* D13: [Goblin Art Gallery](^sandpoint/thistletop/goblin_art_gallery.jpg)
+* D14: [War Room](^sandpoint/thistletop/war_room.jpg)
+* D15: [Research Room](^sandpoint/thistletop/research_room.jpg)
+  * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja.png) ([[npc cr=4|name=Lyrie|role=Mage]])
+      * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
+      * Loot: Dagger, silver comb (25 gp), fine silk gown (60 gp), small pouch of artifacts (hair, fingernail clipping, used handkerchiefs, pearl earring worth 50 gp) stolen from Tsuto, [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment), 16 gp

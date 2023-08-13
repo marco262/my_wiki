@@ -6,5 +6,11 @@
     "actions": [
       "***Sinful Bite.*** The sinspawn may bite a creature as one of its attacks. A creature bitten by the sinspawn must make a DC 12 Wisdom saving throw or be overwhelmed by sinful thoughts. These emotions are so powerful that the target becomes [poisoned](/dnd/general/conditions#poisoned) for 1 minute. An affected target that is bitten a second time is [dazed](/dnd/general/conditions#dazed) for 1 round if it fails its saving throw. [Calm emotions](/dnd/spell/Calm Emotions), [remove curse](/dnd/spell/Remove Curse), or [greater restoration](/dnd/spell/Greater Restoration) removes this effect."
     ]
+  },
+  "Tentamort": {
+    "actions": [
+      "***Tentacle.*** The tentamort makes a weapon attack. On a hit, the target must make a Dev save DC {save_dc} or become [restrained](/dnd/Conditions#restrained).",
+      "***Stinger.*** The tentamort injects its stinger into a creature it has restrained. The target must make a Con save DC {save_dc} or take {damage} poison damage and become nauseated ([incapacitated](/dnd/Conditions#incapacitated)) as the poison starts to liquefy their insides. The poison lasts for 1d4 rounds, doing damage every round."
+    ]
   }
 }

@@ -5,7 +5,7 @@ from os.path import splitext
 from PIL import Image
 
 in_ext = ".webp"
-out_ext = ".jpg"
+out_ext = ".png"
 
 
 print(f'Searching for pictures in {os.environ["PICTURES_DIR"]} to convert...')

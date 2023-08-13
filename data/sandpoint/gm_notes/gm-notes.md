@@ -66,9 +66,15 @@ Enter another URL to set as Visual Aid here:
 [[magic-item-tracker]]
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-1st-level) (Burning Hands) -- Minor Common
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
-* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Major Uncommon
+* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Minor Uncommon
 * [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
 * [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) -- Minor Uncommon
 * [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
-* [Necklace of Fireballs](/dnd/equipment/magic-item/necklace-of-fireballs) (Nualia) -- Minor Rare
+* [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks) (Bruthazmus) -- Minor Common
+* [Potion of Healing](/dnd/equipment/magic-item/potion-of-healing) (Tsuto) -- Minor Common
+* [Mystery Key](/dnd/equipment/magic-item/mystery-key) (Orik) -- Minor Common
+* [Everburning Candle](/dnd/spell/continual-flame) (Lyrie's Room) -- Minor Common
+* [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment) (Lyrie) -- Minor Common
+* [Sword of Vengeance](/dnd/equipment/magic-item/sword-of-vengeance) (Nualia) -- Major Uncommon
+* [Sihedron Medallion](/dnd/equipment/magic-item/sihedron-medallion) (Nualia) -- Minor Rare
 [[/magic-item-tracker]]
