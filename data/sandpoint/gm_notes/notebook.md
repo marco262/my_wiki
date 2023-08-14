@@ -5,13 +5,12 @@
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
-* Make loot sacks for:
-  * Ripnugget
-  * Tsuto
-  * Lyrie
-  * Orik
-  * Bruthazmus
-  * Nualia
+
+Next session:
+
+* Goblin dogs will bark and try to beat down the door
+* Decide if the guards outside have heard the commotion (probably yes)
+* The warchanter (with a jester's hat) is hiding in the chieftain's bedroom (C23)
 
 Pre-session checklist:
 
@@ -23,6 +22,7 @@ Pre-session checklist:
 * Have everyone go over their abilities!
 * Ask for party leader!
 * Recap
+* Use 3 minute combat timer!
 
 Q&A:
 
@@ -85,19 +85,12 @@ Rusty: Searching
 
 # Initiative
 
-| Name     | Per | Inv | #  | HP |
-|----------|-----|-----|----|----|
-| Rusty    | 10  | 13  | 19 |    |
-| Delfi    | 12  | 10  | 15 |    |
-| Lyse     | 13  | 11  | 21 |    |
-| Goblin R |     |     | 10 | 3  |
-| Althaea  | 14  | 11  | 9  |    |
-| Goblin Y |     |     | 5  | 2  |
-| Grog     | 13  | 10  | 4  |    |
-
-
-
-Orb of Time 40gp
-Perfume of Bewitching 50gp
-Pole of Angling 20gp
-Ring of Swimming (can't wear it for more than 8 hours, or you grow gills and can't breathe air) 100gp
+| Name       | Per | Inv | #  | HP |
+|------------|-----|-----|----|----|
+| Delfi      | 12  | 10  | 23 |    |
+| Rusty      | 10  | 13  | 17 |    |
+| Warchanter |     |     | 16 | 0  |
+| Lyse       | 13  | 11  | 13 |    |
+| Gecko      |     |     | 7  | 19 |
+| Grog       | 13  | 10  | 7  |    |
+| Althaea    | 14  | 11  | 5  |    |
