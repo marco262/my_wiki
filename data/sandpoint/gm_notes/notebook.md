@@ -18,6 +18,7 @@ Pre-session checklist:
   * Action, bonus action, movement, reactions
   * Attack rolls and critical hits
   * Skill checks
+* Adventurer's Intuition (insight checks for hints)
 * Remind players about potion homebrew rules
 * Have everyone go over their abilities!
 * Ask for party leader!
@@ -32,10 +33,6 @@ Q&A:
   * Nah. Interesting, but it adds unnecessary complications
 
 Player Plans:
-
-* lead them to the demon temple to investigate
-* rusty gonna look for ritual in prayer book involving wine/raven/wand
-* Talk with Father Zantus
 
 Silly notes:
 
