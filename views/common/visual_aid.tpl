@@ -62,5 +62,5 @@
 <script id="youtube-script" src="/static/js/common/youtube.js"></script>
 <script type="module">
     import { init } from "/static/js/common/visual_aid.js";
-    init();
+    init({{ !volume_settings }});
 </script>

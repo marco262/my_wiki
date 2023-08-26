@@ -4,11 +4,11 @@
     init_soundboard();
 </script>
 
-|| All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) ||
-|| Music || [Play]($play|music|none) || [Pause]($pause|music|none) || [Stop]($stop|music|none) ||
-|| Ambience || [Play]($play|ambience|none) || [Pause]($pause|ambience|none) || [Stop]($stop|ambience|none) ||
-|| Effect || [Play]($play|effect|none) || [Pause]($pause|effect|none) || [Stop]($stop|effect|none) ||
-|| Youtube || [Play]($play|youtube|none) || [Pause]($pause|youtube|none) || [Stop]($stop|youtube|none) ||
+|| All || [Play]($play|all|none) || [Pause]($pause|all|none) || [Stop]($stop|all|none) || <input class="volume_slider" id="all_volume" target="all" type="range" min="0" max="1000" value="1000" > ||
+|| Music || [Play]($play|music|none) || [Pause]($pause|music|none) || [Stop]($stop|music|none) || <input class="volume_slider" id="music_volume" target="music" type="range" min="0" max="1000" value="1000" > ||
+|| Ambience || [Play]($play|ambience|none) || [Pause]($pause|ambience|none) || [Stop]($stop|ambience|none) || <input class="volume_slider" id="ambience_volume" target="ambience" type="range" min="0" max="1000" value="1000" > ||
+|| Effect || [Play]($play|effect|none) || [Pause]($pause|effect|none) || [Stop]($stop|effect|none) || <input class="volume_slider" id="effect_volume" target="effect" type="range" min="0" max="1000" value="1000" > ||
+|| Youtube || [Play]($play|youtube|none) || [Pause]($pause|youtube|none) || [Stop]($stop|youtube|none) || ||
 
 <p><input type="text" id="custom_soundboard_url"><br>
  

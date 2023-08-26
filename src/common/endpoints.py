@@ -1,7 +1,10 @@
 import os
-from json import dumps
+import sys
+import threading
+from json import dumps, load, dump
 from threading import Thread
 from time import ctime
+from typing import Optional
 
 import bcrypt
 from bottle import static_file, Bottle, view, request, auth_basic, redirect, response
@@ -19,15 +22,31 @@ GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcH
 visual_aid_type = "visual_aid"
 visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
 visual_aid_title = "The Nerds of Light"
-visual_aid_version = "1.2.3"
+visual_aid_version = "1.3.0"
+volume_settings: Optional[dict] = None
 websocket_list = []
+
+# Create a mutex lock
+volume_control_lock = threading.Lock()
 
 
 def init(cfg):
-    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH
+    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
     START_TIME = ctime()
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
+    if os.path.isfile("volume_settings.json"):
+        with open("volume_settings.json") as f:
+            volume_settings = load(f)
+    else:
+        volume_settings = {"music": 1.0, "ambience": 1.0, "effect": 1.0}
+
+
+def save_volume_settings(params: dict):
+    global volume_settings
+    volume_settings = params
+    with open("volume_settings.json", "w") as f:
+        dump(volume_settings, f)
 
 
 def enable_cors(fn):
@@ -115,7 +134,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/visual_aid")
     @view("common/visual_aid.tpl")
     def visual_aid():
-        return
+        return {"volume_settings": dumps(volume_settings)}
 
     @app.get('/visual_aid_websocket', apply=[websocket])
     def visual_aid_websocket(ws):
@@ -184,6 +203,39 @@ def load_wsgi_endpoints(app: Bottle):
         stats = get_player_soundboard_stats()
         stats["title"] = "Player Soundboard Stats"
         return stats
+
+    @app.get("/get_volume_settings")
+    def soundboard_volume_settings():
+        return volume_settings
+
+    @app.post("/set_volume")
+    @auth_basic(visual_aid_auth_check)
+    def set_soundboard_volume():
+        params = dict(request.params)
+        err_msg = f"{params} is not a valid volume setting"
+        for k, v in params.items():
+            if k not in ("music", "ambience", "effect"):
+                print(err_msg, file=sys.stderr)
+                break
+            try:
+                value = float(v)
+            except ValueError:
+                print(err_msg, file=sys.stderr)
+                break
+            else:
+                if 0 <= value <= 1:
+                    params[k] = value
+                else:
+                    print(err_msg, file=sys.stderr)
+                    break
+        else:
+            print(params)
+            save_volume_settings(params)
+            send_to_websockets(
+                {"version": visual_aid_version, "action": "volume", "settings": params},
+                websocket_list
+            )
+        return params
 
 
 def gm_auth_check(username, password):

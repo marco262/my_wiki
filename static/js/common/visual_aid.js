@@ -11,11 +11,13 @@ let ambience_counter = 0;
 let effect_audio = [];
 let effect_counter = 0;
 
-export function init() {
+export function init(volume_settings) {
     music_audio = Array.from(document.getElementsByClassName("music"));
     ambience_audio = Array.from(document.getElementsByClassName("ambience"));
     effect_audio = Array.from(document.getElementsByClassName("effect"));
     all_audio = music_audio.concat(ambience_audio).concat(effect_audio);
+
+    set_volumes(volume_settings);
 
     ws = new MyWebsocket("/visual_aid_websocket", handle_websocket);
     ws.load();
@@ -55,6 +57,8 @@ function handle_websocket(msg) {
         handle_visual_aid(json["url"], json["title"]);
     } else if (json["action"] === "iframe") {
         handle_iframe(json["url"]);
+    } else if (json["action"] === "volume") {
+        set_volumes(json["settings"]);
     } else {
         handle_audio(json["action"], json["target"], json["url"]);
     }
@@ -87,9 +91,9 @@ function handle_visual_aid(url, title) {
 
 function handle_audio(action, target, url) {
     /*
-        action: load, play, pause, stop
-        target: music, ambience, effect, all
-        url: <music URL, only needed for load>
+        action: `load`, `play`, `pause`, `stop`, or `volume`
+        target: `music`, `ambience`, `effect`, `youtube`, or `all`
+        url: Audio URL (needed for `load`)
      */
     console.log(`Action: ${action}, target: ${target}, url: ${url}`);
     if (target === "youtube") {
@@ -223,4 +227,26 @@ function get_youtube_id(url) {
         return m[1];
     }
     return url;
+}
+
+
+function set_volumes(volume_settings) {
+    console.log(volume_settings);
+    for (const [target, value] of Object.entries(volume_settings)) {
+        if (target === 'music') {
+            for (let e of music_audio) {
+                e.volume = value;
+            }
+        } else if (target === 'ambience') {
+            for (let e of ambience_audio) {
+                e.volume = value;
+            }
+        } else if (target === 'effect') {
+            for (let e of effect_audio) {
+                e.volume = value;
+            }
+        } else {
+            console.error(`Unknown key: ${target}`);
+        }
+    }
 }
