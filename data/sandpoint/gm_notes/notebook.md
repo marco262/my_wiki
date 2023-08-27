@@ -5,6 +5,11 @@
 * Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
+* Prepare background music for Thistletop level D
+* Badly photoshop the dented crown onto Delfi's head
+* Figure out how many keys are on Ripnugget's keyring (more keys = more important)
+* Make a loot list for the masterwork dogslicer
+* Figure out what languages Rusty can choose from at chargen
 
 Next session:
 
@@ -40,6 +45,7 @@ Silly notes:
 * Introduce a character named Red Herring
 * Fancifer the Vicarious
 * Utharu the Dickish (goblin chief?)
+* Cappy Pasta, an infamous source of dubious knowledge
 
 # Exploration Activities
 
@@ -51,12 +57,11 @@ Rusty: Searching
 
 # Initiative
 
-| Name       | Per | Inv | #  | HP |
-|------------|-----|-----|----|----|
-| Delfi      | 12  | 10  | 23 |    |
-| Rusty      | 10  | 13  | 17 |    |
-| Warchanter |     |     | 16 | 0  |
-| Lyse       | 13  | 11  | 13 |    |
-| Gecko      |     |     | 7  | 19 |
-| Grog       | 13  | 10  | 7  |    |
-| Althaea    | 14  | 11  | 5  |    |
+| Name    | Per | Inv | #  | HP |
+|---------|-----|-----|----|----|
+| Goblin  | 13  | 11  | 18 | 12 |
+| Rusty   | 10  | 13  | 17 |    |
+| Delfi   | 12  | 10  | 17 |    |
+| Grog    | 13  | 10  | 16 |    |
+| Althaea | 14  | 11  | 12 |    |
+| Lyse    | 13  | 11  | 9  |    |
