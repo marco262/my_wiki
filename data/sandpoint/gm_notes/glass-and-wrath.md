@@ -93,7 +93,7 @@
 * [Tsuto Fight]($load|music|arr/BGM_Battle_Dungeon_02.mp3)
 * [Tunnels]($load|music|arr/BGM_Dungeon_Lim_01.mp3)
 * [Catacombs of Wrath]($load|music|arr/Dark Vows.mp3)
-* As Glassworks Burns
+* As the Glassworks Burns
   * [Music]($load|music|arr/BGM_ORCH_494-As the Sky Burns.mp3)
   * [Ambience]($load|ambience|curse_of_strahd/burning_building1.ogg)
   * [Ambience]($load|ambience|curse_of_strahd/burning_building2.ogg)
