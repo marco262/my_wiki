@@ -1,6 +1,8 @@
-import bcrypt
+from glob import glob
 
+import bcrypt
 from bottle import Bottle, view, auth_basic
+
 from src.common.utils import md_page
 
 # Default password: dancinglikeastripper
@@ -24,6 +26,13 @@ def load_wsgi_endpoints(app: Bottle):
     @view("common/page.tpl")
     def page(name):
         return md_page(name, "arr")
+
+    @app.get("gm_notes/soundboard")
+    @view("arr/soundboard.tpl")
+    @auth_basic(gm_notes_auth_check)
+    def gm_notes():
+        g = [f.replace("\\", "/").replace("media/audio/arr/", "") for f in glob("media/audio/arr/*.*")]
+        return {"glob_file_list": g}
 
     @app.get("gm_notes/<name>")
     @view("common/page.tpl")

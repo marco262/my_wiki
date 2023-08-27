@@ -7,6 +7,7 @@
 </script>
 
 * [Soundboard](/arr/GM Soundboard)
+* [All ARR sounds](/arr/gm_notes/Soundboard)
 
 Enter another URL to set as Visual Aid here:
 
