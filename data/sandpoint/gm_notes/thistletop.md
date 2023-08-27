@@ -108,17 +108,18 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * D7: [Tentamort Hunting Grounds](^sandpoint/thistletop/tentamort_hunting_grounds.png)
   * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=4|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
 * D8: [Tentamort Lair](^sandpoint/thistletop/tentamort_lair.png)
-* D9: [Prison](^sandpoint/thistletop/prison.png)
+* D9: [Prison](^sandpoint/thistletop/prison.jpg)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg), stripped to her underclothes. Suffering from pneumonia due to smoke inhalation, she has a 50% chance every round she tries to take an action to be incapacitated by coughing fits. She has only 5 hit points.
 * D10: [Brunkel's Lair](^sandpoint/thistletop/brunkels_lair.png)
 * D11: [Chapel Entrance](^sandpoint/thistletop/chapel_entrance.png)
   * [Music]($load|music|arr/Dark Vows.mp3)
-* D12: [Chapel to Lamashtu](^sandpoint/thistletop/chapel_to_lamashtu.png)
+* D12: [Chapel to Lamashtu](^sandpoint/thistletop/chapel_to_lamashtu.jpg)
   * [Lamashtu](^sandpoint/thistletop/lamashtu.png)
   * [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
 * D13: [Goblin Art Gallery](^sandpoint/thistletop/goblin_art_gallery.jpg)
 * D14: [War Room](^sandpoint/thistletop/war_room.jpg)
 * D15: [Research Room](^sandpoint/thistletop/research_room.jpg)
-  * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja.png) ([[npc cr=3|name=Lyrie|role=Mage]])
+  * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=3|name=Lyrie|role=Mage]])
       * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
       * Loot: Dagger, silver comb (25 gp), fine silk gown (60 gp), small pouch of artifacts (hair, fingernail clipping, used handkerchiefs, pearl earring worth 50 gp) stolen from Tsuto, [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment), 16 gp
+      * [Old pic](^sandpoint/thistletop/lyrie_akenja.png)

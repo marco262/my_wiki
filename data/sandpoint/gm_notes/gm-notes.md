@@ -48,19 +48,6 @@ Enter another URL to set as Visual Aid here:
 
 * [Sandpoint]()
 
-## Visual Aids
-
-* [Welcome to Varisia!](^sandpoint/varisia.jpg)
-* [Magnimar](^sandpoint/magnimar2.jpg)
-* Sandpoint [1](^sandpoint/sandpoint1.jpg) [2](^sandpoint/sandpoint2.jpg) [3](^sandpoint/sandpoint3.jpg) 
-
-## Sounds
-
-[Stop all sounds]($stop|all|none)
-
-* [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
-* [Coastal Town]($load|ambience|pirates/D&D Ambience - Coastal Town.mp3)
-
 ## Awarded Magic Items
 
 [[magic-item-tracker]]
@@ -78,3 +65,34 @@ Enter another URL to set as Visual Aid here:
 * [Sword of Vengeance](/dnd/equipment/magic-item/sword-of-vengeance) (Nualia) -- Major Uncommon
 * [Sihedron Medallion](/dnd/equipment/magic-item/sihedron-medallion) (Nualia) -- Minor Rare
 [[/magic-item-tracker]]
+
+## Sins
+
+|   Vice   |   Virtue   |
+|:--------:|:----------:|
+|  Wrath   |  Patience  |
+|   Lust   |  Chastity  |
+| Gluttony | Temperance |
+|  Greed   |  Charity   |
+|  Sloth   | Diligence  |
+|   Envy   |  Kindness  |
+|  Pride   |  Humility  |
+
+
+### PC Inclinations
+
+* Althaea:
+  * Virtue: Diligence
+  * Vice: Wrath
+* Delfi:
+  * Virtue: Patience
+  * Vice: Pride
+* Grog:
+  * Virtue: Humility
+  * Vice: Greed
+* Rusty:
+  * Virtue: Diligence
+  * Vice: Sloth
+* Lyse:
+  * Virtue: Patience
+  * Vice: Lust

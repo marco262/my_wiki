@@ -41,37 +41,6 @@ Silly notes:
 * Fancifer the Vicarious
 * Utharu the Dickish (goblin chief?)
 
-# Sins
-
-|   Vice   |   Virtue   |
-|:--------:|:----------:|
-|  Wrath   |  Patience  |
-|   Lust   |  Chastity  |
-| Gluttony | Temperance |
-|  Greed   |  Charity   |
-|  Sloth   | Diligence  |
-|   Envy   |  Kindness  |
-|  Pride   |  Humility  |
-
-
-## PC Inclinations
-
-* Althaea:
-  * Virtue: Diligence
-  * Vice: Wrath
-* Delfi:
-  * Virtue: Patience
-  * Vice: Pride
-* Grog:
-  * Virtue: Humility
-  * Vice: Greed
-* Rusty:
-  * Virtue: Diligence
-  * Vice: Sloth
-* Lyse:
-  * Virtue: Patience
-  * Vice: Lust
-
 # Exploration Activities
 
 Delfi: Searching  

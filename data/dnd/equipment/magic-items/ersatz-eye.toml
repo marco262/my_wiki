@@ -1,6 +1,6 @@
 name = "Ersatz Eye"
 type = "Wondrous Item"
-subtype = ""
+subtype = "prosthetic"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = true

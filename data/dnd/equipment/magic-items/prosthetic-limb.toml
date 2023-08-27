@@ -1,6 +1,6 @@
 name = "Prosthetic Limb"
 type = "Wondrous Item"
-subtype = ""
+subtype = "prosthetic"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = false

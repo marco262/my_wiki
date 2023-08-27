@@ -1,6 +1,6 @@
 name = "Ear Horn of Hearing"
 type = "Wondrous Item"
-subtype = ""
+subtype = "prosthetic"
 rarity_type = "Minor"
 rarity = "Common"
 attunement = false

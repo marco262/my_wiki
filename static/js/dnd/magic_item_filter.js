@@ -50,6 +50,10 @@ function set_ui_state(d) {
 function reset_ui() {
     let checkboxes = ["type", "rarity", "minor-major", "subtype", "classes", "source", "all"];
     checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
+    // Disable some checkboxes by default
+    let prosthetic_checkbox = document.querySelector('[name="checkbox-subtype"][value="prosthetic"]');
+    if (prosthetic_checkbox)
+        prosthetic_checkbox.checked = false;
     let toggles = ["attunement"];
     toggles.forEach(toggle => set_radio_group_value(toggle, "both"));
     let json = JSON.stringify(get_ui_state());
