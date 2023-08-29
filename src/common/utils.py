@@ -144,7 +144,7 @@ def page_name_to_title(page_name):
     :param page_name:
     :return:
     """
-    return page_name.replace("-", " ").title()
+    return better_title(page_name.replace("-", " "))
 
 
 def md_page(page_title, namespace, directory=None, build_toc=True, markdown_parser=None, load_template=True, **kwargs):
@@ -176,7 +176,7 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         redirect(md[12:-5])
     elif load_template:
         if "title" not in kwargs:
-            kwargs["title"] = page_title.title()
+            kwargs["title"] = better_title(page_title)
         if build_toc:
             if md.metadata.get("toc") != "false":
                 kwargs["toc"] = md.toc_html
@@ -186,6 +186,22 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         return template("common/page.tpl", kwargs)
     else:
         return md
+
+
+articles = ["a", "an", "the"]
+coordinating_conjunctions = ["and", "but", "for", "nor", "or", "so", "yet"]
+prepositions = ["at", "by", "for", "from", "in", "of", "off", "on", "over", "to", "up", "with"]
+exceptions = set(articles + coordinating_conjunctions + prepositions)
+
+
+def better_title(s: str) -> str:
+    out_s = []
+    for i, word in enumerate(s.split(" ")):
+        if i > 0 and word.lower() in exceptions:
+            out_s.append(word)
+        else:
+            out_s.append(word.capitalize())
+    return " ".join(out_s)
 
 
 def websocket_loop(ws, websocket_list):
