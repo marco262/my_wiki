@@ -134,7 +134,7 @@ def title_to_page_name(title):
     :param title:
     :return:
     """
-    return re.sub(r"\W+", "-", title.lower()).strip("-")
+    return re.sub(r"\W+", "-", title.lower().replace("'", "")).strip("-")
 
 
 def page_name_to_title(page_name):
