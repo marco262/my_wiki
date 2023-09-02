@@ -57,7 +57,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * C10: [Thistletop](^sandpoint/thistletop/thistletop_minecraft.jpg) [1](^sandpoint/thistletop/thistletop_1.png), [2](^sandpoint/thistletop/thistletop_2.png), [3](^sandpoint/thistletop/thistletop_3.png), [spoilers](^sandpoint/thistletop/thistletop_spoilers.jpg), [bird's eye](^sandpoint/thistletop/thistletop_birds_eye.jpg)
   * 4x [Goblin Commando](^sandpoint/goblin_rider.jpg) ([[npc cr=1/2|race=Goblin|role=Soldier]])
   * 4x [Goblin Dog](^sandpoint/goblin_dog.jpg) ([[npc cr=1/4|race=Wolf]])
-* C11: [Trophy Hall](^sandpoint/thistletop/tropy_hall.png)
+* C11: [Trophy Hall](^sandpoint/thistletop/trophy_hall.png)
 * C12: [Food Stores](^sandpoint/thistletop/food_stores.png)
 * C13: [Pickle Thieves](^sandpoint/thistletop/guard_tower.png)
   * 2x sleeping [Goblin](^sandpoint/goblin_2.png) ([[npc cr=1/4|race=Goblin|role=Skirmisher]])
