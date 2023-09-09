@@ -1,45 +1,55 @@
+### Next session
 
-* Add to wiki page: 
-* Add to references: 
-* Note to self: Add fire theming to this campaign
-* Drop info about the origin of Malfeshnekor as they explore Thistletop
-* Connect Stoot with the Skinsaw Cult somehow
-* When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
-* Prepare background music for Thistletop level D
-* Badly photoshop the dented crown onto Delfi's head
-* Figure out how many keys are on Ripnugget's keyring (more keys = more important)
-* Make a loot list for the masterwork dogslicer
-* Figure out what languages Rusty can choose from at chargen
+* There are 7 keys Ripnugget's keyring (more keys = more important)
+  * 2x Throne room (C19)
+  * Food Storage (C20)
+  * Chief's bedroom (C23)
+  * Treasure Chest in C24
+  * Goblin Harem (D2)
+  * Goblin Nursery (D3)
+* Set up game room lights for the first dungeon level
+  * Main dungeon rooms
+  * Temple of Lamashtu
+* Why exactly did Gogmurt get locked up as a mouse?
+* Figure out how much Nualia et al have communicated with Malfeshnekor, and what they know about it
+* Finish finding pictures and audio for Thistletop B2
+* Stat up Nualia and Malfeshnekor
+* Determine loot for the Collapsed Treasury
 
-Next session:
+### Player Plans
 
-* Goblin dogs will bark and try to beat down the door
-* Decide if the guards outside have heard the commotion (probably yes)
-* The warchanter (with a jester's hat) is hiding in the chieftain's bedroom (C23)
-
-Pre-session checklist:
+### Pre-session checklist
 
 * Re-explain basic concepts
+  * Skill checks, saves, and attack rolls
+  * Damage and critical hits
   * Action, bonus action, movement, reactions
-  * Attack rolls and critical hits
-  * Skill checks
-* Adventurer's Intuition (insight checks for hints)
-* Remind players about potion homebrew rules
+* Important homebrew
+  * Adventurer's Intuition (insight checks for hints)
+  * Potion rules
 * Have everyone go over their abilities!
 * Ask for party leader!
 * Recap
+
+### Reminders
+
+* When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
 * Use 3 minute combat timer!
 
-Q&A:
+### Notes for the Future
+
+* Note to self: Add fire theming to this campaign
+* Drop info about the origin of Malfeshnekor as they explore Thistletop
+* Connect Stoot with the Skinsaw Cult somehow
+
+### Q&A
 
 * Why did Tsuto want to talk to Ameiko?
   * To talk her into joining Nualia's band
 * Was Father Tobyn Nualia's real father?
   * Nah. Interesting, but it adds unnecessary complications
 
-Player Plans:
-
-Silly notes:
+### Silly notes
 
 * Choppy McJervis
 * Introduce a character named Red Herring

@@ -23,6 +23,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Forest, tense]($load|music|arr/BGM_ORCH_055-Landlords.mp3)
   * [Brambles]($load|music|arr/BGM_LoV_Boss04.mp3)
   * [Thistletop]($load|music|arr/BGM_EX3_MYC_03.mp3)
+  * [Thistletop B1]($load|music|arr/BGM_EX2_Dan_D01.mp3)
   * [Lamashtu]($load|music|arr/Dark Vows.mp3)
 * Goblins
   * [Scheming and quirky, a little Indian inspired]($load|music|arr/BGM_Field_BanColony_Kobold.mp3)
@@ -33,7 +34,9 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Fight!]($load|music|arr/BGM_Event_Enkidu.mp3)
   * [Commandos]($load|music|sandpoint/01 - Goblin Ambush - Lost Mine of Phandelver Soundtrack.mp3)
   * [Boss Fight, King Mog theme, Danny Elfman]($load|music|arr/BGM_Ban_Moogle_Goku.mp3)
-* Boss Battle
+* Battles
+  * [Standard 1]($load|music|arr/BGM_Battle_Dungeon_01.mp3)
+  * [Standard 2]($load|music|arr/BGM_Battle_Dungeon_02.mp3)
   * [Awesome]($load|music|arr/BGM_EX2_Dan_D11.mp3)
 
 ## Places
@@ -86,28 +89,45 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 
 ### Dungeon Level 1
 
-* D1: [Abandoned Feast Hall](^sandpoint/thistletop/abandoned_feast_hall.png)
-* D2: [Chieftain's Harem](^sandpoint/thistletop/chieftains_harem.png)
+> Although goblins can see in the dark, several of Nualia's followers cannot, and so hooded lanterns hang in each hallway and in most rooms throughout the complex; these lanterns are generally left lit only during daylight hours. Ceiling height averages 8 feet in most rooms, and doors are generally rickety wooden affairs rigged by the goblins. 
+
+* D1: [Abandoned Feast Hall](^sandpoint/thistletop/abandoned_feast_hall.jpg)
+* D2: [Chieftain's Harem](^sandpoint/thistletop/chieftains_harem.jpg)
   * [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
       * Flail property: If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
       * Loot: Studded leather, flail, longbow with arrows, [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks), 20 gp
   * 4x [Goblin wives](^sandpoint/thistletop/goblin_wife.png)
-* D3: [Goblin Nursery](^sandpoint/thistletop/goblin_nursery.png)
+* D3: [Goblin Nursery](^sandpoint/thistletop/goblin_nursery.jpg)
   * [Goblin baby](^sandpoint/thistletop/goblin_baby.jpg), [Goblin child](^sandpoint/thistletop/goblin_child.jpg), [Goblin baby (terrifying)](^sandpoint/thistletop/goblin_baby_terrifying.jpg)
+  * [Trapped Mouse](^sandpoint/thistletop/trapped_mouse.jpg) in a tiny cage, actually [Gogmurt](^sandpoint/thistletop/gogmurt.jpg) wildshaped ([[npc cr=2|race=Goblin|role=Healer|weapon=Flame Blade]])
+  * What Gogmurt thinks of the goings-on in Thistletop:
+      * Thistletop is an ancient home to a goblin god named "Malfeshnekor" who speaks only to the wisest and bravest and important goblins. 
+      * Malfeshnekor has not spoken to Ripnugget, which got a lot of goblins killed when they pointed it out.
+      * Gogmurt can feel his presence underneath Thistletop, and is drawn to the place like goblin shamans have been for years and years and years.
+      * Ripnugget was enchanted by skinny, white-haired longshanks (Nualia), and is being all stupid gooey-headed and dragging the whole tribe down with him.
+      * Nualia claims Malfeshnekor speaks directly to her. Stupid! Stupid and false! Malfeshnekor only speaks to goblins, and only in thoughts and feelings and dreams.
+      * Gogmurt doesn't trust Nualia, but Ripnugget nearly had him killed for saying so.
+      * He was slinking around the area, spying on the other longshanks Nualia showed up with, but was captured by Lyrie one day who just put him on a shelf in the nursery to starve.
+      * Gogmurt wants Ripnugget dead, and will be thrilled to learn he's gone. 
+      * He wants the PCs to leave Thistletop alone, and will tolerate their presence just long enough for them to kill Nualia and the other longshanks.
+      * If asked to help fight, he will "agree" if he thinks it will get the party to move on and kill his enemies, but will always find and excuse to stay back and do nothing.
 * D4a: [Tsuto's Chambers](^sandpoint/thistletop/tsutos_chambers.png)
   * [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=3|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
+      * [Closeup](^sandpoint/thistletop/tsuto_kaijitsu_burned_closeup.jpg)
       * Loot: shortbow with arrows, thieves' tools, silver earrings (25 gp for the pair), [Potion of Healing](/dnd/equipment/magic-item/Potion of Healing) (10 or 2d4 + 2)
 * D4b: [Orik's Chambers](^sandpoint/thistletop/oriks_chambers.png)
   * [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=3|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
+      * [Alt pic](^sandpoint/thistletop/orik_vancaskerkin2.jpg)
       * Loot: longbow with arrows, longsword, shield, chain mail, [Mystery Key](/dnd/equipment/magic-item/mystery-key), 15 gp
 * D4c: [Lyrie's Chambers](^sandpoint/thistletop/lyries_chambers.png)
+  * Locked with an [Arcane Lock](/dnd/spell/Arcane Lock) that only Lyrie can open. DC 20 to break open.
   * Loot: [Everburning Candle](/dnd/spell/continual-flame)
 * D4d: [Bruthazmus' Chambers](^sandpoint/thistletop/bruthazmus_chambers.png)
-* D5: [Nualia's Chambers](^sandpoint/thistletop/nualias_chambers.png)
-* D6: [Storage Room](^sandpoint/thistletop/storage_room.png)
+* D5: [Nualia's Chambers](^sandpoint/thistletop/nualias_chambers.jpg)
+* D6: [Storage Room](^sandpoint/thistletop/storage_room.jpg)
 * D7: [Tentamort Hunting Grounds](^sandpoint/thistletop/tentamort_hunting_grounds.png)
-  * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=4|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
-* D8: [Tentamort Lair](^sandpoint/thistletop/tentamort_lair.png)
+  * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=3|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
+* D8: [Tentamort Lair](^sandpoint/thistletop/tentamort_lair.jpg)
 * D9: [Prison](^sandpoint/thistletop/prison.jpg)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg), stripped to her underclothes. Suffering from pneumonia due to smoke inhalation, she has a 50% chance every round she tries to take an action to be incapacitated by coughing fits. She has only 5 hit points.
 * D10: [Brunkel's Lair](^sandpoint/thistletop/brunkels_lair.png)
@@ -115,11 +135,31 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Music]($load|music|arr/Dark Vows.mp3)
 * D12: [Chapel to Lamashtu](^sandpoint/thistletop/chapel_to_lamashtu.jpg)
   * [Lamashtu](^sandpoint/thistletop/lamashtu.png)
-  * [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
+  * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
 * D13: [Goblin Art Gallery](^sandpoint/thistletop/goblin_art_gallery.jpg)
 * D14: [War Room](^sandpoint/thistletop/war_room.jpg)
 * D15: [Research Room](^sandpoint/thistletop/research_room.jpg)
   * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=3|name=Lyrie|role=Mage]])
       * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
       * Loot: Dagger, silver comb (25 gp), fine silk gown (60 gp), small pouch of artifacts (hair, fingernail clipping, used handkerchiefs, pearl earring worth 50 gp) stolen from Tsuto, [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment), 16 gp
-      * [Old pic](^sandpoint/thistletop/lyrie_akenja.png)
+      * [Old pic](^sandpoint/thistletop/lyrie_akenja.png), [Alt pic](^sandpoint/thistletop/lyrie_akenja3.jpg)
+
+### Dungeon Level 2
+
+> Cracks line the walls here and there, and while the first few rooms are fairly clean, dust and rubble clutter areas **E6-E10**. Spiderwebs clutter the corners of the rooms. Areas **E1-E4** are lit by lanterns left on the floor by Nualia and her minions, but areas **E5-E10** are unlit unless otherwise indicated.
+> 
+> This entire level is sloped downward toward the west, though it doesn't appreciably impact movement. Air quality in these chambers is surprisingly good, and the temperature never varies from a comfortable 60° F. _Detect magic_ reveals this as a faint transmutation aura.
+
+* E1: [Ancient Door](^sandpoint/thistletop/ancient_door.jpg)
+* E2: [Statue Hall](^sandpoint/thistletop/statue_hall.jpg)
+* E3: [Trapped Hall](^sandpoint/thistletop/trapped_hall.jpg)
+  * Trap: [[npc cr=3|role=Trap]]
+* E4: [Observation Deck](^sandpoint/thistletop/observation_deck.jpg)
+  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4]])
+    * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.jpg), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg), 
+  * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
+* E5: [Portal of Greed](^sandpoint/thistletop/portal_of_greed.jpg)
+* E6: [Crypt](^sandpoint/thistletop/crypt.jpg)
+* E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
+  * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
+  * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=3|race=Tentamort]])

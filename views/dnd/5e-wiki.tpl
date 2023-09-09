@@ -89,6 +89,7 @@
 * [[[general:Combat]]]
 * [[[general:Spellcasting Rules]]]
 * [[[general:Conditions]]]
+* [[[general:Homebrew]]]
 * [[[general:Exploration Activities]]]
 * [[[general:Downtime Activities]]]
 * [[[general:Sidekicks]]]
