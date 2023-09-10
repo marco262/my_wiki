@@ -1,6 +1,6 @@
 ### Next session
 
-* There are 7 keys Ripnugget's keyring (more keys = more important)
+* There are 7 keys on Ripnugget's keyring (more keys = more important)
   * 2x Throne room (C19)
   * Food Storage (C20)
   * Chief's bedroom (C23)
@@ -10,11 +10,15 @@
 * Set up game room lights for the first dungeon level
   * Main dungeon rooms
   * Temple of Lamashtu
-* Why exactly did Gogmurt get locked up as a mouse?
 * Figure out how much Nualia et al have communicated with Malfeshnekor, and what they know about it
 * Finish finding pictures and audio for Thistletop B2
 * Stat up Nualia and Malfeshnekor
 * Determine loot for the Collapsed Treasury
+  * How much is the giant helmet?
+* Make loot lists for:
+  * Transmutation room
+* Make loot card for:
+  * Sihedron key
 
 ### Player Plans
 

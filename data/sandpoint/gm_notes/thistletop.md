@@ -163,3 +163,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
   * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
   * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=3|race=Tentamort]])
+* E8: [Communication Room](^sandpoint/thistletop/communication_room.jpg)
+  * [Statues](^sandpoint/thistletop/karzoug_statue.png)
+  * [Ghostly Image](^sandpoint/thistletop/ghost_karzoug.jpg)
+* E9: [Transmutation Room](^sandpoint/thistletop/transmutation_room.jpg)
