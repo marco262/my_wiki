@@ -7,20 +7,16 @@
   * Treasure Chest in C24
   * Goblin Harem (D2)
   * Goblin Nursery (D3)
-* Set up game room lights for the first dungeon level
-  * Main dungeon rooms
-  * Temple of Lamashtu
-* Figure out how much Nualia et al have communicated with Malfeshnekor, and what they know about it
-* Finish finding pictures and audio for Thistletop B2
-* Stat up Nualia and Malfeshnekor
-* Determine loot for the Collapsed Treasury
-  * How much is the giant helmet?
-* Make loot lists for:
-  * Transmutation room
-* Make loot card for:
-  * Sihedron key
+* Check how long oil burns when lit on fire (2 rounds)
+* Finish adding doors to the map
+* Figure out what Tsuto et al will do now that the alarm is raised
 
 ### Player Plans
+
+* Check the papers (Tsuto's rough drafts for his blackmail)
+* Sneak around to the war room and loot the intel
+* Loot the Research Room if it's safe
+* Alathea posts up next to stairwell 2 to keep watch
 
 ### Pre-session checklist
 
@@ -35,10 +31,28 @@
 * Ask for party leader!
 * Recap
 
+### Todo
+
+* Set up game room lights for the first dungeon level
+  * Main dungeon rooms
+  * Temple of Lamashtu
+* Figure out how much Nualia et al have communicated with Malfeshnekor, and what they know about it
+* Finish finding pictures and audio for Thistletop B2
+* Stat up Nualia and Malfeshnekor
+* Determine loot for the Collapsed Treasury
+  * How much is the giant helmet?
+* Make loot lists for:
+  * Transmutation room
+* Make loot card for:
+  * Sihedron key
+* Find some pre-session music and a pre-session visual aid
+* 
+
 ### Reminders
 
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
 * Use 3 minute combat timer!
+* Tell the players what the DCs are of checks they do
 
 ### Notes for the Future
 
@@ -71,11 +85,13 @@ Rusty: Searching
 
 # Initiative
 
-| Name    | Per | Inv | #  | HP |
-|---------|-----|-----|----|----|
-| Goblin  | 13  | 11  | 18 | 12 |
-| Rusty   | 10  | 13  | 17 |    |
-| Delfi   | 12  | 10  | 17 |    |
-| Grog    | 13  | 10  | 16 |    |
-| Althaea | 14  | 11  | 12 |    |
-| Lyse    | 13  | 11  | 9  |    |
+| Name               | Per | Inv | #  | HP |
+|--------------------|-----|-----|----|----|
+| Althaea            | 14  | 11  | 21 |    |
+| Lyse               | 13  | 11  | 21 |    |
+| Bruthazmus (Black) |     |     | 21 |    |
+| Tsuto       (Star) |     |     | 16 | 6  |
+| Delfi              | 12  | 10  | 15 |    |
+| Grog               | 13  | 10  | 14 |    |
+| Rusty              | 10  | 13  | 11 |    |
+| Orik       (White) |     |     | 3  |    |
