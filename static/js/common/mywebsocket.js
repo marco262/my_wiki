@@ -13,8 +13,8 @@ export class MyWebsocket {
 
     load_websocket(obj) {
         let loc = window.location;
-        // let ws_uri = (loc.protocol === "https:") ? "wss:" : "ws:";
-        let ws_uri = `ws://${loc.host}${obj.websocket_uri}`;
+        let ws_uri = (loc.protocol === "https:") ? "wss:" : "ws:";
+        ws_uri += `//${loc.host}${obj.websocket_uri}`;
         obj.ws = new WebSocket(ws_uri);
         obj.set_hooks(obj);
         console.log(`Loaded websocket: ${ws_uri}`);
