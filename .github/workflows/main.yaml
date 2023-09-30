@@ -8,5 +8,5 @@ jobs:
       - name: Restart Server
         uses: fjogeleit/http-request-action@master
         with:
-            url: 'http://mywiki.zapto.org/load_changes'
+            url: 'https://wiki.harebrained.dev/load_changes'
             method: 'GET'
