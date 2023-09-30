@@ -2,6 +2,8 @@
 <head>
     <title>{{title}} - Private 5e Wiki</title>
     <link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+    <link rel="preload" href="/media/img/vellum-plain-background-repeating.jpg" as="image" />
+    <link rel="preload" href="/media/img/Banner.jpg" as="image" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2XK16KVEW"></script>
