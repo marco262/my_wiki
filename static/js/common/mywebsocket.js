@@ -17,7 +17,7 @@ export class MyWebsocket {
         ws_uri += `//${loc.host}${obj.websocket_uri}`;
         obj.ws = new WebSocket(ws_uri);
         obj.set_hooks(obj);
-        console.log(`Loaded websocket`);
+        console.log(`Loaded websocket: ${ws_uri}`);
     }
 
     set_hooks(obj) {
