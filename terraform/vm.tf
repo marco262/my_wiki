@@ -23,6 +23,7 @@ resource "google_compute_instance" "my_wiki" {
     }
   }
   tags = [
+    "http-server",
     "https-server",
   ]
   scheduling {
@@ -40,6 +41,13 @@ resource "google_compute_instance" "my_wiki" {
       "https://www.googleapis.com/auth/service.management.readonly",
       "https://www.googleapis.com/auth/servicecontrol",
       "https://www.googleapis.com/auth/trace.append",
+    ]
+  }
+
+  # When updating the instance, don't wipe out any SSH keys that have been established
+  lifecycle {
+    ignore_changes = [
+      metadata["ssh-keys"]
     ]
   }
 }

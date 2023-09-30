@@ -51,7 +51,7 @@ server {
 Then, create a symbolic link to this configuration in the sites-enabled directory:
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/your-app.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/my_wiki /etc/nginx/sites-enabled/
 ```
 
 Ensure there are no syntax errors in your Nginx configuration:
@@ -125,3 +125,14 @@ gcloud auth application-default login
 * Attach to session: `tmux a`
 * Detach from session: Ctrl-b, d
 * Kill session: `tmux kill-ses -t my-wiki`
+
+## Media files
+
+Media files are not pulled down from GitHub by the intended installation (see `startup_script.sh`). 
+Instead, media files requests are redirected to the my-wiki cloud bucket, where all files should be manually copied.
+
+To automatically sync your local media/ directory with the bucket:
+
+```bash
+gsutil -m rsync -r media/ gs://upheld-setting-362218-my-wiki/media/
+```
