@@ -142,6 +142,9 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/visual_aid_websocket', apply=[websocket])
     def visual_aid_websocket(ws):
         global visual_aid_url, websocket_list
+        print(request)
+        print(dict(request.headers))
+        print(ws)
         ws.send(dumps({
             "action": visual_aid_type, "url": visual_aid_url, "title": visual_aid_title, "version": visual_aid_version
         }))
