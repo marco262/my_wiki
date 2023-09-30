@@ -28,3 +28,4 @@ export RUNNING_IN_CLOUD=true
 
 python3 -m pip install -r requirements.txt
 cp config.ini.dist config.ini
+
