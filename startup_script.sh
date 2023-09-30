@@ -7,6 +7,7 @@ git config --global pull.rebase true
 git init my_wiki
 cd my_wiki
 git remote add -f origin https://github.com/marco262/my_wiki.git
+git branch --set-upstream-to=origin/master master
 
 git sparse-checkout set \
   "data/" \
