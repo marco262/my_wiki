@@ -1,5 +1,5 @@
 start:
-	tmux new-session -d -s "my-wiki" "python3 main.py"
+	tmux new-session -s "my-wiki" "python3 main.py"
 view:
 	tmux a
 stop:
