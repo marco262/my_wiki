@@ -83,7 +83,7 @@ def load_wsgi_endpoints(app: Bottle):
         if os.getenv("RUNNING_IN_DOCKER") == "True":
             redirect("https://marco262.github.io/my_wiki/media/" + path)
         elif os.getenv("RUNNING_IN_CLOUD"):
-            redirect("https://storage.cloud.google.com/upheld-setting-362218-my-wiki/media/" + path)
+            redirect("https://storage.googleapis.com/upheld-setting-362218-my-wiki/media/" + path)
         else:
             return static_file(path, root="media")
 
