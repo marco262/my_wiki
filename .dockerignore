@@ -4,6 +4,7 @@
 backup/
 media/
 scripts/
+terraform/
 tests/
 venv/
 

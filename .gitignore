@@ -1,6 +1,7 @@
+.idea/
 venv/
+.terraform/
 
-.idea
 *.ini
 *.lock
 *___jb_old___

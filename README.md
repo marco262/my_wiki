@@ -108,6 +108,15 @@ host = localhost
 port = 8080
 ```
 
+## Terraform
+
+Some initial setup is required to allow yourself to run terraform.
+
+```bash
+gcloud config set project upheld-setting-362218
+gcloud auth application-default login
+```
+
 # Usage
 
 ## Debian
