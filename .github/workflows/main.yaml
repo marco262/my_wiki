@@ -8,5 +8,5 @@ jobs:
       - name: Restart Server
         uses: fjogeleit/http-request-action@master
         with:
-            url: '$DOMAIN/load_changes'
+            url: '${{ secrets.DOMAIN }}/load_changes'
             method: 'GET'
