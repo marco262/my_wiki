@@ -10,6 +10,7 @@ resource "google_compute_instance" "my_wiki" {
   machine_type = "e2-micro"
   boot_disk {
     device_name = "my-wiki"
+    auto_delete = false
     initialize_params {
       image = "debian-cloud/debian-11"
       type  = "pd-standard"
@@ -28,9 +29,9 @@ resource "google_compute_instance" "my_wiki" {
   ]
   scheduling {
     automatic_restart           = false
-    instance_termination_action = "STOP"
-    preemptible                 = true
-    provisioning_model          = "SPOT"
+#    provisioning_model          = "SPOT"
+#    preemptible                 = true
+#    instance_termination_action = "STOP"
   }
   service_account {
     email  = "8096397005-compute@developer.gserviceaccount.com"
