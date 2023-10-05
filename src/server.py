@@ -21,7 +21,8 @@ class Server:
     server_thread = None
     interval = None
 
-    def __init__(self, host=None, port=None, log_level=None, run_as_thread=None, debug=False):
+    def __init__(self, host: str = None, port: int = None, log_level: str = None, run_as_thread: bool = False,
+                 debug: bool = False):
         self._get_process_lock()
 
         cfg = load_config()
@@ -42,7 +43,7 @@ class Server:
         self._init_server(
             host=cfg.get("Settings", "host") if host is None else host,
             port=cfg.getint("Settings", "port") if port is None else port,
-            run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is None else run_as_thread,
+            run_as_thread=cfg.getboolean("Settings", "run as thread") if run_as_thread is False else run_as_thread,
             debug=debug
         )
 

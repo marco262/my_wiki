@@ -120,9 +120,23 @@ port = 8080
 Some initial setup is required to allow yourself to run terraform.
 
 ```bash
-gcloud config set project upheld-setting-362218
+gcloud config set project <project-id>
 gcloud auth application-default login
 ```
+
+# Configuration
+
+## Externally hosted media files
+
+The server supports either storing media files locally and hosting them from the same machine that the service is running on, or it can return a redirect an externally hosted file source, like a Google Cloud Bucket. If you wish to use an external file source, set the `media bucket` config setting to the URL of the root directory where all the media files are stored. e.g. https://storage.googleapis.com/<bucket-id>/media/
+
+Note that this will not prevent the media files from being pulled down by a git clone. If you wish to avoid that, see the `startup_script.sh` for how to do a sparse checkout.
+
+## Auto-update
+
+The wiki supports automatically pulling down updates to the live server whenever a change is pushed to GitHub. To enable that, create a GitHub Respository Secret named `DOMAIN` with the domain where the server is hosted. e.g. https://your.server.com (no trailing slash)
+
+Whenever a change is pushed to GitHub, a GitHub Action will fire that will hit the `/load_changes` endpoint at that domain, which should trigger the server to pull down any changes to the `master` branch and restart if needed.
 
 # Usage
 
@@ -141,5 +155,5 @@ Instead, media files requests are redirected to the my-wiki cloud bucket, where 
 To automatically sync your local media/ directory with the bucket:
 
 ```bash
-gsutil -m rsync -r media/ gs://upheld-setting-362218-my-wiki/media/
+gsutil -m rsync -r media/ gs://<bucket-id>/media/
 ```

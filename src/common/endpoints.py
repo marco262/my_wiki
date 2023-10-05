@@ -5,6 +5,7 @@ from json import dumps, load, dump
 from threading import Thread
 from time import ctime
 from typing import Optional
+from urllib.parse import urljoin
 
 import bcrypt
 from bottle import static_file, Bottle, view, request, auth_basic, redirect, response
@@ -18,6 +19,7 @@ START_TIME = None
 # Default password: dancinglikeastripper
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
+MEDIA_BUCKET = ""
 
 visual_aid_type = "visual_aid"
 visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
@@ -31,7 +33,7 @@ volume_control_lock = threading.Lock()
 
 
 def init(cfg):
-    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
+    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings, MEDIA_BUCKET
     START_TIME = ctime()
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
@@ -40,6 +42,7 @@ def init(cfg):
             volume_settings = load(f)
     else:
         volume_settings = {"music": 1.0, "ambience": 1.0, "effect": 1.0}
+    MEDIA_BUCKET = cfg.get("Settings", "media bucket")
 
 
 def save_volume_settings(params: dict):
@@ -78,12 +81,8 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/media/<path:path>", name="media")
     def media(path):
-        # print(f'RUNNING_IN_DOCKER={repr(os.getenv("RUNNING_IN_DOCKER"))}')
-        # print(f'RUNNING_IN_CLOUD={repr(os.getenv("RUNNING_IN_CLOUD"))}')
-        if os.getenv("RUNNING_IN_DOCKER") == "True":
-            redirect("https://marco262.github.io/my_wiki/media/" + path)
-        elif os.getenv("RUNNING_IN_CLOUD"):
-            redirect("https://storage.googleapis.com/upheld-setting-362218-my-wiki/media/" + path)
+        if MEDIA_BUCKET:
+            redirect(urljoin(MEDIA_BUCKET, path))
         else:
             return static_file(path, root="media")
 

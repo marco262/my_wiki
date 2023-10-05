@@ -4,8 +4,8 @@ from time import sleep
 from src.server import Server
 
 parser = ArgumentParser()
-parser.add_argument('-d', '--debug', action="store_true")
-parser.add_argument('-w', '--disable-watchdog', action="store_true")
+parser.add_argument("-d", "--debug", action="store_true")
+parser.add_argument("-w", "--disable-watchdog", action="store_true")
 args = parser.parse_args()
 
 while True:

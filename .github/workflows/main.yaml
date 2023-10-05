@@ -8,5 +8,5 @@ jobs:
       - name: Restart Server
         uses: fjogeleit/http-request-action@master
         with:
-            url: 'https://wiki.harebrained.dev/load_changes'
+            url: '$DOMAIN/load_changes'
             method: 'GET'
