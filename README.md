@@ -34,16 +34,34 @@ sudo apt-get install nginx certbot python3-certbot-nginx
 Create a new file nginx file at `/etc/nginx/sites-available/my_wiki` with the following configuration:
 
 ```bash
+upstream wiki {
+    server localhost:8080;  # Change to your Bottle server's port
+    keepalive 32;
+}
 server {
     listen 80;
     server_name subdomain.your-domain.com;
 
     location / {
         proxy_pass http://localhost:8080;  # Change to your Bottle server's port
+        proxy_http_version 1.1;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
+    }    
+
+    location /visual_aid_websocket {
+        proxy_pass http://localhost:8080;  # Change to your Bottle server's port
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Connection $http_connection;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_connect_timeout 3600s;
+        proxy_read_timeout 3600s;
     }
 }
 ```
@@ -66,42 +84,7 @@ Obtain SSL/TLS certificate using certbot
 sudo certbot --nginx -d subdomain.your-domain.com --key-type ecdsa
 ```
 
-After obtaining the certificate, Certbot should automatically update your Nginx configuration to handle HTTPS traffic. If not, you can update your server block in the Nginx configuration file to include the SSL settings:
-
-```nginx
-server {
-    listen 80;
-    server_name subdomain.your-domain.com;
-    return 301 https://$host$request_uri;
-}
-
-server {
-    listen 443 ssl;
-    server_name subdomain.your-domain.com;
-
-    ssl_certificate /etc/letsencrypt/live/subdomain.your-domain.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/subdomain.your-domain.com/privkey.pem;
-
-    # Additional SSL settings go here
-    location / {
-        proxy_pass http://localhost:8080;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-    # Required for websockets to work
-    location /visual_aid_websocket {
-        proxy_pass http://localhost:8080;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection $connection_upgrade;
-        proxy_set_header Host $host;
-    }
-}
-```
-
-Test your Nginx configuration again and restart Nginx:
+After obtaining the certificate, Certbot should automatically update your Nginx configuration to handle HTTPS traffic. Test your Nginx configuration again and restart Nginx:
 
 ```bash
 sudo nginx -t
