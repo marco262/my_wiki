@@ -16,6 +16,7 @@
   * She has talked with Malfeshnekor only in her dreams, and has told him that her god has given her the task to break the binding and take him under her control.
   * Malfeshnekor is just happy someone is working to free him from his binding.
   * She's trying to work out how to perform the ritual shown to her by Lamashtu to remove the binding spell that's keeping Malfeshnekor trapped in that room. [link](https://paizo.com/threads/rzs2t67q?Is-Nualia-dumb#2)
+* It is Lyse's turn (see below)
 
 ### Player Plans
 
@@ -26,7 +27,7 @@
 
 ### Pre-session checklist
 
-* Re-explain basic concepts
+* Quiz players on the basic concepts/provide examples
   * Skill checks, saves, and attack rolls
   * Damage and critical hits
   * Action, bonus action, movement, reactions
@@ -42,18 +43,13 @@
 * Finish finding pictures and audio for Thistletop B2
 * Refresh yourself on NPCs' abilities, tactics, and motivations
 * Set up game room lights for the first dungeon level
-  * Main dungeon rooms
-  * Temple of Lamashtu
   * Malfeshnekor's Prison
 * Create loot bags for
   * Collapsed Treasury (291 gp)
-  * Nualia (7 gp, 5 sp)
-  * Bruthazmus (11 sp)
-  * Tsuto (21 cp)
-  * Orik (16 sp)
-  * Lyrie (60 gp)
-* Pick out minis for Mercenaries, Nualia, Tentamort, Shadows, Crab, and Malfeshnekor 
+* Pick out minis for Mercenaries, Nualia, Shadows, Crab
+* Fix alignment of Thistletop map
 * Write up journal entries for Nualia <https://ckoriks-rise-of-the-runelords.obsidianportal.com/items/nualia-s-journal>
+* Add mini for Lyrie's familiar
 
 ### Reminders
 
@@ -92,13 +88,15 @@ Rusty: Searching
 
 # Initiative
 
-| Name               | Per | Inv | #  | HP |
-|--------------------|-----|-----|----|----|
-| Althaea            | 14  | 11  | 21 |    |
-| Lyse               | 13  | 11  | 21 |    |
-| Bruthazmus (Black) |     |     | 21 |    |
-| Tsuto       (Star) |     |     | 16 | 6  |
-| Delfi              | 12  | 10  | 15 |    |
-| Grog               | 13  | 10  | 14 |    |
-| Rusty              | 10  | 13  | 11 |    |
-| Orik       (White) |     |     | 3  |    |
+| Name           | Per | Inv | #  | HP      |
+|----------------|-----|-----|----|---------|
+| Tsuto      (Y) |     |     | 19 | 0 / 40  |
+| Rusty          | 10  | 13  | 16 |         |
+| Lyse           | 13  | 11  | 19 |         |
+| Nualia     (W) |     |     | 14 | 0 / 75  | Will yell for Ripnugget
+| Yeth Hound     |     |     | 14 | 8 / 51  |
+| Lyrie      (R) |     |     | 12 | 0 / 45  |
+| Delfi          | 12  | 10  | 11 |         |
+| Althaea        | 14  | 11  | 10 |         |
+| Grog           | 13  | 10  | 9  |         |
+| Orik       (B) |     |     | 11 | 38 / 60 | -10 feet
