@@ -24,6 +24,7 @@ export class MyWebsocket {
         obj.ws.onopen = () => {
             // Set onclose hook only after the websocket has successfully been opened
             obj.ws.onclose = () => obj.on_websocket_close(obj);
+            obj.websocket_errors = 0;
         }
         obj.ws.onmessage = (msg) => {
             let error_msg = document.getElementById("error-message");
@@ -40,17 +41,19 @@ export class MyWebsocket {
         console.error(error);
         obj.quiet_close(obj.ws);
         obj.websocket_errors += 1;
-        if (obj.websocket_errors >= obj.max_websocket_errors) {
+        if (obj.websocket_errors > obj.max_websocket_errors) {
             let error_msg = document.getElementById("error-message");
             if (error_msg !== null) {
-                error_msg.innerText = `Failed to connect to WebSocket after ${obj.websocket_errors} attempts. ` +
+                error_msg.innerText = `Failed to reconnect to WebSocket after ${obj.max_websocket_errors} attempts. ` +
                     `Please reload page to try again.`;
                 error_msg.hidden = false;
             }
             return;
         }
-        console.log("Reconnecting in 5 seconds...");
-        setTimeout(obj.load_websocket, 5000, obj);
+        let reconnect_timer = obj.websocket_errors < 2 ? 0 : 5000;
+        console.log(`Reconnecting in ${reconnect_timer} ms...`);
+        // Try to reconnect immediately if it's
+        setTimeout(obj.load_websocket, reconnect_timer, obj);
     }
 
     on_websocket_close(obj) {
