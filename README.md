@@ -133,9 +133,9 @@ Whenever a change is pushed to GitHub, a GitHub Action will fire that will hit t
 ## Media files
 
 Media files are not pulled down from GitHub by the intended installation (see `startup_script.sh`). 
-Instead, media files requests are redirected to the my-wiki cloud bucket, where all files should be manually copied.
+Instead, media file requests are redirected to the my-wiki cloud bucket, where all files should be manually copied.
 
-To automatically sync your local media/ directory with the bucket:
+To automatically sync your local `media/` directory with the bucket:
 
 ```bash
 gsutil -m rsync -r media/ gs://<bucket-id>/media/

@@ -23,11 +23,5 @@ git sparse-checkout set \
 
 git pull origin master
 
-{
-  echo "";
-  echo "# Needed by the server to know when to pull media files from the GCP bucket rather than local storage";
-  echo "export RUNNING_IN_CLOUD=true";
-} >> .bashrc
-
 python3 -m pip install -r requirements.txt
 cp config.ini.dist config.ini
