@@ -24,7 +24,10 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Brambles]($load|music|arr/BGM_LoV_Boss04.mp3)
   * [Thistletop]($load|music|arr/BGM_EX3_MYC_03.mp3)
   * [Thistletop B1]($load|music|arr/BGM_EX2_Dan_D01.mp3)
+  * [Thistletop B2]($load|music|arr/BGM_EX3_Dan_D04.mp3)
   * [Lamashtu]($load|music|arr/Dark Vows.mp3)
+  * [Malfeshnekor]($load|music|arr/BGM_Con_CrystalTower_01-03.mp3)
+  * [Thassilon]($load|music|arr/BGM_Event_Ascian.mp3)
 * Goblins
   * [Scheming and quirky, a little Indian inspired]($load|music|arr/BGM_Field_BanColony_Kobold.mp3)
   * [Fae-inspired, non-threatening]($load|music|arr/BGM_Field_BanColony_Sylph.mp3)
@@ -38,6 +41,22 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Standard 1]($load|music|arr/BGM_Battle_Dungeon_01.mp3)
   * [Standard 2]($load|music|arr/BGM_Battle_Dungeon_02.mp3)
   * [Awesome]($load|music|arr/BGM_EX2_Dan_D11.mp3)
+
+## NPCs
+
+* [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
+* [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=3|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
+    * [Closeup](^sandpoint/thistletop/tsuto_kaijitsu_burned_closeup.jpg)
+* [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=3|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
+    * [Alt pic](^sandpoint/thistletop/orik_vancaskerkin2.jpg)
+* [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=3|name=Lyrie|role=Mage]])
+    * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
+    * [Old pic](^sandpoint/thistletop/lyrie_akenja.png), [Alt pic](^sandpoint/thistletop/lyrie_akenja3.jpg)
+* [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
+  * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg), [6](^sandpoint/thistletop/nualia_8.jpg)
+  * [Sihedron medallion](^sandpoint/sihedron_medallion.png)
+* 3x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
+
 
 ## Places
 
@@ -155,15 +174,26 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * E3: [Trapped Hall](^sandpoint/thistletop/trapped_hall.jpg)
   * Trap: [[npc cr=3|role=Trap]]
 * E4: [Observation Deck](^sandpoint/thistletop/observation_deck.jpg)
-  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4]])
-    * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.jpg), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg), 
+  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
+    * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg)
+    * Loot: Breastplate, Sword of Vengeance, longbow with 20 arrows, [Sihedron medallion](^sandpoint/sihedron_medallion.png), gold holy symbol of Lamashtu (100 gp)
   * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
 * E5: [Portal of Greed](^sandpoint/thistletop/portal_of_greed.jpg)
 * E6: [Crypt](^sandpoint/thistletop/crypt.jpg)
+  * 3x [Shadow](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
   * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
-  * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=3|race=Tentamort]])
+  * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=3|race=Crab]])
+  * Treasure: 2100 cp, 1500 sp, 50 gp, 7x gems each worth (10 gp) = 291 gp
+      * The gold giant helmet is worth 500 gp if it can be hauled out (it weighs 300 lbs)
 * E8: [Communication Room](^sandpoint/thistletop/communication_room.jpg)
+  * [Ambience]($load|ambience|sandpoint/spookylatin_take4.mp3)
   * [Statues](^sandpoint/thistletop/karzoug_statue.png)
   * [Ghostly Image](^sandpoint/thistletop/ghost_karzoug.jpg)
 * E9: [Transmutation Room](^sandpoint/thistletop/transmutation_room.jpg)
+* E10: Malfeshnekor's Prison
+  * [Door](^sandpoint/thistletop/malfeshnekors_prison_door.png)
+  * [Sihedron Rune](^sandpoint/sihedron.jpg)
+  * [Interior](^sandpoint/thistletop/malfeshnekors_prison.png)
+    * Note: The everburning candles are an illusion, not magic items
+  * [Malfeshnekor](^sandpoint/thistletop/barghest.png) ([stats](https://5e.tools/bestiary.html#barghest_mpmm,scaled:7))

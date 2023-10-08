@@ -225,7 +225,6 @@ Different fighters choose different approaches to perfecting their fighting prow
 ## Homebrew
 
 * [[[subclass:Champion, Revised]]]
-* [[[subclass:Monster Hunter, Revised]]]
 
 ----
 

@@ -75,6 +75,18 @@
       "***Hellish Rebuke (1/day).*** When the tiefling takes damage from a creature within 60 feet that he can see, he can lash out with hellish flames. The creature must make a Dexterity saving throw (DC {save_dc}). It takes {damage} fire damage on a failed save, or half as much damage on a successful one."
     ]
   },
+  "Aasimar": {
+    "damage_resistances": [
+      "necrotic",
+      "radiant"
+    ],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "actions": [
+      "***Healing Hands (1/day).*** The aasimar can touch a creature and cause it to regain a number of hit points equal to her level."
+    ]
+  },
   "Aarakocra": {
     "speed": "20 ft., fly 50 ft.",
     "special_abilities": [

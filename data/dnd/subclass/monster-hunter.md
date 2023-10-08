@@ -2,6 +2,30 @@
 
 As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror.
 
+| Level | Proficiency<br>Bonus | Features                                                    | # of<br>Attacks | Action<br>Surge Uses | Indomitable<br>Uses | Superiority<br>Dice |
+|-------|----------------------|-------------------------------------------------------------|-----------------|----------------------|---------------------|---------------------|
+| 1st   | +2                   | Fighting Style, Second Wind                                 | 1               | --                   | --                  | --                  |
+| 2nd   | +2                   | Action Surge (one use)                                      | 1               | **1**                | --                  | --                  |
+| 3rd   | +2                   | Bonus Proficiencies, Combat Superiority, Hunter's Mysticism | 1               | 1                    | --                  | **4d8**             |
+| 4th   | +2                   | Ability Score Improvement                                   | 1               | 1                    | --                  | 4d8                 |
+| 5th   | +3                   | Extra Attack                                                | **2**           | 1                    | --                  | 4d8                 |
+| 6th   | +3                   | Ability Score Improvement                                   | 2               | 1                    | --                  | 4d8                 |
+| 7th   | +3                   | Monster Slayer, Extra Superiority Die                       | 2               | 1                    | --                  | **5d8**             |
+| 8th   | +3                   | Ability Score Improvement                                   | 2               | 1                    | --                  | 5d8                 |
+| 9th   | +4                   | Indomitable (one use)                                       | 2               | 1                    | **1**               | 5d8                 |
+| 10th  | +4                   | Improved Combat Superiority                                 | 2               | 1                    | 1                   | **5d10**            |
+| 11th  | +4                   | Extra Attack (2)                                            | **3**           | 1                    | 1                   | 5d10                |
+| 12th  | +4                   | Ability Score Improvement                                   | 3               | 1                    | 1                   | 5d10                |
+| 13th  | +5                   | Indomitable (2 uses)                                        | 3               | 1                    | **2**               | 5d10                |
+| 14th  | +5                   | Ability Score Improvement                                   | 3               | 1                    | 2                   | 5d10                |
+| 15th  | +5                   | Relentless, Extra Superiority Die                           | 3               | 1                    | 2                   | **6d10**            |
+| 16th  | +5                   | Ability Score Improvement                                   | 3               | 1                    | 2                   | 6d10                |
+| 17th  | +6                   | Action Surge (two uses), Indomitable (three uses)           | 3               | **2**                | **3**               | 6d10                |
+| 18th  | +6                   | Improved Combat Superiority                                 | 3               | 2                    | 3                   | **6d12**            |
+| 19th  | +6                   | Ability Score Improvement                                   | 3               | 2                    | 3                   | 6d12                |
+| 20th  | +6                   | Extra Attack (3)                                            | **4**           | 2                    | 3                   | 6d12                |
+<sup>**Bold** numbers are when that ability improves</sup>
+
 ## Bonus Proficiencies
 
 When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception. You can gain proficiency with a tool of your choice in place of one skill choice.

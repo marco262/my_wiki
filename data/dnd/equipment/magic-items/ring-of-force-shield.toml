@@ -1,0 +1,12 @@
+name = "Ring of Force Shield"
+type = "Ring"
+subtype = ""
+rarity_type = "Major"
+rarity = "Uncommon"
+attunement = false
+classes = []
+notes = ""
+source = "Homebrew"
+description = """
+While wearing this ring, you can cast [shield of faith](/dnd/spell/Shield of Faith). The shield appears as a flat, shield-sized wall of force magic that floats around you, turning at your mental command to block any incoming attacks. Once used, the ring can't be used again until the next dawn.
+"""

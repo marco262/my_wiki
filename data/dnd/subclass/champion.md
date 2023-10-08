@@ -4,27 +4,28 @@ The archetypal Champion focuses on the development of raw physical power honed t
 
 # Champion
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ # of<br>Attacks ||~ Action<br>Surge Uses ||~ Indomitable<br>Uses ||~ Fighting<br>Styles ||~ Critical<br>Range ||
-|| 1st || +2 || Fighting Style, Second Wind || 1 || -- || -- || 1 || 20 ||
-|| 2nd || +2 || Action Surge (one use) || 1 || **1** || -- || 1 || 20 ||
-|| 3rd || +2 || Improved Critical || 1 || 1 || -- || 1 || **19-20** ||
-|| 4th || +2 || Ability Score Improvement || 1 || 1 || -- || 1 || 19-20 ||
-|| 5th || +3 || Extra Attack || **2** || 1 || -- || 1 || 19-20 ||
-|| 6th || +3 || Ability Score Improvement || 2 || 1 || -- || 1 || 19-20 ||
-|| 7th || +3 || Remarkable Athlete || 2 || 1 || -- || 1 || 19-20 ||
-|| 8th || +3 || Ability Score Improvement || 2 || 1 || -- || 1 || 19-20 ||
-|| 9th || +4 || Indomitable (one use) || 2 || 1 || **1** || 1 || 19-20 ||
-|| 10th || +4 || Additional Fighting Style || 2 || 1 || 1 || **2** || 19-20 ||
-|| 11th || +4 || Extra Attack (2) || **3** || 1 || 1 || 2 || 19-20 ||
-|| 12th || +4 || Ability Score Improvement || 3 || 1 || 1 || 2 || 19-20 ||
-|| 13th || +5 || Indomitable (2 uses) || 3 || 1 || **2** || 2 || 19-20 ||
-|| 14th || +5 || Ability Score Improvement || 3 || 1 || 2 || 2 || 19-20 ||
-|| 15th || +5 || Superior Critical || 3 || 1 || 2 || 2 || **18-20** ||
-|| 16th || +5 || Ability Score Improvement || 3 || 1 || 2 || 2 || 18-20 ||
-|| 17th || +6 || Action Surge (two uses), Indomitable (three uses) || 3 || **2** || **3** || 2 || 18-20 ||
-|| 18th || +6 || Survivor || 3 || 2 || 3 || 2 || 18-20 ||
-|| 19th || +6 || Ability Score Improvement || 3 || 2 || 3 || 2 || 18-20 ||
-|| 20th || +6 || Extra Attack (3) || **4** || 2 || 3 || 2 || 18-20 ||
+| Level | Proficiency<br>Bonus | Features                                          | # of<br>Attacks | Action<br>Surge Uses | Indomitable<br>Uses | Fighting<br>Styles | Critical<br>Range |
+|-------|----------------------|---------------------------------------------------|-----------------|----------------------|---------------------|--------------------|-------------------|
+| 1st   | +2                   | Fighting Style, Second Wind                       | 1               | --                   | --                  | 1                  | 20                |
+| 2nd   | +2                   | Action Surge (one use)                            | 1               | **1**                | --                  | 1                  | 20                |
+| 3rd   | +2                   | Improved Critical                                 | 1               | 1                    | --                  | 1                  | **19-20**         |
+| 4th   | +2                   | Ability Score Improvement                         | 1               | 1                    | --                  | 1                  | 19-20             |
+| 5th   | +3                   | Extra Attack                                      | **2**           | 1                    | --                  | 1                  | 19-20             |
+| 6th   | +3                   | Ability Score Improvement                         | 2               | 1                    | --                  | 1                  | 19-20             |
+| 7th   | +3                   | Remarkable Athlete                                | 2               | 1                    | --                  | 1                  | 19-20             |
+| 8th   | +3                   | Ability Score Improvement                         | 2               | 1                    | --                  | 1                  | 19-20             |
+| 9th   | +4                   | Indomitable (one use)                             | 2               | 1                    | **1**               | 1                  | 19-20             |
+| 10th  | +4                   | Additional Fighting Style                         | 2               | 1                    | 1                   | **2**              | 19-20             |
+| 11th  | +4                   | Extra Attack (2)                                  | **3**           | 1                    | 1                   | 2                  | 19-20             |
+| 12th  | +4                   | Ability Score Improvement                         | 3               | 1                    | 1                   | 2                  | 19-20             |
+| 13th  | +5                   | Indomitable (2 uses)                              | 3               | 1                    | **2**               | 2                  | 19-20             |
+| 14th  | +5                   | Ability Score Improvement                         | 3               | 1                    | 2                   | 2                  | 19-20             |
+| 15th  | +5                   | Superior Critical                                 | 3               | 1                    | 2                   | 2                  | **18-20**         |
+| 16th  | +5                   | Ability Score Improvement                         | 3               | 1                    | 2                   | 2                  | 18-20             |
+| 17th  | +6                   | Action Surge (two uses), Indomitable (three uses) | 3               | **2**                | **3**               | 2                  | 18-20             |
+| 18th  | +6                   | Survivor                                          | 3               | 2                    | 3                   | 2                  | 18-20             |
+| 19th  | +6                   | Ability Score Improvement                         | 3               | 2                    | 3                   | 2                  | 18-20             |
+| 20th  | +6                   | Extra Attack (3)                                  | **4**           | 2                    | 3                   | 2                  | 18-20             |
 <sup>**Bold** numbers are when that ability improves</sup>
 
 ## Improved Critical

@@ -185,7 +185,7 @@ def adjust_cr(cr: int, adjustment: int) -> int:
 
 
 def get_trait(race, role, key):
-    return ",".join(get_list(race, role, key))
+    return ", ".join(get_list(race, role, key))
 
 
 def fill_placeholders(ability_list, damage, double_damage, triple_damage, save_dc, prof_bonus, name):

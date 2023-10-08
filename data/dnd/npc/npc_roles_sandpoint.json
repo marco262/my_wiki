@@ -12,5 +12,11 @@
       "***Spells (roll 1-3).*** _[command](/dnd/spell/Command)_, _[hold person](/dnd/spell/Hold Person)_, _[ray of enfeeblement](/dnd/spell/Ray of Enfeeblement)_",
       "***Summon Sinspawn.*** Elyrium slashes her own wrist with her dagger, allowing some of her blood to drip into the *minor runewell* and form a sinspawn. Each sinspawn created expends 6 wrath points from the *minor runewell*, which starts with 20."
     ]
+  },
+  "Nualia": {
+    "actions": [
+      "***Drain Life (1/day).*** Nualia makes a weapon attack with her claw. On a hit, the target is affected by _[ray of enfeeblement](/dnd/spell/Ray of Enfeeblement)_.",
+      "***Spells.*** _[command](/dnd/spell/Command)_, _[cure wounds](/dnd/spell/Cure Wounds)_, _[hold person](/dnd/spell/Hold Person)_, _[inflict wounds](/dnd/spell/Inflict Wounds)_"
+    ]
   }
 }

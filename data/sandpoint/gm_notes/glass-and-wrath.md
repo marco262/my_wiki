@@ -170,7 +170,7 @@ About a mile along the beach, the ocean encroaches against the shore to the poin
 
 ## What Does Brodert Quink know?
 
-[Theme]($load|music|arr/FFXIV OST Ascian Theme [Without Shadow].mp3)
+[Theme]($load|music|arr/BGM_Event_Ascian.mp3)
 
 1. Thassilon was an ancient empire that existed thousands of years ago, before the rise of the modern nations of Avistan.
 2. Thassilon was ruled by powerful wizards known as "runelords," each of whom had dominion over a different aspect of magic and society.
