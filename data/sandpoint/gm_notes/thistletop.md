@@ -187,7 +187,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * Treasure: 2100 cp, 1500 sp, 50 gp, 7x gems each worth (10 gp) = 291 gp
       * The gold giant helmet is worth 500 gp if it can be hauled out (it weighs 300 lbs)
 * E8: [Communication Room](^sandpoint/thistletop/communication_room.jpg)
-  * [Ambience]($load|ambience|sandpoint/spookylatin_take4.mp3)
+  * [Ambience]($load|ambience|sandpoint/spookylatin_take4.mp3) ([stop]($stop|ambience|none))
   * [Statues](^sandpoint/thistletop/karzoug_statue.png)
   * [Ghostly Image](^sandpoint/thistletop/ghost_karzoug.jpg)
 * E9: [Transmutation Room](^sandpoint/thistletop/transmutation_room.jpg)

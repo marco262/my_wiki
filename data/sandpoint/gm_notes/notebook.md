@@ -39,11 +39,12 @@
 
 ### Todo
 
+* Finish finding pictures and audio for Thistletop B2
+* Refresh yourself on NPCs' abilities, tactics, and motivations
 * Set up game room lights for the first dungeon level
   * Main dungeon rooms
   * Temple of Lamashtu
   * Malfeshnekor's Prison
-* Finish finding pictures and audio for Thistletop B2
 * Create loot bags for
   * Collapsed Treasury (291 gp)
   * Nualia (7 gp, 5 sp)
@@ -51,8 +52,6 @@
   * Tsuto (21 cp)
   * Orik (16 sp)
   * Lyrie (60 gp)
-* Find some pre-session music and a pre-session visual aid
-* Adjust volume of the Karzoug's message
 * Pick out minis for Mercenaries, Nualia, Tentamort, Shadows, Crab, and Malfeshnekor 
 * Write up journal entries for Nualia <https://ckoriks-rise-of-the-runelords.obsidianportal.com/items/nualia-s-journal>
 

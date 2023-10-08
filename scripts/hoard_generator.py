@@ -11,7 +11,7 @@ COIN_VALUES = {
 
 def main():
     # target_amount = round(5000 * (1 + random.random() * 0.10), 2)
-    target_amount = 120000
+    target_amount = 300
     # target_amount = 237.49 - (30 * 4) - (3 * 4)
 
     print("Generating hoard equivalent to {} gp".format(target_amount))
@@ -62,9 +62,6 @@ def generate_hoard_v1(target_amount: int):
 
 
 def generate_hoard_v2(target_amount: int):
-    """
-
-    """
     hoard = {
         "copper": 0,
         "silver": 0,
@@ -76,7 +73,7 @@ def generate_hoard_v2(target_amount: int):
         print(f"Remaining value needed: {target_amount:,} gp")
         magnitude = log10(target_amount)
         lower_bound_magnitude = magnitude - log10(value) - 1
-        upper_bound_magnitude = lower_bound_magnitude + 1
+        upper_bound_magnitude = lower_bound_magnitude + 0.5
         print(f"{coin}: {int(10 ** lower_bound_magnitude):,} to {int(10 ** upper_bound_magnitude):,}")
         mag = random.random() * (upper_bound_magnitude - lower_bound_magnitude) + lower_bound_magnitude
         amount = int(10 ** mag)

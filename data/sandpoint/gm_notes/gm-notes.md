@@ -29,6 +29,8 @@ Enter another URL to set as Visual Aid here:
 * [Rusty Stoutfield](^sandpoint/Rusty.png), human fighter
 * [Vellyse "Lyse" Lostren](^sandpoint/Lyse.png), elven bard
 
+[Pre-session music]($load|music|arr/Saltswept.mp3)
+
 ## Resources
 
 * [Timeline of Events](https://rise-of-the-runelords-rphaven.obsidianportal.com/wikis/timeline-of-events)
