@@ -1,8 +1,9 @@
-name = "Spell Scroll, 5th Level"
+name = "Spell Scroll"
+unlisted = true  # Don't include in magic item lists or generator results
 type = "Scroll"
 subtype = ""
 rarity_type = "Minor"
-rarity = "Rare"
+rarity = "Common"
 attunement = false
 classes = []
 notes = ""

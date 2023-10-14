@@ -165,6 +165,8 @@ def get_magic_item_subtypes():
 def filter_magic_items(filter_keys):
     d = {}
     for k, v in load_magic_items().items():
+        if v.get("unlisted"):
+            continue
         if v["type"] not in filter_keys["type"]:
             continue
         if v["rarity"] not in filter_keys["rarity"]:
