@@ -148,7 +148,7 @@ def load_wsgi_endpoints(app: Bottle):
         websocket_loop(ws, websocket_list)
 
     @app.route("/set_visual_aid", method=["OPTIONS", "POST"])
-    @enable_cors
+    # @enable_cors
     @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_type, visual_aid_url, visual_aid_title
@@ -174,7 +174,7 @@ def load_wsgi_endpoints(app: Bottle):
         send_to_websockets(params, websocket_list)
 
     @app.route("/check_visual_aid", method=["OPTIONS", "POST"])
-    @enable_cors
+    # @enable_cors
     @auth_basic(visual_aid_auth_check)
     def check_visual_aid():
         path = f"media/img/visual_aids/{request.forms.target_path}"
@@ -187,7 +187,7 @@ def load_wsgi_endpoints(app: Bottle):
         return {"size_matches": stat.st_size == int(request.forms.image_size)}
 
     @app.route("/upload_visual_aid", method=["OPTIONS", "PUT"])
-    @enable_cors
+    # @enable_cors
     @auth_basic(visual_aid_auth_check)
     def upload_visual_aid():
         image_file = request.files.image
