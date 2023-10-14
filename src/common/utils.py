@@ -311,3 +311,19 @@ def list_media_files(glob_pattern: str) -> List[str]:
         return [blob.name for blob in blobs if fnmatch(blob.name, glob_pattern)]
     else:
         return glob.glob(glob_pattern)
+
+
+def check_for_media_file(filepath: str) -> bool:
+    """
+    Checks if a media file exists. Will search either local file system or Google cloud bucket depending on
+    where media files are saved for this installation.
+    :param filepath: Filepath to check for, starting from media directory. E.g. "media/audit/requests/filename.mp3"
+    :return: True if the file exists, False otherwise
+    """
+    if MEDIA_BUCKET:
+        storage_client = storage.Client()
+        bucket = storage_client.get_bucket(MEDIA_BUCKET)
+        blob = bucket.blob(filepath)
+        return blob.exists()
+    else:
+        return os.path.isfile(filepath)

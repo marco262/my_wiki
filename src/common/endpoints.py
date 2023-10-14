@@ -14,7 +14,7 @@ from git import Repo
 
 import src.common.utils as utils
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
-    get_player_soundboard_stats
+    get_player_soundboard_stats, check_for_media_file
 
 START_TIME = None
 # Default password: dancinglikeastripper
@@ -179,7 +179,7 @@ def load_wsgi_endpoints(app: Bottle):
     def check_visual_aid():
         path = f"media/img/visual_aids/{request.forms.target_path}"
         print(path)
-        if not os.path.isfile(path):
+        if not check_for_media_file(path):
             return {"size_matches": False}
         stat = os.stat(path)
         print(stat)
@@ -191,8 +191,9 @@ def load_wsgi_endpoints(app: Bottle):
     @auth_basic(visual_aid_auth_check)
     def upload_visual_aid():
         image_file = request.files.image
+        print(type(image_file))
         path = f"media/img/visual_aids/{request.forms.target_path}"
-        print(path)
+        print(f"Uploading file to {path}")
         image_file.save(path)
 
     @app.get("/player soundboard")
