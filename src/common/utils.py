@@ -16,7 +16,7 @@ from logging.handlers import TimedRotatingFileHandler
 from operator import itemgetter
 from os.path import isfile
 from shutil import copyfile
-from typing import List
+from typing import List, Optional
 
 import gevent
 from bottle import template, HTTPError, redirect
@@ -313,17 +313,33 @@ def list_media_files(glob_pattern: str) -> List[str]:
         return glob.glob(glob_pattern)
 
 
-def check_for_media_file(filepath: str) -> bool:
+def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool:
     """
     Checks if a media file exists. Will search either local file system or Google cloud bucket depending on
     where media files are saved for this installation.
+    Optionally checks if the file is the expected size.
     :param filepath: Filepath to check for, starting from media directory. E.g. "media/audit/requests/filename.mp3"
+    :param file_size: The expected size of the file in bytes. If provided and the file is a different size,
+        False will be returned.
     :return: True if the file exists, False otherwise
     """
     if MEDIA_BUCKET:
         storage_client = storage.Client()
         bucket = storage_client.get_bucket(MEDIA_BUCKET)
         blob = bucket.blob(filepath)
-        return blob.exists()
+        if not blob.exists():
+            return False
+        if file_size is not None:
+            print(blob.size)
+            print(file_size)
+            return blob.size == file_size
+        return True
     else:
-        return os.path.isfile(filepath)
+        if not os.path.isfile(filepath):
+            return False
+        if file_size is not None:
+            stat = os.stat(filepath)
+            print(stat.st_size)
+            print(file_size)
+            return stat.st_size == file_size
+        return True
