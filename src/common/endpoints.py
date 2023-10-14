@@ -12,6 +12,7 @@ from bottle import static_file, Bottle, view, request, auth_basic, redirect, res
 from bottle_websocket import websocket
 from git import Repo
 
+import src.common.utils as utils
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats
 
@@ -19,7 +20,6 @@ START_TIME = None
 # Default password: dancinglikeastripper
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
-MEDIA_BUCKET = ""
 
 visual_aid_type = "visual_aid"
 visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
@@ -33,7 +33,7 @@ volume_control_lock = threading.Lock()
 
 
 def init(cfg):
-    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings, MEDIA_BUCKET
+    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
     START_TIME = ctime()
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
@@ -42,7 +42,7 @@ def init(cfg):
             volume_settings = load(f)
     else:
         volume_settings = {"music": 1.0, "ambience": 1.0, "effect": 1.0}
-    MEDIA_BUCKET = cfg.get("Settings", "media bucket")
+    utils.MEDIA_BUCKET = cfg.get("Settings", "media bucket")
 
 
 def save_volume_settings(params: dict):
@@ -81,8 +81,8 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/media/<path:path>", name="media")
     def media(path):
-        if MEDIA_BUCKET:
-            redirect(urljoin(MEDIA_BUCKET, path))
+        if utils.MEDIA_BUCKET:
+            redirect(urljoin(f"https://storage.googleapis.com/{utils.MEDIA_BUCKET}/media/", path))
         else:
             return static_file(path, root="media")
 

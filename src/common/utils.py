@@ -8,6 +8,7 @@ import threading
 import time
 from collections import defaultdict
 from configparser import RawConfigParser
+from fnmatch import fnmatch
 from html import unescape
 from html.parser import HTMLParser
 from json import dumps
@@ -15,12 +16,15 @@ from logging.handlers import TimedRotatingFileHandler
 from operator import itemgetter
 from os.path import isfile
 from shutil import copyfile
+from typing import List
 
 import gevent
+from bottle import template, HTTPError, redirect
 from gevent import sleep
 from geventwebsocket import WebSocketError
+from google.cloud import storage
 
-from bottle import template, HTTPError, redirect
+MEDIA_BUCKET = ""
 
 player_soundboard_stats_threading_lock = threading.Lock()
 player_soundboard_stats_filepath = "player_soundboard_stats.json"
@@ -269,10 +273,7 @@ def get_player_soundboard_stats():
     with player_soundboard_stats_threading_lock:
         with open(player_soundboard_stats_filepath) as f:
             player_soundboard_stats = json.load(f)
-    g = glob.glob("media/audio/requests/*")
-    print(os.getcwd())
-    print(g)
-    for filepath in glob.glob("media/audio/requests/*"):
+    for filepath in list_media_files("media/audio/requests/*"):
         print(filepath)
         normalized_filepath = "/" + filepath.replace("\\", "/")
         times_played = player_soundboard_stats.get(normalized_filepath, [])
@@ -285,7 +286,7 @@ def get_player_soundboard_stats():
             if time_played > last_month_start:
                 last_month += 1
             all_time += 1
-        trimmed_filepath = normalized_filepath.replace("/media/audio/", "")
+        trimmed_filepath = re.sub("^/media/audio/", "", normalized_filepath)
         last_week_stats[last_week].append(trimmed_filepath)
         last_month_stats[last_month].append(trimmed_filepath)
         all_time_stats[all_time].append(trimmed_filepath)
@@ -294,3 +295,19 @@ def get_player_soundboard_stats():
         "last_month_stats": sorted(last_month_stats.items(), key=itemgetter(0), reverse=True),
         "all_time_stats": sorted(all_time_stats.items(), key=itemgetter(0), reverse=True),
     }
+
+
+def list_media_files(glob_pattern: str) -> List[str]:
+    """
+    Retrieve a list of media files. Will search either local file system or Google cloud bucket depending on
+    where media files are saved for this installation.
+    :param glob_pattern: Pattern to glob match on, starting from media directory. E.g. "media/audio/requests/*"
+    :return: List of filepaths, starting from media directory. e.g. "media/audio/requests/filename.mp3"
+    """
+    if MEDIA_BUCKET:
+        storage_client = storage.Client()
+        prefix = os.path.dirname(glob_pattern)
+        blobs = storage_client.list_blobs(MEDIA_BUCKET, prefix=prefix)
+        return [blob.name for blob in blobs if fnmatch(blob.name, glob_pattern)]
+    else:
+        return glob.glob(glob_pattern)

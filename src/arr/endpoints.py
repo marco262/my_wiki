@@ -3,7 +3,7 @@ from glob import glob
 import bcrypt
 from bottle import Bottle, view, auth_basic
 
-from src.common.utils import md_page
+from src.common.utils import md_page, list_media_files
 
 # Default password: dancinglikeastripper
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -31,7 +31,8 @@ def load_wsgi_endpoints(app: Bottle):
     @view("arr/soundboard.tpl")
     @auth_basic(gm_notes_auth_check)
     def gm_notes():
-        g = [f.replace("\\", "/").replace("media/audio/arr/", "") for f in glob("media/audio/arr/*.*")]
+        g = [f.replace("\\", "/").replace("media/audio/arr/", "")
+             for f in list_media_files("media/audio/arr/*.*")]
         return {"glob_file_list": g}
 
     @app.get("gm_notes/<name>")

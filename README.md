@@ -111,7 +111,7 @@ gcloud auth application-default login
 
 ## Externally hosted media files
 
-The server supports either storing media files locally and hosting them from the same machine that the service is running on, or it can return a redirect an externally hosted file source, like a Google Cloud Bucket. If you wish to use an external file source, set the `media bucket` config setting to the URL of the root directory where all the media files are stored. e.g. https://storage.googleapis.com/<bucket-id>/media/
+The server supports either storing media files locally and hosting them from the same machine that the service is running on, or it can return a redirect an externally hosted file source, like a Google Cloud Bucket. If you wish to use an external file source, set the `media bucket` config setting to the name of the bucket. The bucket must contain a top-level folder named `media` which contains all the media files.
 
 Note that this will not prevent the media files from being pulled down by a git clone. If you wish to avoid that, see the `startup_script.sh` for how to do a sparse checkout.
 

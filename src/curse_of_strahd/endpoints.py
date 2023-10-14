@@ -8,7 +8,7 @@ from bottle_websocket import websocket
 
 from bottle import Bottle, view, auth_basic, request
 from data.curse_of_strahd.enums import tarokka_deck
-from src.common.utils import md_page, websocket_loop, send_to_websockets
+from src.common.utils import md_page, websocket_loop, send_to_websockets, list_media_files
 
 # Default password: dancinglikeastripper
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -34,7 +34,7 @@ def get_tarokka_card_list():
     if TAROKKA_CARD_LIST is not None:
         return TAROKKA_CARD_LIST
     TAROKKA_CARD_LIST = []
-    for filepath in glob("media/img/tarokka/*"):
+    for filepath in list_media_files("media/img/tarokka/*"):
         filename = os.path.basename(filepath)
         if not filename.endswith(".png"):
             continue
