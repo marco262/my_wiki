@@ -26,7 +26,7 @@ In your treasure hunting, you have learned how to maximize use of magic items, g
 
 **Attunement.** You can attune to up to four magic items at once. 
 **Charges.** Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.
-**Scrolls.** You can use any Spell Scroll that bears a cantrip or a 1st-level Spell. You can also try to use any Spell Scroll that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates. 
+**Scrolls.** You can use any _[Spell Scroll](/dnd/equipment/magic-item/Spell Scroll)_ that bears a cantrip or a 1st-level Spell. You can also try to use any _Spell Scroll_ that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates. 
 
 ### 14th Level: Thief's Reflexes
 

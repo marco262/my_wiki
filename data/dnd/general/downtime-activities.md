@@ -368,7 +368,7 @@ Each piece of lore is the equivalent of one true statement about a person, place
 
 ### Scribing a Spell Scroll
 
-With time and patience, a spellcaster can transfer a spell to a scroll, creating a _spell scroll_.
+With time and patience, a spellcaster can transfer a spell to a scroll, creating a _[spell scroll](/dnd/equipment/magic-item/Spell Scroll)_.
 
 ***Resources.*** Scribing a _spell scroll_ takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. In addition, the character must have proficiency in the Arcana skill and must provide any material components required for the casting of the spell. Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.
 
