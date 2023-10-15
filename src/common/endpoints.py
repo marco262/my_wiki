@@ -52,20 +52,6 @@ def save_volume_settings(params: dict):
         dump(volume_settings, f)
 
 
-def enable_cors(fn):
-    def _enable_cors(*args, **kwargs):
-        # set CORS headers
-        response.headers['Access-Control-Allow-Origin'] = "app://obsidian.md"
-        response.headers['Access-Control-Allow-Methods'] = "POST, PUT, OPTIONS"
-        response.headers['Access-Control-Allow-Headers'] = "Authorization, X-Requested-With"
-
-        if request.method != 'OPTIONS':
-            # actual request; reply with the actual response
-            return fn(*args, **kwargs)
-
-    return _enable_cors
-
-
 def load_wsgi_endpoints(app: Bottle):
     @app.get('/')
     def index_help():
@@ -147,7 +133,7 @@ def load_wsgi_endpoints(app: Bottle):
         }))
         websocket_loop(ws, websocket_list)
 
-    @app.route("/set_visual_aid", method=["OPTIONS", "POST"])
+    @app.post("/set_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_type, visual_aid_url, visual_aid_title
@@ -172,15 +158,15 @@ def load_wsgi_endpoints(app: Bottle):
             track_player_soundboard_clicks(params)
         send_to_websockets(params, websocket_list)
 
-    @app.route("/check_visual_aid", method=["OPTIONS", "POST"])
+    @app.post("/check_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def check_visual_aid():
-        path = f"media/img/visual_aids/{request.forms.target_path}"
+        path = f"media/img/visual_aids/{request.body}"
         print(path)
         expected_file_size = int(request.forms.image_size)
         return {"size_matches": check_for_media_file(path, file_size=expected_file_size)}
 
-    @app.route("/upload_visual_aid", method=["OPTIONS", "PUT"])
+    @app.put("/upload_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def upload_visual_aid():
         image_file = request.files.image
