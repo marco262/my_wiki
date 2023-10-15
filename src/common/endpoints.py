@@ -172,9 +172,9 @@ def load_wsgi_endpoints(app: Bottle):
             track_player_soundboard_clicks(params)
         send_to_websockets(params, websocket_list)
 
-    @app.route("/xcheck_visual_aid", method=["OPTIONS", "POST"])
+    @app.route("/check_visual_aid", method=["OPTIONS", "POST"])
     @auth_basic(visual_aid_auth_check)
-    def xcheck_visual_aid():
+    def check_visual_aid():
         path = f"media/img/visual_aids/{request.forms.target_path}"
         print(path)
         expected_file_size = int(request.forms.image_size)
