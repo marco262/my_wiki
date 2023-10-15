@@ -1,6 +1,7 @@
 import os
 import sys
 import threading
+from io import BytesIO
 from json import dumps, load, dump
 from threading import Thread
 from time import ctime
@@ -164,7 +165,8 @@ def load_wsgi_endpoints(app: Bottle):
         path = f"media/img/visual_aids/{request.body}"
         print(path)
         print(type(request.body))
-        print(request.body)
+        body: BytesIO = request.body
+        print(body.getvalue())
         expected_file_size = int(request.body["image_size"])
         return {"size_matches": check_for_media_file(path, file_size=expected_file_size)}
 
