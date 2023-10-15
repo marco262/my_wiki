@@ -1,21 +1,21 @@
 import os
 import sys
+import tempfile
 import threading
-from io import BytesIO
-from json import dumps, load, dump
+from json import dumps, load, dump, loads
 from threading import Thread
 from time import ctime
 from typing import Optional
 from urllib.parse import urljoin
 
 import bcrypt
-from bottle import static_file, Bottle, view, request, auth_basic, redirect, response
+from bottle import static_file, Bottle, view, request, auth_basic, redirect
 from bottle_websocket import websocket
 from git import Repo
 
 import src.common.utils as utils
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
-    get_player_soundboard_stats, check_for_media_file
+    get_player_soundboard_stats, check_for_media_file, save_media_file
 
 START_TIME = None
 # Default password: dancinglikeastripper
@@ -140,6 +140,9 @@ def load_wsgi_endpoints(app: Bottle):
         global visual_aid_type, visual_aid_url, visual_aid_title
         params = dict(request.params)
         print(params)
+        if "action" not in params:
+            # Try to handle weird Obsidian params packing
+            params = loads(list(params.keys())[0])
         if params["action"] == "visual_aid":
             visual_aid_type = "visual_aid"
             visual_aid_url = params["url"]
@@ -162,22 +165,24 @@ def load_wsgi_endpoints(app: Bottle):
     @app.post("/check_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def check_visual_aid():
-        path = f"media/img/visual_aids/{request.body}"
+        body = loads(request.body.getvalue())
+        path = f"media/img/visual_aids/{body['target_path']}"
         print(path)
-        print(type(request.body))
-        body: BytesIO = request.body
-        print(body.getvalue())
-        expected_file_size = int(request.body["image_size"])
+        expected_file_size = int(body["image_size"])
         return {"size_matches": check_for_media_file(path, file_size=expected_file_size)}
 
     @app.put("/upload_visual_aid")
     @auth_basic(visual_aid_auth_check)
     def upload_visual_aid():
-        image_file = request.files.image
-        print(type(image_file))
-        path = f"media/img/visual_aids/{request.forms.target_path}"
-        print(f"Uploading file to {path}")
-        image_file.save(path)
+        """
+        The request body must be a bytes string, where the first line (up to \n) is a JSON dict with a
+        `target_path` field representing the path to save the file to.
+        """
+        temp_file: tempfile._TemporaryFileWrapper = request.body
+        metadata = loads(temp_file.readline().decode("utf-8").strip("\n"))
+        path = f"media/img/visual_aids/{metadata['target_path']}"
+        print(path)
+        save_media_file(path, temp_file.read())
 
     @app.get("/player soundboard")
     def player_soundboard():

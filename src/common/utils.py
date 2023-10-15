@@ -11,6 +11,7 @@ from configparser import RawConfigParser
 from fnmatch import fnmatch
 from html import unescape
 from html.parser import HTMLParser
+from io import BytesIO
 from json import dumps
 from logging.handlers import TimedRotatingFileHandler
 from operator import itemgetter
@@ -329,10 +330,12 @@ def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool
         blob = bucket.blob(filepath)
         if not blob.exists():
             return False
-        if file_size is not None:
-            print(blob.size)
-            print(file_size)
-            return blob.size == file_size
+        # if file_size is not None:
+        #     print(dir(blob))
+        #     print(blob.md5_hash)
+        #     print(blob.size)
+        #     print(file_size)
+        #     return blob.size == file_size
         return True
     else:
         if not os.path.isfile(filepath):
@@ -343,3 +346,20 @@ def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool
             print(file_size)
             return stat.st_size == file_size
         return True
+
+
+def save_media_file(filepath: str, file_bytes: bytes):
+    """
+    Saves a media file to a given path . Will save to either local file system or Google cloud bucket depending on
+    where media files are saved for this installation.
+    :param filepath: Filepath to save to, starting from media directory. E.g. "media/audit/requests/filename.mp3"
+    :param file_bytes: File data
+    """
+    if MEDIA_BUCKET:
+        storage_client = storage.Client()
+        bucket = storage_client.get_bucket(MEDIA_BUCKET)
+        blob = bucket.blob(filepath)
+        blob.upload_from_file(BytesIO(file_bytes))
+    else:
+        with open(filepath, "wb") as f:
+            f.write(file_bytes)
