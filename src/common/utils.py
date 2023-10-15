@@ -358,7 +358,11 @@ def save_media_file(filepath: str, file_bytes: bytes):
     if MEDIA_BUCKET:
         storage_client = storage.Client()
         bucket = storage_client.get_bucket(MEDIA_BUCKET)
+        print(MEDIA_BUCKET)
+        print(filepath)
         blob = bucket.blob(filepath)
+        print(blob.name)
+        print(blob.path)
         blob.upload_from_file(BytesIO(file_bytes))
     else:
         with open(filepath, "wb") as f:

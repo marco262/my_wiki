@@ -183,6 +183,7 @@ def load_wsgi_endpoints(app: Bottle):
         path = f"media/img/visual_aids/{metadata['target_path']}"
         print(path)
         save_media_file(path, temp_file.read())
+        temp_file.close()
 
     @app.get("/player soundboard")
     def player_soundboard():
