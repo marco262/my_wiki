@@ -163,7 +163,9 @@ def load_wsgi_endpoints(app: Bottle):
     def check_visual_aid():
         path = f"media/img/visual_aids/{request.body}"
         print(path)
-        expected_file_size = int(request.forms.image_size)
+        print(type(request.body))
+        print(request.body)
+        expected_file_size = int(request.body["image_size"])
         return {"size_matches": check_for_media_file(path, file_size=expected_file_size)}
 
     @app.put("/upload_visual_aid")
