@@ -58,7 +58,7 @@ def build_enum_dict(enum_type: str):
     p = Path(__file__)
     p = p.parent / "../../data/dnd/npc"
     p = p.resolve()
-    for filepath in p.glob(f"npc_{enum_type}_*.json"):
+    for filepath in sorted(p.glob(f"npc_{enum_type}_*.json")):
         print(f"Loading {filepath} into NPC {enum_type} enum...")
         with open(filepath) as f:
             d.update(load(f))

@@ -26,7 +26,7 @@ def load_spells():
     print("Loading spells into memory", end='')
     from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
-        for path in glob("data/onednd/spell/*"):
+        for path in sorted(glob("data/onednd/spell/*")):
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)

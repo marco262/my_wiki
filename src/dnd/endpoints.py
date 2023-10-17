@@ -358,7 +358,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/characters.tpl")
     def characters():
         dnd_characters = []
-        for path in glob("data/dnd/characters/*.json"):
+        for path in sorted(glob("data/dnd/characters/*.json")):
             dnd_characters.append(splitext(basename(path))[0])
         return {"title": "Characters", "characters": dnd_characters}
 
@@ -382,7 +382,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/monsters-by-name.tpl")
     def monsters_by_name():
         folder = "data/dnd/monster"
-        file_paths = glob(pjoin(folder, "*"))
+        file_paths = sorted(glob(pjoin(folder, "*")))
         monsters = OrderedDict()
         excluded_files = ["all-pages.md", "include_monster-sheet.txt"]
         excluded_files = [pjoin(folder, f) for f in excluded_files]

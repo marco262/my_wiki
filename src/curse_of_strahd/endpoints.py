@@ -1,12 +1,11 @@
-from glob import glob
+import os
+import random
 from json import dumps, loads
 
 import bcrypt
-import os
-import random
+from bottle import Bottle, view, auth_basic, request
 from bottle_websocket import websocket
 
-from bottle import Bottle, view, auth_basic, request
 from data.curse_of_strahd.enums import tarokka_deck
 from src.common.utils import md_page, websocket_loop, send_to_websockets, list_media_files
 

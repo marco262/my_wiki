@@ -172,6 +172,7 @@ class MarkdownParser:
                         full_glob = os.path.join(os.getcwd(), v.strip())
                         args["glob_file_list"] = [path.replace(cwd, "").replace("\\", "/")
                                                   for path in glob.glob(full_glob)]
+                        args["glob_file_list"].sort()
                     elif v.startswith("!!!"):
                         # Parse all text between the !!! and the next !!! as one block of markdown
                         # First gather the entire block into one string

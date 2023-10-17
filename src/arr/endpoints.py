@@ -1,5 +1,3 @@
-from glob import glob
-
 import bcrypt
 from bottle import Bottle, view, auth_basic
 

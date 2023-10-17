@@ -309,9 +309,9 @@ def list_media_files(glob_pattern: str) -> List[str]:
         storage_client = storage.Client()
         prefix = os.path.dirname(glob_pattern)
         blobs = storage_client.list_blobs(MEDIA_BUCKET, prefix=prefix)
-        return [blob.name for blob in blobs if fnmatch(blob.name, glob_pattern)]
+        return sorted([blob.name for blob in blobs if fnmatch(blob.name, glob_pattern)])
     else:
-        return glob.glob(glob_pattern)
+        return sorted(glob.glob(glob_pattern))
 
 
 def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool:
