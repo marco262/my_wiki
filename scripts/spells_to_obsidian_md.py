@@ -64,9 +64,9 @@ def make_spell_md(spell: dict) -> str:
     if spell.get("ritual_spell"):
         tags.append("  - ritual")
     if spell["level"] == "cantrip":
-        school_and_level = f"{spell['school']} cantrip"
+        school_and_level = f"{spell['school'].title()} cantrip"
     else:
-        school_and_level = f"{ordinal(int(spell['level']))} level {spell['school']}"
+        school_and_level = f"{ordinal(int(spell['level']))} level {spell['school'].title()}"
     material_component = f" ({spell['material']})" if "material" in spell else ""
     regex = r"(?<!increases by )(\d*d\d+(\s*[+-]\s*\d+)*)"
     description = re.sub(regex, r"`dice: \1`", spell["description"])
