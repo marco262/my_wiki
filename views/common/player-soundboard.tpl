@@ -28,6 +28,7 @@
 * [💀 Bokoblin Dying 1]($load|effect|requests/bokoblin_dying1.ogg)
 * [💀 Bokoblin Dying 2]($load|effect|requests/bokoblin_dying2.ogg)
 * [⚡ Bokoblin Shocked]($load|effect|requests/bokoblin_shocked.ogg)
+* [⛪ God and Anime]($load|effect|requests/god_and_anime.ogg)
 
 ### Game Grumps
 
@@ -39,7 +40,7 @@
 * [😎 Is He Cool? He's Not Cool! He's Not Cool!]($load|effect|requests/game_grumps_is_he_cool_hes_not_cool.mp3)
 * [🍆 Arin Loves Penis (long)]($load|effect|requests/Game Grumps - Arin Loves Penis Sbassbear Remix.mp3)
 * [🍆 Arin Loves Penis]($load|effect|requests/arin_loves_penis_short.mp3)
-* [👨 Fuck Your Dad]($load|effect|requests/fuck_your_dad.mp3)
+* [👨 Fuck Your Dad]($load|effect|requests/fuck_your_dad.ogg)
 * [😡 KILL ME]($load|effect|requests/kill_me.mp3)
 * [☕ Hot Pot of Coffee!]($load|effect|requests/hot_pot_of_coffee.mp3)
 * [😢 Oh, That Didn't Help At All!]($load|effect|requests/oh_that_didnt_help_at_all.mp3)

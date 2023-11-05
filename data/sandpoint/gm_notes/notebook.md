@@ -46,8 +46,7 @@
   * Malfeshnekor's Prison
 * Create loot bags for
   * Collapsed Treasury (291 gp)
-* Pick out minis for Mercenaries, Nualia, Shadows, Crab
-* Fix alignment of Thistletop map
+* Pick out minis for Shadows, Crab
 * Write up journal entries for Nualia <https://ckoriks-rise-of-the-runelords.obsidianportal.com/items/nualia-s-journal>
 * Add mini for Lyrie's familiar
 
@@ -56,6 +55,7 @@
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
 * Use 3 minute combat timer!
 * Tell the players what the DCs are of checks they do
+* NPC voices!
 
 ### Notes for the Future
 
