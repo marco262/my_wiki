@@ -27,7 +27,7 @@
   * The Kaijitsu family leaves Magnimar to live in Sandpoint.
   * Jervis Stoot, a well-known local woodcarver, moves to a small island just north of the Varisian town of Sandpoint.
 * [4688 AR](https://pathfinderwiki.com/wiki/4688_AR) (19 Years ago):
-  * Nualia is born.
+  * (Erastus 18) Nualia is born.
   * Tsuto Kaijitsu, a half-elf boy, is born to two human parents in Sandpoint.
 * [4689 AR](https://pathfinderwiki.com/wiki/4689_AR) (18 Years ago): 
   * Ameiko Kaijitsu is born.
@@ -45,7 +45,7 @@
   * Chellan (Sword) awakens and possesses Viorian Dekanti who goes to Xin-Shalast.
   * The Minor Runewell of Wrath activates under Sandpoint.
   * Xaliasa awakens.
-  * Karzoug forms an alliance with Lamiakin and sends them into Varsia including Riddleport, Janderhoff, Korvosa, Belkzen, Magnimar, and Turtleback Ferry.
+  * Karzoug forms an alliance with the Lamiakin and sends them into Varsia including Riddleport, Janderhoff, Korvosa, Belkzen, Magnimar, and Turtleback Ferry.
   * (Sarenith) The Late Unpleasantness unfolds in Sandpoint. Nualia flees Sandpoint and joins the Skinsaw Men in Magnimar.
   * (Erastus) Nualia uncovers the Catacombs of Wrath, and begins studying under Erylium.
   * (Neth) Nualia sets up camp in Thistletop, begins looking for Malfeshnekor.

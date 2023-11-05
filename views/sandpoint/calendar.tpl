@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <!-- Blatantly stolen from https://dungeonetics.com/calendar/ -->
+<!-- To change the events that show up on the calendar, edit the file `static/js/sandpoint/golarion.js` -->
+<!-- Edit CustomCalendarData > holidaySet > holidays -->
 <head>
 	<meta charset="utf-8">
 	<title>Heroes of Sandpoint Calendar</title>

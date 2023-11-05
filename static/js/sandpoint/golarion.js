@@ -1,4 +1,4 @@
-let  CustomCalendarData = {
+let CustomCalendarData = {
     "monthSet": {
         "months": [
             {
@@ -739,7 +739,8 @@ let  CustomCalendarData = {
             //     "parameters": {"n": "1", "season": "3"},
             //     "observedBy": "Cheliax, Asmodeus",
             //     "category": "Regional"
-            // }, {
+            // },
+            // {
             //     "name": "Long Dark Night",
             //     "rule": "NthDayOfSeason",
             //     "parameters": {"n": "1", "season": "3"},
@@ -789,12 +790,6 @@ let  CustomCalendarData = {
                 "category": "Story"
             },
             {
-                "name": "Hemlock returns (estimated)",
-                "rule": "NthDayOfMonth",
-                "parameters": {"n": "3", "month": "9"},
-                "category": "Story"
-            },
-            {
                 "name": "Yendan Snazzyfeet killed",
                 "rule": "NthDayOfMonth",
                 "parameters": {"n": "1", "month": "9"},
@@ -813,9 +808,27 @@ let  CustomCalendarData = {
                 "category": "Story"
             },
             {
+                "name": "Hemlock returns (estimated)",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "3", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Wrath pool destroyed",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "3", "month": "9"},
+                "category": "Story"
+            },
+            {
                 "name": "Hemlock returns",
                 "rule": "NthDayOfMonth",
                 "parameters": {"n": "4", "month": "9"},
+                "category": "Story"
+            },
+            {
+                "name": "Heroes raid Thistletop",
+                "rule": "NthDayOfMonth",
+                "parameters": {"n": "5", "month": "9"},
                 "category": "Story"
             },
         ]
