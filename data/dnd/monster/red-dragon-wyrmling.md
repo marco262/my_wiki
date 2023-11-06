@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Red Dragon#red-dragon-wyrmling

@@ -1,3 +1,0 @@
-[[module ManageSite]]
-
-[!-- Do not edit this page as all changes will be lost --]

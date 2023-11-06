@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Green Dragon#green-dragon-wyrmling

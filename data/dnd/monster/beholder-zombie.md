@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/zombie#beholder-zombie

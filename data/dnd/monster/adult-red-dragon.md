@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Red Dragon#adult-red-dragon

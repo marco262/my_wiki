@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/elementals#fire-elemental

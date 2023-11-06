@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/kobold#winged-kobold

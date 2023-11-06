@@ -1,3 +1,0 @@
-This medallion hangs on a metal chain, its silver disc inscribed with the Sihedron. These medallions were given to favored agents of the runelords; the medallions granted some minor benefits to the wearers, but also allowed the runelords to use the wearer as proxies.
-
-By concentrating on a scrying device (such as a runewell), a runelord can sense the world through the Sihedron medallion wearer's senses, and could speak through her voice -- provided the runelord knows of the existence of the medallion and the fact that it is being worn. 

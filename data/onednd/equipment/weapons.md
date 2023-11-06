@@ -1,1 +1,0 @@
-REDIRECT /onednd/general/equipment#weapons

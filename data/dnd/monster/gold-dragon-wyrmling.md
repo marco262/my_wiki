@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Gold Dragon#gold-dragon-wyrmling

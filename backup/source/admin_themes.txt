@@ -1,3 +1,0 @@
-[[code type="css"]]
-/* No theme defined on top of Base */
-[[/code]]

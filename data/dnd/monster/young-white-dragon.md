@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/White Dragon#young-white-dragon

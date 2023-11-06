@@ -1,2 +1,0 @@
-* [[[Mutants]]]
-* [[[Mutations Generator]]]

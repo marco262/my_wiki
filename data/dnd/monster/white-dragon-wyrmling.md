@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/White Dragon#white-dragon-wyrmling

@@ -1,1 +1,0 @@
-REDIRECT /dnd/monster/Black Dragon#ancient-black-dragon

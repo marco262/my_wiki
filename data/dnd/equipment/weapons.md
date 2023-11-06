@@ -1,1 +1,0 @@
-REDIRECT /dnd/general/equipment#weapons
