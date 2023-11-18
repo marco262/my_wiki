@@ -8,28 +8,28 @@ Because their power is a divine gift, Clerics typically associate themselves wit
 
 Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can.
 
-| Level | Prof.<br>Bonus | Class Features              | Channel<br>Divinity | Cantrips | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|:-----:|:--------------:|:----------------------------|:-------------------:|:--------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  1st  |       +2       | Divine Order, Spellcasting  |         --          |    3     |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  2nd  |       +2       | Channel Divinity            |          2          |    3     |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
-|  3rd  |       +2       | Cleric Subclass             |          2          |    3     |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
-|  4th  |       +2       | Ability Score Improvement   |          2          |    4     |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
-|  5th  |       +3       | Smite Undead                |          2          |    4     |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
-|  6th  |       +3       | Subclass Feature            |          3          |    4     |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
-|  7th  |       +3       | Blessed Strikes             |          3          |    4     |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
-|  8th  |       +3       | Ability Score Improvement   |          3          |    4     |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
-|  9th  |       +4       | Commune                     |          3          |    4     |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
-| 10th  |       +4       | Divine Intervention         |          3          |    5     |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
-| 11th  |       +4       | --                          |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 12th  |       +4       | Ability Score Improvement   |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
-| 13th  |       +5       | --                          |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 14th  |       +5       | Improved Blessed Strikes    |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
-| 15th  |       +5       | --                          |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 16th  |       +5       | Ability Score Improvement   |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
-| 17th  |       +6       | Subclass Feature            |          3          |    5     |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
-| 18th  |       +6       | --                          |          4          |    5     |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
-| 19th  |       +6       | Ability Score Improvement   |          4          |    5     |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
-| 20th  |       +6       | Greater Divine Intervention |          4          |    5     |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
+| Level | Prof.<br>Bonus | Class Features              | Channel<br>Divinity | Cantrips | Prepared<br>Spells | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:-----:|:--------------:|:----------------------------|:-------------------:|:--------:|:------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  1st  |       +2       | Divine Order, Spellcasting  |         --          |    3     |         4          |  2  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  2nd  |       +2       | Channel Divinity            |          2          |    3     |         5          |  3  | --  | --  | --  | --  | --  | --  | --  | --  |
+|  3rd  |       +2       | Cleric Subclass             |          2          |    3     |         6          |  4  |  2  | --  | --  | --  | --  | --  | --  | --  |
+|  4th  |       +2       | Ability Score Improvement   |          2          |    4     |         7          |  4  |  3  | --  | --  | --  | --  | --  | --  | --  |
+|  5th  |       +3       | Smite Undead                |          2          |    4     |         9          |  4  |  3  |  2  | --  | --  | --  | --  | --  | --  |
+|  6th  |       +3       | Subclass Feature            |          3          |    4     |         10         |  4  |  3  |  3  | --  | --  | --  | --  | --  | --  |
+|  7th  |       +3       | Blessed Strikes             |          3          |    4     |         11         |  4  |  3  |  3  |  1  | --  | --  | --  | --  | --  |
+|  8th  |       +3       | Ability Score Improvement   |          3          |    4     |         12         |  4  |  3  |  3  |  2  | --  | --  | --  | --  | --  |
+|  9th  |       +4       | Commune                     |          3          |    4     |         14         |  4  |  3  |  3  |  3  |  1  | --  | --  | --  | --  |
+| 10th  |       +4       | Divine Intervention         |          3          |    5     |         15         |  4  |  3  |  3  |  3  |  2  | --  | --  | --  | --  |
+| 11th  |       +4       | --                          |          3          |    5     |         16         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 12th  |       +4       | Ability Score Improvement   |          3          |    5     |         16         |  4  |  3  |  3  |  3  |  2  |  1  | --  | --  | --  |
+| 13th  |       +5       | --                          |          3          |    5     |         17         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 14th  |       +5       | Improved Blessed Strikes    |          3          |    5     |         17         |  4  |  3  |  3  |  3  |  2  |  1  |  1  | --  | --  |
+| 15th  |       +5       | --                          |          3          |    5     |         18         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 16th  |       +5       | Ability Score Improvement   |          3          |    5     |         18         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  | --  |
+| 17th  |       +6       | Subclass Feature            |          3          |    5     |         19         |  4  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |  1  |
+| 18th  |       +6       | --                          |          4          |    5     |         20         |  4  |  3  |  3  |  3  |  3  |  1  |  1  |  1  |  1  |
+| 19th  |       +6       | Ability Score Improvement   |          4          |    5     |         21         |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
+| 20th  |       +6       | Greater Divine Intervention |          4          |    5     |         22         |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
 ## Creating a Cleric
 
