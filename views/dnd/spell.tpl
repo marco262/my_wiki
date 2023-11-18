@@ -1,5 +1,12 @@
 % rebase("common/base.tpl", title=title)
 
+% if defined('editors_note'):
+<div class="errata">
+    <p><strong>Editor's Note</strong></p>
+    <p>{{ editors_note }}</p>
+</div>
+% end
+
 <%
 from data.dnd.enums import classes as class_list
 spell_class_list = []
