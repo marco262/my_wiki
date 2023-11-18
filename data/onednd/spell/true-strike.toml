@@ -1,0 +1,15 @@
+title = "True Strike"
+spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
+level = "0"
+school = "Divination"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self"
+components = ["S", "M"]
+material = "a weapon with which you have proficiency"
+duration = "Instantaneous"
+description = "Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice)."
+cantrip_upgrade = "Whether you choose to deal Force damage or the weapon's normal damage type, the attack deals extra Force damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6)."
+source = "Bastions and Cantrips"
+editors_note = "References to Radiant damage in this spell have been changed to Force."

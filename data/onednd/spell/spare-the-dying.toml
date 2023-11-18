@@ -1,12 +1,13 @@
 title = "Spare the Dying"
-spell_lists = ["Divine", "Primal"]
+spell_lists = ["Cleric", "Druid"]
 level = "0"
 school = "Necromancy"
 concentration_spell = false
 ritual_spell = false
 casting_time = "Action"
-range = "Touch"
+range = "15 feet"
 components = ["V", "S"]
 duration = "Instantaneous"
-description = """You touch a creature that has the Dying condition. The creature regains 1 Hit Point."""
-source = "Druid and Paladin"
+description = "Choose a creature within range that has 0 Hit Points yet is alive. The creature becomes Stable."
+cantrip_upgrade = "The spell's range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet)."
+source = "Bastions and Cantrips"

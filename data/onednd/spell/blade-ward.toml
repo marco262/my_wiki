@@ -1,0 +1,12 @@
+title = "Blade Ward"
+spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
+level = "0"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Reaction, which you take in response to a visible creature targeting you with a melee attack"
+range = "Self"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "You trace a sigil of warding, imposing Disadvantage on the creature's attack roll against you."
+source = "Bastions and Cantrips"

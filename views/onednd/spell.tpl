@@ -1,6 +1,12 @@
 % rebase("common/base.tpl", title=title)
-
 % from src.common.utils import ordinal
+
+% if defined('editors_note'):
+<div class="errata">
+    <p><strong>Editor's Note</strong></p>
+    <p>{{ editors_note }}</p>
+</div>
+% end
 
 % if level == "0":
 % fmt = "{school} Cantrip ({spell_lists})"
