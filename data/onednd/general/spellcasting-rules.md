@@ -387,6 +387,7 @@ The Primal Spells table is a partial list of Primal spells. The table provides a
 |  1  | _[[[spell:Cure Wounds]]]_               | Abjuration*    |   No   |
 |  1  | _[[[spell:Detect Magic]]]_              | Divination     |  Yes   |
 |  1  | _[[[spell:Detect Poison and Disease]]]_ | Divination     |  Yes   |
+|  1  | _[[[spell:Ensnaring Strike]]]_          | Conjuration    |   No   |
 |  1  | _[[[spell:Entangle]]]_                  | Conjuration    |   No   |
 |  1  | _[[[spell:Faerie Fire]]]_               | Evocation      |   No   |
 |  1  | _[[[spell:Fog Cloud]]]_                 | Conjuration    |   No   |
