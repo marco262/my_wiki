@@ -134,9 +134,9 @@ You roll an additional d8 when you reach certain Cleric levels: 7th level (2d8),
 
 ### 3rd Level: Cleric Subclass
 
-You gain a Cleric subclass of your choice: [Life Domain](/onednd/subclass/Life Domain), [Light Domain](/onednd/subclass/Light Domain), [Trickery Domain](/onednd/subclass/Trickery Domain), or [War Domain](/onednd/subclass/War Domain). A subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level and lower.
+You gain a Cleric [subclass](#cleric-subclasses) of your choice: Life Domain, Light Domain, Trickery Domain, or War Domain. Subclasses are detailed after this class's description. 
 
-Each Cleric subclass is named after a domain of existence that is favored by a god, a pantheon, or a religious order. When you choose a subclass, you decide why your Cleric chose that domain.
+A subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level and lower.
 
 ### 4th Level: Ability Score Improvement
 
@@ -199,6 +199,17 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 You are able to call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose _[Wish](/onednd/spell/Wish)_ when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.
 
 When you cast _Wish_ with this feature, you are immune to the stress caused by using _Wish_ to do something other than casting a spell.
+
+# Cleric Subclasses
+
+A Cleric subclass is a specialization that grants you special abilities at certain Cleric levels, as specified in the subclass. 
+
+Each Cleric subclass is named after a domain of existence that is favored by a god, a pantheon, or a religious order. When you choose a subclass, you decide why your Cleric chose that domain.
+
+* [Life Domain](/onednd/subclass/Life Domain)
+* [Light Domain](/onednd/subclass/Light Domain)
+* [Trickery Domain](/onednd/subclass/Trickery Domain)
+* [War Domain](/onednd/subclass/War Domain)
 
 ----
 
