@@ -188,16 +188,10 @@ You embody primal power. Your Strength and Constitution scores increase by 4, an
 
 A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
-## Playtest
-
 * [Path of the Berserker](/onednd/subclass/Path of the Berserker)
 * [Path of the Wild Heart](/onednd/subclass/Path of the Wild Heart)
 * [Path of the World Tree](/onednd/subclass/Path of the World Tree)
 * [Path of the Zealot](/onednd/subclass/Path of the Zealot)
-
-## Homebrew
-
-* [Path of the Beast](/onednd/subclass/Path of the Beast)
 
 ----
 
