@@ -51,9 +51,9 @@ You prepare Spells for each of your classes individually, referring to the Spell
 
 [[/div]]
 
-To create a Cleric, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Cleric](#multiclassing-and-the-cleric) section.
+To create a Cleric, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Cleric](#multiclassing-and-the-cleric) sidebar.
 
-Then look at the Cleric table to see the class features you get at each level in this Class. The descriptions of those features appear in the [Cleric Class Features](#cleric-class-features) section.
+Then look at the Cleric table to see the class features you get at each level in this class. The descriptions of those features appear in the [Cleric Class Features](#cleric-class-features) section.
 
 #### Hit Points
 

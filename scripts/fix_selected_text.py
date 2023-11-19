@@ -41,6 +41,12 @@ elif arg == "fix_line_breaks":
         feature_name_words: List[str] = feature_name.split(" ")
         feature_name = " ".join([word.title() if word not in ["of"] else word for word in feature_name_words])
         text = text.replace(m.group(0), f"@@### {m.group(1)}{m.group(2).lower()} Level: {feature_name}@@")
+    # LEVEL 4: ABILITY SCORE IMPROVEMENT => ### Level 4: Ability Score Improvement
+    for m in re.finditer(r"LEVEL (\d+):(.*)", text, re.IGNORECASE | re.MULTILINE):
+        feature_name = m.group(2).strip(" ").lower()
+        feature_name_words: List[str] = feature_name.split(" ")
+        feature_name = " ".join([word.title() if word not in ["of"] else word for word in feature_name_words])
+        text = text.replace(m.group(0), f"@@### Level {m.group(1)}: {feature_name}@@")
     text = re.sub(r"\r?\n", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)
