@@ -12,28 +12,28 @@ Even without the power of their Rage, Barbarians are skilled in combat and the u
 
 Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring.
 
-| Level | Prof.<br>Bonus | Class Features                          |
-|:-----:|:--------------:|:----------------------------------------|
-|  1st  |       +2       | Rage, Unarmored Defense, Weapon Mastery |
-|  2nd  |       +2       | Danger Sense, Reckless Attack           |
-|  3rd  |       +2       | Barbarian Subclass, Primal Knowledge    |
-|  4th  |       +2       | Ability Score Improvement               |
-|  5th  |       +3       | Extra Attack, Fast Movement             |
-|  6th  |       +3       | Subclass Feature                        |
-|  7th  |       +3       | Feral Instinct, Instinctive Pounce      |
-|  8th  |       +3       | Ability Score Improvement               |
-|  9th  |       +4       | Brutal Critical (1d12)                  |
-| 10th  |       +4       | Subclass Feature                        |
-| 11th  |       +4       | Relentless Rage                         |
-| 12th  |       +4       | Ability Score Improvement               |
-| 13th  |       +5       | Brutal Critical (2d12)                  |
-| 14th  |       +5       | Subclass Feature                        |
-| 15th  |       +5       | Persistent Rage                         |
-| 16th  |       +5       | Ability Score Improvement               |
-| 17th  |       +6       | Brutal Critical (3d12)                  |
-| 18th  |       +6       | Indomitable Might                       |
-| 19th  |       +6       | Ability Score Improvement               |
-| 20th  |       +6       | Primal Champion                         |
+| Level | Prof.<br>Bonus | Class Features                          | Rages | Rage<br>Dmg | Weapon<br>Mastery |
+|:-----:|:--------------:|:----------------------------------------|:-----:|:-----------:|:-----------------:|
+|   1   |       +2       | Rage, Unarmored Defense, Weapon Mastery |   2   |     +2      |         2         |
+|   2   |       +2       | Danger Sense, Reckless Attack           |   2   |     +2      |         2         |
+|   3   |       +2       | Barbarian Subclass, Primal Knowledge    |   3   |     +2      |         2         |
+|   4   |       +2       | Ability Score Improvement               |   3   |     +2      |         3         |
+|   5   |       +3       | Extra Attack, Fast Movement             |   3   |     +2      |         3         |
+|   6   |       +3       | Subclass Feature                        |   4   |     +2      |         3         |
+|   7   |       +3       | Feral Instinct, Instinctive Pounce      |   4   |     +2      |         3         |
+|   8   |       +3       | Ability Score Improvement               |   4   |     +2      |         3         |
+|   9   |       +4       | Brutal Critical (1d12)                  |   4   |     +3      |         3         |
+|  10   |       +4       | Subclass Feature                        |   4   |     +3      |         4         |
+|  11   |       +4       | Relentless Rage                         |   4   |     +3      |         4         |
+|  12   |       +4       | Ability Score Improvement               |   5   |     +3      |         4         |
+|  13   |       +5       | Brutal Critical (2d12)                  |   5   |     +3      |         4         |
+|  14   |       +5       | Subclass Feature                        |   5   |     +3      |         4         |
+|  15   |       +5       | Persistent Rage                         |   5   |     +3      |         4         |
+|  16   |       +5       | Ability Score Improvement               |   5   |     +4      |         4         |
+|  17   |       +6       | Brutal Critical (3d12)                  |   6   |     +4      |         4         |
+|  18   |       +6       | Indomitable Might                       |   6   |     +4      |         4         |
+|  19   |       +6       | Ability Score Improvement               |   6   |     +4      |         4         |
+|  20   |       +6       | Primal Champion                         |   6   |     +4      |         4         |
 
 ## Creating a Barbarian
 
@@ -116,15 +116,15 @@ Your training with weapons allows you to use the [Mastery](/onednd/general/equip
 
 When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table. 
 
-### Level 2: Danger Sense 
+### Level 2: Danger Sense
 
 You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, provided you don't have the Incapacitated condition. 
 
-### Level 2: Reckless Attack 
+### Level 2: Reckless Attack
 
 You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time. 
 
-### Level 3: Barbarian Subclass 
+### Level 3: Barbarian Subclass
 
 You gain a Barbarian subclass of your choice: Path of the Berserker, Path of the Wild Heart, Path of the World Tree, or Path of the Zealot. Subclasses are detailed after this class's description.
 
