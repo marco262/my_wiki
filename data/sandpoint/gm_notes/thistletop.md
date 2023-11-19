@@ -181,7 +181,6 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Nualia's Journal]()
 * E5: [Portal of Greed](^sandpoint/thistletop/portal_of_greed.jpg)
 * E6: [Crypt](^sandpoint/thistletop/crypt.jpg)
-  * 3x [Shadow](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
   * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
   * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=2|race=Crab]])
@@ -198,3 +197,67 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Interior](^sandpoint/thistletop/malfeshnekors_prison.png)
     * Note: The everburning candles are an illusion, not magic items
   * [Malfeshnekor](^sandpoint/thistletop/barghest.png) ([stats](https://5e.tools/bestiary.html#barghest_mpmm,scaled:7))
+
+# The Ritual
+
+The heroes wake up in the [prison](^sandpoint/thistletop/prison.jpg), stripped of their clothes and with their hands bound behind their backs (Rusty is in manacles). Junior is trussed up in a net, muzzled, and hanging from a peg on the far wall. Grog isn't there. They can hear each other, but can't see each other, because of the stone walls between cells. They have some time to chat, and will hear the raspy voice of [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg) in the cell nearest to the door. She is stripped to her underclothes and her voice is raspy and hoarse. When she talks, she will often be interrupted by hacking coughs. (She is suffering from pneumonia due to smoke inhalation. She has a 50% chance every round she tries to take an action to be incapacitated by coughing fits. She has only 5 hit points.)
+
+[[accordion What Ameiko Knows]]
+
+When Ameiko met Tsuto at the Glassworks, he revealed to her that he and several other mercenaries were led by Nualia and hinted that she's got big plans for Sandpoint's future. Tsuto warned Ameiko that she didn't want to be in town when those plans came through, and offered her a chance to join his group at Thistletop. Ameiko recoiled at the suggestion and slapped her brother in shock that he'd sunk to such a low. He responded by unleashing his goblins on her. They overwhelmed her, bound and gagged her, and hid her in the basement of the Glassworks.
+
+She was unconscious when the PCs met Tsuto, but awoke when the Glassworks fire reached her room. She struggled to get free of her bonds, but was resigned to die when Tsuto broke into the room and rescued her. He carried her out of the burning building, and all the way to Thistletop where he locked her in the prison.
+
+Ever since then, he's been regularly visiting her and trying to convince her to join his side. Ameiko doesn't know what's happened to him lately, but he's so much quicker to anger than the Tsuto she grew to love. She assumes it's Nualia's influence. Their talks when he visited ranged from cajoling her to outright insults and threats towards her and Sandpoint. She's felt tempted, just to get out of the cell, but she stayed resolute. Though being in the dank, cold cell in just her undergarments has been horribly uncomfortable.
+
+However, she does know that Tsuto protected her from being used in one of Nualia's rituals. This has left her conflicted about how he feels about her.  
+
+At some point, she figured out that Tsuto killed their father. Tsuto also blames the Glassworks fire on the Heroes, but Ameiko doesn't believe him and thinks it was his goblins just getting too rowdy. However, Ameiko has good Insight and may figure things out based on the PCs' reactions.
+
+[[/accordion]]
+
+After giving the players a chance to chat, but before they get frustrated at trying and failing to free themselves, one of them will spot a [butterfly](^sandpoint/butterfly.jpg) flitting about the room. It will flutter by Junior, and then fly towards the door and land on the doorknob, right before the door opens and [Orik](^sandpoint/thistletop/orik_vancaskerkin.png) walks in.
+
+Orik will taunt the PCs a bit, acting more smartass than insulting. He'll tease them about getting their asses handed to them, and how he was right to not throw his lot in with them. If they try to bribe him, he'll point out that they took all the PCs money off them when they stripped them of their clothes. If asked about Grog, he'll say he saw him getting prepped as Nualia's next sacrifice. 
+
+Eventually, Orik will ask the party if the offer to join them is still on the table. When asked about his change of heart, Orik will be cagey and awkward, but will remark on liking Sandpoint when he visited (he liked the Hagfish's eel stew), and make an excuse how he doesn't think Nualia actually intends to pay him. He will haggle his fee up from the party, however. Orik will eventually set the PCs free and help them get their gear back. They'll find all their money and equipment is still there. If they ask him about fighting on their side, he'll shrug and say he'll tag along but would prefer to hang back see how things play out. (He'll jump in and help if it looks like the PCs are in serious trouble)
+
+## The Mission
+
+What happens next depends on what the PCs want to do, but they will likely want to go rescue Grog. As they head down the hallway, they'll spy the same [butterfly](^sandpoint/butterfly.jpg) as before flitting ahead of them, almost leading them towards the temple. (Orik: "The fuck is a butterfly doing down here?") It will land on the [door to the chapel](^sandpoint/thistletop/chapel_entrance.png), and crawl in through one of the cracks.
+
+When they open the chapel doors, they'll find [the temple](^sandpoint/thistletop/chapel_to_lamashtu.jpg) ([music]($load|music|arr/Dark Vows.mp3)) empty save for [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=3|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]]) at the far end, standing at the altar and doing a ritual over Grog who's bound spread-eagled on the slab. When she notices the PCs entering, she'll snarl and say something about "the vermin got loose", before plunging the dagger into Grog's chest. He'll yell out in pain, and arch off the slab as if he were being pulled up off it by the dagger. Nualia will say something like, "You will not interrupt my work" and her [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm)) will stand before the party and duplicate itself to act as a barrier between them and Nualia. **Roll initiative**
+
+## The Fight
+
+[Battle music]($load|music|arr/BGM_EX2_Dan_D11.mp3)
+
+On her turn, Nualia will chant the ritual (see below) while Grog screams in pain and anguish. If any enemy gets close to the altar, she will interrupt her chanting (but not the ritual), and pick up her sword nearby to step up and drive them away from the altar.
+
+[[accordion Nualia's Chanting]]
+
+English: Great Lamashtu, Bearer of Monsters, Mother of all Beasts, hear my words and accept this sacrifice in your name. Grant me power, so I may serve you and corrupt this world in your name.
+
+Infernal: 'ej *be'neDIq* DaNeHchugh, vaj, *be'neDIq* DaNeHbej. tlhIHvaD jatlhchoHlIj, 'ej tlhIHvaD puqloDwIj.
+
+[[/accordion]]
+
+The yeth hound will focus primarily on debuffing and stalling the PCs. Any duplicate will get an OA to stop people from just charging by it. On the Yeth Hound's turn, it will target the most dangerous PC and cast [Blindness](/dnd/spell/blindness-deafness). If the PCs get a hit in on a duplicate, it will make it disappear. Eventually, they'll get rid of enough duplicates to make it past the hound.
+
+Ameiko, if she's brought along, isn't in good enough shape to fight in melee, but she can cast _[[[spell:Minor Illusion]]]_ and _[[[spell:Vicious Mockery]]]_ from the back. Or fire a crossbow if someone gives her a weapon. [Orik](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]]) is hanging back but will step in to help if things get dicey.
+
+If anyone gets close enough to the altar to grab the dagger, let them know they can feel the malevolent energy coming off of it, and they can feel every fiber of their being telling them that getting close to that or touching it is a bad idea. If they still grab for the dagger, they take psychic damage (Wisdom save for half) and their hand can't close around the dagger.
+
+After at least most of a round, right before Junior's turn, the [butterfly](^sandpoint/butterfly.jpg) will appear again and flutter down to land on the hilt of the dagger. It will push away the dark energy, and Junior will be able to grab onto it. The butterfly will disappear in a burst of starlight, and Junior will be enveloped in a swirl of dark energy. This will go on for a round, with Nualia trying to attack and interrupt it (emphasize to the PCs they should stop her). 
+
+On Junior's next turn, he will coalesce into a [naked dragon-lizard-girl-thing](^sandpoint/junior_naked.png) who is pulling at the dagger with all her might. She manages to get it out, and she and Grog fall to the altar, the ritual ruined. Nualia will be enraged, screaming something like "My blessing!!", and try to kill Junior. Let the PCs mop her and the Yeth Hound up.
+
+## The Aftermath
+
+Grog will be barely alive, but dying. His soul is in tatters and unable to keep his body alive. He will have an opportunity to say a few meaningful things to the party before dying.
+
+If the party wants to explore deeper, Ameiko will go with but stay in the back.
+
+Lyrie is in her room, unconscious, convalescing with her cat curled up on her chest. The cat will hiss and try to attack anyone who comes close. After a few hours, she'll wake up. She'll be amenable to changing sides as long as she gets paid (50 gp), but will want to continue her research and delve deeper into Thistletop's secrets. 
+
+Tsuto is on the top level, trying to convince the goblins to help him fix the bridge, while being harassed by the horse. His reunion with Ameiko will... awkward. He will be distraught at Nualia's death, and the fight will go out of him. Ameiko still loves her brother, but she's hurting from the way he treated her and knowing he killed their father. Let the attitude of the PCs drive the interaction.

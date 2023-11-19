@@ -23,11 +23,14 @@ Enter another URL to set as Visual Aid here:
 
 [The Heroes of Sandpoint](^sandpoint/Heroes of Sandpoint.png)
 
+[The New Heroes of Sandpoint](^sandpoint/heroes_of_sandpoint_2.png)
+
 * [Althaea Meliamne](^sandpoint/Althaea.png), elven fighter
 * [Delfi Greenbottle](^sandpoint/Queen Delfi.png), halfling monk
 * [Oskar "Grog" Deadhand](^sandpoint/Oskar.png), half-orc ranger
 * [Rusty Stoutfield](^sandpoint/Rusty.png), human fighter
 * [Vellyse "Lyse" Lostren](^sandpoint/Lyse.png), elven bard
+* [Junior](^sandpoint/Junior.png), half-drake half-demon barbarian
 
 [Pre-session music]($load|music|arr/Saltswept.mp3)
 
