@@ -44,15 +44,15 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 
 ## NPCs
 
-* [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
-* [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=3|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
+* [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=2|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
+* [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=2|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
     * [Closeup](^sandpoint/thistletop/tsuto_kaijitsu_burned_closeup.jpg)
-* [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=3|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
+* [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
     * [Alt pic](^sandpoint/thistletop/orik_vancaskerkin2.jpg)
-* [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=3|name=Lyrie|role=Mage]])
+* [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=2|name=Lyrie|role=Mage]])
     * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
     * [Old pic](^sandpoint/thistletop/lyrie_akenja.png), [Alt pic](^sandpoint/thistletop/lyrie_akenja3.jpg)
-* [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
+* [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=3|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
   * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg), [6](^sandpoint/thistletop/nualia_8.jpg)
   * [Sihedron medallion](^sandpoint/sihedron_medallion.png)
 * 3x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
@@ -112,7 +112,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 
 * D1: [Abandoned Feast Hall](^sandpoint/thistletop/abandoned_feast_hall.jpg)
 * D2: [Chieftain's Harem](^sandpoint/thistletop/chieftains_harem.jpg)
-  * [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=3|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
+  * [Bruthazmus](^sandpoint/thistletop/bruthazmus.jpg) ([[npc cr=2|name=Bruthazmus|race=Bugbear|Role=Skirmisher|weapon=Flail]])
       * Flail property: If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
       * Loot: Studded leather, flail, longbow with arrows, [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks), 20 gp
   * 4x [Goblin wives](^sandpoint/thistletop/goblin_wife.png)
@@ -131,11 +131,11 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
       * He wants the PCs to leave Thistletop alone, and will tolerate their presence just long enough for them to kill Nualia and the other longshanks.
       * If asked to help fight, he will "agree" if he thinks it will get the party to move on and kill his enemies, but will always find and excuse to stay back and do nothing.
 * D4a: [Tsuto's Chambers](^sandpoint/thistletop/tsutos_chambers.png)
-  * [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=3|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
+  * [Tsuto Kaijitsu](^sandpoint/thistletop/tsuto_kaijitsu_burned.jpg) ([[npc cr=2|name=Tsuto|race=Half-elf|role=Skirmisher|weapon=Shortbow or Unarmed Strike|num_attacks=+1|hp=40]])
       * [Closeup](^sandpoint/thistletop/tsuto_kaijitsu_burned_closeup.jpg)
       * Loot: shortbow with arrows, thieves' tools, silver earrings (25 gp for the pair), [Potion of Healing](/dnd/equipment/magic-item/Potion of Healing) (10 or 2d4 + 2)
 * D4b: [Orik's Chambers](^sandpoint/thistletop/oriks_chambers.png)
-  * [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=3|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
+  * [Orik Vancaskerkin](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]])
       * [Alt pic](^sandpoint/thistletop/orik_vancaskerkin2.jpg)
       * Loot: longbow with arrows, longsword, shield, chain mail, [Mystery Key](/dnd/equipment/magic-item/mystery-key), 15 gp
 * D4c: [Lyrie's Chambers](^sandpoint/thistletop/lyries_chambers.png)
@@ -145,7 +145,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * D5: [Nualia's Chambers](^sandpoint/thistletop/nualias_chambers.jpg)
 * D6: [Storage Room](^sandpoint/thistletop/storage_room.jpg)
 * D7: [Tentamort Hunting Grounds](^sandpoint/thistletop/tentamort_hunting_grounds.png)
-  * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=3|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
+  * [Tentamort](^sandpoint/thistletop/tentamort.png) ([[npc cr=2|race=Tentamort]]) ([wiki](https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/tentamort/))
 * D8: [Tentamort Lair](^sandpoint/thistletop/tentamort_lair.jpg)
 * D9: [Prison](^sandpoint/thistletop/prison.jpg)
   * [Ameiko Kaijitsu](^sandpoint/ameiko_kaijitsu_2.jpg), stripped to her underclothes. Suffering from pneumonia due to smoke inhalation, she has a 50% chance every round she tries to take an action to be incapacitated by coughing fits. She has only 5 hit points.
@@ -158,7 +158,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * D13: [Goblin Art Gallery](^sandpoint/thistletop/goblin_art_gallery.jpg)
 * D14: [War Room](^sandpoint/thistletop/war_room.jpg)
 * D15: [Research Room](^sandpoint/thistletop/research_room.jpg)
-  * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=3|name=Lyrie|role=Mage]])
+  * [Lyrie Akenja](^sandpoint/thistletop/lyrie_akenja2.png) ([[npc cr=2|name=Lyrie|role=Mage]])
       * As a bonus action in combat, will cast [Dragon's Breath](/dnd/spell/Dragon's Breath) on her familiar.
       * Loot: Dagger, silver comb (25 gp), fine silk gown (60 gp), small pouch of artifacts (hair, fingernail clipping, used handkerchiefs, pearl earring worth 50 gp) stolen from Tsuto, [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment), 16 gp
       * [Old pic](^sandpoint/thistletop/lyrie_akenja.png), [Alt pic](^sandpoint/thistletop/lyrie_akenja3.jpg)
@@ -172,9 +172,9 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * E1: [Ancient Door](^sandpoint/thistletop/ancient_door.jpg)
 * E2: [Statue Hall](^sandpoint/thistletop/statue_hall.jpg)
 * E3: [Trapped Hall](^sandpoint/thistletop/trapped_hall.jpg)
-  * Trap: [[npc cr=3|role=Trap]]
+  * Trap: [[npc cr=2|role=Trap]]
 * E4: [Observation Deck](^sandpoint/thistletop/observation_deck.jpg)
-  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=4|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
+  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=3|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
       * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg)
       * Loot: Breastplate, Sword of Vengeance, longbow with 20 arrows, [Sihedron medallion](^sandpoint/sihedron_medallion.png), gold holy symbol of Lamashtu (100 gp)
   * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
@@ -184,7 +184,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * 3x [Shadow](^curse_of_strahd/shadow.jpg) ([stats](https://5e.tools/bestiary.html#shadow_mm))
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
   * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
-  * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=3|race=Crab]])
+  * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=2|race=Crab]])
   * Treasure: 2100 cp, 1500 sp, 50 gp, 7x gems each worth (10 gp) = 291 gp
       * The gold giant helmet is worth 500 gp if it can be hauled out (it weighs 300 lbs)
 * E8: [Communication Room](^sandpoint/thistletop/communication_room.jpg)
