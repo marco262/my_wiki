@@ -242,9 +242,9 @@ Infernal: 'ej *be'neDIq* DaNeHchugh, vaj, *be'neDIq* DaNeHbej. tlhIHvaD jatlhcho
 
 [[/accordion]]
 
-The yeth hound will focus primarily on debuffing and stalling the PCs. Any duplicate will get an OA to stop people from just charging by it. On the Yeth Hound's turn, it will target the most dangerous PC and cast [Blindness](/dnd/spell/blindness-deafness). If the PCs get a hit in on a duplicate, it will make it disappear. Eventually, they'll get rid of enough duplicates to make it past the hound.
+The yeth hound will focus primarily on debuffing and stalling the PCs. Any duplicate will get an OA to stop people from just charging by it. On the Yeth Hound's turn, it will target the most dangerous PC and cast _[Blindness](/dnd/spell/blindness-deafness)_. If the PCs get a hit in on a duplicate, it will make it disappear. Eventually, they'll get rid of enough duplicates to make it past the hound.
 
-Ameiko, if she's brought along, isn't in good enough shape to fight in melee, but she can cast _[[[spell:Minor Illusion]]]_ and _[[[spell:Vicious Mockery]]]_ from the back. Or fire a crossbow if someone gives her a weapon. [Orik](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]]) is hanging back but will step in to help if things get dicey.
+Ameiko, if she's brought along, isn't in good enough shape to fight in melee, but she can cast _[Minor Illusion](/dnd/spell/Minor Illusion)_ and _[Vicious Mockery](/dnd/spell/Vicious Mockery)_ from the back. Or fire a crossbow if someone gives her a weapon. [Orik](^sandpoint/thistletop/orik_vancaskerkin.png) ([[npc cr=2|name=Orik|role=Soldier|weapon=Longsword or Shield Slam|total_damage=+4|armor_class=+2]]) is hanging back but will step in to help if things get dicey.
 
 If anyone gets close enough to the altar to grab the dagger, let them know they can feel the malevolent energy coming off of it, and they can feel every fiber of their being telling them that getting close to that or touching it is a bad idea. If they still grab for the dagger, they take psychic damage (Wisdom save for half) and their hand can't close around the dagger.
 
