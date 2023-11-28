@@ -6,7 +6,7 @@ Barbarians are warriors defined by their connection to the primal forces of the 
 
 Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.
 
-Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their own place in the multiverse, valuing keen instincts and raw physicality.
+Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their place in the multiverse, valuing keen instincts and raw physicality.
 
 Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses and reflexes, making the Rage useful beyond combat.
 
@@ -22,15 +22,15 @@ Barbarians often serve as protectors and leaders in their communities. They char
 |   6   |       +3       | Subclass Feature                        |   4   |     +2      |         3         |
 |   7   |       +3       | Feral Instinct, Instinctive Pounce      |   4   |     +2      |         3         |
 |   8   |       +3       | Ability Score Improvement               |   4   |     +2      |         3         |
-|   9   |       +4       | Brutal Critical (1d12)                  |   4   |     +3      |         3         |
+|   9   |       +4       | Brutal Strike                           |   4   |     +3      |         3         |
 |  10   |       +4       | Subclass Feature                        |   4   |     +3      |         4         |
 |  11   |       +4       | Relentless Rage                         |   4   |     +3      |         4         |
 |  12   |       +4       | Ability Score Improvement               |   5   |     +3      |         4         |
-|  13   |       +5       | Brutal Critical (2d12)                  |   5   |     +3      |         4         |
+|  13   |       +5       | Improve Brutal Strike                   |   5   |     +3      |         4         |
 |  14   |       +5       | Subclass Feature                        |   5   |     +3      |         4         |
 |  15   |       +5       | Persistent Rage                         |   5   |     +3      |         4         |
 |  16   |       +5       | Ability Score Improvement               |   5   |     +4      |         4         |
-|  17   |       +6       | Brutal Critical (3d12)                  |   6   |     +4      |         4         |
+|  17   |       +6       | Improved Brutal Strike                  |   6   |     +4      |         4         |
 |  18   |       +6       | Indomitable Might                       |   6   |     +4      |         4         |
 |  19   |       +6       | Ability Score Improvement               |   6   |     +4      |         4         |
 |  20   |       +6       | Primal Champion                         |   6   |     +4      |         4         |
@@ -104,7 +104,7 @@ The Rage lasts until the end of your next turn, and it ends early if you don Hea
 
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
-You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table, and you regain all expended uses when you finish a Long Rest. 
+You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
 ### Level 1: Unarmored Defense
 
@@ -158,23 +158,35 @@ Your instincts are so honed that you have Advantage on Initiative rolls.
 
 As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed. 
 
-### Level 9: Brutal Critical 
+### Level 9: Brutal Strike 
 
-When you score a critical hit with a weapon using Strength or an Unarmed Strike, the target takes 1d12 extra damage of the same type dealt by the weapon or Unarmed Strike.
+If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
-This extra damage increases by 1d12 when you reach Barbarian levels 13 (2d12) and 17 (3d12). 
+***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks.  
+***Hamstring Blow.*** The target's Speed is reduced by 15 feet until the start of your next turn.
 
 ### Level 11: Relentless Rage 
 
 Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
-Each time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10. 
+Each time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10.
+
+### Level 13: Brutal Strike Improvement 
+
+You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.
+
+Staggering Blow. The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.
+Sundering Blow. Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage.
 
 ### Level 15: Persistent Rage 
 
 If you roll Initiative and have no uses of Rage remaining, you regain one expended use of it.
 
-In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious condition or don Heavy Armor. 
+In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious condition or don Heavy Armor.
+
+### Level 17: Brutal Strike Improvement 
+
+The extra damage your Brutal Strike deals increases to 2d10. In addition, you can use two different Brutal Strike effects when you use your Brutal Strike feature.
 
 ### Level 18: Indomitable Might 
 
