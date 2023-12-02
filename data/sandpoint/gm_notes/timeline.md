@@ -18,6 +18,8 @@
 * [4667 AR](https://pathfinderwiki.com/wiki/4667_AR) (40 Years ago): Silas and Karivek Vekker discover Xin-Shalast.
 * [4668 AR](https://pathfinderwiki.com/wiki/4668_AR) (39 Years ago): Silas and Karivek Vekker eat each other.
 * [4675 AR](https://pathfinderwiki.com/wiki/4675_AR) (32 Years ago): The House of Blue Stones is founded in Sandpoint by Enderaki Sorn, Sabyl Sorn. 
+* [4686 AR](https://pathfinderwiki.com/wiki/4686_AR) (21 Years ago):
+  * (Erastus 18) Nualia is born.
 * [4687 AR](https://pathfinderwiki.com/wiki/4687_AR) (20 Years ago):
   * Vorel's Great-nephew, Traver Foxglove, reclaims the manor.
   * Traver Foxglove and his family move into the manor.
@@ -27,7 +29,6 @@
   * The Kaijitsu family leaves Magnimar to live in Sandpoint.
   * Jervis Stoot, a well-known local woodcarver, moves to a small island just north of the Varisian town of Sandpoint.
 * [4688 AR](https://pathfinderwiki.com/wiki/4688_AR) (19 Years ago):
-  * (Erastus 18) Nualia is born.
   * Tsuto Kaijitsu, a half-elf boy, is born to two human parents in Sandpoint.
 * [4689 AR](https://pathfinderwiki.com/wiki/4689_AR) (18 Years ago): 
   * Ameiko Kaijitsu is born.
