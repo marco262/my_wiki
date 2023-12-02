@@ -1,3 +1,4 @@
+
 * Erastus 4696: Nualia has her 10th birthday. "I'm 10 now, I don't need to be treated like a kid anymore!"
 * Entries about Nualia's difficulties in Sandpoint with the other children. Establish she's going to Turandarok.
 * Father Tobyn says he wants Nualia to become an acolyte. Nualia is on-board. "I'm blessed, after all."
