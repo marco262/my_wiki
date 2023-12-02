@@ -35,7 +35,7 @@
 * [4693 AR](https://pathfinderwiki.com/wiki/4693_AR) (14 Years ago):
   * Traver Foxglove kills his wife Cyralie when she attempts to burn down Foxglove Manor. Realizing what he has done, he commits suicide only minutes later.
   * Aldern Foxglove sent to an orphanage in Magnimar, then later claimed by a second cousin and taken to Korvosa.
-* [4699 AR](https://pathfinderwiki.com/wiki/4699_AR) (6 Years ago): Ameiko starts to visit her brother at Turandarok Academy after learning of his existence.
+* [4699 AR](https://pathfinderwiki.com/wiki/4699_AR) (8 Years ago): Ameiko starts to visit her brother at Turandarok Academy after learning of his existence.
 * [4700 AR](https://pathfinderwiki.com/wiki/4700_AR) (7 Years ago):
   * Haldmeer Grobaras becomes the most recent lord-mayor of Magnimar.
   * Enderaki Sorn dies of natural causes in Sandpoint.
