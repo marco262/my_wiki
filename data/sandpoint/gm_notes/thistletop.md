@@ -178,7 +178,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
       * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg)
       * Loot: Breastplate, Sword of Vengeance, longbow with 20 arrows, [Sihedron medallion](^sandpoint/sihedron_medallion.png), gold holy symbol of Lamashtu (100 gp)
   * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
-  * [Nualia's Journal]()
+  * [Nualia's Journal](https://docs.google.com/document/d/1sTFAuCnSHzSsEvfFO6-lVZ4_jFxcPALeWpq23Vqekjk/edit)
 * E5: [Portal of Greed](^sandpoint/thistletop/portal_of_greed.jpg)
 * E6: [Crypt](^sandpoint/thistletop/crypt.jpg)
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)

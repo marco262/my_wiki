@@ -1,3 +1,4 @@
+
 https://ckoriks-rise-of-the-runelords.obsidianportal.com/items/nualia-s-journal
 
 Erastus 18, 4698
