@@ -33,7 +33,7 @@
   * Action, bonus action, movement, reactions
 * Important homebrew
   * Adventurer's Intuition (insight checks for hints)
-  * Potion rules
+  * Potion of Healing rules
 * Have everyone go over their abilities!
 * Ask for party leader!
 * Recap
@@ -47,8 +47,9 @@
 * Create loot bags for
   * Collapsed Treasury (291 gp)
 * Pick out minis for Shadows, Crab
-* Write up journal entries for Nualia <https://ckoriks-rise-of-the-runelords.obsidianportal.com/items/nualia-s-journal>
 * Add mini for Lyrie's familiar
+* Reprint potion cards with max HP
+* Prep inter-chapter cutscene: script, visual aids, music/ambience
 
 ### Reminders
 
@@ -90,13 +91,13 @@ Rusty: Searching
 
 | Name           | Per | Inv | #  | HP      |
 |----------------|-----|-----|----|---------|
-| Tsuto      (Y) |     |     | 19 | 0 / 40  |
+| Tsuto      (Y) |     |     | 19 | 30 / 40 |
 | Rusty          | 10  | 13  | 16 |         |
 | Lyse           | 13  | 11  | 19 |         |
-| Nualia     (W) |     |     | 14 | 0 / 75  | Will yell for Ripnugget
-| Yeth Hound     |     |     | 14 | 8 / 51  |
-| Lyrie      (R) |     |     | 12 | 0 / 45  |
+| Nualia     (W) |     |     | 14 | 0 / 75  |
+| Yeth Hound     |     |     | 14 | 15 / 51 |
+| Lyrie      (R) |     |     | 12 | 38 / 45 | OXO
 | Delfi          | 12  | 10  | 11 |         |
 | Althaea        | 14  | 11  | 10 |         |
 | Grog           | 13  | 10  | 9  |         |
-| Orik       (B) |     |     | 11 | 38 / 60 | -10 feet
+| Orik       (B) |     |     | 11 | 38 / 60 |
