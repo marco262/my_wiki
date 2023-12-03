@@ -1,0 +1,110 @@
+body {
+    align-content: center;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed
+}
+
+.month {
+    width: calc(100% - 3em);
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.month-header {
+    font-family: Segoe,Tahoma,Verdana,sans-serif;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    background-color: #7FBF90;
+    padding-top: 0.1625em;
+    padding-bottom: 0.1625em;
+}
+
+.weekday-row td {
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+    padding: 3pt;
+}
+
+.day {
+    border: 1pt solid #bbb;
+    border-collapse: collapse;
+    height: 105pt;
+    position: relative;
+}
+
+.day-number {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11pt;
+    position: absolute;
+    top: 5pt;
+    left: 3pt;
+}
+
+.moon {
+    position: absolute;
+    width: 10pt;
+    height: 10pt;
+    border-radius: 50%;
+    bottom: 5pt;
+    left: 3pt;
+}
+
+.full-moon {
+    /* A solid yellow circle */
+    background-color: #e8df4d;
+}
+
+.waning-moon {
+    /* A half-yellow half-gray circle */
+    background: conic-gradient(
+        #e8df4d 0deg 180deg, /* left half */
+        #5d591f 180deg 360deg /* right half */
+    );
+}
+
+.new-moon {
+    /* A solid yellow circle */
+    background-color: #5d591f;
+}
+
+.waxing-moon {
+    /* A half-gray half-yellow circle */
+    background: conic-gradient(
+        #5d591f 0deg 180deg, /* left half */
+        #e8df4d 180deg 360deg /* right half */
+    );
+}
+
+.events {
+    font-family: Segoe,Tahoma,Verdana,sans-serif;
+    font-size: 12pt;
+    margin-left: 10pt;
+    margin-right: 4pt;
+    text-align: right;
+    position: relative;
+    height: 100%;
+}
+
+.events-inner {
+    position: absolute;
+    bottom: 3pt;
+    right: 3pt;
+}
+
+.disabled {
+    opacity: 0.7;
+    color: #555;
+}
+
+.equinox {
+    color: green;
+}
