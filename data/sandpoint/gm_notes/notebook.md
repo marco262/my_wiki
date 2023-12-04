@@ -20,10 +20,13 @@
 
 ### Player Plans
 
-* Check the papers (Tsuto's rough drafts for his blackmail)
-* Sneak around to the war room and loot the intel
-* Loot the Research Room if it's safe
-* Alathea posts up next to stairwell 2 to keep watch
+* Kill Lyrie in her sleep
+* Push Tsuto off a cliff
+* Loot Nualia (give them her stuff! Especially the medallion!)
+* Finish exploring Thistletop
+* Level up to 4
+* Take the horse
+* Bring Orik to Sandpoint
 
 ### Pre-session checklist
 
