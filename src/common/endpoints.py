@@ -14,6 +14,7 @@ from bottle_websocket import websocket
 from git import Repo
 
 import src.common.utils as utils
+from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats, check_for_media_file, save_media_file
 
@@ -146,6 +147,8 @@ def load_wsgi_endpoints(app: Bottle):
         if params["action"] == "visual_aid":
             visual_aid_type = "visual_aid"
             visual_aid_url = params["url"]
+            # Parse the title with Markdown
+            params["title"] = DEFAULT_MARKDOWN_PARSER.parse_md(params["title"])
             visual_aid_title = params["title"]
             print("Saved new image URL: {!r}".format(visual_aid_url), flush=True)
         elif params["action"] == "iframe":

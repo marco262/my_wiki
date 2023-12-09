@@ -85,7 +85,7 @@ function handle_visual_aid(url, title) {
         picture.hidden = false;
     }
     let picture_title = document.getElementById("picture-title");
-    picture_title.innerText = decodeURIComponent(title);
+    picture_title.innerHTML = decodeURIComponent(title);
     picture_title.hidden = false;
 }
 
