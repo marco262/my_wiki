@@ -20,6 +20,13 @@ body {
     top: 80%;
 }
 
+/* Remove margin from any <p> elements in the title, so we can let Markdown just do its thing without
+   messing up placement of elements */
+#picture-title p {
+    margin: 0;
+    padding: 0;
+}
+
 #notification-popup {
     color: black;
     position: fixed;
