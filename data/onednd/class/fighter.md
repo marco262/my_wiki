@@ -162,7 +162,7 @@ Your Extra Attack feature now confers three extra attacks rather than two.
 
 # Fighter Subclasses
 
-A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: Battle Master, Brawler, Champion, and Eldritch Knight.
+A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
 * [Battle Master](/onednd/subclass/Battle Master)
 * [Brawler](/onednd/subclass/Brawler)
