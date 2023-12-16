@@ -1,5 +1,5 @@
 
-**Class Group:** Warrior  
+**Class Group:** Warrior 
 **Primary Ability:** Strength or Dexterity
 
 Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries -- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and staring it defiantly in the face.
@@ -8,47 +8,61 @@ Fighters learn the basics of all combat styles. Every Fighter can swing an axe, 
 
 The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a Fighter. There are great risks but also great rewards: gold, magic weaponry, and glory.
 
-| Level | Prof.<br>Bonus | Class Features                              | Second<br>Wind | Weapon<br>Mastery |
-|:-----:|:--------------:|---------------------------------------------|:--------------:|:-----------------:|
-|  1st  |       +2       | Fighting Style, Second Wind, Weapon Mastery |       2        |         3         |
-|  2nd  |       +2       | Action Surge                                |       2        |         3         |
-|  3rd  |       +2       | Fighter Subclass                            |       2        |         3         |
-|  4th  |       +2       | Feat                                        |       3        |         4         |
-|  5th  |       +3       | Extra Attack, Feat                          |       3        |         4         |
-|  6th  |       +3       | Subclass Feature                            |       3        |         4         |
-|  7th  |       +3       | Weapon Expert                               |       3        |         4         |
-|  8th  |       +3       | Feat                                        |       3        |         4         |
-|  9th  |       +4       | Indomitable                                 |       3        |         4         |
-| 10th  |       +4       | Subclass Feature                            |       4        |         5         |
-| 11th  |       +4       | Two Extra Attacks                           |       4        |         5         |
-| 12th  |       +4       | Feat                                        |       4        |         5         |
-| 13th  |       +5       | Weapon Adept                                |       4        |         5         |
-| 14th  |       +5       | Subclass Feature                            |       4        |         5         |
-| 15th  |       +5       | Feat, Improved Action Surge                 |       4        |         5         |
-| 16th  |       +5       | Feat                                        |       4        |         5         |
-| 17th  |       +6       | Unconquerable                               |       4        |         5         |
-| 18th  |       +6       | Three Extra Attacks                         |       4        |         5         |
-| 19th  |       +6       | Feat                                        |       4        |         5         |
-| 20th  |       +6       | Epic Boon                                   |       4        |         5         |
+| Level | Prof.<br>Bonus | Class Features                                    | Second<br>Wind | Weapon<br>Mastery |
+|:-----:|:--------------:|---------------------------------------------------|:--------------:|:-----------------:|
+|   1   |       +2       | Fighting Style, Second Wind, Weapon Mastery       |       2        |         3         |
+|   2   |       +2       | Action Surge (One Use), Tactical Mind             |       2        |         3         |
+|   3   |       +2       | Fighter Subclass                                  |       2        |         3         |
+|   4   |       +2       | Ability Score Improvement                         |       3        |         4         |
+|   5   |       +3       | Extra Attack, Tactical Shift                      |       3        |         4         |
+|   6   |       +3       | Ability Score Improvement                         |       3        |         4         |
+|   7   |       +3       | Subclass Feature                                  |       3        |         4         |
+|   8   |       +3       | Ability Score Improvement                         |       3        |         4         |
+|   9   |       +4       | Indomitable (One Use), Master of Armaments        |       3        |         4         |
+|  10   |       +4       | Subclass Feature                                  |       4        |         5         |
+|  11   |       +4       | Two Extra Attacks                                 |       4        |         5         |
+|  12   |       +4       | Ability Score Improvement                         |       4        |         5         |
+|  13   |       +5       | Indomitable (Two Uses), Studied Attacks           |       4        |         5         |
+|  14   |       +5       | Ability Score Improvement                         |       4        |         5         |
+|  15   |       +5       | Subclass Feature                                  |       4        |         5         |
+|  16   |       +5       | Ability Score Improvement                         |       4        |         6         |
+|  17   |       +6       | Action Surge (Two Uses), Indomitable (Three Uses) |       4        |         6         |
+|  18   |       +6       | Subclass Feature                                  |       4        |         6         |
+|  19   |       +6       | Ability Score Improvement                         |       4        |         6         |
+|  20   |       +6       | Three Extra Attacks                               |       4        |         6         |
 
 ## Creating a Fighter
 
-To create a Fighter, consult the following lists, which provide Hit Points, proficiencies, and Armor Training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Fighter](#multiclassing-and-the-fighter) section.
+[[div class="phb-sidebar"]]
 
-Then look at the Fighter table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Fighter Class Features](#fighter-class-features) section.
+**Multiclassing and the Fighter**
+
+If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Fighter as one of your classes.
+
+***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in one of the Fighter's primary abilities, Strength or Dexterity, to take a level in this class or to take a level in another class if you're already a Fighter.
+
+***Proficiencies Gained.*** If Fighter isn't your initial class, you gain proficiency with Martial Weapons when you take your first Fighter level.
+
+***Armor Training.*** When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.
+
+[[/div]]
+
+To create a Fighter, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Fighter" sidebar.
+
+Then look at the Fighter table to see the class features you get at each level in this class. Descriptions of those features appear in the [Fighter Class Features](#fighter-class-features) section.
 
 #### Hit Points
 
-**Hit Dice:** 1d10 per Fighter level  
-**Hit Points at 1st Level:** 10 + your Constitution modifier  
-**Hit Points per Level after 1st:** 1d10 (or 6) + your Constitution modifier  
+**Hit Dice:** 1d10 per Fighter level 
+**Hit Points at 1st Level:** 10 + your Constitution modifier 
+**Hit Points per Level after 1st:** 1d10 (or 6) + your Constitution modifier 
 
 #### Proficiencies
 
-**Saving Throws:** Strength, Constitution  
-**Skills (Choose 2):** Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, Survival  
-**Weapons:** Simple Weapons, Martial Weapons  
-**Tools:** None  
+**Saving Throws:** Strength, Constitution 
+**Skills (Choose 2):** Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, Survival 
+**Weapons:** Simple Weapons, Martial Weapons 
+**Tools:** None 
 
 #### Armor Training
 
@@ -68,121 +82,93 @@ As a 1st-level character, you start with the following equipment, or you can for
   * Longsword, Shield, and 25 GP
 * 11 GP
 
-### Multiclassing and the Fighter
-
-If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Fighter as one of your Classes.
-
-***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in one of the Fighter's primary abilities, Strength or Dexterity, to take a level in this Class or to take a level in another Class if you are already a Fighter.
-
-***Proficiencies.*** If Fighter isn't your initial Class, you gain proficiency with Martial Weapons when you take your first Fighter level.
-
-***Armor Training.*** When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.
-
 ## Fighter Class Features
 
 As a Fighter, you gain the following Class Features when you reach the specified levels in this Class. These features are listed on the Fighter table.
 
-### 1st Level: Fighting Style
+### Level 1: Fighting Style
 
-You have honed your martial prowess and gain the Fighting Style: Defense feat, or you gain another Fighting Style feat of your choice. 
+You have honed your martial prowess and gain a [Fighting Style feat](/onednd/advancement/Feats#fighting-style-archery) of your choice (those feats have this feature as a prerequisite).
 
-### 1st Level: Second Wind
+Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
 
-You have a limited well of stamina that you can draw on to recover from harm. As a Bonus Action, you can regain Hit Points equal to 1d10 + your Fighter level. You can use this feature twice, and you regain all expended uses when you finish a Long Rest.
+### Level 1: Second Wind
 
-When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table. 
+You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 + your Fighter level.
 
-### 1st Level: Weapon Mastery
+You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change the kinds of weapons you chose.
+When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table.
 
-When you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table. 
+### Level 1: Weapon Mastery
 
-### 2nd Level: Action Surge
+Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
-You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, chosen from the following action options: Attack, Dash, Disengage, or Dodge. Once you use this feature, you must finish a Short Rest or Long Rest before you can use it again. 
+When you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table.
 
-### 3rd Level: Fighter Subclass
+### Level 2: Action Surge
 
-You gain the [Champion](/onednd/subclass/Champion) subclass or another Fighter subclass of your choice. Other subclasses will appear in future _Unearthed Arcana_ articles.
+You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
 
-A subclass is a specialization that grants you special abilities at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level and lower. This class's description tells you the levels when your subclass provides features. 
+Once you use this feature, you must finish a Short Rest or Long Rest before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
 
-### 4th Level: Feat
+### Level 2: Tactical Mind
 
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
+You have a mind for tactics and getting the upper hand on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
 
-### 5th Level: Extra Attack
+### Level 3: Fighter Subclass
 
-You can attack twice, instead of once, whenever you take the Attack action on your turn. 
+You gain a Fighter subclass of your choice: Battle Master, Brawler, Champion, or Eldritch Knight. Subclasses are detailed after this class's description.
 
-### 5th Level: Feat
+A subclass is a specialization that grants you special features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level and lower.
 
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
+### Level 4: Ability Score Improvement
 
-### 6th Level: Subclass Feature
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
 
-You gain a feature from your Fighter subclass. 
+As shown on the Fighter table, you gain this feature again at levels 6, 8, 12, 14, 16, and 19.
 
-### 7th Level: Weapon Expert
+### Level 5: Extra Attack
 
-You have honed your use of weapons to an art. Whenever you finish a Long Rest, you can choose one of the kinds of Mastery weapons you're using and replace its Mastery property with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Flex property with the Push property.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
-This property change applies only for you, not for others, and the change ends for you when you finish your next Long Rest. 
+### Level 5: Tactical Shift
 
-### 8th Level: Feat
+Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.
 
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
+### Level 9: Indomitable
 
-### 9th Level: Indomitable
+If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest.
 
-If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest. 
+You can use this feature twice between Long Rests starting at level 13 and three times between Long Rests starting at level 17.
 
-### 10th Level: Subclass Feature
+### Level 9: Master of Armaments
 
-You gain a feature from your Fighter subclass. 
+You are a master of weapons. Whenever you finish a Long Rest, you can choose any of the kinds of Mastery weapons you're using and replace the Mastery property of each with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Sap property with the Push property.
 
-### 11th Level: Two Extra Attacks
+These property changes apply only for you, not for others, and the changes end for you when you finish your next Long Rest.
 
-Your Extra Attack feature now confers two extra attacks rather than one. 
+### Level 11: Two Extra Attacks
 
-### 12th Level: Feat
+Your Extra Attack feature now confers two extra attacks rather than one.
 
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
+### Level 13: Studied Attacks
 
-### 13th Level: Weapon Adept
+You masterfully study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
 
-You are a master of weapons. When you use your Weapon Expert feature on a kind of weapon, you can give that kind of weapon two properties rather than one, but you then use only one property at a time; whenever you make an attack roll against a target with that kind of weapon, you decide which of the two properties applies to that attack. You make this decision before the attack hits or misses.
+### Level 20: Three Extra Attacks
 
-For example, you could apply the Push and Topple properties to Longswords, and whenever you hit a target with a Longsword, you decide which of those properties to use against the target. 
+Your Extra Attack feature now confers three extra attacks rather than two.
 
-### 14th Level: Subclass Feature
+# Fighter Subclasses
 
-You gain a feature from your Fighter subclass. 
+A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: Battle Master, Brawler, Champion, and Eldritch Knight.
 
-### 15th Level: Improved Action Surge
+* [Battle Master](/onednd/subclass/Battle Master)
+* [Brawler](/onednd/subclass/Brawler)
+* [Champion](/onednd/subclass/Champion)
+* [Eldritch Knight](/onednd/subclass/Eldritch Knight)
 
-You can use Action Surge twice before a rest but no more than once on your turn. 
+----
 
-### 16th Level: Feat
-
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
-
-### 17th Level: Unconquerable
-
-When you're in great peril, you can tap into a deep well of resilience within yourself. If you fail a saving throw and your Indomitable feature is expended, you can use it again by expending a use of your Second Wind, which also heals you. 
-
-### 18th Level: Three Extra Attacks
-
-Your Extra Attack feature now confers three extra attacks rather than two. 
-
-### 19th Level: Feat
-
-You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. 
-
-### 20th Level: Epic Boon
-
-You gain the following benefits:
-
-**Ability Score Increase.** Choose your Strength or Dexterity score. That score increases by 2, and its maximum is now 30.  
-**Epic Boon Feat.** You gain the Epic Boon of Recovery or another Epic Boon feat of your choice.
+_Source: Player’s Handbook Playtest 7_

@@ -51,7 +51,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 [[/div]]
 
-To create a Barbarian, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a Level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Barbarian](#multiclassing-and-the-barbarian) sidebar.
+To create a Barbarian, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a Level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Barbarian" sidebar.
 
 Then look at the Barbarian table to see the class features you get at each level in this class. The descriptions of those features appear in the [Barbarian Class Features](#barbarian-class-features) section.
 
