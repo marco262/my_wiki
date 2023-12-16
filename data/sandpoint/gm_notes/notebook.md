@@ -43,7 +43,6 @@
 
 ### Todo
 
-* Text proposal for new "ambush" mechanics: One person gets a free attack, then roll initiative as normal. No surprise round.
 * Finish finding pictures and audio for Thistletop B2
 * Refresh yourself on NPCs' abilities, tactics, and motivations
 * Set up game room lights for the first dungeon level
