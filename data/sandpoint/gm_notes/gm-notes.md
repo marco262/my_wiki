@@ -48,7 +48,7 @@ Enter another URL to set as Visual Aid here:
   * [Local Heroes]()
   * [Glass and Wrath]()
   * [Thistletop]()
-  * [Epilogue](chapter-one-epilogue)
+  * [Epilogue](Chapter 1 Epilogue)
 
 ## Places
 
