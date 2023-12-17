@@ -1,5 +1,5 @@
 
-**Class Group:** Warrior 
+**Class Group:** Warrior   
 **Primary Ability:** Strength or Dexterity
 
 Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries -- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and staring it defiantly in the face.

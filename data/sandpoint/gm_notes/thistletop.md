@@ -57,7 +57,6 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
   * [Sihedron medallion](^sandpoint/sihedron_medallion.png)
 * 3x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
 
-
 ## Places
 
 ### Thistletop

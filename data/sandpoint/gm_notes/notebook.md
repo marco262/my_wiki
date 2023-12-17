@@ -50,8 +50,6 @@
 * Create loot bags for
   * Collapsed Treasury (291 gp)
 * Pick out minis for Shadows, Crab
-* Add mini for Lyrie's familiar
-* Reprint potion cards with max HP
 * Prep inter-chapter cutscene: script, visual aids, music/ambience
 
 ### Reminders

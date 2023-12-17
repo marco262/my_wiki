@@ -9,7 +9,7 @@
 * 150 Years ago: Ghlorofaex (Blue Dragon) discovers ruined Xin-Shalast.
 * 120 Years ago: Mokmurian born.
 * 90 Years ago: Mokmurian exiled from tribe.
-* 83 Years ago (Abadius 6th, 4624): Foxglove Manor is built by Vorel Foxglove. Construction is funded partially by the Brothers of the Seven, with the understanding that after 100 years, ownershp of the manor reverts to them.
+* 83 Years ago (Abadius 6th, 4624): Foxglove Manor is built by Vorel Foxglove. Construction is funded partially by the Brothers of the Seven, with the understanding that after 100 years, ownership of the manor reverts to them.
 * 70 Years ago: Silas and Karivek Vekker come to the Kodar Mountains.
 * 63 Years ago: Kasanda Foxglove destroys Vorel phylactery; Ironbriar takes over Skinsaw Men cult.
 * 47 Years ago: The Kaijitsus move to Magnimar, but leave the Amatatsu Seal and a portion of the extended family in Brinewall.
@@ -42,15 +42,16 @@
   * Enderaki Sorn dies of natural causes in Sandpoint.
   * Ameiko Kaijitsu has a falling out with her brother Tsuto Kaijitsu, and leaves to start her adventuring career.
 * [4702 AR](https://pathfinderwiki.com/wiki/4702_AR) (5 Years ago):
-  * Mokmurian arrives in Xin-Shalast, opens Karzougs tomb, and reactivates a Runewell of Greed, awakening Karzoug.
+  * Mokmurian arrives in Xin-Shalast, opens Karzoug's tomb, and reactivates a Runewell of Greed, awakening Karzoug.
   * Chellan (Sword) awakens and possesses Viorian Dekanti who goes to Xin-Shalast.
   * The Minor Runewell of Wrath activates under Sandpoint.
   * Xaliasa awakens.
   * Karzoug forms an alliance with the Lamiakin and sends them into Varsia including Riddleport, Janderhoff, Korvosa, Belkzen, Magnimar, and Turtleback Ferry.
   * (Sarenith) The Late Unpleasantness unfolds in Sandpoint. Nualia flees Sandpoint and joins the Skinsaw Men in Magnimar.
-  * (Erastus) Nualia uncovers the Catacombs of Wrath, and begins studying under Erylium.
-  * (Neth) Nualia sets up camp in Thistletop, begins looking for Malfeshnekor.
-* [4704 AR](https://pathfinderwiki.com/wiki/4704_AR) (3 Years ago): Lucrecia arrives in Turtleback Ferry
+  * (Neth) Nualia uncovers the Catacombs of Wrath, and begins studying under Erylium.
+* [4704 AR](https://pathfinderwiki.com/wiki/4704_AR) (3 Years ago): 
+  * Lucrecia arrives in Turtleback Ferry
+  * Nualia sets up camp in Thistletop, begins looking for Malfeshnekor.
 * [4705 AR](https://pathfinderwiki.com/wiki/4705_AR) (2 Years ago): Ameiko leaves Sandpoint to become an adventurer after an argument with her brother.
 * [4706 AR](https://pathfinderwiki.com/wiki/4706_AR) (1 Year ago):
   * Xanesha arrives in Magnimar.
