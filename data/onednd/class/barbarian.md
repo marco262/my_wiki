@@ -1,5 +1,4 @@
 
-**Class Group:** Warrior  
 **Primary Ability:** Strength
 
 Barbarians are warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.
@@ -207,4 +206,4 @@ A Barbarian subclass is a specialization that grants you special abilities at ce
 
 ----
 
-_Source: Player’s Handbook Playtest 7_
+_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

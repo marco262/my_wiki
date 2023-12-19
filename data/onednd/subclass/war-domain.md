@@ -37,4 +37,4 @@ You gain resistance to Bludgeoning, Piercing, and Slashing damage.
 
 ----
 
-_Source: Player’s Handbook Playtest 6_
+_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

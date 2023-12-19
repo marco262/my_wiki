@@ -1,5 +1,4 @@
 
-**Class Group:** Warrior   
 **Primary Ability:** Strength or Dexterity
 
 Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries -- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and staring it defiantly in the face.
@@ -171,4 +170,4 @@ A Fighter subclass is a specialization that grants you special abilities at cert
 
 ----
 
-_Source: Player’s Handbook Playtest 7_
+_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

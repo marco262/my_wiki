@@ -1,5 +1,4 @@
 
-**Class Group:** Expert  
 **Primary Ability:** Charisma
 
 Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.

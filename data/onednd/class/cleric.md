@@ -1,5 +1,4 @@
 
-**Class Group:** Priest  
 **Primary Ability:** Wisdom
 
 Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes -- where gods dwell -- and channel that energy to bolster people and to battle foes.
@@ -213,4 +212,4 @@ Each Cleric subclass is named after a domain of existence that is favored by a g
 
 ----
 
-_Source: Player’s Handbook Playtest 6_
+_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

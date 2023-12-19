@@ -1,5 +1,4 @@
 
-**Class Group:** Priest  
 **Primary Ability:** Wisdom
 
 Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.

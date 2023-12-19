@@ -30,4 +30,4 @@ You attain the pinnacle of resilience in battle, giving you these benefits:
 
 ----
 
-_Source: Player’s Handbook Playtest 7_
+_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
