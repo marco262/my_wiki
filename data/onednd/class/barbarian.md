@@ -73,7 +73,7 @@ Light Armor, Medium Armor, Shields
 
 ### Starting Equipment
 
-As a level 1 character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.
+As a level 1 character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice:
 
 * Explorer's Pack
 * (a) Greataxe or (b) Battleaxe, Shield, and 10 GP

@@ -75,7 +75,7 @@ Light Armor, Shields
 
 ### Starting Equipment
 
-As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice.
+As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice:
 
 * Druidic Focus (Quarterstaff)
 * Explorer's Pack
