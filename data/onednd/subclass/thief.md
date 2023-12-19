@@ -28,7 +28,7 @@ In your treasure hunting, you have learned how to maximize use of magic items, g
 **Charges.** Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.  
 **Scrolls.** You can use any Spell Scroll, using Intelligence as your Spellcasting Ability for the spell. If the spell is a cantrip or a 1st-level spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates. 
 
-### 17th Level: Thief'S Reflexes 
+### 17th Level: Thief's Reflexes 
 
 You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.
 
