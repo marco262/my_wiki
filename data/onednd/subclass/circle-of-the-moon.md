@@ -1,29 +1,50 @@
-Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another person, let alone another Druid.
+Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks before crossing paths with another person, let alone another Druid.
 
-Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the Druid's blood. 
+Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood.
 
-### 3rd Level: Combat Wild Shape
+### Level 3: Circle Spells
 
-You have learned magical techniques that allow you to transform quickly and to channel magical protection while transformed, giving you these benefits:
+Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.
 
-***Abjuration Spells.*** While you're in a Wild Shape form, you can cast any spell you currently have prepared from the Abjuration School, provided the spell doesn't require a material component.
+In addition, you can cast the spells from this feature while you are in Wild Shape form.
 
-***Quick Attack.*** You can use Unarmed Strike as a Bonus Action.
+#### Circle of the Moon Spells
 
-***Swift Transformation.*** You can use your Wild Shape as a Bonus Action or Magic action, but no more than once on a turn. 
+| Druid<br>Level | Prepared Spells                                                                                                              |
+|:--------------:|------------------------------------------------------------------------------------------------------------------------------|
+|       3        | _[Cure Wounds](/onednd/spell/Cure Wounds)_, _[Moonbeam](/onednd/spell/Moonbeam)_, _[Starry Wisp](/onednd/spell/Starry Wisp)_ |
+|       5        | _[Vampiric Touch](/onednd/spell/Vampiric Touch)_                                                                             |
+|       7        | _[Fount of Moonlight](/onednd/spell/Fount of Moonlight)_                                                                     |
+|       9        | _[Dawn](/onednd/spell/Dawn)_                                                                                                 |
 
-### 6th Level: Elemental Wild Shape
+### Level 3: Circle Forms
 
-Channeling ancient lunar magic, you imbue your Wild Shape forms with power from the Elemental Planes. Whenever you assume a Wild Shape form, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.
+You have learned ancient techniques that allow you to channel lunar magic when you assume a Wild Shape form, granting you the following benefits:
 
-While in that form, you have Resistance to the chosen damage type, and the form's Bestial Strike can deal damage of that type rather than its normal type -- with you choosing between the types when you hit.
+**Challenge Rating.** The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).  
+**Armor Class.** Your AC equals 13 plus your Wisdom modifier until you leave the form.  
+**Temporary Hit Points.** You gain a number of Temporary Hit Points equal to three times your Druid level.
 
-Your form also displays signs of the chosen damage type. For example, if you choose Fire, your fur in Wild Shape might flicker with harmless flames. You choose the details. 
+### Level 6: Improved Circle Forms
 
-### 10th Level: Elemental Strike
+While in a Wild Shape form, you gain the following benefits:
 
-Elemental forces imbue your attacks. When you deal damage with your Bestial Strike, the target takes an extra 1d6 damage of the type you chose from Elemental Wild Shape. This extra damage increases to 2d6 when you reach 17th level in this class. 
+**Lunar Radiance.** Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.  
+**Increased Toughness.** You can add your Wisdom modifier to your Constitution saving throws.
 
-### 14th Level: Thousand Forms
+### Level 10: Moonlight Step
 
-You have learned to use lunar magic to alter your physical form in innumerable ways. You always have the _[[[spell:Alter Self]]]_ spell prepared, and you can cast it without expending a Spell Slot. It also doesn't count against the number of spells you have prepared.
+You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a spell slot of level 2 or higher for each use you want to restore (no action required).
+
+### Level 14: Lunar Form
+
+The power of the moon suffuses you, granting you the following benefits:
+
+**Improved Lunar Radiance.** Each of your attacks in a Wild Shape form deals an extra 1d10 Radiant damage on a hit.  
+**Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.
+
+----
+
+_Source: [Player’s Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_
