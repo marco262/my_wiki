@@ -111,13 +111,13 @@ While you aren't wearing any armor, your base Armor Class equals 10 + your Dexte
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table. 
 
 ### Level 2: Danger Sense
 
-You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, provided you don't have the Incapacitated condition. 
+You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, unless you have the Incapacitated condition. 
 
 ### Level 2: Reckless Attack
 
@@ -129,71 +129,71 @@ You gain a Barbarian subclass of your choice: Path of the Berserker, Path of the
 
 A subclass is a specialization that grants you special features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower. 
 
-### Level 3: Primal Knowledge 
+### Level 3: Primal Knowledge
 
 You gain proficiency in another skill of your choice from the list of skills available to Barbarians at level 1.
 
 In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility and senses. 
 
-### Level 4: Ability Score Improvement 
+### Level 4: Ability Score Improvement
 
 You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
 
 As shown on the Barbarian table, you gain this feature again at levels 8, 12, 16, and 19. 
 
-### Level 5: Extra Attack 
+### Level 5: Extra Attack
 
 You can attack twice, instead of once, whenever you take the Attack action on your turn. 
 
-### Level 5: Fast Movement 
+### Level 5: Fast Movement
 
 Your speed increases by 10 feet while you aren't wearing Heavy Armor. 
 
-### Level 7: Feral Instinct 
+### Level 7: Feral Instinct
 
 Your instincts are so honed that you have Advantage on Initiative rolls. 
 
-### Level 7: Instinctive Pounce 
+### Level 7: Instinctive Pounce
 
-As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed. 
+As part of the Bonus Action you take to enter your Rage, you can Move up to half your Speed. 
 
-### Level 9: Brutal Strike 
+### Level 9: Brutal Strike
 
 If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
 ***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks.  
 ***Hamstring Blow.*** The target's Speed is reduced by 15 feet until the start of your next turn.
 
-### Level 11: Relentless Rage 
+### Level 11: Relentless Rage
 
 Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
 Each time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10.
 
-### Level 13: Brutal Strike Improvement 
+### Level 13: Brutal Strike Improvement
 
 You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.
 
 Staggering Blow. The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.
 Sundering Blow. Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage.
 
-### Level 15: Persistent Rage 
+### Level 15: Persistent Rage
 
-If you roll Initiative and have no uses of Rage remaining, you regain one expended use of it.
+When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.
 
-In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious condition or don Heavy Armor.
+In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious, not the Incapacitated, condition or don Heavy Armor.
 
-### Level 17: Brutal Strike Improvement 
+### Level 17: Brutal Strike Improvement
 
 The extra damage your Brutal Strike deals increases to 2d10. In addition, you can use two different Brutal Strike effects when you use your Brutal Strike feature.
 
-### Level 18: Indomitable Might 
+### Level 18: Indomitable Might
 
-If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total. 
+If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.
 
-### Level 20: Primal Champion 
+### Level 20: Primal Champion
 
-You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 24.
+You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 26.
 
 # Barbarian Subclasses
 
@@ -206,4 +206,4 @@ A Barbarian subclass is a specialization that grants you special abilities at ce
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player’s Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_
