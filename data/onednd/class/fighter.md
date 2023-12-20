@@ -52,16 +52,16 @@ Then look at the Fighter table to see the class features you get at each level i
 
 #### Hit Points
 
-**Hit Dice:** 1d10 per Fighter level 
-**Hit Points at 1st Level:** 10 + your Constitution modifier 
-**Hit Points per Level after 1st:** 1d10 (or 6) + your Constitution modifier 
+**Hit Dice:** 1d10 per Fighter level  
+**Hit Points at 1st Level:** 10 + your Constitution modifier  
+**Hit Points per Level after 1st:** 1d10 (or 6) + your Constitution modifier
 
 #### Proficiencies
 
-**Saving Throws:** Strength, Constitution 
-**Skills (Choose 2):** Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, Survival 
-**Weapons:** Simple Weapons, Martial Weapons 
-**Tools:** None 
+**Saving Throws:** Strength, Constitution  
+**Skills (Choose 2):** Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, Survival  
+**Weapons:** Simple Weapons, Martial Weapons  
+**Tools:** None
 
 #### Armor Training
 

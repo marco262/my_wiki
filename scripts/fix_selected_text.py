@@ -36,7 +36,7 @@ elif arg == "fix_line_breaks":
     text = re.sub(r"©", "ffi", text)
     text = re.sub(r" ?— ?", " -- ", text)
     # 3 RD L EVEL: B ONUS P ROFICIENCIES => ### 3rd Level: Bonus Proficiencies
-    for m in re.finditer(r"(\d+)(st|nd|rd|th) LEVEL:(.*)", text, re.IGNORECASE | re.MULTILINE):
+    for m in re.finditer(r"(\d+)(st|nd|rd|th) L ?EVEL:(.*)", text, re.IGNORECASE | re.MULTILINE):
         feature_name = m.group(3).strip(" ").lower()
         feature_name_words: List[str] = feature_name.split(" ")
         feature_name = " ".join([word.title() if word not in ["of"] else word for word in feature_name_words])
@@ -46,16 +46,16 @@ elif arg == "fix_line_breaks":
         feature_name = m.group(2).strip(" ").lower()
         feature_name_words: List[str] = feature_name.split(" ")
         feature_name = " ".join([word.title() if word not in ["of"] else word for word in feature_name_words])
+        # Fix issue where the first letter of words has an erroneous space
+        for m2 in re.finditer(r"\b([A-Z]) ([A-Z])", feature_name):
+            feature_name = feature_name.replace(m2.group(0), m2.group(1) + m2.group(2).lower())
         text = text.replace(m.group(0), f"@@### Level {m.group(1)}: {feature_name}@@")
     text = re.sub(r"\r?\n", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)
-    text = re.sub(r"@", "\n", text)
+    text = re.sub(r" *@", "\n", text)
 elif arg == "add_spell":
-    text = text.lower()
-    text = re.sub(r"^", "_[[[spell:", text)
-    text = re.sub(r"$", "]]]_", text)
-    text = re.sub(r", ?", "]]]_, _[[[spell:", text)
+    text = f"_[{text}](/onednd/spell/{text})_"
 elif arg == "add_special_formatting":
     for m in re.finditer(r'^(.*?),', text, re.MULTILINE):
         title = m.group(1).capitalize()
