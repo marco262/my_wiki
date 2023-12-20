@@ -60,12 +60,13 @@ export function init_toc() {
     if (collapse) {
         collapse.addEventListener("click", function () {
             this.classList.toggle("toc-hidden");
-            collapse.innerText = this.classList.contains("toc-hidden") ? "[+]" : "[-]";
+            const hidden = this.classList.contains("toc-hidden");
+            collapse.innerText = hidden ? "[+]" : "[-]";
             let content = document.getElementById("toc-content");
-            if (content.style.maxHeight === "0px") {
-                content.style.maxHeight = content.scrollHeight + "px";
-            } else {
+            if (hidden) {
                 content.style.maxHeight = "0";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
             }
         });
     }

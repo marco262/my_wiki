@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif|PT+Sans:400,400italic,700,700italic|IM+Fell+DW+Pica+SC);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|PT+Sans:400,400italic,700,700italic|IM+Fell+DW+Pica+SC|Roboto+Mono);
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -180,14 +180,15 @@ p.image-caption {
 /*    border: 2px dashed gray;*/
 /*}*/
 
-#toc-collapse {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    cursor: pointer;
-}
-
 #toc-header {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#toc-collapse {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 0.8em;
+    cursor: pointer;
 }
 
 #toc-content {
