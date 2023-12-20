@@ -30,6 +30,7 @@ elif arg == "fix_line_breaks":
     text = re.sub(r"”", '"', text)
     text = re.sub(r"[ϐϔ]", "f", text)
     text = re.sub(r"●", "*", text)
+    text = re.sub(r"•", "*", text)
     text = re.sub(r"¦", "fi", text)
     text = re.sub(r"§", "fl", text)
     text = re.sub(r"¨", "ffi", text)
@@ -55,7 +56,7 @@ elif arg == "fix_line_breaks":
     text = re.sub(r"@ ", "@", text)
     text = re.sub(r" *@", "\n", text)
 elif arg == "add_spell":
-    text = f"_[{text}](/onednd/spell/{text})_"
+    text = f"_[[[spell:{text}]]]_"
 elif arg == "add_special_formatting":
     for m in re.finditer(r'^(.*?),', text, re.MULTILINE):
         title = m.group(1).capitalize()
@@ -84,6 +85,8 @@ elif arg == "create_onednd_spell_list":
         spell = m.group(2).replace("’", "'").replace("†", "").replace("‡", "")
         lines.append(f"|  {m.group(1)}  | _[[[spell:{spell}]]]_ | {school} | {m.group(4)} |")
     text = "\n".join(lines)
+elif arg == "title":
+    text = "### " + " ".join([s.title() for s in text.split(" ")])
 else:
     raise Exception("Unknown function: {}".format(arg))
 
