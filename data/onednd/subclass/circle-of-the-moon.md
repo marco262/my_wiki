@@ -10,12 +10,12 @@ In addition, you can cast the spells from this feature while you are in Wild Sha
 
 #### Circle of the Moon Spells
 
-| Druid<br>Level | Prepared Spells                                                                                                              |
-|:--------------:|------------------------------------------------------------------------------------------------------------------------------|
-|       3        | _[Cure Wounds](/onednd/spell/Cure Wounds)_, _[Moonbeam](/onednd/spell/Moonbeam)_, _[Starry Wisp](/onednd/spell/Starry Wisp)_ |
-|       5        | _[Vampiric Touch](/onednd/spell/Vampiric Touch)_                                                                             |
-|       7        | _[Fount of Moonlight](/onednd/spell/Fount of Moonlight)_                                                                     |
-|       9        | _[Dawn](/onednd/spell/Dawn)_                                                                                                 |
+| Druid<br>Level | Prepared Spells                                                              |
+|:--------------:|------------------------------------------------------------------------------|
+|       3        | _[[[spell:Cure Wounds]]]_, _[[[spell:Moonbeam]]]_, _[[[spell:Starry Wisp]]]_ |
+|       5        | _[[[spell:Vampiric Touch]]]_                                                 |
+|       7        | _[[[spell:Fount of Moonlight]]]_                                             |
+|       9        | _[[[spell:Dawn]]]_                                                           |
 
 ### Level 3: Circle Forms
 

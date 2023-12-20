@@ -91,7 +91,7 @@ As a Druid, you gain the following class features when you reach the specified l
 
 ### Level 1: Druidic
 
-You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the _[Speak with Animals](/onednd/spell/Speak with Animals)_ spell prepared.
+You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the _[[[spell:Speak with Animals]]]_ spell prepared.
 
 You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.
 
@@ -106,13 +106,13 @@ You have dedicated yourself to one of the following sacred roles of your choice:
 
 You have learned to cast spells through studying the mystical forces of nature. See the _Player's Handbook_ for the rules on spellcasting. The information below details how you use those rules as a Druid.
 
-***Cantrips.*** You know two cantrips of your choice from the Druid spell list. Rather than choosing, you may start with the _[Druidcraft](/onednd/spell/Druidcraft)_ and _[Produce Flame](/onednd/spell/Produce Flame)_ cantrips.
+***Cantrips.*** You know two cantrips of your choice from the Druid spell list. Rather than choosing, you may start with the _[[[spell:Druidcraft]]]_ and _[[[spell:Produce Flame]]]_ cantrips.
 
 Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list. When you reach levels 4 and 10 in this class, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid table.
 
 ***Spell Slots.*** The Druid table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
 
-***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Rather than choosing, you may start with the _[Animal Friendship](/onednd/spell/Animal Friendship)_, _[Cure Wounds](/onednd/spell/Cure Wounds)_, _[Faerie Fire](/onednd/spell/Faerie Fire)_, and _[Thunderwave](/onednd/spell/Thunderwave)_ spells.
+***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Rather than choosing, you may start with the _[[[spell:Animal Friendship]]]_, _[[[spell:Cure Wounds]]]_, _[[[spell:Faerie Fire]]]_, and _[[[spell:Thunderwave]]]_ spells.
 
 The number of spells on your list also increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
 
@@ -126,7 +126,7 @@ If another Druid feature gives spells that you always have prepared, those spell
 
 ### Level 2: Wild Companion
 
-You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _[Find Familiar](/onednd/spell/Find Familiar)_ spell without material components.
+You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without material components.
 
 When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest.
 
@@ -156,7 +156,7 @@ You gain additional uses when you reach certain Druid levels, as shown in the Wi
 
 **Game Statistics.** Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.  
 **Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.  
-**No Spellcasting.** You can't cast spells, but transforming doesn't break your Concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as the _[Call Lightning](/onednd/spell/Call Lightning)_ spell, that you've already cast.  
+**No Spellcasting.** You can't cast spells, but transforming doesn't break your Concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as the _[[[spell:Call Lightning]]]_ spell, that you've already cast.  
 **Objects.** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
 ### Level 3: Druid Subclass
@@ -186,7 +186,7 @@ The might of the elements flows through you. You gain one of the following optio
 
 ### Level 9: Commune With Nature
 
-You are an expression of nature itself and can commune with the natural world all around you; you always have the _[Commune with Nature](/onednd/spell/Commune with Nature)_ spell prepared.
+You are an expression of nature itself and can commune with the natural world all around you; you always have the _[[[spell:Commune with Nature]]]_ spell prepared.
 
 ### Level 15: Improved Elemental Fury
 

@@ -23,11 +23,11 @@ As an Elf, you have these special traits.
 
 #### Elven Lineages
 
-| Lineage  | 1st Level                                                                                                                                                                                     | 3rd Level                                    | 5th Level                                                |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------|
-| Drow     | The range of your Darkvision increases to 120 feet. You also know the _[Dancing Lights](/onednd/spell/Dancing Lights)_ cantrip.                                                               | _[Faerie Fire](/onednd/spell/Faerie Fire)_   | _[Darkness](/onednd/spell/Darkness)_                     |
-| High Elf | You know the _[Prestidigitation](/onednd/spell/Prestidigitation)_ cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Arcane Spell List. | _[Detect Magic](/onednd/spell/Detect Magic)_ | _[Misty Step](/onednd/spell/Misty Step)_                 |
-| Wood Elf | Your Speed increases to 35 feet. You also know the _[Druidcraft](/onednd/spell/Druidcraft)_ cantrip.                                                                                          | _[Longstrider](/onednd/spell/Longstrider)_   | _[Pass without Trace](/onednd/spell/Pass without Trace)_ |
+| Lineage  | 1st Level                                                                                                                                                               | 3rd Level                  | 5th Level                        |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
+| Drow     | The range of your Darkvision increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                             | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
+| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Arcane Spell List. | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
+| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                    | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
 
 Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a Long Rest*; however, you can cast the Spell using any Spell Slots you have of the appropriate level.
 

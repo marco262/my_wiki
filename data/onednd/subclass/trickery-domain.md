@@ -8,12 +8,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Light Domain Spells
 
-| Cleric<br>Level | Prepared Spells                                                                                                                                                                                      |
-|:---------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       3rd       | _[Charm Person](/onednd/spell/Charm Person)_, _[Disguise Self](/onednd/spell/Disguise Self)_, _[Invisibility](/onednd/spell/Invisibility)_, _[Pass without Trace](/onednd/spell/Pass without Trace)_ |
-|       5th       | _[Hypnotic Pattern](/onednd/spell/Hypnotic Pattern)_, _[Nondetection](/onednd/spell/Nondetection)_                                                                                                   |
-|       7th       | _[Confusion](/onednd/spell/Confusion)_, _[Dimension Door](/onednd/spell/Dimension Door)_                                                                                                             |
-|       9th       | _[Hold Monster](/onednd/spell/Hold Monster)_, _[Mislead](/onednd/spell/Mislead)_                                                                                                                     | 
+| Cleric<br>Level | Prepared Spells                                                                                                       |
+|:---------------:|-----------------------------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Charm Person]]]_, _[[[spell:Disguise Self]]]_, _[[[spell:Invisibility]]]_, _[[[spell:Pass without Trace]]]_ |
+|       5th       | _[[[spell:Hypnotic Pattern]]]_, _[[[spell:Nondetection]]]_                                                            |
+|       7th       | _[[[spell:Confusion]]]_, _[[[spell:Dimension Door]]]_                                                                 |
+|       9th       | _[[[spell:Hold Monster]]]_, _[[[spell:Mislead]]]_                                                                     | 
 
 ### 3rd Level: Blessing of The Trickster
 

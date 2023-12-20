@@ -101,7 +101,7 @@ Once within the next hour when the creature fails a d20 Test, the creature can r
 
 You have learned to cast spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.
 
-***Chosen Spell List.*** At 1st level, choose a spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). The chosen list is your Bard spell list and represents the magical tradition in which you learned your bardic arts. Whichever list you choose, it includes the _[Vicious Mockery](/onednd/spell/Vicious Mockery)_ cantrip for you.
+***Chosen Spell List.*** At 1st level, choose a spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). The chosen list is your Bard spell list and represents the magical tradition in which you learned your bardic arts. Whichever list you choose, it includes the _[[[spell:Vicious Mockery]]]_ cantrip for you.
 
 ***Cantrips.*** You know two cantrips of your choice from your Bard spell list.
 
@@ -193,7 +193,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### 20th Level: Words of Creation
 
-You have mastered two of the prime Words of Creation: the words of life and death. You therefore always have the _[Power Word Heal](/onednd/spell/Power Word Heal)_ and _[Power Word Kill](/onednd/spell/Power Word Kill)_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target.
+You have mastered two of the prime Words of Creation: the words of life and death. You therefore always have the _[[[spell:Power Word Heal]]]_ and _[[[spell:Power Word Kill]]]_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target.
 
 [[bibliography]]
 : homebrew : Homebrew

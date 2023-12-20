@@ -8,12 +8,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Light Domain Spells
 
-| Cleric<br>Level | Prepared Spells                                                                                                                                                                        |
-|:---------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       3rd       | _[Burning Hands](/onednd/spell/Burning Hands)_, _[Faerie Fire](/onednd/spell/Faerie Fire)_, _[Moonbeam](/onednd/spell/Moonbeam)_, _[See Invisibility](/onednd/spell/See Invisibility)_ |
-|       5th       | _[Daylight](/onednd/spell/Daylight)_, _[Fireball](/onednd/spell/Fireball)_                                                                                                             |
-|       7th       | _[Arcane Eye](/onednd/spell/Arcane Eye)_, _[Wall of Fire](/onednd/spell/Wall of Fire)_                                                                                                 |
-|       9th       | _[Flame Strike](/onednd/spell/Flame Strike)_, _[Scrying](/onednd/spell/Scrying)_                                                                                                       | 
+| Cleric<br>Level | Prepared Spells                                                                                                |
+|:---------------:|----------------------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Burning Hands]]]_, _[[[spell:Faerie Fire]]]_, _[[[spell:Moonbeam]]]_, _[[[spell:See Invisibility]]]_ |
+|       5th       | _[[[spell:Daylight]]]_, _[[[spell:Fireball]]]_                                                                 |
+|       7th       | _[[[spell:Arcane Eye]]]_, _[[[spell:Wall of Fire]]]_                                                           |
+|       9th       | _[[[spell:Flame Strike]]]_, _[[[spell:Scrying]]]_                                                              | 
 
 ### 3rd Level: Warding Flare
 
@@ -23,11 +23,11 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### 3rd Level: Radiance of The Dawn
 
-As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit sunlight in a 30-foot-radius sphere centered on yourself. Any magical darkness -- such as that created by the _[Darkness](/onednd/spell/Darkness)_ spell -- in the sphere is dispelled. Additionally, each creature of your choice in the sphere must make a Constitution saving throw, taking Radiant damage equal to 2d10 + your Cleric level on a failed save, or half as much damage on a successful one.
+As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit sunlight in a 30-foot-radius sphere centered on yourself. Any magical darkness -- such as that created by the _[[[spell:Darkness]]]_ spell -- in the sphere is dispelled. Additionally, each creature of your choice in the sphere must make a Constitution saving throw, taking Radiant damage equal to 2d10 + your Cleric level on a failed save, or half as much damage on a successful one.
 
 ### 6th Level: Revealing Light
 
-As a Bonus Action, you can present your Holy Symbol and cast _[See Invisibility](/onednd/spell/See Invisibility)_ without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.
+As a Bonus Action, you can present your Holy Symbol and cast _[[[spell:See Invisibility]]]_ without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.
 
 Once you use this feature, you can't do so again until you finish a Long Rest.
 

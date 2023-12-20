@@ -8,12 +8,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Life Domain Spells
 
-| Cleric<br>Level | Prepared Spells                                                                                                                                                  |
-|:---------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       3rd       | _[Aid](/onednd/spell/Aid)_, _[Bless](/onednd/spell/Bless)_, _[Cure Wounds](/onednd/spell/Cure Wounds)_, _[Lesser Restoration](/onednd/spell/Lesser Restoration)_ |
-|       5th       | _[Mass Healing Word](/onednd/spell/Mass Healing Word)_, _[Revivify](/onednd/spell/Revivify)_                                                                     |
-|       7th       | _[Aura of Life](/onednd/spell/Aura of Life)_, _[Death Ward](/onednd/spell/Death Ward)_                                                                           |
-|       9th       | _[Greater Restoration](/onednd/spell/Greater Restoration)_, _[Mass Cure Wounds](/onednd/spell/Mass Cure Wounds)_                                                 | 
+| Cleric<br>Level | Prepared Spells                                                                                     |
+|:---------------:|-----------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Aid]]]_, _[[[spell:Bless]]]_, _[[[spell:Cure Wounds]]]_, _[[[spell:Lesser Restoration]]]_ |
+|       5th       | _[[[spell:Mass Healing Word]]]_, _[[[spell:Revivify]]]_                                             |
+|       7th       | _[[[spell:Aura of Life]]]_, _[[[spell:Death Ward]]]_                                                |
+|       9th       | _[[[spell:Greater Restoration]]]_, _[[[spell:Mass Cure Wounds]]]_                                   | 
 
 ### 3rd Level: Disciple of Life
 
@@ -21,7 +21,7 @@ Your healing spells are empowered by life itself. When a spell you cast with a s
 
 ### 3rd Level: Preserve Life
 
-As part of casting a prepared Abjuration spell from the Divine spell list, you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _[Shield of Faith](/onednd/spell/Shield of Faith)_ if you have that spell prepared.
+As part of casting a prepared Abjuration spell from the Divine spell list, you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _[[[spell:Shield of Faith]]]_ if you have that spell prepared.
 
 ### 6th Level: Blessed Healer
 

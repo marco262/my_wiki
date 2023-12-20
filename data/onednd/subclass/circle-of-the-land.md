@@ -6,39 +6,39 @@ Your connection to nature infuses you with the ability to cast certain spells. W
 
 #### Arid Land
 
-| Druid<br>Level | Circle Spells                                                                                                        |
-|:--------------:|----------------------------------------------------------------------------------------------------------------------|
-|      3rd       | _[Blur](/onednd/spell/Blur)_, _[Burning Hands](/onednd/spell/Burning Hands)_, _[Fire Bolt](/onednd/spell/Fire Bolt)_ |
-|      5th       | _[Fireball](/onednd/spell/Fireball)_                                                                                 |
-|      7th       | _[Blight](/onednd/spell/Blight)_                                                                                     |
-|      9th       | _[Wall of Stone](/onednd/spell/Wall of Stone)_                                                                       |
+| Druid<br>Level | Circle Spells                                                            |
+|:--------------:|--------------------------------------------------------------------------|
+|      3rd       | _[[[spell:Blur]]]_, _[[[spell:Burning Hands]]]_, _[[[spell:Fire Bolt]]]_ |
+|      5th       | _[[[spell:Fireball]]]_                                                   |
+|      7th       | _[[[spell:Blight]]]_                                                     |
+|      9th       | _[[[spell:Wall of Stone]]]_                                              |
 
 #### Polar Land
 
-| Druid<br>Level | Circle Spells                                                                                                                    |
-|:--------------:|----------------------------------------------------------------------------------------------------------------------------------|
-|      3rd       | _[Fog Cloud](/onednd/spell/Fog Cloud)_, _[Hold Person](/onednd/spell/Hold Person)_, _[Ray of Frost](/onednd/spell/Ray of Frost)_ |
-|      5th       | _[Sleet Storm](/onednd/spell/Sleet Storm)_                                                                                       |
-|      7th       | _[Ice Storm](/onednd/spell/Ice Storm)_                                                                                           |
-|      9th       | _[Cone of Cold](/onednd/spell/Cone of Cold)_                                                                                     |
+| Druid<br>Level | Circle Spells                                                                  |
+|:--------------:|--------------------------------------------------------------------------------|
+|      3rd       | _[[[spell:Fog Cloud]]]_, _[[[spell:Hold Person]]]_, _[[[spell:Ray of Frost]]]_ |
+|      5th       | _[[[spell:Sleet Storm]]]_                                                      |
+|      7th       | _[[[spell:Ice Storm]]]_                                                        |
+|      9th       | _[[[spell:Cone of Cold]]]_                                                     |
 
 #### Temperate Land
 
-| Druid<br>Level | Circle Spells                                                                                                              |
-|:--------------:|----------------------------------------------------------------------------------------------------------------------------|
-|      3rd       | _[Misty Step](/onednd/spell/Misty Step)_, _[Shocking Grasp](/onednd/spell/Shocking Grasp)_, _[Sleep](/onednd/spell/Sleep)_ |
-|      5th       | _[Lightning Bolt](/onednd/spell/Lightning Bolt)_                                                                           |
-|      7th       | _[Freedom of Movement](/onednd/spell/Freedom of Movement)_                                                                 |
-|      9th       | _[Tree Stride](/onednd/spell/Tree Stride)_                                                                                 |
+| Druid<br>Level | Circle Spells                                                               |
+|:--------------:|-----------------------------------------------------------------------------|
+|      3rd       | _[[[spell:Misty Step]]]_, _[[[spell:Shocking Grasp]]]_, _[[[spell:Sleep]]]_ |
+|      5th       | _[[[spell:Lightning Bolt]]]_                                                |
+|      7th       | _[[[spell:Freedom of Movement]]]_                                           |
+|      9th       | _[[[spell:Tree Stride]]]_                                                   |
 
 #### Tropical Land
 
-| Druid<br>Level | Circle Spells                                                                                                              |
-|:--------------:|----------------------------------------------------------------------------------------------------------------------------|
-|      3rd       | _[Acid Splash](/onednd/spell/Acid Splash)_, _[Ray of Sickness](/onednd/spell/Ray of Sickness)_, _[Web](/onednd/spell/Web)_ |
-|      5th       | _[Stinking Cloud](/onednd/spell/Stinking Cloud)_                                                                           |
-|      7th       | _[Polymorph](/onednd/spell/Polymorph)_                                                                                     |
-|      9th       | _[Insect Plague](/onednd/spell/Insect Plague)_                                                                             |
+| Druid<br>Level | Circle Spells                                                               |
+|:--------------:|-----------------------------------------------------------------------------|
+|      3rd       | _[[[spell:Acid Splash]]]_, _[[[spell:Ray of Sickness]]]_, _[[[spell:Web]]]_ |
+|      5th       | _[[[spell:Stinking Cloud]]]_                                                |
+|      7th       | _[[[spell:Polymorph]]]_                                                     |
+|      9th       | _[[[spell:Insect Plague]]]_                                                 |
 
 ### 3rd Level: Land's Aid
 

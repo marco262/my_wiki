@@ -8,12 +8,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Light Domain Spells
 
-| Cleric<br>Level | Prepared Spells                                                                                                                                                                                       |
-|:---------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       3rd       | _[Divine Favor](/onednd/spell/Divine Favor)_, _[Magic Weapon](/onednd/spell/Magic Weapon)_, _[Shield of Faith](/onednd/spell/Shield of Faith)_, _[Spiritual Weapon](/onednd/spell/Spiritual Weapon)_, |
-|       5th       | _[Crusader's Mantle](/onednd/spell/Crusader's Mantle)_, _[Spirit Guardians](/onednd/spell/Spirit Guardians)_                                                                                          |
-|       7th       | _[Freedom of Movement](/onednd/spell/Freedom of Movement)_, _[Stoneskin](/onednd/spell/Stoneskin)_                                                                                                    |
-|       9th       | _[Destructive Wave](/onednd/spell/Destructive Wave)_, _[Hold Monster](/onednd/spell/Hold Monster)_                                                                                                    |
+| Cleric<br>Level | Prepared Spells                                                                                                        |
+|:---------------:|------------------------------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Divine Favor]]]_, _[[[spell:Magic Weapon]]]_, _[[[spell:Shield of Faith]]]_, _[[[spell:Spiritual Weapon]]]_, |
+|       5th       | _[[[spell:Crusader's Mantle]]]_, _[[[spell:Spirit Guardians]]]_                                                        |
+|       7th       | _[[[spell:Freedom of Movement]]]_, _[[[spell:Stoneskin]]]_                                                             |
+|       9th       | _[[[spell:Destructive Wave]]]_, _[[[spell:Hold Monster]]]_                                                             |
 
 ### 3rd Level: War Priest
 
@@ -27,7 +27,7 @@ When you or a creature within 30 feet of you misses with an attack roll, you can
 
 ### 6th Level: War God's Blessing
 
-Whenever you cast _[Shield of Faith](/onednd/spell/Shield of Faith)_ on another creature, the spell also affects you.
+Whenever you cast _[[[spell:Shield of Faith]]]_ on another creature, the spell also affects you.
 
 In addition, you can cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Short Rest or Long Rest.
 

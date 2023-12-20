@@ -2,7 +2,7 @@ The tradition of the Four Elements encompasses Monks who tap into the power of t
 
 ### 3rd Level: Elemental Attunement
 
-You have attuned yourself with the elemental forces of the multiverse. You know the _[Elementalism](/onednd/spell/Elementalism)_ cantrip.
+You have attuned yourself with the elemental forces of the multiverse. You know the _[[[spell:Elementalism]]]_ cantrip.
 
 In addition, at the start of your turn, you can spend 1 Discipline Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits for the duration:
 
