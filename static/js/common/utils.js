@@ -55,6 +55,22 @@ export function getCookie(cname) {
   return "";
 }
 
+export function init_toc() {
+    let collapse= document.getElementById("toc-collapse");
+    if (collapse) {
+        collapse.addEventListener("click", function () {
+            this.classList.toggle("toc-hidden");
+            collapse.innerText = this.classList.contains("toc-hidden") ? "[+]" : "[-]";
+            let content = document.getElementById("toc-content");
+            if (content.style.maxHeight === "0px") {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = "0";
+            }
+        });
+    }
+}
+
 export function init_accordions() {
     let acc = document.getElementsByClassName("accordion-button");
     for (let i = 0; i < acc.length; i++) {

@@ -31,7 +31,8 @@
     </article>
 </div>
 <script type="module">
-    import {init_accordions} from "/static/js/common/utils.js";
+    import {init_toc, init_accordions} from "/static/js/common/utils.js";
+    init_toc();
     init_accordions();
 </script>
 </body>

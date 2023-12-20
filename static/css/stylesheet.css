@@ -180,6 +180,21 @@ p.image-caption {
 /*    border: 2px dashed gray;*/
 /*}*/
 
+#toc-collapse {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+#toc-header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#toc-content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 /* Font family of headers */
 h1,h2,h3,h4,h5,h6{
     font-family: 'IM Fell DW Pica SC', serif;
