@@ -1,0 +1,19 @@
+title = "Mass Cure Wounds"
+spell_lists = ["Bard", "Cleric", "Druid"]
+level = "5"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+material = ""
+expensive_material_component = false
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+A wave of healing energy emanates from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of level 6 or higher, the healing increases by 1d8 for each slot level above 5."
+source = "Player’s Handbook Playtest 8"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

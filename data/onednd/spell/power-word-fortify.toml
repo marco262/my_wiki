@@ -1,0 +1,18 @@
+title = "Power Word Fortify"
+spell_lists = ["Bard", "Cleric"]
+level = "7"
+school = "Enchantment"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V"]
+material = ""
+expensive_material_component = false
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+You speak a word of power that fortifies up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which are divided equally among the spell's recipients.
+"""
+source = "Player’s Handbook Playtest 8"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"
