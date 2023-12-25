@@ -82,4 +82,4 @@ Roll the Superiority Die. Until the start of your next turn, you or the other cr
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

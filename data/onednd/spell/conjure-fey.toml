@@ -17,5 +17,5 @@ You summon the awesome presence of a Medium Fey spirit in an unoccupied space yo
 As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and repeat the attack against a creature within 5 feet of it.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 7 or higher, the damage increases by 2d12 for each slot level above 6."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

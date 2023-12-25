@@ -26,4 +26,4 @@ As a Bonus Action while entirely within Dim Light or Darkness, you can spend 3 D
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

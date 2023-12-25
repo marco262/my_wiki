@@ -250,4 +250,4 @@ A Priest's Pack contains the following items: Backpack (5 lb.), Blanket (3 lb.),
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

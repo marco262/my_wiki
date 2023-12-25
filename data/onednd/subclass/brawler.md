@@ -40,4 +40,4 @@ Your Unarmed Strikes improve to a d8. If you aren't holding any weapons or a Shi
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

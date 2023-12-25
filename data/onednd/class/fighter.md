@@ -170,4 +170,4 @@ A Fighter subclass is a specialization that grants you special abilities at cert
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

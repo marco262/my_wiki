@@ -37,4 +37,4 @@ As a Magic action, you cause yourself to emit an aura of sunlight that lasts for
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

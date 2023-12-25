@@ -1,5 +1,6 @@
 title = "Elementalism"
-spell_lists = ["Arcane", "Primal"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Arcane", "Primal", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "0"
 school = "Transmutation"
 concentration_spell = false

@@ -34,4 +34,4 @@ You are adept at laying ambushes and quickly escaping danger. You can take two t
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

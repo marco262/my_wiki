@@ -1,4 +1,4 @@
-% from data.onednd.enums import classes
+% from data.onednd.enums import classes, spell_classes
 
 [[div id="index-container"]]
 
@@ -40,11 +40,15 @@
 
 ## Spells
 
+[Spell Filter](/onednd/spell_filter)
+
 ### Spell Lists
 
-* [Arcane Spells](/onednd/general/Spellcasting Rules#arcane-spells)
-* [Divine Spells](/onednd/general/Spellcasting Rules#divine-spells)
-* [Primal Spells](/onednd/general/Spellcasting Rules#primal-spells)
+% for c in spell_classes:
+* [{{c.title()}} Spells](/onednd/spell_list/{{c}})
+% end
+
+
 
 [[/div]]
 

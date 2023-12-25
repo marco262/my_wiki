@@ -226,4 +226,4 @@ A Rogue subclass is a specialization that grants you special abilities at certai
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

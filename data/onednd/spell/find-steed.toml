@@ -55,3 +55,4 @@ The steed resembles a Large, rideable animal of your choice, such as a horse, a 
 ***Disappearance of the Steed.*** The steed disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one."""
 at_higher_levels = "When you cast this spell using a Spell Slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block."
 source = "Druid and Paladin"
+source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"

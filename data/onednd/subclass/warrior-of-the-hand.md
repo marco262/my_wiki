@@ -26,4 +26,4 @@ You can have only one creature under the effect of this feature at a time. You c
 
 ----
 
-_Source: [Player’s Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_

@@ -219,4 +219,4 @@ Druids form loose associations, which they call circles, to facilitate their gat
 
 ----
 
-_Source: [Player’s Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_

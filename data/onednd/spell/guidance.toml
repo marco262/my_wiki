@@ -10,3 +10,4 @@ components = ["V", "S"]
 duration = "Instantaneous"
 description = """You channel magical insight to the creature who failed the Ability Check. That creature can roll a d4 and add the number rolled to the check, potentially turning it into a success."""
 source = "Cleric and Revised Species"
+source_link = "https://www.dndbeyond.com/sources/ua/cleric-revised-species"

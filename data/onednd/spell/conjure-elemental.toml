@@ -17,5 +17,5 @@ You summon an Elemental spirit that fills a 10- foot Cube within range. The spir
 When a creature hostile to you Moves within 5 feet of the spirit, you can make a melee spell attack against that creature. On a hit, the target takes 8d8 damage of a type determined by the spirit's element: Bludgeoning (earth), Cold (water), Fire (fire), or Lightning (air). If the target is a Large or smaller creature, it is also pulled into the Cube and has the Restrained condition. At the start of each of its turns, the target must make a Strength saving throw against your spell save DC. On a success, the target frees itself. On a failure, the target takes 4d8 damage of the same type as the spell attack. The spirit can have only one creature restrained at a time.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 6 or higher, the damage increases by 2d8 for each slot level above 5."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

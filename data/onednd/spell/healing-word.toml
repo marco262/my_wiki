@@ -15,5 +15,5 @@ description = """
 A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 2 or higher, the healing increases by 2d4 for each slot level above 1."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

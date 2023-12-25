@@ -17,5 +17,5 @@ You summon nature spirits that flit about you for the duration. Until the spell 
 In addition, you can take the Disengage action as a Bonus Action for the spell's duration.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 6 or higher, the damage increases by 1d8 for each slot level above 5."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

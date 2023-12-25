@@ -33,4 +33,4 @@ When you would normally roll one or more dice to restore Hit Points to a creatur
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

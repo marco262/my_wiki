@@ -19,5 +19,5 @@ Until the spell ends, you have Resistance to Radiant damage, and your melee atta
 In addition, immediately after you take damage from a creature you can see within 60 feet of yourself, you can use your Reaction to force the creature to make a Constitution saving throw. On a failed save, the creature has the Blinded condition until the end of your next turn.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 2 or higher, the healing increases by 2d8 for each slot level above 1."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

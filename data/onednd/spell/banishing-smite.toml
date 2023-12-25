@@ -15,3 +15,4 @@ While in the demiplane, the target has the Incapacitated condition. At the end o
 If the spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its creature type."""
 at_higher_levels = "When you cast this spell using a Spell Slot of 6th level or higher, the extra damage increases by 1d10 for each slot level above 5th."
 source = "Druid and Paladin"
+source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"

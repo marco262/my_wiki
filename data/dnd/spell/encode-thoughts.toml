@@ -1,5 +1,5 @@
 title = "Encode Thoughts"
-classes = []
+classes = ["wizard"]
 level = "cantrip"
 school = "enchantment"
 concentration_spell = false

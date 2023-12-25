@@ -206,4 +206,4 @@ A Barbarian subclass is a specialization that grants you special abilities at ce
 
 ----
 
-_Source: [Player’s Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_

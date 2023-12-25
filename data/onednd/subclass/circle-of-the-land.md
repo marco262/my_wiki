@@ -66,4 +66,4 @@ As a Bonus Action, you can move the cube up to 60 feet to ground within 120 feet
 
 ----
 
-_Source: [Player’s Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

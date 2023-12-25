@@ -91,4 +91,4 @@ Once you use this feature, you can't do so again until you finish 1d4 Long Rests
 
 ----
 
-_Source: [Player’s Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

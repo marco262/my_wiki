@@ -20,5 +20,5 @@ When a creature enters the Cylinder for the first time on a turn or starts its t
 **Searing Radiance.** The creature must make a Dexterity saving throw, taking 8d12 Radiant damage on a failed save or half as much damage on a successful one.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 8 or higher, the healing and damage increase by 1d12 for each slot level above 7."
-source = "Player’s Handbook Playtest 8"
+source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"
