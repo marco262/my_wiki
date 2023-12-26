@@ -123,3 +123,24 @@ export function get_w_default(dict, key, def) {
         return def;
     return dict[key]
 }
+
+export function init_glossary() {
+    const tooltips = document.getElementsByClassName("dfn-tooltip");
+    for (let i = 0; i < tooltips.length; i++) {
+        tooltips[i].addEventListener("click", function(event){
+            console.log(event);
+            let target;
+            if (event.target.classList.contains("dfn-tooltip")) {
+                target = event.target;
+            } else {
+                // In case we clicked an element inside the tooltip
+                target = event.target.closest(".dfn-tooltip");
+            }
+            console.log(target);
+            console.log(target.attributes);
+            const anchor = target.attributes["anchor"].value;
+            console.log(anchor);
+            window.open(`/onednd/general/Rules Glossary#${anchor}`, '_blank');
+        });
+    }
+}

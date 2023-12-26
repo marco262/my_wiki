@@ -46,7 +46,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Proficiencies Gained.*** If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.
 
-***Armor Training.*** When you gain your first Barbarian level, you gain armor training with Shields.
+***Armor Training.*** When you gain your first Barbarian level, you gain [[glossary:armor training]] with Shields.
 
 [[/div]]
 
@@ -91,11 +91,11 @@ You can imbue yourself with a primal power that is called your Rage, a force tha
 While active, your Rage has the following effects:
 
 **Damage Resistance.** You have Resistance to Bludgeoning, Piercing, and Slashing damage.  
-**Rage Damage.** When you make an attack with a weapon using Strength or an Unarmed Strike and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.  
+**Rage Damage.** When you make an attack with a weapon using Strength or an [[glossary:Unarmed Strike]] and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.  
 **Strength Advantage.** You have Advantage on Strength checks and Strength saving throws.  
 **No Concentration or Spells.** You can't maintain Concentration, and you can't cast spells.
 
-The Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:
+The Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the [[glossary:Incapacitated]] condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:
 
 * Make an attack roll against an enemy.
 * Force an enemy to make a saving throw.
@@ -103,7 +103,7 @@ The Rage lasts until the end of your next turn, and it ends early if you don Hea
 
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
-You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a [[glossary:Short Rest]], and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 ### Level 1: Unarmored Defense
 
@@ -111,13 +111,13 @@ While you aren't wearing any armor, your base Armor Class equals 10 + your Dexte
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table. 
 
 ### Level 2: Danger Sense
 
-You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, unless you have the Incapacitated condition. 
+You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, unless you have the [[glossary:Incapacitated]] condition. 
 
 ### Level 2: Reckless Attack
 
@@ -143,7 +143,7 @@ As shown on the Barbarian table, you gain this feature again at levels 8, 12, 16
 
 ### Level 5: Extra Attack
 
-You can attack twice, instead of once, whenever you take the Attack action on your turn. 
+You can attack twice, instead of once, whenever you take the [[glossary:Attack]] action on your turn. 
 
 ### Level 5: Fast Movement
 
@@ -155,20 +155,20 @@ Your instincts are so honed that you have Advantage on Initiative rolls.
 
 ### Level 7: Instinctive Pounce
 
-As part of the Bonus Action you take to enter your Rage, you can Move up to half your Speed. 
+As part of the Bonus Action you take to enter your Rage, you can [[glossary:Move]] up to half your Speed. 
 
 ### Level 9: Brutal Strike
 
-If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
+If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or [[glossary:Unarmed Strike]], and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
-***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks.  
+***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then [[glossary:Move]] up to half your Speed straight toward the target without provoking Opportunity Attacks.  
 ***Hamstring Blow.*** The target's Speed is reduced by 15 feet until the start of your next turn.
 
 ### Level 11: Relentless Rage
 
 Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
-Each time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10.
+Each time you use this feature after the first, the DC increases by 5. When you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]], the DC resets to 10.
 
 ### Level 13: Brutal Strike Improvement
 
@@ -179,9 +179,9 @@ Sundering Blow. Your blow leaves an opening in the creature's defense for an all
 
 ### Level 15: Persistent Rage
 
-When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.
+When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a [[glossary:Long Rest]].
 
-In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious, not the Incapacitated, condition or don Heavy Armor.
+In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the [[glossary:Unconscious]], not the [[glossary:Incapacitated]], condition or don Heavy Armor.
 
 ### Level 17: Brutal Strike Improvement
 

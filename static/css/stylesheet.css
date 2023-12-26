@@ -567,3 +567,32 @@ td.faded-out {
 td.error-text {
     color: red;
 }
+
+/* Rules Glossary tooltips */
+
+dfn {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+dfn:before {
+    content: attr(name);
+    color: #A4121A;
+    text-decoration: underline dotted #A4121A;
+}
+dfn > .dfn-tooltip {
+    display: none;
+}
+dfn:hover > .dfn-tooltip {
+    display: block;
+    position: absolute;
+    top: calc(1em + 5px);
+    width: 30em;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    background: #fff8ec;
+    padding: 0 1em;
+    border: solid 1px black;
+    cursor: pointer;
+    z-index: 1;
+}

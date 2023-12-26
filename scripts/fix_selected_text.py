@@ -4,6 +4,8 @@ from typing import List
 
 import clipboard
 
+from src.common.utils import better_title
+
 if len(sys.argv) < 2:
     raise Exception("Pass in a function to run, you goddamn moron")
 
@@ -51,6 +53,9 @@ elif arg == "fix_line_breaks":
         for m2 in re.finditer(r"\b([A-Z]) ([A-Z])", feature_name):
             feature_name = feature_name.replace(m2.group(0), m2.group(1) + m2.group(2).lower())
         text = text.replace(m.group(0), f"@@### Level {m.group(1)}: {feature_name}@@")
+    # CREATURE TYPE => # Creature Type
+    for m in re.finditer(r"^[A-Z\s\[\]]+$", text, re.MULTILINE):
+        text = text.replace(m.group(0), f"@@# {better_title(m.group(0)).strip()}@@")
     text = re.sub(r"\r?\n", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)

@@ -203,7 +203,7 @@ def better_title(s: str) -> str:
     out_s = []
     for i, word in enumerate(s.split(" ")):
         if i > 0 and word.lower() in exceptions:
-            out_s.append(word)
+            out_s.append(word.lower())
         else:
             out_s.append(word.capitalize())
     return " ".join(out_s)

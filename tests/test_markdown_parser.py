@@ -7,8 +7,11 @@ from src.common.markdown_parser import MarkdownParser
 
 class TestMarkdownParser(unittest.TestCase):
 
+    md: MarkdownParser = None
+
     @classmethod
     def setUpClass(cls):
+        os.chdir("..")
         cls.md = MarkdownParser(init_md=False)
         cls.md.namespace = "dnd"
 
@@ -308,3 +311,13 @@ Here's another tracker doing other things:
 And here's the ending
 """
         print(self.md.insert_magic_item_trackers(text))
+
+    def test_add_rules_glossary_tooltips(self):
+        text = "***Armor Training.*** When you gain your first Barbarian level, you gain [[glossary:armor training]] with Shields."
+        expected = """***Armor Training.*** When you gain your first Barbarian level, you gain <dfn name="armor training"><button class="dfn-tooltip" anchor="armor-training"><p>Armor training is the new name for armor proficiency. Any existing rule that involves armor proficiency now applies to armor training.</p>
+
+<p>If you wear Light, Medium, or Heavy Armor and lack armor training with that type of armor, you have Disadvantage on any d20 Test you make that involves Strength or Dexterity, and you can't cast spells.</p>
+
+<p>If you equip a Shield and lack armor training with it, you don't gain the Armor Class bonus of the Shield.</p></button></dfn> with Shields."""
+        actual = self.md.add_rules_glossary_tooltips(text)
+        self.assertEqual(expected, actual)

@@ -4,7 +4,7 @@ For parsing *.md files, including special handling of wiki code
 import glob
 import os
 import re
-from urllib.parse import quote
+from typing import Dict
 
 import toml
 from bottle import template, TemplateError
@@ -14,6 +14,7 @@ from src.common.utils import title_to_page_name
 from src.dnd.magic_item_tracker import build_magic_item_tracker
 from src.dnd.npc_generator import create_npc
 from src.dnd.utils import to_mod
+from src.onednd.utils import split_rules_glossary, RulesGlossaryEntry
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
@@ -22,6 +23,7 @@ EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_
 class MarkdownParser:
     namespace = ""
     accordion_text = False
+    rules_glossary: Dict[str, RulesGlossaryEntry] = None
 
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
@@ -63,6 +65,7 @@ class MarkdownParser:
         text = self.convert_gm_notes_inserts(text)
         text = self.generate_npc_blocks(text)
         text = self.fancy_text(text)
+        text = self.add_rules_glossary_tooltips(text)
         return text
 
     def convert_wiki_links(self, text):
@@ -227,6 +230,21 @@ class MarkdownParser:
             new_text = f"{magic_items}\n\n{magic_item_tracker_table}"
             new_text += "\n\n*Reference: [Magic Items](/dnd/dm_toolbox/Magic Items)*"
             text = text.replace(m.group(0), new_text)
+        return text
+
+    def add_rules_glossary_tooltips(self, text):
+        if not self.rules_glossary:
+            self.rules_glossary = split_rules_glossary()
+        pattern = r"\[\[glossary:(.*?)\]\]"
+        glossary_tooltip = '<dfn name="{name}"><button class="dfn-tooltip" anchor="{anchor}">{content}</button></dfn>'
+        for m in re.finditer(pattern, text):
+            g = self.rules_glossary[m.group(1).lower()]
+            tooltip = glossary_tooltip.format(
+                name=m.group(1),
+                anchor=g["anchor"],
+                content=g["content"],
+            )
+            text = text.replace(m.group(0), tooltip)
         return text
 
     @staticmethod
