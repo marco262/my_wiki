@@ -34,56 +34,56 @@ You are adept at crafting things and bargaining with merchants, granting you the
 
 ## Fighting Style: Archery
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 You gain a +2 bonus to attack rolls you make with Ranged weapons.
 
 ## Fighting Style: Blind Fighting
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
 You have [[glossary:Blindsight]] with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
 
 ## Fighting Style: Defense
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 While you are wearing armor, you gain a +1 bonus to Armor Class.
 
 ## Fighting Style: Dueling
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When you are wielding a Melee Weapon in one hand and no other Weapons, you gain a +2 bonus to damage rolls with that Melee Weapon.
 
 ## Fighting Style: Great Weapon Fighting
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When you roll a 1 or 2 on a damage die for an attack you make with a Melee weapon that you are wielding with two hands, you can reroll the die, and you must use the new roll. The weapon must have the Two-Handed or Versatile property to gain this benefit.
 
 ## Fighting Style: Interception
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
 When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
 
 ## Fighting Style: Protection
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose Disadvantage on the attack roll. You must be wielding a Shield to use this Reaction
 
 ## Fighting Style: Superior Technique
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
 You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
@@ -92,7 +92,7 @@ You gain one superiority die, which is a d6 (this die is added to any superiorit
 
 ## Fighting Style: Thrown Weapon Fighting
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
 You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
@@ -101,14 +101,14 @@ In addition, when you hit with a ranged attack using a thrown weapon, you gain a
 
 ## Fighting Style: Two-Weapon Fighting
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When you make the extra attack granted by the Light weapon property, you can add your ability modifier to the damage of the extra attack.
 
 ## Fighting Style: Unarmed Fighting
 
-_Prerequisite: Fighting Style Feature_
+_Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
 Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
@@ -524,8 +524,8 @@ You have practiced casting spells in the midst of combat, granting you the follo
 
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
-**Ability Score Increase.** Increase your Strength, or Dexterity score by 1, to a maximum of 20.  
-**Mastery Property.** Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a [[glossary:Long Rest]], you can change the kind of weapon you chose to another eligible kind.
+* **Ability Score Increase.** Increase your Strength, or Dexterity score by 1, to a maximum of 20.
+* **Mastery Property.** Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a [[glossary:Long Rest]], you can change the kind of weapon you chose to another eligible kind.
 
 ## Weapon Training
 
@@ -556,7 +556,7 @@ When you miss with a Melee Attack, you can hit instead. Once you use this benefi
 
 ## Epic Boon of Dimensional Travel
 
-_Prerequisite: Expert or Mage Group_
+_Prerequisite: Expert or Mage Group_  
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Dexterity, Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.
@@ -564,7 +564,7 @@ _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-
 
 ## Epic Boon of Energy Resistance
 
-_Prerequisite: Expert or Mage Group_
+_Prerequisite: Expert or Mage Group_  
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
@@ -573,7 +573,7 @@ _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-
 
 ## Epic Boon of Fate
 
-_Prerequisite: Mage or Priest Group_
+_Prerequisite: Mage or Priest Group_  
 _Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
 **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
@@ -588,7 +588,7 @@ Your Hit Point Maximum increases by 40. In addition, whenever you regain Hit Poi
 
 ## Epic Boon of Irresistible Offense
 
-_Prerequisite: Expert or Warrior Group_
+_Prerequisite: Expert or Warrior Group_  
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 The damage you deal always ignores Resistance.
@@ -620,7 +620,7 @@ _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-
 
 **Ability Score Increase.** Increase your Constitution score by 1, to a maximum of 30.  
 **Last Stand.** When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point Maximum. Once you use this benefit, you can't use it again until you finish a [[glossary:Long Rest]].  
-**Death Defiant.** When you take damage while you have 0 Hit Points, you can make a [[glossary:death saving throw]] instead of suffering a [[glossary:death saving throw]] failure.
+**Death Defiant.** When you take damage while you have 0 Hit Points, you can make a death saving throw instead of suffering a death saving throw failure.
 
 ## Epic Boon of Skill Proficiency
 
@@ -631,7 +631,7 @@ You gain Proficiency in all Skills.
 
 ## Epic Boon of Speed
 
-_Prerequisite: Expert or Warrior Group_
+_Prerequisite: Expert or Warrior Group_  
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Dexterity score by 1, to a maximum of 30.  
@@ -640,7 +640,7 @@ _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-
 
 ## Epic Boon of Spell Recall
 
-_Prerequisite: Mage or Priest Group_
+_Prerequisite: Mage or Priest Group_  
 _Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
 **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
@@ -648,10 +648,10 @@ _Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)
 
 ## Epic Boon of Truesight
 
-_Prerequisite: Priest Group_
+_Prerequisite: Priest Group_  
 _Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
-**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
 **Truesight.** You have Truesight within a range of 60 feet.
 
 ## Epic Boon of Undetectability
@@ -663,7 +663,7 @@ You can't be seen or heard by any means -- magical or nonmagical -- while you ar
 
 ## Epic Boon of the Night Spirit
 
-_Prerequisite: Expert or Mage Group_
+_Prerequisite: Expert or Mage Group_  
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  

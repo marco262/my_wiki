@@ -53,7 +53,7 @@ Here's a list of the game's creature types:
 
 These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the Charm Person spell specifies that its target must be a Humanoid.
 
-## D20 Tests
+## D20 Test
 
 The term d20 Test encompasses the three main d20 rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects d20 Tests, it affects all three of these rolls.
 
