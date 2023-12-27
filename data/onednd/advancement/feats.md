@@ -177,9 +177,9 @@ Increase one ability score of your choice by 2, or increase two ability scores o
 
 Skilled at mimicry and dramatics, you gain the following benefits:
 
-**Ability Score Increase.** Increase your Charisma score by 1, to a maximum of 20.  
-**Impersonation.** While you're disguised as a fictional person or a real person other than yourself, you have Advantage on Charisma Checks (Performance) to convince others that you are that person.  
-**Mimicry.** You can mimic the sounds of other creatures, including speech. To mimic a sound or a way of speaking, you must listen to it for at least 1 minute. Any time thereafter, you can make a DC 15 Charisma Check (Performance) to perform the mimicry; on a success, you perform it convincingly for up to 1 hour.
+* **Ability Score Increase.** Increase your Charisma score by 1, to a maximum of 20.
+* **Impersonation.** While you're disguised as a fictional person or a real person other than yourself, you have Advantage on Charisma Checks (Performance) to convince others that you are that person.
+* **Mimicry.** You can mimic the sounds of other creatures, including speech. To mimic a sound or a way of speaking, you must listen to it for at least 1 minute. Any time thereafter, you can make a DC 15 Charisma Check (Performance) to perform the mimicry; on a success, you perform it convincingly for up to 1 hour.
 
 ## Athlete
 
@@ -188,10 +188,10 @@ Skilled at mimicry and dramatics, you gain the following benefits:
 
 You have undergone extensive physical training to gain the following benefits:
 
-**Ability Score Increase.** Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.  
-**Climb Speed.** You gain a Climb Speed equal to your Speed.  
-**Hop Up.** When you are Prone, you can right yourself with only 5 feet of movement.  
-**Jumping.** You have Advantage on any Ability Check you make for the Jump Action.
+* **Ability Score Increase.** Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
+* **Climb Speed.** You gain a Climb Speed equal to your Speed.
+* **Hop Up.** When you are Prone, you can right yourself with only 5 feet of movement.
+* **Jumping.** You have Advantage on any Ability Check you make for the Jump Action.
 
 ## Charger
 
@@ -200,9 +200,9 @@ You have undergone extensive physical training to gain the following benefits:
 
 You have trained to charge headlong into battle, gaining the following benefits:
 
-**Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.  
-**Improved Dash.** When you take the Dash Action, your Speed increases by 10 feet for that Action.  
-**Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
+* **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
+* **Improved Dash.** When you take the Dash Action, your Speed increases by 10 feet for that Action.
+* **Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
 
 ## Crossbow Expert
 
