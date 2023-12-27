@@ -19,7 +19,7 @@ In addition, the feats below are arranged into sections based on level. To take 
 Always on the lookout for danger, you gain the following benefits:
 
 * **Initiative Proficiency.** When you roll Initiative, you can add your Proficiency Bonus to the roll.
-* **Initiative Swap.** Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally is Incapacitated.
+* **Initiative Swap.** Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally is [[glossary:Incapacitated]].
 
 ## Crafter
 
@@ -38,6 +38,13 @@ _Prerequisite: Fighting Style Feature_
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 You gain a +2 bonus to attack rolls you make with Ranged weapons.
+
+## Fighting Style: Blind Fighting
+
+_Prerequisite: Fighting Style Feature_
+_Source: Tasha's Cauldron of Everything, p. 41_
+
+You have [[glossary:Blindsight]] with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
 
 ## Fighting Style: Defense
 
@@ -60,6 +67,13 @@ _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-
 
 When you roll a 1 or 2 on a damage die for an attack you make with a Melee weapon that you are wielding with two hands, you can reroll the die, and you must use the new roll. The weapon must have the Two-Handed or Versatile property to gain this benefit.
 
+## Fighting Style: Interception
+
+_Prerequisite: Fighting Style Feature_
+_Source: Tasha's Cauldron of Everything, p. 41_
+
+When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+
 ## Fighting Style: Protection
 
 _Prerequisite: Fighting Style Feature_
@@ -67,12 +81,39 @@ _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-
 
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose Disadvantage on the attack roll. You must be wielding a Shield to use this Reaction
 
+## Fighting Style: Superior Technique
+
+_Prerequisite: Fighting Style Feature_
+_Source: Tasha's Cauldron of Everything, p. 41_
+
+You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+
+You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.
+
+## Fighting Style: Thrown Weapon Fighting
+
+_Prerequisite: Fighting Style Feature_
+_Source: Tasha's Cauldron of Everything, p. 41_
+
+You can draw a weapon that has the thrown property as part of the attack you make with the weapon.
+
+In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
+
 ## Fighting Style: Two-Weapon Fighting
 
 _Prerequisite: Fighting Style Feature_
 _Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When you make the extra attack granted by the Light weapon property, you can add your ability modifier to the damage of the extra attack.
+
+## Fighting Style: Unarmed Fighting
+
+_Prerequisite: Fighting Style Feature_
+_Source: Tasha's Cauldron of Everything, p. 41_
+
+Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
+
+At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.
 
 ## Healer
 
@@ -91,7 +132,7 @@ You have the training and intuition to administer first aid and other care effec
 
 You have inexplicable luck that can kick in at just the right moment, granting you the following benefits:
 
-* **Luck Points.** You have a number of Luck Points equal to your Proficiency Bonus. You can spend the points on the benefits below, and you regain your expended Luck Points when you finish a Long Rest.
+* **Luck Points.** You have a number of Luck Points equal to your Proficiency Bonus. You can spend the points on the benefits below, and you regain your expended Luck Points when you finish a [[glossary:Long Rest]].
 * **Advantage.** Immediately after you roll a d20 for a d20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.
 * **Disadvantage.** When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.
 
@@ -110,7 +151,7 @@ You gain the following Armor Training: Light Armor, Medium Armor, and Shield.
 You have learned the basics of a particular magical tradition. Choose one Spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). You gain the following benefits related to that choice:
 
 * **Two Cantrips.** You learn two cantrips of your choice from the Spell list.
-* **1st-Level Spell.** Choose one 1st-level Spell from the Spell list. You always have that Spell prepared. You can cast it once without a Spell Slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the Spell using any Spell Slots you have.
+* **1st-Level Spell.** Choose one 1st-level Spell from the Spell list. You always have that Spell prepared. You can cast it once without a Spell Slot, and you regain the ability to cast it in that way when you finish a [[glossary:Long Rest]]. You can also cast the Spell using any Spell Slots you have.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these Spells (choose when you select this Feat).
 
@@ -124,7 +165,7 @@ Whenever you gain a new level, you can replace one of the Spells you chose for t
 You are a practiced musician, granting you the following benefits:
 
 * **Instrument Training.** You gain Tool Proficiency with three Musical Instruments of your choice.
-* **Inspiring Song.** As you finish a Short Rest or a Long Rest, you can play a song on a Musical Instrument with which you have Tool Proficiency and give Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.
+* **Inspiring Song.** As you finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]], you can play a song on a Musical Instrument with which you have Tool Proficiency and give Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.
 
 ## Savage Attacker
 
@@ -189,7 +230,7 @@ Skilled at mimicry and dramatics, you gain the following benefits:
 You have undergone extensive physical training to gain the following benefits:
 
 * **Ability Score Increase.** Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
-* **Climb Speed.** You gain a Climb Speed equal to your Speed.
+* **Climb Speed.** You gain a [[glossary:Climb Speed]] equal to your Speed.
 * **Hop Up.** When you are Prone, you can right yourself with only 5 feet of movement.
 * **Jumping.** You have Advantage on any Ability Check you make for the Jump Action.
 
@@ -266,8 +307,8 @@ In your spellcasting, you can harness a particular form of energy with deadly ma
 You're an accomplished wrestler, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
-* **Attack Advantage.** You have Advantage on Attack Rolls against a creature Grappled by you.
-* **Fast Wrestler.** You aren't Slowed when you move a creature Grappled by you, provided the creature is your Size or smaller.
+* **Attack Advantage.** You have Advantage on Attack Rolls against a creature [[glossary:Grappled]] by you.
+* **Fast Wrestler.** You aren't Slowed when you move a creature [[glossary:Grappled]] by you, provided the creature is your Size or smaller.
 * **Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
 
 ## Great Weapon Master
@@ -309,7 +350,7 @@ You can use your Heavy Armor to deflect strikes, granting you the following bene
 You are adept at encouraging others, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Wisdom or Charisma score by 1, to a maximum of 20.
-* **Encouraging Performance.** At the end of a Short Rest or a Long Rest, you can give an inspiring performance: a speech, a song, or a dance. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who witness the performance. The chosen creatures each gain Temporary Hit Points equal to 2d4 + your Proficiency Bonus.
+* **Encouraging Performance.** At the end of a [[glossary:Short Rest]] or a [[glossary:Long Rest]], you can give an inspiring performance: a speech, a song, or a dance. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who witness the performance. The chosen creatures each gain Temporary Hit Points equal to 2d4 + your Proficiency Bonus.
 
 ## Keen Mind
 
@@ -319,7 +360,7 @@ You are adept at encouraging others, granting you the following benefits:
 You have trained to rapidly recall or discover vital details, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence score by 1, to a maximum of 20.
-* **Lore Knowledge.** Choose one of the following Skills: Arcana, History, Investigation, Nature, or Religion. If you lack Proficiency in the chosen Skill, you gain Proficiency in it, and if you have Proficiency in it, you gain Expertise in it.
+* **Lore Knowledge.** Choose one of the following Skills: Arcana, History, Investigation, Nature, or Religion. If you lack Proficiency in the chosen Skill, you gain Proficiency in it, and if you have Proficiency in it, you gain [[glossary:Expertise]] in it.
 * **Quick Study.** You can take the Study Action as a Bonus Action.
 
 ## Mage Slayer
@@ -331,7 +372,7 @@ You have practiced techniques useful in battling magic-users, gaining the follow
 
 * **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * **Concentration Breaker.** When you damage a creature that is concentrating, it has Disadvantage on the Saving Throw it makes to maintain Concentration.
-* **Guarded Mind.** If you fail an Intelligence, a Wisdom, or a Charisma Saving Throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Long Rest.
+* **Guarded Mind.** If you fail an Intelligence, a Wisdom, or a Charisma Saving Throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a [[glossary:Long Rest]].
 
 ## Medium Armor Master
 
@@ -353,7 +394,7 @@ You have developed a bond with your mounts, granting you the following benefits:
 * **Ability Score Increase.** Increase your Strength, Dexterity, or Wisdom score by 1, to a maximum of 20.
 * **Mount Handler.** You have Advantage on Wisdom Checks (Animal Handling) made to handle or train horses and other Beasts employed as mounts.
 * **Mounted Strike.** While mounted, you have Advantage on Attack Rolls against any creature that is within 5 feet of your mount and at least one Size smaller than it.
-* **Leap Aside.** If your mount is subjected to an effect that allows it to make a Dexterity Saving Throw to take only half damage, it instead takes no damage if it succeeds on the Saving Throw, and only half damage if it fails. For your mount to gain this benefit, you must be riding it, and neither of you can be Incapacitated.
+* **Leap Aside.** If your mount is subjected to an effect that allows it to make a Dexterity Saving Throw to take only half damage, it instead takes no damage if it succeeds on the Saving Throw, and only half damage if it fails. For your mount to gain this benefit, you must be riding it, and neither of you can be [[glossary:Incapacitated]].
 * **Veer.** While mounted, you can use your Reaction to force an attack that hits your mount to hit you instead.
 
 ## Observant
@@ -364,8 +405,8 @@ You have developed a bond with your mounts, granting you the following benefits:
 Quick to notice details around you, you gain the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence or Wisdom score by 1, to a maximum of 20.
-* **Keen Observer.** Choose one of the following Skills: Insight, Investigation, or Perception. If you lack Proficiency with the chosen Skill, you gain Proficiency in it, and if you have Proficiency in it, you gain Expertise in it.
-* **Quick Search.** You can take the Search Action as a Bonus Action.
+* **Keen Observer.** Choose one of the following Skills: Insight, Investigation, or Perception. If you lack Proficiency with the chosen Skill, you gain Proficiency in it, and if you have Proficiency in it, you gain [[glossary:Expertise]] in it.
+* **Quick Search.** You can take the [[glossary:Search]] Action as a Bonus Action.
 
 ## Polearm Master
 
@@ -397,7 +438,7 @@ You have studied ritual magic, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 * **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag from the [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
-* **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a Ritual. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a Long Rest.
+* **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a Ritual. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a [[glossary:Long Rest]].
 
 ## Sentinel
 
@@ -441,8 +482,8 @@ You've trained to use shields not just for protection, but also for offense, gra
 You are expert at slinking through shadows, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Dexterity score by 1, to a maximum of 20.
-* **Blindsight.** You have Blindsight with a range of 10 feet.
-* **Fog of War.** Exploiting the distractions of battle, you have Advantage on any Dexterity Check (Stealth) you make as part of the Hide Action during combat.
+* **Blindsight.** You have [[glossary:Blindsight]] with a range of 10 feet.
+* **Fog of War.** Exploiting the distractions of battle, you have Advantage on any Dexterity Check (Stealth) you make as part of the [[glossary:Hide]] Action during combat.
 * **Sniper.** If you make an Attack Roll while Hidden and the roll misses, making the Attack Roll doesn't end the Hidden Condition on you.
 
 ## Speedster
@@ -454,7 +495,7 @@ You possess exceptional speed and stamina, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Dexterity or Constitution score by 1, to a maximum of 20.
 * **Speed Increase.** Your Speed increases by 10 feet while you aren't wearing Heavy Armor.
-* **Dash Over Difficult Terrain.** When you take the Dash Action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.
+* **Dash Over Difficult Terrain.** When you take the Dash Action on your turn, [[glossary:Difficult Terrain]] doesn't cost you extra movement for the rest of that turn.
 
 ## Spell Sniper
 
@@ -484,7 +525,7 @@ You have practiced casting spells in the midst of combat, granting you the follo
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Strength, or Dexterity score by 1, to a maximum of 20.  
-**Mastery Property.** Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a Long Rest, you can change the kind of weapon you chose to another eligible kind.
+**Mastery Property.** Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a [[glossary:Long Rest]], you can change the kind of weapon you chose to another eligible kind.
 
 ## Weapon Training
 
@@ -557,14 +598,14 @@ The damage you deal always ignores Resistance.
 **Prerequisite:** Expert Group  
 **Repeatable:** No
 
-Immediately after you roll a d20 for a d20 Test, you can roll a d10 and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a Long Rest.
+Immediately after you roll a d20 for a d20 Test, you can roll a d10 and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]].
 
 ## Epic Boon of the Night Spirit
 
 **Prerequisite:** Expert or Mage Group  
 **Repeatable:** No
 
-While within Dim Light or Darkness, you can become Invisible as an Action. You remain Invisible until immediately after you take an Action or a Reaction.
+While within Dim Light or Darkness, you can become [[glossary:Invisible]] as an Action. You remain [[glossary:Invisible]] until immediately after you take an Action or a Reaction.
 
 ## Epic Boon of Peerless Aim
 
@@ -634,7 +675,7 @@ _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-
 **Prerequisite:** Expert or Warrior Group  
 **Repeatable:** No
 
-As a Bonus Action, you can take the Disengage Action, which also ends the Grappled and the Restrained Conditions on you.
+As a Bonus Action, you can take the Disengage Action, which also ends the [[glossary:Grappled]] and the Restrained Conditions on you.
 
 ----
 
