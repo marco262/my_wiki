@@ -1,0 +1,18 @@
+title = "Sorcerous Burst"
+spell_lists = ["Sorcerer"]
+level = "0"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """
+You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage. If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. Whenever you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.
+
+You choose the damage type each time you cast this spell: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.
+"""
+cantrip_upgrade = "This spell's damage increases by 1d8 when you reach level 5 (2d8), 11 (3d8), and 17 (4d8)."
+source = "Player's Handbook Playtest 7"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-7"

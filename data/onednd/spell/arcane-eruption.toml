@@ -1,0 +1,30 @@
+title = "Arcane Eruption"
+spell_lists = ["Sorcerer"]
+level = "4"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S"]
+material = ""
+expensive_material_component = false
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+Churning magical energy explodes in a 20-foot- radius sphere centered on a point you choose within range. When you cast the spell, you select he type of damage dealt by the explosion: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder. Each creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes 6d6 damage of the chosen type. On a successful save, a creature takes half as much damage.
+
+Choose one of those d6s. The number rolled on that die determines a condition that's applied to each creature that failed the save, as shown below. A creature has the condition until the end of your next turn.
+
+| d6 | Additional Effect          |
+|----|----------------------------|
+| 1  | [[glossary:Incapacitated]] |
+| 2  | Blinded                    |
+| 3  | Frightened                 |
+| 4  | Poisoned                   |
+| 5  | Charmed                    |
+| 6  | Deafened                   |
+"""
+at_higher_levels = "When you cast this spell using a spell slot of level 5 or higher, the damage increases by 1d6 for each slot level above 4."
+source = "Player's Handbook Playtest 7"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-7"
