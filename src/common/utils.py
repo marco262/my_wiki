@@ -202,7 +202,9 @@ exceptions = set(articles + coordinating_conjunctions + prepositions)
 def better_title(s: str) -> str:
     out_s = []
     for i, word in enumerate(s.split(" ")):
-        if i > 0 and word.lower() in exceptions:
+        if word == "D&D":
+            out_s.append("D&D")
+        elif i > 0 and word.lower() in exceptions:
             out_s.append(word.lower())
         else:
             out_s.append(word.capitalize())

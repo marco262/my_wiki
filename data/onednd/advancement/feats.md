@@ -1,3 +1,14 @@
+
+The description of a feat contains the following parts, which are presented after the feat's name:
+
+**Category.** A feat is a member of a category, which is noted in the feat. If you are instructed to choose a feat from a specific category, such as the Background category, that category must appear under the feat's name.  
+**Prerequisite.** You must meet any prerequisite specified in a feat to take that feat unless a special feature allows you to take the feat without the prerequisite. If a prerequisite is a class, you must have at least one level in that class to qualify for the feat. _Editor's Note: Though Class Groups appear to have been removed from the latest playtest documents, any Group prerequisites on any existing feats have been left in. Talk to your DM before taking any feats with a Group as a prerequisite._
+**Source.** This is a name and a link to the most recent playtest document the feat was pulled from. If a feat doesn't have source, it has been taken from either the [Character Origins](https://www.dndbeyond.com/sources/ua/character-origins) or [Expert Classes](https://www.dndbeyond.com/sources/ua/expert-classes) playtest document.
+**Benefit.** The benefit of the feat is then detailed. If you have a feat, you gain its benefit.  
+**Repeatable.** A feat can be taken only once unless it contains a "Repeatable" subsection.
+
+In addition, the feats below are arranged into sections based on level. To take a feat, your level must meet or exceed the level of the section the feat is in. For example, you must be Level 4 or above to take any feats from the "4th-Level Feats" section.
+
 # 1st-Level Feats
 
 ## Alert
@@ -23,45 +34,45 @@ You are adept at crafting things and bargaining with merchants, granting you the
 
 ## Fighting Style: Archery
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
-You gain a +2 bonus to Attack Rolls you make with Ranged Weapons.
+You gain a +2 bonus to attack rolls you make with Ranged weapons.
 
 ## Fighting Style: Defense
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 While you are wearing armor, you gain a +1 bonus to Armor Class.
 
 ## Fighting Style: Dueling
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
 When you are wielding a Melee Weapon in one hand and no other Weapons, you gain a +2 bonus to damage rolls with that Melee Weapon.
 
 ## Fighting Style: Great Weapon Fighting
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
-When you roll a 1 or 2 on a damage die for an attack you make with a Melee Weapon that you are wielding with two hands, you can reroll the die, and you must use the new roll. The Weapon must have the Two-Handed or Versatile property to gain this benefit.
+When you roll a 1 or 2 on a damage die for an attack you make with a Melee weapon that you are wielding with two hands, you can reroll the die, and you must use the new roll. The weapon must have the Two-Handed or Versatile property to gain this benefit.
 
 ## Fighting Style: Protection
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
-Immediately after a creature you can see makes an Attack Roll and hits a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose a −2 penalty on the Attack Roll, potentially turning it into a miss. You must be wielding a Shield to use this Reaction.
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose Disadvantage on the attack roll. You must be wielding a Shield to use this Reaction
 
 ## Fighting Style: Two-Weapon Fighting
 
-**Prerequisite:** Warrior Group  
-**Repeatable:** No
+_Prerequisite: Fighting Style Feature_
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_  
 
-When you make the extra attack of the Light weapon property, you can add your Ability Modifier to the damage of the extra attack.
+When you make the extra attack granted by the Light weapon property, you can add your ability modifier to the damage of the extra attack.
 
 ## Healer
 
@@ -152,10 +163,12 @@ Your Hit Point Maximum increases by an amount equal to twice your character leve
 
 ## Ability Score Improvement
 
-**Prerequisite:** None  
-**Repeatable:** Yes
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_  
+_General Feat (Prerequisite: Level 4+)_
 
-You increase one Ability Score of your choice by 2, or you increase two Ability Scores of your choice by 1. You can't increase an Ability Score above 20.
+Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feat. However, if you're at least level 19, that maximum increases to 22.
+
+***Repeatable.*** You can take this feat more than once.
 
 ## Actor
 
@@ -164,9 +177,9 @@ You increase one Ability Score of your choice by 2, or you increase two Ability 
 
 Skilled at mimicry and dramatics, you gain the following benefits:
 
-* **Ability Score Increase.** Increase your Charisma score by 1, to a maximum of 20.
-* **Impersonation.** While you're disguised as a fictional person or a real person other than yourself, you have Advantage on Charisma Checks (Performance) to convince others that you are that person.
-* **Mimicry.** You can mimic the sounds of other creatures, including speech. To mimic a sound or a way of speaking, you must listen to it for at least 1 minute. Any time thereafter, you can make a DC 15 Charisma Check (Performance) to perform the mimicry; on a success, you perform it convincingly for up to 1 hour.
+**Ability Score Increase.** Increase your Charisma score by 1, to a maximum of 20.  
+**Impersonation.** While you're disguised as a fictional person or a real person other than yourself, you have Advantage on Charisma Checks (Performance) to convince others that you are that person.  
+**Mimicry.** You can mimic the sounds of other creatures, including speech. To mimic a sound or a way of speaking, you must listen to it for at least 1 minute. Any time thereafter, you can make a DC 15 Charisma Check (Performance) to perform the mimicry; on a success, you perform it convincingly for up to 1 hour.
 
 ## Athlete
 
@@ -175,10 +188,10 @@ Skilled at mimicry and dramatics, you gain the following benefits:
 
 You have undergone extensive physical training to gain the following benefits:
 
-* **Ability Score Increase.** Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
-* **Climb Speed.** You gain a Climb Speed equal to your Speed.
-* **Hop Up.** When you are Prone, you can right yourself with only 5 feet of movement.
-* **Jumping.** You have Advantage on any Ability Check you make for the Jump Action.
+**Ability Score Increase.** Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.  
+**Climb Speed.** You gain a Climb Speed equal to your Speed.  
+**Hop Up.** When you are Prone, you can right yourself with only 5 feet of movement.  
+**Jumping.** You have Advantage on any Ability Check you make for the Jump Action.
 
 ## Charger
 
@@ -187,9 +200,9 @@ You have undergone extensive physical training to gain the following benefits:
 
 You have trained to charge headlong into battle, gaining the following benefits:
 
-* **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
-* **Improved Dash.** When you take the Dash Action, your Speed increases by 10 feet for that Action.
-* **Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
+**Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.  
+**Improved Dash.** When you take the Dash Action, your Speed increases by 10 feet for that Action.  
+**Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
 
 ## Crossbow Expert
 
@@ -466,6 +479,13 @@ You have practiced casting spells in the midst of combat, granting you the follo
 * **Concentration.** You have Advantage on Constitution Saving Throws that you make to maintain your Concentration.
 * **Reactive Spell.** When a creature provokes an Opportunity Attack from you by moving out of your Reach, you can use your Reaction to cast a Spell at the creature, rather than making an Opportunity Attack. The Spell must have a casting time of one Action and must target only that creature.
 
+## Weapon Master
+
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
+
+**Ability Score Increase.** Increase your Strength, or Dexterity score by 1, to a maximum of 20.  
+**Mastery Property.** Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a Long Rest, you can change the kind of weapon you chose to another eligible kind.
+
 ## Weapon Training
 
 **Prerequisite:** None  
@@ -478,6 +498,14 @@ You have practiced extensively with a variety of weapons, gaining the following 
 
 # 20th-Level Feats
 
+[[div class="phb-sidebar"]]
+
+**Bonus Feats at Level 20**
+
+A DM can use bonus feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
+
+[[/div]]
+
 ## Epic Boon of Combat Prowess
 
 **Prerequisite:** Expert or Warrior Group  
@@ -487,26 +515,28 @@ When you miss with a Melee Attack, you can hit instead. Once you use this benefi
 
 ## Epic Boon of Dimensional Travel
 
-**Prerequisite:** Expert or Mage Group  
-**Repeatable:** No
+_Prerequisite: Expert or Mage Group_
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
-You can cast the Misty Step Spell without expending a Spell Slot. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a Long Rest.
+**Ability Score Increase.** Increase your Dexterity, Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.
+**Blink Steps.** Immediately after you take the [[glossary:Attack]] action or the [[glossary:Magic]] action, you can teleport up to 30 feet to an unoccupied space you can see.
 
 ## Epic Boon of Energy Resistance
 
-**Prerequisite:** Expert or Mage Group  
-**Repeatable:** No
+_Prerequisite: Expert or Mage Group_
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
-You gain Resistance to one of the following Damage Types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.
-
-Whenever you finish a Short Rest or a Long Rest, you can meditate and change that Damage Type choice.
+**Ability Score Increase.** Increase your Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
+**Energy Resistances.** You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a [[glossary:Long Rest]], you can meditate and change those choices.  
+**Energy Redirection.** When you take damage of a type to which you have Resistance, you can use your Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn't behind Total Cover. If you do so, that creature must succeed on a Dexterity saving throw (DC equals 8 + your Proficiency Bonus + the ability modifier of the score increased by this feat) or take damage equal to 2d12 + your Constitution modifier.
 
 ## Epic Boon of Fate
 
-**Prerequisite:** Mage or Priest Group  
-**Repeatable:** No
+_Prerequisite: Mage or Priest Group_
+_Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
-When another creature that you can see within 60 feet of you makes a d20 Test, you can roll a d10 and apply the number rolled as a bonus or a penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a Long Rest.
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
+**Improve Fate.** When another creature within 60 feet of you fails a [[glossary:d20 Test]], you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. You can use this benefit no more than once per turn. You have 8 uses of this benefit, and whenever you finish a [[glossary:Long Rest]], you regain 2d4 expended uses.
 
 ## Epic Boon of Fortitude
 
@@ -517,8 +547,8 @@ Your Hit Point Maximum increases by 40. In addition, whenever you regain Hit Poi
 
 ## Epic Boon of Irresistible Offense
 
-**Prerequisite:** Expert or Warrior Group  
-**Repeatable:** No
+_Prerequisite: Expert or Warrior Group_
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 The damage you deal always ignores Resistance.
 
@@ -545,10 +575,11 @@ If you make a Ranged Attack against a target in range and miss, you can cause th
 
 ## Epic Boon of Recovery
 
-**Prerequisite:** None  
-**Repeatable:** No
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
-You can use a Bonus Action to regain a number of Hit Points equal to half your Hit Point Maximum. Once you use this benefit, you can't use it again until you finish a Long Rest. In addition, you succeed on every Death Saving Throw that isn't a roll of 1.
+**Ability Score Increase.** Increase your Constitution score by 1, to a maximum of 30.  
+**Last Stand.** When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point Maximum. Once you use this benefit, you can't use it again until you finish a [[glossary:Long Rest]].  
+**Death Defiant.** When you take damage while you have 0 Hit Points, you can make a [[glossary:death saving throw]] instead of suffering a [[glossary:death saving throw]] failure.
 
 ## Epic Boon of Skill Proficiency
 
@@ -559,24 +590,28 @@ You gain Proficiency in all Skills.
 
 ## Epic Boon of Speed
 
-**Prerequisite:** Expert or Warrior Group  
-**Repeatable:** No
+_Prerequisite: Expert or Warrior Group_
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
-Your Speed increases by 30 feet.
+**Ability Score Increase.** Increase your Dexterity score by 1, to a maximum of 30.  
+**Escape Artist.** As a Bonus Action, you can take the Disengage Action, which also ends the [[glossary:Grappled]] and Restrained conditions on you.  
+**Quickness.** Your Speed increases by 30 feet.
 
 ## Epic Boon of Spell Recall
 
-**Prerequisite:** Mage or Priest Group  
-**Repeatable:** No
+_Prerequisite: Mage or Priest Group_
+_Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
-You can cast any spell you have prepared without expending a spell slot, provided the spell is 5th level or lower. Once you do so, you can't use this benefit again until you finish a Long Rest.
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
+**Free Casting.** Whenever you cast a spell with a Spell Slot of 1st, 2nd, 3rd, or 4th level, roll a d4. If the number you roll equals the slot's level, the slot isn't expended.
 
 ## Epic Boon of Truesight
 
-**Prerequisite:** Priest Group  
-**Repeatable:** No
+_Prerequisite: Priest Group_
+_Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
-You have Truesight out to a range of 60 feet.
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.
+**Truesight.** You have Truesight within a range of 60 feet.
 
 ## Epic Boon of Undetectability
 
@@ -585,6 +620,15 @@ You have Truesight out to a range of 60 feet.
 
 You can't be seen or heard by any means -- magical or nonmagical -- while you are Hidden.
 
+## Epic Boon of the Night Spirit
+
+_Prerequisite: Expert or Mage Group_
+_Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
+
+**Ability Score Increase.** Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
+**Merge with Shadows.** While entirely within Dim Light or Darkness, you can give yourself the [[glossary:Invisible]] condition as a [[glossary:Magic]] action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.  
+**Shadowy Form.** While entirely within Dim Light or Darkness, you have Resistance to all damage except Force, Psychic, and Radiant.
+
 ## Epic Boon of the Unfettered
 
 **Prerequisite:** Expert or Warrior Group  
@@ -592,5 +636,6 @@ You can't be seen or heard by any means -- magical or nonmagical -- while you ar
 
 As a Bonus Action, you can take the Disengage Action, which also ends the Grappled and the Restrained Conditions on you.
 
+----
 
-*Source:* <https://www.dndbeyond.com/sources/one-dnd>
+_Source: [Character Origins](https://www.dndbeyond.com/sources/ua/character-origins)_
