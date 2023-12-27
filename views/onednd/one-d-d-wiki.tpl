@@ -63,7 +63,9 @@
 * [[[general:equipment#weapons|Weapons]]]
 * [[[general:equipment#adventuring-gear|Adventuring Gear]]]
 
-## Magic Items
+## System Info
+
+[[[general:Rules Glossary]]]
 
 [[/div]]
 
