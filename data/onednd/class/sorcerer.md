@@ -92,20 +92,9 @@ You can use this feature twice, and you regain all expended uses of it when you 
 
 ### Level 1: Spellcasting
 
-[[div class="phb-sidebar"]]
-
-#### Sorcerer Spell List
-
-As you playtest this version of the Sorcerer, please use the [Sorcerer spell list](/dnd/class_spell_list/sorcerer/true), with the following spells added:
-
-* _[[[spell:Sorcerous Burst]]]_ (cantrip)
-* _[[[spell:Arcane Eruption]]]_ (level 4 spell)
-
-[[/div]]
-
 Drawing from your innate magic, you can cast spells. See the Player's Handbook for rules on spellcasting. The information below details how you use those rules as a Sorcerer.
 
-***Cantrips.*** You know four cantrips of your choice from the [Sorcerer spell list](/dnd/class_spell_list/sorcerer/true) (see the "Sorcerer Spell List" sidebar). Rather than choosing, you may start with Light, _[[[spell:Prestidigitation]]]_, _[[[spell:Shocking Grasp]]]_, and _[[[spell:Sorcerous Burst]]]_. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
+***Cantrips.*** You know four cantrips of your choice from the [Sorcerer spell list](/onednd/spell_list/sorcerer). Rather than choosing, you may start with _[[[spell:Light]]]_, _[[[spell:Prestidigitation]]]_, _[[[spell:Shocking Grasp]]]_, and _[[[spell:Sorcerous Burst]]]_. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
 
 When you reach levels 4 and 10 in this class, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer table.
 

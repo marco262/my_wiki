@@ -101,10 +101,14 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/spell_list/<c>')
     @view("onednd/spell_list_page.tpl")
     def class_spell_list(c):
+        c = c.title()
         spells = defaultdict(list)
         for k, v in load_spells().items():
             if c in v["spell_lists"]:
                 spells[v["level"]].append((k, v))
+        # Sort results by name
+        for k, spell_list in spells.items():
+            spells[k] = sorted(spell_list, key=lambda x: x[0])
         d = {
             "title": f"{c.title()} Spells",
             "spell_dict": spells,
