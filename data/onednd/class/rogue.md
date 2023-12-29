@@ -118,13 +118,15 @@ Your quick thinking and agility allow you to move and act quickly. On your turn,
 
 ### 3rd Level: Rogue Subclass
 
+[[div class="errata"]]
+
+**Editor's Note** At my discretion, I've removed Steady Aim from the list of Rogue abilities as I believe it detracts from the gameplay experience. Use Cunning Action to Hide instead.
+
+[[/div]]
+
 You gain a Rogue subclass of your choice: Arcane Trickster, Assassin, Swashbuckler, or Thief. Subclasses are detailed after this class's description.
 
 A subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level and lower.
-
-### 3rd Level: Steady Aim
-
-As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.
 
 ### 4th Level: Ability Score Improvement
 

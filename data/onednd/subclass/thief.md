@@ -4,14 +4,14 @@ A mix of burglar, treasure hunter, and explorer, you are the consummate adventur
 
 As a Bonus Action, you can do one of the following:
 
-**Sleight of Hand.** Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.
+**Sleight of Hand.** Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.  
 **Use an Object.** Take the Use an Object action, or take the Magic action to use a magic item that requires that action.
 
 ### 3rd Level: Second-Story Work
 
 You have trained to reach especially hard-to- reach places, granting you these benefits:
 
-**Climber.** You gain a Climb Speed equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.
+**Climber.** You gain a Climb Speed equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.  
 **Jumper.** Your jump distance is determined by your Dexterity rather than your Strength.
 
 ### 9th Level: Supreme Sneak

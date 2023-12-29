@@ -129,9 +129,15 @@ You can never have more than one instance of Heroic Advantage. If something give
 
 ## Hide [Action]
 
-With the Hide action, you try to conceal yourself. To do so stealthily, you must succeed on a DC 15 Dexterity (Stealth) check while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.
+[[div]]
 
-On a successful check, you have the Invisible condition. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom (Perception) check.
+**Editor's Note** The Hide action has been modified so the Dexterity (Stealth) check is only made when the first enemy attempts to notice you.
+
+[[/div]]
+
+You try to conceal yourself. You must be Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.
+
+While you are Hidden, the next time a creature might notice you, you must make a Dexterity (Stealth) check contested by their Wisdom (Perception). If you succeed, you gain the Invisible condition. As long as you remain Hidden, you will use the same Dexterity (Stealth) check result for any further enemies to notice you.
 
 The condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component.
 
