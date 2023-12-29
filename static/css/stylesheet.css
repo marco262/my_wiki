@@ -2,7 +2,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    background: url(/media/img/vellum-plain-background-repeating.jpg) repeat top center;
+    background: #FAE4BB url(/media/img/vellum-plain-background-repeating.jpg) repeat top center;
 }
 
 #content {
