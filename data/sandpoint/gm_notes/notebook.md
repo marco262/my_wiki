@@ -7,16 +7,10 @@
   * Treasure Chest in C24
   * Goblin Harem (D2)
   * Goblin Nursery (D3)
-* Figure out what Tsuto et al will do now that the alarm is raised
-  * Bruthazmus will chase the party and harry them with arrows. Orik will join him soon after.
-  * Tsuto will go get Lyrie and Nualia, and together they will try to pincer the party via the second set of stairs
-* How long will oil burn?
-  * 2 rounds
 * What does Nualia know about Malfeshnekor, and what are her plans for it?
   * She has talked with Malfeshnekor only in her dreams, and has told him that her god has given her the task to break the binding and take him under her control.
   * Malfeshnekor is just happy someone is working to free him from his binding.
   * She's trying to work out how to perform the ritual shown to her by Lamashtu to remove the binding spell that's keeping Malfeshnekor trapped in that room. [link](https://paizo.com/threads/rzs2t67q?Is-Nualia-dumb#2)
-* It is Lyse's turn (see below)
 
 ### Player Plans
 
@@ -61,9 +55,8 @@
 
 ### Notes for the Future
 
-* Note to self: Add fire theming to this campaign
-* Drop info about the origin of Malfeshnekor as they explore Thistletop
 * Connect Stoot with the Skinsaw Cult somehow
+* Have Tsuto come back missing a leg
 
 ### Q&A
 
