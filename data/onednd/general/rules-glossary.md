@@ -129,7 +129,7 @@ You can never have more than one instance of Heroic Advantage. If something give
 
 ## Hide [Action]
 
-[[div]]
+[[div class="errata"]]
 
 **Editor's Note** The Hide action has been modified so the Dexterity (Stealth) check is only made when the first enemy attempts to notice you.
 
