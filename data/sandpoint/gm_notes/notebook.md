@@ -38,11 +38,8 @@
 ### Todo
 
 * Finish finding pictures and audio for Thistletop B2
-* Refresh yourself on NPCs' abilities, tactics, and motivations
 * Set up game room lights for the first dungeon level
   * Malfeshnekor's Prison
-* Create loot bags for
-  * Collapsed Treasury (291 gp)
 * Pick out minis for Shadows, Crab
 * Prep inter-chapter cutscene: script, visual aids, music/ambience
 
@@ -83,14 +80,13 @@ Rusty: Searching
 
 # Initiative
 
-| Name           | Per | Inv | #  | HP      |
-|----------------|-----|-----|----|---------|
-| Yeth Hound     |     |     | 16 | 49 / 51 |
-| Delfi          | 12  | 10  | 15 |         |
-| Orik       (B) |     |     | 14 | 12 / 60 |
-| Lyse           | 13  | 11  | 11 |         |
-| Junior         |     |     | 11 |         |
-| Rusty          | 10  | 13  | 12 |         |
-| Nualia     (W) |     |     | 10 | 57 / 60 | /
-| Althaea        | 14  | 11  | 4  |         |
-| Ameiko         |     |     | 16 | 5 / 20  |
+| Name     | Per | Inv | #  | HP     |
+|----------|-----|-----|----|--------|
+| Goblin G |     |     | 15 |        |
+| Goblin R |     |     | 13 |        |
+| Lyse     | 13  | 11  | 10 |        |
+| Althaea  | 14  | 11  | 5  |        |
+| Horse    |     |     |    | 0 / 20 |
+| Rusty    | 10  | 13  |    |        |
+| Delfi    | 12  | 10  |    |        |
+| Junior   |     |     |    |        |
