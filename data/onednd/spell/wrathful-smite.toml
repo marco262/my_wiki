@@ -1,14 +1,17 @@
 title = "Wrathful Smite"
-spell_lists = ["Divine"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Divine", "Paladin", "Ranger"]
 level = "1"
-school = "Transmutation"
-concentration_spell = true
+school = "Necromancy"
+concentration_spell = false
 ritual_spell = false
-casting_time = "Bonus Action, which you take immediately after hitting a creature with a weapon or an Unarmed Strike"
+casting_time = "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"
 range = "Self"
 components = ["V"]
-duration = "Concentration, up to 1 minute"
-description = """As you hit the creature, it takes an extra 1d6 Psychic damage, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the saving throw, ending the spell on itself on a success."""
-at_higher_levels = "When you cast this spell using a Spell Slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
-source = "Druid and Paladin"
-source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"
+duration = "1 minute"
+description = """
+As you hit the creature, your strike channels divine wrath. The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the saving throw, ending the spell on itself on a success.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

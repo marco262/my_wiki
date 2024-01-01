@@ -12,7 +12,7 @@ expensive_material_component = false
 material_component_consumed = false
 duration = "Instantaneous"
 description = """
-Churning magical energy explodes in a 20-foot- radius sphere centered on a point you choose within range. When you cast the spell, you select he type of damage dealt by the explosion: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder. Each creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes 6d6 damage of the chosen type. On a successful save, a creature takes half as much damage.
+Churning magical energy explodes in a 20-foot-radius sphere centered on a point you choose within range. When you cast the spell, you select he type of damage dealt by the explosion: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder. Each creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes 6d6 damage of the chosen type. On a successful save, a creature takes half as much damage.
 
 Choose one of those d6s. The number rolled on that die determines a condition that's applied to each creature that failed the save, as shown below. A creature has the condition until the end of your next turn.
 

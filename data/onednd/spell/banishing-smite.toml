@@ -1,18 +1,17 @@
 title = "Banishing Smite"
-spell_lists = ["Divine"]
+spell_lists = ["Paladin"]
 level = "5"
 school = "Conjuration"
-concentration_spell = false
+concentration_spell = true
 ritual_spell = false
-casting_time = "Bonus Action, which you take immediately after hitting a creature with a weapon or an Unarmed Strike"
+casting_time = "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"
 range = "Self"
 components = ["V"]
 duration = "Concentration, up to 1 minute"
-description = """The target hit by the strike takes an extra 5d10 Force damage, and the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration.
+description = """
+As you hit the creature, your strike erupts with divine power. The target hit by the strike takes an extra 5d10 Force damage from the attack. If the attack reduces the target to 50 Hit Points or fewer, the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration.
 
-While in the demiplane, the target has the Incapacitated condition. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success. When the spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
-
-If the spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its creature type."""
-at_higher_levels = "When you cast this spell using a Spell Slot of 6th level or higher, the extra damage increases by 1d10 for each slot level above 5th."
-source = "Druid and Paladin"
-source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"
+While in the demiplane, the target has the Incapacitated condition. When the spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+"""
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

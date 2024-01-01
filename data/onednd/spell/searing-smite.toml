@@ -1,14 +1,17 @@
 title = "Searing Smite"
-spell_lists = ["Divine"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Divine", "Paladin", "Ranger"]
 level = "1"
 school = "Evocation"
-concentration_spell = true
+concentration_spell = false
 ritual_spell = false
-casting_time = "Bonus Action, which you take immediately after hitting a creature with a weapon or an Unarmed Strike"
+casting_time = "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"
 range = "Self"
 components = ["V"]
-duration = "Concentration, up to 1 minute"
-description = """As you hit the target, your strike flares with white-hot intensity, and the target takes an extra 1d6 Fire damage and ignites with magical fire. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 Fire damage. On a successful save, the spell ends."""
-at_higher_levels = "When you cast this spell using a Spell Slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
-source = "Druid and Paladin"
-source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"
+duration = "1 minute"
+description = """
+As you hit the target, your strike flares with white-hot intensity, and the target takes an extra 1d6 Fire damage from the attack and ignites with magical fire. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then must make a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 2nd level or higher, any damage dealt by the spell increases by 1d6 for each slot level above 1st."
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

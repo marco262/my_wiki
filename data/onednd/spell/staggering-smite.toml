@@ -1,14 +1,16 @@
 title = "Staggering Smite"
-spell_lists = ["Divine"]
-level = "2"
+spell_lists = ["Paladin"]
+level = "4"
 school = "Enchantment"
 concentration_spell = false
 ritual_spell = false
-casting_time = "Bonus Action, which you take immediately after hitting a creature with a weapon or an Unarmed Strike"
+casting_time = "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"
 range = "Self"
 components = ["V"]
-duration = "Concentration, up to 1 minute"
-description = """As you hit the creature, your strike pierces both body and mind. The target takes an extra 4d6 Psychic damage, and the target must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn."""
-at_higher_levels = "When you cast this spell using a Spell Slot of 5th level or higher, the extra damage increases by 1d6 for each slot level above 4th."
-source = "Druid and Paladin"
-source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"
+duration = "Instantaneous"
+description = """
+As you hit the creature, your strike pierces both body and mind. The target takes an extra 4d6 Psychic damage from the attack, and the target must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 5th level, the extra damage increases by 1d6."
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

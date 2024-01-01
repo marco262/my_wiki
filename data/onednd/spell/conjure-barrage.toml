@@ -1,0 +1,17 @@
+title = "Conjure Barrage"
+spell_lists = ["Ranger"]
+level = "3"
+school = "Conjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self (60-foot cone)"
+components = ["V", "S", "M"]
+material_component = "a melee or ranged weapon worth at least 1 CP"
+duration = "Instantaneous"
+description = """
+You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that shoot forward and then disappear. Each creature of your choice that you can see in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 5d8 Force damage on a failed save, or half as much damage on a successful one.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd."
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"
