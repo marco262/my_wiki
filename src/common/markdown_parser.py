@@ -84,11 +84,15 @@ class MarkdownParser:
         return text
 
     @staticmethod
-    def check_for_md_file(dir, filename):
+    def check_for_md_file(directory, filename):
         filename = title_to_page_name(filename)
-        path = os.path.join(BASE_DIR, "data", dir.lstrip("/"), filename)
-        # print(path)
-        return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
+        path = os.path.join(BASE_DIR, "data", directory.lstrip("/"), filename)
+        is_file = os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
+        # Special handling for One D&D spells
+        if not is_file and directory == "/onednd/spell":
+            path = os.path.join(BASE_DIR, "data", "dnd/spell", filename)
+            is_file = os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
+        return is_file
 
     # @staticmethod
     # def convert_popup_links(text):
