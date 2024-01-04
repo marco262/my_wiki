@@ -36,7 +36,25 @@ Not every singer or poet in a tavern or jester in a royal court is a Bard. Harne
 
 ## Creating a Bard
 
-To create a Bard, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Bard](#multiclassing-and-the-bard) section.
+[[div class="phb-sidebar"]]
+
+**Multiclassing and the Bard**
+
+If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Bard as one of your classes.
+
+***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Bard's primary ability, Charisma, to take a level in this class or to take a level in another class if you're already a Bard.
+
+***Proficiencies.*** If Bard isn't your initial class, here are the proficiencies you gain when you take your first Bard level: one skill of your choice and one Musical Instrument of your choice.
+
+***Armor Training.*** When you gain your first Bard level, you gain Light Armor training.
+
+***Spell Slots.*** Add all your Bard levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.
+
+You prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it.
+
+[[/div]]
+
+To create a Bard, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Bard" sidebar.
 
 Then look at the Bard table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Bard Class Features](#bard-class-features) section.
 
