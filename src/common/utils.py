@@ -304,7 +304,7 @@ def list_media_files(glob_pattern: str) -> List[str]:
     """
     Retrieve a list of media files. Will search either local file system or Google cloud bucket depending on
     where media files are saved for this installation.
-    :param glob_pattern: Pattern to glob match on, starting from media directory. E.g. "media/audio/requests/*"
+    :param glob_pattern: Pattern to glob match on, starting from media directory. e.g. "media/audio/requests/*"
     :return: List of filepaths, starting from media directory. e.g. "media/audio/requests/filename.mp3"
     """
     if MEDIA_BUCKET:
@@ -321,7 +321,7 @@ def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool
     Checks if a media file exists. Will search either local file system or Google cloud bucket depending on
     where media files are saved for this installation.
     Optionally checks if the file is the expected size.
-    :param filepath: Filepath to check for, starting from media directory. E.g. "media/audit/requests/filename.mp3"
+    :param filepath: Filepath to check for, starting from media directory. E.g. "media/audio/requests/filename.mp3"
     :param file_size: The expected size of the file in bytes. If provided and the file is a different size,
         False will be returned.
     :return: True if the file exists, False otherwise
@@ -352,9 +352,9 @@ def check_for_media_file(filepath: str, file_size: Optional[int] = None) -> bool
 
 def save_media_file(filepath: str, file_bytes: bytes):
     """
-    Saves a media file to a given path . Will save to either local file system or Google cloud bucket depending on
+    Saves a media file to a given path. Will save to either local file system or Google cloud bucket depending on
     where media files are saved for this installation.
-    :param filepath: Filepath to save to, starting from media directory. E.g. "media/audit/requests/filename.mp3"
+    :param filepath: Filepath to save to, starting from media directory. E.g. "media/audio/requests/filename.mp3"
     :param file_bytes: File data
     """
     if MEDIA_BUCKET:
