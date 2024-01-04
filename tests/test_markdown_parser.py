@@ -321,3 +321,12 @@ And here's the ending
 <p>If you equip a Shield and lack armor training with it, you don't gain the Armor Class bonus of the Shield.</p></button></dfn> with Shields."""
         actual = self.md.add_rules_glossary_tooltips(text)
         self.assertEqual(expected, actual)
+        text = "**Bardic Damage.** You can use Dexterity instead of Strength for the attack rolls of your [[glossary:Unarmed Strike|Unarmed Strikes]], and"
+        expected = """**Bardic Damage.** You can use Dexterity instead of Strength for the attack rolls of your <dfn name="Unarmed Strikes"><button class="dfn-tooltip" anchor="unarmed-strike"><p>An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p>
+
+<p>Whenever you use your Unarmed Strike, choose one of the following options for its effect:</p>
+
+<p><strong>Damage.</strong> You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier. <br />
+<strong>Grapple.</strong> The target must succeed on a Strength or Dexterit ... <em>[more]</em></p></button></dfn>, and"""
+        actual = self.md.add_rules_glossary_tooltips(text)
+        self.assertEqual(expected, actual)

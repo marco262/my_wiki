@@ -36,7 +36,7 @@ Not every singer or poet in a tavern or jester in a royal court is a Bard. Harne
 
 ## Creating a Bard
 
-To create a Bard, consult the following lists, which provide Hit Points, Proficiencies, and Armor Training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Bard](#multiclassing-and-the-bard) section.
+To create a Bard, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Bard](#multiclassing-and-the-bard) section.
 
 Then look at the Bard table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Bard Class Features](#bard-class-features) section.
 
@@ -91,9 +91,9 @@ You can supernaturally inspire others through words, music, or dance. This inspi
 
 ***Using Bardic Inspiration.*** As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time. 
 
-Once within the next hour when the creature fails a d20 Test, the creature can roll that die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
+Once within the next hour when the creature fails a [[glossary:d20 Test]], the creature can roll that die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
 
-***Number of Uses.*** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+***Number of Uses.*** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 ***At Higher Levels.*** Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
@@ -101,31 +101,38 @@ Once within the next hour when the creature fails a d20 Test, the creature can r
 
 You have learned to cast spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.
 
-***Chosen Spell List.*** At 1st level, choose a spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). The chosen list is your Bard spell list and represents the magical tradition in which you learned your bardic arts. Whichever list you choose, it includes the _[[[spell:Vicious Mockery]]]_ cantrip for you.
 
-***Cantrips.*** You know two cantrips of your choice from your Bard spell list.
+***Cantrips.*** You know two cantrips of your choice from the [Bard spell list](/onednd/spell_list/bard). Rather than choosing, you may start with _[[[spell:Minor Illusion]]]_ and _[[[spell:Vicious Mockery]]]_.
 
-Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from your Bard spell list.
+Whenever you gain a Bard level, you can replace one of your cantrips from this feature with another Bard cantrip of your choice.
 
-When you reach 4th and 10th level in this class, you learn another cantrip of your choice from your Bard spell list, as shown in the Cantrips column of the Bard table.
+When you reach levels 4 and 10 in this class, you learn another Bard cantrip of your choice, as shown in the Cantrips column of the Bard table.
 
-***Spell Slots.*** The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Bard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
 
-***Prepared Spells of 1st+ Level.*** You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose four 1st-level spells from your Bard spell list.
+***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the [Bard spell list](/onednd/spell_list/bard). Rather than choosing, you may start with _[[[spell:Cure Wounds]]]_, _[[[spell:Dissonant Whispers]]]_, _[[[spell:Heroism]]]_, and _[[[spell:Thunderwave]]]_.
 
-The number of spells on your list also increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard table. Whenever that number increases, choose additional spells from your Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 3rd-level Bard, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.
+The number of spells on your list also increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of prepared spells can include six Bard spells of level 1 or 2 in any combination.
 
 If another Bard feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
 
-***Changing Your Prepared Spells.*** Whenever you finish a Long Rest[((bibcite homebrew))], you can replace one spell on your list with another spell for which you have spell slots and that is on your Bard spell list.
+[[div class="errata"]]
 
-***Spellcasting Ability.*** Charisma is your Spellcasting Ability for your Bard spells.
+**Houserule: Changing Your Prepared Spells**
 
-***Spellcasting Focus.*** You can use a musical instrument as a Spellcasting Focus for the spells you cast with your Bard features. 
+Whenever you take a Long Rest, you may replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
+
+[[/div]]
+
+***Changing Your Prepared Spells.*** Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.
+
+***Spellcasting Ability.*** Charisma is your spellcasting ability for the spells you cast with your Bard features.
+
+***Spellcasting Focus.*** You can use a musical instrument as a Spellcasting Focus for the spells you cast with your Bard features.
 
 ### 2nd Level: Expertise
 
-You gain Expertise in two of your skill proficiencies of your choice.
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice.
 
 Performance and Persuasion are iconic choices for a Bard if you have proficiency in them. 
 
@@ -137,7 +144,7 @@ For example, if you make a Strength (Athletics) check and lack Athletics profici
 
 ### 3rd Level: Bard Subclass
 
-You gain a Bard subclass of your choice: [College of Dance](/onednd/subclass/College of Dance), [College of Glamour](/onednd/subclass/College of Glamour), [College of Lore](/onednd/subclass/College of Lore), or [College of Valor](/onednd/subclass/College of Valor).
+You gain a Bard subclass of your choice, listed at the end of this class description.
 
 A subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level and lower. 
 
@@ -147,7 +154,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### 5th Level: Font of Inspiration
 
-You now also regain all your expended uses of Bardic Inspiration when you finish a Short Rest.
+You now also regain all your expended uses of Bardic Inspiration when you finish a [[glossary:Short Rest]].
 
 In addition, if you have no uses of Bardic Inspiration left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn. 
 
@@ -165,7 +172,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### 9th Level: Expertise
 
-You gain Expertise in two of your skill proficiencies of your choice. 
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice. 
 
 ### 10th Level: Magical Secrets
 
@@ -195,6 +202,17 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 You have mastered two of the prime Words of Creation: the words of life and death. You therefore always have the _[[[spell:Power Word Heal]]]_ and _[[[spell:Power Word Kill]]]_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target.
 
-[[bibliography]]
-: homebrew : Homebrew
-[[/bibliography]]
+# Bard Subclasses
+
+A Bard subclass is a specialization that grants you special abilities at certain Bard levels, as specified in the subclass.
+
+Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
+
+* [[[subclass:College of Dance]]]
+* [[[subclass:College of Glamour]]]
+* [[[subclass:College of Lore]]]
+* [[[subclass:College of Valor]]]
+
+----
+
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

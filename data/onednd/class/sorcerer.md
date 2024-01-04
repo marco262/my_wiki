@@ -100,7 +100,7 @@ When you reach levels 4 and 10 in this class, you learn another Sorcerer cantrip
 
 ***Spell Slots.*** The Sorcerer table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
 
-***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose two level 1 spells from the Sorcerer spell list. Rather than choosing, you may start with _[[[spell:Burning Hands]]]_ and _[[[spell:Detect Magic]]]_.
+***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose two level 1 spells from the [Sorcerer spell list](/onednd/spell_list/sorcerer). Rather than choosing, you may start with _[[[spell:Burning Hands]]]_ and _[[[spell:Detect Magic]]]_.
 
 The number of spells on your list also increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.
 

@@ -233,12 +233,12 @@ class MarkdownParser:
     def add_rules_glossary_tooltips(self, text):
         if not self.rules_glossary:
             self.rules_glossary = split_rules_glossary()
-        pattern = r"\[\[glossary:(.*?)\]\]"
+        pattern = r"\[\[glossary:(.*?)(\|(.*?))?\]\]"
         glossary_tooltip = '<dfn name="{name}"><button class="dfn-tooltip" anchor="{anchor}">{content}</button></dfn>'
         for m in re.finditer(pattern, text):
             g = self.rules_glossary[m.group(1).lower()]
             tooltip = glossary_tooltip.format(
-                name=m.group(1),
+                name=m.group(3) or m.group(1),
                 anchor=g["anchor"],
                 content=g["content"],
             )

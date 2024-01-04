@@ -21,3 +21,7 @@ Whenever you use your Cutting Words feature on a creature, you can deal Psychic 
 ### 14th Level: Peerless Skill
 
 When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended.
+
+----
+
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
