@@ -62,6 +62,8 @@ elif arg == "fix_line_breaks":
     text = re.sub(r" *@", "\n", text)
 elif arg == "add_spell":
     text = f"_[[[spell:{text}]]]_"
+elif arg == "glossary":
+    text = f"[[glossary:{text}]]"
 elif arg == "add_special_formatting":
     for m in re.finditer(r'^(.*?),', text, re.MULTILINE):
         title = m.group(1).capitalize()
