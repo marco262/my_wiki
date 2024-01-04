@@ -9,28 +9,28 @@ Many Monks find that a structured life of ascetic withdrawal from the mundane wo
 
 Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons.
 
-| Level | Prof.<br>Bonus | Class Features                                            | Martial<br>Arts | Discipline<br>Points | Unarmored<br>Movement |
-|:-----:|:--------------:|:----------------------------------------------------------|:---------------:|:--------------------:|:---------------------:|
-|  1st  |       +2       | Martial Arts, Unarmored Defense                           |       1d6       |          --          |          --           |
-|  2nd  |       +2       | Monk’s Discipline, Unarmored Movement, Uncanny Metabolism |       1d6       |          2           |        +10 ft.        |
-|  3rd  |       +2       | Deflect Attacks, Monk Subclass                            |       1d6       |          3           |        +10 ft.        |
-|  4th  |       +2       | Ability Score Improvement, Slow Fall                      |       1d6       |          4           |        +10 ft.        |
-|  5th  |       +3       | Extra Attack, Stunning Strike                             |       1d8       |          5           |        +10 ft.        |
-|  6th  |       +3       | Empowered Strikes, Subclass Feature                       |       1d8       |          6           |        +15 ft.        |
-|  7th  |       +3       | Evasion                                                   |       1d8       |          7           |        +15 ft.        |
-|  8th  |       +3       | Ability Score Improvement                                 |       1d8       |          8           |        +15 ft.        |
-|  9th  |       +4       | Acrobatic Movement                                        |       1d8       |          9           |        +15 ft.        |
-| 10th  |       +4       | Heightened Discipline, Self-Restoration                   |       1d8       |          10          |        +20 ft.        |
-| 11th  |       +4       | Subclass Feature                                          |      1d10       |          11          |        +20 ft.        |
-| 12th  |       +4       | Ability Score Improvement                                 |      1d10       |          12          |        +20 ft.        |
-| 13th  |       +5       | Deflect Energy                                            |      1d10       |          13          |        +20 ft.        |
-| 14th  |       +5       | Disciplined Survivor                                      |      1d10       |          14          |        +25 ft.        |
-| 15th  |       +5       | Perfect Discipline                                        |      1d10       |          15          |        +25 ft.        |
-| 16th  |       +5       | Ability Score Improvement                                 |      1d10       |          16          |        +25 ft.        |
-| 17th  |       +6       | Subclass Feature                                          |      1d12       |          17          |        +25 ft.        |
-| 18th  |       +6       | Superior Defense                                          |      1d12       |          18          |        +30 ft.        |
-| 19th  |       +6       | Ability Score Improvement                                 |      1d12       |          19          |        +30 ft.        |
-| 20th  |       +6       | Body and Mind                                             |      1d12       |          20          |        +30 ft.        |
+| Level | Prof.<br>Bonus | Class Features                             | Martial<br>Arts | Ki Points | Unarmored<br>Movement |
+|:-----:|:--------------:|:-------------------------------------------|:---------------:|:---------:|:---------------------:|
+|  1st  |       +2       | Martial Arts, Unarmored Defense            |       1d6       |    --     |          --           |
+|  2nd  |       +2       | Ki, Unarmored Movement, Uncanny Metabolism |       1d6       |     2     |        +10 ft.        |
+|  3rd  |       +2       | Deflect Attacks, Monk Subclass             |       1d6       |     3     |        +10 ft.        |
+|  4th  |       +2       | Ability Score Improvement, Slow Fall       |       1d6       |     4     |        +10 ft.        |
+|  5th  |       +3       | Extra Attack, Stunning Strike              |       1d8       |     5     |        +10 ft.        |
+|  6th  |       +3       | Empowered Strikes, Subclass Feature        |       1d8       |     6     |        +15 ft.        |
+|  7th  |       +3       | Evasion                                    |       1d8       |     7     |        +15 ft.        |
+|  8th  |       +3       | Ability Score Improvement                  |       1d8       |     8     |        +15 ft.        |
+|  9th  |       +4       | Acrobatic Movement                         |       1d8       |     9     |        +15 ft.        |
+| 10th  |       +4       | Heightened Discipline, Self-Restoration    |       1d8       |    10     |        +20 ft.        |
+| 11th  |       +4       | Subclass Feature                           |      1d10       |    11     |        +20 ft.        |
+| 12th  |       +4       | Ability Score Improvement                  |      1d10       |    12     |        +20 ft.        |
+| 13th  |       +5       | Deflect Energy                             |      1d10       |    13     |        +20 ft.        |
+| 14th  |       +5       | Disciplined Survivor                       |      1d10       |    14     |        +25 ft.        |
+| 15th  |       +5       | Perfect Discipline                         |      1d10       |    15     |        +25 ft.        |
+| 16th  |       +5       | Ability Score Improvement                  |      1d10       |    16     |        +25 ft.        |
+| 17th  |       +6       | Subclass Feature                           |      1d12       |    17     |        +25 ft.        |
+| 18th  |       +6       | Superior Defense                           |      1d12       |    18     |        +30 ft.        |
+| 19th  |       +6       | Ability Score Improvement                  |      1d12       |    19     |        +30 ft.        |
+| 20th  |       +6       | Body and Mind                              |      1d12       |    20     |        +30 ft.        |
 
 ## Creating a Monk
 
@@ -94,25 +94,31 @@ You gain the following benefits while you are unarmed or wielding only Monk Weap
 
 While you aren't wearing any armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.
 
-### Level 2: Monk's Discipline
+### Level 2: Ki
 
-Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Discipline Points. Your Monk level determines the number of points you have, as shown in the Discipline Points column of the Monk table.
+[[div class="phb-sidebar"]]
+
+**Editor's Note:** "Discipline Points" have been renamed to "Ki Points" because I like that name better.
+
+[[/div]]
+
+Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Ki Points. Your Monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
 
 You can spend these points to fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 
-When you spend a Discipline Point, it is unavailable until you finish a Short Rest or Long Rest, at the end of which you regain all your expended points.
+When you spend a Ki Point, it is unavailable until you finish a Short Rest or Long Rest, at the end of which you regain all your expended points.
 
-Some features that use Discipline Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.
+Some features that use Ki Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.
 
-***Flurry of Blows.*** You can spend 1 Discipline Point to make two Unarmed Strikes as a Bonus Action.
+***Flurry of Blows.*** You can spend 1 Ki Point to make two Unarmed Strikes as a Bonus Action.
 
-***Patient Defense.*** You can take the Disengage action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the Disengage and the Dodge actions as a Bonus Action.
+***Patient Defense.*** You can take the Disengage action as a Bonus Action. Alternatively, you can spend 1 Ki Point to take both the Disengage and the Dodge actions as a Bonus Action.
 
-***Step of the Wind.*** You can take the Dash action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.
+***Step of the Wind.*** You can take the Dash action as a Bonus Action. Alternatively, you can spend 1 Ki Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.
 
 ### Level 2: Uncanny Metabolism
 
-When you roll Initiative, you can regain all expended Discipline Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
+When you roll Initiative, you can regain all expended Ki Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
 
 Once you use this feature, you can't use it again until you finish a Long Rest.
 
@@ -124,7 +130,7 @@ Your speed increases by 10 feet while you aren't wearing armor or wielding a Shi
 
 You can use your Reaction to deflect melee and ranged attacks against you that deal Bludgeoning, Piercing, or Slashing damage. When you do so, the total damage you take from the attack is reduced by 1d10 plus your Dexterity modifier plus your Monk level.
 
-If you reduce the damage to 0, you can spend 1 Discipline Point to redirect some of the attack's force. If you do so, choose a creature within 5 feet of you if the attack was a melee attack or 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.
+If you reduce the damage to 0, you can spend 1 Ki Point to redirect some of the attack's force. If you do so, choose a creature within 5 feet of you if the attack was a melee attack or 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.
 
 ### Level 3: Monk Subclass
 
@@ -150,7 +156,7 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 
 ### Level 5: Stunning Strike
 
-Once per turn when you hit a creature with a Monk Weapon or an Unarmed Strike, you can spend 1 Discipline Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier.
+Once per turn when you hit a creature with a Monk Weapon or an Unarmed Strike, you can spend 1 Ki Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier.
 
 ### Level 6: Empowered Strikes
 
@@ -170,9 +176,9 @@ While you aren't wearing armor or wielding a Shield, you gain the ability to mov
 
 Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:
 
-**Flurry of Blows.** You can spend 1 Discipline Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.  
-**Patient Defense.** When you spend a Discipline Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.  
-**Step of the Wind.** When you spend a Discipline Point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
+**Flurry of Blows.** You can spend 1 Ki Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.  
+**Patient Defense.** When you spend a Ki Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.  
+**Step of the Wind.** When you spend a Ki Point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
 
 ### Level 10: Self-Restoration
 
@@ -188,15 +194,15 @@ You can now use your Deflect Attacks feature against attacks that deal any damag
 
 Your physical and mental discipline grant you proficiency in all saving throws.
 
-Additionally, whenever you make a saving throw and fail, you can spend 1 Discipline Point to reroll it and take the second result.
+Additionally, whenever you make a saving throw and fail, you can spend 1 Ki Point to reroll it and take the second result.
 
 ### Level 15: Perfect Discipline
 
-When you roll Initiative and have 3 Discipline Points or fewer, you regain expended Discipline Points until you have 4.
+When you roll Initiative and have 3 Ki Points or fewer, you regain expended Ki Points until you have 4.
 
 ### Level 18: Superior Defense
 
-At the start of your turn, you can spend 3 Discipline Points to perfectly bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have resistance to all damage except Force damage.
+At the start of your turn, you can spend 3 Ki Points to perfectly bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have resistance to all damage except Force damage.
 
 ### Level 20: Body And Mind
 
