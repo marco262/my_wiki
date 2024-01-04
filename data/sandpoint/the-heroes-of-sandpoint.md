@@ -525,4 +525,10 @@ This range's name says it all, and travelers here are advised to keep a sharp ey
 
 [[/accordion]]
 
+# Fanart Gallery
+
+[[include common/light_gallery.tpl]]
+glob = media/img/fanart/sandpoint/*.*
+[[/include]]
+
 [GM Notes](gm_notes/GM Notes)

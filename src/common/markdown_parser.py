@@ -10,7 +10,7 @@ import toml
 from bottle import template, TemplateError
 
 from markdown2 import Markdown
-from src.common.utils import title_to_page_name
+from src.common.utils import title_to_page_name, list_media_files
 from src.dnd.magic_item_tracker import build_magic_item_tracker
 from src.dnd.npc_generator import create_npc
 from src.dnd.utils import to_mod
@@ -168,14 +168,8 @@ class MarkdownParser:
                                 v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
                             args[k] = v
                     elif k == "glob":
-                        # Use the value as a glob pattern match, search for all files at that location
-                        # and return all found files as glob_file_list in arguments
                         # Useful for lightgallery
-                        cwd = os.getcwd()
-                        full_glob = os.path.join(os.getcwd(), v.strip())
-                        args["glob_file_list"] = [path.replace(cwd, "").replace("\\", "/")
-                                                  for path in glob.glob(full_glob)]
-                        args["glob_file_list"].sort()
+                        args["glob_file_list"] = ["/" + path for path in list_media_files(v.strip())]
                     elif v.startswith("!!!"):
                         # Parse all text between the !!! and the next !!! as one block of markdown
                         # First gather the entire block into one string
@@ -197,7 +191,7 @@ class MarkdownParser:
                         v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace, with_metadata=False)
                     args[k] = v
                     index += 1
-            # print(args)
+            print(args)
             if template_name.endswith(".tpl"):
                 try:
                     t = template(template_name, args)
