@@ -110,7 +110,7 @@ If another Sorcerer feature gives spells that you always have prepared, those sp
 
 **Houserule: Changing Your Prepared Spells**
 
-Whenever you take a Long Rest, you may replace one spell on your list with another Sorcerer spell for which you have spell slots. Whenever you gain a Sorcerer level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
+Whenever you finish a Long Rest, you can replace one spell on your list with another Sorcerer spell for which you have spell slots. Whenever you gain a Sorcerer level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
 
 [[/div]]
 

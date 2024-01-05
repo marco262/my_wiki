@@ -19,7 +19,7 @@ The magic of the Shadowfell ensures you always have certain spells ready; when y
 You have mastered the art of creating frightening ambushes, granting you the following benefits:
 
 **Ambusher's Leap.** At the start of the first turn of each combat, your Speed increases by 10 feet until the end of that turn.  
-**Frighten.** Once per turn when you attack a creature and hit it with a weapon, you can deal an extra 1d8 Psychic damage to the target and force it to make a Wisdom saving throw against your Spell Save DC. On a failed save, it has the Frightened condition until the start of your next turn. You can use this benefit a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+**Frighten.** Once per turn when you attack a creature and hit it with a weapon, you can deal an extra 1d8 Psychic damage to the target and force it to make a Wisdom saving throw against your Spell Save DC. On a failed save, it has the Frightened condition until the start of your next turn. You can use this benefit a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.  
 **Initiative Bonus.** When you roll Initiative, you can add your Wisdom modifier to the roll.
 
 ### 3rd Level: Umbral Sight

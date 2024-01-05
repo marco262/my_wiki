@@ -124,7 +124,7 @@ If another Bard feature gives spells that you always have prepared, those spells
 
 **Houserule: Changing Your Prepared Spells**
 
-Whenever you take a Long Rest, you may replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
+Whenever you finish a Long Rest, you can replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
 
 [[/div]]
 
