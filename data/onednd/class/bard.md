@@ -85,20 +85,6 @@ As a 1st-level character, you start with the following equipment, or you can for
 * Musical Instrument (one of your choice)
 * 26 GP
 
-### Multiclassing and the Bard
-
-If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Bard as one of your Classes.
-
-***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Bard's primary ability, Charisma, to take a level in this Class or to take a level in another Class if you are already a Bard.
-
-***Proficiencies.*** If Bard isn't your initial Class, here are the Proficiencies you gain when you take your first Bard level: one Skill of your choice and one Musical Instrument of your choice.
-
-***Armor Training.*** When you gain your first Bard level, you gain Light Armor Training.
-
-***Spell Slots.*** Add all your Bard levels to the appropriate levels from other Classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.
-
-You prepare Spells for each of your Classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it.
-
 ## Bard Class Features
 
 As a Bard, you gain the following Class Features when you reach the specified levels in this Class. These features are listed on the Bard table.
