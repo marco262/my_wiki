@@ -125,7 +125,7 @@ Your training with weapons allows you to use the [Mastery](/onednd/general/equip
 
 Whenever you finish a [[glossary:Long Rest]], you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Halberds and Flails.
 
-### 2nd Level: Paladin'S Smite
+### 2nd Level: Paladin's Smite
 
 You have mastered smiting your targets with divine energy. You always have certain spells ready; when you reach a Paladin level specified in the Smite Spells table, you thereafter always have the listed spells prepared.
 
