@@ -1,43 +1,43 @@
 _Meanwhile, in an opulent office somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._  
 
-Woman: You're late.
+**Woman:** You're late.
 
-Man: My apologies, my lady. I was delayed by official business.
+**Man:** My apologies, my lady. I was delayed by official business.
 
-Woman: Always with the excuses. You're lucky I like you. What news do you bring?
+**Woman:** Always with the excuses. You're lucky I like you. What news do you bring?
 
 _The man settles into a chair beside the woman, taking a second wineglass from a side table that has already been filled._
 
-Man: Vice Justice Hart's latest report confirms our suspicions. Thistletop has been raided and the aasimar is dead.
+**Man:** Vice Justice Hart's latest report confirms our suspicions. Thistletop has been raided and the aasimar is dead.
 
-Woman: Pity. She was an endearing little pet. Too easily given to anger for my tastes, but we all must have our hobbies.
+**Woman:** Pity. She was an endearing little pet. Too easily given to anger for my tastes, but we all must have our hobbies.
 
-Man: This was not a surprise, after what happened to her mentor.
+**Man:** This was not a surprise, after what happened to her mentor.
 
-Woman: The quasit? You put more faith in that creature than she deserved, pet.
+**Woman:** The quasit? You put more faith in that creature than she deserved, pet.
 
-Man: Her faith in the Mother of Monsters was substantial. And Nualia's grew even stronger.
+**Man:** Her faith in the Mother of Monsters was substantial. And Nualia's grew even stronger.
 
-Woman: And yet it did not save her in the end. Ah well, *c'est la vie*. At least they did us the favor of cleaning up Alaznist's stain and draining that disgusting well of its power. That little town has been a nasty little incubator for Wrathful souls for too long.
+**Woman:** And yet it did not save her in the end. Ah well, *c'est la vie*. At least they did us the favor of cleaning up Alaznist's stain and draining that disgusting well of its power. That little town has been a nasty little incubator for Wrathful souls for too long.
 
-Man: It has not been entirely a thorn in our side. Did you not send off your new project on his mission?
+**Man:** It has not been entirely a thorn in our side. Did you not send off your new project on his mission?
 
-Woman: Hah! Oh yes, I *tingle* with anticipation for his results. He was already quite far gone before I sent him off on his little errand, and we should be receiving news of further progress within the week. That is, if he can accomplish a few simple murders without proper supervision.
+**Woman:** Hah! Oh yes, I *tingle* with anticipation for his results. He was already quite far gone before I sent him off on his little errand, and we should be receiving news of further progress within the week. That is, if he can accomplish a few simple murders without proper supervision.
 
 _The woman sets down her wineglass, finally turning to look at the man seated beside her._
 
-Woman: And what of the Brothers?
+**Woman:** And what of the Brothers?
 
-Man: Business as usual, my lady. We continue to act at your pleasure, and the harvest proceeds apace. I anticipate another three score souls before the month's end.
+**Man:** Business as usual, my lady. We continue to act at your pleasure, and the harvest proceeds apace. I anticipate another three score souls before the month's end.
 
 _The woman cackles with glee, putting her hand on the man's arm._
 
-Woman: Wonderful! You never cease to please, pet.
+**Woman:** Wonderful! You never cease to please, pet.
 
 _The man smiles, picking up the woman's hand and raising to his lips to kiss her knuckles reverently._
 
-Man: We live to please, my lady.
+**Man:** We live to please, my lady.
 
 _The woman smiles coyly, purring her approval._
 
-Woman: And such a pleasure you are.
+**Woman:** And such a pleasure you are.
