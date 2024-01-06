@@ -155,7 +155,9 @@ Whenever you gain a Sorcerer level, you can replace one of your Metamagic option
 
 ### Level 3: Sorcerer Subclass
 
-You gain a Sorcerer subclass of your choice. Subclasses are detailed after this class's description. A subclass is a specialization that grants you special features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level and lower.
+You gain a Sorcerer subclass of your choice, listed at the end of this class description.
+
+A subclass is a specialization that grants you special features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level and lower.
 
 ### Level 4: Ability Score Improvement
 
@@ -253,8 +255,8 @@ When you cast a spell, such as _[[[spell:Charm Person]]]_ or _[[[spell:Hold Pers
 
 A Sorcerer subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
-* [Draconic Sorcery](/onednd/subclass/Draconic Sorcery)
-* [Wild Magic Sorcery](/onednd/subclass/Wild Magic Sorcery)
+* [[[subclass:Draconic Sorcery]]]
+* [[[subclass:Wild Magic Sorcery]]]
 * [Aberrant Sorcery](/dnd/subclass/Aberrant Mind)
 * [Clockwork Sorcery](/dnd/subclass/Clockwork Soul)
 

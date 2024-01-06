@@ -195,7 +195,7 @@ class MarkdownParser:
                         v = self.parse_md(v[1:].replace(r"\n", "\n"), namespace=self.namespace, with_metadata=False)
                     args[k] = v
                     index += 1
-            print(args)
+            # print(args)
             if template_name.endswith(".tpl"):
                 try:
                     t = template(template_name, args)

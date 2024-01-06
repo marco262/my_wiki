@@ -60,8 +60,8 @@ elif arg == "fix_line_breaks":
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)
     text = re.sub(r" *@", "\n", text)
-elif arg == "add_spell":
-    text = f"_[[[spell:{text}]]]_"
+elif arg == "add_spells":
+    text = ", ".join([f"_[[[spell:{t}]]]_" for t in text.split(", ")])
 elif arg == "glossary":
     text = f"[[glossary:{text}]]"
 elif arg == "add_special_formatting":
@@ -72,13 +72,11 @@ elif arg == "add_special_formatting":
         for n in re.finditer(r"\(([a-z])", title):
             title = title.replace(n.group(0), f"({n.group(1).upper()}")
         text = text.replace(m.group(0), f'{title},')
-elif arg == "feats":
-    text = text.replace("\r?\n", "|")
-    for m in re.finditer(r"([ A-Z:]+)\|(.*?)-Level Feat\|Prerequisite: (.*?)\|", text, re.MULTILINE):
-        # print(m.groups())
-        name = m.group(1)
-        name = name.replace(" ", "").title()
-        header_text = f"## {name}@@|*{m.group(2)}-Level Feat*@@|**Prerequisite:** {m.group(3)}  @@|"
+elif arg == "invocations":
+    text = re.sub(r"\r?\n", "|", text)
+    for m in re.finditer(r"([ A-Z']+)\|Prerequisite: (.*?)\|", text, re.MULTILINE):
+        name = better_title(m.group(1).lower())
+        header_text = f"@@## {name}@@|_Prerequisite: {m.group(2)}_@@|"
         text = text.replace(m.group(0), header_text)
     text = text.replace("|", "\n")
 elif arg == "create_ability_list":
