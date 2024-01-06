@@ -36,7 +36,7 @@ _The woman cackles with glee, putting her hand on the man's arm._
 
 _The man smiles, picking up the woman's hand and raising to his lips to kiss her knuckles reverently._
 
-**Man:** We live to please, my lady.
+**Man:** I live for your pleasure, my lady.
 
 _The woman smiles coyly, purring her approval._
 
