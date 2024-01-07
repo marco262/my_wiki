@@ -2,7 +2,7 @@
 toc: false
 ---
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Tenets of Vengeance**
 
@@ -16,7 +16,7 @@ Though the exact words and strictures of the Oath of Vengeance vary, Paladins of
 
 ***Restitution.*** If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by my misdeeds.
 
-[[/div]]
+</div>
 
 The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside -- at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.
 

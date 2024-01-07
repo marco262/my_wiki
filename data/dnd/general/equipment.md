@@ -106,7 +106,7 @@ The Armor table shows the cost, weight, and other properties of the common types
 
 **Shields.** A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Variant: Equipment Sizes**
 
@@ -116,7 +116,7 @@ The DM can impose more realism. For example, a suit of plate armor made for one 
 
 Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armorsmith, tailor, leatherworker, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The DM can either roll 1d4 x 10 or determine the increase in cost based on the extent of the alterations required.
 
-[[/div]]
+</div>
 
 ## Light Armor
 
@@ -287,13 +287,13 @@ Some monsters that have immunity or resistance to nonmagical attacks are suscept
 
 ### Special Weapons
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Alternate rules for Garrote:**
 
 Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is [[[general:conditions#grappled|grappled]]]. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. You must use two hands to maintain the grapple.
 
-[[/div]]
+</div>
 
 Weapons with special rules are described here.
 
@@ -307,7 +307,7 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 
 # Adventuring Gear
 
-[[div style="float: left; padding-right: 10px; "]]
+<div style="float: left; padding-right: 10px; " markdown="1">
 
 ||~ Item ||~ Cost ||~ Weight ||
 || Abacus || 2 gp || 2 lb. ||
@@ -414,7 +414,7 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 || Waterskin || 2 sp || 5 lb. (full) ||
 || Whetstone || 1 cp || 1 lb. ||
 
-[[/div]]
+</div>
 
 This section describes items that have special rules or require further explanation.
 
@@ -506,7 +506,7 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 
 ## Equipment Packs
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Houserule: Adventurer's Pack**
 
@@ -518,7 +518,7 @@ Different *Themes* will allow different possible items, like the *Entertainer* t
 
 Each time you expend a use of your *Adventurer's Pack*, its weight is reduced by 5 lbs. Once you've pulled five items out of your *Adventurer's Pack*, it is fully expended and just counts as an empty backpack.
 
-[[/div]]
+</div>
 
 The starting equipment you get from your class includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.
 
@@ -556,7 +556,7 @@ The starting equipment you get from your class includes a collection of useful a
 
 # Tools
 
-[[div style="float: left; padding-right: 10px; "]]
+<div style="float: left; padding-right: 10px; " markdown="1">
 
 ||~ Item ||~ Cost ||~ Weight ||
 || **Artisan's tools** ||||||
@@ -602,7 +602,7 @@ The starting equipment you get from your class includes a collection of useful a
 || Vehicles (land or water) || * || * ||
 <sup>* See the [[[general:Equipment#mounts-and-vehicles|Mounts and Vehicles]]] section.</sup>
 
-[[/div]]
+</div>
 
 A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the DM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.
 
@@ -628,7 +628,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 # Mounts and Vehicles
 
-[[div style="float: left; padding-right: 10px; margin-bottom: 20px"]]
+<div style="float: left; padding-right: 10px; margin-bottom: 20px" markdown="1">
 
 **Mounts and Other Animals**
 
@@ -671,7 +671,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 || Sailing ship || 10,000 gp || 2 mph ||
 || Warship || 25,000 gp || 2 1/2 mph ||
 
-[[/div]]
+</div>
 
 A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's speed and base carrying capacity.
 
@@ -691,7 +691,7 @@ Mounts other than those listed here are available in the worlds of D&D, but they
 
 # Trade Goods
 
-[[div style="float: left; padding-right: 10px; "]]
+<div style="float: left; padding-right: 10px; " markdown="1">
 
 ||~ Cost ||~ Goods ||
 || 1 cp || 1 lb. of wheat ||
@@ -708,7 +708,7 @@ Mounts other than those listed here are available in the worlds of D&D, but they
 || 50 gp || 1 lb. of gold ||
 || 500 gp || 1 lb. of platinum ||
 
-[[/div]]
+</div>
 
 Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).
 
@@ -718,7 +718,7 @@ Guilds, nobles, and royalty regulate trade. Chartered companies are granted righ
 
 # Expenses
 
-[[div style="float: left; padding-right: 10px; "]]
+<div style="float: left; padding-right: 10px; " markdown="1">
 
 **Lifestyle Expenses**
 
@@ -772,13 +772,13 @@ Guilds, nobles, and royalty regulate trade. Chartered companies are granted righ
 || Road or gate toll || 1 cp ||
 || Ship's passage || 1 sp per mil ||
 
-[[/div]]
+</div>
 
 When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.
 
 ## Lifestyle Expenses
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Self-Sufficiency**
 
@@ -786,7 +786,7 @@ The expenses and lifestyles described in this chapter assume that you are spendi
 
 Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time [[[general:adventuring#between-adventures|between adventures]]] practicing a profession, you can eke out the equivalent of a poor lifestyle. Proficiency in the Survival skill lets you live at the equivalent of a comfortable lifestyle.
 
-[[/div]]
+</div>
 
 Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.
 
@@ -884,7 +884,7 @@ Lastly, anyone taking a few moments to inspect a magic item can make an Arcana o
 
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
 
-[[div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;"]]
+<div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;" markdown="1">
 
 ||~ d100 ||~ Trinket ||
 || 01 || A mummified goblin hand ||
@@ -938,9 +938,9 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 || 51 || A dead scarab beetle the size of your hand ||
 || 52 || Two toy soldiers, one with a missing head ||
 
-[[/div]]
+</div>
 
-[[div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;"]]
+<div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;" markdown="1">
 
 ||~ d100 ||~ Trinket ||
 || 53 || A small box filled with different-sized buttons ||
@@ -992,7 +992,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 || 99 || A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body ||
 || 100 || A metal urn containing the ashes of a hero ||
 
-[[/div]]
+</div>
 
 [[bibliography]]
 : spiked-armor-bib : Sword Coast Adventurer's Guide, p. 121

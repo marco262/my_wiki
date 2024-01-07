@@ -6,7 +6,7 @@ This chapter provides the rules you need for your characters and monsters to eng
 
 A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn**. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Combat Step by Step**
 
@@ -16,7 +16,7 @@ A typical combat encounter is a clash between two sides, a flurry of weapon swin
 4. **Take turns.** Each participant in the battle takes a turn in initiative order.
 5. **Begin the next round.** When everyone involved in the combat has had a turn, the round ends. Repeat step 4 until the fighting stops.
 
-[[/div]]
+</div>
 
 ## Surprise
 
@@ -66,7 +66,7 @@ Certain special abilities, spells, and situations allow you to take a special ac
 
 When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Interacting with Objects Around You**
 
@@ -94,7 +94,7 @@ Here are a few examples of the sorts of thing you can do in tandem with your mov
 * tap the floor with a 10-foot pole
 * hand an item to another character
 
-[[/div]]
+</div>
 
 # Movement and Position
 
@@ -120,7 +120,7 @@ If you have more than one speed, such as your walking speed and a flying speed, 
 
 For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the fly spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Variant: Playing on a Grid**
 
@@ -140,7 +140,7 @@ If a square costs extra movement, as a square of difficult terrain does, you mus
 
 **Ranges.** To determine the range on a grid between two things -- whether creatures or objects -- start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 
-[[/div]]
+</div>
 
 ## Difficult Terrain
 
@@ -198,7 +198,7 @@ A creature can squeeze through a space that is large enough for a creature one s
 
 # Actions in Combat
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Improvising an Action**
 
@@ -206,7 +206,7 @@ Your character can do things not covered by the actions in this chapter, such as
 
 When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
-[[/div]]
+</div>
 
 When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise. Many monsters have action options of their ow n in their stat blocks.
 
@@ -372,13 +372,13 @@ When you take the Attack action and attack with a light melee weapon that you're
 
 If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Contests in Combat**
 
 Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The DM can use these contests as models for improvising others.
 
-[[/div]]
+</div>
 
 ### Grappling
 
@@ -420,13 +420,13 @@ A creature's current hit points (usually just called hit points) can be any numb
 
 Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Describing the Effects of Damage**
 
 Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you [[[general:conditions#unconscious|unconscious]]].
 
-[[/div]]
+</div>
 
 ## Damage Rolls
 

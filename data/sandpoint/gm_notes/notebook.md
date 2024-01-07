@@ -42,6 +42,7 @@
   * Malfeshnekor's Prison
 * Pick out minis for Shadows, Crab
 * Prep inter-chapter cutscene: script, visual aids, music/ambience
+* Add more Common magic items to B2
 
 ### Reminders
 

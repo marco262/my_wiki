@@ -19,14 +19,14 @@ While aasimar are strident foes of evil, they typically prefer to keep a low pro
 When traveling, aasimar prefer hoods, closed helms, and other gear that allows them to conceal their identities. They nevertheless have no compunction about striking openly at evil. The secrecy they desire is never worth endangering the innocent.
 
 # Aasimar Guides
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 **Note to the DM: Playing an Angelic Guide**
 
 As DM, you take on the role of an aasimar's angetic guide and decide what kind of advice or omens to send In dreams.
 
 The deva, or other celestial being, is your chance to add special roleplaying opportunities to the game. Remember, a deva lives in a realm of absolute law and good. The deva might not understand the compromises and hard choices that mortals must grapple with in the world. To the deva, an aasimar is a prized student who must live up to high, sometimes inflexible standards.
 
-[[/div]]An aasimar, except for one who has turned to evil, has a link to an angelic being. That being -- usually a deva -- provides guidance to the aasimar, though this connection functions only in dreams. As such, the guidance is not a direct command or a simple spoken word. Instead, the aasimar receives visions, prophecies, and feelings.
+</div>An aasimar, except for one who has turned to evil, has a link to an angelic being. That being -- usually a deva -- provides guidance to the aasimar, though this connection functions only in dreams. As such, the guidance is not a direct command or a simple spoken word. Instead, the aasimar receives visions, prophecies, and feelings.
 
 The angelic being is far from omniscient. Its guidance is based on its understanding of the tenets of law and good, and it might have insight into combating especially powerful evils that it knows about.
 

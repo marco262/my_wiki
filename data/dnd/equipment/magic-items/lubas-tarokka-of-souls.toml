@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 129"
 description = """
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 The creator of the Tarokka of Souls, Mother Luba was one of the most influential leaders of the Vistani. For untold generations, the Vistani have wandered the Shadowfell, which includes terrifying demiplanes like the vampire-haunted realm of Barovia. These travelers have learned many secrets of these domains and encountered countless others wandering amid the Shadowfell's horrors. Most Vistani bands accept well-intentioned wayfarers from diverse walks and of disparate origins, embracing any who seek to find a home amid the endless roads and vistas hidden amid the mists.
 
@@ -16,7 +16,7 @@ A halfling Vistani, Mother Luba led one of the largest groups of Vistani in the 
 
 Some years ago, Mother Luba disappeared into the mists, leaving behind only the Tarokka of Souls. It is said that if you draw the Mists card from it, you can hear the whispers of her kind voice.
 
-[[/div]]
+</div>
 
 Not all lingering spirits are tragic souls, lost on their way to the hereafter. Some languish as prisoners, souls so wicked mortals dare not free them upon an unsuspecting afterlife.
 

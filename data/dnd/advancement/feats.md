@@ -257,13 +257,13 @@ Quick to notice details of your environment, you gain the following benefits:
 
 ## Polearm Master
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Errata**
 
 The extra OA granted by Polearm Master must be made with the polearm. [Sage Advice](http://www.sageadvice.eu/2015/03/27/war-caster-feat/)
 
-[[/div]]
+</div>
 
 You can keep your enemies at bay with reach weapons. You gain the following benefits:
 

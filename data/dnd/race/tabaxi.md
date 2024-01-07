@@ -6,13 +6,13 @@ Hailing from a strange and distant land, wandering tabaxi are catlike humanoids 
 
 ## Wandering Outcasts
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Cat Lord**
 
 The deity of the tabaxi is a fickle entity, as befits the patron of cats. The tabaxi believe that the Cat Lord wanders the world, watching over them and intervening in their affairs as needed. Clerics of the Cat Lord are rare and typically access the Trickery domain.
 
-[[/div]]
+</div>
 
 Most tabaxi remain in their distant homeland, content to dwell in small, tight clans. These tabaxi hunt for food, craft goods, and largely keep to themselves.
 
@@ -86,13 +86,13 @@ The Tabaxi Obsession table can help hone your character's goals. For extra fun, 
 
 ## Tabaxi Traits
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Tabaxi in the Forgotten Realms**
 
 In the Forgotten Realms, tabaxi hail from Maztica, a realm located far across the ocean west of the Sword Coast. The tabaxi of Maztica are known for their isolation, and until recently they never ventured from their homeland. The tabaxi say little of why that has changed, though rumors persist of strange happenings in that distant land.
 
-[[/div]]
+</div>
 
 Your tabaxi character has the following racial traits.
 

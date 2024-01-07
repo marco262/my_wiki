@@ -1,4 +1,4 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -36,7 +36,7 @@ actions = !!!
 
 [[/include]]
 
-[[/div]]
+</div>
 
 **If Svarog is in combat during the ritual...**
 

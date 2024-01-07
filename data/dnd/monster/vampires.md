@@ -1,32 +1,32 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
-[[div id="vampire"]]
+<div id="vampire" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/vampire.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div id="vampire-spawn"]]
+<div id="vampire-spawn" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/vampire-spawn.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="phb-sidebar-no-float"]]
+<div class="phb-sidebar-no-float" markdown="1">
 
 **Player Characters as Vampires**
 
 The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, darkvision, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength. The save DC for Charm is 8 + the vampire's proficiency bonus+ the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a wish spell or the character is killed and brought back to life. 
 
-[[/div]]
+</div>
 
-[[div class="phb-sidebar-no-float"]]
+<div class="phb-sidebar-no-float" markdown="1">
 
 **Strahd von Zarovich**
 
@@ -38,7 +38,7 @@ In a desperate attempt to win Tatyana's heart, Strahd forged a pact with dark po
 
 In the centuries since his transformation, Strahd's lust for life and youth have only grown. He broods in his dark castle, cursing the living for stealing away what he lost, and never admitting his hand in the tragedy he created. 
 
-[[/div]]
+</div>
 
 **Variants: Vampire Warriors and Spellcasters**
 
@@ -59,7 +59,7 @@ Cantrips (at will): _[[[spell:mage hand]]]_, _[[[spell:prestidigitation]]]_, _[[
 4th level (3 slots): _[[[spell:blight]]]_, _[[[spell:greater invisibility]]]_
 5th level (1 slot): _[[[spell:dominate person]]]_
 
-[[/div]]
+</div>
 
 Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.
 

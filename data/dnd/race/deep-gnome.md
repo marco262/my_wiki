@@ -10,13 +10,13 @@ Svirfneblin are well adapted for their subterranean existence. They have excelle
 
 ## Master Miners
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Deep Gnomes in the Forgotten Realms**
 
 In the Forgotten Realms, deep gnomes live within a perilous, subterranean world known as the Underdark. This maze of caverns and tunnels is home to some of the most feared creatures in Faerûn. Because of this, the svirfneblin that dwell here are much more distrusting and wary than their kin on other worlds. Rarely do they allow strangers within their midst, and those that they must deal with are kept at arms length. If one is lucky enough to be trusted by the deep gnomes, they are a friend for life. For the svirfneblin of the Underdark, genuine trust is a commodity far more valuable than gold.
 
-[[/div]]
+</div>
 
 Despite their guarded natures, svirfneblin aren't joyless. They admire skillful work and delicate craftsmanship, just like any other gnome. Svirfneblin love gemstones of all kinds, and they boldly seek out precious stones in the deepest and darkest tunnels. They are also expert gemcutters and miners, and they prize rubies above all other gemstones.
 

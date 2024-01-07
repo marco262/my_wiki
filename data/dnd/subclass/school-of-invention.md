@@ -42,13 +42,13 @@ You can create a new suit of it at the end of a long rest by touching a nonmagic
 
 ## Reckless Casting
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Suggestion:** Any spell cast via Reckless Casting that normally requires concentration no longer does, and lasts its full duration. Similar to a Sorcerer's Wild Magic surge.
 
 If a player casts a touch spell via Reckless Casting but there are no valid targets in range, they can use their movement to move towards a target and then apply the spell.
 
-[[/div]]
+</div>
 
 Starting at 2nd level, you can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options:
 

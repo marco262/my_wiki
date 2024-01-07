@@ -1,10 +1,10 @@
 [[breadcrumb /dnd/class/Wizard|Wizard]]
 
-[[div class="theme-restricted"]]
+<div class="theme-restricted" markdown="1">
 
 This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign. 
 
-[[/div]]
+</div>
 
 Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.
 
@@ -16,7 +16,7 @@ Understanding and mastering the forces that draw bodies of matter together or dr
 || 10th || Violent Attraction ||
 || 14th || Event Horizon ||
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Graviturgy Spells**
 
@@ -29,7 +29,7 @@ Explorer's Guide to Wildemount introduced some spells intended specifically for 
 * _[[[spell:magnify gravity]]]_
 * _[[[spell:ravenous void]]]_
 
-[[/div]]
+</div>
 
 ## Adjust Density
 

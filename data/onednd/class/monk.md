@@ -34,7 +34,7 @@ Monks generally view their adventures as personal tests of their physical and me
 
 ## Creating a Monk
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Monk**
 
@@ -42,7 +42,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Monk's primary abilities, Dexterity and Wisdom, to take a level in this class or to take a level in another class if you're already a Monk.
 
-[[/div]]
+</div>
 
 To create a Monk, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Monk" sidebar.
 
@@ -96,11 +96,11 @@ While you aren't wearing any armor or wielding a Shield, your base Armor Class e
 
 ### Level 2: Ki
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Editor's Note:** "Discipline Points" have been renamed to "Ki Points" because I like that name better.
 
-[[/div]]
+</div>
 
 Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Ki Points. Your Monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
 

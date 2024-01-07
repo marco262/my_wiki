@@ -31,7 +31,7 @@ The region containing a legendary gold dragon's lair is warped by the dragon's m
 
 If the dragon dies, these effects end immediately.
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-gold-dragon">
 
@@ -93,9 +93,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="adult-gold-dragon">
 
@@ -158,9 +158,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="young-gold-dragon">
 
@@ -201,9 +201,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="gold-dragon-wyrmling">
 
@@ -240,7 +240,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 ----
 

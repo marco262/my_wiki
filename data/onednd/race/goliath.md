@@ -1,4 +1,4 @@
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Children of Two Humanoid Races**
 
@@ -8,7 +8,7 @@ If you'd like to play the child of such a pairing, choose two Race options that 
 
 Finally, determine the average of the two options' Life Span traits to figure out how long your character might live. For example, a child of a halfling and a gnome has an average life span of 288 years.
 
-[[/div]]
+</div>
 
 Towering over most folk, Goliaths are distant descendants of giants. Each Goliath bears the blessings of the first giants -- blessings that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of the Goliaths' gigantic kin.
 

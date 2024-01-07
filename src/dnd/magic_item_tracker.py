@@ -147,25 +147,6 @@ def get_cell_text(current: int, max_items: int) -> str:
 
 # noinspection StrFormat
 def build_magic_item_tracker_table(tier_dicts: Dict[str, TierDict], totals: TierDict) -> str:
-    table_template = """<table>
-    <tr>
-        <th></th>
-        <th colspan="5">Minor Magic Items</th>
-        <th colspan="4">Major Magic Items</th>
-    </tr>
-    <tr>
-        <th>Level/CR</th>
-        <th>Common</th>
-        <th>Uncommon</th>
-        <th>Rare</th>
-        <th>Very Rare</th>
-        <th>Legendary</th>
-        <th>Uncommon</th>
-        <th>Rare</th>
-        <th>Very Rare</th>
-        <th>Legendary</th>
-    </tr>{}
-</table>"""
     row_template = """
     <tr style="text-align: center">
         <td>{header}</td>
@@ -189,4 +170,22 @@ def build_magic_item_tracker_table(tier_dicts: Dict[str, TierDict], totals: Tier
         for rarity, d in rarity_dicts.items():
             rows.append(get_cell_text(d["current"], d["max"]))
     output += total_row_template.format(rows="\n".join(rows))
-    return table_template.format(output)
+    return f"""<table>
+    <tr>
+        <th></th>
+        <th colspan="5">Minor Magic Items</th>
+        <th colspan="4">Major Magic Items</th>
+    </tr>
+    <tr>
+        <th>Level/CR</th>
+        <th>Common</th>
+        <th>Uncommon</th>
+        <th>Rare</th>
+        <th>Very Rare</th>
+        <th>Legendary</th>
+        <th>Uncommon</th>
+        <th>Rare</th>
+        <th>Very Rare</th>
+        <th>Legendary</th>
+    </tr>{output}
+</table>"""

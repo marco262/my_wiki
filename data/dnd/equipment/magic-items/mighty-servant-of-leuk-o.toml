@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 131"
 description = """
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 400px
@@ -51,7 +51,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 Named for the warlord who infamously employed it, the Mighty Servant of Leuk-o is a fantastically powerful, 10-foot-tall machine that turns into an animate construct when piloted. Crafted of a gleaming black alloy of unknown origin, the servant is often described as a combination of a disproportioned dwarf and an oversized beetle. The servant contains enough space for 1 ton of cargo and a crew compartment within, from which up to two Medium creatures can control it -- and potentially execute a spree of unstoppable destruction.
 

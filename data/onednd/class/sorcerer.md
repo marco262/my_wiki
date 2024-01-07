@@ -32,7 +32,7 @@ Sorcerers are rare. Some family lines produce exactly one Sorcerer in every gene
 
 ## Creating a Sorcerer
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Sorcerer**
 
@@ -44,7 +44,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 You prepare spells for each of your classes individually, referring to the rules of each class to determine the number of spells you prepare for it.
 
-[[/div]]
+</div>
 
 To create a Sorcerer, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Sorcerer" sidebar.
 
@@ -106,13 +106,13 @@ The number of spells on your list also increases as you gain Sorcerer levels, as
 
 If another Sorcerer feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Houserule: Changing Your Prepared Spells**
 
 Whenever you finish a Long Rest, you can replace one spell on your list with another Sorcerer spell for which you have spell slots. Whenever you gain a Sorcerer level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
 
-[[/div]]
+</div>
 
 ***Changing Your Prepared Spells.*** Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.
 

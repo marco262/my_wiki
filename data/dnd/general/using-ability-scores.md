@@ -105,7 +105,7 @@ For example, a Dexterity check might reflect a character's attempt to pull off a
 
 The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.
 
-[[div style="display: inline-block; vertical-align: top; width: 200px; "]]
+<div style="display: inline-block; vertical-align: top; width: 200px; " markdown="1">
 
 **Strength**
 
@@ -125,9 +125,9 @@ The skills related to each ability score are shown in the following list. (No sk
 * Nature
 * Religion
 
-[[/div]]
+</div>
 
-[[div style="display: inline-block; vertical-align: top; width: 200px; "]]
+<div style="display: inline-block; vertical-align: top; width: 200px; " markdown="1">
 
 **Wisdom**
 
@@ -144,7 +144,7 @@ The skills related to each ability score are shown in the following list. (No sk
 * Performance
 * Persuasion
 
-[[/div]]
+</div>
 
 Sometimes, the DM might ask for an ability check using a specific skill -- for example, "Make a Wisdom (Perception) check." At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
 
@@ -265,7 +265,7 @@ If you carry weight in excess of 10 times your Strength score, up to your maximu
 
 ## Dexterity
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Hiding**
 
@@ -281,7 +281,7 @@ For example, if a 1st-level character (with a proficiency bonus of +2) has a Wis
 
 **What Can You See?** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be **[[[general:combat#lightly-obscured|lightly]]]** or **[[[general:combat#heavily-obscured|heavily obscured]]]**.
 
-[[/div]]
+</div>
 
 Dexterity measures agility, reflexes, and balance.
 
@@ -346,7 +346,7 @@ Intelligence measures mental acuity, accuracy of recall, and the ability to reas
 
 ### Intelligence Checks
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Finding a Hidden Object**
 
@@ -354,7 +354,7 @@ When your character searches for a hidden object such as a secret door or a trap
 
 In most cases, you need to describe where you are looking in order for the DM to determine your chance of success. For example, a key is hidden beneath a set of folded clothes in the top drawer of a bureau. If you tell the DM that you pace around the room, looking at the walls and furniture for clues, you have no chance of finding the key, regardless of your Wisdom (Perception) check result. You would have to specify that you were opening the drawers or searching the bureau in order to have any chance of success.
 
-[[/div]]
+</div>
 
 An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks.
 

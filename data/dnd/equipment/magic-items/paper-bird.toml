@@ -8,13 +8,13 @@ classes = []
 notes = ""
 source = "Waterdeep: Dragon Heist, p. 191"
 description = """
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note:**
 
 The original text gives the _paper bird_ a rarity of Uncommon, but I've given it a rarity of Common because it's cool and should be easier to get access to and use, dammit.
 
-[[/div]]
+</div>
 
 After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny _paper bird_ and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.
 

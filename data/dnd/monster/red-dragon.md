@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-red-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -47,9 +47,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="adult-red-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -98,9 +98,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="young-red-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -135,9 +135,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="red-dragon-wyrmling">
 [[include dnd/monster-sheet.tpl]]
@@ -168,7 +168,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures.
 

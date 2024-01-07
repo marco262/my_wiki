@@ -32,7 +32,7 @@ Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests a
 
 ## Creating a Cleric
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Cleric**
 
@@ -48,7 +48,7 @@ You prepare Spells for each of your classes individually, referring to the Spell
 
 ***Channel Divinity.*** If you have more than one class with the Channel Divinity feature, a class's uses of the feature can be expended only on that class's Channel Divinity options.
 
-[[/div]]
+</div>
 
 To create a Cleric, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the [Multiclassing and the Cleric](#multiclassing-and-the-cleric) sidebar.
 

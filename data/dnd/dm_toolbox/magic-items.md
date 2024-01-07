@@ -2,13 +2,13 @@
 toc: false
 ---
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note**
 
 The magic items presented in this section of Xanathar's Guide to Everything have already been included in the [Magic Item Filter](/dnd/equipment/magic_item_filter/) and [Magic Item Generator](/dnd/equipment/magic_item_generator/), and all magic items have already been assigned to Minor and Major groupings. 
 
-[[/div]]
+</div>
 
 Magic items are prized by D&D adventurers of all sorts and are often the main reward in an adventure. The rules for magic items are presented, along with the Treasure Hoard tables, in chapter 7 of the Dungeon Master's Guide. This section expands on those rules by offering you an alternative way of determining which magic items end up in the characters' possession and by adding a collection of common magic items to the game. The section ends with tables that group magic items according to rarity.
 

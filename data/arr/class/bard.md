@@ -19,7 +19,7 @@ Bards have not been a part of the fabric of Eorzean life for over a century: bet
 
 That is, until the Calamity. Now with the realm interrupted and the old stories becoming relevant again, bards have begun to resurface into Eorzean culture once more.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 ### The Downfall of Bards
 *Ask yourself this: what becomes of soldiers when conflict gives way to peacetime? Some have lives they might return to, aye, but most needs take up a new trade to make ends meet. Well, it so happened that many who had once bent the bow took to strumming the harp.*
@@ -30,7 +30,7 @@ That is, until the Calamity. Now with the realm interrupted and the old stories 
 
 *&mdash; Jehantel, Master Bard*
 
-[[/div]]
+</div>
 
 ## Adjustments
 In addition to the base qualities of the class in the Player's Handbook, bards in Eorzea have the following adjustments.

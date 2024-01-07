@@ -1,4 +1,4 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/zombie.toml
@@ -18,7 +18,7 @@ width = 500px
 file = dnd/monster/beholder-zombie.toml
 [[/include]]
 
-[[/div]]
+</div>
 
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.

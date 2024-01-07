@@ -11,13 +11,13 @@ Bards of the College of Spirits seek tales with inherent power -- be they legend
 
 ## Guiding Whispers
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Spirit Tales**
 
 Storytellers, like bards of the College of Spirits, often give voice to tales inspired by some greater theme or body of work. When determining what stories you tell, consider what unites them. Do they all feature characters from a specific group, like archetypes from the tarokka deck, figures from constellations, childhood imaginary friends, or characters in a particular storybook? Or are your inspirations more general, incorporating historic champions, mythological heroes, or urban legends? Use the tales you tell to define your niche as a storytelling adventurer.
 
-[[/div]]
+</div>
 
 _3rd-level College of Spirits feature_
  

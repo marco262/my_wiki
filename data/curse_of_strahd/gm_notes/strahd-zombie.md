@@ -1,10 +1,10 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = curse_of_strahd/gm_notes/strahd-zombie.toml
 [[/include]]
 
-[[/div]]
+</div>
 
 Strahd zombies are undead that serve the vampire Strahd von Zarovich. Created from the long-dead guards of Castle Ravenloft, they were called into being through dark magic by Strahd himself.
 

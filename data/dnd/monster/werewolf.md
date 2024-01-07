@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -36,7 +36,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 [[f>image Werewolf_Cut.png width="500"]]
 

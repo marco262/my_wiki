@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="kobold">
 [[include dnd/monster-sheet.tpl]]
@@ -31,9 +31,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="winged-kobold">
 [[include dnd/monster-sheet.tpl]]
@@ -66,7 +66,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.
 

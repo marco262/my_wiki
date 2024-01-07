@@ -14,14 +14,14 @@ Since not every ooze digests every type of substance, some have coins, metal gea
 
 ## Black Pudding
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/black-pudding.toml
 width = 700px
 [[/include]]
 
-[[/div]]
+</div>
 
 A black pudding resembles a heaving mound of sticky black sludge. In dim passageways, the pudding appears to be little more than a blot of shadow.
 
@@ -31,14 +31,14 @@ Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone rem
 
 ## Gelatinous Cube
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/gelatinous-cube.toml
 width = 700px
 [[/include]]
 
-[[/div]]
+</div>
 
 Gelatinous cubes scour dungeon passages in silent, predictable patterns, leaving perfectly clean paths in their wake. They consume living tissue while leaving bones and other materials undissolved.
 
@@ -48,14 +48,14 @@ A gelatinous cube is all but transparent, making it hard to spot until it attack
 
 ## Gray Ooze
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/gray-ooze.toml
 width = 700px
 [[/include]]
 
-[[/div]]
+</div>
 
 A gray ooze is stone turned to liquid by chaos. When it moves, it slithers like a liquid snake, rising to strike.
 
@@ -71,14 +71,14 @@ A psionic gray ooze has an Intelligence score of (-2), as well as the following 
 
 ## Ochre Jelly
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/ochre-jelly.toml
 width = 700px
 [[/include]]
 
-[[/div]]
+</div>
 
 Ochre jellies are yellowish blobs that can slide under doors and through narrow cracks in pursuit of creatures to devour. They have enough bestial cunning to avoid large groups of enemies.
 

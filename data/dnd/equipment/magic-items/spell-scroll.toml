@@ -9,13 +9,13 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 200"
 description = """
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note**
 
 This magic item's description has been updated from that found in the DMG to allow non-spellcasters and classes without a particular spell on their spell list to use the _spell scroll_ but at a higher DC.
 
-[[/div]]
+</div>
 
 A _spell scroll_ bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components.
 

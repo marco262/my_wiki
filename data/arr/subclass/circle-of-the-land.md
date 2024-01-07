@@ -42,77 +42,77 @@ Your mystical connection to the land infuses you with the ability to cast certai
 
 Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Arctic
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:hold person]]], [[[spell:spike growth]]]* ||
 || 5th || *[[[spell:sleet storm]]], [[[spell:slow]]]* ||
 || 7th || *[[[spell:freedom of movement]]], [[[spell:ice storm]]]* ||
 || 9th || *[[[spell:commune with nature]]], [[[spell:cone of cold]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Coast
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:mirror image]]], [[[spell:misty step]]]* ||
 || 5th || *[[[spell:water breathing]]], [[[spell:water walk]]]* ||
 || 7th || *[[[spell:control water]]], [[[spell:freedom of movement]]]* ||
 || 9th || *[[[spell:conjure elemental]]], [[[spell:scrying]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Desert
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:blur]]], [[[spell:silence]]]* ||
 || 5th || *[[[spell:create food and water]]], [[[spell:protection from energy]]]* ||
 || 7th || *[[[spell:blight]]], [[[spell:hallucinatory terrain]]]* ||
 || 9th || *[[[spell:insect plague]]], [[[spell:wall of stone]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Forest
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:barkskin]]], [[[spell:spider climb]]]* ||
 || 5th || *[[[spell:call lightning]]], [[[spell:plant growth]]]* ||
 || 7th || *[[[spell:divination]]], [[[spell:freedom of movement]]]* ||
 || 9th || *[[[spell:commune with nature]]], [[[spell:tree stride]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Grassland
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:invisibility]]], [[[spell:pass without trace]]]* ||
 || 5th || *[[[spell:daylight]]], [[[spell:haste]]]* ||
 || 7th || *[[[spell:divination]]], [[[spell:freedom of movement]]]* ||
 || 9th || *[[[spell:dream]]], [[[spell:insect plague]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Mountain
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:spider climb]]], [[[spell:spike growth]]]* ||
 || 5th || *[[[spell:lightning bolt]]], [[[spell:meld into stone]]]* ||
 || 7th || *[[[spell:stone shape]]], [[[spell:stoneskin]]]* ||
 || 9th || *[[[spell:passwall]]], [[[spell:wall of stone]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Swamp
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:darkness]]], [[[spell:Melf's acid arrow]]]* ||
 || 5th || *[[[spell:water walk]]], [[[spell:stinking cloud]]]* ||
 || 7th || *[[[spell:freedom of movement]]], [[[spell:locate creature]]]* ||
 || 9th || *[[[spell:insect plague]]], [[[spell:scrying]]]* ||
-[[/div]]
+</div>
 
-[[div style="float: left; width: 50%; margin-bottom: 10px; "]]
+<div style="float: left; width: 50%; margin-bottom: 10px; " markdown="1">
 #### Underdark
 ||~ Druid Level ||~ Circle Spells ||
 || 3rd || *[[[spell:spider climb]]], [[[spell:web]]]* ||
 || 5th || *[[[spell:gaseous form]]], [[[spell:stinking cloud]]]* ||
 || 7th || *[[[spell:greater invisibility]]], [[[spell:stone shape]]]* ||
 || 9th || *[[[spell:cloudkill]]], [[[spell:insect plague]]]* ||
-[[/div]]
+</div>
 
 ## Land's Stride
 

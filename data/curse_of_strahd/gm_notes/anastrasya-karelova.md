@@ -1,4 +1,4 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -59,7 +59,7 @@ bonus_actions = !!!
 
 [[/include]]
 
-[[/div]]
+</div>
 
 The diplomat of Castle Ravenloft and a former Vallakian noble, Anastrasya is as skilled with a sword as she is with her tongue -- but is sure never to get her hands dirty. Of Strahd's brides, Anastrasya is most adept with the vampiric arts.
 

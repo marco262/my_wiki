@@ -15,7 +15,7 @@ Humans are the most adaptable and ambitious people among the common races. They 
 
 # Lasting Institutions
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Everyone's Second-Best Friends**
 
@@ -27,7 +27,7 @@ Just as readily as they mix with each other, humans mingle with members of other
 
 **Halflings.** "It's hard to beat a meal in a halfling home, as long as you don't crack your head on the ceiling -- good food and good stories in front of a nice, warm fire. If halflings had a shred of ambition, they might really amount to something."
 
-[[/div]]
+</div>
 
 Where a single elf or dwarf might take on the responsibility of guarding a special location or a powerful secret, humans found sacred orders and institutions for such purposes. While dwarf clans and halfling elders pass on the ancient traditions to each new generation, human temples, governments, libraries, and codes of law fix their traditions in the bedrock of history. Humans dream of immortality, but (except for those few who seek undeath or divine ascension to escape death's clutches) they achieve it by ensuring that they will be remembered when they are gone.
 
@@ -99,7 +99,7 @@ Turami Names: (Male) Anton, Diero, Marcon, Pieron, Rimardo, Rom ero, Salazar, Um
 
 # Human Traits
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Variant Human Traits**
 
@@ -109,7 +109,7 @@ If your campaign uses the optional feat rules, your Dungeon Master might allow t
 * **Skills.** You gain proficiency in one skill of your choice.
 * **Feat.** You gain one feat of your choice.
 
-[[/div]]
+</div>
 
 It's hard to make generalizations about humans, but your human character has these traits.
 

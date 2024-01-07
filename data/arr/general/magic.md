@@ -57,7 +57,7 @@ Mor Dhona is a prime example of a land corrupted by aether which turned the plac
 
 Wildlife that live near these creatures become more aggressive and dangerous and can take on the crystals element if aspected.
 
-[[div class='phb-sidebar']]
+<div class='phb-sidebar' markdown="1">
  
 **The Elemental Cycle**
 
@@ -73,7 +73,7 @@ Wildlife that live near these creatures become more aggressive and dangerous and
    
 - The gusts and sighs of Wind gather the clouds, and thus Lightning is born.
  
-[[/div]]
+</div>
 
 <img src='https://i.ibb.co/sHfvBDt/FFXIV-Elemental-Chart.png'/>
 

@@ -1,4 +1,4 @@
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Children of Two Humanoid Races**
 
@@ -8,7 +8,7 @@ If you'd like to play the child of such a pairing, choose two Race options that 
 
 Finally, determine the average of the two options' Life Span traits to figure out how long your character might live. For example, a child of a halfling and a gnome has an average life span of 288 years.
 
-[[/div]]
+</div>
 
 Found throughout the multiverse, humans are as varied as they are numerous. They are relatively short-lived, but they strive to achieve as much as they can in the years they are given. They are skilled pioneers and artisans. They are builders of nations, roads, cities, and ships. They strive to secure their place in the world and in the annals of history by creating art, amassing wealth, making laws, and questing for immortality. Their ambition and resourcefulness are commended, respected, and feared.
 

@@ -22,13 +22,13 @@ In every case, the number of spells a caster can have fixed in mind at any given
 
 ## Spell Slots
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Casting in Armor**
 
 Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting.
 
-[[/div]]
+</div>
 
 Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higher-level spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Umara has four 1st-level spell slots and two 2nd-level slots.
 
@@ -56,7 +56,7 @@ To cast a spell as a ritual, a spellcaster must have a feature that grants the a
 
 # Casting a Spell
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Schools of Magic**
 
@@ -82,7 +82,7 @@ Creating the undead through the use of necromancy spells such as *[[[spell:anima
 
 **Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
 
-[[/div]]
+</div>
 
 When a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.
 
@@ -170,7 +170,7 @@ If you place an area of effect at a point that you can't see and an obstruction,
 
 If a spell targets a creature of your choice, you can choose yourself, unless the creature must be hostile or specifically a creature other than you. If you are in the area of effect of a spell you cast, you can target yourself.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Weave of Magic**
 
@@ -182,7 +182,7 @@ All magic depends on the Weave, though different kinds of magic access it in a v
 
 Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible. When characters use divination spells such as detect magic or identify, they glimpse the Weave. A spell such as dispel magic smooths the Weave. Spells such as antimagic field rearrange the Weave so that magic flows around, rather than through, the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways -- or not at all.
 
-[[/div]]
+</div>
 
 ## Areas of Effect
 

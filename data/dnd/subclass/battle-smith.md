@@ -36,7 +36,7 @@ Your combat training and your experiments with magic have paid off in two ways:
 
 ## Steel Defender
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -69,7 +69,7 @@ companion_actions = !!!
 reaction = !***Deflect Attack.*** The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.
 [[/include]]
 
-[[/div]]
+</div>
 
 _3rd-level Battle Smith feature_
 

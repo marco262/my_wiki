@@ -244,7 +244,7 @@ Beginning at 14th level, you can use your action to end one spell on yourself or
 
 # Sacred Oaths
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Breaking Your Oath**
 
@@ -254,7 +254,7 @@ A paladin who has broken a vow typically seeks absolution from a cleric who shar
 
 If a paladin willfully violates his or her oath and shows no sign of repentance, the consequences can be more serious. At the DM's discretion, an impenitent paladin might be forced to abandon this class and adopt another, or perhaps to take the Oathbreaker paladin option.
 
-[[/div]]
+</div>
 
 Becoming a paladin involves taking vows that commit the paladin to the cause of righteousness, an active path of fighting wickedness. The final oath, taken when he or she reaches 3rd level, is the culmination of all the paladin's training. Some characters with this class don't consider themselves true paladins until they have reached 3rd level and made this oath. For others, the actual swearing of the oath is a formality, an official stamp on what has always been true in the paladin's heart.
 

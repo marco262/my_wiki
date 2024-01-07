@@ -12,11 +12,11 @@ Monks of the Way of the Sun Soul learn to channel their own life energy into sea
 
 ## Radiant Sun Bolt
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **What changed?** Added the ability to use Radiant Sun Bolt any time an unarmed strike could be used, like with your  free Martial Arts bonus action attack, and increased its range to match walking speed.
 
-[[/div]]
+</div>
 
 Starting when you choose this tradition at 3rd level, any time you would make an unarmed strike, you can instead attack with a searing bolt of magical radiance. A Radiant Sun Bolt is identical to an unarmed strike, except it is a ranged attack with a range equal to your speed that does radiant damage.
 
@@ -24,11 +24,11 @@ Starting when you choose this tradition at 3rd level, any time you would make an
 
 ## Searing Arc Strike
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **What changed?** Changed damage type to radiant, allowed the range of the attack to increase, and added a blind effect to add a pseudo-support aspect to the ability.
 
-[[/div]]
+</div>
 
 At 6th level, you gain the ability to channel your ki into bright waves of energy.
 
@@ -38,11 +38,11 @@ You can spend additional ki points to make a stronger blast. Each additional ki 
 
 ## Searing Sunburst
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **What changed?** Allowed the area of the AoE to increase.
 
-[[/div]]
+</div>
 
 At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.
 
@@ -52,11 +52,11 @@ You can increase the sphere's damage by spending ki points. Each point you spend
 
 ## Radiant Body
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **What changed?** Complete re-write to give a more Super Saiyan flavor.
 
-[[/div]]
+</div>
 
 At 17th level, as a bonus action, you can enter a state of heightened being known as Radiant Body, fusing your physical form with the raw power of your radiant soul. While in Radiant Body, you gain the following benefits:
 

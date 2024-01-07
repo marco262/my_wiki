@@ -1,4 +1,4 @@
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Children of Two Humanoid Races**
 
@@ -8,7 +8,7 @@ If you'd like to play the child of such a pairing, choose two Race options that 
 
 Finally, determine the average of the two options' Life Span traits to figure out how long your character might live. For example, a child of a halfling and a gnome has an average life span of 288 years.
 
-[[/div]]
+</div>
 
 Celestial animals roam the Beastlands, a plane of untamed beauty and wild nature. Many of those otherworldly animals serve the Beast Lords, and in the early days of the multiverse, some animals evolved into bipedal forms. Among their number are Ardlings, people with beast-like heads, keen senses, and an innate connection to divine magic. Long ago, the ancestors of Ardlings migrated to the Material Plane, and Ardlings can now be found on many worlds.
 

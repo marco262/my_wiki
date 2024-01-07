@@ -1,10 +1,10 @@
 [[breadcrumb /dnd/class/Fighter|Fighter]]
 
-[[div class="theme-restricted"]]
+<div class="theme-restricted" markdown="1">
 
 This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
 
-[[/div]]
+</div>
 
 Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.
 

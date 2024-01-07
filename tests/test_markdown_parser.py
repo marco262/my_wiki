@@ -189,29 +189,6 @@ Text block
         actual = md.build_bibliography(text)
         self.assertEqual(expected, actual)
 
-    def test_convert_wiki_divs(self):
-        text = """
-[[div class="test"]]
-
-**Test** text
-
-[[/div]]
-
-**Before text** [[span class="test"]]_middle text_[[/span]] *after text*
-"""
-        expected = """<div class="test">
-
-<p><strong>Test</strong> text</p>
-
-</div>
-
-<p><strong>Before text</strong> <span class="test"><em>middle text</em></span> <em>after text</em></p>
-"""
-        md = MarkdownParser()
-        text = md.parse_md(text)
-        actual = md.convert_wiki_divs(text)
-        self.assertEqual(expected, actual)
-
     def test_add_breadcrumbs(self):
         text = """[[breadcrumb /dnd/class/Druid|Druid]]
         

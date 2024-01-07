@@ -36,7 +36,7 @@ Adventuring Paladins take their work seriously. A delve into an ancient ruin or 
 
 ## Creating a Paladin
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Paladin**
 
@@ -54,7 +54,7 @@ You prepare spells for each of your classes individually, referring to the spell
 
 ***Channel Divinity.*** If you have more than one class with the Channel Divinity feature, a class's uses of the feature can be expended only on that class's Channel Divinity options.
 
-[[/div]]
+</div>
 
 To create a Paladin, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Paladin" sidebar.
 
@@ -235,7 +235,7 @@ You gain a feature from your Paladin subclass.
 
 # Paladin Subclasses
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Breaking Your Oath**
 
@@ -245,7 +245,7 @@ A Paladin who has broken a vow typically seeks absolution from a priest of the s
 
 If a Paladin willfully violates their oath and shows no sign of repentance, the consequences might be more serious. At the DM's discretion, an impenitent Paladin might be forced to take a more appropriate subclass or even to abandon the class and adopt another one.
 
-[[/div]]
+</div>
 
 A Paladin subclass is a specialization that grants you special abilities at certain Paladin levels, as specified in the subclass. Each of this class's subclasses represents a body of oaths that a Paladin begins taking upon joining the class. The final oath, taken at 3rd level, is the culmination of a Paladin's training. Some characters with this class don't consider themselves true Paladins until they have reached 3rd level and made this oath. For others, the actual swearing of the oath is a formality, an official stamp on what was already true in the Paladin's heart.
 

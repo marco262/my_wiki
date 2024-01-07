@@ -10,7 +10,7 @@ If the beast has died within the last hour, you can you use your action to touch
 
 Whenever you finish a [[glossary:Long Rest]], you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast vanishes if you die.
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -38,9 +38,9 @@ special_abilities = !!!
 actions = !***Maul.*** _Melee Weapon Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1d8 + 2 + PB Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast).
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -68,9 +68,9 @@ special_abilities = !!!
 actions = !***Binding Strike.*** _Melee Weapon Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1d6 + 2 + PB Bludgeoning or Piercing damage (your choice), and the target has the [[glossary:Grappled]] condition (escape DC equals your Spell Save DC). Until this grapple ends, the beast can't use this attack on another target.
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -98,7 +98,7 @@ special_abilities = !!!
 actions = !***Shred.*** _Melee Weapon Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1d4 + 3 + PB Slashing damage.
 [[/include]]
 
-[[/div]]
+</div>
 
 ### 7th Level: Exceptional Training
 

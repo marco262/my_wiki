@@ -1,4 +1,4 @@
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Children of Two Humanoid Races**
 
@@ -8,7 +8,7 @@ If you'd like to play the child of such a pairing, choose two Race options that 
 
 Finally, determine the average of the two options' Life Span traits to figure out how long your character might live. For example, a child of a halfling and a gnome has an average life span of 288 years.
 
-[[/div]]
+</div>
 
 The ancestors of Dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the worlds of the multiverse with people created in their image. Another story holds that dragons created the Dragonborns' progenitors without the gods' blessings. Whatever their origin, Dragonborn have made homes for themselves on the worlds of the Material Plane.
 

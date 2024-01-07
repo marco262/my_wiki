@@ -96,7 +96,7 @@ Each of these sections has a table that offers possible complications. You can r
 
 The following activities are suitable for any character who can afford to pursue them. As DM, you have the final say on which activities are available to the characters. The activities you allow might depend on the nature of the area where the characters are located. For example, you might disallow the creation of magic items or decide that the characters are in a town that is too isolated from major markets for them to buy such items.
 
-[[div class="homebrew-note"]]
+<div class="homebrew-note" markdown="1">
 
 **Downtime Activities Summary Table**
 
@@ -119,7 +119,7 @@ The following activities are suitable for any character who can afford to pursue
 
 **Note:** The below Downtime Activities have been altered from their format in the book to more easily provide a reference for both players and DMs. The reference text intended for players is in plain text. Any resolution details and possible complications the DM should be aware of are kept behind collapsed texts. 
 
-[[/div]]
+</div>
 
 ### Arena Fighting
 

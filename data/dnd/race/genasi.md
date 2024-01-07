@@ -24,13 +24,13 @@ Too much failure can chip away at even a genasi's sense of self, so they constan
 
 ## Genasi Lands
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Genasi on Athas**
 
 Although any world that includes one or more elemental planes can feature genasi, on Athas, the world of the Dark Sun campaign setting, elemental forces hold greater sway than they do on other worlds. As a people touched by elemental power, genasi are viewed as seers, prophets, and chosen ones. The birth of a genasi, whether a slave, a noble, or a member of a desert tribe, is an auspicious event. Most Athasians believe a given genasi is destined for greatness -- or infamy.
 
-[[/div]]
+</div>
 
 As rare beings, genasi might go their entire lives without encountering another one of their kind. There are no great genasi cities or empires. Genasi seldom have communities of their own and typically adopt the cultures and societies into which they are born. The more strange their appearance, the harder time they have. Many genasi lose themselves in teeming cities, where their distinctiveness hardly raises an eyebrow in places accustomed to a variety of different people.
 
@@ -66,7 +66,7 @@ Your genasi character has certain characteristics in common with all other genas
 
 ***Subraces.*** Four major subraces of genasi are found among the worlds of D&D: air genasi, earth genasi, fire genasi, and water genasi. Choose one of these subraces.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Genasi Backgrounds**
 
@@ -80,7 +80,7 @@ Each genasi subrace has its own temperament, which might make some backgrounds m
 
 **Water genasi** almost all have some experience aboard or around sea vessels. They make excellent mariners and fishers. Like earth genasi, though, water genasi prefer quiet and solitude; the wide shores are their natural homes. They go where they want, do what they want, and rarely feel bound to anything. Good backgrounds for water genasi include hermit and sailor.
 
-[[/div]]
+</div>
 
 ### Air Genasi
 

@@ -34,7 +34,7 @@ Once a pact is made, a Warlock's thirst for knowledge and power can't be slaked 
 
 ## Creating a Warlock
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Warlock**
 
@@ -46,7 +46,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Spell Slots.*** If you have both the Spellcasting feature and the Pact Magic feature from this class, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.
 
-[[/div]]
+</div>
 
 To create a Warlock, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Warlock" sidebar.
 
@@ -113,13 +113,13 @@ The number of spells on your list increases as you gain Warlock levels, as shown
 
 If another Warlock feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this feature, but those spells otherwise follow the rules in this feature.
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Houserule: Changing Your Prepared Spells**
 
 Whenever you finish a Long Rest, you can replace one spell on your list with another Warlock spell for which you have spell slots. Whenever you gain a Warlock level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
 
-[[/div]]
+</div>
 
 ***Changing Your Prepared Spells.*** Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.
 

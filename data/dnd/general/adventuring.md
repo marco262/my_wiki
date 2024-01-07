@@ -111,7 +111,7 @@ As adventurers travel through a dungeon or the wilderness, they need to remain a
 
 ### Marching Order
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Splitting Up the Party**
 
@@ -119,7 +119,7 @@ Sometimes, it makes sense to split an adventuring party, especially if you want 
 
 The drawback to this approach is that the party will be split into several smaller groups in the event of an attack. The advantage is that a small group of stealthy characters moving slowly might be able to sneak past enemies that clumsier characters would alert. A rogue and a monk moving at a slow pace are much harder to detect when they leave their dwarf paladin friend behind.
 
-[[/div]]
+</div>
 
 The adventurers should establish a marching order. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies when a fight breaks out.
 
@@ -224,11 +224,11 @@ At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet 
 
 ## Suffocating
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Errata** "If you run out of breath, you can't regain hit points or be stabilized until you can breathe again." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
 
-[[/div]]
+</div>
 
 A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).
 
@@ -238,13 +238,13 @@ For example, a creature with a Constitution of 14 can hold its breath for 3 minu
 
 ## Vision and Light
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note** "A rogue does not have advantage on attacks if they are attacking into an area that's heavily obscured, but they do if they are attacking out of a heavily obscured area into a non-heavily obscured area. However, they can still sneak attack if an ally is adjacent to their target."
 
 **Errata** "A heavily obscured area doesn't blind you [if you're not in it], but you are effectively blinded when you try to see something obscured by it." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
 
-[[/div]]
+</div>
 
 The most fundamental tasks of adventuring -- noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few --  rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
 
@@ -389,11 +389,11 @@ A character can spend one or more Hit Dice at the end of a short rest, up to the
 
 ## Long Rest
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Errata** "You regain at least 1 Hit Die when you finish a long rest." [Player's Handbook Errata](https://media.wizards.com/2016/downloads/DND/PH-Errata-V1.pdf)
 
-[[/div]]
+</div>
 
 A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or perform s light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity -- at least 1 hour of walking, fighting, casting spells, or similar adventuring activity --  the characters must begin the rest again to gain any benefit from it.
 

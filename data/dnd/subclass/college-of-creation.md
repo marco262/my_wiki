@@ -37,7 +37,7 @@ The size of the item you can create with this feature increases by one size cate
 
 ## Animating Performance
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -65,7 +65,7 @@ special_abilities = !!!
 actions = !***Force-Empowered Slam.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target you can see. _Hit:_ 1d10 + PB force damage.
 [[/include]]
 
-[[/div]]
+</div>
 
 _6th-level College of Creation feature_
 

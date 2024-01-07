@@ -6,7 +6,7 @@ instructing aspirants in how to manifest their true selves in service to the mig
 
 # Way of the Astral Self
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Forms of Your Astral Self**
 
@@ -14,7 +14,7 @@ The astral self is a translucent embodiment of your monk's soul. As a result, an
 
 When choosing this path, consider the quirks that define your monk. Are you obsessed with something? Are you driven by justice or a selfish desire? Any of these motivations could manifest in the form of your astral self.
 
-[[/div]]
+</div>
 
 ||~ Monk Level ||~ Feature ||
 || 3rd || Arms of the Astral Self ||

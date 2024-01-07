@@ -10,7 +10,7 @@ Feeling a deep connection to the environment around them, some rangers reach out
 || 11th || Stalker's Flurry ||
 || 15th || Shadowy Dodge ||
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **It's Your Swarm**
 
@@ -18,7 +18,7 @@ A Swarmkeeper's swarm and spells are reflections of the character's bond with na
 
 Also, remember that the swarm's appearance is yours to customize, and don't feel confined to a single appearance. Perhaps the spirits' look changes with the ranger's mood or with the seasons. You decide!
 
-[[/div]]
+</div>
 
 ## Gathered Swarm
 

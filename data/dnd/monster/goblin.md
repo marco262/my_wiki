@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="goblin">
 [[include dnd/monster-sheet.tpl]]
@@ -28,9 +28,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="goblin-boss">
 [[include dnd/monster-sheet.tpl]]
@@ -63,7 +63,7 @@ actions = !!!
 reactions = !**Redirect Attack.** When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
 [[/include]]
 
-[[/div]]
+</div>
 
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large -- sometimes overwhelming -- numbers. They crave power and regularly abuse whatever authority they obtain.
 

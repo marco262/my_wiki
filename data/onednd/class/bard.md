@@ -36,7 +36,7 @@ Not every singer or poet in a tavern or jester in a royal court is a Bard. Harne
 
 ## Creating a Bard
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Bard**
 
@@ -52,7 +52,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 You prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it.
 
-[[/div]]
+</div>
 
 To create a Bard, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Bard" sidebar.
 
@@ -120,13 +120,13 @@ The number of spells on your list also increases as you gain Bard levels, as sho
 
 If another Bard feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Houserule: Changing Your Prepared Spells**
 
 Whenever you finish a Long Rest, you can replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
 
-[[/div]]
+</div>
 
 ***Changing Your Prepared Spells.*** Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.
 

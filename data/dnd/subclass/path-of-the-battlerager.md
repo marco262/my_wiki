@@ -22,11 +22,11 @@ Your DM can lift this restriction to better suit the campaign. The restriction e
 
 ## Battlerager Armor
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note:** It's recommended that you give the Battlerager proficiency in Smith's Tools, and the ability to add spikes to any medium armor for a cost of 25 gp.
 
-[[/div]]
+</div>
 
 When you choose this path at 3rd level, you gain the ability to use [[[general:Equipment#armor-and-shields|spiked armor]]] as a weapon.
 

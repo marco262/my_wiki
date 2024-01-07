@@ -36,7 +36,7 @@ Barbarians often serve as protectors and leaders in their communities. They char
 
 ## Creating a Barbarian
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Barbarian**
 
@@ -48,7 +48,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Armor Training.*** When you gain your first Barbarian level, you gain [[glossary:armor training]] with Shields.
 
-[[/div]]
+</div>
 
 To create a Barbarian, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a Level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Barbarian" sidebar.
 

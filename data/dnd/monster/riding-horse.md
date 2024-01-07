@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 400px
@@ -21,7 +21,7 @@ challenge = 1/4 (50 XP)
 actions = !**Hooves.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) bludgeoning damage.
 [[/include]]
 
-[[/div]]
+</div>
 
 ----
 

@@ -8,13 +8,13 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 161"
 description = """
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note:**
 
 Although the DMG lists this item as Uncommon, it's on Magic Item Table C which is mostly reserved for Rare items. Because of this, and because of how powerful this item can be in the right (or wrong) hands, I've increased its rarity from Uncommon to Rare.
 
-[[/div]]
+</div>
 
 This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
 

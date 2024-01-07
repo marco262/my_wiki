@@ -8,13 +8,13 @@ At 3rd level, you learn to use your magic to create a powerful bond with a creat
 
 With 8 hours of work and the expenditure of 50 gp worth of rare herbs and fine food, you call forth an animal from the wilderness to serve as your faithful companion. You normally select you companion from among the following animals: an **ape**, a **black bear**, a **boar**, a **giant badger**, a **giant weasel**, a **mule**, a **panther**, or a **wolf**. However, your DM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would logically be present in the area.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Keeping Track of Proficiency**
 
 When you gain your animal companion at 3rd level, its proficiency bonus matches yours at +2. As you gain levels and increase your proficiency bonus, remember that your companion's proficiency bonus improves as well, and is applied to the following areas: Armor Class, skills, saving throws, attack bonus, and damage rolls.
 
-[[/div]]
+</div>
 
 At the end of the 8 hours, your animal companion appears and gains all the benefits of your Companion's Bond ability. You can have only one animal companion at a time.
 
@@ -24,13 +24,13 @@ If you use this ability to return a former animal companion to life while you ha
 
 ## Companion's Bond
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Why No Multiattack?**
 
 Multiattack is a useful design tool that keeps monsters simple for the DM. It provides a boost in offense, but that boost is meant to make a beast threatening for one battle-- a notion that doesn't mesh well with a beast intended to fight with the party, rather than against it. Project Multiattack across an entire adventure, and an animal companion runs the risk of outclassing the fighters and barbarians in the party. 
 
-[[/div]]
+</div>
 
 Your animal companion gains a variety of benefits while it is linked to you.
 
@@ -44,13 +44,13 @@ Your animal companion has abilities and game statistics determined in part by yo
 
 Your animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Expanding Companion Options**
 
 Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal more than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.
 
-[[/div]]
+</div>
 
 For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.
 

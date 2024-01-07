@@ -32,14 +32,14 @@ Elite warriors can be male or female.
 
 ## Drow Mage
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/drow-mage.toml
 width = 650px
 [[/include]]
 
-[[/div]]
+</div>
 
 Privileged drow males who lack the strength and fighting prowess to train as warriors have no recourse but to pursue the study of magic. For them, it is a matter of survival. Female drow with a natural affinity for the arcane arts may also become drow mages, although they are much less common.
 

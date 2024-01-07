@@ -1,12 +1,12 @@
 [[breadcrumb /dnd/class/Fighter|Fighter]]
 
-[[div class="theme-restricted"]]
+<div class="theme-restricted" markdown="1">
 
 This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
 
 One way I recommend is to flavor your fighter's Echoes as Shadow Clones. 
 
-[[/div]]
+</div>
 
 A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes.
 

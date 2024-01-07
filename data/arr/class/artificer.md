@@ -44,7 +44,7 @@ To create an artificer, consult the following subsections, which give you hit po
 
 You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Artificer**
 
@@ -56,7 +56,7 @@ If your group uses the optional rule on multiclassing in the Player's Handbook, 
 
 ***Spell Slots.*** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.
 
-[[/div]]
+</div>
 
 ### Hit Points
 
@@ -86,7 +86,7 @@ You start with the following equipment, in addition to the equipment granted by 
 
 If you forgo this starting equipment, as well as the items offered by your background, you start with 5d4 x 10 gp to buy your equipment.
 
-[[div class='phb-sidebar']]
+<div class='phb-sidebar' markdown="1">
 
 ## Adjustments
 The following adjustments have been made to artificers for this campaign.
@@ -97,7 +97,7 @@ In addition to the base proficiencies provided in the Player's Handbook, artific
 ### Equipment
 In addition to equipment provided in the Player's Handbook, artificers of Hydaelyn start with an **aetherconverter**. Though a typical artificer's artisan's tools usually function as their spellcasting focus, a Hydaelynian artificer uses their aetherconverter. It must be on your person when you're performing your tinkering magic. 
 
-[[/div]]
+</div>
 
 # Class Features
 
@@ -120,7 +120,7 @@ You can bestow magic on multiple objects, touching one object each time you use 
 
 ## Spellcasting
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Magic of Artifice**
 
@@ -130,7 +130,7 @@ The same principle applies when you prepare your spells. As an artificer, you do
 
 Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters.
 
-[[/div]]
+</div>
 
 _1st-level artificer feature_
 
@@ -340,7 +340,7 @@ _Item: A helmet (requires attunement)_
 
 While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't [[[general:conditions#incapacitated|incapacitated]]].
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -371,7 +371,7 @@ companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ your spell atta
 reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 [[/include]]
 
-[[/div]]
+</div>
 
 ### Homunculus Servant
 

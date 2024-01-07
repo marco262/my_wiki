@@ -32,7 +32,7 @@ The dungeon delving, monster slaying, and other dangerous work common among adve
 
 ## Creating a Fighter
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Fighter**
 
@@ -44,7 +44,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Armor Training.*** When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.
 
-[[/div]]
+</div>
 
 To create a Fighter, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Fighter" sidebar.
 

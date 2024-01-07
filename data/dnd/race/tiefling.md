@@ -13,7 +13,7 @@
 To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus -- overlord of the Nine Hells -- into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children
 will always be held accountable.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Tiefling Variants**
 
@@ -31,7 +31,7 @@ Since not all tieflings are of the blood of Asmodeus, some have traits that diff
 
 ***Winged.*** You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait.
 
-[[/div]]
+</div>
 
 # Infernal Bloodline
 
@@ -61,11 +61,11 @@ Female Infernal Names: Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Ler
 # Tiefling Traits
 
 Tieflings share certain racial traits as a result of their infernal descent.
-[[div class="errata"]]
+<div class="errata" markdown="1">
 **Infernal Legacy Errata**
 Here "once per day" means you must finish a long rest to cast the spell again with the trait.
 [Player's Handbook Errata](https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf)
-[[/div]]
+</div>
 * **Ability Score Increase.** Your Intelligence score increases by 1, and your Charisma score increases by 2.
 * **Age.** Tieflings mature at the same rate as humans but live a few years longer.
 * **Alignment.** Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.

@@ -6,7 +6,7 @@ In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend
 
 # Bladesinging
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Bladesinger Styles**
 
@@ -22,7 +22,7 @@ Styles of Bladesinging are broadly categorized based on the type of weapon emplo
 
 _Source: Sword Coast Adventurer's Guide, p. 142_
 
-[[/div]]
+</div>
 
 ||~ Wizard Level ||~ Features ||
 || 2 || Training in War and Song, Bladesong ||

@@ -2,7 +2,7 @@
 toc: false
 ---
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Tenets of the Ancients**
 
@@ -16,7 +16,7 @@ Though the exact words and strictures of the Oath of Ancients vary, Paladins of 
 
 ***Be the Light.*** Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.
 
-[[/div]]
+</div>
 
 The Oath of the Ancients is as old as the first elves and the rituals of Druids. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things -- leaves, antlers, or flowers -- to reflect their commitment to preserving life and light in the world.
 

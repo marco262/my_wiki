@@ -129,11 +129,11 @@ You can never have more than one instance of Heroic Advantage. If something give
 
 ## Hide [Action]
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note** The Hide action has been modified so the Dexterity (Stealth) check is only made when the first enemy attempts to notice you.
 
-[[/div]]
+</div>
 
 You try to conceal yourself. You must be Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.
 

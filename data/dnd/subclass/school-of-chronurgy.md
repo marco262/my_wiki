@@ -1,10 +1,10 @@
 [[breadcrumb /dnd/class/Wizard|Wizard]]
 
-[[div class="theme-restricted"]]
+<div class="theme-restricted" markdown="1">
 
 This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
  
-[[/div]]
+</div>
 
 Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.
 
@@ -16,7 +16,7 @@ Focusing on the manipulation of time, those who follow the Chronurgy tradition l
 || 10th || Arcane Abeyance ||
 || 14th || Convergent Future ||
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Chronurgy Spells**
 
@@ -27,7 +27,7 @@ Explorer's Guide to Wildemount introduced some spells intended specifically for 
 * _[[[spell:temporal shunt]]]_
 * _[[[spell:time ravage]]]_
 
-[[/div]]
+</div>
 
 ## Chronal Shift
 

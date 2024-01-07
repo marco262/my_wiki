@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="Bugbear"></a>
 
@@ -33,9 +33,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="Bugbear-Chief"></a>
 
@@ -74,7 +74,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.
 

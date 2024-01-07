@@ -9,7 +9,7 @@ range = "30 feet"
 components = ["V", "S"]
 duration = "Instantaneous"
 description = """
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -44,7 +44,7 @@ bonus_actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 You gain the service of an otherworldly being, which manifests as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, your steed is replaced by the new one.
 

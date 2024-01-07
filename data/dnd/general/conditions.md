@@ -13,7 +13,7 @@ The following definitions specify what happens to a creature while it is subject
 
 ## Charmed
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Exhaustion**
 
@@ -35,7 +35,7 @@ An effect that removes exhaustion reduces its level as specified in the effect's
 
 Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.
 
-[[/div]]
+</div>
 
 * A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
 * The charmer has advantage on any ability check to interact socially with the creature.

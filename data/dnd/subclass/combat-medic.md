@@ -1,10 +1,10 @@
 [[breadcrumb /dnd/class/Artificer|Artificer]]
 
-[[div class="theme-restricted"]]
+<div class="theme-restricted" markdown="1">
 
 This subclass is **Under Review** and may go through significant changes as a result of playtesting.
  
-[[/div]]
+</div>
 
 A combat medic is an artificer who has developed mechanisms by which to support others in battle beyond their infusions or magic items, keeping their allies' vigor up and prolonging their usefulness in battle.
 

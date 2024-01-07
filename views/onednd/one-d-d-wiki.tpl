@@ -1,8 +1,8 @@
 % from data.onednd.enums import classes, spell_classes
 
-[[div id="index-container"]]
+<div id="index-container" markdown="1">
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Races
 
@@ -22,9 +22,9 @@
 * [[[race:Orc]]]
 * [[[race:Tiefling]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Classes
 
@@ -34,9 +34,9 @@
 * [[[class:{{c.title()}}]]]
 % end
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Spells
 
@@ -50,9 +50,9 @@
 
 
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Character Information
 
@@ -67,6 +67,6 @@
 
 [[[general:Rules Glossary]]]
 
-[[/div]]
+</div>
 
-[[/div]]
+</div>

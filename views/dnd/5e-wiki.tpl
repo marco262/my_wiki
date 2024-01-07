@@ -1,8 +1,8 @@
 % from data.dnd.enums import races, classes, spell_classes
 
-[[div id="index-container"]]
+<div id="index-container" markdown="1">
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Races
 
@@ -19,9 +19,9 @@
 * [[[general:Races#eberron-rising-from-the-last-war|Eberron]]]
 * [[[general:Races#mordenkainens-tome-of-foes|Mordenkainen's Tome of Foes]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Published Classes
 
@@ -35,9 +35,9 @@
 
 * [[[class:Dragonfire Adept]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Spells
 
@@ -51,18 +51,18 @@
 * [{{c.title()}} Spells](/dnd/class_spell_list/{{c}}/true)
 % end
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Character Information
 
 * [[[general:Backgrounds]]]
 * [[[advancement:Feats]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Equipment
 
@@ -77,9 +77,9 @@
 * [[[general:equipment#expenses|Expenses]]]
 * [[[general:equipment#trinkets|Trinkets]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## System Info
 
@@ -94,9 +94,9 @@
 * [[[general:Downtime Activities]]]
 * [[[general:Sidekicks]]]
 
-[[/div]]
+</div>
 
-[[div class="index-column"]]
+<div class="index-column" markdown="1">
 
 ## Dungeon Master's Toolbox
 
@@ -109,8 +109,8 @@
 
 * [Monsters by Name](/dnd/gm/monsters_by_name)
 
-[[/div]]
+</div>
 
-[[/div]]
+</div>
 
 [Site Search](/dnd/site_search)

@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-black-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -51,9 +51,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="adult-black-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -106,9 +106,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="young-black-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -144,9 +144,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="black-dragon-wyrmling">
 [[include dnd/monster-sheet.tpl]]
@@ -178,7 +178,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.
 

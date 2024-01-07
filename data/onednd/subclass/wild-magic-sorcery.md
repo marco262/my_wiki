@@ -77,13 +77,13 @@ You gain a modicum of control over the surges of your wild magic. Whenever you r
 
 ### Level 18: Wild Bombardment
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Houserule**
 
 When using Wild Bombardment, you may pick any choice from the Wild Magic Surge table not normally allowed by this ability, with DM permission.
 
-[[/div]]
+</div>
 
 Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the Wild Magic Surge table, provided the effect casts a spell or restores all your expended Sorcery Points.
 

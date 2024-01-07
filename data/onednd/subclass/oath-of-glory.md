@@ -2,7 +2,7 @@
 toc: false
 ---
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Tenets of Glory**
 
@@ -16,7 +16,7 @@ Though the exact words and strictures of the Oath of Glory vary, Paladins of thi
 
 ***Discipline the Soul.*** You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends.
 
-[[/div]]
+</div>
 
 Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they're all ready when destiny calls.
 

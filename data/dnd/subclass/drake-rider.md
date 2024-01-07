@@ -29,7 +29,7 @@ You learn an additional spell when you reach certain levels in this class, as sh
 
 ## Draconic Mount
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 350px
@@ -54,7 +54,7 @@ proficiency_bonus = equals your bonus
 actions = !**Bite.** *Melee Weapon Attack:* +3 plus PB to hit, reach 5 ft., one target. *Hit:* 1d6 + PB piercing damage.
 [[/include]]
 
-[[/div]]
+</div>
 
 _3rd-level Drake Rider feature_
 
@@ -78,13 +78,13 @@ Choose a type for your drake from the Drake Types table below. Your drake gains 
 || Silver || Cold || 15 ft. cone (Con. Save) ||
 || White || Cold || 15 ft. cone (Con. Save) ||
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Nightfury**
 
 The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, the attack bonus for its Bite attack is reduced to +2 plus PB, and it gains thunder resistance. At 7th level, its fly or swim speed is instead 60 ft. At 11th level, its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
 
-[[/div]]
+</div>
 
 In combat, your drake acts as a Controlled mount, meaning it acts on your turn and can only take the Dash, Disengage, and Dodge actions, whether you're mounted on it or not, unless you use a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.
 

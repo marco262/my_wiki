@@ -29,7 +29,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 
 ## Summon Wildfire Spirit
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -58,7 +58,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 _2nd-level Circle of Wildfire feature_
 

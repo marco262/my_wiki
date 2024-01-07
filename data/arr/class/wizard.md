@@ -16,7 +16,7 @@ Wizards' lives are seldom mundane. The closest a wizard is likely to come to an 
 
 But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient Allag or Mach or Amdapor knew secrets of aether that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.
 
-[[div class='phb-sidebar']]
+<div class='phb-sidebar' markdown="1">
 
 ### Adjustments
 In addition to the base qualities of the class in the Player's Handbook, wizards in Eorzea have the following adjustments.
@@ -26,7 +26,7 @@ Although there are dark and forbidden arts that are used to raise the undead, th
 
 The School of Necromancy is not available to PCs.
 
-[[/div]]
+</div>
 
 # The Wizard
 
@@ -91,7 +91,7 @@ You start with the following equipment, in addition to the equipment granted by 
 
 ## Spellcasting
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Your Spellbook**
 
@@ -109,7 +109,7 @@ If you lose your spellbook, you can use the same procedure to transcribe the spe
 
 **The Book's Appearance.** Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
 
-[[/div]]
+</div>
 
 As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. 
 

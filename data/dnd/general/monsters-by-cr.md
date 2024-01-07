@@ -1,5 +1,5 @@
-[[div class="chart"]]
-[[div class="subchart"]]
+<div class="chart" markdown="1">
+<div class="subchart" markdown="1">
 # 0 (0-10 XP)
 [[[monster:awakened-shrub|Awakened Shrub]]]
 [[[monster:baboon|Baboon]]]
@@ -473,7 +473,7 @@
 [[[monster:Ancient Red Dragon]]]
 **CR 30 - 155,000 XP**
 [[[monster:Tarrasque]]]
-[[/div]]
-[[/div]]
+</div>
+</div>
 
 *See [[[general:Monsters Without a CR Tag|this page]]] for all monster pages without a CR tag.*

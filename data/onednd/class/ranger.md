@@ -32,7 +32,7 @@ Thanks to their connection with nature, Rangers can also cast spells that harnes
 
 ## Creating a Ranger
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Ranger**
 
@@ -48,7 +48,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 You prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it.
 
-[[/div]]
+</div>
 
 To create a Ranger, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Ranger" sidebar.
 

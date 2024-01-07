@@ -12,7 +12,7 @@ Halflings' skin ranges from tan to pale with a ruddy cast, and their hair is usu
 Halfling practicality extends beyond their clothing. They're concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest of halflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering.
 
 ## Kind and Curious
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 **Affable and Positive**
 
 Halflings try to get along with everyone else and are loath to make sweeping generalizations -- especially negative ones.
@@ -22,7 +22,7 @@ Halflings try to get along with everyone else and are loath to make sweeping gen
 **Elves.** "They're so beautiful! Their faces, their music, their grace and all. It's like they stepped out of a wonderful dream. But there's no telling what's going on behind their smiling faces -- surely more than they ever let on."
 
 **Humans.** "Humans are a lot like us, really. At least some of them are. Step out of the castles and keeps, go talk to the farmers and herders and you'll find good, solid folk. Not that there's anything wrong with the barons and soldiers -- you have to admire their conviction. And by protecting their own lands, they protect us as well."
-[[/div]]
+</div>
 Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing. Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times.
 
 ## Blend into the Crowd

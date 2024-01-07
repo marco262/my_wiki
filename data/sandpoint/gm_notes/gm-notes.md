@@ -64,10 +64,6 @@ Enter another URL to set as Visual Aid here:
 * [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) -- Minor Uncommon
 * [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
 * [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks) (Bruthazmus) -- Minor Common
-* [Potion of Healing](/dnd/equipment/magic-item/potion-of-healing) (Tsuto) -- Minor Common
-* [Mystery Key](/dnd/equipment/magic-item/mystery-key) (Orik) -- Minor Common
-* [Everburning Candle](/dnd/spell/continual-flame) (Lyrie's Room) -- Minor Common
-* [Staff of Adornment](/dnd/equipment/magic-item/staff-of-adornment) (Lyrie) -- Minor Common
 * [Sword of Vengeance](/dnd/equipment/magic-item/sword-of-vengeance) (Nualia) -- Major Uncommon
 * [Sihedron Medallion](/dnd/equipment/magic-item/sihedron-medallion) (Nualia) -- Minor Rare
 [[/magic-item-tracker]]

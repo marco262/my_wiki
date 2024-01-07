@@ -4,7 +4,7 @@ Gods whose portfolios include the Tempest domain -- including Talos, Umberlee, K
 
 ## Tempest Domain Spells
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Alternate Domain Spells**
 
@@ -15,7 +15,7 @@ Gods whose portfolios include the Tempest domain -- including Talos, Umberlee, K
 || 7th || *[[[spell:storm sphere]]], [[[spell:ice storm]]]* ||
 || 9th || *[[[spell:destructive wave]]], [[[spell:control winds]]]* ||
 
-[[/div]]
+</div>
 
 ||~ Cleric Level ||~ Spells ||
 || 1st || *[[[spell:fog cloud]]], [[[spell:thunderwave]]]* ||

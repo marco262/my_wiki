@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <span id="ancient-bronze-dragon"></span>
 
@@ -6,9 +6,9 @@
 file = dnd/monster/ancient-bronze-dragon.toml
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <span id="adult-bronze-dragon"></span>
 
@@ -16,9 +16,9 @@ file = dnd/monster/ancient-bronze-dragon.toml
 file = dnd/monster/adult-bronze-dragon.toml
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <span id="young-bronze-dragon"></span>
 
@@ -26,9 +26,9 @@ file = dnd/monster/adult-bronze-dragon.toml
 file = dnd/monster/young-bronze-dragon.toml
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <span id="bronze-dragon-wyrmling"></span>
 
@@ -36,7 +36,7 @@ file = dnd/monster/young-bronze-dragon.toml
 file = dnd/monster/bronze-dragon-wyrmling.toml
 [[/include]]
 
-[[/div]]
+</div>
 
 Bronze dragons are coastal dwellers that feed primarily on aquatic plants and fish. They take the forms of friendly animals to observe other creatures of interest. They are also fascinated by warfare and eagerly join armies fighting for a just cause.
 

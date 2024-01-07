@@ -28,7 +28,7 @@ Confinement terrifies the aarakocra. To be grounded, trapped underground, or imp
 
 # Homelands
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Aarakocra in the Forgotten Realms**
 
@@ -40,7 +40,7 @@ Their only remaining settlement lies on the slopes of the Star Mounts' southernm
 
 Unlike the aarakocra of other worlds on the Material Plane, the aarakocra of the Realms rarely travel to the Elemental Plane of Air.
 
-[[/div]]
+</div>
 
 Most aarakocra live on the Elemental Plane of Air. Aarakocra can be drawn into the Material Plane, sometimes to pursue enemies or thwart their foes' designs there. Accident might also send a nest of aarakocra tumbling into a world on that plane. A few find their way to such a world through portals on their own plane and establish nests in high mountains or in the canopies of old forests.
 
@@ -60,7 +60,7 @@ Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles
 
 # Aarakocra Names
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Aarakocra Backgrounds**
 
@@ -68,7 +68,7 @@ Backgrounds that are most appropriate for aarakocra include the outlander, the h
 
 The small colonies of aarakocra are insular and remote, and few aarakocra live away from their roosts. In the Star Mounts of the High Forest in the Forgotten Realms, no more than a few dozen aarakocra live away from the nests of their families. Those that do are usually rangers or fighters, constantly patrolling for outside threats.
 
-[[/div]]
+</div>
 
 As with much of their speech, aarakocra names include clicks, trills, and whistles to the point that other peoples have a difficult time pronouncing them. Typically, a name has two to four syllables with the sounds acting as connectors. When interacting with other races, aarakocra may use nicknames gained from people they meet or shortened forms of their full names.
 

@@ -17,7 +17,9 @@ from src.dnd.utils import to_mod
 from src.onednd.utils import split_rules_glossary, RulesGlossaryEntry
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-EXTRAS = ["header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables"]
+EXTRAS = [
+    "header-ids", "wiki-tables", "toc", "strike", "task_list", "task_list_checkable", "tables", "markdown-in-html"
+]
 
 
 class MarkdownParser:
@@ -267,10 +269,6 @@ class MarkdownParser:
 
     @staticmethod
     def convert_wiki_divs(text):
-        text = re.sub(r"<p>\[\[div(.*?)]]</p>", r"<div\1>", text)
-        text = re.sub(r"<p>\[\[/div]]</p>", r"</div>", text)
-        text = re.sub(r"\[\[span(.*?)]]", r"<span\1>", text)
-        text = re.sub(r"\[\[/span]]", r"</span>", text)
         text = re.sub(r"<p>\[\[clear-float]]</p>", r'<div class="clear-float"></div>', text)
         return text
 

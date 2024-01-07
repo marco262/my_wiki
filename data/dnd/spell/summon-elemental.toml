@@ -12,7 +12,7 @@ expensive_material_component = true
 material_component_consumed = false
 duration = "Concentration, up to 1 hour"
 description = """
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -43,7 +43,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Elemental Spirit stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
 

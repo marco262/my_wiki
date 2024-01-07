@@ -42,7 +42,7 @@ To create an artificer, consult the following subsections, which give you hit po
 
 You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Artificer**
 
@@ -54,7 +54,7 @@ If your group uses the optional rule on multiclassing in the Player's Handbook, 
 
 ***Spell Slots.*** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.
 
-[[/div]]
+</div>
 
 ### Hit Points
 
@@ -104,7 +104,7 @@ You can bestow magic on multiple objects, touching one object each time you use 
 
 ## Spellcasting
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Magic of Artifice**
 
@@ -114,7 +114,7 @@ The same principle applies when you prepare your spells. As an artificer, you do
 
 Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters.
 
-[[/div]]
+</div>
 
 _1st-level artificer feature_
 
@@ -332,7 +332,7 @@ _Item: A helmet (requires attunement)_
 
 While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't [[[general:conditions#incapacitated|incapacitated]]].
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -363,7 +363,7 @@ companion_actions = !**_Force Strike._** _Ranged Weapon Attack:_ your spell atta
 reactions = !**_Channel Magic._** The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 [[/include]]
 
-[[/div]]
+</div>
 
 ### Homunculus Servant
 

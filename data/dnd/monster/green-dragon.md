@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-green-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -52,8 +52,8 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
-[[div class="monster-include"]]
+</div>
+<div class="monster-include" markdown="1">
 
 <a id="adult-green-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -107,8 +107,8 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
-[[div class="monster-include"]]
+</div>
+<div class="monster-include" markdown="1">
 
 <a id="young-green-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -145,8 +145,8 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
-[[div class="monster-include"]]
+</div>
+<div class="monster-include" markdown="1">
 
 <a id="green-dragon-wyrmling">
 [[include dnd/monster-sheet.tpl]]
@@ -179,7 +179,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
 

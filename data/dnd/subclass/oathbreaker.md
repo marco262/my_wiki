@@ -12,7 +12,7 @@ A paladin must be evil and at least 3rd level to become an Oathbreaker. The pala
 || 15th || Supernatural Resistance ||
 || 20th || Dread Lord ||
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Oathbreaker Atonement**
 
@@ -22,7 +22,7 @@ The paladin who wishes to atone must first shed his or her evil alignment and de
 
 A paladin who breaks his or her sacred oath a second time can become an oathbreaker once more, but can't atone.
 
-[[/div]]
+</div>
 
 ## Oathbreaker Spells
 

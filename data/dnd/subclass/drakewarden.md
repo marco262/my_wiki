@@ -33,7 +33,7 @@ You gain the following benefits:
 
 ## Drake Companion
 
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 350px
@@ -60,7 +60,7 @@ actions = !**Bite.** *Melee Weapon Attack:* +3 plus PB to hit, reach 5 ft., one 
 reactions = !**Infused Strikes.** When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.
 [[/include]]
 
-[[/div]]
+</div>
 
 At 3rd level, as an action, you can magically summon the drake that is bound to you. It appears in an unoccupied space of your choice within 30 feet of you.
 

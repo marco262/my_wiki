@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -44,9 +44,9 @@ reactions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
@@ -80,7 +80,7 @@ companion_actions = !!!
 reaction = !***Deflect Attack.*** The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.
 [[/include]]
 
-[[/div]]
+</div>
 
 * [Artificer class](/dnd/class/Artificer)
 * [Battle Smith subclass](/dnd/class/Battle Smith)

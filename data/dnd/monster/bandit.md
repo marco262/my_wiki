@@ -1,6 +1,6 @@
 <a id="bandit"></a>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 400px
@@ -27,11 +27,11 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 <a id="bandit-captain"></a>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 width = 400px
@@ -63,7 +63,7 @@ actions = !!!
 reactions = !**Parry.** The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
 [[/include]]
 
-[[/div]]
+</div>
 
 ## Bandits
 

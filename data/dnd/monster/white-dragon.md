@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-white-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -51,9 +51,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="adult-white-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -106,9 +106,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="young-white-dragon">
 [[include dnd/monster-sheet.tpl]]
@@ -144,9 +144,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="white-dragon-wyrmling">
 [[include dnd/monster-sheet.tpl]]
@@ -177,7 +177,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 The smallest, least intelligent, and most animalistic of the chromatic dragons, white dragons dwell in frigid climes, favoring arctic areas or icy mountains. They are vicious, cruel reptiles driven by hunger and greed.
 

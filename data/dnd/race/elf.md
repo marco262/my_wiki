@@ -75,7 +75,7 @@ As a wood elf, you have keen senses and intuition, and your fleet feet carry you
 
 ## Dark Elf (Drow)
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **The Darkness Of The Drow**
 
@@ -85,7 +85,7 @@ Yet one drow, at least, broke the mold. In the world of the Forgotten Realms, Dr
 
 Drow grow up believing that surface-dwelling races are inferior, worthless except as slaves. Drow who develop a conscience or find it necessary to cooperate with members of other races find it hard to overcome that prejudice, especially when they are so often on the receiving end of hatred.
 
-[[/div]]
+</div>
 
 Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves. Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.
 

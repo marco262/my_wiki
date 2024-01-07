@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="air-elemental">
 
@@ -35,9 +35,9 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="earth-elemental">
 
@@ -75,9 +75,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="fire-elemental">
 [[include dnd/monster-sheet.tpl]]
@@ -115,9 +115,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="water-elemental">
 [[include dnd/monster-sheet.tpl]]
@@ -157,7 +157,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.
 

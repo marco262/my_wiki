@@ -14,11 +14,11 @@ Storm heralds are typically elite champions who train alongside druids, rangers,
 
 ## Storm Aura
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note:** In light of the Class Feature Variants allowing most classes to change out some of their class feature choices on a long rest, it would not be unreasonable to allow players to swap out their chosen environment on a long rest as well.
 
-[[/div]]
+</div>
 
 When you select this path at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.
 

@@ -1,51 +1,51 @@
-[[div class="monster-float"]]
+<div class="monster-float" markdown="1">
 
-[[div id="monodrone"]]
+<div id="monodrone" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/monodrone.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div id="duodrone"]]
+<div id="duodrone" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/duodrone.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div id="tridrone"]]
+<div id="tridrone" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/tridrone.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div id="quadrone"]]
+<div id="quadrone" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/quadrone.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div id="pentadrone"]]
+<div id="pentadrone" markdown="1">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/pentadrone.toml
 width = 500px
 [[/include]]
 
-[[/div]]
+</div>
 
-[[/div]]
+</div>
 
 Modrons are beings of absolute law that adhere to a hive-like hierarchy. They inhabit the plane of Mechanus and tend its eternally revolving gears, their existence a clockwork routine of perfect order.
 
@@ -79,13 +79,13 @@ Astute combatants, quadrones serve as artillery and field officers in the regime
 
 Pentadrones oversee Mechanus's worker populace and can improvise in response to new situations.
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.
 
 A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular mod ron of its rank.
 
-[[/div]]
+</div>
 
 <hr class="no-float">
 

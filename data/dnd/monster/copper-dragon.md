@@ -1,4 +1,4 @@
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="ancient-copper-dragon">
 
@@ -55,9 +55,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="adult-copper-dragon">
 
@@ -112,9 +112,9 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="young-copper-dragon">
 
@@ -154,9 +154,9 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
-[[div class="monster-include"]]
+<div class="monster-include" markdown="1">
 
 <a id="copper-dragon-wyrmling">
 
@@ -192,7 +192,7 @@ actions = !!!
 !!!
 [[/include]]
 
-[[/div]]
+</div>
 
 Copper dragons are incorrigible pranksters, joke tellers, and riddlers that live in hills and rocky uplands. Despite their gregarious and even-tempered natures, they possess a covetous, miserly streak, and can become dangerous when their hoards are threatened.
 

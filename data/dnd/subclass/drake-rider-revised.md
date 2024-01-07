@@ -32,17 +32,17 @@ You have raised a Drake from hatchling and formed a special bond with it, to the
 
 ## Draconic Mount
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 **Nightfury**
 
 The Nightfury is a variant drake type you can choose, with GM approval. The Nightfury has the same stats as the standard Drake Companion, but its Strength is reduced to 15, its fly speed is increased to 60 ft, it gains thunder resistance, and its breath weapon is a concussive blast with a 30 ft. range that does thunder damage in a 10 ft. sphere.
-[[/div]]
+</div>
 
 At 3rd level, your Drake is strong enough to enter combat with you.
 
 The stat block for your Drake is below:
 
-[[div style="display:inline-block; vertical-align: top; "]]
+<div style="display:inline-block; vertical-align: top; " markdown="1">
 [[include dnd/monster-sheet.tpl]]
 width = 350px
 name = Drake Companion
@@ -66,7 +66,7 @@ special_abilities =
 actions = !**Bite.** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
 [[/include]]
 
-[[/div]]
+</div>
 
 Choose a type for your Drake from the Drake Types table below. Your Drake gains resistance to its element type.
 

@@ -34,7 +34,7 @@ Some Rogues began their careers as criminals, while others used their cunning to
 
 ## Creating a Rogue
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Multiclassing and the Rogue**
 
@@ -46,7 +46,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Armor Training.*** When you gain your first Rogue level, you gain Light Armor training.
 
-[[/div]]
+</div>
 
 To create a Rogue, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Rogue" sidebar.
 
@@ -118,11 +118,11 @@ Your quick thinking and agility allow you to move and act quickly. On your turn,
 
 ### 3rd Level: Rogue Subclass
 
-[[div class="errata"]]
+<div class="errata" markdown="1">
 
 **Editor's Note** At my discretion, I've removed Steady Aim from the list of Rogue abilities as I believe it detracts from the gameplay experience. Use Cunning Action to Hide instead.
 
-[[/div]]
+</div>
 
 You gain a Rogue subclass of your choice: Arcane Trickster, Assassin, Swashbuckler, or Thief. Subclasses are detailed after this class's description.
 

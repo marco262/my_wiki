@@ -6,7 +6,7 @@ A banneret prefers to lead through deeds, not words. As a banneret spearheads an
 
 ## Rallying Cry
 
-[[div class="phb-sidebar"]]
+<div class="phb-sidebar" markdown="1">
 
 **Purple Dragon Knights**
 
@@ -14,7 +14,7 @@ In the Forgotten Realms setting, Bannerets are represented by the Purple Dragon 
 
 Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond their kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers.
 
-[[/div]]
+</div>
 
 When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.
 
