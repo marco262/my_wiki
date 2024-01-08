@@ -2,7 +2,7 @@ Brawlers focus their training and study not on swordplay and battle tactics, but
 
 ### Level 3: Unarmed Expert
 
-You can roll 1d6 plus your Strength modifier in place of the normal damage of your Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.
+You can roll 1d6 plus your Strength modifier in place of the normal damage of your [[glossary:Unarmed Strike]]. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.
 
 ### Level 3: Improvised Expert
 
@@ -20,13 +20,13 @@ In addition, whenever you attack with an Improvised Weapon, you can give it one 
 
 ### Level 7: Grappling Expert
 
-You can make one Unarmed Strike as a Bonus Action. When you use Unarmed Strike in this way, you must choose the Grapple or Shove option.
+You can make one [[glossary:Unarmed Strike]] as a Bonus Action. When you use [[glossary:Unarmed Strike]] in this way, you must choose the Grapple or Shove option.
 
 In addition, at the start of each of your turns, you can deal 1d6 Bludgeoning damage to one creature [[glossary:Grappled]] by you.
 
 ### Level 10: Dirty Fighting
 
-You have Advantage on attack rolls made with Improvised Weapons and Unarmed Strikes against a creature [[glossary:Grappled]] by you.
+You have Advantage on attack rolls made with Improvised Weapons and [[glossary:Unarmed Strike|Unarmed Strikes]] against a creature [[glossary:Grappled]] by you.
 
 ### Level 15: Improvised Specialist
 
@@ -36,7 +36,7 @@ In addition, whenever you attack with an Improvised Weapon, you can use two Mast
 
 ### Level 18: Unarmed Specialist
 
-Your Unarmed Strikes improve to a d8. If you aren't holding any weapons or a Shield when you make the attack roll, the d8 becomes a d10.
+Your [[glossary:Unarmed Strike|Unarmed Strikes]] improve to a d8. If you aren't holding any weapons or a Shield when you make the attack roll, the d8 becomes a d10.
 
 ----
 

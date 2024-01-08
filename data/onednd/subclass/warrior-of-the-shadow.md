@@ -14,7 +14,7 @@ While entirely within Dim Light or Darkness, you can use a Bonus Action to [[glo
 
 ### 11th Level: Improved Shadow Step
 
-You can draw on your connection to shadow to empower your [[glossary:Teleportation|Teleportation]]. When you use your Shadow Step, you can spend 1 Ki Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after the [[glossary:Teleportation|Teleportation]].
+You can draw on your connection to shadow to empower your [[glossary:Teleportation|Teleportation]]. When you use your Shadow Step, you can spend 1 Ki Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an [[glossary:Unarmed Strike]] immediately after the [[glossary:Teleportation|Teleportation]].
 
 ### 17th Level: Cloak of Shadows
 

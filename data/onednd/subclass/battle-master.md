@@ -44,7 +44,7 @@ Your Superiority Die becomes a d12.
 
 Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.
 
-***Commander's Strike.*** When you take the [[glossary:Attack]] action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack's damage roll on a hit.
+***Commander's Strike.*** When you take the [[glossary:Attack]] action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an [[glossary:Unarmed Strike]], adding the Superiority Die to the attack's damage roll on a hit.
 
 ***Commanding Presence.*** When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the ability check.
 
@@ -68,17 +68,17 @@ Roll the Superiority Die. Until the start of your next turn, you or the other cr
 
 ***Precision Attack.*** When you miss with an attack roll, you can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing it to hit.
 
-***Pushing Attack.*** When you hit a creature with an attack using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.
+***Pushing Attack.*** When you hit a creature with an attack using a weapon or an [[glossary:Unarmed Strike]], you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.
 
 ***Rally.*** As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus your Intelligence, Wisdom, or Charisma modifier (your choice).
 
-***Riposte.*** When a creature misses you with a melee attack, you can use your Reaction and expend one Superiority Die to make a melee attack with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage.
+***Riposte.*** When a creature misses you with a melee attack, you can use your Reaction and expend one Superiority Die to make a melee attack with a weapon or an [[glossary:Unarmed Strike]] against the creature. If you hit, add the Superiority Die to the attack's damage.
 
-***Sweeping Attack.*** When you hit a creature with a melee attack using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack.
+***Sweeping Attack.*** When you hit a creature with a melee attack using a weapon or an [[glossary:Unarmed Strike]], you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack.
 
 ***Tactical Assessment.*** When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add that die to the ability check.
 
-***Trip Attack.*** When you hit a creature with an attack using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition.
+***Trip Attack.*** When you hit a creature with an attack using a weapon or an [[glossary:Unarmed Strike]], you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition.
 
 ----
 

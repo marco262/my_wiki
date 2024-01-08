@@ -82,13 +82,13 @@ As a Monk, you gain the following class features when you reach the specified le
 
 ### Level 1: Martial Arts
 
-Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk Weapons, which are Simple Melee Weapons and Martial Weapons with the Light property.
+Your practice of martial arts gives you mastery of combat styles that use your [[glossary:Unarmed Strike]] and Monk Weapons, which are Simple Melee Weapons and Martial Weapons with the Light property.
 
 You gain the following benefits while you are unarmed or wielding only Monk Weapons and you aren't wearing armor or wielding a Shield:
 
-**Bonus Unarmed Strike.** You can make one Unarmed Strike as a Bonus Action.  
-**Dexterous Attacks.** You can use Dexterity instead of Strength for the attack and damage rolls of your Unarmed Strikes and Monk Weapons. In addition, when you choose the Grapple or Shove option, you can use your Dexterity modifier instead of Strength to determine the saving throw DC.  
-**Martial Arts Die.** You can roll a d6 in place of the normal damage of your Unarmed Strike or Monk Weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk table.
+**Bonus Unarmed Strike.** You can make one [[glossary:Unarmed Strike]] as a Bonus Action.  
+**Dexterous Attacks.** You can use Dexterity instead of Strength for the attack and damage rolls of your [[glossary:Unarmed Strike|Unarmed Strikes]] and Monk Weapons. In addition, when you choose the Grapple or Shove option, you can use your Dexterity modifier instead of Strength to determine the saving throw DC.  
+**Martial Arts Die.** You can roll a d6 in place of the normal damage of your [[glossary:Unarmed Strike]] or Monk Weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk table.
 
 ### Level 1: Unarmored Defense
 
@@ -110,7 +110,7 @@ When you spend a Ki Point, it is unavailable until you finish a [[glossary:Short
 
 Some features that use Ki Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.
 
-***Flurry of Blows.*** You can spend 1 Ki Point to make two Unarmed Strikes as a Bonus Action.
+***Flurry of Blows.*** You can spend 1 Ki Point to make two [[glossary:Unarmed Strike|Unarmed Strikes]] as a Bonus Action.
 
 ***Patient Defense.*** You can take the Disengage action as a Bonus Action. Alternatively, you can spend 1 Ki Point to take both the Disengage and the Dodge actions as a Bonus Action.
 
@@ -156,11 +156,11 @@ You can attack twice, instead of once, whenever you take the [[glossary:Attack]]
 
 ### Level 5: Stunning Strike
 
-Once per turn when you hit a creature with a Monk Weapon or an Unarmed Strike, you can spend 1 Ki Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier.
+Once per turn when you hit a creature with a Monk Weapon or an [[glossary:Unarmed Strike]], you can spend 1 Ki Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier.
 
 ### Level 6: Empowered Strikes
 
-Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.
+Whenever you deal damage with your [[glossary:Unarmed Strike]], it can deal your choice of Force damage or its normal damage type.
 
 ### Level 7: Evasion
 
@@ -176,7 +176,7 @@ While you aren't wearing armor or wielding a Shield, you gain the ability to mov
 
 Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:
 
-**Flurry of Blows.** You can spend 1 Ki Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.  
+**Flurry of Blows.** You can spend 1 Ki Point to use Flurry of Blows and make three [[glossary:Unarmed Strike|Unarmed Strikes]] with it instead of two.  
 **Patient Defense.** When you spend a Ki Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.  
 **Step of the Wind.** When you spend a Ki Point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
 

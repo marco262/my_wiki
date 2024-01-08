@@ -28,9 +28,9 @@ Always on the lookout for danger, you gain the following benefits:
 
 You are adept at crafting things and bargaining with merchants, granting you the following benefits:
 
-* **Tool Proficiency.** You gain Tool Proficiency with three different Artisan's Tools of your choice.
+* **Tool Proficiency.** You gain [[glossary:Tool Proficiency]] with three different Artisan's Tools of your choice.
 * **Discount.** Whenever you buy a nonmagical item, you receive a 20 percent discount on it.
-* **Faster Crafting.** When you craft an item using a tool with which you have Tool Proficiency, the required crafting time is reduced by 20 percent.
+* **Faster Crafting.** When you craft an item using a tool with which you have [[glossary:Tool Proficiency]], the required crafting time is reduced by 20 percent.
 
 ## Fighting Style: Archery
 
@@ -111,7 +111,7 @@ When you make the extra attack granted by the Light weapon property, you can add
 _Prerequisite: Fighting Style Feature_  
 _Source: Tasha's Cauldron of Everything, p. 41_
 
-Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
+Your [[glossary:Unarmed Strike|Unarmed Strikes]] can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
 
 At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.
 
@@ -164,8 +164,8 @@ Whenever you gain a new level, you can replace one of the Spells you chose for t
 
 You are a practiced musician, granting you the following benefits:
 
-* **Instrument Training.** You gain Tool Proficiency with three Musical Instruments of your choice.
-* **Inspiring Song.** As you finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]], you can play a song on a Musical Instrument with which you have Tool Proficiency and give Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.
+* **Instrument Training.** You gain [[glossary:Tool Proficiency]] with three Musical Instruments of your choice.
+* **Inspiring Song.** As you finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]], you can play a song on a Musical Instrument with which you have [[glossary:Tool Proficiency]] and give Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.
 
 ## Savage Attacker
 
@@ -188,9 +188,9 @@ You have exceptionally broad learning. Choose three Skills in which you lack Pro
 
 Accustomed to brawling, you gain the following benefits:
 
-* **Enhanced Unarmed Strike.** When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning Damage equal to 1d4 + your Strength modifier, instead of the normal damage of an Unarmed Strike.
-* **Damage Rerolls.** Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.
-* **Shove.** When you hit a creature with an Unarmed Strike as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.
+* **Enhanced Unarmed Strike.** When you hit with your [[glossary:Unarmed Strike]] and deal damage, you can deal Bludgeoning Damage equal to 1d4 + your Strength modifier, instead of the normal damage of an [[glossary:Unarmed Strike]].
+* **Damage Rerolls.** Whenever you roll a damage die for your [[glossary:Unarmed Strike]], you can reroll the die if it rolls a 1, and you must use the new roll.
+* **Shove.** When you hit a creature with an [[glossary:Unarmed Strike]] as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.
 * **Furniture as Weapons.** You can wield furniture as a Weapon, using the rules of the Greatclub for Small or Medium furniture and the rules of the Club for Tiny furniture.
 
 ## Tough
@@ -309,7 +309,7 @@ You're an accomplished wrestler, granting you the following benefits:
 * **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * **Attack Advantage.** You have Advantage on Attack Rolls against a creature [[glossary:Grappled]] by you.
 * **Fast Wrestler.** You aren't Slowed when you move a creature [[glossary:Grappled]] by you, provided the creature is your Size or smaller.
-* **Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
+* **Punch and Grab.** When you hit a creature with an [[glossary:Unarmed Strike]] as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
 
 ## Great Weapon Master
 
@@ -652,7 +652,7 @@ _Prerequisite: Priest Group_
 _Source: [Druid and Paladin](https://www.dndbeyond.com/sources/ua/druid-paladin)_
 
 **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.  
-**Truesight.** You have Truesight within a range of 60 feet.
+**Truesight.** You have [[glossary:Truesight]] within a range of 60 feet.
 
 ## Epic Boon of Undetectability
 

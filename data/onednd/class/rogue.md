@@ -188,7 +188,7 @@ You gain a feature from your Rogue subclass.
 You have practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.
 
 * ***Daze (Cost: 2d6).*** The target must succeed on a Constitution saving throw, or it has the [[glossary:Dazed]] condition until the end of its next turn.
-* ***Knock Out (Cost: 6d6).*** The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
+* ***Knock Out (Cost: 6d6).*** The target must succeed on a Constitution saving throw, or it has the [[glossary:Unconscious]] condition for 1 minute or until it takes any damage. The [[glossary:Unconscious]] target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
 * ***Obscure (Cost: 3d6).*** You strike near the target's eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.
 
 ### 15th Level: Slippery Mind

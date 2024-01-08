@@ -2,7 +2,7 @@ A Champion focuses on the development of martial prowess in a relentless pursuit
 
 ### Level 3: Improved Critical
 
-Your attack rolls with weapons and Unarmed Strikes can score a critical hit on a roll of 19 or 20.
+Your attack rolls with weapons and [[glossary:Unarmed Strike|Unarmed Strikes]] can score a critical hit on a roll of 19 or 20.
 
 ### Level 3: Remarkable Athlete
 
@@ -18,7 +18,7 @@ The thrill of battle drives you toward victory. During combat, you can give your
 
 ### Level 15: Superior Critical
 
-Your attack rolls with weapons and Unarmed Strikes can now score a critical hit on a roll of 18–20.
+Your attack rolls with weapons and [[glossary:Unarmed Strike|Unarmed Strikes]] can now score a critical hit on a roll of 18–20.
 
 ### Level 18: Survivor
 
