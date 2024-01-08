@@ -107,7 +107,7 @@ When you reach certain Fighter levels, you gain the ability to use the Mastery p
 
 ### Level 2: Action Surge
 
-You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
+You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the [[glossary:Magic]] action.
 
 Once you use this feature, you must finish a Short Rest or [[glossary:Long Rest]] before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
 

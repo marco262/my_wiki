@@ -16,7 +16,7 @@ You summon nature spirits that take the form of a Large swarm of spectral animal
 
 When a creature hostile to you enters a space within 10 feet of the swarm for the first time on a turn or starts its turn there, you can make a melee spell attack against that creature. On a hit, the target takes Radiant damage equal to 2d10 plus your spellcasting ability modifier.
 
-You have Advantage on Strength saving throws while you're within 10 feet of the swarm, and when you Move on your turn, you can also move the swarm up to 30 feet to an unoccupied space you can see.
+You have Advantage on Strength saving throws while you're within 10 feet of the swarm, and when you [[glossary:Move]] on your turn, you can also move the swarm up to 30 feet to an unoccupied space you can see.
 """
 at_higher_levels = "When you cast this spell using a spell slot of level 4 or higher, the damage increases by 1d10 for each slot level above 3."
 source = "Player's Handbook Playtest 8"

@@ -438,7 +438,7 @@ You have studied ritual magic, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 * **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag from the [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
-* **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a Ritual. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a [[glossary:Long Rest]].
+* **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a [[glossary:Ritual Casting|Ritual]]. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a [[glossary:Long Rest]].
 
 ## Sentinel
 

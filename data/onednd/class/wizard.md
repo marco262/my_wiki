@@ -129,7 +129,7 @@ If another Wizard feature gives spells that you always have prepared, those spel
 
 ***Changing Your Prepared Spells.*** Whenever you finish a [[glossary:Long Rest]], you can change your list of prepared spells, replacing one or more of the spells there. Preparing a new list requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast a spell: at least 1 minute per spell level for each spell you add to the list.
 
-***Ritual Caster.*** You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.
+***Ritual Caster.*** You can cast any spell as a [[glossary:Ritual Casting|Ritual]] if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.
 
 ***Spellcasting Ability.*** Intelligence is your spellcasting ability for the spells you cast with your Wizard features.
 

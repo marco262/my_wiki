@@ -42,7 +42,7 @@ Your connection to nature infuses you with the ability to cast certain spells. W
 
 ### 3rd Level: Land's Aid
 
-You can channel the power of the land itself to bolster friends and harm foes. As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius sphere centered on that point. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 Necrotic damage on a failed save, or half as much damage on a successful one.
+You can channel the power of the land itself to bolster friends and harm foes. As a [[glossary:Magic]] action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius sphere centered on that point. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 Necrotic damage on a failed save, or half as much damage on a successful one.
 
 In addition, one creature of your choice in that area regains 2d6 Hit Points.
 
@@ -60,7 +60,7 @@ Your bond with the land protects you. You are immune to the Poisoned condition, 
 
 ### 14th Level: Nature's Sanctuary
 
-Nature can rise up to protect you and your allies. As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on ground within 120 feet of yourself. They last there for 1 minute or until you have the [[glossary:Incapacitated]] condition. You and your allies have Half Cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.
+Nature can rise up to protect you and your allies. As a [[glossary:Magic]] action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on ground within 120 feet of yourself. They last there for 1 minute or until you have the [[glossary:Incapacitated]] condition. You and your allies have Half Cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.
 
 As a Bonus Action, you can move the cube up to 60 feet to ground within 120 feet of yourself.
 

@@ -12,7 +12,7 @@ expensive_material_component = false
 material_component_consumed = false
 duration = "Concentration, up to 10 minutes"
 description = """
-You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40- foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you Move on your turn, you can also move the Cylinder up to 30 feet.
+You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40- foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you [[glossary:Move]] on your turn, you can also move the Cylinder up to 30 feet.
 
 When a creature enters the Cylinder for the first time on a turn or starts its turn there, you can bathe that creature in one of the following lights:
 

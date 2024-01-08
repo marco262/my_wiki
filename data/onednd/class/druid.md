@@ -126,7 +126,7 @@ If another Druid feature gives spells that you always have prepared, those spell
 
 ### Level 2: Wild Companion
 
-You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without material components.
+You can summon a nature spirit that assumes an animal form to aid you. As a [[glossary:Magic]] action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without material components.
 
 When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a [[glossary:Long Rest]].
 

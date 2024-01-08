@@ -35,7 +35,7 @@ proficiency_bonus = equals your bonus
 special_abilities = !!!
 ***Amphibious (Water Only).*** The familiar can breathe air and water.
 
-***Extradimensional Escape (Recharges after a Long Rest).*** When the familiar would drop to 0 Hit Points, it instead drops to 1 Hit Point and vanishes into an extradimensional space, leaving behind anything it was wearing or carrying. It remains there for 1 hour or until you summon it as a Magic action, and then it reappears in your space.
+***Extradimensional Escape (Recharges after a Long Rest).*** When the familiar would drop to 0 Hit Points, it instead drops to 1 Hit Point and vanishes into an extradimensional space, leaving behind anything it was wearing or carrying. It remains there for 1 hour or until you summon it as a [[glossary:Magic]] action, and then it reappears in your space.
 !!!
 actions = !!!
 ***Otherworldly Scratch.*** _Melee Spell Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1 + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend).
@@ -53,10 +53,10 @@ Whenever you cast the spell, choose the familiar's creature type: Celestial, Fey
 
 ***Combat.*** The familiar is an ally to you and your companions. In combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you), but the familiar can't attack unless you use your Reaction on its turn to command it do so.
 
-If you don't issue any commands, the familiar takes the Dodge action and uses its Move to avoid danger.
+If you don't issue any commands, the familiar takes the Dodge action and uses its [[glossary:Move]] to avoid danger.
 
 ***Disappearance of the Familiar.*** The familiar disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the familiar that disappeared or a different one.
 
-***Remote Viewing.*** As a Magic action, you can see what your familiar sees and hear what it hears until the end of your next turn."""
+***Remote Viewing.*** As a [[glossary:Magic]] action, you can see what your familiar sees and hear what it hears until the end of your next turn."""
 source = "Druid and Paladin"
 source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"

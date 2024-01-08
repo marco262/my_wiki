@@ -125,11 +125,11 @@ You can use Channel Divinity twice. You regain one expended use when you finish 
 
 If a Channel Divinity effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature.
 
-***Divine Spark.*** As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant (your choice) damage equal to that total. On a successful save, the creature takes half as much damage (round down).
+***Divine Spark.*** As a [[glossary:Magic]] action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant (your choice) damage equal to that total. On a successful save, the creature takes half as much damage (round down).
 
 You roll an additional d8 when you reach certain Cleric levels: 7th level (2d8), 13th level (3d8), and 18th level (4d8).
 
-***Turn Undead.*** As a Magic action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it has the Frightened and [[glossary:Incapacitated]] conditions for 1 minute. This effect ends early on the creature if it takes any damage, you have the [[glossary:Incapacitated]] condition, or you die. 
+***Turn Undead.*** As a [[glossary:Magic]] action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it has the Frightened and [[glossary:Incapacitated]] conditions for 1 minute. This effect ends early on the creature if it takes any damage, you have the [[glossary:Incapacitated]] condition, or you die. 
 
 ### 3rd Level: Cleric Subclass
 
@@ -168,7 +168,7 @@ In the past, you have reached the divine source of your power through prayer. No
 
 ### 10th Level: Divine Intervention
 
-You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of 5th level or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing material components. You then can't use this feature again until you finish a [[glossary:Long Rest]].
+You can call on your deity or pantheon to intervene on your behalf. As a [[glossary:Magic]] action, choose any Cleric spell of 5th level or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing material components. You then can't use this feature again until you finish a [[glossary:Long Rest]].
 
 ### 12th Level: Ability Score Improvement
 

@@ -11,7 +11,7 @@ In addition, at the start of your turn, you can spend 1 Ki Point to imbue yourse
 
 ### 6th Level: Environmental Burst
 
-As a Magic action, you can spend 2 Ki Points to cause environmental energy to burst in a 20-foot-radius sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, or Lightning.
+As a [[glossary:Magic]] action, you can spend 2 Ki Points to cause environmental energy to burst in a 20-foot-radius sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, or Lightning.
 
 Each creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.
 
