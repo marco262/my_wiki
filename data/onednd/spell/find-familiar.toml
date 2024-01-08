@@ -30,7 +30,7 @@ intelligence = 10
 wisdom = 14
 charisma = 8
 senses = darkvision 60 ft., passive Perception 12
-languages = Telepathy 120 ft. (only between you and the familiar)
+languages = [[glossary:Telepathy]] 120 ft. (only between you and the familiar)
 proficiency_bonus = equals your bonus
 special_abilities = !!!
 ***Amphibious (Water Only).*** The familiar can breathe air and water.

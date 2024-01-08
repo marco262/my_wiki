@@ -27,7 +27,7 @@ intelligence = 6
 wisdom = 12
 charisma = 8
 senses = Passive Perception 11
-languages = Telepathy 1 mile (only between you and the steed)
+languages = [[glossary:Telepathy]] 1 mile (only between you and the steed)
 proficiency_bonus = equals your bonus
 special_abilities = !!!
 ***Life Bond.*** When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it.
@@ -36,7 +36,7 @@ actions = !!!
 ***Otherworldly Maul.*** _Melee Spell Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1d8 + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend).
 !!!
 bonus_actions = !!!
-***Fey Step (Fey Only; Recharges after a Long Rest).*** The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away.
+***Fey Step (Fey Only; Recharges after a Long Rest).*** The steed [[glossary:Teleportation|Teleports]], along with its rider, to an unoccupied space of your choice up to 60 feet away.
 
 ***Fell Glare (Fiend Only; Recharges after a Long Rest).*** The steed's eyes gleam with fiendish light as it targets one creature it can perceive up to 60 feet away. The target must succeed on a Wisdom saving throw against your Spell Save DC or have the Frightened condition until the end of your next turn.
 

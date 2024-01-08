@@ -41,7 +41,7 @@ When you use the Frighten effect of your Dread Ambusher feature, you can cause o
 
 ### 15th Level: Shadowy Dodge
 
-You can dodge with wisps of supernatural shadow around you. When a creature makes an attack roll against you, you can use your Reaction to impose Disadvantage on that roll. If the attack then misses, you can teleport up to 30 feet to an unoccupied space you can see.
+You can dodge with wisps of supernatural shadow around you. When a creature makes an attack roll against you, you can use your Reaction to impose Disadvantage on that roll. If the attack then misses, you can [[glossary:Teleportation|Teleport]] up to 30 feet to an unoccupied space you can see.
 
 ----
 

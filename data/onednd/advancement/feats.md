@@ -560,7 +560,7 @@ _Prerequisite: Expert or Mage Group_
 _Source: [Player's Handbook Playtest 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)_
 
 **Ability Score Increase.** Increase your Dexterity, Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.
-**Blink Steps.** Immediately after you take the [[glossary:Attack]] action or the [[glossary:Magic]] action, you can teleport up to 30 feet to an unoccupied space you can see.
+**Blink Steps.** Immediately after you take the [[glossary:Attack]] action or the [[glossary:Magic]] action, you can [[glossary:Teleportation|Teleport]] up to 30 feet to an unoccupied space you can see.
 
 ## Epic Boon of Energy Resistance
 
