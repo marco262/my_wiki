@@ -43,6 +43,7 @@
 * Pick out minis for Shadows, Crab
 * Prep inter-chapter cutscene: script, visual aids, music/ambience
 * Add more Common magic items to B2
+* Replace Shadows with zombies, to give people the chance to play with their abilities a bit and feel badass
 
 ### Reminders
 
