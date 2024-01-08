@@ -63,13 +63,13 @@ If the magical effect is a spell, it is too wild to be affected by your Metamagi
 
 ### Level 3: Tides of Chaos
 
-You can manipulate the forces of chance and chaos to gain Advantage on one d20 Test. Once you do so, you must finish a Long Rest before you can use this feature again.
+You can manipulate the forces of chance and chaos to gain Advantage on one [[glossary:d20 Test]]. Once you do so, you must finish a [[glossary:Long Rest]] before you can use this feature again.
 
 Immediately after you cast a Sorcerer spell with a spell slot before you regain the use of this feature, you automatically roll on the Wild Magic Surge table and regain the use of this feature.
 
 ### Level 6: Bend Luck
 
-You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the d20 for a d20 Test, you can use your Reaction and spend 1 Sorcery Point to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.
+You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the d20 for a [[glossary:d20 Test]], you can use your Reaction and spend 1 Sorcery Point to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll.
 
 ### Level 14: Controlled Chaos
 
@@ -87,7 +87,7 @@ When using Wild Bombardment, you may pick any choice from the Wild Magic Surge t
 
 Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the Wild Magic Surge table, provided the effect casts a spell or restores all your expended Sorcery Points.
 
-Once you use this feature, you can't do so again until you finish 1d4 Long Rests.
+Once you use this feature, you can't do so again until you finish 1d4 [[glossary:Long Rest|Long Rests]].
 
 ----
 

@@ -4,7 +4,7 @@ The tradition of the Four Elements encompasses Monks who tap into the power of t
 
 You have attuned yourself with the elemental forces of the multiverse. You know the _[[[spell:Elementalism]]]_ cantrip.
 
-In addition, at the start of your turn, you can spend 1 Ki Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits for the duration:
+In addition, at the start of your turn, you can spend 1 Ki Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the [[glossary:Incapacitated]] condition. You gain the following benefits for the duration:
 
 **Elemental Strikes.** Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, or Lightning damage rather than its normal damage type. When you deal one of these types with your Unarmed Strike, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.  
 **Reach.** When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.
@@ -19,7 +19,7 @@ Before or after you take this action, you can make one Unarmed Strike as a Bonus
 
 ### 11th Level: Stride of The Elements
 
-When you use your Step of the Wind, you gain a Fly Speed and Swim Speed equal to your Speed for 10 minutes.
+When you use your Step of the Wind, you gain a [[glossary:Fly Speed]] and Swim Speed equal to your Speed for 10 minutes.
 
 ### 17th Level: Elemental Epitome
 

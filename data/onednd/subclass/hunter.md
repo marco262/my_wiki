@@ -18,7 +18,7 @@ You can call on the forces of nature to reveal certain strengths and weaknesses 
 
 You gain one of the following feature options of your choice.
 
-***Evasion.*** When you are subjected to an effect that lets you make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.
+***Evasion.*** When you are subjected to an effect that lets you make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the [[glossary:Incapacitated]] condition.
 
 ***Hunter's Leap.*** If an enemy you can see enters a space within 5 feet of you, you can use your Reaction to move up to half your Speed without provoking Opportunity Attacks.
 

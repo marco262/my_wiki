@@ -44,11 +44,11 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Proficiencies Gained.*** If Rogue isn't your initial class, here are the proficiencies you gain when you take your first Rogue level: Thieves' Tools and one skill of your choice from the Rogue's skill list.
 
-***Armor Training.*** When you gain your first Rogue level, you gain Light Armor training.
+***Armor Training.*** When you gain your first Rogue level, you gain [[glossary:armor training]] with Light Armor.
 
 </div>
 
-To create a Rogue, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Rogue" sidebar.
+To create a Rogue, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Rogue" sidebar.
 
 Then look at the Rogue table to see the class features you get at each level in this class. The descriptions of those features appear in the [Rogue Class Features](#rogue-class-features) section.
 
@@ -89,7 +89,7 @@ As a Rogue, you gain the following class features when you reach the specified l
 
 ### 1st Level: Expertise
 
-You gain Expertise in two of your skill proficiencies of your choice.
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice.
 
 Sleight of Hand and Stealth are iconic choices for a Rogue if you have proficiency in them.
 
@@ -98,7 +98,7 @@ Sleight of Hand and Stealth are iconic choices for a Rogue if you have proficien
 You know how to turn a subtle attack into a deadly one. Once per turn, you can deal extra damage to one creature you hit with an attack roll if you're attacking with a Finesse or Ranged weapon and if at least one of the following requirements is met:
 
 * **Advantage.** You have Advantage on the attack roll.
-* **Ally Adjacent to Target.** At least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.
+* **Ally Adjacent to Target.** At least one of your allies is within 5 feet of the target, the ally doesn't have the [[glossary:Incapacitated]] condition, and you don't have Disadvantage on the attack roll.
 
 To determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type.
 
@@ -110,17 +110,17 @@ You picked up various languages in the communities where you plied your roguish 
 
 Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
 
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords.
+Whenever you finish a [[glossary:Long Rest]], you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords.
 
 ### 2nd Level: Cunning Action
 
-Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.
+Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or [[glossary:Hide]].
 
 ### 3rd Level: Rogue Subclass
 
 <div class="errata" markdown="1">
 
-**Editor's Note** At my discretion, I've removed Steady Aim from the list of Rogue abilities as I believe it detracts from the gameplay experience. Use Cunning Action to Hide instead.
+**Editor's Note** I've removed Steady Aim from the list of Rogue abilities as I believe it detracts from the gameplay experience. Use Cunning Action to [[glossary:Hide]] instead.
 
 </div>
 
@@ -149,11 +149,11 @@ When an attacker that you can see hits you with an attack roll, you can use your
 
 ### 6th Level: Expertise
 
-You gain Expertise in two of your skill proficiencies of your choice.
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice.
 
 ### 7th Level: Evasion
 
-You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.
+You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the [[glossary:Incapacitated]] condition.
 
 ### 7th Level: Reliable Talent
 
@@ -187,7 +187,7 @@ You gain a feature from your Rogue subclass.
 
 You have practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.
 
-* ***Daze (Cost: 2d6).*** The target must succeed on a Constitution saving throw, or it has the Dazed condition until the end of its next turn.
+* ***Daze (Cost: 2d6).*** The target must succeed on a Constitution saving throw, or it has the [[glossary:Dazed]] condition until the end of its next turn.
 * ***Knock Out (Cost: 6d6).*** The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
 * ***Obscure (Cost: 3d6).*** You strike near the target's eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.
 
@@ -205,7 +205,7 @@ You gain a feature from your Rogue subclass.
 
 ### 18th Level: Elusive
 
-You are so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.
+You are so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the [[glossary:Incapacitated]] condition.
 
 ### 19th Level: Ability Score Improvement
 
@@ -213,9 +213,9 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### 20th Level: Stroke of Luck
 
-You have an uncanny knack for succeeding when you need to. If you fail a d20 Test, you can turn the roll into a 20.
+You have an uncanny knack for succeeding when you need to. If you fail a [[glossary:d20 Test]], you can turn the roll into a 20.
 
-Once you use this feature, you can't use it again until you finish a Short Rest or a Long Rest.
+Once you use this feature, you can't use it again until you finish a Short Rest or a [[glossary:Long Rest]].
 
 # Rogue Subclasses
 

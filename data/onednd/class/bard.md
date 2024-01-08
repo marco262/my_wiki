@@ -46,7 +46,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Proficiencies.*** If Bard isn't your initial class, here are the proficiencies you gain when you take your first Bard level: one skill of your choice and one Musical Instrument of your choice.
 
-***Armor Training.*** When you gain your first Bard level, you gain Light Armor training.
+***Armor Training.*** When you gain your first Bard level, you gain [[glossary:armor training]] with Light Armor.
 
 ***Spell Slots.*** Add all your Bard levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.
 
@@ -112,7 +112,7 @@ Whenever you gain a Bard level, you can replace one of your cantrips from this f
 
 When you reach levels 4 and 10 in this class, you learn another Bard cantrip of your choice, as shown in the Cantrips column of the Bard table.
 
-***Spell Slots.*** The Bard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Bard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
 ***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the [Bard spell list](/onednd/spell_list/bard). Rather than choosing, you may start with _[[[spell:Cure Wounds]]]_, _[[[spell:Dissonant Whispers]]]_, _[[[spell:Heroism]]]_, and _[[[spell:Thunderwave]]]_.
 
@@ -124,7 +124,7 @@ If another Bard feature gives spells that you always have prepared, those spells
 
 **Houserule: Changing Your Prepared Spells**
 
-Whenever you finish a Long Rest, you can replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
+Whenever you finish a [[glossary:Long Rest]], you can replace one spell on your list with another Bard spell for which you have spell slots. Whenever you gain a Bard level, you can replace any spells on your list with the same number of Bard spells for which you have spell slots.
 
 </div>
 
@@ -180,7 +180,15 @@ You gain [[glossary:Expertise]] in two of your skill proficiencies of your choic
 
 ### 10th Level: Magical Secrets
 
-You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard spell list now includes the Arcane, Divine, and Primal spell lists. 
+<div class="errata" markdown="1">
+
+**Editor's Note**
+
+Because the Arcave/Divine/Primal spell lists are apparently in the process of being phased out, this feature has been changed so Magical Secrets now gives you access to all non-exclusive spells.
+
+</div>
+
+You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard spell list now also includes all spells not limited to a single class.
 
 ### 12th Level: Ability Score Improvement
 

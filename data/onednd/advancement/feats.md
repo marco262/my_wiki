@@ -133,7 +133,7 @@ You have the training and intuition to administer first aid and other care effec
 You have inexplicable luck that can kick in at just the right moment, granting you the following benefits:
 
 * **Luck Points.** You have a number of Luck Points equal to your Proficiency Bonus. You can spend the points on the benefits below, and you regain your expended Luck Points when you finish a [[glossary:Long Rest]].
-* **Advantage.** Immediately after you roll a d20 for a d20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.
+* **Advantage.** Immediately after you roll a d20 for a [[glossary:d20 Test]], you can spend 1 Luck Point to give yourself Advantage on the roll.
 * **Disadvantage.** When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.
 
 ## Lightly Armored
@@ -172,7 +172,7 @@ You are a practiced musician, granting you the following benefits:
 **Prerequisite:** None  
 **Repeatable:** No
 
-You have trained to deal particularly damaging strikes. When you take the Attack Action and hit a target with a Weapon as part of that Action, you can roll the Weapon's damage dice twice and use either roll against the target. You can use this benefit only once per turn.
+You have trained to deal particularly damaging strikes. When you take the [[glossary:Attack]] Action and hit a target with a Weapon as part of that Action, you can roll the Weapon's damage dice twice and use either roll against the target. You can use this benefit only once per turn.
 
 ## Skilled
 
@@ -190,7 +190,7 @@ Accustomed to brawling, you gain the following benefits:
 
 * **Enhanced Unarmed Strike.** When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning Damage equal to 1d4 + your Strength modifier, instead of the normal damage of an Unarmed Strike.
 * **Damage Rerolls.** Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.
-* **Shove.** When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.
+* **Shove.** When you hit a creature with an Unarmed Strike as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.
 * **Furniture as Weapons.** You can wield furniture as a Weapon, using the rules of the Greatclub for Small or Medium furniture and the rules of the Club for Tiny furniture.
 
 ## Tough
@@ -243,7 +243,7 @@ You have trained to charge headlong into battle, gaining the following benefits:
 
 * **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * **Improved Dash.** When you take the Dash Action, your Speed increases by 10 feet for that Action.
-* **Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
+* **Charge Attack.** If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the [[glossary:Attack]] Action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target you want to push is no more than one Size larger than you. You can use this benefit only once on each of your turns.
 
 ## Crossbow Expert
 
@@ -309,7 +309,7 @@ You're an accomplished wrestler, granting you the following benefits:
 * **Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * **Attack Advantage.** You have Advantage on Attack Rolls against a creature [[glossary:Grappled]] by you.
 * **Fast Wrestler.** You aren't Slowed when you move a creature [[glossary:Grappled]] by you, provided the creature is your Size or smaller.
-* **Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
+* **Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the [[glossary:Attack]] Action on your turn, you can deal damage to the target and also grapple it. You can use this benefit only once per turn.
 
 ## Great Weapon Master
 
@@ -320,7 +320,7 @@ You've learned to use the weight of a weapon to your advantage, letting its mome
 
 * **Ability Score Increase.** Increase your Strength score by 1, to a maximum of 20.
 * **Cleave.** Immediately after you score a Critical Hit with a Melee Weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.
-* **Heavy Weapon Mastery.** When you hit a creature with a Heavy Weapon as part of the Attack Action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus, and you can deal it only once per turn.
+* **Heavy Weapon Mastery.** When you hit a creature with a Heavy Weapon as part of the [[glossary:Attack]] Action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus, and you can deal it only once per turn.
 
 ## Heavily Armored
 
@@ -416,7 +416,7 @@ Quick to notice details around you, you gain the following benefits:
 You have trained extensively with pole weapons that have Reach, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Strength score by 1, to a maximum of 20.
-* **Pole Strike.** Immediately after you take the Attack Action and attack with a Weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a Melee Attack with the opposite end of the Weapon. The weapon's damage die for this attack is a d4, and it deals Bludgeoning Damage.
+* **Pole Strike.** Immediately after you take the [[glossary:Attack]] Action and attack with a Weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a Melee Attack with the opposite end of the Weapon. The weapon's damage die for this attack is a d4, and it deals Bludgeoning Damage.
 * **Reactive Strike.** While you are holding a Weapon that has the Heavy and Reach properties, you can use your Reaction to make one Melee Attack against a creature that enters the Reach you have with that Weapon.
 
 ## Resilient
@@ -471,7 +471,7 @@ You can make shots that others find impossible, granting you the following benef
 You've trained to use shields not just for protection, but also for offense, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Strength score by 1, to a maximum of 20.
-* **Shield Bash.** If you attack a creature within 5 feet of you as part of the Attack Action and hit with a Melee Weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength Saving Throw against a DC equal to 8 + your Strength modifier + your Proficiency Bonus. On a failed save, you knock the target Prone or push it 5 feet away. You can use this benefit only once on each of your turns.
+* **Shield Bash.** If you attack a creature within 5 feet of you as part of the [[glossary:Attack]] Action and hit with a Melee Weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength Saving Throw against a DC equal to 8 + your Strength modifier + your Proficiency Bonus. On a failed save, you knock the target Prone or push it 5 feet away. You can use this benefit only once on each of your turns.
 * **Interpose Shield.** If you are subjected to an effect that allows you to make a Dexterity Saving Throw to take only half damage, you can use your Reaction to take no damage if you succeed on the Saving Throw and are wielding a Shield, interposing your shield between yourself and the source of the effect.
 
 ## Skulker
@@ -598,7 +598,7 @@ The damage you deal always ignores Resistance.
 **Prerequisite:** Expert Group  
 **Repeatable:** No
 
-Immediately after you roll a d20 for a d20 Test, you can roll a d10 and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]].
+Immediately after you roll a d20 for a [[glossary:d20 Test]], you can roll a d10 and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]].
 
 ## Epic Boon of the Night Spirit
 

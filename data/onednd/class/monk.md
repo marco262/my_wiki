@@ -44,7 +44,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 </div>
 
-To create a Monk, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Monk" sidebar.
+To create a Monk, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Monk" sidebar.
 
 Then look at the Monk table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Monk Class Features](#monk-class-features) section.
 
@@ -106,7 +106,7 @@ Your self-discipline and martial training allow you to harness a well of extraor
 
 You can spend these points to fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 
-When you spend a Ki Point, it is unavailable until you finish a Short Rest or Long Rest, at the end of which you regain all your expended points.
+When you spend a Ki Point, it is unavailable until you finish a Short Rest or [[glossary:Long Rest]], at the end of which you regain all your expended points.
 
 Some features that use Ki Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.
 
@@ -120,7 +120,7 @@ Some features that use Ki Points require your target to make a saving throw. The
 
 When you roll Initiative, you can regain all expended Ki Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
 
-Once you use this feature, you can't use it again until you finish a Long Rest.
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]].
 
 ### Level 2: Unarmored Movement
 
@@ -152,7 +152,7 @@ You can use your Reaction when you fall to reduce any damage you take from the f
 
 ### Level 5: Extra Attack
 
-You can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the [[glossary:Attack]] action on your turn.
 
 ### Level 5: Stunning Strike
 
@@ -166,7 +166,7 @@ Whenever you deal damage with your Unarmed Strike, it can deal your choice of Fo
 
 When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
-You don't benefit from this feature if you have the Incapacitated condition.
+You don't benefit from this feature if you have the [[glossary:Incapacitated]] condition.
 
 ### Level 9: Acrobatic Movement
 
@@ -202,7 +202,7 @@ When you roll Initiative and have 3 Ki Points or fewer, you regain expended Ki P
 
 ### Level 18: Superior Defense
 
-At the start of your turn, you can spend 3 Ki Points to perfectly bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have resistance to all damage except Force damage.
+At the start of your turn, you can spend 3 Ki Points to perfectly bolster yourself against harm for 1 minute or until you have the [[glossary:Incapacitated]] condition. During that time, you have resistance to all damage except Force damage.
 
 ### Level 20: Body And Mind
 
@@ -214,7 +214,7 @@ A Monk subclass is a specialization that grants you special abilities at certain
 
 * [Warrior of the Four Elements](/onednd/subclass/Warrior of the Four Elements)
 * [Warrior of the Hand](/onednd/subclass/Warrior of the Hand)
-* [Warrior of Mercy](/onednd/subclass/Warrior of the Mercy)
+* [Warrior of Mercy](/dnd/subclass/Way of Mercy)
 * [Warrior of Shadow](/onednd/subclass/Warrior of the Shadow)
 
 ----

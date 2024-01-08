@@ -23,7 +23,7 @@ Humans are as diverse in appearance as the people of Earth, and they have many g
 
 As a Human, you have these special traits.
 
-***Resourceful.*** You gain Inspiration whenever you finish a Long Rest.
+***Resourceful.*** You gain Inspiration whenever you finish a [[glossary:Long Rest]].
 
 ***Skillful.*** You gain Proficiency in one Skill of your choice.
 

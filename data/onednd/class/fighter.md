@@ -42,11 +42,11 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Proficiencies Gained.*** If Fighter isn't your initial class, you gain proficiency with Martial Weapons when you take your first Fighter level.
 
-***Armor Training.*** When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.
+***Armor Training.*** When you gain your first Fighter level, you gain [[glossary:armor training]] with the following: Light Armor, Medium Armor, and Shields.
 
 </div>
 
-To create a Fighter, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Fighter" sidebar.
+To create a Fighter, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Fighter" sidebar.
 
 Then look at the Fighter table to see the class features you get at each level in this class. Descriptions of those features appear in the [Fighter Class Features](#fighter-class-features) section.
 
@@ -95,13 +95,13 @@ Whenever you gain a Fighter level, you can replace the feat you chose with a dif
 
 You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 + your Fighter level.
 
-You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table.
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table.
 
@@ -109,7 +109,7 @@ When you reach certain Fighter levels, you gain the ability to use the Mastery p
 
 You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
 
-Once you use this feature, you must finish a Short Rest or Long Rest before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
+Once you use this feature, you must finish a Short Rest or [[glossary:Long Rest]] before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
 
 ### Level 2: Tactical Mind
 
@@ -129,7 +129,7 @@ As shown on the Fighter table, you gain this feature again at levels 6, 8, 12, 1
 
 ### Level 5: Extra Attack
 
-You can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the [[glossary:Attack]] action on your turn.
 
 ### Level 5: Tactical Shift
 
@@ -137,15 +137,15 @@ Whenever you activate your Second Wind with a Bonus Action, you can move up to h
 
 ### Level 9: Indomitable
 
-If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest.
+If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a [[glossary:Long Rest]].
 
-You can use this feature twice between Long Rests starting at level 13 and three times between Long Rests starting at level 17.
+You can use this feature twice between [[glossary:Long Rest|Long Rests]] starting at level 13 and three times between [[glossary:Long Rest|Long Rests]] starting at level 17.
 
 ### Level 9: Master of Armaments
 
-You are a master of weapons. Whenever you finish a Long Rest, you can choose any of the kinds of Mastery weapons you're using and replace the Mastery property of each with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Sap property with the Push property.
+You are a master of weapons. Whenever you finish a [[glossary:Long Rest]], you can choose any of the kinds of Mastery weapons you're using and replace the Mastery property of each with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Sap property with the Push property.
 
-These property changes apply only for you, not for others, and the changes end for you when you finish your next Long Rest.
+These property changes apply only for you, not for others, and the changes end for you when you finish your next [[glossary:Long Rest]].
 
 ### Level 11: Two Extra Attacks
 

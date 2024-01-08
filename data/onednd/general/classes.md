@@ -31,7 +31,7 @@ When creating a party of adventurers, one way to form a well-rounded group is to
 
 ## Creating a Member of the Class
 
-A Class's description includes a section on how to create a member of that Class. That section tells you how to determine your Hit Points, which Proficiencies and Armor Training you gain from the Class, the equipment the Class provides at 1st level, and how to use the multiclassing rules with the Class.
+A Class's description includes a section on how to create a member of that Class. That section tells you how to determine your Hit Points, which Proficiencies and [[glossary:armor training]] you gain from the Class, the equipment the Class provides at 1st level, and how to use the multiclassing rules with the Class.
 
 ## Class Features
 

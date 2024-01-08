@@ -23,13 +23,13 @@ As an Elf, you have these special traits.
 
 #### Elven Lineages
 
-| Lineage  | 1st Level                                                                                                                                                               | 3rd Level                  | 5th Level                        |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
-| Drow     | The range of your Darkvision increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                             | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
-| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Arcane Spell List. | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
-| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                    | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
+| Lineage  | 1st Level                                                                                                                                                                            | 3rd Level                  | 5th Level                        |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
+| Drow     | The range of your Darkvision increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                                          | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
+| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a [[glossary:Long Rest]], you can replace that cantrip with a different cantrip from the Arcane Spell List. | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
+| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                                 | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
 
-Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a Long Rest*; however, you can cast the Spell using any Spell Slots you have of the appropriate level.
+Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a [[glossary:Long Rest]]; however, you can cast the Spell using any Spell Slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).
 
@@ -37,4 +37,4 @@ Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells yo
 
 ***Keen Senses.*** You have Proficiency in the Perception Skill.
 
-***Trance.*** You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
+***Trance.*** You don't need to sleep, and magic can't put you to sleep. You can finish a [[glossary:Long Rest]] in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.

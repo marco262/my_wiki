@@ -8,9 +8,9 @@ In addition, whenever you gain access to a new level of spell slots in this clas
 
 ### Level 3: Portent
 
-Glimpses of the future begin to press in on your awareness. Whenever you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any d20 Test made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+Glimpses of the future begin to press in on your awareness. Whenever you finish a [[glossary:Long Rest]], roll two d20s and record the numbers rolled. You can replace any [[glossary:d20 Test]] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
 
-Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.
+Each foretelling roll can be used only once. When you finish a [[glossary:Long Rest]], you lose any unused foretelling rolls.
 
 ### Level 6: Expert Divination
 
@@ -18,7 +18,7 @@ Casting Divination spells comes so easily to you that it expends only a fraction
 
 ### Level 10: The Third Eye
 
-You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short Rest or Long Rest. You can't use this feature again until you finish a Short Rest or Long Rest.
+You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short Rest or [[glossary:Long Rest]]. You can't use this feature again until you finish a Short Rest or [[glossary:Long Rest]].
 
 ***Darkvision.*** You gain Darkvision out to a range of 120 feet.
 

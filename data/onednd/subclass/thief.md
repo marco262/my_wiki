@@ -11,14 +11,14 @@ As a Bonus Action, you can do one of the following:
 
 You have trained to reach especially hard-to- reach places, granting you these benefits:
 
-**Climber.** You gain a Climb Speed equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.  
+**Climber.** You gain a [[glossary:Climb Speed]] equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.  
 **Jumper.** Your jump distance is determined by your Dexterity rather than your Strength.
 
 ### 9th Level: Supreme Sneak
 
 You gain the following Cunning Strike option.
 
-***Stealth Attack (Cost: 1d6).*** If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.
+***Stealth Attack (Cost: 1d6).*** If you have the [[glossary:Hide]] action's [[glossary:Invisible]] condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.
 
 ### 13th Level: Use Magic Device
 

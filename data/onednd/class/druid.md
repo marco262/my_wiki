@@ -44,7 +44,7 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Druid's primary ability, Wisdom, to take a level in this class or to take a level in another class if you're already a Druid.
 
-***Armor Training.*** When you gain your first Druid level, you gain armor training with the following: Light Armor and Shields.
+***Armor Training.*** When you gain your first Druid level, you gain [[glossary:armor training]] with the following: Light Armor and Shields.
 
 ***Spell Slots.*** Add all your Druid levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.
 
@@ -52,7 +52,7 @@ You prepare spells for each of your classes individually, referring to the spell
 
 </div>
 
-To create a Druid, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Druid" sidebar.
+To create a Druid, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Druid" sidebar.
 
 Then look at the Druid table to see the Class Features you get at each level in this Class. The descriptions of those features appear in the [Druid Class Features](#druid-class-features) section.
 
@@ -100,7 +100,7 @@ You can use Druidic to leave hidden messages. You and others who know Druidic au
 You have dedicated yourself to one of the following sacred roles of your choice:
 
 **Magician.** You know one extra cantrip from the Druid spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to nature gives you a bonus to your Intelligence (Nature) checks. The bonus equals your Wisdom modifier (minimum of +1).  
-**Warden.** Trained for battle, you gain Martial Weapon proficiency and armor training with Medium Armor.
+**Warden.** Trained for battle, you gain Martial Weapon proficiency and [[glossary:armor training]] with Medium Armor.
 
 ### Level 1: Spellcasting
 
@@ -110,7 +110,7 @@ You have learned to cast spells through studying the mystical forces of nature. 
 
 Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list. When you reach levels 4 and 10 in this class, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid table.
 
-***Spell Slots.*** The Druid table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Druid table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
 ***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Rather than choosing, you may start with the _[[[spell:Animal Friendship]]]_, _[[[spell:Cure Wounds]]]_, _[[[spell:Faerie Fire]]]_, and _[[[spell:Thunderwave]]]_ spells.
 
@@ -118,7 +118,7 @@ The number of spells on your list also increases as you gain Druid levels, as sh
 
 If another Druid feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
 
-***Changing Your Prepared Spells.*** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing one or more of the spells there with other Druid spells for which you have spell slots. Preparing a new list requires time spent in meditation: at least 1 minute per spell level for each spell you add to the list.
+***Changing Your Prepared Spells.*** Whenever you finish a [[glossary:Long Rest]], you can change your list of prepared spells, replacing one or more of the spells there with other Druid spells for which you have spell slots. Preparing a new list requires time spent in meditation: at least 1 minute per spell level for each spell you add to the list.
 
 ***Spellcasting Ability.*** Wisdom is your Spellcasting Ability for your Druid spells.
 
@@ -128,15 +128,15 @@ If another Druid feature gives spells that you always have prepared, those spell
 
 You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without material components.
 
-When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest.
+When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a [[glossary:Long Rest]].
 
 ### Level 2: Wild Shape
 
-The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.
+The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the [[glossary:Incapacitated]] condition, or die. You can also leave the form early as a Bonus Action.
 
-***Known Forms.*** You know a number of forms for this feature equal to 2 plus half your Druid level (round up), chosen from among Beast stat blocks in the _Player's Handbook_ that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. Rather than choosing, you may start with the Riding Horse, Spider, and Wolf. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.
+***Known Forms.*** You know a number of forms for this feature equal to 2 plus half your Druid level (round up), chosen from among Beast stat blocks in the _Player's Handbook_ that have a maximum Challenge Rating of 1/4 and that lack a [[glossary:Fly Speed]]. Rather than choosing, you may start with the Riding Horse, Spider, and Wolf. Whenever you finish a [[glossary:Long Rest]], you can replace one of your known forms with another eligible form.
 
-When you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.
+When you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a [[glossary:Fly Speed]].
 
 When choosing a new form, you may look in the _Monster Manual_ or elsewhere for eligible Beasts if the DM permits you to do so.
 
@@ -148,7 +148,7 @@ When choosing a new form, you may look in the _Monster Manual_ or elsewhere for 
 |       4        |  1/2   |      No      |
 |       8        |   1    |     Yes      |
 
-***Number of Uses.*** You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+***Number of Uses.*** You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid table.
 
@@ -175,7 +175,7 @@ As shown on the Druid table, you gain this feature again at levels 8, 12, 16, an
 
 If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.
 
-In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, and you can't do so again until you finish a Long Rest.
+In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, and you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### Level 7: Elemental Fury
 
@@ -204,7 +204,7 @@ While using Wild Shape, you can cast spells in Beast form, except for any spell 
 The vitality of nature constantly blooms within you, granting you the following benefits:
 
 **Evergreen Wild Shape.** Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.  
-**Nature Magician.** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.  
+**Nature Magician.** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a [[glossary:Long Rest]] before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.  
 **Longevity.** The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
 
 ## Druid Subclasses

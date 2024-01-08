@@ -18,13 +18,13 @@ You have Resistance to that damage type, and when you cast a spell that deals da
 
 ### Level 14: Dragon Wings
 
-Your innate magic can now manifest as draconic wings on your back. As a Bonus Action, you sprout those wings, gaining a Fly Speed equal to your Speed. The wings last until you dismiss them as a Bonus Action or you have the Incapacitated condition.
+Your innate magic can now manifest as draconic wings on your back. As a Bonus Action, you sprout those wings, gaining a [[glossary:Fly Speed]] equal to your Speed. The wings last until you dismiss them as a Bonus Action or you have the [[glossary:Incapacitated]] condition.
 
 When the wings manifest, you decide whether they're spectral or physical. If physical, you mustn't be wearing something that obstructs them.
 
 ### Level 18: Draconic Presence
 
-You can channel the dread presence of dragons. As a Bonus Action, you can spend 5 Sorcery Points to draw on this power and exude an aura of awe or fear (your choice) within 60 feet. For 1 minute or until you have the Incapacitated condition, each creature of your choice that starts its turn in this aura must succeed on a Wisdom saving throw against your spell save DC or have the Charmed (if you chose awe) or Frightened (if you chose fear) condition until the creature is outside the aura.
+You can channel the dread presence of dragons. As a Bonus Action, you can spend 5 Sorcery Points to draw on this power and exude an aura of awe or fear (your choice) within 60 feet. For 1 minute or until you have the [[glossary:Incapacitated]] condition, each creature of your choice that starts its turn in this aura must succeed on a Wisdom saving throw against your spell save DC or have the Charmed (if you chose awe) or Frightened (if you chose fear) condition until the creature is outside the aura.
 
 ----
 

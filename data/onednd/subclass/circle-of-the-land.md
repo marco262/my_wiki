@@ -2,7 +2,7 @@ The Circle of the Land is made up of mystics and sages who safeguard ancient kno
 
 ### 3rd Level: Circle Spells
 
-Your connection to nature infuses you with the ability to cast certain spells. Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells prepared there that are listed for your Druid level and lower.
+Your connection to nature infuses you with the ability to cast certain spells. Whenever you finish a [[glossary:Long Rest]], choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells prepared there that are listed for your Druid level and lower.
 
 #### Arid Land
 
@@ -50,9 +50,9 @@ When you reach certain Druid levels, the damage and healing increase by 1d6: 10t
 
 ### 6th Level: Natural Recovery
 
-Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of 1st-level or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.
+Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of 1st-level or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a [[glossary:Long Rest]] before you do so again.
 
-In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level Druid, you can recover up to three levels worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.
+In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level Druid, you can recover up to three levels worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### 10th Level: Nature's Ward
 
@@ -60,7 +60,7 @@ Your bond with the land protects you. You are immune to the Poisoned condition, 
 
 ### 14th Level: Nature's Sanctuary
 
-Nature can rise up to protect you and your allies. As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition. You and your allies have Half Cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.
+Nature can rise up to protect you and your allies. As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on ground within 120 feet of yourself. They last there for 1 minute or until you have the [[glossary:Incapacitated]] condition. You and your allies have Half Cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.
 
 As a Bonus Action, you can move the cube up to 60 feet to ground within 120 feet of yourself.
 

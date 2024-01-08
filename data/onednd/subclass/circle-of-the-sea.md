@@ -15,7 +15,7 @@ Your connection to this circle ensures that you always have certain spells ready
 
 ### 3rd Level: Wrath of The Sea
 
-As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the Incapacitated condition, dismiss it (no action required), or manifest the aura again.
+As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the [[glossary:Incapacitated]] condition, dismiss it (no action required), or manifest the aura again.
 
 At the end of each of your turns, you can choose another creature you can see within 10 feet of yourself. The target must succeed on a Constitution saving throw against your Spell Save DC or take Thunder damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).
 
@@ -27,7 +27,7 @@ You always have the _[[[spell:Water Breathing]]]_ spell prepared. In addition, y
 
 Your Wrath of the Sea confers two more benefits while active:
 
-**Flight.** You gain a Fly Speed equal to your Speed.  
+**Flight.** You gain a [[glossary:Fly Speed]] equal to your Speed.  
 **Resistance.** You have resistance to Cold, Lighting, and Thunder damage.
 
 ### 14th Level: Oceanic Gift

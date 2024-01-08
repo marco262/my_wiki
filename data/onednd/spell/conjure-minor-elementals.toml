@@ -14,8 +14,8 @@ duration = "Concentration, up to 10 minutes"
 description = """
 You summon elemental spirits that a flit around you for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature within 15 feet of you. This damage is Bludgeoning, Cold, Fire, or Lightning (your choice when you make the attack).
 
-In addition, the ground within 15 feet of you is Difficult Terrain for your enemies.
+In addition, the ground within 15 feet of you is [[glossary:Difficult Terrain]] for your enemies.
 """
-at_higher_levels = "When you cast this spell using a spell slot of level 5 or higher, the damage increases by 2d8 and the range of Difficult Terrain increases by 5 feet for each slot level above 4."
+at_higher_levels = "When you cast this spell using a spell slot of level 5 or higher, the damage increases by 2d8 and the range of [[glossary:Difficult Terrain]] increases by 5 feet for each slot level above 4."
 source = "Player's Handbook Playtest 8"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

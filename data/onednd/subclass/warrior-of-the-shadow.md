@@ -18,10 +18,10 @@ You can draw on your connection to shadow to empower your teleportation. When yo
 
 ### 17th Level: Cloak of Shadows
 
-As a Bonus Action while entirely within Dim Light or Darkness, you can spend 3 Ki Points to shroud yourself with magical darkness for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded in darkness, you gain the following benefits:
+As a Bonus Action while entirely within Dim Light or Darkness, you can spend 3 Ki Points to shroud yourself with magical darkness for 1 minute, until you have the [[glossary:Incapacitated]] condition, or until you end your turn in Bright Light. While shrouded in darkness, you gain the following benefits:
 
-**Invisibility.** You have the Invisible condition.  
-**Partially Incorporeal.** You can move through creatures and objects as if they were difficult terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.  
+**Invisibility.** You have the [[glossary:Invisible]] condition.  
+**Partially Incorporeal.** You can move through creatures and objects as if they were [[glossary:Difficult Terrain]], but you take 1d10 Force damage if you end your turn inside a creature or an object.  
 **Shadow Flurry.** You can use your Flurry of Blows without spending any Ki Points.
 
 ----

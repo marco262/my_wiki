@@ -46,7 +46,7 @@ You prepare spells for each of your classes individually, referring to the rules
 
 </div>
 
-To create a Sorcerer, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Sorcerer" sidebar.
+To create a Sorcerer, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Sorcerer" sidebar.
 
 Then look at the Sorcerer table to see the class features you get at each level in this class. Descriptions of those features appear in the [Sorcerer Class Features](#sorcerer-class-features) section.
 
@@ -88,7 +88,7 @@ An event in your past left an indelible mark on you, infusing you with a simmeri
 * The spell save DC of your Sorcerer spells increases by 1.
 * You have Advantage on the attack rolls of Sorcerer spells you cast.
 
-You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.
+You can use this feature twice, and you regain all expended uses of it when you finish a [[glossary:Long Rest]].
 
 ### Level 1: Spellcasting
 
@@ -98,7 +98,7 @@ Drawing from your innate magic, you can cast spells. See the Player's Handbook f
 
 When you reach levels 4 and 10 in this class, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer table.
 
-***Spell Slots.*** The Sorcerer table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Sorcerer table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
 ***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose two level 1 spells from the [Sorcerer spell list](/onednd/spell_list/sorcerer). Rather than choosing, you may start with _[[[spell:Burning Hands]]]_ and _[[[spell:Detect Magic]]]_.
 
@@ -110,7 +110,7 @@ If another Sorcerer feature gives spells that you always have prepared, those sp
 
 **Houserule: Changing Your Prepared Spells**
 
-Whenever you finish a Long Rest, you can replace one spell on your list with another Sorcerer spell for which you have spell slots. Whenever you gain a Sorcerer level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
+Whenever you finish a [[glossary:Long Rest]], you can replace one spell on your list with another Sorcerer spell for which you have spell slots. Whenever you gain a Sorcerer level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
 
 </div>
 
@@ -124,7 +124,7 @@ Whenever you finish a Long Rest, you can replace one spell on your list with ano
 
 You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.
 
-You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more Sorcery Points than the number shown on the table for your level. You regain all spent Sorcery Points when you finish a Long Rest.
+You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more Sorcery Points than the number shown on the table for your level. You regain all spent Sorcery Points when you finish a [[glossary:Long Rest]].
 
 You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.
 
@@ -132,7 +132,7 @@ You can use your Sorcery Points to fuel the options below, along with other feat
 
 **Creating Spell Slots.** As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher in level than 5.
 
-Any spell slot you create with this feature vanishes when you finish a Long Rest.
+Any spell slot you create with this feature vanishes when you finish a [[glossary:Long Rest]].
 
 #### Creating Spell Slots
 

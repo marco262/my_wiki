@@ -42,12 +42,12 @@ As a Dragonborn adventurer, you have the following special traits.
 | Silver | Cold        |
 | White  | Cold        |
 
-***Breath Weapon.*** When you take the Attack Action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity Saving Throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach the following character levels: 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+***Breath Weapon.*** When you take the [[glossary:Attack]] Action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity Saving Throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach the following character levels: 5th level (2d10), 11th level (3d10), and 17th level (4d10).
 
-You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 ***Damage Resistance.*** You have Resistance to the damage type determined by your Draconic Ancestry trait.
 
 ***Darkvision.*** You have Darkvision with a range of 60 feet.
 
-***Draconic Flight.*** When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are Incapacitated or you retract the wings as a Bonus Action. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.
+***Draconic Flight.*** When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are [[glossary:Incapacitated]] or you retract the wings as a Bonus Action. During that time, you have a [[glossary:Fly Speed]] equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can't use it again until you finish a [[glossary:Long Rest]].

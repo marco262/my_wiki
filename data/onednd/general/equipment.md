@@ -70,9 +70,9 @@ A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on y
 
 ### Light
 
-When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.
+When you take the [[glossary:Attack]] action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.
 
-For example, if you take the Attack action on your turn and have a Shortsword in one hand and a Dagger in the other -- each of which has the Light property -- you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative.
+For example, if you take the [[glossary:Attack]] action on your turn and have a Shortsword in one hand and a Dagger in the other -- each of which has the Light property -- you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative.
 
 ### Thrown
 
@@ -122,7 +122,7 @@ If your attack roll with this weapon misses a creature, you can deal damage to t
 
 _Prerequisite: Light Property_
 
-When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn.
+When you make the extra attack of the Light property, you can make it as part of the [[glossary:Attack]] action, instead of as a Bonus Action. You can still make this extra attack only once per turn.
 
 [[accordion Nick Weapons]]
 
@@ -238,7 +238,7 @@ Here are descriptions of miscellaneous items whose rules have changed for this p
 
 _Cost: 1 GP. Weight: 3 lb._
 
-When you take the Attack action on your turn, you can replace one of your attacks with a throw of the net at a creature within 15 feet of yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it's Huge or larger.
+When you take the [[glossary:Attack]] action on your turn, you can replace one of your attacks with a throw of the net at a creature within 15 feet of yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it's Huge or larger.
 
 On a failed save, the target has the Restrained condition until it escapes the net. To escape, the target must use its action to make a DC 10 Strength (Athletics) check, escaping on a success. A creature within 5 feet of the target can use its action to attempt the same thing. Destroying the net (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.
 

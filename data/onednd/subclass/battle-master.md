@@ -8,7 +8,7 @@ Your experience on the battlefield has honed your fighting techniques. You learn
 
 You learn two additional Maneuvers of your choice when you reach Fighter level 7, 10, and 15. Each time you learn new Maneuvers, you can also replace one Maneuver you know with a different one.
 
-***Superiority Dice.*** You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short Rest or Long Rest.
+***Superiority Dice.*** You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short Rest or [[glossary:Long Rest]].
 
 You gain an additional Superiority Die when you reach Fighter level 7 (five dice total) and 15 (six dice total).
 
@@ -22,7 +22,7 @@ You gain proficiency with one type of Artisan's Tools of your choice, and you ga
 
 As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any damage immunities, resistances, or vulnerabilities, and if the creature has any, you know what they are.
 
-Once you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required).
+Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]]. You can also restore a use of the feature by expending one Superiority Die (no action required).
 
 ### Level 10: Improved Combat Superiority
 
@@ -38,13 +38,13 @@ Your Superiority Die becomes a d12.
 
 ## Maneuvers Options
 
-***Ambush.*** When you make a Dexterity (Stealth) check or an initiative roll, you can expend one Superiority Die and add the die to the roll, provided you don't have the Incapacitated condition.
+***Ambush.*** When you make a Dexterity (Stealth) check or an initiative roll, you can expend one Superiority Die and add the die to the roll, provided you don't have the [[glossary:Incapacitated]] condition.
 
-***Bait and Switch.*** When you're within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and doesn't have the Incapacitated condition. This movement doesn't provoke Opportunity Attacks.
+***Bait and Switch.*** When you're within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and doesn't have the [[glossary:Incapacitated]] condition. This movement doesn't provoke Opportunity Attacks.
 
 Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.
 
-***Commander's Strike.*** When you take the Attack action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack's damage roll on a hit.
+***Commander's Strike.*** When you take the [[glossary:Attack]] action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack's damage roll on a hit.
 
 ***Commanding Presence.*** When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the ability check.
 
@@ -58,7 +58,7 @@ Roll the Superiority Die. Until the start of your next turn, you or the other cr
 
 ***Goading Attack.*** When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or the target has Disadvantage on attack rolls against targets other than you until the end of your next turn.
 
-***Lunging Attack.*** As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 10 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, you can add the Superiority Die to the attack's damage roll.
+***Lunging Attack.*** As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 10 feet in a straight line immediately before hitting with a melee attack as part of the [[glossary:Attack]] action on this turn, you can add the Superiority Die to the attack's damage roll.
 
 ***Maneuvering Attack.*** When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of your attack.
 

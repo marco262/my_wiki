@@ -19,7 +19,7 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 When a creature that you can see within 30 feet of you makes an attack roll, you can use your Reaction to impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses.
 
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a [[glossary:Long Rest]].
 
 ### 3rd Level: Radiance of The Dawn
 
@@ -29,7 +29,7 @@ As a Magic action, you present your Holy Symbol and expend a use of your Channel
 
 As a Bonus Action, you can present your Holy Symbol and cast _[[[spell:See Invisibility]]]_ without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.
 
-Once you use this feature, you can't do so again until you finish a Long Rest.
+Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### 17th Level: Corona of Light
 

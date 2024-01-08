@@ -4,19 +4,19 @@ Some Rogues enhance their fine-honed skills of stealth and agility with Arcane s
 
 You have learned to cast spells. See the _Player's Handbook_ for the rules on spellcasting. The information below details how you use those rules as an Arcane Trickster.
 
-***Cantrips.*** You know three cantrips: _[Mage Hand](/onednd/subclass/Mage Hand)_ and two other cantrips of your choice from the Arcane spell list.
+***Cantrips.*** You know three cantrips: _[Mage Hand](/onednd/subclass/Mage Hand)_ and two other cantrips of your choice from the [Wizard spell list](/onednd/spell_list/wizard).
 
-Whenever you gain a Rogue level, you can replace one of your cantrips, except _[Mage Hand](/onednd/subclass/Mage Hand)_, with another cantrip of your choice from the Arcane spell list.
+Whenever you gain a Rogue level, you can replace one of your cantrips, except _[Mage Hand](/onednd/subclass/Mage Hand)_, with another cantrip of your choice from the Wizard spell list.
 
 When you reach 10th level in this class, you learn another Arcane cantrip of your choice.
 
-***Spell Slots.*** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
-***Prepared Spells of 1st+ Level.*** You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the Arcane spell list, two of which must be from the Enchantment and Illusion schools of magic.
+***Prepared Spells of 1st+ Level.*** You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the [Wizard spell list](/onednd/spell_list/wizard), two of which must be from the Enchantment and Illusion schools of magic.
 
-The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination.
+The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Wizard spells of 1st or 2nd level, in any combination.
 
-***Changing Your Prepared Spells.*** Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Arcane spell list. The new spell must be of a level for which you have spell slots.
+***Changing Your Prepared Spells.*** Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the [Wizard spell list](/onednd/spell_list/wizard). The new spell must be of a level for which you have spell slots.
 
 ***Spellcasting Ability.*** Intelligence is your spellcasting ability for your Arcane Trickster spells.
 
@@ -51,7 +51,7 @@ When you cast _[Mage Hand](/onednd/subclass/Mage Hand)_, you can make the spectr
 
 ### 9th Level: Magical Ambush
 
-If you have the Invisible condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn.
+If you have the [[glossary:Incapacitated]] condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn.
 
 ### 13th Level: Versatile Trickster
 
@@ -61,9 +61,9 @@ You gain the ability to distract targets with your _[Mage Hand](/onednd/subclass
 
 You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.
 
-Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be an Arcane spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.
+Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a Wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.
 
-Once you use this feature, you can't use it again until you finish a Long Rest.
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]].
 
 ----
 

@@ -9,6 +9,6 @@ casting_time = "Action"
 range = "60 feet"
 components = ["V"]
 duration = "Instantaneous"
-description = """A wave of healing energy washes over a creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Dazed, Frightened, Paralyzed, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its reaction to stand up."""
+description = """A wave of healing energy washes over a creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, [[glossary:Dazed]], Frightened, Paralyzed, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its reaction to stand up."""
 source = "Player's Handbook Playtest 6"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

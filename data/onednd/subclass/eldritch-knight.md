@@ -8,7 +8,7 @@ You have learned to cast spells. See the _Player's Handbook_ for rules on spellc
 
 When you reach level 10 in this class, you learn another Wizard cantrip of your choice.
 
-***Spell Slots.*** The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
 ***Prepared Spells of Level 1+.*** You prepare a list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose three level 1 spells from the Wizard spell list, two of which must be from the Abjuration and Evocation schools of magic.
 
@@ -47,13 +47,13 @@ The number of spells on your list increases as you gain Fighter levels, as shown
 
 You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
 
-Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.
+Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the [[glossary:Incapacitated]] condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.
 
 You can have up to two bonded weapons, but can summon only one at a time with your Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.
 
 ### Level 7: War Magic
 
-When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.
+When you take the [[glossary:Attack]] action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.
 
 ### Level 10: Eldritch Strike
 
@@ -65,7 +65,7 @@ When you use your Action Surge, you can teleport up to 30 feet to an unoccupied 
 
 ### Level 18: Improved War Magic
 
-When you take the Attack action on your turn, you can replace two of the attacks with a casting of one of your Wizard spells that has a casting time of an action.
+When you take the [[glossary:Attack]] action on your turn, you can replace two of the attacks with a casting of one of your Wizard spells that has a casting time of an action.
 
 ----
 

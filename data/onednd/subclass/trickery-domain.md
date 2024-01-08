@@ -23,7 +23,7 @@ As an action, you can choose yourself or a willing creature within 30 feet of yo
 
 You can use your Channel Divinity to create an illusory duplicate of yourself.
 
-As a Bonus Action, you can expend one use of your Channel Divinity to teleport up to 30 feet to an unoccupied space you can see, and you create a perfect visual illusion of yourself in the space you left. The illusion lasts for 1 minute, but it ends early if you have the Incapacitated condition or dismiss it as a Bonus Action.
+As a Bonus Action, you can expend one use of your Channel Divinity to teleport up to 30 feet to an unoccupied space you can see, and you create a perfect visual illusion of yourself in the space you left. The illusion lasts for 1 minute, but it ends early if you have the [[glossary:Incapacitated]] condition or dismiss it as a Bonus Action.
 
 While the illusion persists, you gain the following benefits:
 
@@ -35,7 +35,7 @@ While the illusion persists, you gain the following benefits:
 
 If you cast a spell of the Illusion school using a spell slot, you can change the spell's casting time to a Bonus Action for this casting, provided the spell's casting time is normally an action.
 
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest. 
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a [[glossary:Long Rest]]. 
 
 ### 17th Level: Improved Duplicity
 

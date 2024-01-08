@@ -6,12 +6,12 @@ You can roll 1d6 plus your Strength modifier in place of the normal damage of yo
 
 ### Level 3: Improvised Expert
 
-You are proficient with Improvised Weapons. Whenever you finish a Long Rest, choose one weapon property from the One-Handed list and one from the Two-Handed list:
+You are proficient with Improvised Weapons. Whenever you finish a [[glossary:Long Rest]], choose one weapon property from the One-Handed list and one from the Two-Handed list:
 
 **One-Handed:** Light or Thrown (Range 20/60)  
 **Two-Handed:** Reach or Thrown (Range 10/30)
 
-Until the end of your next Long Rest, the One-Handed choice applies to the one-handed Improvised Weapons you wield, and the Two-Handed choice applies to the two-handed ones.
+Until the end of your next [[glossary:Long Rest]], the One-Handed choice applies to the one-handed Improvised Weapons you wield, and the Two-Handed choice applies to the two-handed ones.
 
 In addition, whenever you attack with an Improvised Weapon, you can give it one of the following Mastery properties for that attack, depending on whether it can be wielded in one hand or two:
 
@@ -22,11 +22,11 @@ In addition, whenever you attack with an Improvised Weapon, you can give it one 
 
 You can make one Unarmed Strike as a Bonus Action. When you use Unarmed Strike in this way, you must choose the Grapple or Shove option.
 
-In addition, at the start of each of your turns, you can deal 1d6 Bludgeoning damage to one creature Grappled by you.
+In addition, at the start of each of your turns, you can deal 1d6 Bludgeoning damage to one creature [[glossary:Grappled]] by you.
 
 ### Level 10: Dirty Fighting
 
-You have Advantage on attack rolls made with Improvised Weapons and Unarmed Strikes against a creature Grappled by you.
+You have Advantage on attack rolls made with Improvised Weapons and Unarmed Strikes against a creature [[glossary:Grappled]] by you.
 
 ### Level 15: Improvised Specialist
 

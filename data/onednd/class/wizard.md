@@ -48,7 +48,7 @@ You prepare spells for each of your classes individually, referring to the rules
 
 </div>
 
-To create a Wizard, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Wizard" sidebar.
+To create a Wizard, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Wizard" sidebar.
 
 Then look at the Wizard table to see the class features you get at each level in this class. Descriptions of those features appear in the [Wizard Class Features](#wizard-class-features) section.
 
@@ -89,7 +89,7 @@ You have learned to regain some of your magical energy by studying your spellboo
 
 For example, if you're a level 4 Wizard, you can recover up to two levels worth of spell slots, regaining either a level 2 spell slot or two level 1 spell slots.
 
-Once you use this feature, you can't do so again until you finish a Long Rest.
+Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### Level 1: Spellcasting
 
@@ -109,7 +109,7 @@ If you lose your spellbook, you can use the same procedure to transcribe the Wiz
 
 As a student of arcane magic, you have learned to cast spells. See the _Player's Handbook_ for rules on spellcasting. The information below details how you use those rules as a Wizard.
 
-***Cantrips.*** You know three cantrips of your choice from the [Wizard spell list](/onednd/spell_list/wizard). Rather than choosing, you may start with _[[[spell:Light]]]_, _[[[spell:Mage Hand]]]_, and _[[[spell:Ray of Frost]]]_. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
+***Cantrips.*** You know three cantrips of your choice from the [Wizard spell list](/onednd/spell_list/wizard). Rather than choosing, you may start with _[[[spell:Light]]]_, _[[[spell:Mage Hand]]]_, and _[[[spell:Ray of Frost]]]_. Whenever you finish a [[glossary:Long Rest]], you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
 
 When you reach levels 4 and 10 in this class, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard table.
 
@@ -119,7 +119,7 @@ The book contains the spells you know of level 1 and higher. It starts with six 
 
 Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. The spells are the culmination of arcane research you do regularly.
 
-***Spell Slots.*** The Wizard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.
+***Spell Slots.*** The Wizard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
 ***Prepared Spells of Level 1+.*** You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.
 
@@ -127,7 +127,7 @@ The number of spells on your list increases as you gain Wizard levels, as shown 
 
 If another Wizard feature gives spells that you always have prepared, those spells don't count against the number of spells you can prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
 
-***Changing Your Prepared Spells.*** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing one or more of the spells there. Preparing a new list requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast a spell: at least 1 minute per spell level for each spell you add to the list.
+***Changing Your Prepared Spells.*** Whenever you finish a [[glossary:Long Rest]], you can change your list of prepared spells, replacing one or more of the spells there. Preparing a new list requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast a spell: at least 1 minute per spell level for each spell you add to the list.
 
 ***Ritual Caster.*** You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.
 
@@ -137,7 +137,7 @@ If another Wizard feature gives spells that you always have prepared, those spel
 
 ### Level 2: Scholar
 
-While studying magic, you also specialized in an academic field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Nature, or Religion. You have Expertise in the chosen skill.
+While studying magic, you also specialized in an academic field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Nature, or Religion. You have [[glossary:Expertise]] in the chosen skill.
 
 ### Level 3: Wizard Subclass
 
@@ -159,11 +159,11 @@ Studying your spellbook for 1 minute, you can expend mental and magical effort t
 
 You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell that are in your spellbook and that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
-Whenever you finish a Long Rest, you can study your spellbook and exchange one of those spells for another eligible spell of the same level from that book.
+Whenever you finish a [[glossary:Long Rest]], you can study your spellbook and exchange one of those spells for another eligible spell of the same level from that book.
 
 ### Level 20: Signature Spells
 
-You gain mastery over two powerful spells and can cast them with little effort. Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't do so again until you finish a Short Rest or Long Rest.
+You gain mastery over two powerful spells and can cast them with little effort. Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't do so again until you finish a Short Rest or [[glossary:Long Rest]].
 
 If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 

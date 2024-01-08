@@ -14,7 +14,7 @@ You gain another Fighting Style feat of your choice.
 
 ### Level 10: Heroic Warrior
 
-The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Advantage whenever you start your turn without it.
+The thrill of battle drives you toward victory. During combat, you can give yourself [[glossary:Heroic Advantage]] whenever you start your turn without it.
 
 ### Level 15: Superior Critical
 

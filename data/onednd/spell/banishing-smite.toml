@@ -11,7 +11,7 @@ duration = "Concentration, up to 1 minute"
 description = """
 As you hit the creature, your strike erupts with divine power. The target hit by the strike takes an extra 5d10 Force damage from the attack. If the attack reduces the target to 50 Hit Points or fewer, the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration.
 
-While in the demiplane, the target has the Incapacitated condition. When the spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+While in the demiplane, the target has the [[glossary:Incapacitated]] condition. When the spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
 """
 source = "Player's Handbook Playtest 6"
 source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

@@ -9,7 +9,7 @@ range = "Self"
 components = ["V"]
 duration = "Concentration, up to 1 minute"
 description = """
-As you hit the creature, your strike flares with divine light. The target hit by the strike takes an extra 2d6 Radiant damage from the attack. If the target has the Invisible condition, that condition ends on it. In addition, until the spell ends, the target sheds bright light in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the Invisible condition.
+As you hit the creature, your strike flares with divine light. The target hit by the strike takes an extra 2d6 Radiant damage from the attack. If the target has the [[glossary:Invisible]] condition, that condition ends on it. In addition, until the spell ends, the target sheds bright light in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the [[glossary:Invisible]] condition.
 """
 at_higher_levels = "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd."
 source = "Player's Handbook Playtest 6"

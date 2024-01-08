@@ -42,13 +42,13 @@ If your group uses the multiclassing rules in the _Player's Handbook_, here's wh
 
 ***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in one of the Warlock's primary abilities -- Intelligence, Wisdom, or Charisma -- to take a level in this class or to take a level in another class if you're already a Warlock.
 
-***Armor Training.*** When you gain your first Warlock level, you gain armor training with Light Armor.
+***Armor Training.*** When you gain your first Warlock level, you gain [[glossary:armor training]] with Light Armor.
 
 ***Spell Slots.*** If you have both the Spellcasting feature and the Pact Magic feature from this class, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.
 
 </div>
 
-To create a Warlock, consult the following lists, which provide Hit Points, proficiencies, and armor training. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Warlock" sidebar.
+To create a Warlock, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Warlock" sidebar.
 
 Then look at the Warlock table to see the class features you get at each level in this class. Descriptions of those features appear in the [Warlock Class Features](#sorcerer-class-features) section.
 
@@ -103,7 +103,7 @@ Through occult ceremony, you have formed a pact with a mysterious entity to gain
 
 When you reach levels 4 and 10 in this class, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock table.
 
-***Spell Slots.*** The Warlock table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. To cast one of those spells, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a Short Rest or Long Rest.
+***Spell Slots.*** The Warlock table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. To cast one of those spells, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a Short Rest or [[glossary:Long Rest]].
 
 For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Witch Bolt, you must spend one of those slots, and you cast it as a level 3 spell. 
 
@@ -117,7 +117,7 @@ If another Warlock feature gives spells that you always have prepared, those spe
 
 **Houserule: Changing Your Prepared Spells**
 
-Whenever you finish a Long Rest, you can replace one spell on your list with another Warlock spell for which you have spell slots. Whenever you gain a Warlock level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
+Whenever you finish a [[glossary:Long Rest]], you can replace one spell on your list with another Warlock spell for which you have spell slots. Whenever you gain a Warlock level, you can replace any spells on your list with the same number of Sorcerer spells for which you have spell slots.
 
 </div>
 
@@ -129,7 +129,7 @@ Whenever you finish a Long Rest, you can replace one spell on your list with ano
 
 ### Level 2: Magical Cunning
 
-If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up). Once you use this feature, you can't do so again until you finish a Long Rest.
+If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up). Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### Level 3: Warlock Subclass
 
@@ -147,15 +147,15 @@ As shown on the Warlock table, you gain this feature again at levels 8, 12, 16, 
 
 In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the _[[[spell:Contact Other Plane]]]_ spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
 
-Once you cast the spell with this feature, you can't do so again until you finish a Long Rest.
+Once you cast the spell with this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### Level 11: Mystic Arcanum
 
 Your patron bestows on you a magical secret called an arcanum. Choose one level 6 spell from the [Warlock spell list](/onednd/spell_list/warlock) as this arcanum.
 
-You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can do so again.
+You can cast your arcanum spell once without expending a spell slot, and you must finish a [[glossary:Long Rest]] before you can do so again.
 
-As shown on the Warlock table, you gain another Warlock spell of your choice that can be cast in this way when you reach levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.
+As shown on the Warlock table, you gain another Warlock spell of your choice that can be cast in this way when you reach levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a [[glossary:Long Rest]].
 
 Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.
 
