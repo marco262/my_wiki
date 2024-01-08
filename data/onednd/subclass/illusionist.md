@@ -20,7 +20,7 @@ After you cast an Illusion spell that has a duration of 1 minute or longer, you 
 
 You can create an illusory duplicate of yourself in response to danger. When a creature makes an attack roll against you, you can use your Reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.
 
-Once you use this feature, you can't use it again until you finish a Short Rest or [[glossary:Long Rest]]. You can also restore your use of it by expending a spell slot of level 2 or higher (no action required).
+Once you use this feature, you can't use it again until you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]]. You can also restore your use of it by expending a spell slot of level 2 or higher (no action required).
 
 ### Level 14: Illusory Reality
 

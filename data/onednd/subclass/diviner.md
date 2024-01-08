@@ -18,7 +18,7 @@ Casting Divination spells comes so easily to you that it expends only a fraction
 
 ### Level 10: The Third Eye
 
-You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short Rest or [[glossary:Long Rest]]. You can't use this feature again until you finish a Short Rest or [[glossary:Long Rest]].
+You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a [[glossary:Short Rest]] or [[glossary:Long Rest]]. You can't use this feature again until you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
 ***Darkvision.*** You gain Darkvision out to a range of 120 feet.
 

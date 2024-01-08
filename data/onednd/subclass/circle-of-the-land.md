@@ -52,7 +52,7 @@ When you reach certain Druid levels, the damage and healing increase by 1d6: 10t
 
 Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of 1st-level or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a [[glossary:Long Rest]] before you do so again.
 
-In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level Druid, you can recover up to three levels worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a [[glossary:Long Rest]].
+In addition, when you finish a [[glossary:Short Rest]], you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level Druid, you can recover up to three levels worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 ### 10th Level: Nature's Ward
 

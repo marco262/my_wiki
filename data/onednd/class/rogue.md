@@ -215,7 +215,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 You have an uncanny knack for succeeding when you need to. If you fail a [[glossary:d20 Test]], you can turn the roll into a 20.
 
-Once you use this feature, you can't use it again until you finish a Short Rest or a [[glossary:Long Rest]].
+Once you use this feature, you can't use it again until you finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]].
 
 # Rogue Subclasses
 

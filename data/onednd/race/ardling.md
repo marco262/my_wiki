@@ -28,7 +28,7 @@ As an Ardling adventurer, you have the following special traits.
 * **Climber (Bear, Cat, Lizard, Squirrel).** You have hooked claws, sharp nails, or a serpentine tail. As a result, you have a [[glossary:Climb Speed]] equal to your Speed, and once per turn when you deal damage with your Unarmed Strike to a target, you can increase the damage to that target by an amount equal to your Proficiency Bonus.
 * **Flyer (Bat, Eagle, Owl, Raven).** You have vestigial wings. As a result, when you fall at least 10 feet, you can use your Reaction to safely glide downward, taking no damage from the fall. In addition, when you take the Jump Action, you can flap your wings to gain Advantage on that Action's Ability Check.
 * **Racer (Deer, Dog, Horse, Triceratops).** When you take the Dash Action, your Speed increases for that Action. The increase equals ten times your Proficiency Bonus.
-* **Swimmer (Crocodile, Dolphin, Frog, Shark).** You can hold your breath for up to an hour at a time, and you have a Swim Speed equal to your Speed. In addition, you have Resistance to Cold Damage.
+* **Swimmer (Crocodile, Dolphin, Frog, Shark).** You can hold your breath for up to an hour at a time, and you have a [[glossary:Swim Speed]] equal to your Speed. In addition, you have Resistance to Cold Damage.
 
 ***Divine Magic.*** You can innately channel minor divine magic; you know the Thaumaturgy Spell. Whenever you finish a [[glossary:Long Rest]], you can replace that Spell with a different 0-level Spell from the Divine Spell list.
 

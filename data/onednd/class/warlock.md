@@ -103,7 +103,7 @@ Through occult ceremony, you have formed a pact with a mysterious entity to gain
 
 When you reach levels 4 and 10 in this class, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock table.
 
-***Spell Slots.*** The Warlock table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. To cast one of those spells, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a Short Rest or [[glossary:Long Rest]].
+***Spell Slots.*** The Warlock table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. To cast one of those spells, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
 For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Witch Bolt, you must spend one of those slots, and you cast it as a level 3 spell. 
 

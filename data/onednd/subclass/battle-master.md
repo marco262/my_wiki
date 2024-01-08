@@ -8,7 +8,7 @@ Your experience on the battlefield has honed your fighting techniques. You learn
 
 You learn two additional Maneuvers of your choice when you reach Fighter level 7, 10, and 15. Each time you learn new Maneuvers, you can also replace one Maneuver you know with a different one.
 
-***Superiority Dice.*** You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short Rest or [[glossary:Long Rest]].
+***Superiority Dice.*** You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
 You gain an additional Superiority Die when you reach Fighter level 7 (five dice total) and 15 (six dice total).
 

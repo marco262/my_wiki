@@ -19,7 +19,7 @@ Before or after you take this action, you can make one Unarmed Strike as a Bonus
 
 ### 11th Level: Stride of The Elements
 
-When you use your Step of the Wind, you gain a [[glossary:Fly Speed]] and Swim Speed equal to your Speed for 10 minutes.
+When you use your Step of the Wind, you gain a [[glossary:Fly Speed]] and [[glossary:Swim Speed]] equal to your Speed for 10 minutes.
 
 ### 17th Level: Elemental Epitome
 

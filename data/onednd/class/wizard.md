@@ -85,7 +85,7 @@ As a Wizard, you gain the following class features when you reach the specified 
 
 ### Level 1: Arcane Recovery
 
-You have learned to regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be level 6 or higher.
+You have learned to regain some of your magical energy by studying your spellbook. When you finish a [[glossary:Short Rest]], you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be level 6 or higher.
 
 For example, if you're a level 4 Wizard, you can recover up to two levels worth of spell slots, regaining either a level 2 spell slot or two level 1 spell slots.
 
@@ -163,7 +163,7 @@ Whenever you finish a [[glossary:Long Rest]], you can study your spellbook and e
 
 ### Level 20: Signature Spells
 
-You gain mastery over two powerful spells and can cast them with little effort. Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't do so again until you finish a Short Rest or [[glossary:Long Rest]].
+You gain mastery over two powerful spells and can cast them with little effort. Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't do so again until you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
 If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 

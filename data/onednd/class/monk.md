@@ -106,7 +106,7 @@ Your self-discipline and martial training allow you to harness a well of extraor
 
 You can spend these points to fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 
-When you spend a Ki Point, it is unavailable until you finish a Short Rest or [[glossary:Long Rest]], at the end of which you regain all your expended points.
+When you spend a Ki Point, it is unavailable until you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]], at the end of which you regain all your expended points.
 
 Some features that use Ki Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.
 

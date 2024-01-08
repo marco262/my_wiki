@@ -167,7 +167,7 @@ As shown on the Sorcerer table, you gain this feature again at levels 8, 12, 16,
 
 ### Level 5: Sorcerous Restoration
 
-When you roll Initiative or finish a Short Rest and have no Sorcery Points remaining, you regain a number of those points equal to your Sorcerer level divided by five (round down).
+When you roll Initiative or finish a [[glossary:Short Rest]] and have no Sorcery Points remaining, you regain a number of those points equal to your Sorcerer level divided by five (round down).
 
 ### Level 7: Sorcery Incarnate
 

@@ -361,7 +361,7 @@ You have trained to rapidly recall or discover vital details, granting you the f
 
 * **Ability Score Increase.** Increase your Intelligence score by 1, to a maximum of 20.
 * **Lore Knowledge.** Choose one of the following Skills: Arcana, History, Investigation, Nature, or Religion. If you lack Proficiency in the chosen Skill, you gain Proficiency in it, and if you have Proficiency in it, you gain [[glossary:Expertise]] in it.
-* **Quick Study.** You can take the Study Action as a Bonus Action.
+* **Quick Study.** You can take the [[glossary:Study]] Action as a Bonus Action.
 
 ## Mage Slayer
 

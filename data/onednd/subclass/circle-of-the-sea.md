@@ -21,7 +21,7 @@ At the end of each of your turns, you can choose another creature you can see wi
 
 ### 6th Level: Aquatic Affinity
 
-You always have the _[[[spell:Water Breathing]]]_ spell prepared. In addition, you gain a Swim Speed equal to your Speed. If you use Wild Shape to assume a form that lacks a Swim Speed, that form gains your Swim Speed.
+You always have the _[[[spell:Water Breathing]]]_ spell prepared. In addition, you gain a [[glossary:Swim Speed]] equal to your Speed. If you use Wild Shape to assume a form that lacks a [[glossary:Swim Speed]], that form gains your [[glossary:Swim Speed]].
 
 ### 10th Level: Stormborn
 

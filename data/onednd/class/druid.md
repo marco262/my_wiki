@@ -148,7 +148,7 @@ When choosing a new form, you may look in the _Monster Manual_ or elsewhere for 
 |       4        |  1/2   |      No      |
 |       8        |   1    |     Yes      |
 
-***Number of Uses.*** You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a [[glossary:Long Rest]].
+***Number of Uses.*** You can use Wild Shape twice. You regain one expended use when you finish a [[glossary:Short Rest]], and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid table.
 

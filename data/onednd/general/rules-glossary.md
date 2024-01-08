@@ -201,7 +201,7 @@ While Invisible, you experience the following effects:
 
 ## Knocking Out A Creature
 
-Sometimes an attacker wants to knock out a foe rather than deal a killing blow. When an attacker would reduce a creature to 0 Hit Points with a melee attack, the attacker can instead reduce the creature to 1 Hit Point. The creature then has the Unconscious condition and starts a Short Rest.
+Sometimes an attacker wants to knock out a foe rather than deal a killing blow. When an attacker would reduce a creature to 0 Hit Points with a melee attack, the attacker can instead reduce the creature to 1 Hit Point. The creature then has the Unconscious condition and starts a [[glossary:Short Rest]].
 
 The creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom (Medicine) check.
 

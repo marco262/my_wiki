@@ -95,7 +95,7 @@ Whenever you gain a Fighter level, you can replace the feat you chose with a dif
 
 You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 + your Fighter level.
 
-You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a [[glossary:Long Rest]].
+You can use this feature twice. You regain one expended use when you finish a [[glossary:Short Rest]], and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table.
 
@@ -109,7 +109,7 @@ When you reach certain Fighter levels, you gain the ability to use the Mastery p
 
 You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the [[glossary:Magic]] action.
 
-Once you use this feature, you must finish a Short Rest or [[glossary:Long Rest]] before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
+Once you use this feature, you must finish a [[glossary:Short Rest]] or [[glossary:Long Rest]] before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn.
 
 ### Level 2: Tactical Mind
 
