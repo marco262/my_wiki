@@ -1,7 +1,7 @@
 import os
 
 
-def find_root_directory(directory="my_wikix"):
+def find_root_directory(directory="my_wiki"):
     # Traverse backwards through the directory structure until our cwd is set to the `my_wiki` directory
     cwd = os.getcwd()
     while os.path.basename(cwd) != directory:
