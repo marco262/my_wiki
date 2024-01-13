@@ -3,6 +3,7 @@ import unittest
 from unittest import mock
 
 from src.common.markdown_parser import MarkdownParser
+from tests.unit import find_root_directory
 
 
 class TestMarkdownParser(unittest.TestCase):
@@ -11,7 +12,7 @@ class TestMarkdownParser(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        os.chdir("..")
+        find_root_directory()
         cls.md = MarkdownParser(init_md=False)
         cls.md.namespace = "dnd"
 

@@ -1,11 +1,15 @@
-import os
 import unittest
 
 from src.common.utils import better_title, list_media_files, check_for_media_file
 from src.onednd.utils import split_rules_glossary
+from tests.unit import find_root_directory
 
 
 class TestUtils(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        find_root_directory()
 
     def test_better_title(self):
         data = "a player's guide and an equal treatment of the sexes"
@@ -13,7 +17,6 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(expected, better_title(data))
 
     def test_list_media_files(self):
-        os.chdir("..")
         self.assertEqual(
             [
                 "media/img/tarokka\\Master of Coins - Rogue.png",
@@ -25,12 +28,10 @@ class TestUtils(unittest.TestCase):
         )
 
     def test_check_for_media_file(self):
-        os.chdir("..")
         self.assertTrue(check_for_media_file("media/img/tarokka/Master of Coins - Rogue.png"))
         self.assertFalse(check_for_media_file("media/img/tarokka/Master of Hats - Jester.png"))
 
     def test_split_rules_glossary(self):
-        os.chdir("..")
         glossary = split_rules_glossary()
         self.assertEqual(
             {
