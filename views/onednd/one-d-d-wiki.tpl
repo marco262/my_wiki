@@ -31,7 +31,11 @@
 [[[general:Classes|Classes Overview]]]
 
 % for c in classes:
+% if c == "Artificer":
+* [Artificer](/dnd/class/Artificer)
+% else:
 * [[[class:{{c.title()}}]]]
+% end
 % end
 
 </div>
