@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Bard|Bard]]
+
 Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.
 
 The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.

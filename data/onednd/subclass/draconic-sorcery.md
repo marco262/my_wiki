@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Sorcerer|Sorcerer]]
+
 Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power, perhaps the location where a great dragon was slain. Or perhaps you handled a treasure taken from a dragon's hoard, some precious item that was infused with draconic power. Or you might claim a dragon for an ancestor or wield draconic magic by virtue of your Dragonborn heritage.
 
 ### Level 3: Draconic Resilience

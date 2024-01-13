@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Wizard|Wizard]]
+
 The counsel of a Diviner is sought by those who seek a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness so you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.
 
 ### Level 3: Divination Savant

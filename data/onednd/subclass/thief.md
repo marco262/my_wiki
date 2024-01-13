@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Rogue|Rogue]]
+
 A mix of burglar, treasure hunter, and explorer, you are the consummate adventurer. In addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.
 
 ### 3rd Level: Fast Hands

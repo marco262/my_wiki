@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Ranger|Ranger]]
+
 You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.
 
 ### 3rd Level: Hunter's Prey

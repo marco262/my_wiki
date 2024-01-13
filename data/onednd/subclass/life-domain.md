@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Cleric|Cleric]]
+
 The Life Domain focuses on the vibrant positive energy -- one of the fundamental forces of the multiverse -- that sustains all life. Clerics who tap into this domain are masters of healing, using that force of life to cure many hurts.
 
 Existence itself relies on the positive energy associated with this domain, so a Cleric of any religious tradition might choose it. This domain is associated with agricultural deities, sun gods, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the powers of this domain.

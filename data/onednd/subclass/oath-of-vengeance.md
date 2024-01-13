@@ -2,6 +2,8 @@
 toc: false
 ---
 
+[[breadcrumb /onednd/class/Paladin|Paladin]]
+
 <div class="phb-sidebar" markdown="1">
 
 **Tenets of Vengeance**

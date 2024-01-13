@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Wizard|Wizard]]
+
 You focus your study on magic that dazzles the senses and tricks the mind. Your magic is subtle, but the illusions you craft make the impossible seem real. Some Illusionists -- including many Gnome Wizards -- are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.
 
 ### Level 3: Illusion Savant

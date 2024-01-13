@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Rogue|Rogue]]
+
 As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style -- topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.
 
 ### 3rd Level: Fancy Footwork

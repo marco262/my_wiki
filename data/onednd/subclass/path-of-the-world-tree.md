@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Barbarian|Barbarian]]
+
 Barbarians who follow the Path of the World Tree believe that their Rage links them to the cosmic ash tree Yggdrasil. This "world tree" grows among the Outer Planes, connecting them to each other and to the many worlds of the Material Plane, and the greatest plants on every world are said to be distant descendants of mighty Yggdrasil. These Barbarians draw on their connection to the world tree as a source of vitality and as a means of travel across the multiverse.
 
 ### Level 3: Vitality of The Tree 

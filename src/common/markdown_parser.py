@@ -216,7 +216,7 @@ class MarkdownParser:
 
     @staticmethod
     def add_breadcrumbs(text):
-        m = re.match(r"\[\[breadcrumb (.*?)\|(.*?)]]", text)
+        m = re.search(r"\[\[breadcrumb (.*?)\|(.*?)]]", text)
         if m:
             return text.replace(m.group(0), f"\u27F5 [{m.group(2)}]({m.group(1)})")
         return text

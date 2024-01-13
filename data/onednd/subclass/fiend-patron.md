@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Warlock|Warlock]]
+
 Your pact draws on the power of the Lower Planes -- the homes of demons, devils, yugoloths, and other Fiends. When you choose this subclass, you might forge a bargain with a demon lord such as Demogorgon, Orcus, Fraz'Urb-luu, or Baphomet; an archdevil such as Asmodeus, Dispater, Mephistopheles, or Glasya; a pit fiend or balor that is especially mighty; or an ultroloth or some other lord of the yugoloths. Alternatively, you might call on a varied array of Fiends without binding yourself to the service of one. In any case, your patron's aims are evil -- the corruption or destruction of all things, ultimately including you -- and your path will be defined by the extent to which you strive against those aims.
 
 ### Level 3: Patron Spells

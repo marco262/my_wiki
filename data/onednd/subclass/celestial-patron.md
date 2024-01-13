@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Warlock|Warlock]]
+
 Your pact draws on the power of the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or some similar entity associated with those realms. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience the barest touch of the holy light that illuminates the multiverse.
 
 ### Level 3: Patron Spells

@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Fighter|Fighter]]
+
 Brawlers focus their training and study not on swordplay and battle tactics, but on the skills needed to turn a punch or kick into a brutal strike and any innocuous object into a deadly weapon. Some Brawlers thrive in tavern scuffles and street rumbles, while others excel in espionage, wielding ordinary objects with the deadliness of an assassin's knife.
 
 ### Level 3: Unarmed Expert

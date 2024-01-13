@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Bard|Bard]]
+
 Bards of the College of Dance know that the Words of Creation can't be contained within speech or even song; they are uttered by the movements of celestial bodies and flow through the motions of even the smallest creatures. To these Bards, dance is art freed from the constraints of a single point in space and time; it is meaning unconfined by narrow definitions of words and structures of grammar. The College of Dance practices a way of being in harmony with the ever-whirling cosmos, emphasizing agility, speed, and grace.
 
 ### 3rd Level: Dazzling Footwork

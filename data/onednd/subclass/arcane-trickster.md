@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Rogue|Rogue]]
+
 Some Rogues enhance their fine-honed skills of stealth and agility with Arcane spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters, mischief-makers, or adventurers.
 
 ### Level 3: Spellcasting

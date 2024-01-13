@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Fighter|Fighter]]
+
 Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.
 
 ### Level 3: Combat Superiority

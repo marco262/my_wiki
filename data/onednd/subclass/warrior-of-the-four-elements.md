@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Monk|Monk]]
+
 The tradition of the Four Elements encompasses Monks who tap into the power of the Elemental Planes through their practice of martial arts. Some of these Monks focus on a single element, learning to wreathe their fists in fire and cause explosive bursts of flame, or to wield mighty gusts of icy wind. Others weave the elements together and learn a variety of techniques to harness the appropriate elemental force for each particular circumstance.
 
 ### 3rd Level: Elemental Attunement

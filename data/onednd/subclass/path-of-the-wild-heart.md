@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Barbarian|Barbarian]]
+
 Barbarians who follow the Path of the Wild Heart view themselves as kin to the animal inhabitants of the natural world. They learn magical means to connect and communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.
 
 ### Level 3: Animal Speaker

@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Fighter|Fighter]]
+
 Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.
 
 ### Level 3: Spellcasting

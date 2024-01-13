@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Rogue|Rogue]]
+
 An Assassin's training focuses on the grim art of death, using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.
 
 ### 3rd Level: Bonus Proficiencies

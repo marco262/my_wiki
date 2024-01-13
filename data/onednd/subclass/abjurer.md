@@ -1,3 +1,5 @@
+[[breadcrumb /onednd/class/Wizard|Wizard]]
+
 Your study of magic is focused on spells that block, banish, or protect -- ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide their companions against a variety of hostile magic and other attacks.
 
 ### Level 3: Abjuration Savant
