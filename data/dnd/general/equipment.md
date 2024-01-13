@@ -15,7 +15,7 @@ You decide how your character came by this starting equipment. It might have bee
 
 **Starting Wealth by Class**
 
-||~ Class ||~ Funds ||
+|| Class || Funds ||
 || Barbarian || 2d4 x 10 gp ||
 || Bard || 5d4 x 10 gp ||
 || Cleric || 5d4 x 10 gp ||
@@ -49,7 +49,7 @@ A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
 
 **Standard Exchange Rates**
 
-||~ Coin ||~ cp ||~ sp ||~ ep ||~ gp ||~ pp ||
+|| Coin || cp || sp || ep || gp || pp ||
 || Copper (cp) || 1 || 1/10 || 1/50 || 1/100 || 1/1,000 ||
 || Silver (sp) || 10 || 1 || 1/5 || 1/10 || 1/100 ||
 || Electrum (ep) || 50 || 5 || 1 || 1/2 || 1/20 ||
@@ -74,27 +74,41 @@ D&D worlds are a vast tapestry made up of many different cultures, each with its
 
 The Armor table shows the cost, weight, and other properties of the common types of armor worn in the worlds of D&D.
 
-**Armor**
+## Armor
 
-||~ Armor ||~ Cost ||~ Armor Class (AC) ||~ Strength ||~ Stealth ||~ Weight ||
-|||||||||||| *Light Armor* ||
-|| Padded || 5 gp || 11 + Dex modifier || -- || Disadvantage || 8 lb. ||
-|| Leather || 10 gp || 11 + Dex modifier || -- || -- || 10 lb. ||
-|| Studded leather || 45 gp || 12 + Dex modifier || -- || -- || 13 lb. ||
-|||||||||||| *Medium Armor* ||
-|| Hide || 10 gp || 12 + Dex modifier (max 2) || -- || -- || 12 lb. ||
-|| Chain shirt || 50 gp || 13 + Dex modifier (max 2) || -- || -- || 20 lb. ||
-|| Scale mail || 50 gp || 14 + Dex modifier (max 2) || -- || Disadvantage || 45 lb. ||
-|| <span id="spiked-armor"></span>Spiked armor[((bibcite spiked-armor-bib))] || 75 gp || 14 + Dex modifier (max 2) || -- || Disadvantage || 45 lb. ||
-|| Breastplate || 400 gp || 14 + Dex modifier (max 2) || -- || -- || 20 lb. ||
-|| Half plate || 750 gp || 15 + Dex modifier (max 2) || -- || Disadvantage || 40 lb. ||
-|||||||||||| *Heavy Armor* ||
-|| Ring mail || 30 gp || 14 || -- || Disadvantage || 40 lb. ||
-|| Chain mail || 75 gp || 16 || Str 13 || Disadvantage || 55 lb. ||
-|| Splint || 200 gp || 17 || Str 15 || Disadvantage || 60 lb. ||
-|| Plate || 1,500 gp || 18 || Str 15 || Disadvantage || 65 lb. ||
-|||||||||||| *Shield* ||
-|| Shield || 10 gp || +2 || -- || -- || 6 lb. ||
+### Light Armor
+
+| Armor           | Cost  | Armor Class (AC)  | Strength | Stealth      | Weight |
+|-----------------|-------|-------------------|----------|--------------|--------|
+| Padded          | 5 gp  | 11 + Dex modifier | --       | Disadvantage | 8 lb.  |
+| Leather         | 10 gp | 11 + Dex modifier | --       | --           | 10 lb. |
+| Studded leather | 45 gp | 12 + Dex modifier | --       | --           | 13 lb. |
+
+### Medium Armor
+
+| Armor                                                                     | Cost   | Armor Class (AC)          | Strength | Stealth      | Weight |
+|---------------------------------------------------------------------------|--------|---------------------------|----------|--------------|--------|
+| Hide                                                                      | 10 gp  | 12 + Dex modifier (max 2) | --       | --           | 12 lb. |
+| Chain shirt                                                               | 50 gp  | 13 + Dex modifier (max 2) | --       | --           | 20 lb. |
+| Scale mail                                                                | 50 gp  | 14 + Dex modifier (max 2) | --       | Disadvantage | 45 lb. |
+| <span id="spiked-armor">Spiked armor</span>[((bibcite spiked-armor-bib))] | 75 gp  | 14 + Dex modifier (max 2) | --       | Disadvantage | 45 lb. |
+| Breastplate                                                               | 400 gp | 14 + Dex modifier (max 2) | --       | --           | 20 lb. |
+| Half plate                                                                | 750 gp | 15 + Dex modifier (max 2) | --       | Disadvantage | 40 lb. |
+
+### Heavy Armor
+
+| Armor      | Cost     | Armor Class (AC) | Strength | Stealth      | Weight |
+|------------|----------|------------------|----------|--------------|--------|
+| Ring mail  | 30 gp    | 14               | --       | Disadvantage | 40 lb. |
+| Chain mail | 75 gp    | 16               | Str 13   | Disadvantage | 55 lb. |
+| Splint     | 200 gp   | 17               | Str 15   | Disadvantage | 60 lb. |
+| Plate      | 1,500 gp | 18               | Str 15   | Disadvantage | 65 lb. |
+
+### Shields
+
+| Armor  | Cost  | Armor Class (AC) | Strength | Stealth | Weight |
+|--------|-------|------------------|----------|---------|--------|
+| Shield | 10 gp | +2               | --       | --      | 6 lb.  |
 
 **Armor Proficiency.** Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't cast spells.
 
@@ -168,7 +182,7 @@ The time it takes to don or doff armor depends on the armor's category.
 
 **Donning and Doffing Armor**
 
-||~ Category ||~ Don ||~ Doff ||
+|| Category || Don || Doff ||
 || Light Armor || 1 minute || 1 minute ||
 || Medium Armor || 5 minutes || 1 minute ||
 || Heavy Armor || 10 minutes || 5 minutes ||
@@ -184,7 +198,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 **Simple Melee Weapons**
 
-||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
+|| Name || Cost || Damage || Weight || Properties ||
 || Club || 1 sp || 1d4 bludgeoning || 2 lb. || Light ||
 || Dagger || 2 gp || 1d4 piercing || 1 lb. || Finesse, light, thrown (range 20/60) ||
 || Garrote[((bibcite homebrew))] || 1 sp || 1d4 bludgeoning || 1 lb. || Finesse, light, two-handed, special ||
@@ -199,7 +213,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 **Simple Ranged Weapons**
 
-||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
+|| Name || Cost || Damage || Weight || Properties ||
 || Crossbow, light || 25 gp || 1d8 piercing || 5 lb. || Ammunition (range 80/320), loading, two-handed ||
 || Dart || 5 cp || 1d4 piercing || 1/4 lb. || Finesse, thrown (range 20/60) ||
 || Shortbow || 25 gp || 1d6 piercing || 2 lb. || Ammunition (range 80/320), two-handed ||
@@ -207,7 +221,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 **Martial Melee Weapons**
 
-||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
+|| Name || Cost || Damage || Weight || Properties ||
 || Battleaxe || 10 gp || 1d8 slashing || 4 lb. || Versatile (1d10) ||
 || Dwarven throwing axe[((bibcite homebrew))] || 5 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
 || Flail || 10 gp || 1d8 bludgeoning || 2 lb. || -- ||
@@ -230,7 +244,7 @@ The Weapons table shows the most common weapons used in the worlds of D&D, their
 
 **Martial Ranged Weapons**
 
-||~ Name ||~ Cost ||~ Damage ||~ Weight ||~ Properties ||
+|| Name || Cost || Damage || Weight || Properties ||
 || Blowgun || 10 gp || 1 piercing || 1 lb. || Ammunition (range 25/100), loading ||
 || Crossbow, hand || 75 gp || 1d6 piercing || 3 lb. || Ammunition (range 30/120), light, loading ||
 || Crossbow, heavy || 50 gp || 1d10 piercing || 18 lb. || Ammunition (range 100/400), heavy, loading, two-handed ||
@@ -309,7 +323,7 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 
 <div style="float: left; padding-right: 10px; " markdown="1">
 
-||~ Item ||~ Cost ||~ Weight ||
+|| Item || Cost || Weight ||
 || Abacus || 2 gp || 2 lb. ||
 || Acid (vial) || 25 gp || 1 lb. ||
 || Alchemist's fire (flask) || 50 gp || 1 lb. ||
@@ -538,7 +552,7 @@ The starting equipment you get from your class includes a collection of useful a
 
 ## Container Capacity
 
-||~ Container ||~ Capacity ||
+|| Container || Capacity ||
 || Backpack* || 1 cubic foot/30 pounds of gear ||
 || Barrel || 40 gallons liquid, 4 cubic feet solid ||
 || Basket || 2 cubic feet/40 pounds of gear ||
@@ -558,7 +572,7 @@ The starting equipment you get from your class includes a collection of useful a
 
 <div style="float: left; padding-right: 10px; " markdown="1">
 
-||~ Item ||~ Cost ||~ Weight ||
+|| Item || Cost || Weight ||
 || **Artisan's tools** ||||||
 || Alchemist's supplies || 50 gp || 8 lb. ||
 || Brewer's supplies || 20 gp || 9 lb. ||
@@ -632,7 +646,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 **Mounts and Other Animals**
 
-||~ Item ||~ Cost ||~ Speed ||~ Carrying<br>Capacity ||
+|| Item || Cost || Speed || Carrying<br>Capacity ||
 || Camel || 50 gp || 50 ft. || 480 lb. ||
 || Donkey or mule || 8 gp || 40 ft. || 420 lb. ||
 || Elephant || 200 gp || 40 ft. || 1,320 lb. ||
@@ -644,7 +658,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 **Tack, Harness, and Drawn Vehicles**
 
-||~ Item ||~ Cost ||~ Weight ||
+|| Item || Cost || Weight ||
 || Barding || x4 || x2 ||
 || Bit and bridle || 2 gp || 1 lb. ||
 || Carriage || 100 gp || 600 lb. ||
@@ -663,7 +677,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 **Waterborne Vehicles**
 
-||~ Item ||~ Cost ||~ Speed ||
+|| Item || Cost || Speed ||
 || Galley || 30,000 gp || 4 mph ||
 || Keelboat || 3,000 gp || 1 mph ||
 || Longship || 10,000 gp || 3 mph ||
@@ -693,7 +707,7 @@ Mounts other than those listed here are available in the worlds of D&D, but they
 
 <div style="float: left; padding-right: 10px; " markdown="1">
 
-||~ Cost ||~ Goods ||
+|| Cost || Goods ||
 || 1 cp || 1 lb. of wheat ||
 || 2 cp || 1 lb. of flour or one chicken ||
 || 5 cp || 1 lb. of salt ||
@@ -722,7 +736,7 @@ Guilds, nobles, and royalty regulate trade. Chartered companies are granted righ
 
 **Lifestyle Expenses**
 
-||~ Lifestyle ||~ Price/Day ||
+|| Lifestyle || Price/Day ||
 || Wretched || -- ||
 || Squalid || 1 sp ||
 || Poor || 2 sp ||
@@ -733,7 +747,7 @@ Guilds, nobles, and royalty regulate trade. Chartered companies are granted righ
 
 **Food, Drink, and Lodging**
 
-||~ Item ||~ Cost ||
+|| Item || Cost ||
 |||| *Ale* ||
 || * Gallon || 2 sp ||
 || * Mug || 4 cp ||
@@ -761,7 +775,7 @@ Guilds, nobles, and royalty regulate trade. Chartered companies are granted righ
 
 **Services**
 
-||~ Service ||~ Pay ||
+|| Service || Pay ||
 |||| *Coach cab* ||
 || * Between towns || 3 cp per mile ||
 || * Within a city || 1 cp ||
@@ -886,7 +900,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 
 <div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;" markdown="1">
 
-||~ d100 ||~ Trinket ||
+|| d100 || Trinket ||
 || 01 || A mummified goblin hand ||
 || 02 || A piece of crystal that faintly glows in the moonlight ||
 || 04 || A diary written in a language you don't know ||
@@ -942,7 +956,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 
 <div style="display: inline-block; vertical-align: top; width: 49%; margin-bottom: 10px;" markdown="1">
 
-||~ d100 ||~ Trinket ||
+|| d100 || Trinket ||
 || 53 || A small box filled with different-sized buttons ||
 || 54 || A candle that can't be lit ||
 || 55 || A tiny cage with no door ||
