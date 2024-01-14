@@ -1,4 +1,13 @@
-_Meanwhile, in an opulent office somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._  
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
+<script type="module">
+    import {init_links} from "/static/js/common/visual_aid_backend.js";
+    init_links();
+</script>
+
+[Music]($load|music|arr/Huon.mp3) ([stop]($stop|all|none))
+
+_Meanwhile, in [an opulent office](^sandpoint/xaneshas_office.jpg) somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._
 
 **Woman:** You're late.
 
