@@ -14,9 +14,6 @@
 
 ### Player Plans
 
-* Kill Lyrie in her sleep
-* Push Tsuto off a cliff
-* Loot Nualia (give them her stuff! Especially the medallion!)
 * Finish exploring Thistletop
 * Level up to 4
 * Take the horse
