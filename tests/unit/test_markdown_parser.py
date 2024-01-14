@@ -191,12 +191,14 @@ Text block
         self.assertEqual(expected, actual)
 
     def test_add_breadcrumbs(self):
-        text = """[[breadcrumb /dnd/class/Druid|Druid]]
-        
-        Fake text"""
-        expected = """⟵ [Druid](/dnd/class/Druid)
-        
-        Fake text"""
+        text = """
+[[breadcrumb /onednd/class/Paladin|Paladin]]
+
+<div class="phb-sidebar" markdown="1">"""
+        expected = """
+⟵ [Paladin](/onednd/class/Paladin)
+
+<div class="phb-sidebar" markdown="1">"""
         md = MarkdownParser()
         self.assertEqual(expected, md.add_breadcrumbs(text))
 

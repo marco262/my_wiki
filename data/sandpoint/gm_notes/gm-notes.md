@@ -59,13 +59,17 @@ Enter another URL to set as Visual Aid here:
 [[magic-item-tracker]]
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-1st-level) (Burning Hands) -- Minor Common
 * [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
-* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) -- Minor Uncommon
-* [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) -- Major Uncommon
-* [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) -- Minor Uncommon
+* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) (Catacombs of Wrath) -- Minor Uncommon
+* [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) (Catacombs of Wrath) -- Major Uncommon
+* [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) (Catacombs of Wrath) -- Minor Uncommon
 * [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
 * [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks) (Bruthazmus) -- Minor Common
 * [Sword of Vengeance](/dnd/equipment/magic-item/sword-of-vengeance) (Nualia) -- Major Uncommon
 * [Sihedron Medallion](/dnd/equipment/magic-item/sihedron-medallion) (Nualia) -- Minor Rare
+* [Cast-Off Armor](/dnd/equipment/magic-item/Cast-Off Armor) (Thistletop E4) -- Minor Common
+* [Pole of Collapsing](/dnd/equipment/magic-item/Pole of Collapsing) (Thistletop E4) -- Minor Common
+* [Staff of Birdcalls](/dnd/equipment/magic-item/Staff of Birdcalls) (Thistletop E7) -- Minor Common
+* [Instrument of Illusions](/dnd/equipment/magic-item/Instrument of Illusions) (Thistletop E7) -- Minor Common
 [[/magic-item-tracker]]
 
 ## Sins

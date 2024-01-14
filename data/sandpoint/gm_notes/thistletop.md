@@ -54,7 +54,7 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
     * [Old pic](^sandpoint/thistletop/lyrie_akenja.png), [Alt pic](^sandpoint/thistletop/lyrie_akenja3.jpg)
 * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=3|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
   * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg), [6](^sandpoint/thistletop/nualia_8.jpg)
-  * [Sihedron medallion](^sandpoint/sihedron_medallion.png)
+  * Loot: Breastplate, Sword of Vengeance, longbow with 20 arrows, [Sihedron medallion](^sandpoint/sihedron_medallion.png), gold holy symbol of Lamashtu (100 gp)
 * 3x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
 
 ## Places
@@ -173,28 +173,30 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
 * E3: [Trapped Hall](^sandpoint/thistletop/trapped_hall.jpg)
   * Trap: [[npc cr=2|role=Trap]]
 * E4: [Observation Deck](^sandpoint/thistletop/observation_deck.jpg)
-  * [Nualia](^sandpoint/thistletop/nualia_3.jpg) ([[npc cr=3|name=Nualia|race=Aasimar|role=Nualia|weapon=Sword of Vengeance]])
-      * Alternate pictures: [1](^sandpoint/thistletop/nualia_3.jpg), [2](^sandpoint/thistletop/nualia_4.jpg), [3](^sandpoint/thistletop/nualia_5.png), [4](^sandpoint/thistletop/nualia_6.jpg), [5](^sandpoint/thistletop/nualia_7.jpg)
-      * Loot: Breastplate, Sword of Vengeance, longbow with 20 arrows, [Sihedron medallion](^sandpoint/sihedron_medallion.png), gold holy symbol of Lamashtu (100 gp)
-  * 2x [Yeth Hound](^sandpoint/thistletop/yeth_hound.png) ([stats](https://5e.tools/bestiary.html#yeth%20hound_mpmm))
   * [Nualia's Journal](https://docs.google.com/document/d/1sTFAuCnSHzSsEvfFO6-lVZ4_jFxcPALeWpq23Vqekjk/edit)
+  * Treasure: Cast-Off Armor (Splint mail), Pole of Collapsing
 * E5: [Portal of Greed](^sandpoint/thistletop/portal_of_greed.jpg)
 * E6: [Crypt](^sandpoint/thistletop/crypt.jpg)
+  * x6 [Zombies](^sandpoint/thistletop/thassilonian_zombie.jpg) ([[npc cr=1/2|role=Zombie]])
 * E7: [Collapsed Treasury](^sandpoint/thistletop/collapsed_treasury.jpg)
   * [Gold Giant Helmet](^sandpoint/thistletop/gold_giant_helmet.jpg)
   * [Giant Hermit Crab](^sandpoint/thistletop/giant_hermit_crab.png) ([[npc cr=2|race=Crab]])
   * Treasure: 2100 cp, 1500 sp, 50 gp, 7x gems each worth (10 gp) = 291 gp
       * The gold giant helmet is worth 500 gp if it can be hauled out (it weighs 300 lbs)
+      * Staff of Birdcalls, Viol of Illusions
 * E8: [Communication Room](^sandpoint/thistletop/communication_room.jpg)
   * [Ambience]($load|ambience|sandpoint/spookylatin_take4.mp3) ([stop]($stop|ambience|none))
   * [Statues](^sandpoint/thistletop/karzoug_statue.png)
   * [Ghostly Image](^sandpoint/thistletop/ghost_karzoug.jpg)
 * E9: [Transmutation Room](^sandpoint/thistletop/transmutation_room.jpg)
+  * Treasure: Surgical tools (worth 100 gp), Sihedron Key
 * E10: Malfeshnekor's Prison
-  * [Door](^sandpoint/thistletop/malfeshnekors_prison_door.png)
   * [Sihedron Rune](^sandpoint/sihedron.jpg)
-  * [Interior](^sandpoint/thistletop/malfeshnekors_prison.png)
-    * Note: The everburning candles are an illusion, not magic items
+  * [Interior](^sandpoint/thistletop/malfeshnekors_prison.jpg)
+      * _As the stone doors grind open, you're hit with a blast of heated air, like you'd just opened the door to a blazing furnace. The south wall bears an immense carving of a seven-pointed star. To the east and west sides of the room, wooden risers each hold several dozen golden candles that burn without melting. But the primary source of light is a 10-foot-diameter magic circle etched into the stone floor. Its intricate lines and arcane geometries flicker with magical flame, and the nearly-invisible barrier that rises from the circle shimmers in the air, radiating those waves of heat you feel as the circle's magic pulses and throbs. A pedestal stands before the circle, adorned with symbols. But most notable is the creature pacing within the circle._
+      * _Though [the creature](^sandpoint/thistletop/barghest.png) seems at first glance to be a dire wolf of some kind, a second glance is all it takes to dispel that illusion. It's long, furred tail swishes with agitation as it moves. It's enormous bat-like ears tilt and turn towards you, and you can feel its glowing yellow eyes on you, taking your measure. It crawls to one side of the magic circle, the shimmering barrier getting more distinct as the creature gets close. Then it turns and paces back the other way, following the curve of the barrier to the other side. Its head never turns away, unblinking eyes on you always as it growls at you._ 
+      * Note: The everburning candles are an illusion, not magic items
+      * The pedestal has two slots that the Sihedron Key from E9 can fit into. When the key is fit into the slot and turned 1/4 turn clockwise, the pedestal will activate. The slot on the left is labeled with the Thassilonian word for "Pain". The slot on the right is labeled with the Thassilonian word for "Banishment".
   * [Malfeshnekor](^sandpoint/thistletop/barghest.png) ([stats](https://5e.tools/bestiary.html#barghest_mpmm,scaled:7))
 
 # The Ritual

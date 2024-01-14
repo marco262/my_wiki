@@ -82,7 +82,7 @@ def create_npc(cr: str=None, level: str=None, race="", role="", damage_die_type=
         "level": level,
         "race": race,
         "role": role,
-        "speed": adjust(get_speed(races[race]), kwargs.get("speed")),
+        "speed": get_speed(races[race], roles[role], kwargs.get("speed")),
         "stat_bonus": adjust(cr_values["stat_bonus"], kwargs.get("stat_bonus")),
         "prof_bonus": prof_bonus,
         "armor_class": adjust(def_dict["ac"], kwargs.get("armor_class")),
@@ -139,10 +139,12 @@ def get_normalized_cr(cr: Optional[str], level: str = None) -> int:
     return int(cr)
 
 
-def get_speed(d):
-    if "speed" in d:
-        return d["speed"]
-    return "30 ft."
+def get_speed(*dicts):
+    speed = "30 ft."
+    for d in dicts:
+        if d and "speed" in d:
+            speed = d["speed"]
+    return speed
 
 
 def get_attack(cr: int, race: str, role: str):
