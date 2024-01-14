@@ -5,6 +5,17 @@
     init_links();
 </script>
 
+# Meanwhile in Sandpoint... 
+
+* Hemlock has been learning all the stuff that happened while he was gone
+* Hemlock will ask party to stick around a little longer in case goblins rally
+* Hart has been talking to the people of Sandpoint, and helping smooth over issues
+  * He talked with Alma and absolutely charmed her, after she'd been talking shit about the Magnimar soldiers
+  * He's been discreetly asking into the players, the goblins, etc. Learning about them as much as he can
+* Another family has left Sandpoint, and one was talked into not leaving by Hart 
+
+# Interstitial
+
 [Music]($load|music|arr/Huon.mp3) ([stop]($stop|all|none))
 
 _Meanwhile, in [an opulent office](^sandpoint/xaneshas_office.jpg) somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._

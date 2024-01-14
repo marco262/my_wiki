@@ -261,3 +261,8 @@ If the party wants to explore deeper, Ameiko will go with but stay in the back.
 Lyrie is in her room, unconscious, convalescing with her cat curled up on her chest. The cat will hiss and try to attack anyone who comes close. After a few hours, she'll wake up. She'll be amenable to changing sides as long as she gets paid (50 gp), but will want to continue her research and delve deeper into Thistletop's secrets. 
 
 Tsuto is on the top level, trying to convince the goblins to help him fix the bridge, while being harassed by the horse. His reunion with Ameiko will... awkward. He will be distraught at Nualia's death, and the fight will go out of him. Ameiko still loves her brother, but she's hurting from the way he treated her and knowing he killed their father. Let the attitude of the PCs drive the interaction.
+
+# Exploration of Thistletop
+
+## What Lyrie/Nualia Have Learned
+

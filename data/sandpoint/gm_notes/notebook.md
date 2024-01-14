@@ -11,6 +11,7 @@
   * She has talked with Malfeshnekor only in her dreams, and has told him that her god has given her the task to break the binding and take him under her control.
   * Malfeshnekor is just happy someone is working to free him from his binding.
   * She's trying to work out how to perform the ritual shown to her by Lamashtu to remove the binding spell that's keeping Malfeshnekor trapped in that room. [link](https://paizo.com/threads/rzs2t67q?Is-Nualia-dumb#2)
+* Shalelu will sneak into Thistletop while party is on their way out, and reassure them the other goblins cleared out
 
 ### Player Plans
 
@@ -39,6 +40,11 @@
   * Malfeshnekor's Prison
 * Pick out minis for Zombies, Crab
 * Prep inter-chapter cutscene: Different office?
+* Come up with list of people who left Sandpoint (two inns at least)
+  * Some of them should return to Sandpoint over Downtime
+* Have players connect with Roland before he leaves. Maybe he can be murdered in Chapter 2?
+* More detail about the Malfeshnekor encounter
+* Put together what Lyrie and Nualia have figured out about Thistletop
 
 ### Reminders
 
