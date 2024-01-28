@@ -26,7 +26,7 @@
   * Skill checks, saves, and attack rolls
   * Damage and critical hits
   * Action, bonus action, movement, reactions
-* Important homebrew
+* Important houserule
   * Adventurer's Intuition (insight checks for hints)
   * Potion of Healing rules
 * Have everyone go over their abilities!
@@ -84,13 +84,16 @@ Rusty: Searching
 
 # Initiative
 
-| Name     | Per | Inv | #  | HP     |
-|----------|-----|-----|----|--------|
-| Goblin G |     |     | 15 |        |
-| Goblin R |     |     | 13 |        |
-| Lyse     | 13  | 11  | 10 |        |
-| Althaea  | 14  | 11  | 5  |        |
-| Horse    |     |     |    | 0 / 20 |
-| Rusty    | 10  | 13  |    |        |
-| Delfi    | 12  | 10  |    |        |
-| Junior   |     |     |    |        |
+| Name     |  Per |  Inv |  # | HP     |
+|----------|-----:|-----:|---:|--------|
+| Delfi    |   12 |   10 | 22 |        |
+| Althaea  |   14 |   11 | 19 |        |
+| Lyse     |   13 |   11 | 16 |        |
+| Zombie Y |      |      | 16 |        |
+| Zombie K |      |      | 13 |        |
+| Junior   |   11 |    9 | 10 |        |
+| Rusty    |   10 |   13 |  7 |        |
+| Zombie G |      |      |  7 |        |
+| Zombie R |      |      |  6 |        |
+| Zombie B |      |      |  3 |        |
+| Zombie W |      |      |  3 |        |
