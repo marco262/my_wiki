@@ -16,9 +16,9 @@
 
 # Interstitial
 
-[Meanwhile in Magnimar...](^sandpoint/meanwhile_in_magnimar.jpg)
-
 [Music]($load|music|arr/Huon.mp3) ([stop]($stop|all|none))
+
+[Meanwhile in Magnimar...](^sandpoint/meanwhile_in_magnimar.jpg)
 
 _Meanwhile, in [an opulent office](^sandpoint/xaneshas_office.jpg) somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._
 
