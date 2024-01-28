@@ -266,3 +266,9 @@ Tsuto is on the top level, trying to convince the goblins to help him fix the br
 
 ## What Lyrie/Nualia Have Learned
 
+Research into ancient civilizations is very difficult for two reasons:
+
+1. Comprehend Languages doesn't work on "dead" languages like Thassilonian. So any translation of Thassilonian texts has to be done the "hard" way.
+2. Surviving documents rarely contain straightforward answers of the kinds of questions archaeologists are looking for answers for. Those answers usually have to be determined by reading between the lines and making connections between disparate documents.
+
+Thistletop was primarily a military outpost, so information found here was mostly orders, inventory lists, and intel on Karzoug's operations against Alaznist. Notably lacking is any written documentation about why/how the outpost fell.

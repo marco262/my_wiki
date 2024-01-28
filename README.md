@@ -138,5 +138,5 @@ Instead, media file requests are redirected to the my-wiki cloud bucket, where a
 To automatically sync your local `media/` directory with the bucket:
 
 ```bash
-gsutil -m rsync -r media/ gs://<bucket-id>/media/
+gsutil -m rsync -ruc media/ gs://<bucket-id>/media/
 ```

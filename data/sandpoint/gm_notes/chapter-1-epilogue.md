@@ -5,7 +5,7 @@
     init_links();
 </script>
 
-# Meanwhile in Sandpoint... 
+# Meanwhile in Sandpoint...
 
 * Hemlock has been learning all the stuff that happened while he was gone
 * Hemlock will ask party to stick around a little longer in case goblins rally
@@ -16,15 +16,17 @@
 
 # Interstitial
 
+[Meanwhile in Magnimar...](^sandpoint/meanwhile_in_magnimar.jpg)
+
 [Music]($load|music|arr/Huon.mp3) ([stop]($stop|all|none))
 
 _Meanwhile, in [an opulent office](^sandpoint/xaneshas_office.jpg) somewhere in Magnimar, the setting sun is shining through tall windows framed by heavy curtains. The deep red light illuminates a woman in a plush, velvet chair as she sips at a glass of expensive wine. A man enters, neither knocking nor announcing himself. The woman addresses him without looking at him._
 
 **Woman:** You're late.
 
-**Man:** My apologies, my lady. I was delayed by official business.
+**Man:** My apologies, my lady. I was unaware I had company.
 
-**Woman:** Always with the excuses. You're lucky I like you. What news do you bring?
+**Woman:** Always with the excuses. You're lucky I like you. What news of our plans?
 
 _The man settles into a chair beside the woman, taking a second wineglass from a side table that has already been filled._
 
