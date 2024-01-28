@@ -24,9 +24,9 @@ _Meanwhile, in [an opulent office](^sandpoint/xaneshas_office.jpg) somewhere in 
 
 **Woman:** You're late.
 
-**Man:** My apologies, my lady. I was unaware I had company.
+**Man:** My apologies, my lady. I had to step out on official business. Though your visits are always a welcome distraction.
 
-**Woman:** Always with the excuses. You're lucky I like you. What news of our plans?
+**Woman:** Always so quick with the excuses and the flattery. You're lucky you're so good at both. What news of our plans?
 
 _The man settles into a chair beside the woman, taking a second wineglass from a side table that has already been filled._
 
