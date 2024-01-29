@@ -29,6 +29,7 @@
 * Important houserule
   * Adventurer's Intuition (insight checks for hints)
   * Potion of Healing rules
+  * Spell changing on long rests
 * Have everyone go over their abilities!
 * Ask for party leader!
 * Recap
@@ -46,6 +47,7 @@
 * More detail about the Malfeshnekor encounter
 * Put together what Lyrie and Nualia have figured out about Thistletop
 * Change Visual Aid to fade between images
+* Add Yakety Sax/Benny Hill to soundboard
 
 ### Reminders
 
@@ -84,16 +86,10 @@ Rusty: Searching
 
 # Initiative
 
-| Name     |  Per |  Inv |  # | HP     |
-|----------|-----:|-----:|---:|--------|
-| Delfi    |   12 |   10 | 22 |        |
-| Althaea  |   14 |   11 | 19 |        |
-| Lyse     |   13 |   11 | 16 |        |
-| Zombie Y |      |      | 16 |        |
-| Zombie K |      |      | 13 |        |
-| Junior   |   11 |    9 | 10 |        |
-| Rusty    |   10 |   13 |  7 |        |
-| Zombie G |      |      |  7 |        |
-| Zombie R |      |      |  6 |        |
-| Zombie B |      |      |  3 |        |
-| Zombie W |      |      |  3 |        |
+| Name    |  Per |  Inv |  # | HP      |
+|---------|-----:|-----:|---:|---------|
+| Rusty   |   10 |   13 | 22 |         |
+| Althaea |   14 |   11 | 17 |         |
+| Delfi   |   12 |   10 | 16 |         |
+| Lyse    |   13 |   11 | 16 |         |
+| Junior  |   11 |    9 |  5 |         |
