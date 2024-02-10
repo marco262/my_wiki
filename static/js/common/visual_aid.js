@@ -11,6 +11,8 @@ let ambience_counter = 0;
 let effect_audio = [];
 let effect_counter = 0;
 
+let blackout_overlay = null;
+
 export function init(volume_settings) {
     music_audio = Array.from(document.getElementsByClassName("music"));
     ambience_audio = Array.from(document.getElementsByClassName("ambience"));
@@ -31,6 +33,8 @@ export function init(volume_settings) {
 
     // Check if autoplay is allowed by playing empty wav file
     window.onload = play_sound;
+
+    blackout_overlay = document.getElementsByClassName("blackout-overlay")[0];
 }
 
 function toggle_audio_controls(e) {
@@ -65,10 +69,19 @@ function handle_websocket(msg) {
 }
 
 function force_page_refresh() {
-    location.reload(true);
+    location.reload();
 }
 
 function handle_visual_aid(url, title) {
+    blackout_overlay.addEventListener(
+        'transitionend',
+        function() { load_visual_aid_image(url, title); },
+        {once: true}
+    );
+    blackout_overlay.classList.add("blackout-overlay-active");
+}
+
+function load_visual_aid_image(url, title) {
     console.log("Setting img src: " + url);
     document.getElementById("iframe").hidden = true;
     let picture = document.getElementById("picture");
@@ -81,12 +94,24 @@ function handle_visual_aid(url, title) {
     } else {
         video.hidden = true;
         video.pause();
-        picture.style.backgroundImage = "url('" + url + "')";
+        picture.src = url;
         picture.hidden = false;
     }
     let picture_title = document.getElementById("picture-title");
-    picture_title.innerHTML = decodeURIComponent(title);
-    picture_title.hidden = false;
+    if (title) {
+        picture_title.innerHTML = decodeURIComponent(title);
+        picture_title.hidden = false;
+    } else {
+        picture_title.hidden = true;
+    }
+    picture.addEventListener(
+        'load',
+        function() {
+            console.log('Image has finished loading!');
+            blackout_overlay.classList.remove("blackout-overlay-active");
+        },
+        {once: true},
+    );
 }
 
 function handle_audio(action, target, url) {
@@ -133,6 +158,15 @@ function handle_audio(action, target, url) {
 }
 
 function handle_iframe(url) {
+    blackout_overlay.addEventListener(
+        'transitionend',
+        function() { load_iframe(url); },
+        {once: true}
+    );
+    blackout_overlay.classList.add("blackout-overlay-active");
+}
+
+function load_iframe(url) {
     console.log(`Loading ${url} in iframe`);
     document.getElementById("picture").hidden = true;
     let video = document.getElementById("video");
@@ -146,6 +180,14 @@ function handle_iframe(url) {
         console.log(`My hash: ${iframe.contentWindow.location.hash}`);
     }
     iframe.src = url;
+    iframe.addEventListener(
+        'load',
+        function() {
+            console.log('Iframe has finished loading!');
+            blackout_overlay.classList.remove("blackout-overlay-active");
+        },
+        {once: true},
+    );
 }
 
 function load_audio(target, url) {

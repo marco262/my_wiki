@@ -4,11 +4,9 @@ body {
 }
 
 #picture {
-    background-size: contain;
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: contain;
 }
 
 #picture-title {
@@ -63,4 +61,20 @@ body {
     background-color: white;
     border: 3px solid red;
     box-shadow: 10px 10px 0 red;
+}
+
+.blackout-overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.blackout-overlay-active {
+    opacity: 100%;
 }

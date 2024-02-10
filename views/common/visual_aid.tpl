@@ -12,7 +12,7 @@
         </div>
     </div>
     <div id="page">
-        <div id="picture"></div>
+        <img id="picture" src="">
         <div id="picture-title"></div>
         <video id="video" src="" height="100%" width="100%" autoplay loop muted hidden></video>
         <iframe id="iframe" src="" height="100%" width="100%" hidden></iframe>
@@ -57,6 +57,7 @@
         </div>
     </div>
     <div id="error-message" hidden></div>
+    <div class="blackout-overlay"></div>
 </body>
 
 <script id="youtube-script" src="/static/js/common/youtube.js"></script>

@@ -26,7 +26,7 @@ GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcH
 visual_aid_type = "visual_aid"
 visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
 visual_aid_title = "The Nerds of Light"
-visual_aid_version = "1.3.0"
+visual_aid_version = "1.4.0"
 volume_settings: Optional[dict] = None
 websocket_list = []
 
