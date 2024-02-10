@@ -197,6 +197,19 @@ As the party is getting ready to delve into the map, they'll hear the sound of a
       * Note: The everburning candles are an illusion, not magic items
       * The pedestal has two slots that the Sihedron Key from E9 can fit into. When the key is fit into the slot and turned 1/4 turn clockwise, the pedestal will activate. The slot on the left is labeled with the Thassilonian word for "Pain". The slot on the right is labeled with the Thassilonian word for "Banishment".
   * [Malfeshnekor](^sandpoint/thistletop/barghest.png) ([stats](https://5e.tools/bestiary.html#barghest_mpmm,scaled:7))
+    * Expecting Nualia, will ask "Finally, my freedom is at hand! Which of you is the one called Nualia?" in Abyssal (Rusty speaks it)
+    * Will switch to Common when it's clear not all the party speaks it
+    * What he knows:
+      * Once one of Alaznist's lieutenants and the commander of a legion of sinspawn
+      * Captured by Karzoug's minions and tortured for information
+      * Remembers yelling and panic and noises outside, then the whole structure shook and fell and crashed down. Then millennia of silence.
+      * Hundreds of years ago, he heard people in the level above. Cultists of Lamashtu, he found he was able to communicate with them telepathically when they prayed before the altar. He failed to lead them to his chamber before they were killed by a hellcat guardian, though.
+      * Over a century later, he sensed goblins nearby, and was able to communicate with them empathically as well, but not as clearly. He drew them to Thistletop, but none were smart enough to find their way to his chamber.
+      * When Nualia arrived and consecrated the temple, he was able to establish communion with her and was working with her to find his chamber. 
+    * If questioned by the players, warn he seems impatient and unstable, so you won't get many answers from him
+    * Will try to make a deal with players for information/power in exchange for his freedom
+    * Will say or promise anything to get out, but an easy Insight check will show he's lying
+    * If asked too many questions or strung along, he will lunge at the barrier and start ranting with fury at them until he's banished
 
 # The Ritual
 
