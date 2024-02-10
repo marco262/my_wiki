@@ -29,6 +29,7 @@
 * [💀 Bokoblin Dying 2]($load|effect|requests/bokoblin_dying2.ogg)
 * [⚡ Bokoblin Shocked]($load|effect|requests/bokoblin_shocked.ogg)
 * [⛪ God and Anime]($load|effect|requests/god_and_anime.ogg)
+* [🎷 Yakety Sax (looping)]($load|music|yakety_sax.mp3)
 
 ### Game Grumps
 

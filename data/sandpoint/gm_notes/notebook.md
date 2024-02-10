@@ -39,15 +39,11 @@
 * Finish finding pictures and audio for Thistletop B2
 * Set up game room lights for the first dungeon level
   * Malfeshnekor's Prison
-* Pick out minis for Zombies, Crab
-* Prep inter-chapter cutscene: Different office?
 * Come up with list of people who left Sandpoint (two inns at least)
   * Some of them should return to Sandpoint over Downtime
 * Have players connect with Roland before he leaves. Maybe he can be murdered in Chapter 2?
 * More detail about the Malfeshnekor encounter
 * Put together what Lyrie and Nualia have figured out about Thistletop
-* Change Visual Aid to fade between images
-* Add Yakety Sax/Benny Hill to soundboard
 
 ### Reminders
 

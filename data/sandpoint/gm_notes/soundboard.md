@@ -52,6 +52,10 @@
 * [Lamashtu]($load|music|arr/Dark Vows.mp3)
 * [Thassilon's Theme]($load|music|arr/FFXIV OST Ascian Theme [Without Shadow].mp3)
 
+### Silly
+
+* [Yakety Sax]($load|music|yakety_sax.mp3)
+
 ## Ambience
 
 * [Rolling Hillsides Ambience]($load|ambience|sandpoint/D&D Ambience - The Plains + Travel Music.mp3)
