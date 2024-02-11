@@ -5,14 +5,21 @@
     init_links();
 </script>
 
-# Meanwhile in Sandpoint...
+# Meanwhile, in Sandpoint...
 
+* Prior to this, Sandpoint has lost the following businesses
+  * Savah's Armory
+  * The Feathered Serpent
+  * The White Deer(?)
+  * Rovanky Tannery
+  * Sandpoint Shipyard
+    * The eldest son, Adryan Valdemar and his father had a falling out, and their second eldest son, Belven Valdemar has taken over.
 * Hemlock has been learning all the stuff that happened while he was gone
 * Hemlock will ask party to stick around a little longer in case goblins rally
 * Hart has been talking to the people of Sandpoint, and helping smooth over issues
   * He talked with Alma and absolutely charmed her, after she'd been talking shit about the Magnimar soldiers
   * He's been discreetly asking into the players, the goblins, etc. Learning about them as much as he can
-* Another family has left Sandpoint, and one was talked into not leaving by Hart 
+* Another family has left Sandpoint, and one was talked into not leaving by Hart
 
 # Interstitial
 
