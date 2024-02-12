@@ -22,7 +22,7 @@
 
 ### Pre-session checklist
 
-* Quiz players on the basic concepts/provide examples
+* Quiz players on the basic concepts (use example scenarios/find on your character sheet)
   * Skill checks, saves, and attack rolls
   * Damage and critical hits
   * Action, bonus action, movement, reactions
@@ -42,6 +42,7 @@
 * Come up with list of people who left Sandpoint (two inns at least)
   * Some of them should return to Sandpoint over Downtime
 * Have players connect with Roland before he leaves. Maybe he can be murdered in Chapter 2?
+* Make loot note for surgical tools
 
 ### Reminders
 
