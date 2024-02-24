@@ -13,7 +13,7 @@
   * The White Deer(?)
   * Rovanky Tannery
   * Sandpoint Shipyard
-    * The eldest son, Adryan Valdemar and his father had a falling out, and their second eldest son, Belven Valdemar has taken over.
+    * The eldest son, Adryan Valdemar and his father had a falling out, and their second-eldest son, Belven Valdemar has taken over.
 * Hemlock has been learning all the stuff that happened while he was gone
 * Hemlock will ask party to stick around a little longer in case goblins rally
 * Hart has been talking to the people of Sandpoint, and helping smooth over issues
