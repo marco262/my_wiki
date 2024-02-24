@@ -7,9 +7,10 @@ from PIL import Image
 in_ext = ".webp"
 out_ext = ".png"
 
+directory = os.environ["PICTURES_DIR"]
 
-print(f'Searching for pictures in {os.environ["PICTURES_DIR"]} to convert...')
-glob_path = os.environ["PICTURES_DIR"].rstrip("/") + "/*" + in_ext
+print(f'Searching for pictures in {directory} to convert...')
+glob_path = directory.rstrip("/") + "/*" + in_ext
 for filepath in glob(glob_path):
     print(filepath)
     out_filepath = splitext(filepath)[0] + out_ext
