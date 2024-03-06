@@ -18,3 +18,9 @@ Enter another URL to set as Visual Aid here:
 # Encounters
 
 * [Tower of Light]()
+
+
+* Earth Sprite ([[npc cr=1/4]])
+* Spriggan ([[npc cr=1/2]])
+* Giant ([[npc cr=1]])
+* Bigby ([[npc cr=1|hp=x2]])
