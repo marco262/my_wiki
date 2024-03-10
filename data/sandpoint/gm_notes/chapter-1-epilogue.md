@@ -16,6 +16,20 @@
   * He's been discreetly asking into the players, the goblins, etc. Learning about them as much as he can
 * Another family has left Sandpoint, and one was talked into not leaving by Hart
 
+## When the Heroes Return
+
+They will be immediately noticed by one of the townsfolk who will call out to them, and they will be swarmed by a crowd of people in no time. They'll be bombarded by questions of all kinds. Ameiko and Junior will get special attention, but amongst all that someone will demand to know about the goblins. When told that they've killed the goblins, the crowd will let out a [huge cheer]($load|effect|mixkit-huge-crowd-cheering-victory-462.wav).
+
+While the crowd is celebrating, [Sheriff Hemlock](^sandpoint/sheriff_hemlock.jpg) will arrive to check out what's going on. After that, things will happen quickly:
+
+* Take [Ameiko](^sandpoint/ameiko_kaijitsu_1.png) to [Father Zantus](^sandpoint/father_zantus.jpg) to get healed.
+* Deliver the news to [Bethana Corwin](^sandpoint/bethana_corwin.jpeg) that Ameiko is okay.
+* Private debriefing and discussion of what to do next between [Sheriff Hemlock](^sandpoint/sheriff_hemlock.jpg) and [Mayor Kendra Deverin](^sandpoint/kendra_deverin.jpg).
+  * Hemlock will insist they can't be certain yet the goblins aren't planning a counterattack. Mayor Deverin will agree, but insist they need to lean into the mood of celebration. Because "the people of Sandpoint need a win right now."
+* A [celebration](^sandpoint/sandpoint_celebration.jpg) ([ambience]($load|ambience|sandpoint/RPG Ambience - Joyful Festival crowd, music, cheering.mp3)) that night and a speech ([cheers]($load|ambience|Stadium Crowd Noise - Cheering Crowd.ogg)) from Mayor Deverin, extolling the virtues, heroism, and bravery of the Heroes. She will present them with rewards.
+  * From [Vorvashali Voon](^sandpoint/vorvashali_voon.jpg), a [Staff of Birdcalls](^sandpoint/staff_of_birdcalls.jpg) ([item](/dnd/equipment/magic-item/Staff of Birdcalls))
+  * From [Ilsoari Gandethus](^sandpoint/ilsoari_gandethus.jpg), a [Viol of Illusions](^sandpoint/viol_of_illusions.jpg) ([item](/dnd/equipment/magic-item/Instrument of Illusions))
+
 # Interstitial
 
 [Music]($load|music|arr/Huon.mp3) ([stop]($stop|all|none))
