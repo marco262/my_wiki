@@ -1,9 +1,7 @@
 [[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-  import {init_links} from "/static/js/common/visual_aid_backend.js";
   import {init_npc_sheets} from "/static/js/dnd/monster_sheet.js";
-  init_links();
   init_npc_sheets();
 </script>
 
@@ -44,7 +42,7 @@
 
 ## Places
 
-* [Glassworks](^sandpoint/sandpoint_glassworks.png)
+* [aGlassworks](^sandpoint/sandpoint_glassworks.png)
   * [Glassworks, Interior](^sandpoint/sandpoint_glassworks_interior.jpg)
   * [Furnace Room](^sandpoint/sandpoint_glassworks_furnace.jpg)
   * [Underground Storage Room](^sandpoint/underground_storage_room.jpeg)

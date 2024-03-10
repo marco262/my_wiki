@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 # Links
 * [Curse of Strahd: Reloaded - Yester Hill](https://docs.google.com/document/d/1sJPhBg_f-osj9k092wQwZ6PBA401dUATyvHrvH8oIVA/view)
 * [DM Map](/media/img/visual_aids/curse_of_strahd/DM Map - Yester Hill.jpg)

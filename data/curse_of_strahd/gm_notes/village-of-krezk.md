@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 * [Approaching](^curse_of_strahd/krezk.mp4)
 * [Inside the Walls](^curse_of_strahd/krezk_1.jpg)
 * [Looking Down from the Abbey](^curse_of_strahd/krezk_2.jpg)

@@ -1,8 +1,3 @@
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 ## Important Notes
 
 * *Ahghairon's dragonward*

@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 * [5etools - Old Bonegrinder](https://5e.tools/adventure.html#cos,6)
 * [Curse of Strahd Reloaded - Old Bonegrinder](https://docs.google.com/document/d/1riz5-dBzJpwVrqC7wIeIUr-WEK_W2fo972UdaCoiJ1Y/view)
 * [Old Bonegrinder](^curse_of_strahd/Old_Bonegrinder.mp4)

@@ -1,17 +1,16 @@
 <script type="module">
-    import {init_links, init_visual_aid, init_soundboard} from "/static/js/common/visual_aid_backend.js";
-    init_links();
+    import { init_visual_aid, init_soundboard } from "/static/js/common/visual_aid_backend.js";
     init_visual_aid();
     init_soundboard();
 </script>
 
 # Introduction
 
-The PCs are visited one late night by Lord Jared, who chats with them about their lives, catching up, yadda yadda... But abruptly at some point he announces me has to leave, and with a knowing smile he says, "You're about to be called upon by a friend in need."
+The PCs are visited one late night by Lord Jared, who chats with them about their lives, catching up, yadda yadda... But abruptly at some point he announces he has to leave, and with a knowing smile he says, "You're about to be called upon by a friend in need."
 
 A knock will sound on the door, and when the PCs look back to Lord Jared, he'll be gone. At the door is a very concerned Volo. He tells the PCs he'll need their help, but he also needs a drink. When he's had a glass of wine, he says he has a friend in the town of Reed's Hollow who he corresponds regularly with, and [her last letter](^dragon_heist/quinns_letter_1.jpg) was concerning. He shows the party the letter, and it appears to be a simple correspondence letter. When the party asks him about it, he just looks more perturbed, saying maybe he's overreacting after all, but he'd appreciate it if they went to the village and checked in on her.
 
-On the brightside, he recommends they stay at the Thrush's Song inn, as it has the best meat pies in town.
+On the bright side, he recommends they stay at the Thrush's Song inn, as it has the best meat pies in town.
 
 # Reed's Hollow
 
@@ -45,7 +44,7 @@ Tina is a very curious girl, watching the PCs from behind corners and her mother
 
 ## The Henderson's Farm
 
-[Earl](^dragon_heist/earl_henderson.png) and [Martha](^dragon_heist/martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
+[Earl](^dragon_heist/earl_henderson.png) and [Martha](^dragon_heist/martha_henderson.jpg) Henderson are a friendly couple of farmers who help provide the town with most of their food. There's not much going on with them when the PCs talk to them. However, on leaving their home for the first time (or while poking around), the PCs will notice three small graves in the front yard, each no more than three feet long. The headstones are strangely blank. When asked about it, the Hendersons will shrug in confusion, saying they're not sure what the graves are, and they must have been here since they moved in. If the PCs push the subject, the Hendersons will get agitated and ask them to leave.
 
 # When The Song Stops
 
@@ -65,13 +64,13 @@ While talking to one of the village women, they'll notice that in middle of a di
 
 Before the PCs leave, Gregor Spinner comes to ask them for help, looking very worried. He mentions that he has a daughter, Clarabelle, who has steadily become more and more hysterical over the past few days, talking about her nightmares and about people he's never heard of. He wonders if they might check in on her, see if they can't determine if she's under some kind of curse or some such. He'll pay them 5 gp for their troubles, though he regretfully can't spare more than that.
 
-When the PCs arrive at Gregor's house, they'll be lead to a door with a chair propped against the handle. Gregor will shamefully say he has to bar his daughter in her room when he's not home for her safety. One night about a week back, she ran out into the street screaming, waking up many of his neighbors. Since then, he's been worried she'd get herself hurt if he's not watching her. He even had to board up her window when he caught her trying to climb out.
+When the PCs arrive at Gregor's house, they'll be led to a door with a chair propped against the handle. Gregor will shamefully say he has to bar his daughter in her room when he's not home for her safety. One night about a week back, she ran out into the street screaming, waking up many of his neighbors. Since then, he's been worried she'd get herself hurt if he's not watching her. He even had to board up her window when he caught her trying to climb out.
 
 [Clarabelle Spinner](^dragon_heist/clarabelle_spinner.jpg)'s room is a mess. Toys are scattered and broken, her clothes tossed all over the room, her bed is unmade with the sheets scattered. The room is lit by sunlight filtering through the cracks in the boards around her window. Clarabelle is sitting in the middle of the room, hugging her knees to her chest, and staring at the boarded up window. She's deaf, and does not hear the PCs enter, but might feel their footsteps. When she notices them, she gasps in fear and scurries into a corner, pressing her back to the wall.
 
 If the PCs try to talk to Clarabelle, she'll start signing at them. After a few minutes of trying to talk with them, have one of the PCs roll an Intelligence check. Whoever rolls highest "remembers" they learned sign language a while back, and can remember enough to start conversing with her. If Tom casts Comprehend Languages, let him start signing back to her after a few minutes.
 
-Clarabelle tells the party the whole story: People are going missing, there's blood in the streets, houses are lying in ruin, there's holes in the road. And in the dusk of twilight, she's seen people grabbed and pulled into the rood, or through cellar windows, or even into the tree trunk in the middle of town. She's sure she's even seen something coming out of the trunk in the middle of town, like a snake or a tall tree, but she was always too scared to look for long. 
+Clarabelle tells the party the whole story: People are going missing, there's blood in the streets, houses are lying in ruin, there's holes in the road. And in the dusk of twilight, she's seen people grabbed and pulled into the holes in the road, or through cellar windows, or even into the tree trunk in the middle of town. She's sure she's even seen something coming out of the trunk in the middle of town, like a snake or a tall tree, but she was always too scared to look for long. 
 
 # The Reveal
 
@@ -79,7 +78,7 @@ If the PCs plug up their ears or somehow deafen themselves, they can make Wisdom
 
 Any PCs who save against the False Hydra's song see the world as it is: puddles of blood in the streets, holes in the road, broken windows and doors all over. And in a nearby window, a ghostly white lipless face, its eyes empty black voids, is fogging up the window with its breath. When it sees someone looking at it, it pulls back from the window on a serpentine neck.
 
-If the PCs follow the monster, it will lead them either into a cellar or the tree trunk in the middle of town, where it has hollowed out the middle into a tunnel leading down underground. In either case, there's remnants of mutilated corpses on the passage into the False Hydra's lair. In the lair itself, the False Hydra's heads writhe defensively around its white, misshapen lump of a body, screaming its song at the PCs ineffectually. All around it are bones and gore of the people its eaten, easily double the amount of people the PCs have seen around the town.
+If the PCs follow the monster, it will lead them either into a cellar or the tree trunk in the middle of town, where it has hollowed out the middle into a tunnel leading down underground. In either case, there's remnants of mutilated corpses on the passage into the False Hydra's lair. In the lair itself, the False Hydra's heads writhe defensively around its white, misshapen lump of a body, screaming its song at the PCs ineffectually. All around it are bones and gore of the people it's eaten, easily double the amount of people the PCs have seen around the town.
 
 [Image of a False Hydra](^dragon_heist/false hydra.jpg)
 

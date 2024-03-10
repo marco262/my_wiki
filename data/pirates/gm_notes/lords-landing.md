@@ -1,10 +1,5 @@
 [[breadcrumb /pirates/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 ## Visual Aids
 
 * Inner city [1](^pirates/lords_landing_2.jpg), [2](^pirates/lords_landing_4.jpg), [3](^pirates/lords_landing_6.jpg)

@@ -54,9 +54,3 @@ Eventually, [Izek Strazni](^curse_of_strahd/izek_strazni.jpg) shows up with the 
 ## Jade Circlet
 
 If removed from the Mad Mage's head, the jade circlet is still irreparably damaged, but it has enough lingering magic to be useful to anyone who might attune to it. Whoever attunes to the circlet gains the ability to activate the circlet as an action. When they do, they change into a random monster per the _[shapechange](/dnd/spell/shapechange)_ spell. The monster must be between CR 1 and CR 12, monstrous in appearance, and one of the following types: aberration, celestial, dragon, elemental, fey, fiend, or monstrosity. So the circlet can turn a creature into an abominable yeti or an earth elemental, but not a deva or bone devil.
-
-
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>

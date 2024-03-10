@@ -1,10 +1,5 @@
 [[breadcrumb /pirates/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 * [Yendan Snazzyfeet](^pirates/yendan_snazzyfeet.jpg) ([[npc cr=1|race=Halfling|role=Yendan|armor_class=+1|hp=x3|weapon=Flintlock Pistol]])
   * Wearing a +1 Mithral Chain Shirt (14 + Dex (max 2), light armor)
   * Snazzy hat

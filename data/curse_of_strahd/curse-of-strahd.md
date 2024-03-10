@@ -352,8 +352,3 @@ glob = media/img/fanart/curse_of_strahd/*.*
 <p>
 <a href="/curse_of_strahd/gm_notes/GM Notes">GM Notes</a>
 </p>
-
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>

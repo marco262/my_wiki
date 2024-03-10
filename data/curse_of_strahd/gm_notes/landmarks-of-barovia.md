@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 _Source:_ <https://docs.google.com/document/d/1BM-S_QmRWnVGjEiPRMkvE18GbQpVbDeB6Jhcf0enEZA/view>
 
 [Landmarks Map](https://i.redd.it/sh0c663qo0d41.jpg)

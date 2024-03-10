@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 * [5eTools - Tsolenka Pass](https://5e.tools/adventure.html#cos,10)
 * [Curse of Strahd Reloaded: Tsolenka Pass](https://docs.google.com/document/d/1FAqpWAJ_yLePTKogV2_TFFhjp2ezWSPIKYyLWjrVbbM/view#heading=h.aw2lgm4ft455)
   * [Encounter locations](https://i.imgur.com/wJmIty6.png)

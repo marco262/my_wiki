@@ -23,8 +23,3 @@ In the wake of Kiril's death, Petru has taken Zuleika as his mate. She is 6 mont
 * [Bianca Stoyanovich](^curse_of_strahd/bianca_stoyanovich.jpg), ex-mate of Kiril, still in mourning (Area Z5A)
 * [Kiril Stoyanovich](^curse_of_strahd/kiril.jpg), former werewolf alpha, dead
 * [Petru Botezatu](^curse_of_strahd/petru_botezatu.jpg), current werewolf alpha
-
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>

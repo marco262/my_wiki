@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 _Source:_ <https://docs.google.com/document/d/1p6IdiO82ve2xHbRvfevp8iKQ1wwX447Ss_D2Ob1dJOY/view>
 
 [Random Encounters Areas](/media/img/visual_aids/curse_of_strahd/random_encounters_areas.png)

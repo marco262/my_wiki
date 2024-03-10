@@ -1,9 +1,5 @@
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 # Five years ago, the lesser moon Dalamud exploded.
+
 An extended war raged between your country of Eorzea and the Garlean Empire which has conquered half the globe. The Garleans sought to stamp out the menace of Primals: the Beastman tribes' summoned gods. And though Eorzea wished to do the same, Eorzea and Garlemald differed vastly on which means are justified to do so. 
 
 At the climax of the war, the Empire enacted its wild plan to pull the lesser moon Dalamud down from the sky as a giant meteor, and rid the world of the Primal threat altogether.
@@ -21,6 +17,7 @@ But there are rumblings that the Primal threat is resurfacing across the land…
 … and the Garlean Empire has begun to stir once more …
 
 # In this campaign, expect...
+
 - ...To rise from green adventurers to storied heroes in defense of the realm!
 - ...To make dear friends and staunch allies!
 - ...To command the helm of an epic tale!
@@ -31,11 +28,13 @@ But there are rumblings that the Primal threat is resurfacing across the land…
 - ...A game more storyline than sandbox, but your choices and decisions still matter!
 
 ## Get Ready!
+
 The classes have been rewritten for flavor, and the number of available subclasses reduced. In addition, there are all new backgrounds and a fresh "This Is Your Life" section to suit the campaign.
 
 Be sure to read through all of your options before settling on your character for... **A Realm Reborn**!
 
 # Races
+
 | Race                                        | STR | DEX | CON | INT | WIS | CHA  | Features                                                               |
 |:--------------------------------------------|:---:|:---:|:---:|:---:|:---:|:----:|:-----------------------------------------------------------------------|
 | [Au Ra (Xaela)](race/aura)                  | +1  | --  | --  | --  | +2  |  --  | Tribal Trance, Scaled Toughness, Primal Battleshout, Savage Attacks    |
@@ -60,6 +59,7 @@ Be sure to read through all of your options before settling on your character fo
 * Hyurs get +1 to 3 ability scores of their choice as well.
 
 # Classes
+
 | Class | Description | Hit Die | SavingThrow Proficiencies | Armor and Weapon Proficiencies |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [Artificer](class/artificer) | A tinkerer who uses firearms and devices to manipulate aether. | d8 | Constitution, Intelligence | Light armor, medium armor, shields, simple weapons, firearms |
@@ -78,6 +78,7 @@ Be sure to read through all of your options before settling on your character fo
 * **Monks** are very much present in the world, but not common enough in Eorzea for this campaign.
 
 # Backgrounds
+
 | Background                                                         | Description | Proficiencies | Feature |
 |:-------------------------------------------------------------------|:---:|:---:|:---:|
 | [Adventurer's Guild Veteran](background/adventurers-guild-veteran) | An adventurer who's already done a few jobs for the locals. | Persuasion, Athletics or Acrobatics or Arcana, one language, two tools of your choice | Guild Kickbacks |
@@ -91,6 +92,7 @@ Be sure to read through all of your options before settling on your character fo
 | [Sharlayan Scholar](background/sharlayan-scholar) (Archon)         | A scholar seeking to apply their thesis to the greater world. | Investigation, Arcana or Nature or History or Religion, One language, one set of artisan's tools or one musical instrument | Library Access (Sage's Mark) |
 
 # Hydaelyn 
+
 *(All files in this section are out of date. See the PDF/book for correct versions for now!)*
 
 * [Historical Timeline](general/timeline)
@@ -103,6 +105,7 @@ Be sure to read through all of your options before settling on your character fo
 * [Glossary](general/glossary)
 
 # Player Resources
+
 * [Visual Aid](/visual_aid)
 * [Player Soundboard](/player soundboard)
 * [House Rules](general/house-rules)

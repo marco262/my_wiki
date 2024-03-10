@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 [Count Strahd von Zarovich](^curse_of_strahd/strahd_6.jpg) is wearing a [Crown of Disguise](^curse_of_strahd/crown_of_disguise.jpg).
 
 Strahd Q&A:

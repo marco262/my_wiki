@@ -1,10 +1,5 @@
 [[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 As the party sets out from Sandpoint towards Thistletop, have them roll a Perception check (DC 15-20). Depending on how well they roll, they get ambushed and an arrow hits a tree near someone's head. The attacker turns out to be [Shalelu Andosana](^sandpoint/shalelu_andosana.jpg), who was firing a warning shot just to get their attention. :)
 
 She'll lead the party the rest of the way to Thistletop, explaining everything she knows about Thistletop, including the brambles and the hidden entrances, and the druid hanging about. She'll let them know about the Birdcruncher goblin refugees, and how she knows they're being regularly fed to something called the Howling Hole, but she hasn't delved far enough into the brambles to find out more.

@@ -1,15 +1,10 @@
 [[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 # Meanwhile, in Sandpoint...
 
 * Prior to this, Sandpoint has lost the following businesses
   * Savah's Armory
-  * The Feathered Serpent
+  * The Feathered Serpent (almost), Hart talked them into staying
   * The White Deer(?)
   * Rovanky Tannery
   * Sandpoint Shipyard
@@ -47,11 +42,11 @@ _The man settles into a chair beside the woman, taking a second wineglass from a
 
 **Man:** Her faith in the Mother of Monsters was substantial. And Nualia's grew even stronger.
 
-**Woman:** And yet it did not save her in the end. Ah well, *c'est la vie*. At least they did us the favor of cleaning up Alaznist's stain and draining that disgusting well of its power. That little town has been a nasty little incubator for Wrathful souls for too long.
+**Woman:** And yet it did not save her in the end. *C'est la vie*. At least they did us the favor of cleaning up Alaznist's stain and draining that disgusting well of its power. That little town has been a nasty little incubator for Wrathful souls for too long.
 
 **Man:** It has not been entirely a thorn in our side. Did you not send off your new project on his mission?
 
-**Woman:** Hah! Oh yes, I *tingle* with anticipation for his results. He was already quite far gone before I sent him off on his little errand, and we should be receiving news of further progress within the week. That is, if he can accomplish a few simple murders without proper supervision.
+**Woman:** Hah! Oh yes, I *tingle* with anticipation for his results. He was already quite far gone before I sent him off on his little errand, and we should be receiving news of further progress within the month. That is, if he can accomplish a few simple murders without proper supervision.
 
 _The woman sets down her wineglass, finally turning to look at the man seated beside her._
 

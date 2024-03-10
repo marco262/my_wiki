@@ -1,8 +1,7 @@
 [[breadcrumb /arr/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-    import { init_links, init_soundboard } from "/static/js/common/visual_aid_backend.js";
-    init_links();
+    import { init_soundboard } from "/static/js/common/visual_aid_backend.js";
     init_soundboard();
 </script>
 

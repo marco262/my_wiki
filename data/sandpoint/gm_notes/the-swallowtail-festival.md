@@ -1,9 +1,4 @@
-[[breadcrumb /arr/GM Notes|GM Notes]]
-
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
+[[breadcrumb /sandpoint/GM Notes|GM Notes]]
 
 * [Rolling Hillsides of Varisia](^sandpoint/varisia.jpg)
 * [Magnimar](^sandpoint/magnimar2.jpg)

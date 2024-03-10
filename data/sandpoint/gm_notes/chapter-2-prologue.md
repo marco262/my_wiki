@@ -6,8 +6,8 @@
 * Spread Sandpoint problems out over downtime. Save some businesses/people to leave later when murders happen.
 * Social Events
     * Week 1: Soldiers go home
-        * Emphasize that he had a positive impact on the town.
         * Alma will be sad to see Roland go.
+        * Emphasize that Hart had a positive impact on the town.
     * Week 2:
         * Lady whose husband got eaten by the goblins returns to Sandpoint to get her stuff. Neighborly get together ensues.
         * Shalelu will hook up with Orik. "He makes me laugh."
@@ -16,5 +16,5 @@
     * Week 3: Lonjiku's funeral
         * Ameiko has inherited the Glassworks, and needs to decide what she'll do with it.
         * She'll decide to rebuild it, to support Sandpoint and carry on her family's legacy.
-        * She'll get an offer from [criminal dude] to fund it but will turn him down because she knows it comes with strings attached.
+        * She'll get an offer from [Jubrayl Vhiski](^sandpoint/jubrayl_vhiski.png) to fund it but will turn him down because she knows it comes with strings attached.
     * Week 4: Chapter 2 starts with MURDERS

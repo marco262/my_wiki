@@ -1,10 +1,5 @@
 [[breadcrumb /curse_of_strahd/gm_notes/GM Notes|GM Notes]]
 
-<script type="module">
-    import { init_links } from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 The players left Baba Lysaga's house (with a familiar with a connection to Baba Lysaga) and immediately went to start talking with the Keepers of the Feather and Uncle David. They went through a bunch of plans to distract her and mess with her house and the like, until Uncle David pointed out their familiar is a spy for her. They smashed the familiar, and have to assume Baba Lysaga heard everything they planned.
 
 So the players now have to come up with new plans. >:) Current plans include:

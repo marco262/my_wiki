@@ -1,8 +1,7 @@
 [[breadcrumb /arr/|A Realm Reborn]]
 
 <script type="module">
-    import {init_links, init_visual_aid} from "/static/js/common/visual_aid_backend.js";
-    init_links();
+    import { init_visual_aid } from "/static/js/common/visual_aid_backend.js";
     init_visual_aid();
 </script>
 

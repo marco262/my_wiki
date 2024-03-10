@@ -49,8 +49,3 @@ Village of Barovia [1](^curse_of_strahd/village_of_barovia_1.jpg), [2](^curse_of
 
 * [March of the Dead](^curse_of_strahd/march_of_the_dead.jpg)
 * [Morgantha](^curse_of_strahd/morgantha.png) [(stats)](/dnd/monster/Night Hag)
-
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>

@@ -1,10 +1,5 @@
 [[breadcrumb /pirates/|Here There Be Pirates!]]
 
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
-
 Bertha and Tom just sold a bunch of weapons to the Knights of Twilight, and there's some criminals about to rob them. Azurhel plyed them with drinks to get them drunk, and is passing on the info to the rest of the team.
 
 ## Before the Robbery

@@ -12,7 +12,7 @@ Once the doors are closed, the candles spring back to life and [Strahd](^curse_o
 
 **If Ireena is in sight**
 
-Strahd will talk to Ireena as an old friend, and ask Ireena to introduce him to her friends. When she refuses, his cordiality will turn cold and he'll glower at her, crooking a finger. She'll straighten, eyes go blank, and she'll haltingly start to approach him. If the PCs attack him, [zombies](^curse_of_strahd/strahd_zombie.jpg) [[stats]](Strahd Zombie) will start smashing the boards out of the windows, beat down the door, and try to swarm the party. 
+Strahd will talk to Ireena as an old friend, and ask Ireena to introduce him to her friends. When she refuses, his cordiality will turn cold, and he'll glower at her, crooking a finger. She'll straighten, eyes go blank, and she'll haltingly start to approach him. If the PCs attack him, [zombies](^curse_of_strahd/strahd_zombie.jpg) [[stats]](Strahd Zombie) will start smashing the boards out of the windows, beat down the door, and try to swarm the party. 
 
 At a narratively appropriate time, Strahd will feck off, saying something about how he looks forward to their next meeting.
 
@@ -23,8 +23,3 @@ Strahd chats with the party, pretends this is the first time he's seen them, and
 Eventually, he departs as a blood-red mist, his laughter echoing the whole time.
 
 Once his laughter dies away, there's pounding at the door as [zombies](^curse_of_strahd/strahd_zombie.jpg) [[stats]](Strahd Zombie) try to get in.
-
-<script type="module">
-    import {init_links} from "/static/js/common/visual_aid_backend.js";
-    init_links();
-</script>
