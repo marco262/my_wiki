@@ -79,11 +79,3 @@ _The man smiles, picking up the woman's hand and raising to his lips to kiss her
 _The woman smiles coyly, purring her approval._
 
 **Woman:** And such a pleasure you are.
-
-
-
-
-<script type="module">
-  import {init_links} from "/static/js/common/visual_aid_backend.js";
-  init_links();
-</script>
