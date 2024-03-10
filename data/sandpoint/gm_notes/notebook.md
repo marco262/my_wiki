@@ -38,13 +38,9 @@
 
 ### Todo
 
-* Finish finding pictures and audio for Thistletop B2
-* Set up game room lights for the first dungeon level
-  * Malfeshnekor's Prison
 * Come up with list of people who left Sandpoint (two inns at least)
   * Some of them should return to Sandpoint over Downtime
 * Have players connect with Roland before he leaves. Maybe he can be murdered in Chapter 2?
-* Make loot note for surgical tools
 
 ### Reminders
 

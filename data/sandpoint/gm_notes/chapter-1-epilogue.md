@@ -40,7 +40,7 @@ _The man settles into a chair beside the woman, taking a second wineglass from a
 
 **Woman:** The quasit? You put more faith in that creature than she deserved, darling.
 
-**Man:** Faith is power, my lady. Her faith in the Mother of Monsters was substantial. And Nualia's grew even stronger.
+**Man:** Faith is power, my lady. Her faith in the Mother of Monsters was substantial. And Nualia's was even stronger.
 
 **Woman:** And yet it did not save her in the end. *C'est la vie*. At least they did us the favor of cleaning up Alaznist's stain and draining that well of its disgusting power. That little town has been a nasty little incubator for Wrathful souls for too long.
 
