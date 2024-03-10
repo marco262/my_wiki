@@ -1,4 +1,4 @@
-[[breadcrumb /sandpoint/GM Notes|GM Notes]]
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
 ### Next session
 

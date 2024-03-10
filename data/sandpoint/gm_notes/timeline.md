@@ -1,4 +1,5 @@
- 
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
 * 10543 Years ago: Karzoug born.
 * 10466 Years ago: Karzoug becomes Runelord of Shalast. 
 * 10050 Years ago: Runeforge founded.

@@ -1,3 +1,5 @@
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
 ## Visual Aids
 
 * Sandpoint [1](^sandpoint/sandpoint1.jpg) [2](^sandpoint/sandpoint2.jpg) [3](^sandpoint/sandpoint3.jpg) 

@@ -1,3 +1,5 @@
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
 <script type="module">
     import { init_soundboard } from "/static/js/common/visual_aid_backend.js";
     init_soundboard();

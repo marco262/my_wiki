@@ -1,4 +1,4 @@
-[[breadcrumb /sandpoint/GM Notes|GM Notes]]
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
 * [Rolling Hillsides of Varisia](^sandpoint/varisia.jpg)
 * [Magnimar](^sandpoint/magnimar2.jpg)

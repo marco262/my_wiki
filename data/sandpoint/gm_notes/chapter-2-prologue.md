@@ -1,3 +1,5 @@
+[[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
+
 # Downtime
 
 * The players will have a month of downtime (4 weeks)
