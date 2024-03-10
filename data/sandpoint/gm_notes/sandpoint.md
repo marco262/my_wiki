@@ -168,3 +168,11 @@
   * [Burned Down Cottage](^sandpoint/stoots_home_burnt.jpg), Stoot's home
   * [Cave](^sandpoint/choppers_isle_cave.jpg)
   * [Shrine Cave](^sandpoint/underground_ruins.jpg)
+
+
+
+
+<script type="module">
+  import {init_links} from "/static/js/common/visual_aid_backend.js";
+  init_links();
+</script>

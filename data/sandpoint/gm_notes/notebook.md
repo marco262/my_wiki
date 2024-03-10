@@ -38,6 +38,7 @@
 
 ### Todo
 
+* Add Current Day box to Calendar
 * Come up with list of people who left Sandpoint (two inns at least)
   * Some of them should return to Sandpoint over Downtime
 * Have players connect with Roland before he leaves. Maybe he can be murdered in Chapter 2?
