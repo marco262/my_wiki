@@ -1,3 +1,5 @@
+[[breadcrumb /sandpoint/GM Notes|GM Notes]]
+
 ### Next session
 
 * There are 7 keys on Ripnugget's keyring (more keys = more important)
