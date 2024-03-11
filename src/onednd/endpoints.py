@@ -36,9 +36,9 @@ def load_spells():
             k = splitext(basename(path))[0]
             if k in core_spells:
                 d["spell_lists"] = set(d["spell_lists"]).union([c.title() for c in core_spells[k]["classes"]])
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd")
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "source_extended" in d:
-                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd")
+                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             spells[k] = d
             SPELLS_BY_LEVEL[d["level"]].append((k, d))
     except Exception:
