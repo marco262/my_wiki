@@ -184,7 +184,7 @@ You gain [[glossary:Expertise]] in two of your skill proficiencies of your choic
 
 **Editor's Note**
 
-Because the Arcave/Divine/Primal spell lists are apparently in the process of being phased out, this feature has been changed so Magical Secrets now gives you access to all non-exclusive spells.
+Because the Arcane/Divine/Primal spell lists are apparently in the process of being phased out, this feature has been changed so Magical Secrets now gives you access to all non-exclusive spells.
 
 </div>
 
