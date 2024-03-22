@@ -34,3 +34,7 @@ As a Goliath adventurer, you have the following special traits.
 ***Large Form.*** Starting at 5th level, you gain the ability to supernaturally grow. As a Bonus Action, you change your Size to Large, provided you're in a big enough space. This transformation lasts for 10 minutes or until you end it as a Bonus Action. During that duration, you have Advantage on Strength Checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a [[glossary:Long Rest]].
 
 ***Powerful Build.*** You have Advantage on any Saving Throw you make to end the [[glossary:Grappled]] condition on yourself. You also count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+----
+
+_Source: [Cleric and Revised Species](https://www.dndbeyond.com/sources/ua/cleric-revised-species)_

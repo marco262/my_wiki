@@ -52,14 +52,13 @@
 * [{{c.title()}} Spells](/onednd/spell_list/{{c}})
 % end
 
-
-
 </div>
 
 <div class="index-column" markdown="1">
 
 ## Character Information
 
+* [[[advancement:Character Generation]]]
 * [[[advancement:Feats]]]
 
 ## Equipment

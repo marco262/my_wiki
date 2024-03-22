@@ -38,3 +38,7 @@ Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells yo
 ***Keen Senses.*** You have Proficiency in the Perception Skill.
 
 ***Trance.*** You don't need to sleep, and magic can't put you to sleep. You can finish a [[glossary:Long Rest]] in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
+
+----
+
+_Source: [Character Origins](https://www.dndbeyond.com/sources/ua/character-origins)_

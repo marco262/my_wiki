@@ -10,7 +10,7 @@ Finally, determine the average of the two options' Life Span traits to figure ou
 
 </div>
 
-Celestial animals roam the Beastlands, a plane of untamed beauty and wild nature. Many of those otherworldly animals serve the Beast Lords, and in the early days of the multiverse, some animals evolved into bipedal forms. Among their number are Ardlings, people with beast-like heads, keen senses, and an innate connection to divine magic. Long ago, the ancestors of Ardlings migrated to the Material Plane, and Ardlings can now be found on many worlds.
+Celestial animals roam the Beastlands, a plane of untamed beauty and wild nature. Many of those otherworldly animals serve the Beast Lords, and in the early days of the multiverse, some of the animals evolved into bipedal forms. Among their number are Ardlings, people with beastlike heads, keen senses, and an innate connection to divine magic. Long ago, the ancestors of Ardlings migrated to the Material Plane, and Ardlings can now be found on many worlds.
 
 An Ardling has a head resembling that of an animal. Depending on the animal, the Ardling might also have fur, feathers, or scales. Some little and others hulking, Ardlings are as varied as the animals they resemble.
 
@@ -35,3 +35,7 @@ As an Ardling adventurer, you have the following special traits.
 Intelligence, Wisdom, or Charisma is your spellcasting ability for any Spell you cast with this trait (choose the ability when you select this Race).
 
 ***Keen Senses.*** You have Proficiency in the Perception Skill.
+
+----
+
+_Source: [Cleric and Revised Species](https://www.dndbeyond.com/sources/ua/cleric-revised-species)_

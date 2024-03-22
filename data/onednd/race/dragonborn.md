@@ -51,3 +51,7 @@ You can use this Breath Weapon a number of times equal to your Proficiency Bonus
 ***Darkvision.*** You have Darkvision with a range of 60 feet.
 
 ***Draconic Flight.*** When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are [[glossary:Incapacitated]] or you retract the wings as a Bonus Action. During that time, you have a [[glossary:Fly Speed]] equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can't use it again until you finish a [[glossary:Long Rest]].
+
+----
+
+_Source: [Cleric and Revised Species](https://www.dndbeyond.com/sources/ua/cleric-revised-species)_
