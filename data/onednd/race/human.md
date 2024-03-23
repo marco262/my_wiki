@@ -20,4 +20,3 @@ As a Human, you have these special traits.
 ----
 
 _Source: [Character Origins](https://www.dndbeyond.com/sources/ua/character-origins)_
-

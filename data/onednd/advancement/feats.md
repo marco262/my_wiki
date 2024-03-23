@@ -145,17 +145,25 @@ You gain the following Armor Training: Light Armor, Medium Armor, and Shield.
 
 ## Magic Initiate
 
+<div class="errata" markdown="1">
+
+**Editor's Note**
+
+This feat has been changed from its form in the playtest document to provide access to a specific class' spell list. This change was made because the latest playtest documents appear to be moving away from the Arcane/Divine/Primal spells lists and back to class-specific spell lists. 
+
+</div>
+
 **Prerequisite:** None  
 **Repeatable:** Yes, but you must choose a different Spell list each time
 
-You have learned the basics of a particular magical tradition. Choose one Spell list: [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells). You gain the following benefits related to that choice:
+You have learned the basics of a particular magical tradition. Choose a class: artificer, bard, cleric, druid, ranger, sorcerer, warlock, or wizard. You gain the following benefits related to that choice:
 
-* **Two Cantrips.** You learn two cantrips of your choice from the Spell list.
+* **Two Cantrips.** You learn two cantrips of your choice from that class' Spell list.
 * **1st-Level Spell.** Choose one 1st-level Spell from the Spell list. You always have that Spell prepared. You can cast it once without a Spell Slot, and you regain the ability to cast it in that way when you finish a [[glossary:Long Rest]]. You can also cast the Spell using any Spell Slots you have.
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for these Spells (choose when you select this Feat).
+Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or ranger; or Intelligence for artificer or wizard.
 
-Whenever you gain a new level, you can replace one of the Spells you chose for this Feat with a different Spell of the same level from the chosen Spell list.
+Whenever you gain a new level, you can replace one of the Spells you chose for this Feat with a different Spell of the same level from the chosen class' Spell list.
 
 ## Musician
 
@@ -431,13 +439,21 @@ You have developed the resilience to better withstand certain dangers, granting 
 
 ## Ritual Caster
 
+<div class="errata" markdown="1">
+
+**Editor's Note**
+
+This feat has been changed from its form in the playtest document to provide access to all ritual spells. This change was made because the latest playtest documents appear to be moving away from the Arcane/Divine/Primal spells lists and back to class-specific spell lists. 
+
+</div>
+
 **Prerequisite:** Intelligence, Wisdom, or Charisma 13+  
 **Repeatable:** No
 
 You have studied ritual magic, granting you the following benefits:
 
 * **Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag from the [Arcane](/onednd/general/Spellcasting Rules#arcane-spells), [Divine](/onednd/general/Spellcasting Rules#divine-spells), or [Primal](/onednd/general/Spellcasting Rules#primal-spells) Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
+* **Ritual Spells.** Choose two 1st-level Spells that have the Ritual tag. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat.
 * **Quick Ritual.** With this benefit, you can cast a Ritual Spell that you have prepared using its regular casting time, rather than the extended time for a [[glossary:Ritual Casting|Ritual]]. Doing so doesn't require a Spell Slot. Once you cast the Spell in this way, you can't use this benefit again until you finish a [[glossary:Long Rest]].
 
 ## Sentinel

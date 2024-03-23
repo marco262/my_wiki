@@ -59,16 +59,24 @@
 ## Character Information
 
 * [[[advancement:Character Generation]]]
+    * [[[advancement:Character Generation#backgrounds|Backgrounds]]]
+    * [[[advancement:Character Generation#languages|Languages]]]
 * [[[advancement:Feats]]]
 
 ## Equipment
 
+* [[[general:equipment#armor-and-shields|Armor and Shields]]]
 * [[[general:equipment#weapons|Weapons]]]
 * [[[general:equipment#adventuring-gear|Adventuring Gear]]]
+* [[[general:equipment#tools|Tools]]]
+* [[[general:equipment#mounts-and-vehicles|Mounts and Vehicles]]]
+* [[[general:equipment#trade-goods|Trade Goods]]]
+* [[[general:equipment#expenses|Expenses]]]
+* [[[general:equipment#trinkets|Trinkets]]]
 
 ## System Info
 
-[[[general:Rules Glossary]]]
+* [[[general:Rules Glossary]]]
 
 </div>
 
