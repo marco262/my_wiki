@@ -16,7 +16,6 @@
 
 ### Uncommon Races
 
-* [[[race:Ardling]]]
 * [[[race:Dragonborn]]]
 * [[[race:Goliath]]]
 * [[[race:Orc]]]

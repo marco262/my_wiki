@@ -49,13 +49,18 @@ Finally, determine the average of the two options' Life Span traits to figure ou
 
 When you choose your character's Race, you determine whether your character is a member of the human race or of a fantastical race. This document provides descriptions and rules for the following Race options: 
 
-* [[[race:Human]]]
-* [[[race:Ardling]]]
-* [[[race:Dragonborn]]]
+### Common Races
+
 * [[[race:Dwarf]]]
 * [[[race:Elf]]]
 * [[[race:Gnome]]]
 * [[[race:Halfling]]]
+* [[[race:Human]]]
+
+### Uncommon Races
+
+* [[[race:Dragonborn]]]
+* [[[race:Goliath]]]
 * [[[race:Orc]]]
 * [[[race:Tiefling]]]
 
