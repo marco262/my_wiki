@@ -1,5 +1,6 @@
 title = "Barkskin"
-spell_lists = ["Primal"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Druid", "Ranger"]
 level = "2"
 school = "Transmutation"
 concentration_spell = true

@@ -1,5 +1,6 @@
 title = "Resistance"
-spell_lists = ["Divine", "Primal"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Artificer", "Cleric", "Druid"]
 level = "0"
 school = "Abjuration"
 concentration_spell = false

@@ -1,6 +1,6 @@
 title = "Power Word Kill"
 # Added classes to allow it to show up in the spell lists
-spell_lists = ["Arcane", "Bard", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
 level = "9"
 school = "Enchantment"
 concentration_spell = false

@@ -1,5 +1,6 @@
 title = "Banishment"
-spell_lists = ["Arcane", "Divine"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"]
 level = "4"
 school = "Abjuration"
 concentration_spell = true
@@ -11,7 +12,11 @@ material = "an item distasteful to the target"
 expensive_material_component = false
 material_component_consumed = false
 duration = "Concentration, up to 1 minute"
-description = """You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma Saving Throw or be transported to a harmless demiplane for the duration. The target can willingly fail the save.   While in the demiplane, the target is [[glossary:Incapacitated]]. At the end of each of its turns, the target can repeat the save, ending the Spell on itself on a success. When the Spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.   If the Spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its Creature Type."""
+description = """You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma Saving Throw or be transported to a harmless demiplane for the duration. The target can willingly fail the save.
+
+While in the demiplane, the target is [[glossary:Incapacitated]]. At the end of each of its turns, the target can repeat the save, ending the Spell on itself on a success. When the Spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+
+If the Spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its Creature Type."""
 at_higher_levels = "When you cast this Spell using a Spell Slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
 source = "Cleric and Revised Species"
 source_link = "https://www.dndbeyond.com/sources/ua/cleric-revised-species"

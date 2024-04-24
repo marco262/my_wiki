@@ -1,5 +1,6 @@
 title = "Find Familiar"
-spell_lists = ["Arcane"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Wizard"]
 level = "1"
 school = "Conjuration"
 concentration_spell = false

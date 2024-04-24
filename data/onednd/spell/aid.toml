@@ -1,5 +1,6 @@
 title = "Aid"
-spell_lists = ["Divine"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Artificer", "Cleric", "Paladin"]
 level = "2"
 school = "Abjuration"
 concentration_spell = false

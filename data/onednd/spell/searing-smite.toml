@@ -1,6 +1,6 @@
 title = "Searing Smite"
 # Added classes to allow it to show up in the spell lists
-spell_lists = ["Divine", "Paladin", "Ranger"]
+spell_lists = ["Paladin", "Ranger"]
 level = "1"
 school = "Evocation"
 concentration_spell = false

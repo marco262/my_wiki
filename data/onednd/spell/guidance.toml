@@ -1,5 +1,6 @@
 title = "Guidance"
-spell_lists = ["Divine", "Primal"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Artificer", "Cleric", "Druid"]
 level = "0"
 school = "Divination"
 concentration_spell = false

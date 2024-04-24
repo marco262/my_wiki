@@ -1,6 +1,6 @@
 title = "Power Word Heal"
 # Added classes to allow it to show up in the spell lists
-spell_lists = ["Divine", "Bard", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Bard", "Cleric"]
 level = "9"
 school = "Enchantment"
 concentration_spell = false

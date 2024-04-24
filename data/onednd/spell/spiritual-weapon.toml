@@ -1,5 +1,6 @@
 title = "Spiritual Weapon"
-spell_lists = ["Divine"]
+# Added classes to allow it to show up in the spell lists
+spell_lists = ["Cleric"]
 level = "2"
 school = "Evocation"
 concentration_spell = true
