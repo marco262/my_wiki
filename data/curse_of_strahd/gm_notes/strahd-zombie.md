@@ -1,4 +1,4 @@
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 file = curse_of_strahd/gm_notes/strahd-zombie.toml

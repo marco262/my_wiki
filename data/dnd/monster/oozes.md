@@ -14,7 +14,7 @@ Since not every ooze digests every type of substance, some have coins, metal gea
 
 ## Black Pudding
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/black-pudding.toml
@@ -31,7 +31,7 @@ Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone rem
 
 ## Gelatinous Cube
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/gelatinous-cube.toml
@@ -48,7 +48,7 @@ A gelatinous cube is all but transparent, making it hard to spot until it attack
 
 ## Gray Ooze
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/gray-ooze.toml
@@ -71,7 +71,7 @@ A psionic gray ooze has an Intelligence score of (-2), as well as the following 
 
 ## Ochre Jelly
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 file = dnd/monster/ochre-jelly.toml

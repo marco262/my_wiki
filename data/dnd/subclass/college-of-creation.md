@@ -37,7 +37,7 @@ The size of the item you can create with this feature increases by one size cate
 
 ## Animating Performance
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px

@@ -1,4 +1,4 @@
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 <div id="monodrone" markdown="1">
 

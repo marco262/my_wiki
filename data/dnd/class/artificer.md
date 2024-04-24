@@ -332,7 +332,7 @@ _Item: A helmet (requires attunement)_
 
 While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't [[[general:conditions#incapacitated|incapacitated]]].
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px

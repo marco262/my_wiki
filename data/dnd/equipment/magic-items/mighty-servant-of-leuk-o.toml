@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Tasha's Cauldron of Everything, p. 131"
 description = """
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 400px

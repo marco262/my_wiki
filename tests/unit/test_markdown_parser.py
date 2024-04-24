@@ -310,3 +310,110 @@ And here's the ending
 <strong>Grapple.</strong> The target must succeed on a Strength or Dexterit ... <em>[more]</em></p></button></dfn>, and"""
         actual = self.md.add_rules_glossary_tooltips(text)
         self.assertEqual(expected, actual)
+
+    def test_include_monster_sheet(self):
+        input_text = """<div class="monster-float">
+
+[[include dnd/monster-sheet.tpl]]
+width = 500px
+name = Fey Spirit
+size = Small
+type = fey
+alignment = 
+armor_class = 12 + the level of the spell (natural armor)
+hit_points = 30 + 10 for each spell level above 3rd
+speed = 40 ft.
+strength = 13
+dexterity = 16
+constitution = 14
+intelligence = 14
+wisdom = 11
+charisma = 16
+condition_immunities = charmed
+senses = darkvision 60 ft., passive Perception 10
+languages = Sylvan, understands the languages you speak
+proficiency_bonus = equals your bonus
+actions = !!!
+***Multiattack.*** The elemental makes a number of attacks equal to half this spell's level (rounded down).
+
+***Shortsword.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d6 + 3 + the spell's level piercing damage and 1d6 force damage.
+!!!
+bonus_actions = !!!
+***Fey Step.*** The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:
+
+* **Fuming.** The fey has advantage on the next attack roll it makes before the end of this turn.
+* **Mirthful.** The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is
+charmed by you and the fey for 1 minute or until the target takes any damage.
+* **Tricksy.** The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn.
+!!!
+[[/include]]
+
+</div>
+
+You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
+
+The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.
+"""
+        expected = """<div class="monster-float">
+
+<link rel="stylesheet" type="text/css" href="/static/css/monster-sheet.css">
+<div class="monster-sheet" style="max-width: 500px;">
+    <div class="top-bottom-bar"></div>
+    <h1 class="name">Fey Spirit</h1>
+    <div class="type">Small fey</div>
+    <div class="red-bar"></div>
+    <div class="text"><strong>Armor Class</strong> 12 + the level of the spell (natural armor)</div>
+    <div class="text"><strong>Hit Points</strong> 30 + 10 for each spell level above 3rd</div>
+    <div class="text"><strong>Speed</strong> 40 ft.</div>
+    <div class="red-bar"></div>
+    <div class="ability-scores">
+        <span class="ability-score-name">STR</span>
+        <span class="ability-score-name">DEX</span>
+        <span class="ability-score-name">CON</span>
+        <span class="ability-score-name">INT</span>
+        <span class="ability-score-name">WIS</span>
+        <span class="ability-score-name">CHA</span>
+        <span class="ability-score-value">13 (+1)</span>
+        <span class="ability-score-value">16 (+3)</span>
+        <span class="ability-score-value">14 (+2)</span>
+        <span class="ability-score-value">14 (+2)</span>
+        <span class="ability-score-value">11 (+0)</span>
+        <span class="ability-score-value">16 (+3)</span>
+    </div>
+    <div class="red-bar"></div>
+    <div class="text"><strong>Condition Immunities</strong> charmed</div>
+    <div class="text"><strong>Senses</strong> darkvision 60 ft., passive Perception 10</div>
+    <div class="text"><strong>Languages</strong> Sylvan, understands the languages you speak</div>
+    <div class="text"><strong>Proficiency Bonus</strong> equals your bonus</div>
+    <div class="red-bar"></div>
+    <h2 class="actions-header">Actions</h2>
+    <div class="text-black">
+        <p><strong><em>Multiattack.</em></strong> The elemental makes a number of attacks equal to half this spell's level (rounded down).</p>
+
+<p><strong><em>Shortsword.</em></strong> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 + 3 + the spell's level piercing damage and 1d6 force damage.</p>
+
+    </div>
+    <h2 class="actions-header">Bonus Actions</h2>
+    <div class="text-black">
+        <p><strong><em>Fey Step.</em></strong> The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:</p>
+
+<ul>
+<li><strong>Fuming.</strong> The fey has advantage on the next attack roll it makes before the end of this turn.</li>
+<li><strong>Mirthful.</strong> The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is
+charmed by you and the fey for 1 minute or until the target takes any damage.</li>
+<li><strong>Tricksy.</strong> The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn.</li>
+</ul>
+
+    </div>
+    <div class="top-bottom-bar"></div>
+</div>
+
+<p></div></p>
+
+<p>You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
+
+<p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)

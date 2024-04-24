@@ -33,7 +33,7 @@ You gain the following benefits:
 
 ## Drake Companion
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 350px

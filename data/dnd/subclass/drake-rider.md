@@ -29,7 +29,7 @@ You learn an additional spell when you reach certain levels in this class, as sh
 
 ## Draconic Mount
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 350px

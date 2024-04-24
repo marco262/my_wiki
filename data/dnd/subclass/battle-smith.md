@@ -36,7 +36,7 @@ Your combat training and your experiments with magic have paid off in two ways:
 
 ## Steel Defender
 
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px

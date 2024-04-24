@@ -12,7 +12,7 @@ expensive_material_component = false
 material_component_consumed = false
 duration = "Instantaneous"
 description = """
-<div class="monster-float" markdown="1">
+<div class="monster-float">
 
 [[include dnd/monster-sheet.tpl]]
 width = 500px
