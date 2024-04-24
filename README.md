@@ -113,7 +113,7 @@ gcloud auth application-default login
 
 The server supports either storing media files locally and hosting them from the same machine that the service is running on, or it can return a redirect an externally hosted file source, like a Google Cloud Bucket. If you wish to use an external file source, set the `media bucket` config setting to the name of the bucket. The bucket must contain a top-level folder named `media` which contains all the media files.
 
-Note that this will not prevent the media files from being pulled down by a git clone. If you wish to avoid that, see the `startup_script.sh` for how to do a sparse checkout.
+Note that this will not prevent the media files from being pulled down by a git clone. If you wish to avoid that, see the `install_script.sh` for how to do a sparse checkout.
 
 ## Auto-update
 
@@ -132,7 +132,7 @@ Whenever a change is pushed to GitHub, a GitHub Action will fire that will hit t
 
 ## Media files
 
-Media files are not pulled down from GitHub by the intended installation (see `startup_script.sh`). 
+Media files are not pulled down from GitHub by the intended installation (see `install_script.sh`). 
 Instead, media file requests are redirected to the my-wiki cloud bucket, where all files should be manually copied.
 
 To automatically sync your local `media/` directory with the bucket:
