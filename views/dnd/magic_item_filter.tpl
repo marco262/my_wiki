@@ -34,6 +34,7 @@
             <b>Class Restrictions:</b><br>
             <input type="checkbox" name="checkbox-all" value="classes" checked><i>(All/None)</i><br>
             <input type="checkbox" name="checkbox-classes" value="no-restrictions" checked>(no restrictions)<br>
+            <input type="checkbox" name="checkbox-classes" value="spellcaster" checked>(spellcaster)<br>
             % for c in classes:
                 <input type="checkbox" name="checkbox-classes" value="{{c}}" checked>{{c.title()}}<br>
             % end
