@@ -1,3 +1,23 @@
+# Choosing Your Class
+
+The first step in choosing your D&D character is to pick their class. A class is like a "job", and it is where the majority of your character's special abilities will come from. Your class plays a large part in defining your role in the game, your strengths, and your weaknesses, so choose carefully. 
+
+You can choose from the following classes when creating your character:
+
+* [Artificer](/dnd/class/Artificer)
+* [[[class:Barbarian]]]
+* [[[class:Bard]]]
+* [[[class:Cleric]]]
+* [[[class:Druid]]]
+* [[[class:Fighter]]]
+* [[[class:Monk]]]
+* [[[class:Paladin]]]
+* [[[class:Ranger]]]
+* [[[class:Rogue]]]
+* [[[class:Sorcerer]]]
+* [[[class:Warlock]]]
+* [[[class:Wizard]]]
+
 # Determining Your Origin
 
 After choosing your character's Class, it's time to consider the character's origin. Who are the character's ancestors? And how did the character spend the years leading up to a life of adventure? To help answer those questions, you choose three things for the character:
