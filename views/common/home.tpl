@@ -2,14 +2,20 @@
 * [One D&D Wiki](/onednd/)
 * [Numenera Resources](/numenera/)
 
-**Campaigns**
+## Campaigns
 
-* [Dragon Heist](/dragon_heist/)
-* [Waterdeep Adventures](/waterdeep/)
-* [Curse of Strahd](/curse_of_strahd/)
-* [Here There Be Pirates!](/pirates/)
+### Active
+
+* [Class 1A](/class_1a/)
 * [A Realm Reborn](/arr/)
+
+### Past
+
 * [The Heroes of Sandpoint](/sandpoint/)
+* [Here There Be Pirates!](/pirates/)
+* [Curse of Strahd](/curse_of_strahd/)
+* [Waterdeep Adventures](/waterdeep/)
+* [Dragon Heist](/dragon_heist/)
 
 <div id="last-commit-text">
     <strong>Last commit:</strong> {{ commit_history }}<br>
