@@ -28,7 +28,7 @@ Enter another URL to set as Visual Aid here:
 * [Timothy Tomothy "Timtom" Timbers the Tenth](^class_1a/Timtom_ID.png), gnome cleric
 * [Miss Elleewick](^class_1a/Elleewick_ID.png), gnome rogue
 
-[Pre-session music]($load|music|arr/Saltswept.mp3)
+[Pre-session music]($load|music|arr/BGM_Event_Crystal.mp3)
 
 ## Story
 
