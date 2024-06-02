@@ -74,3 +74,21 @@ Grabbag of history invented during the game!
 * [Library steps](^class_1a/library_steps.jpg)
 * [Orientation Day](^class_1a/intro/orientation_day.jpg)
 * [Headmaster David](^uncle_david.jpg)
+
+> Good morning, students. I am Headmaster David, and it is my great pleasure to welcome you all to Professor David's School for Precocious Heroes.
+> 
+> As you stand here today, you are about to embark on an incredible journey—a journey that will shape you, challenge you, and help you discover the true extent of your extraordinary abilities. Each of you has a unique gift, a spark that marks you as a future hero. Whether your powers are magical, physical, or something else entirely, they are what brought you to this special place.
+> 
+> Look around you. These faces will become your friends, your allies, and perhaps even your rivals. But remember, we are all here with a common goal: to learn, to grow, and to become the best versions of ourselves. In the years ahead, you will face trials that will test your courage, your intellect, and your heart. But fear not, for you are not alone. You have each other, and you have the dedicated faculty and staff who are here to guide you every step of the way.
+> 
+> Our school motto is "Ex Potentia Fortitudo," which translates to "From power, bravery." This embodies the essence of our mission here. We believe that true heroes are not just defined by their powers, but by how they use them. Your abilities are a gift, but it is your character, your decisions, and your actions that will define you as a hero.
+> 
+> At this school, we value bravery, kindness, and integrity. As you learn to harness your abilities, you will also learn the importance of responsibility and compassion. You will be taught not only how to control your powers but also when to use them, and more importantly, when not to.
+> 
+> Your journey here will be filled with hard work, but also with moments of joy and discovery. You will explore ancient tomes in our vast library, master your skills in the training halls, and perhaps even uncover secrets hidden within the very walls of this historic institution. Each lesson, each challenge, each triumph will bring you closer to understanding who you are and what you are capable of achieving.
+> 
+> You have been chosen to be here because you have the potential to be great. You are the future protectors, the ones who will stand up when others cannot. Always remember that a hero's path is never easy, but it is always worth it.
+> 
+> Today marks the beginning of that path. Embrace it with open hearts and open minds. Support each other, challenge each other, and strive to be the heroes you are meant to be. Welcome to your new home. Welcome to Professor David's School for Precocious Heroes.
+> 
+> Thank you.
