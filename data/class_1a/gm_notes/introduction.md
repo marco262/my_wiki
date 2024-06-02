@@ -77,7 +77,7 @@ Grabbag of history invented during the game!
 
 > Good morning, students. I am Headmaster David, and it is my great pleasure to welcome you all to Professor David's School for Precocious Heroes.
 > 
-> As you stand here today, you are about to embark on an incredible journey—a journey that will shape you, challenge you, and help you discover the true extent of your extraordinary abilities. Each of you has a unique gift, a spark that marks you as a future hero. Whether your powers are magical, physical, or something else entirely, they are what brought you to this special place.
+> As you stand here today, you are about to embark on an incredible journey -- a journey that will shape you, challenge you, and help you discover the true extent of your extraordinary abilities. Each of you has a unique gift, a spark that marks you as a future hero. Whether your powers are magical, physical, or something else entirely, they are what brought you to this special place.
 > 
 > Look around you. These faces will become your friends, your allies, and perhaps even your rivals. But remember, we are all here with a common goal: to learn, to grow, and to become the best versions of ourselves. In the years ahead, you will face trials that will test your courage, your intellect, and your heart. But fear not, for you are not alone. You have each other, and you have the dedicated faculty and staff who are here to guide you every step of the way.
 > 
