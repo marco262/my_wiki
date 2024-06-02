@@ -2,11 +2,15 @@
 
 ### Next session
 
-* x
+* Plan out an orientation session that showcases each PC's abilities
+* Consider the Tower of Light
+* Everyone is on board with an Orientation plan
+* Timtom can show off special knowledge of the school
+* Showcase the cafeteria and dormitories
+* How are they treated by each other and the older students?
+* How unique and special are the PCs compared to the other students?
 
 ### Player Plans
-
-* x
 
 ### Pre-session checklist
 
@@ -19,8 +23,6 @@
 * Recap
 
 ### Todo
-
-* x
 
 ### Reminders
 
