@@ -6,7 +6,7 @@
 
 * [Liriwyn Silverstrings](^class_1a/intro/liriwyn_silverstrings.jpg)
 * [Campfire](^class_1a/intro/campfire.jpg)
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 
 # Meli
 
@@ -20,7 +20,7 @@
 
 * [Lord Altharion Solwynn](^class_1a/intro/Lord Altharion Solwynn.jpg)
 * [Sitting Room](^class_1a/intro/sitting_room.jpg)
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 
 # Gren
 
@@ -28,7 +28,7 @@
 
 * [Mr and Mrs Barleybranch](^class_1a/intro/grens_family.jpg)
 * [Gren's Home](^class_1a/intro/grens_house.jpg) ([interior](^class_1a/intro/grens_house_interior.jpg))
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 
 # Timtom
 
@@ -38,7 +38,7 @@
 > 
 > As the first gnomish cleric, and the first cleric of light, when Timtom returned home, Headmaster David ran him through several training sessions. And now, as Timtom finally comes of age, he is joining the school properly to learn more about deepening his connection to his god.
 
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 * [Headmaster's Office](^class_1a/headmasters_office.jpg)
 
 # Elleewick
@@ -63,7 +63,7 @@ David hired her and did something that earned Ellee's trust, and he earned her t
 
 Grabbag of history invented during the game!
 
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 * [Headmaster's Office](^class_1a/headmasters_office.jpg)
 
 ----
@@ -73,7 +73,7 @@ Grabbag of history invented during the game!
 * [Campus](^class_1a/campus.jpg)
 * [Library steps](^class_1a/library_steps.jpg)
 * [Orientation Day](^class_1a/intro/orientation_day.jpg)
-* [Headmaster David](^uncle_david.jpg)
+* [Headmaster David](^class_1a/Professor_David.png)
 
 > Good morning, students. I am Headmaster David, and it is my great pleasure to welcome you all to Professor David's School for Precocious Heroes.
 > 

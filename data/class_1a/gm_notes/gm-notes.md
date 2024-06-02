@@ -18,6 +18,8 @@ Enter another URL to set as Visual Aid here:
 
 <input type="text" id="custom_visual_aid_url"> <button id="custom_visual_aid_button">Visual Aid</button>
 
+[School Splashpage](^class_1a/School_Splashpage.png)
+
 [Class 1A](^class_1a/Class_1A.png)
 
 * [Alyse U. Divlatsia](^class_1a/Alyse_ID.png), drow bard
