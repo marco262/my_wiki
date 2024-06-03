@@ -9,7 +9,7 @@ from typing import Optional
 from urllib.parse import urljoin
 
 import bcrypt
-from bottle import static_file, Bottle, view, request, auth_basic, redirect
+from bottle import static_file, Bottle, view, request, auth_basic, redirect, abort
 from bottle_websocket import websocket
 from git import Repo
 
@@ -232,6 +232,19 @@ def load_wsgi_endpoints(app: Bottle):
                 websocket_list
             )
         return params
+
+    @app.get("/s/<link_type>/<name>")
+    def shortcut_link(link_type, name):
+        if link_type == "s":
+            link = "dnd/spell"
+        elif link_type == "os":
+            link = "onednd/spell"
+        elif link_type == "em":
+            link = "dnd/equipment/magic-item"
+        else:
+            abort(400, f"Unknown link type: {link_type}")
+            return
+        redirect(f"/{link}/{name}")
 
 
 def gm_auth_check(username, password):
