@@ -36,7 +36,7 @@ Enter another URL to set as Visual Aid here:
 
 ## Places
 
-* x
+* [Professor David's School for Precocious Heroes]()
 
 ## Awarded Magic Items
 
