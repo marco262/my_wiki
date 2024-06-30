@@ -369,3 +369,12 @@ def save_media_file(filepath: str, file_bytes: bytes):
     else:
         with open(filepath, "wb") as f:
             f.write(file_bytes)
+
+
+def splitter(item: str, delimiter: str, num_items: int) -> List[str]:
+    """
+    Split a string into a list of strings of length num_items. If the split string has fewer items than num_items,
+    pad the returned list with empty strings.
+    """
+    parts = item.split(delimiter, maxsplit=num_items - 1)
+    return parts + [""] * (num_items - len(parts))
