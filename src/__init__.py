@@ -15,6 +15,7 @@ def load_wsgi_endpoints(app: Bottle, cfg: RawConfigParser):
     Loads functions into the WSGI
     """
     for name in MODULE_NAMES:
+        # Load normal endpoints
         module = import_module("src.{}.endpoints".format(name))
         module.init(cfg)
         if name == "common":
@@ -22,4 +23,13 @@ def load_wsgi_endpoints(app: Bottle, cfg: RawConfigParser):
         else:
             child_app = Bottle()
             module.load_wsgi_endpoints(child_app)
-            app.mount("/" + name + "/", child_app)
+            app.mount(f"/{name}/", child_app)
+        # Load API
+        try:
+            module = import_module("src.{}.api".format(name))
+        except ModuleNotFoundError:
+            pass
+        else:
+            child_app = Bottle()
+            module.load_api_endpoints(child_app)
+            app.mount(f"/api/{name}/", child_app)

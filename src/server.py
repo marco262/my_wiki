@@ -1,9 +1,9 @@
+import bottle
 from bottle_websocket import GeventWebSocketServer
 from fasteners import process_lock
 
-import bottle
 from src import load_wsgi_endpoints
-from src.common.utils import setup_logging, load_config
+from src.common.utils import load_config
 
 VERSION = (0, 0, 1)
 
@@ -37,7 +37,7 @@ class Server:
         if debug:
             print("\nLoaded routes:")
             for r in self.app.routes:
-                print(r)
+                print(f"{r.method} {r.rule}")
             print("")
 
         self._init_server(
