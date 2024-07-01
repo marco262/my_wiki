@@ -11,9 +11,9 @@ def load_api_endpoints(app: Bottle):
     def hello():
         return {"message": "Hello World!"}
 
-    # @app.get("/<path:path>")
-    # def get_dnd_api():
-    #     return {"message": f"Hello {path}"}
+    @app.get("/hello/bran")
+    def get_dnd_api():
+        return {"message": f"Hello Bran!"}
 
 # def api(path: str):
 #     type_, path = utils.splitter(path, "/", 2)

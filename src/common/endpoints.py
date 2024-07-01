@@ -71,7 +71,7 @@ def _load_swagger_def() -> dict:
 
 def load_wsgi_endpoints(app: Bottle):
     swagger_def = _load_swagger_def()
-    app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True, swagger_ui_suburl=""))
+    app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True, swagger_ui_suburl="", validate_requests=False))
 
     @app.get('/')
     def index_help():
@@ -134,10 +134,10 @@ def load_wsgi_endpoints(app: Bottle):
     def shutdown():
         raise SystemExit
 
-    @app.error(404)
-    @view("common/page.tpl")
-    def error404(error):
-        return {"text": "", "title": "404 " + error.body}
+    # @app.error(404)
+    # @view("common/page.tpl")
+    # def error404(error):
+    #     return {"text": "", "title": "404 " + error.body}
 
     @app.get("/visual_aid")
     @view("common/visual_aid.tpl")
@@ -263,6 +263,10 @@ def load_wsgi_endpoints(app: Bottle):
             abort(400, f"Unknown link type: {link_type}")
             return
         redirect(f"/{link}/{name}")
+
+    @app.get("/api/dnd/spell/<class_>/<level>")
+    def get_class_spell(class_, level):
+        return {"message": f"Hello {class_}!!! Here are your {level} spells!"}
 
 
 def gm_auth_check(username, password):

@@ -34,6 +34,42 @@
           }
         }
       }
+    },
+    "/dnd/spell/{class}/{list}": {
+      "get": {
+        "summary": "Returns a spell list",
+        "description": "Takes a class and list as arguments and returns the corresponding spell list",
+        "parameters": [
+          {
+            "name": "class",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The class for which to retrieve the spell list"
+          },
+          {
+            "name": "list",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The specific spell list to retrieve"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A spell list",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "example": "List of spells for class and list"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
