@@ -19,7 +19,8 @@ git sparse-checkout set \
   "main.py" \
   "makefile" \
   "requirements.txt" \
-  "startup_script.sh"
+  "startup_script.sh" \
+  "swagger.json"
 
 git pull origin master
 
