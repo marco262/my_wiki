@@ -1,4 +1,5 @@
 import json
+from typing import Optional
 
 from bottle import HTTPError, Bottle
 
@@ -30,7 +31,7 @@ def load_api_endpoints(app: Bottle):
         return spells[formatted_name]
 
 
-def get_spell_list(name: str | None = None, level: str | None = None) -> str:
+def get_spell_list(name: Optional[str] = None, level: Optional[str] = None) -> str:
     spells = load_spells()
     if name not in (None, "all"):
         name = name.lower()
