@@ -113,4 +113,4 @@
 
 </div>
 
-[Site Search](/dnd/site_search)
+[Site Search](/dnd/site_search) | [API](/api/ui/)

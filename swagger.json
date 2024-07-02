@@ -1,0 +1,237 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "My Wiki API",
+    "description": "API for accessing select data from my wiki",
+    "version": "0.1"
+  },
+  "basePath": "/api",
+  "schemes": ["https"],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "tags": [
+    {
+      "name": "5e D&D",
+      "description": "Endpoints to query data for 5e D&D"
+    }
+  ],
+  "definitions": {
+    "dnd_spell": {
+      "type": "object",
+      "required": ["title", "classes", "level", "school", "concentration_spell", "ritual_spell", "casting_time", "range", "components", "duration", "description", "source", "description_md"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "example": "Fog Cloud"
+        },
+        "classes": {
+          "type": "array",
+          "description": "The list of classes that have this spell on their spell list.",
+          "items": {
+            "type": "string",
+            "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
+          },
+          "example": ["druid", "ranger", "sorcerer", "wizard"]
+        },
+        "level": {
+          "type": "string",
+          "enum": ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+          "example": "1"
+        },
+        "school": {
+          "type": "string",
+          "enum": ["abjuration", "conjuration", "divination", "evocation", "enchantment", "illusion", "necromancy", "transmutation"],
+          "example": "conjuration"
+        },
+        "concentration_spell": {
+          "type": "boolean",
+          "example": true
+        },
+        "ritual_spell": {
+          "type": "boolean",
+          "example": false
+        },
+        "casting_time": {
+          "type": "string",
+          "example": "1 action"
+        },
+        "range": {
+          "type": "string",
+          "example": "120 feet"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["V", "S", "M"]
+          },
+          "example": ["V", "S"]
+        },
+        "material": {
+          "type": "string",
+          "description": "Description of the material component, if specified.",
+          "example": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water"
+        },
+        "expensive_material_component": {
+          "type": "boolean"
+        },
+        "material_component_consumed": {
+          "type": "boolean"
+        },
+        "duration": {
+          "type": "string",
+          "example": "Concentration, up to 1 hour"
+        },
+        "description": {
+          "type": "string",
+          "example": "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+        },
+        "at_higher_levels": {
+          "type": "string",
+          "example": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+        },
+        "source": {
+          "type": "string",
+          "example": "Player's Handbook, p. 243"
+        },
+        "description_md": {
+          "type": "string",
+          "example": "<p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\n"
+        }
+      },
+      "example": {
+        "title": "Fog Cloud",
+        "classes": ["druid", "ranger", "sorcerer", "wizard"],
+        "level": "1",
+        "school": "conjuration",
+        "concentration_spell": true,
+        "ritual_spell": false,
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": ["V", "S"],
+        "duration": "Concentration, up to 1 hour",
+        "description": "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+        "at_higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.",
+        "source": "Player's Handbook, p. 243",
+        "description_md": "<p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\n"
+      }
+    }
+  },
+  "responses": {
+    "dnd_spell_list": {
+      "description": "An array of all spells in the requested spell list. Use to query /spell/<name> for the spell details.",
+      "schema": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "example": ["control-flames", "create-bonfire", "druidcraft", "frostbite", "guidance", "gust", "infestation", "magic-stone", "mending", "mold-earth", "poison-spray", "primal-savagery", "produce-flame", "resistance", "shape-water", "shillelagh", "thorn-whip", "thunderclap"]
+      }
+    }
+  },
+  "paths": {
+    "/dnd/spell_list": {
+      "get": {
+        "summary": "Returns all spells for 5e D&D",
+        "tags": ["5e D&D"],
+        "responses": {
+          "200": {"$ref": "#/responses/dnd_spell_list"}
+        }
+      }
+    },
+    "/dnd/spell_list/{spell_class}": {
+      "get": {
+        "summary": "Returns a spell list for a given class",
+        "tags": ["5e D&D"],
+        "parameters": [
+          {
+            "name": "spell_class",
+            "description": "The class for which to retrieve the spell list",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
+          }
+        ],
+        "responses": {
+          "200": {"$ref": "#/responses/dnd_spell_list"},
+          "404": {
+            "description": "The given spell list couldn't be found.",
+            "schema": {
+              "type": "string",
+              "example": "\"Ligma\" is not a valid spell list."
+            }
+          }
+        }
+      }
+    },
+    "/dnd/spell_list/{spell_class}/{level}": {
+      "get": {
+        "summary": "Returns a spell list for a given class, for a given spell level",
+        "tags": ["5e D&D"],
+        "parameters": [
+          {
+            "name": "spell_class",
+            "description": "The class for which to retrieve the spell list",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
+          },
+          {
+            "name": "level",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "enum": ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+            "description": "The spell level to retrieve the spell list for"
+          }
+        ],
+        "responses": {
+          "200": {"$ref": "#/responses/dnd_spell_list"},
+          "404": {
+            "description": "The given spell list couldn't be found.",
+            "schema": {
+              "type": "string",
+              "example": "\"69\" is not a valid spell level."
+            }
+          }
+        }
+      }
+    },
+    "/dnd/spell/{name}": {
+      "get": {
+        "summary": "Returns the details for a given spell.",
+        "tags": ["5e D&D"],
+        "parameters": [
+          {
+            "name": "name",
+            "description": "Spell name, case insensitive. Supports full spell titles (e.g. Abi Dalzim's Horrid Wilting) or spell IDs (e.g. abi-dalzims-horrid-wilting)",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested spell details",
+            "schema": {
+              "$ref": "#/definitions/dnd_spell"
+            }
+          },
+          "404": {
+            "description": "The given spell couldn't be found.",
+            "schema": {
+              "type": "string",
+              "example": "I couldn't find a spell by the name of \"ur mom\"."
+            }
+          }
+        }
+      }
+    }
+  }
+}

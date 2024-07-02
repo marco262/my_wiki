@@ -10,6 +10,7 @@ from urllib.parse import urljoin
 
 import bcrypt
 from bottle import static_file, Bottle, view, request, auth_basic, redirect, abort
+from bottle_swagger import SwaggerPlugin
 from bottle_websocket import websocket
 from git import Repo
 
@@ -17,6 +18,8 @@ import src.common.utils as utils
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats, check_for_media_file, save_media_file
+
+RUNNING_IN_CLOUD = True
 
 START_TIME = None
 # Default password: dancinglikeastripper
@@ -35,8 +38,12 @@ volume_control_lock = threading.Lock()
 
 
 def init(cfg):
-    global START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
+    global RUNNING_IN_CLOUD, START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
     START_TIME = ctime()
+    # Check if server is running locally
+    host = cfg.get("Settings", "host")
+    if host.startswith("127.") or host.startswith("10.") or host.startswith("localhost"):
+        RUNNING_IN_CLOUD = False
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
     if os.path.isfile("volume_settings.json"):
@@ -54,7 +61,18 @@ def save_volume_settings(params: dict):
         dump(volume_settings, f)
 
 
+def _load_swagger_def() -> dict:
+    with open('swagger.json', 'r') as f:
+        d = load(f)
+    if not RUNNING_IN_CLOUD:
+        d["schemes"] = ["http", "https"]
+    return d
+
+
 def load_wsgi_endpoints(app: Bottle):
+    swagger_def = _load_swagger_def()
+    app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True))
+
     @app.get('/')
     def index_help():
         repo = Repo()
