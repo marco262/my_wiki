@@ -1,10 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "5e Wiki API",
-    "description": "A sample API that demonstrates how to use Flask-SwaggerUI.",
+    "title": "My Wiki API",
+    "description": "API for accessing select data from my wiki",
     "version": "0.1"
   },
+  "basePath": "/api",
   "schemes": ["https"],
   "consumes": [
     "application/json"
@@ -133,7 +134,7 @@
     }
   },
   "paths": {
-    "/api/dnd/spell_list": {
+    "/dnd/spell_list": {
       "get": {
         "summary": "Returns all spells for 5e D&D",
         "tags": ["5e D&D"],
@@ -142,7 +143,7 @@
         }
       }
     },
-    "/api/dnd/spell_list/{spell_class}": {
+    "/dnd/spell_list/{spell_class}": {
       "get": {
         "summary": "Returns a spell list for a given class",
         "tags": ["5e D&D"],
@@ -168,7 +169,7 @@
         }
       }
     },
-    "/api/dnd/spell_list/{spell_class}/{level}": {
+    "/dnd/spell_list/{spell_class}/{level}": {
       "get": {
         "summary": "Returns a spell list for a given class, for a given spell level",
         "tags": ["5e D&D"],
@@ -202,7 +203,7 @@
         }
       }
     },
-    "/api/dnd/spell/{name}": {
+    "/dnd/spell/{name}": {
       "get": {
         "summary": "Returns the details for a given spell.",
         "tags": ["5e D&D"],
