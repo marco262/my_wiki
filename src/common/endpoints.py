@@ -64,14 +64,14 @@ def save_volume_settings(params: dict):
 def _load_swagger_def() -> dict:
     with open('swagger.json', 'r') as f:
         d = load(f)
-        if not RUNNING_IN_CLOUD:
-            d["schemes"] = ["http", "https"]
-        return d
+    if not RUNNING_IN_CLOUD:
+        d["schemes"] = ["http", "https"]
+    return d
 
 
 def load_wsgi_endpoints(app: Bottle):
     swagger_def = _load_swagger_def()
-    app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True, swagger_ui_suburl="", validate_requests=False))
+    app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True))
 
     @app.get('/')
     def index_help():
@@ -263,10 +263,6 @@ def load_wsgi_endpoints(app: Bottle):
             abort(400, f"Unknown link type: {link_type}")
             return
         redirect(f"/{link}/{name}")
-
-    @app.get("/api/dnd/spell/<class_>/<level>")
-    def get_class_spell(class_, level):
-        return {"message": f"Hello {class_}!!! Here are your {level} spells!"}
 
 
 def gm_auth_check(username, password):
