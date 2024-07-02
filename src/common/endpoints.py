@@ -134,10 +134,10 @@ def load_wsgi_endpoints(app: Bottle):
     def shutdown():
         raise SystemExit
 
-    # @app.error(404)
-    # @view("common/page.tpl")
-    # def error404(error):
-    #     return {"text": "", "title": "404 " + error.body}
+    @app.error(404)
+    @view("common/page.tpl")
+    def error404(error):
+        return {"text": "", "title": "404 " + error.body}
 
     @app.get("/visual_aid")
     @view("common/visual_aid.tpl")
