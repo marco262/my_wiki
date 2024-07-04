@@ -4,13 +4,14 @@ A landing for my own personal use, primarily to present custom visualizations of
 
 ## Debian
 
-1. Update system, clone repo, and install requirements:  
+1. Update system, clone repo, create virtual environment, and install requirements:  
    ```bash
    sudo apt-get update
-   sudo apt-get install python3-pip tmux
+   sudo apt-get install python3-pip python3.11-venv tmux
    git clone https://github.com/marco262/my_wiki.git
    cd my_wiki
-   python3 -m pip install -r requirements.txt
+   python3 -m venv venv
+   venv/bin/pip install -r requirements.txt
    ```
 2. Make a copy of `config.ini.dist` and rename it to `config.ini`.
    1. Alternately, run the server briefly to auto-create it.
@@ -125,7 +126,7 @@ Whenever a change is pushed to GitHub, a GitHub Action will fire that will hit t
 
 ## Debian
 
-* Run in detached tmux session: `tmux new-session -d -s "my-wiki" "python3 main.py"`
+* Run in detached tmux session: `tmux new-session -d -s "my-wiki" "venv/bin/python main.py"`
 * Attach to session: `tmux a`
 * Detach from session: Ctrl-b, d
 * Kill session: `tmux kill-ses -t my-wiki`
