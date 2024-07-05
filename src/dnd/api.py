@@ -31,9 +31,9 @@ def load_api_endpoints(app: Bottle):
         return spells[formatted_name]
 
 
-def get_spell_list(name: Optional[str] = None, level: Optional[str] = None) -> str:
+def get_spell_list(name: str = "", level: str = "") -> str:
     spells = load_spells()
-    if name not in (None, "all"):
+    if name not in ("", "all"):
         name = name.lower()
         # Get spell lists by class
         if name not in spell_classes:
