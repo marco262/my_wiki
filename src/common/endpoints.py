@@ -19,9 +19,8 @@ from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
 from src.common.utils import md_page, websocket_loop, send_to_websockets, track_player_soundboard_clicks, \
     get_player_soundboard_stats, check_for_media_file, save_media_file
 
-RUNNING_IN_CLOUD = True
-
 START_TIME = None
+ALLOW_HTTP_API = False
 # Default password: dancinglikeastripper
 PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -38,12 +37,9 @@ volume_control_lock = threading.Lock()
 
 
 def init(cfg):
-    global RUNNING_IN_CLOUD, START_TIME, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
+    global START_TIME, ALLOW_HTTP_API, GM_NOTES_PW_HASH, PLAYER_SOUNDBOARD_PW_HASH, volume_settings
     START_TIME = ctime()
-    # Check if server is running locally
-    host = cfg.get("Settings", "host")
-    if host.startswith("127.") or host.startswith("10.") or host.startswith("localhost"):
-        RUNNING_IN_CLOUD = False
+    ALLOW_HTTP_API = cfg.getboolean("Settings", "allow http api")
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
     PLAYER_SOUNDBOARD_PW_HASH = cfg.get("Password hashes", "Player soundboard").encode("utf-8")
     if os.path.isfile("volume_settings.json"):
@@ -64,7 +60,7 @@ def save_volume_settings(params: dict):
 def _load_swagger_def() -> dict:
     with open('swagger.json', 'r') as f:
         d = load(f)
-    if not RUNNING_IN_CLOUD:
+    if ALLOW_HTTP_API:
         d["schemes"] = ["http", "https"]
     return d
 

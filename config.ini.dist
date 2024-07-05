@@ -2,7 +2,8 @@
 host = localhost
 port = 8080
 run as thread = False
-media bucket = 
+media bucket =
+allow http api = False
 
 [Logging]
 level = INFO
