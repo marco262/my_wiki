@@ -77,8 +77,7 @@ A space is Difficult Terrain for a creature if the space contains any of the fol
 * Heavy undergrowth
 * Ice
 * Liquid that's between shin- and waist-deep (any deeper and you need to swim)
-* Narrow opening that is sized for a creature one size
-* smaller
+* Narrow opening that is sized for a creature one size smaller
 * Pit or another gap of 2–5 feet
 * Rubble
 * Slope of 20 degrees or more
