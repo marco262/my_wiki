@@ -54,8 +54,8 @@ elif arg == "fix_line_breaks":
             feature_name = feature_name.replace(m2.group(0), m2.group(1) + m2.group(2).lower())
         text = text.replace(m.group(0), f"@@### Level {m.group(1)}: {feature_name}@@")
     # CREATURE TYPE => # Creature Type
-    for m in re.finditer(r"^[A-Z\s\[\]]+$", text, re.MULTILINE):
-        text = text.replace(m.group(0), f"@@# {better_title(m.group(0)).strip()}@@")
+    # for m in re.finditer(r"^[A-Z\s\[\]]+$", text, re.MULTILINE):
+    #     text = text.replace(m.group(0), f"@@# {better_title(m.group(0)).strip()}@@")
     text = re.sub(r"\r?\n", " ", text)
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"@ ", "@", text)

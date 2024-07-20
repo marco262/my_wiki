@@ -226,6 +226,11 @@ Each domain's description gives examples of deities who have influence over that
 * [[[subclass:Peace Domain]]]
 * [[[subclass:Twilight Domain]]]
 
+## Humblewood
+
+* [[[subclass:Community Domain]]]
+* [[[subclass:Night Domain]]]
+
 ----
 
 *Source: Player's Handbook, p. 56*

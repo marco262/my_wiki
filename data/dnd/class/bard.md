@@ -243,6 +243,10 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 * [[[subclass:College of Eloquence (UA)]]]
 * [[[subclass:College of Satire]]]
 
+## Humblewood
+
+* [[[subclass:College of the Road]]]
+
 ----
 
 *Source: Player's Handbook, p. 51*

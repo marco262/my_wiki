@@ -222,6 +222,10 @@ Different fighters choose different approaches to perfecting their fighting prow
 * [[[subclass:Scout (Fighter)|Scout]]]
 * [[[subclass:Sharpshooter]]]
 
+## Humblewood
+
+* [[[subclass:Scofflaw]]]
+
 ## Homebrew
 
 * [[[subclass:Champion, Revised]]]
