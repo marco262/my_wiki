@@ -1,5 +1,10 @@
 [[breadcrumb /class_1a/gm_notes/GM Notes|GM Notes]]
 
+# The School
+
+* If someone dies on school ground, their soul is chained to their body. This allows them to be resurrected via Revivify at any point without spending material components.
+* The infirmary has materials on hand for lesser/greater restoration, and high level staff can cast a handful of Regenerate per day.
+
 # Staff
 
 * [Headmaster David](^class_1a/Professor_David.png)

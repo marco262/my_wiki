@@ -12,7 +12,7 @@
 * [Timeline]()
 * [Calendar](/class_1a/calendar)
 * Show Calendar on Visual Aid:
-  * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#eleint_1495_dr">Eleint, 1495</span>
+    * <span class="visual-aid-link" title="iframe|/sandpoint/calendar#eleint_1495_dr">Eleint, 1495</span>
 
 Enter another URL to set as Visual Aid here:
 
@@ -33,6 +33,7 @@ Enter another URL to set as Visual Aid here:
 ## Story
 
 * [Introduction]()
+    * [Scavenger Hunt]()
 
 ## Places
 
