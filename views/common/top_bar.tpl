@@ -3,7 +3,7 @@
         <p>D&D Wikis</p>
         <div class="dropdown-content">
             <a href="/dnd/">5e D&D</a>
-            <a href="/dnd/">One D&D</a>
+            <a href="/onednd/">One D&D</a>
         </div>
     </div>
     <div class="dropdown">
