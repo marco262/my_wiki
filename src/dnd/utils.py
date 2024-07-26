@@ -36,7 +36,7 @@ def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
     Helper function for determining if a spell belongs to any of a list of classes
     :param spell: The parsed spell dictionary, containing classes and classes_ua fields
     :param classes: The list of classes to check against
-    :param ua_spells: Whether or not to include the classes_ua field in the spell
+    :param ua_spells: Whether to include the classes_ua field in the spell
     :return:
     """
     return bool(
@@ -144,6 +144,7 @@ def load_magic_items():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
+            d["description"] = d["description"].strip()
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if d["subtype"]:
                 MAGIC_ITEM_SUBTYPES.add(d["subtype"])
@@ -162,33 +163,41 @@ def get_magic_item_subtypes():
     return MAGIC_ITEM_SUBTYPES
 
 
-def filter_magic_items(filter_keys):
+def filter_magic_items(filters):
     d = {}
     for k, v in load_magic_items().items():
         if v.get("unlisted"):
             continue
-        if v["type"] not in filter_keys["type"]:
+        if "type" in filters and v["type"].lower() not in filters["type"]:
             continue
-        if v["rarity"] not in filter_keys["rarity"]:
+        if "rarity" in filters and v["rarity"].lower() not in filters["rarity"]:
             continue
-        if v["rarity_type"] not in filter_keys["minor-major"]:
+        if "major-minor" in filters and v["rarity_type"].lower() not in filters["minor-major"]:
             continue
-        if filter_keys["attunement"] == "yes" and not v["attunement"] or \
-                filter_keys["attunement"] == "no" and v["attunement"]:
-            continue
-        if not v["subtype"] and "no-subtype" not in filter_keys["subtype"]:
-            continue
-        if v["subtype"] and v["subtype"] not in filter_keys["subtype"]:
-            continue
-        if not v["classes"] and "no-restrictions" not in filter_keys["classes"]:
-            continue
-        if v["classes"] and not set(v["classes"]).intersection(filter_keys["classes"]):
-            continue
-        for s in filter_keys["source"]:
-            if s in v["source"]:
-                break
-        else:
-            continue
+        if "attunement" in filters:
+            if (filters["attunement"] == "true" and not v["attunement"] or
+                    filters["attunement"] == "false" and v["attunement"]):
+                continue
+        if "subtype" in filters:
+            if v["subtype"]:
+                if v["subtype"].lower() not in filters["subtype"]:
+                    continue
+            else:
+                if "no-subtype" not in filters["subtype"]:
+                    continue
+        if "classes" in filters:
+            if v["classes"]:
+                if not set(v["classes"]).intersection(filters["classes"]):
+                    continue
+            else:
+                if "no-restrictions" not in filters["classes"]:
+                    continue
+        if "source" in filters:
+            for s in filters["source"]:
+                if s.lower() in v["source"].lower():
+                    break
+            else:
+                continue
         d[k] = v
     return d
 

@@ -10,8 +10,8 @@ export function init_events() {
     document.getElementById("filter_button").onclick = filter;
     document.getElementById("reset_button").onclick = reset_ui;
     document.getElementsByName("checkbox-all").forEach(n => n.onclick = check_all);
-    document.getElementById("show-advanced-block").onclick = on_click_show_advanced_block;
-    document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced_block;
+    document.getElementById("show-advanced-block").onclick = on_click_show_advanced;
+    document.getElementById("hide-advanced-block").onclick = on_click_hide_advanced;
     filter();
 }
 
@@ -67,21 +67,12 @@ function reset_ui() {
     setCookie("filter_state", json);
 }
 
-function check_all(e) {
-    document.getElementsByName("checkbox-" + e.target.value).forEach(n => n.checked = e.target.checked);
+export function check_all(e) {
+    document.getElementsByName("checkbox-" + e.target.value).
+        forEach(n => n.checked = e.target.checked);
 }
 
-function on_click_show_advanced_block(e) {
-    document.getElementById("show-advanced-block").style.display = "none";
-    document.getElementById("advanced-block").style.display = "block";
-}
-
-function on_click_hide_advanced_block(e) {
-    document.getElementById("show-advanced-block").style.display = "block";
-    document.getElementById("advanced-block").style.display = "none";
-}
-
-function get_checkboxes(name) {
+export function get_checkboxes(name) {
     let list = document.getElementsByName("checkbox-" + name);
     let filtered_list = [];
     list.forEach(n => {
@@ -91,13 +82,13 @@ function get_checkboxes(name) {
     return filtered_list;
 }
 
-function set_checkboxes(name, to_set) {
+export function set_checkboxes(name, to_set) {
     let list = document.getElementsByName("checkbox-" + name);
     if (to_set)
         list.forEach(n => n.checked = (to_set.includes(n.value) || to_set === "all"));
 }
 
-function get_radio_group_value(name) {
+export function get_radio_group_value(name) {
     let nodes = document.getElementsByName("radio-" + name);
     for (let i=0; i < nodes.length; i++) {
         if (nodes[i].checked)
@@ -105,7 +96,7 @@ function get_radio_group_value(name) {
     }
 }
 
-function set_radio_group_value(name, value) {
+export function set_radio_group_value(name, value) {
     let nodes = document.getElementsByName("radio-" + name);
     for (let i=0; i < nodes.length; i++) {
         if (nodes[i].value === value) {
@@ -113,4 +104,14 @@ function set_radio_group_value(name, value) {
             return;
         }
     }
+}
+
+export function on_click_show_advanced(e) {
+    document.getElementById("show-advanced-block").style.display = "none";
+    document.getElementById("advanced-block").style.display = "block";
+}
+
+export function on_click_hide_advanced(e) {
+    document.getElementById("show-advanced-block").style.display = "block";
+    document.getElementById("advanced-block").style.display = "none";
 }

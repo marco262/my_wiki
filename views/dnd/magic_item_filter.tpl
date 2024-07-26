@@ -8,26 +8,26 @@
             <b>Type:</b><br>
             <input type="checkbox" name="checkbox-all" value="type" checked><i>(All/None)</i><br>
             % for t in magic_item_types:
-                <input type="checkbox" name="checkbox-type" value="{{t}}" checked>{{t}}<br>
+                <input type="checkbox" name="checkbox-type" value="{{t.lower()}}" checked>{{t}}<br>
             % end
         </td>
         <td>
             <b>Rarity:</b><br>
             <input type="checkbox" name="checkbox-all" value="rarity" checked><i>(All/None)</i><br>
             % for r in magic_item_rarities:
-                <input type="checkbox" name="checkbox-rarity" value="{{r}}" checked>{{r}}<br>
+                <input type="checkbox" name="checkbox-rarity" value="{{r.lower()}}" checked>{{r}}<br>
             % end
         </td>
         <td>
             <b>Minor/Major:</b><br>
             <input type="checkbox" name="checkbox-all" value="minor-major" checked><i>(All/None)</i><br>
-            <input type="checkbox" name="checkbox-minor-major" value="Minor" checked>Minor<br>
-            <input type="checkbox" name="checkbox-minor-major" value="Major" checked>Major<br>
+            <input type="checkbox" name="checkbox-minor-major" value="minor" checked>Minor<br>
+            <input type="checkbox" name="checkbox-minor-major" value="major" checked>Major<br>
         </td>
         <td>
             <b>Requires<br>attunement?:</b><br>
-            <input type="radio" name="radio-attunement" value="yes">Yes<br>
-            <input type="radio" name="radio-attunement" value="no">No<br>
+            <input type="radio" name="radio-attunement" value="true">Yes<br>
+            <input type="radio" name="radio-attunement" value="false">No<br>
             <input type="radio" name="radio-attunement" value="both" checked>Both
         </td>
         <td>
@@ -36,7 +36,7 @@
             <input type="checkbox" name="checkbox-classes" value="no-restrictions" checked>(no restrictions)<br>
             <input type="checkbox" name="checkbox-classes" value="spellcaster" checked>(spellcaster)<br>
             % for c in classes:
-                <input type="checkbox" name="checkbox-classes" value="{{c}}" checked>{{c.title()}}<br>
+                <input type="checkbox" name="checkbox-classes" value="{{c.lower()}}" checked>{{c.title()}}<br>
             % end
         </td>
         <td>

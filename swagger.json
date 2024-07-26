@@ -6,7 +6,7 @@
     "version": "0.1"
   },
   "basePath": "/api",
-  "schemes": ["https"],
+  "schemes": ["http", "https"],
   "consumes": [
     "application/json"
   ],
@@ -15,8 +15,12 @@
   ],
   "tags": [
     {
-      "name": "5e D&D",
-      "description": "Endpoints to query data for 5e D&D"
+      "name": "5e D&D Spells",
+      "description": "Endpoints to query spell data for 5e D&D"
+    },
+    {
+      "name": "5e D&D Magic Items",
+      "description": "Endpoints to query magic item data for 5e D&D"
     }
   ],
   "definitions": {
@@ -119,6 +123,72 @@
         "source": "Player's Handbook, p. 243",
         "description_md": "<p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\n"
       }
+    },
+    "dnd_magic_item": {
+      "type": "object",
+      "required": ["name", "type", "subtype", "rarity_type", "rarity", "attunement", "classes", "source", "description", "description_md"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "Fog Cloud"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["Armor", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon", "Wondrous Item"],
+          "example": "Wondrous Item"
+        },
+        "subtype": {
+          "type": "string",
+          "example": "javelin"
+        },
+        "rarity_type": {
+          "type": "string",
+          "enum": ["Minor", "Major"],
+          "example": "Major"
+        },
+        "rarity": {
+          "type": "string",
+          "enum": ["Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact"],
+          "example": "Rare"
+        },
+        "attunement": {
+          "type": "boolean"
+        },
+        "classes": {
+          "type": "array",
+          "description": "Specifies if attunement to the magic item is restricted to certain classes (or any spellcasters)",
+          "items": {
+            "type": "string",
+            "enum": ["spellcaster", "artificer", "barbarian", "bard", "cleric", "druid", "fighter", "monk", "paladin", "ranger", "rogue", "sorcerer", "warlock", "wizard"]
+          },
+          "example": ["cleric", "druid"]
+        },
+        "source": {
+          "type": "string",
+          "example": "Tasha's Cauldron of Everything, p. 119"
+        },
+        "description": {
+          "type": "string",
+          "example": "This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of [[[general:Equipment#tools|artisan's tool]]] of your choice. Whatever form the tool takes, you are proficient with it.\n\nWhile holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity.\n\nAs an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
+        },
+        "description_md": {
+          "type": "string",
+          "example": "<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of <a class=\"wiki-link\" href=\"/dnd/general/Equipment#tools\">artisan's tool</a> of your choice. Whatever form the tool takes, you are proficient with it.</p>\n\n<p>While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity.</p>\n\n<p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>\n"
+        }
+      },
+      "example": {
+      "name": "All-Purpose Tool, +1",
+      "type": "Wondrous Item",
+      "subtype": "",
+      "rarity_type": "Major",
+      "rarity": "Uncommon",
+      "attunement": true,
+      "classes": ["artificer"],
+      "notes": "",
+      "source": "Tasha's Cauldron of Everything, p. 119",
+      "description": "This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of [[[general:Equipment#tools|artisan's tool]]] of your choice. Whatever form the tool takes, you are proficient with it.\n\nWhile holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity.\n\nAs an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.",
+      "description_md": "<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of <a class=\"wiki-link\" href=\"/dnd/general/Equipment#tools\">artisan's tool</a> of your choice. Whatever form the tool takes, you are proficient with it.</p>\n\n<p>While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity.</p>\n\n<p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>\n"
+    }
     }
   },
   "responses": {
@@ -137,7 +207,7 @@
     "/dnd/spell_list": {
       "get": {
         "summary": "Returns all spells for 5e D&D",
-        "tags": ["5e D&D"],
+        "tags": ["5e D&D Spells"],
         "responses": {
           "200": {"$ref": "#/responses/dnd_spell_list"}
         }
@@ -146,7 +216,7 @@
     "/dnd/spell_list/{spell_class}": {
       "get": {
         "summary": "Returns a spell list for a given class",
-        "tags": ["5e D&D"],
+        "tags": ["5e D&D Spells"],
         "parameters": [
           {
             "name": "spell_class",
@@ -172,7 +242,7 @@
     "/dnd/spell_list/{spell_class}/{level}": {
       "get": {
         "summary": "Returns a spell list for a given class, for a given spell level",
-        "tags": ["5e D&D"],
+        "tags": ["5e D&D Spells"],
         "parameters": [
           {
             "name": "spell_class",
@@ -206,7 +276,7 @@
     "/dnd/spell/{name}": {
       "get": {
         "summary": "Returns the details for a given spell.",
-        "tags": ["5e D&D"],
+        "tags": ["5e D&D Spells"],
         "parameters": [
           {
             "name": "name",
@@ -228,6 +298,138 @@
             "schema": {
               "type": "string",
               "example": "I couldn't find a spell by the name of \"ur mom\"."
+            }
+          }
+        }
+      }
+    },
+    "/dnd/magic_items": {
+      "get": {
+        "summary": "Returns a list of magic items for 5e D&D, with filtering options",
+        "tags": ["5e D&D Magic Items"],
+        "parameters": [
+          {
+            "name": "rarity",
+            "description": "The magic item rarity to filter for. Omit to allow all rarities.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["common", "uncommon", "rare", "very rare", "legendary", "artifact"]
+            }
+          },
+          {
+            "name": "type",
+            "description": "The magic item type to filter for. Omit to allow all types.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["armor", "potion", "ring", "rod", "scroll", "staff", "wand", "weapon", "wondrous item"]
+            }
+          },
+          {
+            "name": "minor-major",
+            "description": "Filters for Minor or Major magic items. Omit to allow both.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["minor", "major"]
+            }
+          },
+          {
+            "name": "attunement",
+            "description": "Filters for magic items that do or do not require attunement. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "subtype",
+            "description": "Filter for magic items that have a subtype defined. For example, the Javelin of Lightning has the type 'weapon' as well as the subtype 'javelin'. Omit to allow all.\n\nSubtype is not restricted to a particular list of allows values, and new subtypes can be defined on an item-by-item basis. Use the /dnd/magic_items/subtypes endpoint to get a list of all currently defined subtypes. Use 'no-subtype' to return magic items without a defined subtype.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "class",
+            "description": "Filters for magic items that have class restrictions. Use 'no-restrictions' to allow items that have no class restrictions. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["no-restrictions", "spellcaster", "artificer", "barbarian", "bard", "cleric", "druid", "fighter", "monk", "paladin", "ranger", "rogue", "sorcerer", "warlock", "wizard"]
+            }
+          },
+          {
+            "name": "source",
+            "description": "Filters for magic items based on the sourcebook they were published in. Case-insensitive and supports partial matches. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of all magic items matching the given filter parameters.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "example": ["armor-of-gleaming", "bead-of-nourishment", "bead-of-refreshment", "boots-of-false-tracks"]
+            }
+          }
+        }
+      }
+    },
+    "/dnd/magic_items/subtypes": {
+      "get": {
+        "summary": "Returns all currently available magic item subtypes, for use with /dnd/magic-items",
+        "tags": ["5e D&D Magic Items"],
+        "responses": {
+          "200": {
+            "description": "List of all currently available magic item subtypes",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "example": ["any ammunition", "any axe", "any axe or sword", "any sword", "any sword that deals slashing damage", "arrow", "boots", "bracer", "chain mail", "chain shirt", "cloak", "dagger", "flail", "gloves", "holy symbol", "instrument", "ioun stone", "javelin", "light, medium, or heavy", "longbow", "longsword", "mace", "maul", "medium or heavy", "medium or heavy, but not hide", "necklace", "plate", "prosthetic", "scale mail", "scimitar", "shard", "shield", "shortbow", "sickle", "spellbook", "studded leather", "tattoo", "trident", "warhammer"]
+            }
+          }
+        }
+      }
+    },
+    "/dnd/magic_item/{name}": {
+      "get": {
+        "summary": "Returns the details for a given magic item.",
+        "tags": ["5e D&D Magic Items"],
+        "parameters": [
+          {
+            "name": "name",
+            "description": "Magic item name, case insensitive. Supports full titles (e.g. All-Purpose Tool, +1) or IDs (e.g. all-purpose-tool-1)",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested magic item details",
+            "schema": {
+              "$ref": "#/definitions/dnd_magic_item"
+            }
+          },
+          "404": {
+            "description": "The given magic item couldn't be found.",
+            "schema": {
+              "type": "string",
+              "example": "I couldn't find a magic item by the name of \"Bigby's Vibrating Beads\"."
             }
           }
         }

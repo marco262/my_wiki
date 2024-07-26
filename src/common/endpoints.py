@@ -60,8 +60,8 @@ def save_volume_settings(params: dict):
 def _load_swagger_def() -> dict:
     with open('swagger.json', 'r') as f:
         d = load(f)
-    if ALLOW_HTTP_API:
-        d["schemes"] = ["http", "https"]
+    if not ALLOW_HTTP_API:
+        d["schemes"] = ["https"]
     return d
 
 
