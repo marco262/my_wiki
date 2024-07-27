@@ -7,26 +7,40 @@
 
 # Locations
 
-## Library/History Wing/Arts Wing
-
-Lore Bard, Mentor to Alyse
+([Staff Notes](Professor David's School for Precocious Heroes#Staff))
 
 ## Temple/Divine Studies
 
-Knowledge Cleric, Mentor to Timtom
+[Temple](^class_1a/intro/temple.jfif)
 
-## Menagerie/Home Ec/Forest Grounds
+[Professor Goldgraver](^class_1a/professor_goldgraver.jfif)
+
+## Main Lecture Hall
+
+[Lecture Hall](^class_1a/intro/main_lecture_hall.jfif)
+
+[Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea](^class_1a/intro/) (Professor Xavros)
+
+## Library
+
+[Library](^class_1a/intro/library.jfif)
+
+[Professor Silverstrings](^class_1a/professor_silverstrings2.jfif)
+
+## Dungeon Ec/Forest Grounds
+
+[Campgrounds](^class_1a/intro/campgrounds.jfif)
 
 Tortoise and handler, Mentor of Gren
 
-## Magical Studies/Main Lecture Hall
+## Artisan's Hall
 
-Gold Dragon, Mentor to Meli
+[Artisan's Hall](^class_1a/intro/artisans_hall.jfif)
 
-## Science Lab/Artisan's Hall
-
-Thief Rogue, Mentor to Ellewick
+[Sweeps](^class_1a/sweeps.jpg)
 
 # Mimic Attack!
 
-* [Mimic](^class_1a/intro/mimic.png) ([[npc cr=5|race=Mimic]])
+[Statues Gallery](^class_1a/intro/statues_gallery.jfif)
+
+[Mimic](^class_1a/intro/mimic.png) ([[npc cr=5|race=Mimic]])

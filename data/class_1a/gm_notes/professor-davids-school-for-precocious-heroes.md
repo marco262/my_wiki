@@ -2,29 +2,52 @@
 
 # The School
 
-* If someone dies on school ground, their soul is chained to their body. This allows them to be resurrected via Revivify at any point without spending material components.
-* The infirmary has materials on hand for lesser/greater restoration, and high level staff can cast a handful of Regenerate per day.
+* If someone dies on school grounds, his soul is chained to his body. This allows him to be resurrected via Revivify at any point without spending material components.
+* The infirmary has materials on hand for lesser/greater restoration, and high-level staff can cast a handful of Regenerate per day.
 
 # Staff
 
 * [Headmaster David](^class_1a/Professor_David.png)
 * [Miss Elleewick](^class_1a/Elleewick_ID.png)
-* Aaron
-  * Lightfoot Halfling, Lore Bard
-  * Mentor to Alyse
-* Bob
-  * Mentor to Gren
-  * Awakened animal
-  * Very long-lived, was Awakened by the last known druid whose name has been lost to time 
-* Professor Magnus Goldgraver
-  * Hill Dwarf, Knowledge Cleric
-  * Mentor to Timtom
-  * Very interested in Timtom's god and is trying to dig up more information about him to "teach" Timtom. 
+* [Professor Magnus Goldgraver](^class_1a/professor_goldgraver.jfif)
+    * Hill Dwarf, Knowledge Cleric
+    * Mentor to Timtom
+    * Religious/Divine Studies
+    * Very interested in Timtom's god and is trying to dig up more information about him to "teach" Timtom.
 * Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea
-  * Ancient Gold Dragon
-    * _Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons._
-  * Mentor to Meli
-  * Will focus first on teaching her the importance of duty
-  * Human form options: [1](^class_1a/melis_mentor.png)
-* Everett
-  * Forest Gnome, Thief Rogue
+    * Ancient Gold Dragon
+        * _Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons._
+    * Mentor to Meli
+    * History Professor
+    * Will focus first on teaching her the importance of duty
+    * Human form options: [1](^class_1a/melis_mentor.png)
+* [Liriwyn Silverstrings](^class_1a/professor_silverstrings2.jfif)
+    * Lightfoot Halfling, Lore Bard
+    * Mentor to Alyse
+    * Literature Professor
+* Bob and Bertha
+    * Mentors to Gren
+    * Bob
+        * Awakened Tortoise
+        * Very long-lived, was Awakened by the last known druid whose name has been lost to time
+        * Groundskeeper and Monster Lore
+    * Bertha
+        * Wood Elf Ranger
+        * Survivalist/Dungeon Ec
+* [Fenwick "Sweeps" Brambleburrow](^class_1a/sweeps.jpg)
+    * Forest Gnome, Thief Rogue
+    * Janitor
+
+# Locations
+
+[Temple](^class_1a/intro/temple.jfif)
+
+[Lecture Hall](^class_1a/intro/main_lecture_hall.jfif)
+
+[Library](^class_1a/intro/library.jfif)
+
+[Campgrounds](^class_1a/intro/campgrounds.jfif)
+
+[Artisan's Hall](^class_1a/intro/artisans_hall.jfif)
+
+[Statues Gallery](^class_1a/intro/statues_gallery.jfif)

@@ -4,7 +4,7 @@
 
 > **Alyse U. Divlatsia** was born to a Drow and a Half-Woodelf. Born in the temple of Lolth in the Underdark. There were rumors that her mother was extorting people, and parents left to flee (this is Alyse's perception). She was shuffled off to dad's half-woodelf family in the underdark. At some point, **Eilistraee** appeared to her and seduced her from the shadows. By chasing the apparition, Alyse was led to meet with a nearby eclectic group of people who, as it turns out, works for Eilistraee to help free drow. She went with them, worked with them. She made friends with **Liriwyn Silverstrings**, a halfling bard in the group and learned how to be a bard. But her powers are of starlight and moonlight, and her college of creation powers are strange and novel. Plus she's a drow bard, which is practically unheard of. At 12, she is the first cleric of Eilistraee (mechanically bard), out to save as many people as possible and spread the message C: Seeing what she was capable of, her bard mentor hooked her up with this school.
 
-* [Liriwyn Silverstrings](^class_1a/intro/liriwyn_silverstrings.jpg)
+* [Liriwyn Silverstrings](^class_1a/liriwyn_silverstrings.jpg)
 * [Campfire](^class_1a/intro/campfire.jpg)
 * [Headmaster David](^class_1a/Professor_David.png)
 

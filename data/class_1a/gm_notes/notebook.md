@@ -3,7 +3,6 @@
 ### Next session
 
 * Plan out an orientation session that showcases each PC's abilities
-* Consider the Tower of Light
 * Everyone is on board with an Orientation plan
 * Timtom can show off special knowledge of the school
 * Showcase the cafeteria and dormitories
@@ -15,9 +14,9 @@
 ### Pre-session checklist
 
 * Important houserules
-  * Adventurer's Intuition (insight checks for hints)
-  * Potion of Healing rules
-  * Spell changing on long rests
+    * Adventurer's Intuition (insight checks for hints)
+    * Potion of Healing rules
+    * Spell changing on long rests
 * Have everyone go over their abilities!
 * Ask for party leader!
 * Recap

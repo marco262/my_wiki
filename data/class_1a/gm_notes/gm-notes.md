@@ -55,4 +55,4 @@ Enter another URL to set as Visual Aid here:
 * [Pole of Collapsing](/dnd/equipment/magic-item/Pole of Collapsing) (Thistletop E4) -- Minor Common
 * [Staff of Birdcalls](/dnd/equipment/magic-item/Staff of Birdcalls) (Sandpoint Reward) -- Minor Common
 * [Instrument of Illusions](/dnd/equipment/magic-item/Instrument of Illusions) (Sandpoint Reward) -- Minor Common
-[[/magic-item-tracker]]
+  [[/magic-item-tracker]]
