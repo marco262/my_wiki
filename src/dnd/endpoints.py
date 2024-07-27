@@ -14,7 +14,8 @@ from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
 from src.dnd.utils import init_spells_and_magic_items, class_spell, open_monster_sheet, load_spells, \
-    load_spells_by_level, load_magic_items, get_magic_item_table, get_magic_item_subtypes, filter_magic_items
+    load_spells_by_level, load_magic_items, get_magic_item_table, get_magic_item_subtypes, filter_magic_items, \
+    filter_spells
 
 # Default password: dancinglikeastripper
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -167,61 +168,12 @@ def load_wsgi_endpoints(app: Bottle):
     @app.post('/spell_filter_results')
     @view("dnd/spell_list.tpl")
     def spell_filter_results():
-        filter_keys = loads(request.params["filter_keys"])
-        results = defaultdict(list)
-        for k, v in load_spells().items():
-            if not class_spell(v, filter_keys["classes"], filter_keys["ua_spells"]):
-                continue
-            if v["level"] not in filter_keys["levels"]:
-                continue
-            if v["school"] not in filter_keys["schools"]:
-                continue
-            for s in filter_keys["sources"]:
-                if s in v["source"]:
-                    break
-            else:
-                continue
-            for t in filter_keys["casting_times"]:
-                if t in v["casting_time"]:
-                    break
-            else:
-                continue
-            for t in filter_keys["ranges"]:
-                if t in v["range"]:
-                    break
-            else:
-                continue
-            for d in filter_keys["durations"]:
-                if d in v["duration"]:
-                    break
-            else:
-                continue
-            if ((filter_keys["concentration"] == "yes" and not v["concentration_spell"]) or
-                    (filter_keys["concentration"] == "no" and v["concentration_spell"])):
-                continue
-            if ((filter_keys["ritual"] == "yes" and not v["ritual_spell"]) or
-                    (filter_keys["ritual"] == "no" and v["ritual_spell"])):
-                continue
-            if ((filter_keys["verbal"] == "yes" and "V" not in v["components"]) or
-                    (filter_keys["verbal"] == "no" and "V" in v["components"])):
-                continue
-            if ((filter_keys["somatic"] == "yes" and "S" not in v["components"]) or
-                    (filter_keys["somatic"] == "no" and "S" in v["components"])):
-                continue
-            if ((filter_keys["material"] == "yes" and "M" not in v["components"]) or
-                    (filter_keys["material"] == "no" and "M" in v["components"])):
-                continue
-            if ((filter_keys["expensive"] == "yes" and not v.get("expensive_material_component")) or
-                    (filter_keys["expensive"] == "no" and v.get("expensive_material_component"))):
-                continue
-            if ((filter_keys["consumed"] == "yes" and not v.get("material_component_consumed")) or
-                    (filter_keys["consumed"] == "no" and v.get("material_component_consumed"))):
-                continue
-            results[v["level"]].append((k, v))
+        filters = loads(request.params["filter_keys"])
+        results = filter_spells(filters)
         d = {
             "spell_dict": results,
-            "show_classes": len(filter_keys["classes"]) > 1,
-            "ua_spells": filter_keys["ua_spells"]
+            "show_classes": len(filters["class"]) > 1,
+            "ua_spells": filters["ua_spells"]
         }
         return d
 

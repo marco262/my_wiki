@@ -101,7 +101,7 @@ def load_spells():
     global SPELLS, SPELLS_BY_LEVEL
     if SPELLS:
         return SPELLS
-    SPELLS_BY_LEVEL = defaultdict(list)
+    spell_by_level = defaultdict(list)
     spells = {}
     path = None
     print("Loading spells into memory", end='')
@@ -116,18 +116,84 @@ def load_spells():
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             k = splitext(basename(path))[0]
             spells[k] = d
-            SPELLS_BY_LEVEL[d["level"]].append((k, d))
+            spell_by_level[d["level"]].append((k, d))
     except Exception:
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.", flush=True)
-    SPELLS = spells
+    SPELLS, SPELLS_BY_LEVEL = spells, spell_by_level
     return SPELLS
 
 
 def load_spells_by_level():
     load_spells()
     return SPELLS_BY_LEVEL
+
+
+def filter_spells(filters: dict):
+    results = defaultdict(list)
+    for k, v in load_spells().items():
+        if "class" in filters:
+            if not class_spell(v, filters["class"], filters.get("ua_spells", True)):
+                continue
+        if "level" in filters and v["level"] not in filters["level"]:
+            continue
+        if "school" in filters and v["school"] not in filters["school"]:
+            continue
+        if "casting_time" in filters:
+            for t in filters["casting_time"]:
+                if t in v["casting_time"]:
+                    break
+            else:
+                continue
+        if "range" in filters:
+            for t in filters["range"]:
+                if t in v["range"]:
+                    break
+            else:
+                continue
+        if "duration" in filters:
+            for d in filters["duration"]:
+                if d in v["duration"]:
+                    break
+            else:
+                continue
+        if "source" in filters:
+            for s in filters["source"]:
+                if s in v["source"]:
+                    break
+            else:
+                continue
+        if "concentration" in filters:
+            if ((filters["concentration"] == "yes" and not v["concentration_spell"]) or
+                    (filters["concentration"] == "no" and v["concentration_spell"])):
+                continue
+        if "ritual" in filters:
+            if ((filters["ritual"] == "yes" and not v["ritual_spell"]) or
+                    (filters["ritual"] == "no" and v["ritual_spell"])):
+                continue
+        if "verbal" in filters:
+            if ((filters["verbal"] == "yes" and "V" not in v["components"]) or
+                    (filters["verbal"] == "no" and "V" in v["components"])):
+                continue
+        if "somatic" in filters:
+            if ((filters["somatic"] == "yes" and "S" not in v["components"]) or
+                    (filters["somatic"] == "no" and "S" in v["components"])):
+                continue
+        if "material" in filters:
+            if ((filters["material"] == "yes" and "M" not in v["components"]) or
+                    (filters["material"] == "no" and "M" in v["components"])):
+                continue
+        if "expensive" in filters:
+            if ((filters["expensive"] == "yes" and not v.get("expensive_material_component")) or
+                    (filters["expensive"] == "no" and v.get("expensive_material_component"))):
+                continue
+        if "consumed" in filters:
+            if ((filters["consumed"] == "yes" and not v.get("material_component_consumed")) or
+                    (filters["consumed"] == "no" and v.get("material_component_consumed"))):
+                continue
+        results[v["level"]].append((k, v))
+    return results
 
 
 def load_magic_items():

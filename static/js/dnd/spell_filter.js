@@ -28,13 +28,13 @@ function handle_filter_results(xhttp) {
 
 function get_ui_state() {
     let d = {};
-    d["classes"] = get_checkboxes("class");
-    d["levels"] = get_checkboxes("level");
-    d["schools"] = get_checkboxes("school");
-    d["casting_times"] = get_checkboxes("casting-time");
-    d["ranges"] = get_checkboxes("range");
-    d["durations"] = get_checkboxes("duration");
-    d["sources"] = get_checkboxes("source");
+    d["class"] = get_checkboxes("class");
+    d["level"] = get_checkboxes("level");
+    d["school"] = get_checkboxes("school");
+    d["casting_time"] = get_checkboxes("casting-time");
+    d["range"] = get_checkboxes("range");
+    d["duration"] = get_checkboxes("duration");
+    d["source"] = get_checkboxes("source");
     d["all"] = get_checkboxes("all");
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => d[toggle] = get_radio_group_value(toggle));
@@ -43,13 +43,13 @@ function get_ui_state() {
 }
 
 function set_ui_state(d) {
-    set_checkboxes("class", d["classes"]);
-    set_checkboxes("level", d["levels"]);
-    set_checkboxes("school", d["schools"]);
-    set_checkboxes("casting-time", d["casting_times"]);
-    set_checkboxes("range", d["ranges"]);
-    set_checkboxes("duration", d["durations"]);
-    set_checkboxes("source", d["sources"]);
+    set_checkboxes("class", d["classe"]);
+    set_checkboxes("level", d["level"]);
+    set_checkboxes("school", d["school"]);
+    set_checkboxes("casting-time", d["casting_time"]);
+    set_checkboxes("range", d["range"]);
+    set_checkboxes("duration", d["duration"]);
+    set_checkboxes("source", d["source"]);
     set_checkboxes("all", d["all"]);
     let toggles = ["concentration", "ritual", "verbal", "somatic", "material", "expensive", "consumed"];
     toggles.forEach(toggle => set_radio_group_value(toggle, d[toggle]));
