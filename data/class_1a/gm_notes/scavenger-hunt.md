@@ -17,28 +17,28 @@
 
 [Staff Notes](Professor David's School for Precocious Heroes#Staff)
 
-## Temple/Divine Studies
-
-* [Temple](^class_1a/intro/temple.jfif)
-* [Professor Goldgraver](^class_1a/professor_goldgraver.jfif)
-
-## Main Lecture Hall
+## Grand Hall
 
 * [Lecture Hall](^class_1a/intro/main_lecture_hall.jfif)
 * [Professor Xavros](^class_1a/xavros.jfif) ([dragon](^class_1a/xavros_dragon.jfif))
 
-## Library
+## Biblioplex
 
-* [Library](^class_1a/intro/library.jfif)
+* [Biblioplex](^class_1a/intro/library.jfif)
 * [Professor Silverstrings](^class_1a/professor_silverstrings2.jfif)
 
-## Dungeon Ec/Forest Grounds
+## Godsbrow Temple
 
-* [Campgrounds](^class_1a/intro/campgrounds.jfif)
+* [Godsbrow Temple](^class_1a/intro/temple.jfif)
+* [Professor Goldgraver](^class_1a/professor_goldgraver.jfif)
+
+## The Grand Arbor
+
+* [The Grand Arbor](^class_1a/intro/campgrounds.jfif)
 * [Professor Broussard](^class_1a/seraphina_broussard.png), "Nanan" to her students
 * [Hamakorrlachek](^class_1a/hamakorrlachek.jfif), "Haman" for short
 
-## Artisan's Hall
+## Prismatic Hall
 
 * [Artisan's Hall](^class_1a/intro/artisans_hall.jfif)
 * Fenwick "[Sweeps](^class_1a/sweeps.jpg)" Brambleburrow
