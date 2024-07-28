@@ -7,8 +7,9 @@
 * Timtom can show off special knowledge of the school
 * Showcase the cafeteria and dormitories
 * How are they treated by each other and the older students?
-* How unique and special are the PCs compared to the other students?
 * Add fade-out one music/ambience change
+* Add map to wiki
+* Get bigger map on Owlbear (smaller than 25 MB)
 
 ### Player Plans
 
@@ -44,11 +45,16 @@
 
 | Name      | Per | Ins |  # | HP |
 |-----------|----:|----:|---:|----|
-| Alyse     |  10 |  10 | 10 |    |
-| Gren      |  10 |  10 | 10 |    |
-| Meli      |  10 |  10 | 10 |    |
-| Timtom    |  10 |  10 | 10 |    |
-| Elleewick |  10 |  10 | 10 |    |
+| Timtom    |  13 |  15 | 18 |    |
+| Elleewick |  12 |  14 | 13 |    |
+| Alyse     |  14 |  11 |  9 |    |
+| Mimic     |  12 |  14 |  8 | 82 |
+| Meli      |  11 |  11 |  4 |    |
+| Gren      |  15 |  13 |  3 |    |
+
+
+3 damage to student
+16 damage to other student
 
 # Exploration Activities
 
