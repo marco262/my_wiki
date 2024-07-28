@@ -8,6 +8,7 @@
 * Showcase the cafeteria and dormitories
 * How are they treated by each other and the older students?
 * How unique and special are the PCs compared to the other students?
+* Add fade-out one music/ambience change
 
 ### Player Plans
 
@@ -56,3 +57,8 @@ Gren:
 Meli:   
 Timtom:   
 Elleewick: 
+
+
+The Ewer Brimmeth -- music/ex4/BGM_EX4_Town_O_Day.scd
+The Nautilus Knoweth -- music/ex4/BGM_EX4_Town_O_Night.scd
+The Day Will Come (Endwalker) -- music/ex4/BGM_EX4_Town_O_Room.scd
