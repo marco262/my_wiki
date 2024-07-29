@@ -193,7 +193,7 @@
   },
   "responses": {
     "dnd_spell_list": {
-      "description": "An array of all spells in the requested spell list. Use to query /spell/<name> for the spell details.",
+      "description": "An array of all spells in the requested spell list. Use to query /dnd/spell/&lt;name&gt; for the spell details.",
       "schema": {
         "type": "array",
         "items": {

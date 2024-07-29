@@ -169,9 +169,9 @@ def load_wsgi_endpoints(app: Bottle):
     @view("dnd/spell_list.tpl")
     def spell_filter_results():
         filters = loads(request.params["filter_keys"])
-        results = filter_spells(filters)
+        _, spells_by_level = filter_spells(filters)
         d = {
-            "spell_dict": results,
+            "spell_dict": spells_by_level,
             "show_classes": len(filters["class"]) > 1,
             "ua_spells": filters["ua_spells"]
         }

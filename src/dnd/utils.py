@@ -202,7 +202,8 @@ def load_spells_by_level():
 
 
 def filter_spells(filters: dict):
-    results = defaultdict(list)
+    results = {}
+    results_by_level = defaultdict(list)
     for k, v in load_spells().items():
         if "class" in filters:
             if not class_spell(v, filters["class"], filters.get("ua_spells", True)):
@@ -263,8 +264,9 @@ def filter_spells(filters: dict):
             if ((filters["consumed"] == "true" and not v.get("material_component_consumed")) or
                     (filters["consumed"] == "false" and v.get("material_component_consumed"))):
                 continue
-        results[v["level"]].append((k, v))
-    return results
+        results[k] = v
+        results_by_level[v["level"]].append((k, v))
+    return results, results_by_level
 
 
 def load_magic_items():
@@ -295,11 +297,6 @@ def load_magic_items():
     print(" Done.", flush=True)
     MAGIC_ITEMS = magic_items
     return MAGIC_ITEMS
-
-
-def get_magic_item_subtypes():
-    load_magic_items()
-    return MAGIC_ITEM_SUBTYPES
 
 
 def filter_magic_items(filters):
