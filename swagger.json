@@ -208,66 +208,208 @@
       "get": {
         "summary": "Returns all spells for 5e D&D",
         "tags": ["5e D&D Spells"],
+        "parameters": [
+          {
+            "name": "class",
+            "description": "Filters for spells that are on the particular class' lists. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
+            }
+          },
+          {
+            "name": "level",
+            "description": "Filters for spells of the given levels. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+            }
+          },
+          {
+            "name": "school",
+            "description": "Filters for spells of the given schools. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["abjuration", "conjuration", "divination", "evocation", "enchantment", "illusion", "necromancy", "transmutation"]
+            }
+          },
+          {
+            "name": "casting_time",
+            "description": "Filters for spells based on casting time. Case-insensitive and supports partial matches. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "range",
+            "description": "Filters for spells based on range. Case-insensitive and supports partial matches. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "duration",
+            "description": "Filters for spells based on duration. Case-insensitive and supports partial matches. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "source",
+            "description": "Filters for spells based on the sourcebook they were published in. Case-insensitive and supports partial matches. Omit to allow all.",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "concentration",
+            "description": "Filters for spells that do or do not require concentration. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "ritual",
+            "description": "Filters for spells that are or are not rituals. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "verbal",
+            "description": "Filters for spells that do or do not have verbal components. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "somatic",
+            "description": "Filters for spells that do or do not have somatic components. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "material",
+            "description": "Filters for spells that do or do not have material components. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "expensive",
+            "description": "Filters for spells that do or do not have expensive material components. Expensive material components are ones that have a price listed in the spell material description. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          },
+          {
+            "name": "consumed",
+            "description": "Filters for spells that do or do not have an expensive material component that is consumed on casting. Omit to allow all.",
+            "in": "query",
+            "type": "boolean"
+          }
+        ],
         "responses": {
           "200": {"$ref": "#/responses/dnd_spell_list"}
         }
       }
     },
-    "/dnd/spell_list/{spell_class}": {
+    "/dnd/spell_list/enum": {
       "get": {
-        "summary": "Returns a spell list for a given class",
+        "summary": "Returns all dynamically loaded spell values, for use with /dnd/spell_list",
         "tags": ["5e D&D Spells"],
-        "parameters": [
-          {
-            "name": "spell_class",
-            "description": "The class for which to retrieve the spell list",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
-          }
-        ],
         "responses": {
-          "200": {"$ref": "#/responses/dnd_spell_list"},
-          "404": {
-            "description": "The given spell list couldn't be found.",
+          "200": {
+            "description": "List of all currently available spell enums",
             "schema": {
-              "type": "string",
-              "example": "\"Ligma\" is not a valid spell list."
-            }
-          }
-        }
-      }
-    },
-    "/dnd/spell_list/{spell_class}/{level}": {
-      "get": {
-        "summary": "Returns a spell list for a given class, for a given spell level",
-        "tags": ["5e D&D Spells"],
-        "parameters": [
-          {
-            "name": "spell_class",
-            "description": "The class for which to retrieve the spell list",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "enum": ["artificer", "bard", "cleric", "druid", "paladin", "ranger", "sorcerer", "warlock", "wizard"]
-          },
-          {
-            "name": "level",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "enum": ["cantrip", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
-            "description": "The spell level to retrieve the spell list for"
-          }
-        ],
-        "responses": {
-          "200": {"$ref": "#/responses/dnd_spell_list"},
-          "404": {
-            "description": "The given spell list couldn't be found.",
-            "schema": {
-              "type": "string",
-              "example": "\"69\" is not a valid spell level."
+              "type": "object",
+              "items": {
+                "type": "array"
+              },
+              "properties": {
+                "casting_time": {
+                  "type": "string",
+                  "example": [
+                    "1 bonus action",
+                    "1 reaction",
+                    "1 action",
+                    "1 action or 8 hours",
+                    "1 minute",
+                    "10 minutes",
+                    "1 hour",
+                    "8 hours",
+                    "12 hours",
+                    "24 hours"
+                  ]
+                },
+                "range": {
+                  "type": "string",
+                  "example": [
+                    "5 feet",
+                    "10 feet",
+                    "20 feet",
+                    "30 feet",
+                    "60 feet",
+                    "90 feet",
+                    "100 feet",
+                    "120 feet",
+                    "150 feet",
+                    "300 feet",
+                    "500 feet",
+                    "1 mile",
+                    "500 miles",
+                    "Self",
+                    "Sight",
+                    "Special",
+                    "Touch",
+                    "Unlimited"
+                  ]
+                },
+                "duration": {
+                  "type": "string",
+                  "example": [
+                    "1 round",
+                    "6 rounds",
+                    "1 minute",
+                    "10 minutes",
+                    "1 hour",
+                    "2 hours",
+                    "6 hours",
+                    "8 hours",
+                    "24 hours",
+                    "1 day",
+                    "7 days",
+                    "10 days",
+                    "30 days",
+                    "Instantaneous",
+                    "Instantaneous or 1 hour (see below)",
+                    "Special",
+                    "Until dispelled",
+                    "Until dispelled or triggered"
+                  ]
+                },
+                "source": {
+                  "type": "string",
+                  "example": [
+                    "Elemental Evil",
+                    "Guildmaster's Guide to Ravnica",
+                    "Homebrew",
+                    "Lost Laboratory of Kwalish",
+                    "Player's Handbook",
+                    "Tasha's Cauldron of Everything",
+                    "Xanathar's Guide to Everything"
+                  ]
+                }
+              }
             }
           }
         }
@@ -346,7 +488,7 @@
           },
           {
             "name": "subtype",
-            "description": "Filter for magic items that have a subtype defined. For example, the Javelin of Lightning has the type 'weapon' as well as the subtype 'javelin'. Omit to allow all.\n\nSubtype is not restricted to a particular list of allows values, and new subtypes can be defined on an item-by-item basis. Use the /dnd/magic_items/subtypes endpoint to get a list of all currently defined subtypes. Use 'no-subtype' to return magic items without a defined subtype.",
+            "description": "Filter for magic items that have a subtype defined. For example, the Javelin of Lightning has the type 'weapon' as well as the subtype 'javelin'. Omit to allow all.\n\nSubtype is not restricted to a particular list of allows values, and new subtypes can be defined on an item-by-item basis. Use the /dnd/magic_items/enum endpoint to get a list of all currently defined subtypes. Use 'no-subtype' to return magic items without a defined subtype.",
             "in": "query",
             "type": "array",
             "items": {
@@ -365,7 +507,7 @@
           },
           {
             "name": "source",
-            "description": "Filters for magic items based on the sourcebook they were published in. Case-insensitive and supports partial matches. Omit to allow all.",
+            "description": "Filters for magic items based on the sourcebook they were published in. Case-insensitive and supports partial matches. Omit to allow all.\nUse the /dnd/magic_items/enum endpoint to get a list of all currently defined sources.",
             "in": "query",
             "type": "array",
             "items": {
@@ -387,19 +529,43 @@
         }
       }
     },
-    "/dnd/magic_items/subtypes": {
+    "/dnd/magic_items/enum": {
       "get": {
-        "summary": "Returns all currently available magic item subtypes, for use with /dnd/magic-items",
+        "summary": "Returns all dynamically loaded magic item values, for use with /dnd/magic_items",
         "tags": ["5e D&D Magic Items"],
         "responses": {
           "200": {
-            "description": "List of all currently available magic item subtypes",
+            "description": "List of all currently available magic item enums",
             "schema": {
-              "type": "array",
+              "type": "object",
               "items": {
-                "type": "string"
+                "type": "array"
               },
-              "example": ["any ammunition", "any axe", "any axe or sword", "any sword", "any sword that deals slashing damage", "arrow", "boots", "bracer", "chain mail", "chain shirt", "cloak", "dagger", "flail", "gloves", "holy symbol", "instrument", "ioun stone", "javelin", "light, medium, or heavy", "longbow", "longsword", "mace", "maul", "medium or heavy", "medium or heavy, but not hide", "necklace", "plate", "prosthetic", "scale mail", "scimitar", "shard", "shield", "shortbow", "sickle", "spellbook", "studded leather", "tattoo", "trident", "warhammer"]
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "example": [
+                    "Dungeon Master's Guide",
+                    "Homebrew",
+                    "Tasha's Cauldron of Everything",
+                    "Waterdeep: Dragon Heist",
+                    "Xanathar's Guide to Everything"
+                  ]
+                },
+                "subtype": {
+                  "type": "string",
+                  "example": [
+                    "no-subtype",
+                    "arrow",
+                    "boots",
+                    "bracer",
+                    "chain mail",
+                    "chain shirt",
+                    "cloak",
+                    "dagger"
+                  ]
+                }
+              }
             }
           }
         }

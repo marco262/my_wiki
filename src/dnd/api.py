@@ -1,10 +1,11 @@
 import json
+from copy import deepcopy
 
 from bottle import HTTPError, Bottle, request, FormsDict
 
 from data.dnd.enums import spell_classes
 from src.common.utils import title_to_page_name
-from src.dnd.utils import load_spells, filter_magic_items, load_magic_items, get_magic_item_subtypes
+from src.dnd.utils import load_spells, filter_magic_items, load_magic_items, get_enum_cache
 
 
 def load_api_endpoints(app: Bottle):
@@ -13,13 +14,9 @@ def load_api_endpoints(app: Bottle):
     def get_full_spell_list():
         return get_spell_list()
 
-    @app.get("/spell_list/<spell_class>")
-    def get_class_spell_list(spell_class):
-        return get_spell_list(spell_class)
-
-    @app.get("/spell_list/<spell_class>/<level>")
-    def get_class_spell_list_level(spell_class, level):
-        return get_spell_list(spell_class, level)
+    @app.get("/spell_list/enum")
+    def get_magic_item_enum():
+        return get_enum_cache("spell")
 
     @app.get("/spell/<name>")
     def get_class_spell(name):
@@ -33,9 +30,12 @@ def load_api_endpoints(app: Bottle):
     def get_magic_items():
         return get_magic_item_list(request.query)
 
-    @app.get("/magic_items/subtypes")
-    def get_magic_item_subtypes_api():
-        return json.dumps(get_magic_item_subtypes())
+    @app.get("/magic_items/enum")
+    def get_magic_item_enum():
+        cache = deepcopy(get_enum_cache("magic_item"))
+        # Add no-subtype option to subtype enums
+        cache["subtype"].insert(0, "no-subtype")
+        return cache
 
     @app.get("/magic_item/<name>")
     def get_magic_item(name):

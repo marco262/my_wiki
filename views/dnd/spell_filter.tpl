@@ -83,8 +83,8 @@
             <td>{{title}}</td>
             <td>
                 <input type="radio" name="radio-{{name}}" value="both" checked>Both
-                    <input type="radio" name="radio-{{name}}" value="yes">Yes
-                    <input type="radio" name="radio-{{name}}" value="no">No
+                    <input type="radio" name="radio-{{name}}" value="true">Yes
+                    <input type="radio" name="radio-{{name}}" value="false">No
             </td>
         </tr>
     % end

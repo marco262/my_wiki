@@ -1,8 +1,9 @@
+import re
 from collections import OrderedDict, defaultdict
 from enum import Enum
 from glob import glob
 from os.path import join as pjoin, isfile, splitext, basename
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Any, Literal
 
 import toml
 from bottle import HTTPError, redirect, template
@@ -19,16 +20,20 @@ class Mode(Enum):
 INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
 file = {}
 [[/include]]"""
-SPELLS = None
-SPELLS_BY_LEVEL = None
-MAGIC_ITEMS = None
-MAGIC_ITEM_SUBTYPES = []
+SPELLS = {}
+SPELLS_BY_LEVEL = {}
+MAGIC_ITEMS = {}
+
+ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, set[str]]] = \
+    {"spell": defaultdict(set), "magic_item": defaultdict(set)}
+SORTED_ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, list[str]]] = \
+    {"spell": {}, "magic_item": {}}
 
 
 def init_spells_and_magic_items():
-    global SPELLS, MAGIC_ITEMS
-    SPELLS = {}
-    MAGIC_ITEMS = {}
+    load_spells()
+    load_magic_items()
+    sort_enum_cache()
 
 
 def class_spell(spell: dict, classes: List[str], ua_spells: bool) -> bool:
@@ -111,9 +116,16 @@ def load_spells():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
+            # Do some special handling
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "source_extended" in d:
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
+            # Add values to enum cache
+            add_to_enum_cache("spell", "casting_time", d["casting_time"])
+            add_to_enum_cache("spell", "range", d["range"])
+            add_to_enum_cache("spell", "duration", d["duration"])
+            add_to_enum_cache("spell", "source", d["source"])
+            # Write to dict
             k = splitext(basename(path))[0]
             spells[k] = d
             spell_by_level[d["level"]].append((k, d))
@@ -123,6 +135,65 @@ def load_spells():
     print(" Done.", flush=True)
     SPELLS, SPELLS_BY_LEVEL = spells, spell_by_level
     return SPELLS
+
+
+def add_to_enum_cache(cache_type: Literal["spell", "magic_item"], key: str, value: Any):
+    global ENUM_CACHE
+    if key == "source":
+        value = value.rsplit(",", 1)[0]
+    if cache_type == "spell":
+        if key == "casting_time":
+            if value.startswith("1 reaction"):
+                value = "1 reaction"
+        elif key == "range":
+            if value.startswith("Self"):
+                value = "Self"
+        elif key == "duration":
+            if value.startswith("Concentration"):
+                value = value.replace("Concentration, up to ", "")
+            elif value.startswith("Up to"):
+                value = value.replace("Up to ", "")
+    elif cache_type == "magic_item":
+        pass
+    else:
+        raise ValueError(f"Unknown cache_type {cache_type}")
+    ENUM_CACHE[cache_type][key].add(value)
+
+
+def sort_enum_cache():
+    global SORTED_ENUM_CACHE
+    for cache_type, caches in ENUM_CACHE.items():
+        for key, values in caches.items():
+            sort_dict = {}
+            def sort_key(s: str):
+                """
+                Provides a sorting key that allows for increasing orders of duration, distance, etc to be sorted
+                properly. E.g. 6 minutes, 10 minutes, 1 hour
+                Create a `sort_dict` with the values to check for in the dict values
+                """
+                m = re.match(r"(\d+) (.*)", s)
+                if not m:
+                    return 99, 99, s
+                for k, v in sort_dict.items():
+                    if v in m.group(2):
+                        return k, int(m.group(1)), s
+                return 99, int(m.group(1)), s
+            if key == "casting_time":
+                sort_dict = {0: "bonus action", 1: "reaction", 2: "action", 3: "minute", 4: "hour"}
+            elif key == "range":
+                sort_dict = {0: "foot", 1: "feet", 2: "yard", 3: "mile"}
+            elif key == "duration":
+                sort_dict = {0: "round", 1: "minute", 2: "hour", 3: "day", 4: "week", 5: "month", 6: "year"}
+            else:
+                sort_key = None
+            SORTED_ENUM_CACHE[cache_type][key] = sorted(values, key=sort_key)
+
+
+def get_enum_cache(cache_type: Literal["spell", "magic_item"]):
+    try:
+        return SORTED_ENUM_CACHE[cache_type]
+    except KeyError:
+        raise ValueError(f"Unknown cache_type {cache_type}")
 
 
 def load_spells_by_level():
@@ -136,71 +207,70 @@ def filter_spells(filters: dict):
         if "class" in filters:
             if not class_spell(v, filters["class"], filters.get("ua_spells", True)):
                 continue
-        if "level" in filters and v["level"] not in filters["level"]:
+        if "level" in filters and v["level"].lower() not in filters["level"]:
             continue
-        if "school" in filters and v["school"] not in filters["school"]:
+        if "school" in filters and v["school"].lower() not in filters["school"]:
             continue
         if "casting_time" in filters:
             for t in filters["casting_time"]:
-                if t in v["casting_time"]:
+                if t.lower() in v["casting_time"].lower():
                     break
             else:
                 continue
         if "range" in filters:
-            for t in filters["range"]:
-                if t in v["range"]:
+            for r in filters["range"]:
+                if r.lower() in v["range"].lower():
                     break
             else:
                 continue
         if "duration" in filters:
             for d in filters["duration"]:
-                if d in v["duration"]:
+                if d.lower() in v["duration"].lower():
                     break
             else:
                 continue
         if "source" in filters:
             for s in filters["source"]:
-                if s in v["source"]:
+                if s.lower() in v["source"].lower():
                     break
             else:
                 continue
         if "concentration" in filters:
-            if ((filters["concentration"] == "yes" and not v["concentration_spell"]) or
-                    (filters["concentration"] == "no" and v["concentration_spell"])):
+            if ((filters["concentration"] == "true" and not v["concentration_spell"]) or
+                    (filters["concentration"] == "false" and v["concentration_spell"])):
                 continue
         if "ritual" in filters:
-            if ((filters["ritual"] == "yes" and not v["ritual_spell"]) or
-                    (filters["ritual"] == "no" and v["ritual_spell"])):
+            if ((filters["ritual"] == "true" and not v["ritual_spell"]) or
+                    (filters["ritual"] == "false" and v["ritual_spell"])):
                 continue
         if "verbal" in filters:
-            if ((filters["verbal"] == "yes" and "V" not in v["components"]) or
-                    (filters["verbal"] == "no" and "V" in v["components"])):
+            if ((filters["verbal"] == "true" and "V" not in v["components"]) or
+                    (filters["verbal"] == "false" and "V" in v["components"])):
                 continue
         if "somatic" in filters:
-            if ((filters["somatic"] == "yes" and "S" not in v["components"]) or
-                    (filters["somatic"] == "no" and "S" in v["components"])):
+            if ((filters["somatic"] == "true" and "S" not in v["components"]) or
+                    (filters["somatic"] == "false" and "S" in v["components"])):
                 continue
         if "material" in filters:
-            if ((filters["material"] == "yes" and "M" not in v["components"]) or
-                    (filters["material"] == "no" and "M" in v["components"])):
+            if ((filters["material"] == "true" and "M" not in v["components"]) or
+                    (filters["material"] == "false" and "M" in v["components"])):
                 continue
         if "expensive" in filters:
-            if ((filters["expensive"] == "yes" and not v.get("expensive_material_component")) or
-                    (filters["expensive"] == "no" and v.get("expensive_material_component"))):
+            if ((filters["expensive"] == "true" and not v.get("expensive_material_component")) or
+                    (filters["expensive"] == "false" and v.get("expensive_material_component"))):
                 continue
         if "consumed" in filters:
-            if ((filters["consumed"] == "yes" and not v.get("material_component_consumed")) or
-                    (filters["consumed"] == "no" and v.get("material_component_consumed"))):
+            if ((filters["consumed"] == "true" and not v.get("material_component_consumed")) or
+                    (filters["consumed"] == "false" and v.get("material_component_consumed"))):
                 continue
         results[v["level"]].append((k, v))
     return results
 
 
 def load_magic_items():
-    global MAGIC_ITEMS, MAGIC_ITEM_SUBTYPES
+    global MAGIC_ITEMS
     if MAGIC_ITEMS:
         return MAGIC_ITEMS
-    MAGIC_ITEM_SUBTYPES = set()
     magic_items = {}
     path = None
     print("Loading magic items into memory", end='')
@@ -210,17 +280,20 @@ def load_magic_items():
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
+            # Do some special handling
             d["description"] = d["description"].strip()
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
+            # Add values to enum cache
+            add_to_enum_cache("magic_item", "source", d["source"])
             if d["subtype"]:
-                MAGIC_ITEM_SUBTYPES.add(d["subtype"])
+                add_to_enum_cache("magic_item", "subtype", d["subtype"])
+            # Write to dict
             magic_items[splitext(basename(path))[0]] = d
     except Exception:
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.", flush=True)
     MAGIC_ITEMS = magic_items
-    MAGIC_ITEM_SUBTYPES = sorted(MAGIC_ITEM_SUBTYPES)
     return MAGIC_ITEMS
 
 

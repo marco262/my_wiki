@@ -13,9 +13,9 @@ from bottle import view, request, HTTPError, Bottle, template, redirect, auth_ba
 from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
 from src.common.utils import str_to_bool, md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import init_spells_and_magic_items, class_spell, open_monster_sheet, load_spells, \
-    load_spells_by_level, load_magic_items, get_magic_item_table, get_magic_item_subtypes, filter_magic_items, \
-    filter_spells
+from src.dnd.utils import init_spells_and_magic_items, open_monster_sheet, load_spells, \
+    load_spells_by_level, load_magic_items, get_magic_item_table, filter_magic_items, \
+    filter_spells, ENUM_CACHE, get_enum_cache
 
 # Default password: dancinglikeastripper
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
@@ -180,7 +180,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/equipment/magic_item_filter/")
     @view("dnd/magic_item_filter.tpl")
     def magic_item_filter():
-        return {"subtypes": get_magic_item_subtypes()}
+        return {"subtypes": ENUM_CACHE["magic_item"].get("subtype", set())}
 
     @app.post('/equipment/magic_item_filter_results')
     @view("dnd/magic-items.tpl")
@@ -195,7 +195,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/equipment/magic_item_generator/")
     @view("dnd/magic_item_generator.tpl")
     def magic_item_generator():
-        return {"subtypes": get_magic_item_subtypes()}
+        return {"subtypes": get_enum_cache("magic_item").get("subtype", [])}
 
     @app.post("/equipment/magic_item_generator_results/")
     def magic_item_generator_results():
