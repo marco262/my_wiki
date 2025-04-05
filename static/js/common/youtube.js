@@ -8,12 +8,12 @@ let youtube_player;
 let youtube_player_loaded = false;
 
 function onYouTubeIframeAPIReady() {
-    youtube_player = new YT.Player('youtube-player', {
-        events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        }
-    });
+    // youtube_player = new YT.Player('youtube-player', {
+    //     events: {
+    //         'onReady': onPlayerReady,
+    //         'onStateChange': onPlayerStateChange
+    //     }
+    // });
 }
 
 function onPlayerReady(event) {
