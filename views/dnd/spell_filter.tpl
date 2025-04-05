@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
-% from data.dnd.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
+% from data.onednd.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
 <table border="0">
     <tr valign="top">
         <td>
@@ -9,16 +9,12 @@
             % for c in spell_classes:
                 <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
             % end
-            <br>
-            <input type="checkbox" id="checkbox-ua-spells" checked>Include Expanded<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spell lists from<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unearthed Arcana
         </td>
         <td>
             <b>Level:</b><br>
             <input type="checkbox" name="checkbox-all" value="level" checked><i>All/None</i><br>
             % for l in spell_levels:
-                % if l == "cantrip":
+                % if l == "0":
                 %   level_name = "Cantrip"
                 % else:
                 %   level_name = ordinal(l) + " Level"
@@ -83,8 +79,8 @@
             <td>{{title}}</td>
             <td>
                 <input type="radio" name="radio-{{name}}" value="both" checked>Both
-                    <input type="radio" name="radio-{{name}}" value="true">Yes
-                    <input type="radio" name="radio-{{name}}" value="false">No
+                    <input type="radio" name="radio-{{name}}" value="yes">Yes
+                    <input type="radio" name="radio-{{name}}" value="no">No
             </td>
         </tr>
     % end

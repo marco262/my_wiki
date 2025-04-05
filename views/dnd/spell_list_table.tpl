@@ -1,4 +1,4 @@
-% from data.dnd.enums import spell_classes, source_acronyms
+% from data.onednd.enums import spell_classes, source_acronyms
 % if not get("spells"):
 <i>No Results</i>
 % else:
@@ -24,7 +24,7 @@
             r = "<sup>r</sup>" if s["ritual_spell"] else ""
             c = "<sup>c</sup>" if s["concentration_spell"] else ""
             %>
-            <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
+            <a href="/onednd/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
         </td>
         <td>{{s["school"].title()}}</td>
         <%
@@ -32,7 +32,7 @@
             for c in spell_classes:
         %>
         <td style="text-align: center;">
-            {{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}
+            {{"X" if c in s["spell_lists"] else ""}}
         </td>
         <%
             end

@@ -1,5 +1,5 @@
-* [5e D&D Wiki](/dnd/)
-* [One D&D Wiki](/onednd/)
+* [2024 D&D Wiki](/dnd/)
+* [5e D&D Wiki](/dnd5e/) (deprecated)
 * [Numenera Resources](/numenera/)
 
 ## Campaigns

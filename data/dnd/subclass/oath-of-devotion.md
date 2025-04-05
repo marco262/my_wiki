@@ -1,70 +1,69 @@
-[[breadcrumb /dnd/class/Paladin|Paladin]]
+---
+toc: false
+---
 
-The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels -- the perfect servants of good -- as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
+[[breadcrumb /onednd/class/Paladin|Paladin]]
 
-### Tenets of Devotion
+<div class="phb-sidebar" markdown="1">
 
-Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
+**Tenets of Devotion**
 
-* **Honesty.** Don't lie or cheat. Let your word be your promise.
-* **Courage.** Never fear to act, though caution is wise.
-* **Compassion.** Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
-* **Honor.** Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
-* **Duty.** Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
+Though the exact words and strictures of the Oath of Devotion vary, Paladins of this oath share these tenets.
 
-# Oath of Devotion
+***Honesty.*** Don't lie or cheat. Let your word be your promise.
 
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Oath Spells, Channel Divinity ||
-|| 7th || Aura of Devotion ||
-|| 15th || Purity of Spirit ||
-|| 20th || Holy Nimbus ||
+***Courage.*** Never fear to act, though caution is wise.
 
-## Oath Spells
+***Compassion.*** Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
 
-You gain oath spells at the paladin levels listed.
+***Honor.*** Treat others with fairness, and let your honorable deeds be an example to them.
 
-### Oath of Devotion Spells
+***Duty.*** Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
 
-||~ Paladin Level ||~ Spells ||
-|| 3rd || *[[[spell:protection from evil and good]]]*, *[[[spell:sanctuary]]]* ||
-|| 5th || *[[[spell:lesser restoration]]]*, *[[[spell:zone of truth]]]* ||
-|| 9th || *[[[spell:beacon of hope]]]*, *[[[spell:dispel magic]]]* ||
-|| 13th || *[[[spell:freedom of movement]]]*, *[[[spell:guardian of faith]]]* ||
-|| 17th || *[[[spell:commune]]]*, *[[[spell:flame strike]]]* ||
+</div>
 
-## Channel Divinity
+The Oath of Devotion binds Paladins to the loftiest ideals of justice and order. These Paladins meet the ideal of the knight in shining armor. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.
 
-When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+### 3rd Level: Oath Spells
 
-**Sacred Weapon.** As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
+The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.
 
-You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall [[[general:conditions#unconscious|unconscious]]], this effect ends.
+#### Oath of Devotion Spells
 
-**Turn the Unholy.** As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+| Paladin<br>Level | Spells                                                                     |
+|------------------|----------------------------------------------------------------------------|
+| 3rd              | _[[[spell:Protection from Evil And Good]]]_, _[[[spell:Shield of Faith]]]_ |
+| 5th              | _[[[spell:Aid]]]_, _[[[spell:Zone of Truth]]]_                             |
+| 9th              | _[[[spell:Beacon of Hope]]]_, _[[[spell:Dispel Magic]]]_                   |
+| 13th             | _[[[spell:Freedom of Movement]]]_, _[[[spell:Guardian of Faith]]]_         |
+| 17th             | _[[[spell:Commune]]]_, _[[[spell:Flame Strike]]]_                          |
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+### 3rd Level: Sacred Weapon
 
-## Aura of Devotion
+As a Bonus Action, you can expend one use of your Channel Divinity to imbue one melee weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
 
-Starting at 7th level, you and friendly creatures within 10 feet of you can't be [[[general:conditions#charmed|charmed]]] while you are conscious.
+The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.
 
-At 18th level, the range of this aura increases to 30 feet.
+You can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the [[glossary:Incapacitated]] condition.
 
-## Purity of Spirit
+### 7th Level: Aura of Devotion
 
-Beginning at 15th level, you are always under the effects of a *[[[spell:protection from evil and good]]]* spell.
+You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.
 
-## Holy Nimbus
+### 15th Level: Smite of Protection
 
-At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.
+Your magical smites now radiate protective energy. Whenever you cast any of your Paladin's Smite spells, you and your allies in your Aura of Protection have Half Cover until the start of your next turn.
 
-Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
+### 20th Level: Holy Nimbus
 
-In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.
+As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 1 minute or until you end them as a Bonus Action:
 
-Once you use this feature, you can't use it again until you finish a long rest.
+**Holy Ward.** You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.  
+**Radiant Damage.** Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier.  
+**Sunlight.** The aura is filled with bright light that is sunlight.
+
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of it by expending a 5th-level spell slot (no action required).
 
 ----
 
-*Source: Player's Handbook, p. 85*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

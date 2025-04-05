@@ -1,27 +1,21 @@
 title = "Conjure Woodland Beings"
-classes = ["druid", "ranger"]
-level = "4"
-school = "conjuration"
+spell_lists = ["Druid", "Ranger"]
+level = "5"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
-range = "60 feet"
-components = ["V", "S", "M"]
-material = "one holly berry per creature summoned"
+casting_time = "Action"
+range = "Self (10-foot radius)"
+components = ["V", "S"]
+material = ""
 expensive_material_component = false
 material_component_consumed = false
-duration = "Concentration, up to 1 hour"
-description = """You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:
+duration = "Concentration, up to 10 minutes"
+description = """
+You summon nature spirits that flit about you for the duration. Until the spell ends, each creature you choose that enters a space within 10 feet of you for the first time on a turn or starts its turn there must make a Wisdom saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one.
 
-* One fey creature of challenge rating 2 or lower
-* Two fey creatures of challenge rating 1 or lower
-* Four fey creatures of challenge rating 1/2 or lower
-* Eight fey creatures of challenge rating 1/4 or lower
-
-A summoned creature disappears when it drops to 0 hit points or when the spell ends.
-
-The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
-
-The DM has the creatures' statistics."""
-at_higher_levels = "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
-source = "Player's Handbook, p. 226"
+In addition, you can take the Disengage action as a Bonus Action for the spell's duration.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of level 6 or higher, the damage increases by 1d8 for each slot level above 5."
+source = "Player's Handbook Playtest 8"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

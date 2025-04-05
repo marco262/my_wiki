@@ -4,7 +4,7 @@ from copy import deepcopy
 from bottle import HTTPError, Bottle, request
 
 from src.common.utils import title_to_page_name
-from src.dnd.utils import load_spells, filter_spells, load_magic_items, filter_magic_items, get_enum_cache
+from src.dnd5e.utils import load_spells, filter_spells, load_magic_items, filter_magic_items, get_enum_cache
 
 
 def load_api_endpoints(app: Bottle):

@@ -1,7 +1,7 @@
 import unittest
 
 from src.common.utils import better_title, list_media_files, check_for_media_file
-from src.onednd.utils import split_rules_glossary
+from src.dnd.utils import split_rules_glossary
 from tests.unit import find_root_directory
 
 

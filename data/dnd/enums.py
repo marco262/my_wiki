@@ -1,47 +1,33 @@
-from pprint import pprint
-
-races = [
-    "dwarf",
-    "elf",
-    "halfling",
-    "human",
-    "dragonborn",
-    "gnome",
-    "half-elf",
-    "half-orc",
-    "tiefling"
-]
-
 classes = [
-    "artificer",
-    "barbarian",
-    "bard",
-    "cleric",
-    "druid",
-    "fighter",
-    "monk",
-    "paladin",
-    "ranger",
-    "rogue",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Artificer",
+    "Barbarian",
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Fighter",
+    "Monk",
+    "Paladin",
+    "Ranger",
+    "Rogue",
+    "Sorcerer",
+    "Warlock",
+    "Wizard",
 ]
 
 spell_classes = [
-    "artificer",
-    "bard",
-    "cleric",
-    "druid",
-    "paladin",
-    "ranger",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Artificer",
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Paladin",
+    "Ranger",
+    "Sorcerer",
+    "Warlock",
+    "Wizard",
 ]
 
 spell_levels = [
-    "cantrip",
+    "0",
     "1",
     "2",
     "3",
@@ -54,20 +40,20 @@ spell_levels = [
 ]
 
 schools = [
-    "abjuration",
-    "conjuration",
-    "divination",
-    "evocation",
-    "enchantment",
-    "illusion",
-    "necromancy",
-    "transmutation"
+    "Abjuration",
+    "Conjuration",
+    "Divination",
+    "Evocation",
+    "Enchantment",
+    "Illusion",
+    "Necromancy",
+    "Transmutation"
 ]
 
 casting_times = [
-    "1 action",
-    "1 bonus action",
-    "1 reaction",
+    "Action",
+    "Bonus Action",
+    "Reaction",
     "1 minute",
     "10 minutes",
     "1 hour",
@@ -115,7 +101,7 @@ ranges = [
     "500 miles",
     "Sight",
     "Unlimited",
-    "Special",
+    "Special"
 ]
 
 shapes = [
@@ -135,6 +121,12 @@ sources = [
     "Tasha's Cauldron of Everything",
     "Guildmaster's Guide to Ravnica",
     "Homebrew",
+    "Cleric and Revised Species",
+    "Druid and Paladin",
+    "Player's Handbook Playtest 6",
+    "Player's Handbook Playtest 7",
+    "Bastions and Cantrips",
+    "Player's Handbook Playtest 8",
 ]
 
 source_acronyms = {
@@ -149,6 +141,12 @@ source_acronyms = {
     "Waterdeep: Dragon Heist": "WDH",
     "Guildmaster's Guide to Ravnica": "GGR",
     "Homebrew": "Home",
+    "Cleric and Revised Species": "CaRS",
+    "Druid and Paladin": "DaP",
+    "Player's Handbook Playtest 6": "PHP6",
+    "Player's Handbook Playtest 7": "PHP7",
+    "Bastions and Cantrips": "BaC",
+    "Player's Handbook Playtest 8": "PHP8",
 }
 
 ability_scores = [

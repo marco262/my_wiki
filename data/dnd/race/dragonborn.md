@@ -1,75 +1,57 @@
-> Her father stood on the first of the three stairs that led down from the portal, unmoving. The scales of his face had grown paler around the edges, but Clanless Mehen still looked as if he could wrestle down a dire bear himself. His familiar well-worn armor was gone, replaced by violet-tinted scale armor with bright silvery tracings. There was a blazon on his arm as well, the mark of some foreign house. The sword at his back was the same, though, the one he had carried since even before he had found the twins left in swaddling at the gates of Arush Vayem.
-> 
-> For all her life, Farideh had known that reading her father's face was a skill she'd been fortunate to learn. A human who couldn't spot the shift of her eyes or Havilar's would certainly see only the indifference of a dragon in Clanless Mehen's face. But the shift of scales, the arch of a ridge, the set of his eyes, the gape of his teeth -- her father's face spoke volumes.
-> 
-> But every scale of it, this time, seemed completely still -- the indifference of a dragon, even to Farideh.
-> 
-> -- Erin M. Evans, The Adversary
+<div class="phb-sidebar" markdown="1">
 
-Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.
+**Children of Two Humanoid Races**
 
-# Proud Dragon Kin
+Humanoids of different races sometimes have children together. For example, people who have a human parent and an orc or an elf parent are particularly common. Many other combinations are possible.
 
-Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.
+If you'd like to play the child of such a pairing, choose two Race options that are Humanoid to represent your parents. Then determine which of those Race options provides your game traits: Size, Speed, and special traits. You can then mix and match visual characteristics -- color, ear shape, and the like -- of the two options. For example, if your character has a halfling and a gnome parent, you might choose Halfling for your game traits and then decide that your character has the pointed ears that are characteristic of a gnome.
 
-The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor -- bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.
+Finally, determine the average of the two options' Life Span traits to figure out how long your character might live. For example, a child of a halfling and a gnome has an average life span of 288 years.
 
-# Self-Sufficient Clans
+</div>
 
-To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn's conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.
+The ancestors of Dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the worlds of the multiverse with people created in their image. Another story holds that dragons created the Dragonborns' progenitors without the gods' blessings. Whatever their origin, Dragonborn have made homes for themselves on the worlds of the Material Plane.
 
-A continual drive for self-improvement reflects the self-sufficiency of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of a particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.
+Dragonborn look like wingless, bipedal dragons -- scaly, bright-eyed, and thick-boned, with horns on their heads. Dragonborn of chromatic ancestry have scales that are black, blue, green, red, or white, whereas Dragonborn of metallic ancestry have scales that are the color of brass, bronze, copper, gold, or silver.
 
-Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other races --  or even from the gods.
+Like their draconic ancestors, Dragonborn can exhale acid, cold, fire, lightning, or poison. One can tell the type of energy a Dragonborn breathes by the color of the Dragonborn's scales.
 
-# Dragonborn Names
+## Dragonborn Traits
 
-Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.
+* **Creature Type:** Humanoid
+* **Size:** Medium (about 5–7 feet tall)
+* **Speed:** 30 feet
+* **Life Span:** 80 years on average
 
-**Male Names:** Arjhan, Balasar, Bharash, Donaar, Ghesh. Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
+As a Dragonborn adventurer, you have the following special traits.
 
-**Female Names:** Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
+***Draconic Ancestry.*** Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestor table. Your choice affects your Breath Weapon and Damage Resistance traits, as well as the look of your Draconic Flight. The chosen dragon also affects your appearance, with you displaying coloration and other features reminiscent of that dragon.
 
-**Childhood Names:** Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+#### Draconic Ancestor
 
-**Clan Names:** Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+| Dragon | Damage Type |
+|--------|-------------|
+| Black  | Acid        |
+| Blue   | Lightning   |
+| Brass  | Fire        |
+| Bronze | Lightning   |
+| Copper | Acid        |
+| Gold   | Fire        |
+| Green  | Poison      |
+| Red    | Fire        |
+| Silver | Cold        |
+| White  | Cold        |
 
-# Dragonborn Traits
+***Breath Weapon.*** When you take the [[glossary:Attack]] Action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity Saving Throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach the following character levels: 5th level (2d10), 11th level (3d10), and 17th level (4d10).
 
-Your draconic heritage manifests in a variety of traits you share with other dragonborn.
+You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
-**Ability Score Increase.** Your Strength score increases by 2, and your Charisma score increases by 1.
+***Damage Resistance.*** You have Resistance to the damage type determined by your Draconic Ancestry trait.
 
-**Age.** Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+***Darkvision.*** You have Darkvision with a range of 60 feet.
 
-**Alignment.** Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.
+***Draconic Flight.*** When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are [[glossary:Incapacitated]] or you retract the wings as a Bonus Action. During that time, you have a [[glossary:Fly Speed]] equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can't use it again until you finish a [[glossary:Long Rest]].
 
-**Size.** Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+----
 
-**Speed.** Your base walking speed is 30 feet.
-
-**Draconic Ancestry.** You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
-
-### Table: Draconic Ancestry
-
-||~ Dragon ||~ Damage Type ||~ Breath Weapon ||
-|| Black || Acid || 5 by 30 ft. line (Dex. save) ||
-|| Blue || Lightning || 5 by 30 ft. line (Dex. save) ||
-|| Brass || Fire || 5 by 30 ft. line (Dex. save) ||
-|| Bronze || Lightning || 5 by 30 ft. line (Dex. save) ||
-|| Copper || Acid || 5 by 30 ft. line (Dex. save) ||
-|| Gold || Fire || 15 ft. cone (Dex. Save) ||
-|| Green || Poison || 15 ft. cone (Con. Save) ||
-|| Red || Fire || 15 ft. cone (Dex. Save) ||
-|| Silver || Cold || 15 ft. cone (Con. Save) ||
-|| White || Cold || 15 ft. cone (Con. Save) ||
-
-**Breath Weapon.** You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
-
-When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
-
-After you use your breath weapon, you can't use it again until you complete a short or long rest.
-
-**Damage Resistance.** You have resistance to the damage type associated with your draconic ancestry.
-
-**Languages**. You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+_Source: [Cleric and Revised Species](https://www.dndbeyond.com/sources/ua/cleric-revised-species)_

@@ -1,55 +1,35 @@
-[[breadcrumb /dnd/class/Fighter|Fighter]]
+[[breadcrumb /onednd/class/Fighter|Fighter]]
 
-The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
+A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.
 
-# Champion
+### Level 3: Improved Critical
 
-| Level | Proficiency<br>Bonus | Features                                          | # of<br>Attacks | Action<br>Surge Uses | Indomitable<br>Uses | Fighting<br>Styles | Critical<br>Range |
-|-------|----------------------|---------------------------------------------------|-----------------|----------------------|---------------------|--------------------|-------------------|
-| 1st   | +2                   | Fighting Style, Second Wind                       | 1               | --                   | --                  | 1                  | 20                |
-| 2nd   | +2                   | Action Surge (one use)                            | 1               | **1**                | --                  | 1                  | 20                |
-| 3rd   | +2                   | Improved Critical                                 | 1               | 1                    | --                  | 1                  | **19-20**         |
-| 4th   | +2                   | Ability Score Improvement                         | 1               | 1                    | --                  | 1                  | 19-20             |
-| 5th   | +3                   | Extra Attack                                      | **2**           | 1                    | --                  | 1                  | 19-20             |
-| 6th   | +3                   | Ability Score Improvement                         | 2               | 1                    | --                  | 1                  | 19-20             |
-| 7th   | +3                   | Remarkable Athlete                                | 2               | 1                    | --                  | 1                  | 19-20             |
-| 8th   | +3                   | Ability Score Improvement                         | 2               | 1                    | --                  | 1                  | 19-20             |
-| 9th   | +4                   | Indomitable (one use)                             | 2               | 1                    | **1**               | 1                  | 19-20             |
-| 10th  | +4                   | Additional Fighting Style                         | 2               | 1                    | 1                   | **2**              | 19-20             |
-| 11th  | +4                   | Extra Attack (2)                                  | **3**           | 1                    | 1                   | 2                  | 19-20             |
-| 12th  | +4                   | Ability Score Improvement                         | 3               | 1                    | 1                   | 2                  | 19-20             |
-| 13th  | +5                   | Indomitable (2 uses)                              | 3               | 1                    | **2**               | 2                  | 19-20             |
-| 14th  | +5                   | Ability Score Improvement                         | 3               | 1                    | 2                   | 2                  | 19-20             |
-| 15th  | +5                   | Superior Critical                                 | 3               | 1                    | 2                   | 2                  | **18-20**         |
-| 16th  | +5                   | Ability Score Improvement                         | 3               | 1                    | 2                   | 2                  | 18-20             |
-| 17th  | +6                   | Action Surge (two uses), Indomitable (three uses) | 3               | **2**                | **3**               | 2                  | 18-20             |
-| 18th  | +6                   | Survivor                                          | 3               | 2                    | 3                   | 2                  | 18-20             |
-| 19th  | +6                   | Ability Score Improvement                         | 3               | 2                    | 3                   | 2                  | 18-20             |
-| 20th  | +6                   | Extra Attack (3)                                  | **4**           | 2                    | 3                   | 2                  | 18-20             |
-<sup>**Bold** numbers are when that ability improves</sup>
+Your attack rolls with weapons and [[glossary:Unarmed Strike|Unarmed Strikes]] can score a critical hit on a roll of 19 or 20.
 
-## Improved Critical
+### Level 3: Remarkable Athlete
 
-Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.
+Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.
 
-## Remarkable Athlete
+### Level 7: Additional Fighting Style
 
-Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
+You gain another Fighting Style feat of your choice.
 
-In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.
+### Level 10: Heroic Warrior
 
-## Additional Fighting Style
+The thrill of battle drives you toward victory. During combat, you can give yourself [[glossary:Heroic Advantage]] whenever you start your turn without it.
 
-At 10th level, you can choose a second option from the Fighting Style class feature.
+### Level 15: Superior Critical
 
-## Superior Critical
+Your attack rolls with weapons and [[glossary:Unarmed Strike|Unarmed Strikes]] can now score a critical hit on a roll of 18–20.
 
-Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.
+### Level 18: Survivor
 
-## Survivor
+You attain the pinnacle of resilience in battle, giving you these benefits:
 
-At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
+**Defy Death.** You have Advantage on death saving throws. Moreover, when you roll 18–20 on a death save, you gain the benefit of rolling a 20 on a death save.
+
+**Heroic Rally.** At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points remaining. You don't gain this benefit if you have 0 Hit Points.
 
 ----
 
-*Source: Player's Handbook, p. 72*
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

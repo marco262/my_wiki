@@ -1,35 +1,44 @@
-Adventurers are extraordinary people driven by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.
+# Parts of a Class
 
-Class is the primary definition of what your character can do. It's more than a profession; it's your character's calling. Class shapes the way you think about the world and interact with it and your relationship with other people and powers in the multiverse. A fighter, for example, might view the world in pragmatic terms of strategy and maneuvering, and see herself as just a pawn in a much larger game. A cleric, by contrast, might see himself as a willing servant in a god's unfolding plan or a conflict brewing among various deities. While the fighter has contacts in a mercenary company or army, the cleric might know a number of priests, paladins, and devotees who share his faith.
+Each Class contains the rules elements described below. Characters who have levels in a Class are exceptional; most of the inhabitants of the multiverse aren't members of a Class.
 
-Your class gives you a variety of special features, such as a fighter's mastery of weapons and armor, and a wizard's spells. At low levels, your class gives you only two or three features, but as you advance in level you gain more and your existing features often improve. Each class entry in this chapter includes a table summarizing the benefits you gain at every level, and a detailed explanation of each one.
+## Primary Ability
 
-Adventurers sometimes advance in more than one class. A rogue might switch direction in life and swear the oath of a paladin. A barbarian might discover latent magical ability and dabble in the sorcerer class while continuing to advance as a barbarian. Elves are known to combine martial mastery with magical training and advance as fighters and wizards simultaneously. Optional rules for combining classes in this way, called [[[general:Multiclassing]]], appear in chapter 6.
+The primary ability of a Class is critical to some of the Class's features, so when you create your character, that ability is a great place to put one of your highest scores.
 
-The twelve classes from the Player's Handbook -- listed in the Classes table -- are found in almost every D&D world and define the spectrum of typical adventurers.
+Similarly, whenever you gain the Ability Score Improvement Feat, consider increasing your primary ability.
 
-## Player's Handbook
+Finally, to use the multiclassing rules, you must have at least a score of 13 in the primary ability of all your classes.
 
-||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
-|| [[[class:Barbarian]]] || d12 || Strength, Constitution || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Bard]]] || d8 || Dexterity, Charisma || Light armor, simple weapons, hand crossbows, longswords, rapiers,<br>shortswords ||
-|| [[[class:Cleric]]] || d8 || Wisdom, Charisma || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Druid]]] || d8 || Intelligence, Wisdom || Light and medium armor (nonmetal), shields (nonmetal), clubs, daggers,<br>darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears ||
-|| [[[class:Fighter]]] || d10 || Strength, Constitution || All armor, shields, simple and martial weapons ||
-|| [[[class:Monk]]] || d8 || Strength, Dexterity || Simple weapons, shortswords ||
-|| [[[class:Paladin]]] || d10 || Wisdom, Charisma || All armor, shields, simple weapons and martial weapons ||
-|| [[[class:Ranger]]] || d10 || Strength, Dexterity || Light and medium armor, shields, simple and martial weapons ||
-|| [[[class:Rogue]]] || d8 || Dexterity, Intelligence || Light armor, simple weapons, hand crossbows, longswords, rapiers,<br>shortswords ||
-|| [[[class:Sorcerer]]] || d6 || Constitution, Charisma || Daggers, darts, slings, quarterstaffs, light crossbows ||
-|| [[[class:Warlock]]] || d8 || Wisdom, Charisma || Light armor, simple weapons ||
-|| [[[class:Wizard]]] || d6 || Intelligence, Wisdom || Daggers, darts, slings, quarterstaffs, light crossbows ||
+## Class Group
 
-## Tasha's Cauldron of Everything
+Each Class is a member of a Class Group -- a set of Classes that have certain features and themes in common. The Class Groups table lists the groups and summarizes characteristics the members of a group have in common.
 
-||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
-|| [[[class:Artificer]]] || d8 || Constitution, Intelligence || Light armor, medium armor, shields, simple weapons ||
+### Class Groups
 
-## Homebrew
+|  Group   |          Classes          |                                Characteristics                                |
+|:--------:|:-------------------------:|:-----------------------------------------------------------------------------:|
+| Experts* |    Bard, Ranger, Rogue    |    Polymaths who have the Expertise feature and elements of other Classes     |
+|  Mages   | Sorcerer, Warlock, Wizard |          Adepts of Arcane magic, focusing on utility and destruction          |
+| Priests  |  Cleric, Druid, Paladin   | Stewards of Divine or Primal magic, focusing on healing, utility, and defense |
+| Warriors | Barbarian, Fighter, Monk  |             Masters of combat who can deal and endure many wounds             |
 
-||~ Name ||~ Hit Die ||~ Saving Throws ||~ Weapon and Armor Proficiencies ||
-|| [[[class:Dragonfire Adept]]] || d8 || Constitution, Charisma || Daggers, darts, slings, quarterstaffs, light crossbows ||
+\*The Artificer is also an Expert. That Class appears in Tasha's Cauldron of Everything and Eberron: Rising from the Last War, not the Player's Handbook.
+
+A Class Group has no rules in itself, but prerequisites and other rules can refer to these groups. For example, only members of the Mage Group might be able to attune to a particular magic item, or a Feat might be available only to members of the Warrior Group.
+
+When creating a party of adventurers, one way to form a well-rounded group is to include at least one member of each Class Group. That said, mix and match Classes to your heart's content!
+
+## Creating a Member of the Class
+
+A Class's description includes a section on how to create a member of that Class. That section tells you how to determine your Hit Points, which Proficiencies and [[glossary:armor training]] you gain from the Class, the equipment the Class provides at 1st level, and how to use the multiclassing rules with the Class.
+
+## Class Features
+
+Each Class grants special features at certain levels in the Class. Those features are listed on the Class's table and detailed in the Class's description.
+
+## Subclasses
+
+A Class's description is followed by a section dedicated to Subclasses for that Class. A Subclass represents an area of specialization for a member of a Class, and the Subclass grants special features at certain levels.
+
+When playtesting the new version of a Class, you can use a Subclass from an older source, such as the 2014 Player's Handbook or Tasha's Cauldron of Everything. If the older Subclass offers features at levels that are different from the Subclass levels in the Class, follow the older Subclass's level progression after the Class lets you gain the Subclass.

@@ -1,59 +1,52 @@
-[[breadcrumb /dnd/class/Druid|Druid]]
+[[breadcrumb /onednd/class/Druid|Druid]]
 
-Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
+Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks before crossing paths with another person, let alone another Druid.
 
-Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
+Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood.
 
-# Circle of the Moon
+### Level 3: Circle Spells
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Max Wild<br>Shape CR ||~ Hours in<br>Wild Shape ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
-|| 1st || +2 || Druidic, Spellcasting || -- || -- || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Wild Shape, Combat Wildshape, Circle Forms (CR 1) || **1** || **1** || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 3rd || +2 || -- || 1 || 1 || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Wild Shape improvement, Ability Score Improvement || 1 || **2** || 3 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
-|| 5th || +3 || -- || 1 || 2 || 3 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
-|| 6th || +3 || Primal Strike, Circle Forms (CR 2) || **2** || **3** || 3 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
-|| 7th || +3 || -- || 2 || 3 || 3 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
-|| 8th || +3 || Wild Shape improvement, Ability Score Improvement || 2 || **4** || 3 || 4 || 3 || 3 || 2 || -- || -- || -- || -- || -- ||
-|| 9th || +4 || Circle Forms (CR 3) || **3** || 4 || 3 || 4 || 3 || 3 || 3 || 1 || -- || -- || -- || -- ||
-|| 10th || +4 || Elemental Wild Shape || 3 || **5** || 4 || 4 || 3 || 3 || 3 || 2 || -- || -- || -- || -- ||
-|| 11th || +4 || -- || 3 || 5 || 4 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 12th || +4 || Ability Score Improvement, Circle Forms (CR 4) || **4** || **6** || 4 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 13th || +5 || -- || 4 || 6 || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 14th || +5 || Thousand Forms || 4 || **7** || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 15th || +5 || Circle Forms (CR 5) || **5** || 7 || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 16th || +5 || Ability Score Improvement || 5 || **8** || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 17th || +6 || -- || 5 || 8 || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || 1 ||
-|| 18th || +6 || Timeless Body, Beast Spells, Circle Forms (CR 6) || **6** || **9** || 4 || 4 || 3 || 3 || 3 || 3 || 1 || 1 || 1 || 1 ||
-|| 19th || +6 || Ability Score Improvement || 6 || 9 || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 1 || 1 || 1 ||
-|| 20th || +6 || Archdruid || 6 || **10** || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
+Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.
 
-<sup>**Bold** numbers are when that ability improves</sup>
+In addition, you can cast the spells from this feature while you are in Wild Shape form.
 
-## Combat Wildshape
+#### Circle of the Moon Spells
 
-When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
+| Druid<br>Level | Prepared Spells                                                              |
+|:--------------:|------------------------------------------------------------------------------|
+|       3        | _[[[spell:Cure Wounds]]]_, _[[[spell:Moonbeam]]]_, _[[[spell:Starry Wisp]]]_ |
+|       5        | _[[[spell:Vampiric Touch]]]_                                                 |
+|       7        | _[[[spell:Fount of Moonlight]]]_                                             |
+|       9        | _[[[spell:Dawn]]]_                                                           |
 
-Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
+### Level 3: Circle Forms
 
-## Circle Forms
+You have learned ancient techniques that allow you to channel lunar magic when you assume a Wild Shape form, granting you the following benefits:
 
-The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
+**Challenge Rating.** The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).  
+**Armor Class.** Your AC equals 13 plus your Wisdom modifier until you leave the form.  
+**Temporary Hit Points.** You gain a number of Temporary Hit Points equal to three times your Druid level.
 
-Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.
+### Level 6: Improved Circle Forms
 
-## Primal Strike
+While in a Wild Shape form, you gain the following benefits:
 
-Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+**Lunar Radiance.** Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.  
+**Increased Toughness.** You can add your Wisdom modifier to your Constitution saving throws.
 
-## Elemental Wild Shape
+### Level 10: Moonlight Step
 
-At 10th level, you can expend two uses of Wild Shape at the same time to transform into an [[[monster:air elemental]]], an [[[monster:earth elemental]]], a [[[monster:fire elemental]]], or a [[[monster:water elemental]]].
+You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.
 
-## Thousand Forms
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]]. You can also regain uses by expending a spell slot of level 2 or higher for each use you want to restore (no action required).
 
-By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the *[[[spell:alter self]]]* spell at will.
+### Level 14: Lunar Form
+
+The power of the moon suffuses you, granting you the following benefits:
+
+**Improved Lunar Radiance.** Each of your attacks in a Wild Shape form deals an extra 1d10 Radiant damage on a hit.  
+**Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.
 
 ----
 
-*Source: Player's Handbook, p. 69*
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_

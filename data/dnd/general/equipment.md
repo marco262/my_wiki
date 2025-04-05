@@ -7,28 +7,6 @@ The marketplace of a large city teems with buyers and sellers of many sorts: dwa
 
 For an adventurer, the availability of armor, weapons, backpacks, rope, and similar goods is of paramount importance, since proper equipment can mean the difference between life and death in a dungeon or the untamed wilds. This chapter details the mundane and exotic merchandise that adventurers commonly find useful in the face of the threats that the worlds of D&D present.
 
-# Starting Equipment
-
-When you create your character, you receive equipment based on a combination of your class and background. Alternatively, you can start with a number of gold pieces based on your class and spend them on items from the lists in this chapter. See the Starting Wealth by Class table to determine how much gold you have to spend.
-
-You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing. You might have been equipped with a weapon, armor, and a backpack as part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from generation to generation until your character finally took up the mantle and followed in an ancestor's adventurous footsteps.
-
-**Starting Wealth by Class**
-
-|| Class || Funds ||
-|| Barbarian || 2d4 x 10 gp ||
-|| Bard || 5d4 x 10 gp ||
-|| Cleric || 5d4 x 10 gp ||
-|| Druid || 2d4 x 10 gp ||
-|| Fighter || 5d4 x 10 gp ||
-|| Monk || 5d4 gp ||
-|| Paladin || 5d4 x 10 gp ||
-|| Ranger || 5d4 x 10 gp ||
-|| Rogue || 4d4 x 10 gp ||
-|| Sorcerer || 3d4 x 10 gp ||
-|| Warlock || 4d4 x 10 gp ||
-|| Wizard || 4d4 x 10 gp ||
-
 # Wealth
 
 Wealth appears in many forms in a D&D world. Coins, gemstones, trade goods, art objects, animals, and property can reflect your character's financial well-being. Members of the peasantry trade in goods, bartering for what they need and paying taxes in grain and cheese. Members of the nobility trade either in legal rights, such as the rights to a mine, a port, or farmland, or in gold bars, measuring gold by the pound rather than by the coin. Only merchants, adventurers, and those offering professional services for hire commonly deal in coins.
@@ -194,98 +172,245 @@ Your class grants proficiency in certain weapons, reflecting both the class's fo
 
 The Weapons table shows the most common weapons used in the worlds of D&D, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.
 
-*Editor's Note: Unarmed strike has been removed from the weapons table*[((bibcite errata))]
+## Weapon Tables
 
-**Simple Melee Weapons**
+### Simple Weapons: Melee
 
-|| Name || Cost || Damage || Weight || Properties ||
-|| Club || 1 sp || 1d4 bludgeoning || 2 lb. || Light ||
-|| Dagger || 2 gp || 1d4 piercing || 1 lb. || Finesse, light, thrown (range 20/60) ||
-|| Garrote[((bibcite homebrew))] || 1 sp || 1d4 bludgeoning || 1 lb. || Finesse, light, two-handed, special ||
-|| Greatclub || 2 sp || 1d8 bludgeoning || 10 lb. || Two-handed ||
-|| Handaxe || 5 gp || 1d6 slashing || 2 lb. || Light, thrown (range 20/60) ||
-|| Javelin || 5 sp || 1d6 piercing || 2 lb. || Thrown (range 30/120) ||
-|| Light hammer || 2 gp || 1d4 bludgeoning || 2 lb. || Light, thrown (range 20/60) ||
-|| Mace || 5 gp || 1d6 bludgeoning || 4 lb. || -- ||
-|| Quarterstaff || 2 sp || 1d6 bludgeoning || 4 lb. || Versatile (1d8) ||
-|| Sickle || 1 gp || 1d4 slashing || 2 lb. || Light ||
-|| Spear || 1 gp || 1d6 piercing || 3 lb. || Thrown (range 20/60), versatile (1d8) ||
+| Name         | Damage          | Properties                            | Mastery | Weight | Cost |
+|--------------|-----------------|---------------------------------------|---------|-------:|-----:|
+| Club         | 1d4 Bludgeoning | Light                                 | Slow    |  2 lb. | 1 SP |
+| Dagger       | 1d4 Piercing    | Finesse, Light, Thrown (Range 20/60)  | Nick    |  1 lb. | 2 GP |
+| Greatclub    | 1d8 Bludgeoning | Two-Handed                            | Push    | 10 lb. | 2 SP |
+| Handaxe      | 1d6 Slashing    | Light, Thrown (Range 20/60)           | Vex     |  2 lb. | 5 GP |
+| Javelin      | 1d6 Piercing    | Thrown (Range 30/120)                 | Slow    |  2 lb. | 5 SP |
+| Light Hammer | 1d4 Bludgeoning | Light, Thrown (Range 20/60)           | Nick    |  2 lb. | 2 GP |
+| Mace         | 1d6 Bludgeoning | —                                     | Sap     |  4 lb. | 5 GP |
+| Quarterstaff | 1d6 Bludgeoning | Versatile (1d8)                       | Topple  |  4 lb. | 2 SP |
+| Sickle       | 1d4 Slashing    | Light                                 | Nick    |  2 lb. | 1 GP |
+| Spear        | 1d6 Piercing    | Thrown (Range 20/60), Versatile (1d8) | Sap     |  3 lb. | 1 GP |
 
-**Simple Ranged Weapons**
+### Simple Weapons: Ranged
 
-|| Name || Cost || Damage || Weight || Properties ||
-|| Crossbow, light || 25 gp || 1d8 piercing || 5 lb. || Ammunition (range 80/320), loading, two-handed ||
-|| Dart || 5 cp || 1d4 piercing || 1/4 lb. || Finesse, thrown (range 20/60) ||
-|| Shortbow || 25 gp || 1d6 piercing || 2 lb. || Ammunition (range 80/320), two-handed ||
-|| Sling || 1 sp || 1d4 bludgeoning || -- || Ammunition (range 30/120) ||
+| Name            | Damage          | Properties                                     | Mastery |  Weight |  Cost |
+|-----------------|-----------------|------------------------------------------------|---------|--------:|------:|
+| Crossbow, Light | 1d8 Piercing    | Ammunition (Range 80/320), Loading, Two-Handed | Slow    |   5 lb. | 25 GP |
+| Dart            | 1d4 Piercing    | Finesse, Thrown (Range 20/60)                  | Vex     | 1/4 lb. |  5 CP |
+| Shortbow        | 1d6 Piercing    | Ammunition (Range 80/320), Two-Handed          | Vex     |   2 lb. | 25 GP |
+| Sling           | 1d4 Bludgeoning | Ammunition (Range 30/120)                      | Slow    |      -- |  1 SP |
 
-**Martial Melee Weapons**
+### Martial Weapons: Melee
 
-|| Name || Cost || Damage || Weight || Properties ||
-|| Battleaxe || 10 gp || 1d8 slashing || 4 lb. || Versatile (1d10) ||
-|| Dwarven throwing axe[((bibcite homebrew))] || 5 gp || 1d8 slashing || 2 lb. || Thrown (range 20/60) ||
-|| Flail || 10 gp || 1d8 bludgeoning || 2 lb. || -- ||
-|| Glaive || 20 gp || 1d10 slashing || 6 lb. || Heavy, reach, two-handed ||
-|| Greataxe || 30 gp || 1d12 slashing || 7 lb. || Heavy, two-handed ||
-|| Greatsword || 50 gp || 2d6 slashing || 6 lb. || Heavy, two-handed ||
-|| Halberd || 20 gp || 1d10 slashing || 6 lb. || Heavy, reach, two-handed ||
-|| Lance || 10 gp || 1d12 piercing || 6 lb. || Reach, special ||
-|| Longsword || 15 gp || 1d8 slashing || 3 lb. || Versatile (1d10) ||
-|| Maul || 10 gp || 2d6 bludgeoning || 10 lb. || Heavy, two-handed ||
-|| Morningstar || 15 gp || 1d8 piercing || 4 lb. || -- ||
-|| Pike || 5 gp || 1d10 piercing || 18 lb. || Heavy, reach, two-handed ||
-|| Rapier || 25 gp || 1d8 piercing || 2 lb. || Finesse ||
-|| Scimitar || 25 gp || 1d6 slashing || 3 lb. || Finesse, light ||
-|| Shortsword || 10 gp || 1d6 piercing || 2 lb. || Finesse, light ||
-|| Trident || 5 gp || 1d6 piercing || 4 lb. || Thrown (range 20/60), versatile (1d8) ||
-|| War pick || 5 gp || 1d8 piercing || 2 lb. || -- ||
-|| Warhammer || 15 gp || 1d8 bludgeoning || 2 lb. || Versatile (1d10) ||
-|| Whip || 2 gp || 1d4 slashing || 3 lb. || Finesse, reach ||
+| Name        | Damage          | Properties                                | Mastery | Weight |   Cost |
+|-------------|-----------------|-------------------------------------------|---------|:------:|-------:|
+| Battleaxe   | 1d8 Slashing    | Versatile (1d10)                          | Topple  | 4 lb.  |  10 GP |
+| Flail       | 1d8 Bludgeoning | —                                         | Sap     | 2 lb.  |  10 GP |
+| Glaive      | 1d10 Slashing   | Heavy, Reach, Two-Handed                  | Graze   | 6 lb.  |  20 GP |
+| Greataxe    | 1d12 Slashing   | Heavy, Two-Handed                         | Cleave  | 7 lb.  |  30 GP |
+| Greatsword  | 2d6 Slashing    | Heavy, Two-Handed                         | Graze   | 6 lb.  |  50 GP |
+| Halberd     | 1d10 Slashing   | Heavy, Reach, Two-Handed                  | Cleave  | 6 lb.  |  20 GP |
+| Lance       | 1d10 Piercing   | Heavy, Reach, Two-Handed (unless mounted) | Topple  | 6 lb.  |  10 GP |
+| Longsword   | 1d8 Slashing    | Versatile (1d10)                          | Sap     | 3 lb.  |  15 GP |
+| Maul        | 2d6 Bludgeoning | Heavy, Two-Handed                         | Topple  | 10 lb. |  10 GP |
+| Morningstar | 1d8 Piercing    | —                                         | Sap     | 4 lb.  |  15 GP |
+| Pike        | 1d10 Piercing   | Heavy, Reach, Two-Handed                  | Push    | 18 lb. |   5 GP |
+| Rapier      | 1d8 Piercing    | Finesse                                   | Vex     | 2 lb.  |  25 GP |
+| Scimitar    | 1d6 Slashing    | Finesse, Light                            | Nick    | 3 lb.  |  25 GP |
+| Shortsword  | 1d6 Piercing    | Finesse, Light                            | Vex     | 2 lb.  |  10 GP |
+| Trident     | 1d8 Piercing    | Thrown (Range 20/60), Versatile (1d10)    | Topple  | 4 lb.  |   5 GP |
+| Warhammer   | 1d8 Bludgeoning | Versatile (1d10)                          | Push    | 2 lb.  |  15 GP |
+| War Pick    | 1d8 Piercing    | Versatile (1d10)                          | Sap     | 2 lb.  |   5 GP |
+| Whip        | 1d4 Slashing    | Finesse, Reach                            | Slow    | 3 lb.  |   2 GP |
 
-**Martial Ranged Weapons**
+### Martial Weapons: Ranged
 
-|| Name || Cost || Damage || Weight || Properties ||
-|| Blowgun || 10 gp || 1 piercing || 1 lb. || Ammunition (range 25/100), loading ||
-|| Crossbow, hand || 75 gp || 1d6 piercing || 3 lb. || Ammunition (range 30/120), light, loading ||
-|| Crossbow, heavy || 50 gp || 1d10 piercing || 18 lb. || Ammunition (range 100/400), heavy, loading, two-handed ||
-|| Longbow || 50 gp || 1d8 piercing || 2 lb. || Ammunition (range 150/600), heavy, two-handed ||
-|| Net || 1 gp || -- || 3 lb. || Special, thrown (range 5/15) ||
-
-## Weapon Proficiency
-
-Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use.
-
-Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
+| Name            | Damage        | Properties                                             | Mastery | Weight |   Cost |
+|-----------------|---------------|--------------------------------------------------------|---------|-------:|-------:|
+| Blowgun         | 1 Piercing    | Ammunition (Range 25/100), Loading                     | Vex     |  1 lb. |  10 GP |
+| Crossbow, Hand  | 1d6 Piercing  | Ammunition (Range 30/120), Light, Loading              | Vex     |  3 lb. |  75 GP |
+| Crossbow, Heavy | 1d10 Piercing | Ammunition (Range 100/400), Heavy, Loading, Two-Handed | Push    | 18 lb. |  50 GP |
+| Longbow         | 1d8 Piercing  | Ammunition (Range 150/600), Heavy, Two-Handed          | Slow    |  2 lb. |  50 GP |
+| Musket          | 1d12 Piercing | Ammunition (Range 40/120), Loading, Two-Handed         | Slow    | 10 lb. | 500 GP |
+| Pistol          | 1d10 Piercing | Ammunition (Range 30/90), Loading                      | Vex     |  3 lb. | 250 GP |
 
 ## Weapon Properties
 
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
-**Ammunition.** You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand.[((bibcite errata))] At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+**Ammunition.** You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
 
 If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.
 
 **Finesse.** When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
-**Heavy.** Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
+**Heavy.** A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13.
 
-**Light.** A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. See the rules for [[[general:combat#two-weapon-fighting|two-weapon fighting]]].
+**Light.** When you take the [[glossary:Attack]] action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.
+
+For example, if you take the [[glossary:Attack]] action on your turn and have a Shortsword in one hand and a Dagger in the other -- each of which has the Light property -- you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative.
 
 **Loading.** Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
 
 **Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
 
-**Reach.** This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.[((bibcite errata))]
+**Reach.** This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.
 
-**Special.** A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
+**Thrown.** If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.
 
-**Thrown.** If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property.
 
-You may draw a sheathed weapon with the thrown property as part of the attack you make with that weapon.[((bibcite homebrew))] 
-
-**Two-Handed.** Attacking with this weapon requires two hands.[((bibcite errata))]
+**Two-Handed.** Attacking with this weapon requires two hands.
 
 **Versatile.** This weapon can be used with one or two hands. A damage value in parentheses appears with the property -- the damage when the weapon is used with two hands to make a melee attack.
+
+## Mastery Properties
+
+Each weapon has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.
+
+Here are descriptions of each Mastery property. The properties are provided in alphabetical order.
+
+If a game feature lets you replace a weapon's Mastery property with another one, that weapon must meet any prerequisite specified for the new property.
+
+### Cleave
+
+_Prerequisite: Melee Weapon, Heavy Property_
+
+If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn.
+
+[[accordion Cleave Weapons]]
+
+| Name     | Damage        | Properties               | Type          | Weight | Cost  |
+|----------|---------------|--------------------------|---------------|:------:|:-----:|
+| Greataxe | 1d12 Slashing | Heavy, Two-Handed        | Martial Melee | 7 lb.  | 30 GP |
+| Halberd  | 1d10 Slashing | Heavy, Reach, Two-Handed | Martial Melee | 6 lb.  | 20 GP |
+
+[[/accordion]]
+
+### Graze
+
+_Prerequisite: Melee Weapon, Heavy Property_
+
+If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can't be increased in any way, other than increasing the ability modifier.
+
+[[accordion Graze Weapons]]
+
+| Name       | Damage        | Properties               | Type          | Weight | Cost  |
+|------------|---------------|--------------------------|---------------|:------:|:-----:|
+| Glaive     | 1d10 Slashing | Heavy, Reach, Two-Handed | Martial Melee | 6 lb.  | 20 GP |
+| Greatsword | 2d6 Slashing  | Heavy, Two-Handed        | Martial Melee | 6 lb.  | 50 GP |
+
+[[/accordion]]
+
+### Nick
+
+_Prerequisite: Light Property_
+
+When you make the extra attack of the Light property, you can make it as part of the [[glossary:Attack]] action, instead of as a Bonus Action. You can still make this extra attack only once per turn.
+
+[[accordion Nick Weapons]]
+
+| Name         | Damage          | Properties                           | Type          | Weight | Cost  |
+|--------------|-----------------|--------------------------------------|---------------|:------:|:-----:|
+| Dagger       | 1d4 Piercing    | Finesse, Light, Thrown (Range 20/60) | Simple Melee  | 1 lb.  | 2 GP  |
+| Light Hammer | 1d4 Bludgeoning | Light, Thrown (Range 20/60)          | Simple Melee  | 2 lb.  | 2 GP  |
+| Sickle       | 1d4 Slashing    | Light                                | Simple Melee  | 2 lb.  | 1 GP  |
+| Scimitar     | 1d6 Slashing    | Finesse, Light                       | Martial Melee | 3 lb.  | 25 GP |
+
+[[/accordion]]
+
+### Push
+
+_Prerequisite: Heavy, Two-Handed, or Versatile Property_
+
+If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.
+
+[[accordion Push Weapons]]
+
+| Name            | Damage          | Properties                                             | Type           | Weight | Cost  |
+|-----------------|-----------------|--------------------------------------------------------|----------------|:------:|:-----:|
+| Greatclub       | 1d8 Bludgeoning | Two-Handed                                             | Simple Melee   | 10 lb. | 2 SP  |
+| Pike            | 1d10 Piercing   | Heavy, Reach, Two-Handed                               | Martial Melee  | 18 lb. | 5 GP  |
+| Warhammer       | 1d8 Bludgeoning | Versatile (1d10)                                       | Martial Melee  | 2 lb.  | 15 GP |
+| Crossbow, Heavy | 1d10 Piercing   | Ammunition (Range 100/400), Heavy, Loading, Two-Handed | Martial Ranged | 18 lb. | 50 GP |
+
+[[/accordion]]
+
+### Sap
+
+_Prerequisite: Versatile Property or No Weapon Property_
+
+If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
+
+[[accordion Sap Weapons]]
+
+| Name        | Damage          | Properties                            | Type          | Weight | Cost  |
+|-------------|-----------------|---------------------------------------|---------------|:------:|:-----:|
+| Mace        | 1d6 Bludgeoning | —                                     | Simple Melee  | 4 lb.  | 5 GP  |
+| Spear       | 1d6 Piercing    | Thrown (Range 20/60), Versatile (1d8) | Simple Melee  | 3 lb.  | 1 GP  |
+| Flail       | 1d8 Bludgeoning | —                                     | Martial Melee | 2 lb.  | 10 GP |
+| Longsword   | 1d8 Slashing    | Versatile (1d10)                      | Martial Melee | 3 lb.  | 15 GP |
+| Morningstar | 1d8 Piercing    | —                                     | Martial Melee | 4 lb.  | 15 GP |
+| War Pick    | 1d8 Piercing    | Versatile (1d10)                      | Martial Melee | 2 lb.  | 5 GP  |
+
+[[/accordion]]
+
+### Slow
+
+_Prerequisite: None_
+
+If you hit a creature with this weapon and deal damage to the creature, you can reduce its Speed by 10 feet until the start of your next turn. If you hit the creature more than once with this property, the Speed reduction doesn't exceed 10 feet.
+
+[[accordion Slow Weapons]]
+
+| Name            | Damage          | Properties                                     | Type           | Weight |  Cost  |
+|-----------------|-----------------|------------------------------------------------|----------------|:------:|:------:|
+| Club            | 1d4 Bludgeoning | Light                                          | Simple Melee   | 2 lb.  |  1 SP  |
+| Javelin         | 1d6 Piercing    | Thrown (Range 30/120)                          | Simple Melee   | 2 lb.  |  5 SP  |
+| Crossbow, Light | 1d8 Piercing    | Ammunition (Range 80/320), Loading, Two-Handed | Simple Ranged  | 5 lb.  | 25 GP  |
+| Sling           | 1d4 Bludgeoning | Ammunition (Range 30/120)                      | Simple Ranged  |   --   |  1 SP  |
+| Whip            | 1d4 Slashing    | Finesse, Reach                                 | Martial Melee  | 3 lb.  |  2 GP  |
+| Longbow         | 1d8 Piercing    | Ammunition (Range 150/600), Heavy, Two-Handed  | Martial Ranged | 2 lb.  | 50 GP  |
+| Musket          | 1d12 Piercing   | Ammunition (Range 40/120), Loading, Two-Handed | Martial Ranged | 10 lb. | 500 GP |
+
+[[/accordion]]
+
+### Topple
+
+_Prerequisite: Heavy, Reach, or Versatile Property_
+
+If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier used to make the attack roll. On a failed save, the creature has the Prone condition.
+
+[[accordion Topple Weapons]]
+
+| Name         | Damage          | Properties                                | Type          | Weight | Cost  |
+|--------------|-----------------|-------------------------------------------|---------------|:------:|:-----:|
+| Quarterstaff | 1d6 Bludgeoning | Versatile (1d8)                           | Simple Melee  | 4 lb.  | 2 SP  |
+| Battleaxe    | 1d8 Slashing    | Versatile (1d10)                          | Martial Melee | 4 lb.  | 10 GP |
+| Lance        | 1d10 Piercing   | Heavy, Reach, Two-Handed (unless mounted) | Martial Melee | 6 lb.  | 10 GP |
+| Maul         | 2d6 Bludgeoning | Heavy, Two-Handed                         | Martial Melee | 10 lb. | 10 GP |
+| Trident      | 1d8 Piercing    | Thrown (Range 20/60), Versatile (1d10)    | Martial Melee | 4 lb.  | 5 GP  |
+
+[[/accordion]]
+
+### Vex
+
+_Prerequisite: Ammunition, Finesse, or Light Property_
+
+If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.
+
+[[accordion Vex Weapons]]
+
+| Name           | Damage        | Properties                                | Type           | Weight  |  Cost  |
+|----------------|---------------|-------------------------------------------|----------------|:-------:|:------:|
+| Handaxe        | 1d6 Slashing  | Light, Thrown (Range 20/60)               | Simple Melee   |  2 lb.  |  5 GP  |
+| Dart           | 1d4 Piercing  | Finesse, Thrown (Range 20/60)             | Simple Ranged  | 1/4 lb. |  5 CP  |
+| Shortbow       | 1d6 Piercing  | Ammunition (Range 80/320), Two-Handed     | Simple Ranged  |  2 lb.  | 25 GP  |
+| Rapier         | 1d8 Piercing  | Finesse                                   | Martial Melee  |  2 lb.  | 25 GP  |
+| Shortsword     | 1d6 Piercing  | Finesse, Light                            | Martial Melee  |  2 lb.  | 10 GP  |
+| Blowgun        | 1 Piercing    | Ammunition (Range 25/100), Loading        | Martial Ranged |  1 lb.  | 10 GP  |
+| Crossbow, Hand | 1d6 Piercing  | Ammunition (Range 30/120), Light, Loading | Martial Ranged |  3 lb.  | 75 GP  |
+| Pistol         | 1d10 Piercing | Ammunition (Range 30/90), Loading         | Martial Ranged |  3 lb.  | 250 GP |
+
+[[/accordion]]
 
 ### Improvised Weapons
 
@@ -298,26 +423,6 @@ An object that bears no resemblance to a weapon deals 1d4 damage (the DM assigns
 ### Silvered Weapons
 
 Some monsters that have immunity or resistance to nonmagical attacks are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.
-
-### Special Weapons
-
-<div class="errata" markdown="1">
-
-**Alternate rules for Garrote:**
-
-Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is [[[general:conditions#grappled|grappled]]]. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. You must use two hands to maintain the grapple.
-
-</div>
-
-Weapons with special rules are described here.
-
-**Garrote.**[((bibcite homebrew))] Can only be used on a Medium or Small creature against which you have advantage on the Attack roll. On a hit, the target is [[[general:conditions#grappled|grappled]]]. Until this grapple ends, the target can't breathe, and you have advantage on attack rolls against it. The Escape DC is 8 + your proficiency bonus + your STR/DEX, whichever you used for the attack. You must use two hands to maintain the grapple, and while maintaining the grapple, you cannot use the garrote to do damage to the target in subsequent rounds.
-
-**Lance.** You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
-
-**Net.** A Large or smaller creature hit by a net is [[[general:conditions#restrained|restrained]]] until it is freed. A net has no effect on creatures that are form less, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
 
 # Adventuring Gear
 
@@ -394,6 +499,7 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 || Manacles || 2 gp || 6 lb. ||
 || Mess kit || 2 sp || 1 lb. ||
 || Mirror, steel || 5 gp || 1/2 lb. ||
+|| Net || 1 gp || 3 lb. ||
 || Oil (flask) || 1 sp || 1 lb. ||
 || Paper (one sheet) || 2 sp || -- ||
 || Parchment (one sheet) || 1 sp || -- ||
@@ -490,6 +596,10 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 
 ***Mess Kit.*** This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
 
+***Net.*** When you take the [[glossary:Attack]] action on your turn, you can replace one of your attacks with a throw of the net at a creature within 15 feet of yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it's Huge or larger.
+
+On a failed save, the target has the Restrained condition until it escapes the net. To escape, the target must use its action to make a DC 10 Strength (Athletics) check, escaping on a success. A creature within 5 feet of the target can use its action to attempt the same thing. Destroying the net (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.
+
 ***Oil.*** Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.
 
 ***Poison, Basic.*** You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
@@ -546,7 +656,7 @@ The starting equipment you get from your class includes a collection of useful a
 
 ***Explorer's Pack (10 gp).*** Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.
 
-***Priest's Pack (19 gp).*** Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin.
+***Priest's Pack (33 gp, 29 lb).*** Includes a Backpack (5 lb.), Blanket (3 lb.), Lamp (1 lb.), Holy Water (1 lb.), Rations (7 days; 14 lbs.), Robe (4 lb.), and Tinderbox (1 lb.).
 
 ***Scholar's Pack (40 gp).*** Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife.
 
@@ -878,7 +988,7 @@ Over time, spellcasters have started to develop a basic formula for how to charg
 </div>
 
 <script type="module">
-    import { init_calculator } from "/static/js/dnd/spellcasting-service.js";
+    import { init_calculator } from "/static/js/dnd5e/spellcasting-service.js";
     init_calculator();
 </script>
 
@@ -1010,6 +1120,8 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 
 [[bibliography]]
 : spiked-armor-bib : Sword Coast Adventurer's Guide, p. 121
-: errata : [2018 PHB Errata](https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf)
-: homebrew : Homebrew
 [[/bibliography]]
+
+----
+
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

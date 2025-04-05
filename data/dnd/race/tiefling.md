@@ -1,85 +1,38 @@
-> "But you do see the way people look at you, devil's child."
-> 
-> Those black eyes, cold as a winter storm, were staring right into her heart and the sudden seriousness in his voice jolted her.
-> 
-> "What is it they say?" he asked. "One's a curiosity, two's a conspiracy -- "
-> 
-> "Three's a curse," she finished. "You think I haven't heard that rubbish before?"
-> 
-> "I know you have." When she glared at him, he added, "It's not as if I'm plumbing the depths of your mind, dear girl. That is the burden of every tiefling. Some break under it, some make it the millstone around their neck, some revel in it." He tilted his head again, scrutinizing her, with that wicked glint in his eyes. "You fight it, don't you? Like a little wildcat, I wager. Every little jab and comment just sharpens your claws."
-> 
-> -- Erin M . Evans, Brimstone Angels
+Tieflings are either born in the Lower Planes or have one or more fiendish ancestors who originated there. A tiefling (pronounced TEEF-ling) is linked by blood to a devil, a demon, a yugoloth, or some other Fiend. This connection to the Lower Planes is, for better or worse, the tiefling's fiendish legacy, which comes with the promise of power yet has no effect on the tiefling's moral outlook.
 
-To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus -- overlord of the Nine Hells -- into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children
-will always be held accountable.
+A tiefling chooses whether to embrace or lament their fiendish legacy. The three legacies are as follows:
 
-<div class="phb-sidebar" markdown="1">
+* **Abyssal.** The heartless entropy of the Abyss, the howling chaos of Pandemonium, and the vast despair of Carceri call to tieflings who have the Abyssal fiendish legacy. Horns, fur, tusks, black blood, and peculiar odors are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.
+* **Chthonic.** Tieflings who have the Chthonic fiendish legacy not only feel the tug of Carceri but also the greed of Gehenna and the underworld gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of an incubus or a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.
+* **Infernal.** The Infernal fiendish legacy binds tieflings by blood not only to Gehenna but also the raging battlefields of Acheron and the diabolical Nine Hells. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.
 
-**Tiefling Variants**
+## Tiefling Traits
 
-_Source: Sword Coast Adventurer's Guide, p. 118_
+* **Creature Type:** Humanoid
+* **Size:** Medium (about 4–7 feet tall) or Small (about 3–4 feet tall) , chosen when you select this Race
+* **Speed:** 30 feet
+* **Life Span:** 100 years on average
 
-Since not all tieflings are of the blood of Asmodeus, some have traits that differ from those listed on this page. The Dungeon Master may permit the following variants for your tiefling character, although Devil's Tongue, Hellfire, and Winged are mutually exclusive.
+As a Tiefling, you have these special traits.
 
-***Appearance.*** Your tiefling might not look like other tieflings. Rather than having the physical characteristics described on this page, choose 1d4 + 1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goat-like legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.
+***Darkvision.*** You have Darkvision with a range of 60 feet.
 
-***Feral.*** Your Intelligence score increases by 1, and your Dexterity score increases by 2. This trait replaces the Ability Score Increase trait.
+***Fiendish Legacy.*** You are the recipient of a fiendish legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table: Abyssal, associated with Chaotic Evil planes; Chthonic, associated with Neutral Evil planes; or Infernal, associated with Lawful Evil planes. You gain the 1st-level benefit of the chosen legacy.
 
-***Devil's Tongue.*** You know the _[[[spell:vicious mockery]]]_ cantrip. When you reach 3rd level, you can cast _[[[spell:charm person]]]_ as a 2nd-level spell once with this trait. When you reach 5th level, you can cast _[[[spell:enthrall]]]_ once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.
+Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a Long Rest*; however, you can cast the Spell using any Spell Slots you have of the appropriate level.
 
-***Hellfire.*** Once you reach 3rd level, you can cast _[[[spell:burning hands]]]_ once per day as a 2nd-level spell. This trait replaces the _[[[spell:hellish rebuke]]]_ spell of the Infernal Legacy trait.
+Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).
 
-***Winged.*** You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait.
+***Otherworldly Presence.*** You know the Thaumaturgy cantrip. When you cast it with this trait, the Spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
 
-</div>
+#### Fiendish Legacies
 
-# Infernal Bloodline
-
-Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle's, and some spiral upward like an antelopes' horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors -- black, red, white, silver, or gold -- with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various
-shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.
-
-# Self-Reliant and Suspicious
-
-Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect.
-
-Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling's companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.
-
-# Mutual Mistrust
-
-People tend to be suspicious of tieflings, assuming that their infernal heritage has left its mark on their personality and morality, not just their appearance. Shopkeepers keep a close eye on their goods when tieflings enter their stores, the town watch might follow a tiefling around for a while, and demagogues blame tieflings for strange happenings. The reality, though, is that a tiefling's bloodline doesn't affect his or her personality to any great degree. Years of dealing with mistrust does leave its mark on most tieflings, and they respond to it in different ways. Some choose to live up to the wicked stereotype, but others are virtuous. Most are simply very aware of how people respond to them. After dealing with this mistrust throughout youth, a tiefling often develops the ability to overcome prejudice through charm or intimidation.
-
-# Tiefling Names
-
-Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it's a grim destiny.
-
-Male Infernal Names: Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai
-
-Female Infernal Names: Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta
-
-"Virtue" Names: Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary
-
-# Tiefling Traits
-
-Tieflings share certain racial traits as a result of their infernal descent.
-<div class="errata" markdown="1">
-**Infernal Legacy Errata**
-Here "once per day" means you must finish a long rest to cast the spell again with the trait.
-[Player's Handbook Errata](https://media.wizards.com/2015/downloads/dnd/Errata_PH.pdf)
-</div>
-* **Ability Score Increase.** Your Intelligence score increases by 1, and your Charisma score increases by 2.
-* **Age.** Tieflings mature at the same rate as humans but live a few years longer.
-* **Alignment.** Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.
-* **Size.** Tieflings are about the same size and build as humans. Your size is Medium.
-* **Speed.** Your base walking speed is 30 feet.
-* **Darkvision.** Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-* **Hellish Resistance.** You have resistance to fire damage.
-* **Infernal Legacy.** You know the *[[[spell:thaumaturgy]]]* cantrip. When you reach 3rd level, you can cast *[[[spell:hellish rebuke]]]* once. When you reach 5th level, you can also cast *[[[spell:darkness]]]* once. You regain the use of these spells after you finish a long rest. Charisma is your spellcasting ability for these spells.[((bibcite errata))]
-* **Languages.** You can speak, read, and write Common and Infernal.
+| Legacy   | 1st Level                                                                                    | 3rd Level                     | 5th Level                         |
+|----------|----------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------|
+| Abyssal  | You have Resistance to Poison Damage. You also know the _[[[spell:Poison Spray]]]_ cantrip.  | _[[[spell:Ray of Sickness]]]_ | _[[[spell:Hold Person]]]_         |
+| Chthonic | You have Resistance to Necrotic Damage. You also know the _[[[spell:Chill Touch]]]_ cantrip. | _[[[spell:False Life]]]_      | _[[[spell:Ray of Enfeeblement]]]_ |
+| Infernal | You have Resistance to Fire Damage. You also know the _[[[spell:Fire Bolt]]]_ cantrip.       | _[[[spell:Hellish Rebuke]]]_  | _[[[spell:Darkness]]]_            |
 
 ----
 
-*Source: Player's Handbook, p. 42*
-
-[[bibliography]]
-: errata : <http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-[[/bibliography]]
+_Source: [Character Origins](https://www.dndbeyond.com/sources/ua/character-origins)_

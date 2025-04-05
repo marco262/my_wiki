@@ -1,43 +1,35 @@
-[[breadcrumb /dnd/class/Rogue|Rogue]]
+[[breadcrumb /onednd/class/Rogue|Rogue]]
 
-You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.
+As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style -- topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.
 
-A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.
+### 3rd Level: Fancy Footwork
 
-# Swashbuckler
+You've learned how to land a strike and then slip away without reprisal. If you make a melee attack against a creature during your turn, that creature can't make Opportunity Attacks against you for the rest of that turn.
 
-||~ Rogue Level ||~ Feature ||
-|| 3rd || Fancy Footwork, Rakish Audacity ||
-|| 9th || Panache ||
-|| 13th || Elegant Maneuver ||
-|| 17th || Master Duelist ||
+### 3rd Level: Rakish Audacity
 
-## Fancy Footwork
+When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.
 
-When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.
+You also gain an additional way to use your Sneak Attack; you don't need Advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have Disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.
 
-## Rakish Audacity
+### 9th Level: Panache
 
-Starting at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.
+You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.
 
-You also gain an additional way to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.
+***Goad (Cost: 1d6).*** The target must succeed on a Wisdom saving throw, or until the end of its next turn, the target has Disadvantage on attack rolls against targets other than you and can't make Opportunity Attacks against targets other than you.  
+***Awe (Cost: 3d6).*** Each creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or have the Charmed condition until the end of your next turn.
 
-## Panache
+### 13th Level: Dashing Strikes
 
-At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.
+You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.
 
-If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.
+***Parrying Stance (Cost: 2d6).*** Roll a d6. Until the start of your next turn, you gain a bonus to your AC equal to the number rolled.  
+***Invigorate (Cost: 2d6).*** Choose a creature you can see within 30 feet of yourself. Until the end of that creature's next turn, whenever it makes an attack roll or a saving throw, it can roll a d6 and add the number rolled to the attack roll or saving throw.
 
-If you succeed on the check and the creature isn't hostile to you, it is [[[general:conditions#charmed|charmed]]] by you for 1 minute. While [[[general:conditions#charmed|charmed]]], it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.
+### 17th Level: Master Duelist
 
-## Elegant Maneuver
-
-Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.
-
-## Master Duelist
-
-Beginning at 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.
+Immediately after you use your Sneak Attack, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you.
 
 ----
 
-*Source: Xanathar's Guide to Everything, p. 47*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

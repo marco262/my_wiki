@@ -1,73 +1,65 @@
-[[breadcrumb /dnd/class/Paladin|Paladin]]
+---
+toc: false
+---
 
-The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things -- leaves, antlers, or flowers -- to reflect their commitment to preserving life and light in the world.
+[[breadcrumb /onednd/class/Paladin|Paladin]]
 
-### Tenets of the Ancients
+<div class="phb-sidebar" markdown="1">
 
-The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.
+**Tenets of the Ancients**
 
-* **Kindle the Light.** Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.
-* **Shelter the Light.** Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.
-* **Preserve Your Own Light.** Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.
-* **Be the Light.** Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.
+Though the exact words and strictures of the Oath of Ancients vary, Paladins of this oath share these tenets.
 
-# Oath of the Ancients
+***Kindle the Light.*** Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.
 
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Oath Spells, Channel Divinity ||
-|| 7th || Aura of Warding ||
-|| 15th || Undying Sentinel ||
-|| 20th || Elder Champion ||
+***Shelter the Light.*** Where life flourishes, stand against the forces that would render it barren.
 
-## Oath Spells
+***Preserve Your Own Light.*** Delight in song, laughter, and art. If you allow the light to die in your own heart, you can't preserve it in the world.
 
-You gain oath spells at the paladin levels listed.
+***Be the Light.*** Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.
 
-### Oath of the Ancients Spells
+</div>
 
-||~ Paladin Level ||~ Spells ||
-|| 3rd || *[[[spell:ensnaring strike]]]*, *[[[spell:speak with animals]]]* ||
-|| 5th || *[[[spell:moonbeam]]]*, *[[[spell:misty step]]]* ||
-|| 9th || *[[[spell:plant growth]]]*, *[[[spell:protection from energy]]]* ||
-|| 13th || *[[[spell:ice storm]]]*, *[[[spell:stoneskin]]]* ||
-|| 17th || *[[[spell:commune with nature]]]*, *[[[spell:tree stride]]]* ||
+The Oath of the Ancients is as old as the first elves and the rituals of Druids. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things -- leaves, antlers, or flowers -- to reflect their commitment to preserving life and light in the world.
 
-## Channel Divinity
+### 3rd Level: Oath Spells
 
-When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared.
 
-**Nature's Wrath.** You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be [[[general:conditions#restrained|restrained]]]. While [[[general:conditions#restrained|restrained]]] by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
+#### Oath of Devotion Spells
 
-**Turn the Faithless.** You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
+| Paladin<br>Level | Spells                                                           |
+|------------------|------------------------------------------------------------------|
+| 3rd              | _[[[spell:Ensnaring Strike]]]_, _[[[spell:Speak with Animals]]]_ |
+| 5th              | _[[[spell:Misty Step]]]_, _[[[spell:Moonbeam]]]_                 |
+| 9th              | _[[[spell:Plant Growth]]]_, _[[[spell:Protection from Energy]]]_ |
+| 13th             | _[[[spell:Ice Storm]]]_, _[[[spell:Stoneskin]]]_                 |
+| 17th             | _[[[spell:Commune with Nature]]]_, _[[[spell:Tree Stride]]]_     |
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+### 3rd Level: Nature's Wrath
 
-If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.
+As an action, you can expend one use of your Channel Divinity to conjure grasping spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of you must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-## Aura of Warding
+### 7th Level: Aura of Warding
 
-Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.
+Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection.
 
-At 18th level, the range of this aura increases to 30 feet.
+### 15th Level: Undying Sentinel
 
-## Undying Sentinel
-
-Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.
+When you are reduced to 0 Hit Points and not killed outright, you can choose to drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
 Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.
 
-## Elder Champion
+### 20th Level: Elder Champion
 
-At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or moss-like, or you might sprout antlers or a lion-like mane.
+As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the following benefits for 1 minute or until you end them as a Bonus Action:
 
-Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
+**Diminish Defiance.** Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.  
+**Regeneration.** At the start of each of your turns, you regain 10 Hit Points.  
+**Swift Spells.** Whenever you cast a spell that has a casting time of 1 action, you can cast it using a Bonus Action instead.
 
-* At the start of each of your turns, you regain 10 hit points.
-* Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.
-* Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.
-
-Once you use this feature, you can't use it again until you finish a long rest.
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of it by expending a 5th-level spell slot (no action required). 
 
 ----
 
-*Source: Player's Handbook, p. 85*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

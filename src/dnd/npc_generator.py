@@ -2,7 +2,7 @@ import sys
 from math import ceil
 from typing import Any, Union, List, Optional
 
-from src.dnd.npc_enums import cr_list, races, roles, die_types, total_damage_dict
+from src.dnd5e.npc_enums import cr_list, races, roles, die_types, total_damage_dict
 
 g_hp = "average"
 g_dmg = "dice"

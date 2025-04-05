@@ -1,14 +1,19 @@
 title = "Mass Healing Word"
-classes = ["cleric"]
-classes_ua = ["bard"]
+spell_lists = ["Bard", "Cleric"]
 level = "3"
-school = "evocation"
+school = "Abjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 bonus action"
+casting_time = "Bonus Action"
 range = "60 feet"
 components = ["V"]
+material = ""
+expensive_material_component = false
+material_component_consumed = false
 duration = "Instantaneous"
-description = """As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs."""
-at_higher_levels = "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd."
-source = "Player's Handbook, p. 258"
+description = """
+A wave of healing energy emanates from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of level 6 or higher, the healing increases by 1d8 for each slot level above 5."
+source = "Player's Handbook Playtest 8"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

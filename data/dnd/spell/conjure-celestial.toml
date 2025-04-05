@@ -1,17 +1,24 @@
 title = "Conjure Celestial"
-classes = ["cleric"]
+spell_lists = ["Cleric"]
 level = "7"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 minute"
+casting_time = "Action"
 range = "90 feet"
 components = ["V", "S"]
-duration = "Concentration, up to 1 hour"
-description = """You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.
+material = ""
+expensive_material_component = false
+material_component_consumed = false
+duration = "Concentration, up to 10 minutes"
+description = """
+You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40- foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you [[glossary:Move]] on your turn, you can also move the Cylinder up to 30 feet.
 
-The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don't issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions.
+When a creature enters the Cylinder for the first time on a turn or starts its turn there, you can bathe that creature in one of the following lights:
 
-The DM has the celestial's statistics."""
-at_higher_levels = "When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
-source = "Player's Handbook, p. 225"
+**Healing Light.** The creature that isn't an Undead or a Construct regains Hit Points equal to 4d12 plus your spellcasting modifier. A creature can be healed by this light only once per casting of this spell.
+**Searing Radiance.** The creature must make a Dexterity saving throw, taking 8d12 Radiant damage on a failed save or half as much damage on a successful one.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of level 8 or higher, the healing and damage increase by 1d12 for each slot level above 7."
+source = "Player's Handbook Playtest 8"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"

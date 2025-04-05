@@ -4,7 +4,7 @@ import re
 
 from src.common.utils import title_to_page_name
 
-BASE_DIR = "../data/dnd/equipment/magic-items"
+BASE_DIR = "../data/dnd5e/equipment/magic-items"
 NEW_DIR = os.path.join(BASE_DIR, "new")
 
 # os.makedirs(NEW_DIR, exist_ok=True)

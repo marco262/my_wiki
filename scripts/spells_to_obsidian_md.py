@@ -52,7 +52,7 @@ def parse_args():
 
 
 def iter_spell_dicts() -> Iterator[dict]:
-    for filepath in glob("../data/dnd/spell/*.toml"):
+    for filepath in glob("../data/dnd5e/spell/*.toml"):
         with open(filepath) as f:
             yield toml.load(f)
 

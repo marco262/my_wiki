@@ -1,49 +1,25 @@
-[[breadcrumb /dnd/class/Barbarian|Barbarian]]
+[[breadcrumb /onednd/class/Barbarian|Barbarian]]
 
-For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+For Barbarians who walk the Path of the Berserker, their Rage is primarily directed toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.
 
-# Path of the Berserker
+### Level 3: Frenzy
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
-|| 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
-|| 2nd || +2 || Reckless Attack, Danger Sense || 2 || +2 ||
-|| 3rd || +2 || Frenzy || 3 || +2 ||
-|| 4th || +2 || Ability Score Improvement || 3 || +2 ||
-|| 5th || +3 || Extra Attack, Fast Movement || 3 || +2 ||
-|| 6th || +3 || Mindless Rage || 4 || +2 ||
-|| 7th || +3 || Feral Instinct || 4 || +2 ||
-|| 8th || +3 || Ability Score Improvement || 4 || +2 ||
-|| 9th || +4 || Brutal Critical (1 die) || 4 || +3 ||
-|| 10th || +4 || Intimidating Presence || 4 || +3 ||
-|| 11th || +4 || Relentless Rage || 4 || +3 ||
-|| 12th || +4 || Ability Score Improvement || 5 || +3 ||
-|| 13th || +5 || Brutal Critical (2 dice) || 5 || +3 ||
-|| 14th || +5 || Retaliation || 5 || +3 ||
-|| 15th || +5 || Persistent Rage || 5 || +3 ||
-|| 16th || +5 || Ability Score Improvement || 5 || +4 ||
-|| 17th || +6 || Brutal Critical (3 dice) || 6 || +4 ||
-|| 18th || +6 || Indomitable Might || 6 || +4 ||
-|| 19th || +6 || Ability Score Improvement || 6 || +4 ||
-|| 20th || +6 || Primal Champion || Unlimited || +4 ||
+You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or [[glossary:Unarmed Strike]] used for the attack.
 
-## Frenzy
+### Level 6: Mindless Rage
 
-Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of [[[general:conditions|exhaustion]]].
+You have immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, that condition ends on you.
 
-## Mindless Rage
+### Level 10: Retaliation
 
-Beginning at 6th level, you can't be [[[general:conditions#charmed|charmed]]] or [[[general:conditions#frightened|frightened]]] while raging. If you are [[[general:conditions#charmed|charmed]]] or [[[general:conditions#frightened|frightened]]] when you enter your rage, the effect is suspended for the duration of the rage.
+When you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an [[glossary:Unarmed Strike]].
 
-## Intimidating Presence
+### Level 14: Intimidating Presence
 
-Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be [[[general:conditions#frightened|frightened]]] of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the [[[general:conditions#frightened|frightened]]] creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+As a Bonus Action, you can strike terror into others with your menacing presence as you swell with primal power. When you do so, each creature of your choice within 30 feet of you -- or 60 feet of you if your Rage is active -- must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.
 
-If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.
-
-## Retaliation
-
-Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. If you've run out of uses of this feature, you can expend a use of your Rage, choosing to activate Intimidating Presence instead of Rage.
 
 ----
 
-*Source: Player's Handbook, p. 49*
+_Source: [Player's Handbook Playtest 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)_

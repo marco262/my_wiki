@@ -1,29 +1,39 @@
-[[breadcrumb /dnd/class/Rogue|Rogue]]
+[[breadcrumb /onednd/class/Rogue|Rogue]]
 
-You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.
+A mix of burglar, treasure hunter, and explorer, you are the consummate adventurer. In addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.
 
-## Fast Hands
+### 3rd Level: Fast Hands
 
-Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.
+As a Bonus Action, you can do one of the following:
 
-## Second-Story Work
+**Sleight of Hand.** Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.  
+**Use an Object.** Take the Use an Object action, or take the [[glossary:Magic]] action to use a magic item that requires that action.
 
-When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+### 3rd Level: Second-Story Work
 
-In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
+You have trained to reach especially hard-to- reach places, granting you these benefits:
 
-## Supreme Sneak
+**Climber.** You gain a [[glossary:Climb Speed]] equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.  
+**Jumper.** Your jump distance is determined by your Dexterity rather than your Strength.
 
-Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.
+### 9th Level: Supreme Sneak
 
-## Use Magic Device
+You gain the following Cunning Strike option.
 
-By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.
+***Stealth Attack (Cost: 1d6).*** If you have the [[glossary:Hide]] action's [[glossary:Invisible]] condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.
 
-## Thief's Reflexes
+### 13th Level: Use Magic Device
 
-When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
+In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:
+
+**Attunement.** You can attune to up to four magic items at once.  
+**Charges.** Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.  
+**Scrolls.** You can use any Spell Scroll, using Intelligence as your Spellcasting Ability for the spell. If the spell is a cantrip or a 1st-level spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.
+
+### 17th Level: Thief's Reflexes
+
+You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.
 
 ----
 
-*Source: Player's Handbook, p. 97*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

@@ -1,15 +1,17 @@
 title = "Conjure Volley"
-classes = ["ranger"]
+spell_lists = ["Ranger"]
 level = "5"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
-range = "150 feet"
+casting_time = "Action"
+range = "150-feet"
 components = ["V", "S", "M"]
-material = "one piece of ammunition or one throwing weapon"
-expensive_material_component = false
-material_component_consumed = false
+material_component = "a melee or ranged weapon worth at least 1 CP"
 duration = "Instantaneous"
-description = """You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius, 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon."""
-source = "Player's Handbook, p. 226"
+description = """
+You brandish the weapon used to cast the spell and choose a point within range. Hundreds of similar spectral weapons (or ammunition appropriate to the weapon) fall in a volley from above and then disappear. Each creature of your choice that you can see in a 40-foot-radius, 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 Force damage on a failed save, or half as much damage on a successful one.
+"""
+at_higher_levels = "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd."
+source = "Player's Handbook Playtest 6"
+source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"

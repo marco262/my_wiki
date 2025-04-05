@@ -1,7 +1,7 @@
 import os
 
-from data.dnd.enums import casting_times, durations
-from src.dnd.endpoints import load_spells
+from data.dnd5e.enums import casting_times, durations
+from src.dnd5e.endpoints import load_spells
 
 print(os.getcwd())
 print(os.chdir(".."))

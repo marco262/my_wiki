@@ -1,54 +1,42 @@
-[[breadcrumb /dnd/class/Cleric|Cleric]]
+[[breadcrumb /onednd/class/Cleric|Cleric]]
 
-War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
+War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.
 
-## War Domain Spells
+Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
 
-||~ Cleric Level ||~ Spells ||
-|| 1st || _[[[spell:divine favor]]]_, _[[[spell:shield of faith]]]_ ||
-|| 3rd || _[[[spell:magic weapon]]]_, _[[[spell:spiritual weapon]]]_ ||
-|| 5th || _[[[spell:crusader's mantle]]]_, _[[[spell:spirit guardians]]]_ ||
-|| 7th || _[[[spell:freedom of movement]]]_, _[[[spell:stoneskin]]]_ ||
-|| 9th || _[[[spell:flame strike]]]_, _[[[spell:hold monster]]]_ ||
+### 3rd Level: Domain Spells
 
-## Bonus Proficiency
+Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.
 
-At 1st level, you gain proficiency with martial weapons and heavy armor.
+#### Light Domain Spells
 
-## War Priest
+| Cleric<br>Level | Prepared Spells                                                                                                        |
+|:---------------:|------------------------------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Divine Favor]]]_, _[[[spell:Magic Weapon]]]_, _[[[spell:Shield of Faith]]]_, _[[[spell:Spiritual Weapon]]]_, |
+|       5th       | _[[[spell:Crusader's Mantle]]]_, _[[[spell:Spirit Guardians]]]_                                                        |
+|       7th       | _[[[spell:Freedom of Movement]]]_, _[[[spell:Stoneskin]]]_                                                             |
+|       9th       | _[[[spell:Destructive Wave]]]_, _[[[spell:Hold Monster]]]_                                                             |
 
-From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.
+### 3rd Level: War Priest
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon with which you have proficiency. Whenever you finish a [[glossary:Long Rest]], you can change the kind of weapon you chose to another eligible kind.
 
-## Channel Divinity: Guided Strike
+In addition, you can make one weapon attack as a Bonus Action. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
-Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.
+### 3rd Level: Guided Strike
 
-## Channel Divinity: War God's Blessing
+When you or a creature within 30 feet of you misses with an attack roll, you can use your Reaction to expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit.
 
-At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.
+### 6th Level: War God's Blessing
 
-## Divine Strike
+Whenever you cast _[[[spell:Shield of Faith]]]_ on another creature, the spell also affects you.
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.
+In addition, you can cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
-[[accordion Optional Class Features: Blessed Strikes]]
+### 17th Level: Avatar of Battle
 
-## Blessed Strikes
-
-_Source: Tasha's Cauldron of Everything, p. 31_
-
-_8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature_
-
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
-
-[[/accordion]]
-
-## Avatar of Battle
-
-At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
+You gain resistance to Bludgeoning, Piercing, and Slashing damage.
 
 ----
 
-*Source: Player's Handbook, p. 63*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

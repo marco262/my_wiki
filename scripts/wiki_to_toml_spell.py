@@ -7,7 +7,7 @@ from re import search
 
 source = "Cleric and Revised Species"
 
-for path in glob("../data/onednd/spell/*"):
+for path in glob("../data/dnd/spell/*"):
     print(path)
     with open(path) as f:
         contents = f.read()

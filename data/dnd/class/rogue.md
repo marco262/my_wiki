@@ -1,175 +1,231 @@
-Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.
 
-A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target -- a notorious slaver -- passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin's blade cuts his throat before he can make a sound.
+**Primary Ability:** Dexterity
 
-Suppressing a giggle, a gnome waggles her fingers and magically lifts the key ring from the guard's belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.
+Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a versatility that is the cornerstone of any successful adventuring party.
 
-Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.
+Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them broad capabilities that few other characters can match. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.
 
-## Skill and Precision
+When it comes to combat, Rogues prioritize subtle strikes over brute strength. A Rogue would rather make one precise strike than wear an opponent down with a barrage of blows. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.
 
-Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.
+Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue's relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues.
 
-When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.
-
-## A Shady Living
-
-Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves' guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats -- and wererats -- haunt the sewers.
-
-As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure.
-
-# The Rogue
-
-||~ Level ||~ Proficiency<br>Bonus ||~ Sneak<br>Attack ||~ Features ||
-|| 1st || +2 || 1d6 || Expertise, Sneak Attack, Thieves' Cant ||
-|| 2nd || +2 || 1d6 || Cunning Action ||
-|| 3rd || +2 || 2d6 || Roguish Archetype, Steady Aim ||
-|| 4th || +2 || 2d6 || Ability Score Improvement ||
-|| 5th || +3 || 3d6 || Uncanny Dodge ||
-|| 6th || +3 || 3d6 || Expertise ||
-|| 7th || +3 || 4d6 || Evasion ||
-|| 8th || +3 || 4d6 || Ability Score Improvement ||
-|| 9th || +4 || 5d6 || Roguish Archetype feature ||
-|| 10th || +4 || 5d6 || Ability Score Improvement ||
-|| 11th || +4 || 6d6 || Reliable Talent ||
-|| 12th || +4 || 6d6 || Ability Score Improvement ||
-|| 13th || +5 || 7d6 || Roguish Archetype feature ||
-|| 14th || +5 || 7d6 || Blindsense ||
-|| 15th || +5 || 8d6 || Slippery Mind ||
-|| 16th || +5 || 8d6 || Ability Score Improvement ||
-|| 17th || +6 || 9d6 || Roguish Archetype feature ||
-|| 18th || +6 || 9d6 || Elusive ||
-|| 19th || +6 || 10d6 || Ability Score Improvement ||
-|| 20th || +6 || 10d6 || Stroke of Luck ||
+| Level | Prof.<br>Bonus | Class Features                                         | Sneak<br>Attack |
+|:-----:|:--------------:|:-------------------------------------------------------|:---------------:|
+|  1st  |       +2       | Expertise, Sneak Attack, Thieves' Cant, Weapon Mastery |       1d6       |
+|  2nd  |       +2       | Cunning Action                                         |       1d6       |
+|  3rd  |       +2       | Rogue Subclass, Steady Aim                             |       2d6       |
+|  4th  |       +2       | Ability Score Improvement                              |       2d6       |
+|  5th  |       +3       | Cunning Strike, Uncanny Dodge                          |       3d6       |
+|  6th  |       +3       | Expertise                                              |       3d6       |
+|  7th  |       +3       | Evasion, Reliable Talent                               |       4d6       |
+|  8th  |       +3       | Ability Score Improvement                              |       4d6       |
+|  9th  |       +4       | Subclass Feature                                       |       5d6       |
+| 10th  |       +4       | Ability Score Improvement                              |       5d6       |
+| 11th  |       +4       | Improved Cunning Strike                                |       6d6       |
+| 12th  |       +4       | Ability Score Improvement                              |       6d6       |
+| 13th  |       +5       | Subclass Feature                                       |       7d6       |
+| 14th  |       +5       | Devious Strikes                                        |       7d6       |
+| 15th  |       +5       | Slippery Mind                                          |       8d6       |
+| 16th  |       +5       | Ability Score Improvement                              |       8d6       |
+| 17th  |       +6       | Subclass Feature                                       |       9d6       |
+| 18th  |       +6       | Elusive                                                |       9d6       |
+| 19th  |       +6       | Ability Score Improvement                              |      10d6       |
+| 20th  |       +6       | Stroke of Luck                                         |      10d6       |
 
 ## Creating a Rogue
 
-As you create your rogue character, consider the character's relationship to the law. Do you have a criminal past -- or present? Are you on the run from the law or from an angry thieves' guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?
+<div class="phb-sidebar" markdown="1">
 
-What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life. Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend -- another member of your adventuring party -- who showed you new possibilities for earning a living and employing your particular talents.
+**Multiclassing and the Rogue**
 
-### Quick Build
+If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Rogue as one of your classes.
 
-You can make a rogue quickly by following these suggestions. First. Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation or plan to take up the Arcane Trickster archetype. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the charlatan background.
+***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Rogue's primary ability, Dexterity, to take a level in this class or to take a level in another class if you are already a Rogue.
 
-# Class Features
+***Proficiencies Gained.*** If Rogue isn't your initial class, here are the proficiencies you gain when you take your first Rogue level: Thieves' Tools and one skill of your choice from the Rogue's skill list.
 
-As a rogue, you have the following class features.
+***Armor Training.*** When you gain your first Rogue level, you gain [[glossary:armor training]] with Light Armor.
 
-## Hit Points
+</div>
 
-* Hit Dice: 1d8 per rogue level
-* Hit Points at 1st Level: 8 + your Constitution modifier
-* Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per rogue level after 1st
+To create a Rogue, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a 1st-level character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Rogue" sidebar.
 
-## Proficiencies
+Then look at the Rogue table to see the class features you get at each level in this class. The descriptions of those features appear in the [Rogue Class Features](#rogue-class-features) section.
 
-* Armor: Light armor
-* Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords
-* Tools: Thieves' tools
-* Saving Throws: Dexterity, Intelligence
-* Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth
+#### Hit Points
 
-## Equipment
+**Hit Dice:** 1d8 per Rogue level  
+**Hit Points at 1st Level:** 8 + your Constitution modifier  
+**Hit Points per Level after 1st:** 1d8 (or 5) + your Constitution modifier
 
-You start with the following equipment, in addition to the equipment granted by your background:
+#### Proficiencies
 
-* (a) a rapier or (b) a shortsword
-* (a) a shortbow and quiver of 20 arrows or (b) a shortsword
-* (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack
-* Leather armor, two daggers, and thieves' tools
+**Saving Throws:** Dexterity, Intelligence  
+**Skills (Choose 4):** Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth  
+**Weapons:** Simple Weapons, Martial Weapons that have the Finesse Property  
+**Tools:** Thieves' Tools
 
-## Expertise
+#### Armor Training
 
-At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+Light Armor
 
-At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.
+### Starting Equipment
 
-## Sneak Attack
+As a 1st-level character, you start with the following equipment, or you can forgo it and spend 110 GP on equipment of your choice.
 
-Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+* Arrows (20)
+* Burglars's Pack
+* Dagger (2)
+* Leather Armor
+* Quiver
+* Shortbow
+* Shortsword
+* Thieves' Tools
+* 18 GP
 
-You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [[[general:conditions#incapacitated|incapacitated]]], and you don't have disadvantage on the attack roll.
+## Rogue Class Features
 
-The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
+As a Rogue, you gain the following class features when you reach the specified levels in this class. These features are listed on the Rogue table.
 
-## Thieves' Cant
+### 1st Level: Expertise
 
-During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice.
 
-In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.
+Sleight of Hand and Stealth are iconic choices for a Rogue if you have proficiency in them.
 
-## Cunning Action
+### 1st Level: Sneak Attack
 
-Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.
+You know how to turn a subtle attack into a deadly one. Once per turn, you can deal extra damage to one creature you hit with an attack roll if you're attacking with a Finesse or Ranged weapon and if at least one of the following requirements is met:
 
-## Roguish Archetype
+* **Advantage.** You have Advantage on the attack roll.
+* **Ally Adjacent to Target.** At least one of your allies is within 5 feet of the target, the ally doesn't have the [[glossary:Incapacitated]] condition, and you don't have Disadvantage on the attack roll.
 
-At 3rd level, you choose an [[[class:rogue#roguish-archetypes|archetype]]] that you emulate in the exercise of your rogue abilities, detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+To determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type.
 
-[//]: # ([[accordion Optional Class Features: Steady Aim]])
-[//]: # (## Steady Aim)
-[//]: # (_Source: Tasha's Cauldron of Everything, p. 62_)
-[//]: # (_3rd-level rogue feature_)
-[//]: # (As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.)
-[//]: # ([[/accordion]])
+### 1st Level: Thieves' Cant
 
-## Ability Score Improvement
+You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the Standard Languages and Rare Languages tables.
 
-When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+### 1st Level: Weapon Mastery
 
-## Uncanny Dodge
+Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
 
-Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+Whenever you finish a [[glossary:Long Rest]], you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords.
 
-## Evasion
+### 2nd Level: Cunning Action
 
-Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or [[glossary:Hide]].
 
-## Reliable Talent
+### 3rd Level: Rogue Subclass
 
-By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
+<div class="errata" markdown="1">
 
-## Blindsense
+**Editor's Note** I've removed Steady Aim from the list of Rogue abilities as I believe it detracts from the gameplay experience. Use Cunning Action to [[glossary:Hide]] instead.
 
-Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [[[general:conditions#invisible|invisible]]] creature within 10 feet of you.
+</div>
 
-## Slippery Mind
+You gain a Rogue subclass of your choice: Arcane Trickster, Assassin, Swashbuckler, or Thief. Subclasses are detailed after this class's description.
 
-By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.
+A subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level and lower.
 
-## Elusive
+### 4th Level: Ability Score Improvement
 
-Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't [[[general:conditions#incapacitated|incapacitated]]].
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
 
-## Stroke of Luck
+### 5th Level: Cunning Strike
 
-At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+You have developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forego to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.
 
-Once you use this feature, you can't use it again until you finish a short or long rest.
+If a Cunning Strike effect requires a saving throw, the DC equals 8 + your Proficiency Bonus + your Dexterity modifier.
 
-# Roguish Archetypes
+* ***Disarm (Cost: 1d6).*** The target must succeed on a Dexterity saving throw, or it drops one item of your choice that it's holding.
+* ***Poison (Cost: 1d6).*** You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target can repeat the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner's Kit on your person.
+* ***Trip (Cost: 1d6).*** If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.
+* ***Withdraw (Cost: 1d6).*** Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.
 
-Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focus --  not necessarily an indication of your chosen profession, but a description of your preferred techniques.
+### 5th Level: Uncanny Dodge
 
-## Player's Handbook
+When an attacker that you can see hits you with an attack roll, you can use your Reaction to halve the attack's damage against you (round down).
 
-* [[[subclass:Thief]]]
-* [[[subclass:Assassin]]]
-* [[[subclass:Arcane Trickster]]]
+### 6th Level: Expertise
 
-## Xanathar's Guide to Everything
+You gain [[glossary:Expertise]] in two of your skill proficiencies of your choice.
 
-* [[[subclass:Inquisitive]]]
-* [[[subclass:Mastermind]]]
-* [[[subclass:Scout (Rogue)|Scout]]]
-* [[[subclass:Swashbuckler]]]
+### 7th Level: Evasion
 
-## Tasha's Cauldron of Everything
+You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the [[glossary:Incapacitated]] condition.
 
-* [[[subclass:Phantom]]]
-* [[[subclass:Soulknife]]]
+### 7th Level: Reliable Talent
+
+You have refined your talents until they approach perfection. Whenever you make an ability check that uses one of your skill or Tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.
+
+### 8th Level: Ability Score Improvement
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+### 9th Level: Subclass Feature
+
+You gain a feature from your Rogue subclass.
+
+### 10th Level: Ability Score Improvement
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+### 11th Level: Improved Cunning Strike
+
+You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.
+
+### 12th Level: Ability Score Improvement
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+### 13th Level: Subclass Feature
+
+You gain a feature from your Rogue subclass.
+
+### 14th Level: Devious Strikes
+
+You have practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.
+
+* ***Daze (Cost: 2d6).*** The target must succeed on a Constitution saving throw, or it has the [[glossary:Dazed]] condition until the end of its next turn.
+* ***Knock Out (Cost: 6d6).*** The target must succeed on a Constitution saving throw, or it has the [[glossary:Unconscious]] condition for 1 minute or until it takes any damage. The [[glossary:Unconscious]] target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
+* ***Obscure (Cost: 3d6).*** You strike near the target's eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.
+
+### 15th Level: Slippery Mind
+
+Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.
+
+### 16th Level: Ability Score Improvement
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+### 17th Level: Subclass Feature
+
+You gain a feature from your Rogue subclass.
+
+### 18th Level: Elusive
+
+You are so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the [[glossary:Incapacitated]] condition.
+
+### 19th Level: Ability Score Improvement
+
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
+
+### 20th Level: Stroke of Luck
+
+You have an uncanny knack for succeeding when you need to. If you fail a [[glossary:d20 Test]], you can turn the roll into a 20.
+
+Once you use this feature, you can't use it again until you finish a [[glossary:Short Rest]] or a [[glossary:Long Rest]].
+
+# Rogue Subclasses
+
+A Rogue subclass is a specialization that grants you special abilities at certain Rogue levels, as specified in the subclass.
+
+* [Arcane Trickster](/onednd/subclass/Arcane Trickster)
+* [Assassin](/onednd/subclass/Assassin)
+* [Swashbuckler](/onednd/subclass/Swashbuckler)
+* [Thief](/onednd/subclass/Thief)
 
 ----
 
-*Source: Player's Handbook, p. 94*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

@@ -1,56 +1,42 @@
-[[breadcrumb /dnd/class/Cleric|Cleric]]
+[[breadcrumb /onednd/class/Cleric|Cleric]]
 
-Gods of light – including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty – promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
+The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.
 
-## Light Domain Spells
+The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce every shadow and deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Religious orders focused on combating the Undead also draw on the power of this domain.
 
-||~ Cleric Level ||~ Spells ||
-|| 1st || *[[[spell:burning hands]]], [[[spell:faerie fire]]]* ||
-|| 3rd || *[[[spell:flaming sphere]]], [[[spell:scorching ray]]]* ||
-|| 5th || *[[[spell:daylight]]], [[[spell:fireball]]]* ||
-|| 7th || *[[[spell:guardian of faith]]], [[[spell:wall of fire]]]* ||
-|| 9th || *[[[spell:flame strike]]], [[[spell:scrying]]]* ||
+### 3rd Level: Domain Spells
 
-## Bonus Cantrip
+Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared.
 
-When you choose this domain at 1st level, you gain the *[[[spell:light]]]* cantrip if you don't already know it.
+#### Light Domain Spells
 
-## Warding Flare
+| Cleric<br>Level | Prepared Spells                                                                                                |
+|:---------------:|----------------------------------------------------------------------------------------------------------------|
+|       3rd       | _[[[spell:Burning Hands]]]_, _[[[spell:Faerie Fire]]]_, _[[[spell:Moonbeam]]]_, _[[[spell:See Invisibility]]]_ |
+|       5th       | _[[[spell:Daylight]]]_, _[[[spell:Fireball]]]_                                                                 |
+|       7th       | _[[[spell:Arcane Eye]]]_, _[[[spell:Wall of Fire]]]_                                                           |
+|       9th       | _[[[spell:Flame Strike]]]_, _[[[spell:Scrying]]]_                                                              | 
 
-Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be [[[general:conditions#blinded|blinded]]] is immune to this feature.
+### 3rd Level: Warding Flare
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+When a creature that you can see within 30 feet of you makes an attack roll, you can use your Reaction to impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses.
 
-## Channel Divinity: Radiance of the Dawn
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a [[glossary:Long Rest]].
 
-Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.
+### 3rd Level: Radiance of The Dawn
 
-As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.
+As a [[glossary:Magic]] action, you present your Holy Symbol and expend a use of your Channel Divinity to emit sunlight in a 30-foot-radius sphere centered on yourself. Any magical darkness -- such as that created by the _[[[spell:Darkness]]]_ spell -- in the sphere is dispelled. Additionally, each creature of your choice in the sphere must make a Constitution saving throw, taking Radiant damage equal to 2d10 + your Cleric level on a failed save, or half as much damage on a successful one.
 
-## Improved Flare
+### 6th Level: Revealing Light
 
-Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.
+As a Bonus Action, you can present your Holy Symbol and cast _[[[spell:See Invisibility]]]_ without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.
 
-## Potent Spellcasting
+Once you use this feature, you can't do so again until you finish a [[glossary:Long Rest]].
 
-Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
+### 17th Level: Corona of Light
 
-[[accordion Optional Class Features: Blessed Strikes]]
-
-## Blessed Strikes
-
-_Source: Tasha's Cauldron of Everything, p. 31_
-
-_8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature_
-
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
-
-[[/accordion]]
-
-## Corona of Light
-
-Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.
+As a [[glossary:Magic]] action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.
 
 ----
 
-*Source: Player's Handbook, p. 60*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

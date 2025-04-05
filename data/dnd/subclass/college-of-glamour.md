@@ -1,50 +1,35 @@
-[[breadcrumb /dnd/class/Bard|Bard]]
+[[breadcrumb /onednd/class/Bard|Bard]]
 
-The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.
+The College of Glamour traces its origins to the beguiling magic of the Feywild. The Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.
 
-The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
+### 3rd Level: Beguiling Magic
 
-# College of Glamour
+You always have the _[[[spell:Charm Person]]]_ and _[[[spell:Mirror Image]]]_ spells prepared.
 
-||~ Bard Level ||~ Features ||
-|| 3rd || Mantle of Inspiration, Enthralling Performance ||
-|| 6th || Mantle of Majesty ||
-|| 14th || Unbreakable Majesty ||
+In addition, immediately after you cast an Enchantment or Illusion spell, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your Spell Save DC. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-## Mantle of Inspiration
+Once you use this benefit, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of the feature by expending one use of your Bardic Inspiration (no action required).
 
-When you join the College of Glamour at 3rd level, you gain the ability to weave a song of fey magic that imbues your allies with vigor and speed.
+### 3rd Level: Mantle of Inspiration
 
-As a bonus action, you can expend one use of your Bardic Inspiration to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and who can see you within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one). Each of them gains 5 [[[general:combat#temporary-hit-points|temporary hit points]]]. When a creature gains these temporary hit points, it can immediately use its reaction to move up to its speed, without provoking opportunity attacks.
+You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a number of Temporary Hit Points equal to 2 times the number rolled on the Bardic Inspiration die, and then each of them can use its Reaction to move up to its Speed without provoking Opportunity Attacks.
 
-The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level.
+### 6th Level: Mantle of Majesty
 
-## Enthralling Performance
+You always have the _[[[spell:Command]]]_ spell prepared.
 
-Starting at 3rd level, you can charge your performance with seductive, fey magic.
+As a Bonus Action, you cast _[[[spell:Command]]]_ without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends (as if you were concentrating on a spell). During this time, you can cast _[[[spell:Command]]]_ as a Bonus Action without expending a spell slot.
 
-If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be [[[general:conditions#charmed|charmed]]] by you. While [[[general:conditions#charmed|charmed]]] in this way, the target idolizes you, it speaks glowingly of you to anyone who speaks to it, and it hinders anyone who opposes you, avoiding violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.
+Any creature Charmed by you automatically fails its saving throw against the _[[[spell:Command]]]_ you cast with this feature.
 
-If a target succeeds on its saving throw, the target has no hint that you tried to [[[general:conditions#charmed|charm]]] it.
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of the feature by expending a spell slot of 3rd level or higher (no action required).
 
-Once you use this feature, you can't use it again until you finish a short or long rest.
+### 14th Level: Unbreakable Majesty
 
-## Mantle of Majesty
+As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the [[glossary:Incapacitated]] condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your Spell Save DC, or the attack misses instead, as the creature recoils from your majesty.
 
-At 6th level, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. As a bonus action, you can cast [[[spell:command]]], without expending a spell slot, and you take on an appearance of unearthly beauty for 1 minute or until your concentration ends (as if you were concentrating on a spell). During this time, you can cast [[[spell:command]]] as a bonus action on each of your turns, without expending a spell slot.
-
-Any creature [[[general:conditions#charmed|charmed]]] by you automatically fails its saving throw against the [[[spell:command]]] you cast with this feature.
-
-Once you use this feature, you can't use it again until you finish a long rest.
-
-## Unbreakable Majesty
-
-At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.
-
-In addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are [[[general:conditions#incapacitated|incapacitated]]]. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can't attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.
-
-Once you assume this majestic presence, you can't do so again until you finish a short or long rest.
+Once you assume this majestic presence, you can't do so again until you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]].
 
 ----
 
-*Source: Xanathar's Guide to Everything, p. 14*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

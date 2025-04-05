@@ -1,66 +1,64 @@
-[[breadcrumb /dnd/class/Paladin|Paladin]]
+---
+toc: false
+---
 
-The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside -- at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins -- sometimes called avengers or dark knights -- their own purity is not as important as delivering justice.
+[[breadcrumb /onednd/class/Paladin|Paladin]]
 
-### Tenets of Vengeance
+<div class="phb-sidebar" markdown="1">
 
-The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.
+**Tenets of Vengeance**
 
-* **Fight the Greater Evil.** Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.
-* **No Mercy for the Wicked.** Ordinary foes might win my mercy, but my sworn enemies do not.
-* **By Any Means Necessary.** My qualms can't get in the way of exterminating my foes.
-* **Restitution.** If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.
+Though the exact words and strictures of the Oath of Vengeance vary, Paladins of this oath share these tenets.
 
-# Oath of Vengeance
+***Fight the Greater Evil.*** Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.
 
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Oath Spells, Channel Divinity ||
-|| 7th || Aura of Warding ||
-|| 15th || Undying Sentinel ||
-|| 20th || Elder Champion ||
+***No Mercy for the Wicked.*** Ordinary foes might win my mercy, but my sworn enemies do not.
 
-## Oath Spells
+***By Any Means Necessary.*** My qualms can't get in the way of exterminating my foes.
 
-You gain oath spells at the paladin levels listed.
+***Restitution.*** If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by my misdeeds.
 
-### Oath of Vengeance Spells
+</div>
 
-||~ Paladin Level ||~ Spells ||
-|| 3rd || *[[[spell:bane]]]*, *[[[spell:hunter's mark]]]* ||
-|| 5th || *[[[spell:hold person]]]*, *[[[spell:misty step]]]* ||
-|| 9th || *[[[spell:haste]]]*, *[[[spell:protection from energy]]]* ||
-|| 13th || *[[[spell:banishment]]]*, *[[[spell:dimension door]]]* ||
-|| 17th || *[[[spell:hold monster]]]*, *[[[spell:scrying]]]* ||
+The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside -- at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.
 
-## Channel Divinity
+### 3rd Level: Oath Spells
 
-When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.
 
-**Abjure Enemy.** As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being [[[general:conditions#frightened|frightened]]]. Fiends and undead have disadvantage on this saving throw.
+#### Oath of Devotion Spells
 
-On a failed save, the creature is [[[general:conditions#frightened|frightened]]] for 1 minute or until it takes any damage. While [[[general:conditions#frightened|frightened]]], the creature's speed is 0, and it can't benefit from any bonus to its speed.
+| Paladin<br>Level | Spells                                                    |
+|------------------|-----------------------------------------------------------|
+| 3rd              | _[[[spell:Bane]]]_, _[[[spell:Compelled Duel]]]_          |
+| 5th              | _[[[spell:Hold Person]]]_, _[[[spell:Misty Step]]]_       |
+| 9th              | _[[[spell:Haste]]]_, _[[[spell:Protection from Energy]]]_ |
+| 13th             | _[[[spell:Banishment]]]_, _[[[spell:Dimension Door]]]_    |
+| 17th             | _[[[spell:Hold Monster]]]_, _[[[spell:Scrying]]]_         |
 
-On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
+### 3rd Level: Vow of Enmity
 
-**Vow of Enmity.** As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls [[[general:conditions#unconscious|unconscious]]].
+As a Bonus Action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You gain Advantage on attack rolls against the creature for 1 minute.
 
-## Relentless Avenger
+If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required). You can make this transfer no more than once per turn.
 
-By 7th level, your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.
+### 7th Level: Relentless Avenger
 
-## Soul of Vengeance
+Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0, and you can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.
 
-Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.
+### 15th Level: Soul of Vengeance
 
-## Avenging Angel
+Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack, you can use your Reaction to make a melee attack against that creature if it's within range.
 
-At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
+### 20th Level: Avenging Angel
 
-* Wings sprout from your back and grant you a flying speed of 60 feet.
-* You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become [[[general:conditions#frightened|frightened]]] of you for 1 minute or until it takes any damage. Attack rolls against the [[[general:conditions#frightened|frightened]]] creature have advantage.
+As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 10 minutes or until you end them as a Bonus Action:
 
-Once you use this feature, you can't use it again until you finish a long rest.
+**Flight.** You sprout spectral wings on your back. You have a [[glossary:Fly Speed]] equal to your Speed and can Hover.  
+**Frightful Aura.** Whenever an enemy starts its turn in the aura, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.
+
+Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of it by expending a 5th-level spell slot (no action required). 
 
 ----
 
-*Source: Player's Handbook, p. 85*
+_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_

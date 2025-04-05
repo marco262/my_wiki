@@ -1,7 +1,7 @@
 title = "Speak With Animals"
-classes = ["bard", "druid", "ranger"]
+spell_lists = ["Bard", "Druid", "Ranger", "Warlock"]
 level = "1"
-school = "divination"
+school = "Divination"
 concentration_spell = false
 ritual_spell = true
 casting_time = "1 action"

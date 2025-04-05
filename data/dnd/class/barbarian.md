@@ -1,215 +1,209 @@
-A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd.
 
-A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals. Frothing at the mouth, a dwarf slam s his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.
+**Primary Ability:** Strength
 
-These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.
+Barbarians are warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.
 
-For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
+Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.
 
-## Primal Instinct
+Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their place in the multiverse, valuing keen instincts and raw physicality.
 
-People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature -- keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the was of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.
+Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses and reflexes, making the Rage useful beyond combat.
 
-Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise.
+Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring.
 
-## A Life of Danger
-
-Not every member of the tribes deemed "barbarians" by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don't have to.
-
-Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.
+| Level | Prof.<br>Bonus | Class Features                          | Rages | Rage<br>Dmg | Weapon<br>Mastery |
+|:-----:|:--------------:|:----------------------------------------|:-----:|:-----------:|:-----------------:|
+|   1   |       +2       | Rage, Unarmored Defense, Weapon Mastery |   2   |     +2      |         2         |
+|   2   |       +2       | Danger Sense, Reckless Attack           |   2   |     +2      |         2         |
+|   3   |       +2       | Barbarian Subclass, Primal Knowledge    |   3   |     +2      |         2         |
+|   4   |       +2       | Ability Score Improvement               |   3   |     +2      |         3         |
+|   5   |       +3       | Extra Attack, Fast Movement             |   3   |     +2      |         3         |
+|   6   |       +3       | Subclass Feature                        |   4   |     +2      |         3         |
+|   7   |       +3       | Feral Instinct, Instinctive Pounce      |   4   |     +2      |         3         |
+|   8   |       +3       | Ability Score Improvement               |   4   |     +2      |         3         |
+|   9   |       +4       | Brutal Strike                           |   4   |     +3      |         3         |
+|  10   |       +4       | Subclass Feature                        |   4   |     +3      |         4         |
+|  11   |       +4       | Relentless Rage                         |   4   |     +3      |         4         |
+|  12   |       +4       | Ability Score Improvement               |   5   |     +3      |         4         |
+|  13   |       +5       | Improve Brutal Strike                   |   5   |     +3      |         4         |
+|  14   |       +5       | Subclass Feature                        |   5   |     +3      |         4         |
+|  15   |       +5       | Persistent Rage                         |   5   |     +3      |         4         |
+|  16   |       +5       | Ability Score Improvement               |   5   |     +4      |         4         |
+|  17   |       +6       | Improved Brutal Strike                  |   6   |     +4      |         4         |
+|  18   |       +6       | Indomitable Might                       |   6   |     +4      |         4         |
+|  19   |       +6       | Ability Score Improvement               |   6   |     +4      |         4         |
+|  20   |       +6       | Primal Champion                         |   6   |     +4      |         4         |
 
 ## Creating a Barbarian
 
-When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?
+<div class="phb-sidebar" markdown="1">
 
-What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to "civilized" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.
+**Multiclassing and the Barbarian**
 
-## Quick Build
+If your group uses the multiclassing rules in the _Player's Handbook_, here's what you need to know if you choose Barbarian as one of your classes.
 
-You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the [[[background:Outlander]]] background.
+***Ability Score Minimum.*** As a multiclass character, you must have a score of at least 13 in the Barbarian's primary ability, Strength, to take a level in this class or to take a level in another class if you're already a Barbarian.
 
-# The Barbarian
+***Proficiencies Gained.*** If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Rages ||~ Rage<br>Damage ||
-|| 1st || +2 || Rage, Unarmored Defense || 2 || +2 ||
-|| 2nd || +2 || Reckless Attack, Danger Sense || 2 || +2 ||
-|| 3rd || +2 || Primal Path, Primal Knowledge || 3 || +2 ||
-|| 4th || +2 || Ability Score Improvement, Instinctive Pounce || 3 || +2 ||
-|| 5th || +3 || Extra Attack, Fast Movement || 3 || +2 ||
-|| 6th || +3 || Path feature || 4 || +2 ||
-|| 7th || +3 || Feral Instinct || 4 || +2 ||
-|| 8th || +3 || Ability Score Improvement || 4 || +2 ||
-|| 9th || +4 || Brutal Critical (1 die) || 4 || +3 ||
-|| 10th || +4 || Path feature, Primal Knowledge || 4 || +3 ||
-|| 11th || +4 || Relentless Rage || 4 || +3 ||
-|| 12th || +4 || Ability Score Improvement || 5 || +3 ||
-|| 13th || +5 || Brutal Critical (2 dice) || 5 || +3 ||
-|| 14th || +5 || Path feature || 5 || +3 ||
-|| 15th || +5 || Persistent Rage || 5 || +3 ||
-|| 16th || +5 || Ability Score Improvement || 5 || +4 ||
-|| 17th || +6 || Brutal Critical (3 dice) || 6 || +4 ||
-|| 18th || +6 || Indomitable Might || 6 || +4 ||
-|| 19th || +6 || Ability Score Improvement || 6 || +4 ||
-|| 20th || +6 || Primal Champion || Unlimited || +4 ||
+***Armor Training.*** When you gain your first Barbarian level, you gain [[glossary:armor training]] with Shields.
 
-# Class Features
+</div>
 
-As a barbarian, you gain the following class features.
+To create a Barbarian, consult the following lists, which provide Hit Points, proficiencies, and [[glossary:armor training]]. If you're making a Level 1 character, also consult the [Starting Equipment](#starting-equipment) section, and if you're using the multiclassing rules, see the "Multiclassing and the Barbarian" sidebar.
 
-## Hit Points
+Then look at the Barbarian table to see the class features you get at each level in this class. The descriptions of those features appear in the [Barbarian Class Features](#barbarian-class-features) section.
 
-* Hit Dice: 1d12 per barbarian level
-* Hit Points at 1st Level: 12 + your Constitution modifier
-* Hit Points at Higher Levels: 1d12 (or 7) + your Constitution modifier per barbarian level after 1st
+#### Hit Points
 
-## Proficiencies
+**Hit Dice:** 1d12 per Barbarian level  
+**Hit Points at Level 1:** 12 + your Constitution modifier  
+**Hit Points per Later Level:** 1d12 (or 7) + your Constitution modifier
 
-* Armor: Light armor, medium armor, shields
-* Weapons: Simple weapons, martial weapons
-* Tools: None
-* Saving Throws: Strength, Constitution
-* Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival
+#### Proficiencies
 
-## Equipment
+**Saving Throws:** Strength, Constitution  
+**Skills (choose 2):** Animal Handling, Athletics, Intimidation, Nature, Perception, Survival  
+**Weapons:** Simple Weapons, Martial Weapons  
+**Tools:** None
 
-You start with the following equipment, in addition to the equipment granted by your background:
+#### Armor Training
 
-* (a) a greataxe or (b) any martial melee weapon
-* (a) two handaxes or (b) any simple weapon
-* An explorer's pack and four javelins
+Light Armor, Medium Armor, Shields
 
-## Rage
+### Starting Equipment
 
-In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+As a level 1 character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice:
 
-While raging, you gain the following benefits if you aren't wearing heavy armor:
+* Explorer's Pack
+* (a) Greataxe or (b) Battleaxe, Shield, and 10 GP
+* Handaxe (4)
+* 15 GP
 
-* You have advantage on Strength checks and Strength saving throws.
-* When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
-* You have resistance to bludgeoning, piercing, and slashing damage.
+## Barbarian Class Features
 
-If you are able to cast spells, you can't cast them or concentrate on them while raging.
+As a Barbarian, you gain the following class features when you reach the specified levels in this class. These features are listed on the Barbarian table.
 
-Your rage lasts for 1 minute. It ends early if you are knocked [[[general:conditions#unconscious|unconscious]]] or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+### Level 1: Rage
 
-Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.
+You can imbue yourself with a primal power that is called your Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action, provided you aren't wearing Heavy Armor.
 
-## Unarmored Defense
+While active, your Rage has the following effects:
 
-While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
+**Damage Resistance.** You have Resistance to Bludgeoning, Piercing, and Slashing damage.  
+**Rage Damage.** When you make an attack with a weapon using Strength or an [[glossary:Unarmed Strike]] and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.  
+**Strength Advantage.** You have Advantage on Strength checks and Strength saving throws.  
+**No Concentration or Spells.** You can't maintain Concentration, and you can't cast spells.
 
-## Reckless Attack
+The Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the [[glossary:Incapacitated]] condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:
 
-Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
+* Make an attack roll against an enemy.
+* Force an enemy to make a saving throw.
+* Take a Bonus Action to extend your Rage.
 
-## Danger Sense
+Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
-At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.
+You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a [[glossary:Short Rest]], and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
-You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [[[general:conditions#blinded|blinded]]], [[[general:conditions#deafened|deafened]]], or [[[general:conditions#incapacitated|incapacitated]]].
+### Level 1: Unarmored Defense
 
-## Primal Path
+While you aren't wearing any armor, your base Armor Class equals 10 + your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit. 
 
-At 3rd level, you choose a [[[class:barbarian#primal-paths|path]]] that shapes the nature of your rage. The Path of the Berserker is detailed at the end of this page. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels. Additional paths are available in the original source material.
+### Level 1: Weapon Mastery
 
-[[accordion Optional Class Features: Primal Knowledge]]
+Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
 
-## Primal Knowledge
+When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table. 
 
-_Source: Tasha's Cauldron of Everything, p. 24_
+### Level 2: Danger Sense
 
-_3rd-level barbarian feature_
+You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, unless you have the [[glossary:Incapacitated]] condition. 
 
-When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.
+### Level 2: Reckless Attack
 
-[[/accordion]]
+You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time. 
 
-## Ability Score Improvement
+### Level 3: Barbarian Subclass
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+You gain a Barbarian subclass of your choice: Path of the Berserker, Path of the Wild Heart, Path of the World Tree, or Path of the Zealot. Subclasses are detailed after this class's description.
 
-[[accordion Optional Class Features: Instinctive Pounce]]
+A subclass is a specialization that grants you special features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower. 
 
-## Instinctive Pounce
+### Level 3: Primal Knowledge
 
-_Source: Tasha's Cauldron of Everything, p. 24_
+You gain proficiency in another skill of your choice from the list of skills available to Barbarians at level 1.
 
-_4th-level barbarian feature_
+In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility and senses. 
 
-As part of the bonus action you take to enter your rage, you can move up to half your speed.
+### Level 4: Ability Score Improvement
 
-[[/accordion]]
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.
 
-## Extra Attack
+As shown on the Barbarian table, you gain this feature again at levels 8, 12, 16, and 19. 
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+### Level 5: Extra Attack
 
-## Fast Movement
+You can attack twice, instead of once, whenever you take the [[glossary:Attack]] action on your turn. 
 
-Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.
+### Level 5: Fast Movement
 
-## Feral Instinct
+Your speed increases by 10 feet while you aren't wearing Heavy Armor. 
 
-By 7th level, your instincts are so honed that you have advantage on initiative rolls.
-        
-Additionally, if you are surprised at the beginning of combat and aren't [[[general:conditions#incapacitated|incapacitated]]], you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+### Level 7: Feral Instinct
 
-## Brutal Critical
+Your instincts are so honed that you have Advantage on Initiative rolls. 
 
-Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.
+### Level 7: Instinctive Pounce
 
-This increases to two additional dice at 13th level and three additional dice at 17th level.
+As part of the Bonus Action you take to enter your Rage, you can [[glossary:Move]] up to half your Speed. 
 
-## Relentless Rage
+### Level 9: Brutal Strike
 
-Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
-        
-Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.
+If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or [[glossary:Unarmed Strike]], and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
-## Persistent Rage
+***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then [[glossary:Move]] up to half your Speed straight toward the target without provoking Opportunity Attacks.  
+***Hamstring Blow.*** The target's Speed is reduced by 15 feet until the start of your next turn.
 
-Beginning at 15th level, your rage is so fierce that it ends early only if you fall [[[general:conditions#unconscious|unconscious]]] or if you choose to end it.
+### Level 11: Relentless Rage
 
-## Indomitable Might
+Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
-Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.
+Each time you use this feature after the first, the DC increases by 5. When you finish a [[glossary:Short Rest]] or [[glossary:Long Rest]], the DC resets to 10.
 
-## Primal Champion
+### Level 13: Brutal Strike Improvement
 
-At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.
+You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.
 
-# Primal Paths
+Staggering Blow. The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.
+Sundering Blow. Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage.
 
-Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, a gift of a totem animal.
+### Level 15: Persistent Rage
 
-## Player's Handbook
+When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a [[glossary:Long Rest]].
+
+In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the [[glossary:Unconscious]], not the [[glossary:Incapacitated]], condition or don Heavy Armor.
+
+### Level 17: Brutal Strike Improvement
+
+The extra damage your Brutal Strike deals increases to 2d10. In addition, you can use two different Brutal Strike effects when you use your Brutal Strike feature.
+
+### Level 18: Indomitable Might
+
+If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.
+
+### Level 20: Primal Champion
+
+You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 26.
+
+# Barbarian Subclasses
+
+A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
 * [[[subclass:Path of the Berserker]]]
-* [[[subclass:Path of the Totem Warrior]]]
-
-## Sword Coast Adventurer's Guide
-
-* [[[subclass:Path of the Battlerager]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:Path of the Ancestral Guardian]]]
-* [[[subclass:Path of the Storm Herald]]]
+* [[[subclass:Path of the Wild Heart]]]
+* [[[subclass:Path of the World Tree]]]
 * [[[subclass:Path of the Zealot]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Path of the Beast]]]
-* [[[subclass:Path of Wild Magic]]]
-
-## Unearthed Arcana
-
-* [[[subclass:Path of the Giant]]]
-
-## Homebrew
-
-* [[[subclass:Path of the Battlerager (Homebrew)]]]
 
 ----
 
-*Source: Player's Handbook, p. 46*
+_Source: [Player's Handbook Playtest 8](https://www.dndbeyond.com/sources/ua/ph-playtest-8)_

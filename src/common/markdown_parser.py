@@ -11,10 +11,10 @@ from bottle import template, TemplateError
 
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name, list_media_files
-from src.dnd.magic_item_tracker import build_magic_item_tracker
-from src.dnd.npc_generator import create_npc
-from src.dnd.utils import to_mod
-from src.onednd.utils import split_rules_glossary, RulesGlossaryEntry
+from src.dnd5e.magic_item_tracker import build_magic_item_tracker
+from src.dnd5e.npc_generator import create_npc
+from src.dnd5e.utils import to_mod
+from src.dnd.utils import split_rules_glossary, RulesGlossaryEntry
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = [

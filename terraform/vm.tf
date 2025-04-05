@@ -2,6 +2,9 @@ resource "google_compute_address" "my_wiki" {
   name         = "my-wiki"
   address_type = "EXTERNAL"
   network_tier = "STANDARD"
+  labels = {
+      product = local.product
+  }
 }
 
 resource "google_compute_instance" "my_wiki" {
@@ -12,7 +15,7 @@ resource "google_compute_instance" "my_wiki" {
     device_name = "my-wiki"
     auto_delete = false
     initialize_params {
-      image = "debian-cloud/debian-11"
+      image = "debian-cloud/debian-11"  # Update to newest version when able
       type  = "pd-standard"
     }
   }
@@ -50,5 +53,9 @@ resource "google_compute_instance" "my_wiki" {
     ignore_changes = [
       metadata["ssh-keys"]
     ]
+  }
+
+  labels = {
+      product = local.product
   }
 }
