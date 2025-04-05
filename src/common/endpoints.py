@@ -65,6 +65,13 @@ def _load_swagger_def() -> dict:
     return d
 
 
+def _get_request_params() -> dict:
+    d = {}
+    for key in request.params:
+        d[key] = request.params.getunicode(key, encoding="utf-8")
+    return d
+
+
 def load_wsgi_endpoints(app: Bottle):
     swagger_def = _load_swagger_def()
     app.install(SwaggerPlugin(swagger_def, serve_swagger_ui=True))
@@ -153,7 +160,7 @@ def load_wsgi_endpoints(app: Bottle):
     @auth_basic(visual_aid_auth_check)
     def set_visual_aid():
         global visual_aid_type, visual_aid_url, visual_aid_title
-        params = dict(request.params)
+        params = _get_request_params()
         print(params)
         if "action" not in params:
             # Try to handle weird Obsidian params packing
