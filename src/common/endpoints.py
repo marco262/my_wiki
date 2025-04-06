@@ -26,8 +26,10 @@ PLAYER_SOUNDBOARD_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAU
 GM_NOTES_PW_HASH = b"$2b$12$CQk/8o5DPPy05njxM8kO4e/WWr5UV7EXtE1sjctnKAUCLj5nqTcHC"
 
 visual_aid_type = "visual_aid"
-visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
-visual_aid_title = "The Nerds of Light"
+# visual_aid_url = "/media/img/visual_aids/arr/ARR Opening Wallpaper.png"
+visual_aid_url = "/media/img/visual_aids/class_1a/Class_1A.png"
+# visual_aid_title = "The Nerds of Light"
+visual_aid_title = ""
 visual_aid_version = "1.4.0"
 volume_settings: Optional[dict] = None
 websocket_list = []
@@ -65,10 +67,15 @@ def _load_swagger_def() -> dict:
     return d
 
 
-def _get_request_params() -> dict:
+def _get_request_params(encoding: str = "utf-8") -> dict:
+    """
+    Retrieves the form data and query params from the current request as UTF-8 encoding, and returns them as a
+    dictionary. This gets around an issue where bottle parses all incoming data as "latin-1" rather than "utf-8",
+    which should be the default per the HTML5 spec.
+    """
     d = {}
     for key in request.params:
-        d[key] = request.params.getunicode(key, encoding="utf-8")
+        d[key] = request.params.getunicode(key, encoding=encoding)
     return d
 
 

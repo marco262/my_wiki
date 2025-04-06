@@ -2,10 +2,6 @@
 
 ### Next session
 
-* Plan out an orientation session that showcases each PC's abilities
-* Everyone is on board with an Orientation plan
-* Timtom can show off special knowledge of the school
-* Showcase the cafeteria and dormitories
 * How are they treated by each other and the older students?
 * Add fade-out one music/ambience change
 * Add map to wiki
@@ -28,7 +24,7 @@
 ### Reminders
 
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
-* Use 3 minute combat timer!
+* Use 3-minute combat timer!
 * Tell the players what the DCs are of checks they do
 * NPC voices!
 

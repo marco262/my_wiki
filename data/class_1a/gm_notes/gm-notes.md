@@ -34,6 +34,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Introduction]()
     * [Scavenger Hunt]()
+* [Salted Legacy]()
 
 ## Places
 
