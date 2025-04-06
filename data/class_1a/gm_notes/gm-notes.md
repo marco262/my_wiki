@@ -57,3 +57,26 @@ Enter another URL to set as Visual Aid here:
 * [Staff of Birdcalls](/dnd/equipment/magic-item/Staff of Birdcalls) (Sandpoint Reward) -- Minor Common
 * [Instrument of Illusions](/dnd/equipment/magic-item/Instrument of Illusions) (Sandpoint Reward) -- Minor Common
   [[/magic-item-tracker]]
+
+
+* Elleewick
+  * Dagger of Returning -- 
+  * Mystery Key -- Minor Common
+  * Spell Tattoo (Witch Bolt)
+* Timtom
+  * Hat of Vermin
+  * Clockwork amulet
+  * Fashion cloak
+  * Pipe of smoke monsters
+  * Spell tattoo (Protection from Evil and Good)
+* Gren
+  * Staff of Birdcalls
+  * Boots of False Tracks
+  * Immovable Rod
+* Alyse
+  * Flute of Illusions
+  * Cloak of Billowing
+  * Elemental Gem (Fire)
+* Meli
+  * Horn of Silent Alarm
+  * Instrument of Scribing
