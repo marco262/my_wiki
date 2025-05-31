@@ -40,43 +40,40 @@ Enter another URL to set as Visual Aid here:
 
 * [Professor David's School for Precocious Heroes]()
 
-## Awarded Magic Items
-
 [[magic-item-tracker]]
-* [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-1st-level) (Burning Hands) -- Minor Common
-* [Spell Scroll](/dnd/equipment/magic-item/spell-scroll-2nd-level) (Flaming Sphere) -- Minor Uncommon
-* [Dagger of Returning](/dnd/equipment/magic-item/Weapon of Returning) (Catacombs of Wrath) -- Minor Uncommon
-* [Wand of Witch Bolt](/dnd/equipment/magic-item/Wand of Witch Bolt) (Catacombs of Wrath) -- Major Uncommon
-* [Potion of Growth](/dnd/equipment/magic-item/Potion of Growth) (Catacombs of Wrath) -- Minor Uncommon
-* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-2nd-level) (See Invisibility) -- Minor Uncommon
-* [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks) (Bruthazmus) -- Minor Common
-* [Sword of Vengeance](/dnd/equipment/magic-item/sword-of-vengeance) (Nualia) -- Major Uncommon
-* [Sihedron Medallion](/dnd/equipment/magic-item/sihedron-medallion) (Nualia) -- Minor Rare
-* [Cast-Off Armor](/dnd/equipment/magic-item/Cast-Off Armor) (Thistletop E4) -- Minor Common
-* [Pole of Collapsing](/dnd/equipment/magic-item/Pole of Collapsing) (Thistletop E4) -- Minor Common
-* [Staff of Birdcalls](/dnd/equipment/magic-item/Staff of Birdcalls) (Sandpoint Reward) -- Minor Common
-* [Instrument of Illusions](/dnd/equipment/magic-item/Instrument of Illusions) (Sandpoint Reward) -- Minor Common
-  [[/magic-item-tracker]]
+## Starting Magic Items
 
+#### Elleewick
 
-* Elleewick
-  * Dagger of Returning -- 
-  * Mystery Key -- Minor Common
-  * Spell Tattoo (Witch Bolt)
-* Timtom
-  * Hat of Vermin
-  * Clockwork amulet
-  * Fashion cloak
-  * Pipe of smoke monsters
-  * Spell tattoo (Protection from Evil and Good)
-* Gren
-  * Staff of Birdcalls
-  * Boots of False Tracks
-  * Immovable Rod
-* Alyse
-  * Flute of Illusions
-  * Cloak of Billowing
-  * Elemental Gem (Fire)
-* Meli
-  * Horn of Silent Alarm
-  * Instrument of Scribing
+* [Dagger of Returning](/dnd/equipment/magic-item/weapon-of-returning) -- Minor Uncommon
+* [Mystery Key](/dnd/equipment/magic-item/mystery-key) -- Minor Common
+* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-1st-level) (Witch Bolt) -- Minor Common
+
+#### Timtom
+
+* [Hat of Vermin](/dnd/equipment/magic-item/hat-of-vermin) -- Minor Common
+* [Clockwork Amulet](/dnd/equipment/magic-item/clockwork-amulet) -- Minor Common
+* [Cloak of Many Fashions](/dnd/equipment/magic-item/cloak-of-many-fashions) -- Minor Common
+* [Pipe of Smoke Monsters](/dnd/equipment/magic-item/pipe-of-smoke-monsters) -- Minor Common
+* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-1st-level) (Protection from Evil and Good) -- Minor Common
+
+#### Gren
+
+* [Staff of Birdcalls](/dnd/equipment/magic-item/staff-of-birdcalls) -- Minor Common
+* [Boots of False Tracks](/dnd/equipment/magic-item/boots-of-false-tracks) -- Minor Common
+* [Immovable Rod](/dnd/equipment/magic-item/immovable-rod) -- Minor Uncommon
+
+#### Alyse
+
+* [Flute of Illusions](/dnd/equipment/magic-item/instrument-of-illusions) -- Minor Common
+* [Cloak of Billowing](/dnd/equipment/magic-item/cloak-of-billowing) -- Minor Common
+* [Elemental Gem (Fire)](/dnd/equipment/magic-item/elemental-gem) -- Minor Uncommon
+
+#### Meli
+
+* [Horn of Silent Alarm](/dnd/equipment/magic-item/horn-of-silent-alarm) -- Minor Common
+* [Instrument of Scribing](/dnd/equipment/magic-item/instrument-of-scribing) -- Minor Common
+* [Moon-Touched Longsword](/dnd/equipment/magic-item/moon-touched-sword) -- Minor Common
+
+## Awarded Magic Items
+[[/magic-item-tracker]]

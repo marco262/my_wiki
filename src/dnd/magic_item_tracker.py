@@ -9,60 +9,60 @@ TierDict = Dict[str, Dict[str, Dict[str, int]]]
 TIER_DICTS = {
     "1—4": {
         "Minor": {
-            "Common": {"current": 0, "max": 6},
-            "Uncommon": {"current": 0, "max": 2},
-            "Rare": {"current": 0, "max": 1},
+            "Common":    {"current": 0, "max": 6},
+            "Uncommon":  {"current": 0, "max": 2},
+            "Rare":      {"current": 0, "max": 1},
             "Very Rare": {"current": 0, "max": 0},
             "Legendary": {"current": 0, "max": 0},
         },
         "Major": {
-            "Uncommon": {"current": 0, "max": 2},
-            "Rare": {"current": 0, "max": 0},
+            "Uncommon":  {"current": 0, "max": 2},
+            "Rare":      {"current": 0, "max": 0},
             "Very Rare": {"current": 0, "max": 0},
             "Legendary": {"current": 0, "max": 0},
         },
     },
     "5—10": {
         "Minor": {
-            "Common": {"current": 0, "max": 10},
-            "Uncommon": {"current": 0, "max": 12},
-            "Rare": {"current": 0, "max": 5},
+            "Common":    {"current": 0, "max": 10},
+            "Uncommon":  {"current": 0, "max": 12},
+            "Rare":      {"current": 0, "max": 5},
             "Very Rare": {"current": 0, "max": 1},
             "Legendary": {"current": 0, "max": 0},
         },
         "Major": {
-            "Uncommon": {"current": 0, "max": 5},
-            "Rare": {"current": 0, "max": 1},
+            "Uncommon":  {"current": 0, "max": 5},
+            "Rare":      {"current": 0, "max": 1},
             "Very Rare": {"current": 0, "max": 0},
             "Legendary": {"current": 0, "max": 0},
         },
     },
     "11—16": {
         "Minor": {
-            "Common": {"current": 0, "max": 3},
-            "Uncommon": {"current": 0, "max": 6},
-            "Rare": {"current": 0, "max": 9},
+            "Common":    {"current": 0, "max": 3},
+            "Uncommon":  {"current": 0, "max": 6},
+            "Rare":      {"current": 0, "max": 9},
             "Very Rare": {"current": 0, "max": 5},
             "Legendary": {"current": 0, "max": 1},
         },
         "Major": {
-            "Uncommon": {"current": 0, "max": 1},
-            "Rare": {"current": 0, "max": 2},
+            "Uncommon":  {"current": 0, "max": 1},
+            "Rare":      {"current": 0, "max": 2},
             "Very Rare": {"current": 0, "max": 2},
             "Legendary": {"current": 0, "max": 1},
         },
     },
     "17+": {
         "Minor": {
-            "Common": {"current": 0, "max": 0},
-            "Uncommon": {"current": 0, "max": 0},
-            "Rare": {"current": 0, "max": 4},
+            "Common":    {"current": 0, "max": 0},
+            "Uncommon":  {"current": 0, "max": 0},
+            "Rare":      {"current": 0, "max": 4},
             "Very Rare": {"current": 0, "max": 9},
             "Legendary": {"current": 0, "max": 6},
         },
         "Major": {
-            "Uncommon": {"current": 0, "max": 0},
-            "Rare": {"current": 0, "max": 1},
+            "Uncommon":  {"current": 0, "max": 0},
+            "Rare":      {"current": 0, "max": 1},
             "Very Rare": {"current": 0, "max": 2},
             "Legendary": {"current": 0, "max": 3},
         },
@@ -70,15 +70,15 @@ TIER_DICTS = {
 }
 TOTALS = {
     "Minor": {
-        "Common": {"current": 0, "max": 19},
-        "Uncommon": {"current": 0, "max": 20},
-        "Rare": {"current": 0, "max": 19},
+        "Common":    {"current": 0, "max": 19},
+        "Uncommon":  {"current": 0, "max": 20},
+        "Rare":      {"current": 0, "max": 19},
         "Very Rare": {"current": 0, "max": 15},
         "Legendary": {"current": 0, "max": 7},
     },
     "Major": {
-        "Uncommon": {"current": 0, "max": 8},
-        "Rare": {"current": 0, "max": 4},
+        "Uncommon":  {"current": 0, "max": 8},
+        "Rare":      {"current": 0, "max": 4},
         "Very Rare": {"current": 0, "max": 4},
         "Legendary": {"current": 0, "max": 4},
     },
@@ -93,17 +93,17 @@ def build_magic_item_tracker(text: str) -> str:
 
 def count_magic_items(magic_item_list: List[str]) -> TierDict:
     """
-    Takes in a list of magic items of the format "<name> -- <major/minor> <rarity>" and creates a TierDict counting
+    Takes in a list of magic items with the format "<name> -- <major/minor> <rarity>" and creates a TierDict counting
     the total magic items.
     """
     totals = deepcopy(TOTALS)
     for magic_item in magic_item_list:
-        if not magic_item.strip():
-            # Handle blank lines gracefully
+        if not magic_item.strip() or magic_item.startswith("#"):
+            # Handle blank lines and header lines gracefully
             continue
         m = re.match(r".* -- (Major|Minor) (.*)", magic_item, re.I)
         if not m:
-            print(f"Not a valid magic item string: {magic_item}", file=sys.stderr)
+            print(f"Not a valid magic item string: {magic_item}")
             continue
         major_minor = str(m.group(1)).strip().title()
         rarity = str(m.group(2)).strip().title()

@@ -232,14 +232,14 @@ def load_wsgi_endpoints(app: Bottle):
             else:
                 page_name = magic_item
             output += f"* [{magic_item}](/dnd/equipment/magic-item/{page_name})"
-            # Add random spell to the end of the item name if necessary
+            # Add a random spell to the end of the item name if necessary
             m = re.search(r"(?:Spell Scroll|Spellwrought Tattoo), (.+)$", magic_item)
             if m:
                 level = "cantrip" if m.group(1) == "Cantrip" else m.group(1)[0]
                 _, random_spell = random.choice(spells_by_level[level])
                 output += f" (_[[[spell:{random_spell['title'].lower()}]]]_)"
             else:
-                # If it's not a spell scroll or tattoo, and we want to avoid duplicates, remove the chosen item from set
+                # If it's not a spell scroll or tattoo, and we want to avoid duplicates, remove the chosen item from the set
                 if request.params["no_duplicates"] == "true":
                     items_with_weights.remove(magic_item_tuple)
                     if len(items_with_weights) == 0:
