@@ -57,4 +57,5 @@
 
 [Stop all sounds]($stop|all|none)
 
-* [Majestic]($load|music|arr/BGM_EX3_Town_Y_Day2.mp3)
+* [Majestic]($load|music|arr/BGM_EX3_Town_Y_Day.mp3)
+* [Chill]($load|music|arr/BGM_EX3_Town_Y_Day2.mp3)
