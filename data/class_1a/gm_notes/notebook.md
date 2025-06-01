@@ -6,6 +6,10 @@
 * Add fade-out one music/ambience change
 * Add map to wiki
 * Get bigger map on Owlbear (smaller than 25 MB)
+* Make visual aids for
+  * All the named booths
+  * Merchants for the above
+  * Each game in the Market Games + runners
 
 ### Player Plans
 
