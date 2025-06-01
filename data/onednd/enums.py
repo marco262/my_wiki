@@ -147,6 +147,7 @@ source_acronyms = {
     "Player's Handbook Playtest 7": "PHP7",
     "Bastions and Cantrips": "BaC",
     "Player's Handbook Playtest 8": "PHP8",
+    "Player's Handbook 2024": "PHB24",
 }
 
 ability_scores = [
