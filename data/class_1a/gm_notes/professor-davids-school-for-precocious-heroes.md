@@ -52,3 +52,9 @@
 [Artisan's Hall](^class_1a/intro/artisans_hall.jfif)
 
 [Statues Gallery](^class_1a/intro/statues_gallery.jfif)
+
+# Music
+
+[Stop all sounds]($stop|all|none)
+
+* [Majestic]($load|music|arr/BGM_EX3_Town_Y_Day.mp3)
