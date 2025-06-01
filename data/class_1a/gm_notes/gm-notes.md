@@ -67,12 +67,12 @@ Enter another URL to set as Visual Aid here:
 
 * [Flute of Illusions](/dnd/equipment/magic-item/instrument-of-illusions) -- Minor Common
 * [Cloak of Billowing](/dnd/equipment/magic-item/cloak-of-billowing) -- Minor Common
-* [Elemental Gem (Fire)](/dnd/equipment/magic-item/elemental-gem) -- Minor Uncommon
+* [Fire Elemental Gem](/dnd/equipment/magic-item/elemental-gem) -- Minor Uncommon
 
 #### Meli
 
 * [Horn of Silent Alarm](/dnd/equipment/magic-item/horn-of-silent-alarm) -- Minor Common
-* [Instrument of Scribing](/dnd/equipment/magic-item/instrument-of-scribing) -- Minor Common
+* [Ocarina of Scribing](/dnd/equipment/magic-item/instrument-of-scribing) -- Minor Common
 * [Moon-Touched Longsword](/dnd/equipment/magic-item/moon-touched-sword) -- Minor Common
 
 ## Awarded Magic Items
