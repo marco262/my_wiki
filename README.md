@@ -4,19 +4,11 @@ A landing for my own personal use, primarily to present custom visualizations of
 
 ## Debian
 
-1. Update system, clone repo, create virtual environment, and install requirements:  
-   ```bash
-   sudo apt-get update
-   sudo apt-get install python3-pip python3.11-venv git tmux
-   git clone https://github.com/marco262/my_wiki.git
-   cd my_wiki
-   python3 -m venv venv
-   ./venv/bin/pip install -r requirements.txt
-   ```
-2. Make a copy of `config.ini.dist` and rename it to `config.ini`.
-   1. Alternately, run the server briefly to auto-create it.
-3. Update `config.ini` so `host` is the egress IP of the machine you're on, assuming you want this instance to host external traffic.
+1. Copy/paste the commands from [install_script.sh](install_script.sh) into the terminal.
+   1. Alternately, upload the script and run it there.
+2. Update `config.ini` so `host` is the egress IP of the machine you're on, assuming you want this instance to host external traffic.
    1. If running on Google Cloud, use the "Internal IP" of the VM, not the "External IP".
+   2. If you are configuring an HTTPS connection via Certbot (see below), you can skip this step. 
 
 ### Nginx and Certbot
 
@@ -42,6 +34,7 @@ upstream wiki {
 server {
     listen 80;
     server_name subdomain.your-domain.com;
+    client_max_body_size 50M;
 
     location / {
         proxy_pass http://localhost:8080;  # Change to your Bottle server's port
@@ -79,7 +72,9 @@ Ensure there are no syntax errors in your Nginx configuration:
 sudo nginx -t
 ```
 
-Obtain SSL/TLS certificate using certbot
+Now is the time to set up your DNS to point at the running VM.
+
+Next, obtain SSL/TLS certificate using certbot.
 
 ```bash
 sudo certbot --nginx -d subdomain.your-domain.com --key-type ecdsa
