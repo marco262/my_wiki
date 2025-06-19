@@ -7,11 +7,11 @@ A landing for my own personal use, primarily to present custom visualizations of
 1. Update system, clone repo, create virtual environment, and install requirements:  
    ```bash
    sudo apt-get update
-   sudo apt-get install python3-pip python3.11-venv tmux
+   sudo apt-get install python3-pip python3.11-venv git tmux
    git clone https://github.com/marco262/my_wiki.git
    cd my_wiki
    python3 -m venv venv
-   venv/bin/pip install -r requirements.txt
+   ./venv/bin/pip install -r requirements.txt
    ```
 2. Make a copy of `config.ini.dist` and rename it to `config.ini`.
    1. Alternately, run the server briefly to auto-create it.

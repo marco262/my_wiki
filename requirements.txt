@@ -3,8 +3,8 @@ toml
 bcrypt
 fasteners
 GitPython
-git+https://github.com/ryanvilbrandt/bottle.git@master
-git+https://github.com/ryanvilbrandt/python-markdown2.git@master
+bottle
+markdown2
 bottle_websocket
 google-cloud-storage
 bottle-swagger-2
