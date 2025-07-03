@@ -93,7 +93,7 @@ def generate_months(start_year, start_month, end_year, end_month) -> Iterator[Tu
                 })
                 current_day += 1
                 moon_phase_counter += 4
-                # If we've run out of months in the year, move to next month. But don't stop generating the week yet.
+                # If we've run out of months in the year, move to the next month. But don't stop generating the week yet.
                 if current_day > MONTHS[current_month]["days"]:
                     current_year, current_month = next_year_month(current_year, current_month)
                     current_day = 1

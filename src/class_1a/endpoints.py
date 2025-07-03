@@ -45,7 +45,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/calendar")
     @view("sandpoint/calendar.tpl")
     def calendar():
-        months = {y: m for y, m in generate_months(1495, "Rova", 4707, "Lamashan")}
+        months = {y: m for y, m in generate_months(1495, "Eleint", 1495, "Eleint")}
         return {"months": months}
 
 
