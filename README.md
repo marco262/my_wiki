@@ -28,7 +28,7 @@ Create a new file nginx file at `/etc/nginx/sites-available/my_wiki` with the fo
 
 ```bash
 upstream wiki {
-    server localhost:8080;  # Change to your Bottle server's port
+    server 127.0.0.1:8080;  # Change to your Bottle server's port
     keepalive 32;
 }
 server {
@@ -37,7 +37,7 @@ server {
     client_max_body_size 50M;
 
     location / {
-        proxy_pass http://localhost:8080;  # Change to your Bottle server's port
+        proxy_pass http://127.0.0.1:8080;  # Change to your Bottle server's port
         proxy_http_version 1.1;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -46,7 +46,7 @@ server {
     }    
 
     location /visual_aid_websocket {
-        proxy_pass http://localhost:8080;  # Change to your Bottle server's port
+        proxy_pass http://127.0.0.1:8080;  # Change to your Bottle server's port
         proxy_http_version 1.1;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
