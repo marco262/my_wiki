@@ -200,7 +200,7 @@ sudo apt install iptables-persistent
 sudo netfilter-persistent save
 ```
 ## Cheatsheet
-* View TARPIT logs `sudo journalctl -k | grep "TARPIT IP:"`
+* View TARPIT logs `sudo journalctl -k | grep "TARPIT IP:" | less`
 * Add to ipset `sudo ipset add deny_list 11.22.33.44`
 * Delete from ipset `sudo ipset del deny_list 11.22.33.44`
 * List ipset `sudo ipset list deny_list`
