@@ -136,3 +136,73 @@ To automatically sync your local `media/` directory with the bucket:
 ```bash
 gsutil -m rsync -ruc media/ gs://<bucket-id>/media/
 ```
+
+# TARPIT
+
+TARPIT is a useful Linux module that that will cause connections from certain IPs to be dropped without closing them, which can be inconvenient for malicious bots. Below is a brief summary of how to install it on a Google Cloud VM (Debian 12).
+
+## Update Linux and load TARPIT module
+Install the newest linux kernel.
+```
+sudo apt install linux-image-amd64
+```
+Edit the Grub config so the VM will boot with the non-cloud OS.
+```
+sudo vim /etc/default/grub
+```
+Edit the following line:
+```diff
+-GRUB_DEFAULT=0
++GRUB_DEFAULT="Advanced options for Debian GNU/Linux>Debian GNU/Linux, with Linux 6.1.0-37-amd64"
+```
+Regenerate GRUB and reboot
+```
+sudo update-grub
+sudo reboot
+```
+After reboot, confirm that `uname -r` returns `6.1.0-37-amd64`
+Next, load the TARPIT module
+```
+sudo apt install xtables-addons-dkms
+sudo modprobe xt_TARPIT
+```
+## Test iptables
+Log into another VM or a friend's computer and curl the IP of the target VM to confirm you get a valid reponse.
+```
+curl http://<ip-of-target-vm>:443
+```
+Add the external IP of the VM. Set `--dport` to the port you want to block.
+```
+sudo iptables -A INPUT -s 1.2.3.4 -p tcp --dport 443 -j TARPIT
+```
+In that other VM, curl the main VM again and confirm the connection times out.
+
+After you're done testing, delete that rule:
+```
+sudo iptables -L INPUT -n --line-numbers
+sudo iptables -D INPUT 1
+```
+## Create Deny List ipset
+Create ipset and add blocked IPs
+```
+sudo ipset create deny_list hash:ip
+sudo ipset add deny_list 1.2.3.4
+sudo ipset add deny_list 11.22.33.44
+```
+Add logging and TARPIT rules, and remember to set `--dport`
+```
+sudo iptables -A INPUT -m set --match-set deny_list src -p tcp --dport 443 -j LOG --log-prefix "TARPIT IP: " --log-level 4
+sudo iptables -A INPUT -m set --match-set deny_list src -p tcp --dport 443 -j TARPIT
+```
+Make iptables config persistent (you will have to select <Yes> to save your config during package installation)
+```
+sudo apt install iptables-persistent
+sudo netfilter-persistent save
+```
+## Cheatsheet
+* View TARPIT logs `sudo journalctl -k | grep "TARPIT IP:"`
+* Add to ipset `sudo ipset add deny_list 11.22.33.44`
+* Delete from ipset `sudo ipset del deny_list 11.22.33.44`
+* List ipset `sudo ipset list deny_list`
+* Save changes to ipset `sudo netfilter-persistent save`
+* Save ipset to file `sudo ipset save > /path/to/file.conf`
