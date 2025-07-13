@@ -7,7 +7,6 @@
 * Add map to wiki
 * Get bigger map on Owlbear (smaller than 25 MB)
 * Make visual aids for
-  * Each game in the Market Games + runners
   * Music for the Battle Prawns
 
 ### Player Plans
@@ -26,6 +25,7 @@
 
 ### Reminders
 
+* Put the players on rails and keep them there! (No really, they asked you to do that!)
 * When a player is exploring a space, put them on a map, even if you just have to sketch something really quick.
 * Use 3-minute combat timer!
 * Tell the players what the DCs are of checks they do
