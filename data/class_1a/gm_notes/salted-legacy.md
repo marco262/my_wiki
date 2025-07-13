@@ -18,10 +18,10 @@
 
 ## Locations
 
-* Dy Singh Night Market, in the Siabsungkoh Valley
-  * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
-  * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_2.png)
-  * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_3.png)
+* Dyn Singh Night Market, in the Siabsungkoh Valley
+  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
+  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_2.png)
+  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_3.png)
 * [Stolen Onions](^class_1a/salted_legacy/stolen_onions.png)
 
 ### Stalls
