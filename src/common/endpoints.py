@@ -69,7 +69,7 @@ def _load_swagger_def() -> dict:
 
 def _get_request_params(encoding: str = "utf-8") -> dict:
     """
-    Retrieves the form data and query params from the current request as UTF-8 encoding, and returns them as a
+    Retrieves the form data and query params from the current request as UTF-8 encoding and returns them as a
     dictionary. This gets around an issue where bottle parses all incoming data as "latin-1" rather than "utf-8",
     which should be the default per the HTML5 spec.
     """
@@ -206,7 +206,7 @@ def load_wsgi_endpoints(app: Bottle):
     @auth_basic(visual_aid_auth_check)
     def upload_visual_aid():
         """
-        The request body must be a bytes string, where the first line (up to \n) is a JSON dict with a
+        The request body must be a byte string, where the first line (up to \n) is a JSON dict with a
         `target_path` field representing the path to save the file to.
         """
         temp_file: tempfile._TemporaryFileWrapper = request.body

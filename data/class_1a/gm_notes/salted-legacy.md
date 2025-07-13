@@ -7,19 +7,47 @@
 ## NPCs
 
 * [Kusa Xungoon](^class_1a/salted_legacy/kusa_xungoon.png), female kobold, runs Xungoon Family Seafood
-* [Annaliese Nudelverkäufer](^class_1a/salted_legacy/annaliese_nudelverkaufer.png), female gnome, owner of _Kaputt mit Noodles_ 
+  * [Gammon Xungoon](^class_1a/salted_legacy/gammon_xungoon.png)
+* [Annaliese Nudelverkäufer](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png), female gnome, owner of _Kaputt mit Noodles_ 
   * Replaces "Lamai Tyenmo" in the module
 * [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png), male humans, the Spicy Brothers
 * [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png), female gnome, runs Madam Kulp's Silk
-* Sid Squid ([1](^class_1a/salted_legacy/sid_squid_1.png), [2](^class_1a/salted_legacy/sid_squid_2.png)), male human, owner of Trusty Leek
+* Wynling
+  * [Wynling](^class_1a/salted_legacy/wynling.png) (cute)
+  * [Wynling](^class_1a/salted_legacy/wynling_2.png) (creepy)
 
 ## Locations
 
-* Dy Singh Night Market
+* Dy Singh Night Market, in the Siabsungkoh Valley
   * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
   * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_2.png)
   * [Dy Singh Night Market](^class_1a/salted_legacy/night_market_3.png)
 * [Stolen Onions](^class_1a/salted_legacy/stolen_onions.png)
+
+### Stalls
+
+* [Kaputt mit Noodles](^class_1a/salted_legacy/annaliese_nudelverkaufer_4.png)
+* [Madam Kulp's Silk](^class_1a/salted_legacy/madam_kulps_silk.png)
+  * [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
+* [Spice Brothers](^class_1a/salted_legacy/spice_brothers.png)
+* [Trusty Leek](^class_1a/salted_legacy/trusty_leek.png)
+* [Vada's Otherworldly Goods](^class_1a/salted_legacy/vadas_otherworldly_goods.png)
+* [Va's Lucky Amulets](^class_1a/salted_legacy/vas_lucky_amulets_3.png)
+* [Xungoon Family Seafood](^class_1a/salted_legacy/xungoon_family_seafood.png)
+
+### Market Games
+
+* Greet the Heat
+  * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_setup.png) (setup)
+  * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_start.png) (start)
+* Battle Prawn Challenge
+  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_setup.png) (setup)
+  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_start.png) (start)
+  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge.png)
+  * [Jagged Koi Prawn](^class_1a/salted_legacy/jagged_koi_prawn.png)
+* Hide and Seek
+  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_setup.png) (setup)
+  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png) (start)
 
 ## Music
 

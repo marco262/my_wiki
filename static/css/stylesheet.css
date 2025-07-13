@@ -458,7 +458,7 @@ blockquote {
     /*max-height: 300px;*/
     max-width: 300px;
     background-color: black;
-    padding: 5px 3px;
+    padding: 5px 3px 1px 3px;
     border-radius: 6px;
 
     /* Position the tooltip text - see examples below! */
