@@ -48,6 +48,8 @@
 * Hide and Seek
   * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_setup.png) (setup)
   * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png) (start)
+  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png) (room)
+    * [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
 
 ## Music
 
