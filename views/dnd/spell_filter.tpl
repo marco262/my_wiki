@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
-% from data.onednd.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
+% from data.dnd5e.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
 <table border="0">
     <tr valign="top">
         <td>

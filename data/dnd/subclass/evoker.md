@@ -1,10 +1,10 @@
-[[breadcrumb /onednd/class/Wizard|Wizard]]
+[[breadcrumb /dnd/class/Wizard|Wizard]]
 
 You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as adventurers.
 
 ### Level 3: Evocation Savant
 
-Choose two Evocation spells from the [Wizard spell list](/onednd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
+Choose two Evocation spells from the [Wizard spell list](/dnd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
 
 In addition, whenever you gain access to a new level of spell slots in this class, you can add one Evocation spell from the Wizard spell list to your spellbook for free.
 

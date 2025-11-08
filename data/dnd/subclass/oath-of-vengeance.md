@@ -2,7 +2,7 @@
 toc: false
 ---
 
-[[breadcrumb /onednd/class/Paladin|Paladin]]
+[[breadcrumb /dnd/class/Paladin|Paladin]]
 
 <div class="phb-sidebar" markdown="1">
 

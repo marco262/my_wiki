@@ -8,7 +8,7 @@
 % end
 
 <%
-from data.dnd.enums import classes as class_list
+from data.dnd5e.enums import classes as class_list
 spell_class_list = []
 for c in class_list:
     if c in classes or c in get("classes_ua", []):

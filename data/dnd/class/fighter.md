@@ -87,7 +87,7 @@ As a Fighter, you gain the following Class Features when you reach the specified
 
 ### Level 1: Fighting Style
 
-You have honed your martial prowess and gain a [Fighting Style feat](/onednd/advancement/Feats#fighting-style-archery) of your choice (those feats have this feature as a prerequisite).
+You have honed your martial prowess and gain a [Fighting Style feat](/dnd/advancement/Feats#fighting-style-archery) of your choice (those feats have this feature as a prerequisite).
 
 Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
 
@@ -101,7 +101,7 @@ When you reach certain Fighter levels, you gain more uses of this feature, as sh
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [Mastery](/dnd/general/equipment#mastery-properties) property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table.
 
@@ -163,10 +163,10 @@ Your Extra Attack feature now confers three extra attacks rather than two.
 
 A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
-* [Battle Master](/onednd/subclass/Battle Master)
-* [Brawler](/onednd/subclass/Brawler)
-* [Champion](/onednd/subclass/Champion)
-* [Eldritch Knight](/onednd/subclass/Eldritch Knight)
+* [Battle Master](/dnd/subclass/Battle Master)
+* [Brawler](/dnd/subclass/Brawler)
+* [Champion](/dnd/subclass/Champion)
+* [Eldritch Knight](/dnd/subclass/Eldritch Knight)
 
 ----
 

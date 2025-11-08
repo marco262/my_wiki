@@ -13,7 +13,7 @@ class RulesGlossaryEntry(TypedDict):
 def split_rules_glossary() -> Dict[str, RulesGlossaryEntry]:
     max_length = 500
     md = Markdown()
-    with open("data/onednd/general/rules-glossary.md") as f:
+    with open("data/dnd/general/rules-glossary.md") as f:
         page = f.read()
     rules_glossary = {}
     split_page = re.split(r"^## ", page, flags=re.MULTILINE)

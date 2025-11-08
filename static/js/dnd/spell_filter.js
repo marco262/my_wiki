@@ -19,7 +19,7 @@ function filter() {
     clearTimeout(key_press_timer);
     let json = JSON.stringify(get_ui_state());
     setCookie("filter_state", json);
-    ajax_call("/onednd/spell_filter_results", handle_filter_results, {"filter_keys": json});
+    ajax_call("/dnd/spell_filter_results", handle_filter_results, {"filter_keys": json});
 }
 
 function handle_filter_results(xhttp) {

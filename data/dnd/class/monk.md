@@ -212,8 +212,8 @@ You have honed your body and mind to new heights. Your Dexterity and Wisdom scor
 
 A Monk subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass.
 
-* [Warrior of the Four Elements](/onednd/subclass/Warrior of the Four Elements)
-* [Warrior of the Hand](/onednd/subclass/Warrior of the Hand)
+* [Warrior of the Four Elements](/dnd/subclass/Warrior of the Four Elements)
+* [Warrior of the Hand](/dnd/subclass/Warrior of the Hand)
 * [Warrior of Mercy](/dnd/subclass/Way of Mercy)
 * [Warrior of Shadow](/onednd/subclass/Warrior of the Shadow)
 

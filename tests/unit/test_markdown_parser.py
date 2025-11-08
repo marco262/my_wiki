@@ -192,11 +192,11 @@ Text block
 
     def test_add_breadcrumbs(self):
         text = """
-[[breadcrumb /onednd/class/Paladin|Paladin]]
+[[breadcrumb /dnd/class/Paladin|Paladin]]
 
 <div class="phb-sidebar" markdown="1">"""
         expected = """
-⟵ [Paladin](/onednd/class/Paladin)
+⟵ [Paladin](/dnd/class/Paladin)
 
 <div class="phb-sidebar" markdown="1">"""
         md = MarkdownParser()

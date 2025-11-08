@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Fighter|Fighter]]
+[[breadcrumb /dnd/class/Fighter|Fighter]]
 
 Brawlers focus their training and study not on swordplay and battle tactics, but on the skills needed to turn a punch or kick into a brutal strike and any innocuous object into a deadly weapon. Some Brawlers thrive in tavern scuffles and street rumbles, while others excel in espionage, wielding ordinary objects with the deadliness of an assassin's knife.
 
@@ -17,8 +17,8 @@ Until the end of your next [[glossary:Long Rest]], the One-Handed choice applies
 
 In addition, whenever you attack with an Improvised Weapon, you can give it one of the following Mastery properties for that attack, depending on whether it can be wielded in one hand or two:
 
-**One-Handed:** [Sap](/onednd/general/equipment#sap), [Slow](/onednd/general/equipment#slow), or [Vex](/onednd/general/equipment#vex)  
-**Two-Handed:** [Cleave](/onednd/general/equipment#cleave), [Push](/onednd/general/equipment#push), or [Topple](/onednd/general/equipment#topple)
+**One-Handed:** [Sap](/dnd/general/equipment#sap), [Slow](/dnd/general/equipment#slow), or [Vex](/dnd/general/equipment#vex)  
+**Two-Handed:** [Cleave](/dnd/general/equipment#cleave), [Push](/dnd/general/equipment#push), or [Topple](/dnd/general/equipment#topple)
 
 ### Level 7: Grappling Expert
 

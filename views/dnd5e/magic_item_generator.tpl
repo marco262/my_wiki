@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title="Magic Item Generator")
 % from math import ceil
-% from data.dnd.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
+% from data.dnd5e.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
 
 <p>
 <label for="magic-item-tables">Select a magic item table:</label>

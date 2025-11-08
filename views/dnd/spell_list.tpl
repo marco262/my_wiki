@@ -13,7 +13,7 @@ else:
 
 <h2>{{level_name}}</h2>
 <%
-            include("onednd/spell_list_table.tpl", spells=spell_dict[level])
+            include("dnd/spell_list_table.tpl", spells=spell_dict[level])
         end
     end
     %>

@@ -52,7 +52,7 @@ def load_wsgi_endpoints(app: Bottle):
         return md_page(name, "dnd5e", "equipment")
 
     @app.get('/equipment/magic-item/<name>')
-    @view("dnd/magic-item.tpl")
+    @view("dnd5e/magic-item.tpl")
     def magic_item(name):
         formatted_name = title_to_page_name(name)
         loaded_magic_items = load_magic_items()
@@ -81,7 +81,7 @@ def load_wsgi_endpoints(app: Bottle):
         return open_monster_sheet(name)
 
     @app.get('/spell/<name>')
-    @view("dnd/spell.tpl")
+    @view("dnd5e/spell.tpl")
     def spell(name):
         formatted_name = title_to_page_name(name)
         loaded_spells = load_spells()
@@ -92,7 +92,7 @@ def load_wsgi_endpoints(app: Bottle):
     # Misc Functions
 
     @app.get('/site_search')
-    @view('dnd/site_search.tpl')
+    @view('dnd5e/site_search.tpl')
     def site_search():
         return {
             "title": "Search",
@@ -100,7 +100,7 @@ def load_wsgi_endpoints(app: Bottle):
         }
 
     @app.route('/site_search/<search_term>')
-    @view('dnd/site_search.tpl')
+    @view('dnd5e/site_search.tpl')
     def site_search_with_results(search_term):
         t = time()
         results = SEARCH_OBJ.run(search_term)
@@ -130,7 +130,7 @@ def load_wsgi_endpoints(app: Bottle):
         results = SEARCH_OBJ.page_search(search_term)
         if isinstance(results, list):
             return template(
-                "dnd/site_search.tpl",
+                "dnd5e/site_search.tpl",
                 title="Page Search",
                 search_key=search_term,
                 search_results=results,
@@ -142,12 +142,12 @@ def load_wsgi_endpoints(app: Bottle):
             redirect(results)
 
     @app.get('/find_spell')
-    @view('dnd/find_spell.tpl')
+    @view('dnd5e/find_spell.tpl')
     def find_spell():
         return
 
     @app.get('/search_results/<search_key>')
-    @view("dnd/spell_list_table.tpl")
+    @view("dnd5e/spell_list_table.tpl")
     def search_results(search_key):
         results = []
         search_key = search_key.lower()
@@ -161,12 +161,12 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get("/spell_filter")
-    @view("dnd/spell_filter.tpl")
+    @view("dnd5e/spell_filter.tpl")
     def spell_filter():
         return
 
     @app.post('/spell_filter_results')
-    @view("dnd/spell_list.tpl")
+    @view("dnd5e/spell_list.tpl")
     def spell_filter_results():
         filters = loads(request.params["filter_keys"])
         _, spells_by_level = filter_spells(filters)
@@ -178,12 +178,12 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get("/equipment/magic_item_filter/")
-    @view("dnd/magic_item_filter.tpl")
+    @view("dnd5e/magic_item_filter.tpl")
     def magic_item_filter():
         return {"subtypes": ENUM_CACHE["magic_item"].get("subtype", set())}
 
     @app.post('/equipment/magic_item_filter_results')
-    @view("dnd/magic-items.tpl")
+    @view("dnd5e/magic-items.tpl")
     def magic_item_filter_results():
         filter_keys = loads(request.params["filter_keys"])
         filtered_magic_items = filter_magic_items(filter_keys)
@@ -193,7 +193,7 @@ def load_wsgi_endpoints(app: Bottle):
         return {"magic_items": results}
 
     @app.get("/equipment/magic_item_generator/")
-    @view("dnd/magic_item_generator.tpl")
+    @view("dnd5e/magic_item_generator.tpl")
     def magic_item_generator():
         return {"subtypes": get_enum_cache("magic_item").get("subtype", [])}
 
@@ -231,7 +231,7 @@ def load_wsgi_endpoints(app: Bottle):
                 page_name = m.group(1)
             else:
                 page_name = magic_item
-            output += f"* [{magic_item}](/dnd/equipment/magic-item/{page_name})"
+            output += f"* [{magic_item}](/dnd5e/equipment/magic-item/{page_name})"
             # Add random spell to the end of the item name if necessary
             m = re.search(r"(?:Spell Scroll|Spellwrought Tattoo), (.+)$", magic_item)
             if m:
@@ -246,10 +246,10 @@ def load_wsgi_endpoints(app: Bottle):
                         break
                     _, weights = zip(*items_with_weights)
             output += "\n"
-        return MD.parse_md(output, namespace="dnd")
+        return MD.parse_md(output, namespace="dnd5e")
 
     @app.get('/all_spells_by_name/<ua_spells>')
-    @view("dnd/spell_list_page.tpl")
+    @view("dnd5e/spell_list_page.tpl")
     def all_spells_by_name(ua_spells):
         spells = load_spells_by_level()
         d = {
@@ -261,7 +261,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/class_spell_list/<c>/<ua_spells>')
-    @view("dnd/spell_list_page.tpl")
+    @view("dnd5e/spell_list_page.tpl")
     def class_spell_list(c, ua_spells):
         spells = defaultdict(list)
         for k, v in load_spells().items():
@@ -276,7 +276,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/concentration_spells/<ua_spells>')
-    @view("dnd/spell_list_page.tpl")
+    @view("dnd5e/spell_list_page.tpl")
     def concentration_spell_list(ua_spells):
         spells = defaultdict(list)
         for k, v in load_spells().items():
@@ -291,7 +291,7 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/ritual_spells/<ua_spells>')
-    @view("dnd/spell_list_page.tpl")
+    @view("dnd5e/spell_list_page.tpl")
     def ritual_spell_list(ua_spells):
         spells = defaultdict(list)
         for k, v in load_spells().items():
@@ -306,17 +306,17 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get('/characters')
-    @view("dnd/characters.tpl")
+    @view("dnd5e/characters.tpl")
     def characters():
         dnd_characters = []
-        for path in sorted(glob("data/dnd/characters/*.json")):
+        for path in sorted(glob("data/dnd5e/characters/*.json")):
             dnd_characters.append(splitext(basename(path))[0])
         return {"title": "Characters", "characters": dnd_characters}
 
     @app.get('/character/<name>')
-    @view("dnd/character.tpl")
+    @view("dnd5e/character.tpl")
     def character(name):
-        path = "data/dnd/characters/{}.json".format(name)
+        path = "data/dnd5e/characters/{}.json".format(name)
         if not isfile(path):
             raise HTTPError(404, f"I couldn't find any character named \"{name}\".")
         with open(path) as f:
@@ -324,15 +324,15 @@ def load_wsgi_endpoints(app: Bottle):
         return {"title": name, "json": dnd_character}
 
     @app.post('/save_character/<name>')
-    @view("dnd/character.tpl")
+    @view("dnd5e/character.tpl")
     def save_character(name):
-        with open("data/dnd/character/{}.json".format(name), 'w') as f:
+        with open("data/dnd5e/character/{}.json".format(name), 'w') as f:
             f.write(request.params["character_data"])
 
     @app.get("/gm/monsters_by_name")
-    @view("dnd/monsters-by-name.tpl")
+    @view("dnd5e/monsters-by-name.tpl")
     def monsters_by_name():
-        folder = "data/dnd/monster"
+        folder = "data/dnd5e/monster"
         file_paths = sorted(glob(pjoin(folder, "*")))
         monsters = OrderedDict()
         excluded_files = ["all-pages.md", "include_monster-sheet.txt"]
@@ -341,7 +341,7 @@ def load_wsgi_endpoints(app: Bottle):
             if path in excluded_files:
                 continue
             filename = splitext(basename(path))[0]
-            link = "/dnd/monster/" + filename
+            link = "/dnd5e/monster/" + filename
             name = filename.replace("-", " ").title()
             # Don't overwrite *.md entries with *.toml entries
             if path.endswith("*.toml") and name in monsters:
@@ -352,7 +352,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("gm_notes/insert/<name>")
     @auth_basic(gm_notes_auth_check)
     def gm_notes_insert(name):
-        return md_page(name, "dnd", directory="gm_notes/inserts", load_template=False)
+        return md_page(name, "dnd5e", directory="gm_notes/inserts", load_template=False)
 
 
 def gm_notes_auth_check(username, password):

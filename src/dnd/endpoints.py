@@ -29,14 +29,14 @@ def load_spells():
     print("Loading spells into memory", end='')
     from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
-        for path in sorted(glob("data/onednd/spell/*.toml")):
+        for path in sorted(glob("data/dnd/spell/*.toml")):
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             k = splitext(basename(path))[0]
             if k in core_spells:
                 d["spell_lists"] = sorted(set(d["spell_lists"]).union([c.title() for c in core_spells[k]["classes"]]))
-            d["description_md"] = MD.parse_md(d["description"], namespace=, with_metadata=False)
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "source_extended" in d:
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             spells[k] = d
@@ -89,7 +89,7 @@ def load_wsgi_endpoints(app: Bottle):
         return md_page(name, "dnd", "subclass")
 
     @app.get('/spell/<name>')
-    @view("onednd/spell.tpl")
+    @view("dnd/spell.tpl")
     def spell(name):
         formatted_name = title_to_page_name(name)
         loaded_spells = load_spells()
@@ -99,7 +99,7 @@ def load_wsgi_endpoints(app: Bottle):
         return loaded_spells[formatted_name]
 
     @app.get('/spell_list/<c>')
-    @view("onednd/spell_list_page.tpl")
+    @view("dnd/spell_list_page.tpl")
     def class_spell_list(c):
         c = c.title()
         spells = defaultdict(list)
@@ -117,12 +117,12 @@ def load_wsgi_endpoints(app: Bottle):
         return d
 
     @app.get("/spell_filter")
-    @view("onednd/spell_filter.tpl")
+    @view("dnd/spell_filter.tpl")
     def spell_filter():
         return
 
     @app.post('/spell_filter_results')
-    @view("onednd/spell_list.tpl")
+    @view("dnd/spell_list.tpl")
     def spell_filter_results():
         filter_keys = loads(request.params["filter_keys"])
         results = defaultdict(list)

@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Monk|Monk]]
+[[breadcrumb /dnd/class/Monk|Monk]]
 
 Warriors of Shadow practice stealth and subterfuge, channeling their reservoirs of power to harness the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, to leap from shadow to shadow, and even to take on a wraithlike form of living shadow.
 

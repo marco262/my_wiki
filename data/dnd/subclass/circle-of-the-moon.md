@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Druid|Druid]]
+[[breadcrumb /dnd/class/Druid|Druid]]
 
 Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks before crossing paths with another person, let alone another Druid.
 

@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Bard|Bard]]
+[[breadcrumb /dnd/class/Bard|Bard]]
 
 Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.
 

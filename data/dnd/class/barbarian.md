@@ -111,7 +111,7 @@ While you aren't wearing any armor, your base Armor Class equals 10 + your Dexte
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [Mastery](/dnd/general/equipment#mastery-properties) property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a [[glossary:Long Rest]], you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table. 
 

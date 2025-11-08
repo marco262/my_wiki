@@ -17,7 +17,8 @@ class Mode(Enum):
     FULL = "FULL"
 
 
-INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
+NAMESPACE = "dnd5e"
+INCLUDE_MD = """[[include dnd5e/monster-sheet.tpl]]
 file = {}
 [[/include]]"""
 SPELLS = {}
@@ -85,20 +86,20 @@ def to_mod(num):
     return mod
 
 
-def open_monster_sheet(name):
+def open_monster_sheet(name: str):
     try:
-        return md_page(name, "dnd", "monster", build_toc=False)
+        return md_page(name, NAMESPACE, "monster", build_toc=False)
     except HTTPError:
         # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
-        toml_path = pjoin("dnd/monster", title_to_page_name(name) + ".toml")
+        toml_path = pjoin(NAMESPACE, "monster", title_to_page_name(name) + ".toml")
         if not isfile(pjoin("data", toml_path)):
-            raise HTTPError(404, f"Can't find a page for \"/dnd/monster/{name}\"")
+            raise HTTPError(404, f"Can't find a page for \"/{NAMESPACE}/monster/{name}\"")
         toml_dict = toml.load(pjoin("data", toml_path))
         if "redirect" in toml_dict:
             return redirect(toml_dict["redirect"])
         # Avoiding circular dependencies
         from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
-        md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace="dnd")
+        md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace=NAMESPACE)
         return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})
 
 
@@ -112,14 +113,14 @@ def load_spells():
     print("Loading spells into memory", end='')
     from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
-        for path in sorted(glob("data/dnd/spell/*")):
+        for path in sorted(glob(f"data/{NAMESPACE}/spell/*")):
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             # Do some special handling
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
+            d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)
             if "source_extended" in d:
-                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
+                d["source_extended"] = MD.parse_md(d["source_extended"], namespace=NAMESPACE, with_metadata=False)
             # Add values to enum cache
             add_to_enum_cache("spell", "casting_time", d["casting_time"])
             add_to_enum_cache("spell", "range", d["range"])
@@ -278,13 +279,13 @@ def load_magic_items():
     print("Loading magic items into memory", end='')
     from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
     try:
-        for path in sorted(glob("data/dnd/equipment/magic-items/*")):
+        for path in sorted(glob(f"data/{NAMESPACE}/equipment/magic-items/*")):
             print(".", end='', flush=True)
             with open(path) as f:
                 d = toml.loads(f.read(), _dict=OrderedDict)
             # Do some special handling
             d["description"] = d["description"].strip()
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
+            d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)
             # Add values to enum cache
             add_to_enum_cache("magic_item", "source", d["source"])
             if d["subtype"]:

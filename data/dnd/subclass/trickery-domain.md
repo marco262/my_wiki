@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Cleric|Cleric]]
+[[breadcrumb /dnd/class/Cleric|Cleric]]
 
 The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, and theft rather than direct confrontation.
 

@@ -103,7 +103,7 @@ You have learned to channel the magical essence of nature to cast spells. See th
 
 ***Spell Slots.*** The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
-***Prepared Spells of 1st+ Level.*** You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the [Ranger spell list](/onednd/spell_list/ranger). Rather than choosing, you may start with _[[[spell:Cure Wounds]]]_ and _[[[spell:Ensnaring Strike]]]_.
+***Prepared Spells of 1st+ Level.*** You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the [Ranger spell list](/dnd/spell_list/ranger). Rather than choosing, you may start with _[[[spell:Cure Wounds]]]_ and _[[[spell:Ensnaring Strike]]]_.
 
 The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger table. Whenever that number increases, choose additional spells from the Ranger spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 5th-level Ranger, your list of prepared spells can include six Ranger spells of 1st or 2nd level, in any combination.
 
@@ -117,7 +117,7 @@ If another Ranger feature gives spells that you always have prepared, those spel
 
 ### 1st Level: Weapon Mastery
 
-Your training with weapons allows you to use the [Mastery](/onednd/general/equipment#mastery-properties) property of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Longswords.
+Your training with weapons allows you to use the [Mastery](/dnd/general/equipment#mastery-properties) property of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Longswords.
 
 Whenever you finish a [[glossary:Long Rest]], you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords.
 
@@ -127,7 +127,7 @@ You are adept at focusing on a single foe. You always have the _[[[spell:Hunter'
 
 ### 2nd Level: Fighting Style
 
-You have honed your martial prowess. You gain one of the following Fighting Style feats of your choice: [Archery](/onednd/advancement/Feats#fighting-style-archery), [Defense](/onednd/advancement/Feats#fighting-style-defense), [Dueling](/onednd/advancement/Feats#fighting-style-dueling), or [Two-Weapon Fighting](/onednd/advancement/Feats#fighting-style-two-weapon-fighting).
+You have honed your martial prowess. You gain one of the following Fighting Style feats of your choice: [Archery](/dnd/advancement/Feats#fighting-style-archery), [Defense](/dnd/advancement/Feats#fighting-style-defense), [Dueling](/onednd/advancement/Feats#fighting-style-dueling), or [Two-Weapon Fighting](/onednd/advancement/Feats#fighting-style-two-weapon-fighting).
 
 ### 3rd Level: Ranger Subclass
 

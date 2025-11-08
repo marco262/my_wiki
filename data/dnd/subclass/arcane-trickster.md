@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Rogue|Rogue]]
+[[breadcrumb /dnd/class/Rogue|Rogue]]
 
 Some Rogues enhance their fine-honed skills of stealth and agility with Arcane spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters, mischief-makers, or adventurers.
 
@@ -6,19 +6,19 @@ Some Rogues enhance their fine-honed skills of stealth and agility with Arcane s
 
 You have learned to cast spells. See the _Player's Handbook_ for the rules on spellcasting. The information below details how you use those rules as an Arcane Trickster.
 
-***Cantrips.*** You know three cantrips: _[Mage Hand](/onednd/subclass/Mage Hand)_ and two other cantrips of your choice from the [Wizard spell list](/onednd/spell_list/wizard).
+***Cantrips.*** You know three cantrips: _[Mage Hand](/dnd/subclass/Mage Hand)_ and two other cantrips of your choice from the [Wizard spell list](/dnd/spell_list/wizard).
 
-Whenever you gain a Rogue level, you can replace one of your cantrips, except _[Mage Hand](/onednd/subclass/Mage Hand)_, with another cantrip of your choice from the Wizard spell list.
+Whenever you gain a Rogue level, you can replace one of your cantrips, except _[Mage Hand](/dnd/subclass/Mage Hand)_, with another cantrip of your choice from the Wizard spell list.
 
 When you reach 10th level in this class, you learn another Arcane cantrip of your choice.
 
 ***Spell Slots.*** The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a [[glossary:Long Rest]].
 
-***Prepared Spells of 1st+ Level.*** You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the [Wizard spell list](/onednd/spell_list/wizard), two of which must be from the Enchantment and Illusion schools of magic.
+***Prepared Spells of 1st+ Level.*** You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the [Wizard spell list](/dnd/spell_list/wizard), two of which must be from the Enchantment and Illusion schools of magic.
 
 The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Wizard spells of 1st or 2nd level, in any combination.
 
-***Changing Your Prepared Spells.*** Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the [Wizard spell list](/onednd/spell_list/wizard). The new spell must be of a level for which you have spell slots.
+***Changing Your Prepared Spells.*** Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the [Wizard spell list](/dnd/spell_list/wizard). The new spell must be of a level for which you have spell slots.
 
 ***Spellcasting Ability.*** Intelligence is your spellcasting ability for your Arcane Trickster spells.
 
@@ -49,7 +49,7 @@ The number of spells on your list increases as you gain Rogue levels, as shown i
 
 ### 3rd Level: Mage Hand Legerdemain
 
-When you cast _[Mage Hand](/onednd/subclass/Mage Hand)_, you can make the spectral hand invisible. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity (Sleight of Hand) checks.
+When you cast _[Mage Hand](/dnd/subclass/Mage Hand)_, you can make the spectral hand invisible. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity (Sleight of Hand) checks.
 
 ### 9th Level: Magical Ambush
 
@@ -57,7 +57,7 @@ If you have the [[glossary:Incapacitated]] condition when you cast a spell on a 
 
 ### 13th Level: Versatile Trickster
 
-You gain the ability to distract targets with your _[Mage Hand](/onednd/subclass/Mage Hand)_. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand.
+You gain the ability to distract targets with your _[Mage Hand](/dnd/subclass/Mage Hand)_. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand.
 
 ### 17th Level: Spell Thief
 

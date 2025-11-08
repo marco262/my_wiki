@@ -1,6 +1,6 @@
 % rebase("common/base.tpl", title=title)
 <link rel="stylesheet" type="text/css" href="/static/css/character_sheet.css">
-% from data.dnd.enums import ability_scores, skills
+% from data.dnd5e.enums import ability_scores, skills
 <p>
     <b>Race:</b> <span id="race"></span><br>
     <b>Class:</b> <span id="class"></span><br>

@@ -1,7 +1,7 @@
 % rebase("common/base.tpl", title="Magic Item Filter")
 % from math import ceil
 % from src.common.utils import ordinal
-% from data.dnd.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
+% from data.dnd5e.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
 <table>
     <tr valign="top">
         <td>

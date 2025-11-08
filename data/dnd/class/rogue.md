@@ -221,10 +221,10 @@ Once you use this feature, you can't use it again until you finish a [[glossary:
 
 A Rogue subclass is a specialization that grants you special abilities at certain Rogue levels, as specified in the subclass.
 
-* [Arcane Trickster](/onednd/subclass/Arcane Trickster)
-* [Assassin](/onednd/subclass/Assassin)
-* [Swashbuckler](/onednd/subclass/Swashbuckler)
-* [Thief](/onednd/subclass/Thief)
+* [Arcane Trickster](/dnd/subclass/Arcane Trickster)
+* [Assassin](/dnd/subclass/Assassin)
+* [Swashbuckler](/dnd/subclass/Swashbuckler)
+* [Thief](/dnd/subclass/Thief)
 
 ----
 

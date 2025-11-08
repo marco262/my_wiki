@@ -1,5 +1,5 @@
 <%
-from data.dnd.enums import magic_item_rarities
+from data.dnd5e.enums import magic_item_rarities
 
 if not magic_items:
 %>

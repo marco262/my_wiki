@@ -1,4 +1,4 @@
-% from data.dnd.enums import races, classes, spell_classes
+% from data.dnd5e.enums import races, classes, spell_classes
 
 <div id="index-container" markdown="1">
 
@@ -41,14 +41,14 @@
 
 ## Spells
 
-[Find a Spell](/dnd/find_spell)
+[Find a Spell](/dnd5e/find_spell)
 
-[Spell Filter](/dnd/spell_filter)
+[Spell Filter](/dnd5e/spell_filter)
 
 ## Class Spell Lists
 
 % for c in spell_classes:
-* [{{c.title()}} Spells](/dnd/class_spell_list/{{c}}/true)
+* [{{c.title()}} Spells](/dnd5e/class_spell_list/{{c}}/true)
 % end
 
 </div>
@@ -102,15 +102,15 @@
 
 * [[[dm_toolbox:Running Encounters]]]
 * [[[dm_toolbox:Magic Items]]]
-    * [Magic Items Filter](/dnd/equipment/magic_item_filter/)
-    * [Magic Item Generator](/dnd/equipment/magic_item_generator/)
+    * [Magic Items Filter](/dnd5e/equipment/magic_item_filter/)
+    * [Magic Item Generator](/dnd5e/equipment/magic_item_generator/)
 
 ## Monsters
 
-* [Monsters by Name](/dnd/gm/monsters_by_name)
+* [Monsters by Name](/dnd5e/gm/monsters_by_name)
 
 </div>
 
 </div>
 
-[Site Search](/dnd/site_search) | [API](/api/ui/)
+[Site Search](/dnd5e/site_search) | [API](/api/ui/)

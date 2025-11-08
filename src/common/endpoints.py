@@ -265,10 +265,12 @@ def load_wsgi_endpoints(app: Bottle):
     def shortcut_link(link_type, name):
         if link_type == "s":
             link = "dnd/spell"
+        elif link_type == "s5":
+            link = "dnd5e/spell"
         elif link_type == "os":
             link = "onednd/spell"
         elif link_type == "em":
-            link = "dnd/equipment/magic-item"
+            link = "dnd5e/equipment/magic-item"
         else:
             abort(400, f"Unknown link type: {link_type}")
             return

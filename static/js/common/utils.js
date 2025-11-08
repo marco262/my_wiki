@@ -140,7 +140,7 @@ export function init_glossary() {
             console.log(target.attributes);
             const anchor = target.attributes["anchor"].value;
             console.log(anchor);
-            window.open(`/onednd/general/Rules Glossary#${anchor}`, '_blank');
+            window.open(`/dnd/general/Rules Glossary#${anchor}`, '_blank');
         });
     }
 }

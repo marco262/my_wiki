@@ -1,10 +1,10 @@
-[[breadcrumb /onednd/class/Wizard|Wizard]]
+[[breadcrumb /dnd/class/Wizard|Wizard]]
 
 You focus your study on magic that dazzles the senses and tricks the mind. Your magic is subtle, but the illusions you craft make the impossible seem real. Some Illusionists -- including many Gnome Wizards -- are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.
 
 ### Level 3: Illusion Savant
 
-Choose two Illusion spells from the [Wizard spell list](/onednd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
+Choose two Illusion spells from the [Wizard spell list](/dnd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
 
 In addition, whenever you gain access to a new level of spell slots in this class, you can add one Illusion spell from the Wizard spell list to your spellbook for free.
 

@@ -1,4 +1,4 @@
-% from data.onednd.enums import classes, spell_classes
+% from data.dnd.enums import classes, spell_classes
 
 <div id="index-container" markdown="1">
 
@@ -43,12 +43,12 @@
 
 ## Spells
 
-[Spell Filter](/onednd/spell_filter)
+[Spell Filter](/dnd/spell_filter)
 
 ### Spell Lists
 
 % for c in spell_classes:
-* [{{c.title()}} Spells](/onednd/spell_list/{{c}})
+* [{{c.title()}} Spells](/dnd/spell_list/{{c}})
 % end
 
 </div>

@@ -1,4 +1,4 @@
-% from data.dnd.enums import source_acronyms
+% from data.dnd5e.enums import source_acronyms
 
 <table>
     <tr>

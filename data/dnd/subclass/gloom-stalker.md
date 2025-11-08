@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Ranger|Ranger]]
+[[breadcrumb /dnd/class/Ranger|Ranger]]
 
 Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.
 

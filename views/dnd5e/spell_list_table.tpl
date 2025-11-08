@@ -1,4 +1,4 @@
-% from data.dnd.enums import spell_classes, source_acronyms
+% from data.dnd5e.enums import spell_classes, source_acronyms
 % if not get("spells"):
 <i>No Results</i>
 % else:

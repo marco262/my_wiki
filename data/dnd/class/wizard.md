@@ -109,7 +109,7 @@ If you lose your spellbook, you can use the same procedure to transcribe the Wiz
 
 As a student of arcane magic, you have learned to cast spells. See the _Player's Handbook_ for rules on spellcasting. The information below details how you use those rules as a Wizard.
 
-***Cantrips.*** You know three cantrips of your choice from the [Wizard spell list](/onednd/spell_list/wizard). Rather than choosing, you may start with _[[[spell:Light]]]_, _[[[spell:Mage Hand]]]_, and _[[[spell:Ray of Frost]]]_. Whenever you finish a [[glossary:Long Rest]], you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
+***Cantrips.*** You know three cantrips of your choice from the [Wizard spell list](/dnd/spell_list/wizard). Rather than choosing, you may start with _[[[spell:Light]]]_, _[[[spell:Mage Hand]]]_, and _[[[spell:Ray of Frost]]]_. Whenever you finish a [[glossary:Long Rest]], you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
 
 When you reach levels 4 and 10 in this class, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard table.
 

@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Cleric|Cleric]]
+[[breadcrumb /dnd/class/Cleric|Cleric]]
 
 War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.
 

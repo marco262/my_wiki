@@ -1,10 +1,10 @@
-[[breadcrumb /onednd/class/Wizard|Wizard]]
+[[breadcrumb /dnd/class/Wizard|Wizard]]
 
 The counsel of a Diviner is sought by those who seek a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness so you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.
 
 ### Level 3: Divination Savant
 
-Choose two Divination spells from the [Wizard spell list](/onednd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
+Choose two Divination spells from the [Wizard spell list](/dnd/spell_list/wizard), each of which must be no higher than level 2, and add them to your spellbook for free.
 
 In addition, whenever you gain access to a new level of spell slots in this class, you can add one Divination spell from the Wizard spell list to your spellbook for free.
 

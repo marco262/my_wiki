@@ -15,7 +15,7 @@ As a Human, you have these special traits.
 
 ***Skillful.*** You gain Proficiency in one Skill of your choice.
 
-***Versatile.*** You gain the Skilled Feat or another [1st-level Feat](/onednd/advancement/Feats#1st-level-feats) of your choice.
+***Versatile.*** You gain the Skilled Feat or another [1st-level Feat](/dnd/advancement/Feats#1st-level-feats) of your choice.
 
 ----
 

@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Monk|Monk]]
+[[breadcrumb /dnd/class/Monk|Monk]]
 
 Warriors of the Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.
 

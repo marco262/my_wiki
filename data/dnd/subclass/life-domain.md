@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Cleric|Cleric]]
+[[breadcrumb /dnd/class/Cleric|Cleric]]
 
 The Life Domain focuses on the vibrant positive energy -- one of the fundamental forces of the multiverse -- that sustains all life. Clerics who tap into this domain are masters of healing, using that force of life to cure many hurts.
 
@@ -23,7 +23,7 @@ Your healing spells are empowered by life itself. When a spell you cast with a s
 
 ### 3rd Level: Preserve Life
 
-As part of casting a prepared Abjuration spell from the [Cleric spell list](/onednd/spell_list/cleric), you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _[[[spell:Shield of Faith]]]_ if you have that spell prepared.
+As part of casting a prepared Abjuration spell from the [Cleric spell list](/dnd/spell_list/cleric), you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _[[[spell:Shield of Faith]]]_ if you have that spell prepared.
 
 ### 6th Level: Blessed Healer
 
