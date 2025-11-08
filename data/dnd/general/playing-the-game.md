@@ -540,12 +540,12 @@ The presence or absence of light determines the category of illumination in an a
 ### Special Senses
 
 Some creatures have special senses that help them perceive things in certain situations. The rules glossary defines the following special senses:
-<ul class="list--hidden" data-content-chunk-id="5f96e30a-d8ad-40b6-8787-cb6799e39df6">
-<li data-content-chunk-id="86699caf-3d03-4b40-b18e-d7706eb220db"><a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Blindsight" data-tooltip-href="/senses/1-tooltip">Blindsight</a></li>
-<li data-content-chunk-id="6c0c43e7-3123-459f-b8fd-8212acd21936"><a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Darkvision" data-tooltip-href="/senses/2-tooltip">Darkvision</a></li>
-<li data-content-chunk-id="50fff49a-dbbb-4cad-84c5-71c4cf75e8f3"><a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Tremorsense" data-tooltip-href="/senses/3-tooltip">Tremorsense</a></li>
-<li data-content-chunk-id="7f4debca-9254-4f37-8fb9-6f9a99d18802"><a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Truesight" data-tooltip-href="/senses/4-tooltip">Truesight</a></li>
-</ul>
+
+- <a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Blindsight" data-tooltip-href="/senses/1-tooltip">Blindsight</a>
+- <a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Darkvision" data-tooltip-href="/senses/2-tooltip">Darkvision</a>
+- <a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Tremorsense" data-tooltip-href="/senses/3-tooltip">Tremorsense</a>
+- <a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Truesight" data-tooltip-href="/senses/4-tooltip">Truesight</a>
+
 
 ## Hiding
 
@@ -580,13 +580,12 @@ As an action, you can automatically break or otherwise destroy a fragile, nonmag
 ## Hazards
 
 Monsters are the main perils characters face, but other dangers await. The rules glossary defines the following hazards:
-<ul class="list--hidden" data-content-chunk-id="45d69093-b982-4064-95ce-806a0cab5ee0">
-<li data-content-chunk-id="1d5bdd5a-ca51-4501-8517-1f6ad65a119e"><a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#BurningHazard" data-tooltip-href="/rules-glossary/22-tooltip">Burning</a></li>
-<li data-content-chunk-id="0df4521a-4dd4-4bcf-8a79-3257e604c18b"><a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#DehydrationHazard" data-tooltip-href="/rules-glossary/49-tooltip">Dehydration</a></li>
-<li data-content-chunk-id="64f17801-a233-4ec5-a37d-7d0c6cf11d33"><a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#FallingHazard" data-tooltip-href="/rules-glossary/59-tooltip">Falling</a></li>
-<li data-content-chunk-id="4a782b4f-1d9a-4ad2-9044-02f529c903cb"><a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#MalnutritionHazard" data-tooltip-href="/rules-glossary/84-tooltip">Malnutrition</a></li>
-<li data-content-chunk-id="343b3124-4d54-4c84-bde7-13f6d2577347"><a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#SuffocationHazard" data-tooltip-href="/rules-glossary/112-tooltip">Suffocation</a></li>
-</ul>
+
+- [[[glossary:Burning|burning-hazard]]]
+- [[[glossary:Dehydration|dehydration-hazard]]]
+- [[[glossary:Falling|falling-hazard]]]
+- [[[glossary:Malnutrition|malnutrition-hazard]]]
+- [[[glossary:Suffocation|suffocation-hazard]]]
 
 ## Travel
 
@@ -985,25 +984,22 @@ If you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to 
 # Conditions
 
 Many effects impose a condition, a temporary state that alters the recipient's capabilities. The following conditions are defined in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="7a96647b-ff72-4f5a-b4e1-3187fdf1ec23">Rules Glossary</a>:
-<div class="flexible-quad-column" data-content-chunk-id="c3850b76-e91b-4b63-9081-265fb8d9665a">
-<ul class="list--hidden" data-content-chunk-id="ca0bdd39-2930-49df-bc1b-47c763c3dfa5">
-<li data-content-chunk-id="f565324e-e263-43ad-8fa6-68030fb3950d"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#BlindedCondition" data-tooltip-href="/conditions/1-tooltip">Blinded</a></li>
-<li data-content-chunk-id="ed6d99a8-7bfb-472a-a520-8758552b40e8"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#CharmedCondition" data-tooltip-href="/conditions/2-tooltip">Charmed</a></li>
-<li data-content-chunk-id="a0dfd3e0-9ed6-4acf-8c22-09f23d6e114e"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#DeafenedCondition" data-tooltip-href="/conditions/3-tooltip">Deafened</a></li>
-<li data-content-chunk-id="b9aa11b6-8ac5-47ec-ac57-7a22218a13ef"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ExhaustionCondition" data-tooltip-href="/conditions/4-tooltip">Exhaustion</a></li>
-<li data-content-chunk-id="77c7cc53-0cca-4410-b8cf-5a9a21289bf0"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#FrightenedCondition" data-tooltip-href="/conditions/5-tooltip">Frightened</a></li>
-<li data-content-chunk-id="54577ac7-161d-4167-98fc-9dbe8e7234ed"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#GrappledCondition" data-tooltip-href="/conditions/6-tooltip">Grappled</a></li>
-<li data-content-chunk-id="a78f4b76-09bd-4911-925f-66aaf1c8c197"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a></li>
-<li data-content-chunk-id="0b95b714-385e-4260-9e20-11fd469e45f0"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#InvisibleCondition" data-tooltip-href="/conditions/8-tooltip">Invisible</a></li>
-<li data-content-chunk-id="f7d85f5a-381f-4c73-8228-6b0a793bd099"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ParalyzedCondition" data-tooltip-href="/conditions/9-tooltip">Paralyzed</a></li>
-<li data-content-chunk-id="e090f3da-5386-4c78-a37f-b9906ada3214"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PetrifiedCondition" data-tooltip-href="/conditions/10-tooltip">Petrified</a></li>
-<li data-content-chunk-id="b78d2959-b371-4d4e-ba7c-9279c1620482"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PoisonedCondition" data-tooltip-href="/conditions/11-tooltip">Poisoned</a></li>
-<li data-content-chunk-id="211f961d-c491-4a8a-8493-9f9f8db9b339"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a></li>
-<li data-content-chunk-id="f8b610a8-2649-4b16-b224-1d9e79df0ae0"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#RestrainedCondition" data-tooltip-href="/conditions/13-tooltip">Restrained</a></li>
-<li data-content-chunk-id="47dc8c59-9efe-418a-ac85-f0ae58829496"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#StunnedCondition" data-tooltip-href="/conditions/14-tooltip">Stunned</a></li>
-<li data-content-chunk-id="33ccb534-c437-4f34-bee4-e702f0b20e9b"><a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a></li>
-</ul>
-</div>
+
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#BlindedCondition" data-tooltip-href="/conditions/1-tooltip">Blinded</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#CharmedCondition" data-tooltip-href="/conditions/2-tooltip">Charmed</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#DeafenedCondition" data-tooltip-href="/conditions/3-tooltip">Deafened</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ExhaustionCondition" data-tooltip-href="/conditions/4-tooltip">Exhaustion</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#FrightenedCondition" data-tooltip-href="/conditions/5-tooltip">Frightened</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#GrappledCondition" data-tooltip-href="/conditions/6-tooltip">Grappled</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#InvisibleCondition" data-tooltip-href="/conditions/8-tooltip">Invisible</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ParalyzedCondition" data-tooltip-href="/conditions/9-tooltip">Paralyzed</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PetrifiedCondition" data-tooltip-href="/conditions/10-tooltip">Petrified</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PoisonedCondition" data-tooltip-href="/conditions/11-tooltip">Poisoned</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#RestrainedCondition" data-tooltip-href="/conditions/13-tooltip">Restrained</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#StunnedCondition" data-tooltip-href="/conditions/14-tooltip">Stunned</a>
+- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a>
 
 The definition of a condition specifies what happens to its recipient while affected by it, and some conditions apply other conditions.
 
