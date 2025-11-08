@@ -238,7 +238,10 @@ class MarkdownParser:
         pattern = r"\[\[glossary:(.*?)(\|(.*?))?\]\]"
         glossary_tooltip = '<dfn name="{name}"><button class="dfn-tooltip" anchor="{anchor}">{content}</button></dfn>'
         for m in re.finditer(pattern, text):
-            g = self.rules_glossary[m.group(1).lower()]
+            try:
+                g = self.rules_glossary[m.group(1).lower()]
+            except KeyError:
+                raise KeyError(f"Invalid glossary entry '{m.group(1)}'. match={m.group(0)}")
             tooltip = glossary_tooltip.format(
                 name=m.group(3) or m.group(1),
                 anchor=g["anchor"],

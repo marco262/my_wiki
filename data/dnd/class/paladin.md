@@ -195,7 +195,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 As a [[glossary:Magic]] action, you can expend one use of your Channel Divinity to overwhelm foes with divine awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself.
 
-Each target must succeed on a Wisdom saving throw or have the [[glossary:Dazed]] and Frightened conditions for 1 minute or until it takes any damage.
+Each target must succeed on a Wisdom saving throw or have the Dazed and Frightened conditions for 1 minute or until it takes any damage.
 
 ### 10th Level: Aura of Courage
 
@@ -211,7 +211,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### 14th Level: Restoring Touch
 
-When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, [[glossary:Dazed]], Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
+When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, dazed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
 
 ### 15th Level: Subclass Feature
 

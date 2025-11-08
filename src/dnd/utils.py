@@ -1,5 +1,5 @@
 import re
-from typing import Dict, TypedDict
+from typing import TypedDict
 
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name
@@ -10,7 +10,7 @@ class RulesGlossaryEntry(TypedDict):
     content: str
 
 
-def split_rules_glossary() -> Dict[str, RulesGlossaryEntry]:
+def split_rules_glossary() -> dict[str, RulesGlossaryEntry]:
     max_length = 500
     md = Markdown()
     with open("data/dnd/general/rules-glossary.md") as f:

@@ -155,13 +155,13 @@ Your instincts are so honed that you have Advantage on Initiative rolls.
 
 ### Level 7: Instinctive Pounce
 
-As part of the Bonus Action you take to enter your Rage, you can [[glossary:Move]] up to half your Speed. 
+As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed. 
 
 ### Level 9: Brutal Strike
 
 If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or [[glossary:Unarmed Strike]], and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 
-***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then [[glossary:Move]] up to half your Speed straight toward the target without provoking Opportunity Attacks.  
+***Forceful Blow.*** The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.  
 ***Hamstring Blow.*** The target's Speed is reduced by 15 feet until the start of your next turn.
 
 ### Level 11: Relentless Rage
