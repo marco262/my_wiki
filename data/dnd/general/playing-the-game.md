@@ -111,7 +111,7 @@ The 20-sided die (d20) is the most important die you'll use in the game. It's ce
 
 ### Damage
 
-The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a>), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a <a class="tooltip-hover item-tooltip" href="/equipment/3-dagger" data-tooltip-href="/weapons/3-tooltip">Dagger</a> uses 1d4, a <a class="tooltip-hover item-tooltip" href="/equipment/21-greataxe" data-tooltip-href="/weapons/21-tooltip">Greataxe</a> uses 1d12, and a <a class="tooltip-hover spell-tooltip" href="/spells/2618887-fireball" data-tooltip-href="/spells/2618887-tooltip">Fireball</a> spell uses 8d6.
+The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of [[[glossary:D20 Test|d20-test]]]), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a <a class="tooltip-hover item-tooltip" href="/equipment/3-dagger" data-tooltip-href="/weapons/3-tooltip">Dagger</a> uses 1d4, a <a class="tooltip-hover item-tooltip" href="/equipment/21-greataxe" data-tooltip-href="/weapons/21-tooltip">Greataxe</a> uses 1d12, and a <a class="tooltip-hover spell-tooltip" href="/spells/2618887-fireball" data-tooltip-href="/spells/2618887-tooltip">Fireball</a> spell uses 8d6.
 
 ### Random Tables
 
@@ -125,7 +125,7 @@ Sometimes you might see a rule describing a percentage chance of something happe
 
 **Interpreting Die Rolls in the Story**
 
-Part of the fun of D&D is interpreting what die rolls mean in the story. The randomness that dice bring often introduces the unexpected: an expert fails, a novice succeeds, or any number of other twists. When a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a> or another roll produces a surprise, the Dungeon Master often gives a fun description of what happened. If you're a player, look for opportunities to interpret your character's die rolls and describe why things unfolded unexpectedly or even humorously.
+Part of the fun of D&D is interpreting what die rolls mean in the story. The randomness that dice bring often introduces the unexpected: an expert fails, a novice succeeds, or any number of other twists. When a [[[glossary:D20 Test|d20-test]]] or another roll produces a surprise, the Dungeon Master often gives a fun description of what happened. If you're a player, look for opportunities to interpret your character's die rolls and describe why things unfolded unexpectedly or even humorously.
 
 [[/div]]
 
@@ -162,7 +162,7 @@ Each ability has a score from 1 to 20, although some monsters have a score as hi
 
 ## Ability Modifiers
 
-Each ability has a modifier that you apply whenever you make a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a> with that ability (explained in “<a href="#D20Tests" data-content-chunk-id="26e7adf2-b355-4bf8-9f57-fb17025a76c9">D20 Tests</a>”). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
+Each ability has a modifier that you apply whenever you make a [[[glossary:D20 Test|d20-test]]] with that ability (explained in “<a href="#D20Tests" data-content-chunk-id="26e7adf2-b355-4bf8-9f57-fb17025a76c9">D20 Tests</a>”). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
 
 ### Ability Modifiers
 
@@ -187,14 +187,14 @@ Each ability has a modifier that you apply whenever you make a <a class="tooltip
 
 # D20 Tests
 
-When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Tests</a>, and they come in three kinds: <a href="#AbilityChecks" data-content-chunk-id="0c4a72ef-5360-46b4-b0a7-5c7bdabdd78a">ability checks</a>, <a href="#SavingThrows" data-content-chunk-id="ac3aa97b-14d4-4c51-b631-d8d157cedade">saving throws</a>, and <a href="#AttackRolls" data-content-chunk-id="5eb5655c-d665-485d-9a25-0df510039591">attack rolls</a>. They follow these steps:
+When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called [[[glossary:D20 Tests|d20-test]]], and they come in three kinds: <a href="#AbilityChecks" data-content-chunk-id="0c4a72ef-5360-46b4-b0a7-5c7bdabdd78a">ability checks</a>, <a href="#SavingThrows" data-content-chunk-id="ac3aa97b-14d4-4c51-b631-d8d157cedade">saving throws</a>, and <a href="#AttackRolls" data-content-chunk-id="5eb5655c-d665-485d-9a25-0df510039591">attack rolls</a>. They follow these steps:
 
-1. **Roll 1d20.** You always want to roll high. If the roll has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="/rules-glossary/4-tooltip">Advantage</a> or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> (described <a href="#AdvantageDisadvantage" data-content-chunk-id="b73606a9-00d1-41b6-bac4-fbb4c21fc9bd">later in this chapter</a>), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
+1. **Roll 1d20.** You always want to roll high. If the roll has [[[glossary:Advantage|advantage]]] or [[[glossary:Disadvantage|disadvantage]]] (described <a href="#AdvantageDisadvantage" data-content-chunk-id="b73606a9-00d1-41b6-bac4-fbb4c21fc9bd">later in this chapter</a>), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
 2. **Add Modifiers.** Add these modifiers to the number rolled on the d20:
    - **The Relevant Ability Modifier.** This chapter and the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="ffbc3495-e6ae-4569-84ac-2b72bc742887">Rules Glossary</a> explain which ability modifiers to use for various D20 Tests.
    - **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See “<a href="#Proficiency" data-content-chunk-id="a78c856c-ae32-416a-b61b-fc98bd32af82">Proficiency</a>” later in this chapter.
    - **Circumstantial Bonuses and Penalties.** A class feature, a spell, or another rule might give a bonus or penalty to the die roll.
-3. **Compare the Total to a Target Number.** If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Dungeon Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#DifficultyClass" data-tooltip-href="/rules-glossary/51-tooltip">Difficulty Class</a> (DC). The target number for an attack roll is called an <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ArmorClass" data-tooltip-href="/rules-glossary/9-tooltip">Armor Class</a> (AC), which appears on a character sheet or in a stat block (see the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="cf11a229-6a7a-4d95-9f16-254f8cffa291">Rules Glossary</a>).
+3. **Compare the Total to a Target Number.** If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Dungeon Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a [[[glossary:Difficulty Class|difficulty-class]]] (DC). The target number for an attack roll is called an [[[glossary:Armor Class|armor-class]]] (AC), which appears on a character sheet or in a stat block (see the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="cf11a229-6a7a-4d95-9f16-254f8cffa291">Rules Glossary</a>).
 
 
 ## Ability Checks
@@ -277,7 +277,7 @@ The Attack Roll Abilities table shows which ability modifier to use for differen
 
 | Ability | Attack Type |
 | --- | --- |
-| Strength | Melee attack with a weapon or an <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnarmedStrike" data-tooltip-href="/rules-glossary/120-tooltip">Unarmed Strike</a> (see the <a href="/sources/dnd/br-2024/rules-glossary#UnarmedStrike">Rules Glossary</a>) |
+| Strength | Melee attack with a weapon or an [[[glossary:Unarmed Strike|unarmed-strike]]] (see the <a href="/sources/dnd/br-2024/rules-glossary#UnarmedStrike">Rules Glossary</a>) |
 | Dexterity | Ranged attack with a weapon |
 | Varies | Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in <a href="/sources/dnd/br-2024/spells">chapter 7</a>) |
 
@@ -307,7 +307,7 @@ If you roll a 1 on the d20 (a “natural 1”) for an attack roll, the attack mi
 
 ## Advantage/Disadvantage
 
-Sometimes a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a> is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
+Sometimes a [[[glossary:D20 Test|d20-test]]] is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
 
 You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The DM can also decide that circumstances grant Advantage or impose Disadvantage.
 
@@ -325,7 +325,7 @@ If circumstances cause a roll to have both Advantage and Disadvantage, the roll 
 
 When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one.
 
-For example, if you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#HeroicInspiration" data-tooltip-href="/rules-glossary/66-tooltip">Heroic Inspiration</a> (see the sidebar) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
+For example, if you have [[[glossary:Heroic Inspiration|heroic-inspiration]]] (see the sidebar) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
 
 [[div class="sidebar"]]
 
@@ -344,9 +344,9 @@ Other rules might allow your character to gain Heroic Inspiration independent of
 
 # Proficiency
 
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in “<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="991ce89d-65aa-494f-8514-833c45cf81d6">Creating a Character</a>”). A monster's Proficiency Bonus is based on its <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ChallengeRating" data-tooltip-href="/rules-glossary/27-tooltip">Challenge Rating</a> (see the <a href="/sources/dnd/br-2024/rules-glossary#ChallengeRating" data-content-chunk-id="1e05e85b-8f17-4a2a-9919-729d792f92b6">Rules Glossary</a>). The Proficiency Bonus table shows how the bonus is determined.
+Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in “<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="991ce89d-65aa-494f-8514-833c45cf81d6">Creating a Character</a>”). A monster's Proficiency Bonus is based on its [[[glossary:Challenge Rating|challenge-rating]]] (see the <a href="/sources/dnd/br-2024/rules-glossary#ChallengeRating" data-content-chunk-id="1e05e85b-8f17-4a2a-9919-729d792f92b6">Rules Glossary</a>). The Proficiency Bonus table shows how the bonus is determined.
 
-This bonus is applied to a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a> when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
+This bonus is applied to a [[[glossary:D20 Test|d20-test]]] when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
 
 ## Proficiency Bonus
 
@@ -365,7 +365,7 @@ This bonus is applied to a <a class="tooltip-hover rule-tooltip" href="/sources/
 
 Your Proficiency Bonus can't be added to a die roll or another number more than once. For example, if a rule allows you to make a Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) check, you add your Proficiency Bonus if you're proficient in either skill, but you don't add it twice if you're proficient in both skills.
 
-Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before being added. For example, the <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Expertise" data-tooltip-href="/rules-glossary/58-tooltip">Expertise</a> feature (see the <a href="/sources/dnd/br-2024/rules-glossary#Expertise" data-content-chunk-id="2a6c2e41-b95a-4e75-a908-b84296728cf2">Rules Glossary</a>) doubles the Proficiency Bonus for certain ability checks. Whenever the bonus is used, it can be multiplied only once and divided only once.
+Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before being added. For example, the [[[glossary:Expertise|expertise]]] feature (see the <a href="/sources/dnd/br-2024/rules-glossary#Expertise" data-content-chunk-id="2a6c2e41-b95a-4e75-a908-b84296728cf2">Rules Glossary</a>) doubles the Proficiency Bonus for certain ability checks. Whenever the bonus is used, it can be multiplied only once and divided only once.
 
 ## Skill Proficiencies
 
@@ -434,26 +434,26 @@ When you do something other than moving or communicating, you typically take an 
 
 | Action | Summary |
 | --- | --- |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#AttackAction" data-tooltip-href="/actions/1-tooltip">Attack</a> | Attack with a weapon or an <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnarmedStrike" data-tooltip-href="/rules-glossary/120-tooltip">Unarmed Strike</a>. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DashAction" data-tooltip-href="/actions/4-tooltip">Dash</a> | For the rest of the turn, give yourself extra movement equal to your <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Speed" data-tooltip-href="/rules-glossary/105-tooltip">Speed</a>. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DisengageAction" data-tooltip-href="/actions/5-tooltip">Disengage</a> | Your movement doesn't provoke <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#OpportunityAttack" data-tooltip-href="/actions/1001-tooltip">Opportunity Attack</a> for the rest of the turn. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DodgeAction" data-tooltip-href="/actions/6-tooltip">Dodge</a> | Until the start of your next turn, attack rolls against you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a>, and you make Dexterity saving throws with <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="/rules-glossary/4-tooltip">Advantage</a>. You lose this benefit if you have the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a> condition or if your Speed is 0. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#HelpAction" data-tooltip-href="/actions/7-tooltip">Help</a> | Help another creature's ability check or attack roll, or administer first aid. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#HideAction" data-tooltip-href="/actions/8-tooltip">Hide</a> | Make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#InfluenceAction" data-tooltip-href="/actions/1008-tooltip">Influence</a> | Make a Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/17-tooltip">Intimidation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/18-tooltip">Performance</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) or Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/11-tooltip">Animal Handling</a>) check to alter a creature's attitude. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#MagicAction" data-tooltip-href="/actions/2-tooltip">Magic</a> | Cast a spell, use a magic item, or use a magical feature. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#ReadyAction" data-tooltip-href="/actions/9-tooltip">Ready</a> | Prepare to take an action in response to a trigger you define. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#SearchAction" data-tooltip-href="/actions/10-tooltip">Search</a> | Make a Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/12-tooltip">Insight</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) check. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#StudyAction" data-tooltip-href="/actions/1007-tooltip">Study</a> | Make an Intelligence (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/6-tooltip">Arcana</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/7-tooltip">History</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/8-tooltip">Investigation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/9-tooltip">Nature</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/10-tooltip">Religion</a>) check. |
-| <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#UtilizeAction" data-tooltip-href="/actions/11-tooltip">Utilize</a> | Use a nonmagical object. |
+| [[[glossary:Attack|attack-action]]] | Attack with a weapon or an [[[glossary:Unarmed Strike|unarmed-strike]]]. |
+| [[[glossary:Dash|dash-action]]] | For the rest of the turn, give yourself extra movement equal to your [[[glossary:Speed|speed]]]. |
+| [[[glossary:Disengage|disengage-action]]] | Your movement doesn't provoke [[[glossary:Opportunity Attack|opportunity-attack]]] for the rest of the turn. |
+| [[[glossary:Dodge|dodge-action]]] | Until the start of your next turn, attack rolls against you have [[[glossary:Disadvantage|disadvantage]]], and you make Dexterity saving throws with [[[glossary:Advantage|advantage]]]. You lose this benefit if you have the [[[glossary:Incapacitated|incapacitated-condition]]] condition or if your Speed is 0. |
+| [[[glossary:Help|help-action]]] | Help another creature's ability check or attack roll, or administer first aid. |
+| [[[glossary:Hide|hide-action]]] | Make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check. |
+| [[[glossary:Influence|influence-action]]] | Make a Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/17-tooltip">Intimidation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/18-tooltip">Performance</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) or Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/11-tooltip">Animal Handling</a>) check to alter a creature's attitude. |
+| [[[glossary:Magic|magic-action]]] | Cast a spell, use a magic item, or use a magical feature. |
+| [[[glossary:Ready|ready-action]]] | Prepare to take an action in response to a trigger you define. |
+| [[[glossary:Search|search-action]]] | Make a Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/12-tooltip">Insight</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) check. |
+| [[[glossary:Study|study-action]]] | Make an Intelligence (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/6-tooltip">Arcana</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/7-tooltip">History</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/8-tooltip">Investigation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/9-tooltip">Nature</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/10-tooltip">Religion</a>) check. |
+| [[[glossary:Utilize|utilize-action]]] | Use a nonmagical object. |
 
-Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#D20Test" data-tooltip-href="/rules-glossary/41-tooltip">D20 Test</a> you need to make, if any.
+Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of [[[glossary:D20 Test|d20-test]]] you need to make, if any.
 
 ## One Thing at a Time
 
 The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in “<a href="#Combat" data-content-chunk-id="7b92c3d2-5162-4ee1-b1b8-268789bf2067">Combat</a>” later in this chapter.
 
-Actions can come up in other situations, too: in a social interaction, you can try to <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#InfluenceAction" data-tooltip-href="/actions/1008-tooltip">Influence</a> a creature or use the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#SearchAction" data-tooltip-href="/actions/10-tooltip">Search</a> action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#SearchAction" data-tooltip-href="/actions/10-tooltip">Search</a> action to look for traps and use the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#HelpAction" data-tooltip-href="/actions/7-tooltip">Help</a> action to aid another character who's trying to open a stuck door (with the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#UtilizeAction" data-tooltip-href="/actions/11-tooltip">Utilize</a> action).
+Actions can come up in other situations, too: in a social interaction, you can try to [[[glossary:Influence|influence-action]]] a creature or use the [[[glossary:Search|search-action]]] action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the [[[glossary:Search|search-action]]] action to look for traps and use the [[[glossary:Help|help-action]]] action to aid another character who's trying to open a stuck door (with the [[[glossary:Utilize|utilize-action]]] action).
 
 ## Bonus Actions
 
@@ -465,7 +465,7 @@ You choose when to take a Bonus Action during your turn unless the Bonus Action'
 
 ## Reactions
 
-Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#OpportunityAttack" data-tooltip-href="/actions/1001-tooltip">Opportunity Attack</a>, described <a href="#OpportunityAttacks" data-content-chunk-id="60c8a364-a510-4677-a5da-041f865a9e42">later in this chapter</a>, is the most common type of Reaction.
+Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The [[[glossary:Opportunity Attack|opportunity-attack]]], described <a href="#OpportunityAttacks" data-content-chunk-id="60c8a364-a510-4677-a5da-041f865a9e42">later in this chapter</a>, is the most common type of Reaction.
 
 When you take a Reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction.
 
@@ -485,7 +485,7 @@ This advice comes with one important caveat: avoid character choices that ruin t
 
 During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Dungeon Master assumes the roles of any nonplayer characters who are participating.
 
-An NPC's attitude toward your character is <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#FriendlyAttitude" data-tooltip-href="/rules-glossary/62-tooltip">Friendly</a>, <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#IndifferentAttitude" data-tooltip-href="/rules-glossary/75-tooltip">Indifferent</a>, or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#HostileAttitude" data-tooltip-href="/rules-glossary/70-tooltip">Hostile</a>, as defined in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="56e1a02a-a4c7-4c99-bdd1-0f16eb1ff82a">Rules Glossary</a>. Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.
+An NPC's attitude toward your character is [[[glossary:Friendly|friendly-attitude]]], [[[glossary:Indifferent|indifferent-attitude]]], or [[[glossary:Hostile|hostile-attitude]]], as defined in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="56e1a02a-a4c7-4c99-bdd1-0f16eb1ff82a">Rules Glossary</a>. Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.
 
 Social interactions progress in two ways: through roleplaying and ability checks.
 
@@ -503,7 +503,7 @@ If you offer NPCs something they want or play on their sympathies, fears, or goa
 
 ## Ability Checks
 
-Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the DM wants dice to play a role in determining an NPC's response to you. In such situations, the DM will typically ask you to take the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#InfluenceAction" data-tooltip-href="/actions/1008-tooltip">Influence</a> action.
+Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the DM wants dice to play a role in determining an NPC's response to you. In such situations, the DM will typically ask you to take the [[[glossary:Influence|influence-action]]] action.
 
 Pay attention to your skill proficiencies when thinking of how you will interact with an NPC; use an approach that relies on your group's skill proficiencies. For example, if the group needs to trick a guard into letting them into a castle, the Rogue who is proficient in <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a> should lead the discussion.
 
@@ -523,9 +523,9 @@ Some adventuring tasks—such as noticing danger, hitting an enemy, and targetin
 
 ### Obscured Areas
 
-An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) checks that rely on sight.
+An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have [[[glossary:Disadvantage|disadvantage]]] on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) checks that rely on sight.
 
-A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#BlindedCondition" data-tooltip-href="/conditions/1-tooltip">Blinded</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#BlindedCondition" data-content-chunk-id="fe6d8060-d713-4838-a191-e471383a86e5">Rules Glossary</a>) when trying to see something there.
+A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the [[[glossary:Blinded|blinded-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#BlindedCondition" data-content-chunk-id="fe6d8060-d713-4838-a191-e471383a86e5">Rules Glossary</a>) when trying to see something there.
 
 ### Light
 
@@ -533,9 +533,9 @@ The presence or absence of light determines the category of illumination in an a
 
 **_Bright Light._** Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.
 
-**_Dim Light._** Dim Light, also called shadows, creates a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#LightlyObscured" data-tooltip-href="/rules-glossary/79-tooltip">Lightly Obscured</a> area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.
+**_Dim Light._** Dim Light, also called shadows, creates a [[[glossary:Lightly Obscured|lightly-obscured]]] area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.
 
-**_Darkness._** Darkness creates a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#HeavilyObscured" data-tooltip-href="/rules-glossary/65-tooltip">Heavily Obscured</a> area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.
+**_Darkness._** Darkness creates a [[[glossary:Heavily Obscured|heavily-obscured]]] area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.
 
 ### Special Senses
 
@@ -549,7 +549,7 @@ Some creatures have special senses that help them perceive things in certain sit
 
 ## Hiding
 
-Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Dungeon Master decides when circumstances are appropriate for hiding. When you try to hide, you take the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#HideAction" data-tooltip-href="/actions/8-tooltip">Hide</a> action.
+Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Dungeon Master decides when circumstances are appropriate for hiding. When you try to hide, you take the [[[glossary:Hide|hide-action]]] action.
 
 ## Interacting with Objects
 
@@ -561,7 +561,7 @@ For the purpose of the rules, an object is a discrete, inanimate item like a win
 
 ### Time-Limited Object Interactions
 
-When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#UtilizeAction" data-tooltip-href="/actions/11-tooltip">Utilize</a> action, as explained in “<a href="#Combat" data-content-chunk-id="c5fa3677-5f4e-4970-98cf-f07fafef47b4">Combat</a>” later in this chapter.
+When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the [[[glossary:Utilize|utilize-action]]] action, as explained in “<a href="#Combat" data-content-chunk-id="c5fa3677-5f4e-4970-98cf-f07fafef47b4">Combat</a>” later in this chapter.
 
 ### Finding Hidden Objects
 
@@ -571,11 +571,11 @@ If you describe your character searching nowhere near a hidden object, a Wisdom 
 
 ### Carrying Objects
 
-You can usually carry your gear and treasure without worrying about the weight of those objects. If you try to haul an unusually heavy object or a massive number of lighter objects, the DM might require you to abide by the rules for <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#CarryingCapacity" data-tooltip-href="/rules-glossary/26-tooltip">carrying capacity</a> in the <a href="/sources/dnd/br-2024/rules-glossary#CarryingCapacity" data-content-chunk-id="9071703d-e756-403d-80a7-1a6cb4d84dfc">Rules Glossary</a>.
+You can usually carry your gear and treasure without worrying about the weight of those objects. If you try to haul an unusually heavy object or a massive number of lighter objects, the DM might require you to abide by the rules for [[[glossary:carrying capacity|carrying-capacity]]] in the <a href="/sources/dnd/br-2024/rules-glossary#CarryingCapacity" data-content-chunk-id="9071703d-e756-403d-80a7-1a6cb4d84dfc">Rules Glossary</a>.
 
 ### Breaking Objects
 
-As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the DM might use the rules on <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#BreakingObjects" data-tooltip-href="/rules-glossary/20-tooltip">breaking objects</a> in the <a href="/sources/dnd/br-2024/rules-glossary#BreakingObjects" data-content-chunk-id="f4144ed9-c132-46fd-af05-f4a9aca5f1cd">Rules Glossary</a>.
+As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the DM might use the rules on [[[glossary:breaking objects|breaking-objects]]] in the <a href="/sources/dnd/br-2024/rules-glossary#BreakingObjects" data-content-chunk-id="f4144ed9-c132-46fd-af05-f4a9aca5f1cd">Rules Glossary</a>.
 
 ## Hazards
 
@@ -603,7 +603,7 @@ The adventurers should establish a marching order while they travel, whether ind
 
 ### Travel Pace
 
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ShortRest" data-tooltip-href="/rules-glossary/101-tooltip">Short</a> or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#LongRest" data-tooltip-href="/rules-glossary/82-tooltip">Long Rest</a> before they can move at that increased pace again (see “<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="465eab63-48e2-46d3-9ad5-3d6da3a2dc84">Equipment</a>” for a selection of mounts for sale). The “<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>” has rules that affect which pace you can choose in certain types of terrain.
+While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[[glossary:Short|short-rest]]] or [[[glossary:Long Rest|long-rest]]] before they can move at that increased pace again (see “<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="465eab63-48e2-46d3-9ad5-3d6da3a2dc84">Equipment</a>” for a selection of mounts for sale). The “<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>” has rules that affect which pace you can choose in certain types of terrain.
 
 #### Travel Pace
 
@@ -616,11 +616,11 @@ While traveling outside combat, a group can move at a Fast, Normal, or Slow pace
 
 Each travel pace has a game effect, as defined below.
 
-**_Fast._** Traveling at a Fast pace imposes <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on a traveler's Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) and Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) checks.
+**_Fast._** Traveling at a Fast pace imposes [[[glossary:Disadvantage|disadvantage]]] on a traveler's Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) and Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) checks.
 
-**_Normal._** Traveling at a Normal pace imposes <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) checks.
+**_Normal._** Traveling at a Normal pace imposes [[[glossary:Disadvantage|disadvantage]]] on Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) checks.
 
-**_Slow._** Traveling at a Slow pace grants <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="/rules-glossary/4-tooltip">Advantage</a> on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) checks.
+**_Slow._** Traveling at a Slow pace grants [[[glossary:Advantage|advantage]]] on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) checks.
 
 ### Vehicles
 
@@ -632,21 +632,21 @@ Adventurers encounter many dangerous monsters and nefarious villains. In those m
 
 ## The Order of Combat
 
-A typical combat encounter is a clash between two sides: a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of combat when everyone rolls <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Initiative" data-tooltip-href="/rules-glossary/76-tooltip">Initiative</a>. Once everyone has taken a turn, the fight continues to the next round if neither side is defeated.
+A typical combat encounter is a clash between two sides: a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of combat when everyone rolls [[[glossary:Initiative|initiative]]]. Once everyone has taken a turn, the fight continues to the next round if neither side is defeated.
 
 ### Combat Step by Step
 
 Combat unfolds in these steps:
 
 1. **Establish Positions.** The Dungeon Master determines where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the DM figures out where the adversaries are—how far away and in what direction.
-2. **Roll Initiative.** Everyone involved in the combat encounter rolls <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Initiative" data-tooltip-href="/rules-glossary/76-tooltip">Initiative</a>, determining the order of combatants' turns.
+2. **Roll Initiative.** Everyone involved in the combat encounter rolls [[[glossary:Initiative|initiative]]], determining the order of combatants' turns.
 3. **Take Turns.** Each participant in the battle takes a turn in Initiative order. When everyone involved in the combat has had a turn, the round ends. Repeat this step until the fighting stops.
 
 ### Initiative
 
 Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The DM rolls for monsters. For a group of identical creatures, the DM makes a single roll, so each member of the group has the same Initiative.
 
-**_Surprise._** If a combatant is surprised by combat starting, that combatant has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on their Initiative roll. For example, if an ambusher starts combat while hidden from a foe who is unaware that combat is starting, that foe is surprised.
+**_Surprise._** If a combatant is surprised by combat starting, that combatant has [[[glossary:Disadvantage|disadvantage]]] on their Initiative roll. For example, if an ambusher starts combat while hidden from a foe who is unaware that combat is starting, that foe is surprised.
 
 **_Initiative Order._** A combatant's check total is called their Initiative count, or Initiative for short. The DM ranks the combatants, from highest to lowest Initiative. This is the order in which they act during each round. The Initiative order remains the same from round to round.
 
@@ -654,21 +654,21 @@ Initiative determines the order of turns during combat. When combat starts, ever
 
 ### Your Turn
 
-On your turn, you can move a distance up to your <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Speed" data-tooltip-href="/rules-glossary/105-tooltip">Speed</a> and take one action. You decide whether to move first or take your action first.
+On your turn, you can move a distance up to your [[[glossary:Speed|speed]]] and take one action. You decide whether to move first or take your action first.
 
 The main actions you can take are listed in “<a href="#Actions" data-content-chunk-id="1197000c-8868-477e-aafb-05a3a29b0a41">Actions</a>” earlier in this chapter. A character's features and a monster's stat block also provide action options. “<a href="#MovementandPosition" data-content-chunk-id="9346580c-63f2-44aa-bc5c-28da23a65823">Movement and Position</a>” later in this chapter gives the rules for movement.
 
 **_Communicating._** You can communicate however you are able—through brief utterances and gestures—as you take your turn. Doing so uses neither your action nor your move.
 
-Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#InfluenceAction" data-tooltip-href="/actions/1008-tooltip">Influence</a> action is the main way you try to influence a monster.
+Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The [[[glossary:Influence|influence-action]]] action is the main way you try to influence a monster.
 
 **_Interacting with Things._** You can interact with one object or feature of the environment for free, during either your move or action. For example, you could open a door during your move as you stride toward a foe.
 
-If you want to interact with a second object, you need to take the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#UtilizeAction" data-tooltip-href="/actions/11-tooltip">Utilize</a> action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
+If you want to interact with a second object, you need to take the [[[glossary:Utilize|utilize-action]]] action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
 
 The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
 
-**_Doing Nothing on Your Turn._** You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DodgeAction" data-tooltip-href="/actions/6-tooltip">Dodge</a> action or the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#ReadyAction" data-tooltip-href="/actions/9-tooltip">Ready</a> action to delay acting.
+**_Doing Nothing on Your Turn._** You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive [[[glossary:Dodge|dodge-action]]] action or the [[[glossary:Ready|ready-action]]] action to delay acting.
 
 ### Ending Combat
 
@@ -676,13 +676,13 @@ Combat ends when one side or the other is defeated, which can mean the creatures
 
 ## Movement and Position
 
-On your turn, you can move a distance equal to your <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Speed" data-tooltip-href="/rules-glossary/105-tooltip">Speed</a> or less. Or you can decide not to move.
+On your turn, you can move a distance equal to your [[[glossary:Speed|speed]]] or less. Or you can decide not to move.
 
-Your movement can include <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Climbing" data-tooltip-href="/rules-glossary/29-tooltip">climbing</a>, <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Crawling" data-tooltip-href="/rules-glossary/34-tooltip">crawling</a>, <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Jumping" data-tooltip-href="/rules-glossary/77-tooltip">jumping</a>, and <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Swimming" data-tooltip-href="/rules-glossary/114-tooltip">swimming</a> (each explained in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="d0dbfe5f-2912-4b3e-9e18-3aefd0bf4e21">Rules Glossary</a>). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.
+Your movement can include [[[glossary:climbing]]], [[[glossary:crawling]]], [[[glossary:jumping]]], and [[[glossary:swimming]]] (each explained in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="d0dbfe5f-2912-4b3e-9e18-3aefd0bf4e21">Rules Glossary</a>). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.
 
 However you're moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.
 
-A character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See the <a href="/sources/dnd/br-2024/rules-glossary#Speed" data-content-chunk-id="2471ee1d-8247-4c9c-be96-79f0d0c8246b">Rules Glossary</a> for more about Speed as well as about special speeds, such as a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ClimbSpeed" data-tooltip-href="/rules-glossary/30-tooltip">Climb Speed</a>, <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#FlySpeed" data-tooltip-href="/rules-glossary/61-tooltip">Fly Speed</a>, or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#SwimSpeed" data-tooltip-href="/rules-glossary/115-tooltip">Swim Speed</a>.
+A character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See the <a href="/sources/dnd/br-2024/rules-glossary#Speed" data-content-chunk-id="2471ee1d-8247-4c9c-be96-79f0d0c8246b">Rules Glossary</a> for more about Speed as well as about special speeds, such as a [[[glossary:Climb Speed|climb-speed]]], [[[glossary:Fly Speed|fly-speed]]], or [[[glossary:Swim Speed|swim-speed]]].
 
 ### Difficult Terrain
 
@@ -714,7 +714,7 @@ You can break up your move, using some of its movement before and after any acti
 
 ### Dropping Prone
 
-On your turn, you can give yourself the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="505f1ad6-b986-4349-84e7-3aa9d3787cab">Rules Glossary</a>) without using an action or any of your Speed, but you can't do so if your Speed is 0.
+On your turn, you can give yourself the [[[glossary:Prone|prone-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="505f1ad6-b986-4349-84e7-3aa9d3787cab">Rules Glossary</a>) without using an action or any of your Speed, but you can't do so if your Speed is 0.
 
 ### Creature Size
 
@@ -735,41 +735,41 @@ A character's size is determined by species, and a monster's size is specified i
 
 ### Moving around Other Creatures
 
-During your move, you can pass through the space of an ally, a creature that has the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#IncapacitatedCondition" data-content-chunk-id="8d59ccc5-8a1b-4654-b156-1ee0bd4f808c">Rules Glossary</a>), a Tiny creature, or a creature that is two sizes larger or smaller than you.
+During your move, you can pass through the space of an ally, a creature that has the [[[glossary:Incapacitated|incapacitated-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#IncapacitatedCondition" data-content-chunk-id="8d59ccc5-8a1b-4654-b156-1ee0bd4f808c">Rules Glossary</a>), a Tiny creature, or a creature that is two sizes larger or smaller than you.
 
-Another creature's space is <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#DifficultTerrain" data-tooltip-href="/rules-glossary/50-tooltip">Difficult Terrain</a> for you unless that creature is Tiny or your ally.
+Another creature's space is [[[glossary:Difficult Terrain|difficult-terrain]]] for you unless that creature is Tiny or your ally.
 
-You can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="29fe8519-58dc-4ca9-ba46-e2617759ac63">Rules Glossary</a>) unless you are Tiny or are of a larger size than the other creature.
+You can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the [[[glossary:Prone|prone-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="29fe8519-58dc-4ca9-ba46-e2617759ac63">Rules Glossary</a>) unless you are Tiny or are of a larger size than the other creature.
 
 ## Making an Attack
 
-When you take the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#AttackAction" data-tooltip-href="/actions/1-tooltip">Attack</a> action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
+When you take the [[[glossary:Attack|attack-action]]] action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
 
 1. **Choose a Target.** Pick a target within your attack's range: a creature, an object, or a location.
-2. **Determine Modifiers.** The DM determines whether the target has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/18-tooltip">Cover</a> (see the next section) and whether you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="/rules-glossary/4-tooltip">Advantage</a> or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
+2. **Determine Modifiers.** The DM determines whether the target has [[[glossary:Cover|cover]]] (see the next section) and whether you have [[[glossary:Advantage|advantage]]] or [[[glossary:Disadvantage|disadvantage]]] against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 3. **Resolve the Attack.** Make the attack roll, as detailed earlier in this chapter. On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
 ## Cover
 
 Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.
 
-A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/19-tooltip">Half Cover</a> and a tree trunk that gives <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/32-tooltip">Three-Quarters Cover</a>, the target has Three-Quarters Cover.
+A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives [[[glossary:Half Cover|cover]]] and a tree trunk that gives [[[glossary:Three-Quarters Cover|cover]]], the target has Three-Quarters Cover.
 
 ### Cover
 
 | Degree | Benefit to Target | Offered By... |
 | --- | --- | --- |
-| <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/19-tooltip">Half</a> | +2 bonus to AC and Dexterity saving throws | Another creature or an object that covers at least half of the target |
-| <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/32-tooltip">Three-Quarters</a> | +5 bonus to AC and Dexterity saving throws | An object that covers at least three-quarters of the target |
-| <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/33-tooltip">Total</a> | Can't be targeted directly | An object that covers the whole target |
+| [[[glossary:Half|cover]]] | +2 bonus to AC and Dexterity saving throws | Another creature or an object that covers at least half of the target |
+| [[[glossary:Three-Quarters|cover]]] | +5 bonus to AC and Dexterity saving throws | An object that covers at least three-quarters of the target |
+| [[[glossary:Total|cover]]] | Can't be targeted directly | An object that covers the whole target |
 
 [[div class="sidebar"]]
 
 **Unseen Attackers and Targets**
 
-When you make an attack roll against a target you can't see, you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
+When you make an attack roll against a target you can't see, you have [[[glossary:Disadvantage|disadvantage]]] on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
 
-When a creature can't see you, you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="/rules-glossary/4-tooltip">Advantage</a> on attack rolls against it.
+When a creature can't see you, you have [[[glossary:Advantage|advantage]]] on attack rolls against it.
 
 If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
 
@@ -783,15 +783,15 @@ When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send pr
 
 You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
 
-Some ranged attacks, such as those made with a <a class="tooltip-hover item-tooltip" href="/equipment/37-longbow" data-tooltip-href="/weapons/37-tooltip">Longbow</a>, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> when your target is beyond normal range, and you can't attack a target beyond long range.
+Some ranged attacks, such as those made with a <a class="tooltip-hover item-tooltip" href="/equipment/37-longbow" data-tooltip-href="/weapons/37-tooltip">Longbow</a>, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has [[[glossary:Disadvantage|disadvantage]]] when your target is beyond normal range, and you can't attack a target beyond long range.
 
 ### Ranged Attacks in Close Combat
 
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on the roll if you are within 5 feet of an enemy who can see you and doesn't have the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#IncapacitatedCondition" data-content-chunk-id="6c35169f-5a0f-42a0-a0b0-693557395f7b">Rules Glossary</a>).
+Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have [[[glossary:Disadvantage|disadvantage]]] on the roll if you are within 5 feet of an enemy who can see you and doesn't have the [[[glossary:Incapacitated|incapacitated-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#IncapacitatedCondition" data-content-chunk-id="6c35169f-5a0f-42a0-a0b0-693557395f7b">Rules Glossary</a>).
 
 ## Melee Attacks
 
-A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnarmedStrike" data-tooltip-href="/rules-glossary/120-tooltip">Unarmed Strike</a>. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
+A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an [[[glossary:Unarmed Strike|unarmed-strike]]]. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
 
 ### Reach
 
@@ -801,9 +801,9 @@ A creature has a 5-foot reach and can thus attack targets within 5 feet when mak
 
 Combatants watch for enemies to drop their guard. If you move heedlessly past your foes, you put yourself in danger by provoking an Opportunity Attack.
 
-**_Avoiding Opportunity Attacks._** You can avoid provoking an Opportunity Attack by taking the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DisengageAction" data-tooltip-href="/actions/5-tooltip">Disengage</a> action. You also don't provoke an Opportunity Attack when you <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Teleportation" data-tooltip-href="/rules-glossary/118-tooltip">teleport</a> or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
+**_Avoiding Opportunity Attacks._** You can avoid provoking an Opportunity Attack by taking the [[[glossary:Disengage|disengage-action]]] action. You also don't provoke an Opportunity Attack when you [[[glossary:teleport|teleportation]]] or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
 
-**_Making an Opportunity Attack._** You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnarmedStrike" data-tooltip-href="/rules-glossary/120-tooltip">Unarmed Strike</a> against that creature. The attack occurs right before it leaves your reach.
+**_Making an Opportunity Attack._** You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an [[[glossary:Unarmed Strike|unarmed-strike]]] against that creature. The attack occurs right before it leaves your reach.
 
 ## Mounted Combat
 
@@ -811,21 +811,21 @@ A willing creature that is at least one size larger than a rider and that has an
 
 ### Mounting and Dismounting
 
-During your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Speed" data-tooltip-href="/rules-glossary/105-tooltip">Speed</a> (round down). For example, if your Speed is 30 feet, you spend 15 feet of movement to mount a horse.
+During your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your [[[glossary:Speed|speed]]] (round down). For example, if your Speed is 30 feet, you spend 15 feet of movement to mount a horse.
 
 ### Controlling a Mount
 
 You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.
 
-The <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Initiative" data-tooltip-href="/rules-glossary/76-tooltip">Initiative</a> of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DashAction" data-tooltip-href="/actions/4-tooltip">Dash</a>, <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DisengageAction" data-tooltip-href="/actions/5-tooltip">Disengage</a>, and <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#DodgeAction" data-tooltip-href="/actions/6-tooltip">Dodge</a>. A controlled mount can move and act even on the turn that you mount it.
+The [[[glossary:Initiative|initiative]]] of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: [[[glossary:Dash|dash-action]]], [[[glossary:Disengage|disengage-action]]], and [[[glossary:Dodge|dodge-action]]]. A controlled mount can move and act even on the turn that you mount it.
 
 In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
 
 ### Falling Off
 
-If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="6224a675-c8ad-45d1-a902-faea16d91309">Rules Glossary</a>) in an unoccupied space within 5 feet of the mount.
+If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the [[[glossary:Prone|prone-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#ProneCondition" data-content-chunk-id="6224a675-c8ad-45d1-a902-faea16d91309">Rules Glossary</a>) in an unoccupied space within 5 feet of the mount.
 
-While mounted, you must make the same save if you're knocked <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a> or the mount is.
+While mounted, you must make the same save if you're knocked [[[glossary:Prone|prone-condition]]] or the mount is.
 
 ## Underwater Combat
 
@@ -833,7 +833,7 @@ A fight underwater follows these rules.
 
 ### Impeded Weapons
 
-When making a melee attack roll with a weapon underwater, a creature that lacks a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#SwimSpeed" data-tooltip-href="/rules-glossary/115-tooltip">Swim Speed</a> has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Disadvantage" data-tooltip-href="/rules-glossary/53-tooltip">Disadvantage</a> on the attack roll unless the weapon deals Piercing damage.
+When making a melee attack roll with a weapon underwater, a creature that lacks a [[[glossary:Swim Speed|swim-speed]]] has [[[glossary:Disadvantage|disadvantage]]] on the attack roll unless the weapon deals Piercing damage.
 
 A ranged attack roll with a weapon underwater automatically misses a target beyond the weapon's normal range, and the attack roll has Disadvantage against a target within normal range.
 
@@ -851,13 +851,13 @@ Hit Points represent durability and the will to live. Creatures with more Hit Po
 
 Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
 
-If you have half your Hit Points or fewer, you're <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Bloodied" data-tooltip-href="/rules-glossary/14-tooltip">Bloodied</a>, which has no game effect on its own but which might trigger other game effects.
+If you have half your Hit Points or fewer, you're [[[glossary:Bloodied|bloodied]]], which has no game effect on its own but which might trigger other game effects.
 
 [[div class="sidebar"]]
 
 **Resting**
 
-Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ShortRest" data-tooltip-href="/rules-glossary/101-tooltip">Short Rests</a> in the midst of a day and an 8-hour <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#LongRest" data-tooltip-href="/rules-glossary/82-tooltip">Long Rest</a> to end it. Regaining Hit Points is one of the main benefits of a rest. The <a href="/sources/dnd/br-2024/rules-glossary">Rules Glossary</a> provides the rules for Short and Long Rests.
+Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long [[[glossary:Short Rests|short-rest]]] in the midst of a day and an 8-hour [[[glossary:Long Rest|long-rest]]] to end it. Regaining Hit Points is one of the main benefits of a rest. The <a href="/sources/dnd/br-2024/rules-glossary">Rules Glossary</a> provides the rules for Short and Long Rests.
 
 [[/div]]
 
@@ -885,7 +885,7 @@ Many saving throw effects deal half damage (round down) to a target when the tar
 
 ## Damage Types
 
-Each instance of damage has a type, like Fire or Slashing. Damage types are listed in the <a href="/sources/dnd/br-2024/rules-glossary#DamageTypes" data-content-chunk-id="a82ad3d8-43a3-4f46-84c6-dcb81f77022c">Rules Glossary</a> and have no rules of their own, but other rules, such as <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Resistance" data-tooltip-href="/rules-glossary/95-tooltip">Resistance</a>, rely on damage types.
+Each instance of damage has a type, like Fire or Slashing. Damage types are listed in the <a href="/sources/dnd/br-2024/rules-glossary#DamageTypes" data-content-chunk-id="a82ad3d8-43a3-4f46-84c6-dcb81f77022c">Rules Glossary</a> and have no rules of their own, but other rules, such as [[[glossary:Resistance|resistance]]], rely on damage types.
 
 ## Resistance and Vulnerability
 
@@ -907,13 +907,13 @@ Some creatures and objects have Immunity to certain damage types and conditions.
 
 ## Healing
 
-Hit Points can be restored by magic, such as the <a class="tooltip-hover spell-tooltip" href="/spells/2619079-cure-wounds" data-tooltip-href="/spells/2619079-tooltip">Cure Wounds</a> spell or a <a class="tooltip-hover magic-item-tooltip" href="/magic-items/8960641-potion-of-healing" data-tooltip-href="/magic-items/8960641-tooltip">Potion of Healing</a>, or by a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ShortRest" data-tooltip-href="/rules-glossary/101-tooltip">Short</a> or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#LongRest" data-tooltip-href="/rules-glossary/82-tooltip">Long Rest</a> (see the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="28892208-49a4-4298-973d-bda17952cca6">Rules Glossary</a>).
+Hit Points can be restored by magic, such as the <a class="tooltip-hover spell-tooltip" href="/spells/2619079-cure-wounds" data-tooltip-href="/spells/2619079-tooltip">Cure Wounds</a> spell or a <a class="tooltip-hover magic-item-tooltip" href="/magic-items/8960641-potion-of-healing" data-tooltip-href="/magic-items/8960641-tooltip">Potion of Healing</a>, or by a [[[glossary:Short|short-rest]]] or [[[glossary:Long Rest|long-rest]]] (see the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="28892208-49a4-4298-973d-bda17952cca6">Rules Glossary</a>).
 
 When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
 
 ## Dropping to 0 Hit Points
 
-When a creature drops to 0 Hit Points, it either dies outright or falls <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">unconscious</a>, as explained below.
+When a creature drops to 0 Hit Points, it either dies outright or falls [[[glossary:unconscious|unconscious-condition]]], as explained below.
 
 ### Instant Death
 
@@ -927,17 +927,17 @@ Here are the main ways a creature can die instantly.
 
 ### Character Demise
 
-If your character dies, others might find a magical way to revive your character, such as with the <a class="tooltip-hover spell-tooltip" href="/spells/2618922-raise-dead" data-tooltip-href="/spells/2618922-tooltip">Raise Dead</a> spell. Or talk with the DM about making a new character to join the group. The <a href="/sources/dnd/br-2024/rules-glossary#Dead" data-content-chunk-id="ff967f36-29db-489e-8e9c-63ec5d803381">Rules Glossary</a> has more information on being <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Dead" data-tooltip-href="/rules-glossary/47-tooltip">dead</a>.
+If your character dies, others might find a magical way to revive your character, such as with the <a class="tooltip-hover spell-tooltip" href="/spells/2618922-raise-dead" data-tooltip-href="/spells/2618922-tooltip">Raise Dead</a> spell. Or talk with the DM about making a new character to join the group. The <a href="/sources/dnd/br-2024/rules-glossary#Dead" data-content-chunk-id="ff967f36-29db-489e-8e9c-63ec5d803381">Rules Glossary</a> has more information on being [[[glossary:dead]]].
 
 ### Falling Unconscious
 
-If you reach 0 Hit Points and don't die instantly, you have the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a> condition (see the <a href="/sources/dnd/br-2024/rules-glossary#UnconsciousCondition" data-content-chunk-id="fabec68b-0ce6-4ec2-9aa9-1c4c359b0d03">Rules Glossary</a>) until you regain any Hit Points, and you now face making <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#DeathSavingThrow" data-tooltip-href="/rules-glossary/48-tooltip">Death Saving Throws</a> (see below).
+If you reach 0 Hit Points and don't die instantly, you have the [[[glossary:Unconscious|unconscious-condition]]] condition (see the <a href="/sources/dnd/br-2024/rules-glossary#UnconsciousCondition" data-content-chunk-id="fabec68b-0ce6-4ec2-9aa9-1c4c359b0d03">Rules Glossary</a>) until you regain any Hit Points, and you now face making [[[glossary:Death Saving Throws|death-saving-throw]]] (see below).
 
 [[div class="sidebar"]]
 
 **Knocking Out a Creature**
 
-When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a> condition. It then starts a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#ShortRest" data-tooltip-href="/rules-glossary/101-tooltip">Short Rest</a>, at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
+When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the [[[glossary:Unconscious|unconscious-condition]]] condition. It then starts a [[[glossary:Short Rest|short-rest]]], at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
 
 [[/div]]
 
@@ -945,7 +945,7 @@ When you would reduce a creature to 0 Hit Points with a melee attack, you can in
 
 Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.
 
-**_Three Successes/Failures._** Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Stable" data-tooltip-href="/rules-glossary/110-tooltip">Stable</a> (see “Stabilizing a Character” below). On your third failure, you die.
+**_Three Successes/Failures._** Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become [[[glossary:Stable|stable]]] (see “Stabilizing a Character” below). On your third failure, you die.
 
 The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.
 
@@ -955,9 +955,9 @@ The successes and failures don't need to be consecutive; keep track of both unti
 
 ### Stabilizing a Character
 
-You can take the <a class="tooltip-hover action-tooltip" href="/sources/dnd/free-rules/rules-glossary#HelpAction" data-tooltip-href="/actions/7-tooltip">Help</a> action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
+You can take the [[[glossary:Help|help-action]]] action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
 
-A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a> condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
+A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the [[[glossary:Unconscious|unconscious-condition]]] condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
 
 ## Temporary Hit Points
 
@@ -969,7 +969,7 @@ If you have Temporary Hit Points and take damage, those points are lost first, a
 
 ### Duration
 
-Temporary Hit Points last until they're depleted or you finish a <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#LongRest" data-tooltip-href="/rules-glossary/82-tooltip">Long Rest</a> (see the <a href="/sources/dnd/br-2024/rules-glossary#LongRest" data-content-chunk-id="0952938e-c8c5-4dcb-a73e-4ee1811133ed">Rules Glossary</a>).
+Temporary Hit Points last until they're depleted, or you finish a [[[glossary:Long Rest|long-rest]]] (see the <a href="/sources/dnd/br-2024/rules-glossary#LongRest" data-content-chunk-id="0952938e-c8c5-4dcb-a73e-4ee1811133ed">Rules Glossary</a>).
 
 ### Temporary Hit Points Don't Stack
 
@@ -985,29 +985,29 @@ If you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to 
 
 Many effects impose a condition, a temporary state that alters the recipient's capabilities. The following conditions are defined in the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="7a96647b-ff72-4f5a-b4e1-3187fdf1ec23">Rules Glossary</a>:
 
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#BlindedCondition" data-tooltip-href="/conditions/1-tooltip">Blinded</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#CharmedCondition" data-tooltip-href="/conditions/2-tooltip">Charmed</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#DeafenedCondition" data-tooltip-href="/conditions/3-tooltip">Deafened</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ExhaustionCondition" data-tooltip-href="/conditions/4-tooltip">Exhaustion</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#FrightenedCondition" data-tooltip-href="/conditions/5-tooltip">Frightened</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#GrappledCondition" data-tooltip-href="/conditions/6-tooltip">Grappled</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition" data-tooltip-href="/conditions/7-tooltip">Incapacitated</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#InvisibleCondition" data-tooltip-href="/conditions/8-tooltip">Invisible</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ParalyzedCondition" data-tooltip-href="/conditions/9-tooltip">Paralyzed</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PetrifiedCondition" data-tooltip-href="/conditions/10-tooltip">Petrified</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#PoisonedCondition" data-tooltip-href="/conditions/11-tooltip">Poisoned</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#RestrainedCondition" data-tooltip-href="/conditions/13-tooltip">Restrained</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#StunnedCondition" data-tooltip-href="/conditions/14-tooltip">Stunned</a>
-- <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#UnconsciousCondition" data-tooltip-href="/conditions/15-tooltip">Unconscious</a>
+- [[[glossary:Blinded|blinded-condition]]]
+- [[[glossary:Charmed|charmed-condition]]]
+- [[[glossary:Deafened|deafened-condition]]]
+- [[[glossary:Exhaustion|exhaustion-condition]]]
+- [[[glossary:Frightened|frightened-condition]]]
+- [[[glossary:Grappled|grappled-condition]]]
+- [[[glossary:Incapacitated|incapacitated-condition]]]
+- [[[glossary:Invisible|invisible-condition]]]
+- [[[glossary:Paralyzed|paralyzed-condition]]]
+- [[[glossary:Petrified|petrified-condition]]]
+- [[[glossary:Poisoned|poisoned-condition]]]
+- [[[glossary:Prone|prone-condition]]]
+- [[[glossary:Restrained|restrained-condition]]]
+- [[[glossary:Stunned|stunned-condition]]]
+- [[[glossary:Unconscious|unconscious-condition]]]
 
 The definition of a condition specifies what happens to its recipient while affected by it, and some conditions apply other conditions.
 
 ## Duration
 
-A condition lasts either for a duration specified by the effect that imposed the condition or until the condition is countered (the <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ProneCondition" data-tooltip-href="/conditions/12-tooltip">Prone</a> condition is countered by standing up, for example).
+A condition lasts either for a duration specified by the effect that imposed the condition or until the condition is countered (the [[[glossary:Prone|prone-condition]]] condition is countered by standing up, for example).
 
 ## Conditions Don't Stack
 
-If multiple effects impose the same condition on you, each instance of the condition has its own duration, but the condition's effects don't get worse. Either you have a condition or you don't. The <a class="tooltip-hover condition-tooltip" href="/sources/dnd/free-rules/rules-glossary#ExhaustionCondition" data-tooltip-href="/conditions/4-tooltip">Exhaustion</a> condition is an exception; its effects get worse if you have the condition and receive it again.
+If multiple effects impose the same condition on you, each instance of the condition has its own duration, but the condition's effects don't get worse. Either you have a condition or you don't. The [[[glossary:Exhaustion|exhaustion-condition]]] condition is an exception; its effects get worse if you have the condition and receive it again.
     </div>
