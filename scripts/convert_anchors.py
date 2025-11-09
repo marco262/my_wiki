@@ -1,30 +1,18 @@
-#!/usr/bin/env python3
-"""
-convert_anchors.py
-
-Usage:
-    python scripts/convert_anchors.py "C:\path\to\my_wiki\data\dnd\general\rules-glossary.md"
-
-This script finds HTML anchors that point to same-page fragments (href="#...") and replaces
-instances like
-
-    <a href="#ShortRest">Short Rest</a>
-
-with
-
-    [Short Rest](#short-rest)
-
-The slug is generated from the anchor href fragment (not the visible link text) so
-ids like `ShortRest` become `short-rest`.
-
-The script makes a .bak copy before writing changes.
-"""
-
-import argparse
 import html
-import os
 import re
 from pathlib import Path
+
+PATH = r"..\data\dnd\general\playing-the-game.md"
+
+# Anchors
+REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
+FORMAT_STRING = '[{label}](#{label})'
+FORMAT_STRING2 = '[{label}](#{slug})'
+
+# Glossary links
+# REG = r'<a class="tooltip-hover (?:action|rule|condition)-tooltip" href="/sources/dnd/free-rules/rules-glossary#(.*?)" data-tooltip-href=".*?">(.*?)</a>'
+# FORMAT_STRING = '[[glossary:{label}]]'
+# FORMAT_STRING2 = '[[glossary:{label}|{slug}]]'
 
 
 def slugify(text: str) -> str:
@@ -94,7 +82,7 @@ def convert_anchors_in_text(s: str):
     Returns (new_text, replacements_count).
     """
     # Match <a ... href="#fragment" ...>inner</a> supporting single- or double-quoted hrefs
-    anchor_re = re.compile(r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>', re.IGNORECASE | re.DOTALL)
+    anchor_re = re.compile(REG, re.IGNORECASE | re.DOTALL)
 
     def repl(m: re.Match):
         href_fragment = m.group(1)  # original fragment name
@@ -110,13 +98,20 @@ def convert_anchors_in_text(s: str):
             slug = slugify(label)
         if "areaof" in slug:
             slug = slug.replace("areaof", "area-of")
-        return f'[{label}](#{slug})'
+
+        if label == slug:
+            r = FORMAT_STRING.format(label=label)
+        else:
+            r = FORMAT_STRING2.format(label=label, slug=slug)
+
+        print(f"{m.group(0)} -> {r}")
+        return r
 
     new_text, n = anchor_re.subn(repl, s)
     return new_text, n
 
 
-filepath = Path(r"..\data\dnd\general\rules-glossary.md")
+filepath = Path(PATH)
 if not filepath.exists():
     print(f"File not found: {filepath}")
     raise SystemExit(1)

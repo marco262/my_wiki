@@ -14,7 +14,7 @@ from src.common.utils import title_to_page_name, list_media_files
 from src.dnd5e.magic_item_tracker import build_magic_item_tracker
 from src.dnd5e.npc_generator import create_npc
 from src.dnd5e.utils import to_mod
-from src.dnd.utils import split_rules_glossary, RulesGlossaryEntry
+from src.dnd.utils import TooltipEntry, TooltipDict, split_rules_glossary
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = [
@@ -25,7 +25,7 @@ EXTRAS = [
 class MarkdownParser:
     namespace = ""
     accordion_text = False
-    rules_glossary: Dict[str, RulesGlossaryEntry] = None
+    rules_glossary: Dict[str, TooltipEntry] = None
 
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
@@ -67,6 +67,7 @@ class MarkdownParser:
         text = self.convert_gm_notes_inserts(text)
         text = self.generate_npc_blocks(text)
         text = self.fancy_text(text)
+        text = self.add_reference_tooltips(text)
         text = self.add_rules_glossary_tooltips(text)
         return text
 
@@ -232,19 +233,111 @@ class MarkdownParser:
             text = text.replace(m.group(0), new_text)
         return text
 
-    def add_rules_glossary_tooltips(self, text):
+    def add_reference_tooltips(self, text: str) -> str:
+        d: TooltipDict = {
+            "acrobatics": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Dexterity (Acrobatics) allows you to stay on your feet in a tricky situation, or perform an acrobatic stunt.</p>",
+            },
+            "animal handling": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Wisdom (Animal Handling) allows you to calm or train an animal, or get an animal to behave in a certain way.</p>",
+            },
+            "arcana": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Intelligence (Arcana) allows you to recall lore about spells, magic items, and the planes of existence.</p>",
+            },
+            "athletics": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Strength (Athletics) allows you to jump farther than normal, stay afloat in rough water, or break something.</p>",
+            },
+            "deception": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Charisma (Deception) allows you to tell a convincing lie, or wear a disguise convincingly.</p>",
+            },
+            "history": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Intelligence (History) allows you to recall lore about historical events, people, nations, and cultures.</p>",
+            },
+            "insight": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Wisdom (Insight) allows you to discern a person's mood and intentions.</p>",
+            },
+            "intimidation": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Charisma (Intimidation) allows you to awe or threaten someone into doing what you want.</p>",
+            },
+            "investigation": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Intelligence (Investigation) allows you to find obscure information in books, or deduce how something works.</p>",
+            },
+            "medicine": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Wisdom (Medicine) allows you to diagnose an illness, or determine what killed the recently slain.</p>",
+            },
+            "nature": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Intelligence (Nature) allows you to recall lore about terrain, plants, animals, and weather.</p>",
+            },
+            "perception": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Wisdom (Perception) allows you to use a combination of senses to notice something that's easy to miss.</p>",
+            },
+            "performance": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Charisma (Performance) allows you to act, tell a story, perform music, or dance.</p>",
+            },
+            "persuasion": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Charisma (Persuasion) allows you to honestly and graciously convince someone of something.</p>",
+            },
+            "religion": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Intelligence (Religion) allows you to recall lore about gods, religious rituals, and holy symbols.</p>",
+            },
+            "sleight of hand": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Dexterity (Sleight of Hand) allows you to pick a pocket, conceal a handheld object, or perform legerdemain.</p>",
+            },
+            "stealth": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Dexterity (Stealth) allows you to escape notice by moving quietly and hiding behind things.</p>",
+            },
+            "survival": {
+                "href": "/dnd/general/Playing the Game#skill-list",
+                "content": "<p>Wisdom (Survival) allows you to follow tracks, forage, find a trail, or avoid natural hazards.</p>",
+            },
+            "half cover": {
+                "href": "/dnd/general/Rules Glossary#cover",
+                "content": "<p>Half Cover gives you +2 bonus to AC and Dexterity saving throws.</p>",
+            },
+            "three-quarters cover": {
+                "href": "/dnd/general/Rules Glossary#cover",
+                "content": "<p>Three-Quarters Cover gives you +5 bonus to AC and Dexterity saving throws.</p>",
+            },
+            "total cover": {
+                "href": "/dnd/general/Rules Glossary#cover",
+                "content": "<p>Total Cover means you can't be targeted directly, by attacks or spells that require a target.</p>",
+            },
+        }
+        return self._add_tooltip(d, r"\[\[tooltip:(.*?)(\|(.*?))?\]\]", text)
+
+    def add_rules_glossary_tooltips(self, text: str) -> str:
         if not self.rules_glossary:
             self.rules_glossary = split_rules_glossary()
-        pattern = r"\[\[glossary:(.*?)(\|(.*?))?\]\]"
-        glossary_tooltip = '<dfn name="{name}"><button class="dfn-tooltip" anchor="{anchor}">{content}</button></dfn>'
+        return self._add_tooltip(self.rules_glossary, r"\[\[glossary:(.*?)(\|(.*?))?\]\]", text)
+
+    @staticmethod
+    def _add_tooltip(tooltip_dict: TooltipDict, pattern: str, text: str) -> str:
+        tooltip_fmt = '<dfn name="{name}"><button class="dfn-tooltip" href="{href}">{content}</button></dfn>'
         for m in re.finditer(pattern, text):
             try:
-                g = self.rules_glossary[m.group(1).lower()]
+                g = tooltip_dict[m.group(1).lower()]
             except KeyError:
-                raise KeyError(f"Invalid glossary entry '{m.group(1)}'. match={m.group(0)}")
-            tooltip = glossary_tooltip.format(
+                raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
+            tooltip = tooltip_fmt.format(
                 name=m.group(3) or m.group(1),
-                anchor=g["anchor"],
+                href=g["href"],
                 content=g["content"],
             )
             text = text.replace(m.group(0), tooltip)

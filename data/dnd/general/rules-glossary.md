@@ -105,7 +105,7 @@ The descriptions of many spells and other features specify that they have an are
  - [Line](#line-area-of-effect)
  - [Sphere](#sphere-area-of-effect)
 
-An area of effect has a point of origin, a location from which the effect's energy erupts. The rules for each shape specify how to position its point of origin. If all straight lines extending from the point of origin to a location in the area of effect are blocked, that location isn't included in the area of effect. To block a line, an obstruction must provide <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/33-tooltip">Total Cover</a>. _See also_ "[Cover](#cover)."
+An area of effect has a point of origin, a location from which the effect's energy erupts. The rules for each shape specify how to position its point of origin. If all straight lines extending from the point of origin to a location in the area of effect are blocked, that location isn't included in the area of effect. To block a line, an obstruction must provide [[tooltip:Total Cover]]. _See also_ "[Cover](#cover)."
 
 If the creator of an area of effect places it at an unseen point and an obstruction -- such as a wall -- is between the creator and that point, the point of origin comes into being on the near side of the obstruction.
 
@@ -149,7 +149,7 @@ While you have the Blinded condition, you experience the following effects.
 
 ## Blindsight
 
-If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind <a class="tooltip-hover rule-tooltip" href="https://www.dndbeyond.com/sources/basic-rules/combat#Cover" data-tooltip-href="/rules/85-tooltip">Total Cover</a> even if you have the [Blinded](#blinded-condition) condition or are in [Darkness](#darkness). Moreover, in that range, you can see something that has the [Invisible](#invisible-condition) condition.
+If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind [[tooltip:Total Cover]] even if you have the [Blinded](#blinded-condition) condition or are in [Darkness](#darkness). Moreover, in that range, you can see something that has the [Invisible](#invisible-condition) condition.
 
 ## Bloodied
 
@@ -298,7 +298,7 @@ A Cone's point of origin isn't included in the area of effect unless its creator
 
 ## Cover
 
-Cover provides a degree of protection to a target behind it. There are three degrees of cover, each of which provides a different benefit to a target: <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/19-tooltip">Half Cover</a> (+2 bonus to AC and Dexterity saving throws), <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/32-tooltip">Three-Quarters Cover</a> (+5 bonus to AC and Dexterity saving throws), and <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/33-tooltip">Total Cover</a> (can't be targeted directly). If behind more than one degree of cover, a target benefits only from the most protective degree. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Cover">Combat</a>").
+Cover provides a degree of protection to a target behind it. There are three degrees of cover, each of which provides a different benefit to a target: [[tooltip:Half Cover]] (+2 bonus to AC and Dexterity saving throws), [[tooltip:Three-Quarters Cover]] (+5 bonus to AC and Dexterity saving throws), and [[tooltip:Total Cover]] (can't be targeted directly). If behind more than one degree of cover, a target benefits only from the most protective degree. _See also_ "Playing the Game" ("[[[general:Playing the Game#combat|Combat]]]").
 
 ## Crawling
 
@@ -590,7 +590,7 @@ If you gain Heroic Inspiration but already have it, it's lost unless you give it
 
 </div>
 
-With the Hide action, you try to conceal yourself. You must be [Heavily Obscured](#heavily-obscured) or behind <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/32-tooltip">Three-Quarters Cover</a> or <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Cover" data-tooltip-href="/rules-glossary/33-tooltip">Total Cover</a>, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
+With the Hide action, you try to conceal yourself. You must be [Heavily Obscured](#heavily-obscured) or behind [[tooltip:Three-Quarters Cover]] or [[tooltip:Total Cover]], and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
 
 While you are hidden, the next time a creature might notice you, you must make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check contested by its Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>). If you succeed, you gain the [Invisible](#invisible-condition) condition. As long as you are hidden, you will use the same Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check result for any further enemies to notice you.
 
