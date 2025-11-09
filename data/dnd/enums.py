@@ -305,6 +305,15 @@ tooltips = {
         "href": "/dnd/general/Equipment#mace",
         "content": "",
     },
+    "quarterstaff": {
+        "href": "/dnd/general/Equipment#quarterstaff",
+        "content": "",
+    },
+    "sickle": {
+        "href": "/dnd/general/Equipment#sickle",
+        "content": "",
+    },
+    # Martial Weapons
     "greataxe": {
         "href": "/dnd/general/Equipment#greataxe",
         "content": "",
@@ -336,8 +345,16 @@ tooltips = {
         "content": "",
     },
     # Items
+    "druidic focus": {
+        "href": "/dnd/general/Equipment#druidic-focus",
+        "content": "",
+    },
     "holy symbol": {
         "href": "/dnd/general/Equipment#holy-symbol",
+        "content": "",
+    },
+    "herbalism kit": {
+        "href": "/dnd/general/Equipment#herbalism-kit",
         "content": "",
     },
     # Weapon Properties

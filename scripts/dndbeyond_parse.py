@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 os.chdir("..")
-PATH = "data/dnd/class/cleric.md"
+PATH = "data/dnd/class/druid.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -34,6 +34,10 @@ def main() -> None:
             continue
         output.append(parse_tag(tag))
     output = "\n\n".join(output)
+
+    if not output:
+        print(f"No HTML found in {PATH}")
+        return
 
     output += """
 ----
@@ -60,7 +64,9 @@ def parse_tag(parent: Tag) -> str:
         case str() as s if s.startswith("h"):
             return parse_header(parent)
         case "caption":
-            return parse_tag(parent.find())
+            tag = parent.find()
+            if tag:
+                return parse_tag(tag)
         case "div":
             return parse_div(parent)
 
@@ -79,6 +85,8 @@ def parse_tag(parent: Tag) -> str:
                 output.append(f"_{parse_tag(tag)}_")
             case "a":
                 output.append(parse_link(tag))
+            case "table":
+                return parse_table(tag)
             case _:
                 raise ValueError(f"Unhandled tag: {tag}")
 
@@ -163,17 +171,23 @@ def markdown_header_sep(num_cells: int) -> str:
 
 
 def parse_link(tag: Tag) -> str:
+    text = tag.get_text()
+    if "class" not in tag.attrs:
+        return f"[{text}]({tag.attrs['href']})"
+
     classes = tag.attrs["class"]
     if "spell-tooltip" in classes:
-        return f"_[[[spell:{tag.get_text()}]]]_"
+        return f"_[[[spell:{text}]]]_"
     tooltip_classes = ["skill-tooltip", "item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
-            return make_tooltip("tooltip", tooltips, tag.get_text())
+            return make_tooltip("tooltip", tooltips, text)
+
     glossary_classes = ["condition-tooltip", "action-tooltip", "rule-tooltip", "sense-tooltip"]
     for c in glossary_classes:
         if c in classes:
-            return make_tooltip("glossary", GLOSSARY_TOOLTIPS, tag.get_text())
+            return make_tooltip("glossary", GLOSSARY_TOOLTIPS, text)
+
     raise ValueError(f"Unhandled link: {tag}")
 
 
@@ -186,9 +200,15 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
         if key in tooltip_dict:
             return f"[[{tooltip_type}:{key}|{text}]]"
         else:
-            if text == "Short":
-                # Assume it means Short Rest
-                return f"[[glossary:Short Rest|Short]]"
+            match text:
+                case "Half Cover":
+                    return f"[[tooltip:Half Cover]]"
+                case "Short":
+                    # Assume it means Short Rest
+                    return f"[[glossary:Short Rest|Short]]"
+                case "shape-shift":
+                    # Assume it means Shifting
+                    return f"[[glossary:Shifting|shape-shift]]"
             raise ValueError(f"Undefined tooltip: {text}")
 
 
@@ -197,7 +217,6 @@ def parse_ul(parent: Tag) -> str:
     for tag in parent:  # type: Tag
         if isinstance(tag, NavigableString):
             continue
-        assert tag.name == "li"
         output.append(" - " + parse_tag(tag))
     return "\n".join(output)
 
@@ -206,6 +225,8 @@ def parse_div(parent: Tag) -> str:
     # We can just ignore some divs and pretend they don't exist
     output = []
     classes = parent.attrs["class"]
+    if "effect-info" in classes:
+        return parse_ul(parent)
     ignorable_classes = ["subitems-list-details"]
     handled_classes = ["subitems-list-details-item"]
     sep = "\n"
