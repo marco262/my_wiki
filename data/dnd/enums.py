@@ -335,6 +335,11 @@ tooltips = {
         "href": "/dnd/general/Equipment#priest-s-pack",
         "content": "",
     },
+    # Items
+    "holy symbol": {
+        "href": "/dnd/general/Equipment#holy-symbol",
+        "content": "",
+    },
     # Weapon Properties
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",

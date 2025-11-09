@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 os.chdir("..")
-PATH = "data/dnd/class/bard.md"
+PATH = "data/dnd/class/cleric.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -71,12 +71,12 @@ def parse_tag(parent: Tag) -> str:
                 text = tag.get_text()
                 if text and text != "\n":
                     output.append(text)
+            case "p":
+                output.append(parse_tag(tag))
             case "strong":
-                text = parse_tag(tag)
-                output.append(f"**{text}**")
+                output.append(f"**{parse_tag(tag)}**")
             case "em":
-                text = parse_tag(tag)
-                output.append(f"_{text}_")
+                output.append(f"_{parse_tag(tag)}_")
             case "a":
                 output.append(parse_link(tag))
             case _:
