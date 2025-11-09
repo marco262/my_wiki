@@ -18,7 +18,7 @@ To play D&D, you need one person to be the Dungeon Master and other players (thr
 
 If you want to be one of the protagonists in your group's adventures, consider being a player. Here's what players do:
 
-**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this chapter, use the rules in “<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="0c7ca91f-d770-4ce1-8ef1-0d06583de291">Creating a Character</a>” to create your character.
+**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this chapter, use the rules in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="0c7ca91f-d770-4ce1-8ef1-0d06583de291">Creating a Character</a>" to create your character.
 
 **Team Up.** Your character joins the other players' characters to form an adventuring party. These adventurers are allies who face challenges and fantastical situations together. Each character brings distinctive capabilities, which ideally complement those of the other characters.
 
@@ -36,7 +36,7 @@ If you want to be the mastermind of the game, consider being the DM. Here's what
 
 # Rhythm of Play
 
-The three main pillars of D&D play are <a href="#SocialInteraction" data-content-chunk-id="5cdbed8c-3c4d-4f7a-8867-93d0c6e724f0">social interaction</a>, <a href="#Exploration" data-content-chunk-id="5801586c-eb30-4b01-85ef-249760e25918">exploration</a>, and <a href="#Combat" data-content-chunk-id="b14160f0-341d-43bf-8e99-ff36917a70bd">combat</a>. Whichever one you're experiencing, the game unfolds according to this basic pattern:
+The three main pillars of D&D play are [social interaction](#social-interaction), [exploration](#exploration), and [combat](#combat). Whichever one you're experiencing, the game unfolds according to this basic pattern:
 
 1. **The Dungeon Master Describes a Scene.** The DM tells the players where their adventurers are and what's around them (how many doors lead out of a room, what's on a table, and so on).
 2. **The Players Describe What Their Characters Do.** Typically, the characters stick together as they travel through a dungeon or another environment. Sometimes different adventurers do different things: one adventurer might search a treasure chest while a second examines a mysterious symbol engraved on a wall and a third keeps watch for monsters. Outside combat, the DM ensures that every character has a chance to act and decides how to resolve their activity. In combat, the characters take turns.
@@ -55,7 +55,7 @@ The game also includes elements—class features, feats, weapon properties, spel
 
 # An Ongoing Game
 
-Sometimes a session of D&D is a complete game in itself (often called a “one-shot”), where you play a short adventure that lasts for just one session. More often, though, D&D sessions are connected in a longer adventure that takes several sessions to complete, and adventures can be strung together into a larger narrative called a campaign.
+Sometimes a session of D&D is a complete game in itself (often called a "one-shot"), where you play a short adventure that lasts for just one session. More often, though, D&D sessions are connected in a longer adventure that takes several sessions to complete, and adventures can be strung together into a larger narrative called a campaign.
 
 A campaign is like a TV series, while an adventure is like a season of the series. And a game session is like a single episode—it might be self-contained, but it usually links to the larger plot if there is one.
 
@@ -89,7 +89,7 @@ Whenever you divide or multiply a number in the game, round down if you end up w
 
 The dice used in D&D are referred to by the letter _d_ followed by the die's number of sides: d4, d6, d8, d10, d12, and d20. For instance, a d6 is a six-sided die (the cube that many games use). The illustration on this page shows what each die looks like.
 
-When you need to roll dice, the rules tell you how many dice to roll of a certain type, along with any numbers to add or subtract. For example, “3d8 + 5” means you roll three eight-sided dice, add them together, and add 5 to the total.
+When you need to roll dice, the rules tell you how many dice to roll of a certain type, along with any numbers to add or subtract. For example, "3d8 + 5" means you roll three eight-sided dice, add them together, and add 5 to the total.
 
 ### Percentile Dice
 
@@ -99,7 +99,7 @@ Some ten-sided dice are numbered in tens (00, 10, 20, and so on), making it easi
 
 ### D3
 
-The same _d_ notation appears in the expression “1d3,” even though it's rare to find dice with only three sides. To simulate rolling 1d3, roll 1d6 and divide the number rolled by 2 (round up).
+The same _d_ notation appears in the expression "1d3," even though it's rare to find dice with only three sides. To simulate rolling 1d3, roll 1d6 and divide the number rolled by 2 (round up).
 
 ## What Are Dice For?
 
@@ -107,7 +107,7 @@ Here are the most common uses of dice in D&D.
 
 ### D20 Test
 
-The 20-sided die (d20) is the most important die you'll use in the game. It's central to the core mechanic—called D20 Tests—the game uses to determine whether creatures succeed or fail at the things they attempt during the game (see “<a href="#D20Tests" data-content-chunk-id="34eca0a4-bcba-4286-9b62-125b99943657">D20 Tests</a>” later in this chapter). You roll a d20 whenever your character tries to do something that the DM decides has a chance of both success and failure. The higher your roll, the more likely it is that you succeed.
+The 20-sided die (d20) is the most important die you'll use in the game. It's central to the core mechanic—called D20 Tests—the game uses to determine whether creatures succeed or fail at the things they attempt during the game (see "[D20 Tests](#d20-tests)" later in this chapter). You roll a d20 whenever your character tries to do something that the DM decides has a chance of both success and failure. The higher your roll, the more likely it is that you succeed.
 
 ### Damage
 
@@ -115,7 +115,7 @@ The most common use for dice other than the d20 is to determine damage. When you
 
 ### Random Tables
 
-Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the <a href="/sources/dnd/br-2024/creating-a-character#TrinketsTable" data-content-chunk-id="cff3e646-167f-4e4f-a7c4-e4d619e8b57c">Trinkets table</a> in “<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="29404c18-0f66-4655-9d6f-caab14b99530">Creating a Character</a>” uses a d100.
+Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the <a href="/sources/dnd/br-2024/creating-a-character#TrinketsTable" data-content-chunk-id="cff3e646-167f-4e4f-a7c4-e4d619e8b57c">Trinkets table</a> in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="29404c18-0f66-4655-9d6f-caab14b99530">Creating a Character</a>" uses a d100.
 
 ### Percentage Chances
 
@@ -162,7 +162,7 @@ Each ability has a score from 1 to 20, although some monsters have a score as hi
 
 ## Ability Modifiers
 
-Each ability has a modifier that you apply whenever you make a [[glossary:D20 Test|d20-test]] with that ability (explained in “<a href="#D20Tests" data-content-chunk-id="26e7adf2-b355-4bf8-9f57-fb17025a76c9">D20 Tests</a>”). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
+Each ability has a modifier that you apply whenever you make a [[glossary:D20 Test|d20-test]] with that ability (explained in "[D20 Tests](#d20-tests)"). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
 
 ### Ability Modifiers
 
@@ -187,12 +187,12 @@ Each ability has a modifier that you apply whenever you make a [[glossary:D20 Te
 
 # D20 Tests
 
-When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called [[glossary:D20 Test|D20 Tests]], and they come in three kinds: <a href="#AbilityChecks" data-content-chunk-id="0c4a72ef-5360-46b4-b0a7-5c7bdabdd78a">ability checks</a>, <a href="#SavingThrows" data-content-chunk-id="ac3aa97b-14d4-4c51-b631-d8d157cedade">saving throws</a>, and <a href="#AttackRolls" data-content-chunk-id="5eb5655c-d665-485d-9a25-0df510039591">attack rolls</a>. They follow these steps:
+When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called [[glossary:D20 Test|D20 Tests]], and they come in three kinds: [ability checks](#ability-checks), [saving throws](#saving-throws), and [attack rolls](#attack-rolls). They follow these steps:
 
-1. **Roll 1d20.** You always want to roll high. If the roll has [[glossary:Advantage|advantage]] or [[glossary:Disadvantage|disadvantage]] (described <a href="#AdvantageDisadvantage" data-content-chunk-id="b73606a9-00d1-41b6-bac4-fbb4c21fc9bd">later in this chapter</a>), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
+1. **Roll 1d20.** You always want to roll high. If the roll has [[glossary:Advantage|advantage]] or [[glossary:Disadvantage|disadvantage]] (described [later in this chapter](#advantage-disadvantage)), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
 2. **Add Modifiers.** Add these modifiers to the number rolled on the d20:
    - **The Relevant Ability Modifier.** This chapter and the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="ffbc3495-e6ae-4569-84ac-2b72bc742887">Rules Glossary</a> explain which ability modifiers to use for various D20 Tests.
-   - **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See “<a href="#Proficiency" data-content-chunk-id="a78c856c-ae32-416a-b61b-fc98bd32af82">Proficiency</a>” later in this chapter.
+   - **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See "[Proficiency](#proficiency)" later in this chapter.
    - **Circumstantial Bonuses and Penalties.** A class feature, a spell, or another rule might give a bonus or penalty to the die roll.
 3. **Compare the Total to a Target Number.** If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Dungeon Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a [[glossary:Difficulty Class|difficulty-class]] (DC). The target number for an attack roll is called an [[glossary:Armor Class|armor-class]] (AC), which appears on a character sheet or in a stat block (see the <a href="/sources/dnd/br-2024/rules-glossary" data-content-chunk-id="cf11a229-6a7a-4d95-9f16-254f8cffa291">Rules Glossary</a>).
 
@@ -219,7 +219,7 @@ An ability check is named for the ability modifier it uses: a Strength check, an
 
 ### Proficiency Bonus
 
-Add your Proficiency Bonus to an ability check when the DM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check, you can add your Proficiency Bonus to the check if you have proficiency in the <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a> skill. See “<a href="#Proficiency" data-content-chunk-id="a55c5009-9c16-4e0e-abf1-fe5fb56ecb2b">Proficiency</a>” later in this chapter for more information about skill and tool proficiencies.
+Add your Proficiency Bonus to an ability check when the DM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check, you can add your Proficiency Bonus to the check if you have proficiency in the <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a> or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a> skill. See "[Proficiency](#proficiency)" later in this chapter for more information about skill and tool proficiencies.
 
 ### Difficulty Class
 
@@ -259,7 +259,7 @@ Saving throws are named for the ability modifiers they use: a Constitution savin
 
 ### Proficiency Bonus
 
-You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See “<a href="#Proficiency" data-content-chunk-id="13bd97f3-de13-436f-b64e-4116841bf21a">Proficiency</a>” later in this chapter.
+You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See "[Proficiency](#proficiency)" later in this chapter.
 
 ### Difficulty Class
 
@@ -267,7 +267,7 @@ The Difficulty Class for a saving throw is determined by the effect that causes 
 
 ## Attack Rolls
 
-An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in “<a href="#Combat" data-content-chunk-id="d08f19b6-8a31-4762-95ff-661bc872cdfd">Combat</a>” later in this chapter, but the DM might also ask for an attack roll in other situations, such as an archery competition.
+An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in "[Combat](#combat)" later in this chapter, but the DM might also ask for an attack roll in other situations, such as an archery competition.
 
 ### Ability Modifier
 
@@ -281,11 +281,11 @@ The Attack Roll Abilities table shows which ability modifier to use for differen
 | Dexterity | Ranged attack with a weapon |
 | Varies | Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in <a href="/sources/dnd/br-2024/spells">chapter 7</a>) |
 
-Some features let you use different ability modifiers from those listed. For example, the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Finesse" data-tooltip-href="/weapon-properties/2-tooltip">Finesse</a> property (see “<a href="/sources/dnd/br-2024/equipment#Properties" data-content-chunk-id="1fcb5c7c-d551-4e26-916c-b21341244792">Equipment</a>”) lets you use Strength or Dexterity with a weapon that has that property.
+Some features let you use different ability modifiers from those listed. For example, the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Finesse" data-tooltip-href="/weapon-properties/2-tooltip">Finesse</a> property (see "<a href="/sources/dnd/br-2024/equipment#Properties" data-content-chunk-id="1fcb5c7c-d551-4e26-916c-b21341244792">Equipment</a>") lets you use Strength or Dexterity with a weapon that has that property.
 
 ### Proficiency Bonus
 
-You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See “<a href="#Proficiency" data-content-chunk-id="0f1bcd88-7144-4f62-8654-3bcc6ae73e4c">Proficiency</a>” later in this chapter for more information about weapon proficiencies.
+You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See "[Proficiency](#proficiency)" later in this chapter for more information about weapon proficiencies.
 
 ### Armor Class
 
@@ -301,9 +301,9 @@ A creature's AC can then be modified by armor, magic items, spells, and more.
 
 ### Rolling 20 or 1
 
-If you roll a 20 on the d20 (called a “natural 20”) for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see “<a href="#Combat" data-content-chunk-id="fe2647ae-e3ee-434d-9205-7f551b5bfe8e">Combat</a>” later in this chapter).
+If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see "[Combat](#combat)" later in this chapter).
 
-If you roll a 1 on the d20 (a “natural 1”) for an attack roll, the attack misses regardless of any modifiers or the target's AC.
+If you roll a 1 on the d20 (a "natural 1") for an attack roll, the attack misses regardless of any modifiers or the target's AC.
 
 ## Advantage/Disadvantage
 
@@ -344,7 +344,7 @@ Other rules might allow your character to gain Heroic Inspiration independent of
 
 # Proficiency
 
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in “<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="991ce89d-65aa-494f-8514-833c45cf81d6">Creating a Character</a>”). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating|challenge-rating]] (see the <a href="/sources/dnd/br-2024/rules-glossary#ChallengeRating" data-content-chunk-id="1e05e85b-8f17-4a2a-9919-729d792f92b6">Rules Glossary</a>). The Proficiency Bonus table shows how the bonus is determined.
+Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="991ce89d-65aa-494f-8514-833c45cf81d6">Creating a Character</a>"). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating|challenge-rating]] (see the <a href="/sources/dnd/br-2024/rules-glossary#ChallengeRating" data-content-chunk-id="1e05e85b-8f17-4a2a-9919-729d792f92b6">Rules Glossary</a>). The Proficiency Bonus table shows how the bonus is determined.
 
 This bonus is applied to a [[glossary:D20 Test|d20-test]] when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
 
@@ -369,7 +369,7 @@ Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or hal
 
 ## Skill Proficiencies
 
-Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see “<a href="#Actions" data-content-chunk-id="eda46a34-d1d8-4485-9fb7-744764d7afe6">Actions</a>” later in this chapter) specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The DM has the ultimate say on whether a skill is relevant in a situation.
+Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see "[Actions](#actions)" later in this chapter) specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The DM has the ultimate say on whether a skill is relevant in a situation.
 
 If a creature is proficient in a skill, the creature applies its Proficiency Bonus to ability checks involving that skill. Without proficiency in a skill, a creature can still make ability checks involving that skill but doesn't add its Proficiency Bonus. For example, if a character tries to climb a cliff, the DM might ask for a Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check. If the character has <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a> proficiency, the character adds their Proficiency Bonus to the Strength check. If the character lacks that proficiency, they make the check without adding their Proficiency Bonus.
 
@@ -434,26 +434,26 @@ When you do something other than moving or communicating, you typically take an 
 
 | Action | Summary |
 | --- | --- |
-| [[glossary:Attack|attack-action]] | Attack with a weapon or an [[glossary:Unarmed Strike|unarmed-strike]]. |
-| [[glossary:Dash|dash-action]] | For the rest of the turn, give yourself extra movement equal to your [[glossary:Speed|speed]]. |
-| [[glossary:Disengage|disengage-action]] | Your movement doesn't provoke [[glossary:Opportunity Attacks]] for the rest of the turn. |
-| [[glossary:Dodge|dodge-action]] | Until the start of your next turn, attack rolls against you have [[glossary:Disadvantage|disadvantage]], and you make Dexterity saving throws with [[glossary:Advantage|advantage]]. You lose this benefit if you have the [[glossary:Incapacitated|incapacitated-condition]] condition or if your Speed is 0. |
-| [[glossary:Help|help-action]] | Help another creature's ability check or attack roll, or administer first aid. |
-| [[glossary:Hide|hide-action]] | Make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check. |
-| [[glossary:Influence|influence-action]] | Make a Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/17-tooltip">Intimidation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/18-tooltip">Performance</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) or Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/11-tooltip">Animal Handling</a>) check to alter a creature's attitude. |
-| [[glossary:Magic|magic-action]] | Cast a spell, use a magic item, or use a magical feature. |
-| [[glossary:Ready|ready-action]] | Prepare to take an action in response to a trigger you define. |
-| [[glossary:Search|search-action]] | Make a Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/12-tooltip">Insight</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) check. |
-| [[glossary:Study|study-action]] | Make an Intelligence (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/6-tooltip">Arcana</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/7-tooltip">History</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/8-tooltip">Investigation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/9-tooltip">Nature</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/10-tooltip">Religion</a>) check. |
-| [[glossary:Utilize|utilize-action]] | Use a nonmagical object. |
+| [[glossary:Attack]] | Attack with a weapon or an [[glossary:Unarmed Strike|unarmed-strike]]. |
+| [[glossary:Dash]] | For the rest of the turn, give yourself extra movement equal to your [[glossary:Speed|speed]]. |
+| [[glossary:Disengage]] | Your movement doesn't provoke [[glossary:Opportunity Attacks]] for the rest of the turn. |
+| [[glossary:Dodge]] | Until the start of your next turn, attack rolls against you have [[glossary:Disadvantage|disadvantage]], and you make Dexterity saving throws with [[glossary:Advantage|advantage]]. You lose this benefit if you have the [[glossary:Incapacitated|incapacitated-condition]] condition or if your Speed is 0. |
+| [[glossary:Help]] | Help another creature's ability check or attack roll, or administer first aid. |
+| [[glossary:Hide]] | Make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check. |
+| [[glossary:Influence]] | Make a Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/17-tooltip">Intimidation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/18-tooltip">Performance</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) or Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/11-tooltip">Animal Handling</a>) check to alter a creature's attitude. |
+| [[glossary:Magic]] | Cast a spell, use a magic item, or use a magical feature. |
+| [[glossary:Ready]] | Prepare to take an action in response to a trigger you define. |
+| [[glossary:Search]] | Make a Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/12-tooltip">Insight</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a>) check. |
+| [[glossary:Study]] | Make an Intelligence (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/6-tooltip">Arcana</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/7-tooltip">History</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/8-tooltip">Investigation</a>, <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/9-tooltip">Nature</a>, or <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/10-tooltip">Religion</a>) check. |
+| [[glossary:Utilize]] | Use a nonmagical object. |
 
 Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of [[glossary:D20 Test|d20-test]] you need to make, if any.
 
 ## One Thing at a Time
 
-The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in “<a href="#Combat" data-content-chunk-id="7b92c3d2-5162-4ee1-b1b8-268789bf2067">Combat</a>” later in this chapter.
+The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in "[Combat](#combat)" later in this chapter.
 
-Actions can come up in other situations, too: in a social interaction, you can try to [[glossary:Influence|influence-action]] a creature or use the [[glossary:Search|search-action]] action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the [[glossary:Search|search-action]] action to look for traps and use the [[glossary:Help|help-action]] action to aid another character who's trying to open a stuck door (with the [[glossary:Utilize|utilize-action]] action).
+Actions can come up in other situations, too: in a social interaction, you can try to [[glossary:Influence]] a creature or use the [[glossary:Search]] action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the [[glossary:Search]] action to look for traps and use the [[glossary:Help]] action to aid another character who's trying to open a stuck door (with the [[glossary:Utilize]] action).
 
 ## Bonus Actions
 
@@ -465,7 +465,7 @@ You choose when to take a Bonus Action during your turn unless the Bonus Action'
 
 ## Reactions
 
-Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The [[glossary:Opportunity Attacks|Opportunity Attack]], described <a href="#OpportunityAttacks" data-content-chunk-id="60c8a364-a510-4677-a5da-041f865a9e42">later in this chapter</a>, is the most common type of Reaction.
+Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The [[glossary:Opportunity Attacks|Opportunity Attack]], described [later in this chapter](#opportunity-attacks), is the most common type of Reaction.
 
 When you take a Reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction.
 
@@ -475,7 +475,7 @@ In terms of timing, a Reaction takes place immediately after its trigger unless 
 
 **What Would Your Character Do?**
 
-Ask yourself as you play, “What would my character do?” Playing a role involves some amount of getting into another person's head and understanding what motivates them and how those motivations translate into action. In D&D, those actions unfold against the backdrop of a fantastic world full of situations we can only imagine. How does your character react to those situations?
+Ask yourself as you play, "What would my character do?" Playing a role involves some amount of getting into another person's head and understanding what motivates them and how those motivations translate into action. In D&D, those actions unfold against the backdrop of a fantastic world full of situations we can only imagine. How does your character react to those situations?
 
 This advice comes with one important caveat: avoid character choices that ruin the fun of the other players and the DM. Choose actions that delight you and your friends.
 
@@ -503,7 +503,7 @@ If you offer NPCs something they want or play on their sympathies, fears, or goa
 
 ## Ability Checks
 
-Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the DM wants dice to play a role in determining an NPC's response to you. In such situations, the DM will typically ask you to take the [[glossary:Influence|influence-action]] action.
+Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the DM wants dice to play a role in determining an NPC's response to you. In such situations, the DM will typically ask you to take the [[glossary:Influence]] action.
 
 Pay attention to your skill proficiencies when thinking of how you will interact with an NPC; use an approach that relies on your group's skill proficiencies. For example, if the group needs to trick a guard into letting them into a castle, the Rogue who is proficient in <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a> should lead the discussion.
 
@@ -515,7 +515,7 @@ Exploration involves delving into places that are dangerous and full of mystery.
 
 As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with <a class="tooltip-hover item-tooltip" href="/equipment/495-thieves-tools" data-tooltip-href="/adventuring-gear/495-tooltip">Thieves' Tools</a>, and create obstacles for pursuers with <a class="tooltip-hover item-tooltip" href="/equipment/497-caltrops" data-tooltip-href="/adventuring-gear/497-tooltip">Caltrops</a>.
 
-See “<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>” for rules on many items that are useful on adventures. The items in the “<a href="/sources/dnd/br-2024/equipment#Tools" data-content-chunk-id="c32e4170-de2f-4907-8ed8-87bfc4f5c70e">Tools</a>” and “<a href="/sources/dnd/br-2024/equipment#AdventuringGear" data-content-chunk-id="1b6ece5b-23a6-4097-824f-cb0f70944d4d">Adventuring Gear</a>” sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a <a class="tooltip-hover item-tooltip" href="/equipment/12-quarterstaff" data-tooltip-href="/weapons/12-tooltip">Quarterstaff</a>, for example, to push a sinister-looking button that you're reluctant to touch.
+See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "<a href="/sources/dnd/br-2024/equipment#Tools" data-content-chunk-id="c32e4170-de2f-4907-8ed8-87bfc4f5c70e">Tools</a>" and "<a href="/sources/dnd/br-2024/equipment#AdventuringGear" data-content-chunk-id="1b6ece5b-23a6-4097-824f-cb0f70944d4d">Adventuring Gear</a>" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a <a class="tooltip-hover item-tooltip" href="/equipment/12-quarterstaff" data-tooltip-href="/weapons/12-tooltip">Quarterstaff</a>, for example, to push a sinister-looking button that you're reluctant to touch.
 
 ## Vision and Light
 
@@ -549,7 +549,7 @@ Some creatures have special senses that help them perceive things in certain sit
 
 ## Hiding
 
-Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Dungeon Master decides when circumstances are appropriate for hiding. When you try to hide, you take the [[glossary:Hide|hide-action]] action.
+Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Dungeon Master decides when circumstances are appropriate for hiding. When you try to hide, you take the [[glossary:Hide]] action.
 
 ## Interacting with Objects
 
@@ -561,7 +561,7 @@ For the purpose of the rules, an object is a discrete, inanimate item like a win
 
 ### Time-Limited Object Interactions
 
-When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the [[glossary:Utilize|utilize-action]] action, as explained in “<a href="#Combat" data-content-chunk-id="c5fa3677-5f4e-4970-98cf-f07fafef47b4">Combat</a>” later in this chapter.
+When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the [[glossary:Utilize]] action, as explained in "[Combat](#combat)" later in this chapter.
 
 ### Finding Hidden Objects
 
@@ -591,7 +591,7 @@ Monsters are the main perils characters face, but other dangers await. The rules
 
 During an adventure, the characters might travel long distances on trips that could take hours or days. The DM can summarize this travel without calculating exact distances or travel times, or the DM might have you use the travel pace rules below.
 
-If you need to know how fast you can move when every second matters, see the movement rules in “<a href="#Combat" data-content-chunk-id="73a6fb9e-ebc0-459e-850f-6a6855e8e21c">Combat</a>” later in this chapter.
+If you need to know how fast you can move when every second matters, see the movement rules in "[Combat](#combat)" later in this chapter.
 
 <div class="phb-sidebar" markdown="1">
 
@@ -603,7 +603,7 @@ The adventurers should establish a marching order while they travel, whether ind
 
 ### Travel Pace
 
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest|long-rest]] before they can move at that increased pace again (see “<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="465eab63-48e2-46d3-9ad5-3d6da3a2dc84">Equipment</a>” for a selection of mounts for sale). The “<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>” has rules that affect which pace you can choose in certain types of terrain.
+While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest|long-rest]] before they can move at that increased pace again (see "<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="465eab63-48e2-46d3-9ad5-3d6da3a2dc84">Equipment</a>" for a selection of mounts for sale). The "<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>" has rules that affect which pace you can choose in certain types of terrain.
 
 #### Travel Pace
 
@@ -624,7 +624,7 @@ Each travel pace has a game effect, as defined below.
 
 ### Vehicles
 
-Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. “<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="1d3d0aa2-9e08-4ff9-bd84-409687097075">Equipment</a>” includes vehicles for sale.
+Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="1d3d0aa2-9e08-4ff9-bd84-409687097075">Equipment</a>" includes vehicles for sale.
 
 # Combat
 
@@ -656,19 +656,19 @@ Initiative determines the order of turns during combat. When combat starts, ever
 
 On your turn, you can move a distance up to your [[glossary:Speed|speed]] and take one action. You decide whether to move first or take your action first.
 
-The main actions you can take are listed in “<a href="#Actions" data-content-chunk-id="1197000c-8868-477e-aafb-05a3a29b0a41">Actions</a>” earlier in this chapter. A character's features and a monster's stat block also provide action options. “<a href="#MovementandPosition" data-content-chunk-id="9346580c-63f2-44aa-bc5c-28da23a65823">Movement and Position</a>” later in this chapter gives the rules for movement.
+The main actions you can take are listed in "[Actions](#actions)" earlier in this chapter. A character's features and a monster's stat block also provide action options. "[Movement and Position](#movement-and-position)" later in this chapter gives the rules for movement.
 
 **_Communicating._** You can communicate however you are able—through brief utterances and gestures—as you take your turn. Doing so uses neither your action nor your move.
 
-Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The [[glossary:Influence|influence-action]] action is the main way you try to influence a monster.
+Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The [[glossary:Influence]] action is the main way you try to influence a monster.
 
 **_Interacting with Things._** You can interact with one object or feature of the environment for free, during either your move or action. For example, you could open a door during your move as you stride toward a foe.
 
-If you want to interact with a second object, you need to take the [[glossary:Utilize|utilize-action]] action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
+If you want to interact with a second object, you need to take the [[glossary:Utilize]] action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
 
 The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
 
-**_Doing Nothing on Your Turn._** You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive [[glossary:Dodge|dodge-action]] action or the [[glossary:Ready|ready-action]] action to delay acting.
+**_Doing Nothing on Your Turn._** You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive [[glossary:Dodge]] action or the [[glossary:Ready]] action to delay acting.
 
 ### Ending Combat
 
@@ -743,7 +743,7 @@ You can't willingly end a move in a space occupied by another creature. If you s
 
 ## Making an Attack
 
-When you take the [[glossary:Attack|attack-action]] action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
+When you take the [[glossary:Attack]] action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
 
 1. **Choose a Target.** Pick a target within your attack's range: a creature, an object, or a location.
 2. **Determine Modifiers.** The DM determines whether the target has [[glossary:Cover|cover]] (see the next section) and whether you have [[glossary:Advantage|advantage]] or [[glossary:Disadvantage|disadvantage]] against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
@@ -801,7 +801,7 @@ A creature has a 5-foot reach and can thus attack targets within 5 feet when mak
 
 Combatants watch for enemies to drop their guard. If you move heedlessly past your foes, you put yourself in danger by provoking an Opportunity Attack.
 
-**_Avoiding Opportunity Attacks._** You can avoid provoking an Opportunity Attack by taking the [[glossary:Disengage|disengage-action]] action. You also don't provoke an Opportunity Attack when you [[glossary:teleportation|teleport]] or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
+**_Avoiding Opportunity Attacks._** You can avoid provoking an Opportunity Attack by taking the [[glossary:Disengage]] action. You also don't provoke an Opportunity Attack when you [[glossary:teleportation|teleport]] or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
 
 **_Making an Opportunity Attack._** You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an [[glossary:Unarmed Strike|unarmed-strike]] against that creature. The attack occurs right before it leaves your reach.
 
@@ -817,7 +817,7 @@ During your move, you can mount a creature that is within 5 feet of you or dismo
 
 You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.
 
-The [[glossary:Initiative|initiative]] of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: [[glossary:Dash|dash-action]], [[glossary:Disengage|disengage-action]], and [[glossary:Dodge|dodge-action]]. A controlled mount can move and act even on the turn that you mount it.
+The [[glossary:Initiative|initiative]] of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: [[glossary:Dash]], [[glossary:Disengage]], and [[glossary:Dodge]]. A controlled mount can move and act even on the turn that you mount it.
 
 In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
 
@@ -839,7 +839,7 @@ A ranged attack roll with a weapon underwater automatically misses a target beyo
 
 ### Fire Resistance
 
-Anything underwater has Resistance to Fire damage (explained in “Damage and Healing”).
+Anything underwater has Resistance to Fire damage (explained in "Damage and Healing").
 
 # Damage and Healing
 
@@ -851,7 +851,7 @@ Hit Points represent durability and the will to live. Creatures with more Hit Po
 
 Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
 
-If you have half your Hit Points or fewer, you're [[glossary:Bloodied|bloodied]], which has no game effect on its own but which might trigger other game effects.
+If you have half your Hit Points or fewer, you're [[glossary:bloodied]], which has no game effect on its own but which might trigger other game effects.
 
 <div class="phb-sidebar" markdown="1">
 
@@ -865,7 +865,7 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
-When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a <a class="tooltip-hover item-tooltip" href="/equipment/35-blowgun" data-tooltip-href="/weapons/35-tooltip">Blowgun</a>. See “<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="3054951c-c778-44a7-9984-f1b61c2b6091">Equipment</a>” for weapons' damage dice and “<a href="/sources/dnd/br-2024/spells" data-content-chunk-id="9932fbf2-53ce-4c54-acd2-03f494159243">Spells</a>” for spells' damage dice.
+When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a <a class="tooltip-hover item-tooltip" href="/equipment/35-blowgun" data-tooltip-href="/weapons/35-tooltip">Blowgun</a>. See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="3054951c-c778-44a7-9984-f1b61c2b6091">Equipment</a>" for weapons' damage dice and "<a href="/sources/dnd/br-2024/spells" data-content-chunk-id="9932fbf2-53ce-4c54-acd2-03f494159243">Spells</a>" for spells' damage dice.
 
 ## Critical Hits
 
@@ -945,7 +945,7 @@ When you would reduce a creature to 0 Hit Points with a melee attack, you can in
 
 Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.
 
-**_Three Successes/Failures._** Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become [[glossary:Stable|stable]] (see “Stabilizing a Character” below). On your third failure, you die.
+**_Three Successes/Failures._** Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become [[glossary:Stable|stable]] (see "Stabilizing a Character" below). On your third failure, you die.
 
 The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.
 
@@ -955,7 +955,7 @@ The successes and failures don't need to be consecutive; keep track of both unti
 
 ### Stabilizing a Character
 
-You can take the [[glossary:Help|help-action]] action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
+You can take the [[glossary:Help]] action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
 
 A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the [[glossary:Unconscious|unconscious-condition]] condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
 
