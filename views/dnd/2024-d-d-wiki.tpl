@@ -75,6 +75,7 @@
 
 ## System Info
 
+* [[[general:Playing the Game]]]
 * [[[general:Rules Glossary]]]
 
 </div>
