@@ -8,9 +8,9 @@ Compared to students of other Bard Colleges, a special kind of sensibility is im
 
 | Bard Level | Features                                                             |
 |------------|----------------------------------------------------------------------|
-| 3rd        | Bonus Proficiencies, Wanderer’s Lore, Traveler’s Tricks (2 options)  |
-| 6th        | Favorite Trick (1st), Improved Tricks, Traveler’s Tricks (3 options) |
-| 14th       | Favorite Trick (2nd), Improved Tricks, Traveler’s Tricks (4 options) |
+| 3rd        | Bonus Proficiencies, Wanderer's Lore, Traveler's Tricks (2 options)  |
+| 6th        | Favorite Trick (1st), Improved Tricks, Traveler's Tricks (3 options) |
+| 14th       | Favorite Trick (2nd), Improved Tricks, Traveler's Tricks (4 options) |
 
 ## Bonus Proficiencies
 
