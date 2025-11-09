@@ -292,18 +292,50 @@ tooltips = {
         "href": "/dnd/general/Rules Glossary#cover",
         "content": "<p>Total Cover means you can't be targeted directly, by attacks or spells that require a target.</p>",
     },
-    "greataxe": {
-        "href": "/dnd/general/Equipment#greataxe",
+    # Simple Weapons
+    "dagger": {
+        "href": "/dnd/general/Equipment#dagger",
         "content": "",
     },
     "handaxe": {
         "href": "/dnd/general/Equipment#handaxe",
         "content": "",
     },
+    "mace": {
+        "href": "/dnd/general/Equipment#mace",
+        "content": "",
+    },
+    "greataxe": {
+        "href": "/dnd/general/Equipment#greataxe",
+        "content": "",
+    },
+    # Armor
+    "leather armor": {
+        "href": "/dnd/general/Equipment#leather-armor",
+        "content": "",
+    },
+    "chain shirt": {
+        "href": "/dnd/general/Equipment#chain-shirt",
+        "content": "",
+    },
+    "shield": {
+        "href": "/dnd/general/Equipment#shield",
+        "content": "",
+    },
+    # Packs
     "explorer's pack": {
         "href": "/dnd/general/Equipment#explorer-s-pack",
         "content": "",
     },
+    "entertainer's pack": {
+        "href": "/dnd/general/Equipment#entertainer-s-pack",
+        "content": "",
+    },
+    "priest's pack": {
+        "href": "/dnd/general/Equipment#priest-s-pack",
+        "content": "",
+    },
+    # Weapon Properties
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",
         "content": "",

@@ -6,7 +6,7 @@ Barbarians who follow the Path of the Wild Heart view themselves as kin to anima
 
 ### Level 3: Animal Speaker
 
-You can cast the _[[[spell:Beast Sense]]] and _[[[spell:Speak with Animals]]] spells but only as Rituals. Wisdom is your spellcasting ability for them.
+You can cast the _[[[spell:Beast Sense]]]_ and _[[[spell:Speak with Animals]]]_ spells but only as Rituals. Wisdom is your spellcasting ability for them.
 
 ### Level 3: Rage of the Wilds
 
@@ -30,7 +30,7 @@ You gain one of the following options of your choice. Whenever you finish a Long
 
 ### Level 10: Nature Speaker
 
-You can cast the _[[[spell:Commune with Nature]]] spell but only as a Ritual. Wisdom is your spellcasting ability for it.
+You can cast the _[[[spell:Commune with Nature]]]_ spell but only as a Ritual. Wisdom is your spellcasting ability for it.
 
 ### Level 14: Power of the Wilds
 

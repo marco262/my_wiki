@@ -4,13 +4,17 @@ This script will then convert that file into a Markdown representation of that f
 It will also add a "Source:" section at the end. Make sure to fill that out manually using a real book reference
 like "Player's Handbook, p. 34".
 """
+import os
 
 import bs4
 from bs4 import Tag, NavigableString
 
 from data.dnd.enums import tooltips
+from src.dnd.utils import split_rules_glossary
 
-PATH = "../data/dnd/class/barbarian.md"
+os.chdir("..")
+PATH = "data/dnd/class/bard.md"
+GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
 def main() -> None:
@@ -20,6 +24,7 @@ def main() -> None:
 
     # Replace "smart" quotes
     html_content = html_content.replace("’", "'")
+    html_content = html_content.replace("&rsquo;", "'")
 
     soup = bs4.BeautifulSoup(html_content, "html.parser")
 
@@ -34,7 +39,7 @@ def main() -> None:
 ----
 
 _Source: Player's Handbook, p. XXX_
-    """
+"""
 
     print(output)
 
@@ -160,25 +165,31 @@ def markdown_header_sep(num_cells: int) -> str:
 def parse_link(tag: Tag) -> str:
     classes = tag.attrs["class"]
     if "spell-tooltip" in classes:
-        return f"_[[[spell:{tag.get_text()}]]]"
+        return f"_[[[spell:{tag.get_text()}]]]_"
     tooltip_classes = ["skill-tooltip", "item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
-            text = tag.get_text()
-            key = text.lower()
-            if key in tooltips:
-                return f"[[tooltip:{text}]]"
-            else:
-                key = key.rstrip("s")
-                if key in tooltips:
-                    return f"[[tooltip:{key}|{text}]]"
-                else:
-                    raise ValueError(f"Undefined tooltip: {text}")
+            return make_tooltip("tooltip", tooltips, tag.get_text())
     glossary_classes = ["condition-tooltip", "action-tooltip", "rule-tooltip", "sense-tooltip"]
     for c in glossary_classes:
         if c in classes:
-            return f"[[glossary:{tag.get_text()}]]"
+            return make_tooltip("glossary", GLOSSARY_TOOLTIPS, tag.get_text())
     raise ValueError(f"Unhandled link: {tag}")
+
+
+def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
+    key = text.lower()
+    if key in tooltip_dict:
+        return f"[[{tooltip_type}:{text}]]"
+    else:
+        key = key.rstrip("s")
+        if key in tooltip_dict:
+            return f"[[{tooltip_type}:{key}|{text}]]"
+        else:
+            if text == "Short":
+                # Assume it means Short Rest
+                return f"[[glossary:Short Rest|Short]]"
+            raise ValueError(f"Undefined tooltip: {text}")
 
 
 def parse_ul(parent: Tag) -> str:

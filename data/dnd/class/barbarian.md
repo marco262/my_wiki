@@ -1,4 +1,4 @@
-[[breadcrumb /dnd/|2024 D&D]]
+[[breadcrumb /dnd/classes|Classes]]
 
 # Core Barbarian Traits
 
@@ -187,4 +187,3 @@ A Barbarian subclass is a specialization that grants you features at certain Bar
 ----
 
 _Source: Player's Handbook, p. 51_
-    

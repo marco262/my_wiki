@@ -1,29 +1,27 @@
 [[breadcrumb /dnd/class/Bard|Bard]]
 
-Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.
+_Plumb the Depths of Magical Knowledge_
 
-The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
+Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
 
-### 3rd Level: Bonus Proficiencies
+### Level 3: Bonus Proficiencies
 
-You gain three Skill Proficiencies: Arcana, History, and Nature. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency.
+You gain proficiency with three skills of your choice.
 
-### 3rd Level: Cutting Words
+### Level 3: Cutting Words
 
-You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an Ability Check or an Attack Roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure.
+You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.
 
-### 6th Level: Cunning Inspiration
+### Level 6: Magical Discoveries
 
-Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls.
+You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.
 
-### 10th Level: Improved Cutting Words
+You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.
 
-Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier.
+### Level 14: Peerless Skill
 
-### 14th Level: Peerless Skill
-
-When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended.
+When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.
 
 ----
 
-_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: Player's Handbook, p. 66_
