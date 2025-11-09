@@ -18,6 +18,9 @@ def main() -> None:
     with open(PATH, "r", encoding="utf-8") as file:
         html_content = file.read()
 
+    # Replace "smart" quotes
+    html_content = html_content.replace("’", "'")
+
     soup = bs4.BeautifulSoup(html_content, "html.parser")
 
     output = []
@@ -26,9 +29,6 @@ def main() -> None:
             continue
         output.append(parse_tag(tag))
     output = "\n\n".join(output)
-
-    # Replace "smart" quotes
-    output = output.replace("’", "'")
 
     output += """
 ----
@@ -99,10 +99,8 @@ def parse_header(header: Tag) -> str:
 
 
 def parse_table(table: Tag) -> str:
-    """
-    Convert a Beautiful Soup <table> element to a Markdown table string.
-    Assumes the first row contains headers (using <th> or <td>).
-    """
+    # If no header in this table, assume it's a weird table we want to make into a bulleted list
+    has_header = bool(table.find("thead"))
     output = []
     for tag in table:  # type: Tag
         match tag.name:
@@ -113,8 +111,12 @@ def parse_table(table: Tag) -> str:
                 for row in tag:  # type: Tag
                     output += parse_row(row, header=True)
             case "tbody":
-                for row in tag:  # type: Tag
-                    output += parse_row(row)
+                if has_header:
+                    for row in tag:  # type: Tag
+                        output += parse_row(row)
+                else:
+                    for row in tag:
+                        output += parse_headless_row(row)
     return "\n".join(output)
 
 
@@ -126,22 +128,25 @@ def parse_row(row: Tag, header: bool = False) -> list[str]:
         cell_text = parse_tag(cell)
         if not cell_text:
             continue
-        should_bold_text = False
-        # Sometimes we have "sideways" tables, where there's no header
-        # but the left column is bolded. This is to handle that case by bolding
-        # the text in the <th> cells.
-        match cell.name:
-            case "th":
-                if not header:
-                    should_bold_text = True
-        if should_bold_text:
-            cell_text_list.append(f"**{cell_text}**")
-        else:
-            cell_text_list.append(cell_text)
+        cell_text_list.append(cell_text)
     output = [markdown_row(cell_text_list)]
     if header:
         output.append(markdown_header_sep(len(cell_text_list)))
     return output
+
+
+def parse_headless_row(row: Tag) -> list[str]:
+    if isinstance(row, NavigableString):
+        return []
+    output = []
+    for cell in row:  # type: Tag
+        cell_text = parse_tag(cell)
+        match cell.name:
+            case "th":
+                output.append(f" - **{cell_text}**:")
+            case "td":
+                output.append(cell_text)
+    return [" ".join(output)]
 
 
 def markdown_row(cells: list[str]) -> str:
