@@ -57,6 +57,7 @@
 
 ## Character Information
 
+* [[[advancement:Creating a Character]]]
 * [[[advancement:Character Generation]]]
     * [[[advancement:Character Generation#backgrounds|Backgrounds]]]
     * [[[advancement:Character Generation#languages|Languages]]]

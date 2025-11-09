@@ -2,7 +2,7 @@ import html
 import re
 from pathlib import Path
 
-PATH = r"..\data\dnd\general\playing-the-game.md"
+PATH = r"..\data\dnd\general\creating-a-character.md"
 
 # Anchors
 REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
