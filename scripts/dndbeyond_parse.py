@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 os.chdir("..")
-PATH = "data/dnd/class/monk.md"
+PATH = "data/dnd/class/paladin.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -210,6 +210,9 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
                 case "Short":
                     # Assume it means Short Rest
                     return f"[[glossary:Short Rest|Short]]"
+                case "Long":
+                    # Assume it means Long Jump (double-check this)
+                    return f"[[glossary:Long Jump|Long]]"
                 case "shape-shift":
                     # Assume it means Shifting
                     return f"[[glossary:Shifting|shape-shift]]"

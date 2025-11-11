@@ -338,6 +338,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#javelin",
         "content": "",
     },
+    "longsword": {
+        "href": "/dnd/general/Equipment#longsword",
+        "content": "",
+    },
     "scimitar": {
         "href": "/dnd/general/Equipment#scimitar",
         "content": "",
