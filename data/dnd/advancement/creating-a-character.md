@@ -55,7 +55,7 @@ Choose a class, and write it on your character sheet. The Class Overview table s
 
 **Bonus Feats at Level 20**
 
-A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. <a href="/sources/dnd/br-2024/feats#EpicBoonFeats">Epic Boon feats</a> are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
+A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. [[[general:Feats#epic-boon-feats|Epic Boon Feats]]] are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
 
 </div>
 
@@ -98,7 +98,7 @@ The background you choose influences step 3, when you determine your character's
 | Wisdom       | [[[background:Acolyte]]], [[[background:Sage]]]                            |
 | Charisma     | [[[background:Acolyte]]]                                                   |
 
-**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in "<a href="/sources/dnd/br-2024/feats" data-content-chunk-id="6fa4ccce-4a48-436c-b952-2b5c1da66ebb">Feats</a>". Write the feat on your character sheet.
+**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in "[[[general:Feats]]]". Write the feat on your character sheet.
 
 **_Note Proficiencies._** Your background gives proficiency in two skills and with one tool. Record this information on your character sheet.
 
@@ -110,7 +110,7 @@ The features table in your class description shows your [[[general:Playing the G
 
 ### Choose Starting Equipment
 
-Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="b5a33143-a439-4bff-93dc-5ac65da93145">Equipment</a>". In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) at the end of this chapter).
+Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "[[[general:Equipment]]]". In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) at the end of this chapter).
 
 Record your chosen equipment on your character sheet. Equipment is described in [[[general:equipment]]], but for now you can just write it all down and look up the specifics in that chapter later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
 
@@ -135,7 +135,7 @@ Let your character's background and race inspire how you imagine their past. Tha
 
 Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it, and write it. Your class and other features might also give you languages.
 
-The Standard Languages table lists languages that are widespread on D&D worlds. Every player character knows Common, which originated in the planar metropolis of <a class="tooltip-hover lore-tooltip" href="/sources/dnd/dmg-2024/cosmology#SigilCityofDoors" data-tooltip-href="/lore-glossary/303-tooltip">Sigil</a>, the hub of the multiverse. The other standard languages originated with the first members of the most prominent races in the worlds of D&D and have since spread widely.
+The Standard Languages table lists languages that are widespread on D&D worlds. Every player character knows Common, which originated in the planar metropolis of Sigil, the hub of the multiverse. The other standard languages originated with the first members of the most prominent races in the worlds of D&D and have since spread widely.
 
 ##### Standard Languages
 
@@ -365,7 +365,7 @@ Backgrounds in older D&D books don't include ability score adjustments. If you'r
 
 Similarly, races in older books include ability score increases. If you're using a race from an older book, ignore those increases and use only the ones given by your background.
 
-Also, if the background you choose doesn't provide a feat, you gain an <a href="/sources/dnd/br-2024/feats#OriginFeats">Origin feat</a> of your choice.
+Also, if the background you choose doesn't provide a feat, you gain an [[[general:Feats#origin-feats|Origin feat]]] of your choice.
 
 </div>
 
@@ -540,7 +540,7 @@ At tier 4, characters achieve the pinnacle of their class features, becoming her
 
 **Unaligned Creatures**
 
-Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. <a class="tooltip-hover monster-tooltip" href="/monsters/4775838-reef-shark" data-tooltip-href="/monsters/4775838-tooltip">Sharks</a> are savage predators, for example, but they aren't evil; they are unaligned.
+Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. [[[monster:Shark|Sharks]]] are savage predators, for example, but they aren't evil; they are unaligned.
 
 </div>
 

@@ -2,9 +2,11 @@ import html
 import re
 from pathlib import Path
 
-# PATH = r"..\data\dnd\general\rules-glossary.md"
-# PATH = r"..\data\dnd\general\playing-the-game.md"
-PATH = r"..\data\dnd\advancement\creating-a-character.md"
+PATHS = [
+    r"..\data\dnd\general\rules-glossary.md",
+    r"..\data\dnd\general\playing-the-game.md",
+    r"..\data\dnd\advancement\creating-a-character.md",
+]
 
 # Anchors
 # REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
@@ -27,7 +29,12 @@ PATH = r"..\data\dnd\advancement\creating-a-character.md"
 # FORMAT_STRING2 = '[[[general:Creating a Character#{slug}|{label}]]]'
 
 # Equipment links
-REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/equipment\#(.*?)\"(?: data-content-chunk-id=".*?")?\>(.*?)\<\/a\>'
+# REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/equipment\#(.*?)\"(?: data-content-chunk-id=".*?")?\>(.*?)\<\/a\>'
+# FORMAT_STRING = '[[[general:Equipment#{label}]]]'
+# FORMAT_STRING2 = '[[[general:Equipment#{slug}|{label}]]]'
+
+# Equipment links
+REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/dms\-toolbox\#(.*?)\"(?: data-content-chunk-id=".*?")\>(.*?)\<\/a\>'
 FORMAT_STRING = '[[[general:Equipment#{label}]]]'
 FORMAT_STRING2 = '[[[general:Equipment#{slug}|{label}]]]'
 
@@ -128,16 +135,27 @@ def convert_anchors_in_text(s: str):
     return new_text, n
 
 
-filepath = Path(PATH)
-if not filepath.exists():
-    print(f"File not found: {filepath}")
-    raise SystemExit(1)
+def process_file(path: str):
+    print(f"Processing {path}...")
+    filepath = Path(path)
+    if not filepath.exists():
+        print(f"File not found: {filepath}")
+        raise SystemExit(1)
 
-text = filepath.read_text(encoding="utf-8")
-new_text, count = convert_anchors_in_text(text)
+    text = filepath.read_text(encoding="utf-8")
+    new_text, count = convert_anchors_in_text(text)
 
-if count == 0:
-    print("No same-page <a href=\"#...\">...</a> anchors found to convert.")
-    exit()
+    if count == 0:
+        print("No same-page <a href=\"#...\">...</a> anchors found to convert.")
+        return
 
-filepath.write_text(new_text, encoding="utf-8")
+    filepath.write_text(new_text, encoding="utf-8")
+
+
+def main():
+    for path in PATHS:
+        process_file(path)
+
+
+if __name__ == '__main__':
+    main()

@@ -281,7 +281,7 @@ The Attack Roll Abilities table shows which ability modifier to use for differen
 | Dexterity | Ranged attack with a weapon                                                             |
 | Varies    | Spell attack (the ability used is determined by the spellcaster's spellcasting feature) |
 
-Some features let you use different ability modifiers from those listed. For example, the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Finesse" data-tooltip-href="/weapon-properties/2-tooltip">Finesse</a> property (see "[[[general:Equipment#properties|Equipment]]]") lets you use Strength or Dexterity with a weapon that has that property.
+Some features let you use different ability modifiers from those listed. For example, the [[tooltip:Finesse]] property (see "[[[general:Equipment#properties|Equipment]]]") lets you use Strength or Dexterity with a weapon that has that property.
 
 ### Proficiency Bonus
 
@@ -289,7 +289,7 @@ You add your Proficiency Bonus to your attack roll when you attack using a weapo
 
 ### Armor Class
 
-A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see <a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="517288ef-a55b-4d6e-9b2b-65a7b78663ad">chapter 2</a>), whereas the AC of a monster appears in its stat block.
+A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see [[[advancement:Creating a Character]]]), whereas the AC of a monster appears in its stat block.
 
 **_Calculating AC._** All creatures start with the same base AC calculation:
 
@@ -559,7 +559,7 @@ Exploration involves delving into places that are dangerous and full of mystery.
 
 As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with [[tooltip:Thieves' Tools]], and create obstacles for pursuers with [[tooltip:Caltrops]].
 
-See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a [[tooltip:Quarterstaff]], for example, to push a sinister-looking button that you're reluctant to touch.
+See "[[[general:Equipment]]]" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a [[tooltip:Quarterstaff]], for example, to push a sinister-looking button that you're reluctant to touch.
 
 ## Vision and Light
 
@@ -646,7 +646,7 @@ The adventurers should establish a marching order while they travel, whether ind
 
 ### Travel Pace
 
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see "[[[general:Equipment#mountsand-vehicles|Equipment]]]" for a selection of mounts for sale). The "<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>" has rules that affect which pace you can choose in certain types of terrain.
+While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see "[[[general:Equipment#mountsand-vehicles|Equipment]]]" for a selection of mounts for sale). The "[[[general:Equipment#travel-pace|DM's Toolbox]]]" has rules that affect which pace you can choose in certain types of terrain.
 
 #### Travel Pace
 
@@ -908,7 +908,7 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
-When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a [[tooltip:Blowgun]]. See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="3054951c-c778-44a7-9984-f1b61c2b6091">Equipment</a>" for weapons' damage dice and "<a href="/sources/dnd/br-2024/spells" data-content-chunk-id="9932fbf2-53ce-4c54-acd2-03f494159243">Spells</a>" for spells' damage dice.
+When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a [[tooltip:Blowgun]]. See "[[[general:Equipment]]]" for weapons' damage dice and "[[[general:Spells]]]" for spells' damage dice.
 
 ## Critical Hits
 
@@ -950,7 +950,7 @@ Some creatures and objects have Immunity to certain damage types and conditions.
 
 ## Healing
 
-Hit Points can be restored by magic, such as the _[[[spell:Cure Wounds]]]_ spell or a <a class="tooltip-hover magic-item-tooltip" href="/magic-items/8960641-potion-of-healing" data-tooltip-href="/magic-items/8960641-tooltip">Potion of Healing</a>, or by a [[glossary:Short Rest]] or [[glossary:Long Rest]] (see the [[[general:Rules Glossary]]]).
+Hit Points can be restored by magic, such as the _[[[spell:Cure Wounds]]]_ spell or a [[tooltip:Potion of Healing]], or by a [[glossary:Short Rest]] or [[glossary:Long Rest]] (see the [[[general:Rules Glossary]]]).
 
 When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
 
