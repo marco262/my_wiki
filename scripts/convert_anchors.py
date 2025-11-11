@@ -2,7 +2,9 @@ import html
 import re
 from pathlib import Path
 
-PATH = r"..\data\dnd\general\rules-glossary.md"
+# PATH = r"..\data\dnd\general\rules-glossary.md"
+# PATH = r"..\data\dnd\general\playing-the-game.md"
+PATH = r"..\data\dnd\advancement\creating-a-character.md"
 
 # Anchors
 # REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
@@ -15,9 +17,14 @@ PATH = r"..\data\dnd\general\rules-glossary.md"
 # FORMAT_STRING2 = '[[glossary:{label}|{slug}]]'
 
 # Playing the Game links
-REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/playing\-the\-game\#(.*?)\"\>(.*?)\<\/a\>'
-FORMAT_STRING = '[[general:Playing the Game#{label}]]'
-FORMAT_STRING2 = '[[general:Playing the Game#{slug}|{label}]]'
+# REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/playing\-the\-game\#(.*?)\"\>(.*?)\<\/a\>'
+# FORMAT_STRING = '[[[general:Playing the Game#{label}]]]'
+# FORMAT_STRING2 = '[[[general:Playing the Game#{slug}|{label}]]]'
+
+# Creating a Character links
+REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/creating\-a\-character\#(.*?)\"\>(.*?)\<\/a\>'
+FORMAT_STRING = '[[[general:Creating a Character#{label}]]]'
+FORMAT_STRING2 = '[[[general:Creating a Character#{slug}|{label}]]]'
 
 
 def slugify(text: str) -> str:

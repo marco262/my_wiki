@@ -88,7 +88,7 @@ An adventure is a series of encounters. A story emerges through playing them. _S
 
 ## Alignment
 
-A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. _See also_ "Creating a Character" ("<a href="/sources/dnd/br-2024/creating-a-character#Step4ChooseanAlignment">Create Your Character</a>").
+A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. _See also_ "Creating a Character" ("[[[general:Creating a Character#step4-choosean-alignment|Create Your Character]]]").
 
 ## Ally
 
@@ -238,7 +238,7 @@ Challenge Rating (CR) summarizes the threat a monster poses to a group of four p
 
 ## Character Sheet
 
-A character sheet is a paper or digital record that you use to track your character's information. _See also_ <a href="/sources/dnd/br-2024/creating-a-character#ChooseaCharacterSheet">"Creating a Character"</a>.
+A character sheet is a paper or digital record that you use to track your character's information. _See also_ [[[general:Creating a Character#choosea-character-sheet|"Creating a Character"]]].
 
 ## Charmed [Condition]
 
@@ -500,7 +500,7 @@ While you have the Exhaustion condition, you experience the following effects.
 
 ## Experience Points
 
-As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The <a class="sourcebook" href="/sources/dnd/dmg-2024">Dungeon Master's Guide</a> provides guidance on awarding XP. _See also_ "Creating a Character" ("<a href="/sources/dnd/br-2024/creating-a-character#LevelAdvancement">Level Advancement</a>").
+As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The <a class="sourcebook" href="/sources/dnd/dmg-2024">Dungeon Master's Guide</a> provides guidance on awarding XP. _See also_ "Creating a Character" ("[[[general:Creating a Character#level-advancement|Level Advancement]]]").
 
 ## Expertise
 

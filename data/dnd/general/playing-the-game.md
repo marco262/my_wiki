@@ -115,7 +115,7 @@ The most common use for dice other than the d20 is to determine damage. When you
 
 ### Random Tables
 
-Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the <a href="/sources/dnd/br-2024/creating-a-character#TrinketsTable" data-content-chunk-id="cff3e646-167f-4e4f-a7c4-e4d619e8b57c">Trinkets table</a> in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="29404c18-0f66-4655-9d6f-caab14b99530">Creating a Character</a>" uses a d100.
+Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the [[[general:Creating a Character#trinkets-table|Trinkets table]]] in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="29404c18-0f66-4655-9d6f-caab14b99530">Creating a Character</a>" uses a d100.
 
 ### Percentage Chances
 
