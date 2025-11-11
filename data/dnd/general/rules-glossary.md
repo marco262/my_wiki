@@ -252,7 +252,7 @@ While you have the Charmed condition, you experience the following effects.
 
 While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in [Difficult Terrain](#difficult-terrain)). You ignore this extra cost if you have a [Climb Speed](#climb-speed) and use it to climb.
 
-At the DM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check.
+At the DM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength ([[tooltip:Athletics]]) check.
 
 ## Climb Speed
 
@@ -514,7 +514,7 @@ _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#P
 
 A creature that falls takes 1d6 Bludgeoning damage at the end of the fall for every 10 feet it fell, to a maximum of 20d6. When the creature lands, it has the [Prone](#prone-condition) condition unless it avoids taking any damage from the fall.
 
-A creature that falls into water or another liquid can use its [Reaction](#reaction) to make a DC 15 Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) or Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a>) check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.
+A creature that falls into water or another liquid can use its [Reaction](#reaction) to make a DC 15 Strength ([[tooltip:Athletics]]) or Dexterity ([[tooltip:Acrobatics]]) check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.
 
 ## Flying
 
@@ -554,7 +554,7 @@ A creature can grapple another creature. Characters typically grapple by using a
 
 **_One Grapple per Hand._** A creature must have a hand free to grapple another creature. Some stat blocks and game effects allow a creature to grapple using a tentacle, a maw, or another body part. Whatever part a grappler uses, it can grapple only one creature at a time with that part, and the grappler can't use that part to target another creature unless it ends the grapple.
 
-**_Ending a Grapple._** A Grappled creature can use its action to make a Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) or Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a>) check against the grapple's escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the [Incapacitated](#incapacitated-condition) condition or if the distance between the Grappled target and the grappler exceeds the grapple's range. In addition, the grappler can release the target at any time (no action required).
+**_Ending a Grapple._** A Grappled creature can use its action to make a Strength ([[tooltip:Athletics]]) or Dexterity ([[tooltip:Acrobatics]]) check against the grapple's escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the [Incapacitated](#incapacitated-condition) condition or if the distance between the Grappled target and the grappler exceeds the grapple's range. In addition, the grappler can release the target at any time (no action required).
 
 ## Hazard
 
@@ -592,7 +592,7 @@ If you gain Heroic Inspiration but already have it, it's lost unless you give it
 
 With the Hide action, you try to conceal yourself. You must be [Heavily Obscured](#heavily-obscured) or behind [[tooltip:Three-Quarters Cover]] or [[tooltip:Total Cover]], and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
 
-While you are hidden, the next time a creature might notice you, you must make a Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check contested by its Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>). If you succeed, you gain the [Invisible](#invisible-condition) condition. As long as you are hidden, you will use the same Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/5-tooltip">Stealth</a>) check result for any further enemies to notice you.
+While you are hidden, the next time a creature might notice you, you must make a Dexterity ([[tooltip:Stealth]]) check contested by its Wisdom ([[tooltip:Perception]]). If you succeed, you gain the [Invisible](#invisible-condition) condition. As long as you are hidden, you will use the same Dexterity ([[tooltip:Stealth]]) check result for any further enemies to notice you.
 
 You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.
 
@@ -668,13 +668,13 @@ With the Influence action, you urge a monster to do something. Describe or rolep
 
 **Influence Checks**
 
-| Ability Check | Interaction |
-|---|---|
-| Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/16-tooltip">Deception</a>) | Deceiving a monster that understands you |
-| Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/17-tooltip">Intimidation</a>) | Intimidating a monster |
-| Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/18-tooltip">Performance</a>) | Amusing a monster |
-| Charisma (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/19-tooltip">Persuasion</a>) | Persuading a monster that understands you |
-| Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/11-tooltip">Animal Handling</a>) | Gently coaxing a Beast or Monstrosity |
+| Ability Check                        | Interaction                               |
+|--------------------------------------|-------------------------------------------|
+| Charisma ([[tooltip:Deception]])     | Deceiving a monster that understands you  |
+| Charisma ([[tooltip:Intimidation]])  | Intimidating a monster                    |
+| Charisma ([[tooltip:Performance]])   | Amusing a monster                         |
+| Charisma ([[tooltip:Persuasion]])    | Persuading a monster that understands you |
+| Wisdom ([[tooltip:Animal Handling]]) | Gently coaxing a Beast or Monstrosity     |
 
 
 ## Initiative
@@ -701,11 +701,11 @@ When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical
 
 When you would reduce a creature to 0 [Hit Points](#hit-points) with a melee attack, you can instead reduce the creature to 1 Hit Point. The creature then has the [Unconscious](#unconscious-condition) condition and starts a [Short Rest](#short-rest).
 
-The creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a>) check.
+The creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom ([[tooltip:Medicine]]) check.
 
 ## Lightly Obscured
 
-You have [Disadvantage](#disadvantage) on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) checks to see something in a Lightly Obscured space. _See also_ "[Dim Light](#dim-light)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Light">Exploration</a>").
+You have [Disadvantage](#disadvantage) on Wisdom ([[tooltip:Perception]]) checks to see something in a Lightly Obscured space. _See also_ "[Dim Light](#dim-light)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Light">Exploration</a>").
 
 ## Line [Area of Effect]
 
@@ -717,9 +717,9 @@ A Line's point of origin isn't included in the area of effect unless its creator
 
 When you make a Long Jump, you leap horizontally a number of feet up to your Strength score if you move at least 10 feet immediately before the jump. When you make a standing Long Jump, you can leap only half that distance. Either way, each foot you jump costs a foot of movement.
 
-If you land in [Difficult Terrain](#difficult-terrain), you must succeed on a DC 10 Dexterity (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/3-tooltip">Acrobatics</a>) check or have the [Prone](#prone-condition) condition.
+If you land in [Difficult Terrain](#difficult-terrain), you must succeed on a DC 10 Dexterity ([[tooltip:Acrobatics]]) check or have the [Prone](#prone-condition) condition.
 
-This Long Jump rule assumes that the height of the jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a DC 10 Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit the obstacle.
+This Long Jump rule assumes that the height of the jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a DC 10 Strength ([[tooltip:Athletics]]) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit the obstacle.
 
 ## Long Rest
 
@@ -794,7 +794,7 @@ A space is occupied if a creature is in it or if it is completely filled by obje
 
 ## Opportunity Attacks
 
-You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its Bonus Action, its [Reaction](#reaction), or one of its speeds. To make the Opportunity Attack, take a Reaction to make one melee attack with a weapon or an [Unarmed Strike](#unarmed-strike) against the provoking creature. The attack occurs right before the creature leaves your reach. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#OpportunityAttacks">Combat</a>").
+You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its Bonus Action, its [Reaction](#reaction), or one of its speeds. To make the Opportunity Attack, take a Reaction to make one melee attack with a weapon or an [Unarmed Strike](#unarmed-strike) against the provoking creature. The attack occurs right before the creature leaves your reach. _See also_ [[[general:Playing the Game#opportunity-attacks|Combat]]].
 
 ## Paralyzed [Condition]
 
@@ -812,9 +812,9 @@ While you have the Paralyzed condition, you experience the following effects.
 
 ## Passive Perception
 
-Passive Perception is a score that reflects a creature's general awareness of its surroundings. The DM uses this score when determining whether a creature notices something without consciously making a Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) check.
+Passive Perception is a score that reflects a creature's general awareness of its surroundings. The DM uses this score when determining whether a creature notices something without consciously making a Wisdom ([[tooltip:Perception]]) check.
 
-A creature's Passive Perception equals 10 plus the creature's Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) check bonus. If the creature has [Advantage](#advantage) on such checks, increase the score by 5. If the creature has [Disadvantage](#disadvantage) on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 (10 + 2 + 2). If that character has Advantage on Wisdom (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a>) checks, the score becomes 19.
+A creature's Passive Perception equals 10 plus the creature's Wisdom ([[tooltip:Perception]]) check bonus. If the creature has [Advantage](#advantage) on such checks, increase the score by 5. If the creature has [Disadvantage](#disadvantage) on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 (10 + 2 + 2). If that character has Advantage on Wisdom ([[tooltip:Perception]]) checks, the score becomes 19.
 
 ## Per Day
 
@@ -918,12 +918,12 @@ When you take the Search action, you make a Wisdom check to discern something th
 
 **Search**
 
-| Skill | Thing to Detect |
-|---|---|
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/12-tooltip">Insight</a> | Creature's state of mind |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/13-tooltip">Medicine</a> | Creature's ailment or cause of death |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/14-tooltip">Perception</a> | Concealed creature or object |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/15-tooltip">Survival</a> | Tracks or food |
+| Skill                  | Thing to Detect                      |
+|------------------------|--------------------------------------|
+| [[tooltip:Insight]]    | Creature's state of mind             |
+| [[tooltip:Medicine]]   | Creature's ailment or cause of death |
+| [[tooltip:Perception]] | Concealed creature or object         |
+| [[tooltip:Survival]]   | Tracks or food                       |
 
 
 ## Shifting
@@ -1042,13 +1042,13 @@ The Areas of Knowledge table suggests which skills are applicable to various are
 
 **Areas of Knowledge**
 
-| Skill | Areas |
-|---|---|
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/6-tooltip">Arcana</a> | Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities) |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/7-tooltip">History</a> | Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids) |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/8-tooltip">Investigation</a> | Traps, ciphers, riddles, and gadgetry |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/9-tooltip">Nature</a> | Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants) |
-| <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/10-tooltip">Religion</a> | Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead) |
+| Skill                     | Areas                                                                                                                                                               |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [[tooltip:Arcana]]        | Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities) |
+| [[tooltip:History]]       | Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)                                                               |
+| [[tooltip:Investigation]] | Traps, ciphers, riddles, and gadgetry                                                                                                                               |
+| [[tooltip:Nature]]        | Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)                                                                                 |
+| [[tooltip:Religion]]      | Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)                                               |
 
 ## Stunned [Condition]
 
@@ -1070,7 +1070,7 @@ If a creature is caught unawares by the start of combat, that creature is surpri
 
 ## Swimming
 
-While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in [Difficult Terrain](#difficult-terrain)). You ignore this extra cost if you have a [Swim Speed](#swim-speed) and use it to swim. At the DM's option, moving any distance in rough water might require a successful DC 15 Strength (<a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="/skills/2-tooltip">Athletics</a>) check.
+While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in [Difficult Terrain](#difficult-terrain)). You ignore this extra cost if you have a [Swim Speed](#swim-speed) and use it to swim. At the DM's option, moving any distance in rough water might require a successful DC 15 Strength ([[tooltip:Athletics]]) check.
 
 ## Swim Speed
 
