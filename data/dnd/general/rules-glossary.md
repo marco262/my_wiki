@@ -213,7 +213,7 @@ A campaign is a series of adventures. _See also_ "[Adventure](#adventure)."
 
 ## Cantrip
 
-A cantrip is a level 0 spell, which is cast without a spell slot. _See also_ "<a href="/sources/dnd/br-2024/spells/">Spells</a>".
+A cantrip is a level 0 spell, which is cast without a spell slot. _See also_ "[[[general:Spells]]]".
 
 ## Carrying Capacity
 
@@ -234,7 +234,7 @@ While dragging, lifting, or pushing weight in excess of the maximum weight you c
 
 ## Challenge Rating
 
-Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster's CR to the characters' level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. The <a class="sourcebook" href="/sources/dnd/dmg-2024">Dungeon Master's Guide</a> provides guidance to the DM on using CR while planning potential combat encounters. _See also_ "[Stat Block](#stat-block)."
+Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster's CR to the characters' level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. The _Dungeon Master's Guide_ provides guidance to the DM on using CR while planning potential combat encounters. _See also_ "[Stat Block](#stat-block)."
 
 ## Character Sheet
 
@@ -500,7 +500,7 @@ While you have the Exhaustion condition, you experience the following effects.
 
 ## Experience Points
 
-As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The <a class="sourcebook" href="/sources/dnd/dmg-2024">Dungeon Master's Guide</a> provides guidance on awarding XP. _See also_ "Creating a Character" ("[[[general:Creating a Character#level-advancement|Level Advancement]]]").
+As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The _Dungeon Master's Guide_ provides guidance on awarding XP. _See also_ "Creating a Character" ("[[[general:Creating a Character#level-advancement|Level Advancement]]]").
 
 ## Expertise
 
@@ -604,7 +604,7 @@ You can extend your arms half your height above yourself during the jump. Thus, 
 
 ## Hit Point Dice
 
-Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in <a href="/sources/dnd/br-2024/creating-a-character">"Creating a Character"</a>. Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain [Hit Points](#hit-points). _See also_ "[Short Rest](#short-rest)."
+Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in "[[[advancement:Creating a Character]]]". Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain [Hit Points](#hit-points). _See also_ "[Short Rest](#short-rest)."
 
 ## Hit Points
 
@@ -630,7 +630,7 @@ If you have Immunity to a damage type or a condition, it doesn't affect you in a
 
 ## Improvised Weapons
 
-An improvised weapon is an object wielded as a makeshift weapon, such as broken glass, a table leg, or a frying pan. A Simple or Martial weapon also counts as an improvised weapon if it's wielded in a way contrary to its design; if you use a Ranged weapon to make a melee attack or throw a Melee weapon that lacks the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Thrown" data-tooltip-href="/weapon-properties/10-tooltip">Thrown</a> property, the weapon counts as an improvised weapon. An improvised weapon follows the rules below.
+An improvised weapon is an object wielded as a makeshift weapon, such as broken glass, a table leg, or a frying pan. A Simple or Martial weapon also counts as an improvised weapon if it's wielded in a way contrary to its design; if you use a Ranged weapon to make a melee attack or throw a Melee weapon that lacks the [[tooltip:Thrown]] property, the weapon counts as an improvised weapon. An improvised weapon follows the rules below.
 
 **_Proficiency._** Don't add your Proficiency Bonus to attack rolls with an improvised weapon.
 
@@ -840,7 +840,7 @@ While you have the Petrified condition, you experience the following effects.
 
 ## Player Character
 
-A player character is a character controlled by a player. _See also_ <a href="/sources/dnd/br-2024/creating-a-character/">"Creating a Character"</a>.
+A player character is a character controlled by a player. _See also_ "[[[advancement:Creating a Character]]]".
 
 ## Poisoned [Condition]
 
@@ -898,7 +898,7 @@ While you have the Restrained condition, you experience the following effects.
 
 ## Ritual
 
-If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. _See also_ "<a href="/sources/dnd/br-2024/spells/">Spells</a>".
+If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. _See also_ [[[general:Spells]]].
 
 ## Round Down
 
@@ -970,15 +970,15 @@ A creature has a Speed, which is the distance in feet the creature can cover whe
 
 ## Spell
 
-A spell is a magical effect that has the characteristics described in "<a href="/sources/dnd/br-2024/spells/">Spells</a>".
+A spell is a magical effect that has the characteristics described in [[[general:Spells]]].
 
 ## Spell Attack
 
-A spell attack is an attack roll made as part of a spell or another magical effect. _See also_ "Spells" ("<a href="/sources/dnd/br-2024/spells#CastingSpells">Casting Spells</a>").
+A spell attack is an attack roll made as part of a spell or another magical effect. _See also_ "Spells" ("[[[general:Spells#casting-spells|Casting Spells]]]").
 
 ## Spellcasting Focus
 
-A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. _See also_ "Spells" ("<a href="/sources/dnd/br-2024/spells#CastingSpells">Casting Spells</a>").
+A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. _See also_ "Spells" ("[[[general:Spells#casting-spells|Casting Spells]]]").
 
 ## Sphere [Area of Effect]
 
@@ -1000,11 +1000,11 @@ A stat block contains the game statistics of a monster. Each stat block includes
 
 **_Alignment._** An alignment is suggested for the monster, with the DM determining its actual alignment. _See also_ "[Alignment](#alignment)."
 
-**_AC, Initiative, and HP._** These entries give the monster's [Armor Class](#armor-class), [Initiative](#initiative), and [Hit Points](#hit-points), which are detailed in "<a href="/sources/dnd/br-2024/playing-the-game/">Playing the Game</a>". In parentheses after the Hit Points, the monster's [Hit Point Dice](#hit-point-dice) are provided, along with the contribution of its Constitution, if any, to its Hit Points. Following the Initiative modifier is an Initiative score. Some creatures that are created by magic lack Hit Dice and Initiative information.
+**_AC, Initiative, and HP._** These entries give the monster's [Armor Class](#armor-class), [Initiative](#initiative), and [Hit Points](#hit-points), which are detailed in "[[[general:Playing the Game]]]". In parentheses after the Hit Points, the monster's [Hit Point Dice](#hit-point-dice) are provided, along with the contribution of its Constitution, if any, to its Hit Points. Following the Initiative modifier is an Initiative score. Some creatures that are created by magic lack Hit Dice and Initiative information.
 
 **_Speed._** Here the monster's Speed is provided, along with any special speeds. _See also_ "[Burrow Speed](#burrow-speed)," "[Climb Speed](#climb-speed)," "[Fly Speed](#fly-speed)," and "[Swim Speed](#swim-speed)."
 
-**_Ability Scores._** A table provides the monster's [ability scores, modifiers](#ability-scoreand-modifier), and [saving throw](#saving-throw) modifiers, all of which are detailed in <a href="/sources/dnd/br-2024/playing-the-game/">"Playing the Game"</a>.
+**_Ability Scores._** A table provides the monster's [ability scores, modifiers](#ability-scoreand-modifier), and [saving throw](#saving-throw) modifiers, all of which are detailed in "[[[general:Playing the Game]]]".
 
 **_Skills._** This entry lists the monster's skill [proficiencies](#proficiency), if any. _See also_ "Playing the Game" ("[[[general:Playing the Game#proficiency|Proficiency]]]").
 
@@ -1018,7 +1018,7 @@ A stat block contains the game statistics of a monster. Each stat block includes
 
 **_Languages._** This entry lists any languages the monster knows.
 
-**_CR._** Challenge Rating summarizes the threat a monster poses and is detailed in the <a class="sourcebook" href="/sources/dnd/mm-2024">Monster Manual</a>. The Experience Points characters receive for defeating a monster and its Proficiency Bonus follow. Some creatures that are created by magic have no CR. _See also_ "[Challenge Rating](#challenge-rating)" and "[Experience Points](#experience-points)."
+**_CR._** Challenge Rating summarizes the threat a monster poses and is detailed in the _Monster Manual_. The Experience Points characters receive for defeating a monster and its Proficiency Bonus follow. Some creatures that are created by magic have no CR. _See also_ "[Challenge Rating](#challenge-rating)" and "[Experience Points](#experience-points)."
 
 **_Traits._** The monster's traits, if any, are features that are active at all times or in certain situations.
 

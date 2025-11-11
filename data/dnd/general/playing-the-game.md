@@ -18,7 +18,7 @@ To play D&D, you need one person to be the Dungeon Master and other players (thr
 
 If you want to be one of the protagonists in your group's adventures, consider being a player. Here's what players do:
 
-**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this chapter, use the rules in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="0c7ca91f-d770-4ce1-8ef1-0d06583de291">Creating a Character</a>" to create your character.
+**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this chapter, use the rules in "[[[advancement:Creating a Character]]]" to create your character.
 
 **Team Up.** Your character joins the other players' characters to form an adventuring party. These adventurers are allies who face challenges and fantastical situations together. Each character brings distinctive capabilities, which ideally complement those of the other characters.
 
@@ -111,11 +111,11 @@ The 20-sided die (d20) is the most important die you'll use in the game. It's ce
 
 ### Damage
 
-The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of [[glossary:D20 Test]]), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a <a class="tooltip-hover item-tooltip" href="/equipment/3-dagger" data-tooltip-href="/weapons/3-tooltip">Dagger</a> uses 1d4, a <a class="tooltip-hover item-tooltip" href="/equipment/21-greataxe" data-tooltip-href="/weapons/21-tooltip">Greataxe</a> uses 1d12, and a _[[[spell:Fireball]]]_ spell uses 8d6.
+The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of [[glossary:D20 Test]]), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a [[tooltip:Dagger]] uses 1d4, a [[tooltip:Greataxe]] uses 1d12, and a _[[[spell:Fireball]]]_ spell uses 8d6.
 
 ### Random Tables
 
-Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the [[[general:Creating a Character#trinkets-table|Trinkets table]]] in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="29404c18-0f66-4655-9d6f-caab14b99530">Creating a Character</a>" uses a d100.
+Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the [[[general:Creating a Character#trinkets-table|Trinkets table]]] in "[[[advancement:Creating a Character]]]" uses a d100.
 
 ### Percentage Chances
 
@@ -344,7 +344,7 @@ Other rules might allow your character to gain Heroic Inspiration independent of
 
 # Proficiency
 
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "<a href="/sources/dnd/br-2024/creating-a-character" data-content-chunk-id="991ce89d-65aa-494f-8514-833c45cf81d6">Creating a Character</a>"). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating]]. The Proficiency Bonus table shows how the bonus is determined.
+Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "[[[advancement:Creating a Character]]]"). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating]]. The Proficiency Bonus table shows how the bonus is determined.
 
 This bonus is applied to a [[glossary:D20 Test]] when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
 
@@ -557,9 +557,9 @@ Exploration involves delving into places that are dangerous and full of mystery.
 
 ## Adventuring Equipment
 
-As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with <a class="tooltip-hover item-tooltip" href="/equipment/495-thieves-tools" data-tooltip-href="/adventuring-gear/495-tooltip">Thieves' Tools</a>, and create obstacles for pursuers with <a class="tooltip-hover item-tooltip" href="/equipment/497-caltrops" data-tooltip-href="/adventuring-gear/497-tooltip">Caltrops</a>.
+As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with [[tooltip:Thieves' Tools]], and create obstacles for pursuers with [[tooltip:Caltrops]].
 
-See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a <a class="tooltip-hover item-tooltip" href="/equipment/12-quarterstaff" data-tooltip-href="/weapons/12-tooltip">Quarterstaff</a>, for example, to push a sinister-looking button that you're reluctant to touch.
+See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a [[tooltip:Quarterstaff]], for example, to push a sinister-looking button that you're reluctant to touch.
 
 ## Vision and Light
 
@@ -826,7 +826,7 @@ When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send pr
 
 You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
 
-Some ranged attacks, such as those made with a <a class="tooltip-hover item-tooltip" href="/equipment/37-longbow" data-tooltip-href="/weapons/37-tooltip">Longbow</a>, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has [[glossary:Disadvantage]] when your target is beyond normal range, and you can't attack a target beyond long range.
+Some ranged attacks, such as those made with a [[tooltip:Longbow]], have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has [[glossary:Disadvantage]] when your target is beyond normal range, and you can't attack a target beyond long range.
 
 ### Ranged Attacks in Close Combat
 
@@ -908,11 +908,11 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
-When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a <a class="tooltip-hover item-tooltip" href="/equipment/35-blowgun" data-tooltip-href="/weapons/35-tooltip">Blowgun</a>. See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="3054951c-c778-44a7-9984-f1b61c2b6091">Equipment</a>" for weapons' damage dice and "<a href="/sources/dnd/br-2024/spells" data-content-chunk-id="9932fbf2-53ce-4c54-acd2-03f494159243">Spells</a>" for spells' damage dice.
+When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a [[tooltip:Blowgun]]. See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="3054951c-c778-44a7-9984-f1b61c2b6091">Equipment</a>" for weapons' damage dice and "<a href="/sources/dnd/br-2024/spells" data-content-chunk-id="9932fbf2-53ce-4c54-acd2-03f494159243">Spells</a>" for spells' damage dice.
 
 ## Critical Hits
 
-When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a <a class="tooltip-hover item-tooltip" href="/equipment/3-dagger" data-tooltip-href="/weapons/3-tooltip">Dagger</a>, roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
+When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a [[tooltip:Dagger]], roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
 
 ## Saving Throws and Damage
 

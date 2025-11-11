@@ -366,6 +366,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#push",
         "content": "",
     },
+    "thrown": {
+        "href": "/dnd/general/Equipment#thrown",
+        "content": "",
+    },
     "topple": {
         "href": "/dnd/general/Equipment#topple",
         "content": "",
