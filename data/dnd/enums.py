@@ -309,13 +309,41 @@ tooltips = {
         "href": "/dnd/general/Equipment#quarterstaff",
         "content": "",
     },
+    "sap": {
+        "href": "/dnd/general/Equipment#sap",
+        "content": "",
+    },
     "sickle": {
         "href": "/dnd/general/Equipment#sickle",
         "content": "",
     },
     # Martial Weapons
+    "flail": {
+        "href": "/dnd/general/Equipment#flail",
+        "content": "",
+    },
     "greataxe": {
         "href": "/dnd/general/Equipment#greataxe",
+        "content": "",
+    },
+    "greatsword": {
+        "href": "/dnd/general/Equipment#greatsword",
+        "content": "",
+    },
+    "javelin": {
+        "href": "/dnd/general/Equipment#javelin",
+        "content": "",
+    },
+    "scimitar": {
+        "href": "/dnd/general/Equipment#scimitar",
+        "content": "",
+    },
+    "shortsword": {
+        "href": "/dnd/general/Equipment#shortsword",
+        "content": "",
+    },
+    "longbow": {
+        "href": "/dnd/general/Equipment#longbow",
         "content": "",
     },
     # Armor
@@ -323,8 +351,16 @@ tooltips = {
         "href": "/dnd/general/Equipment#leather-armor",
         "content": "",
     },
+    "studded leather armor": {
+        "href": "/dnd/general/Equipment#studded-leather-armor",
+        "content": "",
+    },
     "chain shirt": {
         "href": "/dnd/general/Equipment#chain-shirt",
+        "content": "",
+    },
+    "chain mail": {
+        "href": "/dnd/general/Equipment#chain-mail",
         "content": "",
     },
     "shield": {
@@ -332,12 +368,16 @@ tooltips = {
         "content": "",
     },
     # Packs
-    "explorer's pack": {
-        "href": "/dnd/general/Equipment#explorer-s-pack",
+    "dungeoneer's pack": {
+        "href": "/dnd/general/Equipment#dungeoneer-s-pack",
         "content": "",
     },
     "entertainer's pack": {
         "href": "/dnd/general/Equipment#entertainer-s-pack",
+        "content": "",
+    },
+    "explorer's pack": {
+        "href": "/dnd/general/Equipment#explorer-s-pack",
         "content": "",
     },
     "priest's pack": {
@@ -345,6 +385,14 @@ tooltips = {
         "content": "",
     },
     # Items
+    "arcane focus": {
+        "href": "/dnd/general/Equipment#arcane-focus",
+        "content": "",
+    },
+    "arrow": {
+        "href": "/dnd/general/Equipment#arrow",
+        "content": "",
+    },
     "druidic focus": {
         "href": "/dnd/general/Equipment#druidic-focus",
         "content": "",
@@ -357,6 +405,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#herbalism-kit",
         "content": "",
     },
+    "quiver": {
+        "href": "/dnd/general/Equipment#quiver",
+        "content": "",
+    },
     # Weapon Properties
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",
@@ -364,6 +416,10 @@ tooltips = {
     },
     "push": {
         "href": "/dnd/general/Equipment#push",
+        "content": "",
+    },
+    "slow": {
+        "href": "/dnd/general/Equipment#slow",
         "content": "",
     },
     "thrown": {

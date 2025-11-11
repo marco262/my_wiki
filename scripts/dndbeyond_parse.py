@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 os.chdir("..")
-PATH = "data/dnd/class/druid.md"
+PATH = "data/dnd/class/fighter.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -209,6 +209,9 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
                 case "shape-shift":
                     # Assume it means Shifting
                     return f"[[glossary:Shifting|shape-shift]]"
+                case "Opportunity Attack":
+                    # Assume it means Opportunity Attacks
+                    return f"[[glossary:Opportunity Attacks|Opportunity Attack]]"
             raise ValueError(f"Undefined tooltip: {text}")
 
 

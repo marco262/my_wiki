@@ -2,7 +2,7 @@
 
 <div class="theme-restricted" markdown="1">
 
-This subclass is **Theme Restricted**. If you're in one of my games and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
+This subclass is **Theme Restricted**. If you're in one of my games, and you're looking to play this subclass, please consider how you might like to reflavor it to fit better with my campaign.
 
 </div>
 
