@@ -317,6 +317,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#sickle",
         "content": "",
     },
+    "spear": {
+        "href": "/dnd/general/Equipment#spear",
+        "content": "",
+    },
     # Martial Weapons
     "flail": {
         "href": "/dnd/general/Equipment#flail",
@@ -412,6 +416,10 @@ tooltips = {
     # Weapon Properties
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",
+        "content": "",
+    },
+    "light": {
+        "href": "/dnd/general/Equipment#light",
         "content": "",
     },
     "push": {

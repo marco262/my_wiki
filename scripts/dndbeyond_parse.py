@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 os.chdir("..")
-PATH = "data/dnd/class/fighter.md"
+PATH = "data/dnd/class/monk.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -203,6 +203,10 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
             match text:
                 case "Half Cover":
                     return f"[[tooltip:Half Cover]]"
+                case "Three-Quarters Cover":
+                    return f"[[tooltip:Three-Quarters Cover]]"
+                case "Total Cover":
+                    return f"[[tooltip:Total Cover]]"
                 case "Short":
                     # Assume it means Short Rest
                     return f"[[glossary:Short Rest|Short]]"
@@ -228,7 +232,7 @@ def parse_div(parent: Tag) -> str:
     # We can just ignore some divs and pretend they don't exist
     output = []
     classes = parent.attrs["class"]
-    if "effect-info" in classes:
+    if ("effect-info" in classes) or ("effects-info" in classes):
         return parse_ul(parent)
     ignorable_classes = ["subitems-list-details"]
     handled_classes = ["subitems-list-details-item"]
