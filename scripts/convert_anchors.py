@@ -2,17 +2,22 @@ import html
 import re
 from pathlib import Path
 
-PATH = r"..\data\dnd\general\creating-a-character.md"
+PATH = r"..\data\dnd\general\rules-glossary.md"
 
 # Anchors
-REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
-FORMAT_STRING = '[{label}](#{label})'
-FORMAT_STRING2 = '[{label}](#{slug})'
+# REG = r'<a[^>]*href\s*=\s*["\']#([^"\']*)["\'][^>]*>(.*?)</a>'
+# FORMAT_STRING = '[{label}](#{label})'
+# FORMAT_STRING2 = '[{label}](#{slug})'
 
 # Glossary links
 # REG = r'<a class="tooltip-hover (?:action|rule|condition)-tooltip" href="/sources/dnd/free-rules/rules-glossary#(.*?)" data-tooltip-href=".*?">(.*?)</a>'
 # FORMAT_STRING = '[[glossary:{label}]]'
 # FORMAT_STRING2 = '[[glossary:{label}|{slug}]]'
+
+# Playing the Game links
+REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/playing\-the\-game\#(.*?)\"\>(.*?)\<\/a\>'
+FORMAT_STRING = '[[general:Playing the Game#{label}]]'
+FORMAT_STRING2 = '[[general:Playing the Game#{slug}|{label}]]'
 
 
 def slugify(text: str) -> str:

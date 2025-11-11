@@ -55,15 +55,15 @@ Here are definitions of various rules.
 
 ## Ability Check
 
-An ability check is a [D20 Test](#d20-test) that represents using one of the six abilities -- or a specific skill associated with an ability -- to overcome a challenge. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#D20Tests">D20 Tests</a>" and "<a href="/sources/dnd/br-2024/playing-the-game#Proficiency">Proficiency</a>").
+An ability check is a [D20 Test](#d20-test) that represents using one of the six abilities -- or a specific skill associated with an ability -- to overcome a challenge. _See also_ "Playing the Game" ("[[general:Playing the Game#d20-tests|D20 Tests]]" and "[[general:Playing the Game#proficiency|Proficiency]]").
 
 ## Ability Score and Modifier
 
-A creature has six ability scores -- Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma -- each of which has a corresponding modifier. Add the modifier when you make a [D20 Test](#d20-test) with the corresponding ability or when a rule asks you to do so. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#TheSixAbilities">The Six Abilities</a>").
+A creature has six ability scores -- Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma -- each of which has a corresponding modifier. Add the modifier when you make a [D20 Test](#d20-test) with the corresponding ability or when a rule asks you to do so. _See also_ "Playing the Game" ("[[general:Playing the Game#the-six-abilities|The Six Abilities]]").
 
 ## Action
 
-On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Actions">Actions</a>"). These actions are defined elsewhere in this glossary:
+On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. _See also_ "Playing the Game" ("[[general:Playing the Game#actions|Actions]]"). These actions are defined elsewhere in this glossary:
 
  - [Attack](#attack-action)
  - [Dash](#dash-action)
@@ -80,7 +80,7 @@ On your turn, you can take one action. Choose which action to take from those be
 
 ## Advantage
 
-If you have Advantage on a [D20 Test](#d20-test), roll two d20s, and use the higher roll. A roll can't be affected by more than one Advantage, and Advantage and [Disadvantage](#disadvantage) on the same roll cancel each other. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#AdvantageDisadvantage">D20 Tests</a>").
+If you have Advantage on a [D20 Test](#d20-test), roll two d20s, and use the higher roll. A roll can't be affected by more than one Advantage, and Advantage and [Disadvantage](#disadvantage) on the same roll cancel each other. _See also_ "Playing the Game" ("[[general:Playing the Game#advantage-disadvantage|D20 Tests]]").
 
 ## Adventure
 
@@ -129,7 +129,7 @@ When you take the Attack action, you can make one attack roll with a weapon or a
 
 ## Attack Roll
 
-An attack roll is a [D20 Test](#d20-test) that represents making an attack with a weapon, an [Unarmed Strike](#unarmed-strike), or a spell. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#AttackRolls">D20 Tests</a>").
+An attack roll is a [D20 Test](#d20-test) that represents making an attack with a weapon, an [Unarmed Strike](#unarmed-strike), or a spell. _See also_ "Playing the Game" ("[[general:Playing the Game#attack-rolls|D20 Tests]]").
 
 ## Attitude
 
@@ -157,7 +157,7 @@ A creature is Bloodied while it has half its [Hit Points](#hit-points) or fewer 
 
 ## Bonus Action
 
-A Bonus Action is a special action that you can take on the same turn that you take an action. You can't take more than one Bonus Action on a turn, and you have a Bonus Action to take only if a rule explicitly says so. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#BonusActions">Actions</a>").
+A Bonus Action is a special action that you can take on the same turn that you take an action. You can't take more than one Bonus Action on a turn, and you have a Bonus Action to take only if a rule explicitly says so. _See also_ "Playing the Game" ("[[general:Playing the Game#bonus-actions|Actions]]").
 
 ## Breaking Objects
 
@@ -197,7 +197,7 @@ Objects can be harmed by attacks and by some spells, using the rules below. If a
 
 ## Bright Light
 
-Bright Light is normal illumination. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Light">Exploration</a>").
+Bright Light is normal illumination. _See also_ "Playing the Game" ("[[general:Playing the Game#light|Exploration]]").
 
 ## Burning [Hazard]
 
@@ -288,7 +288,7 @@ A condition is a temporary game state. The definition of a condition says how it
  - [Stunned](#stunned-condition)
  - [Unconscious](#unconscious-condition)
 
-A condition doesn't stack with itself; a recipient either has a condition or doesn't. The Exhaustion condition is an exception to that rule. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Conditions">Conditions</a>").
+A condition doesn't stack with itself; a recipient either has a condition or doesn't. The Exhaustion condition is an exception to that rule. _See also_ "Playing the Game" ("[[general:Playing the Game#conditions|Conditions]]").
 
 ## Cone [Area of Effect]
 
@@ -331,7 +331,7 @@ The types don't have rules themselves, but some rules in the game affect creatur
 
 ## Critical Hit
 
-If you roll a 20 on the d20 for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you roll extra dice for the attack's damage against the target. Roll all the attack's damage dice twice and add them together. Then add any relevant modifiers. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#CriticalHits">Damage and Healing</a>").
+If you roll a 20 on the d20 for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you roll extra dice for the attack's damage against the target. Roll all the attack's damage dice twice and add them together. Then add any relevant modifiers. _See also_ "Playing the Game" ("[[general:Playing the Game#critical-hits|Damage and Healing]]").
 
 ## Cube [Area of Effect]
 
@@ -351,7 +351,7 @@ A Cylinder's point of origin is included in the area of effect.
 
 ## D20 Test
 
-D20 Tests encompass the three main d20 rolls of the game: [ability checks](#ability-check), [attack rolls](#attack-roll), and [saving throws](#saving-throw). If something in the game affects D20 Tests, it affects all three of these rolls. The DM determines whether a D20 Test is warranted in a given circumstance. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#D20Tests">D20 Tests</a>").
+D20 Tests encompass the three main d20 rolls of the game: [ability checks](#ability-check), [attack rolls](#attack-roll), and [saving throws](#saving-throw). If something in the game affects D20 Tests, it affects all three of these rolls. The DM determines whether a D20 Test is warranted in a given circumstance. _See also_ "Playing the Game" ("[[general:Playing the Game#d20-tests|D20 Tests]]").
 
 ## Damage
 
@@ -359,7 +359,7 @@ Damage represents harm that causes a creature or an object to lose [Hit Points](
 
 ## Damage Roll
 
-A damage roll is a die roll, adjusted by any applicable modifiers, that deals damage to a target. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#DamageRolls">Damage and Healing</a>").
+A damage roll is a die roll, adjusted by any applicable modifiers, that deals damage to a target. _See also_ "Playing the Game" ("[[general:Playing the Game#damage-rolls|Damage and Healing]]").
 
 ## Damage Threshold
 
@@ -390,11 +390,11 @@ Attacks and other harmful effects deal different types of damage. Damage types h
 
 ## Darkness
 
-An area of Darkness is Heavily Obscured. _See also_ "[Heavily Obscured](#heavily-obscured)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#ObscuredAreas">Exploration</a>").
+An area of Darkness is Heavily Obscured. _See also_ "[Heavily Obscured](#heavily-obscured)" and "Playing the Game" ("[[general:Playing the Game#obscured-areas|Exploration]]").
 
 ## Darkvision
 
-If you have Darkvision, you can see in [Dim Light](#dim-light) within a specified range as if it were [Bright Light](#bright-light) and in [Darkness](#darkness) within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#SpecialSenses">Exploration</a>").
+If you have Darkvision, you can see in [Dim Light](#dim-light) within a specified range as if it were [Bright Light](#bright-light) and in [Darkness](#darkness) within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray. _See also_ "Playing the Game" ("[[general:Playing the Game#special-senses|Exploration]]").
 
 ## Dash [Action]
 
@@ -416,7 +416,7 @@ While you have the Deafened condition, you experience the following effect.
 
 ## Death Saving Throw
 
-A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 [Hit Points](#hit-points). _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#DeathSavingThrows">Damage and Healing</a>").
+A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 [Hit Points](#hit-points). _See also_ "Playing the Game" ("[[general:Playing the Game#death-saving-throws|Damage and Healing]]").
 
 ## Dehydration [Hazard]
 
@@ -450,15 +450,15 @@ A space is Difficult Terrain if the space contains any of the following or somet
 
 ## Difficulty Class
 
-A Difficulty Class (DC) is the target number for an [ability check](#ability-check) or a [saving throw](#saving-throw). _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#D20Tests">D20 Tests</a>").
+A Difficulty Class (DC) is the target number for an [ability check](#ability-check) or a [saving throw](#saving-throw). _See also_ "Playing the Game" ("[[general:Playing the Game#d20-tests|D20 Tests]]").
 
 ## Dim Light
 
-An area with Dim Light is Lightly Obscured. _See also_ "[Lightly Obscured](#lightly-obscured)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#ObscuredAreas">Exploration</a>").
+An area with Dim Light is Lightly Obscured. _See also_ "[Lightly Obscured](#lightly-obscured)" and "Playing the Game" ("[[general:Playing the Game#obscured-areas|Exploration]]").
 
 ## Disadvantage
 
-If you have Disadvantage on a [D20 Test](#d20-test), roll two d20s and use the lower roll. A roll can't be affected by more than one Disadvantage, and [Advantage](#advantage) and Disadvantage on the same roll cancel each other. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#AdvantageDisadvantage">D20 Tests</a>").
+If you have Disadvantage on a [D20 Test](#d20-test), roll two d20s and use the lower roll. A roll can't be affected by more than one Disadvantage, and [Advantage](#advantage) and Disadvantage on the same roll cancel each other. _See also_ "Playing the Game" ("[[general:Playing the Game#advantage-disadvantage|D20 Tests]]").
 
 ## Disengage [Action]
 
@@ -480,7 +480,7 @@ An Emanation's origin (creature or object) isn't included in the area of effect 
 
 ## Encounter
 
-An encounter is a scene in an adventure that is part of at least one of the game's three pillars: social interaction, exploration, or combat. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#SocialInteraction">Social Interaction</a>," "<a href="/sources/dnd/br-2024/playing-the-game#Exploration">Exploration</a>," and "<a href="/sources/dnd/br-2024/playing-the-game#Combat">Combat</a>").
+An encounter is a scene in an adventure that is part of at least one of the game's three pillars: social interaction, exploration, or combat. _See also_ "Playing the Game" ("[[general:Playing the Game#social-interaction|Social Interaction]]," "[[general:Playing the Game#exploration|Exploration]]," and "[[general:Playing the Game#combat|Combat]]").
 
 ## Enemy
 
@@ -508,7 +508,7 @@ Expertise is a feature that enhances your use of a skill proficiency. When you m
 
 If you gain Expertise, you gain it in one skill in which you have proficiency. You can't have Expertise in the same skill proficiency more than once.
 
-_See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Proficiency">Proficiency</a>").
+_See also_ "Playing the Game" ("[[general:Playing the Game#proficiency|Proficiency]]").
 
 ## Falling [Hazard]
 
@@ -562,11 +562,11 @@ A hazard is an environmental danger. _See also_ "[Burning](#burning-hazard)," "[
 
 ## Healing
 
-Healing is how you regain [Hit Points](#hit-points). _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#DamageandHealing">Damage and Healing</a>").
+Healing is how you regain [Hit Points](#hit-points). _See also_ "Playing the Game" ("[[general:Playing the Game#damage-and-healing|Damage and Healing]]").
 
 ## Heavily Obscured
 
-You have the Blinded condition while trying to see something in a Heavily Obscured space. _See also_ "[Blinded](#blinded-condition)," "[Darkness](#darkness)," and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#ObscuredAreas">Exploration</a>").
+You have the Blinded condition while trying to see something in a Heavily Obscured space. _See also_ "[Blinded](#blinded-condition)," "[Darkness](#darkness)," and "Playing the Game" ("[[general:Playing the Game#obscured-areas|Exploration]]").
 
 ## Help [Action]
 
@@ -608,7 +608,7 @@ Hit Point Dice, or Hit Dice for short, help determine a player character's Hit P
 
 ## Hit Points
 
-Hit Points (HP) are a measure of how difficult it is to kill or destroy a creature or an object. Damage reduces Hit Points, and healing restores them. You can't have more Hit Points than your Hit Point maximum, and you can't have less than 0. _See also_ "[Breaking Objects](#breaking-objects)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#HitPoints">Damage and Healing</a>").
+Hit Points (HP) are a measure of how difficult it is to kill or destroy a creature or an object. Damage reduces Hit Points, and healing restores them. You can't have more Hit Points than your Hit Point maximum, and you can't have less than 0. _See also_ "[Breaking Objects](#breaking-objects)" and "Playing the Game" ("[[general:Playing the Game#hit-points|Damage and Healing]]").
 
 ## Hostile [Attitude]
 
@@ -681,7 +681,7 @@ With the Influence action, you urge a monster to do something. Describe or rolep
 
 Initiative determines the order of turns during combat. The combat rules in "Playing the Game" explain how to roll Initiative.
 
-Sometimes a DM might have combatants use their Initiative scores instead of rolling Initiative. Your Initiative score equals 10 plus your Dexterity modifier. If you have [Advantage](#advantage) on Initiative rolls, increase your Initiative score by 5. If you have [Disadvantage](#disadvantage) on those rolls, decrease that score by 5. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Combat">Combat</a>").
+Sometimes a DM might have combatants use their Initiative scores instead of rolling Initiative. Your Initiative score equals 10 plus your Dexterity modifier. If you have [Advantage](#advantage) on Initiative rolls, increase your Initiative score by 5. If you have [Disadvantage](#disadvantage) on those rolls, decrease that score by 5. _See also_ "Playing the Game" ("[[general:Playing the Game#combat|Combat]]").
 
 ## Invisible [Condition]
 
@@ -705,7 +705,7 @@ The creature remains Unconscious until it regains any Hit Points or until someon
 
 ## Lightly Obscured
 
-You have [Disadvantage](#disadvantage) on Wisdom ([[tooltip:Perception]]) checks to see something in a Lightly Obscured space. _See also_ "[Dim Light](#dim-light)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Light">Exploration</a>").
+You have [Disadvantage](#disadvantage) on Wisdom ([[tooltip:Perception]]) checks to see something in a Lightly Obscured space. _See also_ "[Dim Light](#dim-light)" and "Playing the Game" ("[[general:Playing the Game#light|Exploration]]").
 
 ## Line [Area of Effect]
 
@@ -854,7 +854,7 @@ Some effects cause a creature to be possessed by another creature or entity. A p
 
 ## Proficiency
 
-If you have proficiency with something, you can add your Proficiency Bonus to any [D20 Test](#d20-test) you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Proficiency">Proficiency</a>").
+If you have proficiency with something, you can add your Proficiency Bonus to any [D20 Test](#d20-test) you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. _See also_ "Playing the Game" ("[[general:Playing the Game#proficiency|Proficiency]]").
 
 ## Prone [Condition]
 
@@ -870,7 +870,7 @@ A creature has a reach of 5 feet unless a rule says otherwise.
 
 ## Reaction
 
-A Reaction is a special action taken in response to a trigger defined in the Reaction's description. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a [Bonus Action](#bonus-action), or both. Once you take a Reaction, you can't take another one until the start of your next turn. The Opportunity Attack is a Reaction available to all creatures. _See also_ "[Opportunity Attacks](#opportunity-attack)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Reactions">Actions</a>").
+A Reaction is a special action taken in response to a trigger defined in the Reaction's description. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a [Bonus Action](#bonus-action), or both. Once you take a Reaction, you can't take another one until the start of your next turn. The Opportunity Attack is a Reaction available to all creatures. _See also_ "[Opportunity Attacks](#opportunity-attack)" and "Playing the Game" ("[[general:Playing the Game#reactions|Actions]]").
 
 ## Ready [Action]
 
@@ -884,7 +884,7 @@ When you Ready a spell, you cast it as normal (expending any resources used to c
 
 ## Resistance
 
-If you have Resistance to a damage type, damage of that type is halved against you (round down). Resistance is applied only once to an instance of damage. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#ResistanceandVulnerability">Damage and Healing</a>").
+If you have Resistance to a damage type, damage of that type is halved against you (round down). Resistance is applied only once to an instance of damage. _See also_ "Playing the Game" ("[[general:Playing the Game#resistance-and-vulnerability|Damage and Healing]]").
 
 ## Restrained [Condition]
 
@@ -910,7 +910,7 @@ Save is another name for a saving throw. _See also_ "[Saving Throw](#saving-thro
 
 ## Saving Throw
 
-A saving throw -- also called a save -- represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#SavingThrows">D20 Tests</a>").
+A saving throw -- also called a save -- represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. _See also_ "Playing the Game" ("[[general:Playing the Game#saving-throws|D20 Tests]]").
 
 ## Search [Action]
 
@@ -954,15 +954,15 @@ If two or more things happen at the same time on a turn, the person at the game 
 
 ## Size
 
-A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its [Hit Points](#hit-points). _See also_ "[Breaking Objects](#breaking-objects)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Combat">Combat</a>").
+A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its [Hit Points](#hit-points). _See also_ "[Breaking Objects](#breaking-objects)" and "Playing the Game" ("[[general:Playing the Game#combat|Combat]]").
 
 ## Skill
 
-A skill is an area of specialization associated with an ability check. If you have [proficiency](#proficiency) in a skill, you can add your Proficiency Bonus when you make an ability check associated with that skill. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#SkillProficiencies">Proficiency</a>").
+A skill is an area of specialization associated with an ability check. If you have [proficiency](#proficiency) in a skill, you can add your Proficiency Bonus when you make an ability check associated with that skill. _See also_ "Playing the Game" ("[[general:Playing the Game#skill-proficiencies|Proficiency]]").
 
 ## Speed
 
-A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. _See also_ "[Climbing](#climbing)," "[Crawling](#crawling)," "[Flying](#flying)," "[Jumping](#jumping)," "[Swimming](#swimming)" and "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#MovementandPosition">Combat</a>").
+A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. _See also_ "[Climbing](#climbing)," "[Crawling](#crawling)," "[Flying](#flying)," "[Jumping](#jumping)," "[Swimming](#swimming)" and "Playing the Game" ("[[general:Playing the Game#movement-and-position|Combat]]").
 
 **_Special Speeds._** Some creatures have special speeds, such as a [Burrow Speed](#burrow-speed), [Climb Speed](#climb-speed), [Fly Speed](#fly-speed), or [Swim Speed](#swim-speed), each of which is defined in this glossary. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move. For example, if you have a Speed of 30 and a Fly Speed of 40, you could fly 10 feet, walk 10 feet, and leap into the air to fly 20 feet more.
 
@@ -988,7 +988,7 @@ A Sphere's point of origin is included in the Sphere's area of effect.
 
 ## Stable
 
-A creature is Stable if it has 0 [Hit Points](#hit-points) but isn't required to make [Death Saving Throws](#death-saving-throw). _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#StabilizingaCharacter">Damage and Healing</a>").
+A creature is Stable if it has 0 [Hit Points](#hit-points) but isn't required to make [Death Saving Throws](#death-saving-throw). _See also_ "Playing the Game" ("[[general:Playing the Game#stabilizing-a-character|Damage and Healing]]").
 
 ## Stat Block
 
@@ -1006,7 +1006,7 @@ A stat block contains the game statistics of a monster. Each stat block includes
 
 **_Ability Scores._** A table provides the monster's [ability scores, modifiers](#ability-scoreand-modifier), and [saving throw](#saving-throw) modifiers, all of which are detailed in <a href="/sources/dnd/br-2024/playing-the-game/">"Playing the Game"</a>.
 
-**_Skills._** This entry lists the monster's skill [proficiencies](#proficiency), if any. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Proficiency">Proficiency</a>").
+**_Skills._** This entry lists the monster's skill [proficiencies](#proficiency), if any. _See also_ "Playing the Game" ("[[general:Playing the Game#proficiency|Proficiency]]").
 
 **_Resistances and Vulnerabilities._** These entries list the monster's Resistances and Vulnerabilities, if any. _See also_ "[Resistance](#resistance)" and "[Vulnerability](#vulnerability)."
 
@@ -1022,7 +1022,7 @@ A stat block contains the game statistics of a monster. Each stat block includes
 
 **_Traits._** The monster's traits, if any, are features that are active at all times or in certain situations.
 
-**_Actions._** The monster can take these actions in addition to those detailed in this glossary. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Actions">Actions</a>").
+**_Actions._** The monster can take these actions in addition to those detailed in this glossary. _See also_ "Playing the Game" ("[[general:Playing the Game#actions|Actions]]").
 
 **_Bonus Actions._** If the monster has [Bonus Action](#bonus-action) options, they are listed in this section.
 
@@ -1066,7 +1066,7 @@ A creature can hold its breath for a number of minutes equal to 1 plus its Const
 
 ## Surprise
 
-If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have [Disadvantage](#disadvantage) on its [Initiative](#initiative) roll. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#Combat">Combat</a>").
+If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have [Disadvantage](#disadvantage) on its [Initiative](#initiative) roll. _See also_ "Playing the Game" ("[[general:Playing the Game#combat|Combat]]").
 
 ## Swimming
 
@@ -1100,7 +1100,7 @@ The description of a teleportation effect tells you if you must see the teleport
 
 ## Temporary Hit Points
 
-Temporary Hit Points are granted by certain effects and act as a buffer against losing real [Hit Points](#hit-points). _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#TemporaryHitPoints">Damage and Healing</a>").
+Temporary Hit Points are granted by certain effects and act as a buffer against losing real [Hit Points](#hit-points). _See also_ "Playing the Game" ("[[general:Playing the Game#temporary-hit-points|Damage and Healing]]").
 
 ## Tremorsense
 
@@ -1162,7 +1162,7 @@ You normally interact with an object while doing something else, such as when yo
 
 ## Vulnerability
 
-If you have Vulnerability to a damage type, damage of that type is doubled against you. Vulnerability is applied only once to an instance of damage. _See also_ "Playing the Game" ("<a href="/sources/dnd/br-2024/playing-the-game#ResistanceandVulnerability">Damage and Healing</a>").
+If you have Vulnerability to a damage type, damage of that type is doubled against you. Vulnerability is applied only once to an instance of damage. _See also_ "Playing the Game" ("[[general:Playing the Game#resistance-and-vulnerability|Damage and Healing]]").
 
 ## Weapon
 
