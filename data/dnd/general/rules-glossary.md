@@ -117,7 +117,7 @@ Your base AC calculation is 10 plus your Dexterity modifier. If a rule gives you
 
 ## Armor Training
 
-Armor training allows you to use armor of a certain category without the following drawbacks. If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any [D20 Test](#d20-test) that involves Strength or Dexterity, and you can't cast spells. If you use a Shield and lack training with it, you don't gain its AC bonus. _See also_ "[Disadvantage](#disadvantage)" and "Equipment" ("<a href="/sources/dnd/br-2024/equipment#Armor">Armor</a>").
+Armor training allows you to use armor of a certain category without the following drawbacks. If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any [D20 Test](#d20-test) that involves Strength or Dexterity, and you can't cast spells. If you use a Shield and lack training with it, you don't gain its AC bonus. _See also_ "[Disadvantage](#disadvantage)" and "Equipment" ("[[[general:Equipment#armor|Armor]]]").
 
 ## Attack [Action]
 
@@ -137,7 +137,7 @@ A monster has a starting attitude toward a player character: Friendly, Hostile, 
 
 ## Attunement
 
-Some magic items require a creature to form a bond -- called Attunement -- with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. _See also_ "Equipment" ("<a href="/sources/dnd/br-2024/equipment#Attunement">Magic Items</a>").
+Some magic items require a creature to form a bond -- called Attunement -- with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. _See also_ "Equipment" ("[[[general:Equipment#attunement|Magic Items]]]").
 
 ## Blinded [Condition]
 
@@ -1166,7 +1166,7 @@ If you have Vulnerability to a damage type, damage of that type is doubled again
 
 ## Weapon
 
-A weapon is an object that is in the Simple or Martial weapon category. _See also_ "Equipment" ("<a href="/sources/dnd/br-2024/equipment#Weapons">Weapons</a>").
+A weapon is an object that is in the Simple or Martial weapon category. _See also_ "Equipment" ("[[[general:Equipment#weapons|Weapons]]]").
 
 ## Weapon Attack
 

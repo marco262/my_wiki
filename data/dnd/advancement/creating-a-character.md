@@ -69,7 +69,7 @@ Write your character's level on your character sheet. Typically, a character sta
 
 ### Note Armor Training
 
-Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "<a href="/sources/dnd/br-2024/equipment#Armor" data-content-chunk-id="617425ec-512e-4da2-8f7b-7b552c099814">Equipment</a>".
+Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "[[[general:Equipment#armor|Equipment]]]".
 
 ### Hold That Thought
 
@@ -440,14 +440,14 @@ The character sheet includes room to note your current Hit Points when you take 
 
 **_Initiative._** Write your Dexterity modifier in the space for Initiative on your character sheet.
 
-**_Armor Class._** Without armor or a shield, your base [[glossary:Armor Class]] is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in "<a href="/sources/dnd/br-2024/equipment#Armor" data-content-chunk-id="0f272300-2d94-417d-82ee-0fd6b7901670">Equipment</a>". A class feature might give you a different way to calculate your AC.
+**_Armor Class._** Without armor or a shield, your base [[glossary:Armor Class]] is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in "[[[general:Equipment#armor|Equipment]]]". A class feature might give you a different way to calculate your AC.
 
 **_Attacks._** In the Weapons & Damage Cantrips section of the character sheet, write your starting weapons. The attack roll bonus for a weapon with which you have proficiency is one of the following unless a weapon's property says otherwise:
 
 * **_Melee attack bonus_** = Strength modifier + Proficiency Bonus
 * **_Ranged attack bonus_** = Dexterity modifier + Proficiency Bonus
 
-Look up the damage and properties of your weapons in "<a href="/sources/dnd/br-2024/equipment#Weapons" data-content-chunk-id="cebbe56b-35ba-434a-96d9-e0fa8ab178cb">Equipment</a>". You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
+Look up the damage and properties of your weapons in "[[[general:Equipment#weapons|Equipment]]]". You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
 
 **_Spellcasting._** Note both the saving throw DC for your spells and the attack bonus for attacks you make with them, using these formulas:
 
@@ -556,7 +556,7 @@ Creating a higher-level character uses the same character-creation steps outline
 
 The DM decides whether your character starts with more than the standard equipment for a level 1 character, possibly even one or more magic items. The Starting Equipment at Higher Levels table is a guide for the DM.
 
-Also, check with your DM about what equipment is available for you to buy with your starting money. For example, the firearms described in "<a href="/sources/dnd/br-2024/equipment#Weapons" data-content-chunk-id="e8f865d4-f510-4062-a15b-ee5b80ceef0e">Equipment</a>" are too expensive for level 1 characters, but they might be available for purchase if your DM allows them.
+Also, check with your DM about what equipment is available for you to buy with your starting money. For example, the firearms described in "[[[general:Equipment#weapons|Equipment]]]" are too expensive for level 1 characters, but they might be available for purchase if your DM allows them.
 
 ### Starting Equipment at Higher Levels
 

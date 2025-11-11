@@ -281,7 +281,7 @@ The Attack Roll Abilities table shows which ability modifier to use for differen
 | Dexterity | Ranged attack with a weapon                                                             |
 | Varies    | Spell attack (the ability used is determined by the spellcaster's spellcasting feature) |
 
-Some features let you use different ability modifiers from those listed. For example, the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Finesse" data-tooltip-href="/weapon-properties/2-tooltip">Finesse</a> property (see "<a href="/sources/dnd/br-2024/equipment#Properties" data-content-chunk-id="1fcb5c7c-d551-4e26-916c-b21341244792">Equipment</a>") lets you use Strength or Dexterity with a weapon that has that property.
+Some features let you use different ability modifiers from those listed. For example, the <a class="tooltip-hover weapon-properties-tooltip" href="/sources/dnd/free-rules/equipment#Finesse" data-tooltip-href="/weapon-properties/2-tooltip">Finesse</a> property (see "[[[general:Equipment#properties|Equipment]]]") lets you use Strength or Dexterity with a weapon that has that property.
 
 ### Proficiency Bonus
 
@@ -559,7 +559,7 @@ Exploration involves delving into places that are dangerous and full of mystery.
 
 As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with <a class="tooltip-hover item-tooltip" href="/equipment/495-thieves-tools" data-tooltip-href="/adventuring-gear/495-tooltip">Thieves' Tools</a>, and create obstacles for pursuers with <a class="tooltip-hover item-tooltip" href="/equipment/497-caltrops" data-tooltip-href="/adventuring-gear/497-tooltip">Caltrops</a>.
 
-See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "<a href="/sources/dnd/br-2024/equipment#Tools" data-content-chunk-id="c32e4170-de2f-4907-8ed8-87bfc4f5c70e">Tools</a>" and "<a href="/sources/dnd/br-2024/equipment#AdventuringGear" data-content-chunk-id="1b6ece5b-23a6-4097-824f-cb0f70944d4d">Adventuring Gear</a>" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a <a class="tooltip-hover item-tooltip" href="/equipment/12-quarterstaff" data-tooltip-href="/weapons/12-tooltip">Quarterstaff</a>, for example, to push a sinister-looking button that you're reluctant to touch.
+See "<a href="/sources/dnd/br-2024/equipment" data-content-chunk-id="e47328f4-c026-4784-ad26-368cf501f58b">Equipment</a>" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a <a class="tooltip-hover item-tooltip" href="/equipment/12-quarterstaff" data-tooltip-href="/weapons/12-tooltip">Quarterstaff</a>, for example, to push a sinister-looking button that you're reluctant to touch.
 
 ## Vision and Light
 
@@ -646,7 +646,7 @@ The adventurers should establish a marching order while they travel, whether ind
 
 ### Travel Pace
 
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see "<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="465eab63-48e2-46d3-9ad5-3d6da3a2dc84">Equipment</a>" for a selection of mounts for sale). The "<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>" has rules that affect which pace you can choose in certain types of terrain.
+While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see "[[[general:Equipment#mountsand-vehicles|Equipment]]]" for a selection of mounts for sale). The "<a href="/sources/dnd/br-2024/dms-toolbox#TravelPace" data-content-chunk-id="27695f03-914c-47a1-ab0e-28885dd85a76">DM's Toolbox</a>" has rules that affect which pace you can choose in certain types of terrain.
 
 #### Travel Pace
 
@@ -667,7 +667,7 @@ Each travel pace has a game effect, as defined below.
 
 ### Vehicles
 
-Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "<a href="/sources/dnd/br-2024/equipment#MountsandVehicles" data-content-chunk-id="1d3d0aa2-9e08-4ff9-bd84-409687097075">Equipment</a>" includes vehicles for sale.
+Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "[[[general:Equipment#mountsand-vehicles|Equipment]]]" includes vehicles for sale.
 
 # Combat
 

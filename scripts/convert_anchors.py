@@ -22,9 +22,14 @@ PATH = r"..\data\dnd\advancement\creating-a-character.md"
 # FORMAT_STRING2 = '[[[general:Playing the Game#{slug}|{label}]]]'
 
 # Creating a Character links
-REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/creating\-a\-character\#(.*?)\"\>(.*?)\<\/a\>'
-FORMAT_STRING = '[[[general:Creating a Character#{label}]]]'
-FORMAT_STRING2 = '[[[general:Creating a Character#{slug}|{label}]]]'
+# REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/creating\-a\-character\#(.*?)\"\>(.*?)\<\/a\>'
+# FORMAT_STRING = '[[[general:Creating a Character#{label}]]]'
+# FORMAT_STRING2 = '[[[general:Creating a Character#{slug}|{label}]]]'
+
+# Equipment links
+REG = r'\<a href\=\"\/sources\/dnd\/br\-2024\/equipment\#(.*?)\"(?: data-content-chunk-id=".*?")?\>(.*?)\<\/a\>'
+FORMAT_STRING = '[[[general:Equipment#{label}]]]'
+FORMAT_STRING2 = '[[[general:Equipment#{slug}|{label}]]]'
 
 
 def slugify(text: str) -> str:
