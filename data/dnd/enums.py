@@ -417,6 +417,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#quiver",
         "content": "",
     },
+    "sprig of mistletoe": {
+        "href": "/dnd/general/Equipment#sprig-of-mistletoe",
+        "content": "",
+    },
     # Weapon Properties
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",

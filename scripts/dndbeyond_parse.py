@@ -12,8 +12,11 @@ from bs4 import Tag, NavigableString
 from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
+
+PATH = "data/dnd/class/ranger.md"
+
+
 os.chdir("..")
-PATH = "data/dnd/class/paladin.md"
 GLOSSARY_TOOLTIPS = split_rules_glossary()
 
 
@@ -87,6 +90,8 @@ def parse_tag(parent: Tag) -> str:
                 output.append(parse_link(tag))
             case "table":
                 return parse_table(tag)
+            case "div":
+                return parse_div(tag)
             case _:
                 raise ValueError(f"Unhandled tag: {tag}")
 
@@ -235,6 +240,8 @@ def parse_div(parent: Tag) -> str:
     # We can just ignore some divs and pretend they don't exist
     output = []
     classes = parent.attrs["class"]
+    if "stat-block" in classes:
+        return parent.text
     if ("effect-info" in classes) or ("effects-info" in classes):
         return parse_ul(parent)
     ignorable_classes = ["subitems-list-details"]

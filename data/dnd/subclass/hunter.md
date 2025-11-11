@@ -1,39 +1,45 @@
 [[breadcrumb /dnd/class/Ranger|Ranger]]
 
+_Protect Nature and People from Destruction_
+
 You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.
 
-### 3rd Level: Hunter's Prey
+### Level 3: Hunter's Lore
 
-You gain one of the following feature options of your choice.
+You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _[[[spell:Hunter's Mark]]]_, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
 
-***Colossus Slayer.*** Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.
+### Level 3: Hunter's Prey
 
-***Horde Breaker.*** Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.
+You gain one of the following feature options of your choice. Whenever you finish a [[glossary:Short Rest|Short]] or [[glossary:Long Rest]], you can replace the chosen option with the other one.
 
-***Retaliator.*** Immediately after a creature within 5 feet of you attacks you, you can use your Reaction to make one attack with a weapon against that creature, whether or not it hit you.
+#### Colossus Slayer
 
-### 3rd Level: Hunter's Lore
+Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.
 
-You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _[[[spell:Hunter's Mark]]]_, you know whether that creature has any damage or condition immunities, damage resistances, or damage vulnerabilities, and if the creature has any, you know what they are.
+#### Horde Breaker
 
-### 7th Level: Defensive Tactics
+Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.
 
-You gain one of the following feature options of your choice.
+### Level 7: Defensive Tactics
 
-***Evasion.*** When you are subjected to an effect that lets you make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the [[glossary:Incapacitated]] condition.
+You gain one of the following feature options of your choice. Whenever you finish a [[glossary:Short Rest|Short]] or [[glossary:Long Rest]], you can replace the chosen option with the other one.
 
-***Hunter's Leap.*** If an enemy you can see enters a space within 5 feet of you, you can use your Reaction to move up to half your Speed without provoking Opportunity Attacks.
+#### Escape the Horde
 
-***Uncanny Dodge.*** When an attacker that you can see hits you with an attack roll, you can use your Reaction to halve the attack's damage against you (round down).
+[[glossary:Opportunity Attacks]] have [[glossary:Disadvantage]] against you.
 
-### 11th Level: Superior Hunter's Prey
+#### Multiattack Defense
 
-You gain another feature option of your choice from the Hunter's Prey feature.
+When a creature hits you with an attack roll, that creature has [[glossary:Disadvantage]] on all other attack rolls against you this turn.
 
-### 15th Level: Superior Hunter's Defense
+### Level 11: Superior Hunter's Prey
 
-You gain another feature option of your choice from the Defensive Tactics feature.
+Once per turn when you deal damage to a creature marked by your _[[[spell:Hunter's Mark]]]_, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
+
+### Level 15: Superior Hunter's Defense
+
+When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.
 
 ----
 
-_Source: [Player's Handbook Playtest 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)_
+_Source: Player's Handbook, p. 127_
