@@ -480,7 +480,7 @@ An Emanation's origin (creature or object) isn't included in the area of effect 
 
 ## Encounter
 
-An encounter is a scene in an adventure that is part of at least one of the game's three pillars: social interaction, exploration, or combat. _See also_ "Playing the Game" ("[[[general:Playing the Game#social-interaction|Social Interaction]]," "[[general:Playing the Game#exploration|Exploration]]," and "[[general:Playing the Game#combat|Combat]]]").
+An encounter is a scene in an adventure that is part of at least one of the game's three pillars: social interaction, exploration, or combat. _See also_ "Playing the Game" ("[[[general:Playing the Game#social-interaction|Social Interaction]]]," "[[[general:Playing the Game#exploration|Exploration]]]," and "[[[general:Playing the Game#combat|Combat]]]").
 
 ## Enemy
 

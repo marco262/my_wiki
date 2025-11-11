@@ -251,10 +251,12 @@ class MarkdownParser:
                 g = tooltip_dict[m.group(1).lower()]
             except KeyError:
                 raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
+            # Avoid including pipes (|) so we don't screw up tables
+            content = g["content"].split("|")[0].strip()
             tooltip = tooltip_fmt.format(
                 name=m.group(3) or m.group(1),
                 href=g["href"],
-                content=g["content"],
+                content=content,
             )
             text = text.replace(m.group(0), tooltip)
         return text
