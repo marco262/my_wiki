@@ -8,18 +8,19 @@
 
 ### Common Races
 
-* [[[race:Dwarf]]]
-* [[[race:Elf]]]
-* [[[race:Gnome]]]
-* [[[race:Halfling]]]
-* [[[race:Human]]]
+* [[[advancement:Character Origins#Dwarf]]]
+* [[[advancement:Character Origins#Elf]]]
+* [[[advancement:Character Origins#Gnome]]]
+* [[[advancement:Character Origins#Halfling]]]
+* [[[advancement:Character Origins#Human]]]
 
 ### Uncommon Races
 
-* [[[race:Dragonborn]]]
-* [[[race:Goliath]]]
-* [[[race:Orc]]]
-* [[[race:Tiefling]]]
+* [[[advancement:Character Origins#Aasimar]]]
+* [[[advancement:Character Origins#Dragonborn]]]
+* [[[advancement:Character Origins#Goliath]]]
+* [[[advancement:Character Origins#Orc]]]
+* [[[advancement:Character Origins#Tiefling]]]
 
 </div>
 
@@ -27,7 +28,7 @@
 
 ## Classes
 
-[[[general:Classes|Classes Overview]]]
+[[[advancement:Classes|Classes Overview]]]
 
 % for c in classes:
 % if c == "Artificer":
@@ -58,9 +59,9 @@
 ## Character Information
 
 * [[[advancement:Creating a Character]]]
-* [[[advancement:Character Generation]]]
-    * [[[advancement:Character Generation#backgrounds|Backgrounds]]]
-    * [[[advancement:Character Generation#languages|Languages]]]
+* [[[advancement:Character Origins]]]
+    * [[[advancement:Character Origins#backgrounds|Backgrounds]]]
+    * [[[advancement:Character Origins#races|Races]]]
 * [[[advancement:Feats]]]
 
 ## Equipment

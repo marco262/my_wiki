@@ -14,7 +14,7 @@ Start by talking with your Dungeon Master about the type of D&D game they plan t
 
 **Session Zero**
 
-Some Dungeon Masters start a campaign with a "session zero," an initial gathering focused on creating characters and setting expectations, including topics to avoid as well as those to embrace. A session zero provides a great opportunity to talk to the other players and the DM and decide whether your characters know one another, how they met, and what sorts of quests the group might undertake together.
+Some Dungeon Masters start a campaign with a "session zero," an initial gathering focused on creating characters and setting expectations. A session zero provides a great opportunity to talk to the other players and the DM and decide whether your characters know one another, how they met, and what sorts of quests the group might undertake together.
 
 </div>
 

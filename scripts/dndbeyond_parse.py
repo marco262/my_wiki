@@ -14,7 +14,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/advancement/classes.md"
+PATH = "data/dnd/advancement/character-origins.md"
 
 
 os.chdir("..")
@@ -29,6 +29,9 @@ def main() -> None:
     # Replace "smart" quotes
     html_content = html_content.replace("’", "'")
     html_content = html_content.replace("&rsquo;", "'")
+    html_content = html_content.replace("“", '"')
+    html_content = html_content.replace("”", '"')
+    html_content = html_content.replace("—", " -- ")
 
     soup = bs4.BeautifulSoup(html_content, "html.parser")
 
@@ -97,6 +100,10 @@ def parse_tag(parent: Tag) -> str:
                 output.append(parse_div(tag))
             case "br":
                 output.append("\n")
+            case "span":
+                output.append(tag.text)
+            case "figcaption":
+                pass
             case _:
                 raise ValueError(f"Unhandled tag: {tag}")
 
@@ -183,7 +190,11 @@ def markdown_header_sep(num_cells: int) -> str:
 def parse_link(tag: Tag) -> str:
     text = tag.get_text()
     if "class" not in tag.attrs:
-        return f"[{text}]({tag.attrs['href']})"
+        href = tag.attrs['href']
+        m = re.search(r"#(.*)$", href)
+        if m:
+            href = href.replace(m.group(0), "#" + parse_anchor(m.group(1)))
+        return f"[{text}]({href})"
 
     classes = tag.attrs["class"]
     if ("ddb-lightbox-inner" in classes) or ("ddb-lightbox-outer" in classes):
@@ -211,37 +222,51 @@ def parse_link(tag: Tag) -> str:
     raise ValueError(f"Unhandled link: {tag}")
 
 
+def parse_anchor(text: str) -> str:
+    for n in re.finditer(r"([A-Z])", text):
+        text = text.replace(n.group(1), "-" + n.group(1).lower())
+    text = text.replace("of", "-of")
+    text = text.replace("the", "-the")
+    text = text.replace("and", "-and")
+    text = text.replace("from", "-from")
+    return text.strip("-")
+
+
 def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
     key = text.lower()
     if key in tooltip_dict:
         return f"[[{tooltip_type}:{text}]]"
     else:
-        key = key.rstrip("s")
-        if key in tooltip_dict:
-            return f"[[{tooltip_type}:{key}|{text}]]"
-        else:
-            match text:
-                case "Half Cover":
-                    return f"[[tooltip:Half Cover]]"
-                case "Three-Quarters Cover":
-                    return f"[[tooltip:Three-Quarters Cover]]"
-                case "Total Cover":
-                    return f"[[tooltip:Total Cover]]"
-                case str() as s if (m := re.match(r"Arcane Focus \((.*?)\)", s)):
-                    return f"[[tooltip:Arcane Focus]] ({m.group(1)})"
-                case "Short":
-                    # Assume it means Short Rest
-                    return f"[[glossary:Short Rest|Short]]"
-                case "Long":
-                    # Assume it means Long Jump (double-check this)
-                    return f"[[glossary:Long Jump|Long]]"
-                case "shape-shift":
-                    # Assume it means Shifting
-                    return f"[[glossary:Shifting|shape-shift]]"
-                case "Opportunity Attack":
-                    # Assume it means Opportunity Attacks
-                    return f"[[glossary:Opportunity Attacks|Opportunity Attack]]"
-            raise ValueError(f"Undefined tooltip: {text}")
+        k = key.rstrip("s")
+        if k in tooltip_dict:
+            return f"[[{tooltip_type}:{k}|{text}]]"
+
+        k = key.rstrip("es")
+        if k in tooltip_dict:
+            return f"[[{tooltip_type}:{k}|{text}]]"
+
+        match text:
+            case "Half Cover":
+                return f"[[tooltip:Half Cover]]"
+            case "Three-Quarters Cover":
+                return f"[[tooltip:Three-Quarters Cover]]"
+            case "Total Cover":
+                return f"[[tooltip:Total Cover]]"
+            case str() as s if (m := re.match(r"Arcane Focus \((.*?)\)", s)):
+                return f"[[tooltip:Arcane Focus]] ({m.group(1)})"
+            case "Short":
+                # Assume it means Short Rest
+                return f"[[glossary:Short Rest|Short]]"
+            case "Long":
+                # Assume it means Long Jump (double-check this)
+                return f"[[glossary:Long Jump|Long]]"
+            case "shape-shift":
+                # Assume it means Shifting
+                return f"[[glossary:Shifting|shape-shift]]"
+            case "Opportunity Attack":
+                # Assume it means Opportunity Attacks
+                return f"[[glossary:Opportunity Attacks|Opportunity Attack]]"
+        raise ValueError(f"Undefined tooltip: {text}")
 
 
 def parse_ul(parent: Tag) -> str:
@@ -267,13 +292,18 @@ def parse_div(parent: Tag) -> str:
                 return parent.text
 
         # Parse divs that contain uls
-        ul_classes = ["effect-info", "effects-info", "spell-components"]
+        ul_classes = ["effect-info", "effects-info", "spell-components", "flexible-quad-column", "condensed-group", "hangingIndent"]
         for c in ul_classes:
             if c in classes:
                 return parse_ul(parent)
 
         # Parse divs with multiple parseable tags within
-        ignorable_classes = ["subitems-list-details", "flexible-double-column", "flexible-double-column__column-width-20pct"]
+        ignorable_classes = [
+            "subitems-list-details",
+            "flexible-double-column",
+            "flexible-double-column__column-width-20pct",
+            "flexible-double-column__column-width-30pct",
+        ]
         handled_classes = ["subitems-list-details-item"]
         for c in ignorable_classes:
             if c in classes:

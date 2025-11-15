@@ -38,15 +38,17 @@ class TestMarkdownParser(unittest.TestCase):
 
         isfile_mock.side_effect = mock_func
         pre_markdown = """
-        [[[class:cleric#toc|Table of Contents]]]
-        [[[class:cleric#domains]]]
+        [[[class:cleric#TOC|Table of Contents]]]
+        [[[class:cleric#Domains]]]
+        [[[class:cleric#Lots of Words]]]
         [[[class:cleric]]]
         [[[Mutants]]]
         [[[spell:enlarge/reduce]]]
         """
         expected = """
         <a class="wiki-link" href="/dnd/class/cleric#toc">Table of Contents</a>
-        <a class="wiki-link" href="/dnd/class/cleric#domains">domains</a>
+        <a class="wiki-link" href="/dnd/class/cleric#domains">Domains</a>
+        <a class="wiki-link" href="/dnd/class/cleric#lots-of-words">Lots of Words</a>
         <a class="wiki-link" href="/dnd/class/cleric">cleric</a>
         <a class="wiki-link-broken" href="/dnd/Mutants">Mutants</a>
         <a class="wiki-link" href="/dnd/spell/enlarge-reduce">enlarge/reduce</a>

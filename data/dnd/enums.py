@@ -322,6 +322,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#spear",
         "content": "",
     },
+    "light crossbow": {
+        "href": "/dnd/general/Equipment#light-crossbow",
+        "content": "",
+    },
     # Martial Weapons
     "flail": {
         "href": "/dnd/general/Equipment#flail",
@@ -405,6 +409,47 @@ tooltips = {
         "href": "/dnd/general/Equipment#scholar-s-pack",
         "content": "",
     },
+    # Tools
+    "calligrapher's supplies": {
+        "href": "/dnd/general/Equipment#calligrapher-s-supplies",
+        "content": "",
+    },
+    "carpenter's tools": {
+        "href": "/dnd/general/Equipment#carpenter-s-tools",
+        "content": "",
+    },
+    "cartographer's tools": {
+        "href": "/dnd/general/Equipment#cartographer-s-tools",
+        "content": "",
+    },
+    "disguise kit": {
+        "href": "/dnd/general/Equipment#disguise-kit",
+        "content": "",
+    },
+    "forgery kit": {
+        "href": "/dnd/general/Equipment#forgery-kit",
+        "content": "",
+    },
+    "healer's kit": {
+        "href": "/dnd/general/Equipment#healer-s-kit",
+        "content": "",
+    },
+    "herbalism kit": {
+        "href": "/dnd/general/Equipment#herbalism-kit",
+        "content": "",
+    },
+    "navigator's tools": {
+        "href": "/dnd/general/Equipment#navigator-s-tools",
+        "content": "",
+    },
+    "poisoner's kit": {
+        "href": "/dnd/general/Equipment#poisoner-s-kit",
+        "content": "",
+    },
+    "thieves' tools": {
+        "href": "/dnd/general/Equipment#thieves-tools",
+        "content": "",
+    },
     # Items
     "arcane focus": {
         "href": "/dnd/general/Equipment#arcane-focus",
@@ -414,28 +459,88 @@ tooltips = {
         "href": "/dnd/general/Equipment#arrow",
         "content": "",
     },
-    "disguise kit": {
-        "href": "/dnd/general/Equipment#disguise-kit",
+    "bedroll": {
+        "href": "/dnd/general/Equipment#bedroll",
+        "content": "",
+    },
+    "bolt": {
+        "href": "/dnd/general/Equipment#bolt",
+        "content": "",
+    },
+    "book": {
+        "href": "/dnd/general/Equipment#book",
+        "content": "",
+    },
+    "costume": {
+        "href": "/dnd/general/Equipment#costume",
+        "content": "",
+    },
+    "crowbar": {
+        "href": "/dnd/general/Equipment#crowbar",
         "content": "",
     },
     "druidic focus": {
         "href": "/dnd/general/Equipment#druidic-focus",
         "content": "",
     },
+    "fine clothes": {
+        "href": "/dnd/general/Equipment#fine-clothes",
+        "content": "",
+    },
     "holy symbol": {
         "href": "/dnd/general/Equipment#holy-symbol",
         "content": "",
     },
-    "herbalism kit": {
-        "href": "/dnd/general/Equipment#herbalism-kit",
+    "hooded lantern": {
+        "href": "/dnd/general/Equipment#hooded-lantern",
         "content": "",
     },
-    "poisoner's kit": {
-        "href": "/dnd/general/Equipment#poisoner-s-kit",
+    "iron pot": {
+        "href": "/dnd/general/Equipment#iron-pot",
+        "content": "",
+    },
+    "lamp": {
+        "href": "/dnd/general/Equipment#lamp",
+        "content": "",
+    },
+    "manacles": {
+        "href": "/dnd/general/Equipment#manacles",
+        "content": "",
+    },
+    "mirror": {
+        "href": "/dnd/general/Equipment#mirror",
+        "content": "",
+    },
+    "oil": {
+        "href": "/dnd/general/Equipment#oil",
+        "content": "",
+    },
+    "parchment": {
+        "href": "/dnd/general/Equipment#parchment",
+        "content": "",
+    },
+    "perfume": {
+        "href": "/dnd/general/Equipment#perfume",
+        "content": "",
+    },
+    "pouch": {
+        "href": "/dnd/general/Equipment#pouch",
         "content": "",
     },
     "quiver": {
         "href": "/dnd/general/Equipment#quiver",
+        "content": "",
+    },
+    "robe": {
+        "href": "/dnd/general/Equipment#robe",
+        "content": "",
+    },
+    "rope": {
+        "href": "/dnd/general/Equipment#rope",
+        "content": "",
+    },
+    "shovel": {
+        "href": "/dnd/general/Equipment#shovel",
         "content": "",
     },
     "spellbook": {
@@ -446,8 +551,12 @@ tooltips = {
         "href": "/dnd/general/Equipment#sprig-of-mistletoe",
         "content": "",
     },
-    "thieves' tools": {
-        "href": "/dnd/general/Equipment#thieves-tools",
+    "tent": {
+        "href": "/dnd/general/Equipment#tent",
+        "content": "",
+    },
+    "traveler's clothes": {
+        "href": "/dnd/general/Equipment#traveler-s-clothes",
         "content": "",
     },
     # Magic Items

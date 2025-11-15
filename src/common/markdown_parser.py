@@ -80,11 +80,15 @@ class MarkdownParser:
             directory = namespace_domain + ("/" + groups[1] if groups[1] else "")
             filename = groups[2].replace("/", "-")
             linkname = groups[6] or groups[4] or groups[2]
+            if groups[4]:
+                anchor = "#" + title_to_page_name(groups[4])
+            else:
+                anchor = ""
             broken_link = not (self.check_for_broken_links and self.check_for_md_file(directory, filename))
             class_name = "wiki-link" + ("-broken" if broken_link else "")
             text = text.replace(
                 m.group(0),
-                f'<a class="{class_name}" href="{directory}/{filename + (groups[3] or "")}">{linkname}</a>'
+                f'<a class="{class_name}" href="{directory}/{filename + anchor}">{linkname}</a>'
             )
         return text
 
