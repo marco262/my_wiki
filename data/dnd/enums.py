@@ -401,6 +401,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#priest-s-pack",
         "content": "",
     },
+    "scholar's pack": {
+        "href": "/dnd/general/Equipment#scholar-s-pack",
+        "content": "",
+    },
     # Items
     "arcane focus": {
         "href": "/dnd/general/Equipment#arcane-focus",

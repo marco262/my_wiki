@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/class/sorcerer.md"
+PATH = "data/dnd/class/warlock.md"
 
 
 os.chdir("..")
@@ -64,6 +64,8 @@ def parse_tag(parent: Tag) -> str:
             return parse_table(parent)
         case "ul":
             return parse_ul(parent)
+        case "hr":
+            return "---"
         case str() as s if s.startswith("h"):
             return parse_header(parent)
         case "caption":
@@ -223,8 +225,9 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
                 case "Total Cover":
                     return f"[[tooltip:Total Cover]]"
                 case "Arcane Focus (crystal)":
-                    # Assume it means Opportunity Attacks
                     return f"[[tooltip:Arcane Focus]] (crystal)"
+                case "Arcane Focus (orb)":
+                    return f"[[tooltip:Arcane Focus]] (orb)"
                 case "Short":
                     # Assume it means Short Rest
                     return f"[[glossary:Short Rest|Short]]"
