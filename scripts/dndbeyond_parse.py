@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/class/ranger.md"
+PATH = "data/dnd/class/rogue.md"
 
 
 os.chdir("..")
@@ -89,9 +89,11 @@ def parse_tag(parent: Tag) -> str:
             case "a":
                 output.append(parse_link(tag))
             case "table":
-                return parse_table(tag)
+                output.append(parse_table(tag))
             case "div":
-                return parse_div(tag)
+                output.append(parse_div(tag))
+            case "br":
+                output.append("\n")
             case _:
                 raise ValueError(f"Unhandled tag: {tag}")
 
@@ -183,7 +185,7 @@ def parse_link(tag: Tag) -> str:
     classes = tag.attrs["class"]
     if "spell-tooltip" in classes:
         return f"_[[[spell:{text}]]]_"
-    tooltip_classes = ["skill-tooltip", "item-tooltip", "weapon-properties-tooltip"]
+    tooltip_classes = ["skill-tooltip", "item-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
             return make_tooltip("tooltip", tooltips, text)
@@ -240,10 +242,20 @@ def parse_div(parent: Tag) -> str:
     # We can just ignore some divs and pretend they don't exist
     output = []
     classes = parent.attrs["class"]
-    if "stat-block" in classes:
-        return parent.text
-    if ("effect-info" in classes) or ("effects-info" in classes):
-        return parse_ul(parent)
+
+    # Parse divs that should return raw text
+    text_classes = ["stat-block"]
+    for c in text_classes:
+        if c in classes:
+            return parent.text
+
+    # Parse divs that contain uls
+    ul_classes = ["effect-info", "effects-info", "spell-components"]
+    for c in ul_classes:
+        if c in classes:
+            return parse_ul(parent)
+
+    # Parse divs with multiple parseable tags within
     ignorable_classes = ["subitems-list-details"]
     handled_classes = ["subitems-list-details-item"]
     sep = "\n"
@@ -257,7 +269,6 @@ def parse_div(parent: Tag) -> str:
                 break
         else:
             raise ValueError(f"Unhandled div: {classes}")
-
     for tag in parent:  # type: Tag
         output.append(parse_tag(tag))
     return sep.join(output)

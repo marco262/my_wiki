@@ -207,6 +207,7 @@ magic_item_sources = [
     "Waterdeep: Dragon Heist",
     "Homebrew"
 ]
+
 tooltips = {
     "acrobatics": {
         "href": "/dnd/general/Playing the Game#skill-list",
@@ -354,6 +355,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#longbow",
         "content": "",
     },
+    "shortbow": {
+        "href": "/dnd/general/Equipment#shortbow",
+        "content": "",
+    },
     # Armor
     "leather armor": {
         "href": "/dnd/general/Equipment#leather-armor",
@@ -376,6 +381,10 @@ tooltips = {
         "content": "",
     },
     # Packs
+    "burglar's pack": {
+        "href": "/dnd/general/Equipment#burglar-s-pack",
+        "content": "",
+    },
     "dungeoneer's pack": {
         "href": "/dnd/general/Equipment#dungeoneer-s-pack",
         "content": "",
@@ -401,6 +410,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#arrow",
         "content": "",
     },
+    "disguise kit": {
+        "href": "/dnd/general/Equipment#disguise-kit",
+        "content": "",
+    },
     "druidic focus": {
         "href": "/dnd/general/Equipment#druidic-focus",
         "content": "",
@@ -413,6 +426,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#herbalism-kit",
         "content": "",
     },
+    "poisoner's kit": {
+        "href": "/dnd/general/Equipment#poisoner-s-kit",
+        "content": "",
+    },
     "quiver": {
         "href": "/dnd/general/Equipment#quiver",
         "content": "",
@@ -421,7 +438,20 @@ tooltips = {
         "href": "/dnd/general/Equipment#sprig-of-mistletoe",
         "content": "",
     },
+    "thieves' tools": {
+        "href": "/dnd/general/Equipment#thieves-tools",
+        "content": "",
+    },
+    # Magic Items
+    "spell scroll": {
+        "href": "/dnd/general/Equipment#spell-scroll",
+        "content": "",
+    },
     # Weapon Properties
+    "finesse": {
+        "href": "/dnd/general/Equipment#finesse",
+        "content": "",
+    },
     "heavy": {
         "href": "/dnd/general/Equipment#heavy",
         "content": "",
@@ -450,5 +480,8 @@ tooltips = {
         "href": "/dnd/general/Equipment#versatile",
         "content": "",
     },
+    "vex": {
+        "href": "/dnd/general/Equipment#vex",
+        "content": "",
+    },
 }
-
