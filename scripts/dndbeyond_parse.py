@@ -4,6 +4,7 @@ This script will then convert that file into a Markdown representation of that f
 It will also add a "Source:" section at the end. Make sure to fill that out manually using a real book reference
 like "Player's Handbook, p. 34".
 """
+import re
 import os
 
 import bs4
@@ -13,7 +14,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/class/warlock.md"
+PATH = "data/dnd/class/wizard.md"
 
 
 os.chdir("..")
@@ -224,10 +225,8 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
                     return f"[[tooltip:Three-Quarters Cover]]"
                 case "Total Cover":
                     return f"[[tooltip:Total Cover]]"
-                case "Arcane Focus (crystal)":
-                    return f"[[tooltip:Arcane Focus]] (crystal)"
-                case "Arcane Focus (orb)":
-                    return f"[[tooltip:Arcane Focus]] (orb)"
+                case str() as s if (m := re.match(r"Arcane Focus \((.*?)\)", s)):
+                    return f"[[tooltip:Arcane Focus]] ({m.group(1)})"
                 case "Short":
                     # Assume it means Short Rest
                     return f"[[glossary:Short Rest|Short]]"

@@ -438,6 +438,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#quiver",
         "content": "",
     },
+    "spellbook": {
+        "href": "/dnd/general/Equipment#spellbook",
+        "content": "",
+    },
     "sprig of mistletoe": {
         "href": "/dnd/general/Equipment#sprig-of-mistletoe",
         "content": "",
