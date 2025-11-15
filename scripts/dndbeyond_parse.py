@@ -14,7 +14,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/class/wizard.md"
+PATH = "data/dnd/advancement/classes.md"
 
 
 os.chdir("..")
@@ -186,6 +186,8 @@ def parse_link(tag: Tag) -> str:
         return f"[{text}]({tag.attrs['href']})"
 
     classes = tag.attrs["class"]
+    if ("ddb-lightbox-inner" in classes) or ("ddb-lightbox-outer" in classes):
+        return ""
     if "spell-tooltip" in classes:
         return f"_[[[spell:{text}]]]_"
     if "monster-tooltip" in classes:
@@ -252,36 +254,38 @@ def parse_ul(parent: Tag) -> str:
 
 
 def parse_div(parent: Tag) -> str:
-    # We can just ignore some divs and pretend they don't exist
     output = []
-    classes = parent.attrs["class"]
-
-    # Parse divs that should return raw text
-    text_classes = ["stat-block"]
-    for c in text_classes:
-        if c in classes:
-            return parent.text
-
-    # Parse divs that contain uls
-    ul_classes = ["effect-info", "effects-info", "spell-components"]
-    for c in ul_classes:
-        if c in classes:
-            return parse_ul(parent)
-
-    # Parse divs with multiple parseable tags within
-    ignorable_classes = ["subitems-list-details"]
-    handled_classes = ["subitems-list-details-item"]
     sep = "\n"
-    for c in ignorable_classes:
-        if c in classes:
-            sep = ""
-            break
-    else:
-        for c in handled_classes:
+
+    if "class" in parent.attrs:
+        classes = parent.attrs["class"]
+
+        # Parse divs that should return raw text
+        text_classes = ["stat-block"]
+        for c in text_classes:
             if c in classes:
+                return parent.text
+
+        # Parse divs that contain uls
+        ul_classes = ["effect-info", "effects-info", "spell-components"]
+        for c in ul_classes:
+            if c in classes:
+                return parse_ul(parent)
+
+        # Parse divs with multiple parseable tags within
+        ignorable_classes = ["subitems-list-details", "flexible-double-column", "flexible-double-column__column-width-20pct"]
+        handled_classes = ["subitems-list-details-item"]
+        for c in ignorable_classes:
+            if c in classes:
+                sep = ""
                 break
         else:
-            raise ValueError(f"Unhandled div: {classes}")
+            for c in handled_classes:
+                if c in classes:
+                    break
+            else:
+                raise ValueError(f"Unhandled div: {classes}")
+
     for tag in parent:  # type: Tag
         output.append(parse_tag(tag))
     return sep.join(output)

@@ -1,4 +1,4 @@
-[[breadcrumb /dnd/classes|Classes]]
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
 # Core Warlock Traits
 

@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/|2024 D&D]]
+
 You can make a character for Dungeons & Dragons using the building blocks found here. Your character is a combination of game statistics, roleplaying hooks, and your imagination. You choose a class (such as [[[class:Fighter]]] or [[[class:Wizard]]]), a background (such as [[[background:Soldier]]] or [[[background:Acolyte]]]), and a races (such as [[[race:Human]]] or [[[race:Elf]]]). You also invent the personality and appearance of your character. Once completed, your character serves as your avatar in the D&D multiverse.
 
 # Get Ready
@@ -762,3 +764,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 | 93    | An empty wine bottle bearing a pretty label that says, "The Wizard of Wines Winery, Red Dragon Crush, 331422-W"         |
 | 94    | A mosaic tile with a multicolored, glazed surface                                                                       |
 | 95    | A petrified mouse                                                                                                       |
+
+----
+
+_Source: Player's Handbook, p. 33_

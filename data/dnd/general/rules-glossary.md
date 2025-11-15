@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/|2024 D&D]]
+
 # Glossary Conventions
 
 The glossary uses the following conventions:
@@ -1171,3 +1173,8 @@ A weapon is an object that is in the Simple or Martial weapon category. _See als
 ## Weapon Attack
 
 A weapon attack is an attack roll made with a weapon. _See also_ "[Weapon](#weapon)."
+
+----
+
+_Source: Player's Handbook, p. 360_
+

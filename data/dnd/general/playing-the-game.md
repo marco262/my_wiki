@@ -1,3 +1,5 @@
+[[breadcrumb /dnd/|2024 D&D]]
+
 Imagination is a key ingredient of Dungeons & Dragons, a cooperative game in which the characters that you roleplay embark on adventures together in fantasy worlds filled with monsters and magic.
 
 In D&D, the action takes place in the imaginations of the players, and it's narrated by everyone together.
@@ -1053,3 +1055,7 @@ A condition lasts either for a duration specified by the effect that imposed the
 ## Conditions Don't Stack
 
 If multiple effects impose the same condition on you, each instance of the condition has its own duration, but the condition's effects don't get worse. Either you have a condition or you don't. The [[glossary:Exhaustion]] condition is an exception; its effects get worse if you have the condition and receive it again.
+
+----
+
+_Source: Player's Handbook, p. 7_
