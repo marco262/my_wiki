@@ -13,7 +13,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/class/rogue.md"
+PATH = "data/dnd/class/sorcerer.md"
 
 
 os.chdir("..")
@@ -185,6 +185,14 @@ def parse_link(tag: Tag) -> str:
     classes = tag.attrs["class"]
     if "spell-tooltip" in classes:
         return f"_[[[spell:{text}]]]_"
+    if "monster-tooltip" in classes:
+        return f"[[[monster:{text}]]]"
+    if "sourcebook" in classes:
+        if text == "Monster Manual":
+            return "_Monster Manual_"
+        else:
+            raise ValueError(f"Unknown sourcebook: {text}")
+
     tooltip_classes = ["skill-tooltip", "item-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
@@ -214,6 +222,9 @@ def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
                     return f"[[tooltip:Three-Quarters Cover]]"
                 case "Total Cover":
                     return f"[[tooltip:Total Cover]]"
+                case "Arcane Focus (crystal)":
+                    # Assume it means Opportunity Attacks
+                    return f"[[tooltip:Arcane Focus]] (crystal)"
                 case "Short":
                     # Assume it means Short Rest
                     return f"[[glossary:Short Rest|Short]]"
