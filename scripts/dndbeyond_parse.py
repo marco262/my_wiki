@@ -10,7 +10,7 @@ import os
 import bs4
 from bs4 import Tag, NavigableString
 
-from data.dnd.enums import tooltips
+from data.dnd.enums import custom_tooltips
 from src.dnd.utils import split_rules_glossary
 
 
@@ -226,7 +226,7 @@ def parse_link(tag: Tag) -> str:
     tooltip_classes = ["skill-tooltip", "item-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
-            return make_tooltip("tooltip", tooltips, text)
+            return make_tooltip("tooltip", custom_tooltips, text)
 
     glossary_classes = ["condition-tooltip", "action-tooltip", "rule-tooltip", "sense-tooltip"]
     for c in glossary_classes:

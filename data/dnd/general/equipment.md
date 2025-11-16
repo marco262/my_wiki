@@ -202,7 +202,7 @@ The Armor table lists the game's main armor. The table includes the cost and wei
 
 _(1 Minute to Don or Doff)_
 
-| Armor                             | Armor Class (AC)  | Strength | Stealth                   | Weight | Cost  |
+| Name                              | Armor Class (AC)  | Strength | Stealth                   | Weight | Cost  |
 |-----------------------------------|-------------------|----------|---------------------------|--------|-------|
 | [[tooltip:Padded Armor]]          | 11 + Dex modifier | --       | [[glossary:Disadvantage]] | 8 lb.  | 5 GP  |
 | [[tooltip:Leather Armor]]         | 11 + Dex modifier | --       | --                        | 10 lb. | 10 GP |
@@ -212,7 +212,7 @@ _(1 Minute to Don or Doff)_
 
 _(5 Minutes to Don and 1 Minute to Doff)_
 
-| Armor                        | Armor Class (AC)          | Strength | Stealth                   | Weight | Cost   |
+| Name                         | Armor Class (AC)          | Strength | Stealth                   | Weight | Cost   |
 |------------------------------|---------------------------|----------|---------------------------|--------|--------|
 | [[tooltip:Hide Armor]]       | 12 + Dex modifier (max 2) | --       | --                        | 12 lb. | 10 GP  |
 | [[tooltip:Chain Shirt]]      | 13 + Dex modifier (max 2) | --       | --                        | 20 lb. | 50 GP  |
@@ -224,7 +224,7 @@ _(5 Minutes to Don and 1 Minute to Doff)_
 
 _(10 Minutes to Don and 5 Minutes to Doff)_
 
-| Armor                    | Armor Class (AC) | Strength | Stealth                   | Weight | Cost     |
+| Name                     | Armor Class (AC) | Strength | Stealth                   | Weight | Cost     |
 |--------------------------|------------------|----------|---------------------------|--------|----------|
 | [[tooltip:Ring Mail]]    | 14               | --       | [[glossary:Disadvantage]] | 40 lb. | 30 GP    |
 | [[tooltip:Chain Mail]]   | 16               | Str 13   | [[glossary:Disadvantage]] | 55 lb. | 75 GP    |
@@ -235,7 +235,7 @@ _(10 Minutes to Don and 5 Minutes to Doff)_
 
 _([[glossary:Utilize]] Action to Don or Doff)_
 
-| Armor              | Armor Class (AC) | Strength | Stealth | Weight | Cost  |
+| Name               | Armor Class (AC) | Strength | Stealth | Weight | Cost  |
 |--------------------|------------------|----------|---------|--------|-------|
 | [[tooltip:Shield]] | +2               | --       | --      | 6 lb.  | 10 GP |
 
@@ -319,7 +319,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Seal or pry open a door or container (DC 20)
 
-**Craft:** [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]], [[tooltip:Barrel]], [[tooltip:Chest]], [[tooltip:Ladder]], [[tooltip:Pole]], [[tooltip:Portable Ram]], [[tooltip:Torch]]
+**Craft:** [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]], [[tooltip:Barrel]], [[tooltip:Chest]], [[tooltip:Ladder]], [[tooltip:Pole]], [[tooltip:Ram, Portable|Portable Ram]], [[tooltip:Torch]]
 
 ### Cartographer's Tools
 
@@ -351,7 +351,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Discern what a glass object held in the past 24 hours (DC 15)
 
-**Craft:** [[tooltip:Glass Bottle]], [[tooltip:Magnifying Glass]], [[tooltip:Spyglass]], [[tooltip:Vial]]
+**Craft:** [[tooltip:Bottle, Glass|Glass Bottle]], [[tooltip:Magnifying Glass]], [[tooltip:Spyglass]], [[tooltip:Vial]]
 
 ### Jeweler's Tools
 
@@ -367,7 +367,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Add a design to a leather item (DC 10)
 
-**Craft:** [[tooltip:Sling]], [[tooltip:Whip]], [[tooltip:Hide Armor]], [[tooltip:Leather Armor]], [[tooltip:Studded Leather Armor]], [[tooltip:Backpack]], [[tooltip:Crossbow Bolt Case]], [[tooltip:Map or Scroll Case]], [[tooltip:Parchment]], [[tooltip:Pouch]], [[tooltip:Quiver]], [[tooltip:Waterskin]]
+**Craft:** [[tooltip:Sling]], [[tooltip:Whip]], [[tooltip:Hide Armor]], [[tooltip:Leather Armor]], [[tooltip:Studded Leather Armor]], [[tooltip:Backpack]], [[tooltip:Case, Crossbow Bolt|Crossbow Bolt Case]], [[tooltip:Case, Map or Scroll|Map or Scroll Case]], [[tooltip:Parchment]], [[tooltip:Pouch]], [[tooltip:Quiver]], [[tooltip:Waterskin]]
 
 ### Mason's Tools
 
@@ -399,7 +399,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Pry open a door or container (DC 20)
 
-**Craft:** Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, [[tooltip:Ball Bearings]], [[tooltip:Bucket]], [[tooltip:Caltrops]], [[tooltip:Chain]], [[tooltip:Crowbar]], [[tooltip:Firearm Bullets]], [[tooltip:Grappling Hook]], [[tooltip:Iron Pot]], [[tooltip:Iron Spikes]], [[tooltip:Sling Bullets]]
+**Craft:** Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, [[tooltip:Ball Bearings]], [[tooltip:Bucket]], [[tooltip:Caltrops]], [[tooltip:Chain]], [[tooltip:Crowbar]], [[tooltip:Bullets, Firearm|Firearm Bullets]], [[tooltip:Grappling Hook]], [[tooltip:Pot, Iron|Iron Pot]], [[tooltip:Spikes, Iron|Iron Spikes]], [[tooltip:Bullets, Sling|Sling Bullets]]
 
 ### Tinker's Tools
 
@@ -407,7 +407,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
 
-**Craft:** [[tooltip:Musket]], [[tooltip:Pistol]], [[tooltip:Bell]], [[tooltip:Bullseye Lantern]], [[tooltip:Flask]], [[tooltip:Hooded Lantern]], [[tooltip:Hunting Trap]], [[tooltip:Lock]], [[tooltip:Manacles]], [[tooltip:Mirror]], [[tooltip:Shovel]], [[tooltip:Signal Whistle]], [[tooltip:Tinderbox]]
+**Craft:** [[tooltip:Musket]], [[tooltip:Pistol]], [[tooltip:Bell]], [[tooltip:Lantern, Bullseye|Bullseye Lantern]], [[tooltip:Flask]], [[tooltip:Lantern, Hooded|Hooded Lantern]], [[tooltip:Hunting Trap]], [[tooltip:Lock]], [[tooltip:Manacles]], [[tooltip:Mirror]], [[tooltip:Shovel]], [[tooltip:Signal Whistle]], [[tooltip:Tinderbox]]
 
 ### Weaver's Tools
 
@@ -415,7 +415,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)
 
-**Craft:** [[tooltip:Padded Armor]], [[tooltip:Basket]], [[tooltip:Bedroll]], [[tooltip:Blanket]], [[tooltip:Fine Clothes]], [[tooltip:Net]], [[tooltip:Robe]], [[tooltip:Rope]], [[tooltip:Sack]], [[tooltip:String]], [[tooltip:Tent]], [[tooltip:Traveler's Clothes]]
+**Craft:** [[tooltip:Padded Armor]], [[tooltip:Basket]], [[tooltip:Bedroll]], [[tooltip:Blanket]], [[tooltip:Clothes, Fine|Fine Clothes]], [[tooltip:Net]], [[tooltip:Robe]], [[tooltip:Rope]], [[tooltip:Sack]], [[tooltip:String]], [[tooltip:Tent]], [[tooltip:Clothes, Traveler's|Traveler's Clothes]]
 
 ### Woodcarver's Tools
 
@@ -423,7 +423,7 @@ Artisan's Tools are each focused on crafting items and pursuing a trade. Each of
 
 **Utilize:** Carve a pattern in wood (DC 10)
 
-**Craft:** [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]], Ranged weapons (except Pistol, Musket, and Sling), [[tooltip:Arcane Focus]], [[tooltip:arrow|Arrows]], [[tooltip:bolt|Bolts]], [[tooltip:Druidic Focus]], [[tooltip:Ink Pen]], [[tooltip:Needles]]
+**Craft:** [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]], Ranged weapons (except Pistol, Musket, and Sling), [[tooltip:Arcane Focus]], [[tooltip:Arrows]], [[tooltip:Bolts]], [[tooltip:Druidic Focus]], [[tooltip:Ink Pen]], [[tooltip:Needles]]
 
 ## Other Tools
 
@@ -449,7 +449,7 @@ These tools support adventure and other pursuits.
 
 **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)
 
-**Variants:** [[tooltip:Dice]] (1 SP), [[tooltip:dragonchess]] (1 GP), [[tooltip:playing cards]] (5 SP), [[tooltip:three-dragon ante]] (1 GP)
+**Variants:** [[tooltip:Dice]] (1 SP), [[tooltip:Dragonchess]] (1 GP), [[tooltip:Playing Cards]] (5 SP), [[tooltip:Three-Dragon Ante]] (1 GP)
 
 ### Herbalism Kit
 
@@ -479,7 +479,7 @@ These tools support adventure and other pursuits.
 
 **Utilize:** Detect a poisoned object (DC 10)
 
-**Craft:** [[tooltip:Basic Poison]]
+**Craft:** [[tooltip:Poison, Basic|Basic Poison]]
 
 ### Thieves' Tools
 
@@ -488,97 +488,94 @@ These tools support adventure and other pursuits.
 **Utilize:** Pick a lock (DC 15), or disarm a trap (DC 15)
 
 # Adventuring Gear
-
-IGNATIUS BUDI
-
 The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name.
 
 ## Adventuring Gear
 
-| Item | Weight | Cost |
-|---|---|---|
-| [Acid](#acid25-g-p) | 1 lb. | 25 GP |
-| [Alchemist's Fire](#alchemists-fire50-g-p) | 1 lb. | 50 GP |
-| [Ammunition](#ammunition-varies) | Varies | Varies |
-| [Antitoxin](#antitoxin50-g-p) |  --  | 50 GP |
-| [Arcane Focus](#arcane-focus-varies) | Varies | Varies |
-| [Backpack](#backpack2-g-p) | 5 lb. | 2 GP |
-| [Ball Bearings](#ball-bearings1-g-p) | 2 lb. | 1 GP |
-| [Barrel](#barrel2-g-p) | 70 lb. | 2 GP |
-| [Basket](#basket4-s-p) | 2 lb. | 4 SP |
-| [Bedroll](#bedroll1-g-p) | 7 lb. | 1 GP |
-| [Bell](#bell1-g-p) |  --  | 1 GP |
-| [Blanket](#blanket5-s-p) | 3 lb. | 5 SP |
-| [Block and Tackle](#block-and-tackle1-g-p) | 5 lb. | 1 GP |
-| [Book](#book25-g-p) | 5 lb. | 25 GP |
-| [Bottle, Glass](#bottle-glass2-g-p) | 2 lb. | 2 GP |
-| [Bucket](#bucket5-c-p) | 2 lb. | 5 CP |
-| [Burglar's Pack](#burglars-pack16-g-p) | 42 lb. | 16 GP |
-| [Caltrops](#caltrops1-g-p) | 2 lb. | 1 GP |
-| [Candle](#c-andle1-c-p) |  --  | 1 CP |
-| [Case, Crossbow Bolt](#case-crossbow-bolt1-g-p) | 1 lb. | 1 GP |
-| [Case, Map or Scroll](#case-mapor-scroll1-g-p) | 1 lb. | 1 GP |
-| [Chain](#chain5-g-p) | 10 lb. | 5 GP |
-| [Chest](#chest5-g-p) | 25 lb. | 5 GP |
-| [Climber's Kit](#climbers-kit25-g-p) | 12 lb. | 25 GP |
-| [Clothes, Fine](#clo-thes-fine15-g-p) | 6 lb. | 15 GP |
-| [Clothes, Traveler's](#clo-thes-travelers2-g-p) | 4 lb. | 2 GP |
-| [Component Pouch](#component-pouch25-g-p) | 2 lb. | 25 GP |
-| [Costume](#costume5-g-p) | 4 lb. | 5 GP |
-| [Crowbar](#crowbar2-g-p) | 5 lb. | 2 GP |
-| [Diplomat's Pack](#diplomats-pack39-g-p) | 39 lb. | 39 GP |
-| [Druidic Focus](#druidic-focus-varies) | Varies | Varies |
-| [Dungeoneer's Pack](#dungeoneers-pack12-g-p) | 55 lb. | 12 GP |
-| [Entertainer's Pack](#entertainers-pack40-g-p) | 58½ lb. | 40 GP |
-| [Explorer's Pack](#explorers-pack10-g-p) | 55 lb. | 10 GP |
-| [Flask](#flask2-c-p) | 1 lb. | 2 CP |
-| [Grappling Hook](#grappling-hook2-g-p) | 4 lb. | 2 GP |
-| [Healer's Kit](#healers-kit5-g-p) | 3 lb. | 5 GP |
-| [Holy Symbol](#holy-symbol-varies) | Varies | Varies |
-| [Holy Water](#holy-water25-g-p) | 1 lb. | 25 GP |
-| [Hunting Trap](#hunting-trap5-g-p) | 25 lb. | 5 GP |
-| [Ink](#ink10-g-p) |  --  | 10 GP |
-| [Ink Pen](#ink-pen2-c-p) |  --  | 2 CP |
-| [Jug](#jug2-c-p) | 4 lb. | 2 CP |
-| [Ladder](#ladder1-s-p) | 25 lb. | 1 SP |
-| [Lamp](#lamp5-s-p) | 1 lb. | 5 SP |
-| [Lantern, Bullseye](#lantern-bullseye10-g-p) | 2 lb. | 10 GP |
-| [Lantern, Hooded](#lantern-hooded5-g-p) | 2 lb. | 5 GP |
-| [Lock](#lock10-g-p) | 1 lb. | 10 GP |
-| [Magnifying Glass](#magnifying-glass100-g-p) |  --  | 100 GP |
-| [Manacles](#manacles2-g-p) | 6 lb. | 2 GP |
-| [Map](#map1-g-p) |  --  | 1 GP |
-| [Mirror](#mirror5-g-p) | 1/2 lb. | 5 GP |
-| [Net](#net1-g-p) | 3 lb. | 1 GP |
-| [Oil](#oil1-s-p) | 1 lb. | 1 SP |
-| [Paper](#paper2-s-p) |  --  | 2 SP |
-| [Parchment](#parchment1-s-p) |  --  | 1 SP |
-| [Perfume](#perfume5-g-p) |  --  | 5 GP |
-| [Poison, Basic](#poison-basic100-g-p) |  --  | 100 GP |
-| [Pole](#pole5-c-p) | 7 lb. | 5 CP |
-| [Pot, Iron](#pot-iron2-g-p) | 10 lb. | 2 GP |
-| [Potion of Healing](#potion-of-healing50-g-p) | 1/2 lb. | 50 GP |
-| [Pouch](#pouch5-s-p) | 1 lb. | 5 SP |
-| [Priest's Pack](#priests-pack33-g-p) | 29 lb. | 33 GP |
-| [Quiver](#quiver1-g-p) | 1 lb. | 1 GP |
-| [Ram, Portable](#ram-portable4-g-p) | 35 lb. | 4 GP |
-| [Rations](#rations5-s-p) | 2 lb. | 5 SP |
-| [Robe](#robe1-g-p) | 4 lb. | 1 GP |
-| [Rope](#rope1-g-p) | 5 lb. | 1 GP |
-| [Sack](#sack1-c-p) | 1/2 lb. | 1 CP |
-| [Scholar's Pack](#scholars-pack40-g-p) | 22 lb. | 40 GP |
-| [Shovel](#shovel2-g-p) | 5 lb. | 2 GP |
-| [Signal Whistle](#signal-whistle5-c-p) |  --  | 5 CP |
-| [Spell Scroll (Cantrip)](#spell-scroll-cantrip30-g-p-level150-g-p) |  --  | 30 GP |
-| [Spell Scroll (Level 1)](#spell-scroll-cantrip30-g-p-level150-g-p) |  --  | 50 GP |
-| [Spikes, Iron](#spikes-iron1-g-p) | 5 lb. | 1 GP |
-| [Spyglass](#spyglass1000-g-p) | 1 lb. | 1,000 GP |
-| [String](#string1-s-p) |  --  | 1 SP |
-| [Tent](#tent2-g-p) | 20 lb. | 2 GP |
-| [Tinderbox](#tinderbox5-s-p) | 1 lb. | 5 SP |
-| [Torch](#torch1-c-p) | 1 lb. | 1 CP |
-| [Vial](#vial1-g-p) |  --  | 1 GP |
-| [Waterskin](#waterskin2-s-p) | 5 lb. (full) | 2 SP |
+| Item                                                  | Weight       | Cost     |
+|-------------------------------------------------------|--------------|----------|
+| [Acid](#acid)                                         | 1 lb.        | 25 GP    |
+| [Alchemist's Fire](#alchemists-fire)                  | 1 lb.        | 50 GP    |
+| [Ammunition](#ammunition)                             | Varies       | Varies   |
+| [Antitoxin](#antitoxin)                               | --           | 50 GP    |
+| [Arcane Focus](#arcane-focus)                         | Varies       | Varies   |
+| [Backpack](#backpack)                                 | 5 lb.        | 2 GP     |
+| [Ball Bearings](#ball-bearings)                       | 2 lb.        | 1 GP     |
+| [Barrel](#barrel)                                     | 70 lb.       | 2 GP     |
+| [Basket](#basket)                                     | 2 lb.        | 4 SP     |
+| [Bedroll](#bedroll)                                   | 7 lb.        | 1 GP     |
+| [Bell](#bell)                                         | --           | 1 GP     |
+| [Blanket](#blanket)                                   | 3 lb.        | 5 SP     |
+| [Block and Tackle](#block-and-tackle)                 | 5 lb.        | 1 GP     |
+| [Book](#book)                                         | 5 lb.        | 25 GP    |
+| [Bottle, Glass](#bottle-glass)                        | 2 lb.        | 2 GP     |
+| [Bucket](#bucket)                                     | 2 lb.        | 5 CP     |
+| [Burglar's Pack](#burglars-pack)                      | 42 lb.       | 16 GP    |
+| [Caltrops](#caltrops)                                 | 2 lb.        | 1 GP     |
+| [Candle](#c-andle)                                    | --           | 1 CP     |
+| [Case, Crossbow Bolt](#case-crossbow-bolt)            | 1 lb.        | 1 GP     |
+| [Case, Map or Scroll](#case-map-or-scroll)            | 1 lb.        | 1 GP     |
+| [Chain](#chain)                                       | 10 lb.       | 5 GP     |
+| [Chest](#chest)                                       | 25 lb.       | 5 GP     |
+| [Climber's Kit](#climbers-kit)                        | 12 lb.       | 25 GP    |
+| [Clothes, Fine](#clothes-fine)                        | 6 lb.        | 15 GP    |
+| [Clothes, Traveler's](#clothes-travelers)             | 4 lb.        | 2 GP     |
+| [Component Pouch](#component-pouch)                   | 2 lb.        | 25 GP    |
+| [Costume](#costume)                                   | 4 lb.        | 5 GP     |
+| [Crowbar](#crowbar)                                   | 5 lb.        | 2 GP     |
+| [Diplomat's Pack](#diplomats-pack)                    | 39 lb.       | 39 GP    |
+| [Druidic Focus](#druidic-focus)                       | Varies       | Varies   |
+| [Dungeoneer's Pack](#dungeoneers-pack)                | 55 lb.       | 12 GP    |
+| [Entertainer's Pack](#entertainers-pack)              | 58½ lb.      | 40 GP    |
+| [Explorer's Pack](#explorers-pack)                    | 55 lb.       | 10 GP    |
+| [Flask](#flask)                                       | 1 lb.        | 2 CP     |
+| [Grappling Hook](#grappling-hook)                     | 4 lb.        | 2 GP     |
+| [Healer's Kit](#healers-kit)                          | 3 lb.        | 5 GP     |
+| [Holy Symbol](#holy-symbol)                           | Varies       | Varies   |
+| [Holy Water](#holy-water)                             | 1 lb.        | 25 GP    |
+| [Hunting Trap](#hunting-trap)                         | 25 lb.       | 5 GP     |
+| [Ink](#ink)                                           | --           | 10 GP    |
+| [Ink Pen](#ink-pen)                                   | --           | 2 CP     |
+| [Jug](#jug)                                           | 4 lb.        | 2 CP     |
+| [Ladder](#ladder)                                     | 25 lb.       | 1 SP     |
+| [Lamp](#lamp)                                         | 1 lb.        | 5 SP     |
+| [Lantern, Bullseye](#lantern-bullseye)                | 2 lb.        | 10 GP    |
+| [Lantern, Hooded](#lantern-hooded)                    | 2 lb.        | 5 GP     |
+| [Lock](#lock)                                         | 1 lb.        | 10 GP    |
+| [Magnifying Glass](#magnifying-glass)                 | --           | 100 GP   |
+| [Manacles](#manacles)                                 | 6 lb.        | 2 GP     |
+| [Map](#map)                                           | --           | 1 GP     |
+| [Mirror](#mirror)                                     | 1/2 lb.      | 5 GP     |
+| [Net](#net)                                           | 3 lb.        | 1 GP     |
+| [Oil](#oil)                                           | 1 lb.        | 1 SP     |
+| [Paper](#paper)                                       | --           | 2 SP     |
+| [Parchment](#parchment)                               | --           | 1 SP     |
+| [Perfume](#perfume)                                   | --           | 5 GP     |
+| [Poison, Basic](#poison-basic)                        | --           | 100 GP   |
+| [Pole](#pole)                                         | 7 lb.        | 5 CP     |
+| [Pot, Iron](#pot-iron)                                | 10 lb.       | 2 GP     |
+| [Potion of Healing](#potion-of-healing)               | 1/2 lb.      | 50 GP    |
+| [Pouch](#pouch)                                       | 1 lb.        | 5 SP     |
+| [Priest's Pack](#priests-pack)                        | 29 lb.       | 33 GP    |
+| [Quiver](#quiver)                                     | 1 lb.        | 1 GP     |
+| [Ram, Portable](#ram-portable)                        | 35 lb.       | 4 GP     |
+| [Rations](#rations)                                   | 2 lb.        | 5 SP     |
+| [Robe](#robe)                                         | 4 lb.        | 1 GP     |
+| [Rope](#rope)                                         | 5 lb.        | 1 GP     |
+| [Sack](#sack)                                         | 1/2 lb.      | 1 CP     |
+| [Scholar's Pack](#scholars-pack)                      | 22 lb.       | 40 GP    |
+| [Shovel](#shovel)                                     | 5 lb.        | 2 GP     |
+| [Signal Whistle](#signal-whistle)                     | --           | 5 CP     |
+| [Spell Scroll (Cantrip)](#spell-scroll-cantrip-level) | --           | 30 GP    |
+| [Spell Scroll (Level 1)](#spell-scroll-level-1)       | --           | 50 GP    |
+| [Spikes, Iron](#spikes-iron)                          | 5 lb.        | 1 GP     |
+| [Spyglass](#spyglass)                                 | 1 lb.        | 1,000 GP |
+| [String](#string)                                     | --           | 1 SP     |
+| [Tent](#tent)                                         | 20 lb.       | 2 GP     |
+| [Tinderbox](#tinderbox)                               | 1 lb.        | 5 SP     |
+| [Torch](#torch)                                       | 1 lb.        | 1 CP     |
+| [Vial](#vial)                                         | --           | 1 GP     |
+| [Waterskin](#waterskin)                               | 5 lb. (full) | 2 SP     |
 
 ### Acid
 
@@ -590,7 +587,7 @@ When you take the [[glossary:Attack]] action, you can replace one of your attack
 
 **Cost:** 50 GP
 
-When you take the [[glossary:Attack]] action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start [[glossary:burning]] (see the [rules glossary](/sources/dnd/phb-2024/rules-glossary#burning-hazard)).
+When you take the [[glossary:Attack]] action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start [[glossary:burning]].
 
 ### Ammunition
 
@@ -600,13 +597,13 @@ Ammunition is required by a weapon that has the [[tooltip:Ammunition]] property.
 
 #### Ammunition
 
-| Type                         | Amount   | Storage           | Weight             | Cost   |
-|------------------------------|----------|-------------------|--------------------|--------|
-| [[tooltip:arrow              | Arrows]] | 20                | [[tooltip:Quiver]] | 1 lb.  | 1 GP |
-| [[tooltip:bolt               | Bolts]]  | 20                | [[tooltip:Case]]   | 1½ lb. | 1 GP |
-| [[tooltip:Bullets, Firearm]] | 10       | [[tooltip:Pouch]] | 2 lb.              | 3 GP   |
-| [[tooltip:Bullets, Sling]]   | 20       | [[tooltip:Pouch]] | 1½ lb.             | 4 CP   |
-| [[tooltip:Needles]]          | 50       | [[tooltip:Pouch]] | 1 lb.              | 1 GP   |
+| Type                         | Amount | Storage                         | Weight | Cost |
+|------------------------------|--------|---------------------------------|--------|------|
+| [[tooltip:Arrows]]           | 20     | [[tooltip:Quiver]]              | 1 lb.  | 1 GP |
+| [[tooltip:Bolts]]            | 20     | [[tooltip:Case, Crossbow Bolt]] | 1½ lb. | 1 GP |
+| [[tooltip:Bullets, Firearm]] | 10     | [[tooltip:Pouch]]               | 2 lb.  | 3 GP |
+| [[tooltip:Bullets, Sling]]   | 20     | [[tooltip:Pouch]]               | 1½ lb. | 4 CP |
+| [[tooltip:Needles]]          | 50     | [[tooltip:Pouch]]               | 1 lb.  | 1 GP |
 
 ### Antitoxin
 
@@ -622,13 +619,13 @@ An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejewe
 
 #### Arcane Focuses
 
-| Focus                                               | Weight | Cost  |
-|-----------------------------------------------------|--------|-------|
-| [[tooltip:Crystal]]                                 | 1 lb.  | 10 GP |
-| [[tooltip:Orb]]                                     | 3 lb.  | 20 GP |
-| [[tooltip:Rod]]                                     | 2 lb.  | 10 GP |
-| [[tooltip:Staff]] (also a [[tooltip:Quarterstaff]]) | 4 lb.  | 5 GP  |
-| [[tooltip:Wand]]                                    | 1 lb.  | 10 GP |
+| Focus                                   | Weight | Cost  |
+|-----------------------------------------|--------|-------|
+| Crystal                                 | 1 lb.  | 10 GP |
+| Orb                                     | 3 lb.  | 20 GP |
+| Rod                                     | 2 lb.  | 10 GP |
+| Staff (also a [[tooltip:Quarterstaff]]) | 4 lb.  | 5 GP  |
+| Wand                                    | 1 lb.  | 10 GP |
 
 ### Backpack
 
@@ -700,7 +697,7 @@ A Bucket holds up to half a cubic foot of contents.
 
 **Cost:** 16 GP
 
-A Burglar's Pack contains the following items: [[tooltip:Backpack]], [[tooltip:Ball Bearings]], [[tooltip:Bell]], 10 [[tooltip:Candles]], [[tooltip:Crowbar]], [[tooltip:Hooded Lantern]], 7 flasks of [[tooltip:Oil]], 5 days of [[tooltip:Rations]], [[tooltip:Rope]], [[tooltip:Tinderbox]], and [[tooltip:Waterskin]].
+A Burglar's Pack contains the following items: [[tooltip:Backpack]], [[tooltip:Ball Bearings]], [[tooltip:Bell]], 10 [[tooltip:Candle|Candles]], [[tooltip:Crowbar]], [[tooltip:Lantern, Hooded|Hooded Lantern]], 7 flasks of [[tooltip:Oil]], 5 days of [[tooltip:Rations]], [[tooltip:Rope]], [[tooltip:Tinderbox]], and [[tooltip:Waterskin]].
 
 ### Caltrops
 
@@ -718,7 +715,7 @@ For 1 hour, a lit Candle sheds [[glossary:Bright Light]] in a 5-foot radius and 
 
 **Cost:** 1 GP
 
-A Crossbow Bolt Case holds up to 20 [[tooltip:bolt|Bolts]].
+A Crossbow Bolt Case holds up to 20 [[tooltip:Bolts]].
 
 ### Case, Map or Scroll
 
@@ -778,7 +775,7 @@ Using a Crowbar gives you [[glossary:Advantage]] on Strength checks where the Cr
 
 **Cost:** 39 GP
 
-A Diplomat's Pack contains the following items: [[tooltip:Chest]], [[tooltip:Fine Clothes]], [[tooltip:Ink]], 5 [[tooltip:Ink Pens]], [[tooltip:Lamp]], 2 [[tooltip:Map or Scroll Cases]], 4 flasks of [[tooltip:Oil]], 5 sheets of [[tooltip:Paper]], 5 sheets of [[tooltip:Parchment]], [[tooltip:Perfume]], and [[tooltip:Tinderbox]].
+A Diplomat's Pack contains the following items: [[tooltip:Chest]], [[tooltip:Clothes, Fine|Fine Clothes]], [[tooltip:Ink]], 5 [[tooltip:Ink Pen|Ink Pens]], [[tooltip:Lamp]], 2 [[tooltip:Case, Map or Scroll|Map or Scroll Cases]], 4 flasks of [[tooltip:Oil]], 5 sheets of [[tooltip:Paper]], 5 sheets of [[tooltip:Parchment]], [[tooltip:Perfume]], and [[tooltip:Tinderbox]].
 
 ### Druidic Focus
 
@@ -788,11 +785,11 @@ A Druidic Focus takes one of the forms in the Druidic Focuses table and is carve
 
 #### Druidic Focuses
 
-| Focus                                                      | Weight | Cost  |
-|------------------------------------------------------------|--------|-------|
-| [[tooltip:Sprig of mistletoe]]                             | --     | 1 GP  |
-| [[tooltip:Wooden staff]] (also a [[tooltip:Quarterstaff]]) | 4 lb.  | 5 GP  |
-| [[tooltip:Yew wand]]                                       | 1 lb.  | 10 GP |
+| Focus                                          | Weight | Cost  |
+|------------------------------------------------|--------|-------|
+| Sprig of mistletoe                             | --     | 1 GP  |
+| Wooden staff (also a [[tooltip:Quarterstaff]]) | 4 lb.  | 5 GP  |
+| Yew wand                                       | 1 lb.  | 10 GP |
 
 ### Dungeoneer's Pack
 
@@ -804,7 +801,7 @@ A Dungeoneer's Pack contains the following items: [[tooltip:Backpack]], [[toolti
 
 **Cost:** 40 GP
 
-An Entertainer's Pack contains the following items: [[tooltip:Backpack]], [[tooltip:Bedroll]], [[tooltip:Bell]], [[tooltip:Bullseye Lantern]], 3 [[tooltip:costume|Costumes]], [[tooltip:Mirror]], 8 flasks of [[tooltip:Oil]], 9 days of [[tooltip:Rations]], [[tooltip:Tinderbox]], and [[tooltip:Waterskin]].
+An Entertainer's Pack contains the following items: [[tooltip:Backpack]], [[tooltip:Bedroll]], [[tooltip:Bell]], [[tooltip:Lantern, Bullseye|Bullseye Lantern]], 3 [[tooltip:costume|Costumes]], [[tooltip:Mirror]], 8 flasks of [[tooltip:Oil]], 9 days of [[tooltip:Rations]], [[tooltip:Tinderbox]], and [[tooltip:Waterskin]].
 
 ### Explorer's Pack
 
@@ -840,11 +837,11 @@ The table indicates whether a Holy Symbol needs to be held, worn, or borne on fa
 
 #### Holy Symbols
 
-| Symbol                                           | Weight | Cost |
-|--------------------------------------------------|--------|------|
-| [[tooltip:Amulet]] (worn or held)                | 1 lb.  | 5 GP |
-| [[tooltip:Emblem]] (borne on fabric or a Shield) | --     | 5 GP |
-| [[tooltip:Reliquary]] (held)                     | 2 lb.  | 5 GP |
+| Symbol                               | Weight | Cost |
+|--------------------------------------|--------|------|
+| Amulet (worn or held)                | 1 lb.  | 5 GP |
+| Emblem (borne on fabric or a Shield) | --     | 5 GP |
+| Reliquary (held)                     | 2 lb.  | 5 GP |
 
 ### Holy Water
 
@@ -980,7 +977,7 @@ As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up t
 
 **Cost:** 5 CP
 
-A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength ([[tooltip:Athletics]]) check as part of a [[tooltip:High]] or [[glossary:Long Jump]], you can use the Pole to vault, giving yourself [[glossary:Advantage]] on the check.
+A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength ([[tooltip:Athletics]]) check as part of a [[glossary:High Jump|High]] or [[glossary:Long Jump]], you can use the Pole to vault, giving yourself [[glossary:Advantage]] on the check.
 
 ### Pot, Iron
 
@@ -1010,7 +1007,7 @@ A Priest's Pack contains the following items: [[tooltip:Backpack]], [[tooltip:Bl
 
 **Cost:** 1 GP
 
-A Quiver holds up to 20 [[tooltip:arrow|Arrows]].
+A Quiver holds up to 20 [[tooltip:Arrows]].
 
 ### Ram, Portable
 
@@ -1138,32 +1135,32 @@ A saddle comes with a bit, a bridle, reins, and any other equipment needed to us
 
 ### Mounts and Other Animals
 
-| Item | Carrying Capacity | Cost |
-|---|---|---|
-| [[tooltip:Camel]] | 450 lb. | 50 GP |
-| [[tooltip:Elephant]] | 1,320 lb. | 200 GP |
-| [[tooltip:Horse, Draft]] | 540 lb. | 50 GP |
-| [[tooltip:Horse, Riding]] | 480 lb. | 75 GP |
-| [[tooltip:Mastiff]] | 195 lb. | 25 GP |
-| [[tooltip:Mule]] | 420 lb. | 8 GP |
-| [[tooltip:Pony]] | 225 lb. | 30 GP |
-| [[tooltip:Warhorse]] | 540 lb. | 400 GP |
+| Item          | Carrying Capacity | Cost   |
+|---------------|-------------------|--------|
+| Camel         | 450 lb.           | 50 GP  |
+| Elephant      | 1,320 lb.         | 200 GP |
+| Horse, Draft  | 540 lb.           | 50 GP  |
+| Horse, Riding | 480 lb.           | 75 GP  |
+| Mastiff       | 195 lb.           | 25 GP  |
+| Mule          | 420 lb.           | 8 GP   |
+| Pony          | 225 lb.           | 30 GP  |
+| Warhorse      | 540 lb.           | 400 GP |
 
 ### Tack, Harness, and Drawn Vehicles
 
-| Item | Weight | Cost |
-|---|---|---|
-| [[tooltip:Carriage]] | 600 lb. | 100 GP |
-| [[tooltip:Cart]] | 200 lb. | 15 GP |
-| [[tooltip:Chariot]] | 100 lb. | 250 GP |
-| [[tooltip:Feed per day]] | 10 lb. | 5 CP |
-| _Saddle_ | | |
-| [[tooltip:Exotic]] | 40 lb. | 60 GP |
-| [[tooltip:Military]] | 30 lb. | 20 GP |
-| [[tooltip:Riding]] | 25 lb. | 10 GP |
-| [[tooltip:Sled]] | 300 lb. | 20 GP |
-| Stabling per day |  --  | 5 SP |
-| [[tooltip:Wagon]] | 400 lb. | 35 GP |
+| Item             | Weight  | Cost   |
+|------------------|---------|--------|
+| Carriage         | 600 lb. | 100 GP |
+| Cart             | 200 lb. | 15 GP  |
+| Chariot          | 100 lb. | 250 GP |
+| Feed per day     | 10 lb.  | 5 CP   |
+| _Saddle_         |         |        |
+| Exotic           | 40 lb.  | 60 GP  |
+| Military         | 30 lb.  | 20 GP  |
+| Riding           | 25 lb.  | 10 GP  |
+| Sled             | 300 lb. | 20 GP  |
+| Stabling per day | --      | 5 SP   |
+| Wagon            | 400 lb. | 35 GP  |
 
 ## Large Vehicles
 
@@ -1191,19 +1188,17 @@ Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 H
 
 ### Airborne and Waterborne Vehicles
 
-| Ship | Speed | Crew | Passengers | Cargo (Tons) | AC | HP | Damage Threshold | Cost |
-|---|---|---|---|---|---|---|---|---|
-| [[tooltip:Airship]] | 8 mph | 10 | 20 | 1 | 13 | 300 |  --  | 40,000 GP |
-| [[tooltip:Galley]] | 4 mph | 80 |  --  | 150 | 15 | 500 | 20 | 30,000 GP |
-| [[tooltip:Keelboat]] | 1 mph | 1 | 6 | 1/2 | 15 | 100 | 10 | 3,000 GP |
-| [[tooltip:Longship]] | 3 mph | 40 | 150 | 10 | 15 | 300 | 15 | 10,000 GP |
-| [[tooltip:Rowboat]] | 1½ mph | 1 | 3 |  --  | 11 | 50 |  --  | 50 GP |
-| [[tooltip:Sailing Ship]] | 2 mph | 20 | 20 | 100 | 15 | 300 | 15 | 10,000 GP |
-| [[tooltip:Warship]] | 2½ mph | 60 | 60 | 200 | 15 | 500 | 20 | 25,000 GP |
+| Ship         | Speed  | Crew | Passengers | Cargo (Tons) | AC | HP  | Damage Threshold | Cost      |
+|--------------|--------|------|------------|--------------|----|-----|------------------|-----------|
+| Airship      | 8 mph  | 10   | 20         | 1            | 13 | 300 | --               | 40,000 GP |
+| Galley       | 4 mph  | 80   | --         | 150          | 15 | 500 | 20               | 30,000 GP |
+| Keelboat     | 1 mph  | 1    | 6          | 1/2          | 15 | 100 | 10               | 3,000 GP  |
+| Longship     | 3 mph  | 40   | 150        | 10           | 15 | 300 | 15               | 10,000 GP |
+| Rowboat      | 1½ mph | 1    | 3          | --           | 11 | 50  | --               | 50 GP     |
+| Sailing Ship | 2 mph  | 20   | 20         | 100          | 15 | 300 | 15               | 10,000 GP |
+| Warship      | 2½ mph | 60   | 60         | 200          | 15 | 500 | 20               | 25,000 GP |
 
 # Services
-
-KATERINA LADON
 
 This section outlines services and other expenses that adventurers might spend money on.
 
@@ -1369,11 +1364,11 @@ You can't wear more than one of certain magic items. You can't normally wear mor
 
 ### Paired Items
 
-Items that come in pairs -- such as boots, bracers, gauntlets, and gloves -- impart their benefits only if both items of the pair are worn. For example, a character wearing a [[tooltip:Boot of Striding and Springing]] on one foot and a [[tooltip:Boot of Elvenkind]] on the other foot gains no benefit from either.
+Items that come in pairs -- such as boots, bracers, gauntlets, and gloves -- impart their benefits only if both items of the pair are worn. For example, a character wearing a [[tooltip:Boots of Striding and Springing|Boot of Striding and Springing]] on one foot and a [[tooltip:Boots of Elvenkind|Boot of Elvenkind]] on the other foot gains no benefit from either.
 
 # Crafting Equipment
 
-Using the rules below, characters can make nonmagical items, [[tooltip:Potions of Healing]], and [[tooltip:spell scroll|Spell Scrolls]].
+Using the rules below, characters can make nonmagical items, [[tooltip:Potion of Healing|Potions of Healing]], and [[tooltip:Spell Scroll|Spell Scrolls]].
 
 ## Crafting Nonmagical Items
 

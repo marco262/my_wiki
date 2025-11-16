@@ -11,12 +11,12 @@ from bottle import template, TemplateError
 
 from markdown2 import Markdown
 
-from data.dnd.enums import tooltips
+from data.dnd.enums import custom_tooltips
 from src.common.utils import title_to_page_name, list_media_files
 from src.dnd5e.magic_item_tracker import build_magic_item_tracker
 from src.dnd5e.npc_generator import create_npc
 from src.dnd5e.utils import to_mod
-from src.dnd.utils import TooltipEntry, TooltipDict, split_rules_glossary
+from src.dnd.utils import TooltipEntry, TooltipDict, split_rules_glossary, split_equipment
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = [
@@ -28,6 +28,7 @@ class MarkdownParser:
     namespace = ""
     accordion_text = False
     rules_glossary: Dict[str, TooltipEntry] = None
+    tooltips: Dict[str, TooltipEntry] = None
 
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
@@ -240,7 +241,10 @@ class MarkdownParser:
         return text
 
     def add_reference_tooltips(self, text: str) -> str:
-        return self._add_tooltip(tooltips, r"\[\[tooltip:(.*?)(\|(.*?))?\]\]", text)
+        if not self.tooltips:
+            self.tooltips = split_equipment()
+            self.tooltips.update(custom_tooltips)
+        return self._add_tooltip(self.tooltips, r"\[\[tooltip:(.*?)(\|(.*?))?\]\]", text)
 
     def add_rules_glossary_tooltips(self, text: str) -> str:
         if not self.rules_glossary:
@@ -255,13 +259,15 @@ class MarkdownParser:
                 g = tooltip_dict[m.group(1).lower()]
             except KeyError:
                 raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
-            # Avoid including pipes (|) so we don't screw up tables
-            content = g["content"].split("|")[0].strip()
-            tooltip = tooltip_fmt.format(
-                name=m.group(3) or m.group(1),
-                href=g["href"],
-                content=content,
-            )
+                # tooltip = tooltip_fmt.format(name=m.group(3) or m.group(1), href="", content="")
+            else:
+                # Avoid including pipes (|) so we don't screw up tables
+                content = g["content"].split("|")[0].strip()
+                tooltip = tooltip_fmt.format(
+                    name=m.group(3) or m.group(1),
+                    href=g["href"],
+                    content=content,
+                )
             text = text.replace(m.group(0), tooltip)
         return text
 

@@ -1,3 +1,5 @@
+from distutils.sysconfig import customize_compiler
+
 classes = [
     "Artificer",
     "Barbarian",
@@ -208,7 +210,7 @@ magic_item_sources = [
     "Homebrew"
 ]
 
-tooltips = {
+custom_tooltips = {
     "acrobatics": {
         "href": "/dnd/general/Playing the Game#skill-list",
         "content": "<p>Dexterity (Acrobatics) allows you to stay on your feet in a tricky situation, or perform an acrobatic stunt.</p>",
@@ -293,424 +295,520 @@ tooltips = {
         "href": "/dnd/general/Rules Glossary#cover",
         "content": "<p>Total Cover means you can't be targeted directly, by attacks or spells that require a target.</p>",
     },
-    # Simple Weapons
-    "club": {
-        "href": "/dnd/general/Equipment#club",
-        "content": "",
-    },
-    "dagger": {
-        "href": "/dnd/general/Equipment#dagger",
-        "content": "",
-    },
-    "greatclub": {
-        "href": "/dnd/general/Equipment#greatclub",
-        "content": "",
-    },
-    "handaxe": {
-        "href": "/dnd/general/Equipment#handaxe",
-        "content": "",
-    },
-    "light hammer": {
-        "href": "/dnd/general/Equipment#light-hammer",
-        "content": "",
-    },
-    "mace": {
-        "href": "/dnd/general/Equipment#mace",
-        "content": "",
-    },
-    "quarterstaff": {
-        "href": "/dnd/general/Equipment#quarterstaff",
-        "content": "",
-    },
-    "sap": {
-        "href": "/dnd/general/Equipment#sap",
-        "content": "",
-    },
-    "sickle": {
-        "href": "/dnd/general/Equipment#sickle",
-        "content": "",
-    },
-    "spear": {
-        "href": "/dnd/general/Equipment#spear",
-        "content": "",
-    },
-    "dart": {
-        "href": "/dnd/general/Equipment#dart",
-        "content": "",
-    },
-    "light crossbow": {
-        "href": "/dnd/general/Equipment#light-crossbow",
-        "content": "",
-    },
-    "sling": {
-        "href": "/dnd/general/Equipment#sling",
-        "content": "",
-    },
-    # Martial Weapons
-    "battleaxe": {
-        "href": "/dnd/general/Equipment#battleaxe",
-        "content": "",
-    },
-    "flail": {
-        "href": "/dnd/general/Equipment#flail",
-        "content": "",
-    },
-    "glaive": {
-        "href": "/dnd/general/Equipment#glaive",
-        "content": "",
-    },
-    "greataxe": {
-        "href": "/dnd/general/Equipment#greataxe",
-        "content": "",
-    },
-    "greatsword": {
-        "href": "/dnd/general/Equipment#greatsword",
-        "content": "",
-    },
-    "javelin": {
-        "href": "/dnd/general/Equipment#javelin",
-        "content": "",
-    },
-    "longsword": {
-        "href": "/dnd/general/Equipment#longsword",
-        "content": "",
-    },
-    "scimitar": {
-        "href": "/dnd/general/Equipment#scimitar",
-        "content": "",
-    },
-    "shortsword": {
-        "href": "/dnd/general/Equipment#shortsword",
-        "content": "",
-    },
-    "longbow": {
-        "href": "/dnd/general/Equipment#longbow",
-        "content": "",
-    },
-    "shortbow": {
-        "href": "/dnd/general/Equipment#shortbow",
-        "content": "",
-    },
-    # Armor
-    "leather armor": {
-        "href": "/dnd/general/Equipment#leather-armor",
-        "content": "",
-    },
-    "studded leather armor": {
-        "href": "/dnd/general/Equipment#studded-leather-armor",
-        "content": "",
-    },
-    "chain shirt": {
-        "href": "/dnd/general/Equipment#chain-shirt",
-        "content": "",
-    },
-    "chain mail": {
-        "href": "/dnd/general/Equipment#chain-mail",
-        "content": "",
-    },
-    "shield": {
-        "href": "/dnd/general/Equipment#shield",
-        "content": "",
-    },
-    # Packs
-    "burglar's pack": {
-        "href": "/dnd/general/Equipment#burglar-s-pack",
-        "content": "",
-    },
-    "dungeoneer's pack": {
-        "href": "/dnd/general/Equipment#dungeoneer-s-pack",
-        "content": "",
-    },
-    "entertainer's pack": {
-        "href": "/dnd/general/Equipment#entertainer-s-pack",
-        "content": "",
-    },
-    "explorer's pack": {
-        "href": "/dnd/general/Equipment#explorer-s-pack",
-        "content": "",
-    },
-    "priest's pack": {
-        "href": "/dnd/general/Equipment#priest-s-pack",
-        "content": "",
-    },
-    "scholar's pack": {
-        "href": "/dnd/general/Equipment#scholar-s-pack",
-        "content": "",
-    },
-    # Tools
-    "calligrapher's supplies": {
-        "href": "/dnd/general/Equipment#calligrapher-s-supplies",
-        "content": "",
-    },
-    "carpenter's tools": {
-        "href": "/dnd/general/Equipment#carpenter-s-tools",
-        "content": "",
-    },
-    "cartographer's tools": {
-        "href": "/dnd/general/Equipment#cartographer-s-tools",
-        "content": "",
-    },
-    "disguise kit": {
-        "href": "/dnd/general/Equipment#disguise-kit",
-        "content": "",
-    },
-    "forgery kit": {
-        "href": "/dnd/general/Equipment#forgery-kit",
-        "content": "",
-    },
-    "healer's kit": {
-        "href": "/dnd/general/Equipment#healer-s-kit",
-        "content": "",
-    },
-    "herbalism kit": {
-        "href": "/dnd/general/Equipment#herbalism-kit",
-        "content": "",
-    },
-    "navigator's tools": {
-        "href": "/dnd/general/Equipment#navigator-s-tools",
-        "content": "",
-    },
-    "poisoner's kit": {
-        "href": "/dnd/general/Equipment#poisoner-s-kit",
-        "content": "",
-    },
-    "thieves' tools": {
-        "href": "/dnd/general/Equipment#thieves-tools",
-        "content": "",
-    },
-    # Items
-    "arcane focus": {
-        "href": "/dnd/general/Equipment#arcane-focus",
-        "content": "",
-    },
-    "arrow": {
-        "href": "/dnd/general/Equipment#arrow",
-        "content": "",
-    },
-    "basket": {
-        "href": "/dnd/general/Equipment#basket",
-        "content": "",
-    },
-    "ball bearings": {
-        "href": "/dnd/general/Equipment#ball-bearings",
-        "content": "",
-    },
-    "bedroll": {
-        "href": "/dnd/general/Equipment#bedroll",
-        "content": "",
-    },
-    "bell": {
-        "href": "/dnd/general/Equipment#bucket",
-        "content": "",
-    },
-    "block and tackle": {
-        "href": "/dnd/general/Equipment#block-and-tackle",
-        "content": "",
-    },
-    "bolt": {
-        "href": "/dnd/general/Equipment#bolt",
-        "content": "",
-    },
-    "book": {
-        "href": "/dnd/general/Equipment#book",
-        "content": "",
-    },
-    "bucket": {
-        "href": "/dnd/general/Equipment#bucket",
-        "content": "",
-    },
-    "caltrops": {
-        "href": "/dnd/general/Equipment#caltrops",
-        "content": "",
-    },
-    "costume": {
-        "href": "/dnd/general/Equipment#costume",
-        "content": "",
-    },
-    "crossbow bolt case": {
-        "href": "/dnd/general/Equipment#crossbow-bolt-case",
-        "content": "",
-    },
-    "crowbar": {
-        "href": "/dnd/general/Equipment#crowbar",
-        "content": "",
-    },
-    "druidic focus": {
-        "href": "/dnd/general/Equipment#druidic-focus",
-        "content": "",
-    },
-    "fine clothes": {
-        "href": "/dnd/general/Equipment#fine-clothes",
-        "content": "",
-    },
-    "grappling hook": {
-        "href": "/dnd/general/Equipment#grappling-hook",
-        "content": "",
-    },
-    "holy symbol": {
-        "href": "/dnd/general/Equipment#holy-symbol",
-        "content": "",
-    },
-    "hooded lantern": {
-        "href": "/dnd/general/Equipment#hooded-lantern",
-        "content": "",
-    },
-    "iron pot": {
-        "href": "/dnd/general/Equipment#iron-pot",
-        "content": "",
-    },
-    "jug": {
-        "href": "/dnd/general/Equipment#jug",
-        "content": "",
-    },
-    "ladder": {
-        "href": "/dnd/general/Equipment#ladder",
-        "content": "",
-    },
-    "lamp": {
-        "href": "/dnd/general/Equipment#lamp",
-        "content": "",
-    },
-    "manacles": {
-        "href": "/dnd/general/Equipment#manacles",
-        "content": "",
-    },
-    "map": {
-        "href": "/dnd/general/Equipment#map",
-        "content": "",
-    },
-    "mirror": {
-        "href": "/dnd/general/Equipment#mirror",
-        "content": "",
-    },
-    "net": {
-        "href": "/dnd/general/Equipment#net",
-        "content": "",
-    },
-    "oil": {
-        "href": "/dnd/general/Equipment#oil",
-        "content": "",
-    },
-    "parchment": {
-        "href": "/dnd/general/Equipment#parchment",
-        "content": "",
-    },
-    "perfume": {
-        "href": "/dnd/general/Equipment#perfume",
-        "content": "",
-    },
-    "pouch": {
-        "href": "/dnd/general/Equipment#pouch",
-        "content": "",
-    },
-    "quiver": {
-        "href": "/dnd/general/Equipment#quiver",
-        "content": "",
-    },
-    "robe": {
-        "href": "/dnd/general/Equipment#robe",
-        "content": "",
-    },
-    "rope": {
-        "href": "/dnd/general/Equipment#rope",
-        "content": "",
-    },
-    "scroll case": {
-        "href": "/dnd/general/Equipment#scroll-case",
-        "content": "",
-    },
-    "shovel": {
-        "href": "/dnd/general/Equipment#shovel",
-        "content": "",
-    },
-    "spellbook": {
-        "href": "/dnd/general/Equipment#spellbook",
-        "content": "",
-    },
-    "sprig of mistletoe": {
-        "href": "/dnd/general/Equipment#sprig-of-mistletoe",
-        "content": "",
-    },
-    "tent": {
-        "href": "/dnd/general/Equipment#tent",
-        "content": "",
-    },
-    "tinderbox": {
-        "href": "/dnd/general/Equipment#tinderbox",
-        "content": "",
-    },
-    "torch": {
-        "href": "/dnd/general/Equipment#torch",
-        "content": "",
-    },
-    "traveler's clothes": {
-        "href": "/dnd/general/Equipment#traveler-s-clothes",
-        "content": "",
-    },
-    # Magic Items
-    "spell scroll": {
-        "href": "/dnd/general/Equipment#spell-scroll",
-        "content": "",
-    },
-    # Weapon Properties
-    "ammunition": {
+    "arrows": {
         "href": "/dnd/general/Equipment#ammunition",
-        "content": "",
+        "content": "<p>Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>"
     },
-    "finesse": {
-        "href": "/dnd/general/Equipment#finesse",
-        "content": "",
+    "bolts": {
+        "href": "/dnd/general/Equipment#ammunition",
+        "content": "<p>Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>"
     },
-    "graze": {
-        "href": "/dnd/general/Equipment#graze",
-        "content": "",
+    "bullets, firearm": {
+        "href": "/dnd/general/Equipment#ammunition",
+        "content": "<p>Firearm Bullets are destroyed upon use in a modern firearm.</p>"
     },
-    "heavy": {
-        "href": "/dnd/general/Equipment#heavy",
-        "content": "",
+    "bullets, sling": {
+        "href": "/dnd/general/Equipment#ammunition",
+        "content": "<p>Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>"
     },
-    "light": {
-        "href": "/dnd/general/Equipment#light",
-        "content": "",
+    "needles": {
+        "href": "/dnd/general/Equipment#ammunition",
+        "content": "<p>Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>"
     },
-    "loading": {
-        "href": "/dnd/general/Equipment#loading",
-        "content": "",
+    "dice": {
+        "href": "/dnd/general/Equipment#gaming-set",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "nick": {
-        "href": "/dnd/general/Equipment#nick",
-        "content": "",
+    "dragonchess": {
+        "href": "/dnd/general/Equipment#gaming-set",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "push": {
-        "href": "/dnd/general/Equipment#push",
-        "content": "",
+    "playing cards": {
+        "href": "/dnd/general/Equipment#gaming-set",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "reach": {
-        "href": "/dnd/general/Equipment#reach",
-        "content": "",
+    "three-dragon ante": {
+        "href": "/dnd/general/Equipment#gaming-set",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "slow": {
-        "href": "/dnd/general/Equipment#slow",
-        "content": "",
+    "bagpipes": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "thrown": {
-        "href": "/dnd/general/Equipment#thrown",
-        "content": "",
+    "drum": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "topple": {
-        "href": "/dnd/general/Equipment#topple",
-        "content": "",
+    "dulcimer": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "two-handed": {
-        "href": "/dnd/general/Equipment#two-handed",
-        "content": "",
+    "flute": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "versatile": {
-        "href": "/dnd/general/Equipment#versatile",
-        "content": "",
+    "horn": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
-    "vex": {
-        "href": "/dnd/general/Equipment#vex",
-        "content": "",
+    "lute": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
+    "lyre": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+    },
+    "pan flute": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+    },
+    "shawm": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+    },
+    "viol": {
+        "href": "/dnd/general/Equipment#musical-instrument",
+        "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+    },
+    "ring of feather falling": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    "ring of swimming": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    "ring of protection": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    "boots of striding and springing": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    "boots of elvenkind": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    # Simple Weapons
+    # "club": {
+    #     "href": "/dnd/general/Equipment#club",
+    #     "content": "",
+    # },
+    # "dagger": {
+    #     "href": "/dnd/general/Equipment#dagger",
+    #     "content": "",
+    # },
+    # "greatclub": {
+    #     "href": "/dnd/general/Equipment#greatclub",
+    #     "content": "",
+    # },
+    # "handaxe": {
+    #     "href": "/dnd/general/Equipment#handaxe",
+    #     "content": "",
+    # },
+    # "light hammer": {
+    #     "href": "/dnd/general/Equipment#light-hammer",
+    #     "content": "",
+    # },
+    # "mace": {
+    #     "href": "/dnd/general/Equipment#mace",
+    #     "content": "",
+    # },
+    # "quarterstaff": {
+    #     "href": "/dnd/general/Equipment#quarterstaff",
+    #     "content": "",
+    # },
+    # "sap": {
+    #     "href": "/dnd/general/Equipment#sap",
+    #     "content": "",
+    # },
+    # "sickle": {
+    #     "href": "/dnd/general/Equipment#sickle",
+    #     "content": "",
+    # },
+    # "spear": {
+    #     "href": "/dnd/general/Equipment#spear",
+    #     "content": "",
+    # },
+    # "dart": {
+    #     "href": "/dnd/general/Equipment#dart",
+    #     "content": "",
+    # },
+    # "light crossbow": {
+    #     "href": "/dnd/general/Equipment#light-crossbow",
+    #     "content": "",
+    # },
+    # "sling": {
+    #     "href": "/dnd/general/Equipment#sling",
+    #     "content": "",
+    # },
+    # # Martial Weapons
+    # "battleaxe": {
+    #     "href": "/dnd/general/Equipment#battleaxe",
+    #     "content": "",
+    # },
+    # "flail": {
+    #     "href": "/dnd/general/Equipment#flail",
+    #     "content": "",
+    # },
+    # "glaive": {
+    #     "href": "/dnd/general/Equipment#glaive",
+    #     "content": "",
+    # },
+    # "greataxe": {
+    #     "href": "/dnd/general/Equipment#greataxe",
+    #     "content": "",
+    # },
+    # "greatsword": {
+    #     "href": "/dnd/general/Equipment#greatsword",
+    #     "content": "",
+    # },
+    # "javelin": {
+    #     "href": "/dnd/general/Equipment#javelin",
+    #     "content": "",
+    # },
+    # "longsword": {
+    #     "href": "/dnd/general/Equipment#longsword",
+    #     "content": "",
+    # },
+    # "scimitar": {
+    #     "href": "/dnd/general/Equipment#scimitar",
+    #     "content": "",
+    # },
+    # "shortsword": {
+    #     "href": "/dnd/general/Equipment#shortsword",
+    #     "content": "",
+    # },
+    # "longbow": {
+    #     "href": "/dnd/general/Equipment#longbow",
+    #     "content": "",
+    # },
+    # "shortbow": {
+    #     "href": "/dnd/general/Equipment#shortbow",
+    #     "content": "",
+    # },
+    # # Armor
+    # "leather armor": {
+    #     "href": "/dnd/general/Equipment#leather-armor",
+    #     "content": "",
+    # },
+    # "studded leather armor": {
+    #     "href": "/dnd/general/Equipment#studded-leather-armor",
+    #     "content": "",
+    # },
+    # "chain shirt": {
+    #     "href": "/dnd/general/Equipment#chain-shirt",
+    #     "content": "",
+    # },
+    # "chain mail": {
+    #     "href": "/dnd/general/Equipment#chain-mail",
+    #     "content": "",
+    # },
+    # "shield": {
+    #     "href": "/dnd/general/Equipment#shield",
+    #     "content": "",
+    # },
+    # # Packs
+    # "burglar's pack": {
+    #     "href": "/dnd/general/Equipment#burglar-s-pack",
+    #     "content": "",
+    # },
+    # "dungeoneer's pack": {
+    #     "href": "/dnd/general/Equipment#dungeoneer-s-pack",
+    #     "content": "",
+    # },
+    # "entertainer's pack": {
+    #     "href": "/dnd/general/Equipment#entertainer-s-pack",
+    #     "content": "",
+    # },
+    # "explorer's pack": {
+    #     "href": "/dnd/general/Equipment#explorer-s-pack",
+    #     "content": "",
+    # },
+    # "priest's pack": {
+    #     "href": "/dnd/general/Equipment#priest-s-pack",
+    #     "content": "",
+    # },
+    # "scholar's pack": {
+    #     "href": "/dnd/general/Equipment#scholar-s-pack",
+    #     "content": "",
+    # },
+    # # Tools
+    # "calligrapher's supplies": {
+    #     "href": "/dnd/general/Equipment#calligrapher-s-supplies",
+    #     "content": "",
+    # },
+    # "carpenter's tools": {
+    #     "href": "/dnd/general/Equipment#carpenter-s-tools",
+    #     "content": "",
+    # },
+    # "cartographer's tools": {
+    #     "href": "/dnd/general/Equipment#cartographer-s-tools",
+    #     "content": "",
+    # },
+    # "disguise kit": {
+    #     "href": "/dnd/general/Equipment#disguise-kit",
+    #     "content": "",
+    # },
+    # "forgery kit": {
+    #     "href": "/dnd/general/Equipment#forgery-kit",
+    #     "content": "",
+    # },
+    # "healer's kit": {
+    #     "href": "/dnd/general/Equipment#healer-s-kit",
+    #     "content": "",
+    # },
+    # "herbalism kit": {
+    #     "href": "/dnd/general/Equipment#herbalism-kit",
+    #     "content": "",
+    # },
+    # "navigator's tools": {
+    #     "href": "/dnd/general/Equipment#navigator-s-tools",
+    #     "content": "",
+    # },
+    # "poisoner's kit": {
+    #     "href": "/dnd/general/Equipment#poisoner-s-kit",
+    #     "content": "",
+    # },
+    # "thieves' tools": {
+    #     "href": "/dnd/general/Equipment#thieves-tools",
+    #     "content": "",
+    # },
+    # # Items
+    # "arcane focus": {
+    #     "href": "/dnd/general/Equipment#arcane-focus",
+    #     "content": "",
+    # },
+    # "arrow": {
+    #     "href": "/dnd/general/Equipment#arrow",
+    #     "content": "",
+    # },
+    # "basket": {
+    #     "href": "/dnd/general/Equipment#basket",
+    #     "content": "",
+    # },
+    # "ball bearings": {
+    #     "href": "/dnd/general/Equipment#ball-bearings",
+    #     "content": "",
+    # },
+    # "bedroll": {
+    #     "href": "/dnd/general/Equipment#bedroll",
+    #     "content": "",
+    # },
+    # "bell": {
+    #     "href": "/dnd/general/Equipment#bucket",
+    #     "content": "",
+    # },
+    # "block and tackle": {
+    #     "href": "/dnd/general/Equipment#block-and-tackle",
+    #     "content": "",
+    # },
+    # "bolt": {
+    #     "href": "/dnd/general/Equipment#bolt",
+    #     "content": "",
+    # },
+    # "book": {
+    #     "href": "/dnd/general/Equipment#book",
+    #     "content": "",
+    # },
+    # "bucket": {
+    #     "href": "/dnd/general/Equipment#bucket",
+    #     "content": "",
+    # },
+    # "caltrops": {
+    #     "href": "/dnd/general/Equipment#caltrops",
+    #     "content": "",
+    # },
+    # "costume": {
+    #     "href": "/dnd/general/Equipment#costume",
+    #     "content": "",
+    # },
+    # "crossbow bolt case": {
+    #     "href": "/dnd/general/Equipment#crossbow-bolt-case",
+    #     "content": "",
+    # },
+    # "crowbar": {
+    #     "href": "/dnd/general/Equipment#crowbar",
+    #     "content": "",
+    # },
+    # "druidic focus": {
+    #     "href": "/dnd/general/Equipment#druidic-focus",
+    #     "content": "",
+    # },
+    # "fine clothes": {
+    #     "href": "/dnd/general/Equipment#fine-clothes",
+    #     "content": "",
+    # },
+    # "grappling hook": {
+    #     "href": "/dnd/general/Equipment#grappling-hook",
+    #     "content": "",
+    # },
+    # "holy symbol": {
+    #     "href": "/dnd/general/Equipment#holy-symbol",
+    #     "content": "",
+    # },
+    # "hooded lantern": {
+    #     "href": "/dnd/general/Equipment#hooded-lantern",
+    #     "content": "",
+    # },
+    # "iron pot": {
+    #     "href": "/dnd/general/Equipment#iron-pot",
+    #     "content": "",
+    # },
+    # "jug": {
+    #     "href": "/dnd/general/Equipment#jug",
+    #     "content": "",
+    # },
+    # "ladder": {
+    #     "href": "/dnd/general/Equipment#ladder",
+    #     "content": "",
+    # },
+    # "lamp": {
+    #     "href": "/dnd/general/Equipment#lamp",
+    #     "content": "",
+    # },
+    # "manacles": {
+    #     "href": "/dnd/general/Equipment#manacles",
+    #     "content": "",
+    # },
+    # "map": {
+    #     "href": "/dnd/general/Equipment#map",
+    #     "content": "",
+    # },
+    # "mirror": {
+    #     "href": "/dnd/general/Equipment#mirror",
+    #     "content": "",
+    # },
+    # "net": {
+    #     "href": "/dnd/general/Equipment#net",
+    #     "content": "",
+    # },
+    # "oil": {
+    #     "href": "/dnd/general/Equipment#oil",
+    #     "content": "",
+    # },
+    # "parchment": {
+    #     "href": "/dnd/general/Equipment#parchment",
+    #     "content": "",
+    # },
+    # "perfume": {
+    #     "href": "/dnd/general/Equipment#perfume",
+    #     "content": "",
+    # },
+    # "pouch": {
+    #     "href": "/dnd/general/Equipment#pouch",
+    #     "content": "",
+    # },
+    # "quiver": {
+    #     "href": "/dnd/general/Equipment#quiver",
+    #     "content": "",
+    # },
+    # "robe": {
+    #     "href": "/dnd/general/Equipment#robe",
+    #     "content": "",
+    # },
+    # "rope": {
+    #     "href": "/dnd/general/Equipment#rope",
+    #     "content": "",
+    # },
+    # "scroll case": {
+    #     "href": "/dnd/general/Equipment#scroll-case",
+    #     "content": "",
+    # },
+    # "shovel": {
+    #     "href": "/dnd/general/Equipment#shovel",
+    #     "content": "",
+    # },
+    # "spellbook": {
+    #     "href": "/dnd/general/Equipment#spellbook",
+    #     "content": "",
+    # },
+    # "sprig of mistletoe": {
+    #     "href": "/dnd/general/Equipment#sprig-of-mistletoe",
+    #     "content": "",
+    # },
+    # "tent": {
+    #     "href": "/dnd/general/Equipment#tent",
+    #     "content": "",
+    # },
+    # "tinderbox": {
+    #     "href": "/dnd/general/Equipment#tinderbox",
+    #     "content": "",
+    # },
+    # "torch": {
+    #     "href": "/dnd/general/Equipment#torch",
+    #     "content": "",
+    # },
+    # "traveler's clothes": {
+    #     "href": "/dnd/general/Equipment#traveler-s-clothes",
+    #     "content": "",
+    # },
+    # # Magic Items
+    # "spell scroll": {
+    #     "href": "/dnd/general/Equipment#spell-scroll",
+    #     "content": "",
+    # },
+    # # Weapon Properties
+    # "ammunition": {
+    #     "href": "/dnd/general/Equipment#ammunition",
+    #     "content": "",
+    # },
+    # "finesse": {
+    #     "href": "/dnd/general/Equipment#finesse",
+    #     "content": "",
+    # },
+    # "graze": {
+    #     "href": "/dnd/general/Equipment#graze",
+    #     "content": "",
+    # },
+    # "heavy": {
+    #     "href": "/dnd/general/Equipment#heavy",
+    #     "content": "",
+    # },
+    # "light": {
+    #     "href": "/dnd/general/Equipment#light",
+    #     "content": "",
+    # },
+    # "loading": {
+    #     "href": "/dnd/general/Equipment#loading",
+    #     "content": "",
+    # },
+    # "nick": {
+    #     "href": "/dnd/general/Equipment#nick",
+    #     "content": "",
+    # },
+    # "push": {
+    #     "href": "/dnd/general/Equipment#push",
+    #     "content": "",
+    # },
+    # "reach": {
+    #     "href": "/dnd/general/Equipment#reach",
+    #     "content": "",
+    # },
+    # "slow": {
+    #     "href": "/dnd/general/Equipment#slow",
+    #     "content": "",
+    # },
+    # "thrown": {
+    #     "href": "/dnd/general/Equipment#thrown",
+    #     "content": "",
+    # },
+    # "topple": {
+    #     "href": "/dnd/general/Equipment#topple",
+    #     "content": "",
+    # },
+    # "two-handed": {
+    #     "href": "/dnd/general/Equipment#two-handed",
+    #     "content": "",
+    # },
+    # "versatile": {
+    #     "href": "/dnd/general/Equipment#versatile",
+    #     "content": "",
+    # },
+    # "vex": {
+    #     "href": "/dnd/general/Equipment#vex",
+    #     "content": "",
+    # },
 }

@@ -124,6 +124,10 @@ def str_to_bool(s):
     return s and str(s).lower()[0] in ["t", "1", "y"]
 
 
+def str_to_list(s: str, delimiter: str) -> list[str]:
+    return [c.strip() for c in s.strip(delimiter + " ").split(delimiter)]
+
+
 def create_tooltip(text, tooltip_text=None):
     if tooltip_text is not None:
         return '''

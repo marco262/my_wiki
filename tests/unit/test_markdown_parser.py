@@ -419,3 +419,73 @@ charmed by you and the fey for 1 minute or until the target takes any damage.</l
         md = MarkdownParser()
         actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
         self.assertEqual(expected, actual)
+
+    def test_glossary_tooltips(self):
+        input_text = """
+[[glossary:Unarmed Strike]]
+"""
+        expected = """<p><dfn name="Unarmed Strike"><button class="dfn-tooltip" href="/dnd/general/Rules Glossary#unarmed-strike"><p>Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike -- a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p>
+
+<p>Whenever you use your Unarmed Strike, choose one of the following options for its effect.</p>
+
+<p><strong><em>Damage.</em></strong> You make an <a href="#attack-roll">attack roll</a> against the target. Your bonus to the roll equals your Strength modifier plus your Prof ... <em>[more]</em></p></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)
+
+    def test_equipment_tooltips(self):
+        input_text = """
+[[tooltip:Leather Armor]]
+
+[[tooltip:Scale Mail]]
+
+[[tooltip:Plate Armor]]
+
+[[tooltip:Club]]
+
+[[tooltip:Finesse]]
+
+[[tooltip:Push]]
+
+[[tooltip:Cartographer's Tools]]
+
+[[tooltip:Poisoner's Kit]]
+
+[[tooltip:Backpack]]
+"""
+        expected = """<p><dfn name="Leather Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 11 + Dex modifier  <strong>Weight:</strong> 10 lb.  <strong>Cost:</strong> 10 GP</p></button></dfn></p>
+
+<p><dfn name="Scale Mail"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 14 + Dex modifier (max 2)  <strong>Weight:</strong> 45 lb.  <strong>Cost:</strong> 50 GP<br />
+Disadvantage on Stealth</p></button></dfn></p>
+
+<p><dfn name="Plate Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 18  <strong>Weight:</strong> 65 lb.  <strong>Cost:</strong> 1,500 GP<br />
+<strong>Strength Required:</strong> Str 15<br />
+Disadvantage on Stealth</p></button></dfn></p>
+
+<p><dfn name="Club"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#weapons"><p><strong>Damage:</strong> 1d4 Bludgeoning  <strong>Mastery:</strong> Slow  <strong>Weight:</strong> 2 lb.  <strong>Cost:</strong> 1 SP<br />
+<strong>Properties:</strong> Light</p></button></dfn></p>
+
+<p><dfn name="Finesse"><button class="dfn-tooltip" href="/dnd/general/Equipment#finesse"><p>When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p></button></dfn></p>
+
+<p><dfn name="Push"><button class="dfn-tooltip" href="/dnd/general/Equipment#push"><p>If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.</p></button></dfn></p>
+
+<p><dfn name="Cartographer's Tools"><button class="dfn-tooltip" href="/dnd/general/Equipment#cartographers-tools"><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> 6 lb. <strong>Cost:</strong> 15 GP</p>
+
+<p><strong>Utilize:</strong> Draft a map of a small area (DC 15)</p>
+
+<p><strong>Craft:</strong> [[tooltip:Map]]</p></button></dfn></p>
+
+<p><dfn name="Poisoner's Kit"><button class="dfn-tooltip" href="/dnd/general/Equipment#poisoners-kit"><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 2 lb. <strong>Cost:</strong> 50 GP</p>
+
+<p><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p>
+
+<p><strong>Craft:</strong> [[tooltip:Basic Poison]]</p></button></dfn></p>
+
+<p><dfn name="Backpack"><button class="dfn-tooltip" href="/dnd/general/Equipment#backpack"><p><strong>Cost:</strong> 2 GP</p>
+
+<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)
