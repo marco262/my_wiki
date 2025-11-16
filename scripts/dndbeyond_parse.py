@@ -14,7 +14,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/advancement/character-origins.md"
+PATH = "data/dnd/advancement/feats.md"
 
 
 os.chdir("..")
@@ -303,6 +303,7 @@ def parse_div(parent: Tag) -> str:
             "flexible-double-column",
             "flexible-double-column__column-width-20pct",
             "flexible-double-column__column-width-30pct",
+            "ui-droppable",
         ]
         handled_classes = ["subitems-list-details-item"]
         for c in ignorable_classes:

@@ -294,8 +294,16 @@ tooltips = {
         "content": "<p>Total Cover means you can't be targeted directly, by attacks or spells that require a target.</p>",
     },
     # Simple Weapons
+    "club": {
+        "href": "/dnd/general/Equipment#club",
+        "content": "",
+    },
     "dagger": {
         "href": "/dnd/general/Equipment#dagger",
+        "content": "",
+    },
+    "greatclub": {
+        "href": "/dnd/general/Equipment#greatclub",
         "content": "",
     },
     "handaxe": {
@@ -459,8 +467,24 @@ tooltips = {
         "href": "/dnd/general/Equipment#arrow",
         "content": "",
     },
+    "basket": {
+        "href": "/dnd/general/Equipment#basket",
+        "content": "",
+    },
+    "ball bearings": {
+        "href": "/dnd/general/Equipment#ball-bearings",
+        "content": "",
+    },
     "bedroll": {
         "href": "/dnd/general/Equipment#bedroll",
+        "content": "",
+    },
+    "bell": {
+        "href": "/dnd/general/Equipment#bucket",
+        "content": "",
+    },
+    "block and tackle": {
+        "href": "/dnd/general/Equipment#block-and-tackle",
         "content": "",
     },
     "bolt": {
@@ -471,8 +495,20 @@ tooltips = {
         "href": "/dnd/general/Equipment#book",
         "content": "",
     },
+    "bucket": {
+        "href": "/dnd/general/Equipment#bucket",
+        "content": "",
+    },
+    "caltrops": {
+        "href": "/dnd/general/Equipment#caltrops",
+        "content": "",
+    },
     "costume": {
         "href": "/dnd/general/Equipment#costume",
+        "content": "",
+    },
+    "crossbow bolt case": {
+        "href": "/dnd/general/Equipment#crossbow-bolt-case",
         "content": "",
     },
     "crowbar": {
@@ -487,6 +523,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#fine-clothes",
         "content": "",
     },
+    "grappling hook": {
+        "href": "/dnd/general/Equipment#grappling-hook",
+        "content": "",
+    },
     "holy symbol": {
         "href": "/dnd/general/Equipment#holy-symbol",
         "content": "",
@@ -499,6 +539,14 @@ tooltips = {
         "href": "/dnd/general/Equipment#iron-pot",
         "content": "",
     },
+    "jug": {
+        "href": "/dnd/general/Equipment#jug",
+        "content": "",
+    },
+    "ladder": {
+        "href": "/dnd/general/Equipment#ladder",
+        "content": "",
+    },
     "lamp": {
         "href": "/dnd/general/Equipment#lamp",
         "content": "",
@@ -507,8 +555,16 @@ tooltips = {
         "href": "/dnd/general/Equipment#manacles",
         "content": "",
     },
+    "map": {
+        "href": "/dnd/general/Equipment#map",
+        "content": "",
+    },
     "mirror": {
         "href": "/dnd/general/Equipment#mirror",
+        "content": "",
+    },
+    "net": {
+        "href": "/dnd/general/Equipment#net",
         "content": "",
     },
     "oil": {
@@ -539,6 +595,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#rope",
         "content": "",
     },
+    "scroll case": {
+        "href": "/dnd/general/Equipment#scroll-case",
+        "content": "",
+    },
     "shovel": {
         "href": "/dnd/general/Equipment#shovel",
         "content": "",
@@ -553,6 +613,14 @@ tooltips = {
     },
     "tent": {
         "href": "/dnd/general/Equipment#tent",
+        "content": "",
+    },
+    "tinderbox": {
+        "href": "/dnd/general/Equipment#tinderbox",
+        "content": "",
+    },
+    "torch": {
+        "href": "/dnd/general/Equipment#torch",
         "content": "",
     },
     "traveler's clothes": {
@@ -577,8 +645,16 @@ tooltips = {
         "href": "/dnd/general/Equipment#light",
         "content": "",
     },
+    "loading": {
+        "href": "/dnd/general/Equipment#loading",
+        "content": "",
+    },
     "push": {
         "href": "/dnd/general/Equipment#push",
+        "content": "",
+    },
+    "reach": {
+        "href": "/dnd/general/Equipment#reach",
         "content": "",
     },
     "slow": {
@@ -591,6 +667,10 @@ tooltips = {
     },
     "topple": {
         "href": "/dnd/general/Equipment#topple",
+        "content": "",
+    },
+    "two-handed": {
+        "href": "/dnd/general/Equipment#two-handed",
         "content": "",
     },
     "versatile": {
