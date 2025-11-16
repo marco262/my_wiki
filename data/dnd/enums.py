@@ -310,6 +310,10 @@ tooltips = {
         "href": "/dnd/general/Equipment#handaxe",
         "content": "",
     },
+    "light hammer": {
+        "href": "/dnd/general/Equipment#light-hammer",
+        "content": "",
+    },
     "mace": {
         "href": "/dnd/general/Equipment#mace",
         "content": "",
@@ -330,13 +334,29 @@ tooltips = {
         "href": "/dnd/general/Equipment#spear",
         "content": "",
     },
+    "dart": {
+        "href": "/dnd/general/Equipment#dart",
+        "content": "",
+    },
     "light crossbow": {
         "href": "/dnd/general/Equipment#light-crossbow",
         "content": "",
     },
+    "sling": {
+        "href": "/dnd/general/Equipment#sling",
+        "content": "",
+    },
     # Martial Weapons
+    "battleaxe": {
+        "href": "/dnd/general/Equipment#battleaxe",
+        "content": "",
+    },
     "flail": {
         "href": "/dnd/general/Equipment#flail",
+        "content": "",
+    },
+    "glaive": {
+        "href": "/dnd/general/Equipment#glaive",
         "content": "",
     },
     "greataxe": {
@@ -633,8 +653,16 @@ tooltips = {
         "content": "",
     },
     # Weapon Properties
+    "ammunition": {
+        "href": "/dnd/general/Equipment#ammunition",
+        "content": "",
+    },
     "finesse": {
         "href": "/dnd/general/Equipment#finesse",
+        "content": "",
+    },
+    "graze": {
+        "href": "/dnd/general/Equipment#graze",
         "content": "",
     },
     "heavy": {
@@ -647,6 +675,10 @@ tooltips = {
     },
     "loading": {
         "href": "/dnd/general/Equipment#loading",
+        "content": "",
+    },
+    "nick": {
+        "href": "/dnd/general/Equipment#nick",
         "content": "",
     },
     "push": {

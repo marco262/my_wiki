@@ -14,7 +14,7 @@ from data.dnd.enums import tooltips
 from src.dnd.utils import split_rules_glossary
 
 
-PATH = "data/dnd/advancement/feats.md"
+PATH = "data/dnd/general/equipment.md"
 
 
 os.chdir("..")
@@ -130,7 +130,6 @@ def parse_header(header: Tag) -> str:
 
 def parse_table(table: Tag) -> str:
     # If no header in this table, assume it's a weird table we want to make into a bulleted list
-    has_header = bool(table.find("thead"))
     output = []
     for tag in table:  # type: Tag
         match tag.name:
@@ -141,12 +140,8 @@ def parse_table(table: Tag) -> str:
                 for row in tag:  # type: Tag
                     output += parse_row(row, header=True)
             case "tbody":
-                if has_header:
-                    for row in tag:  # type: Tag
-                        output += parse_row(row)
-                else:
-                    for row in tag:
-                        output += parse_headless_row(row)
+                for row in tag:  # type: Tag
+                    output += parse_row(row)
     return "\n".join(output)
 
 
@@ -165,18 +160,40 @@ def parse_row(row: Tag, header: bool = False) -> list[str]:
     return output
 
 
-def parse_headless_row(row: Tag) -> list[str]:
+def parse_table_raw(table: Tag) -> str:
+    # If no header in this table, assume it's a weird table we want to make into a bulleted list
+    output = ["<table>"]
+    for tag in table:  # type: Tag
+        match tag.name:
+            case "caption":
+                output.append(parse_tag(tag))
+                output.append("")
+            case "thead":
+                output.append("<thead>")
+                for row in tag:  # type: Tag
+                    output += parse_row_raw(row, header=True)
+                output.append("</thead>")
+            case "tbody":
+                output.append("<tbody>")
+                for row in tag:  # type: Tag
+                    output += parse_row_raw(row)
+                output.append("</tbody>")
+    output.append("</table>")
+    return "\n".join(output)
+
+
+def parse_row_raw(row: Tag, header: bool = False) -> list[str]:
     if isinstance(row, NavigableString):
         return []
-    output = []
+    tag = "th" if header else "td"
+    output = ["  <tr>"]
     for cell in row:  # type: Tag
         cell_text = parse_tag(cell)
-        match cell.name:
-            case "th":
-                output.append(f" - **{cell_text}**:")
-            case "td":
-                output.append(cell_text)
-    return [" ".join(output)]
+        if not cell_text:
+            continue
+        output.append(f"    <{tag}>{cell_text}</{tag}>")
+    output.append("  </tr>")
+    return output
 
 
 def markdown_row(cells: list[str]) -> str:
@@ -204,10 +221,7 @@ def parse_link(tag: Tag) -> str:
     if "monster-tooltip" in classes:
         return f"[[[monster:{text}]]]"
     if "sourcebook" in classes:
-        if text == "Monster Manual":
-            return "_Monster Manual_"
-        else:
-            raise ValueError(f"Unknown sourcebook: {text}")
+        return f"_{text}_"
 
     tooltip_classes = ["skill-tooltip", "item-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
@@ -303,6 +317,7 @@ def parse_div(parent: Tag) -> str:
             "flexible-double-column",
             "flexible-double-column__column-width-20pct",
             "flexible-double-column__column-width-30pct",
+            "flexible-double-column__column-width-40pct",
             "ui-droppable",
         ]
         handled_classes = ["subitems-list-details-item"]
