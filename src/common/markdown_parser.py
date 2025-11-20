@@ -1,7 +1,6 @@
 """
 For parsing *.md files, including special handling of wiki code
 """
-import glob
 import os
 import re
 from typing import Dict

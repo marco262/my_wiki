@@ -1,19 +1,20 @@
 import re
 from typing import TypedDict
 
+from bs4 import BeautifulSoup, NavigableString, Tag
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name, str_to_list
 
+TOOLTIP_MAX_LENGTH = 500
 
 class TooltipEntry(TypedDict):
     href: str
-    content: str
+    content: str | list[str]
 
 TooltipDict = dict[str, TooltipEntry]
 
 
 def split_rules_glossary() -> TooltipDict:
-    max_length = 500
     md = Markdown()
     with open("data/dnd/general/rules-glossary.md") as f:
         page = f.read()
@@ -27,8 +28,8 @@ def split_rules_glossary() -> TooltipDict:
         m = re.match(r"^(.*) \[.*]$", name.lower())
         if m:
             name = m.group(1)
-        if len(content) > max_length:
-            content = content[:max_length] + " ... <em>[more]</em>"
+        # print(f"Truncating {name}")
+        content = truncate_html_by_visible_text(content)
         rules_glossary[name.lower()] = {
             "href": "/dnd/general/Rules Glossary#" + href,
             "content": md.convert(content).strip(" \n"),
@@ -37,7 +38,6 @@ def split_rules_glossary() -> TooltipDict:
 
 
 def split_equipment() -> TooltipDict:
-    max_length = 500
     md = Markdown()
     with open("data/dnd/general/equipment.md") as f:
         page = f.read()
@@ -45,14 +45,18 @@ def split_equipment() -> TooltipDict:
     save_text = False
     table_type = None
     key = ""
-    lines = page.split("\n")
-    for line in lines:
+    page = page.replace("[[tooltip:", "_")
+    page = page.replace("[[glossary:", "_")
+    page = page.replace("[[spell:", "")
+    # Replace all `]]` with `_` to make the tooltip italic, unless the tooltip was already in italics.
+    page = re.sub(r"]](_)?", "_", page)
+    for line in page.split("\n"):
         if not line:
             continue
-        if line.startswith("## "):
+        if line.startswith("# ") or line.startswith("## "):
             if line in ("## Properties", "## Mastery Properties", "## Artisan's Tools", "## Other Tools", "## Adventuring Gear"):
                 save_text = True
-                table_type = False
+                table_type = "Misc"
             elif line == "## Weapons":
                 save_text = True
                 table_type = "Weapons"
@@ -65,30 +69,9 @@ def split_equipment() -> TooltipDict:
             continue
         if save_text:
             if table_type in ("Weapons", "Armor"):
-                if line.startswith("|"):
-                    text = line.replace("[[tooltip:", "").replace("]]", "")
-                    cells = str_to_list(text, delimiter="|")
-                    key = cells[0].lower()
-                    if key == "name" or key.startswith("---"):
-                        continue
-
-                    if table_type == "Weapons":
-                        content = f"**Damage:** {cells[1]}  **Mastery:** {cells[3]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}  \n**Properties:** {cells[2]}"
-                        href = "/dnd/general/Equipment#weapons"
-                    elif table_type == "Armor":
-                        content = f"**AC:** {cells[1]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}"
-                        if cells[2] != "--":
-                            content += f"  \n**Strength Required:** {cells[2]}"
-                        if cells[3] != "--":
-                            content += f"  \nDisadvantage on Stealth"
-                        href = "/dnd/general/Equipment#armor"
-                    else:
-                        raise ValueError(f"How the fuck did this happen? {table_type}")
-
-                    tooltips[key] = {
-                        "href": "/dnd/general/Equipment#" + href,
-                        "content": [content],
-                    }
+                key, d = make_tooltip_from_table(line, table_type)
+                if key:
+                    tooltips[key] = d
             else:
                 if line.startswith("### "):
                     key = line.strip("#").strip().lower()
@@ -103,8 +86,94 @@ def split_equipment() -> TooltipDict:
     for key, d in tooltips.items():
         content = "\n\n".join(d["content"])
         content = md.convert(content).strip(" \n")
-        if len(content) > max_length:
-            content = content[:max_length] + " ... <em>[more]</em>"
+        print(f"Truncating {key}")
+        content = truncate_html_by_visible_text(content)
         d["content"] = content
 
     return tooltips
+
+
+def make_tooltip_from_table(line: str, table_type: str) -> tuple[str, TooltipEntry | None]:
+    if line.startswith("|"):
+        cells = str_to_list(line, delimiter="|")
+        key = cells[0].strip("_").lower()
+        if key == "name" or key.startswith("---"):
+            return "", None
+
+        if table_type == "Weapons":
+            content = f"**Damage:** {cells[1]}  **Mastery:** {cells[3]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}  \n**Properties:** {cells[2]}"
+            href = "/dnd/general/Equipment#weapons"
+        elif table_type == "Armor":
+            content = f"**AC:** {cells[1]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}"
+            if cells[2] != "--":
+                content += f"  \n**Strength Required:** {cells[2]}"
+            if cells[3] != "--":
+                content += f"  \nDisadvantage on Stealth"
+            href = "/dnd/general/Equipment#armor"
+        else:
+            raise ValueError(f"How the fuck did this happen? {table_type}")
+
+        d: TooltipEntry = {
+            "href": "/dnd/general/Equipment#" + href,
+            "content": [content],
+        }
+        return key, d
+    return "", None
+
+
+def truncate_html_by_visible_text(html: str) -> str:
+    """
+    Truncate HTML string by visible text length, ensuring no HTML tags are broken.
+    Appends ' ... <em>[more]</em>' if truncated.
+    """
+    def truncate_elements(e: Tag | NavigableString, delete_current_element: bool = False):
+        """
+        Truncate all elements after the current one, in the current element's parent and all parents above.
+        This will guarantee that the visible text ends at the truncated text.
+        """
+        offset = 0 if delete_current_element else 1
+        current = e
+        while current.parent is not None:
+            parent = current.parent
+            index = parent.contents.index(current)
+            del parent.contents[index + offset:]
+            # Don't delete current element for any parents
+            offset = 1
+            current = parent
+
+    soup = BeautifulSoup(html, 'html.parser')
+    visible_text = soup.get_text()
+    if len(visible_text) <= TOOLTIP_MAX_LENGTH:
+        return html
+    current_length = 0
+    for element in soup.descendants:
+        # Stop early if we get to table headers. We don't want to include tables in the tooltips.
+        if isinstance(element, Tag) and 'table-header' in element.get('class', []):
+            truncate_elements(element, delete_current_element=True)
+            return str(soup)
+        if isinstance(element, NavigableString):
+            text = element.string
+            if current_length + len(text) <= TOOLTIP_MAX_LENGTH:
+                current_length += len(text)
+            else:
+                # Delete all elements after this one
+                truncate_elements(element)
+                # Replace the text in the current element so we don't exceed the max length
+                excess = (current_length + len(text)) - TOOLTIP_MAX_LENGTH
+                truncated_text = text[:-excess]
+                element.replace_with(NavigableString(truncated_text))
+                break
+    else:
+        raise ValueError("How did you get here?")
+
+    # Test that visible text is under limit before appending more
+    visible_after = soup.get_text()
+    if not len(visible_after) <= TOOLTIP_MAX_LENGTH:
+        raise AssertionError(f"Truncation failed: {len(visible_after)} > {TOOLTIP_MAX_LENGTH}")
+
+    soup.append(NavigableString(' ... '))
+    more_tag = soup.new_tag('em')
+    more_tag.string = '[more]'
+    soup.append(more_tag)
+
+    return str(soup)

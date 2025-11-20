@@ -489,3 +489,12 @@ Disadvantage on Stealth</p></button></dfn></p>
         md = MarkdownParser()
         actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
         self.assertEqual(expected, actual)
+
+    def test_too_long_tooltip(self):
+        input_text = "[[tooltip:Manacles]]"
+        expected = """<p><dfn name="Manacles"><button class="dfn-tooltip" href="/dnd/general/Equipment#manacles"><p><strong>Cost:</strong> 2 GP</p>
+<p>As a <em>Utilize</em> action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the <em>Grappled</em>, <em>Incapacitated</em>, or <em>Restrained</em> condition if you succeed on a DC 13 Dexterity (<em>Sleight of Hand</em>) check. While bound, a creature has <em>Disadvantage</em> on attack rolls, and the creature is <em>Restrained</em> if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (<em>Sleight of Hand</em>) check as an a</p> ... <em>[more]</em></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)
