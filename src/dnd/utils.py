@@ -1,4 +1,5 @@
 import re
+from re import finditer
 from typing import TypedDict
 
 from bs4 import BeautifulSoup, NavigableString, Tag
@@ -19,6 +20,7 @@ def split_rules_glossary() -> TooltipDict:
     with open("data/dnd/general/rules-glossary.md") as f:
         page = f.read()
     rules_glossary = {}
+    page = clean_custom_markdown(page)
     split_page = re.split(r"^## ", page, flags=re.MULTILINE)
     for text in split_page[1:]:
         if not text:
@@ -45,11 +47,7 @@ def split_equipment() -> TooltipDict:
     save_text = False
     table_type = None
     key = ""
-    page = page.replace("[[tooltip:", "_")
-    page = page.replace("[[glossary:", "_")
-    page = page.replace("[[spell:", "")
-    # Replace all `]]` with `_` to make the tooltip italic, unless the tooltip was already in italics.
-    page = re.sub(r"]](_)?", "_", page)
+    page = clean_custom_markdown(page)
     for line in page.split("\n"):
         if not line:
             continue
@@ -86,11 +84,18 @@ def split_equipment() -> TooltipDict:
     for key, d in tooltips.items():
         content = "\n\n".join(d["content"])
         content = md.convert(content).strip(" \n")
-        print(f"Truncating {key}")
+        # print(f"Truncating {key}")
         content = truncate_html_by_visible_text(content)
         d["content"] = content
 
     return tooltips
+
+
+def clean_custom_markdown(text: str) -> str:
+    """Remove custom markdown (i.e. things in [[]] or [[[]]]) before parsing. Replace with italics."""
+    for m in finditer(r"_?\[?\[\[.*?:(.*?)(\|(.*?))?]]]?_?", text):
+        text = text.replace(m.group(0), f"_{m.group(3) or m.group(1)}_")
+    return text
 
 
 def make_tooltip_from_table(line: str, table_type: str) -> tuple[str, TooltipEntry | None]:
