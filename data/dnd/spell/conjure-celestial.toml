@@ -11,8 +11,8 @@ duration = "10 minutes"
 description = """
 You conjure a spirit from the Upper Planes, which manifests as a pillar of light in a 10-foot-radius, 40-foot-high [[glossary:Cylinder]] centered on a point within range. For each creature you can see in the [[glossary:Cylinder]], choose which of these lights shines on it:
 
- - **Healing Light** The target regains [[glossary:Hit Points]] equal to 4d12 plus your spellcasting ability modifier.
- - **Searing Light** The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.
+ - **Healing Light.** The target regains [[glossary:Hit Points]] equal to 4d12 plus your spellcasting ability modifier.
+ - **Searing Light.** The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.
 
 Until the spell ends, [[glossary:Bright Light]] fills the [[glossary:Cylinder]], and when you move on your turn, you can also move the [[glossary:Cylinder]] up to 30 feet.
 

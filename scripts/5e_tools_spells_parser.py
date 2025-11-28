@@ -50,7 +50,7 @@ def parse_entries(entries: list[str | dict]) -> str:
                     inner_list.append(" - " + item)
                 elif item["type"] == "item":
                     assert len(item["entries"]) == 1
-                    inner_list.append(f" - **{item['name']}** {item['entries'][0]}")
+                    inner_list.append(f" - **{item['name']}.** {item['entries'][0]}")
                 else:
                     raise ValueError(e)
             text_list.append("\n".join(inner_list))
