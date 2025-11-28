@@ -27,7 +27,7 @@ You'll record the main details of your character on a character sheet. Throughou
 Here are the steps to make a character; each step is explored in detail in this chapter:
 
 1. **_Choose a Class._** Every adventurer is a member of a class. A class broadly describes a character's vocation, special talents, and favored tactics.
-2. **_Determine Origin._** A character's origin includes two elements: background and race. How did the character spend the years leading up to a life of adventure? Who are the character's ancestors? You can also choose your character's languages.
+2. **_Determine Origin._** A character's origin includes two elements: [[[advancement:backgrounds|background]]] and [[[advancement:races|race]]]. How did the character spend the years leading up to a life of adventure? Who are the character's ancestors? You can also choose your character's languages.
 3. **_Determine Ability Scores._** Much of what your character does in the game depends on the character's six abilities.
 4. **_Choose an Alignment._** Alignment is a shorthand for your character's moral compass.
 5. **_Fill in Details._** Using the choices you've made, fill in the remaining details on your character sheet.
@@ -436,7 +436,7 @@ Include all modifiers that apply to your Wisdom ([[tooltip:Perception]]) checks.
 | Bard, Cleric, Druid, Monk, Rogue, or Warlock | 8 + Con. modifier  |
 | Sorcerer or Wizard                           | 6 + Con. modifier  |
 
-The character sheet includes room to note your current Hit Points when you take damage, as well as any [[glossary:Temporary Hit Points]] you might gain. There's also space to track [[glossary:Death Saving Throws|Death Saving Throws]].
+The character sheet includes room to note your current Hit Points when you take damage, as well as any [[glossary:Temporary Hit Points]] you might gain. There's also space to track [[glossary:Death Saving Throw|Death Saving Throws]].
 
 **_Hit Point Dice._** Your class's description tells you the die type of your character's Hit Point Dice (or Hit Dice for short); write this on your character sheet. At level 1, your character has 1 Hit Die. You can spend Hit Dice during a Short Rest to recover Hit Points. Your character sheet also includes space to note how many Hit Dice you've spent.
 

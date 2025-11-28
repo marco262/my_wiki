@@ -8,7 +8,7 @@
  - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Arcana]], [[tooltip:History]], [[tooltip:Insight]], [[tooltip:Investigation]], [[tooltip:Medicine]], [[tooltip:Nature]], or [[tooltip:Religion]]
  - **Weapon Proficiencies**: Simple weapons
  - **Armor Training**: None
- - **Starting Equipment**: _Choose A or B:_ (A) 2 [[tooltip:dagger|Daggers]], [[tooltip:Arcane Focus]] (Quarterstaff), Robe, [[tooltip:Spellbook]], [[tooltip:Scholar's Pack]], and 5 GP; or (B) 55 GP
+ - **Starting Equipment**: _Choose A or B:_ (A) 2 [[tooltip:dagger|Daggers]], [[tooltip:Arcane Focus]] ([[tooltip:Quarterstaff]]), Robe, Spellbook, [[tooltip:Scholar's Pack]], and 5 GP; or (B) 55 GP
 
 Wizards are defined by their exhaustive study of magic's inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.
 

@@ -126,24 +126,24 @@ _Origin Feat_
 
 You gain the following benefits.
 
-**_Tool Proficiency._** You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.
+**_Tool Proficiency._** You gain proficiency with three different [[[general:equipment#artisans-tools|Artisan's Tools]]] of your choice from the Fast Crafting table.
 
 **_Discount._** Whenever you buy a nonmagical item, you receive a 20 percent discount on it.
 
-**_Fast Crafting._** When you finish a [[glossary:Long Rest]], you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.
+**_Fast Crafting._** When you finish a [[glossary:Long Rest]], you can craft one piece of gear from the Fast Crafting table, provided you have the [[[general:equipment#artisans-tools|Artisan's Tools]]] associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.
 
 ### Fast Crafting
 
-| Artisan's Tools       | Crafted Gear                                                                                                          |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Carpenter's Tools     | [[tooltip:Ladder]], [[tooltip:Torch]]                                                                                 |
-| Leatherworker's Tools | [[tooltip:Crossbow Bolt Case]], [[tooltip:Map]] or [[tooltip:Scroll Case]], [[tooltip:Pouch]]                         |
-| Mason's Tools         | [[tooltip:Block and Tackle]]                                                                                          |
-| Potter's Tools        | [[tooltip:Jug]], [[tooltip:Lamp]]                                                                                     |
-| Smith's Tools         | [[tooltip:Ball Bearings]], [[tooltip:Bucket]], [[tooltip:Caltrops]], [[tooltip:Grappling Hook]], [[tooltip:Iron Pot]] |
-| Tinker's Tools        | [[tooltip:Bell]], [[tooltip:Shovel]], [[tooltip:Tinderbox]]                                                           |
-| Weaver's Tools        | [[tooltip:Basket]], [[tooltip:Rope]], [[tooltip:Net]], [[tooltip:Tent]]                                               |
-| Woodcarver's Tools    | [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]]                                                     |
+| Artisan's Tools       | Crafted Gear                                                                                                           |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| Carpenter's Tools     | [[tooltip:Ladder]], [[tooltip:Torch]]                                                                                  |
+| Leatherworker's Tools | [[tooltip:Case, Crossbow Bolt]], [[tooltip:Case, Map or Scroll]], [[tooltip:Pouch]]                                    |
+| Mason's Tools         | [[tooltip:Block and Tackle]]                                                                                           |
+| Potter's Tools        | [[tooltip:Jug]], [[tooltip:Lamp]]                                                                                      |
+| Smith's Tools         | [[tooltip:Ball Bearings]], [[tooltip:Bucket]], [[tooltip:Caltrops]], [[tooltip:Grappling Hook]], [[tooltip:Pot, Iron]] |
+| Tinker's Tools        | [[tooltip:Bell]], [[tooltip:Shovel]], [[tooltip:Tinderbox]]                                                            |
+| Weaver's Tools        | [[tooltip:Basket]], [[tooltip:Rope]], [[tooltip:Net]], [[tooltip:Tent]]                                                |
+| Woodcarver's Tools    | [[tooltip:Club]], [[tooltip:Greatclub]], [[tooltip:Quarterstaff]]                                                      |
 
 ## Healer
 
