@@ -74,19 +74,18 @@ def make_table(table_data: dict) -> str:
     for col in columns:
         max_lengths.append(max(len(s) for s in col))
     lines = []
-    headers: list[str] = table_data["colLabels"]
-    lines.append("| " + " | ".join([header.ljust(max_lengths[i]) for i, header in enumerate(headers)]) + " |")
+
+    def table_row(values: list[str]) -> str:
+        cells = []
+        for i, cell in enumerate(values):
+            cells.append(cell.ljust(max_lengths[i]))
+        return "| " + " | ".join(cells) + " |"
+
+    lines.append(table_row(table_data["colLabels"]))
     lines.append("|" + "|".join(["-" * (n + 2) for n in max_lengths]) + "|")
     for row in table_data["rows"]:
-        cells = []
-        for i, cell in enumerate(row):
-            cells.append(cell.ljust(max_lengths[i]))
-        lines.append("| " + " | ".join(cells) + " |")
+        lines.append(table_row(row))
     return "\n".join(lines)
-
-
-def table_row(cells: list[str]) -> str:
-    return "| " + " | ".join(cells) + " |"
 
 
 def main():
