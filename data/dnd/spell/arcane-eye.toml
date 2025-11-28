@@ -1,0 +1,20 @@
+title = "Arcane Eye"
+spell_lists = ["Wizard"]
+level = "4"
+school = "Divination"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "30 feet"
+components = ["V", "S", "M"]
+material = "a bit of bat fur"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = """
+You create an [[glossary:Invisible]], invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has [[glossary:Darkvision]] with a range of 30 feet.
+
+As a [[glossary:Bonus Action]], you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
+"""
+source = "Player's Handbook, p. 242"

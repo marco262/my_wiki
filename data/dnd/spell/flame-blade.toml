@@ -1,0 +1,23 @@
+title = "Flame Blade"
+spell_lists = ["Druid", "Sorcerer"]
+level = "2"
+school = "Evocation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Bonus Action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "a sumac leaf"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "10 minutes"
+description = """
+You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a [[glossary:Bonus Action]].
+
+As a [[glossary:Magic]] action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.
+
+The flaming blade sheds [[glossary:Bright Light]] in a 10-foot radius and [[glossary:Dim Light]] for an additional 10 feet.
+"""
+at_higher_levels = "The damage increases by 1d6 for each spell slot level above 2."
+source = "Player's Handbook, p. 275"

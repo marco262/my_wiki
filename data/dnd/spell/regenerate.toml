@@ -1,0 +1,16 @@
+title = "Regenerate"
+spell_lists = ["Bard", "Cleric", "Druid"]
+level = "7"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 minute"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a prayer wheel"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = "A creature you touch regains 4d8 + 15 [[glossary:Hit Points]]. For the duration, the target regains 1 [[glossary:Hit Points]] at the start of each of its turns, and any severed body parts regrow after 2 minutes."
+source = "Player's Handbook, p. 311"

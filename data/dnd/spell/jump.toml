@@ -1,5 +1,5 @@
 title = "Jump"
-spell_lists = ["Sorcerer"]
+spell_lists = ["Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "1"
 school = "Transmutation"
 concentration_spell = false
@@ -9,11 +9,9 @@ range = "Touch"
 components = ["V", "S", "M"]
 material = "a grasshopper's hind leg"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Instantaneous"
-description = """
-You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending only 10 feet of movement.
-"""
-at_higher_levels = "When you cast this spell using a spell slot of level 2 or higher, you can target one additional creature for each slot level above 1."
-source = "Player's Handbook Playtest 7"
-source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-7"
+duration = "1 minute"
+description = "You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement."
+at_higher_levels = "You can target one additional creature for each spell slot level above 1."
+source = "Player's Handbook, p. 290"

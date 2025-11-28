@@ -1,0 +1,24 @@
+title = "Enlarge/Reduce"
+spell_lists = ["Bard", "Druid", "Sorcerer", "Wizard"]
+level = "2"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "30 feet"
+components = ["V", "S", "M"]
+material = "a pinch of powdered iron"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.
+
+Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.
+
+**_Enlarge._** The target's size increases by one category -- from Medium to Large, for example. The target also has [[glossary:Advantage]] on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.
+
+**_Reduce._** The target's size decreases by one category -- from Medium to Small, for example. The target also has [[glossary:Disadvantage]] on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).
+"""
+source = "Player's Handbook, p. 268"

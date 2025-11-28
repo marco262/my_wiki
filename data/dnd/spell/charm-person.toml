@@ -1,0 +1,13 @@
+title = "Charm Person"
+spell_lists = ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
+level = "1"
+school = "Enchantment"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "30 feet"
+components = ["V", "S"]
+duration = "1 hour"
+description = "One Humanoid you can see within range makes a Wisdom saving throw. It does so with [[glossary:Advantage]] if you or your allies are fighting it. On a failed save, the target has the [[glossary:Charmed]] condition until the spell ends or until you or your allies damage it. The [[glossary:Charmed]] creature is [[glossary:Friendly]] to you. When the spell ends, the target knows it was [[glossary:Charmed]] by you."
+at_higher_levels = "You can target one additional creature for each spell slot level above 1."
+source = "Player's Handbook, p. 249"

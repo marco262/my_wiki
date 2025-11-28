@@ -1,0 +1,16 @@
+title = "Entangle"
+spell_lists = ["Druid", "Ranger"]
+level = "1"
+school = "Conjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "90 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into [[glossary:Difficult Terrain]]. They disappear when the spell ends.
+
+Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the [[glossary:Restrained]] condition until the spell ends. A [[glossary:Restrained]] creature can take an action to make a Strength ([[tooltip:Athletics]]) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer [[glossary:Restrained]] by them.
+"""
+source = "Player's Handbook, p. 268"

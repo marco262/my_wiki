@@ -1,0 +1,17 @@
+title = "Hold Monster"
+spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
+level = "5"
+school = "Enchantment"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "90 feet"
+components = ["V", "S", "M"]
+material = "a straight piece of iron"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the [[glossary:Paralyzed]] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success."
+at_higher_levels = "You can target one additional creature for each spell slot level above 5."
+source = "Player's Handbook, p. 285"

@@ -1,0 +1,12 @@
+title = "Beast Sense"
+spell_lists = ["Druid", "Ranger"]
+level = "2"
+school = "Divination"
+concentration_spell = true
+ritual_spell = true
+casting_time = "Action"
+range = "Touch"
+components = ["S"]
+duration = "1 hour"
+description = "You touch a willing Beast. For the duration, you can perceive through the Beast's senses as well as your own. When perceiving through the Beast's senses, you benefit from any special senses it has."
+source = "Player's Handbook, p. 245"

@@ -1,14 +1,13 @@
-from collections import defaultdict, OrderedDict
-from copy import deepcopy
+from collections import defaultdict
 from glob import glob
 from json import loads
 from os.path import splitext, basename
 
 import toml
 from bottle import Bottle, view, redirect, request
+from toml.decoder import TomlDecodeError
 
 from src.common.utils import md_page, title_to_page_name
-from src.dnd5e.utils import load_spells as load_core_spells
 
 SPELLS = None
 SPELLS_BY_LEVEL = None
@@ -23,7 +22,6 @@ def load_spells():
     if SPELLS:
         return SPELLS
     SPELLS_BY_LEVEL = defaultdict(list)
-    core_spells = deepcopy(load_core_spells())
     spells = {}
     path = None
     print("Loading spells into memory", end='')
@@ -32,10 +30,11 @@ def load_spells():
         for path in sorted(glob("data/dnd/spell/*.toml")):
             print(".", end='', flush=True)
             with open(path) as f:
-                d = toml.loads(f.read(), _dict=OrderedDict)
+                try:
+                    d = toml.loads(f.read())
+                except TomlDecodeError as e:
+                    raise Exception(f"Error when decoding '{path}'") from e
             k = splitext(basename(path))[0]
-            if k in core_spells:
-                d["spell_lists"] = sorted(set(d["spell_lists"]).union([c.title() for c in core_spells[k]["classes"]]))
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "source_extended" in d:
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
@@ -45,19 +44,7 @@ def load_spells():
         print(f"\nError when trying to process {path}")
         raise
     print(" Done.", flush=True)
-    for _, v in core_spells.items():
-        v["spell_lists"] = [c.title() for c in v["classes"]]
-        v["school"] = v["school"].title()
-        if v["level"] == "cantrip":
-            v["level"] = "0"
-        if v["casting_time"] == "1 action":
-            v["casting_time"] = "Action"
-        elif v["casting_time"] == "1 bonus action":
-            v["casting_time"] = "Bonus Action"
-        elif v["casting_time"].startswith("1 reaction"):
-            v["casting_time"] = v["casting_time"].replace("1 reaction", "Reaction")
-    core_spells.update(spells)
-    SPELLS = core_spells
+    SPELLS = spells
     return SPELLS
 
 

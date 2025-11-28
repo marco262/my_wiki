@@ -1,0 +1,12 @@
+title = "Destructive Wave"
+spell_lists = ["Paladin"]
+level = "5"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:sphere]])"
+components = ["V"]
+duration = "Instantaneous"
+description = "Destructive energy ripples outward from you in a 30-foot [[glossary:Emanation]]. Each creature you choose in the [[glossary:Emanation]] makes a Constitution saving throw. On a failed save, a target takes 5d6 Thunder damage and 5d6 Radiant or Necrotic damage (your choice) and has the [[glossary:Prone]] condition. On a successful save, a target takes half as much damage only."
+source = "Player's Handbook, p. 261"

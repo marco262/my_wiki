@@ -1,0 +1,12 @@
+title = "Mind Blank"
+spell_lists = ["Bard", "Wizard"]
+level = "8"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S"]
+duration = "24 hours"
+description = "Until the spell ends, one willing creature you touch has [[glossary:Immunity]] to Psychic damage and the [[glossary:Charmed]] condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell -- not even _[[[spell:Wish]]]_ -- can gather information about the target, observe it remotely, or control its mind."
+source = "Player's Handbook, p. 298"

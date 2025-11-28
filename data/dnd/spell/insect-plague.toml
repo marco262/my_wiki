@@ -1,0 +1,21 @@
+title = "Insect Plague"
+spell_lists = ["Cleric", "Druid", "Sorcerer"]
+level = "5"
+school = "Conjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "300 feet"
+components = ["V", "S", "M"]
+material = "a locust"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "10 minutes"
+description = """
+Swarming locusts fill a 20-foot-radius [[glossary:Sphere]] centered on a point you choose within range. The [[glossary:Sphere]] remains for the duration, and its area is [[glossary:Lightly Obscured]] and [[glossary:Difficult Terrain]].
+
+When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
+"""
+at_higher_levels = "The damage increases by 1d10 for each spell slot level above 5."
+source = "Player's Handbook, p. 289"

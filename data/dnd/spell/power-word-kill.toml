@@ -1,5 +1,4 @@
 title = "Power Word Kill"
-# Added classes to allow it to show up in the spell lists
 spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
 level = "9"
 school = "Enchantment"
@@ -9,8 +8,5 @@ casting_time = "Action"
 range = "60 feet"
 components = ["V"]
 duration = "Instantaneous"
-description = """
-You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you choose has 100 Hit Points or fewer, it dies. Otherwise, the target takes 12d12 Psychic damage.
-"""
-source = "Player's Handbook Playtest 6"
-source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"
+description = "You compel one creature you can see within range to die. If the target has 100 [[glossary:Hit Points]] or fewer, it dies. Otherwise, it takes 12d12 Psychic damage."
+source = "Player's Handbook, p. 306"

@@ -1,0 +1,16 @@
+title = "Color Spray"
+spell_lists = ["Bard", "Sorcerer", "Wizard"]
+level = "1"
+school = "Illusion"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self (15-foot [[glossary:cone]])"
+components = ["V", "S", "M"]
+material = "a pinch of colorful sand"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "Instantaneous"
+description = "You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot [[glossary:Cone]] originating from you must succeed on a Constitution saving throw or have the [[glossary:Blinded]] condition until the end of your next turn."
+source = "Player's Handbook, p. 251"

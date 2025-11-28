@@ -1,0 +1,22 @@
+title = "Flesh to Stone"
+spell_lists = ["Druid", "Sorcerer", "Wizard"]
+level = "6"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S", "M"]
+material = "a cockatrice feather"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+You attempt to turn one creature that you can see within range into stone. The target makes a Constitution saving throw. On a failed save, it has the [[glossary:Restrained]] condition for the duration. On a successful save, its [[glossary:Speed]] is 0 until the start of your next turn. Constructs automatically succeed on the save.
+
+A [[glossary:Restrained]] target makes another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the [[glossary:Petrified]] condition for the duration. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.
+
+If you maintain your [[glossary:Concentration]] on this spell for the entire possible duration, the target is [[glossary:Petrified]] until the condition is ended by _[[[spell:Greater Restoration]]]_ or similar magic.
+"""
+source = "Player's Handbook, p. 275"

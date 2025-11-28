@@ -1,0 +1,13 @@
+title = "Thunderclap"
+spell_lists = ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
+level = "0"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self (5-foot [[glossary:emanation]])"
+components = ["S"]
+duration = "Instantaneous"
+description = "Each creature in a 5-foot [[glossary:Emanation]] originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell's thunderous sound can be heard up to 100 feet away."
+cantrip_upgrade = "The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+source = "Player's Handbook, p. 333"

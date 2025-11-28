@@ -1,0 +1,31 @@
+title = "Augury"
+spell_lists = ["Cleric", "Druid", "Wizard"]
+level = "2"
+school = "Divination"
+concentration_spell = false
+ritual_spell = true
+casting_time = "1 minute"
+range = "Self"
+components = ["V", "S", "M"]
+material = "specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP"
+expensive_material_component = true
+material_component_cost = 2500
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.
+
+**Omens**
+
+| Omen         | For Results That Will Be... |
+|--------------|-----------------------------|
+| Weal         | Good                        |
+| Woe          | Bad                         |
+| Weal and woe | Good and bad                |
+| Indifference | Neither good nor bad        |
+
+The spell doesn't account for circumstances, such as other spells, that might change the results.
+
+If you cast the spell more than once before finishing a [[glossary:Long Rest]], there is a cumulative 25 percent chance chance for each casting after the first that you get no answer.
+"""
+source = "Player's Handbook, p. 244"

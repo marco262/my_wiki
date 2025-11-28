@@ -1,0 +1,16 @@
+title = "True Seeing"
+spell_lists = ["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"]
+level = "6"
+school = "Divination"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "mushroom powder worth 25+ GP, which the spell consumes"
+expensive_material_component = true
+material_component_cost = 2500
+material_component_consumed = true
+duration = "1 hour"
+description = "For the duration, the willing creature you touch has [[glossary:Truesight]] with a range of 120 feet."
+source = "Player's Handbook, p. 336"

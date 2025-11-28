@@ -1,0 +1,16 @@
+title = "Weird"
+spell_lists = ["Warlock", "Wizard"]
+level = "9"
+school = "Illusion"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius [[glossary:Sphere]] centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic damage and has the [[glossary:Frightened]] condition for the duration. On a successful save, a target takes half as much damage only.
+
+A [[glossary:Frightened]] target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes 5d10 Psychic damage. On a successful save, the spell ends on that target.
+"""
+source = "Player's Handbook, p. 341"

@@ -1,0 +1,24 @@
+title = "Polymorph"
+spell_lists = ["Bard", "Druid", "Sorcerer", "Wizard"]
+level = "4"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S", "M"]
+material = "a caterpillar cocoon"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = """
+You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into Beast form for the duration. That form can be any Beast you choose that has a [[glossary:Challenge Rating]] equal to or less than the target's (or the target's level if it doesn't have a [[glossary:Challenge Rating]]). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, [[glossary:Hit Points]], and [[glossary:Hit Point Dice]].
+
+The target gains a number of [[glossary:Temporary Hit Points]] equal to the [[glossary:Hit Points]] of the Beast form. These [[glossary:Temporary Hit Points]] vanish if any remain when the spell ends. The spell ends early on the target if it has no [[glossary:Temporary Hit Points]] left.
+
+The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.
+
+The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.
+"""
+source = "Player's Handbook, p. 306"

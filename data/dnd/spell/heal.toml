@@ -1,0 +1,13 @@
+title = "Heal"
+spell_lists = ["Cleric", "Druid"]
+level = "6"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 [[glossary:Hit Points]]. This spell also ends the [[glossary:Blinded]], [[glossary:Deafened]], and [[glossary:Poisoned]] conditions on the target."
+at_higher_levels = "The healing increases by 10 for each spell slot level above 6."
+source = "Player's Handbook, p. 284"

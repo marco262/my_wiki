@@ -1,0 +1,12 @@
+title = "Aura of Purity"
+spell_lists = ["Cleric", "Paladin"]
+level = "4"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:emanation]])"
+components = ["V"]
+duration = "10 minutes"
+description = "An aura radiates from you in a 30-foot [[glossary:Emanation]] for the duration. While in the aura, you and your allies have [[glossary:Resistance]] to Poison damage and [[glossary:Advantage]] on saving throws to avoid or end effects that include the [[glossary:Blinded]], [[glossary:Charmed]], [[glossary:Deafened]], [[glossary:Frightened]], [[glossary:Paralyzed]], [[glossary:Poisoned]], or [[glossary:Stunned]] condition."
+source = "Player's Handbook, p. 244"

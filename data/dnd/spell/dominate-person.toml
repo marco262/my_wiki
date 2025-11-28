@@ -1,0 +1,19 @@
+title = "Dominate Person"
+spell_lists = ["Bard", "Sorcerer", "Wizard"]
+level = "5"
+school = "Enchantment"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+One Humanoid you can see within range must succeed on a Wisdom saving throw or have the [[glossary:Charmed]] condition for the duration. The target has [[glossary:Advantage]] on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.
+
+You have a telepathic link with the [[glossary:Charmed]] target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"[[glossary:Attack]] that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.
+
+You can command the target to take a [[glossary:Reaction]] but must take your own [[glossary:Reaction]] to do so.
+"""
+at_higher_levels = "Your [[glossary:Concentration]] can last longer with a spell slot of level 6 (up to 10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours)."
+source = "Player's Handbook, p. 266"

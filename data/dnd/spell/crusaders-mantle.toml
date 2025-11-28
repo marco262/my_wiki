@@ -1,0 +1,12 @@
+title = "Crusader's Mantle"
+spell_lists = ["Paladin"]
+level = "3"
+school = "Evocation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:emanation]])"
+components = ["V"]
+duration = "1 minute"
+description = "You radiate a magical aura in a 30-foot [[glossary:Emanation]]. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an [[glossary:Unarmed Strike]]."
+source = "Player's Handbook, p. 259"

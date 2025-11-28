@@ -1,0 +1,22 @@
+title = "Sunbeam"
+spell_lists = ["Cleric", "Druid", "Sorcerer", "Wizard"]
+level = "6"
+school = "Evocation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (60-foot [[glossary:line]])"
+components = ["V", "S", "M"]
+material = "a magnifying glass"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+You launch a sunbeam in a 5-foot-wide, 60-foot-long [[glossary:Line]]. Each creature in the [[glossary:Line]] makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the [[glossary:Blinded]] condition until the start of your next turn. On a successful save, it takes half as much damage only.
+
+Until the spell ends, you can take a [[glossary:Magic]] action to create a new [[glossary:Line]] of radiance.
+
+For the duration, a mote of brilliant radiance shines above you. It sheds [[glossary:Bright Light]] in a 30-foot radius and [[glossary:Dim Light]] for an additional 30 feet. This light is sunlight.
+"""
+source = "Player's Handbook, p. 329"

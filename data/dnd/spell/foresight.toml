@@ -1,0 +1,16 @@
+title = "Foresight"
+spell_lists = ["Bard", "Druid", "Warlock", "Wizard"]
+level = "9"
+school = "Divination"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 minute"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a hummingbird feather"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "8 hours"
+description = "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has [[glossary:Advantage]] on [[glossary:D20 Test]], and other creatures have [[glossary:Disadvantage]] on attack rolls against it. The spell ends early if you cast it again."
+source = "Player's Handbook, p. 276"

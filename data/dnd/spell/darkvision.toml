@@ -1,0 +1,16 @@
+title = "Darkvision"
+spell_lists = ["Druid", "Ranger", "Sorcerer", "Wizard"]
+level = "2"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a dried carrot"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "8 hours"
+description = "For the duration, a willing creature you touch has [[glossary:Darkvision]] with a range of 150 feet."
+source = "Player's Handbook, p. 260"

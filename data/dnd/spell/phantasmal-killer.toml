@@ -1,0 +1,17 @@
+title = "Phantasmal Killer"
+spell_lists = ["Bard", "Wizard"]
+level = "4"
+school = "Illusion"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has [[glossary:Disadvantage]] on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.
+
+For the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.
+"""
+at_higher_levels = "The damage increases by 1d10 for each spell slot level above 4."
+source = "Player's Handbook, p. 304"

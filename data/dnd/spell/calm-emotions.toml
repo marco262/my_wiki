@@ -1,0 +1,17 @@
+title = "Calm Emotions"
+spell_lists = ["Bard", "Cleric"]
+level = "2"
+school = "Enchantment"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+Each Humanoid in a 20-foot-radius [[glossary:Sphere]] centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):
+
+ - The creature has [[glossary:Immunity]] to the [[glossary:Charmed]] and [[glossary:Frightened]] conditions until the spell ends. If the creature was already [[glossary:Charmed]] or [[glossary:Frightened]], those conditions are suppressed for the duration.
+ - The creature becomes [[glossary:Indifferent]] about creatures of your choice that it's [[glossary:Hostile]] toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature's attitude returns to normal.
+"""
+source = "Player's Handbook, p. 249"

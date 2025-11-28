@@ -1,0 +1,22 @@
+title = "Dispel Evil and Good"
+spell_lists = ["Cleric", "Paladin"]
+level = "5"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "powdered silver and iron"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+For the duration, Celestials, Elementals, Fey, Fiends, and Undead have [[glossary:Disadvantage]] on attack rolls against you. You can end the spell early by using either of the following special functions.
+
+**_Break Enchantment._** As a [[glossary:Magic]] action, you touch a creature that is possessed by or has the [[glossary:Charmed]] or [[glossary:Frightened]] condition from one or more creatures of the types above. The target is no longer possessed, [[glossary:Charmed]], or [[glossary:Frightened]] by such creatures.
+
+**_Dismissal._** As a [[glossary:Magic]] action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.
+"""
+source = "Player's Handbook, p. 263"

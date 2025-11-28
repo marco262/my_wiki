@@ -1,0 +1,12 @@
+title = "Harm"
+spell_lists = ["Cleric"]
+level = "6"
+school = "Necromancy"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6 Necrotic damage, and its [[glossary:Hit Points]] maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's [[glossary:Hit Points]] maximum below 1."
+source = "Player's Handbook, p. 283"

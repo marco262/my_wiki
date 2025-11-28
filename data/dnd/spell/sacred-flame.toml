@@ -1,0 +1,13 @@
+title = "Sacred Flame"
+spell_lists = ["Cleric"]
+level = "0"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half [[glossary:Cover]] or Three-Quarters [[glossary:Cover]] for this save."
+cantrip_upgrade = "The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+source = "Player's Handbook, p. 313"

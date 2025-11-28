@@ -1,0 +1,13 @@
+title = "Ray of Frost"
+spell_lists = ["Sorcerer", "Wizard"]
+level = "0"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its [[glossary:Speed]] is reduced by 10 feet until the start of your next turn."
+cantrip_upgrade = "The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+source = "Player's Handbook, p. 311"

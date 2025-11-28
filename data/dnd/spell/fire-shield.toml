@@ -1,0 +1,22 @@
+title = "Fire Shield"
+spell_lists = ["Druid", "Sorcerer", "Wizard"]
+level = "4"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "a bit of phosphorus or a firefly"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "10 minutes"
+description = """
+Wispy flames wreathe your body for the duration, shedding [[glossary:Bright Light]] in a 10-foot radius and [[glossary:Dim Light]] for an additional 10 feet.
+
+The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you [[glossary:Resistance]] to Cold damage, and the chill shield grants you [[glossary:Resistance]] to Fire damage.
+
+In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes 2d8 Fire damage from a warm shield or 2d8 Cold damage from a chill shield.
+"""
+source = "Player's Handbook, p. 274"

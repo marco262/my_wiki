@@ -1,0 +1,13 @@
+title = "Ray of Sickness"
+spell_lists = ["Sorcerer", "Wizard"]
+level = "1"
+school = "Necromancy"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the [[glossary:Poisoned]] condition until the end of your next turn."
+at_higher_levels = "The damage increases by 1d8 for each spell slot level above 1."
+source = "Player's Handbook, p. 311"

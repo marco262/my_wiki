@@ -1,0 +1,22 @@
+title = "Drawmij's Instant Summons"
+spell_lists = ["Wizard"]
+level = "6"
+school = "Conjuration"
+concentration_spell = false
+ritual_spell = true
+casting_time = "1 minute"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a sapphire worth 1,000+ GP"
+expensive_material_component = true
+material_component_cost = 100000
+material_component_consumed = false
+duration = "Until dispelled"
+description = """
+You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an [[glossary:Invisible]] mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.
+
+Thereafter, you can take a [[glossary:Magic]] action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.
+
+If another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.
+"""
+source = "Player's Handbook, p. 266"

@@ -1,0 +1,16 @@
+title = "Stoneskin"
+spell_lists = ["Druid", "Ranger", "Sorcerer", "Wizard"]
+level = "4"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "diamond dust worth 100+ GP, which the spell consumes"
+expensive_material_component = true
+material_component_cost = 10000
+material_component_consumed = true
+duration = "1 hour"
+description = "Until the spell ends, one willing creature you touch has [[glossary:Resistance]] to Bludgeoning, Piercing, and Slashing damage."
+source = "Player's Handbook, p. 321"

@@ -1,0 +1,22 @@
+title = "Slow"
+spell_lists = ["Bard", "Sorcerer", "Wizard"]
+level = "3"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S", "M"]
+material = "a drop of molasses"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+You alter time around up to six creatures of your choice in a 40-foot [[glossary:Cube]] within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.
+
+An affected target's [[glossary:Speed]] is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it can take either an action or a [[glossary:Bonus Action]], not both, and it can make only one attack if it takes the [[glossary:Attack]] action. If it casts a spell with a Somatic component, there is a 25 percent chance chance the spell fails as a result of the target making the spell's gestures too slowly.
+
+An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.
+"""
+source = "Player's Handbook, p. 318"

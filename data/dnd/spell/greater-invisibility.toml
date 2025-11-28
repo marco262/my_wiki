@@ -1,0 +1,12 @@
+title = "Greater Invisibility"
+spell_lists = ["Bard", "Sorcerer", "Wizard"]
+level = "4"
+school = "Illusion"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S"]
+duration = "1 minute"
+description = "A creature you touch has the [[glossary:Invisible]] condition until the spell ends."
+source = "Player's Handbook, p. 281"

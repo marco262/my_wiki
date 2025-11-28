@@ -1,0 +1,16 @@
+title = "Ray of Enfeeblement"
+spell_lists = ["Warlock", "Wizard"]
+level = "2"
+school = "Necromancy"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has [[glossary:Disadvantage]] on the next attack roll it makes until the start of your next turn.
+
+On a failed save, the target has [[glossary:Disadvantage]] on Strength-based [[glossary:D20 Test]] for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.
+"""
+source = "Player's Handbook, p. 311"

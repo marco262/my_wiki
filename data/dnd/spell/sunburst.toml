@@ -1,0 +1,22 @@
+title = "Sunburst"
+spell_lists = ["Cleric", "Druid", "Sorcerer", "Wizard"]
+level = "8"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "150 feet"
+components = ["V", "S", "M"]
+material = "a piece of sunstone"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+Brilliant sunlight flashes in a 60-foot-radius [[glossary:Sphere]] centered on a point you choose within range. Each creature in the [[glossary:Sphere]] makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the [[glossary:Blinded]] condition for 1 minute. On a successful save, it takes half as much damage only.
+
+A creature [[glossary:Blinded]] by this spell makes another Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+This spell dispels [[glossary:Darkness]] in its area that was created by any spell.
+"""
+source = "Player's Handbook, p. 329"

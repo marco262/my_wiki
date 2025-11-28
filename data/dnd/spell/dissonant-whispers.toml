@@ -1,0 +1,13 @@
+title = "Dissonant Whispers"
+spell_lists = ["Bard"]
+level = "1"
+school = "Enchantment"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V"]
+duration = "Instantaneous"
+description = "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its [[glossary:Reaction]], if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only."
+at_higher_levels = "The damage increases by 1d6 for each spell slot level above 1."
+source = "Player's Handbook, p. 264"

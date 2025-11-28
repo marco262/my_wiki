@@ -7,18 +7,16 @@ ritual_spell = false
 casting_time = "Action"
 range = "90 feet"
 components = ["V", "S"]
-material = ""
-expensive_material_component = false
-material_component_consumed = false
-duration = "Concentration, up to 10 minutes"
+duration = "10 minutes"
 description = """
-You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40- foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you move on your turn, you can also move the Cylinder up to 30 feet.
+You conjure a spirit from the Upper Planes, which manifests as a pillar of light in a 10-foot-radius, 40-foot-high [[glossary:Cylinder]] centered on a point within range. For each creature you can see in the [[glossary:Cylinder]], choose which of these lights shines on it:
 
-When a creature enters the Cylinder for the first time on a turn or starts its turn there, you can bathe that creature in one of the following lights:
+ - **Healing Light** The target regains [[glossary:Hit Points]] equal to 4d12 plus your spellcasting ability modifier.
+ - **Searing Light** The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.
 
-**Healing Light.** The creature that isn't an Undead or a Construct regains Hit Points equal to 4d12 plus your spellcasting modifier. A creature can be healed by this light only once per casting of this spell.
-**Searing Radiance.** The creature must make a Dexterity saving throw, taking 8d12 Radiant damage on a failed save or half as much damage on a successful one.
+Until the spell ends, [[glossary:Bright Light]] fills the [[glossary:Cylinder]], and when you move on your turn, you can also move the [[glossary:Cylinder]] up to 30 feet.
+
+Whenever the [[glossary:Cylinder]] moves into the space of a creature you can see and whenever a creature you can see enters the [[glossary:Cylinder]] or ends its turn there, you can bathe it in one of the lights. A creature can be affected by this spell only once per turn.
 """
-at_higher_levels = "When you cast this spell using a spell slot of level 8 or higher, the healing and damage increase by 1d12 for each slot level above 7."
-source = "Player's Handbook Playtest 8"
-source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"
+at_higher_levels = "The healing and damage increase by 1d12 for each spell slot level above 7."
+source = "Player's Handbook, p. 254"

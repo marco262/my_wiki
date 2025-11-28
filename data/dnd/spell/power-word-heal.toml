@@ -1,5 +1,4 @@
 title = "Power Word Heal"
-# Added classes to allow it to show up in the spell lists
 spell_lists = ["Bard", "Cleric"]
 level = "9"
 school = "Enchantment"
@@ -7,8 +6,7 @@ concentration_spell = false
 ritual_spell = false
 casting_time = "Action"
 range = "60 feet"
-components = ["V"]
+components = ["V", "S"]
 duration = "Instantaneous"
-description = """A wave of healing energy washes over a creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Dazed, Frightened, Paralyzed, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its reaction to stand up."""
-source = "Player's Handbook Playtest 6"
-source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-6"
+description = "A wave of healing energy washes over one creature you can see within range. The target regains all its [[glossary:Hit Points]]. If the creature has the [[glossary:Charmed]], [[glossary:Frightened]], [[glossary:Paralyzed]], [[glossary:Poisoned]], or [[glossary:Stunned]] condition, the condition ends. If the creature has the [[glossary:Prone]] condition, it can use its [[glossary:Reaction]] to stand up."
+source = "Player's Handbook, p. 306"

@@ -1,0 +1,22 @@
+title = "Feign Death"
+spell_lists = ["Bard", "Cleric", "Druid", "Wizard"]
+level = "3"
+school = "Necromancy"
+concentration_spell = false
+ritual_spell = true
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a pinch of graveyard dirt"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = """
+You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.
+
+For the duration, the target appears dead to outward inspection and to spells used to determine the target's status. The target has the [[glossary:Blinded]] and [[glossary:Incapacitated]] conditions, and its [[glossary:Speed]] is 0.
+
+The target also has [[glossary:Resistance]] to all damage except Psychic damage, and it has [[glossary:Immunity]] to the [[glossary:Poisoned]] condition.
+"""
+source = "Player's Handbook, p. 271"

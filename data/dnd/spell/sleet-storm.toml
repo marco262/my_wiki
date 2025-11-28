@@ -1,0 +1,20 @@
+title = "Sleet Storm"
+spell_lists = ["Druid", "Sorcerer", "Wizard"]
+level = "3"
+school = "Conjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "150 feet"
+components = ["V", "S", "M"]
+material = "a miniature umbrella"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = """
+Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius [[glossary:Cylinder]] centered on a point you choose within range. The area is [[glossary:Heavily Obscured]], and exposed flames in the area are doused.
+
+Ground in the [[glossary:Cylinder]] is [[glossary:Difficult Terrain]]. When a creature enters the [[glossary:Cylinder]] for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the [[glossary:Prone]] condition and lose [[glossary:Concentration]].
+"""
+source = "Player's Handbook, p. 317"

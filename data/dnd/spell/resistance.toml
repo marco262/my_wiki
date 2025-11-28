@@ -1,14 +1,12 @@
 title = "Resistance"
-# Added classes to allow it to show up in the spell lists
-spell_lists = ["Artificer", "Cleric", "Druid"]
+spell_lists = ["Cleric", "Druid"]
 level = "0"
 school = "Abjuration"
-concentration_spell = false
+concentration_spell = true
 ritual_spell = false
-casting_time = "Reaction, which you take in response to you or an ally within 10 feet of you failing a Saving Throw"
-range = "10 feet"
+casting_time = "Action"
+range = "Touch"
 components = ["V", "S"]
-duration = "Instantaneous"
-description = """You channel magical protection to the creature who failed the Saving Throw. That creature can roll a d4 and add the number rolled to the save, potentially turning it into a success."""
-source = "Cleric and Revised Species"
-source_link = "https://www.dndbeyond.com/sources/ua/cleric-revised-species"
+duration = "1 minute"
+description = "You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn."
+source = "Player's Handbook, p. 312"

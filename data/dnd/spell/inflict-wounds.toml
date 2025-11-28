@@ -1,0 +1,13 @@
+title = "Inflict Wounds"
+spell_lists = ["Cleric"]
+level = "1"
+school = "Necromancy"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one."
+at_higher_levels = "The damage increases by 1d10 for each spell slot level above 1."
+source = "Player's Handbook, p. 288"

@@ -1,0 +1,16 @@
+title = "Compulsion"
+spell_lists = ["Bard"]
+level = "4"
+school = "Enchantment"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "30 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the [[glossary:Charmed]] condition until the spell ends.
+
+For the duration, you can take a [[glossary:Bonus Action]] to designate a direction that is horizontal to you. Each [[glossary:Charmed]] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.
+"""
+source = "Player's Handbook, p. 252"

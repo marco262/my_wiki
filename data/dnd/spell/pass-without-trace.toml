@@ -1,0 +1,16 @@
+title = "Pass without Trace"
+spell_lists = ["Druid", "Ranger"]
+level = "2"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:emanation]])"
+components = ["V", "S", "M"]
+material = "ashes from burned mistletoe"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = "You radiate a concealing aura in a 30-foot [[glossary:Emanation]] for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity ([[tooltip:Stealth]]) checks and leave no tracks."
+source = "Player's Handbook, p. 303"

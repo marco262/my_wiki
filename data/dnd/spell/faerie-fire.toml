@@ -1,0 +1,16 @@
+title = "Faerie Fire"
+spell_lists = ["Bard", "Druid"]
+level = "1"
+school = "Evocation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V"]
+duration = "1 minute"
+description = """
+Objects in a 20-foot [[glossary:Cube]] within range are outlined in blue, green, or violet light (your choice). Each creature in the [[glossary:Cube]] is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed [[glossary:Dim Light]] in a 10-foot radius and can't benefit from the [[glossary:Invisible]] condition.
+
+[[glossary:Attack]] rolls against an affected creature or object have [[glossary:Advantage]] if the attacker can see it.
+"""
+source = "Player's Handbook, p. 271"

@@ -1,0 +1,17 @@
+title = "Flame Strike"
+spell_lists = ["Cleric"]
+level = "5"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "60 feet"
+components = ["V", "S", "M"]
+material = "a pinch of sulfur"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "Instantaneous"
+description = "A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high [[glossary:Cylinder]] centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one."
+at_higher_levels = "The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5."
+source = "Player's Handbook, p. 275"

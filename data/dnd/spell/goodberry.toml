@@ -1,0 +1,20 @@
+title = "Goodberry"
+spell_lists = ["Druid", "Ranger"]
+level = "1"
+school = "Conjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a sprig of mistletoe"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "24 hours"
+description = """
+Ten berries appear in your hand and are infused with magic for the duration. A creature can take a [[glossary:Bonus Action]] to eat one berry. Eating a berry restores 1 [[glossary:Hit Points]], and the berry provides enough nourishment to sustain a creature for one day.
+
+Uneaten berries disappear when the spell ends.
+"""
+source = "Player's Handbook, p. 280"

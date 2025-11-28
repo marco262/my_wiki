@@ -1,5 +1,4 @@
 title = "Find Familiar"
-# Added classes to allow it to show up in the spell lists
 spell_lists = ["Wizard"]
 level = "1"
 school = "Conjuration"
@@ -8,56 +7,22 @@ ritual_spell = true
 casting_time = "1 hour"
 range = "10 feet"
 components = ["V", "S", "M"]
-material = "10 GP worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier"
-expensive_material_component = false
-material_component_consumed = false
+material = "burning incense worth 10+ GP, which the spell consumes"
+expensive_material_component = true
+material_component_cost = 1000
+material_component_consumed = true
 duration = "Instantaneous"
 description = """
-<div class="monster-float">
+You gain the service of a familiar, a spirit that takes an animal form you choose: [[[monster:Bat]]], [[[monster:Cat]]], [[[monster:Frog]]], [[[monster:Hawk]]], [[[monster:Lizard]]], [[[monster:Octopus]]], [[[monster:Owl]]], [[[monster:Rat]]], [[[monster:Raven]]], [[[monster:Spider]]], [[[monster:Weasel]]], or another Beast that has a Challenge Rating of 0. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.
 
-[[include dnd/monster-sheet.tpl]]
-width = 500px
-name = Otherworldly Familiar
-size = Tiny
-type = Celestial, Fey, or Fiend (Choose When Casting the Spell)
-alignment = Neutral
-armor_class = 10 + 2 (Land only) + 1 per spell level (natural armor)
-hit_points = 2 + 2 per spell level (the familiar has a number of Hit Dice [d4s] equal to the spell's level)
-speed = 30 ft., Climb 30 ft. (Land only), Fly 30 ft. (Air only), Swim 30 ft. (Water only)
-strength = 3
-dexterity = 14
-constitution = 10
-intelligence = 10
-wisdom = 14
-charisma = 8
-senses = darkvision 60 ft., passive Perception 12
-languages = [[glossary:Telepathy]] 120 ft. (only between you and the familiar)
-proficiency_bonus = equals your bonus
-special_abilities = !!!
-***Amphibious (Water Only).*** The familiar can breathe air and water.
+**_Telepathic Connection._** While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a [[glossary:Bonus Action]], you can see through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has.
 
-***Extradimensional Escape (Recharges after a Long Rest).*** When the familiar would drop to 0 Hit Points, it instead drops to 1 Hit Point and vanishes into an extradimensional space, leaving behind anything it was wearing or carrying. It remains there for 1 hour or until you summon it as a [[glossary:Magic]] action, and then it reappears in your space.
-!!!
-actions = !!!
-***Otherworldly Scratch.*** _Melee Spell Attack:_ your Spell Attack Modifier to hit, reach 5 ft., one target. _Hit:_ 1 + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend).
-!!!
-reactions = !!!
-***Deliver Spell.*** When you cast a spell with a range of touch, the familiar can deliver the spell with its touch. To do so, the familiar must be within 120 feet of you.
-!!!
-[[/include]]
+Finally, when you cast a spell with a range of touch, your familiar can deliver the touch. Your familiar must be within 100 feet of you, and it must take a [[glossary:Reaction]] to deliver the touch when you cast the spell.
 
-</div>
+**_Combat._** The familiar is an ally to you and your allies. It rolls its own [[glossary:Initiative]] and acts on its own turn. A familiar can't attack, but it can take other actions as normal.
 
-You gain the service of an otherworldly spirit, which manifests as a little animal in an unoccupied space of your choice within range. This creature uses the Otherworldly Familiar stat block. If you already have a familiar from this spell, that familiar transforms into the new one but retains its memories; you don't get a second familiar.
+**_Disappearance of the Familiar._** When the familiar drops to 0 [[glossary:Hit Points]], it disappears. It reappears after you cast this spell again. As a [[glossary:Magic]] action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a [[glossary:Magic]] action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the familiar drops to 0 [[glossary:Hit Points]] or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.
 
-Whenever you cast the spell, choose the familiar's creature type: Celestial, Fey, or Fiend. Also choose an environment: Air, Land, or Water. The familiar resembles a Tiny animal of your choice -- such as an owl, a cat, or a frog -- that is native to the chosen environment. Both choices -- creature type and environment -- determine certain traits in the stat block.
-
-***Combat.*** The familiar is an ally to you and your companions. In combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you), but the familiar can't attack unless you use your Reaction on its turn to command it do so.
-
-If you don't issue any commands, the familiar takes the Dodge action and uses its move to avoid danger.
-
-***Disappearance of the Familiar.*** The familiar disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the familiar that disappeared or a different one.
-
-***Remote Viewing.*** As a [[glossary:Magic]] action, you can see what your familiar sees and hear what it hears until the end of your next turn."""
-source = "Druid and Paladin"
-source_link = "https://www.dndbeyond.com/sources/ua/druid-paladin"
+**_One Familiar Only._** You can't have more than one familiar at a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible form.
+"""
+source = "Player's Handbook, p. 272"

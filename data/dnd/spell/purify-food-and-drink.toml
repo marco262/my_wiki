@@ -1,0 +1,12 @@
+title = "Purify Food and Drink"
+spell_lists = ["Cleric", "Druid", "Paladin"]
+level = "1"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = true
+casting_time = "Action"
+range = "10 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "You remove poison and rot from nonmagical food and drink in a 5-foot-radius [[glossary:Sphere]] centered on a point within range."
+source = "Player's Handbook, p. 310"

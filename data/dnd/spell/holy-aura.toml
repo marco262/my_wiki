@@ -1,0 +1,16 @@
+title = "Holy Aura"
+spell_lists = ["Cleric"]
+level = "8"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:emanation]])"
+components = ["V", "S", "M"]
+material = "a reliquary worth 1,000+ GP"
+expensive_material_component = true
+material_component_cost = 100000
+material_component_consumed = false
+duration = "1 minute"
+description = "For the duration, you emit an aura in a 30-foot [[glossary:Emanation]]. While in the aura, creatures of your choice have [[glossary:Advantage]] on all saving throws, and other creatures have [[glossary:Disadvantage]] on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the [[glossary:Blinded]] condition until the end of its next turn."
+source = "Player's Handbook, p. 286"

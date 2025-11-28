@@ -1,0 +1,12 @@
+title = "Protection from Poison"
+spell_lists = ["Cleric", "Druid", "Paladin", "Ranger"]
+level = "2"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S"]
+duration = "1 hour"
+description = "You touch a creature and end the [[glossary:Poisoned]] condition on it. For the duration, the target has [[glossary:Advantage]] on saving throws to avoid or end the [[glossary:Poisoned]] condition, and it has [[glossary:Resistance]] to Poison damage."
+source = "Player's Handbook, p. 310"

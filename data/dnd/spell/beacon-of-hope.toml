@@ -1,0 +1,12 @@
+title = "Beacon of Hope"
+spell_lists = ["Cleric"]
+level = "3"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "30 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = "Choose any number of creatures within range. For the duration, each target has [[glossary:Advantage]] on Wisdom saving throws and [[glossary:Death Saving Throw]] and regains the maximum number of [[glossary:Hit Points]] possible from any healing."
+source = "Player's Handbook, p. 245"

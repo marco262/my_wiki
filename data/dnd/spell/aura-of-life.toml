@@ -1,0 +1,12 @@
+title = "Aura of Life"
+spell_lists = ["Cleric", "Paladin"]
+level = "4"
+school = "Abjuration"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self (30-foot [[glossary:emanation]])"
+components = ["V"]
+duration = "10 minutes"
+description = "An aura radiates from you in a 30-foot [[glossary:Emanation]] for the duration. While in the aura, you and your allies have [[glossary:Resistance]] to Necrotic damage, and your [[glossary:Hit Points]] maximums can't be reduced. If an ally with 0 [[glossary:Hit Points]] starts its turn in the aura, that ally regains 1 [[glossary:Hit Points]]."
+source = "Player's Handbook, p. 244"

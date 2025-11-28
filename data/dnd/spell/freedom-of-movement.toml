@@ -1,0 +1,21 @@
+title = "Freedom of Movement"
+spell_lists = ["Bard", "Cleric", "Druid", "Ranger"]
+level = "4"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "Touch"
+components = ["V", "S", "M"]
+material = "a leather strap"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 hour"
+description = """
+You touch a willing creature. For the duration, the target's movement is unaffected by [[glossary:Difficult Terrain]], and spells and other magical effects can neither reduce the target's [[glossary:Speed]] nor cause the target to have the [[glossary:Paralyzed]] or [[glossary:Restrained]] conditions. The target also has a [[glossary:Swim Speed]] equal to its [[glossary:Speed]].
+
+In addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the [[glossary:Grappled]] condition on it.
+"""
+at_higher_levels = "You can target one additional creature for each spell slot level above 4."
+source = "Player's Handbook, p. 277"

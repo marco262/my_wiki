@@ -5,17 +5,13 @@ school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
 casting_time = "Action"
-range = "Self (15-foot radius)"
+range = "Self (15-foot [[glossary:emanation]])"
 components = ["V", "S"]
-material = ""
-expensive_material_component = false
-material_component_consumed = false
-duration = "Concentration, up to 10 minutes"
+duration = "10 minutes"
 description = """
-You summon elemental spirits that a flit around you for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature within 15 feet of you. This damage is Bludgeoning, Cold, Fire, or Lightning (your choice when you make the attack).
+You conjure spirits from the Elemental Planes that flit around you in a 15-foot [[glossary:Emanation]] for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the [[glossary:Emanation]]. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 
-In addition, the ground within 15 feet of you is [[glossary:Difficult Terrain]] for your enemies.
+In addition, the ground in the [[glossary:Emanation]] is [[glossary:Difficult Terrain]] for your enemies.
 """
-at_higher_levels = "When you cast this spell using a spell slot of level 5 or higher, the damage increases by 2d8 and the range of [[glossary:Difficult Terrain]] increases by 5 feet for each slot level above 4."
-source = "Player's Handbook Playtest 8"
-source_link = "https://www.dndbeyond.com/sources/ua/ph-playtest-8"
+at_higher_levels = "The damage increases by 1d8 for each spell slot level above 4."
+source = "Player's Handbook, p. 255"
