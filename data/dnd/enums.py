@@ -141,12 +141,6 @@ source_acronyms = {
     "Waterdeep: Dragon Heist": "WDH",
     "Guildmaster's Guide to Ravnica": "GGR",
     "Homebrew": "Home",
-    "Cleric and Revised Species": "CaRS",
-    "Druid and Paladin": "DaP",
-    "Player's Handbook Playtest 6": "PHP6",
-    "Player's Handbook Playtest 7": "PHP7",
-    "Bastions and Cantrips": "BaC",
-    "Player's Handbook Playtest 8": "PHP8",
 }
 
 ability_scores = [
