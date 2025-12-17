@@ -18,7 +18,7 @@ I've modified the rules for spell preparation from what's available in the Playe
 
 [[/errata]]
 
-Some classes can change all their spells on a long rest, and some have slightly different rules for what spells they can change on long rests vs gaining a level. See the table below for a summary of all classes rules for changing spells.
+Some classes can change all their spells on a [[glossary:Long Rest]], and some have slightly different rules for what spells they can change on long rests vs gaining a level. See the table below for a summary of all classes rules for changing spells.
 
 | Class     | Finish a Long Rest | Gain a Level |
 |-----------|--------------------|--------------|
