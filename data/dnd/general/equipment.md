@@ -595,7 +595,7 @@ When you take the [[glossary:Attack]] action, you can replace one of your attack
 
 Ammunition is required by a weapon that has the [[tooltip:Ammunition]] property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.
 
-<h4 class="table-header">Ammunition</h4>
+#### Ammunition
 
 | Type                         | Amount | Storage                         | Weight | Cost |
 |------------------------------|--------|---------------------------------|--------|------|
@@ -617,7 +617,7 @@ As a Bonus Action, you can drink a vial of Antitoxin to gain [[glossary:Advantag
 
 An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
 
-<h4 class="table-header">Arcane Focuses</h4>
+#### Arcane Focuses
 
 | Focus                                   | Weight | Cost  |
 |-----------------------------------------|--------|-------|
@@ -783,7 +783,7 @@ A Diplomat's Pack contains the following items: [[tooltip:Chest]], [[tooltip:Clo
 
 A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.
 
-<h4 class="table-header">Druidic Focuses</h4>
+#### Druidic Focuses
 
 | Focus                                          | Weight | Cost  |
 |------------------------------------------------|--------|-------|
@@ -835,7 +835,7 @@ A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled o
 
 The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.
 
-<h4 class="table-header">Holy Symbols</h4>
+#### Holy Symbols
 
 | Symbol                               | Weight | Cost |
 |--------------------------------------|--------|------|

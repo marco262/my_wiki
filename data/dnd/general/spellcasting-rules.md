@@ -1,487 +1,226 @@
-This section presents new or revised spells for you to playtest. It also includes the Arcane, Divine, and Primal spell lists.
+[[breadcrumb /dnd/|2024 D&D]]
 
-If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.
+This section gives rules for casting spells. See the [Spell Filter](/dnd/spell_filter), or individual class spell lists, for a list of common spells in the worlds of Dungeons & Dragons. Those spells are used by many class features, magic items, and monsters.
 
-## Arcane Spells
+# Gaining Spells
 
-An Arcane spell draws on the ambient magic of the multiverse. Sorcerers, Warlocks, and Wizards are among those who harness this magic.
+Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a [[tooltip:Spell Scroll]]. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared.
 
-The Arcane Spells table is a partial list of Arcane spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
+## Preparing Spells
 
-| Lvl | Spell                                            | School         | Ritual |
-|:---:|--------------------------------------------------|----------------|:------:|
-|  0  | _[[[spell:Acid Splash]]]_                        | Conjuration    |   No   |
-|  0  | _[[[spell:Blade Ward]]]_                         | Abjuration     |   No   |
-|  0  | _[[[spell:Chill Touch]]]_                        | Necromancy     |   No   |
-|  0  | _[[[spell:Dancing Lights]]]_                     | Illusion*      |   No   |
-|  0  | _[[[spell:Ego Shock]]]_                          | Enchantment    |   No   |
-|  0  | _[[[spell:Elementalism]]]_                       | Transmutation  |   No   |
-|  0  | _[[[spell:Fire Bolt]]]_                          | Evocation      |   No   |
-|  0  | _[[[spell:Friends]]]_                            | Enchantment    |   No   |
-|  0  | _[[[spell:Frostbite]]]_                          | Evocation      |   No   |
-|  0  | _[[[spell:Light]]]_                              | Evocation      |   No   |
-|  0  | _[[[spell:Mage Hand]]]_                          | Conjuration    |   No   |
-|  0  | _[[[spell:Mending]]]_                            | Transmutation  |   No   |
-|  0  | _[[[spell:Message]]]_                            | Transmutation  |   No   |
-|  0  | _[[[spell:Mind Sliver]]]_                        | Enchantment    |   No   |
-|  0  | _[[[spell:Minor Illusion]]]_                     | Illusion       |   No   |
-|  0  | _[[[spell:Poison Spray]]]_                       | Conjuration    |   No   |
-|  0  | _[[[spell:Prestidigitation]]]_                   | Transmutation  |   No   |
-|  0  | _[[[spell:Ray of Frost]]]_                       | Evocation      |   No   |
-|  0  | _[[[spell:Shocking Grasp]]]_                     | Evocation      |   No   |
-|  0  | _[[[spell:Thunderclap]]]_                        | Evocation      |   No   |
-|  0  | _[[[spell:Toll the Dead]]]_                      | Necromancy     |   No   |
-|  0  | _[[[spell:True Strike]]]_                        | Divination     |   No   |
-|  1  | _[[[spell:Alarm]]]_                              | Abjuration     |  Yes   |
-|  1  | _[[[spell:Armor of Agathys]]]_                   | Abjuration     |   No   |
-|  1  | _[[[spell:Arms of Hadar]]]_                      | Conjuration    |   No   |
-|  1  | _[[[spell:Burning Hands]]]_                      | Evocation      |   No   |
-|  1  | _[[[spell:Charm Person]]]_                       | Enchantment    |   No   |
-|  1  | _[[[spell:Chromatic Orb]]]_                      | Evocation      |   No   |
-|  1  | _[[[spell:Color Spray]]]_                        | Illusion       |   No   |
-|  1  | _[[[spell:Comprehend Languages]]]_               | Divination     |  Yes   |
-|  1  | _[[[spell:Detect Magic]]]_                       | Divination     |  Yes   |
-|  1  | _[[[spell:Disguise Self]]]_                      | Illusion       |   No   |
-|  1  | _[[[spell:Dissonant Whispers]]]_                 | Enchantment    |   No   |
-|  1  | _[[[spell:Expeditious Retreat]]]_                | Transmutation  |   No   |
-|  1  | _[[[spell:Fall]]]_                               | Transmutation  |   No   |
-|  1  | _[[[spell:False Life]]]_                         | Necromancy     |   No   |
-|  1  | _[[[spell:Feather Fall]]]_                       | Transmutation  |   No   |
-|  1  | _[[[spell:Find Familiar]]]_                      | Conjuration    |  Yes   |
-|  1  | _[[[spell:Fog Cloud]]]_                          | Conjuration    |   No   |
-|  1  | _[[[spell:Grease]]]_                             | Conjuration    |   No   |
-|  1  | _[[[spell:Hellish Rebuke]]]_                     | Evocation      |   No   |
-|  1  | _[[[spell:Identify]]]_                           | Divination     |  Yes   |
-|  1  | _[[[spell:Illusory Script]]]_                    | Illusion       |  Yes   |
-|  1  | _[[[spell:Jump]]]_                               | Transmutation  |   No   |
-|  1  | _[[[spell:Longstrider]]]_                        | Transmutation  |   No   |
-|  1  | _[[[spell:Mage Armor]]]_                         | Abjuration     |   No   |
-|  1  | _[[[spell:Magic Missile]]]_                      | Evocation      |   No   |
-|  1  | _[[[spell:Protection from Evil and Good]]]_      | Abjuration     |   No   |
-|  1  | _[[[spell:Ray of Sickness]]]_                    | Necromancy     |   No   |
-|  1  | _[[[spell:Shield]]]_                             | Abjuration     |   No   |
-|  1  | _[[[spell:Silent Image]]]_                       | Illusion       |   No   |
-|  1  | _[[[spell:Sleep]]]_                              | Enchantment    |   No   |
-|  1  | _[[[spell:Stranger's Guise]]]_                   | Illusion       |   No   |
-|  1  | _[[[spell:Tasha's Hideous Laughter]]]_           | Enchantment    |   No   |
-|  1  | _[[[spell:Tenser's Floating Disk]]]_             | Conjuration    |  Yes   |
-|  1  | _[[[spell:Thunderwave]]]_                        | Evocation      |   No   |
-|  1  | _[[[spell:Unseen Servant]]]_                     | Conjuration    |  Yes   |
-|  1  | _[[[spell:Witch Bolt]]]_                         | Evocation      |   No   |
-|  2  | _[[[spell:Alter Self]]]_                         | Transmutation  |   No   |
-|  2  | _[[[spell:Arcane Lock]]]_                        | Abjuration     |   No   |
-|  2  | _[[[spell:Blindness/Deafness]]]_                 | Transmutation* |   No   |
-|  2  | _[[[spell:Blur]]]_                               | Illusion       |   No   |
-|  2  | _[[[spell:Calm Emotions]]]_                      | Enchantment    |   No   |
-|  2  | _[[[spell:Cloud of Daggers]]]_                   | Conjuration    |   No   |
-|  2  | _[[[spell:Continual Flame]]]_                    | Evocation      |   No   |
-|  2  | _[[[spell:Crown of Madness]]]_                   | Enchantment    |   No   |
-|  2  | _[[[spell:Darkness]]]_                           | Evocation      |   No   |
-|  2  | _[[[spell:Darkvision]]]_                         | Transmutation  |   No   |
-|  2  | _[[[spell:Detect Thoughts]]]_                    | Divination     |   No   |
-|  2  | _[[[spell:Enlarge/Reduce]]]_                     | Transmutation  |   No   |
-|  2  | _[[[spell:Enthrall]]]_                           | Enchantment    |   No   |
-|  2  | _[[[spell:Flaming Sphere]]]_                     | Evocation*     |   No   |
-|  2  | _[[[spell:Gust of Wind]]]_                       | Evocation      |   No   |
-|  2  | _[[[spell:Hold Person]]]_                        | Enchantment    |   No   |
-|  2  | _[[[spell:Invisibility]]]_                       | Illusion       |   No   |
-|  2  | _[[[spell:Knock]]]_                              | Transmutation  |   No   |
-|  2  | _[[[spell:Levitate]]]_                           | Transmutation  |   No   |
-|  2  | _[[[spell:Locate Object]]]_                      | Divination     |   No   |
-|  2  | _[[[spell:Magic Mouth]]]_                        | Illusion       |  Yes   |
-|  2  | _[[[spell:Magic Weapon]]]_                       | Transmutation  |   No   |
-|  2  | _[[[spell:Melf's Acid Arrow]]]_                  | Evocation      |   No   |
-|  2  | _[[[spell:Mirror Image]]]_                       | Illusion       |   No   |
-|  2  | _[[[spell:Misty Step]]]_                         | Conjuration    |   No   |
-|  2  | _[[[spell:Nystul's Magic Aura]]]_                | Illusion       |   No   |
-|  2  | _[[[spell:Phantasmal Force]]]_                   | Illusion       |   No   |
-|  2  | _[[[spell:Ray of Enfeeblement]]]_                | Necromancy     |   No   |
-|  2  | _[[[spell:Rope Trick]]]_                         | Transmutation  |   No   |
-|  2  | _[[[spell:Scorching Ray]]]_                      | Evocation      |   No   |
-|  2  | _[[[spell:See Invisibility]]]_                   | Divination     |   No   |
-|  2  | _[[[spell:Shatter]]]_                            | Evocation      |   No   |
-|  2  | _[[[spell:Spider Climb]]]_                       | Transmutation  |   No   |
-|  2  | _[[[spell:Suggestion]]]_                         | Enchantment    |   No   |
-|  2  | _[[[spell:Web]]]_                                | Conjuration    |   No   |
-|  3  | _[[[spell:Animate Dead]]]_                       | Necromancy     |   No   |
-|  3  | _[[[spell:Bestow Curse]]]_                       | Necromancy     |   No   |
-|  3  | _[[[spell:Blink]]]_                              | Transmutation  |   No   |
-|  3  | _[[[spell:Clairvoyance]]]_                       | Divination     |   No   |
-|  3  | _[[[spell:Counterspell]]]_                       | Abjuration     |   No   |
-|  3  | _[[[spell:Dispel Magic]]]_                       | Abjuration     |   No   |
-|  3  | _[[[spell:Excite Emotions]]]_                    | Enchantment    |   No   |
-|  3  | _[[[spell:Fear]]]_                               | Illusion       |   No   |
-|  3  | _[[[spell:Fireball]]]_                           | Evocation      |   No   |
-|  3  | _[[[spell:Fly]]]_                                | Transmutation  |   No   |
-|  3  | _[[[spell:Gaseous Form]]]_                       | Transmutation  |   No   |
-|  3  | _[[[spell:Glyph of Warding]]]_                   | Abjuration     |   No   |
-|  3  | _[[[spell:Haste]]]_                              | Transmutation  |   No   |
-|  3  | _[[[spell:Hunger of Hadar]]]_                    | Conjuration    |   No   |
-|  3  | _[[[spell:Hypnotic Pattern]]]_                   | Illusion       |   No   |
-|  3  | _[[[spell:Leomund's Tiny Hut]]]_                 | Evocation      |  Yes   |
-|  3  | _[[[spell:Lightning Bolt]]]_                     | Evocation      |   No   |
-|  3  | _[[[spell:Magic Circle]]]_                       | Abjuration     |   No   |
-|  3  | _[[[spell:Major Image]]]_                        | Illusion       |   No   |
-|  3  | _[[[spell:Nondetection]]]_                       | Abjuration     |   No   |
-|  3  | _[[[spell:Phantom Steed]]]_                      | Illusion       |  Yes   |
-|  3  | _[[[spell:Protection from Energy]]]_             | Abjuration     |   No   |
-|  3  | _[[[spell:Remove Curse]]]_                       | Abjuration     |   No   |
-|  3  | _[[[spell:Sending]]]_                            | Divination*    |   No   |
-|  3  | _[[[spell:Sleet Storm]]]_                        | Conjuration    |   No   |
-|  3  | _[[[spell:Slow]]]_                               | Transmutation  |   No   |
-|  3  | _[[[spell:Stinking Cloud]]]_                     | Conjuration    |   No   |
-|  3  | _[[[spell:Tongues]]]_                            | Divination     |   No   |
-|  3  | _[[[spell:Vampiric Touch]]]_                     | Necromancy     |   No   |
-|  3  | _[[[spell:Water Breathing]]]_                    | Transmutation  |  Yes   |
-|  4  | _[[[spell:Arcane Eye]]]_                         | Divination     |   No   |
-|  4  | _[[[spell:Banishment]]]_                         | Abjuration     |   No   |
-|  4  | _[[[spell:Blight]]]_                             | Necromancy     |   No   |
-|  4  | _[[[spell:Compulsion]]]_                         | Enchantment    |   No   |
-|  4  | _[[[spell:Confusion]]]_                          | Enchantment    |   No   |
-|  4  | _[[[spell:Conjure Minor Elementals]]]_           | Conjuration    |   No   |
-|  4  | _[[[spell:Control Water]]]_                      | Transmutation  |   No   |
-|  4  | _[[[spell:Dimension Door]]]_                     | Conjuration    |   No   |
-|  4  | _[[[spell:Evard's Black Tentacles]]]_            | Conjuration    |   No   |
-|  4  | _[[[spell:Fabricate]]]_                          | Transmutation  |   No   |
-|  4  | _[[[spell:Fire Shield]]]_                        | Evocation      |   No   |
-|  4  | _[[[spell:Greater Invisibility]]]_               | Illusion       |   No   |
-|  4  | _[[[spell:Hallucinatory Terrain]]]_              | Illusion       |   No   |
-|  4  | _[[[spell:Ice Storm]]]_                          | Evocation      |   No   |
-|  4  | _[[[spell:Leomund's Secret Chest]]]_             | Conjuration    |   No   |
-|  4  | _[[[spell:Locate Creature]]]_                    | Divination     |   No   |
-|  4  | _[[[spell:Mordenkainen's Faithful Hound]]]_      | Conjuration    |   No   |
-|  4  | _[[[spell:Mordenkainen's Private Sanctum]]]_     | Abjuration     |   No   |
-|  4  | _[[[spell:Otiluke's Resilient Sphere]]]_         | Evocation      |   No   |
-|  4  | _[[[spell:Phantasmal Killer]]]_                  | Illusion       |   No   |
-|  4  | _[[[spell:Polymorph]]]_                          | Transmutation  |   No   |
-|  4  | _[[[spell:Stone Shape]]]_                        | Transmutation  |   No   |
-|  4  | _[[[spell:Stoneskin]]]_                          | Transmutation* |   No   |
-|  4  | _[[[spell:Wall of Fire]]]_                       | Evocation      |   No   |
-|  5  | _[[[spell:Animate Objects]]]_                    | Transmutation  |   No   |
-|  5  | _[[[spell:Bigby's Hand]]]_                       | Evocation      |   No   |
-|  5  | _[[[spell:Cloudkill]]]_                          | Conjuration    |   No   |
-|  5  | _[[[spell:Cone of Cold]]]_                       | Evocation      |   No   |
-|  5  | _[[[spell:Conjure Elemental]]]_                  | Conjuration    |   No   |
-|  5  | _[[[spell:Contact Other Plane]]]_                | Divination     |  Yes   |
-|  5  | _[[[spell:Creation]]]_                           | Illusion       |   No   |
-|  5  | _[[[spell:Dominate Person]]]_                    | Enchantment    |   No   |
-|  5  | _[[[spell:Dream]]]_                              | Illusion       |   No   |
-|  5  | _[[[spell:Geas]]]_                               | Enchantment    |   No   |
-|  5  | _[[[spell:Hold Monster]]]_                       | Enchantment    |   No   |
-|  5  | _[[[spell:Legend Lore]]]_                        | Divination     |   No   |
-|  5  | _[[[spell:Mislead]]]_                            | Illusion       |   No   |
-|  5  | _[[[spell:Modify Memory]]]_                      | Enchantment    |   No   |
-|  5  | _[[[spell:Passwall]]]_                           | Transmutation  |   No   |
-|  5  | _[[[spell:Planar Binding]]]_                     | Abjuration     |   No   |
-|  5  | _[[[spell:Rary's Telepathic Bond]]]_             | Divination     |  Yes   |
-|  5  | _[[[spell:Scrying]]]_                            | Divination     |   No   |
-|  5  | _[[[spell:Seeming]]]_                            | Illusion       |   No   |
-|  5  | _[[[spell:Telekinesis]]]_                        | Transmutation  |   No   |
-|  5  | _[[[spell:Teleportation Circle]]]_               | Conjuration    |   No   |
-|  5  | _[[[spell:Wall of Force]]]_                      | Evocation      |   No   |
-|  5  | _[[[spell:Wall of Stone]]]_                      | Evocation      |   No   |
-|  6  | _[[[spell:Arcane Gate]]]_                        | Conjuration    |   No   |
-|  6  | _[[[spell:Chain Lightning]]]_                    | Evocation      |   No   |
-|  6  | _[[[spell:Circle of Death]]]_                    | Necromancy     |   No   |
-|  6  | _[[[spell:Contingency]]]_                        | Abjuration*    |   No   |
-|  6  | _[[[spell:Create Undead]]]_                      | Necromancy     |   No   |
-|  6  | _[[[spell:Disintegrate]]]_                       | Transmutation  |   No   |
-|  6  | _[[[spell:Eyebite]]]_                            | Necromancy     |   No   |
-|  6  | _[[[spell:Flesh to Stone]]]_                     | Transmutation  |   No   |
-|  6  | _[[[spell:Globe of Invulnerability]]]_           | Abjuration     |   No   |
-|  6  | _[[[spell:Guards and Wards]]]_                   | Abjuration     |   No   |
-|  6  | _[[[spell:Instant Summons]]]_                    | Conjuration    |  Yes   |
-|  6  | _[[[spell:Magic Jar]]]_                          | Necromancy     |   No   |
-|  6  | _[[[spell:Mass Suggestion]]]_                    | Enchantment    |   No   |
-|  6  | _[[[spell:Move Earth]]]_                         | Transmutation  |   No   |
-|  6  | _[[[spell:Otiluke's Freezing Sphere]]]_          | Evocation      |   No   |
-|  6  | _[[[spell:Otto's Irresistible Dance]]]_          | Enchantment    |   No   |
-|  6  | _[[[spell:Programmed Illusion]]]_                | Illusion       |   No   |
-|  6  | _[[[spell:Sunbeam]]]_                            | Evocation      |   No   |
-|  6  | _[[[spell:True Seeing]]]_                        | Divination     |   No   |
-|  6  | _[[[spell:Wall of Ice]]]_                        | Evocation      |   No   |
-|  7  | _[[[spell:Delayed Blast Fireball]]]_             | Evocation      |   No   |
-|  7  | _[[[spell:Etherealness]]]_                       | Transmutation  |   No   |
-|  7  | _[[[spell:Finger of Death]]]_                    | Necromancy     |   No   |
-|  7  | _[[[spell:Forcecage]]]_                          | Evocation      |   No   |
-|  7  | _[[[spell:Mirage Arcane]]]_                      | Illusion       |   No   |
-|  7  | _[[[spell:Mordenkainen's Magnificent Mansion]]]_ | Conjuration    |   No   |
-|  7  | _[[[spell:Mordenkainen's Sword]]]_               | Evocation      |   No   |
-|  7  | _[[[spell:Otto's Majestic Musical Number]]]_     | Enchantment    |   No   |
-|  7  | _[[[spell:Plane Shift]]]_                        | Conjuration    |   No   |
-|  7  | _[[[spell:Prismatic Spray]]]_                    | Evocation      |   No   |
-|  7  | _[[[spell:Project Image]]]_                      | Illusion       |   No   |
-|  7  | _[[[spell:Reverse Gravity]]]_                    | Transmutation  |   No   |
-|  7  | _[[[spell:Sequester]]]_                          | Transmutation  |   No   |
-|  7  | _[[[spell:Simulacrum]]]_                         | Illusion       |   No   |
-|  7  | _[[[spell:Symbol]]]_                             | Abjuration     |   No   |
-|  7  | _[[[spell:Teleport]]]_                           | Conjuration    |   No   |
-|  8  | _[[[spell:Antimagic Field]]]_                    | Abjuration     |   No   |
-|  8  | _[[[spell:Antipathy/Sympathy]]]_                 | Enchantment    |   No   |
-|  8  | _[[[spell:Clone]]]_                              | Necromancy     |   No   |
-|  8  | _[[[spell:Control Weather]]]_                    | Transmutation  |   No   |
-|  8  | _[[[spell:Demiplane]]]_                          | Conjuration    |   No   |
-|  8  | _[[[spell:Dominate Monster]]]_                   | Enchantment    |   No   |
-|  8  | _[[[spell:Feeblemind]]]_                         | Enchantment    |   No   |
-|  8  | _[[[spell:Glibness]]]_                           | Enchantment*   |   No   |
-|  8  | _[[[spell:Incendiary Cloud]]]_                   | Conjuration    |   No   |
-|  8  | _[[[spell:Maze]]]_                               | Conjuration    |   No   |
-|  8  | _[[[spell:Mind Blank]]]_                         | Abjuration     |   No   |
-|  8  | _[[[spell:Power Word Stun]]]_                    | Enchantment    |   No   |
-|  8  | _[[[spell:Sunburst]]]_                           | Evocation      |   No   |
-|  8  | _[[[spell:Telepathy]]]_                          | Divination*    |   No   |
-|  9  | _[[[spell:Astral Projection]]]_                  | Necromancy     |   No   |
-|  9  | _[[[spell:Foresight]]]_                          | Divination     |   No   |
-|  9  | _[[[spell:Gate]]]_                               | Conjuration    |   No   |
-|  9  | _[[[spell:Imprisonment]]]_                       | Abjuration     |   No   |
-|  9  | _[[[spell:Meteor Swarm]]]_                       | Evocation      |   No   |
-|  9  | _[[[spell:Power Word Kill]]]_                    | Enchantment    |   No   |
-|  9  | _[[[spell:Prismatic Wall]]]_                     | Abjuration     |   No   |
-|  9  | _[[[spell:Shapechange]]]_                        | Transmutation  |   No   |
-|  9  | _[[[spell:Time Stop]]]_                          | Transmutation  |   No   |
-|  9  | _[[[spell:True Polymorph]]]_                     | Transmutation  |   No   |
-|  9  | _[[[spell:Weird]]]_                              | Illusion       |   No   |
-|  9  | _[[[spell:Wish]]]_                               | Conjuration    |   No   |
+If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.
 
-## Divine Spells
+## Spell Preparation by Class
 
-A Divine spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic.
+[[errata]]
 
-The Divine Spells table is a partial list of Divine spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
+I've modified the rules for spell preparation from what's available in the Player's Handbook. My modified rules are listed here, but you can see the original rules under the Original Rules accordion. 
 
-| Lvl | Spell                                       | School         | Ritual |
-|:---:|---------------------------------------------|----------------|:------:|
-|  0  | _[[[spell:Guidance]]]_                      | Divination     |   No   |
-|  0  | _[[[spell:Light]]]_                         | Evocation      |   No   |
-|  0  | _[[[spell:Resistance]]]_                    | Abjuration     |   No   |
-|  0  | _[[[spell:Sacred Flame]]]_                  | Evocation      |   No   |
-|  0  | _[[[spell:Spare the Dying]]]_               | Necromancy     |   No   |
-|  0  | _[[[spell:Thaumaturgy]]]_                   | Transmutation  |   No   |
-|  0  | _[[[spell:Toll the Dead]]]_                 | Necromancy     |   No   |
-|  0  | _[[[spell:Word of Radiance]]]_              | Evocation      |   No   |
-|  1  | _[[[spell:Bane]]]_                          | Enchantment    |   No   |
-|  1  | _[[[spell:Bless]]]_                         | Enchantment    |   No   |
-|  1  | _[[[spell:Command]]]_                       | Enchantment    |   No   |
-|  1  | _[[[spell:Compelled Duel]]]_                | Enchantment    |   No   |
-|  1  | _[[[spell:Cure Wounds]]]_                   | Abjuration*    |   No   |
-|  1  | _[[[spell:Detect Evil and Good]]]_          | Divination     |   No   |
-|  1  | _[[[spell:Detect Magic]]]_                  | Divination     |  Yes   |
-|  1  | _[[[spell:Detect Poison and Disease]]]_     | Divination     |  Yes   |
-|  1  | _[[[spell:Divine Favor]]]_                  | Transmutation* |   No   |
-|  1  | _[[[spell:Guiding Bolt]]]_                  | Evocation      |   No   |
-|  1  | _[[[spell:Healing Word]]]_                  | Abjuration*    |   No   |
-|  1  | _[[[spell:Heroism]]]_                       | Enchantment    |   No   |
-|  1  | _[[[spell:Inflict Wounds]]]_                | Necromancy     |   No   |
-|  1  | _[[[spell:Protection from Evil and Good]]]_ | Abjuration     |   No   |
-|  1  | _[[[spell:Purify Food and Drink]]]_         | Transmutation  |  Yes   |
-|  1  | _[[[spell:Sanctuary]]]_                     | Abjuration     |   No   |
-|  1  | _[[[spell:Searing Smite]]]_                 | Evocation      |   No   |
-|  1  | _[[[spell:Shield of Faith]]]_               | Abjuration     |   No   |
-|  1  | _[[[spell:Wrathful Smite]]]_                | Necromancy*    |   No   |
-|  2  | _[[[spell:Aid]]]_                           | Abjuration     |   No   |
-|  2  | _[[[spell:Augury]]]_                        | Divination     |  Yes   |
-|  2  | _[[[spell:Blindness/Deafness]]]_            | Transmutation* |   No   |
-|  2  | _[[[spell:Calm Emotions]]]_                 | Enchantment    |   No   |
-|  2  | _[[[spell:Find Traps]]]_                    | Divination     |   No   |
-|  2  | _[[[spell:Gentle Repose]]]_                 | Necromancy     |  Yes   |
-|  2  | _[[[spell:Hold Person]]]_                   | Enchantment    |   No   |
-|  2  | _[[[spell:Lesser Restoration]]]_            | Abjuration     |   No   |
-|  2  | _[[[spell:Locate Object]]]_                 | Divination     |   No   |
-|  2  | _[[[spell:Magic Weapon]]]_                  | Transmutation  |   No   |
-|  2  | _[[[spell:Prayer of Healing]]]_             | Abjuration*    |   No   |
-|  2  | _[[[spell:Protection from Poison]]]_        | Abjuration     |   No   |
-|  2  | _[[[spell:Silence]]]_                       | Illusion       |  Yes   |
-|  2  | _[[[spell:Spiritual Weapon]]]_              | Evocation      |   No   |
-|  2  | _[[[spell:Warding Bond]]]_                  | Abjuration     |   No   |
-|  2  | _[[[spell:Zone of Truth]]]_                 | Enchantment    |   No   |
-|  3  | _[[[spell:Aura of Vitality]]]_              | Abjuration*    |   No   |
-|  3  | _[[[spell:Beacon of Hope]]]_                | Abjuration     |   No   |
-|  3  | _[[[spell:Clairvoyance]]]_                  | Divination     |   No   |
-|  3  | _[[[spell:Create Food and Water]]]_         | Conjuration    |   No   |
-|  3  | _[[[spell:Crusader's Mantle]]]_             | Transmutation* |   No   |
-|  3  | _[[[spell:Daylight]]]_                      | Evocation      |   No   |
-|  3  | _[[[spell:Dispel Magic]]]_                  | Abjuration     |   No   |
-|  2  | _[[[spell:Excite Emotions]]]_               | Enchantment    |   No   |
-|  3  | _[[[spell:Feign Death]]]_                   | Necromancy     |  Yes   |
-|  3  | _[[[spell:Glyph of Warding]]]_              | Abjuration     |   No   |
-|  3  | _[[[spell:Magic Circle]]]_                  | Abjuration     |   No   |
-|  3  | _[[[spell:Mass Healing Word]]]_             | Abjuration*    |   No   |
-|  3  | _[[[spell:Remove Curse]]]_                  | Abjuration     |   No   |
-|  3  | _[[[spell:Revivify]]]_                      | Necromancy     |   No   |
-|  3  | _[[[spell:Speak with Dead]]]_               | Necromancy     |   No   |
-|  3  | _[[[spell:Spirit Guardians]]]_              | Conjuration    |   No   |
-|  3  | _[[[spell:Tongues]]]_                       | Divination     |   No   |
-|  4  | _[[[spell:Aura of Life]]]_                  | Abjuration     |   No   |
-|  4  | _[[[spell:Aura of Purity]]]_                | Abjuration     |   No   |
-|  4  | _[[[spell:Banishment]]]_                    | Conjuration*   |   No   |
-|  4  | _[[[spell:Death Ward]]]_                    | Abjuration     |   No   |
-|  4  | _[[[spell:Divination]]]_                    | Divination     |  Yes   |
-|  4  | _[[[spell:Freedom of Movement]]]_           | Abjuration     |   No   |
-|  4  | _[[[spell:Guardian of Faith]]]_             | Conjuration    |   No   |
-|  4  | _[[[spell:Locate Creature]]]_               | Divination     |   No   |
-|  5  | _[[[spell:Circle of Power]]]_               | Abjuration     |   No   |
-|  5  | _[[[spell:Commune]]]_                       | Divination     |  Yes   |
-|  5  | _[[[spell:Contagion]]]_                     | Necromancy     |   No   |
-|  5  | _[[[spell:Destructive Wave]]]_              | Evocation      |   No   |
-|  5  | _[[[spell:Dispel Evil and Good]]]_          | Abjuration     |   No   |
-|  5  | _[[[spell:Flame Strike]]]_                  | Evocation      |   No   |
-|  5  | _[[[spell:Geas]]]_                          | Enchantment    |   No   |
-|  5  | _[[[spell:Greater Restoration]]]_           | Abjuration     |   No   |
-|  5  | _[[[spell:Hallow]]]_                        | Abjuration*    |   No   |
-|  5  | _[[[spell:Legend Lore]]]_                   | Divination     |   No   |
-|  5  | _[[[spell:Mass Cure Wounds]]]_              | Abjuration*    |   No   |
-|  5  | _[[[spell:Planar Binding]]]_                | Abjuration     |   No   |
-|  5  | _[[[spell:Raise Dead]]]_                    | Necromancy     |   No   |
-|  5  | _[[[spell:Scrying]]]_                       | Divination     |   No   |
-|  6  | _[[[spell:Blade Barrier]]]_                 | Evocation      |   No   |
-|  6  | _[[[spell:Find the Path]]]_                 | Divination     |   No   |
-|  6  | _[[[spell:Forbiddance]]]_                   | Abjuration     |  Yes   |
-|  6  | _[[[spell:Harm]]]_                          | Necromancy     |   No   |
-|  6  | _[[[spell:Heal]]]_                          | Abjuration*    |   No   |
-|  6  | _[[[spell:Heroes' Feast]]]_                 | Conjuration    |   No   |
-|  6  | _[[[spell:Planar Ally]]]_                   | Conjuration    |   No   |
-|  6  | _[[[spell:Sunbeam]]]_                       | Evocation      |   No   |
-|  6  | _[[[spell:True Seeing]]]_                   | Divination     |   No   |
-|  6  | _[[[spell:Word of Recall]]]_                | Conjuration    |   No   |
-|  7  | _[[[spell:Conjure Celestial]]]_             | Conjuration    |   No   |
-|  7  | _[[[spell:Divine Word]]]_                   | Evocation      |   No   |
-|  7  | _[[[spell:Etherealness]]]_                  | Transmutation  |   No   |
-|  7  | _[[[spell:Plane Shift]]]_                   | Conjuration    |   No   |
-|  7  | _[[[spell:Regenerate]]]_                    | Transmutation  |   No   |
-|  7  | _[[[spell:Resurrection]]]_                  | Necromancy     |   No   |
-|  7  | _[[[spell:Symbol]]]_                        | Abjuration     |   No   |
-|  8  | _[[[spell:Antimagic Field]]]_               | Abjuration     |   No   |
-|  8  | _[[[spell:Antipathy/Sympathy]]]_            | Enchantment    |   No   |
-|  8  | _[[[spell:Holy Aura]]]_                     | Abjuration     |   No   |
-|  8  | _[[[spell:Sunburst]]]_                      | Evocation      |   No   |
-|  9  | _[[[spell:Astral Projection]]]_             | Necromancy     |   No   |
-|  9  | _[[[spell:Foresight]]]_                     | Divination     |   No   |
-|  9  | _[[[spell:Gate]]]_                          | Conjuration    |   No   |
-|  9  | _[[[spell:Mass Heal]]]_                     | Abjuration*    |   No   |
-|  9  | _[[[spell:Power Word Heal]]]_               | Enchantment*   |   No   |
-|  9  | _[[[spell:True Resurrection]]]_             | Necromancy     |   No   |
+[[/errata]]
 
-## Primal Spells
+Some classes can change all their spells on a long rest, and some have slightly different rules for what spells they can change on long rests vs gaining a level. See the table below for a summary of all classes rules for changing spells.
 
-A Primal spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic.
+| Class     | Finish a Long Rest | Gain a Level |
+|-----------|--------------------|--------------|
+| Artificer | Any                | --           |
+| Bard      | One                | Any          |
+| Cleric    | Any                | --           |
+| Druid     | Any                | --           |
+| Paladin   | One                | Any          |
+| Ranger    | One                | Any          |
+| Sorcerer  | One                | Any          |
+| Warlock   | One                | Any          |
+| Wizard    | Any                | --           |
 
-The Primal Spells table is a partial list of Primal spells. The table provides a spell's level, name, and school of magic. The list also indicates whether a spell has the Ritual tag.
+[[accordion Original Rules]]
 
-| Lvl | Spell                                   | School         | Ritual |
-|:---:|-----------------------------------------|----------------|:------:|
-|  0  | _[[[spell:Druidcraft]]]_                | Transmutation  |   No   |
-|  0  | _[[[spell:Elementalism]]]_              | Transmutation  |   No   |
-|  0  | _[[[spell:Frostbite]]]_                 | Evocation      |   No   |
-|  0  | _[[[spell:Guidance]]]_                  | Divination     |   No   |
-|  0  | _[[[spell:Mending]]]_                   | Transmutation  |   No   |
-|  0  | _[[[spell:Message]]]_                   | Transmutation  |   No   |
-|  0  | _[[[spell:Poison Spray]]]_              | Conjuration    |   No   |
-|  0  | _[[[spell:Produce Flame]]]_             | Evocation*     |   No   |
-|  0  | _[[[spell:Resistance]]]_                | Abjuration     |   No   |
-|  0  | _[[[spell:Shillelagh]]]_                | Transmutation  |   No   |
-|  0  | _[[[spell:Spare the Dying]]]_           | Necromancy     |   No   |
-|  0  | _[[[spell:Thorn Whip]]]_                | Transmutation  |   No   |
-|  0  | _[[[spell:Thunderclap]]]_               | Evocation      |   No   |
-|  1  | _[[[spell:Animal Friendship]]]_         | Enchantment    |   No   |
-|  1  | _[[[spell:Create or Destroy Water]]]_   | Transmutation  |   No   |
-|  1  | _[[[spell:Cure Wounds]]]_               | Abjuration*    |   No   |
-|  1  | _[[[spell:Detect Magic]]]_              | Divination     |  Yes   |
-|  1  | _[[[spell:Detect Poison and Disease]]]_ | Divination     |  Yes   |
-|  1  | _[[[spell:Ensnaring Strike]]]_          | Conjuration    |   No   |
-|  1  | _[[[spell:Entangle]]]_                  | Conjuration    |   No   |
-|  1  | _[[[spell:Faerie Fire]]]_               | Evocation      |   No   |
-|  1  | _[[[spell:Fog Cloud]]]_                 | Conjuration    |   No   |
-|  1  | _[[[spell:Goodberry]]]_                 | Transmutation  |   No   |
-|  1  | _[[[spell:Hail of Thorns]]]_            | Conjuration    |   No   |
-|  1  | _[[[spell:Healing Word]]]_              | Abjuration*    |   No   |
-|  1  | _[[[spell:Jump]]]_                      | Transmutation  |   No   |
-|  1  | _[[[spell:Longstrider]]]_               | Transmutation  |   No   |
-|  1  | _[[[spell:Purify Food and Drink]]]_     | Transmutation  |  Yes   |
-|  1  | _[[[spell:Speak with Animals]]]_        | Divination     |  Yes   |
-|  1  | _[[[spell:Thunderwave]]]_               | Transmutation* |   No   |
-|  2  | _[[[spell:Animal Messenger]]]_          | Enchantment    |  Yes   |
-|  2  | _[[[spell:Augury]]]_                    | Divination     |  Yes   |
-|  2  | _[[[spell:Barkskin]]]_                  | Transmutation  |   No   |
-|  2  | _[[[spell:Beast Sense]]]_               | Divination     |  Yes   |
-|  2  | _[[[spell:Cordon of Arrows]]]_          | Transmutation  |   No   |
-|  2  | _[[[spell:Darkvision]]]_                | Transmutation  |   No   |
-|  2  | _[[[spell:Enhance Ability]]]_           | Transmutation  |   No   |
-|  2  | _[[[spell:Enlarge/Reduce]]]_            | Transmutation  |   No   |
-|  2  | _[[[spell:Find Traps]]]_                | Divination     |   No   |
-|  2  | _[[[spell:Flame Blade]]]_               | Evocation      |   No   |
-|  2  | _[[[spell:Flaming Sphere]]]_            | Evocation*     |   No   |
-|  2  | _[[[spell:Gentle Repose]]]_             | Necromancy     |  Yes   |
-|  2  | _[[[spell:Gust of Wind]]]_              | Evocation      |   No   |
-|  2  | _[[[spell:Heat Metal]]]_                | Transmutation  |   No   |
-|  2  | _[[[spell:Lesser Restoration]]]_        | Abjuration     |   No   |
-|  2  | _[[[spell:Locate Animals or Plants]]]_  | Divination     |  Yes   |
-|  2  | _[[[spell:Locate Object]]]_             | Divination     |   No   |
-|  2  | _[[[spell:Moonbeam]]]_                  | Evocation      |   No   |
-|  2  | _[[[spell:Pass without Trace]]]_        | Abjuration     |   No   |
-|  2  | _[[[spell:Protection from Poison]]]_    | Abjuration     |   No   |
-|  2  | _[[[spell:Silence]]]_                   | Illusion       |  Yes   |
-|  2  | _[[[spell:Spike Growth]]]_              | Transmutation  |   No   |
-|  3  | _[[[spell:Call Lightning]]]_            | Conjuration    |   No   |
-|  3  | _[[[spell:Conjure Animals]]]_           | Conjuration    |   No   |
-|  3  | _[[[spell:Daylight]]]_                  | Evocation      |   No   |
-|  3  | _[[[spell:Dispel Magic]]]_              | Abjuration     |   No   |
-|  3  | _[[[spell:Elemental Weapon]]]_          | Transmutation  |   No   |
-|  3  | _[[[spell:Feign Death]]]_               | Necromancy     |  Yes   |
-|  3  | _[[[spell:Lightning Arrow]]]_           | Transmutation  |   No   |
-|  3  | _[[[spell:Mass Healing Word]]]_         | Abjuration*    |   No   |
-|  3  | _[[[spell:Meld into Stone]]]_           | Transmutation  |  Yes   |
-|  3  | _[[[spell:Nondetection]]]_              | Abjuration     |   No   |
-|  3  | _[[[spell:Plant Growth]]]_              | Transmutation  |   No   |
-|  3  | _[[[spell:Protection from Energy]]]_    | Abjuration     |   No   |
-|  3  | _[[[spell:Revivify]]]_                  | Necromancy     |   No   |
-|  3  | _[[[spell:Sleet Storm]]]_               | Conjuration    |   No   |
-|  3  | _[[[spell:Speak with Plants]]]_         | Transmutation  |   No   |
-|  3  | _[[[spell:Water Breathing]]]_           | Transmutation  |  Yes   |
-|  3  | _[[[spell:Water Walk]]]_                | Transmutation  |  Yes   |
-|  3  | _[[[spell:Wind Wall]]]_                 | Evocation      |   No   |
-|  4  | _[[[spell:Conjure Minor Elementals]]]_  | Conjuration    |   No   |
-|  4  | _[[[spell:Conjure Woodland Beings]]]_   | Conjuration    |   No   |
-|  4  | _[[[spell:Control Water]]]_             | Transmutation  |   No   |
-|  4  | _[[[spell:Dominate Beast]]]_            | Enchantment    |   No   |
-|  4  | _[[[spell:Freedom of Movement]]]_       | Abjuration     |   No   |
-|  4  | _[[[spell:Giant Insect]]]_              | Transmutation  |   No   |
-|  4  | _[[[spell:Grasping Vine]]]_             | Conjuration    |   No   |
-|  4  | _[[[spell:Ice Storm]]]_                 | Evocation      |   No   |
-|  4  | _[[[spell:Locate Creature]]]_           | Divination     |   No   |
-|  4  | _[[[spell:Polymorph]]]_                 | Transmutation  |   No   |
-|  4  | _[[[spell:Stone Shape]]]_               | Transmutation  |   No   |
-|  4  | _[[[spell:Stoneskin]]]_                 | Transmutation* |   No   |
-|  4  | _[[[spell:Wall of Fire]]]_              | Evocation      |   No   |
-|  5  | _[[[spell:Antilife Shell]]]_            | Abjuration     |   No   |
-|  5  | _[[[spell:Awaken]]]_                    | Transmutation  |   No   |
-|  5  | _[[[spell:Commune with Nature]]]_       | Divination     |  Yes   |
-|  5  | _[[[spell:Conjure Elemental]]]_         | Conjuration    |   No   |
-|  5  | _[[[spell:Greater Restoration]]]_       | Abjuration     |   No   |
-|  5  | _[[[spell:Insect Plague]]]_             | Conjuration    |   No   |
-|  5  | _[[[spell:Mass Cure Wounds]]]_          | Abjuration*    |   No   |
-|  5  | _[[[spell:Reincarnate]]]_               | Necromancy*    |   No   |
-|  5  | _[[[spell:Scrying]]]_                   | Divination     |   No   |
-|  5  | _[[[spell:Swift Quiver]]]_              | Transmutation  |   No   |
-|  5  | _[[[spell:Tree Stride]]]_               | Conjuration    |   No   |
-|  5  | _[[[spell:Wall of Stone]]]_             | Evocation      |   No   |
-|  6  | _[[[spell:Conjure Fey]]]_               | Conjuration    |   No   |
-|  6  | _[[[spell:Find the Path]]]_             | Divination     |   No   |
-|  6  | _[[[spell:Heal]]]_                      | Abjuration*    |   No   |
-|  6  | _[[[spell:Move Earth]]]_                | Transmutation  |   No   |
-|  6  | _[[[spell:Sunbeam]]]_                   | Evocation      |   No   |
-|  6  | _[[[spell:Transport via Plants]]]_      | Conjuration    |   No   |
-|  6  | _[[[spell:Wall of Ice]]]_               | Evocation      |   No   |
-|  6  | _[[[spell:Wall of Thorns]]]_            | Conjuration    |   No   |
-|  6  | _[[[spell:Wind Walk]]]_                 | Transmutation  |   No   |
-|  7  | _[[[spell:Fire Storm]]]_                | Evocation      |   No   |
-|  7  | _[[[spell:Regenerate]]]_                | Transmutation  |   No   |
-|  7  | _[[[spell:Reverse Gravity]]]_           | Transmutation  |   No   |
-|  8  | _[[[spell:Animal Shapes]]]_             | Transmutation  |   No   |
-|  8  | _[[[spell:Control Weather]]]_           | Transmutation  |   No   |
-|  8  | _[[[spell:Earthquake]]]_                | Transmutation* |   No   |
-|  8  | _[[[spell:Sunburst]]]_                  | Evocation      |   No   |
-|  8  | _[[[spell:Tsunami]]]_                   | Conjuration    |   No   |
-|  9  | _[[[spell:Power Word Heal]]]_           | Abjuration*    |   No   |
-|  9  | _[[[spell:Shapechange]]]_               | Transmutation  |   No   |
-|  9  | _[[[spell:Storm of Vengeance]]]_        | Conjuration    |   No   |
-|  9  | _[[[spell:True Resurrection]]]_         | Necromancy     |   No   |
+| Class    | Change When You... | Number of Spells |
+|----------|--------------------|------------------|
+| Bard     | Gain a level       | One              |
+| Cleric   | Finish a Long Rest | Any              |
+| Druid    | Finish a Long Rest | Any              |
+| Paladin  | Finish a Long Rest | One              |
+| Ranger   | Finish a Long Rest | One              |
+| Sorcerer | Gain a level       | One              |
+| Warlock  | Gain a level       | One              |
+| Wizard   | Finish a Long Rest | Any              |
+
+[[/accordion]]
+
+Most spellcasting monsters don't change their lists of prepared spells, but the DM is free to alter them.
+
+## Always-Prepared Spells
+
+Certain features might give you a spell that you always have prepared. If you also have a list of prepared spells that you can change, a spell that you always have prepared doesn't count against the number of spells on that list.
+
+Casting in ArmorYou must have training with any armor you are wearing to cast spells while wearing it. You are otherwise too hampered by the armor for spellcasting. 
+
+# Casting Spells
+
+Each spell description has a series of entries that provide the details needed to cast the spell. The following sections explain each of those entries, which follow a spell's name.
+
+## Spell Level
+
+Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips -- simple spells that can be cast almost by rote -- are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
+
+### Spell Slots
+
+Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
+
+When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size -- small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _[[[spell:Magic Missile]]]_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
+
+Finishing a [[glossary:Long Rest]] restores any expended spell slots.
+
+### Casting without Slots
+
+There are several ways to cast a spell without expending a spell slot:
+
+**Cantrips.** A cantrip is cast without a spell slot.
+
+**Rituals.** Certain spells have the Ritual tag in the Casting Time entry. Such a spell can be cast following the normal rules for spellcasting, or it can be cast as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal, but it doesn't expend a spell slot. To cast a spell as a Ritual, a spellcaster must have it prepared.
+
+**Special Abilities.** Some characters and monsters have special abilities that allow them to cast specific spells without a spell slot. This casting is usually limited in another way, such as being able to cast the spell a limited number of times per day.
+
+**Magic Items.** [[tooltip:spell scroll|Spell Scrolls]] and some other magic items contain spells that can be cast without a spell slot. The description of such an item specifies how many times a spell can be cast from it.
+
+### Using a Higher-Level Spell Slot
+
+When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts _[[[spell:Magic Missile]]]_ using a level 2 slot, that _Magic Missile_ is level 2. Effectively, the spell expands to fill the slot it is put into.
+
+Some spells, such as _[[[spell:Magic Missile]]]_ and _[[[spell:Cure Wounds]]]_, have more powerful effects when cast at a higher level, as detailed in a spell's description.
+
+## School of Magic
+
+Each spell belongs to a school of magic. The schools are listed in the Schools of Magic table. These categories help describe spells but have no rules of their own, although some other rules refer to them.
+
+### Schools of Magic
+
+| School        | Typical Effects                                              |
+|---------------|--------------------------------------------------------------|
+| Abjuration    | Prevents or reverses harmful effects                         |
+| Conjuration   | Transports creatures or objects                              |
+| Divination    | Reveals information                                          |
+| Enchantment   | Influences minds                                             |
+| Evocation     | Channels energy to create effects that are often destructive |
+| Illusion      | Deceives the mind or senses                                  |
+| Necromancy    | Manipulates life and death                                   |
+| Transmutation | Transforms creatures or objects                              |
+
+## Class Spell Lists
+
+If a spell is on a class's spell list, the class's name appears in parentheses after the spell's school of magic. Some features add a spell to a character's spell list even if the character isn't a member of a class in the parentheses.
+
+## Casting Time
+
+Most spells require the [[glossary:Magic]] action to cast, but some spells require a Bonus Action, a Reaction, or 1 minute or more. A spell's Casting Time entry specifies which of those is required.
+
+### One Spell with a Spell Slot per Turn
+
+On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the [[glossary:Magic]] action and another one using a Bonus Action on the same turn.
+
+### Reaction and Bonus Action Triggers
+
+A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's Casting Time entry. Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defined in the spell.
+
+### Longer Casting Times
+
+Certain spells -- including a spell cast as a [[glossary:Ritual]] -- require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the [[glossary:Magic]] action on each of your turns, and you must maintain [[glossary:Concentration]] while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. To cast the spell again, you must start over.
+
+## Range
+
+A spell's range indicates how far from the spellcaster the spell's effect can originate, and the spell's description specifies which part of the effect is limited by the range.
+
+A range usually takes one of the following forms:
+
+**Distance.** The range is expressed in feet.
+
+**Touch.** The spell's effect originates on something, as defined by the spell, that the spellcaster must touch within their reach.
+
+**Self.** The spell is cast on the spellcaster or emanates from them, as specified in the spell.
+
+If a spell has movable effects, they aren't restricted by its range unless the spell's description says otherwise.
+
+## Components
+
+A spell's components are physical requirements the spellcaster must meet to cast the spell. Each spell's description indicates whether it requires Verbal (V), Somatic (S), or Material (M) components. If the spellcaster can't provide one or more of a spell's components, the spellcaster can't cast the spell.
+
+### Verbal (V)
+
+A Verbal component is the chanting of esoteric words that sound like nonsense to the uninitiated. The words must be uttered in a normal speaking voice. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a creature who is gagged or in an area of magical silence can't cast a spell with a Verbal component.
+
+#### Creating Verbal Components
+
+If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second _l_ from _[[[spell:Fireball]]]_ and rearrange the remaining letters to create _Ber Fila_ or_ Fel Bira_.
+
+### Somatic (S)
+
+A Somatic component is a forceful gesticulation or an intricate set of gestures. A spellcaster must use at least one of their hands to perform these movements.
+
+### Material (M)
+
+A Material component is a particular material used in a spell's casting, as specified in parentheses in the Components entry. These materials aren't consumed by the spell unless the spell's description states otherwise. The spellcaster must have a hand free to access them, but it can be the same hand used to perform Somatic components, if any.
+
+If a spell doesn't consume its materials and doesn't specify a cost for them, a spellcaster can use a [[tooltip:Component Pouch]] instead of providing the materials specified in the spell, or the spellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Component Pouch, you must have a hand free to reach into it, and to use a [[tooltip:Spellcasting Focus]], you must hold it unless its description says otherwise.
+
+The type of spellcasting focus you can use depends on your class, as shown in the Focus Types table.
+
+**Focus Types**
+
+| Focus Type                                                          | Used by...                |
+|---------------------------------------------------------------------|---------------------------|
+| [[tooltip:Arcane Focus]]                                            | Sorcerer, Warlock, Wizard |
+| [[[general:Equipment#Artisan's Tools]]], [[tooltip:Thieves' Tools]] | Artificer                 |
+| [[tooltip:Druidic Focus]]                                           | Druid, Ranger             |
+| [[tooltip:Holy Symbol]]                                             | Cleric, Paladin           |
+
+## Duration
+
+A spell's duration is the length of time the spell persists after it is cast. A duration typically takes one of the following forms:
+
+**Concentration.** A duration that requires Concentration follows the [[glossary:Concentration]] rules.
+
+**Instantaneous.** An instantaneous duration means the spell's magic appears only for a moment and then disappears.
+
+**Time Span.** A duration that provides a time span specifies how long the spell lasts in rounds, minutes, hours, or the like. For example, a Duration entry might say "1 minute," meaning the spell ends after 1 minute has passed. While a time-span spell that you cast is ongoing, you can dismiss it (no action required) if you don't have the [[glossary:Incapacitated]] condition.
+
+## Effects
+
+The effects of a spell are detailed after its duration entry. Those details present exactly what the spell does, which ignores mundane physical laws; any outcomes beyond those effects are under the DM's purview. Whatever the effects, they typically deal with targets, saving throws, attack rolls, or all three, each of which is detailed below.
+
+### Targets
+
+A typical spell requires the caster to pick one or more targets to be affected by the spell's magic. A spell's description says whether the spell targets creatures, objects, or something else.
+
+**_A Clear Path to the Target._** To target something with a spell, a caster must have a clear path to it, so it can't be behind [[tooltip:Total Cover]].
+
+**_Targeting Yourself._** If a spell targets a creature of your choice, you can choose yourself unless the creature must be [[glossary:Hostile]] or specifically a creature other than you.
+
+**_Areas of Effect._** Some spells, such as _[[[spell:Thunderwave]]]_, cover an area called an [[glossary:area of effect]]. The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: [[glossary:Cone]], [[glossary:Cube]], [[glossary:Cylinder]], [[glossary:Emanation]], [[glossary:Line]], or [[glossary:Sphere]].
+
+**_Awareness of Being Targeted._** Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
+
+**_Invalid Targets._** If you cast a spell on someone or something that can't be affected by it, nothing happens to that target, but if you used a spell slot to cast the spell, the slot is still expended.
+
+If the spell normally has no effect on a target that succeeds on a saving throw, the invalid target appears to have succeeded on its saving throw, even though it didn't attempt one (giving no hint that the creature is an invalid target). Otherwise, you perceive that the spell did nothing to the target.
+
+### Saving Throws
+
+Many spells specify that a target makes a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what happens on a success or failure. Here's how to calculate the DC for your spells:
+
+**Spell save DC** = 8 + your spellcasting ability modifier + your Proficiency Bonus
+
+### Attack Rolls
+
+Some spells require the caster to make an attack roll to determine whether the spell hits a target. Here's how to calculate the attack modifier for your spells:
+
+**Spell attack modifier** = your spellcasting ability modifier + your Proficiency Bonus
+
+### Combining Spell Effects
+
+The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect -- such as the highest bonus -- from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast _[[[spell:Bless]]]_ on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second _Bless_ ends.
+
+Identifying an Ongoing SpellYou can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the [[glossary:Study]] action and succeed on a DC 15 Intelligence ([[tooltip:Arcana]]) check.
+
+----
+
+_Source: Player's Handbook, p. 234_

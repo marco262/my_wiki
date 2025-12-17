@@ -79,6 +79,7 @@
 
 * [[[general:Playing the Game]]]
 * [[[general:Rules Glossary]]]
+* [[[general:Spellcasting Rules]]]
 
 </div>
 

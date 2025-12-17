@@ -323,6 +323,10 @@ custom_tooltips = {
         "href": "/dnd/general/Equipment#gaming-set",
         "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
     },
+    "spellcasting focus":{
+        "href": "/dnd/general/Spellcasting Rules##material-m",
+        "content": "<p>If a spell doesn't consume its materials and doesn't specify a cost for them, the spellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Spellcasting Focus, you must hold it unless its description says otherwise. The type of spellcasting focus you can use depends on your class.</p>",
+    },
     "bagpipes": {
         "href": "/dnd/general/Equipment#musical-instrument",
         "content": "<p><strong>Ability:</strong> Wisdom<br/>\n<strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
@@ -380,6 +384,10 @@ custom_tooltips = {
         "content": ""
     },
     "boots of elvenkind": {
+        "href": "/dnd/general/Equipment",
+        "content": ""
+    },
+    "spell scroll": {
         "href": "/dnd/general/Equipment",
         "content": ""
     },

@@ -11,14 +11,14 @@ import bs4
 from bs4 import Tag, NavigableString
 
 from data.dnd.enums import custom_tooltips
-from src.dnd.utils import split_rules_glossary
+from src.dnd.utils import split_rules_glossary, split_equipment
 
-
-PATH = "data/dnd/general/equipment.md"
+PATH = "data/dnd/general/spellcasting-rules.md"
 
 
 os.chdir("..")
 GLOSSARY_TOOLTIPS = split_rules_glossary()
+EQUIPMENT_TOOLTIPS = split_equipment()
 
 
 def main() -> None:
@@ -223,7 +223,7 @@ def parse_link(tag: Tag) -> str:
     if "sourcebook" in classes:
         return f"_{text}_"
 
-    tooltip_classes = ["skill-tooltip", "item-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
+    tooltip_classes = ["skill-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
             return make_tooltip("tooltip", custom_tooltips, text)
@@ -232,6 +232,11 @@ def parse_link(tag: Tag) -> str:
     for c in glossary_classes:
         if c in classes:
             return make_tooltip("glossary", GLOSSARY_TOOLTIPS, text)
+
+    equipment_classes = ["item-tooltip"]
+    for c in equipment_classes:
+        if c in classes:
+            return make_tooltip("tooltip", EQUIPMENT_TOOLTIPS, text)
 
     raise ValueError(f"Unhandled link: {tag}")
 
@@ -320,7 +325,10 @@ def parse_div(parent: Tag) -> str:
             "flexible-double-column__column-width-40pct",
             "ui-droppable",
         ]
-        handled_classes = ["subitems-list-details-item"]
+        handled_classes = [
+            "subitems-list-details-item",
+            "p-article-content",
+        ]
         for c in ignorable_classes:
             if c in classes:
                 sep = ""

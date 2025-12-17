@@ -63,6 +63,7 @@ class MarkdownParser:
 
     def post_parsing(self, text):
         text = self.add_header_links(text)
+        text = self.add_divs(text)
         text = self.parse_accordions(text)
         text = self.convert_wiki_divs(text)
         text = self.build_bibliography(text)
@@ -277,6 +278,13 @@ class MarkdownParser:
                 m.group(0),
                 f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}'
             )
+        return text
+
+    def add_divs(self, text: str) -> str:
+        text = text.replace("[[sidebar]]", '<div class="phb-sidebar" markdown="1">')
+        text = text.replace("[[errata]]", '<div class="errata" markdown="1">')
+        text = text.replace("[[/sidebar]]", "</div>")
+        text = text.replace("[[/errata]]", "</div>")
         return text
 
     def parse_accordions(self, text):
