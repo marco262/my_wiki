@@ -114,7 +114,7 @@ When you reach certain Druid levels, your number of known forms and the maximum 
 
 When choosing known forms, you may look in the _[Monster Manual](https://www.dndbeyond.com/sources/dnd/mm-2024)_ or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.
 
-Beast Shapes
+**Beast Shapes**
 
 | Druid Level | Known Forms | Max CR | Fly Speed |
 |-------------|-------------|--------|-----------|
