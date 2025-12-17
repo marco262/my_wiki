@@ -121,12 +121,6 @@ sources = [
     "Tasha's Cauldron of Everything",
     "Guildmaster's Guide to Ravnica",
     "Homebrew",
-    "Cleric and Revised Species",
-    "Druid and Paladin",
-    "Player's Handbook Playtest 6",
-    "Player's Handbook Playtest 7",
-    "Bastions and Cantrips",
-    "Player's Handbook Playtest 8",
 ]
 
 source_acronyms = {
@@ -141,6 +135,7 @@ source_acronyms = {
     "Waterdeep: Dragon Heist": "WDH",
     "Guildmaster's Guide to Ravnica": "GGR",
     "Homebrew": "Home",
+    "Player's Handbook Playtest 7": "PHP7",
 }
 
 ability_scores = [

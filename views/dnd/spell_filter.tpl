@@ -1,13 +1,13 @@
 % rebase("common/base.tpl", title="Spell Filter")
 % from src.common.utils import ordinal
-% from data.dnd5e.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
+% from data.dnd.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
 <table border="0">
     <tr valign="top">
         <td>
             <b>Class:</b><br>
             <input type="checkbox" name="checkbox-all" value="class" checked><i>All/None</i><br>
             % for c in spell_classes:
-                <input type="checkbox" name="checkbox-class" value="{{c}}" checked>{{c.title()}} Spells<br>
+                <input type="checkbox" name="checkbox-class" value="{{c.title()}}" checked>{{c.title()}} Spells<br>
             % end
         </td>
         <td>
