@@ -23,7 +23,7 @@
 
 {{!description_md}}
 % if defined('at_higher_levels'):
-<p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
+<p><strong>At Higher Levels:</strong> {{!at_higher_levels_md}}</p>
 
 % end
 % if defined('cantrip_upgrade'):
@@ -31,7 +31,7 @@
 
 % end
 % if defined('at_higher_levels_homebrew'):
-<div class="homebrew-note"><strong>At Higher Levels (homebrew):</strong> {{at_higher_levels_homebrew}}</div>
+<div class="homebrew-note"><strong>At Higher Levels (homebrew):</strong> {{!at_higher_levels_homebrew_md}}</div>
 
 % end
 <hr class="no-float">

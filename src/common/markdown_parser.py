@@ -45,12 +45,27 @@ class MarkdownParser:
             file_contents = f.read()
         return self.parse_md(file_contents, namespace)
 
-    def parse_md(self, text, namespace="", with_metadata=True):
+    def parse_md(self, text: str, namespace: str = "", with_metadata: bool = True, no_p: bool = False) -> str:
+        """
+        Parse Markdown text into HTML.
+
+        Args:
+            text (str): The Markdown text to be parsed.
+            namespace (str, optional): The namespace for links and references. Defaults to "".
+            with_metadata (bool, optional): Whether to parse Markdown as if it has a metadata header. Defaults to True.
+            no_p (bool, optional): If True, removes surrounding <p> tags from the output. Defaults to False.
+
+        Returns:
+            str: The parsed HTML string.
+        """
         self.namespace = namespace
         if with_metadata:
-            return self.markdown_obj_with_metadata.convert(text)
+            md = self.markdown_obj_with_metadata.convert(text)
         else:
-            return self.markdown_obj.convert(text)
+            md = self.markdown_obj.convert(text)
+        if no_p:
+            md = md[3:-5]
+        return md
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
@@ -283,8 +298,10 @@ class MarkdownParser:
     def add_divs(self, text: str) -> str:
         text = text.replace("[[sidebar]]", '<div class="phb-sidebar" markdown="1">')
         text = text.replace("[[errata]]", '<div class="errata" markdown="1">')
+        text = text.replace("[[homebrew]]", '<div class="homebrew-note" markdown="1">')
         text = text.replace("[[/sidebar]]", "</div>")
         text = text.replace("[[/errata]]", "</div>")
+        text = text.replace("[[/homebrew]]", "</div>")
         return text
 
     def parse_accordions(self, text):

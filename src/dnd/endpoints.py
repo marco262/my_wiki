@@ -36,6 +36,14 @@ def load_spells():
                     raise Exception(f"Error when decoding '{path}'") from e
             k = splitext(basename(path))[0]
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
+            if "at_higher_levels" in d:
+                d["at_higher_levels_md"] = MD.parse_md(
+                    d["at_higher_levels"], namespace="dnd", with_metadata=False, no_p=True
+                )
+            if "at_higher_levels_homebrew" in d:
+                d["at_higher_levels_homebrew_md"] = MD.parse_md(
+                    d["at_higher_levels_homebrew"], namespace="dnd", with_metadata=False, no_p=True
+                )
             if "source_extended" in d:
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             spells[k] = d

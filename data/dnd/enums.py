@@ -114,26 +114,11 @@ shapes = [
 
 sources = [
     "Player's Handbook",
-    "Elemental Evil",
-    "Xanathar's Guide to Everything",
-    "Lost Laboratory of Kwalish",
-    "Explorer's Guide to Wildemount",
-    "Tasha's Cauldron of Everything",
-    "Guildmaster's Guide to Ravnica",
     "Homebrew",
 ]
 
 source_acronyms = {
     "Player's Handbook": "PHB",
-    "Dungeon Master's Guide": "DMG",
-    "Elemental Evil": "EE",
-    "Sword Coast Adventurer's Guide": "SCAG",
-    "Xanathar's Guide to Everything": "XGtE",
-    "Lost Laboratory of Kwalish": "LLoK",
-    "Explorer's Guide to Wildemount": "EGtW",
-    "Tasha's Cauldron of Everything": "TCoE",
-    "Waterdeep: Dragon Heist": "WDH",
-    "Guildmaster's Guide to Ravnica": "GGR",
     "Homebrew": "Home",
     "Player's Handbook Playtest 7": "PHP7",
 }

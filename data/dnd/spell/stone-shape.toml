@@ -13,4 +13,5 @@ material_component_cost = 0
 material_component_consumed = false
 duration = "Instantaneous"
 description = "You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible."
+at_higher_levels_homebrew = "The maximum size of the stone you can affect increases by 5 feet for each spell slot level above 4."
 source = "Player's Handbook, p. 321"
