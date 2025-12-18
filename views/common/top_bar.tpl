@@ -75,12 +75,12 @@
     <div class="dropdown">
         <p>System Info</p>
         <div class="dropdown-content">
-            <a href="/dnd/general/How to Play">How to Play</a>
-            <a href="/dnd/general/Using Ability Scores">Using Ability Scores</a>
-            <a href="/dnd/general/Adventuring">Adventuring</a>
-            <a href="/dnd/general/Combat">Combat</a>
+            <a href="/dnd/advancement/Creating a Character">Creating a Character</a>
+            <a href="/dnd/advancement/Feats">Feats</a>
+            <hr>
+            <a href="/dnd/general/Playing the Game">Playing the Game</a>
             <a href="/dnd/general/Spellcasting Rules">Spellcasting Rules</a>
-            <a href="/dnd/general/Conditions">Conditions</a>
+            <a href="/dnd/general/Rules Glossary">Rules Glossary</a>
         </div>
     </div>
     <div class="dropdown">

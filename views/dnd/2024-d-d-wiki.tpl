@@ -79,8 +79,8 @@
 ## System Info
 
 * [[[general:Playing the Game]]]
-* [[[general:Rules Glossary]]]
 * [[[general:Spellcasting Rules]]]
+* [[[general:Rules Glossary]]]
 
 </div>
 
