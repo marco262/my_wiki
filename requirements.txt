@@ -1,10 +1,11 @@
-gevent  # On M1 Mac, needs to be installed first with `arch -arm64 pip install gevent`
-toml
+beautifulsoup4
 bcrypt
-fasteners
-GitPython
 bottle
-markdown2
-bottle_websocket
-google-cloud-storage
 bottle-swagger-2
+bottle_websocket
+fasteners
+gevent  # On M1 Mac, needs to be installed first with `arch -arm64 pip install gevent`
+GitPython
+google-cloud-storage
+markdown2
+toml
