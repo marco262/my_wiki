@@ -17,6 +17,6 @@ You attempt to turn one creature that you can see within range into stone. The t
 
 A [[glossary:Restrained]] target makes another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the [[glossary:Petrified]] condition for the duration. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.
 
-If you maintain your [[glossary:Concentration]] on this spell for the entire possible duration, the target is [[glossary:Petrified]] until the condition is ended by _[[[spell:Greater Restoration]]]_ or similar magic.
+If you maintain your [[glossary:Concentration]] on this spell for the entire possible duration, the target is [[glossary:Petrified]] until the condition is ended by [[[spell:Greater Restoration]]] or similar magic.
 """
 source = "Player's Handbook, p. 275"

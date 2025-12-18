@@ -14,11 +14,11 @@ In addition, whenever you gain access to a new level of spell slots in this clas
 
 You can cast Illusion spells without providing Verbal components, and if an Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.
 
-You also know the _[[[spell:Minor Illusion]]]_ cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of _Minor Illusion_, and you can cast it as a Bonus Action.
+You also know the [[[spell:Minor Illusion]]] cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of _Minor Illusion_, and you can cast it as a Bonus Action.
 
 ### Level 6: Phantasmal Creatures
 
-You always have the _[[[spell:Summon Beast]]]_ and _[[[spell:Summon Fey]]]_ spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a [[glossary:Long Rest]] before you can cast the spell in that way again.
+You always have the [[[spell:Summon Beast]]] and [[[spell:Summon Fey]]] spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a [[glossary:Long Rest]] before you can cast the spell in that way again.
 
 ### Level 10: Illusory Self
 

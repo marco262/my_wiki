@@ -24,7 +24,7 @@ When a creature that you can see within 30 feet of yourself takes damage, you ca
 
 ### Level 10: Spell Breaker
 
-You always have the _[[[spell:Counterspell]]]_ and _[[[spell:Dispel Magic]]]_ spells prepared. In addition, you can cast _Dispel Magic_ as a Bonus Action, and you can add your Proficiency Bonus to its ability check.
+You always have the [[[spell:Counterspell]]] and [[[spell:Dispel Magic]]] spells prepared. In addition, you can cast _Dispel Magic_ as a Bonus Action, and you can add your Proficiency Bonus to its ability check.
 
 When you cast either spell with a spell slot, that slot isn't expended if the spell fails to stop a spell.
 

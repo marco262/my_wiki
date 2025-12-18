@@ -20,13 +20,13 @@ The magic of your oath ensures you always have certain spells ready; when you re
 
 #### Oath of Vengeance Spells
 
-| Paladin Level | Spells                                                    |
-|---------------|-----------------------------------------------------------|
-| 3             | _[[[spell:Bane]]]_, _[[[spell:Hunter's Mark]]]_           |
-| 5             | _[[[spell:Hold Person]]]_, _[[[spell:Misty Step]]]_       |
-| 9             | _[[[spell:Haste]]]_, _[[[spell:Protection from Energy]]]_ |
-| 13            | _[[[spell:Banishment]]]_, _[[[spell:Dimension Door]]]_    |
-| 17            | _[[[spell:Hold Monster]]]_, _[[[spell:Scrying]]]_         |
+| Paladin Level | Spells                                                |
+|---------------|-------------------------------------------------------|
+| 3             | [[[spell:Bane]]], [[[spell:Hunter's Mark]]]           |
+| 5             | [[[spell:Hold Person]]], [[[spell:Misty Step]]]       |
+| 9             | [[[spell:Haste]]], [[[spell:Protection from Energy]]] |
+| 13            | [[[spell:Banishment]]], [[[spell:Dimension Door]]]    |
+| 17            | [[[spell:Hold Monster]]], [[[spell:Scrying]]]         |
 
 ### Level 3: Vow of Enmity
 

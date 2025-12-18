@@ -16,12 +16,12 @@ The magic of your patron ensures you always have certain spells ready; when you 
 
 #### Great Old One Spells
 
-| Warlock Level | Spells                                                                                                                                  |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 3             | _[[[spell:Detect Thoughts]]]_, _[[[spell:Dissonant Whispers]]]_, _[[[spell:Phantasmal Force]]]_, _[[[spell:Tasha's Hideous Laughter]]]_ |
-| 5             | _[[[spell:Clairvoyance]]]_, _[[[spell:Hunger of Hadar]]]_                                                                               |
-| 7             | _[[[spell:Confusion]]]_, _[[[spell:Summon Aberration]]]_                                                                                |
-| 9             | _[[[spell:Modify Memory]]]_, _[[[spell:Telekinesis]]]_                                                                                  |
+| Warlock Level | Spells                                                                                                                          |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------|
+| 3             | [[[spell:Detect Thoughts]]], [[[spell:Dissonant Whispers]]], [[[spell:Phantasmal Force]]], [[[spell:Tasha's Hideous Laughter]]] |
+| 5             | [[[spell:Clairvoyance]]], [[[spell:Hunger of Hadar]]]                                                                           |
+| 7             | [[[spell:Confusion]]], [[[spell:Summon Aberration]]]                                                                            |
+| 9             | [[[spell:Modify Memory]]], [[[spell:Telekinesis]]]                                                                              |
 
 ### Level 3: Psychic Spells
 
@@ -35,7 +35,7 @@ Once you use this feature, you can't use it again until you finish a [[glossary:
 
 ### Level 10: Eldritch Hex
 
-Your alien patron grants you a powerful curse. You always have the _[[[spell:Hex]]]_ spell prepared. When you cast _Hex_ and choose an ability, the target also has [[glossary:Disadvantage]] on saving throws of the chosen ability for the duration of the spell.
+Your alien patron grants you a powerful curse. You always have the [[[spell:Hex]]] spell prepared. When you cast _Hex_ and choose an ability, the target also has [[glossary:Disadvantage]] on saving throws of the chosen ability for the duration of the spell.
 
 ### Level 10: Thought Shield
 
@@ -43,9 +43,9 @@ Your thoughts can't be read by telepathy or other means unless you allow it. You
 
 ### Level 14: Create Thrall
 
-When you cast _[[[spell:Summon Aberration]]]_, you can modify it so that it doesn't require [[glossary:Concentration]]. If you do so, the spell's duration becomes 1 minute for that casting, and when summoned, the Aberration has a number of [[glossary:Temporary Hit Points]] equal to your Warlock level plus your Charisma modifier.
+When you cast [[[spell:Summon Aberration]]], you can modify it so that it doesn't require [[glossary:Concentration]]. If you do so, the spell's duration becomes 1 minute for that casting, and when summoned, the Aberration has a number of [[glossary:Temporary Hit Points]] equal to your Warlock level plus your Charisma modifier.
 
-In addition, the first time each turn the Aberration hits a creature under the effect of your _[[[spell:Hex]]]_, the Aberration deals extra Psychic damage to the target equal to the bonus damage of that spell.
+In addition, the first time each turn the Aberration hits a creature under the effect of your [[[spell:Hex]]], the Aberration deals extra Psychic damage to the target equal to the bonus damage of that spell.
 
 ----
 

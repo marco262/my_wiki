@@ -369,7 +369,7 @@ Your exposure to the Feywild's magic grants you the following benefits.
 
 **_Ability Score Increase._** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 
-**_Fey Magic._** Choose one level 1 spell from the Divination or Enchantment school of magic. You always have that spell and the _[[[spell:Misty Step]]]_ spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a [[glossary:Long Rest]]. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
+**_Fey Magic._** Choose one level 1 spell from the Divination or Enchantment school of magic. You always have that spell and the [[[spell:Misty Step]]] spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a [[glossary:Long Rest]]. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
 
 ## Grappler
 
@@ -595,7 +595,7 @@ Your exposure to the Shadowfell's magic grants you the following benefits.
 
 **_Ability Score Increase._** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 
-**_Shadow Magic._** Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the _[[[spell:Invisibility]]]_ spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a [[glossary:Long Rest]]. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
+**_Shadow Magic._** Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the [[[spell:Invisibility]]] spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a [[glossary:Long Rest]]. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.
 
 ## Sharpshooter
 
@@ -697,7 +697,7 @@ You gain the following benefits.
 
 **_Ability Score Increase._** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 
-**_Minor Telekinesis._** You learn the _[[[spell:Mage Hand]]]_ spell. You can cast it without Verbal or Somatic components, you can make the spectral hand [[glossary:Invisible]], and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat.
+**_Minor Telekinesis._** You learn the [[[spell:Mage Hand]]] spell. You can cast it without Verbal or Somatic components, you can make the spectral hand [[glossary:Invisible]], and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat.
 
 **_Telekinetic Shove._** As a Bonus Action, you can telekinetically shove one creature you can see within 30 feet of yourself. When you do so, the target must succeed on a Strength saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or be moved 5 feet toward or away from you.
 
@@ -711,7 +711,7 @@ You gain the following benefits.
 
 **_Telepathic Utterance._** You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.
 
-**_Detect Thoughts._** You always have the _[[[spell:Detect Thoughts]]]_ spell prepared. You can cast it without a spell slot or spell components, and you must finish a [[glossary:Long Rest]] before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.
+**_Detect Thoughts._** You always have the [[[spell:Detect Thoughts]]] spell prepared. You can cast it without a spell slot or spell components, and you must finish a [[glossary:Long Rest]] before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.
 
 ## War Caster
 

@@ -117,7 +117,7 @@ The 20-sided die (d20) is the most important die you'll use in the game. It's ce
 
 ### Damage
 
-The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of [[glossary:D20 Test]]), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a [[tooltip:Dagger]] uses 1d4, a [[tooltip:Greataxe]] uses 1d12, and a _[[[spell:Fireball]]]_ spell uses 8d6.
+The most common use for dice other than the d20 is to determine damage. When you make a successful attack roll (one kind of [[glossary:D20 Test]]), you roll damage to see how effective the attack is. When you cast a spell, you might also roll damage. Different weapons and spells use different dice for damage. For example, a [[tooltip:Dagger]] uses 1d4, a [[tooltip:Greataxe]] uses 1d12, and a [[[spell:Fireball]]] spell uses 8d6.
 
 ### Random Tables
 
@@ -926,7 +926,7 @@ Damage dealt via saving throws uses these rules.
 
 ### Damage against Multiple Targets
 
-When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts _[[[spell:Fireball]]]_, the spell's damage is rolled once for all creatures caught in the blast.
+When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts [[[spell:Fireball]]], the spell's damage is rolled once for all creatures caught in the blast.
 
 ### Half Damage
 
@@ -956,7 +956,7 @@ Some creatures and objects have Immunity to certain damage types and conditions.
 
 ## Healing
 
-Hit Points can be restored by magic, such as the _[[[spell:Cure Wounds]]]_ spell or a [[tooltip:Potion of Healing]], or by a [[glossary:Short Rest]] or [[glossary:Long Rest]] (see the [[[general:Rules Glossary]]]).
+Hit Points can be restored by magic, such as the [[[spell:Cure Wounds]]] spell or a [[tooltip:Potion of Healing]], or by a [[glossary:Short Rest]] or [[glossary:Long Rest]] (see the [[[general:Rules Glossary]]]).
 
 When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
 
@@ -976,7 +976,7 @@ Here are the main ways a creature can die instantly.
 
 ### Character Demise
 
-If your character dies, others might find a magical way to revive your character, such as with the _[[[spell:Raise Dead]]]_ spell. Or talk with the DM about making a new character to join the group. _See also:_ [[glossary:Dead]].
+If your character dies, others might find a magical way to revive your character, such as with the [[[spell:Raise Dead]]] spell. Or talk with the DM about making a new character to join the group. _See also:_ [[glossary:Dead]].
 
 ### Falling Unconscious
 

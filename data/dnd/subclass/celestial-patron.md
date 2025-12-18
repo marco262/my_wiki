@@ -10,12 +10,12 @@ The magic of your patron ensures you always have certain spells ready; when you 
 
 #### Celestial Spells
 
-| Warlock Level | Spells                                                                                                                                                      |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 3             | _[[[spell:Aid]]]_, _[[[spell:Cure Wounds]]]_, _[[[spell:Guiding Bolt]]]_, _[[[spell:Lesser Restoration]]]_, _[[[spell:Light]]]_, _[[[spell:Sacred Flame]]]_ |
-| 5             | _[[[spell:Daylight]]]_, _[[[spell:Revivify]]]_                                                                                                              |
-| 7             | _[[[spell:Guardian of Faith]]]_, _[[[spell:Wall of Fire]]]_                                                                                                 |
-| 9             | _[[[spell:Greater Restoration]]]_, _[[[spell:Summon Celestial]]]_                                                                                           |
+| Warlock Level | Spells                                                                                                                                          |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3             | [[[spell:Aid]]], [[[spell:Cure Wounds]]], [[[spell:Guiding Bolt]]], [[[spell:Lesser Restoration]]], [[[spell:Light]]], [[[spell:Sacred Flame]]] |
+| 5             | [[[spell:Daylight]]], [[[spell:Revivify]]]                                                                                                      |
+| 7             | [[[spell:Guardian of Faith]]], [[[spell:Wall of Fire]]]                                                                                         |
+| 9             | [[[spell:Greater Restoration]]], [[[spell:Summon Celestial]]]                                                                                   |
 
 ### Level 3: Healing Light
 

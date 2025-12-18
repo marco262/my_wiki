@@ -14,13 +14,13 @@ When you reach a Ranger level specified in the Fey Wanderer Spells table, you th
 
 #### Fey Wanderer Spells
 
-| Ranger Level | Spell                        |
-|--------------|------------------------------|
-| 3            | _[[[spell:Charm Person]]]_   |
-| 5            | _[[[spell:Misty Step]]]_     |
-| 9            | _[[[spell:Summon Fey]]]_     |
-| 13           | _[[[spell:Dimension Door]]]_ |
-| 17           | _[[[spell:Mislead]]]_        |
+| Ranger Level | Spell                      |
+|--------------|----------------------------|
+| 3            | [[[spell:Charm Person]]]   |
+| 5            | [[[spell:Misty Step]]]     |
+| 9            | [[[spell:Summon Fey]]]     |
+| 13           | [[[spell:Dimension Door]]] |
+| 17           | [[[spell:Mislead]]]        |
 
 You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.
 
@@ -49,13 +49,13 @@ In addition, whenever you or a creature you can see within 120 feet of you succe
 
 ### Level 11: Fey Reinforcements
 
-You can cast _[[[spell:Summon Fey]]]_ without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
+You can cast [[[spell:Summon Fey]]] without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
 
 Whenever you start casting the spell, you can modify it so that it doesn't require [[glossary:Concentration]]. If you do so, the spell's duration becomes 1 minute for that casting.
 
 ### Level 15: Misty Wanderer
 
-You can cast _[[[spell:Misty Step]]]_ without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
+You can cast [[[spell:Misty Step]]] without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 In addition, whenever you cast _Misty Step_, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.
 

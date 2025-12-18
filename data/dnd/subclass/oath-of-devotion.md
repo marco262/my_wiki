@@ -22,13 +22,13 @@ The magic of your oath ensures you always have certain spells ready; when you re
 
 Oath of Devotion Spells
 
-| Paladin Level | Spells                                                                     |
-|---------------|----------------------------------------------------------------------------|
-| 3             | _[[[spell:Protection from Evil and Good]]]_, _[[[spell:Shield of Faith]]]_ |
-| 5             | _[[[spell:Aid]]]_, _[[[spell:Zone of Truth]]]_                             |
-| 9             | _[[[spell:Beacon of Hope]]]_, _[[[spell:Dispel Magic]]]_                   |
-| 13            | _[[[spell:Freedom of Movement]]]_, _[[[spell:Guardian of Faith]]]_         |
-| 17            | _[[[spell:Commune]]]_, _[[[spell:Flame Strike]]]_                          |
+| Paladin Level | Spells                                                                 |
+|---------------|------------------------------------------------------------------------|
+| 3             | [[[spell:Protection from Evil and Good]]], [[[spell:Shield of Faith]]] |
+| 5             | [[[spell:Aid]]], [[[spell:Zone of Truth]]]                             |
+| 9             | [[[spell:Beacon of Hope]]], [[[spell:Dispel Magic]]]                   |
+| 13            | [[[spell:Freedom of Movement]]], [[[spell:Guardian of Faith]]]         |
+| 17            | [[[spell:Commune]]], [[[spell:Flame Strike]]]                          |
 
 ### Level 3: Sacred Weapon
 
@@ -44,7 +44,7 @@ You and your allies have Immunity to the [[glossary:Charmed]] condition while in
 
 ### Level 15: Smite of Protection
 
-Your magical smite now radiates protective energy. Whenever you cast _[[[spell:Divine Smite]]]_, you and your allies have [[tooltip:Half Cover]] while in your Aura of Protection. The aura has this benefit until the start of your next turn.
+Your magical smite now radiates protective energy. Whenever you cast [[[spell:Divine Smite]]], you and your allies have [[tooltip:Half Cover]] while in your Aura of Protection. The aura has this benefit until the start of your next turn.
 
 ### Level 20: Holy Nimbus
 

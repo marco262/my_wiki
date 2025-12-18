@@ -34,7 +34,7 @@ You can read any language.
 
 #### See Invisibility
 
-You can cast _[[[spell:See Invisibility]]]_ without expending a spell slot.
+You can cast [[[spell:See Invisibility]]] without expending a spell slot.
 
 ### Level 14: Greater Portent
 

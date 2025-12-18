@@ -13,7 +13,7 @@ material_component_cost = 0
 material_component_consumed = false
 duration = "1 minute"
 description = """
-You create a 20-foot-radius [[glossary:Sphere]] of yellow, nauseating gas centered on a point within range. The cloud is [[glossary:Heavily Obscured]]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by _[[[spell:Gust of Wind]]]_) disperses it.
+You create a 20-foot-radius [[glossary:Sphere]] of yellow, nauseating gas centered on a point within range. The cloud is [[glossary:Heavily Obscured]]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by [[[spell:Gust of Wind]]]) disperses it.
 
 Each creature that starts its turn in the [[glossary:Sphere]] must succeed on a Constitution saving throw or have the [[glossary:Poisoned]] condition until the end of the current turn. While [[glossary:Poisoned]] in this way, the creature can't take an action or a [[glossary:Bonus Action]].
 """

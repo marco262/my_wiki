@@ -10,12 +10,12 @@ When you reach a Sorcerer level specified in the Clockwork Spells table, you the
 
 #### Clockwork Spells
 
-| Sorcerer Level | Spells                                                                                                                |
-|----------------|-----------------------------------------------------------------------------------------------------------------------|
-| 3              | _[[[spell:Aid]]]_, _[[[spell:Alarm]]]_, _[[[spell:Lesser Restoration]]]_, _[[[spell:Protection from Evil and Good]]]_ |
-| 5              | _[[[spell:Dispel Magic]]]_, _[[[spell:Protection from Energy]]]_                                                      |
-| 7              | _[[[spell:Freedom of Movement]]]_, _[[[spell:Summon Construct]]]_                                                     |
-| 9              | _[[[spell:Greater Restoration]]]_, _[[[spell:Wall of Force]]]_                                                        |
+| Sorcerer Level | Spells                                                                                                        |
+|----------------|---------------------------------------------------------------------------------------------------------------|
+| 3              | [[[spell:Aid]]], [[[spell:Alarm]]], [[[spell:Lesser Restoration]]], [[[spell:Protection from Evil and Good]]] |
+| 5              | [[[spell:Dispel Magic]]], [[[spell:Protection from Energy]]]                                                  |
+| 7              | [[[spell:Freedom of Movement]]], [[[spell:Summon Construct]]]                                                 |
+| 9              | [[[spell:Greater Restoration]]], [[[spell:Wall of Force]]]                                                    |
 
 In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.
 

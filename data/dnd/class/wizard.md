@@ -81,7 +81,7 @@ As a student of arcane magic, you have learned to cast spells.
 
 When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
 
-**_Spellbook._** Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _[[[spell:Identify]]]_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
+**_Spellbook._** Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting [[[spell:Identify]]]. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
 
 The book contains the level 1+ spells you know. It starts with six level 1 spells of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
 

@@ -16,12 +16,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Life Domain Spells
 
-| Cleric Level | Prepared Spells                                                                                     |
-|--------------|-----------------------------------------------------------------------------------------------------|
-| 3            | _[[[spell:Aid]]]_, _[[[spell:Bless]]]_, _[[[spell:Cure Wounds]]]_, _[[[spell:Lesser Restoration]]]_ |
-| 5            | _[[[spell:Mass Healing Word]]]_, _[[[spell:Revivify]]]_                                             |
-| 7            | _[[[spell:Aura of Life]]]_, _[[[spell:Death Ward]]]_                                                |
-| 9            | _[[[spell:Greater Restoration]]]_, _[[[spell:Mass Cure Wounds]]]_                                   |
+| Cleric Level | Prepared Spells                                                                             |
+|--------------|---------------------------------------------------------------------------------------------|
+| 3            | [[[spell:Aid]]], [[[spell:Bless]]], [[[spell:Cure Wounds]]], [[[spell:Lesser Restoration]]] |
+| 5            | [[[spell:Mass Healing Word]]], [[[spell:Revivify]]]                                         |
+| 7            | [[[spell:Aura of Life]]], [[[spell:Death Ward]]]                                            |
+| 9            | [[[spell:Greater Restoration]]], [[[spell:Mass Cure Wounds]]]                               |
 
 ### Level 3: Preserve Life
 

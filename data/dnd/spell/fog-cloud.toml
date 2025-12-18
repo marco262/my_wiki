@@ -8,6 +8,6 @@ casting_time = "Action"
 range = "120 feet"
 components = ["V", "S"]
 duration = "1 hour"
-description = "You create a 20-foot-radius [[glossary:Sphere]] of fog centered on a point within range. The [[glossary:Sphere]] is [[glossary:Heavily Obscured]]. It lasts for the duration or until a strong wind (such as one created by _[[[spell:Gust of Wind]]]_) disperses it."
+description = "You create a 20-foot-radius [[glossary:Sphere]] of fog centered on a point within range. The [[glossary:Sphere]] is [[glossary:Heavily Obscured]]. It lasts for the duration or until a strong wind (such as one created by [[[spell:Gust of Wind]]]) disperses it."
 at_higher_levels = "The fog's radius increases by 20 feet for each spell slot level above 1."
 source = "Player's Handbook, p. 276"

@@ -26,12 +26,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Trickery Domain Spells
 
-| Cleric Level | Prepared Spells                                                                                                       |
-|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| 3            | _[[[spell:Charm Person]]]_, _[[[spell:Disguise Self]]]_, _[[[spell:Invisibility]]]_, _[[[spell:Pass without Trace]]]_ |
-| 5            | _[[[spell:Hypnotic Pattern]]]_, _[[[spell:Nondetection]]]_                                                            |
-| 7            | _[[[spell:Confusion]]]_, _[[[spell:Dimension Door]]]_                                                                 |
-| 9            | _[[[spell:Dominate Person]]]_, _[[[spell:Modify Memory]]]_                                                            |
+| Cleric Level | Prepared Spells                                                                                               |
+|--------------|---------------------------------------------------------------------------------------------------------------|
+| 3            | [[[spell:Charm Person]]], [[[spell:Disguise Self]]], [[[spell:Invisibility]]], [[[spell:Pass without Trace]]] |
+| 5            | [[[spell:Hypnotic Pattern]]], [[[spell:Nondetection]]]                                                        |
+| 7            | [[[spell:Confusion]]], [[[spell:Dimension Door]]]                                                             |
+| 9            | [[[spell:Dominate Person]]], [[[spell:Modify Memory]]]                                                        |
 
 ### Level 6: Trickster's Transposition
 

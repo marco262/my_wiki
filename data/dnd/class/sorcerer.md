@@ -188,7 +188,7 @@ _Cost: 1 Sorcery Point_When you cast a spell that deals a type of damage from th
 
 #### Twinned Spell
 
-_Cost: 1 Sorcery Point_When you cast a spell, such as _[[[spell:Charm Person]]]_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
+_Cost: 1 Sorcery Point_When you cast a spell, such as [[[spell:Charm Person]]], that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
 
 # Sorcerer Subclasses
 

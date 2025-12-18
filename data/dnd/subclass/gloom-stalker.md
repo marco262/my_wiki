@@ -20,13 +20,13 @@ When you reach a Ranger level specified in the Gloom Stalker Spells table, you t
 
 #### Gloom Stalker Spells
 
-| Ranger Level | Spells                             |
-|--------------|------------------------------------|
-| 3            | _[[[spell:Disguise Self]]]_        |
-| 5            | _[[[spell:Rope Trick]]]_           |
-| 9            | _[[[spell:Fear]]]_                 |
-| 13           | _[[[spell:Greater Invisibility]]]_ |
-| 17           | _[[[spell:Seeming]]]_              |
+| Ranger Level | Spells                           |
+|--------------|----------------------------------|
+| 3            | [[[spell:Disguise Self]]]        |
+| 5            | [[[spell:Rope Trick]]]           |
+| 9            | [[[spell:Fear]]]                 |
+| 13           | [[[spell:Greater Invisibility]]] |
+| 17           | [[[spell:Seeming]]]              |
 
 ### Level 3: Umbral Sight
 

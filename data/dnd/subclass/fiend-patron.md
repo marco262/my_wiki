@@ -14,12 +14,12 @@ The magic of your patron ensures you always have certain spells ready; when you 
 
 #### Fiend Spells
 
-| Warlock Level | Spells                                                                                                    |
-|---------------|-----------------------------------------------------------------------------------------------------------|
-| 3             | _[[[spell:Burning Hands]]]_, _[[[spell:Command]]]_, _[[[spell:Scorching Ray]]]_, _[[[spell:Suggestion]]]_ |
-| 5             | _[[[spell:Fireball]]]_, _[[[spell:Stinking Cloud]]]_                                                      |
-| 7             | _[[[spell:Fire Shield]]]_, _[[[spell:Wall of Fire]]]_                                                     |
-| 9             | _[[[spell:Geas]]]_, _[[[spell:Insect Plague]]]_                                                           |
+| Warlock Level | Spells                                                                                            |
+|---------------|---------------------------------------------------------------------------------------------------|
+| 3             | [[[spell:Burning Hands]]], [[[spell:Command]]], [[[spell:Scorching Ray]]], [[[spell:Suggestion]]] |
+| 5             | [[[spell:Fireball]]], [[[spell:Stinking Cloud]]]                                                  |
+| 7             | [[[spell:Fire Shield]]], [[[spell:Wall of Fire]]]                                                 |
+| 9             | [[[spell:Geas]]], [[[spell:Insect Plague]]]                                                       |
 
 ### Level 6: Dark One's Own Luck
 

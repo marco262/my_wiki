@@ -138,7 +138,7 @@ You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
 ### Level 20: Words of Creation
 
-You have mastered two of the Words of Creation: the words of life and death. You therefore always have the _[[[spell:Power Word Heal]]]_ and _[[[spell:Power Word Kill]]]_ spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.
+You have mastered two of the Words of Creation: the words of life and death. You therefore always have the [[[spell:Power Word Heal]]] and [[[spell:Power Word Kill]]] spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.
 
 # Bard Subclasses
 

@@ -90,11 +90,11 @@ When you reach character levels 3 and 5, you learn a higher-level spell, as show
 
 #### Elven Lineages
 
-| Lineage  | Level 1                                                                                                                                                                                                        | Level 3                    | Level 5                          |
-|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
-| Drow     | The range of your [[glossary:Darkvision]] increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                                                       | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
-| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a [[glossary:Long Rest]], you can replace that cantrip with a different cantrip from the [Wizard spell list](/dnd/spell_list/Wizard). | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
-| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                                                           | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
+| Lineage  | Level 1                                                                                                                                                                                                      | Level 3                  | Level 5                        |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------------------------------|
+| Drow     | The range of your [[glossary:Darkvision]] increases to 120 feet. You also know the [[[spell:Dancing Lights]]] cantrip.                                                                                       | [[[spell:Faerie Fire]]]  | [[[spell:Darkness]]]           |
+| High Elf | You know the [[[spell:Prestidigitation]]] cantrip. Whenever you finish a [[glossary:Long Rest]], you can replace that cantrip with a different cantrip from the [Wizard spell list](/dnd/spell_list/Wizard). | [[[spell:Detect Magic]]] | [[[spell:Misty Step]]]         |
+| Wood Elf | Your Speed increases to 35 feet. You also know the [[[spell:Druidcraft]]] cantrip.                                                                                                                           | [[[spell:Longstrider]]]  | [[[spell:Pass without Trace]]] |
 
 ## Halfling
 
@@ -164,7 +164,7 @@ As an Aasimar, you have these special traits.
 
 **_Healing Hands._** As a [[glossary:Magic]] action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a [[glossary:Long Rest]].
 
-**_Light Bearer._** You know the _[[[spell:Light]]]_ cantrip. Charisma is your spellcasting ability for it.
+**_Light Bearer._** You know the [[[spell:Light]]] cantrip. Charisma is your spellcasting ability for it.
 
 **_Celestial Revelation._** When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a [[glossary:Long Rest]].
 
@@ -235,8 +235,8 @@ As a Gnome, you have these special traits.
 
 **_Gnomish Lineage._** You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):
 
- - **Forest Gnome.** You know the _[[[spell:Minor Illusion]]]_ cantrip. You also always have the _[[[spell:Speak with Animals]]]_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a [[glossary:Long Rest]]. You can also use any spell slots you have to cast the spell.
- - **Rock Gnome.** You know the _[[[spell:Mending]]]_ and _[[[spell:Prestidigitation]]]_ cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a [[glossary:Utilize]] action.
+ - **Forest Gnome.** You know the [[[spell:Minor Illusion]]] cantrip. You also always have the [[[spell:Speak with Animals]]] spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a [[glossary:Long Rest]]. You can also use any spell slots you have to cast the spell.
+ - **Rock Gnome.** You know the [[[spell:Mending]]] and [[[spell:Prestidigitation]]] cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a [[glossary:Utilize]] action.
 
 ## Goliath
 
@@ -317,15 +317,15 @@ As a Tiefling, you have the following special traits.
 
 When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a [[glossary:Long Rest]]. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).
 
-**_Otherworldly Presence._** You know the _[[[spell:Thaumaturgy]]]_ cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
+**_Otherworldly Presence._** You know the [[[spell:Thaumaturgy]]] cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
 
 #### Fiendish Legacies
 
-| Legacy   | Level 1                                                                                      | Level 3                       | Level 5                           |
-|----------|----------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------|
-| Abyssal  | You have Resistance to Poison damage. You also know the _[[[spell:Poison Spray]]]_ cantrip.  | _[[[spell:Ray of Sickness]]]_ | _[[[spell:Hold Person]]]_         |
-| Chthonic | You have Resistance to Necrotic damage. You also know the _[[[spell:Chill Touch]]]_ cantrip. | _[[[spell:False Life]]]_      | _[[[spell:Ray of Enfeeblement]]]_ |
-| Infernal | You have Resistance to Fire damage. You also know the _[[[spell:Fire Bolt]]]_ cantrip.       | _[[[spell:Hellish Rebuke]]]_  | _[[[spell:Darkness]]]_            |
+| Legacy   | Level 1                                                                                    | Level 3                     | Level 5                         |
+|----------|--------------------------------------------------------------------------------------------|-----------------------------|---------------------------------|
+| Abyssal  | You have Resistance to Poison damage. You also know the [[[spell:Poison Spray]]] cantrip.  | [[[spell:Ray of Sickness]]] | [[[spell:Hold Person]]]         |
+| Chthonic | You have Resistance to Necrotic damage. You also know the [[[spell:Chill Touch]]] cantrip. | [[[spell:False Life]]]      | [[[spell:Ray of Enfeeblement]]] |
+| Infernal | You have Resistance to Fire damage. You also know the [[[spell:Fire Bolt]]] cantrip.       | [[[spell:Hellish Rebuke]]]  | [[[spell:Darkness]]]            |
 
 ----
 

@@ -24,12 +24,12 @@ In addition, you can cast the spells from this feature while you're in a Wild Sh
 
 #### Circle of the Moon Spells
 
-| Druid Level | Prepared Spells                                                              |
-|-------------|------------------------------------------------------------------------------|
-| 3           | _[[[spell:Cure Wounds]]]_, _[[[spell:Moonbeam]]]_, _[[[spell:Starry Wisp]]]_ |
-| 5           | _[[[spell:Conjure Animals]]]_                                                |
-| 7           | _[[[spell:Fount of Moonlight]]]_                                             |
-| 9           | _[[[spell:Mass Cure Wounds]]]_                                               |
+| Druid Level | Prepared Spells                                                        |
+|-------------|------------------------------------------------------------------------|
+| 3           | [[[spell:Cure Wounds]]], [[[spell:Moonbeam]]], [[[spell:Starry Wisp]]] |
+| 5           | [[[spell:Conjure Animals]]]                                            |
+| 7           | [[[spell:Fount of Moonlight]]]                                         |
+| 9           | [[[spell:Mass Cure Wounds]]]                                           |
 
 ### Level 6: Improved Circle Forms
 

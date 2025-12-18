@@ -6,7 +6,7 @@ You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to p
 
 ### Level 3: Hunter's Lore
 
-You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _[[[spell:Hunter's Mark]]]_, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
+You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your [[[spell:Hunter's Mark]]], you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
 
 ### Level 3: Hunter's Prey
 
@@ -34,7 +34,7 @@ When a creature hits you with an attack roll, that creature has [[glossary:Disad
 
 ### Level 11: Superior Hunter's Prey
 
-Once per turn when you deal damage to a creature marked by your _[[[spell:Hunter's Mark]]]_, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
+Once per turn when you deal damage to a creature marked by your [[[spell:Hunter's Mark]]], you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
 
 ### Level 15: Superior Hunter's Defense
 

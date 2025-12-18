@@ -14,7 +14,7 @@ At the start of your turn, you can expend 1 Focus Point to imbue yourself with e
 
 ### Level 3: Manipulate Elements
 
-You know the _[[[spell:Elementalism]]]_ spell. Wisdom is your spellcasting ability for it.
+You know the [[[spell:Elementalism]]] spell. Wisdom is your spellcasting ability for it.
 
 ### Level 6: Elemental Burst
 

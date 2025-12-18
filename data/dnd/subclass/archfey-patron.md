@@ -10,16 +10,16 @@ The magic of your patron ensures you always have certain spells ready; when you 
 
 #### Archfey Spells
 
-| Warlock Level | Spells                                                                                                                                |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 3             | _[[[spell:Calm Emotions]]]_, _[[[spell:Faerie Fire]]]_, _[[[spell:Misty Step]]]_, _[[[spell:Phantasmal Force]]]_, _[[[spell:Sleep]]]_ |
-| 5             | _[[[spell:Blink]]]_, _[[[spell:Plant Growth]]]_                                                                                       |
-| 7             | _[[[spell:Dominate Beast]]]_, _[[[spell:Greater Invisibility]]]_                                                                      |
-| 9             | _[[[spell:Dominate Person]]]_, _[[[spell:Seeming]]]_                                                                                  |
+| Warlock Level | Spells                                                                                                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 3             | [[[spell:Calm Emotions]]], [[[spell:Faerie Fire]]], [[[spell:Misty Step]]], [[[spell:Phantasmal Force]]], [[[spell:Sleep]]] |
+| 5             | [[[spell:Blink]]], [[[spell:Plant Growth]]]                                                                                 |
+| 7             | [[[spell:Dominate Beast]]], [[[spell:Greater Invisibility]]]                                                                |
+| 9             | [[[spell:Dominate Person]]], [[[spell:Seeming]]]                                                                            |
 
 ### Level 3: Steps of the Fey
 
-Your patron grants you the ability to move between the boundaries of the planes. You can cast _[[[spell:Misty Step]]]_ without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
+Your patron grants you the ability to move between the boundaries of the planes. You can cast [[[spell:Misty Step]]] without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
 In addition, whenever you cast that spell, you can choose one of the following additional effects.
 
@@ -29,7 +29,7 @@ In addition, whenever you cast that spell, you can choose one of the following a
 
 ### Level 6: Misty Escape
 
-You can cast _[[[spell:Misty Step]]]_ as a Reaction in response to taking damage.
+You can cast [[[spell:Misty Step]]] as a Reaction in response to taking damage.
 
 In addition, the following effects are now among your Steps of the Fey options.
 
@@ -45,7 +45,7 @@ In addition, immediately after a creature you can see hits you with an attack ro
 
 ### Level 14: Bewitching Magic
 
-Your patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast _[[[spell:Misty Step]]]_ as part of the same action and without expending a spell slot.
+Your patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast [[[spell:Misty Step]]] as part of the same action and without expending a spell slot.
 
 ----
 

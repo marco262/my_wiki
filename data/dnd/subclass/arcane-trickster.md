@@ -8,9 +8,9 @@ Some Rogues enhance their fine-honed skills of stealth and agility with spells, 
 
 You have learned to cast spells.
 
-**_Cantrips._** You know three cantrips: _[[[spell:Mage Hand]]]_ and two other cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
+**_Cantrips._** You know three cantrips: [[[spell:Mage Hand]]] and two other cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
 
-Whenever you gain a Rogue level, you can replace one of your cantrips, except _[[[spell:Mage Hand]]]_, with another Wizard cantrip of your choice.
+Whenever you gain a Rogue level, you can replace one of your cantrips, except [[[spell:Mage Hand]]], with another Wizard cantrip of your choice.
 
 When you reach Rogue level 10, you learn another Wizard cantrip of your choice.
 
@@ -51,7 +51,7 @@ The number of spells on your list increases as you gain Rogue levels, as shown i
 
 ### Level 3: Mage Hand Legerdemain
 
-When you cast _[[[spell:Mage Hand]]]_, you can cast it as a Bonus Action, and you can make the spectral hand [[glossary:Invisible]]. You can control the hand as a Bonus Action, and through it, you can make Dexterity ([[tooltip:Sleight of Hand]]) checks.
+When you cast [[[spell:Mage Hand]]], you can cast it as a Bonus Action, and you can make the spectral hand [[glossary:Invisible]]. You can control the hand as a Bonus Action, and through it, you can make Dexterity ([[tooltip:Sleight of Hand]]) checks.
 
 ### Level 9: Magical Ambush
 
@@ -59,7 +59,7 @@ If you have the [[glossary:Invisible]] condition when you cast a spell on a crea
 
 ### Level 13: Versatile Trickster
 
-You gain the ability to distract targets with your _[[[spell:Mage Hand]]]_. When you use the Trip option of your Cunning Strike on a creature, you can also use that option on another creature within 5 feet of the spectral hand.
+You gain the ability to distract targets with your [[[spell:Mage Hand]]]. When you use the Trip option of your Cunning Strike on a creature, you can also use that option on another creature within 5 feet of the spectral hand.
 
 ### Level 17: Spell Thief
 

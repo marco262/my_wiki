@@ -16,12 +16,12 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### War Domain Spells
 
-| Cleric Level | Prepared Spells                                                                                                       |
-|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| 3            | _[[[spell:Guiding Bolt]]]_, _[[[spell:Magic Weapon]]]_, _[[[spell:Shield of Faith]]]_, _[[[spell:Spiritual Weapon]]]_ |
-| 5            | _[[[spell:Crusader's Mantle]]]_, _[[[spell:Spirit Guardians]]]_                                                       |
-| 7            | _[[[spell:Fire Shield]]]_, _[[[spell:Freedom of Movement]]]_                                                          |
-| 9            | _[[[spell:Hold Monster]]]_, _[[[spell:Steel Wind Strike]]]_                                                           |
+| Cleric Level | Prepared Spells                                                                                               |
+|--------------|---------------------------------------------------------------------------------------------------------------|
+| 3            | [[[spell:Guiding Bolt]]], [[[spell:Magic Weapon]]], [[[spell:Shield of Faith]]], [[[spell:Spiritual Weapon]]] |
+| 5            | [[[spell:Crusader's Mantle]]], [[[spell:Spirit Guardians]]]                                                   |
+| 7            | [[[spell:Fire Shield]]], [[[spell:Freedom of Movement]]]                                                      |
+| 9            | [[[spell:Hold Monster]]], [[[spell:Steel Wind Strike]]]                                                       |
 
 ### Level 3: War Priest
 
@@ -29,7 +29,7 @@ As a Bonus Action, you can make one attack with a weapon or an Unarmed Strike. Y
 
 ### Level 6: War God's Blessing
 
-You can expend a use of your Channel Divinity to cast _[[[spell:Shield of Faith]]]_ or _[[[spell:Spiritual Weapon]]]_ rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead, the spell lasts for 1 minute, but it ends early if you cast that spell again, have the [[glossary:Incapacitated]] condition, or die.
+You can expend a use of your Channel Divinity to cast [[[spell:Shield of Faith]]] or [[[spell:Spiritual Weapon]]] rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead, the spell lasts for 1 minute, but it ends early if you cast that spell again, have the [[glossary:Incapacitated]] condition, or die.
 
 ### Level 17: Avatar of Battle
 

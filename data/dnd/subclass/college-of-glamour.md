@@ -6,7 +6,7 @@ The College of Glamour traces its origins to the beguiling magic of the Feywild.
 
 ### Level 3: Beguiling Magic
 
-You always have the _[[[spell:Charm Person]]]_ and _[[[spell:Mirror Image]]]_ spells prepared.
+You always have the [[[spell:Charm Person]]] and [[[spell:Mirror Image]]] spells prepared.
 
 In addition, immediately after you cast an Enchantment or Illusion spell using a spell slot, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the [[glossary:Charmed]] or [[glossary:Frightened]] condition (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.
 
@@ -18,7 +18,7 @@ You can weave fey magic into a song or dance to fill others with vigor. As a Bon
 
 ### Level 6: Mantle of Majesty
 
-You always have the _[[[spell:Command]]]_ spell prepared.
+You always have the [[[spell:Command]]] spell prepared.
 
 As a Bonus Action, you cast _Command_ without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your [[glossary:Concentration]] ends. During this time, you can cast _Command_ as a Bonus Action without expending a spell slot.
 

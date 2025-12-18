@@ -16,12 +16,12 @@ When you reach a Sorcerer level specified in the Draconic Spells table, you ther
 
 #### Draconic Spells
 
-| Sorcerer Level | Spells                                                                                                      |
-|----------------|-------------------------------------------------------------------------------------------------------------|
-| 3              | _[[[spell:Alter Self]]]_, _[[[spell:Chromatic Orb]]]_, _[[[spell:Command]]]_, _[[[spell:Dragon's Breath]]]_ |
-| 5              | _[[[spell:Fear]]]_, _[[[spell:Fly]]]_                                                                       |
-| 7              | _[[[spell:Arcane Eye]]]_, _[[[spell:Charm Monster]]]_                                                       |
-| 9              | _[[[spell:Legend Lore]]]_, _[[[spell:Summon Dragon]]]_                                                      |
+| Sorcerer Level | Spells                                                                                              |
+|----------------|-----------------------------------------------------------------------------------------------------|
+| 3              | [[[spell:Alter Self]]], [[[spell:Chromatic Orb]]], [[[spell:Command]]], [[[spell:Dragon's Breath]]] |
+| 5              | [[[spell:Fear]]], [[[spell:Fly]]]                                                                   |
+| 7              | [[[spell:Arcane Eye]]], [[[spell:Charm Monster]]]                                                   |
+| 9              | [[[spell:Legend Lore]]], [[[spell:Summon Dragon]]]                                                  |
 
 ### Level 6: Elemental Affinity
 
@@ -37,7 +37,7 @@ Once you use this feature, you can't use it again until you finish a [[glossary:
 
 ### Level 18: Dragon Companion
 
-You can cast _[[[spell:Summon Dragon]]]_ without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a [[glossary:Long Rest]].
+You can cast [[[spell:Summon Dragon]]] without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a [[glossary:Long Rest]].
 
 Whenever you start casting the spell, you can modify it so that it doesn't require [[glossary:Concentration]]. If you do so, the spell's duration becomes 1 minute for that casting.
 

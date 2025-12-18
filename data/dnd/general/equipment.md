@@ -1332,7 +1332,7 @@ Adventures hold the promise -- but not a guarantee -- of finding magic items. Hu
 
 Some magic items are indistinguishable from their nonmagical counterparts, while others are conspicuously magical. Handling a magic item is enough to give you a sense that it is extraordinary, but learning a magic item's properties isn't automatic.
 
-The _[[[spell:Identify]]]_ spell is the fastest way to reveal an item's properties. Alternatively, you can focus on one magic item during a [[glossary:Short Rest]] while being in physical contact with the item. At the end of the rest, you learn its properties and how to use them (but not any curse the item might bear).
+The [[[spell:Identify]]] spell is the fastest way to reveal an item's properties. Alternatively, you can focus on one magic item during a [[glossary:Short Rest]] while being in physical contact with the item. At the end of the rest, you learn its properties and how to use them (but not any curse the item might bear).
 
 Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched inside the band, or a feathered design might hint that it's a [[tooltip:Ring of Feather Falling]].
 

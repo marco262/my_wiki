@@ -79,7 +79,7 @@ When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of you
 
 **_Spell Slots._** The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.
 
-For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell _[[[spell:Witch Bolt]]]_, you must spend one of those slots, and you cast it as a level 3 spell.
+For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell [[[spell:Witch Bolt]]], you must spend one of those slots, and you cast it as a level 3 spell.
 
 **_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Warlock spell list](/dnd/spell_list/Warlock).
 
@@ -107,7 +107,7 @@ You gain the Ability Score Improvement feat or another feat of your choice for w
 
 ### Level 9: Contact Patron
 
-In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the _[[[spell:Contact Other Plane]]]_ spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
+In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the [[[spell:Contact Other Plane]]] spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
 
 Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest.
 
@@ -147,7 +147,7 @@ Choose one of your known Warlock cantrips that deals damage. You can add your Ch
 
 #### Armor of Shadows
 
-You can cast _[[[spell:Mage Armor]]]_ on yourself without expending a spell slot.
+You can cast [[[spell:Mage Armor]]] on yourself without expending a spell slot.
 
 ---
 
@@ -155,7 +155,7 @@ You can cast _[[[spell:Mage Armor]]]_ on yourself without expending a spell slot
 
 _Prerequisite: Level 5+ Warlock_
 
-You can cast _[[[spell:Levitate]]]_ on yourself without expending a spell slot.
+You can cast [[[spell:Levitate]]] on yourself without expending a spell slot.
 
 ---
 
@@ -203,7 +203,7 @@ Choose one of your known Warlock cantrips that deals damage and has a range of 1
 
 _Prerequisite: Level 2+ Warlock_
 
-You can cast _[[[spell:False Life]]]_ on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the [[glossary:Temporary Hit Points]]; you automatically get the highest number on the die.
+You can cast [[[spell:False Life]]] on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the [[glossary:Temporary Hit Points]]; you automatically get the highest number on the die.
 
 ---
 
@@ -223,7 +223,7 @@ _Prerequisite: Level 5+ Warlock_
 
 You can breathe underwater, and you gain a Swim Speed equal to your Speed.
 
-You can also cast _[[[spell:Water Breathing]]]_ once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.
+You can also cast [[[spell:Water Breathing]]] once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.
 
 ---
 
@@ -243,7 +243,7 @@ As a [[glossary:Magic]] action, you can erase a name on the page by touching it.
 
 _Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation_
 
-When you cast _[[[spell:Find Familiar]]]_, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
+When you cast [[[spell:Find Familiar]]], you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
 
 **_Aerial or Aquatic._** The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.
 
@@ -279,7 +279,7 @@ Once per turn when you hit a creature with your pact weapon, you can deal an ext
 
 _Prerequisite: Level 2+ Warlock_
 
-You can cast _[[[spell:Disguise Self]]]_ without expending a spell slot.
+You can cast [[[spell:Disguise Self]]] without expending a spell slot.
 
 ---
 
@@ -287,7 +287,7 @@ You can cast _[[[spell:Disguise Self]]]_ without expending a spell slot.
 
 _Prerequisite: Level 5+ Warlock_
 
-You can cast _[[[spell:Alter Self]]]_ without expending a spell slot.
+You can cast [[[spell:Alter Self]]] without expending a spell slot.
 
 ---
 
@@ -295,7 +295,7 @@ You can cast _[[[spell:Alter Self]]]_ without expending a spell slot.
 
 _Prerequisite: Level 2+ Warlock_
 
-You can cast _[[[spell:Silent Image]]]_ without expending a spell slot.
+You can cast [[[spell:Silent Image]]] without expending a spell slot.
 
 ---
 
@@ -303,7 +303,7 @@ You can cast _[[[spell:Silent Image]]]_ without expending a spell slot.
 
 _Prerequisite: Level 5+ Warlock_
 
-While you're in an area of Dim Light or Darkness, you can cast _[[[spell:Invisibility]]]_ on yourself without expending a spell slot.
+While you're in an area of Dim Light or Darkness, you can cast [[[spell:Invisibility]]] on yourself without expending a spell slot.
 
 ---
 
@@ -311,7 +311,7 @@ While you're in an area of Dim Light or Darkness, you can cast _[[[spell:Invisib
 
 _Prerequisite: Level 2+ Warlock_
 
-You can cast _[[[spell:Jump]]]_ on yourself without expending a spell slot.
+You can cast [[[spell:Jump]]] on yourself without expending a spell slot.
 
 ---
 
@@ -327,7 +327,7 @@ Your bond with the weapon ends if you use this feature's Bonus Action again, if 
 
 #### Pact of the Chain
 
-You learn the _[[[spell:Find Familiar]]]_ spell and can cast it as a Magic action without expending a spell slot.
+You learn the [[[spell:Find Familiar]]] spell and can cast it as a Magic action without expending a spell slot.
 
 When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: [[[monster:Imp]]], [[[monster:Pseudodragon]]], [[[monster:Quasit]]], [[[monster:Skeleton]]], [[[monster:Slaad Tadpole]]], [[[monster:Sphinx of Wonder]]], [[[monster:Sprite]]], or [[[monster:Venomous Snake]]].
 
@@ -367,7 +367,7 @@ You gain the Extra Attack feature for your pact weapon only. With that feature, 
 
 _Prerequisite: Level 9+ Warlock_
 
-You can cast _[[[spell:Arcane Eye]]]_ without expending a spell slot.
+You can cast [[[spell:Arcane Eye]]] without expending a spell slot.
 
 ---
 
@@ -375,7 +375,7 @@ You can cast _[[[spell:Arcane Eye]]]_ without expending a spell slot.
 
 _Prerequisite: Level 7+ Warlock_
 
-You can cast _[[[spell:Speak with Dead]]]_ without expending a spell slot.
+You can cast [[[spell:Speak with Dead]]] without expending a spell slot.
 
 ---
 

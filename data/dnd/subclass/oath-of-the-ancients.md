@@ -24,13 +24,13 @@ The magic of your oath ensures you always have certain spells ready; when you re
 
 ### Oath of the Ancients Spells
 
-| Paladin Level | Spells                                                           |
-|---------------|------------------------------------------------------------------|
-| 3             | _[[[spell:Ensnaring Strike]]]_, _[[[spell:Speak with Animals]]]_ |
-| 5             | _[[[spell:Misty Step]]]_, _[[[spell:Moonbeam]]]_                 |
-| 9             | _[[[spell:Plant Growth]]]_, _[[[spell:Protection from Energy]]]_ |
-| 13            | _[[[spell:Ice Storm]]]_, _[[[spell:Stoneskin]]]_                 |
-| 17            | _[[[spell:Commune with Nature]]]_, _[[[spell:Tree Stride]]]_     |
+| Paladin Level | Spells                                                       |
+|---------------|--------------------------------------------------------------|
+| 3             | [[[spell:Ensnaring Strike]]], [[[spell:Speak with Animals]]] |
+| 5             | [[[spell:Misty Step]]], [[[spell:Moonbeam]]]                 |
+| 9             | [[[spell:Plant Growth]]], [[[spell:Protection from Energy]]] |
+| 13            | [[[spell:Ice Storm]]], [[[spell:Stoneskin]]]                 |
+| 17            | [[[spell:Commune with Nature]]], [[[spell:Tree Stride]]]     |
 
 ### Level 7: Aura of Warding
 

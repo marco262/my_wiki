@@ -47,12 +47,12 @@ class TestMarkdownParser(unittest.TestCase):
         [[[spell:enlarge/reduce]]]
         """
         expected = """
-        <a class="wiki-link" href="/dnd/class/cleric#toc">Table of Contents</a>
-        <a class="wiki-link" href="/dnd/class/cleric#domains">Domains</a>
-        <a class="wiki-link" href="/dnd/class/cleric#lots-of-words">Lots of Words</a>
-        <a class="wiki-link" href="/dnd/class/cleric">cleric</a>
+        <a class="wiki-link class" href="/dnd/class/cleric#toc">Table of Contents</a>
+        <a class="wiki-link class" href="/dnd/class/cleric#domains">Domains</a>
+        <a class="wiki-link class" href="/dnd/class/cleric#lots-of-words">Lots of Words</a>
+        <a class="wiki-link class" href="/dnd/class/cleric">cleric</a>
         <a class="wiki-link-broken" href="/dnd/Mutants">Mutants</a>
-        <a class="wiki-link" href="/dnd/spell/enlarge-reduce">enlarge/reduce</a>
+        <a class="wiki-link spell" href="/dnd/spell/enlarge-reduce">enlarge/reduce</a>
         """
         actual = self.md.convert_wiki_links(pre_markdown)
         self.assertEqual(expected, actual)

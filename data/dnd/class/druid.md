@@ -84,7 +84,7 @@ If another Druid feature gives you spells that you always have prepared, those s
 
 ### Level 1: Druidic
 
-You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the _[[[spell:Speak with Animals]]]_ spell prepared.
+You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the [[[spell:Speak with Animals]]] spell prepared.
 
 You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence ([[tooltip:Investigation]]) check but can't decipher it without magic.
 
@@ -134,7 +134,7 @@ When choosing known forms, you may look in the _[Monster Manual](https://www.dnd
 
 ### Level 2: Wild Companion
 
-You can summon a nature spirit that assumes an animal form to aid you. As a [[glossary:Magic]] action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without Material components.
+You can summon a nature spirit that assumes an animal form to aid you. As a [[glossary:Magic]] action, you can expend a spell slot or a use of Wild Shape to cast the [[[spell:Find Familiar]]] spell without Material components.
 
 When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.
 

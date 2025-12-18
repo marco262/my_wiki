@@ -12,16 +12,16 @@ Your connection to this divine domain ensures you always have certain spells rea
 
 #### Light Domain Spells
 
-| Cleric Level | Prepared Spells                                                                                                     |
-|--------------|---------------------------------------------------------------------------------------------------------------------|
-| 3            | _[[[spell:Burning Hands]]]_, _[[[spell:Faerie Fire]]]_, _[[[spell:Scorching Ray]]]_, _[[[spell:See Invisibility]]]_ |
-| 5            | _[[[spell:Daylight]]]_, _[[[spell:Fireball]]]_                                                                      |
-| 7            | _[[[spell:Arcane Eye]]]_, _[[[spell:Wall of Fire]]]_                                                                |
-| 9            | _[[[spell:Flame Strike]]]_, _[[[spell:Scrying]]]_                                                                   |
+| Cleric Level | Prepared Spells                                                                                             |
+|--------------|-------------------------------------------------------------------------------------------------------------|
+| 3            | [[[spell:Burning Hands]]], [[[spell:Faerie Fire]]], [[[spell:Scorching Ray]]], [[[spell:See Invisibility]]] |
+| 5            | [[[spell:Daylight]]], [[[spell:Fireball]]]                                                                  |
+| 7            | [[[spell:Arcane Eye]]], [[[spell:Wall of Fire]]]                                                            |
+| 9            | [[[spell:Flame Strike]]], [[[spell:Scrying]]]                                                               |
 
 ### Level 3: Radiance of the Dawn
 
-As a [[glossary:Magic]] action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot [[glossary:Emanation]] originating from yourself. Any magical [[glossary:Darkness]]—such as that created by the _[[[spell:Darkness]]]_ spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.
+As a [[glossary:Magic]] action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot [[glossary:Emanation]] originating from yourself. Any magical [[glossary:Darkness]]—such as that created by the [[[spell:Darkness]]] spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.
 
 ### Level 3: Warding Flare
 

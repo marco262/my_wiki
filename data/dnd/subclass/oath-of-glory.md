@@ -16,7 +16,7 @@ These paladins share the following tenets:
 
 ### Level 3: Inspiring Smite
 
-Immediately after you cast _[[[spell:Divine Smite]]]_, you can expend one use of your Channel Divinity and distribute [[glossary:Temporary Hit Points]] to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.
+Immediately after you cast [[[spell:Divine Smite]]], you can expend one use of your Channel Divinity and distribute [[glossary:Temporary Hit Points]] to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.
 
 ### Level 3: Oath of Glory Spells
 
@@ -24,13 +24,13 @@ The magic of your oath ensures you always have certain spells ready; when you re
 
 #### Oath of Glory Spells
 
-| Paladin Level | Spells                                                            |
-|---------------|-------------------------------------------------------------------|
-| 3             | _[[[spell:Guiding Bolt]]]_, _[[[spell:Heroism]]]_                 |
-| 5             | _[[[spell:Enhance Ability]]]_, _[[[spell:Magic Weapon]]]_         |
-| 9             | _[[[spell:Haste]]]_, _[[[spell:Protection from Energy]]]_         |
-| 13            | _[[[spell:Compulsion]]]_, _[[[spell:Freedom of Movement]]]_       |
-| 17            | _[[[spell:Legend Lore]]]_, _[[[spell:Yolande's Regal Presence]]]_ |
+| Paladin Level | Spells                                                        |
+|---------------|---------------------------------------------------------------|
+| 3             | [[[spell:Guiding Bolt]]], [[[spell:Heroism]]]                 |
+| 5             | [[[spell:Enhance Ability]]], [[[spell:Magic Weapon]]]         |
+| 9             | [[[spell:Haste]]], [[[spell:Protection from Energy]]]         |
+| 13            | [[[spell:Compulsion]]], [[[spell:Freedom of Movement]]]       |
+| 17            | [[[spell:Legend Lore]]], [[[spell:Yolande's Regal Presence]]] |
 
 ### Level 3: Peerless Athlete
 

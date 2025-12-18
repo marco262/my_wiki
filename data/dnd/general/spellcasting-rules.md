@@ -67,7 +67,7 @@ Every spell has a level from 0 to 9, which is indicated in a spell's description
 
 Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
 
-When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size -- small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _[[[spell:Magic Missile]]]_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
+When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size -- small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts [[[spell:Magic Missile]]], a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
 
 Finishing a [[glossary:Long Rest]] restores any expended spell slots.
 
@@ -85,9 +85,9 @@ There are several ways to cast a spell without expending a spell slot:
 
 ### Using a Higher-Level Spell Slot
 
-When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts _[[[spell:Magic Missile]]]_ using a level 2 slot, that _Magic Missile_ is level 2. Effectively, the spell expands to fill the slot it is put into.
+When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts [[[spell:Magic Missile]]] using a level 2 slot, that _Magic Missile_ is level 2. Effectively, the spell expands to fill the slot it is put into.
 
-Some spells, such as _[[[spell:Magic Missile]]]_ and _[[[spell:Cure Wounds]]]_, have more powerful effects when cast at a higher level, as detailed in a spell's description.
+Some spells, such as [[[spell:Magic Missile]]] and [[[spell:Cure Wounds]]], have more powerful effects when cast at a higher level, as detailed in a spell's description.
 
 ## School of Magic
 
@@ -150,7 +150,7 @@ A Verbal component is the chanting of esoteric words that sound like nonsense to
 
 #### Creating Verbal Components
 
-If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second _l_ from _[[[spell:Fireball]]]_ and rearrange the remaining letters to create _Ber Fila_ or_ Fel Bira_.
+If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second _l_ from [[[spell:Fireball]]] and rearrange the remaining letters to create _Ber Fila_ or_ Fel Bira_.
 
 ### Somatic (S)
 
@@ -195,7 +195,7 @@ A typical spell requires the caster to pick one or more targets to be affected b
 
 **_Targeting Yourself._** If a spell targets a creature of your choice, you can choose yourself unless the creature must be [[glossary:Hostile]] or specifically a creature other than you.
 
-**_Areas of Effect._** Some spells, such as _[[[spell:Thunderwave]]]_, cover an area called an [[glossary:area of effect]]. The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: [[glossary:Cone]], [[glossary:Cube]], [[glossary:Cylinder]], [[glossary:Emanation]], [[glossary:Line]], or [[glossary:Sphere]].
+**_Areas of Effect._** Some spells, such as [[[spell:Thunderwave]]], cover an area called an [[glossary:area of effect]]. The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: [[glossary:Cone]], [[glossary:Cube]], [[glossary:Cylinder]], [[glossary:Emanation]], [[glossary:Line]], or [[glossary:Sphere]].
 
 **_Awareness of Being Targeted._** Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
 
@@ -217,7 +217,7 @@ Some spells require the caster to make an attack roll to determine whether the s
 
 ### Combining Spell Effects
 
-The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect -- such as the highest bonus -- from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast _[[[spell:Bless]]]_ on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second _Bless_ ends.
+The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect -- such as the highest bonus -- from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast [[[spell:Bless]]] on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second _Bless_ ends.
 
 Identifying an Ongoing SpellYou can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the [[glossary:Study]] action and succeed on a DC 15 Intelligence ([[tooltip:Arcana]]) check.
 

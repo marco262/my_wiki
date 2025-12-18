@@ -57,7 +57,7 @@ Once you use this feature, you can't do so again until you finish a [[glossary:L
 
 ### Level 18: Telekinetic Master
 
-You always have the _[[[spell:Telekinesis]]]_ spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain [[glossary:Concentration]] on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.
+You always have the [[[spell:Telekinesis]]] spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain [[glossary:Concentration]] on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.
 
 Once you cast the spell with this feature, you can't do so in this way again until you finish a [[glossary:Long Rest]] unless you expend a Psionic Energy Die (no action required) to restore your use of it.
 

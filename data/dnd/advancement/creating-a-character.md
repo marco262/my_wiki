@@ -528,7 +528,7 @@ In tier 1, characters are apprentice adventurers, though they are already set ap
 
 ### Tier 2 (Levels 5–10)
 
-In tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as _[[[spell:Fireball]]]_, _[[[spell:Lightning Bolt]]]_, and _[[[spell:Raise Dead]]]_. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms.
+In tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as [[[spell:Fireball]]], [[[spell:Lightning Bolt]]], and [[[spell:Raise Dead]]]. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms.
 
 ### Tier 3 (Levels 11–16)
 
@@ -655,7 +655,7 @@ Each spell you prepare is associated with one of your classes, and you use the s
 
 Then look up this total level in the Level column of the Multiclass Spellcaster table. You use the slots for that level to cast spells of an appropriate level from any class whose Spellcasting feature you have.
 
-This table might give you spell slots of a higher level than the spells you prepare. You can use those slots but only to cast your lower-level spells. If a lower-level spell that you cast, like _[[[spell:Burning Hands]]]_, has an enhanced effect when cast at a higher level, you can use the enhanced effect as normal.
+This table might give you spell slots of a higher level than the spells you prepare. You can use those slots but only to cast your lower-level spells. If a lower-level spell that you cast, like [[[spell:Burning Hands]]], has an enhanced effect when cast at a higher level, you can use the enhanced effect as normal.
 
 For example, if you are a level 4 Ranger / level 3 Sorcerer, you count as a level 5 character when determining your spell slots, counting all your levels as a Sorcerer and half your Ranger levels. As shown in the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare—and potentially enhance their effects.
 

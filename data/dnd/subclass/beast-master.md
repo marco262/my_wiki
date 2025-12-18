@@ -115,7 +115,7 @@ In addition, whenever it hits with an attack roll and deals damage, it can deal 
 
 When you command your Primal Companion beast to take the Beast's Strike action, the beast can use it twice.
 
-In addition, the first time each turn it hits a creature under the effect of your _[[[spell:Hunter's Mark]]]_ spell, the beast deals extra Force damage equal to the bonus damage of that spell.
+In addition, the first time each turn it hits a creature under the effect of your [[[spell:Hunter's Mark]]] spell, the beast deals extra Force damage equal to the bonus damage of that spell.
 
 ### Level 15: Share Spells
 

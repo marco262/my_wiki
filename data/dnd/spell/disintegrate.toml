@@ -13,9 +13,9 @@ material_component_cost = 0
 material_component_consumed = false
 duration = "Instantaneous"
 description = """
-You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by _[[[spell:Wall of Force]]]_.
+You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by [[[spell:Wall of Force]]].
 
-A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 [[glossary:Hit Points]], it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a _[[[spell:True Resurrection]]]_ or a _[[[spell:Wish]]]_ spell.
+A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 [[glossary:Hit Points]], it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a [[[spell:True Resurrection]]] or a [[[spell:Wish]]] spell.
 
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-[[glossary:Cube]] portion of it.
 """

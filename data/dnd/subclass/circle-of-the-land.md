@@ -10,39 +10,39 @@ Whenever you finish a [[glossary:Long Rest]], choose one type of land: arid, pol
 
 #### Arid Land
 
-| Druid Level | Circle Spells                                                            |
-|-------------|--------------------------------------------------------------------------|
-| 3           | _[[[spell:Blur]]]_, _[[[spell:Burning Hands]]]_, _[[[spell:Fire Bolt]]]_ |
-| 5           | _[[[spell:Fireball]]]_                                                   |
-| 7           | _[[[spell:Blight]]]_                                                     |
-| 9           | _[[[spell:Wall of Stone]]]_                                              |
+| Druid Level | Circle Spells                                                      |
+|-------------|--------------------------------------------------------------------|
+| 3           | [[[spell:Blur]]], [[[spell:Burning Hands]]], [[[spell:Fire Bolt]]] |
+| 5           | [[[spell:Fireball]]]                                               |
+| 7           | [[[spell:Blight]]]                                                 |
+| 9           | [[[spell:Wall of Stone]]]                                          |
 
 #### Polar Land
 
-| Druid Level | Circle Spells                                                                  |
-|-------------|--------------------------------------------------------------------------------|
-| 3           | _[[[spell:Fog Cloud]]]_, _[[[spell:Hold Person]]]_, _[[[spell:Ray of Frost]]]_ |
-| 5           | _[[[spell:Sleet Storm]]]_                                                      |
-| 7           | _[[[spell:Ice Storm]]]_                                                        |
-| 9           | _[[[spell:Cone of Cold]]]_                                                     |
+| Druid Level | Circle Spells                                                            |
+|-------------|--------------------------------------------------------------------------|
+| 3           | [[[spell:Fog Cloud]]], [[[spell:Hold Person]]], [[[spell:Ray of Frost]]] |
+| 5           | [[[spell:Sleet Storm]]]                                                  |
+| 7           | [[[spell:Ice Storm]]]                                                    |
+| 9           | [[[spell:Cone of Cold]]]                                                 |
 
 #### Temperate Land
 
-| Druid Level | Circle Spells                                                               |
-|-------------|-----------------------------------------------------------------------------|
-| 3           | _[[[spell:Misty Step]]]_, _[[[spell:Shocking Grasp]]]_, _[[[spell:Sleep]]]_ |
-| 5           | _[[[spell:Lightning Bolt]]]_                                                |
-| 7           | _[[[spell:Freedom of Movement]]]_                                           |
-| 9           | _[[[spell:Tree Stride]]]_                                                   |
+| Druid Level | Circle Spells                                                         |
+|-------------|-----------------------------------------------------------------------|
+| 3           | [[[spell:Misty Step]]], [[[spell:Shocking Grasp]]], [[[spell:Sleep]]] |
+| 5           | [[[spell:Lightning Bolt]]]                                            |
+| 7           | [[[spell:Freedom of Movement]]]                                       |
+| 9           | [[[spell:Tree Stride]]]                                               |
 
 #### Tropical Land
 
-| Druid Level | Circle Spells                                                               |
-|-------------|-----------------------------------------------------------------------------|
-| 3           | _[[[spell:Acid Splash]]]_, _[[[spell:Ray of Sickness]]]_, _[[[spell:Web]]]_ |
-| 5           | _[[[spell:Stinking Cloud]]]_                                                |
-| 7           | _[[[spell:Polymorph]]]_                                                     |
-| 9           | _[[[spell:Insect Plague]]]_                                                 |
+| Druid Level | Circle Spells                                                         |
+|-------------|-----------------------------------------------------------------------|
+| 3           | [[[spell:Acid Splash]]], [[[spell:Ray of Sickness]]], [[[spell:Web]]] |
+| 5           | [[[spell:Stinking Cloud]]]                                            |
+| 7           | [[[spell:Polymorph]]]                                                 |
+| 9           | [[[spell:Insect Plague]]]                                             |
 
 ### Level 3: Land's Aid
 

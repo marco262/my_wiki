@@ -91,20 +91,23 @@ class MarkdownParser:
 
     def convert_wiki_links(self, text):
         namespace_domain = "/" + self.namespace if self.namespace else ""
-        for m in re.finditer(r"\[\[\[((.+?):)?(.+?)(#(.+?))?(\|(.+?))?]]]", text):
-            groups = m.groups()
-            directory = namespace_domain + ("/" + groups[1] if groups[1] else "")
-            filename = groups[2].replace("/", "-")
-            linkname = groups[6] or groups[4] or groups[2]
-            if groups[4]:
-                anchor = "#" + title_to_page_name(groups[4])
+        for m in re.finditer(r"\[\[\[(?:(.+?):)?(.+?)(#(.+?))?(\|(.+?))?]]]", text):
+            category = m.group(1)
+            directory = namespace_domain + ("/" + category if category else "")
+            filename = m.group(2).replace("/", "-")
+            linkname = m.group(6) or m.group(4) or m.group(2)
+            if m.group(4):
+                anchor = "#" + title_to_page_name(m.group(4))
             else:
                 anchor = ""
             broken_link = not (self.check_for_broken_links and self.check_for_md_file(directory, filename))
-            class_name = "wiki-link" + ("-broken" if broken_link else "")
+            classes = ["wiki-link" + ("-broken" if broken_link else "")]
+            if category:
+                classes.append(category)
+            class_names = " ".join(classes)
             text = text.replace(
                 m.group(0),
-                f'<a class="{class_name}" href="{directory}/{filename + anchor}">{linkname}</a>'
+                f'<a class="{class_names}" href="{directory}/{filename + anchor}">{linkname}</a>'
             )
         return text
 
@@ -112,12 +115,7 @@ class MarkdownParser:
     def check_for_md_file(directory, filename):
         filename = title_to_page_name(filename)
         path = os.path.join(BASE_DIR, "data", directory.lstrip("/"), filename)
-        is_file = os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
-        # Special handling for One D&D spells
-        if not is_file and directory == "/onednd/spell":
-            path = os.path.join(BASE_DIR, "data", "dnd/spell", filename)
-            is_file = os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
-        return is_file
+        return os.path.isfile(path + ".md") or os.path.isfile(path + ".toml")
 
     # @staticmethod
     # def convert_popup_links(text):

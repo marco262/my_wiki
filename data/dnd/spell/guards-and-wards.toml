@@ -17,20 +17,20 @@ You create a ward that protects up to 2,500 square feet of floor space. The ward
 
 When you cast this spell, you can specify individuals that are unaffected by the spell's effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.
 
-The spell creates the effects below within the warded area. _[[[spell:Dispel Magic]]]_ has no effect on Guards and Wards itself, but each of the following effects can be dispelled. If all four are dispelled, Guards and Wards ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.
+The spell creates the effects below within the warded area. [[[spell:Dispel Magic]]] has no effect on Guards and Wards itself, but each of the following effects can be dispelled. If all four are dispelled, Guards and Wards ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.
 
 **_Corridors._** Fog fills all the warded corridors, making them [[glossary:Heavily Obscured]]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance chance that a creature other than you believes it is going in the opposite direction from the one it chooses.
 
-**_Doors._** All doors in the warded area are magically locked, as if sealed by the _[[[spell:Arcane Lock]]]_ spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.
+**_Doors._** All doors in the warded area are magically locked, as if sealed by the [[[spell:Arcane Lock]]] spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.
 
-**_Stairs._** Webs fill all stairs in the warded area from top to bottom, as in the _[[[spell:Web]]]_ spell. These strands regrow in 10 minutes if they are destroyed while Guards and Wards lasts.
+**_Stairs._** Webs fill all stairs in the warded area from top to bottom, as in the [[[spell:Web]]] spell. These strands regrow in 10 minutes if they are destroyed while Guards and Wards lasts.
 
 **_Other Spell Effect._** Place one of the following magical effects within the warded area:
 
- - _[[[spell:Dancing Lights]]]_ in four corridors, with a simple program that the lights repeat as long as Guards and Wards lasts
- - _[[[spell:Magic Mouth]]]_ in two locations
- - _[[[spell:Stinking Cloud]]]_ in two locations (the vapors return within 10 minutes if dispersed while Guards and Wards lasts)
- - _[[[spell:Gust of Wind]]]_ in one corridor or room (the wind blows continuously while the spell lasts)
- - _[[[spell:Suggestion]]]_ in one 5-foot square; any creature that enters that square receives the suggestion mentally
+ - [[[spell:Dancing Lights]]] in four corridors, with a simple program that the lights repeat as long as Guards and Wards lasts
+ - [[[spell:Magic Mouth]]] in two locations
+ - [[[spell:Stinking Cloud]]] in two locations (the vapors return within 10 minutes if dispersed while Guards and Wards lasts)
+ - [[[spell:Gust of Wind]]] in one corridor or room (the wind blows continuously while the spell lasts)
+ - [[[spell:Suggestion]]] in one 5-foot square; any creature that enters that square receives the suggestion mentally
 """
 source = "Player's Handbook, p. 282"

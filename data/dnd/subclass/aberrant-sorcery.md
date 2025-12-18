@@ -12,12 +12,12 @@ When you reach a Sorcerer level specified in the Psionic Spells table, you there
 
 Psionic Spells
 
-| Sorcerer Level | Spells                                                                                                                                               |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 3              | _[[[spell:Arms of Hadar]]]_, _[[[spell:Calm Emotions]]]_, _[[[spell:Detect Thoughts]]]_, _[[[spell:Dissonant Whispers]]]_, _[[[spell:Mind Sliver]]]_ |
-| 5              | _[[[spell:Hunger of Hadar]]]_, _[[[spell:Sending]]]_                                                                                                 |
-| 7              | _[[[spell:Evard's Black Tentacles]]]_, _[[[spell:Summon Aberration]]]_                                                                               |
-| 9              | _[[[spell:Rary's Telepathic Bond]]]_, _[[[spell:Telekinesis]]]_                                                                                      |
+| Sorcerer Level | Spells                                                                                                                                     |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 3              | [[[spell:Arms of Hadar]]], [[[spell:Calm Emotions]]], [[[spell:Detect Thoughts]]], [[[spell:Dissonant Whispers]]], [[[spell:Mind Sliver]]] |
+| 5              | [[[spell:Hunger of Hadar]]], [[[spell:Sending]]]                                                                                           |
+| 7              | [[[spell:Evard's Black Tentacles]]], [[[spell:Summon Aberration]]]                                                                         |
+| 9              | [[[spell:Rary's Telepathic Bond]]], [[[spell:Telekinesis]]]                                                                                |
 
 ### Level 3: Telepathic Speech
 

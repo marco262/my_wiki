@@ -99,7 +99,7 @@ You learn two [Cleric cantrips](/dnd/spell_list/Cleric) of your choice. The chos
 
 ### Level 2: Paladin's Smite
 
-You always have the _[[[spell:Divine Smite]]]_ spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
+You always have the [[[spell:Divine Smite]]] spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
 
 ### Level 3: Channel Divinity
 
@@ -109,7 +109,7 @@ You can use this class's Channel Divinity twice. You regain one of its expended 
 
 If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
 
-**_Divine Sense._** As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the [[glossary:Incapacitated]] condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the _[[[spell:Hallow]]]_ spell.
+**_Divine Sense._** As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the [[glossary:Incapacitated]] condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the [[[spell:Hallow]]] spell.
 
 ### Level 3: Paladin Subclass
 
@@ -125,7 +125,7 @@ You can attack twice instead of once whenever you take the [[glossary:Attack]] a
 
 ### Level 5: Faithful Steed
 
-You can call on the aid of an otherworldly steed. You always have the _[[[spell:Find Steed]]]_ spell prepared.
+You can call on the aid of an otherworldly steed. You always have the [[[spell:Find Steed]]] spell prepared.
 
 You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.
 

@@ -75,7 +75,7 @@ If another Ranger feature gives you spells that you always have prepared, those 
 
 ### Level 1: Favored Enemy
 
-You always have the _[[[spell:Hunter's Mark]]]_ spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
+You always have the [[[spell:Hunter's Mark]]] spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
 
 The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels.
 
@@ -131,7 +131,7 @@ Primal forces now help fuel you on your journeys, granting you the following ben
 
 ### Level 13: Relentless Hunter
 
-Taking damage can't break your [[glossary:Concentration]] on _[[[spell:Hunter's Mark]]]_.
+Taking damage can't break your [[glossary:Concentration]] on [[[spell:Hunter's Mark]]].
 
 ### Level 14: Nature's Veil
 
@@ -141,7 +141,7 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Level 17: Precise Hunter
 
-You have Advantage on attack rolls against the creature currently marked by your _[[[spell:Hunter's Mark]]]_.
+You have Advantage on attack rolls against the creature currently marked by your [[[spell:Hunter's Mark]]].
 
 ### Level 18: Feral Senses
 
@@ -153,7 +153,7 @@ You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
 ### Level 20: Foe Slayer
 
-The damage die of your _[[[spell:Hunter's Mark]]]_ is a d10 rather than a d6.
+The damage die of your [[[spell:Hunter's Mark]]] is a d10 rather than a d6.
 
 # Ranger Subclasses
 

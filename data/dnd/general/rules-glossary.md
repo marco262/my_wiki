@@ -343,7 +343,7 @@ A Cube's point of origin isn't included in the area of effect unless its creator
 
 ## Curses
 
-Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the _[[[spell:Remove Curse]]]_ and _[[[spell:Greater Restoration]]]_ spells or other magic that explicitly ends curses.
+Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the [[[spell:Remove Curse]]] and [[[spell:Greater Restoration]]] spells or other magic that explicitly ends curses.
 
 ## Cylinder [Area of Effect]
 
@@ -406,7 +406,7 @@ If you have a special speed, such as a [Fly Speed](#fly-speed) or [Swim Speed](#
 
 ## Dead
 
-A dead creature has no [Hit Points](#hit-points) and can't regain them unless it is first revived by magic such as the _[[[spell:Raise Dead]]]_ or _[[[spell:Revivify]]]_ spell. When such a spell is cast, the spirit knows who is casting it and can refuse. The spirit of a dead creature has left the body and departed for the Outer Planes, and reviving the creature requires calling the spirit back.
+A dead creature has no [Hit Points](#hit-points) and can't regain them unless it is first revived by magic such as the [[[spell:Raise Dead]]] or [[[spell:Revivify]]] spell. When such a spell is cast, the spirit knows who is casting it and can refuse. The spirit of a dead creature has left the body and departed for the Outer Planes, and reviving the creature requires calling the spirit back.
 
 If the creature returns to life, the revival effect determines the creature's current Hit Points. Unless otherwise stated, the creature returns to life with any conditions, magical contagions, or curses that were affecting it at death if the durations of those effects are still ongoing. If the creature died with any [Exhaustion](#exhaustion-condition) levels, it returns with 1 fewer level. If the creature had [Attunement](#attunement) to one or more magic items, it is no longer attuned to them.
 
@@ -852,7 +852,7 @@ While you have the Poisoned condition, you experience the following effect.
 
 ## Possession
 
-Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines how the possession operates. Possession can be prevented by the _[[[spell:Protection from Evil and Good]]]_ spell and ended by the _[[[spell:Dispel Evil and Good]]]_ spell.
+Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines how the possession operates. Possession can be prevented by the [[[spell:Protection from Evil and Good]]] spell and ended by the [[[spell:Dispel Evil and Good]]] spell.
 
 ## Proficiency
 
@@ -930,7 +930,7 @@ When you take the Search action, you make a Wisdom check to discern something th
 
 ## Shifting
 
-If an effect, such as Wild Shape or the _[[[spell:Polymorph]]]_ spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you -- [conditions](#condition), [spells](#spell), [curses](#curses), and the like -- carry over from one form to the other. You revert to your true form if you die.
+If an effect, such as Wild Shape or the [[[spell:Polymorph]]] spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you -- [conditions](#condition), [spells](#spell), [curses](#curses), and the like -- carry over from one form to the other. You revert to your true form if you die.
 
 ## Short Rest
 

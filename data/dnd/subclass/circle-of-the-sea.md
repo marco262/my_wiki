@@ -10,12 +10,12 @@ When you reach a Druid level specified in the Circle of the Sea Spells table, yo
 
 #### Circle of the Sea Spells
 
-| Druid Level | Prepared Spells                                                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 3           | _[[[spell:Fog Cloud]]]_, _[[[spell:Gust of Wind]]]_, _[[[spell:Ray of Frost]]]_, _[[[spell:Shatter]]]_, _[[[spell:Thunderwave]]]_ |
-| 5           | _[[[spell:Lightning Bolt]]]_, _[[[spell:Water Breathing]]]_                                                                       |
-| 7           | _[[[spell:Control Water]]]_, _[[[spell:Ice Storm]]]_                                                                              |
-| 9           | _[[[spell:Conjure Elemental]]]_, _[[[spell:Hold Monster]]]_                                                                       |
+| Druid Level | Prepared Spells                                                                                                         |
+|-------------|-------------------------------------------------------------------------------------------------------------------------|
+| 3           | [[[spell:Fog Cloud]]], [[[spell:Gust of Wind]]], [[[spell:Ray of Frost]]], [[[spell:Shatter]]], [[[spell:Thunderwave]]] |
+| 5           | [[[spell:Lightning Bolt]]], [[[spell:Water Breathing]]]                                                                 |
+| 7           | [[[spell:Control Water]]], [[[spell:Ice Storm]]]                                                                        |
+| 9           | [[[spell:Conjure Elemental]]], [[[spell:Hold Monster]]]                                                                 |
 
 ### Level 3: Wrath of the Sea
 
