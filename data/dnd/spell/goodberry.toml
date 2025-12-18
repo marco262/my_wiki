@@ -1,17 +1,20 @@
 title = "Goodberry"
-classes = ["druid", "ranger"]
+spell_lists = ["Druid", "Ranger"]
 level = "1"
-school = "transmutation"
+school = "Conjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Touch"
 components = ["V", "S", "M"]
 material = "a sprig of mistletoe"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Instantaneous"
-description = """Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for a day.
+duration = "24 hours"
+description = """
+Ten berries appear in your hand and are infused with magic for the duration. A creature can take a [[glossary:Bonus Action]] to eat one berry. Eating a berry restores 1 [[glossary:Hit Points]], and the berry provides enough nourishment to sustain a creature for one day.
 
-The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell."""
-source = "Player's Handbook, p. 246"
+Uneaten berries disappear when the spell ends.
+"""
+source = "Player's Handbook, p. 280"

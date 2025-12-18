@@ -1,17 +1,20 @@
 title = "Steel Wind Strike"
-classes = ["ranger", "wizard"]
+spell_lists = ["Ranger", "Wizard"]
 level = "5"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "30 feet"
 components = ["S", "M"]
-material = "a melee weapon worth at least 1 sp"
+material = "a Melee weapon worth 1+ SP"
 expensive_material_component = true
+material_component_cost = 10
 material_component_consumed = false
 duration = "Instantaneous"
-description = """You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 force damage.
+description = """
+You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 Force damage.
 
-You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."""
-source = "Xanathar's Guide to Everything, p. 166"
+You then teleport to an unoccupied space you can see within 5 feet of one of the targets.
+"""
+source = "Player's Handbook, p. 320"

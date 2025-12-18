@@ -1,0 +1,13 @@
+title = "Arcane Vigor"
+spell_lists = ["Sorcerer", "Wizard"]
+level = "2"
+school = "Abjuration"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Bonus Action"
+range = "Self"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = "You tap into your life force to heal yourself. Roll one or two of your unexpended [[glossary:Hit Point Dice]], and regain a number of [[glossary:Hit Points]] equal to the roll's total plus your spellcasting ability modifier. Those dice are then expended."
+at_higher_levels = "The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2."
+source = "Player's Handbook, p. 242"

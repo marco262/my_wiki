@@ -1,29 +1,37 @@
 [[breadcrumb /dnd/class/Rogue|Rogue]]
 
-You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
+_Practice the Grim Art of Death_
 
-## Bonus Proficiencies
+An Assassin's training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.
 
-When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.
+### Level 3: Assassinate
 
-## Assassinate
+You're adept at ambushing a target, granting you the following benefits.
 
-Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.
+**_Initiative._** You have [[glossary:Advantage]] on Initiative rolls.
 
-## Infiltration Expertise
+**_Surprising Strikes._** During the first round of each combat, you have [[glossary:Advantage]] on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level.
 
-Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants. Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.
+### Level 3: Assassin's Tools
 
-## Impostor
+You gain a [[tooltip:Disguise Kit]] and a [[tooltip:Poisoner's Kit]], and you have proficiency with them.
 
-At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.
+### Level 9: Infiltration Expertise
 
-Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.
+You are expert at the following techniques that aid your infiltrations.
 
-## Death Strike
+**_Masterful Mimicry._** You can unerringly mimic another person's speech, handwriting, or both if you have spent at least 1 hour studying them.
 
-Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.
+**_Roving Aim._** Your Speed isn't reduced to 0 by using Steady Aim.
+
+### Level 13: Envenom Weapons
+
+When you use the Poison option of your Cunning Strike, the target also takes 2d6 Poison damage whenever it fails the saving throw. This damage ignores Resistance to Poison damage.
+
+### Level 17: Death Strike
+
+When you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus), or the attack's damage is doubled against the target.
 
 ----
 
-*Source: Player's Handbook, p. 97*
+_Source: Player's Handbook, p. 134_

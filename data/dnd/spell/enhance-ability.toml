@@ -1,29 +1,17 @@
 title = "Enhance Ability"
-classes = ["artificer", "bard", "cleric", "druid", "sorcerer"]
-classes_ua = ["ranger", "wizard"]
+spell_lists = ["Bard", "Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "2"
-school = "transmutation"
+school = "Transmutation"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Touch"
 components = ["V", "S", "M"]
-material = "fur or a feather from a beast"
+material = "fur or a feather"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 hour"
-description = """You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains the effect until the spell ends.
-
-**Bear's Endurance.** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.
-
-**Bull's Strength.** The target has advantage on Strength checks, and his or her carrying capacity doubles.
-
-**Cat's Grace.** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't [[[general:conditions#incapacitated|incapacitated]]].
-
-**Eagle's Splendor.** The target has advantage on Charisma checks.
-
-**Fox's Cunning.** The target has advantage on Intelligence checks.
-
-**Owl's Wisdom.** The target has advantage on Wisdom checks."""
-at_higher_levels = "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
-source = "Player's Handbook, p. 237"
+duration = "1 hour"
+description = "You touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has [[glossary:Advantage]] on ability checks using the chosen ability."
+at_higher_levels = "You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target."
+source = "Player's Handbook, p. 268"

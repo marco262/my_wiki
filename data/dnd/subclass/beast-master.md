@@ -1,32 +1,20 @@
 [[breadcrumb /dnd/class/Ranger|Ranger]]
 
-The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.
+_Bond with a Primal Beast_
 
-## Ranger's Companion
+A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.
 
-At 3rd level, you gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower (See the [[[general:Monsters by Type]]] page for a list of beasts). Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher. Like any creature, the beast can spend Hit Dice during a short rest.[((bibcite errata))]
+### Level 3: Primal Companion
 
-The beast obeys your commands as best as it can. It takes its turn on your initiative.[((bibcite errata))] On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, or Help action. If you don't issue a command, the beast takes the Dodge action.[((bibcite errata))] Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.
+You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: **[Beast of the Land](https://www.dndbeyond.com/sources/dnd/phb-2024/character-classes-continued#BeastoftheLand)**, **[Beast of the Sea](https://www.dndbeyond.com/sources/dnd/phb-2024/character-classes-continued#BeastoftheSea)**, or **[Beast of the Sky](https://www.dndbeyond.com/sources/dnd/phb-2024/character-classes-continued#BeastoftheSky)**. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.
 
-If you are [[[general:conditions#incapacitated|incapacitated]]] or absent, the beast acts on its own, focusing on protecting you and itself. The beast never requires your command to use its reaction, such as when making an opportunity attack.[((bibcite errata))]
+The beast is [[glossary:Friendly]] to you and your allies and obeys your commands. It vanishes if you die.
 
-While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.
+**_The Beast in Combat._** In combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the [[glossary:Dodge]] action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the [[glossary:Attack]] action to command the beast to take the Beast's Strike action. If you have the [[glossary:Incapacitated]] condition, the beast acts on its own and isn't limited to the Dodge action.
 
-If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one.
+**_Restoring or Replacing the Beast._** If the beast has died within the last hour, you can take a [[glossary:Magic]] action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.
 
-[[accordion Optional Class Features: Primal Companion]]
-
-## Primal Companion
-
-_3rd-level Beast Master feature, which replaces the Ranger's Companion feature_
-
-You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block -- Beast of the Land, Beast of the Sea, or Beast of the Sky -- which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.
-
-In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.
-
-If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.
-
-When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.
+Whenever you finish a [[glossary:Long Rest]], you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.
 
 <div class="monster-include" markdown="1">
 
@@ -36,24 +24,23 @@ name = Beast of the Land
 size = Medium
 type = beast
 alignment = 
-armor_class = 13 + PB (natural armor)
+armor_class = 13 + your Wisdom modifier
 hit_points = 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)
-speed = 40 ft., climb 40 ft.
+speed = 40 ft., Climb 40 ft.
 strength = 14
 dexterity = 14
 constitution = 15
 intelligence = 8
 wisdom = 14
 charisma = 11
-senses = darkvision 60 ft., passive Perception 12
-languages = understands the languages you speak
-proficiency_bonus = equals your bonus
-special_abilities = !!!
-***Charge.*** If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.
-
-***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+senses = Darkvision 60 ft., passive Perception 12
+languages = Understands the languages you speak
+proficiency_bonus = equals your Proficiency Bonus
+special_abilities = !***Primal Bond.*** Add your Proficiency Bonus to any ability check or saving throw the beast makes.
+actions = !!!
+***Beast's Strike.*** _Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 5 ft. _Hit:_ 1d8 + 2 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast).
+If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature.
 !!!
-actions = !***Maul.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d8 + 2 + PB slashing damage.
 [[/include]]
 
 </div>
@@ -66,24 +53,24 @@ name = Beast of the Sea
 size = Medium
 type = beast
 alignment = 
-armor_class = 13 + PB (natural armor)
+armor_class = 13 + your Wisdom modifier
 hit_points = 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)
-speed = 5 ft., swim 60 ft.
+speed = 5 ft., Swim 60 ft.
 strength = 14
 dexterity = 14
 constitution = 15
 intelligence = 8
 wisdom = 14
 charisma = 11
-senses = darkvision 60 ft., passive Perception 12
-languages = understands the languages you speak
-proficiency_bonus = equals your bonus
+senses = Darkvision 90 ft., passive Perception 12
+languages = Understands the languages you speak
+proficiency_bonus = equals your Proficiency Bonus
 special_abilities = !!!
-***Amphibious.*** The beast can breathe both air and water.
+***Amphibious.*** The beast can breathe air and water.
 
-***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+***Primal Bond.*** Add your Proficiency Bonus to any ability check or saving throw the beast makes.
 !!!
-actions = !***Binding Strike.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d6 + 2 + PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.
+actions = !***Beast's Strike.*** _Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 5 ft. _Hit:_ 1d6 + 2 + your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the [[glossary:Grappled]] condition (escape DC equals your spell save DC).
 [[/include]]
 
 </div>
@@ -98,44 +85,42 @@ type = beast
 alignment = 
 armor_class = 13 + PB (natural armor)
 hit_points = 4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)
-speed = 10 ft., fly 60 ft.
+speed = 10 ft., Fly 60 ft.
 strength = 6
 dexterity = 16
 constitution = 13
 intelligence = 8
 wisdom = 14
 charisma = 11
-senses = darkvision 60 ft., passive Perception 12
+senses = Darkvision 60 ft., passive Perception 12
 languages = understands the languages you speak
-proficiency_bonus = equals your bonus
+proficiency_bonus = equals your Proficiency Bonus
 special_abilities = !!!
-***Flyby.*** The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+***Flyby.*** The beast doesn't provoke Opportunity Attacks when it flies out of an enemy's reach.
 
-***Primal Bond.*** You can add your proficiency bonus to any ability check or saving throw that the beast makes.
+***Primal Bond.*** You can add your Proficiency Bonus to any ability check or saving throw that the beast makes.
 !!!
-actions = !***Shred.*** _Melee Weapon Attack:_ your spell attack modifier to hit, reach 5 ft., one target. _Hit:_ 1d4 + 3 + PB slashing damage.
+actions = !***Beast's Strike.*** _Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 5 ft. _Hit:_ 1d4 + 3 + your Wisdom modifier Slashing damage.
 [[/include]]
 
 </div>
 
-[[/accordion]]
+### Level 7: Exceptional Training
 
-## Exceptional Training
+When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the [[glossary:Dash]], [[glossary:Disengage]], [[glossary:Dodge]], or [[glossary:Help]] action using its Bonus Action.
 
-Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.[((bibcite errata))]
+In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.
 
-## Bestial Fury
+### Level 11: Bestial Fury
 
-Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.[((bibcite errata))]
+When you command your Primal Companion beast to take the Beast's Strike action, the beast can use it twice.
 
-## Share Spells
+In addition, the first time each turn it hits a creature under the effect of your _[[[spell:Hunter's Mark]]]_ spell, the beast deals extra Force damage equal to the bonus damage of that spell.
 
-Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.
+### Level 15: Share Spells
+
+When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you.
 
 ----
 
-*Source: Player's Handbook, p. 93*
-
-[[bibliography]]
-: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-[[/bibliography]]
+_Source: Player's Handbook, p. 122_

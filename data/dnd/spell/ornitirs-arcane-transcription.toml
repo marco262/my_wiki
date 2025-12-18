@@ -1,7 +1,7 @@
 title = "Ornitir's Arcane Transcription"
-classes = ["wizard"]
+spell_lists = ["Wizard"]
 level = "2"
-school = "transmutation"
+school = "Transmutation"
 concentration_spell = false
 ritual_spell = false
 casting_time = "1 hour"
@@ -9,6 +9,7 @@ range = "Touch"
 components = ["V", "S", "M"]
 material = "a bottle of ink and a raven's quill"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
 duration = "Instantaneous"
 description = """You touch two spellbooks, transferring the spells written in one to the other. All spells that were written in the receiving spellbook before the spell was cast are erased and replaced with the ones that were in the origin spellbook. All spells in the origin spellbook are erased."""

@@ -1,7 +1,7 @@
 import unittest
 from json import dumps
 
-from src.dnd.magic_item_tracker import build_magic_item_tracker, count_magic_items, count_magic_item_tiers, \
+from src.dnd5e.magic_item_tracker import build_magic_item_tracker, count_magic_items, count_magic_item_tiers, \
     build_magic_item_tracker_table
 
 

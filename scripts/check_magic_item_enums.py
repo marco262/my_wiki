@@ -1,7 +1,7 @@
 import os
 
-from data.dnd.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
-from src.dnd.utils import load_magic_items
+from data.dnd5e.enums import classes, magic_item_types, magic_item_rarities, magic_item_sources
+from src.dnd5e.utils import load_magic_items
 
 if os.path.basename(os.getcwd()) == "scripts":
     os.chdir("..")

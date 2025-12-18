@@ -8,14 +8,14 @@ import toml
 
 from src.common.utils import title_to_page_name
 
-os.makedirs("../data/dnd/equipment/magic-items", exist_ok=True)
+os.makedirs("../data/dnd5e/equipment/magic-items", exist_ok=True)
 
 with open("magic_items.html") as f:
     for line in f.readlines():
         m = re.match(r"<tr><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td></tr>", line)
         name = m.group(1)
         filename = title_to_page_name(name) + ".toml"
-        filepath = os.path.join("../data/dnd/equipment/magic-items", filename)
+        filepath = os.path.join("../data/dnd5e/equipment/magic-items", filename)
         print(name)
         if os.path.isfile(filepath):
             continue

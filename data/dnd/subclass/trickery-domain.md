@@ -1,54 +1,50 @@
 [[breadcrumb /dnd/class/Cleric|Cleric]]
 
-Gods of trickery -- such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki -- are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
+_Make Mischief and Challenge Authority_
 
-## Trickery Domain Spells
+The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.
 
-||~ Cleric Level ||~ Spells ||
-|| 1st || *[[[spell:charm person]]]*, *[[[spell:disguise self]]]* ||
-|| 3rd || *[[[spell:mirror image]]]*, *[[[spell:pass without trace]]]* ||
-|| 5th || *[[[spell:blink]]]*, *[[[spell:dispel magic]]]* ||
-|| 7th || *[[[spell:dimension door]]]*, *[[[spell:polymorph]]]* ||
-|| 9th || *[[[spell:dominate person]]]*, *[[[spell:modify memory]]]* ||
+Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.
 
-## Blessing of the Trickster
+### Level 3: Blessing of the Trickster
 
-Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.
+As a [[glossary:Magic]] action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity ([[tooltip:Stealth]]) checks. This blessing lasts until you finish a Long Rest or you use this feature again.
 
-## Channel Divinity: Invoke Duplicity
+### Level 3: Invoke Duplicity
 
-Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.
+As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the [[glossary:Incapacitated]] condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.
 
-As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
+**_Cast Spells._** You can cast spells as though you were in the illusion's space, but you must use your own senses.
 
-For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.
+**_Distract._** When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.
 
-## Channel Divinity: Cloak of Shadows
+**_Move._** As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.
 
-Starting at 6th level, you can use your Channel Divinity to vanish.
+### Level 3: Trickery Domain Spells
 
-As an action, you become [[[general:conditions#invisible|invisible]]] until the end of your next turn. You become visible if you attack or cast a spell.
+Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared.
 
-## Divine Strike
+#### Trickery Domain Spells
 
-At 8th level, you gain the ability to infuse your weapon strikes with poison -- a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8.
+| Cleric Level | Prepared Spells                                                                                                       |
+|--------------|-----------------------------------------------------------------------------------------------------------------------|
+| 3            | _[[[spell:Charm Person]]]_, _[[[spell:Disguise Self]]]_, _[[[spell:Invisibility]]]_, _[[[spell:Pass without Trace]]]_ |
+| 5            | _[[[spell:Hypnotic Pattern]]]_, _[[[spell:Nondetection]]]_                                                            |
+| 7            | _[[[spell:Confusion]]]_, _[[[spell:Dimension Door]]]_                                                                 |
+| 9            | _[[[spell:Dominate Person]]]_, _[[[spell:Modify Memory]]]_                                                            |
 
-[[accordion Optional Class Features: Blessed Strikes]]
+### Level 6: Trickster's Transposition
 
-## Blessed Strikes
+Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.
 
-_Source: Tasha's Cauldron of Everything, p. 31_
+### Level 17: Improved Duplicity
 
-_8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature_
+The illusion of your Invoke Duplicity has grown more powerful in the following ways.
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+**_Shared Distraction._** When you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage.
 
-[[/accordion]]
-
-## Improved Duplicity
-
-At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.
+**_Healing Illusion._** When the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level.
 
 ----
 
-*Source: Player's Handbook, p. 62*
+_Source: Player's Handbook, p. 75_

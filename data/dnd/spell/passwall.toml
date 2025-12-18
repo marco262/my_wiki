@@ -1,17 +1,20 @@
 title = "Passwall"
-classes = ["wizard"]
+spell_lists = ["Wizard"]
 level = "5"
-school = "transmutation"
+school = "Transmutation"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "30 feet"
 components = ["V", "S", "M"]
 material = "a pinch of sesame seeds"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
 duration = "1 hour"
-description = """A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.
+description = """
+A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.
 
-When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."""
-source = "Player's Handbook, p. 264"
+When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.
+"""
+source = "Player's Handbook, p. 304"

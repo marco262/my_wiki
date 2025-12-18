@@ -1,36 +1,27 @@
 [[breadcrumb /dnd/class/Bard|Bard]]
 
-Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
+_Plumb the Depths of Magical Knowledge_
 
-The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.
+Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
 
-The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
+### Level 3: Bonus Proficiencies
 
-# College of Lore
+You gain proficiency with three skills of your choice.
 
-||~ Bard Level ||~ Features ||
-|| 3rd || Bonus Proficiencies, Cutting Words ||
-|| 6th || Additional Magical Secrets ||
-|| 14th || Peerless Skill ||
+### Level 3: Cutting Words
 
-## Bonus Proficiencies
+You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.
 
-When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.
+### Level 6: Magical Discoveries
 
-## Cutting Words
+You learn two spells of your choice. These spells can come from the [Cleric](/dnd/spell_list/Cleric), [Druid](/dnd/spell_list/Druid), or [Wizard](/dnd/spell_list/Wizard) spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.
 
-Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being [[[general:conditions#charmed|charmed]]].
+You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.
 
-## Additional Magical Secrets
+### Level 14: Peerless Skill
 
-At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
-
-The chosen spells count as bard spells for you but don't count against the number of bard spells you know.
-
-## Peerless Skill
-
-Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.
+When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.
 
 ----
 
-*Source: Player's Handbook, p. 54*
+_Source: Player's Handbook, p. 66_

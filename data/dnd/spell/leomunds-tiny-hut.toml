@@ -1,19 +1,24 @@
 title = "Leomund's Tiny Hut"
-classes = ["bard", "wizard"]
+spell_lists = ["Bard", "Wizard"]
 level = "3"
-school = "evocation"
+school = "Evocation"
 concentration_spell = false
 ritual_spell = true
 casting_time = "1 minute"
-range = "Self (10-foot-radius hemisphere)"
+range = "Self (10-foot [[glossary:emanation]])"
 components = ["V", "S", "M"]
-material = "a small crystal bead"
+material = "a crystal bead"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
 duration = "8 hours"
-description = """A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.
+description = """
+A 10-foot [[glossary:Emanation]] springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the [[glossary:Emanation]] isn't big enough to fully encapsulate all creatures in its area.
 
-Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.
+Creatures and objects within the [[glossary:Emanation]] when you cast the spell can move through it freely. All other creatures and objects are barred from passing through it. Spells of level 3 or lower can't be cast through it, and the effects of such spells can't extend into it.
 
-Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."""
-source = "Player's Handbook, p. 255"
+The atmosphere inside the [[glossary:Emanation]] is comfortable and dry, regardless of the weather outside. Until the spell ends, you can command the interior to have [[glossary:Dim Light]] or [[glossary:Darkness]] (no action required). The [[glossary:Emanation]] is opaque from the outside and of any color you choose, but it's transparent from the inside.
+
+The spell ends early if you leave the [[glossary:Emanation]] or if you cast it again.
+"""
+source = "Player's Handbook, p. 291"

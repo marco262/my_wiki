@@ -1,70 +1,61 @@
+---
+toc: false
+---
+
 [[breadcrumb /dnd/class/Paladin|Paladin]]
 
-The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels -- the perfect servants of good -- as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
+_Uphold the Ideals of Justice and Order_
 
-### Tenets of Devotion
+The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.
 
-Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
+Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.
 
-* **Honesty.** Don't lie or cheat. Let your word be your promise.
-* **Courage.** Never fear to act, though caution is wise.
-* **Compassion.** Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
-* **Honor.** Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
-* **Duty.** Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
+These paladins share the following tenets:
 
-# Oath of Devotion
+ - Let your word be your promise.
+ - Protect the weak and never fear to act.
+ - Let your honorable deeds be an example.
 
-||~ Paladin Level ||~ Feature ||
-|| 3rd || Oath Spells, Channel Divinity ||
-|| 7th || Aura of Devotion ||
-|| 15th || Purity of Spirit ||
-|| 20th || Holy Nimbus ||
+### Level 3: Oath of Devotion Spells
 
-## Oath Spells
+The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.
 
-You gain oath spells at the paladin levels listed.
+Oath of Devotion Spells
 
-### Oath of Devotion Spells
+| Paladin Level | Spells                                                                     |
+|---------------|----------------------------------------------------------------------------|
+| 3             | _[[[spell:Protection from Evil and Good]]]_, _[[[spell:Shield of Faith]]]_ |
+| 5             | _[[[spell:Aid]]]_, _[[[spell:Zone of Truth]]]_                             |
+| 9             | _[[[spell:Beacon of Hope]]]_, _[[[spell:Dispel Magic]]]_                   |
+| 13            | _[[[spell:Freedom of Movement]]]_, _[[[spell:Guardian of Faith]]]_         |
+| 17            | _[[[spell:Commune]]]_, _[[[spell:Flame Strike]]]_                          |
 
-||~ Paladin Level ||~ Spells ||
-|| 3rd || *[[[spell:protection from evil and good]]]*, *[[[spell:sanctuary]]]* ||
-|| 5th || *[[[spell:lesser restoration]]]*, *[[[spell:zone of truth]]]* ||
-|| 9th || *[[[spell:beacon of hope]]]*, *[[[spell:dispel magic]]]* ||
-|| 13th || *[[[spell:freedom of movement]]]*, *[[[spell:guardian of faith]]]* ||
-|| 17th || *[[[spell:commune]]]*, *[[[spell:flame strike]]]* ||
+### Level 3: Sacred Weapon
 
-## Channel Divinity
+When you take the [[glossary:Attack]] action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
 
-When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+The weapon also emits [[glossary:Bright Light]] in a 20-foot radius and [[glossary:Dim Light]] 20 feet beyond that.
 
-**Sacred Weapon.** As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
+You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.
 
-You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall [[[general:conditions#unconscious|unconscious]]], this effect ends.
+### Level 7: Aura of Devotion
 
-**Turn the Unholy.** As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+You and your allies have Immunity to the [[glossary:Charmed]] condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+### Level 15: Smite of Protection
 
-## Aura of Devotion
+Your magical smite now radiates protective energy. Whenever you cast _[[[spell:Divine Smite]]]_, you and your allies have [[tooltip:Half Cover]] while in your Aura of Protection. The aura has this benefit until the start of your next turn.
 
-Starting at 7th level, you and friendly creatures within 10 feet of you can't be [[[general:conditions#charmed|charmed]]] while you are conscious.
+### Level 20: Holy Nimbus
 
-At 18th level, the range of this aura increases to 30 feet.
+As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a [[glossary:Long Rest]]. You can also restore your use of it by expending a level 5 spell slot (no action required).
 
-## Purity of Spirit
+**_Holy Ward._** You have [[glossary:Advantage]] on any saving throw you are forced to make by a Fiend or an Undead.
 
-Beginning at 15th level, you are always under the effects of a *[[[spell:protection from evil and good]]]* spell.
+**_Radiant Damage._** Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.
 
-## Holy Nimbus
-
-At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.
-
-Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
-
-In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.
-
-Once you use this feature, you can't use it again until you finish a long rest.
+**_Sunlight._** The aura is filled with [[glossary:Bright Light]] that is sunlight.
 
 ----
 
-*Source: Player's Handbook, p. 85*
+_Source: Player's Handbook, p. 113_

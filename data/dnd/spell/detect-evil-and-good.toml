@@ -1,14 +1,16 @@
 title = "Detect Evil and Good"
-classes = ["cleric", "paladin"]
+spell_lists = ["Cleric", "Paladin"]
 level = "1"
-school = "divination"
+school = "Divination"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
-range = "Self"
+casting_time = "Action"
+range = "Self (30-foot [[glossary:sphere]])"
 components = ["V", "S"]
-duration = "Concentration, up to 10 minutes"
-description = """For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.
+duration = "10 minutes"
+description = """
+For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the _[[[spell:Hallow]]]_ spell is active there and, if so, where.
 
-The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."""
-source = "Player's Handbook, p. 231"
+The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
+"""
+source = "Player's Handbook, p. 261"

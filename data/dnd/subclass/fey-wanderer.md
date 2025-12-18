@@ -1,82 +1,64 @@
 [[breadcrumb /dnd/class/Ranger|Ranger]]
 
-A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.
+_Wield Fey Mirth and Fury_
 
-# Fey Wanderer
+A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.
 
-||~ Ranger Level ||~ Feature ||
-|| 3rd || Dreadful Strikes, Fey Wanderer Magic, Otherworldly Glamour ||
-|| 7th || Beguiling Twist ||
-|| 11th || Fey Reinforcements ||
-|| 15th || Misty Wanderer ||
+### Level 3: Dreadful Strikes
 
-## Dreadful Strikes
+You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.
 
-_3rd-level Fey Wanderer feature_
+### Level 3: Fey Wanderer Spells
 
-You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 psychic damage to the target, which can take this extra damage only once per turn.
+When you reach a Ranger level specified in the Fey Wanderer Spells table, you thereafter always have the listed spells prepared.
 
-The extra damage increases to 1d6 when you reach 11th level in this class.
+#### Fey Wanderer Spells
 
-## Fey Wanderer Magic
+| Ranger Level | Spell                        |
+|--------------|------------------------------|
+| 3            | _[[[spell:Charm Person]]]_   |
+| 5            | _[[[spell:Misty Step]]]_     |
+| 9            | _[[[spell:Summon Fey]]]_     |
+| 13           | _[[[spell:Dimension Door]]]_ |
+| 17           | _[[[spell:Mislead]]]_        |
 
-_3rd-level Fey Wanderer feature_
+You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.
 
-You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.
+#### Feywild Gifts
 
-### Fey Wanderer Spells
+| 1d6 | Gift                                                                                  |
+|-----|---------------------------------------------------------------------------------------|
+| 1   | Illusory butterflies flutter around you while you take a Short or Long Rest.          |
+| 2   | Flowers bloom from your hair each dawn.                                               |
+| 3   | You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. |
+| 4   | Your shadow dances while no one is looking directly at it.                            |
+| 5   | Horns or antlers sprout from your head.                                               |
+| 6   | Your skin and hair change color each dawn.                                            |
 
-||~ Ranger Level ||~ Spell ||
-|| 3rd || _[[[spell:charm person]]]_ ||
-|| 5th || _[[[spell:misty step]]]_ ||
-|| 9th || _[[[spell:dispel magic]]]_ ||
-|| 13th || _[[[spell:dimension door]]]_ ||
-|| 17th || _[[[spell:mislead]]]_ ||
+### Level 3: Otherworldly Glamour
 
-You also possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.
+Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).
 
-### Feywild Gifts
+You also gain proficiency in one of these skills of your choice: [[tooltip:Deception]], [[tooltip:Performance]], or [[tooltip:Persuasion]].
 
-||~ d6 ||~ Gift ||
-|| 1 || Illusory butterflies flutter around you while you take a short or long rest. ||
-|| 2 || Fresh, seasonal flowers sprout from your hair each dawn. ||
-|| 3 || You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. ||
-|| 4 || Your shadow dances while no one is looking directly at it. ||
-|| 5 || Horns or antlers sprout from your head. ||
-|| 6 || Your skin and hair change color to match the season at each dawn. ||
+### Level 7: Beguiling Twist
 
-## Otherworldly Glamour
+The magic of the Feywild guards your mind. You have [[glossary:Advantage]] on saving throws to avoid or end the [[glossary:Charmed]] or [[glossary:Frightened]] condition.
 
-_3rd-level Fey Wanderer feature_
+In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.
 
-Your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).
+### Level 11: Fey Reinforcements
 
-In addition, you gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion.
+You can cast _[[[spell:Summon Fey]]]_ without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
 
-## Beguiling Twist
+Whenever you start casting the spell, you can modify it so that it doesn't require [[glossary:Concentration]]. If you do so, the spell's duration becomes 1 minute for that casting.
 
-_7th-level Fey Wanderer feature_
+### Level 15: Misty Wanderer
 
-The magic of the Feywild guards your mind. You have advantage on saving throws against being charmed or frightened.
+You can cast _[[[spell:Misty Step]]]_ without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a [[glossary:Long Rest]].
 
-In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being charmed or frightened, you can use your reaction to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. If the save fails, the target is charmed or frightened by you (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.
-
-## Fey Reinforcements
-
-_11th-level Fey Wanderer feature_
-
-The royal courts of the Feywild have blessed you with the assistance of fey beings: you know _[[[spell:summon fey]]]_. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.
-
-Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting.
-
-## Misty Wanderer
-
-_15th-level Fey Wanderer feature_
-
-You can slip in and out of the Feywild to move in a blink of an eye: you can cast _[[[spell:misty step]]]_ without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
-
-In addition, whenever you cast _[[[spell:misty step]]]_, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.
+In addition, whenever you cast _Misty Step_, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.
 
 ----
 
-*Source: Tasha's Cauldron of Everything, p. 58*
+_Source: Player's Handbook, p. 124_

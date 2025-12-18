@@ -3,6 +3,7 @@ import unittest
 from unittest import mock
 
 from src.common.markdown_parser import MarkdownParser
+from src.dnd.utils import clean_custom_markdown
 from tests.unit import find_root_directory
 
 
@@ -38,15 +39,17 @@ class TestMarkdownParser(unittest.TestCase):
 
         isfile_mock.side_effect = mock_func
         pre_markdown = """
-        [[[class:cleric#toc|Table of Contents]]]
-        [[[class:cleric#domains]]]
+        [[[class:cleric#TOC|Table of Contents]]]
+        [[[class:cleric#Domains]]]
+        [[[class:cleric#Lots of Words]]]
         [[[class:cleric]]]
         [[[Mutants]]]
         [[[spell:enlarge/reduce]]]
         """
         expected = """
         <a class="wiki-link" href="/dnd/class/cleric#toc">Table of Contents</a>
-        <a class="wiki-link" href="/dnd/class/cleric#domains">domains</a>
+        <a class="wiki-link" href="/dnd/class/cleric#domains">Domains</a>
+        <a class="wiki-link" href="/dnd/class/cleric#lots-of-words">Lots of Words</a>
         <a class="wiki-link" href="/dnd/class/cleric">cleric</a>
         <a class="wiki-link-broken" href="/dnd/Mutants">Mutants</a>
         <a class="wiki-link" href="/dnd/spell/enlarge-reduce">enlarge/reduce</a>
@@ -192,11 +195,11 @@ Text block
 
     def test_add_breadcrumbs(self):
         text = """
-[[breadcrumb /onednd/class/Paladin|Paladin]]
+[[breadcrumb /dnd/class/Paladin|Paladin]]
 
 <div class="phb-sidebar" markdown="1">"""
         expected = """
-⟵ [Paladin](/onednd/class/Paladin)
+⟵ [Paladin](/dnd/class/Paladin)
 
 <div class="phb-sidebar" markdown="1">"""
         md = MarkdownParser()
@@ -294,20 +297,15 @@ And here's the ending
 
     def test_add_rules_glossary_tooltips(self):
         text = "***Armor Training.*** When you gain your first Barbarian level, you gain [[glossary:armor training]] with Shields."
-        expected = """***Armor Training.*** When you gain your first Barbarian level, you gain <dfn name="armor training"><button class="dfn-tooltip" anchor="armor-training"><p>Armor training is the new name for armor proficiency. Any existing rule that involves armor proficiency now applies to armor training.</p>
-
-<p>If you wear Light, Medium, or Heavy Armor and lack armor training with that type of armor, you have Disadvantage on any d20 Test you make that involves Strength or Dexterity, and you can't cast spells.</p>
-
-<p>If you equip a Shield and lack armor training with it, you don't gain the Armor Class bonus of the Shield.</p></button></dfn> with Shields."""
+        expected = """***Armor Training.*** When you gain your first Barbarian level, you gain <dfn name="armor training"><button class="dfn-tooltip" href="/dnd/general/Rules Glossary#armor-training"><p>Armor training allows you to use armor of a certain category without the following drawbacks. If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any <a href="#d20-test">D20 Test</a> that involves Strength or Dexterity, and you can't cast spells. If you use a Shield and lack training with it, you don't gain its AC bonus. <em>See also</em> <a href="#disadvantage">Disadvantage</a> and <em>Armor</em>.</p></button></dfn> with Shields."""
         actual = self.md.add_rules_glossary_tooltips(text)
         self.assertEqual(expected, actual)
         text = "**Bardic Damage.** You can use Dexterity instead of Strength for the attack rolls of your [[glossary:Unarmed Strike|Unarmed Strikes]], and"
-        expected = """**Bardic Damage.** You can use Dexterity instead of Strength for the attack rolls of your <dfn name="Unarmed Strikes"><button class="dfn-tooltip" anchor="unarmed-strike"><p>An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p>
+        expected = """**Bardic Damage.** You can use Dexterity instead of Strength for the attack rolls of your <dfn name="Unarmed Strikes"><button class="dfn-tooltip" href="/dnd/general/Rules Glossary#unarmed-strike"><p>Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike -- a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p>
 
-<p>Whenever you use your Unarmed Strike, choose one of the following options for its effect:</p>
+<p>Whenever you use your Unarmed Strike, choose one of the following options for its effect.</p>
 
-<p><strong>Damage.</strong> You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier. <br />
-<strong>Grapple.</strong> The target must succeed on a Strength or Dexterit ... <em>[more]</em></p></button></dfn>, and"""
+<p><strong><em>Damage.</em></strong> You make an <a href="#attack-roll">attack roll</a> against the target. Your bonus to the roll equals your Strength modifier plus your Prof ... <em>[more]</em></p></button></dfn>, and"""
         actual = self.md.add_rules_glossary_tooltips(text)
         self.assertEqual(expected, actual)
 
@@ -408,7 +406,8 @@ charmed by you and the fey for 1 minute or until the target takes any damage.</l
     <div class="top-bottom-bar"></div>
 </div>
 
-<p></div></p>
+
+</div>
 
 <p>You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
 
@@ -416,4 +415,88 @@ charmed by you and the fey for 1 minute or until the target takes any damage.</l
 """
         md = MarkdownParser()
         actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual.replace("\r\n", "\n"))
+
+    def test_glossary_tooltips(self):
+        input_text = """
+[[glossary:Unarmed Strike]]
+"""
+        expected = """<p><dfn name="Unarmed Strike"><button class="dfn-tooltip" href="/dnd/general/Rules Glossary#unarmed-strike"><p>Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike -- a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.</p>
+
+<p>Whenever you use your Unarmed Strike, choose one of the following options for its effect.</p>
+
+<p><strong><em>Damage.</em></strong> You make an <a href="#attack-roll">attack roll</a> against the target. Your bonus to the roll equals your Strength modifier plus your Prof ... <em>[more]</em></p></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
         self.assertEqual(expected, actual)
+
+    def test_equipment_tooltips(self):
+        input_text = """
+[[tooltip:Leather Armor]]
+
+[[tooltip:Scale Mail]]
+
+[[tooltip:Plate Armor]]
+
+[[tooltip:Club]]
+
+[[tooltip:Finesse]]
+
+[[tooltip:Push]]
+
+[[tooltip:Cartographer's Tools]]
+
+[[tooltip:Poisoner's Kit]]
+
+[[tooltip:Backpack]]
+"""
+        expected = """<p><dfn name="Leather Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 11 + Dex modifier  <strong>Weight:</strong> 10 lb.  <strong>Cost:</strong> 10 GP</p></button></dfn></p>
+
+<p><dfn name="Scale Mail"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 14 + Dex modifier (max 2)  <strong>Weight:</strong> 45 lb.  <strong>Cost:</strong> 50 GP<br />
+Disadvantage on Stealth</p></button></dfn></p>
+
+<p><dfn name="Plate Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 18  <strong>Weight:</strong> 65 lb.  <strong>Cost:</strong> 1,500 GP<br />
+<strong>Strength Required:</strong> Str 15<br />
+Disadvantage on Stealth</p></button></dfn></p>
+
+<p><dfn name="Club"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#weapons"><p><strong>Damage:</strong> 1d4 Bludgeoning  <strong>Mastery:</strong> <em>Slow</em>  <strong>Weight:</strong> 2 lb.  <strong>Cost:</strong> 1 SP<br />
+<strong>Properties:</strong> <em>Light</em></p></button></dfn></p>
+
+<p><dfn name="Finesse"><button class="dfn-tooltip" href="/dnd/general/Equipment#finesse"><p>When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p></button></dfn></p>
+
+<p><dfn name="Push"><button class="dfn-tooltip" href="/dnd/general/Equipment#push"><p>If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.</p></button></dfn></p>
+
+<p><dfn name="Cartographer's Tools"><button class="dfn-tooltip" href="/dnd/general/Equipment#cartographers-tools"><p><strong>Ability:</strong> Wisdom <strong>Weight:</strong> 6 lb. <strong>Cost:</strong> 15 GP</p>
+
+<p><strong>Utilize:</strong> Draft a map of a small area (DC 15)</p>
+
+<p><strong>Craft:</strong> <em>Map</em></p></button></dfn></p>
+
+<p><dfn name="Poisoner's Kit"><button class="dfn-tooltip" href="/dnd/general/Equipment#poisoners-kit"><p><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 2 lb. <strong>Cost:</strong> 50 GP</p>
+
+<p><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p>
+
+<p><strong>Craft:</strong> <em>Basic Poison</em></p></button></dfn></p>
+
+<p><dfn name="Backpack"><button class="dfn-tooltip" href="/dnd/general/Equipment#backpack"><p><strong>Cost:</strong> 2 GP</p>
+
+<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)
+
+    def test_too_long_tooltip(self):
+        input_text = "[[tooltip:Manacles]]"
+        expected = """<p><dfn name="Manacles"><button class="dfn-tooltip" href="/dnd/general/Equipment#manacles"><p><strong>Cost:</strong> 2 GP</p>
+<p>As a <em>Utilize</em> action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the <em>Grappled</em>, <em>Incapacitated</em>, or <em>Restrained</em> condition if you succeed on a DC 13 Dexterity (<em>Sleight of Hand</em>) check. While bound, a creature has <em>Disadvantage</em> on attack rolls, and the creature is <em>Restrained</em> if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (<em>Sleight of Hand</em>) check as an a</p> ... <em>[more]</em></button></dfn></p>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)
+        self.assertEqual(expected, actual)
+
+    def test_clean_custom_markdown(self):
+        input_text = "The [[glossary:Magic]] action can be used on [[tooltip:Manacles]] to cast _[[[spell:Arcane Lock]]]_."
+        expected = "The _Magic_ action can be used on _Manacles_ to cast _Arcane Lock_."
+        self.assertEqual(expected, clean_custom_markdown(input_text))

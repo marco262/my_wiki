@@ -1,17 +1,21 @@
 title = "Tasha's Hideous Laughter"
-classes = ["bard", "wizard"]
+spell_lists = ["Bard", "Warlock", "Wizard"]
 level = "1"
-school = "enchantment"
+school = "Enchantment"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "30 feet"
 components = ["V", "S", "M"]
-material = "tiny tarts and a feather that is waved in the air"
+material = "a tart and a feather"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 minute"
-description = """A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall [[[general:conditions#prone|prone]]], becoming [[[general:conditions#incapacitated|incapacitated]]] and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.
+duration = "1 minute"
+description = """
+One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the [[glossary:Prone]] and [[glossary:Incapacitated]] conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the [[glossary:Prone]] condition on itself.
 
-At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target had advantage on the saving throw if it's triggered by damage. On a success, the spell ends."""
-source = "Player's Handbook, p. 280"
+At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has [[glossary:Advantage]] on the save if the save is triggered by damage. On a successful save, the spell ends.
+"""
+at_higher_levels = "You can target one additional creature for each spell slot level above 1."
+source = "Player's Handbook, p. 331"

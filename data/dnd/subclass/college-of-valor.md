@@ -1,30 +1,33 @@
 [[breadcrumb /dnd/class/Bard|Bard]]
 
-Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
+_Sing the Deeds of Ancient Heroes_
 
-# College of Valor
+Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.
 
-||~ Bard Level ||~ Features ||
-|| 3rd || Bonus Proficiencies, Combat Inspiration ||
-|| 6th || Extra Attack ||
-|| 14th || Battle Magic ||
+### Level 3: Combat Inspiration
 
-## Bonus Proficiencies
+You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects.
 
-When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.
+**_Defense._** When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.
 
-## Combat Inspiration
+**_Offense._** Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target.
 
-Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.
+### Level 3: Martial Training
 
-## Extra Attack
+You gain proficiency with Martial weapons and training with Medium armor and Shields.
 
-Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+In addition, you can use a Simple or Martial weapon as a Spellcasting Focus to cast spells from your Bard spell list.
 
-## Battle Magic
+### Level 6: Extra Attack
 
-At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.
+You can attack twice instead of once whenever you take the [[glossary:Attack]] action on your turn.
+
+In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.
+
+### Level 14: Battle Magic
+
+After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action.
 
 ----
 
-*Source: Player's Handbook, p. 55*
+_Source: Player's Handbook, p. 67_

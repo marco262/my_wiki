@@ -1,274 +1,204 @@
-Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
-Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.
+# Core Sorcerer Traits
 
-Crouching behind a stalagmite, a halfling points a finger at a charging troglodyte. A blast of fire springs from her finger to strike the creature. She ducks back behind the rock formation with a grin, unaware that her wild magic has turned her skin bright blue.
+ - **Primary Ability**: Charisma
+ - **Hit Point Die**: D6 per Sorcerer level
+ - **Saving Throw Proficiencies**: Constitution and Charisma
+ - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Arcana]], [[tooltip:Deception]], [[tooltip:Insight]], [[tooltip:Intimidation]], [[tooltip:Persuasion]], or [[tooltip:Religion]]
+ - **Weapon Proficiencies**: Simple weapons
+ - **Armor Training**: None
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Spear]], 2 [[tooltip:dagger|Daggers]], [[tooltip:Arcane Focus]] (crystal), [[tooltip:Dungeoneer's Pack]], and 28 GP; or (B) 50 GP
 
-Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can't study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.
+Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can't name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby's birth or the strike of lightning from a clear sky might spark a Sorcerer's gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.
 
-## Raw Magic
+Sorcerers don't learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.
 
-Magic is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons. Others carry a raw, uncontrolled magic within them, a chaotic storm that manifests in unexpected ways.
+Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn't like to stay quiet. A Sorcerer's magic wants to be wielded.
 
-The appearance of sorcerous powers is wildly unpredictable. Some draconic bloodlines produce exactly one sorcerer in every generation, but in other lines of descent every individual is a sorcerer. Most of the time, the talents of sorcery appear as apparent flukes. Some sorcerers can't name the origin of their power, while others trace it to strange events in their own lives. The touch of a demon, the blessing of a dryad at a baby's birth, or a taste of the water from a mysterious spring might spark the gift of sorcery. So too might the gift of a deity of magic, exposure to the elemental forces of the Inner Planes or the maddening chaos of Limbo, or a glimpse into the inner workings of reality.
+## Becoming a Sorcerer...
 
-Sorcerers have no use for the spellbooks and ancient tomes of magic lore that wizards rely on, nor do they rely on a patron to grant their spells as warlocks do. By learning to harness and channel their own inborn magic, they can discover new and staggering ways to unleash that power.
+### As a Level 1 Character
 
-## Unexplained Powers
+ - Gain all the traits in the Core Sorcerer Traits table.
+ - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.
 
-Sorcerers are rare in the world, and it's unusual to find a sorcerer who is not involved in the adventuring life in some way. People with magical power seething in their veins soon discover that the power doesn't like to stay quiet. A sorcerer's magic wants to be wielded, and it has a tendency to spill out in unpredictable ways if it isn't called on.
+### As a Multiclass Character
 
-Sorcerers often have obscure or quixotic motivations driving them to adventure. Some seek a greater understanding of the magical force that infuses them, or the answer to the mystery of its origin. Others hope to find a way to get rid of it, or to unleash its full potential. Whatever their goals, sorcerers are every bit as useful to an adventuring party as wizards, making up for a comparative lack of breadth in their magical knowledge with enormous flexibility in using the spells they know.
+ - Gain the Hit Point Die from the Core Sorcerer Traits table.
+ - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
-# The Sorcerer
+# Sorcerer Features
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Sorcery<br>Points ||~ Features ||~ Cantrips<br>Known ||~ Spells<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
-|| 1st || 2 || -- || Spellcasting, Sorcerous Origin || 4 || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || 2 || 2 || Font of Magic || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 3rd || 2 || 3 || Metamagic || 4 || 4 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || 2 || 4 || Ability Score Improvement, Sorcerous Versatility || 5 || 5 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
-|| 5th || 3 || 5 || Magical Guidance || 5 || 6 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
-|| 6th || 3 || 6 || Sorcerous Origin feature || 5 || 7 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
-|| 7th || 3 || 7 || -- || 5 || 8 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
-|| 8th || 3 || 8 || Ability Score Improvement || 5 || 9 || 4 || 3 || 3 || 2 || -- || -- || -- || -- || -- ||
-|| 9th || 4 || 9 || -- || 5 || 10 || 4 || 3 || 3 || 3 || 1 || -- || -- || -- || -- ||
-|| 10th || 4 || 10 || Metamagic || 6 || 11 || 4 || 3 || 3 || 3 || 2 || -- || -- || -- || -- ||
-|| 11th || 4 || 11 || -- || 6 || 12 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 12th || 4 || 12 || Ability Score Improvement || 6 || 12 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 13th || 5 || 13 || -- || 6 || 13 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 14th || 5 || 14 || Sorcerous Origin feature || 6 || 13 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 15th || 5 || 15 || -- || 6 || 14 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 16th || 5 || 16 || Ability Score Improvement || 6 || 14 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 17th || 6 || 17 || Metamagic || 6 || 15 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || 1 ||
-|| 18th || 6 || 18 || Sorcerous Origin feature || 6 || 15 || 4 || 3 || 3 || 3 || 3 || 1 || 1 || 1 || 1 ||
-|| 19th || 6 || 19 || Ability Score Improvement || 6 || 15 || 4 || 3 || 3 || 3 || 3 || 2 || 1 || 1 || 1 ||
-|| 20th || 6 || 20 || Sorcerous Restoration || 6 || 15 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
+| Level | Proficiency Bonus | Class Features               | Sorcery Points | Cantrips | Prepared Spells | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|-------|-------------------|------------------------------|----------------|----------|-----------------|---|---|---|---|---|---|---|---|---|
+| 1     | +2                | Spellcasting, Innate Sorcery | —              | 4        | 2               | 2 | — | — | — | — | — | — | — | — |
+| 2     | +2                | Font of Magic, Metamagic     | 2              | 4        | 4               | 3 | — | — | — | — | — | — | — | — |
+| 3     | +2                | Sorcerer Subclass            | 3              | 4        | 6               | 4 | 2 | — | — | — | — | — | — | — |
+| 4     | +2                | Ability Score Improvement    | 4              | 5        | 7               | 4 | 3 | — | — | — | — | — | — | — |
+| 5     | +3                | Sorcerous Restoration        | 5              | 5        | 9               | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6     | +3                | Subclass feature             | 6              | 5        | 10              | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7     | +3                | Sorcery Incarnate            | 7              | 5        | 11              | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8     | +3                | Ability Score Improvement    | 8              | 5        | 12              | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9     | +4                | —                            | 9              | 5        | 14              | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10    | +4                | Metamagic                    | 10             | 6        | 15              | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11    | +4                | —                            | 11             | 6        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12    | +4                | Ability Score Improvement    | 12             | 6        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13    | +5                | —                            | 13             | 6        | 17              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14    | +5                | Subclass feature             | 14             | 6        | 17              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15    | +5                | —                            | 15             | 6        | 18              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16    | +5                | Ability Score Improvement    | 16             | 6        | 18              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17    | +6                | Metamagic                    | 17             | 6        | 19              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18    | +6                | Subclass feature             | 18             | 6        | 20              | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19    | +6                | Epic Boon                    | 19             | 6        | 21              | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20    | +6                | Arcane Apotheosis            | 20             | 6        | 22              | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
 
-## Creating a Sorcerer
+# Sorcerer Class Features
 
-The most important question to consider when creating your sorcerer is the origin of your power. As a starting character, you'll choose an origin that ties to a draconic bloodline or the influence of wild magic, but the exact source of your power is up to you to decide. Is it a family curse, passed down to you from distant ancestors? Or did some extraordinary event leave you blessed with inherent magic but perhaps scarred as well?
+As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
 
-How do you feel about the magical power coursing through you? Do you embrace it, try to master it, or revel in its unpredictable nature? Is it a blessing or a curse? Did you seek it out, or did it find you? Did you have the option to refuse it, and do you wish you had? What do you intend to do with it? Perhaps you feel like you've been given this power for some lofty purpose. Or you might decide that the power gives you the right to do what you want, to take what you want from those who lack such power. Perhaps your power links you to a powerful individual in the world -- the fey creature that blessed you at birth, the dragon who put a drop of its blood into your veins, the lich who created you as an experiment, or the deity who chose you to carry this power.
+### Level 1: Spellcasting
 
-### Quick Build
+Drawing from your innate magic, you can cast spells.
 
-You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the *[[[spell:light]]]*, *[[[spell:prestidigitation]]]*, *[[[spell:ray of frost]]]*, and *[[[spell:shocking grasp]]]* cantrips, along with the 1st-level spells *[[[spell:shield]]]* and *[[[spell:magic missile]]]*.
+**_Cantrips._** You know four cantrips of your choice from the [Sorcerer spell list](/dnd/spell_list/Sorcerer). Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
 
-# Class Features
+When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
 
-As a sorcerer, you gain the following class features.
+**_Spell Slots._** The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-## Hit Points
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Sorcerer spell list](/dnd/spell_list/Sorcerer).
 
-* Hit Dice: 1d6 per sorcerer level
-* Hit Points at 1st Level: 6 + your Constitution modifier
-* Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st
+The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.
 
-## Proficiencies
+If another Sorcerer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.
 
-* Armor: None
-* Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
-* Tools: None
-* Saving Throws: Constitution, Charisma
-* Skills: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion
+**_Changing Your Prepared Spells._** Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.
 
-## Equipment
+**_Spellcasting Ability._** Charisma is your spellcasting ability for your Sorcerer spells.
 
-You start with the following equipment, in addition to the equipment granted by your background:
+**_Spellcasting Focus._** You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
 
-* (a) a light crossbow and 20 bolts or (b) any simple weapon
-* (a) a component pouch or (b) an arcane focus
-* (a) a dungeoneer's pack or (b) an explorer's pack
-* Two daggers
+### Level 1: Innate Sorcery
 
-## Spellcasting
+An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
 
-An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See the [[[general:Spellcasting Rules]]] and the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true).
+ - The spell save DC of your Sorcerer spells increases by 1.
+ - You have Advantage on the attack rolls of Sorcerer spells you cast.
 
-### Cantrips
+You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.
 
-At 1st level, you know four cantrips of your choice from the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true). You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.
+### Level 2: Font of Magic
 
-### Spell Slots
+You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.
 
-The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.
 
-For example, if you know the 1st-level spell *[[[spell:burning hands]]]* and have a 1st-level and a 2nd-level spell slot available, you can cast *[[[spell:burning hands]]]* using either slot.
+You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.
 
-### Spells Known of 1st Level and Higher
+**_Converting Spell Slots to Sorcery Points._** You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).
 
-You know two 1st-level spells of your choice from the [sorcerer spell list](/dnd/class_spell_list/sorcerer/true).
+**_Creating Spell Slots._** As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.
 
-The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
+Any spell slot you create with this feature vanishes when you finish a Long Rest.
 
-Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.
+**Creating Spell Slots**
 
-### Spellcasting Ability
+| Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level |
+|------------------|--------------------|---------------------|
+| 1                | 2                  | 2                   |
+| 2                | 3                  | 3                   |
+| 3                | 5                  | 5                   |
+| 4                | 6                  | 7                   |
+| 5                | 7                  | 9                   |
 
-Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
+### Level 2: Metamagic
 
-* Spell save DC = 8 + your proficiency bonus + your Charisma modifier
-* Spell attack modifier = your proficiency bonus + your Charisma modifier
+Because your magic flows from within, you can alter your spells to suit your needs; you gain two [Metamagic Options](#metamagic-options). You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
 
-### Spellcasting Focus
+You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
 
-You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your sorcerer spells.
+Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.
 
-[[accordion Optional Class Features: Spell Versatility]]
+### Level 3: Sorcerer Subclass
 
-### Spell Versatility
+You gain a [Sorcerer subclass](#sorcerer-subclasses) of your choice. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.
 
-_Source:_ <https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf>
+### Level 4: Ability Score Improvement
 
-_1st-level sorcerer feature (enhances Spellcasting)_
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.
 
-Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace.
+### Level 5: Sorcerous Restoration
 
-[[/accordion]]
+When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can't do so again until you finish a Long Rest.
 
-## Sorcerous Origin
+### Level 7: Sorcery Incarnate
 
-Choose a [[[class:sorcerer#sorcerous-origins|sorcerous origin]]], which describes the source of your innate magical power, detailed at the end of the class description.
+If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.
 
-Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
+In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.
 
-## Font of Magic
+### Level 19: Epic Boon
 
-At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
-### Sorcery Points
+### Level 20: Arcane Apotheosis
 
-You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.
+While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.
 
-### Flexible Casting
+### Metamagic Options
 
-You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+The following options are available to your Metamagic feature. The options are presented in alphabetical order.
 
-**Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+#### Careful Spell
 
-#### Creating Spell Slots
-||~ Spell Slot Level ||~ Sorcery Point Cost ||
-|| 1st || 2 ||
-|| 2nd || 3 ||
-|| 3rd || 5 ||
-|| 4th || 6 ||
-|| 5th || 7 ||
+_Cost: 1 Sorcery Point_When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.
 
-**Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
+#### Distant Spell
 
-## Metamagic
+_Cost: 1 Sorcery Point_When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.
 
-At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+#### Empowered Spell
 
-You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+_Cost: 1 Sorcery Point_When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.
 
-### Careful Spell
+#### Extended Spell
 
-When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
+_Cost: 1 Sorcery Point_When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.If the affected spell requires [[glossary:Concentration]], you have Advantage on any saving throw you make to maintain that Concentration.
 
-### Distant Spell
+#### Heightened Spell
 
-When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+_Cost: 2 Sorcery Points_When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.
 
-When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+#### Quickened Spell
 
-### Empowered Spell
+_Cost: 2 Sorcery Points_When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.
 
-When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+#### Seeking Spell
 
-You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.
+_Cost: 1 Sorcery Point_If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.
 
-### Extended Spell
+#### Subtle Spell
 
-When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.
+_Cost: 1 Sorcery Point_When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.
 
-### Heightened Spell
+#### Transmuted Spell
 
-When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
+_Cost: 1 Sorcery Point_When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.
 
-### Quickened Spell
+#### Twinned Spell
 
-When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
+_Cost: 1 Sorcery Point_When you cast a spell, such as _[[[spell:Charm Person]]]_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
 
-### Subtle Spell
+# Sorcerer Subclasses
 
-When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
+A Sorcerer subclass is a specialization that grants you features at certain Sorcerer levels, as specified in the subclass.
 
-### Twinned Spell
-
-When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
-
-[[accordion Optional Class Features: Metamagic Options]]
-
-## Metamagic Options
-
-_Source: Tasha's Cauldron of Everything, p. 66_
-
-_3rd-level sorcerer feature_
-
-When you choose Metamagic options, you have access to the following additional options.
-
-### Seeking Spell
-
-If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.
-
-You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.
-
-### Transmuted Spell
-
-When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.
-
-[[/accordion]]
-
-## Ability Score Improvement
-
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
-
-[[accordion Optional Class Features: Sorcerous Versatility and Magical Guidance]]
-
-_Source: Tasha's Cauldron of Everything, p. 66_
-
-## Sorcerous Versatility
-
-_4th-level sorcerer feature_
-
-Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:
-
-* Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.
-* Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.
-
-## Magical Guidance
-
-_5th-level sorcerer feature_
-
-You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.
-
-[[/accordion]]
-
-## Sorcerous Restoration
-
-At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.
-
-# Sorcerous Origins
-
-Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into two categories: a draconic bloodline and wild magic.
-
-## Player's Handbook
-
-* [[[subclass:Draconic Bloodline]]]
-* [[[subclass:Wild Magic]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:Divine Soul]]]
-* [[[subclass:Shadow Magic]]]
-* [[[subclass:Storm Sorcery]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Aberrant Mind]]]
-* [[[subclass:Clockwork Soul]]]
+ - [[[subclass:Aberrant Sorcery]]]
+ - [[[subclass:Clockwork Sorcery]]]
+ - [[[subclass:Draconic Sorcery]]]
+ - [[[subclass:Wild Magic Sorcery]]]
 
 ----
 
-*Source: Player's Handbook, p. 99*
+_Source: Player's Handbook, p. 139_

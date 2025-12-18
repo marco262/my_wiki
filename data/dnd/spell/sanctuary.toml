@@ -1,17 +1,20 @@
 title = "Sanctuary"
-classes = ["artificer", "cleric"]
+spell_lists = ["Cleric"]
 level = "1"
-school = "abjuration"
+school = "Abjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 bonus action"
+casting_time = "Bonus Action"
 range = "30 feet"
 components = ["V", "S", "M"]
-material = "a small silver mirror"
+material = "a shard of glass from a mirror"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
 duration = "1 minute"
-description = """You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.
+description = """
+You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from areas of effect.
 
-If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."""
-source = "Player's Handbook, p. 272"
+The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.
+"""
+source = "Player's Handbook, p. 313"

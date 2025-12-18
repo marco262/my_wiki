@@ -1,0 +1,116 @@
+% from data.dnd5e.enums import races, classes, spell_classes
+
+<div id="index-container" markdown="1">
+
+<div class="index-column" markdown="1">
+
+## Races
+
+[[[general:Races|Races Overview]]]
+
+% for r in races:
+* [[[race:{{r.title()}}]]]
+% end
+
+## Exotic Races
+* [[[general:Races#elemental-evil|Elemental Evil]]]
+* [[[general:Races#volos-guide-to-monsters|Volo's Guide to Monsters]]]
+* [[[general:Races#tortle-package|Tortles]]]
+* [[[general:Races#eberron-rising-from-the-last-war|Eberron]]]
+* [[[general:Races#mordenkainens-tome-of-foes|Mordenkainen's Tome of Foes]]]
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## Published Classes
+
+[[[general:Classes|Classes Overview]]]
+
+% for c in classes:
+* [[[class:{{c.title()}}]]]
+% end
+
+## Homebrew Classes
+
+* [[[class:Dragonfire Adept]]]
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## Spells
+
+[Find a Spell](/dnd5e/find_spell)
+
+[Spell Filter](/dnd5e/spell_filter)
+
+## Class Spell Lists
+
+% for c in spell_classes:
+* [{{c.title()}} Spells](/dnd5e/class_spell_list/{{c}}/true)
+% end
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## Character Information
+
+* [[[general:Backgrounds]]]
+* [[[advancement:Feats]]]
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## Equipment
+
+* [[[general:equipment#starting-equipment|Starting Equipment]]]
+* [[[general:equipment#wealth|Wealth]]]
+* [[[general:equipment#armor-and-shields|Armor and Shields]]]
+* [[[general:equipment#weapons|Weapons]]]
+* [[[general:equipment#adventuring-gear|Adventuring Gear]]]
+* [[[general:equipment#tools|Tools]]]
+* [[[general:equipment#mounts-and-vehicles|Mounts and Vehicles]]]
+* [[[general:equipment#trade-goods|Trade Goods]]]
+* [[[general:equipment#expenses|Expenses]]]
+* [[[general:equipment#trinkets|Trinkets]]]
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## System Info
+
+* [[[general:How to Play]]]
+* [[[general:Using Ability Scores]]]
+* [[[general:Adventuring]]]
+* [[[general:Combat]]]
+* [[[general:Spellcasting Rules]]]
+* [[[general:Conditions]]]
+* [[[general:Houserules]]]
+* [[[general:Exploration Activities]]]
+* [[[general:Downtime Activities]]]
+* [[[general:Sidekicks]]]
+
+</div>
+
+<div class="index-column" markdown="1">
+
+## Dungeon Master's Toolbox
+
+* [[[dm_toolbox:Running Encounters]]]
+* [[[dm_toolbox:Magic Items]]]
+    * [Magic Items Filter](/dnd5e/equipment/magic_item_filter/)
+    * [Magic Item Generator](/dnd5e/equipment/magic_item_generator/)
+
+## Monsters
+
+* [Monsters by Name](/dnd5e/gm/monsters_by_name)
+
+</div>
+
+</div>
+
+[Site Search](/dnd5e/site_search) | [API](/api/ui/)

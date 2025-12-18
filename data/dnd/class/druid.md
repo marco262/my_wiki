@@ -1,251 +1,206 @@
-Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
-Crouching out of sight on a high tree branch in the form of a leopard, a human peers out of the jungle at the strange construction of a temple of Evil Elemental Air, keeping a close eye on the cultists' activities.
+# Core Druid Traits
 
-Swinging a blade formed of pure fire, a half-elf charges into a mass of skeletal soldiers, sundering the unnatural magic that gives the foul creatures the mocking semblance of life.
+ - **Primary Ability**: Wisdom
+ - **Hit Point Die**: D8 per Druid level
+ - **Saving Throw Proficiencies**: Intelligence and Wisdom
+ - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Animal Handling]], [[tooltip:Arcana]], [[tooltip:Insight]], [[tooltip:Medicine]], [[tooltip:Nature]], [[tooltip:Perception]], [[tooltip:Religion]], or [[tooltip:Survival]]
+ - **Weapon Proficiencies**: Simple weapons
+ - **Tool Proficiencies**: Herbalism Kit
+ - **Armor Training**: Light armor and Shields
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Leather Armor]], [[tooltip:Shield]], [[tooltip:Sickle]], [[tooltip:Druidic Focus]] ([[tooltip:Quarterstaff]]), [[tooltip:Explorer's Pack]], [[tooltip:Herbalism Kit]], and 9 GP; or (B) 50 GP
 
-Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury. They claim no mastery over nature. Instead, they see themselves as extensions of nature's indomitable will.
+Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, and the four elements, Druids heal, transform into animals, and wield elemental destruction.
 
-## Power of Nature
+Revering nature above all, individual Druids gain their magic from nature, a nature deity, or both, and they typically unite with other Druids to perform rites that mark the passage of the seasons and other natural cycles.
 
-Druids revere nature above all, gaining their spells and other magical powers either from the force of nature itself or from a nature deity. Many druids pursue a mystic spirituality of transcendent union with nature rather than devotion to a divine entity, while others serve gods of wild nature, animals, or elemental forces. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.
+Druids are concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature. Druids often guard sacred sites or watch over regions of unspoiled nature, but when a significant danger arises, Druids take a more active role as adventurers who combat the threat.
 
-Druid spells are oriented toward nature and animals -- the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some druids make a particular study of this practice, even to the point where they prefer animal form to their natural form.
+## Becoming a Druid...
 
-## Preserve the Balance
+### As a Level 1 Character
 
-For druids, nature exists in a precarious balance. The four elements that make up a world -- air, earth, fire, and water -- must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.
+ - Gain all the traits in the Core Druid Traits table.
+ - Gain the Druid's level 1 features, which are listed in the Druid Features table.
 
-Druids are also concerned with the delicate ecological balance that sustains plant and animal life, and the need for civilized folk to live in harmony with nature, not in opposition to it. Druids accept that which is cruel in nature, and they hate that which is unnatural, including aberrations (such as beholders and mind flayers) and undead (such as zombies and vampires). Druids sometimes lead raids against such creatures, especially when the monsters encroach on the druids' territory.
+### As a Multiclass Character
 
-Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, druids take on a more active role in com bating the threat, as adventurers.
+ - Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.
+ - Gain the Druid's level 1 features, which are listed in the Druid Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
-## Creating a Druid
+# Druid Features
 
-When making a druid, consider why your character has such a close bond with nature. Perhaps your character lives in a society where the Old Faith still thrives, or was raised by a druid after being abandoned in the depths of a forest. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience. Maybe your character was born during an epic storm or a volcanic eruption, which was interpreted as a sign that becoming a druid was part of your character's destiny.
+| Level | Proficiency Bonus | Class Features                      | Wild Shape | Cantrips | Prepared Spells | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|-------|-------------------|-------------------------------------|------------|----------|-----------------|---|---|---|---|---|---|---|---|---|
+| 1     | +2                | Spellcasting, Druidic, Primal Order | —          | 2        | 4               | 2 | — | — | — | — | — | — | — | — |
+| 2     | +2                | Wild Shape, Wild Companion          | 2          | 2        | 5               | 3 | — | — | — | — | — | — | — | — |
+| 3     | +2                | Druid Subclass                      | 2          | 2        | 6               | 4 | 2 | — | — | — | — | — | — | — |
+| 4     | +2                | Ability Score Improvement           | 2          | 3        | 7               | 4 | 3 | — | — | — | — | — | — | — |
+| 5     | +3                | Wild Resurgence                     | 2          | 3        | 9               | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6     | +3                | Subclass feature                    | 3          | 3        | 10              | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7     | +3                | Elemental Fury                      | 3          | 3        | 11              | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8     | +3                | Ability Score Improvement           | 3          | 3        | 12              | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9     | +4                | —                                   | 3          | 3        | 14              | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10    | +4                | Subclass feature                    | 3          | 4        | 15              | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11    | +4                | —                                   | 3          | 4        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12    | +4                | Ability Score Improvement           | 3          | 4        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13    | +5                | —                                   | 3          | 4        | 17              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14    | +5                | Subclass feature                    | 3          | 4        | 17              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15    | +5                | Improved Elemental Fury             | 3          | 4        | 18              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16    | +5                | Ability Score Improvement           | 3          | 4        | 18              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17    | +6                | —                                   | 4          | 4        | 19              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18    | +6                | Beast Spells                        | 4          | 4        | 20              | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19    | +6                | Epic Boon                           | 4          | 4        | 21              | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20    | +6                | Archdruid                           | 4          | 4        | 22              | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
 
-Have you always been an adventurer as part of your druidic calling, or did you first spend time as a caretaker of a sacred grove or spring? Perhaps your homeland was befouled by evil, and you took up an adventuring life in hopes of finding a new home or purpose.
+# Druid Class Features
 
-## Quick Build
+As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
 
-You can make a druid quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution. Second, choose the hermit background.
+### Level 1: Spellcasting
 
-# The Druid
+You have learned to cast spells through studying the mystical forces of nature. The information below details how you use those rules with Druid spells.
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
-|| 1st || +2 || Druidic, Spellcasting || 2 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Wild Shape, Wild Companion, Druid Circle || 2 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 3rd || +2 || -- || 2 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Wild Shape improvement, Ability Score Improvement, Cantrip Versatility || 3 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
-|| 5th || +3 || -- || 3 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
-|| 6th || +3 || Druidic Circle feature || 3 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
-|| 7th || +3 || -- || 3 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
-|| 8th || +3 || Wild Shape improvement, Ability Score Improvement || 3 || 4 || 3 || 3 || 2 || -- || -- || -- || -- || -- ||
-|| 9th || +4 || -- || 3 || 4 || 3 || 3 || 3 || 1 || -- || -- || -- || -- ||
-|| 10th || +4 || Druid Circle feature || 4 || 4 || 3 || 3 || 3 || 2 || -- || -- || -- || -- ||
-|| 11th || +4 || -- || 4 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 12th || +4 || Ability Score Improvement || 4 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 13th || +5 || -- || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 14th || +5 || Druid Circle feature || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 15th || +5 || -- || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 16th || +5 || Ability Score Improvement || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 17th || +6 || -- || 4 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || 1 ||
-|| 18th || +6 || Timeless Body, Beast Spells || 4 || 4 || 3 || 3 || 3 || 3 || 1 || 1 || 1 || 1 ||
-|| 19th || +6 || Ability Score Improvement || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 1 || 1 || 1 ||
-|| 20th || +6 || Archdruid || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
+**_Cantrips._** You know two cantrips of your choice from the [Druid spell list](/dnd/spell_list/Druid).
 
-# Class Features
+Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.
 
-<div class="phb-sidebar" markdown="1">
+When you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.
 
-**Sacred Plants and Wood**
+**_Spell Slots._** The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the [Druid spell list](/dnd/spell_list/Druid).
 
-Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.
+The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
 
-Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.
+If another Druid feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.
 
-</div>
+**_Changing Your Prepared Spells._** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.
 
-As a druid, you gain the following class features.
+**_Spellcasting Ability._** Wisdom is your spellcasting ability for your Druid spells.
 
-## Hit Points
+**_Spellcasting Focus._** You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.
 
-* Hit Dice: 1d8 per druid level
-* Hit Points at 1st Level: 8 + your Constitution modifier
-* Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per druid level after 1st
+### Level 1: Druidic
 
-## Proficiencies
+You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the _[[[spell:Speak with Animals]]]_ spell prepared.
 
-* Armor: Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
-* Weapons: Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
-* Tools: Herbalism kit
-* Saving Throws: Intelligence, Wisdom
-* Skills: Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival
+You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence ([[tooltip:Investigation]]) check but can't decipher it without magic.
 
-## Equipment
+### Level 1: Primal Order
 
-You start with the following equipment, in addition to the equipment granted by your background:
+You have dedicated yourself to one of the following sacred roles of your choice.
 
-* (a) a wooden shield or (b) any simple weapon
-* (a) a scimitar or (b) any simple melee weapon
-* Leather armor, an explorer's pack, and a druidic focus
+#### Magician
 
-## Druidic
+You know one extra cantrip from the [Druid spell list](/dnd/spell_list/Druid). In addition, your mystical connection to nature gives you a bonus to your Intelligence ([[tooltip:Arcana]] or [[tooltip:Nature]]) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).
 
-<div class="phb-sidebar" markdown="1">
+#### Warden
 
-**Druids and the Gods**
+Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.
 
-Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples. In fact, in the world of Greyhawk, the druidic faith is called the Old Faith, and it claims many adherents among farmers, foresters, fishers, and others who live closely with nature. This tradition includes the worship of Nature as a primal force beyond personification, but also encompasses the worship of Beory, the Oerth Mother, as well as devotees of Obad-Hai, Ehlonna, and Ulaa.
+### Level 2: Wild Shape
 
-In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Forgotten Realms, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.
+The power of nature allows you to assume the form of an animal. As a Bonus Action, you [[glossary:Shifting|shape-shift]] into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the [[glossary:Incapacitated]] condition, or die. You can also leave the form early as a Bonus Action.
 
-The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon -- sun, moon, wind, fire, and the world itself -- has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations.
+**_Number of Uses._** You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
-</div>
+You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.
 
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
+**_Known Forms._** You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.
 
-## Spellcasting
+When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.
 
-Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See the [druid spell list](/dnd/class_spell_list/druid/true) for the spells available to you.
-
-### Cantrips
-
-At 1st level, you know two cantrips of your choice from the [druid spell list](/dnd/class_spell_list/druid/true). You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
-
-### Preparing and Casting Spells
-
-The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher.[((bibcite errata))] To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
-
-You prepare the list of druid spells that are available for you to cast, choosing from the [druid spell list](/dnd/class_spell_list/druid/true). When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
-
-For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
-
-You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
-
-### Spellcasting Ability
-
-Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
-
-* Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
-* Spell attack modifier = your proficiency bonus + your Wisdom modifier
-
-### Ritual Casting
-
-You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
-
-### Spellcasting Focus
-
-You can use a [[[general:Equipment#adventuring-gear|druidic focus]]] as a spellcasting focus for your druid spells.
-
-## Wild Shape
-
-<div class="errata" markdown="1">
-
-**Editor's Note**
-
-In my games, a druid can only magically assume the shape of a beast that they have **encountered** before. This means physically interacting with the beast, whether by fighting it, playing with it, living with it, etc. The beast must have been alive during this encounter. I may require a little extra interaction for the druid to get a better feel for the beast's physiology, behavior, and abilities, but nothing more than could reasonably expected for a single encounter.
-
-</div>
-
-Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
-
-Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
+When choosing known forms, you may look in the _[Monster Manual](https://www.dndbeyond.com/sources/dnd/mm-2024)_ or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.
 
 **Beast Shapes**
 
-||~ Level ||~ Max. CR ||~ Limitations ||~ Example ||
-|| 2nd || 1/4 || No flying or swimming speed || Wolf ||
-|| 4th || 1/2 || No flying speed || Crocodile ||
-|| 8th || 1 || -- || Giant eagle ||
+| Druid Level | Known Forms | Max CR | Fly Speed |
+|-------------|-------------|--------|-----------|
+| 2           | 4           | 1/4    | No        |
+| 4           | 6           | 1/2    | No        |
+| 8           | 8           | 1      | Yes       |
 
-You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall [[[general:conditions#unconscious|unconscious]]], drop to 0 hit points, or die.
+**_Rules While Shape-Shifted._** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:
 
-While you are transformed, the following rules apply:
+**_Temporary Hit Points._** When you assume a Wild Shape form, you gain a number of [[glossary:Temporary Hit Points]] equal to your Druid level.
 
-* Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
-* When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked [[[general:conditions#unconscious|unconscious]]].
-* You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
-* You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
-* You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
+**_Game Statistics._** Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.
 
-[[accordion Optional Class Features: Wild Companion]]
+**_No Spellcasting._** You can't cast spells, but shape-shifting doesn't break your [[glossary:Concentration]] or otherwise interfere with a spell you've already cast.
 
-## Wild Companion
+**_Objects._** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.
 
-_Source: Tasha's Cauldron of Everything, p. 35_
+### Level 2: Wild Companion
 
-_2nd-level druid feature_
+You can summon a nature spirit that assumes an animal form to aid you. As a [[glossary:Magic]] action, you can expend a spell slot or a use of Wild Shape to cast the _[[[spell:Find Familiar]]]_ spell without Material components.
 
-You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the _[[[spell:find familiar]]]_ spell, without material components.
+When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.
 
-When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
+### Level 3: Druid Subclass
 
-[[/accordion]]
+You gain a [Druid subclass](#druid-subclasses) of your choice. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.
 
-## Druid Circles
+### Level 4: Ability Score Improvement
 
-At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.
 
-## Ability Score Improvement
+### Level 5: Wild Resurgence
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).
 
-[[accordion Optional Class Features: Cantrip Versatility]]
+In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.
 
-## Cantrip Versatility
+### Level 7: Elemental Fury
 
-_Source: Tasha's Cauldron of Everything, p. 36_
+The might of the elements flows through you. You gain one of the following options of your choice.
 
-_4th-level druid feature_
+#### Potent Spellcasting
 
-Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.
+Add your Wisdom modifier to the damage you deal with any Druid cantrip.
 
-[[/accordion]]
+#### Primal Strike
 
-## Timeless Body
+Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).
 
-Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
+### Level 15: Improved Elemental Fury
 
-## Beast Spells
+The option you chose for Elemental Fury grows more powerful, as detailed below.
 
-Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.
+**_Potent Spellcasting._** When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.
 
-## Arch Druid
+**_Primal Strike._** The extra damage of your Primal Strike increases to 2d8.
 
-At 20th level, you can use your Wild Shape an unlimited number of times.
+### Level 18: Beast Spells
 
-Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.
+While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.
 
-# Druid Circles
+### Level 19: Epic Boon
 
-Though their organization is invisible to most outsiders, druids are part of a society that spans the land, ignoring political borders. All druids are nominally members of this druidic society, though some individuals are so isolated that they have never seen any high-ranking members of the society or participated in druidic gatherings. Druids recognize each other as brothers and sisters. Like creatures of the wilderness, however, druids sometimes compete with or even prey on each other.
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
-At a local scale, druids are organized into circles that share certain perspectives on nature, balance, and the way of the druid.
+### Level 20: Archdruid
+
+The vitality of nature constantly blooms within you, granting you the following benefits.
+
+**_Evergreen Wild Shape._** Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
+
+**_Nature Magician._** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.
+
+**_Longevity._** The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.
+
+# Druid Subclasses
+
+A Druid subclass is a specialization that grants you features at certain Druid levels, as specified in the subclass. Druids form loose associations, which they call circles.
 
 ## Player's Handbook
 
 * [[[subclass:Circle of the Land]]]
 * [[[subclass:Circle of the Moon]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:Circle of Dreams]]]
-* [[[subclass:Circle of the Shepherd]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Circle of Spores]]]
-* [[[subclass:Circle of Stars]]]
-* [[[subclass:Circle of Wildfire]]]
+* [[[subclass:Circle of the Sea]]]
+* [[[subclass:Circle of the Stars]]]
 
 ----
 
-*Source: Player's Handbook, p. 64*
-
-[[bibliography]]
-: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-[[/bibliography]]
+_Source: Player's Handbook, p. 79_

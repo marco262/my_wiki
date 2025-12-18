@@ -1,12 +1,12 @@
 title = "Mind Blank"
-classes = ["bard", "wizard"]
+spell_lists = ["Bard", "Wizard"]
 level = "8"
-school = "abjuration"
+school = "Abjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Touch"
 components = ["V", "S"]
 duration = "24 hours"
-description = """Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the [[[general:conditions#charmed|charmed]]] condition. The spell even foils *[[[spell:wish]]]* spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."""
-source = "Player's Handbook, p. 259"
+description = "Until the spell ends, one willing creature you touch has [[glossary:Immunity]] to Psychic damage and the [[glossary:Charmed]] condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell -- not even _[[[spell:Wish]]]_ -- can gather information about the target, observe it remotely, or control its mind."
+source = "Player's Handbook, p. 298"

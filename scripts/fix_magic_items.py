@@ -2,9 +2,9 @@ import glob
 import os
 import re
 
-from data.dnd.enums import classes
+from data.dnd5e.enums import classes
 from src.common.utils import title_to_page_name
-from src.dnd.endpoints import load_spells
+from src.dnd5e.endpoints import load_spells
 
 os.chdir("..")
 BASE_DIR = "data/dnd/equipment/magic-items"

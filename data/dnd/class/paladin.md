@@ -1,291 +1,179 @@
-Clad in plate armor that gleams in the sunlight despite the dust and grime of long travel, a human lays down her sword and shield and places her hands on a mortally wounded man. Divine radiance shines from her hands, the man's wounds knit closed, and his eyes open wide with amazement.
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
-A dwarf crouches behind an outcrop, his black cloak making him nearly invisible in the night, and watches an orc war band celebrating its recent victory. Silently, he stalks into their midst and whispers an oath, and two orcs are dead before they even realize he is there.
+# Core Paladin Traits
 
-Silver hair shining in a shaft of light that seems to illuminate only him, an elf laughs with exultation. His spear flashes like his eyes as he jabs again and again at a twisted giant, until at last his light overcomes its hideous darkness.
+ - **Primary Ability**: Strength and Charisma
+ - **Hit Point Die**: D10 per Paladin level
+ - **Saving Throw Proficiencies**: Wisdom and Charisma
+ - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Athletics]], [[tooltip:Insight]], [[tooltip:Intimidation]], [[tooltip:Medicine]], [[tooltip:Persuasion]], or [[tooltip:Religion]]
+ - **Weapon Proficiencies**: Simple and Martial weapons
+ - **Armor Training**: Light, Medium, and Heavy armor and Shields
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Chain Mail]], [[tooltip:Shield]], [[tooltip:Longsword]], 6 [[tooltip:javelin|Javelins]], [[tooltip:Holy Symbol]], [[tooltip:Priest's Pack]], and 9 GP; or (B) 150 GP
 
-Whatever their origin and their mission, paladins are united by their oaths to stand against the forces of evil. Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.
+Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.
 
-## The Cause of Righteousness
+Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the injured, smite their foes, and protect the helpless and those who fight at their side.
 
-A paladin swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk. Different paladins focus on various aspects of the cause of righteousness, but all are bound by the oaths that grant them power to do their sacred work. Although many paladins are devoted to gods of good, a paladin's power comes as much from a commitment to justice itself as it does from a god.
+Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic.
 
-Paladins train for years to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the sick and injured, to smite the wicked and the undead, and to protect the innocent and those who join them in the fight for justice.
+## Becoming a Paladin...
 
-## Beyond the Mundane Life
+### As a Level 1 Character
 
-Almost by definition, the life of a paladin is an adventuring life. Unless a lasting injury has taken him or her away from adventuring for a time, every paladin lives on the front lines of the cosmic struggle against evil. Fighters are rare enough among the ranks of the militias and armies of the world, but even fewer people can claim the true calling of a paladin. When they do receive the call, these warriors turn from their former occupations and take up arms to fight evil. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then their loyalty is first to the cause of righteousness, not to crown and country.
+ - Gain all the traits in the Core Paladin Traits table.
+ - Gain the Paladin's level 1 features, which are listed in the Paladin Features table.
 
-Adventuring paladins take their work seriously. A delve into an ancient ruin or dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Evil lurks in dungeons and primeval forests, and even the smallest victory against it can tilt the cosmic balance away from oblivion.
+### As a Multiclass Character
 
-# The Paladin
+ - Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.
+ - Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||
-|| 1st || +2 || Divine Sense, Lay on Hands || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Fighting Style, Martial Versatility, Spellcasting, Divine Smite || 2 || -- || -- || -- || -- ||
-|| 3rd || +2 || Divine Health, Sacred Oath || 3 || -- || -- || -- || -- ||
-|| 4th || +2 || Ability Score Improvement, Martial Versatility || 3 || -- || -- || -- || -- ||
-|| 5th || +3 || Extra Attack || 4 || 2 || -- || -- || -- ||
-|| 6th || +3 || Aura of Protection || 4 || 2 || -- || -- || -- ||
-|| 7th || +3 || Sacred Oath feature || 4 || 3 || -- || -- || -- ||
-|| 8th || +3 || Ability Score Improvement || 4 || 3 || -- || -- || -- ||
-|| 9th || +4 || -- || 4 || 3 || 2 || -- || -- ||
-|| 10th || +4 || Aura of Courage || 4 || 3 || 2 || -- || -- ||
-|| 11th || +4 || Improved Divine Smite || 4 || 3 || 3 || -- || -- ||
-|| 12th || +4 || Ability Score Improvement || 4 || 3 || 3 || -- || -- ||
-|| 13th || +5 || -- || 4 || 3 || 3 || 1 || -- ||
-|| 14th || +5 || Cleansing Touch || 4 || 3 || 3 || 1 || -- ||
-|| 15th || +5 || Sacred Oath feature || 4 || 3 || 3 || 2 || -- ||
-|| 16th || +5 || Ability Score Improvement || 4 || 3 || 3 || 2 || -- ||
-|| 17th || +6 || -- || 4 || 3 || 3 || 3 || 1 ||
-|| 18th || +6 || Aura improvements || 4 || 3 || 3 || 3 || 1 ||
-|| 19th || +6 || Ability Score Improvement || 4 || 3 || 3 || 3 || 2 ||
-|| 20th || +6 || Sacred Oath feature || 4 || 3 || 3 || 3 || 2 ||
+# Paladin Features
 
-## Creating a Paladin
+| Level | Proficiency Bonus | Class Features                             | Channel Divinity | Prepared Spells | 1 | 2 | 3 | 4 | 5 |
+|-------|-------------------|--------------------------------------------|------------------|-----------------|---|---|---|---|---|
+| 1     | +2                | Lay On Hands, Spellcasting, Weapon Mastery | —                | 2               | 2 | — | — | — | — |
+| 2     | +2                | Fighting Style, Paladin's Smite            | —                | 3               | 2 | — | — | — | — |
+| 3     | +2                | Channel Divinity, Paladin Subclass         | 2                | 4               | 3 | — | — | — | — |
+| 4     | +2                | Ability Score Improvement                  | 2                | 5               | 3 | — | — | — | — |
+| 5     | +3                | Extra Attack, Faithful Steed               | 2                | 6               | 4 | 2 | — | — | — |
+| 6     | +3                | Aura of Protection                         | 2                | 6               | 4 | 2 | — | — | — |
+| 7     | +3                | Subclass feature                           | 2                | 7               | 4 | 3 | — | — | — |
+| 8     | +3                | Ability Score Improvement                  | 2                | 7               | 4 | 3 | — | — | — |
+| 9     | +4                | Abjure Foes                                | 2                | 9               | 4 | 3 | 2 | — | — |
+| 10    | +4                | Aura of Courage                            | 2                | 9               | 4 | 3 | 2 | — | — |
+| 11    | +4                | Radiant Strikes                            | 3                | 10              | 4 | 3 | 3 | — | — |
+| 12    | +4                | Ability Score Improvement                  | 3                | 10              | 4 | 3 | 3 | — | — |
+| 13    | +5                | —                                          | 3                | 11              | 4 | 3 | 3 | 1 | — |
+| 14    | +5                | Restoring Touch                            | 3                | 11              | 4 | 3 | 3 | 1 | — |
+| 15    | +5                | Subclass feature                           | 3                | 12              | 4 | 3 | 3 | 2 | — |
+| 16    | +5                | Ability Score Improvement                  | 3                | 12              | 4 | 3 | 3 | 2 | — |
+| 17    | +6                | —                                          | 3                | 14              | 4 | 3 | 3 | 3 | 1 |
+| 18    | +6                | Aura Expansion                             | 3                | 14              | 4 | 3 | 3 | 3 | 1 |
+| 19    | +6                | Epic Boon                                  | 3                | 15              | 4 | 3 | 3 | 3 | 2 |
+| 20    | +6                | Subclass feature                           | 3                | 15              | 4 | 3 | 3 | 3 | 2 |
 
-The most important aspect of a paladin character is the nature of his or her holy quest. Although the class features related to your oath don't appear until you reach 3rd level, plan ahead for that choice by reading the oath descriptions at the end of the class. Are you a devoted servant of good, loyal to the gods of justice and honor, a holy knight in shining armor venturing forth to smite evil? Are you a glorious champion of the light, cherishing everything beautiful that stands against the shadow, a knight whose oath descends from traditions older than many of the gods? Or are you an embittered loner sworn to take vengeance on those who have done great evil, sent as an angel of death by the gods or driven by your need for revenge? 
+# Paladin Class Features
 
-How did you experience your call to serve as a paladin? Did you hear a whisper from an unseen god or angel while you were at prayer? Did another paladin sense the potential within you and decide to train you as a squire? Or did some terrible event -- the destruction of your home, perhaps -- drive you to your quests? Perhaps you stumbled into a sacred grove or a hidden elven enclave and found yourself called to protect all such refuges of goodness and beauty. Or you might have known from your earliest memories that the paladin's life was your calling, almost as if you had been sent into the world with that purpose stamped on your soul.
+As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
 
-As guardians against the forces of wickedness, paladins are rarely of any evil alignment. Most of them walk the paths of charity and justice. Consider how your alignment colors the way you pursue your holy quest and the manner in which you conduct yourself before gods and mortals. Your oath and alignment might be in harmony, or your oath might represent standards of behavior that you have not yet attained.
+### Level 1: Lay On Hands
 
-### Quick Build
+Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
 
-You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background.
+As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.
 
-# Class Features
+You can also expend 5 Hit Points from the pool of healing power to remove the [[glossary:Poisoned]] condition from the creature; those points don't also restore Hit Points to the creature.
 
-As a paladin, you gain the following class features.
+### Level 1: Spellcasting
 
-## Hit Points
+You have learned to cast spells through prayer and meditation.
 
-* Hit Dice: 1d10 per paladin level
-* Hit Points at 1st Level: 10 + your Constitution modifier
-* Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per paladin level after 1st
+**_Spell Slots._** The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-## Proficiencies
+**_Prepared Spells of Level 1+_**. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Paladin spell list](/dnd/spell_list/Paladin).
 
-* Armor: All armor, shields
-* Weapons: Simple weapons, martial weapons
-* Tools: None
-* Saving Throws: Wisdom, Charisma
-* Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion
+The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.
 
-## Equipment
+If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.
 
-You start with the following equipment, in addition to the equipment granted by your background:
+**_Changing Your Prepared Spells._** Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.
 
-* (a) a martial weapon and a shield or (b) two martial weapons
-* (a) five javelins or (b) any simple melee weapon
-* (a) a priest's pack or (b) an explorer's pack
-* Chain mail and a holy symbol
+**_Spellcasting Ability._** Charisma is your spellcasting ability for your Paladin spells.
 
-## Divine Sense
+**_Spellcasting Focus._** You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
 
-The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance).
+### Level 1: Weapon Mastery
 
-Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.
+Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
 
-## Lay on Hands
+Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.
 
-Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+### Level 2: Fighting Style
 
-As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.
 
-Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+#### Blessed Warrior
 
-This feature has no effect on undead and constructs.
+You learn two [Cleric cantrips](/dnd/spell_list/Cleric) of your choice. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
 
-## Fighting Style
+### Level 2: Paladin's Smite
 
-At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
+You always have the _[[[spell:Divine Smite]]]_ spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
 
-### Defense
+### Level 3: Channel Divinity
 
-While you are wearing armor, you gain a +1 bonus to AC.
+You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
 
-### Dueling
+You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
 
-When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
 
-### Great Weapon Fighting
+**_Divine Sense._** As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the [[glossary:Incapacitated]] condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the _[[[spell:Hallow]]]_ spell.
 
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
+### Level 3: Paladin Subclass
 
-### Protection
+You gain a [Paladin subclass](#paladin-subclasses) of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
 
-When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+### Level 4: Ability Score Improvement
 
-[[accordion Optional Class Features: Fighting Style Options]]
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.
 
-## Fighting Style Options
+### Level 5: Extra Attack
 
-_Source: Tasha's Cauldron of Everything, p. 52_ 
+You can attack twice instead of once whenever you take the [[glossary:Attack]] action on your turn.
 
-_2nd-level paladin feature_
+### Level 5: Faithful Steed
 
-When you choose a fighting style, the following styles are added to your list of options.
+You can call on the aid of an otherworldly steed. You always have the _[[[spell:Find Steed]]]_ spell prepared.
 
-### Blessed Warrior
+You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.
 
-You learn two cantrips of your choice from the [cleric spell list](/dnd/class_spell_list/cleric/true). They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.
+### Level 6: Aura of Protection
 
-### Blind Fighting
+You radiate a protective, unseeable aura in a 10-foot [[glossary:Emanation]] that originates from you. The aura is inactive while you have the [[glossary:Incapacitated]] condition.
 
-You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
+You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).
 
-### Interception
+If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.
 
-When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+### Level 9: Abjure Foes
 
-[[/accordion]]
+As a [[glossary:Magic]] action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the [[glossary:Frightened]] condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.
 
-## Spellcasting
+### Level 10: Aura of Courage
 
-By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the [paladin spell list](/dnd/class_spell_list/paladin/true).
+You and your allies have Immunity to the [[glossary:Frightened]] condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
 
-### Preparing and Casting Spells
+### Level 11: Radiant Strikes
 
-The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
 
-You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. 
+### Level 14: Restoring Touch
 
-For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: [[glossary:Blinded]], [[glossary:Charmed]], [[glossary:Deafened]], [[glossary:Frightened]], [[glossary:Paralyzed]], or [[glossary:Stunned]]. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
 
-You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+### Level 18: Aura Expansion
 
-### Spellcasting Ability
+Your Aura of Protection is now a 30-foot [[glossary:Emanation]].
 
-Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.
+### Level 19: Epic Boon
 
-* Spell save DC = 8 + your proficiency bonus + your Charisma modifier
-* Spell attack modifier = your proficiency bonus + your Charisma modifier
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
-### Spellcasting Focus
+# Paladin Subclasses
 
-You can use a [[[general:Equipment#adventuring-gear|holy symbol]]] as a spellcasting focus for your paladin spells.
+A Paladin subclass is a specialization that grants you features at certain Paladin levels, as specified in the subclass.
 
-## Divine Smite
-
-Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.
-
-## Divine Health
-
-By 3rd level, the divine magic flowing through you makes you immune to disease.
-
-## Sacred Oath
-
-When you reach 3rd level, you swear the [[[class:paladin#sacred-oath|oath]]] that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, or the Oath of Vengeance, all detailed at the end of the class description.
-
-Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
-
-### Oath Spells
-
-Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.
-
-If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.
-
-### Channel Divinity
-
-Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.
-
-When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.
-
-Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.
-
-[[accordion Optional Class Features: Harness Divine Power]]
-
-#### Harness Divine Power
-
-_Source: Tasha's Cauldron of Everything, p. 53_ 
-
-_3rd-level paladin feature_
-
-You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.
-
-[[/accordion]]
-
-## Ability Score Improvement
-
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
-
-[[accordion Optional Class Features: Martial Versatility]]
-
-## Martial Versatility
-
-_Source: Tasha's Cauldron of Everything, p. 53_ 
-
-_4th-level paladin feature_
-
-Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.
-
-[[/accordion]]
-
-## Extra Attack
-
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
-
-## Aura of Protection
-
-Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus. At 18th level, the range of this aura increases to 30 feet.
-
-## Aura of Courage
-
-Starting at 10th level, you and friendly creatures within 10 feet of you can't be [[[general:conditions#frightened|frightened]]] while you are conscious. At 18th level, the range of this aura increases to 30 feet.
-
-## Improved Divine Smite
-
-By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.
-
-## Cleansing Touch
-
-Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.
-
-# Sacred Oaths
-
-<div class="phb-sidebar" markdown="1">
-
-**Breaking Your Oath**
-
-A paladin tries to hold to the highest standards of conduct, but even the most virtuous paladin is fallible. Sometimes the right path proves too demanding, sometimes a situation calls for the lesser of two evils, and sometimes the heat of emotion causes a paladin to transgress his or her oath.
-
-A paladin who has broken a vow typically seeks absolution from a cleric who shares his or her faith or from another paladin of the same order. The paladin might spend an all-night vigil in prayer as a sign of penitence, or undertake a fast or similar act of self-denial. After a rite of confession and forgiveness, the paladin starts fresh.
-
-If a paladin willfully violates his or her oath and shows no sign of repentance, the consequences can be more serious. At the DM's discretion, an impenitent paladin might be forced to abandon this class and adopt another, or perhaps to take the Oathbreaker paladin option.
-
-</div>
-
-Becoming a paladin involves taking vows that commit the paladin to the cause of righteousness, an active path of fighting wickedness. The final oath, taken when he or she reaches 3rd level, is the culmination of all the paladin's training. Some characters with this class don't consider themselves true paladins until they have reached 3rd level and made this oath. For others, the actual swearing of the oath is a formality, an official stamp on what has always been true in the paladin's heart.
+Each of these subclasses represents a body of oaths that a Paladin begins taking upon joining the class. The final oath, taken at level 3, is the culmination of a Paladin's training. Some characters with this class don't consider themselves true Paladins until they've reached level 3 and made this oath. For others, the swearing of the oath is a formality, an official stamp on what was already in their hearts.
 
 ## Player's Handbook
 
-* [[[subclass:Oath of Devotion]]]
-* [[[subclass:Oath of the Ancients]]]
-* [[[subclass:Oath of Vengeance]]]
-
-## Dungeon Master's Guide
-
-* [[[subclass:Oathbreaker]]]
-
-## Sword Coast Adventurer's Guide
-
-* [[[subclass:Oath of the Crown]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:Oath of Conquest]]]
-* [[[subclass:Oath of Redemption]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Oath of Glory]]]
-* [[[subclass:Oath of the Watchers]]]
-
-## Unearthed Arcana
-
-* [[[subclass:Oath of Heroism]]]
+ - [[[subclass:Oath of Devotion]]]
+ - [[[subclass:Oath of Glory]]]
+ - [[[subclass:Oath of the Ancients]]]
+ - [[[subclass:Oath of Vengeance]]]
 
 ----
 
-*Source: Player's Handbook, p. 82*
+_Source: Player's Handbook, p. 109_

@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/static/css/monster-sheet.css">
 <%
-from src.dnd.utils import ability_mod
+from src.dnd5e.utils import ability_mod
 str_mod = ability_mod(strength)
 dex_mod = ability_mod(dexterity)
 con_mod = ability_mod(constitution)

@@ -1,4 +1,5 @@
 % rebase("common/base.tpl", title=title)
+% from src.common.utils import ordinal
 
 % if defined('editors_note'):
 <div class="errata">
@@ -7,23 +8,12 @@
 </div>
 % end
 
-<%
-from data.dnd.enums import classes as class_list
-spell_class_list = []
-for c in class_list:
-    if c in classes or c in get("classes_ua", []):
-        link = '<a href="/dnd/class_spell_list/{}/true">{}</a>'.format(c, c.title())
-        if c in get("classes_ua", []):
-            link = "[" + link + "]"
-        end
-        spell_class_list.append(link)
-    end
-end
-%>
-<p><em>{{!('&nbsp;' * 4).join(spell_class_list)}}</em></p>
-
-% fmt = "{school} cantrip" if level.lower() == "cantrip" else "Level {level} {school}" 
-<p>{{fmt.format(level=level, school=school.title())}}{{" (ritual)" if ritual_spell else ""}}</p>
+% if level == "0":
+% fmt = "{school} Cantrip ({spell_lists})"
+% else:
+% fmt = "{level}-Level {school} Spell ({spell_lists})"
+% end
+<p>{{fmt.format(level=ordinal(level), school=school.title(), spell_lists=", ".join(spell_lists))}}</p>
 
 <p>
 <strong>Casting Time:</strong> {{casting_time}}<br />
@@ -33,11 +23,15 @@ end
 
 {{!description_md}}
 % if defined('at_higher_levels'):
-<p><strong>At Higher Levels:</strong> {{at_higher_levels}}</p>
+<p><strong>At Higher Levels:</strong> {{!at_higher_levels_md}}</p>
+
+% end
+% if defined('cantrip_upgrade'):
+<p><strong>Cantrip Upgrade:</strong> {{cantrip_upgrade}}</p>
 
 % end
 % if defined('at_higher_levels_homebrew'):
-<div class="homebrew-note"><strong>At Higher Levels (homebrew):</strong> {{at_higher_levels_homebrew}}</div>
+<div class="homebrew-note"><strong>At Higher Levels (homebrew):</strong> {{!at_higher_levels_homebrew_md}}</div>
 
 % end
 <hr class="no-float">

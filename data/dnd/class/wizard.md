@@ -1,229 +1,155 @@
-Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
-Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.
+# Core Wizard Traits
 
-Crouching on the floor in a dungeon intersection, a gnome tosses a handful of small bones inscribed with mystic symbols, muttering a few words of power over them. Closing his eyes to see the visions more clearly, he nods slowly, then opens his eyes and points down the passage to his left.
+ - **Primary Ability**: Intelligence
+ - **Hit Point Die**: D6 per Wizard level
+ - **Saving Throw Proficiencies**: Intelligence and Wisdom
+ - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Arcana]], [[tooltip:History]], [[tooltip:Insight]], [[tooltip:Investigation]], [[tooltip:Medicine]], [[tooltip:Nature]], or [[tooltip:Religion]]
+ - **Weapon Proficiencies**: Simple weapons
+ - **Armor Training**: None
+ - **Starting Equipment**: _Choose A or B:_ (A) 2 [[tooltip:dagger|Daggers]], [[tooltip:Arcane Focus]] ([[tooltip:Quarterstaff]]), Robe, Spellbook, [[tooltip:Scholar's Pack]], and 5 GP; or (B) 55 GP
 
-Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.
+Wizards are defined by their exhaustive study of magic's inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.
 
-## Scholars of the Arcane
+Most Wizards share a scholarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen, and Yolande have built on their studies to invent iconic spells now used across the multiverse.
 
-Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the gods, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.
+The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.
 
-Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic.
+But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.
 
-## The Lure of Knowledge
+## Becoming a Wizard...
 
-Wizards' lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.
+### As a Level 1 Character
 
-But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.
+ - Gain all the traits in the Core Wizard Traits table.
+ - Gain the Wizard's level 1 features, which are listed in the Wizard Features table.
 
-# The Wizard
+### As a Multiclass Character
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Features ||~ Cantrips<br>Known ||~ 1st ||~ 2nd ||~ 3rd ||~ 4th ||~ 5th ||~ 6th ||~ 7th ||~ 8th ||~ 9th ||
-|| 1st || +2 || Spellcasting, Arcane Recovery || 3 || 2 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 2nd || +2 || Arcane Tradition || 3 || 3 || -- || -- || -- || -- || -- || -- || -- || -- ||
-|| 3rd || +2 || Cantrip Formulas || 3 || 4 || 2 || -- || -- || -- || -- || -- || -- || -- ||
-|| 4th || +2 || Ability Score Improvement || 4 || 4 || 3 || -- || -- || -- || -- || -- || -- || -- ||
-|| 5th || +3 || -- || 4 || 4 || 3 || 2 || -- || -- || -- || -- || -- || -- ||
-|| 6th || +3 || Arcane Tradition feature || 4 || 4 || 3 || 3 || -- || -- || -- || -- || -- || -- ||
-|| 7th || +3 || -- || 4 || 4 || 3 || 3 || 1 || -- || -- || -- || -- || -- ||
-|| 8th || +3 || Ability Score Improvement || 4 || 4 || 3 || 3 || 2 || -- || -- || -- || -- || -- ||
-|| 9th || +4 || -- || 4 || 4 || 3 || 3 || 3 || 1 || -- || -- || -- || -- ||
-|| 10th || +4 || Arcane Tradition feature || 5 || 4 || 3 || 3 || 3 || 2 || -- || -- || -- || -- ||
-|| 11th || +4 || -- || 5 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 12th || +4 || Ability Score Improvement || 5 || 4 || 3 || 3 || 3 || 2 || 1 || -- || -- || -- ||
-|| 13th || +5 || -- || 5 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 14th || +5 || Arcane Tradition feature || 5 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || -- || -- ||
-|| 15th || +5 || -- || 5 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 16th || +5 || Ability Score Improvement || 5 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || -- ||
-|| 17th || +6 || -- || 5 || 4 || 3 || 3 || 3 || 2 || 1 || 1 || 1 || 1 ||
-|| 18th || +6 || Spell Mastery || 5 || 4 || 3 || 3 || 3 || 3 || 1 || 1 || 1 || 1 ||
-|| 19th || +6 || Ability Score Improvement || 5 || 4 || 3 || 3 || 3 || 3 || 2 || 1 || 1 || 1 ||
-|| 20th || +6 || Signature Spell || 5 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 1 || 1 ||
+ - Gain the Hit Point Die from the Core Wizard Traits table.
+ - Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
-## Creating a Wizard
+# Wizard Features
 
-Creating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?
+| Level | Proficiency Bonus | Class Features                              | Cantrips | Prepared Spells | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|-------|-------------------|---------------------------------------------|----------|-----------------|---|---|---|---|---|---|---|---|---|
+| 1     | +2                | Spellcasting, Ritual Adept, Arcane Recovery | 3        | 4               | 2 | — | — | — | — | — | — | — | — |
+| 2     | +2                | Scholar                                     | 3        | 5               | 3 | — | — | — | — | — | — | — | — |
+| 3     | +2                | Wizard Subclass                             | 3        | 6               | 4 | 2 | — | — | — | — | — | — | — |
+| 4     | +2                | Ability Score Improvement                   | 4        | 7               | 4 | 3 | — | — | — | — | — | — | — |
+| 5     | +3                | Memorize Spell                              | 4        | 9               | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6     | +3                | Subclass feature                            | 4        | 10              | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7     | +3                | —                                           | 4        | 11              | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8     | +3                | Ability Score Improvement                   | 4        | 12              | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9     | +4                | —                                           | 4        | 14              | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10    | +4                | Subclass feature                            | 5        | 15              | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11    | +4                | —                                           | 5        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12    | +4                | Ability Score Improvement                   | 5        | 16              | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13    | +5                | —                                           | 5        | 17              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14    | +5                | Subclass feature                            | 5        | 18              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15    | +5                | —                                           | 5        | 19              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16    | +5                | Ability Score Improvement                   | 5        | 21              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17    | +6                | —                                           | 5        | 22              | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18    | +6                | Spell Mastery                               | 5        | 23              | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19    | +6                | Epic Boon                                   | 5        | 24              | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20    | +6                | Signature Spells                            | 5        | 25              | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
 
-What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you're simply eager to put your newfound magical skills to the test in the face of danger.
+# Wizard Class Features
 
-## Quick Build
+As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
 
-You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the _[[[spell:light]]]_, _[[[spell:mage hand]]]_, and _[[[spell:ray of frost]]]_ cantrips, along with the following 1st-level spells for your spellbook: _[[[spell:burning hands]]]_, _[[[spell:charm person]]]_, _[[[spell:mage armor]]]_, _[[[spell:magic missile]]]_, _[[[spell:shield]]]_, and _[[[spell:sleep]]]_.
-
-# Class Features
-
-As a wizard, you gain the following class features.
-
-## Hit Points
-
-* Hit Dice: 1d6 per wizard level
-* Hit Points at 1st Level: 6 + your Constitution modifier
-* Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
-
-## Proficiencies
-
-* Armor: None
-* Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
-* Tools: None
-* Saving Throws: Intelligence, Wisdom
-* Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
-
-## Equipment
-
-You start with the following equipment, in addition to the equipment granted by your background:
-
-* (a) a quarterstaff or (b) a dagger
-* (a) a component pouch or (b) an arcane focus
-* (a) a scholar's pack or (b) an explorer's pack
-* A spellbook
-
-## Spellcasting
+### Level 1: Spellcasting
 
 <div class="phb-sidebar" markdown="1">
 
-**Your Spellbook**
+**Expanding and Replacing a Spellbook**
 
-The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
+The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a [[tooltip:Spell Scroll]], for example, and then copy it into your spellbook.
 
-**Copying a Spell into the Book.** When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it. The spells copied into a spellbook must be of a spell level the wizard can prepare.[((bibcite errata))]
+**_Copying a Spell into the Book._** When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
 
-Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.
+**_Copying the Book._** You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.
 
-For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
-
-**Replacing the Book.** You can copy a spell from your own spellbook into another book -- for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
-
-If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
-
-**The Book's Appearance.** Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
+If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.
 
 </div>
 
-As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. 
+As a student of arcane magic, you have learned to cast spells.
 
-### Cantrips
+**_Cantrips._** You know three cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard). Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
 
-At 1st level, you know three cantrips of your choice from the [wizard spell list](/dnd/class_spell_list/wizard/true). You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
+When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
 
-### Spellbook
+**_Spellbook._** Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _[[[spell:Identify]]]_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
 
-At 1st level, you have a spellbook containing six 1st-level [wizard spells](/dnd/class_spell_list/wizard/true) of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
+The book contains the level 1+ spells you know. It starts with six level 1 spells of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
 
-### Preparing and Casting Spells
+Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.
 
-The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**_Spell Slots._** The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.
 
-For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.
 
-You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
+If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.
 
-### Spellcasting Ability
+**_Changing Your Prepared Spells._** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.
 
-Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+**_Spellcasting Ability._** Intelligence is your spellcasting ability for your Wizard spells.
 
-* Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
-* Spell attack modifier = your proficiency bonus + your Intelligence modifier
+**_Spellcasting Focus._** You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.
 
-### Ritual Casting
+### Level 1: Ritual Adept
 
-You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
+You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.
 
-### Spellcasting Focus
+### Level 1: Arcane Recovery
 
-You can use an [[[general:Equipment#adventuring-gear|arcane focus]]] as a spellcasting focus for your wizard spells.
+You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.
 
-### Learning Spells of 1st Level and Higher
+Once you use this feature, you can't do so again until you finish a Long Rest.
 
-Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.
+### Level 2: Scholar
 
-## Arcane Recovery
+While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: [[tooltip:Arcana]], [[tooltip:History]], [[tooltip:Investigation]], [[tooltip:Medicine]], [[tooltip:Nature]], or [[tooltip:Religion]]. You have [[glossary:Expertise]] in the chosen skill.
 
-You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+### Level 3: Wizard Subclass
 
-For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
+You gain a [Wizard subclass](#wizard-subclasses) of your choice. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.
 
-## Arcane Traditions
+### Level 4: Ability Score Improvement
 
-When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation.
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16.
 
-Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+### Level 5: Memorize Spell
 
-[[accordion Optional Class Features: Cantrip Formulas]]
+Whenever you finish a Short Rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.
 
-## Cantrip Formulas
+### Level 18: Spell Mastery
 
-_Source: Tasha's Cauldron of Everything, p. 76_
+You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.
 
-_3rd-level wizard feature_
+Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.
 
-You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.
+### Level 19: Epic Boon
 
-[[/accordion]]
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
-## Ability Score Improvement
+### Level 20: Signature Spells
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.
 
-## Spell Mastery
+# Wizard Subclasses
 
-At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+A Wizard subclass is a specialization that grants you features at certain Wizard levels, as specified in the subclass.
 
-By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.
-
-## Signature Spells
-
-When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.
-
-If you want to cast either spell at a higher level, you must expend a spell slot as normal.
-
-# Arcane Traditions
-
-The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in the worlds of D&D, with various traditions dedicated to its complex study.
-
-The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called [[[general:spellcasting-rules#schools|schools]]]. In some places, these traditions are literally schools; a wizard might study at the School of Illusion while another studies across town at the School of Enchantment. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.
-
-## Player's Handbook
-
-* [[[subclass:School of Abjuration]]]
-* [[[subclass:School of Conjuration]]]
-* [[[subclass:School of Divination]]]
-* [[[subclass:School of Enchantment]]]
-* [[[subclass:School of Evocation]]]
-* [[[subclass:School of Illusion]]]
-* [[[subclass:School of Necromancy]]]
-* [[[subclass:School of Transmutation]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:War Magic]]]
-
-## Explorer's Guide to Wildemount
-
-* [[[subclass:School of Chronurgy]]]
-* [[[subclass:School of Graviturgy]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Bladesinging]]]
-* [[[subclass:Order of Scribes]]]
-
-## Unearthed Arcana
-
-* [[[subclass:School of Invention]]]
-
-## Homebrew
-
-* [[[subclass:School of Necromancy, Revised]]]
-* [[[subclass:School of Universalism]]]
+ - [[[subclass:Abjurer]]]
+ - [[[subclass:Diviner]]]
+ - [[[subclass:Evoker]]]
+ - [[[subclass:Illusionist]]]
 
 ----
 
-*Source: Player's Handbook, p. 112*
-
-[[bibliography]]
-: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-[[/bibliography]]
+_Source: Player's Handbook, p. 165_

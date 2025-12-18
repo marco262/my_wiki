@@ -1,19 +1,22 @@
 title = "Evard's Black Tentacles"
-classes = ["wizard"]
+spell_lists = ["Wizard"]
 level = "4"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "90 feet"
 components = ["V", "S", "M"]
-material = "a piece of tentacle from a giant octopus or a giant squid"
+material = "a tentacle"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 minute"
-description = """Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.
+duration = "1 minute"
+description = """
+Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into [[glossary:Difficult Terrain]].
 
-When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be [[[general:conditions#restrained|restrained]]] by the tentacles until the spell ends. A creature that starts its turn in the area and is already [[[general:conditions#restrained|restrained]]] by the tentacles takes 3d6 bludgeoning damage.
+Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the [[glossary:Restrained]] condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.
 
-A creature [[[general:conditions#restrained|restrained]]] by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."""
-source = "Player's Handbook, p. 238"
+A [[glossary:Restrained]] creature can take an action to make a Strength ([[tooltip:Athletics]]) check against your spell save DC, ending the condition on itself on a success.
+"""
+source = "Player's Handbook, p. 270"

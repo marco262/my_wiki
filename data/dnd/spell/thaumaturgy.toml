@@ -1,21 +1,26 @@
 title = "Thaumaturgy"
-classes = ["cleric"]
-level = "cantrip"
-school = "transmutation"
+spell_lists = ["Cleric"]
+level = "0"
+school = "Transmutation"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "30 feet"
 components = ["V"]
-duration = "Up to 1 minute"
-description = """You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:
+duration = "1 minute"
+description = """
+You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.
 
-* Your voice booms up to three times as loud as normal for 1 minute.
-* You cause flames to flicker, brighten, dim, or change color for 1 minute.
-* You cause harmless tremors in the ground for 1 minute.
-* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
-* You instantaneously cause an unlocked door or window to fly open or slam shut.
-* You alter the appearance of your eyes for 1 minute. 
+**_Altered Eyes._** You alter the appearance of your eyes for 1 minute.
 
-If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."""
-source = "Player's Handbook, p. 282"
+**_Booming Voice._** Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have [[glossary:Advantage]] on Charisma ([[tooltip:Intimidation]]) checks.
+
+**_Fire Play._** You cause flames to flicker, brighten, dim, or change color for 1 minute.
+
+**_Invisible Hand._** You instantaneously cause an unlocked door or window to fly open or slam shut.
+
+**_Phantom Sound._** You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
+
+**_Tremors._** You cause harmless tremors in the ground for 1 minute.
+"""
+source = "Player's Handbook, p. 333"

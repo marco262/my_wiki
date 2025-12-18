@@ -1,29 +1,45 @@
 [[breadcrumb /dnd/class/Rogue|Rogue]]
 
-You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.
+_Hunt for Treasure as a Classic Adventurer_
 
-## Fast Hands
+A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.
 
-Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.
+### Level 3: Fast Hands
 
-## Second-Story Work
+As a Bonus Action, you can do one of the following.
 
-When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+**_Sleight of Hand._** Make a Dexterity ([[tooltip:Sleight of Hand]]) check to pick a lock or disarm a trap with [[tooltip:Thieves' Tools]] or to pick a pocket.
 
-In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
+**_Use an Object._** Take the [[glossary:Utilize]] action, or take the [[glossary:Magic]] action to use a magic item that requires that action.
 
-## Supreme Sneak
+### Level 3: Second-Story Work
 
-Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.
+You've trained to get into especially hard-to-reach places, granting you these benefits.
 
-## Use Magic Device
+**_Climber._** You gain a Climb Speed equal to your Speed.
 
-By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.
+**_Jumper._** You can determine your jump distance using your Dexterity rather than your Strength.
 
-## Thief's Reflexes
+### Level 9: Supreme Sneak
 
-When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
+You gain the following Cunning Strike option.
+
+**_Stealth Attack (Cost: 1d6)._** If you have the [[glossary:Hide]] action's [[glossary:Invisible]] condition, this attack doesn't end that condition on you if you end the turn behind [[tooltip:Three-Quarters Cover]] or [[tooltip:Total Cover]].
+
+### Level 13: Use Magic Device
+
+You've learned how to maximize use of magic items, granting you the following benefits.
+
+**_Attunement._** You can attune to up to four magic items at once.
+
+**_Charges._** Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.
+
+**_Scrolls._** You can use any [[tooltip:Spell Scroll]], using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence ([[tooltip:Arcana]]) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.
+
+### Level 17: Thief's Reflexes
+
+You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal [[glossary:Initiative]] and your second turn at your Initiative minus 10.
 
 ----
 
-*Source: Player's Handbook, p. 97*
+_Source: Player's Handbook, p. 137_

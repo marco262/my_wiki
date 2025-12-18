@@ -1,4 +1,4 @@
-from src.dnd.endpoints import load_spells
+from src.dnd5e.endpoints import load_spells
 
 spells = load_spells()
 

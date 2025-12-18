@@ -2,6 +2,9 @@ resource "google_storage_bucket" "my_wiki" {
   name     = "${local.project_id}-my-wiki"
   location = local.region
   uniform_bucket_level_access = true
+  labels = {
+      product = local.product
+  }
 }
 
 # Makes the bucket publicly accessible

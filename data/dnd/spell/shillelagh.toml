@@ -1,15 +1,21 @@
 title = "Shillelagh"
-classes = ["druid"]
-level = "cantrip"
-school = "transmutation"
+spell_lists = ["Druid"]
+level = "0"
+school = "Transmutation"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 bonus action"
-range = "Touch"
+casting_time = "Bonus Action"
+range = "Self"
 components = ["V", "S", "M"]
-material = "mistletoe, a shamrock leaf, and a club or quarterstaff"
+material = "mistletoe"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
 duration = "1 minute"
-description = """The wood of a club or a quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."""
-source = "Player's Handbook, p. 275"
+description = """
+A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).
+
+The spell ends early if you cast it again or if you let go of the weapon.
+"""
+cantrip_upgrade = "The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6)."
+source = "Player's Handbook, p. 316"

@@ -1,7 +1,7 @@
 [[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
 <script type="module">
-  import {init_npc_sheets} from "/static/js/dnd/monster_sheet.js";
+  import {init_npc_sheets} from "/static/js/dnd5e/monster_sheet.js";
   init_npc_sheets();
 </script>
 

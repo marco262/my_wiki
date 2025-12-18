@@ -1,7 +1,6 @@
 """
 For parsing *.md files, including special handling of wiki code
 """
-import glob
 import os
 import re
 from typing import Dict
@@ -10,11 +9,13 @@ import toml
 from bottle import template, TemplateError
 
 from markdown2 import Markdown
+
+from data.dnd.enums import custom_tooltips
 from src.common.utils import title_to_page_name, list_media_files
-from src.dnd.magic_item_tracker import build_magic_item_tracker
-from src.dnd.npc_generator import create_npc
-from src.dnd.utils import to_mod
-from src.onednd.utils import split_rules_glossary, RulesGlossaryEntry
+from src.dnd5e.magic_item_tracker import build_magic_item_tracker
+from src.dnd5e.npc_generator import create_npc
+from src.dnd5e.utils import to_mod
+from src.dnd.utils import TooltipEntry, TooltipDict, split_rules_glossary, split_equipment
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 EXTRAS = [
@@ -25,7 +26,8 @@ EXTRAS = [
 class MarkdownParser:
     namespace = ""
     accordion_text = False
-    rules_glossary: Dict[str, RulesGlossaryEntry] = None
+    rules_glossary: Dict[str, TooltipEntry] = None
+    tooltips: Dict[str, TooltipEntry] = None
 
     def __init__(self, check_for_broken_links=True, init_md=True):
         self.check_for_broken_links = check_for_broken_links
@@ -43,12 +45,27 @@ class MarkdownParser:
             file_contents = f.read()
         return self.parse_md(file_contents, namespace)
 
-    def parse_md(self, text, namespace="", with_metadata=True):
+    def parse_md(self, text: str, namespace: str = "", with_metadata: bool = True, no_p: bool = False) -> str:
+        """
+        Parse Markdown text into HTML.
+
+        Args:
+            text (str): The Markdown text to be parsed.
+            namespace (str, optional): The namespace for links and references. Defaults to "".
+            with_metadata (bool, optional): Whether to parse Markdown as if it has a metadata header. Defaults to True.
+            no_p (bool, optional): If True, removes surrounding <p> tags from the output. Defaults to False.
+
+        Returns:
+            str: The parsed HTML string.
+        """
         self.namespace = namespace
         if with_metadata:
-            return self.markdown_obj_with_metadata.convert(text)
+            md = self.markdown_obj_with_metadata.convert(text)
         else:
-            return self.markdown_obj.convert(text)
+            md = self.markdown_obj.convert(text)
+        if no_p:
+            md = md[3:-5]
+        return md
 
     def pre_parsing(self, text):
         text = self.convert_wiki_links(text)
@@ -61,12 +78,14 @@ class MarkdownParser:
 
     def post_parsing(self, text):
         text = self.add_header_links(text)
+        text = self.add_divs(text)
         text = self.parse_accordions(text)
         text = self.convert_wiki_divs(text)
         text = self.build_bibliography(text)
         text = self.convert_gm_notes_inserts(text)
         text = self.generate_npc_blocks(text)
         text = self.fancy_text(text)
+        text = self.add_reference_tooltips(text)
         text = self.add_rules_glossary_tooltips(text)
         return text
 
@@ -77,11 +96,15 @@ class MarkdownParser:
             directory = namespace_domain + ("/" + groups[1] if groups[1] else "")
             filename = groups[2].replace("/", "-")
             linkname = groups[6] or groups[4] or groups[2]
+            if groups[4]:
+                anchor = "#" + title_to_page_name(groups[4])
+            else:
+                anchor = ""
             broken_link = not (self.check_for_broken_links and self.check_for_md_file(directory, filename))
             class_name = "wiki-link" + ("-broken" if broken_link else "")
             text = text.replace(
                 m.group(0),
-                f'<a class="{class_name}" href="{directory}/{filename + (groups[3] or "")}">{linkname}</a>'
+                f'<a class="{class_name}" href="{directory}/{filename + anchor}">{linkname}</a>'
             )
         return text
 
@@ -232,18 +255,34 @@ class MarkdownParser:
             text = text.replace(m.group(0), new_text)
         return text
 
-    def add_rules_glossary_tooltips(self, text):
+    def add_reference_tooltips(self, text: str) -> str:
+        if not self.tooltips:
+            self.tooltips = split_equipment()
+            self.tooltips.update(custom_tooltips)
+        return self._add_tooltip(self.tooltips, r"\[\[tooltip:(.*?)(\|(.*?))?\]\]", text)
+
+    def add_rules_glossary_tooltips(self, text: str) -> str:
         if not self.rules_glossary:
             self.rules_glossary = split_rules_glossary()
-        pattern = r"\[\[glossary:(.*?)(\|(.*?))?\]\]"
-        glossary_tooltip = '<dfn name="{name}"><button class="dfn-tooltip" anchor="{anchor}">{content}</button></dfn>'
+        return self._add_tooltip(self.rules_glossary, r"\[\[glossary:(.*?)(\|(.*?))?\]\]", text)
+
+    @staticmethod
+    def _add_tooltip(tooltip_dict: TooltipDict, pattern: str, text: str) -> str:
+        tooltip_fmt = '<dfn name="{name}"><button class="dfn-tooltip" href="{href}">{content}</button></dfn>'
         for m in re.finditer(pattern, text):
-            g = self.rules_glossary[m.group(1).lower()]
-            tooltip = glossary_tooltip.format(
-                name=m.group(3) or m.group(1),
-                anchor=g["anchor"],
-                content=g["content"],
-            )
+            try:
+                g = tooltip_dict[m.group(1).lower()]
+            except KeyError:
+                raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
+                # tooltip = tooltip_fmt.format(name=m.group(3) or m.group(1), href="", content="")
+            else:
+                # Avoid including pipes (|) so we don't screw up tables
+                content = g["content"].split("|")[0].strip()
+                tooltip = tooltip_fmt.format(
+                    name=m.group(3) or m.group(1),
+                    href=g["href"],
+                    content=content,
+                )
             text = text.replace(m.group(0), tooltip)
         return text
 
@@ -254,6 +293,15 @@ class MarkdownParser:
                 m.group(0),
                 f'{m.group(1)}<a href="#{m.group(2)}" class="header-link">¶</a>{m.group(3)}'
             )
+        return text
+
+    def add_divs(self, text: str) -> str:
+        text = text.replace("[[sidebar]]", '<div class="phb-sidebar" markdown="1">')
+        text = text.replace("[[errata]]", '<div class="errata" markdown="1">')
+        text = text.replace("[[homebrew]]", '<div class="homebrew-note" markdown="1">')
+        text = text.replace("[[/sidebar]]", "</div>")
+        text = text.replace("[[/errata]]", "</div>")
+        text = text.replace("[[/homebrew]]", "</div>")
         return text
 
     def parse_accordions(self, text):

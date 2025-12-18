@@ -1,14 +1,16 @@
 title = "Finger of Death"
-classes = ["sorcerer", "warlock", "wizard"]
+spell_lists = ["Sorcerer", "Warlock", "Wizard"]
 level = "7"
-school = "necromancy"
+school = "Necromancy"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "60 feet"
 components = ["V", "S"]
 duration = "Instantaneous"
-description = """You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
+description = """
+You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.
 
-A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability."""
-source = "Player's Handbook, p. 241"
+A Humanoid killed by this spell rises at the start of your next turn as a [[[monster:Zombie]]] that follows your verbal orders.
+"""
+source = "Player's Handbook, p. 273"

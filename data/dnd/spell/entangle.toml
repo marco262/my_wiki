@@ -1,17 +1,16 @@
 title = "Entangle"
-classes = ["druid"]
-classes_ua = ["ranger"]
+spell_lists = ["Druid", "Ranger"]
 level = "1"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "90 feet"
 components = ["V", "S"]
-duration = "Concentration, up to 1 minute"
-description = """Grasping weeds and vines sprout from the ground in a 20-foot square starting form a point within range. For the duration, these plants turn the ground in the area into [[[general:adventuring#difficult-terrain|difficult terrain]]].
+duration = "1 minute"
+description = """
+Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into [[glossary:Difficult Terrain]]. They disappear when the spell ends.
 
-A creature in the area when you cast the spell must succeed on a Strength saving throw or be [[[general:conditions#restrained|restrained]]] by the entangling plants until the spell ends. A creature [[[general:conditions#restrained|restrained]]] by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
-
-When the spell ends, the conjured plants wilt away."""
-source = "Player's Handbook, p. 238"
+Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the [[glossary:Restrained]] condition until the spell ends. A [[glossary:Restrained]] creature can take an action to make a Strength ([[tooltip:Athletics]]) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer [[glossary:Restrained]] by them.
+"""
+source = "Player's Handbook, p. 268"

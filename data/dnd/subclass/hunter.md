@@ -1,45 +1,45 @@
 [[breadcrumb /dnd/class/Ranger|Ranger]]
 
-Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
+_Protect Nature and People from Destruction_
 
-## Hunter's Prey
+You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.
 
-At 3rd level, you gain one of the following features of your choice.
+### Level 3: Hunter's Lore
 
-**Colossus Slayer.** Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.
+You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _[[[spell:Hunter's Mark]]]_, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
 
-**Giant Killer.** When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.
+### Level 3: Hunter's Prey
 
-**Horde Breaker.** Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+You gain one of the following feature options of your choice. Whenever you finish a [[glossary:Short Rest|Short]] or [[glossary:Long Rest]], you can replace the chosen option with the other one.
 
-## Defensive Tactics
+#### Colossus Slayer
 
-At 7th level, you gain one of the following features of your choice.
+Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.
 
-**Escape the Horde.** Opportunity attacks against you are made with disadvantage.
+#### Horde Breaker
 
-**Multiattack Defense.** When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.
+Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.
 
-**Steel Will.** You have advantage on saving throws against being [[[general:conditions#frightened|frightened]]].
+### Level 7: Defensive Tactics
 
-## Multiattack
+You gain one of the following feature options of your choice. Whenever you finish a [[glossary:Short Rest|Short]] or [[glossary:Long Rest]], you can replace the chosen option with the other one.
 
-At 11th level, you gain one of the following features of your choice.
+#### Escape the Horde
 
-**Volley.** You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.
+[[glossary:Opportunity Attacks]] have [[glossary:Disadvantage]] against you.
 
-**Whirlwind Attack.** You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+#### Multiattack Defense
 
-## Superior Hunter's Defense
+When a creature hits you with an attack roll, that creature has [[glossary:Disadvantage]] on all other attack rolls against you this turn.
 
-At 15th level, you gain one of the following features of your choice.
+### Level 11: Superior Hunter's Prey
 
-**Evasion.** You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+Once per turn when you deal damage to a creature marked by your _[[[spell:Hunter's Mark]]]_, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
 
-**Stand Against the Tide.** When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.
+### Level 15: Superior Hunter's Defense
 
-**Uncanny Dodge.** When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.
 
 ----
 
-*Source: Player's Handbook, p. 93*
+_Source: Player's Handbook, p. 127_

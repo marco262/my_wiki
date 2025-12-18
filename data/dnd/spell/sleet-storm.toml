@@ -1,19 +1,20 @@
 title = "Sleet Storm"
-classes = ["druid", "sorcerer", "wizard"]
+spell_lists = ["Druid", "Sorcerer", "Wizard"]
 level = "3"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "150 feet"
 components = ["V", "S", "M"]
-material = "a pinch of dust and a few drops of water"
+material = "a miniature umbrella"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 minute"
-description = """Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured, and exposed flames in the area are doused.
+duration = "1 minute"
+description = """
+Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius [[glossary:Cylinder]] centered on a point you choose within range. The area is [[glossary:Heavily Obscured]], and exposed flames in the area are doused.
 
-The ground in the area is covered with slick ice, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls [[[general:conditions#prone|prone]]].
-
-If a creature is concentrating in the spell's area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration."""
-source = "Player's Handbook, p. 276"
+Ground in the [[glossary:Cylinder]] is [[glossary:Difficult Terrain]]. When a creature enters the [[glossary:Cylinder]] for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the [[glossary:Prone]] condition and lose [[glossary:Concentration]].
+"""
+source = "Player's Handbook, p. 317"

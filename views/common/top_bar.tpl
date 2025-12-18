@@ -2,8 +2,8 @@
     <div class="dropdown">
         <p>D&D Wikis</p>
         <div class="dropdown-content">
-            <a href="/dnd/">5e D&D</a>
-            <a href="/onednd/">One D&D</a>
+            <a href="/dnd/">2024 D&D</a>
+            <a href="/dnd5e/">5e D&D</a>
         </div>
     </div>
     <div class="dropdown">

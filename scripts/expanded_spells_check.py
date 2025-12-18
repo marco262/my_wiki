@@ -3,7 +3,7 @@ from collections import defaultdict
 import os
 
 from src.common.utils import ordinal
-from src.dnd.endpoints import load_spells
+from src.dnd5e.endpoints import load_spells
 
 spells = defaultdict(lambda: defaultdict(list))
 os.chdir("..")

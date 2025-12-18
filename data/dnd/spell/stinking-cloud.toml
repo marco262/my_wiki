@@ -1,19 +1,20 @@
 title = "Stinking Cloud"
-classes = ["bard", "sorcerer", "wizard"]
+spell_lists = ["Bard", "Sorcerer", "Wizard"]
 level = "3"
-school = "conjuration"
+school = "Conjuration"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "90 feet"
 components = ["V", "S", "M"]
-material = "a rotten egg or several skunk cabbage leaves"
+material = "a rotten egg"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 minute"
-description = """You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.
+duration = "1 minute"
+description = """
+You create a 20-foot-radius [[glossary:Sphere]] of yellow, nauseating gas centered on a point within range. The cloud is [[glossary:Heavily Obscured]]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by _[[[spell:Gust of Wind]]]_) disperses it.
 
-Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.
-
-A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round."""
-source = "Player's Handbook, p. 278"
+Each creature that starts its turn in the [[glossary:Sphere]] must succeed on a Constitution saving throw or have the [[glossary:Poisoned]] condition until the end of the current turn. While [[glossary:Poisoned]] in this way, the creature can't take an action or a [[glossary:Bonus Action]].
+"""
+source = "Player's Handbook, p. 321"

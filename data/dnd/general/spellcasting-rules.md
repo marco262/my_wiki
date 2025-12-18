@@ -1,241 +1,226 @@
-Magic permeates the worlds of D&D and  most often appears in the form of a spell. This chapter provides the rules for casting spells. Different character classes have distinctive ways of learning and preparing their spells, and monsters use spells in unique ways. Regardless of its source, a spell follows the rules here.
+[[breadcrumb /dnd/|2024 D&D]]
 
-# What Is a Spell?
+This section gives rules for casting spells. See the [Spell Filter](/dnd/spell_filter), or individual class spell lists, for a list of common spells in the worlds of Dungeons & Dragons. Those spells are used by many class features, magic items, and monsters.
 
-A spell is a discrete magical effect, a single shaping of the magical energies that suffuse the multiverse into a specific, limited expression. In casting a spell, a character carefully plucks at the invisible strands of raw magic suffusing the world, pins them in place in a particular pattern, sets them vibrating in a specific way, and then releases them to unleash the desired effect -- in most cases, all in the span of seconds.
+# Gaining Spells
 
-Spells can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove [[[general:conditions]]], drain life energy away, and restore life to the dead.
+Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a [[tooltip:Spell Scroll]]. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared.
 
-Uncounted thousands of spells have been created over the course of the multiverse's history, and many of them are long forgotten. Some might yet lie recorded in crumbling spellbooks hidden in ancient ruins or trapped in the minds of dead gods. Or they might someday be reinvented by a character who has amassed enough power and wisdom to do so.
+## Preparing Spells
+
+If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.
+
+## Spell Preparation by Class
+
+[[errata]]
+
+I've modified the rules for spell preparation from what's available in the Player's Handbook. My modified rules are listed here, but you can see the original rules under the Original Rules accordion. 
+
+[[/errata]]
+
+Some classes can change all their spells on a [[glossary:Long Rest]], and some have slightly different rules for what spells they can change on long rests vs gaining a level. See the table below for a summary of all classes rules for changing spells.
+
+| Class     | Finish a Long Rest | Gain a Level |
+|-----------|--------------------|--------------|
+| Artificer | Any                | --           |
+| Bard      | One                | Any          |
+| Cleric    | Any                | --           |
+| Druid     | Any                | --           |
+| Paladin   | One                | Any          |
+| Ranger    | One                | Any          |
+| Sorcerer  | One                | Any          |
+| Warlock   | One                | Any          |
+| Wizard    | Any                | --           |
+
+[[accordion Original Rules]]
+
+| Class    | Change When You... | Number of Spells |
+|----------|--------------------|------------------|
+| Bard     | Gain a level       | One              |
+| Cleric   | Finish a Long Rest | Any              |
+| Druid    | Finish a Long Rest | Any              |
+| Paladin  | Finish a Long Rest | One              |
+| Ranger   | Finish a Long Rest | One              |
+| Sorcerer | Gain a level       | One              |
+| Warlock  | Gain a level       | One              |
+| Wizard   | Finish a Long Rest | Any              |
+
+[[/accordion]]
+
+Most spellcasting monsters don't change their lists of prepared spells, but the DM is free to alter them.
+
+## Always-Prepared Spells
+
+Certain features might give you a spell that you always have prepared. If you also have a list of prepared spells that you can change, a spell that you always have prepared doesn't count against the number of spells on that list.
+
+Casting in ArmorYou must have training with any armor you are wearing to cast spells while wearing it. You are otherwise too hampered by the armor for spellcasting. 
+
+# Casting Spells
+
+Each spell description has a series of entries that provide the details needed to cast the spell. The following sections explain each of those entries, which follow a spell's name.
 
 ## Spell Level
 
-Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) *[[[spell:magic missile]]]* at 1st level and the earth-shaking *[[[spell:wish]]]* at 9th. Cantrips -- simple but powerful spells that characters can cast almost by rote -- are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.
+Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips -- simple spells that can be cast almost by rote -- are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
 
-Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level, not 9th level, to cast a 9th-level spell.
+### Spell Slots
 
-## Known and Prepared Spells
+Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
 
-Before a spellcaster can use a spell, he or she must have the spell firmly fixed in mind, or must have access to the spell in a magic item. Members of a few classes, including bards and sorcerers, have a limited list of spells they know that are always fixed in mind. The same thing is true of many magic-using monsters. Other spellcasters, such as clerics and wizards, undergo a process of preparing spells. This process varies for different classes, as detailed in their descriptions.
+When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size -- small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _[[[spell:Magic Missile]]]_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
 
-In every case, the number of spells a caster can have fixed in mind at any given time depends on the character's level.
+Finishing a [[glossary:Long Rest]] restores any expended spell slots.
 
-## Spell Slots
+### Casting without Slots
 
-<div class="phb-sidebar" markdown="1">
+There are several ways to cast a spell without expending a spell slot:
 
-**Casting in Armor**
+**Cantrips.** A cantrip is cast without a spell slot.
 
-Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting.
+**Rituals.** Certain spells have the Ritual tag in the Casting Time entry. Such a spell can be cast following the normal rules for spellcasting, or it can be cast as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal, but it doesn't expend a spell slot. To cast a spell as a Ritual, a spellcaster must have it prepared.
 
-</div>
+**Special Abilities.** Some characters and monsters have special abilities that allow them to cast specific spells without a spell slot. This casting is usually limited in another way, such as being able to cast the spell a limited number of times per day.
 
-Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higher-level spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Umara has four 1st-level spell slots and two 2nd-level slots.
+**Magic Items.** [[tooltip:spell scroll|Spell Scrolls]] and some other magic items contain spells that can be cast without a spell slot. The description of such an item specifies how many times a spell can be cast from it.
 
-When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively "filling" a slot with the spell. You can think of a spell slot as a groove of a certain size -- small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Umara casts magic missile, a 1st-level spell, she spends one of her four 1st-level slots and has three remaining.
+### Using a Higher-Level Spell Slot
 
-Finishing a [[[general:adventuring#long-rest|long rest]]] restores any expended spell slots.
+When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts _[[[spell:Magic Missile]]]_ using a level 2 slot, that _Magic Missile_ is level 2. Effectively, the spell expands to fill the slot it is put into.
 
-Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eldritch invocations, and a pit fiend from the Nine Hells can all cast spells in such a way.
+Some spells, such as _[[[spell:Magic Missile]]]_ and _[[[spell:Cure Wounds]]]_, have more powerful effects when cast at a higher level, as detailed in a spell's description.
 
-### Casting a Spell at a Higher Level
+## School of Magic
 
-When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Umara casts magic missile using one of her 2nd-level slots, that magic missile is 2nd level. Effectively, the spell expands to fill the slot it is put into.
+Each spell belongs to a school of magic. The schools are listed in the Schools of Magic table. These categories help describe spells but have no rules of their own, although some other rules refer to them.
 
-Some spells, such as magic missile and cure wounds, have more powerful effects when cast at a higher level, as detailed in a spell's description.
+### Schools of Magic
 
-## Cantrips
+| School        | Typical Effects                                              |
+|---------------|--------------------------------------------------------------|
+| Abjuration    | Prevents or reverses harmful effects                         |
+| Conjuration   | Transports creatures or objects                              |
+| Divination    | Reveals information                                          |
+| Enchantment   | Influences minds                                             |
+| Evocation     | Channels energy to create effects that are often destructive |
+| Illusion      | Deceives the mind or senses                                  |
+| Necromancy    | Manipulates life and death                                   |
+| Transmutation | Transforms creatures or objects                              |
 
-A cantrip is a spell that can be cast at will, without using a spell slot and without being prepared in advance. Repeated practice has fixed the spell in the caster's mind and infused the caster with the magic needed to produce the effect over and over. A cantrip's spell level is 0.
+## Class Spell Lists
 
-## Rituals
-
-Certain spells have a special tag: [ritual](/dnd/ritual_spells/true). Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level.
-
-To cast a spell as a ritual, a spellcaster must have a feature that grants the ability to do so. The cleric and the druid, for example, have such a feature. The caster must also have the spell prepared or on his or her list of spells known, unless the character's ritual feature specifies otherwise, as the wizard's does.
-
-# Casting a Spell
-
-<div class="phb-sidebar" markdown="1">
-
-**The Schools of Magic**
-
-Academies of magic group spells into eight categories called schools of magic. Scholars, particularly wizards, apply these categories to all spells, believing that all magic functions in essentially the same way, whether it derives from rigorous study or is bestowed by a deity.
-
-The schools of magic help describe spells; they have no rules of their own, although some rules refer to the schools.
-
-**Abjuration** spells are protective in nature, though some of them have aggressive uses. They create magical barriers, negate harmful effects, harm trespassers, or banish creatures to other planes of existence.
-
-**Conjuration** spells involve the transportation of objects and creatures from one location to another. Some spells summon creatures or objects to the caster's side, whereas others allow the caster to teleport to another location. Some conjurations create objects or effects out of nothing.
-
-**Divination** spells reveal information, whether in the form of secrets long forgotten, glimpses of the future, the locations of hidden things, the truth behind illusions, or visions of distant people or places.
-
-**Enchantment** spells affect the minds of others, influencing or controlling their behavior. Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.
-
-**Evocation** spells manipulate magical energy to produce a desired effect. Some call up blasts of fire or lightning. Others channel positive energy to heal wounds.
-
-**Illusion** spells deceive the senses or minds of others. They cause people to see things that are not there, to miss things that are there, to hear phantom noises, or to remember things that never happened. Some illusions create phantom images that any creature can see, but the most insidious illusions plant an image directly in the mind of a creature.
-
-**Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life.
-
-Creating the undead through the use of necromancy spells such as *[[[spell:animate dead]]]* is not a good act, and only evil casters use such spells frequently.
-
-**Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
-
-</div>
-
-When a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.
-
-Each spell description begins with a block of information, including the spell's name, level, school of magic, casting time, range, components, and duration. The rest of a spell entry describes the spell's effect.
+If a spell is on a class's spell list, the class's name appears in parentheses after the spell's school of magic. Some features add a spell to a character's spell list even if the character isn't a member of a class in the parentheses.
 
 ## Casting Time
 
-Most spells require a single action to cast, but some spells require a bonus action, a reaction, or much more time to cast.
+Most spells require the [[glossary:Magic]] action to cast, but some spells require a Bonus Action, a Reaction, or 1 minute or more. A spell's Casting Time entry specifies which of those is required.
 
-## Bonus Action
+### One Spell with a Spell Slot per Turn
 
-A spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.
+On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the [[glossary:Magic]] action and another one using a Bonus Action on the same turn.
 
-## Reactions
+### Reaction and Bonus Action Triggers
 
-Some spells can be cast as reactions. These spells take a fraction of a second to bring about and are cast in response to some event. If a spell can be cast as a reaction, the spell description tells you exactly when you can do so.
+A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's Casting Time entry. Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defined in the spell.
 
-## Longer Casting Times
+### Longer Casting Times
 
-Certain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see [[[general:spellcasting-rules#concentration|"Concentration"]]] below). If your concentration is broken, the spell fails, but you don't expend a spell slot. If you want to try casting the spell again, you must start over.
+Certain spells -- including a spell cast as a [[glossary:Ritual]] -- require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the [[glossary:Magic]] action on each of your turns, and you must maintain [[glossary:Concentration]] while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. To cast the spell again, you must start over.
 
 ## Range
 
-The target of a spell must be within the spell's range. For a spell like *[[[spell:magic missile]]]*, the target is a creature. For a spell like *[[[spell:fireball]]]*, the target is the point in space where the ball of fire erupts.
+A spell's range indicates how far from the spellcaster the spell's effect can originate, and the spell's description specifies which part of the effect is limited by the range.
 
-Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the *[[[spell:shield]]]* spell, affect only you. These spells have a range of self.
+A range usually takes one of the following forms:
 
-Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the spell's effect must be you (see [[[general:spellcasting-rules#areas-of-effect|"Areas of Effect"]]]).
+**Distance.** The range is expressed in feet.
 
-Once a spell is cast, its effects aren't limited by its range, unless the spell's description says otherwise.
+**Touch.** The spell's effect originates on something, as defined by the spell, that the spellcaster must touch within their reach.
+
+**Self.** The spell is cast on the spellcaster or emanates from them, as specified in the spell.
+
+If a spell has movable effects, they aren't restricted by its range unless the spell's description says otherwise.
 
 ## Components
 
-A spell's components are the physical requirements you must meet in order to cast it. Each spell's description indicates whether it requires verbal (V), somatic (S), or material (M) components. If you can't provide one or more of a spell's components, you are unable to cast the spell.
+A spell's components are physical requirements the spellcaster must meet to cast the spell. Each spell's description indicates whether it requires Verbal (V), Somatic (S), or Material (M) components. If the spellcaster can't provide one or more of a spell's components, the spellcaster can't cast the spell.
 
 ### Verbal (V)
 
-Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the *[[[spell:silence]]]* spell, can't cast a spell with a verbal component.
+A Verbal component is the chanting of esoteric words that sound like nonsense to the uninitiated. The words must be uttered in a normal speaking voice. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a creature who is gagged or in an area of magical silence can't cast a spell with a Verbal component.
+
+#### Creating Verbal Components
+
+If you'd like to say a spell's Verbal component, you may make up the words. However you make them, the goal is to create something that's easy to say and that doesn't mean anything in the real world. Consider this method: take the name of the spell, keep only one instance of each of its letters, and rearrange the remaining letters into words. For example, remove the second _l_ from _[[[spell:Fireball]]]_ and rearrange the remaining letters to create _Ber Fila_ or_ Fel Bira_.
 
 ### Somatic (S)
 
-Spellcasting gestures might include a forceful gesticulation or an intricate set of gestures. If a spell requires a somatic component, the caster must have free use of at least one hand to perform these gestures.
+A Somatic component is a forceful gesticulation or an intricate set of gestures. A spellcaster must use at least one of their hands to perform these movements.
 
 ### Material (M)
 
-Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a [[[general:Equipment#adventuring-gear|component pouch]]] or a [[[general:Equipment#adventuring-gear|spellcasting focus]]] in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
+A Material component is a particular material used in a spell's casting, as specified in parentheses in the Components entry. These materials aren't consumed by the spell unless the spell's description states otherwise. The spellcaster must have a hand free to access them, but it can be the same hand used to perform Somatic components, if any.
 
-If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.
+If a spell doesn't consume its materials and doesn't specify a cost for them, a spellcaster can use a [[tooltip:Component Pouch]] instead of providing the materials specified in the spell, or the spellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Component Pouch, you must have a hand free to reach into it, and to use a [[tooltip:Spellcasting Focus]], you must hold it unless its description says otherwise.
 
-A spellcaster must have a hand free to access these components, but it can be the same hand that he or she uses to perform somatic components.
+The type of spellcasting focus you can use depends on your class, as shown in the Focus Types table.
+
+**Focus Types**
+
+| Focus Type                                                          | Used by...                |
+|---------------------------------------------------------------------|---------------------------|
+| [[tooltip:Arcane Focus]]                                            | Sorcerer, Warlock, Wizard |
+| [[[general:Equipment#Artisan's Tools]]], [[tooltip:Thieves' Tools]] | Artificer                 |
+| [[tooltip:Druidic Focus]]                                           | Druid, Ranger             |
+| [[tooltip:Holy Symbol]]                                             | Cleric, Paladin           |
 
 ## Duration
 
-A spell's duration is the length of time the spell persists. A duration can be expressed in rounds, minutes, hours, or even years. Some spells specify that their effects last until the spells are dispelled or destroyed.
+A spell's duration is the length of time the spell persists after it is cast. A duration typically takes one of the following forms:
 
-### Instantaneous
+**Concentration.** A duration that requires Concentration follows the [[glossary:Concentration]] rules.
 
-Many spells are instantaneous. The spell harms, heals, creates, or alters a creature or an object in a way that can't be dispelled, because its magic exists only for an instant.
+**Instantaneous.** An instantaneous duration means the spell's magic appears only for a moment and then disappears.
 
-### Concentration
+**Time Span.** A duration that provides a time span specifies how long the spell lasts in rounds, minutes, hours, or the like. For example, a Duration entry might say "1 minute," meaning the spell ends after 1 minute has passed. While a time-span spell that you cast is ongoing, you can dismiss it (no action required) if you don't have the [[glossary:Incapacitated]] condition.
 
-Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.
+## Effects
 
-If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end concentration at any time (no action required).
+The effects of a spell are detailed after its duration entry. Those details present exactly what the spell does, which ignores mundane physical laws; any outcomes beyond those effects are under the DM's purview. Whatever the effects, they typically deal with targets, saving throws, attack rolls, or all three, each of which is detailed below.
 
-Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:
+### Targets
 
-* **Casting another spell that requires concentration.** You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.
-* **Taking damage.** Whenever you take damage while you are concentrating on a spell, you must make a **Constitution saving throw** to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.
-* **Being incapacitated or killed.** You lose concentration on a spell if you are [[[general:conditions#incapacitated|incapacitated]]] or if you die.
+A typical spell requires the caster to pick one or more targets to be affected by the spell's magic. A spell's description says whether the spell targets creatures, objects, or something else.
 
-The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitution saving throw to maintain concentration on a spell.
+**_A Clear Path to the Target._** To target something with a spell, a caster must have a clear path to it, so it can't be behind [[tooltip:Total Cover]].
 
-## Targets
+**_Targeting Yourself._** If a spell targets a creature of your choice, you can choose yourself unless the creature must be [[glossary:Hostile]] or specifically a creature other than you.
 
-A typical spell requires you to pick one or more targets to be affected by the spell's magic. A spell's description tells you whether the spell targets creatures, objects, or a point of origin for an [[[general:spellcasting-rules#area-of-effect|area of effect]]]. Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. An effect like crackling lightning is obvious, but a more subtle effect, such as an attempt to read a creature's thoughts, typically goes unnoticed, unless a spell says otherwise.
+**_Areas of Effect._** Some spells, such as _[[[spell:Thunderwave]]]_, cover an area called an [[glossary:area of effect]]. The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: [[glossary:Cone]], [[glossary:Cube]], [[glossary:Cylinder]], [[glossary:Emanation]], [[glossary:Line]], or [[glossary:Sphere]].
 
-### A Clear Path to the Target
+**_Awareness of Being Targeted._** Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
 
-To target something, you must have a clear path to it, so it can't be behind total cover.
+**_Invalid Targets._** If you cast a spell on someone or something that can't be affected by it, nothing happens to that target, but if you used a spell slot to cast the spell, the slot is still expended.
 
-If you place an area of effect at a point that you can't see and an obstruction, such as a wall, is between you and that point, the point of origin comes into being on the near side of that obstruction.
+If the spell normally has no effect on a target that succeeds on a saving throw, the invalid target appears to have succeeded on its saving throw, even though it didn't attempt one (giving no hint that the creature is an invalid target). Otherwise, you perceive that the spell did nothing to the target.
 
-### Targeting Yourself
+### Saving Throws
 
-If a spell targets a creature of your choice, you can choose yourself, unless the creature must be hostile or specifically a creature other than you. If you are in the area of effect of a spell you cast, you can target yourself.
+Many spells specify that a target makes a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what happens on a success or failure. Here's how to calculate the DC for your spells:
 
-<div class="phb-sidebar" markdown="1">
+**Spell save DC** = 8 + your spellcasting ability modifier + your Proficiency Bonus
 
-**The Weave of Magic**
+### Attack Rolls
 
-The worlds within the D&D multiverse are magical places. All existence is suffused with magical power, and potential energy lies untapped in every rock, stream, and living creature, and even in the air itself. Raw magic is the stuff of creation, the mute and mindless will of existence, permeating every bit of matter and present in every manifestation of energy throughout the multiverse.
+Some spells require the caster to make an attack roll to determine whether the spell hits a target. Here's how to calculate the attack modifier for your spells:
 
-Mortals can't directly shape this raw magic. Instead, they make use of a fabric of magic, a kind of interface between the will of a spellcaster and the stuff of raw magic. The spellcasters of the Forgotten Realms call it the Weave and recognize its essence as the goddess Mystra, but casters have varied ways of naming and visualizing this interface. By any name, without the Weave, raw magic is locked away and inaccessible; the most powerful archmage can't light a candle with magic in an area where the Weave has been torn. But surrounded by the Weave, a spellcaster can shape lightning to blast foes, transport hundreds of miles in the blink of an eye, or even reverse death itself.
+**Spell attack modifier** = your spellcasting ability modifier + your Proficiency Bonus
 
-All magic depends on the Weave, though different kinds of magic access it in a variety of ways. The spells of wizards, warlocks, sorcerers, and bards are commonly called **arcane magic**. These spells rely on an understanding -- learned or intuitive -- of the workings of the Weave. The caster plucks directly at the strands of the Weave to create the desired effect. Eldritch knights and arcane tricksters also use arcane magic. The spells of clerics, druids, paladins, and rangers are called divine magic. These spellcasters' access to the Weave is mediated by **divine power** -- gods, the divine forces of nature, or the sacred weight of a paladin's oath.
+### Combining Spell Effects
 
-Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible. When characters use divination spells such as detect magic or identify, they glimpse the Weave. A spell such as dispel magic smooths the Weave. Spells such as antimagic field rearrange the Weave so that magic flows around, rather than through, the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways -- or not at all.
+The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect -- such as the highest bonus -- from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast _[[[spell:Bless]]]_ on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second _Bless_ ends.
 
-</div>
+Identifying an Ongoing SpellYou can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the [[glossary:Study]] action and succeed on a DC 15 Intelligence ([[tooltip:Arcana]]) check.
 
-## Areas of Effect
+----
 
-Spells such as *[[[spell:burning hands]]]* and *[[[spell:cone of cold]]]* cover an area, allowing them to affect multiple creatures at once.
-
-A spell's description specifies its area of effect, which typically has one of five different shapes: cone, cube, cylinder, line, or sphere. Every area of effect has a **point of origin**, a location from which the spell's energy erupts. The rules for each shape specify how you position its point of origin. Typically, a point of origin is a point in space, but some spells have an area whose origin is a creature or an object.
-
-A spell's effect expands in straight lines from the point of origin. If no unblocked straight line extends from the point of origin to a location within the area of effect, that location isn't included in the spell's area. To block one of these imaginary lines, an obstruction must provide [[[general:combat#cover|total cover]]].
-
-### Cone
-
-A cone extends in a direction you choose from its point of origin. A cone's width at a given point along its length is equal to that point's distance from the point of origin. A cone's area of effect specifies its maximum length.
-
-A cone's point of origin is not included in the cone's area of effect, unless you decide otherwise.
-
-### Cube
-
-You select a cube's point of origin, which lies anywhere on a face of the cubic effect. The cube's size is expressed as the length of each side.
-
-A cube's point of origin is not included in the cube's area of effect, unless you decide otherwise.
-
-### Cylinder
-
-A cylinder's point of origin is the center of a circle of a particular radius, as given in the spell description. The circle must either be on the ground or at the height of the spell effect. The energy in a cylinder expands in straight lines from the point of origin to the perimeter of the circle, forming the base of the cylinder. The spell's effect then shoots up from the base or down from the top, to a distance equal to the height of the cylinder.
-
-A cylinder's point of origin is included in the cylinder's area of effect.
-
-### Line
-
-A line extends from its point of origin in a straight path up to its length and covers an area defined by its width.
-
-A line's point of origin is not included in the line's area of effect, unless you decide otherwise.
-
-### Sphere
-
-You select a sphere's point of origin, and the sphere extends outward from that point. The sphere's size is expressed as a radius in feet that extends from the point.
-
-A sphere's point of origin is included in the sphere's area of effect.
-
-## Saving Throws
-
-Many spells specify that a target can make a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what happens on a success or failure.
-
-The DC to resist one of your spells equals 8 + your spellcasting ability modifier + your proficiency bonus + any special modifiers.
-
-## Attack Rolls
-
-Some spells require the caster to make an attack roll to determine whether the spell effect hits the intended target. Your attack bonus with a spell attack equals your spellcasting ability modifier + your proficiency bonus.
-
-Most spells that require attack rolls involve ranged attacks. Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't [[[general:conditions#incapacitated|incapacitated]]] (see the [[[general:combat#ranged-attacks-in-close-combat|Combat]]] section).
-
-## Combining Magical Effects
-
-The effects of different spells add together while the durations of those spells overlap. The effects of the same spell cast multiple times don't combine, however. Instead, the most potent effect -- such as the highest bonus -- from those castings applies while their durations overlap.
-
-For example, if two clerics cast bless on the same target, that character gains the spell's benefit only once; he or she doesn't get to roll two bonus dice.
+_Source: Player's Handbook, p. 234_

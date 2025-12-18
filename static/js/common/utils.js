@@ -138,9 +138,9 @@ export function init_glossary() {
             }
             console.log(target);
             console.log(target.attributes);
-            const anchor = target.attributes["anchor"].value;
-            console.log(anchor);
-            window.open(`/onednd/general/Rules Glossary#${anchor}`, '_blank');
+            const href = target.attributes["href"].value;
+            console.log(href);
+            window.open(href, '_blank');
         });
     }
 }

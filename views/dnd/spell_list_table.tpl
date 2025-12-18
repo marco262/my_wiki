@@ -32,7 +32,7 @@
             for c in spell_classes:
         %>
         <td style="text-align: center;">
-            {{"X" if c in s["classes"] or (get("ua_spells") and c in s.get("classes_ua", [])) else ""}}
+            {{"X" if c in s["spell_lists"] else ""}}
         </td>
         <%
             end

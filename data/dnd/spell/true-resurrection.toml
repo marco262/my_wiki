@@ -1,19 +1,22 @@
 title = "True Resurrection"
-classes = ["cleric", "druid"]
+spell_lists = ["Cleric", "Druid"]
 level = "9"
-school = "necromancy"
+school = "Necromancy"
 concentration_spell = false
 ritual_spell = false
 casting_time = "1 hour"
 range = "Touch"
 components = ["V", "S", "M"]
-material = "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes"
+material = "diamonds worth 25,000+ GP, which the spell consumes"
 expensive_material_component = true
+material_component_cost = 2500000
 material_component_consumed = true
 duration = "Instantaneous"
-description = """You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.
+description = """
+You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its [[glossary:Hit Points]].
 
-This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs.
+This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.
 
-The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you."""
-source = "Player's Handbook, p. 284"
+The spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
+"""
+source = "Player's Handbook, p. 336"

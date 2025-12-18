@@ -1,302 +1,203 @@
-Her fists a blur as they deflect an incoming hail of arrows, a half-elf springs over a barricade and throws herself into the massed ranks of hobgoblins on the other side. She whirls among them, knocking their blows aside and sending them reeling, until at last she stands alone.
+[[breadcrumb /dnd/advancement/classes|Classes]]
 
-Taking a deep breath, a human covered in tattoos settles into a battle stance. As the first charging orc s reach him, he exhales and a blast of fire roars from his mouth, engulfing his foes.
+# Core Monk Traits
 
-Moving with the silence of the night, a black-clad halfling steps into a shadow beneath an arch and emerges from another inky shadow on a balcony a stone's throw away. She slides her blade free of its cloth-wrapped scabbard and peers through the open window at the tyrant prince, so vulnerable in the grip of sleep.
+ - **Primary Ability**: Dexterity and Wisdom
+ - **Hit Point Die**: D8 per Monk level
+ - **Saving Throw Proficiencies**: Strength and Dexterity
+ - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Acrobatics]], [[tooltip:Athletics]], [[tooltip:History]], [[tooltip:Insight]], [[tooltip:Religion]], or [[tooltip:Stealth]]
+ - **Weapon Proficiencies**: Simple weapons and Martial weapons that have the [[tooltip:Light]] property
+ - **Tool Proficiencies**: _Choose one type of Artisan's Tools or Musical Instrument_
+ - **Armor Training**: None
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Spear]], 5 [[tooltip:dagger|Daggers]], Artisan's Tools or Musical Instrument chosen for the tool proficiency above, [[tooltip:Explorer's Pack]], and 11 GP; or (B) 50 GP
 
-Whatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.
+Monks use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler manifestation of defense and speed, this power infuses all that a Monk does.
 
-## The Magic of Ki
+Monks focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk's hands, even the most basic weapons can become sophisticated implements of combat mastery.
 
-Monks make careful study of a magical energy that most monastic traditions call ki. This energy is an element of the magic that suffuses the multiverse -- specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of ki gives them more power over their bodies and the bodies of their foes.
+Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.
 
-## Training and Asceticism
+Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.
 
-Small walled cloisters dot the landscapes of the worlds of D&D, tiny refuges from the flow of ordinary life, where time seem s to stand still. The monks who live there seek personal perfection through contemplation and rigorous training. Many entered the monastery as children, sent to live there when their parents died, when food couldn't be found to support them, or in return for some kindness that the monks had performed for their families.
+## Becoming a Monk...
 
-Some monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or assassins at the command of their leader, a noble patron, or some other mortal or divine power.
+### As a Level 1 Character
 
-The majority of monks don't shun their neighbors, making frequent visits to nearby towns or villages and exchanging their service for food and other goods. As versatile warriors, monks often end up protecting their neighbors from monsters or tyrants.
+ - Gain all the traits in the Core Monk Traits table.
+ - Gain the Monk's level 1 features, which are listed in the Monk Features table.
 
-For a monk, becoming an adventurer means leaving a structured, communal lifestyle to become a wanderer. This can be a harsh transition, and monks don't undertake it lightly. Those who leave their cloisters take their work seriously, approaching their adventures as personal tests of their physical and spiritual growth. As a rule, monks care little for material wealth and are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering their treasure.
+### As a Multiclass Character
 
-# The Monk
+ - Gain the Hit Point Die trait from the Core Monk Traits table.
+ - Gain the Monk's level 1 features, which are listed in the Monk Features table.
 
-||~ Level ||~ Proficiency<br>Bonus ||~ Martial<br>Arts ||~ Ki<br>Points ||~ Unarmored<br>Movement ||~ Features ||
-|| 1st || +2 || 1d4 || -- || -- || Unarmored Defense, Martial Arts ||
-|| 2nd || +2 || 1d4 || 2 || +10 ft. || Ki, Unarmored Movement, Dedicated Weapon ||
-|| 3rd || +2 || 1d4 || 3 || +10 ft. || Monastic Tradition, Deflect Missiles, Ki-Fueled Attack ||
-|| 4th || +2 || 1d4 || 4 || +10 ft. || Ability Score Improvement, Slow Fall, Quickened Healing ||
-|| 5th || +3 || 1d6 || 5 || +10 ft. || Extra Attack, Stunning Strike, Focused Aim ||
-|| 6th || +3 || 1d6 || 6 || +15 ft. || Ki-Empowered Strikes, Monastic Tradition feature ||
-|| 7th || +3 || 1d6 || 7 || +15 ft. || Evasion, Stillness of Mind ||
-|| 8th || +3 || 1d6 || 8 || +15 ft. || Ability Score Improvement ||
-|| 9th || +4 || 1d6 || 9 || +15 ft. || Unarmored Movement improvement ||
-|| 10th || +4 || 1d6 || 10 || +20 ft. || Purity of Body ||
-|| 11th || +4 || 1d8 || 11 || +20 ft. || Monastic Tradition feature ||
-|| 12th || +4 || 1d8 || 12 || +20 ft. || Ability Score Improvement ||
-|| 13th || +5 || 1d8 || 13 || +20 ft. || Tongue of the Sun and Moon ||
-|| 14th || +5 || 1d8 || 14 || +25 ft. || Diamond Soul ||
-|| 15th || +5 || 1d8 || 15 || +25 ft. || Timeless Body ||
-|| 16th || +5 || 1d8 || 16 || +25 ft. || Ability Score Improvement ||
-|| 17th || +6 || 1d10 || 17 || +25 ft. || Monastic Tradition feature ||
-|| 18th || +6 || 1d10 || 18 || +30 ft. || Empty Body ||
-|| 19th || +6 || 1d10 || 19 || +30 ft. || Ability Score Improvement ||
-|| 20th || +6 || 1d10 || 20 || +30 ft. || Perfect Self ||
+# Monk Features
 
-## Creating a Monk
+| Level | Proficiency Bonus | Class Features                                       | Martial Arts | Focus Points | Unarmored Movement |
+|-------|-------------------|------------------------------------------------------|--------------|--------------|--------------------|
+| 1     | +2                | Martial Arts, Unarmored Defense                      | 1d6          | —            | —                  |
+| 2     | +2                | Monk's Focus, Unarmored Movement, Uncanny Metabolism | 1d6          | 2            | +10 ft.            |
+| 3     | +2                | Deflect Attacks, Monk Subclass                       | 1d6          | 3            | +10 ft.            |
+| 4     | +2                | Ability Score Improvement, Slow Fall                 | 1d6          | 4            | +10 ft.            |
+| 5     | +3                | Extra Attack, Stunning Strike                        | 1d8          | 5            | +10 ft.            |
+| 6     | +3                | Empowered Strikes, Subclass feature                  | 1d8          | 6            | +15 ft.            |
+| 7     | +3                | Evasion                                              | 1d8          | 7            | +15 ft.            |
+| 8     | +3                | Ability Score Improvement                            | 1d8          | 8            | +15 ft.            |
+| 9     | +4                | Acrobatic Movement                                   | 1d8          | 9            | +15 ft.            |
+| 10    | +4                | Heightened Focus, Self-Restoration                   | 1d8          | 10           | +20 ft.            |
+| 11    | +4                | Subclass feature                                     | 1d10         | 11           | +20 ft.            |
+| 12    | +4                | Ability Score Improvement                            | 1d10         | 12           | +20 ft.            |
+| 13    | +5                | Deflect Energy                                       | 1d10         | 13           | +20 ft.            |
+| 14    | +5                | Disciplined Survivor                                 | 1d10         | 14           | +25 ft.            |
+| 15    | +5                | Perfect Focus                                        | 1d10         | 15           | +25 ft.            |
+| 16    | +5                | Ability Score Improvement                            | 1d10         | 16           | +25 ft.            |
+| 17    | +6                | Subclass feature                                     | 1d12         | 17           | +25 ft.            |
+| 18    | +6                | Superior Defense                                     | 1d12         | 18           | +30 ft.            |
+| 19    | +6                | Epic Boon                                            | 1d12         | 19           | +30 ft.            |
+| 20    | +6                | Body and Mind                                        | 1d12         | 20           | +30 ft.            |
 
-<div class="phb-sidebar">
-<strong>Monastic Orders</strong>
+# Monk Class Features
 
-<p>The worlds of D&D contain a multitude of monasteries and monastic traditions. In lands with an Asian cultural flavor, such as Shou Lung far to the east of the Forgotten Realms, these monasteries are associated with philosophical traditions and martial arts practice. The Iron Hand School, the Five Stars School, the Northern Fist School, and the Southern Star School of Shou Lung teach different approaches to the physical, mental, and spiritual disciplines of the monk. Some of these monasteries have spread to the western lands of Faerûn, particularly in places with large Shou immigrant communities, such as Thesk and Westgate.</p>
+As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.
 
-<p>Other monastic traditions are associated with deities who teach the value of physical excellence and mental discipline. In the Forgotten Realms, the order of the Dark Moon is made up of monks dedicated to Shar (goddess of loss), who maintain secret communities in remote hills, back allies, and subterranean hideaways. Monasteries of Ilmater (god of endurance) are named after flowers, and their orders carry the names of great heroes of the faith; the Disciples of Saint Sollars the Twice-Martyred reside in the Monastery of the Yellow Rose near Damara. The monasteries of Eberron combine the study of martial arts with a life of scholarship. Most are devoted to the deities of the Sovereign Host. In the world of Dragonlance, most monks are devoted to Majere, god of meditation and thought. In Greyhawk, many monasteries are dedicated to Xan Yae, the goddess of twilight and the superiority of mind over matter, or to Zuoken, god of mental and physical mastery.</p>
+### Level 1: Martial Arts
 
-<p>The evil monks of the Scarlet Brotherhood in the world of Greyhawk derive their fanatic zeal not from devotion to a god but from dedication to the principles of their nation and their race -- the belief that the Suel strand of humanity are meant to rule the world.</p>
-</div>
+Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
 
-As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?
+ - Simple Melee weapons
+ - Martial Melee weapons that have the [[tooltip:Light]] property
 
-Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community's rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?
+You gain the following benefits while you are unarmed or wielding only Monk weapons, and you aren't wearing armor or wielding a Shield.
 
-As a result of the structured life of a monastic community and the discipline required to harness ki, monks are almost always lawful in alignment.
+**_Bonus Unarmed Strike._** You can make an [[glossary:Unarmed Strike]] as a Bonus Action.
 
-## Quick Build
+**_Martial Arts Die._** You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
 
-You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the [[[background:Hermit]]] background.
+**_Dexterous Attacks._** You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
 
-# Class Features
+### Level 1: Unarmored Defense
 
-As a monk, you gain the following class features.
+While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.
 
-## Hit Points
+### Level 2: Monk's Focus
 
-* Hit Dice: 1d8 per monk level
-* Hit Points at 1st Level: 8 + your Constitution modifier
-* Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per monk level after 1st
+Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.
 
-## Proficiencies
+You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 
-* Armor: None
-* Weapons: Simple weapons, shortswords
-* Tools: Choose one type of artisan's tools or one musical instrument
-* Saving Throws: Strength, Dexterity
-* Skills: Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth
+When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.
 
-## Equipment
+Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.
 
-You start with the following equipment, in addition to the equipment granted by your background:
+**_Flurry of Blows._** You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.
 
-* (a) a shortsword or (b) any simple weapon
-* (a) a dungeoneer's pack or (b) an explorer's pack
-* 10 darts
+**_Patient Defense._** You can take the [[glossary:Disengage]] action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the [[glossary:Disengage]] and the [[glossary:Dodge]] actions as a Bonus Action.
 
-## Unarmored Defense
+**_Step of the Wind._** You can take the [[glossary:Dash]] action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the [[glossary:Disengage]] and [[glossary:Dash]] actions as a Bonus Action, and your jump distance is doubled for the turn.
 
-Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.
+### Level 2: Unarmored Movement
 
-## Martial Arts
+Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.
 
-At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.
+### Level 2: Uncanny Metabolism
 
-You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
+When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
 
-* You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
-* You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
-* When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
+Once you use this feature, you can't use it again until you finish a Long Rest.
 
-Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon in the [[[general:Equipment#weapons|Weapons]]] section.
+### Level 3: Deflect Attacks
 
-## Ki
+When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.
 
-Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
+If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind [[tooltip:Total Cover]] if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.
 
-You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.
+### Level 3: Monk Subclass
 
-When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.
+You gain a [Monk subclass](#monk-subclasses) of your choice. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.
 
-Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:
+### Level 4: Ability Score Improvement
 
-* Ki save DC = 8 + your proficiency bonus + your Wisdom modifier
+You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16.
 
-### Flurry of Blows
+### Level 4: Slow Fall
 
-Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.
+You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.
 
-### Patient Defense
+### Level 5: Extra Attack
 
-You can spend 1 ki point to take the Dodge action as a bonus action on your turn.
+You can attack twice instead of once whenever you take the [[glossary:Attack]] action on your turn.
 
-### Step of the Wind
+### Level 5: Stunning Strike
 
-You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.
+Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the [[glossary:Stunned]] condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.
 
-## Unarmored Movement
+### Level 6: Empowered Strikes
 
-Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
+Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.
 
-At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.
+### Level 7: Evasion
 
-[[accordion Optional Class Features: Dedicated Weapon]]
+When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.
 
-## Dedicated Weapon
+You don't benefit from this feature if you have the [[glossary:Incapacitated]] condition.
 
-_Source: Tasha's Cauldron of Everything, p. 48_
+### Level 9: Acrobatic Movement
 
-_2nd-level monk feature_
+While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement.
 
-You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.
+### Level 10: Heightened Focus
 
-The chosen weapon must meet these criteria:
+Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.
 
-* The weapon must be a simple or martial weapon.
-* You must be proficient with it.
-* It must lack the heavy and special properties.
+**_Flurry of Blows._** You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.
 
-[[/accordion]]
+**_Patient Defense._** When you expend a Focus Point to use Patient Defense, you gain a number of [[glossary:Temporary Hit Points]] equal to two rolls of your Martial Arts die.
 
-## Monastic Tradition
+**_Step of the Wind._** When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke [[glossary:Opportunity Attacks]].
 
-When you reach 3rd level, you commit yourself to a [[[class:monk#monastic-traditions|monastic tradition]]], detailed at the end of the class description. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
+### Level 10: Self-Restoration
 
-## Deflect Missiles
+Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: [[glossary:Charmed]], [[glossary:Frightened]], or [[glossary:Poisoned]].
 
-Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
+In addition, forgoing food and drink doesn't give you levels of [[glossary:Exhaustion]].
 
-If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack. This attack has a range of 20/60 feet.[((bibcite errata))]
+### Level 13: Deflect Energy
 
-[[accordion Optional Class Features: Ki-Fueled Attack]]
+You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.
 
-## Ki-Fueled Attack
+### Level 14: Disciplined Survivor
 
-_Source: Tasha's Cauldron of Everything, p. 48_
+Your physical and mental discipline grant you proficiency in all saving throws.
 
-_3rd-level monk feature_
+Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.
 
-If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.
+### Level 15: Perfect Focus
 
-[[/accordion]]
+When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.
 
-## Ability Score Improvement
+### Level 18: Superior Defense
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the [[glossary:Incapacitated]] condition. During that time, you have Resistance to all damage except Force damage.
 
-## Slow Fall
+### Level 19: Epic Boon
 
-Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.
+You gain an Epic Boon feat or another feat of your choice for which you qualify.
 
-[[accordion Optional Class Features: Quickened Healing]]
+### Level 20: Body and Mind
 
-## Quickened Healing
+You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.
 
-_Source: Tasha's Cauldron of Everything, p. 49_
+# Monk Subclasses
 
-_4th-level monk feature_
-
-As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.
-
-[[/accordion]]
-
-## Extra Attack
-
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
-
-## Stunning Strike
-
-Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be [[[general:conditions#stunned|stunned]]] until the end of your next turn.
-
-[[accordion Optional Class Features: Focused Aim]]
-
-## Focused Aim
-
-_Source: Tasha's Cauldron of Everything, p. 49_
-
-_5th-level monk feature_
-
-When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.
-
-[[/accordion]]
-
-## Ki-Empowered Strikes
-
-Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
-
-## Evasion
-
-At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
-
-## Stillness of Mind
-
-Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be [[[general:conditions#charmed|charmed]]] or [[[general:conditions#frightened|frightened]]].
-
-## Purity of Body
-
-At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.
-
-## Tongue of the Sun and Moon
-
-Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.
-
-## Diamond Soul
-
-Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.
-
-Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.
-
-## Timeless Body
-
-At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.
-
-## Empty Body
-
-Beginning at 18th level, you can use your action to spend 4 ki points to become [[[general:conditions#invisible|invisible]]] for 1 minute. During that time, you also have resistance to all damage but force damage.
-
-Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.
-
-## Perfect Self
-
-At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.
-
-# Monastic Traditions
-
-Three traditions of monastic pursuit are common in the monasteries scattered across the multiverse. Most monasteries practice one tradition exclusively, but a few honor the three traditions and instruct each monk according to his or her aptitude and interest. All three traditions rely on the same basic techniques, diverging as the student grows more adept. Thus, a monk need choose a tradition only upon reaching 3rd level.
+A Monk subclass is a specialization that grants you features at certain Monk levels, as specified in the subclass.
 
 ## Player's Handbook
 
-* [[[subclass:Way of the Open Hand]]]
-* [[[subclass:Way of Shadow]]]
-* [[[subclass:Way of the Four Elements]]]
-
-## Sword Coast Adventurer's Guide
-
-* [[[subclass:Way of the Long Death]]]
-
-## Xanathar's Guide to Everything
-
-* [[[subclass:Way of the Drunken Master]]]
-* [[[subclass:Way of the Kensei]]]
-* [[[subclass:Way of the Sun Soul]]]
-
-## Tasha's Cauldron of Everything
-
-* [[[subclass:Way of Mercy]]]
-* [[[subclass:Way of the Astral Self]]]
-
-## Fizban's Treasury of Dragons
-
-* [[[subclass:Way of the Ascendant Dragon]]]
-
-## Homebrew
-
-* [Way of the Four Elements (Remastered)](https://drive.google.com/file/d/1JHPeVRiUiy04OE4V2nk_pzV0GMQiWvuc/view)
-* [Way of the Kensei (Homebrew)](https://docs.google.com/file/d/1zw55msoKWM4qD6aTkl4_PPnhRs31F8i_vJtPmkvsvl0/view)
-* [[[subclass:Way of the Sun Soul (Homebrew)]]]
+ - [[[subclass:Warrior of Mercy]]]
+ - [[[subclass:Warrior of Shadow]]]
+ - [[[subclass:Warrior of the Elements]]]
+ - [[[subclass:Warrior of the Open Hand]]]
 
 ----
 
-*Source: Player's Handbook, p. 76*
-
-[[bibliography]]
-: errata : <https://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf>
-[[/bibliography]]
+_Source: Player's Handbook, p. 101_

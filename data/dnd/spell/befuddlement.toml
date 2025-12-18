@@ -1,0 +1,22 @@
+title = "Befuddlement"
+spell_lists = ["Bard", "Druid", "Warlock", "Wizard"]
+level = "8"
+school = "Enchantment"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "150 feet"
+components = ["V", "S", "M"]
+material = "a key ring with no keys"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.
+
+On a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the [[glossary:Magic]] action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the _[[[spell:Greater Restoration]]]_, _[[[spell:Heal]]]_, or _[[[spell:Wish]]]_ spell.
+
+On a successful save, the target takes half as much damage only.
+"""
+source = "Player's Handbook, p. 245"

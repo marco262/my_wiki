@@ -1,13 +1,16 @@
 title = "Otto's Majestic Musical Number"
-classes = ["bard", "wizard"]
+spell_lists = ["Bard", "Wizard"]
 level = "7"
-school = "enchantment"
+school = "Enchantment"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Self"
 components = ["V", "M"]
 material = "a musical instrument"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
 duration = "Concentration, up to 1 minute"
 description = """For the duration of the spell, you play a song on your instrument, and all creatures that can hear you must dance along. This does not limit their movement or actions they can take in any way, except they will do everything while dancing and singing along fabulously, to the best of their abilities.
 

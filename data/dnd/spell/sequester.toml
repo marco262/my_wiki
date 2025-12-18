@@ -1,19 +1,22 @@
 title = "Sequester"
-classes = ["wizard"]
+spell_lists = ["Wizard"]
 level = "7"
-school = "transmutation"
+school = "Transmutation"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Touch"
 components = ["V", "S", "M"]
-material = "a powder of diamond, emerald, rube and sapphire dust worth at least 5,000 gp, which the spell consumes"
+material = "gem dust worth 5,000+ GP, which the spell consumes"
 expensive_material_component = true
+material_component_cost = 500000
 material_component_consumed = true
 duration = "Until dispelled"
-description = """By means of this spell, a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes [[[general:conditions#invisible|invisible]]] and can't be targeted by divination spells or perceived through scrying sensors created by divination spells.
+description = """
+With a touch, you magically sequester an object or a willing creature. For the duration, the target has the [[glossary:Invisible]] condition and can't be targeted by Divination spells, detected by magic, or viewed remotely with magic.
 
-If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.
+If the target is a creature, it enters a state of suspended animation; it has the [[glossary:Unconscious]] condition, doesn't age, and doesn't need food, water, or air.
 
-You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target.  Examples include "after 1,000 years" or "when the tarrasque awakens." This spell also ends if the target takes any damage."""
-source = "Player's Handbook, p. 274"
+You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include \"after 1,000 years\" or \"when the tarrasque awakens.\" This spell also ends if the target takes any damage.
+"""
+source = "Player's Handbook, p. 315"

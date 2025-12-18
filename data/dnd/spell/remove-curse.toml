@@ -1,12 +1,12 @@
 title = "Remove Curse"
-classes = ["cleric", "paladin", "warlock", "wizard"]
+spell_lists = ["Cleric", "Paladin", "Warlock", "Wizard"]
 level = "3"
-school = "abjuration"
+school = "Abjuration"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "Touch"
 components = ["V", "S"]
 duration = "Instantaneous"
-description = """At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."""
-source = "Player's Handbook, p. 271"
+description = "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's [[glossary:Attunement]] to the object so it can be removed or discarded."
+source = "Player's Handbook, p. 312"

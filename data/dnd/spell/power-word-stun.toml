@@ -1,14 +1,16 @@
 title = "Power Word Stun"
-classes = ["bard", "sorcerer", "warlock", "wizard"]
+spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
 level = "8"
-school = "enchantment"
+school = "Enchantment"
 concentration_spell = false
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "60 feet"
 components = ["V"]
 duration = "Instantaneous"
-description = """You speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is [[[general:conditions#stunned|stunned]]]. Otherwise, the spell has no effect.
+description = """
+You overwhelm the mind of one creature you can see within range. If the target has 150 [[glossary:Hit Points]] or fewer, it has the [[glossary:Stunned]] condition. Otherwise, its [[glossary:Speed]] is 0 until the start of your next turn.
 
-The [[[general:conditions#stunned|stunned]]] target must make a Constitution saving throw at the end of each of its turns.  On a successful save, this stunning effect ends."""
-source = "Player's Handbook, p. 267"
+The [[glossary:Stunned]] target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.
+"""
+source = "Player's Handbook, p. 306"

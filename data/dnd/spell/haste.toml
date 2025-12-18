@@ -1,17 +1,20 @@
 title = "Haste"
-classes = ["artificer", "sorcerer", "wizard"]
+spell_lists = ["Sorcerer", "Wizard"]
 level = "3"
-school = "transmutation"
+school = "Transmutation"
 concentration_spell = true
 ritual_spell = false
-casting_time = "1 action"
+casting_time = "Action"
 range = "30 feet"
 components = ["V", "S", "M"]
-material = "Licorice root shaving"
+material = "a shaving of licorice root"
 expensive_material_component = false
+material_component_cost = 0
 material_component_consumed = false
-duration = "Concentration, up to 1 minute"
-description = """Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+duration = "1 minute"
+description = """
+Choose a willing creature that you can see within range. Until the spell ends, the target's [[glossary:Speed]] is doubled, it gains a +2 bonus to [[glossary:Armor Class]], it has [[glossary:Advantage]] on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the [[glossary:Attack]] (one attack only), [[glossary:Dash]], [[glossary:Disengage]], [[glossary:Hide]], or [[glossary:Utilize]] action.
 
-When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."""
-source = "Player's Handbook, p. 250"
+When the spell ends, the target is [[glossary:Incapacitated]] and has a [[glossary:Speed]] of 0 until the end of its next turn, as a wave of lethargy washes over it.
+"""
+source = "Player's Handbook, p. 284"

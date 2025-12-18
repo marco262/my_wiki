@@ -1,25 +1,31 @@
 title = "Augury"
-classes = ["cleric"]
-classes_ua = ["druid", "wizard"]
+spell_lists = ["Cleric", "Druid", "Wizard"]
 level = "2"
-school = "divination"
+school = "Divination"
 concentration_spell = false
 ritual_spell = true
 casting_time = "1 minute"
 range = "Self"
 components = ["V", "S", "M"]
-material = "specially marked sticks, bones, or similar tokens worth at least 25 gold"
+material = "specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP"
 expensive_material_component = true
+material_component_cost = 2500
 material_component_consumed = false
 duration = "Instantaneous"
-description = """By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. 
+description = """
+You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.
 
-**The DM chooses from the following possible omens:**
+**Omens**
 
-* Weal, for good results
-* Woe, for bad results
-* Weal and woe, for both good and bad results
-* Nothing, for results that aren't especially good or bad
+| Omen         | For Results That Will Be... |
+|--------------|-----------------------------|
+| Weal         | Good                        |
+| Woe          | Bad                         |
+| Weal and woe | Good and bad                |
+| Indifference | Neither good nor bad        |
 
-The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."""
-source = "Player's Handbook, p. 215"
+The spell doesn't account for circumstances, such as other spells, that might change the results.
+
+If you cast the spell more than once before finishing a [[glossary:Long Rest]], there is a cumulative 25 percent chance chance for each casting after the first that you get no answer.
+"""
+source = "Player's Handbook, p. 244"
