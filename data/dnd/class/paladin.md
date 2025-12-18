@@ -26,7 +26,7 @@ Almost by definition, the life of a Paladin is an adventuring life, for every Pa
 ### As a Multiclass Character
 
  - Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.
- - Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Paladin Features
 

@@ -26,7 +26,7 @@ Once a pact is made, a Warlock's thirst for knowledge and power can't be slaked 
 ### As a Multiclass Character
 
  - Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.
- - Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Warlock Features
 

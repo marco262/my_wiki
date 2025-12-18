@@ -27,7 +27,7 @@ Druids are concerned with the delicate ecological balance that sustains plant an
 ### As a Multiclass Character
 
  - Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.
- - Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.
+ - Gain the Druid's level 1 features, which are listed in the Druid Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Druid Features
 

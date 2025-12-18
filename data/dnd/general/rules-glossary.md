@@ -586,11 +586,11 @@ If you gain Heroic Inspiration but already have it, it's lost unless you give it
 
 ## Hide [Action]
 
-<div class="errata" markdown="1">
+[[errata]]
 
 **Editor's Note** The Hide action has been modified so the Dexterity (Stealth) check is only made when the first enemy attempts to notice you.
 
-</div>
+[[/errata]]
 
 With the Hide action, you try to conceal yourself. You must be [Heavily Obscured](#heavily-obscured) or behind [[tooltip:Three-Quarters Cover]] or [[tooltip:Total Cover]], and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
 

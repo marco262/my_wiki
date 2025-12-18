@@ -27,7 +27,7 @@ A Bard's life is spent traveling, gathering lore, telling stories, and living on
 ### As a Multiclass Bard
 
  - Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.
- - Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Bard's level 1 features, which are listed in the Bard Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Bard Features
 

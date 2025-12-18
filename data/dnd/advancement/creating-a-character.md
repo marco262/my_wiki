@@ -10,13 +10,13 @@ Before you dive into character creation, there are a few things to do to get rea
 
 Start by talking with your Dungeon Master about the type of D&D game they plan to run. If the DM draws inspiration from Greek myth, for example, you might choose a different direction for your character than if the DM is planning for swashbuckling on the high seas. Think about the kind of adventurer you want to play in this game.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Session Zero**
 
 Some Dungeon Masters start a campaign with a "session zero," an initial gathering focused on creating characters and setting expectations. A session zero provides a great opportunity to talk to the other players and the DM and decide whether your characters know one another, how they met, and what sorts of quests the group might undertake together.
 
-</div>
+[[/sidebar]]
 
 ## Choose a Character Sheet
 
@@ -53,13 +53,13 @@ Choose a class, and write it on your character sheet. The Class Overview table s
 | [[[class:Warlock]]]   | Occult lore    | Charisma              | High       |
 | [[[class:Wizard]]]    | Spellbooks     | Intelligence          | Average    |
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Bonus Feats at Level 20**
 
-A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. [[[general:Feats#epic-boon-feats|Epic Boon Feats]]] are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
+A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. [[[advancement:Feats#epic-boon-feats|Epic Boon Feats]]] are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
 
-</div>
+[[/sidebar]]
 
 ### Write Your Level
 
@@ -71,7 +71,7 @@ Write your character's level on your character sheet. Typically, a character sta
 
 ### Note Armor Training
 
-Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "[[[general:Equipment#armor|Equipment]]]".
+Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in [[[general:Equipment#armor|Equipment]]].
 
 ### Hold That Thought
 
@@ -85,7 +85,7 @@ A character's background represents the place and occupation that were most form
 
 ### Choose a Background
 
-Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in "[[[general:backgrounds]]]", and your DM might offer additional backgrounds as options.
+Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in [[[advancement:Backgrounds]]], and your DM might offer additional backgrounds as options.
 
 The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
 
@@ -100,7 +100,7 @@ The background you choose influences step 3, when you determine your character's
 | Wisdom       | [[[background:Acolyte]]], [[[background:Sage]]]                            |
 | Charisma     | [[[background:Acolyte]]]                                                   |
 
-**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in "[[[general:Feats]]]". Write the feat on your character sheet.
+**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in [[[advancement:Feats]]]. Write the feat on your character sheet.
 
 **_Note Proficiencies._** Your background gives proficiency in two skills and with one tool. Record this information on your character sheet.
 
@@ -112,13 +112,13 @@ The features table in your class description shows your [[[general:Playing the G
 
 ### Choose Starting Equipment
 
-Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "[[[general:Equipment]]]". In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) section).
+Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from [[[general:Equipment]]]. In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) section).
 
 Record your chosen equipment on your character sheet. Equipment is described in [[[general:equipment]]], but for now you can just write it all down and look up the specifics on that page later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
 
 ### Choose a Race
 
-Choose a race for your character. The following race options are detailed in [[[general:races]]]: [[[race:Dragonborn]]], [[[race:Dwarf]]], [[[race:Elf]]], [[[race:Gnome]]], [[[race:Goliath]]], [[[race:Halfling]]], [[[race:Human]]], [[[race:Orc]]], and [[[race:Tiefling]]]. Once you've chosen a race, write it on your character sheet. Then record your race's traits.
+Choose a race for your character. The following race options are detailed in [[[advancement:races]]]: [[[race:Aasimar]]], [[[race:Dragonborn]]], [[[race:Dwarf]]], [[[race:Elf]]], [[[race:Gnome]]], [[[race:Goliath]]], [[[race:Halfling]]], [[[race:Human]]], [[[race:Orc]]], and [[[race:Tiefling]]]. Once you've chosen a race, write it on your character sheet. Then record your race's traits.
 
 Your character's [[glossary:Size]] and [[glossary:Speed]] are determined by the character's race; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
 
@@ -228,7 +228,7 @@ After assigning your ability scores, adjust them according to your background. Y
 
 Some players like to increase their class's primary ability, while others prefer to increase a low score.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **A Balanced Party**
 
@@ -242,7 +242,7 @@ The classic D&D party comprises a Cleric, Fighter, Rogue, and Wizard. Those four
 
 **_Wizard:_** Replace with Bard, Sorcerer, or Warlock
 
-</div>
+[[/sidebar]]
 
 ### Determine Ability Modifiers
 
@@ -359,7 +359,7 @@ The summaries of the alignments below describe the typical behavior of a creatur
 
 **_Chaotic Evil (CE)._** Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Backgrounds and Races from Older Books**
 
@@ -367,9 +367,9 @@ Backgrounds in older D&D books don't include ability score adjustments. If you'r
 
 Similarly, races in older books include ability score increases. If you're using a race from an older book, ignore those increases and use only the ones given by your background.
 
-Also, if the background you choose doesn't provide a feat, you gain an [[[general:Feats#origin-feats|Origin feat]]] of your choice.
+Also, if the background you choose doesn't provide a feat, you gain an [[[advancement:Feats#origin-feats|Origin feat]]] of your choice.
 
-</div>
+[[/sidebar]]
 
 
 ### Alignment and Personality
@@ -442,14 +442,14 @@ The character sheet includes room to note your current Hit Points when you take 
 
 **_Initiative._** Write your Dexterity modifier in the space for Initiative on your character sheet.
 
-**_Armor Class._** Without armor or a shield, your base [[glossary:Armor Class]] is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in "[[[general:Equipment#armor|Equipment]]]". A class feature might give you a different way to calculate your AC.
+**_Armor Class._** Without armor or a shield, your base [[glossary:Armor Class]] is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in [[[general:Equipment#armor|Equipment]]]. A class feature might give you a different way to calculate your AC.
 
 **_Attacks._** In the Weapons & Damage Cantrips section of the character sheet, write your starting weapons. The attack roll bonus for a weapon with which you have proficiency is one of the following unless a weapon's property says otherwise:
 
 * **_Melee attack bonus_** = Strength modifier + Proficiency Bonus
 * **_Ranged attack bonus_** = Dexterity modifier + Proficiency Bonus
 
-Look up the damage and properties of your weapons in "[[[general:Equipment#weapons|Equipment]]]". You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
+Look up the damage and properties of your weapons in [[[general:Equipment#weapons|Equipment]]]. You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
 
 **_Spellcasting._** Note both the saving throw DC for your spells and the attack bonus for attacks you make with them, using these formulas:
 
@@ -538,13 +538,13 @@ In tier 3, characters have reached a level of power that makes them special amon
 
 At tier 4, characters achieve the pinnacle of their class features, becoming heroic archetypes. The fate of the world or even the order of the multiverse might hang in the balance during their adventures.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Unaligned Creatures**
 
 Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. [[[monster:Shark|Sharks]]] are savage predators, for example, but they aren't evil; they are unaligned.
 
-</div>
+[[/sidebar]]
 
 # Starting at Higher Levels
 

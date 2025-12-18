@@ -4,13 +4,13 @@ Imagination is a key ingredient of Dungeons & Dragons, a cooperative game in whi
 
 In D&D, the action takes place in the imaginations of the players, and it's narrated by everyone together.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Rules Glossary**
 
-If you read a rules term in this book and want to know its definition, consult the [[[general:Rules Glossary]]]. This page provides an overview of how to play D&D and focuses on the big picture. Many places in this chapter reference that glossary.
+If you read a rules term in this book and want to know its definition, consult the [[[general:Rules Glossary]]]. This page provides an overview of how to play D&D and focuses on the big picture. Many places in this page reference that glossary.
 
-</div>
+[[/sidebar]]
 
 # Player or DM?
 
@@ -47,13 +47,15 @@ The three main pillars of D&D play are [social interaction](#social-interaction)
 
 This pattern holds during every game session (each time you sit down to play D&D), whether the adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations -- particularly combat -- the action is more structured, and everyone takes turns.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
+
 **Exceptions Supersede General Rules**
 
 General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
 
 The game also includes elements -- class features, feats, weapon properties, spells, magic items, monster abilities, and the like -- that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
-</div>
+
+[[/sidebar]]
 
 # An Ongoing Game
 
@@ -81,11 +83,13 @@ As with adventures, a DM might create a campaign from scratch, assemble a campai
 
 Dice add randomness to the game. They help determine whether characters and monsters are successful at the things they attempt.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
+
 **Round Down**
 
 Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.
-</div>
+
+[[/sidebar]]
 
 ## Dice Notation
 
@@ -123,13 +127,13 @@ Occasionally, you'll see a table that uses a die roll to generate a random resul
 
 Sometimes you might see a rule describing a percentage chance of something happening. For example, a rule might say there is a 5 percent chance of something happening. You can determine whether that thing happens by rolling percentile dice; if the roll is equal to or less than the percentage chance (a 01 to 05, in this example), it happens.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Interpreting Die Rolls in the Story**
 
 Part of the fun of D&D is interpreting what die rolls mean in the story. The randomness that dice bring often introduces the unexpected: an expert fails, a novice succeeds, or any number of other twists. When a [[glossary:D20 Test]] or another roll produces a surprise, the Dungeon Master often gives a fun description of what happened. If you're a player, look for opportunities to interpret your character's die rolls and describe why things unfolded unexpectedly or even humorously.
 
-</div>
+[[/sidebar]]
 
 # The Six Abilities
 
@@ -164,7 +168,7 @@ Each ability has a score from 1 to 20, although some monsters have a score as hi
 
 ## Ability Modifiers
 
-Each ability has a modifier that you apply whenever you make a [[glossary:D20 Test]] with that ability (explained in "[D20 Tests](#d20-tests)"). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
+Each ability has a modifier that you apply whenever you make a [[glossary:D20 Test]] with that ability (explained in [D20 Tests](#d20-tests)). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
 
 ### Ability Modifiers
 
@@ -283,7 +287,7 @@ The Attack Roll Abilities table shows which ability modifier to use for differen
 | Dexterity | Ranged attack with a weapon                                                             |
 | Varies    | Spell attack (the ability used is determined by the spellcaster's spellcasting feature) |
 
-Some features let you use different ability modifiers from those listed. For example, the [[tooltip:Finesse]] property (see "[[[general:Equipment#properties|Equipment]]]") lets you use Strength or Dexterity with a weapon that has that property.
+Some features let you use different ability modifiers from those listed. For example, the [[tooltip:Finesse]] property (see [[[general:Equipment#properties|Equipment]]]) lets you use Strength or Dexterity with a weapon that has that property.
 
 ### Proficiency Bonus
 
@@ -329,7 +333,7 @@ When you have Advantage or Disadvantage and something in the game lets you rerol
 
 For example, if you have [[glossary:Heroic Inspiration]] (see the sidebar) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Heroic Inspiration**
 
@@ -341,12 +345,12 @@ Sometimes the DM or a rule gives you Heroic Inspiration. If you have Heroic Insp
 
 Other rules might allow your character to gain Heroic Inspiration independent of the DM's decision. For example, Human characters start each day with Heroic Inspiration.
 
-</div>
+[[/sidebar]]
 
 
 # Proficiency
 
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "[[[advancement:Creating a Character]]]"). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating]]. The Proficiency Bonus table shows how the bonus is determined.
+Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in [[[advancement:Creating a Character]]]). A monster's Proficiency Bonus is based on its [[glossary:Challenge Rating]]. The Proficiency Bonus table shows how the bonus is determined.
 
 This bonus is applied to a [[glossary:D20 Test]] when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
 
@@ -406,13 +410,13 @@ The skills are shown on the Skills table, which notes example uses for each skil
 
 A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in its stat block.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Skills with Different Abilities**
 
 Each skill proficiency is associated with an ability check. For example, the [[tooltip:Intimidation]] skill is associated with Charisma. In some situations, the DM might allow you to apply your skill proficiency to a different ability check. For example, if a character tries to intimidate someone through a show of physical strength, the DM might ask for a Strength ([[tooltip:Intimidation]]) check rather than a Charisma ([[tooltip:Intimidation]]) check. That character would make a Strength check and add their Proficiency Bonus if they have [[tooltip:Intimidation]] proficiency.
 
-</div>
+[[/sidebar]]
 
 ## Saving Throw Proficiencies
 
@@ -517,7 +521,7 @@ When you take a Reaction, you can't take another one until the start of your nex
 
 In terms of timing, a Reaction takes place immediately after its trigger unless the Reaction's description says otherwise.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **What Would Your Character Do?**
 
@@ -525,7 +529,7 @@ Ask yourself as you play, "What would my character do?" Playing a role involves 
 
 This advice comes with one important caveat: avoid character choices that ruin the fun of the other players and the DM. Choose actions that delight you and your friends.
 
-</div>
+[[/sidebar]]
 
 # Social Interaction
 
@@ -638,17 +642,17 @@ During an adventure, the characters might travel long distances on trips that co
 
 If you need to know how fast you can move when every second matters, see the movement rules in [Movement and Position](#movement-and-position).
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Marching Order**
 
 The adventurers should establish a marching order while they travel, whether indoors or outdoors. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies if a fight breaks out. You can change your marching order outside combat and record the order any way you like: write it down, for example, or arrange miniatures to show it.
 
-</div>
+[[/sidebar]]
 
 ### Travel Pace
 
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see "[[[general:Equipment#mountsand-vehicles|Equipment]]]" for a selection of mounts for sale). The "[[[general:Equipment#travel-pace|DM's Toolbox]]]" has rules that affect which pace you can choose in certain types of terrain.
+While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a [[glossary:Short Rest]] or [[glossary:Long Rest]] before they can move at that increased pace again (see [[[general:Equipment#mounts-and-vehicles|Equipment]]] for a selection of mounts for sale). The [[[general:Equipment#travel-pace|DM's Toolbox]]] has rules that affect which pace you can choose in certain types of terrain.
 
 #### Travel Pace
 
@@ -669,7 +673,7 @@ Each travel pace has a game effect, as defined below.
 
 ### Vehicles
 
-Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "[[[general:Equipment#mountsand-vehicles|Equipment]]]" includes vehicles for sale.
+Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. [[[general:Equipment#mounts-and-vehicles|Equipment]]] includes vehicles for sale.
 
 # Combat
 
@@ -735,7 +739,7 @@ Combatants are often slowed down by Difficult Terrain. Low furniture, rubble, un
 
 Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Playing on a Grid**
 
@@ -751,7 +755,7 @@ If you play using a square grid and miniatures or other tokens, follow these rul
 
 **_Ranges._** To determine the range on a grid between two things -- whether creatures or objects -- count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 
-</div>
+[[/sidebar]]
 
 ### Breaking Up Your Move
 
@@ -792,7 +796,7 @@ When you take the [[glossary:Attack]] action, you make an attack. Some other act
 
 1. **Choose a Target.** Pick a target within your attack's range: a creature, an object, or a location.
 2. **Determine Modifiers.** The DM determines whether the target has [[glossary:Cover]] (see the next section) and whether you have [[glossary:Advantage]] or [[glossary:Disadvantage]] against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
-3. **Resolve the Attack.** Make the attack roll, as detailed earlier in this chapter. On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
+3. **Resolve the Attack.** Make the attack roll, as detailed earlier in this page. On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
 ## Cover
 
@@ -808,7 +812,7 @@ A target can benefit from cover only when an attack or other effect originates o
 | [[tooltip:Three-Quarters Cover]] | +5 bonus to AC and Dexterity saving throws | An object that covers at least three-quarters of the target           |
 | [[tooltip:Total Cover]]          | Can't be targeted directly                 | An object that covers the whole target                                |
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Unseen Attackers and Targets**
 
@@ -818,7 +822,7 @@ When a creature can't see you, you have [[glossary:Advantage]] on attack rolls a
 
 If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
 
-</div>
+[[/sidebar]]
 
 ## Ranged Attacks
 
@@ -898,19 +902,19 @@ Whenever you take damage, subtract it from your Hit Points. Hit Point loss has n
 
 If you have half your Hit Points or fewer, you're [[glossary:bloodied]], which has no game effect on its own but which might trigger other game effects.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Resting**
 
 Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long [[glossary:Short Rest|Short Rests]] in the midst of a day and an 8-hour [[glossary:Long Rest]] to end it. Regaining Hit Points is one of the main benefits of a rest. The [[[general:Rules Glossary]]] provides the rules for Short and Long Rests.
 
-</div>
+[[/sidebar]]
 
 ## Damage Rolls
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
-When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a [[tooltip:Blowgun]]. See "[[[general:Equipment]]]" for weapons' damage dice and "[[[general:Spells]]]" for spells' damage dice.
+When attacking with a weapon, you add your ability modifier -- the same modifier used for the attack roll -- to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a [[tooltip:Blowgun]]. See [[[general:Equipment]]] for weapons' damage dice and [[[general:Spells]]] for spells' damage dice.
 
 ## Critical Hits
 
@@ -978,13 +982,13 @@ If your character dies, others might find a magical way to revive your character
 
 If you reach 0 Hit Points and don't die instantly, you have the [[glossary:Unconscious]] condition until you regain any Hit Points, and you now face making [[glossary:Death Saving Throw|Death Saving Throws]] (see below).
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Knocking Out a Creature**
 
 When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the [[glossary:Unconscious]] condition. It then starts a [[glossary:Short Rest]], at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom ([[tooltip:Medicine]]) check.
 
-</div>
+[[/sidebar]]
 
 ### Death Saving Throws
 

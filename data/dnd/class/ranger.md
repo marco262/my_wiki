@@ -24,7 +24,7 @@ Thanks to their connection with nature, Rangers can also cast spells that harnes
 ### As a Multiclass Character
 
  - Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.
- - Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Ranger Features
 

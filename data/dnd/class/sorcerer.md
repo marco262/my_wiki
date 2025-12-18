@@ -26,7 +26,7 @@ Sorcerers are rare. Some family lines produce exactly one Sorcerer in every gene
 ### As a Multiclass Character
 
  - Gain the Hit Point Die from the Core Sorcerer Traits table.
- - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Sorcerer Features
 

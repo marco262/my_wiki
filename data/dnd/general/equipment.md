@@ -100,13 +100,13 @@ Anyone can wield a weapon, but you must have proficiency with it to add your Pro
 
 Here are definitions of the properties in the Properties column of the Weapons table.
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Improvised Weapons**
 
 If you use an object -- such as a table leg, frying pan, or bottle -- as a makeshift weapon, see [[glossary:Improvised Weapons]]. Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack.
 
-</div>
+[[/sidebar]]
 
 ### Ammunition
 
@@ -241,7 +241,7 @@ _([[glossary:Utilize]] Action to Don or Doff)_
 
 ## Armor Training
 
-<div class="phb-sidebar" markdown="1">
+[[sidebar]]
 
 **Variant: Equipment Sizes**
 
@@ -251,7 +251,7 @@ The DM can impose more realism. For example, a suit of Plate Armor made for one 
 
 Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit a smith, a tailor, a leatherworker, or a similar expert to make the item wearable. The cost for such work is 1d4 × 10 percent of the market price of the item.
 
-</div>
+[[/sidebar]]
 
 Anyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.
 

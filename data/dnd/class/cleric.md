@@ -26,7 +26,7 @@ Not every member of a temple or shrine is a Cleric. Some priests are called to a
 ### As a Multiclass Character
 
  - Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.
- - Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Cleric Features
 

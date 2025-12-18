@@ -28,7 +28,7 @@ But the lure of knowledge calls even the most unadventurous Wizards from the saf
 ### As a Multiclass Character
 
  - Gain the Hit Point Die from the Core Wizard Traits table.
- - Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules to determine your available spell slots.
+ - Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the [[[advancement:Creating a Character#multiclassing|multiclassing rules]]] to determine your available spell slots.
 
 # Wizard Features
 
