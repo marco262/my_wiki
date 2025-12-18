@@ -89,16 +89,17 @@ Choose your character's background, and write it on your character sheet. You ca
 
 The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
 
-##### Ability Scores and Backgrounds
+**Ability Scores and Backgrounds**
 
-| Ability      | Backgrounds                                                                |
-|--------------|----------------------------------------------------------------------------|
-| Strength     | [[[background:Soldier]]]                                                   |
-| Dexterity    | [[[background:Criminal]]], [[[background:Soldier]]]                        |
-| Constitution | [[[background:Criminal]]], [[[background:Sage]]], [[[background:Soldier]]] |
-| Intelligence | [[[background:Acolyte]]], [[[background:Criminal]]], [[[background:Sage]]] |
-| Wisdom       | [[[background:Acolyte]]], [[[background:Sage]]]                            |
-| Charisma     | [[[background:Acolyte]]]                                                   |
+| Ability      | Backgrounds                                                                                                                                                                                                                                  |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Strength     | [[[background:Artisan]]], [[[background:Entertainer]]], [[[background:Farmer]]], [[[background:Guard]]], [[[background:Noble]]], [[[background:Sailor]]], [[[background:Soldier]]]                                                           |
+| Dexterity    | [[[background:Artisan]]], [[[background:Charlatan]]], [[[background:Criminal]]], [[[background:Entertainer]]], [[[background:Guide]]], [[[background:Sailor]]], [[[background:Scribe]]], [[[background:Soldier]]], [[[background:Wayfarer]]] |
+| Constitution | [[[background:Charlatan]]], [[[background:Criminal]]], [[[background:Farmer]]], [[[background:Guide]]], [[[background:Hermit]]], [[[background:Merchant]]], [[[background:Sage]]], [[[background:Soldier]]]                                  |
+| Intelligence | [[[background:Acolyte]]], [[[background:Artisan]]], [[[background:Criminal]]], [[[background:Guard]]], [[[background:Merchant]]], [[[background:Noble]]], [[[background:Sage]]], [[[background:Scribe]]]                                     |
+| Wisdom       | [[[background:Acolyte]]], [[[background:Farmer]]], [[[background:Guide]]], [[[background:Guard]]], [[[background:Hermit]]], [[[background:Sage]]], [[[background:Sailor]]], [[[background:Scribe]]], [[[background:Wayfarer]]]               |
+| Charisma     | [[[background:Acolyte]]], [[[background:Charlatan]]], [[[background:Entertainer]]], [[[background:Hermit]]], [[[background:Merchant]]], [[[background:Noble]]], [[[background:Wayfarer]]]                                                    |
+
 
 **_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in [[[advancement:Feats]]]. Write the feat on your character sheet.
 
@@ -139,7 +140,7 @@ Your character knows at least three languages: Common plus two languages you rol
 
 The Standard Languages table lists languages that are widespread on D&D worlds. Every player character knows Common, which originated in the planar metropolis of Sigil, the hub of the multiverse. The other standard languages originated with the first members of the most prominent races in the worlds of D&D and have since spread widely.
 
-##### Standard Languages
+**Standard Languages**
 
 | 1d12  | Language             | Origin     |
 |-------|----------------------|------------|
@@ -156,7 +157,7 @@ The Standard Languages table lists languages that are widespread on D&D worlds. 
 
 The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
 
-##### Rare Languages
+**Rare Languages**
 
 | Language      | Origin                   |
 |---------------|--------------------------|
@@ -186,7 +187,7 @@ Determine your ability scores by using one of the following three methods. Your 
 
 **_Point Cost._** You have 27 points to spend on your ability scores. The cost of each score is shown on the Ability Score Point Costs table. For example, a score of 14 costs 7 of your 27 points.
 
-##### Ability Score Point Costs
+**Ability Score Point Costs**
 
 | Score | Cost |
 |-------|------|
@@ -205,7 +206,7 @@ Once you've generated six scores, assign them to Strength, Dexterity, Constituti
 
 If you're using the Standard Array option, consult the Standard Array by Class table for suggestions on where to assign scores for your character's class. The table puts the highest scores in a class's main abilities. If you used a different method to generate the scores, you may still use this table to guide where you place your highest and lowest scores.
 
-##### Standard Array by Class
+**Standard Array by Class**
 
 | Class     | Strength | Dexterity | Constitution | Intelligence | Wisdom | Charisma |
 |-----------|----------|-----------|--------------|--------------|--------|----------|
@@ -248,7 +249,7 @@ The classic D&D party comprises a Cleric, Fighter, Rogue, and Wizard. Those four
 
 Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.
 
-#### Ability Scores and Modifiers
+**Ability Scores and Modifiers**
 
 | Score | Modifier |
 |-------|----------|
@@ -275,7 +276,7 @@ Ability scores are an essential part of the rules, but they can be more than tha
 
 Note your character's appearance and personality on your character sheet.
 
-#### Strength
+**Strength**
 
 | 1d4 | High Strength | Low Strength   |
 |-----|---------------|----------------|
@@ -284,7 +285,7 @@ Note your character's appearance and personality on your character sheet.
 | 3   | Protective    | Self-conscious |
 | 4   | Direct        | Indirect       |
 
-#### Dexterity
+**Dexterity**
 
 | 1d4 | High Dexterity | Low Dexterity |
 |-----|----------------|---------------|
@@ -293,7 +294,7 @@ Note your character's appearance and personality on your character sheet.
 | 3   | Fidgety        | Hesitant      |
 | 4   | Poised         | Unsteady      |
 
-#### Constitution
+**Constitution**
 
 | 1d4 | High Constitution | Low Constitution |
 |-----|-------------------|------------------|
@@ -302,7 +303,7 @@ Note your character's appearance and personality on your character sheet.
 | 3   | Hearty            | Lethargic        |
 | 4   | Stable            | Fragile          |
 
-##### Intelligence
+**Intelligence**
 
 | 1d4 | High Intelligence | Low Intelligence |
 |-----|-------------------|------------------|
@@ -311,7 +312,7 @@ Note your character's appearance and personality on your character sheet.
 | 3   | Informative       | Uninformed       |
 | 4   | Curious           | Frivolous        |
 
-##### Wisdom
+**Wisdom**
 
 | 1d4 | High Wisdom | Low Wisdom |
 |-----|-------------|------------|
@@ -320,7 +321,7 @@ Note your character's appearance and personality on your character sheet.
 | 3   | Attentive   | Oblivious  |
 | 4   | Wary        | Naive      |
 
-##### Charisma
+**Charisma**
 
 | 1d4 | High Charisma | Low Charisma |
 |-----|---------------|--------------|
@@ -376,7 +377,7 @@ Also, if the background you choose doesn't provide a feat, you gain an [[[advanc
 
 Alignment can shape a character's personality, goals, and core beliefs. Looking at the two elements of an alignment, you can use the lists below to inspire details of your character's personality.
 
-##### Personality Traits by Alignment
+**Personality Traits by Alignment**
 
 | Alignment | 1d4 | Associated Trait |
 |-----------|-----|------------------|
@@ -427,7 +428,7 @@ Include all modifiers that apply to your Wisdom ([[tooltip:Perception]]) checks.
 
 **_Hit Points._** Your class and Constitution modifier determine your Hit Point maximum at level 1, as shown on the Level 1 Hit Points by Class table.
 
-##### Level 1 Hit Points by Class
+**Level 1 Hit Points by Class**
 
 | Class                                        | Hit Point Maximum  |
 |----------------------------------------------|--------------------|
