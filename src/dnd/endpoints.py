@@ -32,7 +32,7 @@ def load_spells():
             with open(path) as f:
                 try:
                     d = toml.loads(f.read())
-                except TomlDecodeError as e:
+                except (TomlDecodeError, UnicodeDecodeError) as e:
                     raise Exception(f"Error when decoding '{path}'") from e
             k = splitext(basename(path))[0]
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
