@@ -67,6 +67,10 @@ def load_wsgi_endpoints(app: Bottle):
     def advancement(name):
         return md_page(name, "dnd", "advancement")
 
+    @app.get('/background/<name>')
+    def background(name):
+        return md_page(name, "dnd", "background")
+
     @app.get('/class/<name>')
     def dnd_class(name):
         return md_page(name, "dnd", "class")
@@ -77,7 +81,7 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get('/race/<name>')
     def race(name):
-        return md_page(name, "dnd", "race", build_toc=False)
+        return md_page(name, "dnd", "race")
 
     @app.get('/subclass/<name>')
     def subclass(name):
@@ -88,9 +92,6 @@ def load_wsgi_endpoints(app: Bottle):
     def spell(name):
         formatted_name = title_to_page_name(name)
         loaded_spells = load_spells()
-        if formatted_name not in loaded_spells:
-            redirect(f"/dnd/spell/{name}")
-            return
         return loaded_spells[formatted_name]
 
     @app.get('/spell_list/<c>')

@@ -183,6 +183,7 @@ def md_page(page_title, namespace, directory=None, build_toc=True, markdown_pars
         raise
     if md.startswith("<p>REDIRECT "):
         redirect(md[12:-5])
+        return None
     elif load_template:
         if "title" not in kwargs:
             kwargs["title"] = better_title(page_title)
