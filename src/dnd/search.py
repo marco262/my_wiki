@@ -1,9 +1,8 @@
 import re
+import tomllib
 from os import walk
 from os.path import join, splitext, basename
 from typing import NamedTuple, List, Optional
-
-import toml
 
 from src.common.utils import strip_html, title_to_page_name, page_name_to_title
 
@@ -91,7 +90,7 @@ class Search:
         # Attempt to pull title out of TOML file, otherwise generate title from filename
         title = None
         if filename.endswith(".toml"):
-            d = toml.loads(file_contents)
+            d = tomllib.loads(file_contents)
             if "title" in d:
                 title = d["title"]
         if not title:
@@ -127,7 +126,7 @@ class Search:
                     filepath = join(dirpath, filename)
                     with open(filepath, "rb") as f:
                         file_contents = f.read().decode("utf-8")
-                    d = toml.loads(file_contents)
+                    d = tomllib.loads(file_contents)
                     title = d.get("title") or d.get("name")
                 else:
                     continue

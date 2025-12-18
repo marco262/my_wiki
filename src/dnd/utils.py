@@ -58,7 +58,7 @@ def split_equipment() -> TooltipDict:
             elif line == "## Weapons":
                 save_text = True
                 table_type = "Weapons"
-            elif line == "## Armor":
+            elif line == "## Armor Tables":
                 save_text = True
                 table_type = "Armor"
             else:

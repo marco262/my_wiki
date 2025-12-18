@@ -8,4 +8,3 @@ gevent  # On M1 Mac, needs to be installed first with `arch -arm64 pip install g
 GitPython
 google-cloud-storage
 markdown2
-toml

@@ -3,9 +3,9 @@ For parsing *.md files, including special handling of wiki code
 """
 import os
 import re
+import tomllib
 from typing import Dict
 
-import toml
 from bottle import template, TemplateError
 
 from markdown2 import Markdown
@@ -191,7 +191,7 @@ class MarkdownParser:
                     if k == "file":
                         # Load a toml file, and add each value from that file to args individually
                         # Parse markdown as necessary
-                        toml_dict = toml.load(os.path.join("data", v))
+                        toml_dict = tomllib.loads(os.path.join("data", v))
                         for k, v in toml_dict.items():
                             if isinstance(v, str) and v.startswith("!"):
                                 v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)

@@ -25,7 +25,7 @@ SEARCH_OBJ = Search()
 def init(cfg):
     global GM_NOTES_PW_HASH
     GM_NOTES_PW_HASH = cfg.get("Password hashes", "GM Notes").encode("utf-8")
-    init_spells_and_magic_items()
+    # init_spells_and_magic_items()
 
 
 def load_wsgi_endpoints(app: Bottle):

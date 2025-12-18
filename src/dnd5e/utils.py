@@ -1,11 +1,11 @@
 import re
+import tomllib
 from collections import OrderedDict, defaultdict
 from enum import Enum
 from glob import glob
 from os.path import join as pjoin, isfile, splitext, basename
 from typing import List, Optional, Union, Any, Literal
 
-import toml
 from bottle import HTTPError, redirect, template
 
 from src.common.utils import md_page, title_to_page_name
@@ -94,7 +94,7 @@ def open_monster_sheet(name: str):
         toml_path = pjoin(NAMESPACE, "monster", title_to_page_name(name) + ".toml")
         if not isfile(pjoin("data", toml_path)):
             raise HTTPError(404, f"Can't find a page for \"/{NAMESPACE}/monster/{name}\"")
-        toml_dict = toml.load(pjoin("data", toml_path))
+        toml_dict = tomllib.loads(pjoin("data", toml_path))
         if "redirect" in toml_dict:
             return redirect(toml_dict["redirect"])
         # Avoiding circular dependencies
@@ -116,7 +116,7 @@ def load_spells():
         for path in sorted(glob(f"data/{NAMESPACE}/spell/*")):
             print(".", end='', flush=True)
             with open(path) as f:
-                d = toml.loads(f.read(), _dict=OrderedDict)
+                d = tomllib.loads(f.read())
             # Do some special handling
             d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)
             if "source_extended" in d:
@@ -282,7 +282,7 @@ def load_magic_items():
         for path in sorted(glob(f"data/{NAMESPACE}/equipment/magic-items/*")):
             print(".", end='', flush=True)
             with open(path) as f:
-                d = toml.loads(f.read(), _dict=OrderedDict)
+                d = tomllib.loads(f.read())
             # Do some special handling
             d["description"] = d["description"].strip()
             d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)

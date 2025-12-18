@@ -1,11 +1,11 @@
+import sys
+import tomllib
 from collections import defaultdict
 from glob import glob
 from json import loads
 from os.path import splitext, basename
 
-import toml
-from bottle import Bottle, view, redirect, request
-from toml.decoder import TomlDecodeError
+from bottle import Bottle, view, request
 
 from src.common.utils import md_page, title_to_page_name
 
@@ -29,11 +29,8 @@ def load_spells():
     try:
         for path in sorted(glob("data/dnd/spell/*.toml")):
             print(".", end='', flush=True)
-            with open(path) as f:
-                try:
-                    d = toml.loads(f.read())
-                except (TomlDecodeError, UnicodeDecodeError) as e:
-                    raise Exception(f"Error when decoding '{path}'") from e
+            with open(path, "rb") as f:
+                d = tomllib.loads(f.read().decode())
             k = splitext(basename(path))[0]
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "at_higher_levels" in d:
@@ -48,9 +45,8 @@ def load_spells():
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
             spells[k] = d
             SPELLS_BY_LEVEL[d["level"]].append((k, d))
-    except Exception:
-        print(f"\nError when trying to process {path}")
-        raise
+    except Exception as e:
+        raise Exception(f"Error when trying to process {path}") from e
     print(" Done.", flush=True)
     SPELLS = spells
     return SPELLS
