@@ -8,7 +8,7 @@ Eldritch Knights combine the martial mastery common to all Fighters with a caref
 
 You have learned to cast spells.
 
-_**Cantrips.**_ You know two cantrips of your choice from the Wizard spell list. Whenever you gain a Fighter level, you can replace one of these cantrips with another cantrip of your choice from the Wizard spell list.
+_**Cantrips.**_ You know two cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard). Whenever you gain a Fighter level, you can replace one of these cantrips with another cantrip of your choice from the Wizard spell list.
 
 When you reach Fighter level 10, you learn another Wizard cantrip of your choice.
 
@@ -37,7 +37,7 @@ _**Spell Slots.**_ The Eldritch Knight Spellcasting table shows how many spell s
 | 19            | 12              | 4 | 3 | 3 | 1 |
 | 20            | 13              | 4 | 3 | 3 | 1 |
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Wizard spell list.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the [Wizard spell list](/dnd/spell_list/Wizard).
 
 The number of spells on your list increases as you gain Fighter levels, as shown in the Prepared Spells column of the Eldritch Knight Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Fighter, your list of prepared spells can include five Wizard spells of levels 1 and 2 in any combination.
 

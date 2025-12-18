@@ -71,7 +71,7 @@ You have learned to cast spells through prayer and meditation.
 
 **_Spell Slots._** The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-**_Prepared Spells of Level 1+_**. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells.
+**_Prepared Spells of Level 1+_**. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Paladin spell list](/dnd/spell_list/Paladin).
 
 The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.
 
@@ -95,7 +95,7 @@ You gain a Fighting Style feat of your choice. Instead of choosing one of those 
 
 #### Blessed Warrior
 
-You learn two Cleric cantrips of your choice. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
+You learn two [Cleric cantrips](/dnd/spell_list/Cleric) of your choice. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
 
 ### Level 2: Paladin's Smite
 

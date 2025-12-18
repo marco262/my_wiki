@@ -6,7 +6,7 @@ The counsel of a Diviner is sought by those who want a clearer understanding of 
 
 ### Level 3: Divination Savant
 
-Choose two Wizard spells from the Divination school, each of which must be no higher than level 2, and add them to your spellbook for free.
+Choose two [Wizard spells](/dnd/spell_list/Wizard) from the Divination school, each of which must be no higher than level 2, and add them to your spellbook for free.
 
 In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Divination school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.
 

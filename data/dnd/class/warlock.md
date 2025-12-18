@@ -73,7 +73,7 @@ You can't pick the same invocation more than once unless its description says ot
 
 Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells.
 
-**_Cantrips._** You know two Warlock cantrips of your choice. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
+**_Cantrips._** You know two cantrips of your choice from the [Warlock spell list](/dnd/spell_list/Warlock). Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
 
 When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.
 
@@ -81,7 +81,7 @@ When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of you
 
 For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell _[[[spell:Witch Bolt]]]_, you must spend one of those slots, and you cast it as a level 3 spell.
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Warlock spell list](/dnd/spell_list/Warlock).
 
 The number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.
 

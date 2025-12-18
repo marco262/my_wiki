@@ -90,11 +90,11 @@ When you reach character levels 3 and 5, you learn a higher-level spell, as show
 
 #### Elven Lineages
 
-| Lineage  | Level 1                                                                                                                                                                                                                                                     | Level 3                    | Level 5                          |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
-| Drow     | The range of your [[glossary:Darkvision]] increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                                                                                                    | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
-| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a [[glossary:Long Rest]], you can replace that cantrip with a different cantrip from the [Wizard spell list](/sources/dnd/phb-2024/character-classes-continued#wizard-spell-list). | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
-| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                                                                                                        | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
+| Lineage  | Level 1                                                                                                                                                                                                        | Level 3                    | Level 5                          |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------|
+| Drow     | The range of your [[glossary:Darkvision]] increases to 120 feet. You also know the _[[[spell:Dancing Lights]]]_ cantrip.                                                                                       | _[[[spell:Faerie Fire]]]_  | _[[[spell:Darkness]]]_           |
+| High Elf | You know the _[[[spell:Prestidigitation]]]_ cantrip. Whenever you finish a [[glossary:Long Rest]], you can replace that cantrip with a different cantrip from the [Wizard spell list](/dnd/spell_list/Wizard). | _[[[spell:Detect Magic]]]_ | _[[[spell:Misty Step]]]_         |
+| Wood Elf | Your Speed increases to 35 feet. You also know the _[[[spell:Druidcraft]]]_ cantrip.                                                                                                                           | _[[[spell:Longstrider]]]_  | _[[[spell:Pass without Trace]]]_ |
 
 ## Halfling
 

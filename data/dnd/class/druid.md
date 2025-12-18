@@ -60,9 +60,9 @@ As a Druid, you gain the following class features when you reach the specified D
 
 ### Level 1: Spellcasting
 
-You have learned to cast spells through studying the mystical forces of nature. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description.
+You have learned to cast spells through studying the mystical forces of nature. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Druid spells.
 
-**_Cantrips._** You know two cantrips of your choice from the Druid spell list.
+**_Cantrips._** You know two cantrips of your choice from the [Druid spell list](/dnd/spell_list/Druid).
 
 Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.
 
@@ -70,7 +70,7 @@ When you reach Druid levels 4 and 10, you learn another cantrip of your choice f
 
 **_Spell Slots._** The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the [Druid spell list](/dnd/spell_list/Druid).
 
 The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
 
@@ -94,7 +94,7 @@ You have dedicated yourself to one of the following sacred roles of your choice.
 
 #### Magician
 
-You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence ([[tooltip:Arcana]] or [[tooltip:Nature]]) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).
+You know one extra cantrip from the [Druid spell list](/dnd/spell_list/Druid). In addition, your mystical connection to nature gives you a bonus to your Intelligence ([[tooltip:Arcana]] or [[tooltip:Nature]]) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).
 
 #### Warden
 

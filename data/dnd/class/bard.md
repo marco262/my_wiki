@@ -74,7 +74,7 @@ Once within the next hour when the creature fails a [[glossary:D20 Test]], the c
 
 You have learned to cast spells through your bardic arts.
 
-**_Cantrips._** You know two cantrips of your choice from the Bard spell list.
+**_Cantrips._** You know two cantrips of your choice from the [Bard spell list](/dnd/spell_list/Bard).
 
 Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.
 
@@ -126,7 +126,7 @@ You can use musical notes or words of power to disrupt mind-influencing effects.
 
 ### Level 10: Magical Secrets
 
-You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the Bard, Cleric, Druid, and Wizard spell lists, and the chosen spells count as Bard spells for you. In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.
+You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the [Bard](/dnd/spell_list/Bard), [Cleric](/dnd/spell_list/Cleric), [Druid](/dnd/spell_list/Druid), and [Wizard](/dnd/spell_list/Wizard) spell lists, and the chosen spells count as Bard spells for you. In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.
 
 ### Level 18: Superior Inspiration
 

@@ -77,13 +77,13 @@ If you lose your spellbook, you can use the same procedure to transcribe the Wiz
 
 As a student of arcane magic, you have learned to cast spells.
 
-**_Cantrips._** You know three Wizard cantrips of your choice. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
+**_Cantrips._** You know three cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard). Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
 
 When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
 
 **_Spellbook._** Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _[[[spell:Identify]]]_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
 
-The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice.
+The book contains the level 1+ spells you know. It starts with six level 1 spells of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
 
 Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.
 

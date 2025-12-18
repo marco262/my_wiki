@@ -8,7 +8,7 @@ Some Rogues enhance their fine-honed skills of stealth and agility with spells, 
 
 You have learned to cast spells.
 
-**_Cantrips._** You know three cantrips: _[[[spell:Mage Hand]]]_ and two other cantrips of your choice from the Wizard spell list.
+**_Cantrips._** You know three cantrips: _[[[spell:Mage Hand]]]_ and two other cantrips of your choice from the [Wizard spell list](/dnd/spell_list/Wizard).
 
 Whenever you gain a Rogue level, you can replace one of your cantrips, except _[[[spell:Mage Hand]]]_, with another Wizard cantrip of your choice.
 
@@ -39,7 +39,7 @@ When you reach Rogue level 10, you learn another Wizard cantrip of your choice.
 | 19          | 12              | 4 | 3 | 3 | 1 |
 | 20          | 13              | 4 | 3 | 3 | 1 |
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 Wizard spells.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the [Wizard spell list](/dnd/spell_list/Wizard).
 
 The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the Arcane Trickster Spellcasting table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Rogue, your list of prepared spells can include five Wizard spells of level 1 or 2 in any combination.
 

@@ -61,13 +61,13 @@ As a Sorcerer, you gain the following class features when you reach the specifie
 
 Drawing from your innate magic, you can cast spells.
 
-**_Cantrips._** You know four Sorcerer cantrips of your choice. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
+**_Cantrips._** You know four cantrips of your choice from the [Sorcerer spell list](/dnd/spell_list/Sorcerer). Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
 
 When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
 
 **_Spell Slots._** The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the [Sorcerer spell list](/dnd/spell_list/Sorcerer).
 
 The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.
 
@@ -102,7 +102,7 @@ You can use your Sorcery Points to fuel the options below, along with other feat
 
 Any spell slot you create with this feature vanishes when you finish a Long Rest.
 
-Creating Spell Slots
+**Creating Spell Slots**
 
 | Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level |
 |------------------|--------------------|---------------------|

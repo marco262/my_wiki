@@ -59,9 +59,9 @@ As a Cleric, you gain the following class features when you reach the specified 
 
 ### Level 1: Spellcasting
 
-You have learned to cast spells through prayer and meditation. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list.
+You have learned to cast spells through prayer and meditation. The information below details how you use those rules with Cleric spells.
 
-**_Cantrips._** You know three cantrips of your choice from the Cleric spell list.
+**_Cantrips._** You know three cantrips of your choice from the [Cleric spell list](/dnd/spell_list/Cleric).
 
 Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.
 
@@ -69,7 +69,7 @@ When you reach Cleric levels 4 and 10, you learn another cantrip of your choice 
 
 **_Spell Slots._** The Cleric Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the [Cleric spell list](/dnd/spell_list/Cleric).
 
 The number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
 
@@ -91,7 +91,7 @@ Trained for battle, you gain proficiency with Martial weapons and training with 
 
 #### Thaumaturge
 
-You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence ([[tooltip:Arcana]] or [[tooltip:Religion]]) checks. The bonus equals your Wisdom modifier (minimum of +1).
+You know one extra cantrip from the [Cleric spell list](/dnd/spell_list/Cleric). In addition, your mystical connection to the divine gives you a bonus to your Intelligence ([[tooltip:Arcana]] or [[tooltip:Religion]]) checks. The bonus equals your Wisdom modifier (minimum of +1).
 
 ### Level 2: Channel Divinity
 
