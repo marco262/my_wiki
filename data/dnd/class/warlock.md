@@ -59,7 +59,7 @@ As a Warlock, you gain the following class features when you reach the specified
 
 ### Level 1: Eldritch Invocations
 
-You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the “Eldritch Invocation Options” section.
+You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the [Eldritch Invocation Options](#eldritch-invocation-options) section.
 
 **_Prerequisites._** If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.
 
@@ -99,7 +99,7 @@ You can perform an esoteric rite for 1 minute. At the end of it, you regain expe
 
 ### Level 3: Warlock Subclass
 
-You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower.
+You gain a [Warlock subclass](#warlock-subclasses) of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower.
 
 ### Level 4: Ability Score Improvement
 

@@ -87,7 +87,7 @@ You have a mind for tactics on and off the battlefield. When you fail an ability
 
 ### Level 3: Fighter Subclass
 
-You gain a Fighter subclass of your choice. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.
+You gain a [Fighter subclass](#fighter-subclasses) of your choice. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.
 
 ### Level 4: Ability Score Improvement
 

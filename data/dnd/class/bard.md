@@ -108,7 +108,7 @@ For example, if you make a Strength ([[tooltip:Athletics]]) check and lack [[too
 
 ### Level 3: Bard Subclass
 
-You gain a Bard subclass of your choice. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.
+You gain a [Bard subclass](#bard-subclasses) of your choice. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.
 
 ### Level 4: Ability Score Improvement
 

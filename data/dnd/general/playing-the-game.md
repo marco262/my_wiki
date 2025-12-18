@@ -8,7 +8,7 @@ In D&D, the action takes place in the imaginations of the players, and it's narr
 
 **Rules Glossary**
 
-If you read a rules term in this book and want to know its definition, consult the [Rules Glossary](). This chapter provides an overview of how to play D&D and focuses on the big picture. Many places in this chapter reference that glossary.
+If you read a rules term in this book and want to know its definition, consult the [[[general:Rules Glossary]]]. This page provides an overview of how to play D&D and focuses on the big picture. Many places in this chapter reference that glossary.
 
 </div>
 
@@ -20,7 +20,7 @@ To play D&D, you need one person to be the Dungeon Master and other players (thr
 
 If you want to be one of the protagonists in your group's adventures, consider being a player. Here's what players do:
 
-**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this chapter, use the rules in "[[[advancement:Creating a Character]]]" to create your character.
+**Make a Character.** Your character is your alter ego in the fantasy world of the game. After you read this page, use the rules in [[[advancement:Creating a Character]]] to create your character.
 
 **Team Up.** Your character joins the other players' characters to form an adventuring party. These adventurers are allies who face challenges and fantastical situations together. Each character brings distinctive capabilities, which ideally complement those of the other characters.
 
@@ -34,7 +34,7 @@ If you want to be the mastermind of the game, consider being the DM. Here's what
 
 **Guide the Story.** You narrate much of the action during play, describing locations and creatures that the adventurers face. The players decide what their characters do as they navigate hazards and choose what to explore. Then you use a combination of imagination and the game's rules to determine the results of the adventurers' decisions.
 
-**Adjudicate the Rules.** You oversee how the group uses the game's rules, making sure the rules serve the group's fun. You'll want to read the rest of this chapter to understand those rules, and you'll find the [[[general:Rules Glossary]]] essential.
+**Adjudicate the Rules.** You oversee how the group uses the game's rules, making sure the rules serve the group's fun. You'll want to read the rest of this page to understand those rules, and you'll find the [[[general:Rules Glossary]]] essential.
 
 # Rhythm of Play
 
@@ -109,7 +109,7 @@ Here are the most common uses of dice in D&D.
 
 ### D20 Test
 
-The 20-sided die (d20) is the most important die you'll use in the game. It's central to the core mechanic -- called D20 Tests -- the game uses to determine whether creatures succeed or fail at the things they attempt during the game (see "[D20 Tests](#d20-tests)" later in this chapter). You roll a d20 whenever your character tries to do something that the DM decides has a chance of both success and failure. The higher your roll, the more likely it is that you succeed.
+The 20-sided die (d20) is the most important die you'll use in the game. It's central to the core mechanic -- called D20 Tests -- the game uses to determine whether creatures succeed or fail at the things they attempt during the game (see [D20 Tests](#d20-tests)). You roll a d20 whenever your character tries to do something that the DM decides has a chance of both success and failure. The higher your roll, the more likely it is that you succeed.
 
 ### Damage
 
@@ -117,7 +117,7 @@ The most common use for dice other than the d20 is to determine damage. When you
 
 ### Random Tables
 
-Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the [[[general:Creating a Character#trinkets-table|Trinkets table]]] in "[[[advancement:Creating a Character]]]" uses a d100.
+Occasionally, you'll see a table that uses a die roll to generate a random result. On these tables, you'll see a die expression, such as d10 or d100, in the header of the leftmost column. Roll that die, and find the number you rolled (or a range containing that number) in that column. Read across that row for the result. For example, the [[[advancement:Creating a Character#trinkets-table|Trinkets table]]] in [[[advancement:Creating a Character]]] uses a d100.
 
 ### Percentage Chances
 
@@ -191,10 +191,10 @@ Each ability has a modifier that you apply whenever you make a [[glossary:D20 Te
 
 When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called [[glossary:D20 Test|D20 Tests]], and they come in three kinds: [ability checks](#ability-checks), [saving throws](#saving-throws), and [attack rolls](#attack-rolls). They follow these steps:
 
-1. **Roll 1d20.** You always want to roll high. If the roll has [[glossary:Advantage]] or [[glossary:Disadvantage]] (described [later in this chapter](#advantage-disadvantage)), you roll two d20s, but you use the number from only one of them -- the higher one if you have Advantage or the lower one if you have Disadvantage.
+1. **Roll 1d20.** You always want to roll high. If the roll has [[glossary:Advantage]] or [[glossary:Disadvantage]] (described [later in this page](#advantage-disadvantage)), you roll two d20s, but you use the number from only one of them -- the higher one if you have Advantage or the lower one if you have Disadvantage.
 2. **Add Modifiers.** Add these modifiers to the number rolled on the d20:
-   - **The Relevant Ability Modifier.** This chapter and the [[[general:Rules Glossary]]] explain which ability modifiers to use for various D20 Tests.
-   - **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See "[Proficiency](#proficiency)" later in this chapter.
+   - **The Relevant Ability Modifier.** This page and the [[[general:Rules Glossary]]] explain which ability modifiers to use for various D20 Tests.
+   - **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See [Proficiency](#proficiency).
    - **Circumstantial Bonuses and Penalties.** A class feature, a spell, or another rule might give a bonus or penalty to the die roll.
 3. **Compare the Total to a Target Number.** If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Dungeon Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a [[glossary:Difficulty Class]] (DC). The target number for an attack roll is called an [[glossary:Armor Class]] (AC), which appears on a character sheet or in a stat block.
 
@@ -221,7 +221,7 @@ An ability check is named for the ability modifier it uses: a Strength check, an
 
 ### Proficiency Bonus
 
-Add your Proficiency Bonus to an ability check when the DM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength ([[tooltip:Acrobatics]] or [[tooltip:Athletics]]) check, you can add your Proficiency Bonus to the check if you have proficiency in the [[tooltip:Acrobatics]] or [[tooltip:Athletics]] skill. See "[Proficiency](#proficiency)" later in this chapter for more information about skill and tool proficiencies.
+Add your Proficiency Bonus to an ability check when the DM determines that a skill or tool proficiency is relevant to the check, and you have that proficiency. For example, if a rule refers to a Strength ([[tooltip:Acrobatics]] or [[tooltip:Athletics]]) check, you can add your Proficiency Bonus to the check if you have proficiency in the [[tooltip:Acrobatics]] or [[tooltip:Athletics]] skill. See [Proficiency](#proficiency) for more information about skill and tool proficiencies.
 
 ### Difficulty Class
 
@@ -261,7 +261,7 @@ Saving throws are named for the ability modifiers they use: a Constitution savin
 
 ### Proficiency Bonus
 
-You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See "[Proficiency](#proficiency)" later in this chapter.
+You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See [Proficiency](#proficiency).
 
 ### Difficulty Class
 
@@ -269,7 +269,7 @@ The Difficulty Class for a saving throw is determined by the effect that causes 
 
 ## Attack Rolls
 
-An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in "[Combat](#combat)" later in this chapter, but the DM might also ask for an attack roll in other situations, such as an archery competition.
+An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in [Combat](#combat), but the DM might also ask for an attack roll in other situations, such as an archery competition.
 
 ### Ability Modifier
 
@@ -287,7 +287,7 @@ Some features let you use different ability modifiers from those listed. For exa
 
 ### Proficiency Bonus
 
-You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See "[Proficiency](#proficiency)" later in this chapter for more information about weapon proficiencies.
+You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See [Proficiency](#proficiency) for more information about weapon proficiencies.
 
 ### Armor Class
 
@@ -303,7 +303,7 @@ A creature's AC can then be modified by armor, magic items, spells, and more.
 
 ### Rolling 20 or 1
 
-If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see "[Combat](#combat)" later in this chapter).
+If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see [Combat](#combat)).
 
 If you roll a 1 on the d20 (a "natural 1") for an attack roll, the attack misses regardless of any modifiers or the target's AC.
 
@@ -371,7 +371,7 @@ Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or hal
 
 ## Skill Proficiencies
 
-Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see "[Actions](#actions)" later in this chapter) specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The DM has the ultimate say on whether a skill is relevant in a situation.
+Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see [Actions](#actions)) specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The DM has the ultimate say on whether a skill is relevant in a situation.
 
 If a creature is proficient in a skill, the creature applies its Proficiency Bonus to ability checks involving that skill. Without proficiency in a skill, a creature can still make ability checks involving that skill but doesn't add its Proficiency Bonus. For example, if a character tries to climb a cliff, the DM might ask for a Strength ([[tooltip:Athletics]]) check. If the character has [[tooltip:Athletics]] proficiency, the character adds their Proficiency Bonus to the Strength check. If the character lacks that proficiency, they make the check without adding their Proficiency Bonus.
 
@@ -497,7 +497,7 @@ Player characters and monsters can also do things not covered by these actions. 
 
 ## One Thing at a Time
 
-The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in "[Combat](#combat)" later in this chapter.
+The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in [Combat](#combat).
 
 Actions can come up in other situations, too: in a social interaction, you can try to [[glossary:Influence]] a creature or use the [[glossary:Search]] action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the [[glossary:Search]] action to look for traps and use the [[glossary:Help]] action to aid another character who's trying to open a stuck door (with the [[glossary:Utilize]] action).
 
@@ -511,7 +511,7 @@ You choose when to take a Bonus Action during your turn unless the Bonus Action'
 
 ## Reactions
 
-Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The [[glossary:Opportunity Attacks|Opportunity Attack]], described [later in this chapter](#opportunity-attacks), is the most common type of Reaction.
+Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The [[glossary:Opportunity Attacks|Opportunity Attack]], described [later in this page](#opportunity-attacks), is the most common type of Reaction.
 
 When you take a Reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction.
 
@@ -561,7 +561,7 @@ Exploration involves delving into places that are dangerous and full of mystery.
 
 As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with [[tooltip:Thieves' Tools]], and create obstacles for pursuers with [[tooltip:Caltrops]].
 
-See "[[[general:Equipment]]]" for rules on many items that are useful on adventures. The items in the "[[[general:Equipment#tools|Tools]]]" and "[[[general:Equipment#adventuring-gear|Adventuring Gear]]]" sections are especially useful. The weapons in that chapter can also be used for more than battle; you could use a [[tooltip:Quarterstaff]], for example, to push a sinister-looking button that you're reluctant to touch.
+See [[[general:Equipment]]] for rules on many items that are useful on adventures. The items in the [[[general:Equipment#tools|Tools]]] and [[[general:Equipment#adventuring-gear|Adventuring Gear]]] sections are especially useful. The weapons in that page can also be used for more than battle; you could use a [[tooltip:Quarterstaff]], for example, to push a sinister-looking button that you're reluctant to touch.
 
 ## Vision and Light
 
@@ -606,7 +606,7 @@ For the purpose of the rules, an object is a discrete, inanimate item like a win
 
 ### Time-Limited Object Interactions
 
-When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the [[glossary:Utilize]] action, as explained in "[Combat](#combat)" later in this chapter.
+When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the [[glossary:Utilize]] action, as explained in [Combat](#combat).
 
 ### Finding Hidden Objects
 
@@ -636,7 +636,7 @@ Monsters are the main perils characters face, but other dangers await. The [[[ge
 
 During an adventure, the characters might travel long distances on trips that could take hours or days. The DM can summarize this travel without calculating exact distances or travel times, or the DM might have you use the travel pace rules below.
 
-If you need to know how fast you can move when every second matters, see the movement rules in "[Combat](#combat)" later in this chapter.
+If you need to know how fast you can move when every second matters, see the movement rules in [Movement and Position](#movement-and-position).
 
 <div class="phb-sidebar" markdown="1">
 
@@ -701,7 +701,7 @@ Initiative determines the order of turns during combat. When combat starts, ever
 
 On your turn, you can move a distance up to your [[glossary:Speed]] and take one action. You decide whether to move first or take your action first.
 
-The main actions you can take are listed in "[Actions](#actions)" earlier in this chapter. A character's features and a monster's stat block also provide action options. "[Movement and Position](#movement-and-position)" later in this chapter gives the rules for movement.
+The main actions you can take are listed in [Actions](#actions). A character's features and a monster's stat block also provide action options. [Movement and Position](#movement-and-position) gives the rules for movement.
 
 **_Communicating._** You can communicate however you are able -- through brief utterances and gestures -- as you take your turn. Doing so uses neither your action nor your move.
 

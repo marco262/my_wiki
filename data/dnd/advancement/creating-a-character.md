@@ -20,11 +20,11 @@ Some Dungeon Masters start a campaign with a "session zero," an initial gatherin
 
 ## Choose a Character Sheet
 
-You'll record the main details of your character on a character sheet. Throughout this chapter, we use the term "character sheet" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet like the one on [D&D Beyond](https://www.dndbeyond.com/characters), or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!
+You'll record the main details of your character on a character sheet. Throughout this page, we use the term "character sheet" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet like the one on [D&D Beyond](https://www.dndbeyond.com/characters), or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!
 
 # Create Your Character
 
-Here are the steps to make a character; each step is explored in detail in this chapter:
+Here are the steps to make a character; each step is explored in detail in this page:
 
 1. **_Choose a Class._** Every adventurer is a member of a class. A class broadly describes a character's vocation, special talents, and favored tactics.
 2. **_Determine Origin._** A character's origin includes two elements: [[[advancement:backgrounds|background]]] and [[[advancement:races|race]]]. How did the character spend the years leading up to a life of adventure? Who are the character's ancestors? You can also choose your character's languages.
@@ -67,7 +67,7 @@ Write your character's level on your character sheet. Typically, a character sta
 
 **_Write Your XP._** Also record your Experience Points. A level 1 character has 0 XP.
 
-**_Starting at a Higher Level._** Your DM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the "[Starting at Higher Levels](#startingat-higher-levels)" section later in the chapter for more information.
+**_Starting at a Higher Level._** Your DM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the [Starting at Higher Levels](#starting-at-higher-levels) section.
 
 ### Note Armor Training
 
@@ -112,9 +112,9 @@ The features table in your class description shows your [[[general:Playing the G
 
 ### Choose Starting Equipment
 
-Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "[[[general:Equipment]]]". In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) at the end of this chapter).
+Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "[[[general:Equipment]]]". In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) section).
 
-Record your chosen equipment on your character sheet. Equipment is described in [[[general:equipment]]], but for now you can just write it all down and look up the specifics in that chapter later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
+Record your chosen equipment on your character sheet. Equipment is described in [[[general:equipment]]], but for now you can just write it all down and look up the specifics on that page later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
 
 ### Choose a Race
 
@@ -502,7 +502,7 @@ The Character Advancement table lists the XP you need to advance to a level and 
 
 When you gain a level, follow these steps:
 
-1. **_Choose a Class._** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the "[Multiclassing](#multiclassing)" section later in this chapter.
+1. **_Choose a Class._** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the [Multiclassing](#multiclassing) section.
 2. **_Adjust Hit Points and Hit Point Dice._** Each time you gain a level, you gain an additional Hit Die. Roll that die, add your Constitution modifier to the roll, and add the total (minimum of 1) to your Hit Point maximum. Instead of rolling, you can use the fixed value shown in the Fixed Hit Points by Class table.
 3. **_Record New Class Features._** Look at your class features table, and note the features you gain at your new level in that class. Make any choices offered by a new feature.
 4. **_Adjust Proficiency Bonus._** A character's Proficiency Bonus increases at certain levels, as shown in the [Character Advancement table](#character-advancement) and your class features table. When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.
@@ -552,13 +552,13 @@ Your DM might start your group's characters at a level higher than 1. It is part
 
 ## Creating Your Character
 
-Creating a higher-level character uses the same character-creation steps outlined in this chapter and the rules for advancing beyond level 1 provided in the "[Level Advancement](#level-advancement)" section. You begin with the minimum amount of XP required to reach your starting level. For example, if the DM starts you at level 10, you have 64,000 XP.
+Creating a higher-level character uses the same character-creation steps outlined in this page and the rules for advancing beyond level 1 provided in the [Level Advancement](#level-advancement) section. You begin with the minimum amount of XP required to reach your starting level. For example, if the DM starts you at level 10, you have 64,000 XP.
 
 ## Starting Equipment
 
 The DM decides whether your character starts with more than the standard equipment for a level 1 character, possibly even one or more magic items. The Starting Equipment at Higher Levels table is a guide for the DM.
 
-Also, check with your DM about what equipment is available for you to buy with your starting money. For example, the firearms described in "[[[general:Equipment#weapons|Equipment]]]" are too expensive for level 1 characters, but they might be available for purchase if your DM allows them.
+Also, check with your DM about what equipment is available for you to buy with your starting money. For example, the firearms described in [[[general:Equipment#weapons|Equipment]]] are too expensive for level 1 characters, but they might be available for purchase if your DM allows them.
 
 ### Starting Equipment at Higher Levels
 
@@ -580,7 +580,7 @@ To qualify for a new class, you must have a score of at least 13 in the primary 
 
 ## Experience Points
 
-The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the [Character Advancement table](#character-advancement) in this chapter. For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
+The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the [Character Advancement table](#character-advancement). For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
 
 ## Hit Points and Hit Point Dice
 

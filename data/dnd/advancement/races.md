@@ -6,13 +6,13 @@ The peoples of the D&D multiverse hail from different worlds and include many ki
 
 Some races can trace their origin to a single world, plane of existence, or god, while other races first appeared in multiple realms at once. Whatever a race's genesis, its members have spread across the multiverse and contribute to many different cultures.
 
-Members of most races live for about 80 years, with exceptions noted in the text about the race in this chapter. Regardless of life span, members of all races reach physical maturity at about the same age. Your character can be any age that isn't beyond their race's normal life span.
+Members of most races live for about 80 years, with exceptions noted in the text about the race. Regardless of life span, members of all races reach physical maturity at about the same age. Your character can be any age that isn't beyond their race's normal life span.
 
 ## Parts of a Race
 
 A race includes the following parts.
 
-**_Creature Type._** A character's race determines the character's creature type, which is described in the [[[general:Rules Glossary#creature-types]]]. Every race in this chapter is Humanoid; playable non-Humanoid races appear in other D&D books.
+**_Creature Type._** A character's race determines the character's creature type, which is described in the [[[general:Rules Glossary#creature-types]]]. Every race in this page is Humanoid; playable non-Humanoid races appear in other D&D books.
 
 **_Size._** Your character's race determines the character's size. Individuals within a race cover a wide range of heights, and some races include such diversity of size that you can choose whether your character is Small or Medium.
 

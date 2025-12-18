@@ -1,4 +1,4 @@
-The right equipment can make the difference between success and failure for adventurers. This chapter provides rules and prices for weapons, armor, and other kinds of equipment that characters might purchase or find. The DM lets you know if a shop has an item for sale and whether it's available at the listed price.
+The right equipment can make the difference between success and failure for adventurers. This page provides rules and prices for weapons, armor, and other kinds of equipment that characters might purchase or find. The DM lets you know if a shop has an item for sale and whether it's available at the listed price.
 
 # Coins
 
@@ -30,7 +30,7 @@ The Weapons table in this section shows the game's main weapons. The table lists
 
 **Properties.** Any properties a weapon has are listed in the Properties column. Each property is defined in the [Properties](#properties) section.
 
-**Mastery.** Each weapon has a mastery property, which is defined in the [Mastery Properties](#mastery-properties) section later in this chapter. To use that property, you must have a feature that lets you use it.
+**Mastery.** Each weapon has a mastery property, which is defined in the [Mastery Properties](#mastery-properties) section. To use that property, you must have a feature that lets you use it.
 
 ## Weapons
 
@@ -186,17 +186,17 @@ If you hit a creature with this weapon and deal damage to the creature, you have
 
 # Armor
 
-The Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:
+The Armor tables list the game's main armor. Each table includes the cost and weight of armor, as well as the following details:
 
 **Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).
 
-**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.
+**Armor Class (AC).** A table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.
 
-**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
+**Strength.** If a table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
 
-**Stealth.** If the table shows "Disadvantage" in the Stealth column for an armor type, the wearer has [[glossary:Disadvantage]] on Dexterity ([[tooltip:Stealth]]) checks.
+**Stealth.** If a table shows "Disadvantage" in the Stealth column for an armor type, the wearer has [[glossary:Disadvantage]] on Dexterity ([[tooltip:Stealth]]) checks.
 
-## Armor
+## Armor Tables
 
 ### Light Armor
 
@@ -275,7 +275,7 @@ A tool helps you make specialized ability checks, craft certain items, or both. 
 
 **Utilize.** This entry lists things you can do with the tool when you take the [[glossary:Utilize]] action. You can do one of those things each time you take the action. This entry also provides the DC for the action.
 
-**Craft.** This entry lists what, if anything, you can craft with the tool. For crafting rules, see "[Crafting Equipment](#crafting-equipment)" later in the chapter.
+**Craft.** This entry lists what, if anything, you can craft with the tool. For crafting rules, see [Crafting Equipment](#crafting-equipment).
 
 **Variants.** This entry appears if the tool has variants, which are listed. Each requires a separate proficiency.
 
@@ -1127,7 +1127,7 @@ An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up t
 
 ## Barding
 
-Barding is armor designed for a mount. Any type of armor on the [Armor table](#armor-table) in this chapter can be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.
+Barding is armor designed for a mount. Any type of armor on the [Armor tables](#armor-tables) can be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.
 
 ## Saddles
 

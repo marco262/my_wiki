@@ -103,7 +103,7 @@ You learn two [Druid cantrips](/dnd/spell_list/Druid) of your choice. The chosen
 
 ### Level 3: Ranger Subclass
 
-You gain a Ranger subclass of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.
+You gain a [Ranger subclass](#ranger-subclasses) of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.
 
 ### Level 4: Ability Score Improvement
 

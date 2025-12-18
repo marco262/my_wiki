@@ -60,7 +60,7 @@ As a Druid, you gain the following class features when you reach the specified D
 
 ### Level 1: Spellcasting
 
-You have learned to cast spells through studying the mystical forces of nature. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Druid spells.
+You have learned to cast spells through studying the mystical forces of nature. The information below details how you use those rules with Druid spells.
 
 **_Cantrips._** You know two cantrips of your choice from the [Druid spell list](/dnd/spell_list/Druid).
 
@@ -140,7 +140,7 @@ When you cast the spell in this way, the familiar is Fey and disappears when you
 
 ### Level 3: Druid Subclass
 
-You gain a Druid subclass of your choice. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.
+You gain a [Druid subclass](#druid-subclasses) of your choice. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.
 
 ### Level 4: Ability Score Improvement
 

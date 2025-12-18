@@ -88,7 +88,7 @@ Your quick thinking and agility allow you to move and act quickly. On your turn,
 
 ### Level 3: Rogue Subclass
 
-You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.
+You gain a [Rogue subclass](#rogue-subclasses) of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.
 
 ### Level 3: Steady Aim
 

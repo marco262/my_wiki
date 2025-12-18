@@ -114,7 +114,7 @@ Any spell slot you create with this feature vanishes when you finish a Long Rest
 
 ### Level 2: Metamagic
 
-Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from “Metamagic Options” later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
+Because your magic flows from within, you can alter your spells to suit your needs; you gain two [Metamagic Options](#metamagic-options). You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
 
 You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
 
@@ -122,7 +122,7 @@ Whenever you gain a Sorcerer level, you can replace one of your Metamagic option
 
 ### Level 3: Sorcerer Subclass
 
-You gain a Sorcerer subclass of your choice. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.
+You gain a [Sorcerer subclass](#sorcerer-subclasses) of your choice. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.
 
 ### Level 4: Ability Score Improvement
 

@@ -101,7 +101,7 @@ You can throw aside all concern for defense to attack with increased ferocity. W
 
 ### Level 3: Barbarian Subclass
 
-You gain a Barbarian subclass of your choice. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.
+You gain a [Barbarian subclass](#barbarian-subclasses) of your choice. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.
 
 ### Level 3: Primal Knowledge
 

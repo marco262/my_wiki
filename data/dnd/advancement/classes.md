@@ -1,6 +1,8 @@
 [[breadcrumb /dnd/|2024 D&D]]
 
-Character class provides a character's most exciting capabilities. This chapter offers twelve classes, each of which contains four subclasses -- all summarized below.
+Character class provides a character's most exciting capabilities. This page offers twelve classes, each of which contains four subclasses -- all summarized below.
+
+Additional subclass options may be available in the given class' Subclasses section. 
 
 ## [[[class:Barbarian]]]
 

@@ -113,7 +113,7 @@ If a Channel Divinity effect requires a saving throw, the DC equals the spell sa
 
 ### Level 3: Paladin Subclass
 
-You gain a Paladin subclass of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
+You gain a [Paladin subclass](#paladin-subclasses) of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
 
 ### Level 4: Ability Score Improvement
 

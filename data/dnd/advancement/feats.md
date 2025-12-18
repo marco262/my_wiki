@@ -1,6 +1,6 @@
 [[breadcrumb /dnd/|2024 D&D]]
 
-This chapter offers a collection of feats, which are special features not tied to a character class. A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
+This page offers a collection of feats, which are special features not tied to a character class. A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
 
 The sections below explain the parts of a feat and list a variety of feat options separated into categories.
 
@@ -10,7 +10,7 @@ By whatever means you acquire a feat, you can take it only once unless its descr
 
 # Feat Descriptions
 
-This chapter's feats are organized by category -- [Origin](#origin-feats), [General](#general-feats), [Fighting Style](#fighting-style-feats), or [Epic Boon](#epic-boon-feats) -- and alphabetized in each category. All the feats are listed alphabetically in the [Feat List table](#feat-list). If a feat can be taken more than once, an asterisk appears after its name in that table.
+This page's feats are organized by category -- [Origin](#origin-feats), [General](#general-feats), [Fighting Style](#fighting-style-feats), or [Epic Boon](#epic-boon-feats) -- and alphabetized in each category. All the feats are listed alphabetically in the [Feat List table](#feat-list). If a feat can be taken more than once, an asterisk appears after its name in that table.
 
 ## Parts of a Feat
 

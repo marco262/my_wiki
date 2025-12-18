@@ -113,7 +113,7 @@ If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of 
 
 ### Level 3: Monk Subclass
 
-You gain a Monk subclass of your choice. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.
+You gain a [Monk subclass](#monk-subclasses) of your choice. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.
 
 ### Level 4: Ability Score Improvement
 
