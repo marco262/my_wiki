@@ -9,7 +9,7 @@
  - **Weapon Proficiencies**: Simple weapons and Martial weapons that have the [[tooltip:Finesse]] or [[tooltip:Light]] property
  - **Tool Proficiencies**: Thieves' Tools
  - **Armor Training**: Light armor
- - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Leather Armor]], 2 [[tooltip:dagger|Daggers]], [[tooltip:Shortsword]], [[tooltip:Shortbow]], 20 [[tooltip:arrow|Arrows]], [[tooltip:Quiver]], [[tooltip:Thieves' Tools]], [[tooltip:Burglar's Pack]], and 8 GP; or (B) 100 GP
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Leather Armor]], 2 [[tooltip:dagger|Daggers]], [[tooltip:Shortsword]], [[tooltip:Shortbow]], 20 [[tooltip:Arrows]], [[tooltip:Quiver]], [[tooltip:Thieves' Tools]], [[tooltip:Burglar's Pack]], and 8 GP; or (B) 100 GP
 
 Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem. A few even learn magical tricks to supplement their other abilities. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.
 

@@ -14,17 +14,12 @@
             <a href="/dnd/race/Halfling">Halfling</a>
             <a href="/dnd/race/Human">Human</a>
             <hr>
+            <a href="/dnd/race/Aasimar">Aasimar</a>
             <a href="/dnd/race/Dragonborn">Dragonborn</a>
             <a href="/dnd/race/Gnome">Gnome</a>
-            <a href="/dnd/race/Half-Elf">Half-Elf</a>
-            <a href="/dnd/race/Half-Orc">Half-Orc</a>
+            <a href="/dnd/race/Goliath">Goliath</a>
+            <a href="/dnd/race/Orc">Orc</a>
             <a href="/dnd/race/Tiefling">Tiefling</a>
-            <hr>
-            <a href="/dnd/general/Races#elemental-evil">Elemental Evil</a>
-            <a href="/dnd/general/Races#volos-guide-to-monsters">Volo's Guide to Monsters</a>
-            <a href="/dnd/general/Races#tortles">Tortles</a>
-            <a href="/dnd/general/Races#eberron">Eberron</a>
-            <a href="/dnd/general/Races#mordenkainens-tome-of-foes">Mordenkainen's Tome of Foes</a>
         </div>
     </div>
     <div class="dropdown">
@@ -48,16 +43,16 @@
     <div class="dropdown">
         <p>Equipment</p>
         <div class="dropdown-content">
-            <a href="/dnd/general/equipment#starting-equipment">Starting Equipment</a>
-            <a href="/dnd/general/equipment#wealth">Wealth</a>
-            <a href="/dnd/general/equipment#armor-and-shields">Armor and Shields</a>
-            <a href="/dnd/general/equipment#weapons">Weapons</a>
-            <a href="/dnd/general/equipment#adventuring-gear">Adventuring Gear</a>
-            <a href="/dnd/general/equipment#tools">Tools</a>
-            <a href="/dnd/general/equipment#mounts-and-vehicles">Mounts and Vehicles</a>
-            <a href="/dnd/general/equipment#trade-goods">Trade Goods</a>
-            <a href="/dnd/general/equipment#expenses">Expenses</a>
-            <a href="/dnd/general/equipment#trinkets">Trinkets</a>
+            <a href="/dnd/general/Equipment#coins">Coins</a>
+            <a href="/dnd/general/Equipment#weapons">Weapons</a>
+            <a href="/dnd/general/Equipment#armor">Armor</a>
+            <a href="/dnd/general/Equipment#tools">Tools</a>
+            <a href="/dnd/general/Equipment#adventuring-gear">Adventuring Gear</a>
+            <a href="/dnd/general/Equipment#mounts-and-vehicles">Mounts and Vehicles</a>
+            <a href="/dnd/general/Equipment#services">Services</a>
+            <a href="/dnd/general/Equipment#trade-goods">Trade Goods</a>
+            <a href="/dnd/general/Equipment#magic-items">Magic Items</a>
+            <a href="/dnd/general/Equipment#crafting-equipment">Crafting Equipment</a>
         </div>
     </div>
     <div class="dropdown">
@@ -66,15 +61,15 @@
             <a href="/dnd/find_spell">Find a Spell</a>
             <a href="/dnd/spell_filter">Spell Filter</a>
             <hr>
-            <a href="/dnd/class_spell_list/artificer/true">Artificer Spells</a>
-            <a href="/dnd/class_spell_list/bard/true">Bard Spells</a>
-            <a href="/dnd/class_spell_list/cleric/true">Cleric Spells</a>
-            <a href="/dnd/class_spell_list/druid/true">Druid Spells</a>
-            <a href="/dnd/class_spell_list/paladin/true">Paladin Spells</a>
-            <a href="/dnd/class_spell_list/ranger/true">Ranger Spells</a>
-            <a href="/dnd/class_spell_list/sorcerer/true">Sorcerer Spells</a>
-            <a href="/dnd/class_spell_list/warlock/true">Warlock Spells</a>
-            <a href="/dnd/class_spell_list/wizard/true">Wizard Spells</a>
+            <a href="/dnd/spell_list/artificer">Artificer Spells</a>
+            <a href="/dnd/spell_list/bard">Bard Spells</a>
+            <a href="/dnd/spell_list/cleric">Cleric Spells</a>
+            <a href="/dnd/spell_list/druid">Druid Spells</a>
+            <a href="/dnd/spell_list/paladin">Paladin Spells</a>
+            <a href="/dnd/spell_list/ranger">Ranger Spells</a>
+            <a href="/dnd/spell_list/sorcerer">Sorcerer Spells</a>
+            <a href="/dnd/spell_list/warlock">Warlock Spells</a>
+            <a href="/dnd/spell_list/wizard">Wizard Spells</a>
         </div>
     </div>
     <div class="dropdown">

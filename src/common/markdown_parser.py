@@ -158,10 +158,14 @@ class MarkdownParser:
     def convert_simple_links(text):
         """
         Finds links with format [text]() and fills them out with [text](text).
-        Useful for quick links to markdown files in the same folder.
+        Finds links with format [This is Text](#) and fills them out with [This is Text](#this-is-text).
+        Useful for quick links to markdown files in the same folder, and anchors on the same page.
         """
-        for m in re.finditer(r"\[(.*?)]\(\)", text):
-            text = text.replace(m.group(0), "[{link}]({link})".format(link=m.group(1)))
+        for m in re.finditer(r"\[([^\[]+)]\((#?)\)", text):
+            if m.group(2) == "#":
+                text = text.replace(m.group(0), f"[{m.group(1)}](#{title_to_page_name(m.group(1))})")
+            else:
+                text = text.replace(m.group(0), f"[{m.group(1)}]({m.group(1)})")
         return text
 
     def add_includes(self, text):

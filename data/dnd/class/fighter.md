@@ -8,7 +8,7 @@
  - **Skill Proficiencies**: _Choose 2:_ [[tooltip:Acrobatics]], [[tooltip:Animal Handling]], [[tooltip:Athletics]], [[tooltip:History]], [[tooltip:Insight]], [[tooltip:Intimidation]], [[tooltip:Persuasion]], [[tooltip:Perception]], or [[tooltip:Survival]]
  - **Weapon Proficiencies**: Simple and Martial weapons
  - **Armor Training**: Light, Medium, and Heavy armor and Shields
- - **Starting Equipment**: _Choose A, B, or C:_ (A) [[tooltip:Chain Mail]], [[tooltip:Greatsword]], [[tooltip:Flail]], 8 [[tooltip:javelin|Javelins]], [[tooltip:Dungeoneer's Pack]], and 4 GP; (B) [[tooltip:Studded Leather Armor]], [[tooltip:Scimitar]], [[tooltip:Shortsword]], [[tooltip:Longbow]], 20 [[tooltip:arrow|Arrows]], [[tooltip:Quiver]], [[tooltip:Dungeoneer's Pack]], and 11 GP; or (C) 155 GP
+ - **Starting Equipment**: _Choose A, B, or C:_ (A) [[tooltip:Chain Mail]], [[tooltip:Greatsword]], [[tooltip:Flail]], 8 [[tooltip:javelin|Javelins]], [[tooltip:Dungeoneer's Pack]], and 4 GP; (B) [[tooltip:Studded Leather Armor]], [[tooltip:Scimitar]], [[tooltip:Shortsword]], [[tooltip:Longbow]], 20 [[tooltip:Arrows]], [[tooltip:Quiver]], [[tooltip:Dungeoneer's Pack]], and 11 GP; or (C) 155 GP
 
 Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries—as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.
 

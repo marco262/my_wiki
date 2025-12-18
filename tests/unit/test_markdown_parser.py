@@ -155,12 +155,16 @@ Text block
         text = """
 * [Test Link 1]()
 * [Test Link 2]()
-* [Test Link 3](folder/Test Link)
+* [Test Link 3](#)
+* [Test Link 4](folder/Test Link)
+* [[glossary:D20 Tests]] and [Test Link 5](#)
         """
         expected = """
 * [Test Link 1](Test Link 1)
 * [Test Link 2](Test Link 2)
-* [Test Link 3](folder/Test Link)
+* [Test Link 3](#test-link-3)
+* [Test Link 4](folder/Test Link)
+* [[glossary:D20 Tests]] and [Test Link 5](#test-link-5)
         """
         md = MarkdownParser()
         actual = md.convert_simple_links(text)

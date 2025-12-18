@@ -8,7 +8,7 @@
  - **Skill Proficiencies**: _Choose 3:_ [[tooltip:Animal Handling]], [[tooltip:Athletics]], [[tooltip:Insight]], [[tooltip:Investigation]], [[tooltip:Nature]], [[tooltip:Perception]], [[tooltip:Stealth]], or [[tooltip:Survival]]
  - **Weapon Proficiencies**: Simple and Martial weapons
  - **Armor Training**: Light and Medium armor and Shields
- - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Studded Leather Armor]], [[tooltip:Scimitar]], [[tooltip:Shortsword]], [[tooltip:Longbow]], 20 [[tooltip:arrow|Arrows]], [[tooltip:Quiver]], [[tooltip:Druidic Focus]] ([[tooltip:sprig of mistletoe]]), [[tooltip:Explorer's Pack]], and 7 GP; or (B) 150 GP
+ - **Starting Equipment**: _Choose A or B:_ (A) [[tooltip:Studded Leather Armor]], [[tooltip:Scimitar]], [[tooltip:Shortsword]], [[tooltip:Longbow]], 20 [[tooltip:Arrows]], [[tooltip:Quiver]], [[tooltip:Druidic Focus]] (sprig of mistletoe), [[tooltip:Explorer's Pack]], and 7 GP; or (B) 150 GP
 
 Far from bustling cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.
 

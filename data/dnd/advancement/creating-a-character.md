@@ -34,7 +34,7 @@ Here are the steps to make a character; each step is explored in detail in this 
 
 ## Step 1: Choose a Class
 
-Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See [[[general:Classes]]] for the classes' details.
+Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See [[[advancement:Classes]]] for the classes' details.
 
 ### Class Overview
 
@@ -57,7 +57,7 @@ Choose a class, and write it on your character sheet. The Class Overview table s
 
 **Bonus Feats at Level 20**
 
-A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. [[[advancement:Feats#epic-boon-feats|Epic Boon Feats]]] are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
+A DM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. [[[advancement:Feats#Epic Boon Feats]]] are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
 
 [[/sidebar]]
 
@@ -67,7 +67,7 @@ Write your character's level on your character sheet. Typically, a character sta
 
 **_Write Your XP._** Also record your Experience Points. A level 1 character has 0 XP.
 
-**_Starting at a Higher Level._** Your DM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the [Starting at Higher Levels](#starting-at-higher-levels) section.
+**_Starting at a Higher Level._** Your DM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the [Starting at Higher Levels](#) section.
 
 ### Note Armor Training
 
@@ -79,6 +79,18 @@ You'll fill in more details about your class later. Choosing your class is the m
 
 ## Step 2: Determine Origin
 
+[[sidebar]]
+
+**Backgrounds and Races from Older Books**
+
+Backgrounds in older D&D books don't include ability score adjustments. If you're using a background from an older book, adjust your ability scores by increasing one score by 2 and a different one by 1, or increase three scores by 1. None of these increases can raise a score above 20.
+
+Similarly, races in older books include ability score increases. If you're using a race from an older book, ignore those increases and use only the ones given by your background.
+
+Also, if the background you choose doesn't provide a feat, you gain an [[[advancement:Feats#origin-feats|Origin feat]]] of your choice.
+
+[[/sidebar]]
+
 Determining your character's origin involves choosing a background, a race, and two languages.
 
 A character's background represents the place and occupation that were most formative for the character. The combination of background, race, and languages provides fertile soil for your imagination as you ponder your character's earliest days.
@@ -87,7 +99,7 @@ A character's background represents the place and occupation that were most form
 
 Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in [[[advancement:Backgrounds]]], and your DM might offer additional backgrounds as options.
 
-The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
+The background you choose influences Step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
 
 **Ability Scores and Backgrounds**
 
@@ -109,13 +121,13 @@ Your class also gives proficiencies. Check your class description and note the p
 
 On the sample character sheet, you can indicate proficiency in skills and saving throws by marking the circle next to them.
 
-The features table in your class description shows your [[[general:Playing the Game#proficiency-bonus|Playing the Game]]], which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in [step 5](#step-5-fill-in-details).
+The features table in your class description shows your [[[general:Playing the Game#Proficiency Bonus]]], which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in [Step 5](#step-5-fill-in-details).
 
 ### Choose Starting Equipment
 
 Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from [[[general:Equipment]]]. In addition, you can have one trinket at no cost (see the [Trinkets table](#trinkets) section).
 
-Record your chosen equipment on your character sheet. Equipment is described in [[[general:equipment]]], but for now you can just write it all down and look up the specifics on that page later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
+Record your chosen equipment on your character sheet. Equipment is described in [[[general:Equipment]]], but for now you can just write it all down and look up the specifics on that page later. There's also space on the sample character sheet to note any coins you have left after purchasing your equipment, as well as treasure you acquire on your adventures.
 
 ### Choose a Race
 
@@ -360,19 +372,6 @@ The summaries of the alignments below describe the typical behavior of a creatur
 
 **_Chaotic Evil (CE)._** Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
 
-[[sidebar]]
-
-**Backgrounds and Races from Older Books**
-
-Backgrounds in older D&D books don't include ability score adjustments. If you're using a background from an older book, adjust your ability scores by increasing one score by 2 and a different one by 1, or increase three scores by 1. None of these increases can raise a score above 20.
-
-Similarly, races in older books include ability score increases. If you're using a race from an older book, ignore those increases and use only the ones given by your background.
-
-Also, if the background you choose doesn't provide a feat, you gain an [[[advancement:Feats#origin-feats|Origin feat]]] of your choice.
-
-[[/sidebar]]
-
-
 ### Alignment and Personality
 
 Alignment can shape a character's personality, goals, and core beliefs. Looking at the two elements of an alignment, you can use the lists below to inspire details of your character's personality.
@@ -503,10 +502,10 @@ The Character Advancement table lists the XP you need to advance to a level and 
 
 When you gain a level, follow these steps:
 
-1. **_Choose a Class._** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the [Multiclassing](#multiclassing) section.
+1. **_Choose a Class._** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the [Multiclassing](#) section.
 2. **_Adjust Hit Points and Hit Point Dice._** Each time you gain a level, you gain an additional Hit Die. Roll that die, add your Constitution modifier to the roll, and add the total (minimum of 1) to your Hit Point maximum. Instead of rolling, you can use the fixed value shown in the Fixed Hit Points by Class table.
 3. **_Record New Class Features._** Look at your class features table, and note the features you gain at your new level in that class. Make any choices offered by a new feature.
-4. **_Adjust Proficiency Bonus._** A character's Proficiency Bonus increases at certain levels, as shown in the [Character Advancement table](#character-advancement) and your class features table. When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.
+4. **_Adjust Proficiency Bonus._** A character's Proficiency Bonus increases at certain levels, as shown in the [Character Advancement](#) table and your class features table. When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.
 5. **_Adjust Ability Modifiers._** If you choose a feat that increases one or more of your ability scores, your ability modifier also changes if the new score is an even number. When that happens, adjust all the numbers on your character sheet that use that ability modifier. When your Constitution modifier increases by 1, your Hit Point maximum increases by 1 for each level you have attained. For example, if a character reaches level 8 and increases their Constitution score from 17 to 18, the Constitution modifier increases to +4. The character's Hit Point maximum then increases by 8, in addition to the Hit Points gained for reaching level 8.
 
 ### Fixed Hit Points by Class
@@ -553,7 +552,7 @@ Your DM might start your group's characters at a level higher than 1. It is part
 
 ## Creating Your Character
 
-Creating a higher-level character uses the same character-creation steps outlined in this page and the rules for advancing beyond level 1 provided in the [Level Advancement](#level-advancement) section. You begin with the minimum amount of XP required to reach your starting level. For example, if the DM starts you at level 10, you have 64,000 XP.
+Creating a higher-level character uses the same character-creation steps outlined in this page and the rules for advancing beyond level 1 provided in the [Level Advancement](#) section. You begin with the minimum amount of XP required to reach your starting level. For example, if the DM starts you at level 10, you have 64,000 XP.
 
 ## Starting Equipment
 
@@ -581,7 +580,7 @@ To qualify for a new class, you must have a score of at least 13 in the primary 
 
 ## Experience Points
 
-The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the [Character Advancement table](#character-advancement). For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
+The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the [Character Advancement](#) table. For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
 
 ## Hit Points and Hit Point Dice
 
@@ -591,7 +590,7 @@ Add together the Hit Dice granted by all your classes to form your pool of Hit D
 
 ## Proficiency Bonus
 
-Your Proficiency Bonus is based on your total character level, not your level in a particular class, as shown in the [Character Advancement table](#character-advancement). For example, if you are a level 3 Fighter / level 2 Rogue, you have the Proficiency Bonus of a level 5 character, which is +3.
+Your Proficiency Bonus is based on your total character level, not your level in a particular class, as shown in the [Character Advancement](#) table. For example, if you are a level 3 Fighter / level 2 Rogue, you have the Proficiency Bonus of a level 5 character, which is +3.
 
 ## Proficiencies
 

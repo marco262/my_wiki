@@ -17,7 +17,7 @@
 
 <p>
 <strong>Casting Time:</strong> {{casting_time}}<br />
-<strong>Range:</strong> {{range}}<br />
+<strong>Range:</strong> {{!range_md}}<br />
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
 <strong>Duration:</strong> {{duration}}</p>
 

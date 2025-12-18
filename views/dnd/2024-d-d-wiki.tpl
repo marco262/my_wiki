@@ -8,19 +8,19 @@
 
 ### Common Races
 
-* [[[advancement:Races#Dwarf]]]
-* [[[advancement:Races#Elf]]]
-* [[[advancement:Races#Gnome]]]
-* [[[advancement:Races#Halfling]]]
-* [[[advancement:Races#Human]]]
+* [[[race:Dwarf]]]
+* [[[race:Elf]]]
+* [[[race:Halfling]]]
+* [[[race:Human]]]
 
 ### Uncommon Races
 
-* [[[advancement:Races#Aasimar]]]
-* [[[advancement:Races#Dragonborn]]]
-* [[[advancement:Races#Goliath]]]
-* [[[advancement:Races#Orc]]]
-* [[[advancement:Races#Tiefling]]]
+* [[[race:Aasimar]]]
+* [[[race:Dragonborn]]]
+* [[[race:Gnome]]]
+* [[[race:Goliath]]]
+* [[[race:Orc]]]
+* [[[race:Tiefling]]]
 
 </div>
 
@@ -66,14 +66,15 @@
 
 ## Equipment
 
-* [[[general:equipment#armor-and-shields|Armor and Shields]]]
-* [[[general:equipment#weapons|Weapons]]]
-* [[[general:equipment#adventuring-gear|Adventuring Gear]]]
-* [[[general:equipment#tools|Tools]]]
-* [[[general:equipment#mounts-and-vehicles|Mounts and Vehicles]]]
-* [[[general:equipment#trade-goods|Trade Goods]]]
-* [[[general:equipment#expenses|Expenses]]]
-* [[[general:equipment#trinkets|Trinkets]]]
+* [[[general:equipment#Coins]]]
+* [[[general:equipment#Weapons]]]
+* [[[general:equipment#Armor]]]
+* [[[general:equipment#Tools]]]
+* [[[general:equipment#Adventuring Gear]]]
+* [[[general:equipment#Mounts and Vehicles]]]
+* [[[general:equipment#Services]]]
+* [[[general:equipment#Magic Items]]]
+* [[[general:equipment#Crafting Equipment]]]
 
 ## System Info
 
