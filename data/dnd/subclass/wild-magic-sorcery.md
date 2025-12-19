@@ -1,4 +1,4 @@
-[[breadcrumb /onednd/class/Sorcerer|Sorcerer]]
+[[breadcrumb /dnd/class/Sorcerer|Sorcerer]]
 
 _Unleash Chaotic Magic_
 

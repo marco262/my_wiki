@@ -276,6 +276,10 @@ def load_wsgi_endpoints(app: Bottle):
             return
         redirect(f"/{link}/{name}")
 
+    @app.get("/onednd/<url:path>")
+    def onednd_redirect(url):
+        redirect(f"/dnd/{url}", code=301)
+
 
 def gm_auth_check(username, password):
     return username.lower() == "gm" and bcrypt.checkpw(password.encode("utf-8"), GM_NOTES_PW_HASH)
