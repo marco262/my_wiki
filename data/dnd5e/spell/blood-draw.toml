@@ -1,0 +1,17 @@
+title = "Blood Draw"
+classes = ["sorcerer", "warlock", "wizard"]
+level = "1"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 reaction, which you take when a medium sized create dies within range"
+range = "60 feet"
+components = ["V", "S"]
+material = "1 Medium sized corpse in range"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = false
+duration = "1 minute"
+description = "When a Medium sized creature that bleeds dies within range you may use your reaction to draw 8 blood masses from its corpse."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

@@ -79,6 +79,7 @@ casting_times = [
 durations = [
     "Instantaneous", 
     "1 round",
+    "2 rounds",
     "6 rounds",
     "1 minute",
     "10 minutes",
@@ -103,6 +104,7 @@ ranges = [
     "15 feet",
     "20 feet",
     "30 feet",
+    "40 feet",
     "60 feet",
     "90 feet",
     "100 feet",
@@ -135,6 +137,7 @@ sources = [
     "Tasha's Cauldron of Everything",
     "Guildmaster's Guide to Ravnica",
     "Homebrew",
+    "Champion's Ascension",
 ]
 
 source_acronyms = {
@@ -149,6 +152,7 @@ source_acronyms = {
     "Waterdeep: Dragon Heist": "WDH",
     "Guildmaster's Guide to Ravnica": "GGR",
     "Homebrew": "Home",
+    "Champion's Ascension": "CA",
 }
 
 ability_scores = [

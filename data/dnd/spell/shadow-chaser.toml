@@ -1,0 +1,13 @@
+title = "Shadow Chaser"
+spell_lists = ["Cleric", "Paladin"]
+level = "2"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Bonus Action"
+range = "Self (60 feet [[glossary:cone]] tip with 2 spaces leeway at edge)"
+components = ["S"]
+duration = "Instantaneous"
+description = "Become a flash of intangible divine energy phasing through small obstacles to a creature you see in range. Make an unarmed attack using your Strength or Dexterity modifier, dealing 1d8 + your ability modifier in radiant damage on a hit. The creature must make a Strength saving throw or be pushed back 5 ft and grant you [[glossary:advantage]] on the next melee attack you make against it. Additionally recharge your Divine Protection by half of its hitpoints if you possess that feature."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

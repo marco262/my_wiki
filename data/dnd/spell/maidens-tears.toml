@@ -1,0 +1,27 @@
+title = "Maiden's Tears"
+spell_lists = ["Druid", "Sorcerer", "Warlock", "Wizard"]
+level = "2"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "120 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """
+You summon a volley of six razor-sharp icicles that glint like crystalline tears. Make a ranged spell attack for each icicle. You can target one creature or divide the icicles among several within range.
+
+**On a hit:** The target takes 1d8 cold damage.
+
+**Freeze Trigger:** If at least six icicles from this casting hit the same creature, that creature must succeed on a Constitution saving throw or become encased in ice until the end of your next turn.
+
+**While encased:**
+
+* The creature is petrified.
+* It is vulnerable to bludgeoning damage.
+
+The effect ends early if the creature takes bludgeoning damage, as the ice shatters.
+"""
+at_higher_levels = "You create two additional icicles for each spell slot level above 2. A creature must still be hit by six or more icicles to trigger the freeze."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

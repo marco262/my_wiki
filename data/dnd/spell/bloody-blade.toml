@@ -1,0 +1,24 @@
+title = "Bloody Blade"
+spell_lists = ["Sorcerer", "Warlock", "Wizard"]
+level = "1"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "20 feet"
+components = ["V", "S", "M"]
+material = "2 blood masses or 10 hp, and one weapon capable of dealing slashing damage"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = true
+duration = "1 minute"
+description = """
+Imbue your blade with hemomantic runes and then coat your blade in blood and slash it forward sending a projectile dealing your weapon damage + your spell casting modifier in slashing damage. Using this against a target that is adjacent to you instead sharpens your blade with the coating dealing your normal weapon damage + weapon ability modifier plus the spells damage as well.
+
+The runes last for one minute but dissipate after not being used for 1 round. You may send out additional slashes as part of your attack action provided you have the blood masses to do so in the area or the HP required.
+
+When you no longer have enough blood masses or HP to fuel this spell, the spell ends.
+"""
+at_higher_levels = "The range increases by 10ft for each spell slot level above 1."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

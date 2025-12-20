@@ -1,0 +1,18 @@
+title = "Rejuvenate"
+classes = ["sorcerer", "warlock", "wizard"]
+level = "3"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "1 or more blood masses"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = true
+duration = "Instantaneous"
+description = "Extract the Vital essence of blood masses under your control healing yourself 1d12 hit points per blood mass consumed, up to 4 per casting."
+at_higher_levels = "The blood mass maximum increases by 2 for each spell slot level above 3."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

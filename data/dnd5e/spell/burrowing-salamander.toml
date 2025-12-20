@@ -1,0 +1,22 @@
+title = "Burrowing Salamanders"
+classes = ["druid", "sorcerer", "warlock", "wizard"]
+level = "4"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "60 feet"
+components = ["S"]
+duration = "Instantaneous"
+description = """
+You send intense burrowing tendrils of flame into the ground.
+
+Choose up to eight 5-foot squares at the far edge of a 60-foot cone originating from you. From each chosen square, a 40-foot-tall, 5-foot-wide column of fire erupts straight upward.
+
+Each creature in a chosen square or in a column above it must make a Dexterity saving throw. On a failed save, a creature takes 7d10 fire damage; on a successful save, it takes half as much damage.
+
+The fire ignites flammable objects in the area that aren't being worn or carried.
+"""
+at_higher_levels = "The damage increases by 1d10 for each spell slot level above 4."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

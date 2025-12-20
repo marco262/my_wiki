@@ -1,0 +1,16 @@
+title = "Sanguine Retaliation"
+spell_lists = ["Sorcerer", "Warlock", "Wizard"]
+level = "2"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Reaction, which you take when creature that bleeds takes slashing or piercing damage"
+range = "60 feet"
+components = ["V", "S"]
+duration = "Instantaneous"
+description = """
+When a creature that bleeds, and is in range of the spell, takes slashing or piercing damage you may use your [[glossary:Reaction]] to instantaneously sharpen the spilt blood into needles and blades that strike the target. Make a spell attack roll against the target with advantage dealing 1d8 piercing or slashing damage per 5 hit points of blood spilt up to a maximum of 30 hit points/6 blood masses.
+"""
+at_higher_levels = "The hit point maximum increases by 15 and the blood mass maximum increases by 3 for each spell slot level above 2."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

@@ -1,0 +1,20 @@
+title = "Ball Lightning"
+spell_lists = ["Druid", "Sorcerer", "Warlock", "Wizard"]
+level = "4"
+school = "Evocation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "40 feet"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+You Conjure a sphere of lightning and send it to a location within 40 feet of you. Everything it passes through must make a dexterity saving throw or be zapped for 3d12 lightning damage.
+
+Once the Sphere has arrived in its place it stabilizes and requires every opponent within 15 ft of it to make dexterity saving throws once it enters that range or on the start of its turn or be zapped once again for 3d12 damage.
+
+While concentrating you may move the sphere another 40 ft in any direction as a bonus action.
+"""
+at_higher_levels = "The damage increases by 1d12 for each spell slot level above 4."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

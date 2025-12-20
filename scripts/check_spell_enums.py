@@ -1,6 +1,7 @@
 import os
 
 from data.dnd5e.enums import spell_classes, spell_levels, schools, casting_times, ranges, durations, sources
+# from src.dnd.endpoints import load_spells
 from src.dnd5e.utils import load_spells
 
 if os.path.basename(os.getcwd()) == "scripts":

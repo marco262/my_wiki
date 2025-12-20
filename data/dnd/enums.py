@@ -65,6 +65,7 @@ casting_times = [
 durations = [
     "Instantaneous", 
     "1 round",
+    "2 rounds",
     "6 rounds",
     "1 minute",
     "10 minutes",
@@ -89,6 +90,7 @@ ranges = [
     "15 feet",
     "20 feet",
     "30 feet",
+    "40 feet",
     "60 feet",
     "90 feet",
     "100 feet",
@@ -115,12 +117,14 @@ shapes = [
 sources = [
     "Player's Handbook",
     "Homebrew",
+    "Champion's Ascension",
 ]
 
 source_acronyms = {
     "Player's Handbook": "PHB",
     "Homebrew": "Home",
     "Player's Handbook Playtest 7": "PHP7",
+    "Champion's Ascension": "CA",
 }
 
 ability_scores = [

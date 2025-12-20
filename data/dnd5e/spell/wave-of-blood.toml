@@ -1,0 +1,18 @@
+title = "Wave of Blood"
+classes = ["sorcerer", "warlock", "wizard"]
+level = "1"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Self"
+components = ["V", "S", "M"]
+material = "2 blood masses or 10 hp"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = true
+duration = "Instantaneous"
+description = "You push a wave of blood in a 10ft cube adjacent to you. Creatures within that space must make a strength saving throw or get pushed 20ft away from the wave. If their movement is stopped prematurely they take 1d6 damage per 5ft of travel denied. If their movement would be stopped by a creature that creature may make a strength saving throw or take the same damage and both creatures are knocked prone."
+at_higher_levels = "The range increases by 10ft for each spell slot level above 1."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

@@ -1,0 +1,14 @@
+title = "Divine Lightning Bolt"
+classes = ["cleric", "paladin"]
+level = "2"
+school = "Evocation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "60/120 feet"
+components = ["S"]
+duration = "2 rounds"
+description = "Begin to Conjure a Spear of Divine lightning. You must hold this forming spear until the start of your next turn. Until then if you take damage you must make a concentration check (but it doesn't occupy your concentration slot) to maintain the conjuration. Then anytime during your next turn you may throw it at a single target as a ranged spell attack using your spell casting modifier as part of an attack action or as a bonus action. A target takes 6d10 radiant damage on a hit. You have a Fly Speed of 10 feet until you throw the spear."
+at_higher_levels = "The damage increases by 1d10 for each spell slot level above 2."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

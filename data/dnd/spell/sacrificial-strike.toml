@@ -1,0 +1,18 @@
+title = "Sacrificial Strike"
+spell_lists = ["Sorcerer", "Warlock", "Wizard"]
+level = "0"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "Action"
+range = "40 feet"
+components = ["V", "S", "M"]
+material = "1 blood mass or 5 hp"
+expensive_material_component = false
+material_component_cost = 0
+material_component_consumed = true
+duration = "Instantaneous"
+description = "Pressurize blood at high speeds towards a creature or location within 40 ft of you. Make a spell attack roll dealing 1d12 XXXXX damage on a successful hit."
+cantrip_upgrade = "The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12)."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

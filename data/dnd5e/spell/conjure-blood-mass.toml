@@ -1,0 +1,18 @@
+title = "Conjure Blood Mass"
+classes = ["sorcerer", "warlock", "wizard"]
+level = "cantrip"
+school = "Transmutation"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 reaction, which you take when a creature in range takes slashing, piercing, or necrotic bleeding damage"
+range = "60 feet"
+components = ["V", "S"]
+duration = "10 minutes"
+description = """
+When a creature within 60 ft of you takes slashing or piercing damage or necrotic bleeding damage you may use your Reaction to shape its shed blood into a floating mass usable for hemomancy spells. In order to shape a blood mass it must have lost at least 5 HP from a slashing piercing or necrotic bleeding damage source. These blood masses then float towards then orbit near you ready to use.
+
+After 10 minutes, the blood stales and becomes unusable and falls to the ground.
+"""
+cantrip_upgrade = "The number of blood masses you can conjure increases when you reach levels 5 (2), 11 (3), and 17 (4)."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

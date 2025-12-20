@@ -1,0 +1,19 @@
+title = "Circulate"
+spell_lists = ["Sorcerer", "Warlock", "Wizard"]
+level = "3"
+school = "Transmutation"
+concentration_spell = true
+ritual_spell = false
+casting_time = "Action"
+range = "Self"
+components = ["V", "S"]
+duration = "1 minute"
+description = """
+Enchant and violently circulate your own blood causing it to uptake more oxygen and energy enhancing your physical attributes. Temporarily increase your Strength and Dexterity scores by 4, your movement speed by 10 feet and gain [[glossary:Advantage]] on saving throws to resist poison.
+
+Maintaining the spell for 5 rounds or more gives you a level of exhaustion once the spell drops.
+
+You take an additional die of damage from piercing and slashing sources while maintaining this effect.
+"""
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"

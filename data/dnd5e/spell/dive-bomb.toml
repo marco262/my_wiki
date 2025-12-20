@@ -1,0 +1,24 @@
+title = "Dive Bomb"
+classes = ["druid", "sorcerer", "warlock", "wizard"]
+level = "3"
+school = "Necromancy"
+concentration_spell = false
+ritual_spell = false
+casting_time = "1 action"
+range = "Self"
+components = ["V", "S"]
+duration = "10 minutes"
+description = """
+Summon 8 corpses of small flying creatures as undead minions. They each have 10 hit points and occupy your space alongside you.
+
+**Divebomb Attack:**
+
+As an Attack action you can command two corpses to fly towards a creature within 90 ft of you to explode onto a creature. On hit they take 1d10 Acid damage + your spell casting ability modifier in necrotic damage. On a successful block they take half that damage.
+
+All other creatures within a 5ft radius must make a dexterity saving throw per corpse or take that damage or half upon a success.
+
+If the corpses explode prematurely due to being reduced to 0 hitpoints by an aoe that hits you, they explode. Choose to roll a saving throw for all remaining corpses or each individual one caster's choice.
+"""
+at_higher_levels = "You create two additional corpses for each spell slot level above 4."
+source = "Champion's Ascension"
+source_link = "https://docs.google.com/document/d/1IQHkUuF9yXGC2s1rbMydjgfLFrEPCMDGlf_Q-JSM5v8/edit?tab=t.0"
