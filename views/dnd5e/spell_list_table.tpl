@@ -24,7 +24,7 @@
             r = "<sup>r</sup>" if s["ritual_spell"] else ""
             c = "<sup>c</sup>" if s["concentration_spell"] else ""
             %>
-            <a href="/dnd/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
+            <a href="/dnd5e/spell/{{k}}">{{s["title"]}}</a>{{! r }}{{! c }}
         </td>
         <td>{{s["school"].title()}}</td>
         <%

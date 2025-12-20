@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#trade-goods
+REDIRECT /dnd5e/general/equipment#trade-goods

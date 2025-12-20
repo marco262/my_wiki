@@ -1,2 +1,2 @@
 % rebase("common/base.tpl", title=title)
-% include("dnd/spell_list.tpl")
+% include("dnd5e/spell_list.tpl")

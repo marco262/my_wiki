@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#wealth
+REDIRECT /dnd5e/general/equipment#wealth

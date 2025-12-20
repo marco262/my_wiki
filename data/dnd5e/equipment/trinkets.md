@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#trinkets
+REDIRECT /dnd5e/general/equipment#trinkets

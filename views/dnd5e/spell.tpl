@@ -12,7 +12,7 @@ from data.dnd5e.enums import classes as class_list
 spell_class_list = []
 for c in class_list:
     if c in classes or c in get("classes_ua", []):
-        link = '<a href="/dnd/class_spell_list/{}/true">{}</a>'.format(c, c.title())
+        link = '<a href="/dnd5e/class_spell_list/{}/true">{}</a>'.format(c, c.title())
         if c in get("classes_ua", []):
             link = "[" + link + "]"
         end

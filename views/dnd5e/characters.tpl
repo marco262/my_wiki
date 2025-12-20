@@ -4,7 +4,7 @@
 % else:
 <ul>
     % for name in characters:
-        <li><a href="/dnd/character/{{ name }}">{{ name }}</a></li>
+        <li><a href="/dnd5e/character/{{ name }}">{{ name }}</a></li>
     % end
 </ul>
 % end

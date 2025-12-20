@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#mounts-and-vehicles
+REDIRECT /dnd5e/general/equipment#mounts-and-vehicles

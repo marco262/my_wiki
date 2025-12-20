@@ -12,7 +12,7 @@
     </tr>
 % for filename, magic_item in magic_items:
     <tr>
-        <td><a href="/dnd/equipment/magic-item/{{ filename }}">{{ magic_item["name"] }}</a></td>
+        <td><a href="/dnd5e/equipment/magic-item/{{ filename }}">{{ magic_item["name"] }}</a></td>
         <td>{{ magic_item["rarity_type"] }}</td>
         <td>{{ magic_item["type"] }}</td>
         <td>{{ "yes" if magic_item["attunement"] else "no" }}</td>

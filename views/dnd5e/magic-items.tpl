@@ -12,7 +12,7 @@ else:
 
 <h2>{{rarity}}</h2>
 <%
-            include("dnd/magic-items-table.tpl", magic_items=magic_items[rarity])
+            include("dnd5e/magic-items-table.tpl", magic_items=magic_items[rarity])
         end
     end
 end

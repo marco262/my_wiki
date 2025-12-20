@@ -105,8 +105,8 @@
 <hr>
 
 <p>
-    See <a href="/dnd/general/Downtime Activities#buying-a-magic-item">Buying a Magic Item</a> for prices for buying magic items.<br>
-    See <a href="/dnd/general/Downtime Activities#scribing-a-spell-scroll">Scribing a Spell Scroll</a> for Spell Scroll costs.
+    See <a href="/dnd5e/general/Downtime Activities#buying-a-magic-item">Buying a Magic Item</a> for prices for buying magic items.<br>
+    See <a href="/dnd5e/general/Downtime Activities#scribing-a-spell-scroll">Scribing a Spell Scroll</a> for Spell Scroll costs.
     I recommend rounding up to the next whole magnitude (e.g. 300gp -> 400gp, 2,500gp -> 3,000gp) to cover the seller's profit margin.
 </p>
 

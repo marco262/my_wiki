@@ -12,7 +12,7 @@ else:
 
 <h2>{{ordinal(level)}} Level</h2>
 <%
-            include("dnd/spell_list_table.tpl", spells=spell_dict[level])
+            include("dnd5e/spell_list_table.tpl", spells=spell_dict[level])
         end
     end
     %>

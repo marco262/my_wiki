@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#armor-and-shields
+REDIRECT /dnd5e/general/equipment#armor-and-shields

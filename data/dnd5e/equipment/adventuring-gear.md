@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#adventuring-gear
+REDIRECT /dnd5e/general/equipment#adventuring-gear

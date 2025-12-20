@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#starting-equipment
+REDIRECT /dnd5e/general/equipment#starting-equipment

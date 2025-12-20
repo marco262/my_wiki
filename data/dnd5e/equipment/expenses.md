@@ -1,1 +1,1 @@
-REDIRECT /dnd/general/equipment#expenses
+REDIRECT /dnd5e/general/equipment#expenses
