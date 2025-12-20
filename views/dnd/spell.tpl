@@ -19,7 +19,7 @@
 <strong>Casting Time:</strong> {{casting_time}}<br />
 <strong>Range:</strong> {{!range_md}}<br />
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
-<strong>Duration:</strong> {{duration}}</p>
+<strong>Duration:</strong> {{ "Concentration, up to " if concentration_spell else "" }}{{duration}}</p>
 
 {{!description_md}}
 % if defined('at_higher_levels'):
