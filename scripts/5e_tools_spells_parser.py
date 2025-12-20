@@ -31,8 +31,6 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"{@b (.*?)}", r"**\1**", text)
     text = re.sub(r"{@i (.*?)}", r"_\1_", text)
     text = text.replace("—", " -- ")
-    # Fixes issue where having double quotes in a text field, even when triple-quoted, sometimes breaks parsing.
-    text = text.replace(r'"', r'\"')
     # Fix glossary misnomers
     text = text.replace("[[glossary:Opportunity Attack]]", "[[glossary:Opportunity Attacks|Opportunity Attack]]")
     return text
