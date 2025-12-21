@@ -57,7 +57,7 @@ As a Fighter, you gain the following class features when you reach the specified
 
 ### Level 1: Fighting Style
 
-You have honed your martial prowess and gain a Fighting Style feat of your choice.
+You have honed your martial prowess and gain a [[[general:Feats#Fighting Style]]] feat of your choice.
 
 Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
 
@@ -71,7 +71,7 @@ When you reach certain Fighter levels, you gain more uses of this feature, as sh
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the [[[general:Equipment#Mastery Properties]]] of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.
 

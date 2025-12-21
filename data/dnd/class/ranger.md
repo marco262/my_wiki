@@ -81,7 +81,7 @@ The number of times you can cast the spell without a spell slot increases when y
 
 ### Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.
+Your training with weapons allows you to use the [[[general:Equipment#Mastery Properties]]] of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.
 
 Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.
 
@@ -95,7 +95,7 @@ Thanks to your travels, you gain the following benefits.
 
 ### Level 2: Fighting Style
 
-You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.
+You gain a [[[general:Feats#Fighting Style]]] feat of your choice. Instead of choosing one of those feats, you can choose the option below.
 
 #### Druidic Warrior
 

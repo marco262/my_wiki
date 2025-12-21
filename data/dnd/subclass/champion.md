@@ -16,7 +16,7 @@ In addition, immediately after you score a Critical Hit, you can move up to half
 
 ### Level 7: Additional Fighting Style
 
-You gain another Fighting Style feat of your choice.
+You gain another [[[general:Feats#Fighting Style]]] feat of your choice.
 
 ### Level 10: Heroic Warrior
 

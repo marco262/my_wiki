@@ -4,13 +4,13 @@ This page offers a collection of feats, which are special features not tied to a
 
 The sections below explain the parts of a feat and list a variety of feat options separated into categories.
 
-Your background gives you a feat, and at certain levels, your class gives you the [Ability Score Improvement](#ability-score-improvement) feat or the choice of another feat for which you qualify.
+Your background gives you a feat, and at certain levels, your class gives you the [Ability Score Improvement](#) feat or the choice of another feat for which you qualify.
 
 By whatever means you acquire a feat, you can take it only once unless its description says otherwise.
 
 # Feat Descriptions
 
-This page's feats are organized by category -- [Origin](#origin-feats), [General](#general-feats), [Fighting Style](#fighting-style-feats), or [Epic Boon](#epic-boon-feats) -- and alphabetized in each category. All the feats are listed alphabetically in the [Feat List table](#feat-list). If a feat can be taken more than once, an asterisk appears after its name in that table.
+This page's feats are organized by category -- [Origin](#), [General](#), [Fighting Style](#), or [Epic Boon](#) -- and alphabetized in each category. All the feats are listed alphabetically in the [Feat List](#) table. If a feat can be taken more than once, an asterisk appears after its name in that table.
 
 ## Parts of a Feat
 
@@ -28,85 +28,85 @@ The description of a feat contains the following parts, which are presented afte
 
 | Feat                                                           | Category                                |
 |----------------------------------------------------------------|-----------------------------------------|
-| [Ability Score Improvement](#ability-score-improvement)*       | [General](#general-feats)               |
-| [Actor](#actor)                                                | [General](#general-feats)               |
-| [Alert](#alert)                                                | [Origin](#origin-feats)                 |
-| [Archery](#archery)                                            | [Fighting Style](#fighting-style-feats) |
-| [Athlete](#athlete)                                            | [General](#general-feats)               |
-| [Blind Fighting](#blind-fighting)                              | [Fighting Style](#fighting-style-feats) |
-| [Boon of Combat Prowess](#boon-of-combat-prowess)              | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Dimensional Travel](#boon-of-dimensional-travel)      | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Energy Resistance](#boon-of-energy-resistance)        | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Fate](#boon-of-fate)                                  | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Fortitude](#boon-of-fortitude)                        | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Irresistible Offense](#boon-of-irresistible--offense) | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Recovery](#boon-of-recovery)                          | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Skill](#boon-of-skill)                                | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Speed](#boon-of-speed)                                | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Spell Recall](#boon-of-spell-recall)                  | [Epic Boon](#epic-boon-feats)           |
-| [Boon of the Night Spirit](#boon-of-the-night-spirit)          | [Epic Boon](#epic-boon-feats)           |
-| [Boon of Truesight](#boon-of-truesight)                        | [Epic Boon](#epic-boon-feats)           |
-| [Charger](#charger)                                            | [General](#general-feats)               |
-| [Chef](#chef)                                                  | [General](#general-feats)               |
-| [Crafter](#crafter)                                            | [Origin](#origin-feats)                 |
-| [Crossbow Expert](#crossbow-expert)                            | [General](#general-feats)               |
-| [Crusher](#crusher)                                            | [General](#general-feats)               |
-| [Defense](#defense)                                            | [Fighting Style](#fighting-style-feats) |
-| [Defensive Duelist](#defensive-duelist)                        | [General](#general-feats)               |
-| [Dual Wielder](#dual-wielder)                                  | [General](#general-feats)               |
-| [Dueling](#dueling)                                            | [Fighting Style](#fighting-style-feats) |
-| [Durable](#durable)                                            | [General](#general-feats)               |
-| [Elemental Adept](#elemental-adept)*                           | [General](#general-feats)               |
-| [Fey Touched](#fey-touched)                                    | [General](#general-feats)               |
-| [Grappler](#grappler)                                          | [General](#general-feats)               |
-| [Great Weapon Fighting](#great-weapon-fighting)                | [Fighting Style](#fighting-style-feats) |
-| [Great Weapon Master](#great-weapon-master)                    | [General](#general-feats)               |
-| [Healer](#healer)                                              | [Origin](#origin-feats)                 |
-| [Heavily Armored](#heavily-armored)                            | [General](#general-feats)               |
-| [Heavy Armor Master](#heavy-armor-master)                      | [General](#general-feats)               |
-| [Inspiring Leader](#inspiring-leader)                          | [General](#general-feats)               |
-| [Interception](#interception)                                  | [Fighting Style](#fighting-style-feats) |
-| [Keen Mind](#keen-mind)                                        | [General](#general-feats)               |
-| [Lightly Armored](#lightly-armored)                            | [General](#general-feats)               |
-| [Lucky](#lucky)                                                | [Origin](#origin-feats)                 |
-| [Mage Slayer](#mage-slayer)                                    | [General](#general-feats)               |
-| [Magic Initiate](#magic-initiate)*                             | [Origin](#origin-feats)                 |
-| [Martial Weapon Training](#martial-weapon-training)            | [General](#general-feats)               |
-| [Medium Armor Master](#medium-armor-master)                    | [General](#general-feats)               |
-| [Moderately Armored](#moderately-armored)                      | [General](#general-feats)               |
-| [Mounted Combatant](#mounted-combatant)                        | [General](#general-feats)               |
-| [Musician](#musician)                                          | [Origin](#origin-feats)                 |
-| [Observant](#observant)                                        | [General](#general-feats)               |
-| [Piercer](#piercer)                                            | [General](#general-feats)               |
-| [Poisoner](#poisoner)                                          | [General](#general-feats)               |
-| [Polearm Master](#polearm-master)                              | [General](#general-feats)               |
-| [Protection](#protection)                                      | [Fighting Style](#fighting-style-feats) |
-| [Resilient](#resilient)                                        | [General](#general-feats)               |
-| [Ritual Caster](#ritual-caster)                                | [General](#general-feats)               |
-| [Savage Attacker](#savage-attacker)                            | [Origin](#origin-feats)                 |
-| [Sentinel](#sentinel)                                          | [General](#general-feats)               |
-| [Shadow Touched](#shadow-touched)                              | [General](#general-feats)               |
-| [Sharpshooter](#sharpshooter)                                  | [General](#general-feats)               |
-| [Shield Master](#shield-master)                                | [General](#general-feats)               |
-| [Skilled](#skilled)*                                           | [Origin](#origin-feats)                 |
-| [Skill Expert](#skill-expert)                                  | [General](#general-feats)               |
-| [Skulker](#skulker)                                            | [General](#general-feats)               |
-| [Slasher](#slasher)                                            | [General](#general-feats)               |
-| [Speedy](#speedy)                                              | [General](#general-feats)               |
-| [Spell Sniper](#spell-sniper)                                  | [General](#general-feats)               |
-| [Tavern Brawler](#tavern-brawler)                              | [Origin](#origin-feats)                 |
-| [Telekinetic](#telekinetic)                                    | [General](#general-feats)               |
-| [Telepathic](#telepathic)                                      | [General](#general-feats)               |
-| [Thrown Weapon Fighting](#thrown-weapon-fighting)              | [Fighting Style](#fighting-style-feats) |
-| [Tough](#tough)                                                | [Origin](#origin-feats)                 |
-| [Two-Weapon Fighting](#two-weapon-fighting)                    | [Fighting Style](#fighting-style-feats) |
-| [Unarmed Fighting](#unarmed-fighting)                          | [Fighting Style](#fighting-style-feats) |
-| [War Caster](#war-caster)                                      | [General](#general-feats)               |
-| [Weapon Master](#weapon-master)                                | [General](#general-feats)               |
+| [Ability Score Improvement](#)*       | [General](#)               |
+| [Actor](#)                                                | [General](#)               |
+| [Alert](#)                                                | [Origin](#)                 |
+| [Archery](#)                                            | [Fighting Style](#) |
+| [Athlete](#)                                            | [General](#)               |
+| [Blind Fighting](#)                              | [Fighting Style](#) |
+| [Boon of Combat Prowess](#)              | [Epic Boon](#)           |
+| [Boon of Dimensional Travel](#)      | [Epic Boon](#)           |
+| [Boon of Energy Resistance](#)        | [Epic Boon](#)           |
+| [Boon of Fate](#)                                  | [Epic Boon](#)           |
+| [Boon of Fortitude](#)                        | [Epic Boon](#)           |
+| [Boon of Irresistible Offense](#) | [Epic Boon](#)           |
+| [Boon of Recovery](#)                          | [Epic Boon](#)           |
+| [Boon of Skill](#)                                | [Epic Boon](#)           |
+| [Boon of Speed](#)                                | [Epic Boon](#)           |
+| [Boon of Spell Recall](#)                  | [Epic Boon](#)           |
+| [Boon of the Night Spirit](#)          | [Epic Boon](#)           |
+| [Boon of Truesight](#)                        | [Epic Boon](#)           |
+| [Charger](#)                                            | [General](#)               |
+| [Chef](#)                                                  | [General](#)               |
+| [Crafter](#)                                            | [Origin](#)                 |
+| [Crossbow Expert](#)                            | [General](#)               |
+| [Crusher](#)                                            | [General](#)               |
+| [Defense](#)                                            | [Fighting Style](#) |
+| [Defensive Duelist](#)                        | [General](#)               |
+| [Dual Wielder](#)                                  | [General](#)               |
+| [Dueling](#)                                            | [Fighting Style](#) |
+| [Durable](#)                                            | [General](#)               |
+| [Elemental Adept](#)*                           | [General](#)               |
+| [Fey Touched](#)                                    | [General](#)               |
+| [Grappler](#)                                          | [General](#)               |
+| [Great Weapon Fighting](#)                | [Fighting Style](#) |
+| [Great Weapon Master](#)                    | [General](#)               |
+| [Healer](#)                                              | [Origin](#)                 |
+| [Heavily Armored](#)                            | [General](#)               |
+| [Heavy Armor Master](#)                      | [General](#)               |
+| [Inspiring Leader](#)                          | [General](#)               |
+| [Interception](#)                                  | [Fighting Style](#) |
+| [Keen Mind](#)                                        | [General](#)               |
+| [Lightly Armored](#)                            | [General](#)               |
+| [Lucky](#)                                                | [Origin](#)                 |
+| [Mage Slayer](#)                                    | [General](#)               |
+| [Magic Initiate](#)*                             | [Origin](#)                 |
+| [Martial Weapon Training](#)            | [General](#)               |
+| [Medium Armor Master](#)                    | [General](#)               |
+| [Moderately Armored](#)                      | [General](#)               |
+| [Mounted Combatant](#)                        | [General](#)               |
+| [Musician](#)                                          | [Origin](#)                 |
+| [Observant](#)                                        | [General](#)               |
+| [Piercer](#)                                            | [General](#)               |
+| [Poisoner](#)                                          | [General](#)               |
+| [Polearm Master](#)                              | [General](#)               |
+| [Protection](#)                                      | [Fighting Style](#) |
+| [Resilient](#)                                        | [General](#)               |
+| [Ritual Caster](#)                                | [General](#)               |
+| [Savage Attacker](#)                            | [Origin](#)                 |
+| [Sentinel](#)                                          | [General](#)               |
+| [Shadow Touched](#)                              | [General](#)               |
+| [Sharpshooter](#)                                  | [General](#)               |
+| [Shield Master](#)                                | [General](#)               |
+| [Skilled](#)*                                           | [Origin](#)                 |
+| [Skill Expert](#)                                  | [General](#)               |
+| [Skulker](#)                                            | [General](#)               |
+| [Slasher](#)                                            | [General](#)               |
+| [Speedy](#)                                              | [General](#)               |
+| [Spell Sniper](#)                                  | [General](#)               |
+| [Tavern Brawler](#)                              | [Origin](#)                 |
+| [Telekinetic](#)                                    | [General](#)               |
+| [Telepathic](#)                                      | [General](#)               |
+| [Thrown Weapon Fighting](#)              | [Fighting Style](#) |
+| [Tough](#)                                                | [Origin](#)                 |
+| [Two-Weapon Fighting](#)                    | [Fighting Style](#) |
+| [Unarmed Fighting](#)                          | [Fighting Style](#) |
+| [War Caster](#)                                      | [General](#)               |
+| [Weapon Master](#)                                | [General](#)               |
 
 *This feat can be taken more than once.
 
-# Origin Feats
+# Origin
 
 These feats are in the Origin category.
 
@@ -225,7 +225,7 @@ _Origin Feat_
 
 Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.
 
-# General Feats
+# General
 
 These feats are in the General category.
 
@@ -737,7 +737,7 @@ You gain the following benefits.
 
 **_Mastery Property._** Your training with weapons allows you to use the [mastery property](/sources/dnd/phb-2024/equipment#mastery-properties) of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a [[glossary:Long Rest]], you can change the kind of weapon to another eligible kind.
 
-# Fighting Style Feats
+# Fighting Style
 
 These feats are in the Fighting Style category.
 
@@ -803,7 +803,7 @@ When you hit with your [[glossary:Unarmed Strike]] and deal damage, you can deal
 
 At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature [[glossary:Grappled]] by you.
 
-# Epic Boon Feats
+# Epic Boon
 
 These feats are in the Epic Boon category.
 
