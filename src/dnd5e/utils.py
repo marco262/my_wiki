@@ -89,12 +89,14 @@ def to_mod(num):
 def open_monster_sheet(name: str):
     try:
         return md_page(name, NAMESPACE, "monster", build_toc=False)
-    except HTTPError:
+    except FileNotFoundError:
         # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
         toml_path = pjoin(NAMESPACE, "monster", title_to_page_name(name) + ".toml")
-        if not isfile(pjoin("data", toml_path)):
+        try:
+            with open(pjoin("data", toml_path)) as f:
+                toml_dict = tomllib.loads(f.read())
+        except FileNotFoundError:
             raise HTTPError(404, f"Can't find a page for \"/{NAMESPACE}/monster/{name}\"")
-        toml_dict = tomllib.loads(pjoin("data", toml_path))
         if "redirect" in toml_dict:
             return redirect(toml_dict["redirect"])
         # Avoiding circular dependencies

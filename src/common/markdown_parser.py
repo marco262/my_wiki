@@ -4,6 +4,7 @@ For parsing *.md files, including special handling of wiki code
 import os
 import re
 import tomllib
+from tomllib import TOMLDecodeError
 from typing import Dict
 
 from bottle import template, TemplateError
@@ -193,7 +194,12 @@ class MarkdownParser:
                     if k == "file":
                         # Load a toml file, and add each value from that file to args individually
                         # Parse markdown as necessary
-                        toml_dict = tomllib.loads(os.path.join("data", v))
+                        path = os.path.join("data", v)
+                        try:
+                            with open(path) as f:
+                                toml_dict = tomllib.loads(f.read())
+                        except tomllib.TOMLDecodeError as e:
+                            raise TOMLDecodeError(f"Couldn't decode '{path}'") from e
                         for k, v in toml_dict.items():
                             if isinstance(v, str) and v.startswith("!"):
                                 v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
