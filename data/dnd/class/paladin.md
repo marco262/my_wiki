@@ -91,7 +91,7 @@ Whenever you finish a Long Rest, you can change the kinds of weapons you chose. 
 
 ### Level 2: Fighting Style
 
-You gain a [[[general:Feats#Fighting Style]]] feat of your choice. Instead of choosing one of those feats, you can choose the option below.
+You gain a [[[advancement:Feats#Fighting Style]]] feat of your choice. Instead of choosing one of those feats, you can choose the option below.
 
 #### Blessed Warrior
 

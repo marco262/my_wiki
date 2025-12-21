@@ -95,7 +95,7 @@ Thanks to your travels, you gain the following benefits.
 
 ### Level 2: Fighting Style
 
-You gain a [[[general:Feats#Fighting Style]]] feat of your choice. Instead of choosing one of those feats, you can choose the option below.
+You gain a [[[advancement:Feats#Fighting Style]]] feat of your choice. Instead of choosing one of those feats, you can choose the option below.
 
 #### Druidic Warrior
 
