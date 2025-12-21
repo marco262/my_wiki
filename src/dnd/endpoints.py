@@ -1,13 +1,13 @@
-import sys
 import tomllib
 from collections import defaultdict
 from glob import glob
 from json import loads
 from os.path import splitext, basename
 
-from bottle import Bottle, view, request
+from bottle import Bottle, view, request, redirect, abort
 
 from src.common.utils import md_page, title_to_page_name
+from src.dnd5e.utils import load_spells as load_5e_spells
 
 SPELLS = None
 SPELLS_BY_LEVEL = None
@@ -89,7 +89,14 @@ def load_wsgi_endpoints(app: Bottle):
     def spell(name):
         formatted_name = title_to_page_name(name)
         loaded_spells = load_spells()
-        return loaded_spells[formatted_name]
+        if formatted_name in loaded_spells:
+            return loaded_spells[formatted_name]
+        loaded_5e_spells = load_5e_spells()
+        if formatted_name in loaded_5e_spells:
+            redirect(f"/dnd5e/spell/{name}", code=301)
+        else:
+            abort(404, f"Could not find spell '{name}'")
+        return None
 
     @app.get('/spell_list/<c>')
     @view("dnd/spell_list_page.tpl")
