@@ -32,6 +32,7 @@ def load_spells():
             with open(path, "rb") as f:
                 d = tomllib.loads(f.read().decode())
             k = splitext(basename(path))[0]
+            d["casting_time_md"] = MD.parse_md(d["casting_time"], namespace="dnd", with_metadata=False, no_p=True)
             d["range_md"] = MD.parse_md(d["range"], namespace="dnd", with_metadata=False, no_p=True)
             d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
             if "at_higher_levels" in d:

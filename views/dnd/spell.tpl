@@ -16,7 +16,7 @@
 <p>{{fmt.format(level=ordinal(level), school=school.title(), spell_lists=", ".join(spell_lists))}}</p>
 
 <p>
-<strong>Casting Time:</strong> {{casting_time}}<br />
+<strong>Casting Time:</strong> {{!casting_time_md}}<br />
 <strong>Range:</strong> {{!range_md}}<br />
 <strong>Components:</strong> {{", ".join(components)}}{{" (" + material + ")" if "M" in components else ""}}<br />
 <strong>Duration:</strong> {{ "Concentration, up to " if concentration_spell else "" }}{{duration}}</p>

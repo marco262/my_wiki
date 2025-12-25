@@ -103,7 +103,7 @@ You always have the [[[spell:Divine Smite]]] spell prepared. In addition, you ca
 
 ### Level 3: Channel Divinity
 
-You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
+You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: **Divine Sense**, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
 
 You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
 
