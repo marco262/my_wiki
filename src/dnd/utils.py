@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from markdown2 import Markdown
 from src.common.utils import title_to_page_name, str_to_list
 
-TOOLTIP_MAX_LENGTH = 500
+TOOLTIP_MAX_LENGTH = 1000
 
 class TooltipEntry(TypedDict):
     href: str
