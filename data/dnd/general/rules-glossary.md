@@ -90,7 +90,7 @@ An adventure is a series of encounters. A story emerges through playing them. _S
 
 ## Alignment
 
-A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. _See also_ [[[general:Creating a Character#step4-choose-an-alignment|Create Your Character]]].
+A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. _See also_ [[[advancement:Creating a Character#step-4-choose-an-alignment|Creating a Character]]].
 
 ## Ally
 
@@ -215,7 +215,7 @@ A campaign is a series of adventures. _See also_ [Adventure](#adventure).
 
 ## Cantrip
 
-A cantrip is a level 0 spell, which is cast without a spell slot. _See also_ [[[general:Spells]]].
+A cantrip is a level 0 spell, which is cast without a spell slot. _See also_ [[[general:Spellcasting Rules]]].
 
 ## Carrying Capacity
 
@@ -240,7 +240,7 @@ Challenge Rating (CR) summarizes the threat a monster poses to a group of four p
 
 ## Character Sheet
 
-A character sheet is a paper or digital record that you use to track your character's information. _See also_ [[[general:Creating a Character#choose-a-character-sheet|Creating a Character]]].
+A character sheet is a paper or digital record that you use to track your character's information. _See also_ [[[advancement:Creating a Character#choose-a-character-sheet|Creating a Character]]].
 
 ## Charmed [Condition]
 
@@ -502,7 +502,7 @@ While you have the Exhaustion condition, you experience the following effects.
 
 ## Experience Points
 
-As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The _Dungeon Master's Guide_ provides guidance on awarding XP. _See also_ [[[general:Creating a Character#level-advancement|Level Advancement]]].
+As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Dungeon Master. When a character's XP total crosses certain thresholds, the character's level increases. The _Dungeon Master's Guide_ provides guidance on awarding XP. _See also_ [[[advancement:Creating a Character#level-advancement|Level Advancement]]].
 
 ## Expertise
 
@@ -900,7 +900,7 @@ While you have the Restrained condition, you experience the following effects.
 
 ## Ritual
 
-If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. _See also_ [[[general:Spells]]].
+If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. _See also_ [[[general:Spellcasting Rules]]].
 
 ## Round Down
 
@@ -972,15 +972,15 @@ A creature has a Speed, which is the distance in feet the creature can cover whe
 
 ## Spell
 
-A spell is a magical effect that has the characteristics described in [[[general:Spells]]].
+A spell is a magical effect that has the characteristics described in [[[general:Spellcasting Rules]]].
 
 ## Spell Attack
 
-A spell attack is an attack roll made as part of a spell or another magical effect. _See also_ [[[general:Spells#casting-spells|Casting Spells]]].
+A spell attack is an attack roll made as part of a spell or another magical effect. _See also_ [[[general:Spellcasting Rules#Casting Spells]]].
 
 ## Spellcasting Focus
 
-A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. _See also_ [[[general:Spells#casting-spells|Casting Spells]]].
+A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. _See also_ [[[general:Spellcasting Rules#Casting Spells]]].
 
 ## Sphere [Area of Effect]
 
