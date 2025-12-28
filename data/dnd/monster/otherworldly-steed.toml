@@ -1,0 +1,29 @@
+width = "500px"
+name = "Otherworldly Steed"
+size = "Large"
+type = "Celestial, Fey, or Fiend (Your Choice)"
+alignment = "Neutral"
+armor_class = "10 + 1 per spell level"
+hit_points = "5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)"
+speed = "60 ft., Fly 60 ft. (requires level 4+ spell)"
+strength = 18
+dexterity = 12
+constitution = 14
+intelligence = 6
+wisdom = 12
+charisma = 8
+senses = "Passive Perception 11"
+languages = "Telepathy 1 mile (works only with you)"
+special_abilities = """!
+***Life Bond.*** When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you're within 5 feet of it.
+"""
+actions = """!
+***Otherworldly Slam.*** _Melee Attack Roll:_ Bonus equal your spell attack modifier, reach 5 ft. _Hit:_ 1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.
+"""
+bonus_actions = """!
+***Fell Glare (Fiend Only; Recharges after a Long Rest).*** _Wisdom Saving Throw:_ DC equals your spell save DC, one creature within 60 feet the steed can see. _Failure:_ The target has the [[glossary:Frightened]] condition until the end of your next turn.
+
+***Fey Step (Fey Only; Recharges after a Long Rest).*** The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.
+
+***Healing Touch (Celestial Only; Recharges after a Long Rest).*** One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell's level.
+"""

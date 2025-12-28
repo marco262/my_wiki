@@ -1,12 +1,19 @@
 import re
 from re import finditer
 from typing import TypedDict
+from os.path import join as pjoin
+import tomllib
 
+from bottle import HTTPError, redirect, template
 from bs4 import BeautifulSoup, NavigableString, Tag
 from markdown2 import Markdown
-from src.common.utils import title_to_page_name, str_to_list
+from src.common.utils import title_to_page_name, str_to_list, md_page
 
 TOOLTIP_MAX_LENGTH = 1000
+NAMESPACE = "dnd"
+INCLUDE_MD = """[[include dnd5e/monster-sheet.tpl]]
+file = {}
+[[/include]]"""
 
 class TooltipEntry(TypedDict):
     href: str
@@ -182,3 +189,24 @@ def truncate_html_by_visible_text(html: str) -> str:
     soup.append(more_tag)
 
     return str(soup)
+
+
+def open_monster_sheet(name: str):
+    try:
+        return md_page(name, NAMESPACE, "monster", build_toc=False)
+    except HTTPError as e:
+        if e.status_code != 404:
+            raise
+        # If we can't find a template or MD file, check for a TOML file itself and just load the monster-sheet
+        toml_path = pjoin(NAMESPACE, "monster", title_to_page_name(name) + ".toml")
+        try:
+            with open(pjoin("data", toml_path)) as f:
+                toml_dict = tomllib.loads(f.read())
+        except FileNotFoundError:
+            raise HTTPError(404, f"Can't find a page for \"/{NAMESPACE}/monster/{name}\"")
+        if "redirect" in toml_dict:
+            return redirect(toml_dict["redirect"])
+        # Avoiding circular dependencies
+        from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
+        md_text = MD.parse_md(INCLUDE_MD.format(toml_path), namespace=NAMESPACE)
+        return template("common/page.tpl", {"title": toml_dict["name"], "text": md_text})

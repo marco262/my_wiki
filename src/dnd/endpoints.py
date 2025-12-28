@@ -7,6 +7,7 @@ from os.path import splitext, basename
 from bottle import Bottle, view, request, redirect, abort
 
 from src.common.utils import md_page, title_to_page_name
+from src.dnd.utils import open_monster_sheet
 from src.dnd5e.utils import load_spells as load_5e_spells
 
 SPELLS = None
@@ -76,6 +77,10 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/general/<name>')
     def general(name):
         return md_page(name, "dnd", "general")
+
+    @app.get('/monster/<name>')
+    def race(name):
+        return open_monster_sheet(name)
 
     @app.get('/race/<name>')
     def race(name):

@@ -202,7 +202,7 @@ class MarkdownParser:
                             raise TOMLDecodeError(f"Couldn't decode '{path}'") from e
                         for k, v in toml_dict.items():
                             if isinstance(v, str) and v.startswith("!"):
-                                v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace)
+                                v = self.parse_md(v[1:].strip("\n"), namespace=self.namespace, with_metadata=False)
                             args[k] = v
                     elif k == "glob":
                         # Useful for lightgallery
