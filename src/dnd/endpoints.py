@@ -74,6 +74,10 @@ def load_wsgi_endpoints(app: Bottle):
     def dnd_class(name):
         return md_page(name, "dnd", "class")
 
+    @app.get('/dm/<name>')
+    def dnd_class(name):
+        return md_page(name, "dnd", "dm")
+
     @app.get('/general/<name>')
     def general(name):
         return md_page(name, "dnd", "general")

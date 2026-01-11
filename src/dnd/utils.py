@@ -86,7 +86,11 @@ def split_equipment() -> TooltipDict:
                         "content": [],
                     }
                 elif key:
-                    tooltips[key]["content"].append(line)
+                    if line.startswith("#### "):
+                        # Don't include header lines or anything following them in the tooltips
+                        key = ""
+                    else:
+                        tooltips[key]["content"].append(line)
 
     for key, d in tooltips.items():
         content = "\n\n".join(d["content"])
@@ -113,10 +117,10 @@ def make_tooltip_from_table(line: str, table_type: str) -> tuple[str, TooltipEnt
             return "", None
 
         if table_type == "Weapons":
-            content = f"**Damage:** {cells[1]}  **Mastery:** {cells[3]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}  \n**Properties:** {cells[2]}"
+            content = f"**Damage:** {cells[1]}  **Mastery:** {cells[3]}  \n**Weight:** {cells[4]}  **Cost:** {cells[5]}  \n**Properties:** {cells[2]}"
             href = "/dnd/general/Equipment#weapons"
         elif table_type == "Armor":
-            content = f"**AC:** {cells[1]}  **Weight:** {cells[4]}  **Cost:** {cells[5]}"
+            content = f"**AC:** {cells[1]}  \n**Weight:** {cells[4]}  **Cost:** {cells[5]}"
             if cells[2] != "--":
                 content += f"  \n**Strength Required:** {cells[2]}"
             if cells[3] != "--":

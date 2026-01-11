@@ -454,17 +454,23 @@ charmed by you and the fey for 1 minute or until the target takes any damage.</l
 [[tooltip:Poisoner's Kit]]
 
 [[tooltip:Backpack]]
-"""
-        expected = """<p><dfn name="Leather Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 11 + Dex modifier  <strong>Weight:</strong> 10 lb.  <strong>Cost:</strong> 10 GP</p></button></dfn></p>
 
-<p><dfn name="Scale Mail"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 14 + Dex modifier (max 2)  <strong>Weight:</strong> 45 lb.  <strong>Cost:</strong> 50 GP<br />
+[[tooltip:Arcane Focus]]
+"""
+        expected = """<p><dfn name="Leather Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 11 + Dex modifier<br />
+<strong>Weight:</strong> 10 lb.  <strong>Cost:</strong> 10 GP</p></button></dfn></p>
+
+<p><dfn name="Scale Mail"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 14 + Dex modifier (max 2)<br />
+<strong>Weight:</strong> 45 lb.  <strong>Cost:</strong> 50 GP<br />
 Disadvantage on Stealth</p></button></dfn></p>
 
-<p><dfn name="Plate Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 18  <strong>Weight:</strong> 65 lb.  <strong>Cost:</strong> 1,500 GP<br />
+<p><dfn name="Plate Armor"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#armor"><p><strong>AC:</strong> 18<br />
+<strong>Weight:</strong> 65 lb.  <strong>Cost:</strong> 1,500 GP<br />
 <strong>Strength Required:</strong> Str 15<br />
 Disadvantage on Stealth</p></button></dfn></p>
 
-<p><dfn name="Club"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#weapons"><p><strong>Damage:</strong> 1d4 Bludgeoning  <strong>Mastery:</strong> <em>Slow</em>  <strong>Weight:</strong> 2 lb.  <strong>Cost:</strong> 1 SP<br />
+<p><dfn name="Club"><button class="dfn-tooltip" href="/dnd/general/Equipment#/dnd/general/Equipment#weapons"><p><strong>Damage:</strong> 1d4 Bludgeoning  <strong>Mastery:</strong> <em>Slow</em><br />
+<strong>Weight:</strong> 2 lb.  <strong>Cost:</strong> 1 SP<br />
 <strong>Properties:</strong> <em>Light</em></p></button></dfn></p>
 
 <p><dfn name="Finesse"><button class="dfn-tooltip" href="/dnd/general/Equipment#finesse"><p>When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p></button></dfn></p>
@@ -486,6 +492,10 @@ Disadvantage on Stealth</p></button></dfn></p>
 <p><dfn name="Backpack"><button class="dfn-tooltip" href="/dnd/general/Equipment#backpack"><p><strong>Cost:</strong> 2 GP</p>
 
 <p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p></button></dfn></p>
+
+<p><dfn name="Arcane Focus"><button class="dfn-tooltip" href="/dnd/general/Equipment#arcane-focus"><p><strong>Cost:</strong> Varies</p>
+
+<p>An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p></button></dfn></p>
 """
         md = MarkdownParser()
         actual = md.parse_md(input_text, namespace="dnd", with_metadata=False)

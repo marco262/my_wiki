@@ -259,7 +259,7 @@ class MarkdownParser:
             magic_items = m.group(1).strip("\n")
             magic_item_tracker_table = build_magic_item_tracker(magic_items)
             new_text = f"{magic_items}\n\n{magic_item_tracker_table}"
-            new_text += "\n\n*Reference: [Magic Items](/dnd/dm_toolbox/Magic Items)*"
+            new_text += "\n\n*Reference: [Magic Items](/dnd/dm/Magic Items)*"
             text = text.replace(m.group(0), new_text)
         return text
 
@@ -283,8 +283,8 @@ class MarkdownParser:
             except KeyError:
                 # raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
                 print(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
-                tooltip_fmt = '<dfn class="broken" name="{name}"><button class="dfn-tooltip" href=""></button></dfn>'
-                tooltip = tooltip_fmt.format(name=m.group(3) or m.group(1))
+                fmt = '<dfn class="broken" name="{name}"><button class="dfn-tooltip" href=""></button></dfn>'
+                tooltip = fmt.format(name=m.group(3) or m.group(1))
             else:
                 # Avoid including pipes (|) so we don't screw up tables
                 content = g["content"].split("|")[0].strip()

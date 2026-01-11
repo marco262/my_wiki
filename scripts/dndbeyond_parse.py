@@ -13,7 +13,7 @@ from bs4 import Tag, NavigableString
 from data.dnd.enums import custom_tooltips
 from src.dnd.utils import split_rules_glossary, split_equipment
 
-PATH = "data/dnd/class/artificer.md"
+PATH = "data/dnd/dm/treasure.md"
 
 
 os.chdir("..")
@@ -49,7 +49,7 @@ def main() -> None:
     output += """
 ----
 
-_Source: Player's Handbook, p. XXX_
+_Source: Dungeon Master's Guide, p. XXX_
 """
 
     print(output)
@@ -78,6 +78,8 @@ def parse_tag(parent: Tag) -> str:
                 return parse_tag(tag)
         case "div":
             return parse_div(parent)
+        case "aside":
+            return parse_aside(parent)
 
     output = []
     for tag in parent:  # type: Tag
@@ -93,7 +95,7 @@ def parse_tag(parent: Tag) -> str:
             case "em":
                 output.append(f"_{parse_tag(tag)}_")
             case "a":
-                output.append(parse_link(tag))
+                output.append(parse_link(tag, parent.name))
             case "table":
                 output.append(parse_table(tag))
             case "div":
@@ -204,20 +206,61 @@ def markdown_header_sep(num_cells: int) -> str:
     return "|" + "|".join(["---"] * num_cells) + "|"
 
 
-def parse_link(tag: Tag) -> str:
+def parse_link(tag: Tag, parent_name: str) -> str:
     text = tag.get_text()
     if "class" not in tag.attrs:
         href = tag.attrs['href']
-        m = re.search(r"#(.*)$", href)
-        if m:
-            href = href.replace(m.group(0), "#" + parse_anchor(m.group(1)))
+        split_href = href.split("#", 1)
+        href = split_href[0]
+        if len(split_href) == 2:
+            anchor = parse_anchor(split_href[1])
+        else:
+            anchor = ""
+
+        # Handle internal links special, so I can link to other places on my wiki
+        my_wiki_path = ""
+        match href:
+            case "/sources/dnd/phb-2024/creating-a-character":
+                my_wiki_path = "advancement:Creating a Character"
+            case "/sources/dnd/phb-2024/equipment":
+                my_wiki_path = "general:Equipment"
+            case "/sources/dnd/dmg-2024/creating-adventures":
+                my_wiki_path = "dm:Creating Adventures"
+            case "/sources/dnd/dmg-2024/dms-toolbox":
+                my_wiki_path = "dm:DM's Toolbox"
+            case "/sources/dnd/dmg-2024/random-magic-items":
+                my_wiki_path = "dm:Random Magic Items"
+            case _:
+                if "sources" in href:
+                    raise ValueError(href)
+        if my_wiki_path:
+            link_in_table = parent_name in ("td", "th")
+            if anchor:
+                my_wiki_path += "#" + anchor
+            include_text = not my_wiki_path.lower().endswith(text.lower())
+            if include_text:
+                if link_in_table:
+                    # Avoid using my internal linking format so we don't mess up the table
+                    my_wiki_path = my_wiki_path.replace(":", "/")
+                    return f"[{text}](/dnd/{my_wiki_path})"
+                else:
+                    return f"[[[{my_wiki_path}|{text}]]]"
+            else:
+                return f"[[[{my_wiki_path}]]]"
+
+        # Generic link
+        if anchor:
+            if text == anchor:
+                return f"[{text}](#)"
+            return f"[{text}]({href}#{anchor})"
         return f"[{text}]({href})"
+
 
     classes = tag.attrs["class"]
     if ("ddb-lightbox-inner" in classes) or ("ddb-lightbox-outer" in classes):
         return ""
     if "spell-tooltip" in classes:
-        return f"_[[[spell:{text}]]]_"
+        return f"[[[spell:{text}]]]"
     if "monster-tooltip" in classes:
         return f"[[[monster:{text}]]]"
     if "sourcebook" in classes:
@@ -226,7 +269,7 @@ def parse_link(tag: Tag) -> str:
     if "magic-item-tooltip" in classes:
         return f"[[tooltip:{text}]]"
 
-    tooltip_classes = ["skill-tooltip", "weapon-properties-tooltip"]
+    tooltip_classes = ["skill-tooltip"]
     for c in tooltip_classes:
         if c in classes:
             return make_tooltip("tooltip", custom_tooltips, text)
@@ -236,22 +279,30 @@ def parse_link(tag: Tag) -> str:
         if c in classes:
             return make_tooltip("glossary", GLOSSARY_TOOLTIPS, text)
 
-    equipment_classes = ["item-tooltip"]
+    equipment_classes = ["item-tooltip", "weapon-properties-tooltip"]
     for c in equipment_classes:
         if c in classes:
             return make_tooltip("tooltip", EQUIPMENT_TOOLTIPS, text)
+
+    # Unhandled
+    equipment_classes = ["lore-tooltip"]
+    for c in equipment_classes:
+        if c in classes:
+            return f"[[tooltip:{text}]]"
 
     raise ValueError(f"Unhandled link: {tag}")
 
 
 def parse_anchor(text: str) -> str:
     for n in re.finditer(r"([A-Z])", text):
-        text = text.replace(n.group(1), "-" + n.group(1).lower())
-    text = text.replace("of", "-of")
-    text = text.replace("the", "-the")
-    text = text.replace("and", "-and")
-    text = text.replace("from", "-from")
-    return text.strip("-")
+        text = text.replace(n.group(1), " " + n.group(1))
+    text = text.replace("of", " of")
+    text = text.replace("the", " the")
+    text = text.replace("and", " and")
+    text = text.replace("from", " from")
+    # Remove accidental double spaces
+    text = re.sub("\s\s+", " ", text)
+    return text.strip(" ")
 
 
 def make_tooltip(tooltip_type: str, tooltip_dict: dict, text: str) -> str:
@@ -327,6 +378,7 @@ def parse_div(parent: Tag) -> str:
             "flexible-double-column__column-width-30pct",
             "flexible-double-column__column-width-40pct",
             "ui-droppable",
+            "compendium--center",
         ]
         handled_classes = [
             "subitems-list-details-item",
@@ -346,6 +398,14 @@ def parse_div(parent: Tag) -> str:
     for tag in parent:  # type: Tag
         output.append(parse_tag(tag))
     return sep.join(output)
+
+
+def parse_aside(parent: Tag) -> str:
+    output = ["[[sidebar]]"]
+    for tag in parent:  # type: Tag
+        output.append(parse_tag(tag))
+    output.append("[[/sidebar]]")
+    return "\n".join(output)
 
 
 if __name__ == "__main__":
