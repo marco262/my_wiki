@@ -1,0 +1,21 @@
+title = "Homunculus Servant"
+spell_lists = ["Artificer"]
+level = "2"
+school = "Conjuration"
+concentration_spell = false
+ritual_spell = true
+casting_time = "1 hour"
+range = "10 feet"
+components = ["V", "S", "M"]
+material = "a gem worth 100+ GP"
+expensive_material_component = true
+material_component_cost = 10000
+material_component_consumed = false
+duration = "Instantaneous"
+description = """
+You summon a special homunculus in an unoccupied space within range. This creature uses the [[[monster:Homunculus Servant]]] stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vial, or miniature animate cauldron.
+
+**_Combat._** The homunculus is an ally to you and your allies. In combat, it shares your [[glossary:Initiative]] count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the [[glossary:Dodge]] action and uses its movement to avoid danger.
+"""
+at_higher_levels = "Use the spell slot's level for the spell's level in the stat block."
+source = "Eberron: Forge of the Artificer, p. 21"
