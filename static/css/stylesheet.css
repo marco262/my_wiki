@@ -358,7 +358,7 @@ a, a:visited {
     color: #8C1717;
 }
 
-a.wiki-link-broken {
+.broken {
     color: #5f9ea0;
 }
 
@@ -588,6 +588,9 @@ dfn:before {
     content: attr(name);
     color: #A4121A;
     text-decoration: underline dotted #A4121A;
+}
+dfn.broken:before {
+    color: #5f9ea0;
 }
 dfn > .dfn-tooltip {
     display: none;

@@ -4,14 +4,13 @@ from json import load, dumps
 
 from src.common.utils import title_to_page_name
 
-SPELLS_PATH = "../../5etools-src/data/spells/spells-xphb.json"
-CLASS_LIST_PATH = "../../5etools-src/data/generated/gendata-spell-source-lookup.json"
-
-with open(SPELLS_PATH) as f:
-    spells = load(f)
-
-with open(CLASS_LIST_PATH) as f:
-    spell_class_lists = load(f)["xphb"]
+SPELLS_PATH = "../../5etools-src/data/spells/spells-efa.json"
+CLASS_LIST_PATH = "../../5etools-src/data/spells/sources.json"
+MONSTERS_PATHS = [
+    "../../5etools-src/data/bestiary/bestiary-xphb.json",
+    "../../5etools-src/data/bestiary/bestiary-xdmg.json",
+    "../../5etools-src/data/bestiary/bestiary-xmm.json",
+]
 
 
 def clean_markdown(text: str) -> str:
@@ -86,19 +85,23 @@ def make_table(table_data: dict) -> str:
     return "\n".join(lines)
 
 
-def main():
+def parse_spells():
+    with open(SPELLS_PATH) as f:
+        spells = load(f)
+
+    with open(CLASS_LIST_PATH) as f:
+        spell_class_lists = load(f)["EFA"]
+
     for spell in spells["spell"]:
         name = spell["name"]
         print(name)
 
-        source_dict = spell_class_lists[name.lower()]["class"]
+        source_list = spell_class_lists[name]["class"]
         spell_lists = []
-        for sourcebook, d in source_dict.items():
-            if sourcebook == "TCE":
+        for d in source_list:
+            if d["source"] == "TCE":
                 continue
-            for class_name, b in d.items():
-                if b:
-                    spell_lists.append(class_name)
+            spell_lists.append(d["name"])
         spell_lists.sort()
 
         match spell["school"]:
@@ -236,5 +239,13 @@ material_component_consumed = {consumed}
             f.write(output)
 
 
+def parse_monsters():
+    monsters = {}
+    for path in MONSTERS_PATHS:
+        with open(path) as f:
+            monsters.update(load(f))
+
+
+
 if __name__ == '__main__':
-    main()
+    parse_spells()

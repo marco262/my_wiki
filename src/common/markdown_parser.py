@@ -102,7 +102,7 @@ class MarkdownParser:
             else:
                 anchor = ""
             broken_link = not (self.check_for_broken_links and self.check_for_md_file(directory, filename))
-            classes = ["wiki-link" + ("-broken" if broken_link else "")]
+            classes = ["wiki-link" + (" broken" if broken_link else "")]
             if category:
                 classes.append(category)
             class_names = " ".join(classes)
@@ -281,8 +281,10 @@ class MarkdownParser:
             try:
                 g = tooltip_dict[m.group(1).lower()]
             except KeyError:
-                raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
-                # tooltip = tooltip_fmt.format(name=m.group(3) or m.group(1), href="", content="")
+                # raise KeyError(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
+                print(f"Invalid tooltip entry '{m.group(1)}'. match={m.group(0)}")
+                tooltip_fmt = '<dfn class="broken" name="{name}"><button class="dfn-tooltip" href=""></button></dfn>'
+                tooltip = tooltip_fmt.format(name=m.group(3) or m.group(1))
             else:
                 # Avoid including pipes (|) so we don't screw up tables
                 content = g["content"].split("|")[0].strip()

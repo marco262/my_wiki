@@ -1111,7 +1111,6 @@ A Torch burns for 1 hour, casting [[glossary:Bright Light]] in a 20-foot radius 
 **Cost:** 1 GP
 
 A Vial holds up to 4 ounces.
-PATRIK HELL
 
 ### Waterskin
 

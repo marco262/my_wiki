@@ -116,12 +116,14 @@ shapes = [
 
 sources = [
     "Player's Handbook",
+    "Eberron: Forge of the Artificer",
     "Homebrew",
     "Champion's Ascension",
 ]
 
 source_acronyms = {
     "Player's Handbook": "PHB",
+    "Eberron: Forge of the Artificer": "EFotA",
     "Homebrew": "Home",
     "Player's Handbook Playtest 7": "PHP7",
     "Champion's Ascension": "CA",

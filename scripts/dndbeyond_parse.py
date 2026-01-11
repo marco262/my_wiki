@@ -13,7 +13,7 @@ from bs4 import Tag, NavigableString
 from data.dnd.enums import custom_tooltips
 from src.dnd.utils import split_rules_glossary, split_equipment
 
-PATH = "data/dnd/general/spellcasting-rules.md"
+PATH = "data/dnd/class/artificer.md"
 
 
 os.chdir("..")
@@ -223,7 +223,10 @@ def parse_link(tag: Tag) -> str:
     if "sourcebook" in classes:
         return f"_{text}_"
 
-    tooltip_classes = ["skill-tooltip", "magic-item-tooltip", "weapon-properties-tooltip"]
+    if "magic-item-tooltip" in classes:
+        return f"[[tooltip:{text}]]"
+
+    tooltip_classes = ["skill-tooltip", "weapon-properties-tooltip"]
     for c in tooltip_classes:
         if c in classes:
             return make_tooltip("tooltip", custom_tooltips, text)
