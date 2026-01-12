@@ -122,7 +122,7 @@ If an item that you created with this feature is a container, such as a [[toolti
 
 **_Spellcasting Focus._** You can use any Wand or Weapon created by this feature as a Spellcasting Focus in lieu of using a set of Artisan's Tools.
 
-### Magic Item Plans (Artificer Level 2+)
+#### Magic Item Plans (Artificer Level 2+)
 
 | Magic Item Plan                                             | Attunement |
 |-------------------------------------------------------------|------------|
@@ -131,7 +131,7 @@ If an item that you created with this feature is a container, such as a [[toolti
 | _[[tooltip:Cap of Water Breathing]]_                        | No         |
 | Common magic item that isn't a Potion, a Scroll, or cursed* | Varies     |
 | _[[tooltip:Goggles of Night]]_                              | No         |
-| _[[tooltip:Manifold Tool]]†_                                | Yes        |
+| _[[tooltip:Manifold Tool]]_                                 | Yes        |
 | _[[tooltip:Repeating Shot]]†_                               | Yes        |
 | _[[tooltip:Returning Weapon]]†_                             | No         |
 | _[[tooltip:Rope of Climbing]]_                              | No         |
@@ -144,9 +144,8 @@ If an item that you created with this feature is a container, such as a [[toolti
 | _[[tooltip:Wraps of Unarmed Power, +1]]_                    | No         |
 
 *You can learn this option multiple times and must select a different item each time; each item selected counts as a different plan.
-† See the appendix.
 
-### Magic Item Plans (Artificer Level 6+)
+#### Magic Item Plans (Artificer Level 6+)
 
 | Magic Item Plan                          | Attunement |
 |------------------------------------------|------------|
@@ -168,14 +167,12 @@ If an item that you created with this feature is a container, such as a [[toolti
 | _[[tooltip:Ring of Swimming]]_           | No         |
 | _[[tooltip:Ring of Water Walking]]_      | No         |
 | _[[tooltip:Sentinel Shield]]_            | No         |
-| _[[tooltip:Spell-Refueling Ring]]†_      | Yes        |
+| _[[tooltip:Spell-Refueling Ring]]_       | Yes        |
 | _[[tooltip:Wand of Magic Missiles]]_     | No         |
 | _[[tooltip:Wand of Web]]_                | Yes        |
 | _[[tooltip:Weapon of Warning]]_          | Yes        |
 
-† See the appendix.
-
-### Magic Item Plans (Artificer Level 10+)
+#### Magic Item Plans (Artificer Level 10+)
 
 | Magic Item Plan                           | Attunement |
 |-------------------------------------------|------------|
@@ -193,7 +190,7 @@ If an item that you created with this feature is a container, such as a [[toolti
 
 *You can learn this option multiple times and must select a different item each time; each item selected counts as a different plan.
 
-### Magic Item Plans (Artificer Level 14+)
+#### Magic Item Plans (Artificer Level 14+)
 
 | Magic Item Plan                       | Attunement |
 |---------------------------------------|------------|
