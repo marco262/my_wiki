@@ -3,15 +3,18 @@ from collections import defaultdict
 from glob import glob
 from json import loads
 from os.path import splitext, basename
+from time import perf_counter
 
-from bottle import Bottle, view, request, redirect, abort
+from bottle import Bottle, view, request, redirect, abort, template
 
 from src.common.utils import md_page, title_to_page_name
+from src.dnd.search import Search
 from src.dnd.utils import open_monster_sheet
 from src.dnd5e.utils import load_spells as load_5e_spells
 
 SPELLS = None
 SPELLS_BY_LEVEL = None
+SEARCH_OBJ = Search()
 
 
 def init(cfg):
@@ -194,3 +197,21 @@ def load_wsgi_endpoints(app: Bottle):
             "show_classes": len(filter_keys["spell_lists"]) > 1
         }
         return d
+
+    # Intended for use as a browser bookmark for quickly searching for any specific page
+    @app.route("/page_search/<search_term>")
+    def page_search_with_results(search_term):
+        t = perf_counter()
+        results = SEARCH_OBJ.page_search(search_term, "dnd")
+        if isinstance(results, list):
+            return template(
+                "dnd/site_search.tpl",
+                title="Page Search",
+                search_key=search_term,
+                search_results=results,
+                processing_time=perf_counter() - t,
+                include_search_box=False
+            )
+        else:
+            # results is not a list, but a URI we should redirect to
+            redirect(results)

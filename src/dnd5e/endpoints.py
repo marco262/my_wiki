@@ -127,7 +127,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.route("/page_search/<search_term>")
     def page_search_with_results(search_term):
         t = time()
-        results = SEARCH_OBJ.page_search(search_term)
+        results = SEARCH_OBJ.page_search(search_term, "dnd5e")
         if isinstance(results, list):
             return template(
                 "dnd5e/site_search.tpl",

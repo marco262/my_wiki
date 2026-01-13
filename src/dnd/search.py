@@ -110,7 +110,7 @@ class Search:
             contexts = None
         return SearchResult(title, filepath, html_link, contexts)
 
-    def page_search(self, search_term):
+    def page_search(self, search_term: str, namespace: str):
         """
         Returns results for only "exact" page name matches. "Exact" is in quotes because markdown pages
         lose proper punctuation when converting to page names, so the search term "Scout (Fighter)" will
@@ -118,7 +118,7 @@ class Search:
         """
         search_as_page_name = title_to_page_name(search_term)
         results = []
-        for dirpath, dirnames, filenames in walk("data/dnd"):
+        for dirpath, dirnames, filenames in walk(join("data/", namespace)):
             for filename in filenames:
                 if filename.endswith(".md") and search_as_page_name in filename:
                     title = page_name_to_title(splitext(filename)[0])
