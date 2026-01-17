@@ -1,5 +1,5 @@
 title = "Water Walk"
-spell_lists = ["Cleric", "Druid", "Ranger", "Sorcerer"]
+spell_lists = ["Artificer", "Cleric", "Druid", "Ranger", "Sorcerer"]
 level = "3"
 school = "Transmutation"
 concentration_spell = false

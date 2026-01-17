@@ -1,5 +1,5 @@
 title = "Continual Flame"
-spell_lists = ["Cleric", "Druid", "Wizard"]
+spell_lists = ["Artificer", "Cleric", "Druid", "Wizard"]
 level = "2"
 school = "Evocation"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Mage Hand"
-spell_lists = ["Bard", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Sorcerer", "Warlock", "Wizard"]
 level = "0"
 school = "Conjuration"
 concentration_spell = false

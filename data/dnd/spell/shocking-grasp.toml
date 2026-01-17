@@ -1,5 +1,5 @@
 title = "Shocking Grasp"
-spell_lists = ["Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Sorcerer", "Wizard"]
 level = "0"
 school = "Evocation"
 concentration_spell = false

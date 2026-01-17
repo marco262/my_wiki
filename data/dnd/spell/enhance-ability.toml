@@ -1,5 +1,5 @@
 title = "Enhance Ability"
-spell_lists = ["Bard", "Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "2"
 school = "Transmutation"
 concentration_spell = true

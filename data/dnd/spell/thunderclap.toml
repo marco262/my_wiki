@@ -1,5 +1,5 @@
 title = "Thunderclap"
-spell_lists = ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
 level = "0"
 school = "Evocation"
 concentration_spell = false

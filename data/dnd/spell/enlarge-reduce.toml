@@ -1,5 +1,5 @@
 title = "Enlarge/Reduce"
-spell_lists = ["Bard", "Druid", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Druid", "Sorcerer", "Wizard"]
 level = "2"
 school = "Transmutation"
 concentration_spell = true

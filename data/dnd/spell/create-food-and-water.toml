@@ -1,5 +1,5 @@
 title = "Create Food and Water"
-spell_lists = ["Cleric", "Paladin"]
+spell_lists = ["Artificer", "Cleric", "Paladin"]
 level = "3"
 school = "Conjuration"
 concentration_spell = false

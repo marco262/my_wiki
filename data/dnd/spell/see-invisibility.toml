@@ -1,5 +1,5 @@
 title = "See Invisibility"
-spell_lists = ["Bard", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Sorcerer", "Wizard"]
 level = "2"
 school = "Divination"
 concentration_spell = false

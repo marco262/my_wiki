@@ -1,5 +1,5 @@
 title = "Elemental Weapon"
-spell_lists = ["Druid", "Paladin", "Ranger"]
+spell_lists = ["Artificer", "Druid", "Paladin", "Ranger"]
 level = "3"
 school = "Transmutation"
 concentration_spell = true

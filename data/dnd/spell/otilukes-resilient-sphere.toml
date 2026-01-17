@@ -1,5 +1,5 @@
 title = "Otiluke's Resilient Sphere"
-spell_lists = ["Wizard"]
+spell_lists = ["Artificer", "Wizard"]
 level = "4"
 school = "Abjuration"
 concentration_spell = true

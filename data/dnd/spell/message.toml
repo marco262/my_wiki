@@ -1,5 +1,5 @@
 title = "Message"
-spell_lists = ["Bard", "Druid", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Druid", "Sorcerer", "Wizard"]
 level = "0"
 school = "Transmutation"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Revivify"
-spell_lists = ["Cleric", "Druid", "Paladin", "Ranger"]
+spell_lists = ["Artificer", "Cleric", "Druid", "Paladin", "Ranger"]
 level = "3"
 school = "Necromancy"
 concentration_spell = false

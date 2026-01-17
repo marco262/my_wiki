@@ -1,5 +1,5 @@
 title = "Resistance"
-spell_lists = ["Cleric", "Druid"]
+spell_lists = ["Artificer", "Cleric", "Druid"]
 level = "0"
 school = "Abjuration"
 concentration_spell = true

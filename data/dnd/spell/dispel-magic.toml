@@ -1,5 +1,5 @@
 title = "Dispel Magic"
-spell_lists = ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"]
 level = "3"
 school = "Abjuration"
 concentration_spell = false

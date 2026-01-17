@@ -1,5 +1,5 @@
 title = "Arcane Eye"
-spell_lists = ["Wizard"]
+spell_lists = ["Artificer", "Wizard"]
 level = "4"
 school = "Divination"
 concentration_spell = true

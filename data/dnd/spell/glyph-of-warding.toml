@@ -1,5 +1,5 @@
 title = "Glyph of Warding"
-spell_lists = ["Bard", "Cleric", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Wizard"]
 level = "3"
 school = "Abjuration"
 concentration_spell = false

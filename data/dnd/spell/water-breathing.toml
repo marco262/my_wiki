@@ -1,5 +1,5 @@
 title = "Water Breathing"
-spell_lists = ["Druid", "Ranger", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "3"
 school = "Transmutation"
 concentration_spell = false

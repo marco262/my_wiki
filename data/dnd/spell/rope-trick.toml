@@ -1,5 +1,5 @@
 title = "Rope Trick"
-spell_lists = ["Wizard"]
+spell_lists = ["Artificer", "Wizard"]
 level = "2"
 school = "Transmutation"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Poison Spray"
-spell_lists = ["Druid", "Sorcerer", "Warlock", "Wizard"]
+spell_lists = ["Artificer", "Druid", "Sorcerer", "Warlock", "Wizard"]
 level = "0"
 school = "Necromancy"
 concentration_spell = false

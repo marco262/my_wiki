@@ -1,5 +1,5 @@
 title = "Elementalism"
-spell_lists = ["Druid", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Druid", "Sorcerer", "Wizard"]
 level = "0"
 school = "Transmutation"
 concentration_spell = false

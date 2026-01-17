@@ -1,5 +1,5 @@
 title = "Thorn Whip"
-spell_lists = ["Druid"]
+spell_lists = ["Artificer", "Druid"]
 level = "0"
 school = "Transmutation"
 concentration_spell = false

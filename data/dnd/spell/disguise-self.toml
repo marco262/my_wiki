@@ -1,5 +1,5 @@
 title = "Disguise Self"
-spell_lists = ["Bard", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Sorcerer", "Wizard"]
 level = "1"
 school = "Illusion"
 concentration_spell = false

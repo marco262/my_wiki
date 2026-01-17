@@ -1,5 +1,5 @@
 title = "Arcane Vigor"
-spell_lists = ["Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Sorcerer", "Wizard"]
 level = "2"
 school = "Abjuration"
 concentration_spell = false

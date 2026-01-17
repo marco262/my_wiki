@@ -1,5 +1,5 @@
 title = "Animate Objects"
-spell_lists = ["Bard", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Sorcerer", "Wizard"]
 level = "5"
 school = "Transmutation"
 concentration_spell = true

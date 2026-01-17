@@ -1,5 +1,5 @@
 title = "Protection from Energy"
-spell_lists = ["Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "3"
 school = "Abjuration"
 concentration_spell = true

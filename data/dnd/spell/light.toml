@@ -1,5 +1,5 @@
 title = "Light"
-spell_lists = ["Bard", "Cleric", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Sorcerer", "Wizard"]
 level = "0"
 school = "Evocation"
 concentration_spell = false

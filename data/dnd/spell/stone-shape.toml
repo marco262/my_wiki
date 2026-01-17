@@ -1,5 +1,5 @@
 title = "Stone Shape"
-spell_lists = ["Cleric", "Druid", "Wizard"]
+spell_lists = ["Artificer", "Cleric", "Druid", "Wizard"]
 level = "4"
 school = "Transmutation"
 concentration_spell = false

@@ -1,5 +1,5 @@
 title = "Mordenkainen's Faithful Hound"
-spell_lists = ["Wizard"]
+spell_lists = ["Artificer", "Wizard"]
 level = "4"
 school = "Conjuration"
 concentration_spell = false

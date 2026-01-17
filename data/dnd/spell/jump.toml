@@ -1,5 +1,5 @@
 title = "Jump"
-spell_lists = ["Druid", "Ranger", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Druid", "Ranger", "Sorcerer", "Wizard"]
 level = "1"
 school = "Transmutation"
 concentration_spell = false

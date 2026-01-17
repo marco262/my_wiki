@@ -1,5 +1,5 @@
 title = "Feather Fall"
-spell_lists = ["Bard", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Bard", "Sorcerer", "Wizard"]
 level = "1"
 school = "Transmutation"
 concentration_spell = false

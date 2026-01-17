@@ -1,5 +1,5 @@
 title = "Freedom of Movement"
-spell_lists = ["Bard", "Cleric", "Druid", "Ranger"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Druid", "Ranger"]
 level = "4"
 school = "Abjuration"
 concentration_spell = false

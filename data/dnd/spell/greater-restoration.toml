@@ -1,5 +1,5 @@
 title = "Greater Restoration"
-spell_lists = ["Bard", "Cleric", "Druid", "Paladin", "Ranger"]
+spell_lists = ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"]
 level = "5"
 school = "Abjuration"
 concentration_spell = false

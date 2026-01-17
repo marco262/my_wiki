@@ -1,5 +1,5 @@
 title = "Wall of Stone"
-spell_lists = ["Druid", "Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Druid", "Sorcerer", "Wizard"]
 level = "5"
 school = "Evocation"
 concentration_spell = true

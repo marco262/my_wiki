@@ -1,5 +1,5 @@
 title = "Alter Self"
-spell_lists = ["Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Sorcerer", "Wizard"]
 level = "2"
 school = "Transmutation"
 concentration_spell = true

@@ -1,5 +1,5 @@
 title = "Blink"
-spell_lists = ["Sorcerer", "Wizard"]
+spell_lists = ["Artificer", "Sorcerer", "Wizard"]
 level = "3"
 school = "Transmutation"
 concentration_spell = false
