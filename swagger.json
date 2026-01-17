@@ -15,24 +15,24 @@
   ],
   "tags": [
     {
-      "name": "5e D&D Spells",
-      "description": "Endpoints to query spell data for 5e D&D"
+      "name": "2024 D&D Spells",
+      "description": "Endpoints to query spell data for 2024 D&D"
     },
     {
-      "name": "5e D&D Magic Items",
-      "description": "Endpoints to query magic item data for 5e D&D"
+      "name": "2024 D&D Magic Items",
+      "description": "Endpoints to query magic item data for 2024 D&D"
     }
   ],
   "definitions": {
     "dnd_spell": {
       "type": "object",
-      "required": ["title", "classes", "level", "school", "concentration_spell", "ritual_spell", "casting_time", "range", "components", "duration", "description", "source", "description_md"],
+      "required": ["title", "spell_lists", "level", "school", "concentration_spell", "ritual_spell", "casting_time", "range", "components", "duration", "description", "source", "description_md"],
       "properties": {
         "title": {
           "type": "string",
           "example": "Fog Cloud"
         },
-        "classes": {
+        "spell_lists": {
           "type": "array",
           "description": "The list of classes that have this spell on their spell list.",
           "items": {
@@ -109,7 +109,7 @@
       },
       "example": {
         "title": "Fog Cloud",
-        "classes": ["druid", "ranger", "sorcerer", "wizard"],
+        "spell_lists": ["druid", "ranger", "sorcerer", "wizard"],
         "level": "1",
         "school": "conjuration",
         "concentration_spell": true,
@@ -206,11 +206,11 @@
   "paths": {
     "/dnd/spell_list": {
       "get": {
-        "summary": "Returns all spells for 5e D&D",
-        "tags": ["5e D&D Spells"],
+        "summary": "Returns all spells for 2024 D&D",
+        "tags": ["2024 D&D Spells"],
         "parameters": [
           {
-            "name": "class",
+            "name": "spell_list",
             "description": "Filters for spells that are on the particular class' lists. Omit to allow all.",
             "in": "query",
             "type": "array",
@@ -326,7 +326,7 @@
     "/dnd/spell_list/enum": {
       "get": {
         "summary": "Returns all dynamically loaded spell values, for use with /dnd/spell_list",
-        "tags": ["5e D&D Spells"],
+        "tags": ["2024 D&D Spells"],
         "responses": {
           "200": {
             "description": "List of all currently available spell enums",
@@ -418,7 +418,7 @@
     "/dnd/spell/{name}": {
       "get": {
         "summary": "Returns the details for a given spell.",
-        "tags": ["5e D&D Spells"],
+        "tags": ["2024 D&D Spells"],
         "parameters": [
           {
             "name": "name",
@@ -447,8 +447,8 @@
     },
     "/dnd/magic_items": {
       "get": {
-        "summary": "Returns a list of magic items for 5e D&D, with filtering options",
-        "tags": ["5e D&D Magic Items"],
+        "summary": "Returns a list of magic items for 2024 D&D, with filtering options",
+        "tags": ["2024 D&D Magic Items"],
         "parameters": [
           {
             "name": "rarity",
@@ -532,7 +532,7 @@
     "/dnd/magic_items/enum": {
       "get": {
         "summary": "Returns all dynamically loaded magic item values, for use with /dnd/magic_items",
-        "tags": ["5e D&D Magic Items"],
+        "tags": ["2024 D&D Magic Items"],
         "responses": {
           "200": {
             "description": "List of all currently available magic item enums",
@@ -574,7 +574,7 @@
     "/dnd/magic_item/{name}": {
       "get": {
         "summary": "Returns the details for a given magic item.",
-        "tags": ["5e D&D Magic Items"],
+        "tags": ["2024 D&D Magic Items"],
         "parameters": [
           {
             "name": "name",

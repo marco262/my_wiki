@@ -1,19 +1,211 @@
 import re
-from re import finditer
-from typing import TypedDict
-from os.path import join as pjoin
 import tomllib
+from collections import defaultdict
+from glob import glob
+from os.path import join as pjoin, splitext, basename
+from re import finditer
+from typing import TypedDict, Literal, Any
 
 from bottle import HTTPError, redirect, template
 from bs4 import BeautifulSoup, NavigableString, Tag
 from markdown2 import Markdown
+
 from src.common.utils import title_to_page_name, str_to_list, md_page
 
+SPELLS = None
+SPELLS_BY_LEVEL = None
+ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, set[str]]] = \
+    {"spell": defaultdict(set), "magic_item": defaultdict(set)}
+SORTED_ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, list[str]]] = \
+    {"spell": {}, "magic_item": {}}
 TOOLTIP_MAX_LENGTH = 1000
 NAMESPACE = "dnd"
 INCLUDE_MD = """[[include dnd5e/monster-sheet.tpl]]
 file = {}
 [[/include]]"""
+
+
+def load_spells():
+    global SPELLS, SPELLS_BY_LEVEL
+    if SPELLS:
+        return SPELLS
+    SPELLS_BY_LEVEL = defaultdict(list)
+    spells = {}
+    path = None
+    print("Loading spells into memory", end='')
+    from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
+    try:
+        for path in sorted(glob("data/dnd/spell/*.toml")):
+            print(".", end='', flush=True)
+            with open(path, "rb") as f:
+                d = tomllib.loads(f.read().decode())
+            k = splitext(basename(path))[0]
+            d["spell_lists_lower"] = [c.lower() for c in d["spell_lists"]]
+            d["casting_time_md"] = MD.parse_md(d["casting_time"], namespace="dnd", with_metadata=False, no_p=True)
+            d["range_md"] = MD.parse_md(d["range"], namespace="dnd", with_metadata=False, no_p=True)
+            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
+            if "at_higher_levels" in d:
+                d["at_higher_levels_md"] = MD.parse_md(
+                    d["at_higher_levels"], namespace="dnd", with_metadata=False, no_p=True
+                )
+            if "at_higher_levels_homebrew" in d:
+                d["at_higher_levels_homebrew_md"] = MD.parse_md(
+                    d["at_higher_levels_homebrew"], namespace="dnd", with_metadata=False, no_p=True
+                )
+            if "source_extended" in d:
+                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
+            spells[k] = d
+            SPELLS_BY_LEVEL[d["level"]].append((k, d))
+    except Exception as e:
+        raise Exception(f"Error when trying to process {path}") from e
+    print(" Done.", flush=True)
+    SPELLS = spells
+    return SPELLS
+
+
+def add_to_enum_cache(cache_type: Literal["spell", "magic_item"], key: str, value: Any):
+    global ENUM_CACHE
+    if key == "source":
+        value = value.rsplit(",", 1)[0]
+    if cache_type == "spell":
+        if key == "casting_time":
+            if value.startswith("Reaction"):
+                value = "Reaction"
+        elif key == "range":
+            if value.startswith("Self"):
+                value = "Self"
+        elif key == "duration":
+            if value.startswith("Concentration"):
+                value = value.replace("Concentration, up to ", "")
+            elif value.startswith("Up to"):
+                value = value.replace("Up to ", "")
+    elif cache_type == "magic_item":
+        pass
+    else:
+        raise ValueError(f"Unknown cache_type {cache_type}")
+    ENUM_CACHE[cache_type][key].add(value)
+
+
+def sort_enum_cache():
+    global SORTED_ENUM_CACHE
+    for cache_type, caches in ENUM_CACHE.items():
+        for key, values in caches.items():
+            sort_dict = {}
+            def sort_key(s: str):
+                """
+                Provides a sorting key that allows for increasing orders of duration, distance, etc to be sorted
+                properly. E.g. 6 minutes, 10 minutes, 1 hour
+                Create a `sort_dict` with the values to check for in the dict values
+                """
+                m = re.match(r"(\d+) (.*)", s)
+                if not m:
+                    return 99, 99, s
+                for k, v in sort_dict.items():
+                    if v in m.group(2):
+                        return k, int(m.group(1)), s
+                return 99, int(m.group(1)), s
+            if key == "casting_time":
+                sort_dict = {0: "bonus action", 1: "reaction", 2: "action", 3: "minute", 4: "hour"}
+            elif key == "range":
+                sort_dict = {0: "foot", 1: "feet", 2: "yard", 3: "mile"}
+            elif key == "duration":
+                sort_dict = {0: "round", 1: "minute", 2: "hour", 3: "day", 4: "week", 5: "month", 6: "year"}
+            else:
+                sort_key = None
+            SORTED_ENUM_CACHE[cache_type][key] = sorted(values, key=sort_key)
+
+
+def get_enum_cache(cache_type: Literal["spell", "magic_item"]):
+    try:
+        return SORTED_ENUM_CACHE[cache_type]
+    except KeyError:
+        raise ValueError(f"Unknown cache_type {cache_type}")
+
+
+def load_spells_by_level():
+    load_spells()
+    return SPELLS_BY_LEVEL
+
+
+def class_spell(spell: dict, classes: list[str]) -> bool:
+    """
+    Helper function for determining if a spell belongs to any of a list of classes
+    :param spell: The parsed spell dictionary, containing `spell_lists_lower` field, which has all the spell list
+        names in lowercase
+    :param classes: The list of classes to check against, all in lowercase.
+    :return:
+    """
+    return bool(set(classes).intersection(spell["spell_lists_lower"]))
+
+
+def filter_spells(filters: dict):
+    results = {}
+    results_by_level = defaultdict(list)
+    spell_list_lower = [c.lower() for c in filters.get("spell_list", [])]
+    for k, v in load_spells().items():
+        if spell_list_lower:
+            if not class_spell(v, spell_list_lower):
+                continue
+        if "level" in filters and v["level"].lower() not in filters["level"]:
+            continue
+        if "school" in filters and v["school"].lower() not in filters["school"]:
+            continue
+        if "casting_time" in filters:
+            for t in filters["casting_time"]:
+                if t.lower() in v["casting_time"].lower():
+                    break
+            else:
+                continue
+        if "range" in filters:
+            for r in filters["range"]:
+                if r.lower() in v["range"].lower():
+                    break
+            else:
+                continue
+        if "duration" in filters:
+            for d in filters["duration"]:
+                if d.lower() in v["duration"].lower():
+                    break
+            else:
+                continue
+        if "source" in filters:
+            for s in filters["source"]:
+                if s.lower() in v["source"].lower():
+                    break
+            else:
+                continue
+        if "concentration" in filters:
+            if ((filters["concentration"] == "true" and not v["concentration_spell"]) or
+                    (filters["concentration"] == "false" and v["concentration_spell"])):
+                continue
+        if "ritual" in filters:
+            if ((filters["ritual"] == "true" and not v["ritual_spell"]) or
+                    (filters["ritual"] == "false" and v["ritual_spell"])):
+                continue
+        if "verbal" in filters:
+            if ((filters["verbal"] == "true" and "V" not in v["components"]) or
+                    (filters["verbal"] == "false" and "V" in v["components"])):
+                continue
+        if "somatic" in filters:
+            if ((filters["somatic"] == "true" and "S" not in v["components"]) or
+                    (filters["somatic"] == "false" and "S" in v["components"])):
+                continue
+        if "material" in filters:
+            if ((filters["material"] == "true" and "M" not in v["components"]) or
+                    (filters["material"] == "false" and "M" in v["components"])):
+                continue
+        if "expensive" in filters:
+            if ((filters["expensive"] == "true" and not v.get("expensive_material_component")) or
+                    (filters["expensive"] == "false" and v.get("expensive_material_component"))):
+                continue
+        if "consumed" in filters:
+            if ((filters["consumed"] == "true" and not v.get("material_component_consumed")) or
+                    (filters["consumed"] == "false" and v.get("material_component_consumed"))):
+                continue
+        results[k] = v
+        results_by_level[v["level"]].append((k, v))
+    return results, results_by_level
+
 
 class TooltipEntry(TypedDict):
     href: str

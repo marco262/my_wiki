@@ -1,61 +1,18 @@
-import tomllib
 from collections import defaultdict
-from glob import glob
 from json import loads
-from os.path import splitext, basename
 from time import perf_counter
 
 from bottle import Bottle, view, request, redirect, abort, template
 
 from src.common.utils import md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import open_monster_sheet
-from src.dnd5e.utils import load_spells as load_5e_spells
+from src.dnd.utils import load_spells, open_monster_sheet
 
-SPELLS = None
-SPELLS_BY_LEVEL = None
-SEARCH_OBJ = Search()
+SEARCH_OBJ = None
 
 
-def init(cfg):
+def init(_cfg):
     pass
-
-
-def load_spells():
-    global SPELLS, SPELLS_BY_LEVEL
-    if SPELLS:
-        return SPELLS
-    SPELLS_BY_LEVEL = defaultdict(list)
-    spells = {}
-    path = None
-    print("Loading spells into memory", end='')
-    from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
-    try:
-        for path in sorted(glob("data/dnd/spell/*.toml")):
-            print(".", end='', flush=True)
-            with open(path, "rb") as f:
-                d = tomllib.loads(f.read().decode())
-            k = splitext(basename(path))[0]
-            d["casting_time_md"] = MD.parse_md(d["casting_time"], namespace="dnd", with_metadata=False, no_p=True)
-            d["range_md"] = MD.parse_md(d["range"], namespace="dnd", with_metadata=False, no_p=True)
-            d["description_md"] = MD.parse_md(d["description"], namespace="dnd", with_metadata=False)
-            if "at_higher_levels" in d:
-                d["at_higher_levels_md"] = MD.parse_md(
-                    d["at_higher_levels"], namespace="dnd", with_metadata=False, no_p=True
-                )
-            if "at_higher_levels_homebrew" in d:
-                d["at_higher_levels_homebrew_md"] = MD.parse_md(
-                    d["at_higher_levels_homebrew"], namespace="dnd", with_metadata=False, no_p=True
-                )
-            if "source_extended" in d:
-                d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
-            spells[k] = d
-            SPELLS_BY_LEVEL[d["level"]].append((k, d))
-    except Exception as e:
-        raise Exception(f"Error when trying to process {path}") from e
-    print(" Done.", flush=True)
-    SPELLS = spells
-    return SPELLS
 
 
 def load_wsgi_endpoints(app: Bottle):
@@ -104,9 +61,6 @@ def load_wsgi_endpoints(app: Bottle):
         loaded_spells = load_spells()
         if formatted_name in loaded_spells:
             return loaded_spells[formatted_name]
-        loaded_5e_spells = load_5e_spells()
-        if formatted_name in loaded_5e_spells:
-            redirect(f"/dnd5e/spell/{name}", code=301)
         else:
             abort(404, f"Could not find spell '{name}'")
         return None
@@ -211,7 +165,10 @@ def load_wsgi_endpoints(app: Bottle):
     @app.route('/site_search/<search_term>')
     @view('dnd5e/site_search.tpl')
     def site_search_with_results(search_term):
+        global SEARCH_OBJ
         t = perf_counter()
+        if not SEARCH_OBJ:
+            SEARCH_OBJ = Search()
         results = SEARCH_OBJ.run(search_term, "dnd")
         results_per_page = 10
         total_pages = len(results) // results_per_page + 1 if results is not None else 1
@@ -235,7 +192,10 @@ def load_wsgi_endpoints(app: Bottle):
     # Intended for use as a browser bookmark for quickly searching for any specific page
     @app.route("/page_search/<search_term>")
     def page_search_with_results(search_term):
+        global SEARCH_OBJ
         t = perf_counter()
+        if not SEARCH_OBJ:
+            SEARCH_OBJ = Search()
         results = SEARCH_OBJ.page_search(search_term, "dnd")
         if isinstance(results, list):
             return template(
