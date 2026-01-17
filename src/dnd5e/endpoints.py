@@ -103,7 +103,7 @@ def load_wsgi_endpoints(app: Bottle):
     @view('dnd5e/site_search.tpl')
     def site_search_with_results(search_term):
         t = time()
-        results = SEARCH_OBJ.run(search_term)
+        results = SEARCH_OBJ.run(search_term, "dnd5e")
         results_per_page = 10
         total_pages = len(results) // results_per_page + 1 if results is not None else 1
         try:

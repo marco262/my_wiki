@@ -20,7 +20,7 @@ class Search:
         self.context_length = context_length
         self.cache = {}
 
-    def add_context_to_search_term(self, search_term):
+    def add_context_to_search_term(self, search_term: str) -> re.Pattern[str]:
         # Add 4 to context length to account for ellipses that will be added for too-long contexts.
         context_length = self.context_length + 4
         context_string = r"(.{," + str(context_length) + "})"
@@ -28,7 +28,7 @@ class Search:
             search_term=search_term, context_string=context_string
         ), re.IGNORECASE)
 
-    def build_results_context_string(self, re_match):
+    def build_results_context_string(self, re_match: str) -> str:
         """
         :param re_match: 3-tuple matching the search: (N characters before, search term, N characters after)
         :return:
@@ -41,10 +41,10 @@ class Search:
             after = after[:self.context_length] + "..."
         return f"{before}<strong>{re_match[1]}</strong>{after}"
 
-    def run(self, search_term):
+    def run(self, search_term: str, namespace: str) -> list[SearchResult | None]:
         if search_term in self.cache:
             return self.cache[search_term]
-        results = self.do_search(search_term)
+        results = self.do_search(search_term, namespace)
         # Sort results by number of matches, and path
         # Number of matches should be in descending order (pages with more matches at the top)
         # but path should be in ascending order (a before z)
@@ -67,18 +67,18 @@ class Search:
         self.cache[search_term] = results
         return results
 
-    def do_search(self, search_term):
+    def do_search(self, search_term: str, namespace: str) -> list[SearchResult | None]:
         results = []
         search_term_with_context = self.add_context_to_search_term(search_term)
-        for dirpath, dirnames, filenames in walk("data/dnd"):
+        for dirpath, dirnames, filenames in walk(join("data", namespace)):
             for filename in filenames:
                 if filename.endswith(".md") or filename.endswith(".toml"):
-                    result = self.search_file(dirpath, filename, search_term_with_context)
+                    result = self.search_file(dirpath, filename, search_term_with_context, namespace)
                     if result:
                         results.append(result)
         return results
 
-    def search_file(self, dirpath, filename, search_term_with_context):
+    def search_file(self, dirpath: str, filename: str, search_term_with_context: re.Pattern[str], namespace: str) -> SearchResult | None:
         # Read file contents
         filepath = join(dirpath, filename)
         with open(filepath, "rb") as f:
@@ -95,14 +95,14 @@ class Search:
                 title = d["title"]
         if not title:
             title = page_name_to_title(splitext(filename)[0])
-        return self.build_search_result(dirpath, filename, title, m)
+        return self.build_search_result(dirpath, filename, title, namespace, m)
 
-    def build_search_result(self, dirpath, filename, title, regex_matches=None):
+    def build_search_result(self, dirpath: str, filename: str, title: str, namespace: str, regex_matches=None) -> SearchResult:
         filepath = join(dirpath, filename).replace("\\", "/")
         base_dir = basename(dirpath)
         if base_dir == "magic-items":
             base_dir = "equipment/magic-item"
-        html_link = f"/dnd/{base_dir}/{title}"
+        html_link = f"/{namespace}/{base_dir}/{title}"
         # Return only the first ten contexts
         if regex_matches is not None:
             contexts = [self.build_results_context_string(match) for match in regex_matches][:10]
@@ -110,15 +110,15 @@ class Search:
             contexts = None
         return SearchResult(title, filepath, html_link, contexts)
 
-    def page_search(self, search_term: str, namespace: str):
+    def page_search(self, search_term: str, namespace: str) -> list[SearchResult] | str:
         """
-        Returns results for only "exact" page name matches. "Exact" is in quotes because markdown pages
+        Returns results for only "exact" page name matches. "Exact" is in quotes because Markdown pages
         lose proper punctuation when converting to page names, so the search term "Scout (Fighter)" will
         return the same page as "Scout Fighter".
         """
         search_as_page_name = title_to_page_name(search_term)
         results = []
-        for dirpath, dirnames, filenames in walk(join("data/", namespace)):
+        for dirpath, dirnames, filenames in walk(join("data", namespace)):
             for filename in filenames:
                 if filename.endswith(".md") and search_as_page_name in filename:
                     title = page_name_to_title(splitext(filename)[0])
@@ -130,7 +130,7 @@ class Search:
                     title = d.get("title") or d.get("name")
                 else:
                     continue
-                search_result = self.build_search_result(dirpath, filename, title)
+                search_result = self.build_search_result(dirpath, filename, title, namespace)
                 # If this is an exact match, just redirect to that page
                 if search_as_page_name == splitext(filename)[0]:
                     return search_result.html_link

@@ -198,6 +198,40 @@ def load_wsgi_endpoints(app: Bottle):
         }
         return d
 
+    # Misc Functions
+
+    @app.get('/site_search')
+    @view('dnd5e/site_search.tpl')
+    def site_search():
+        return {
+            "title": "Search",
+            "include_search_box": True,
+        }
+
+    @app.route('/site_search/<search_term>')
+    @view('dnd5e/site_search.tpl')
+    def site_search_with_results(search_term):
+        t = perf_counter()
+        results = SEARCH_OBJ.run(search_term, "dnd")
+        results_per_page = 10
+        total_pages = len(results) // results_per_page + 1 if results is not None else 1
+        try:
+            page = max(0, min(total_pages, int(request.params["page"])))
+        except (ValueError, KeyError):
+            page = 1
+        if total_pages > 1:
+            results = results[(page - 1) * results_per_page:page * results_per_page]
+        return {
+            "title": "Search",
+            "search_key": search_term,
+            "search_results": results,
+            "processing_time": perf_counter() - t,
+            "page": page,
+            "total_pages": total_pages,
+            "results_per_page": results_per_page,
+            "include_search_box": True,
+        }
+
     # Intended for use as a browser bookmark for quickly searching for any specific page
     @app.route("/page_search/<search_term>")
     def page_search_with_results(search_term):
