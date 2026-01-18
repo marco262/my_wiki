@@ -1,0 +1,10 @@
+name = "Potion of Radiant Resistance"
+type = "Potion"
+subtype = ""
+rarity = "Uncommon"
+tables = ["Arcana", "Relics"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 289"
+description = "When you drink this potion, you have [[glossary:Resistance]] to radiant damage for 1 hour."

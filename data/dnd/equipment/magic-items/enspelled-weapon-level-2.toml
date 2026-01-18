@@ -1,0 +1,14 @@
+name = "Enspelled Weapon (Level 2)"
+type = "Weapon"
+subtype = "Any Simple or Martial"
+rarity = "Rare"
+tables = ["Armaments", "Implements"]
+attunement = true
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 258"
+description = """
+Bound into this weapon is a level 2 spell. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains 1d6 expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.
+
+The spell's saving throw DC is 13, and its attack bonus is +5.
+"""

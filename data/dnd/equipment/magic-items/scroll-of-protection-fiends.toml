@@ -1,0 +1,14 @@
+name = "Scroll of Protection (Fiends)"
+type = "Scroll"
+subtype = ""
+rarity = "Rare"
+tables = ["Arcana", "Relics"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 302"
+description = """
+Using a [[glossary:Magic]] action to read the scroll creates a 5-foot [[glossary:Emanation]] originating from you. For 5 minutes, Fiends can't enter or affect anything in the area. However, if you move in such a way that an Fiend would be inside the area, the effect ends.
+
+As a [[glossary:Magic]] action, a creature within 5 feet of the [[glossary:Emanation]] can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the [[glossary:Emanation]].
+"""

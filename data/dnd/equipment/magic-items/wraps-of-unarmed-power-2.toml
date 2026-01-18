@@ -1,0 +1,10 @@
+name = "Wraps of Unarmed Power, +2"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Rare"
+tables = ["Armaments"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 325"
+description = "While wearing these wraps, you have a +2 bonus to attack rolls and damage rolls made with your Unarmed Strikes. Those strikes deal your choice of Force damage or their normal damage type."

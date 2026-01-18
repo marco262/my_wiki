@@ -1,12 +1,10 @@
 name = "Adamantine Armor"
 type = "Armor"
-subtype = "medium or heavy, but not hide"
-rarity_type = "Major"
+subtype = "Any Medium or Heavy, Except Hide Armor"
 rarity = "Uncommon"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 150"
-description = """
-This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.
-"""
+source = "Dungeon Master's Guide, p. 227"
+description = "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any [[glossary:Critical Hit]] against you becomes a normal hit."

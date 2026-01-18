@@ -1,12 +1,10 @@
 name = "Amulet of Health"
 type = "Wondrous Item"
-subtype = "necklace"
-rarity_type = "Major"
+subtype = ""
 rarity = "Rare"
+tables = ["Relics"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 150"
-description = """
-Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.
-"""
+source = "Dungeon Master's Guide, p. 228"
+description = "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it."

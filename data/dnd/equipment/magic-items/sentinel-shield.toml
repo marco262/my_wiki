@@ -1,12 +1,10 @@
 name = "Sentinel Shield"
 type = "Armor"
-subtype = "shield"
-rarity_type = "Major"
+subtype = "Shield"
 rarity = "Uncommon"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 199"
-description = """
-While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye.
-"""
+source = "Dungeon Master's Guide, p. 303"
+description = "While holding this Shield, you have [[glossary:Advantage]] on [[glossary:Initiative]] rolls and Wisdom ([[tooltip:Perception]]) checks. The Shield is emblazoned with a symbol of an eye."

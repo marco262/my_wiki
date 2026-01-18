@@ -8,5 +8,5 @@ classes = []
 notes = ""
 source = "Homebrew"
 description = """
-While wearing this ring, you can cast [shield of faith](/dnd/spell/Shield of Faith). The shield appears as a flat, shield-sized wall of force magic that floats around you, turning at your mental command to block any incoming attacks. Once used, the ring can't be used again until the next dawn.
+While wearing this ring, you can cast [[[spell:Shield of Faith]]]. The shield appears as a flat, shield-sized wall of force magic that floats around you, turning at your mental command to block any incoming attacks. Once used, the ring can't be used again until the next dawn.
 """

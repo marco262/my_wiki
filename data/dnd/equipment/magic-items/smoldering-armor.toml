@@ -1,12 +1,10 @@
 name = "Smoldering Armor"
 type = "Armor"
-subtype = ""
-rarity_type = "Minor"
+subtype = "Any Light, Medium, or Heavy"
 rarity = "Common"
+tables = ["Armaments", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 139"
-description = """
-Wisps of harmless, odorless smoke rise from this armor while it is worn.
-"""
+source = "Dungeon Master's Guide, p. 305"
+description = "Wisps of harmless, odorless smoke rise from this armor while it is worn."

@@ -1,0 +1,10 @@
+name = "Potion of Greater Invisibility"
+type = "Potion"
+subtype = ""
+rarity = "Very Rare"
+tables = ["Arcana"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 288"
+description = "This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the [[glossary:Invisible]] condition for 1 hour."

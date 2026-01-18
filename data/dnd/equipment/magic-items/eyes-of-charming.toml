@@ -1,12 +1,10 @@
 name = "Eyes of Charming"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 168"
-description = """
-These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the _[charm person](/dnd5e/spell/charm person)_ spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.
-"""
+source = "Dungeon Master's Guide, p. 261"
+description = "These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast [[[spell:Charm Person]]] (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell's level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn."

@@ -1,12 +1,10 @@
 name = "Weapon, +3"
 type = "Weapon"
-subtype = ""
-rarity_type = "Major"
+subtype = "Any Simple or Martial"
 rarity = "Very Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 213"
-description = """
-You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.
-"""
+source = "Dungeon Master's Guide, p. 324"
+description = "You have a +3 bonus to attack and damage rolls made with this magic weapon."

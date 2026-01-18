@@ -1,12 +1,10 @@
 name = "Ring of Jumping"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 191"
-description = """
-While wearing this ring, you can cast the _[jump](/dnd/spell/jump)_ spell from it as a bonus action at will, but can target only yourself when you do so.
-"""
+source = "Dungeon Master's Guide, p. 293"
+description = "While wearing this ring, you can cast [[[spell:Jump]]] from it, but can target only yourself when you do so."

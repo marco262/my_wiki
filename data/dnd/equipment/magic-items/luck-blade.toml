@@ -1,16 +1,16 @@
 name = "Luck Blade"
 type = "Weapon"
-subtype = "any sword"
-rarity_type = "Major"
+subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword"
 rarity = "Legendary"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 179"
+source = "Dungeon Master's Guide, p. 275"
 description = """
-You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
+You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a {=bonusSavingThrow} bonus to saving throws.
 
-***Luck.*** If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn.
+**_Luck._** If the weapon is on your person, you can call on its luck (no action required) to reroll one failed [[glossary:D20 Test]] if you don't have the [[glossary:Incapacitated]] condition. You must use the second roll. Once used, this property can't be used again until the next dawn.
 
-***Wish.*** The sword has 1d4-1 charges. While holding it, you can use an action to expend 1 charge and cast the _[wish](/dnd5e/spell/wish)_ spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.
+**_Wish._** The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast [[[spell:Wish]]] from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.
 """

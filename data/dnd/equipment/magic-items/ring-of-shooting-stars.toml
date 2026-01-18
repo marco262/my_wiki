@@ -1,30 +1,31 @@
 name = "Ring of Shooting Stars"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Very Rare"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 192"
+source = "Dungeon Master's Guide, p. 294"
 description = """
-While wearing this ring in dim light or darkness, you can cast _[dancing lights](/dnd/spell/dancing lights)_ and _[light](/dnd/spell/light)_ from the ring at will. Casting either spell from the ring requires an action.
+You can cast [[[spell:Dancing Lights]]] or [[[spell:Light]]] from the ring.
 
-The ring has 6 charges for the following other properties. The ring regains 1d6 expended charges daily at dawn.
+The ring has 6 charges and regains 1d6 expended charges daily at dawn. You can expend its charges to use the properties below.
 
-***Faerie Fire.*** You can expend 1 charge as an action to cast _[faerie fire](/dnd/spell/faerie fire)_ from the ring.
+**_Faerie Fire._** You can expend 1 charge to cast [[[spell:Faerie Fire]]] from the ring.
 
-***Ball Lightning.*** You can expend 2 charges as an action to create one to four 3-foot-diameter spheres of lightning. The more spheres you create, the less powerful each sphere is individually.
+**_Lightning Spheres._** You can expend 2 charges as a [[glossary:Magic]] action to create up to four 3-foot-diameter spheres of lightning.
 
-Each sphere appears in an unoccupied space you can see within 120 feet of you. The spheres last as long as you concentrate (as if concentrating on a spell), up to 1 minute. Each sphere sheds dim light in a 30-foot radius.
+Each sphere appears in an unoccupied space you can see within 120 feet of yourself. The spheres last as long as you maintain [[glossary:Concentration]], up to 1 minute. Each sphere sheds [[glossary:Dim Light]] in a 30-foot radius.
 
-As a bonus action, you can move each sphere up to 30 feet, but no farther than 120 feet away from you. When a creature other than you comes within 5 feet of a sphere, the sphere discharges lightning at that creature and disappears. That creature must make a DC 15 Dexterity saving throw. On a failed save, the creature takes lightning damage based on the number of spheres you created.
+As a [[glossary:Bonus Action]], you can move each sphere up to 30 feet, but no farther than 120 feet away from yourself. The first time the sphere comes within 5 feet of a creature other than you that isn't behind [[glossary:Cover]], the sphere discharges lightning at that creature and disappears. That creature makes a DC 15 Dexterity saving throw. On a failed save, the creature takes Lightning damage based on the number of spheres you created, as shown in the following table. On a successful save, the creature takes half as much damage.
 
-||~ Spheres ||~ Lightning Damage ||
-|| 4 || 2d4 ||
-|| 3 || 2d6 ||
-|| 2 || 5d4 ||
-|| 1 || 4d12 ||
+| Number of Spheres | Lightning Damage |
+|-------------------|------------------|
+| 1                 | 4d12   |
+| 2                 | 5d4    |
+| 3                 | 2d6    |
+| 4                 | 2d4    |
 
-***Shooting Stars.*** You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.
+**_Shooting Stars._** You can expend 1 to 3 charges as a [[glossary:Magic]] action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot [[glossary:Cube]] originating from that point is showered in sparks and makes a DC 15 Dexterity saving throw, taking 5d4 Radiant damage on a failed save or half as much damage on a successful one.
 """

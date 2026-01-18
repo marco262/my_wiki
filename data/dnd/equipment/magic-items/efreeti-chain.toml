@@ -1,12 +1,10 @@
 name = "Efreeti Chain"
 type = "Armor"
-subtype = "chain mail"
-rarity_type = "Major"
+subtype = "Chain Mail or Chain Shirt"
 rarity = "Legendary"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 167"
-description = """
-While wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.
-"""
+source = "Dungeon Master's Guide, p. 257"
+description = "While wearing this armor, you gain a +3 bonus to [[glossary:Armor Class]], you have [[glossary:Immunity]] to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground."

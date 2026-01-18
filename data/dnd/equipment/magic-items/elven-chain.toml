@@ -1,12 +1,10 @@
 name = "Elven Chain"
 type = "Armor"
-subtype = "chain shirt"
-rarity_type = "Major"
+subtype = "Chain Mail or Chain Shirt"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 168"
-description = """
-You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.
-"""
+source = "Dungeon Master's Guide, p. 257"
+description = "You gain a +1 bonus to [[glossary:Armor Class]] while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor."

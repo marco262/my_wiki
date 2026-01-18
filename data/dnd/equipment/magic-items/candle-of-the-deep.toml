@@ -1,12 +1,10 @@
 name = "Candle of the Deep"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Common"
+tables = ["Arcana", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 136"
-description = """
-The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle.
-"""
+source = "Dungeon Master's Guide, p. 242"
+description = "The flame of this candle isn't extinguished when immersed in water. It gives off light and heat like a normal candle."

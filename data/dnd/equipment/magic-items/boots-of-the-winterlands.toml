@@ -1,16 +1,16 @@
 name = "Boots of the Winterlands"
 type = "Wondrous Item"
-subtype = "boots"
-rarity_type = "Major"
+subtype = ""
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 156"
+source = "Dungeon Master's Guide, p. 240"
 description = """
-These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
+These furred boots are snug and feel warm. While wearing them, you gain the following benefits.
 
-* You have resistance to cold damage.
-* You ignore difficult terrain created by ice or snow.
-* You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.
+**_Cold Resistance._** You have [[glossary:Resistance]] to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.
+
+**_Winter Strider._** You ignore [[glossary:Difficult Terrain]] created by ice or snow.
 """

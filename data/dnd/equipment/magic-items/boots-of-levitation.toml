@@ -1,12 +1,10 @@
 name = "Boots of Levitation"
 type = "Wondrous Item"
-subtype = "boots"
-rarity_type = "Major"
+subtype = ""
 rarity = "Rare"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 155"
-description = """
-While you wear these boots, you can use an action to cast the _[levitate](/dnd5e/spell/levitate)_ spell on yourself at will.
-"""
+source = "Dungeon Master's Guide, p. 239"
+description = "While you wear these boots, you can cast [[[spell:Levitate]]] on yourself."

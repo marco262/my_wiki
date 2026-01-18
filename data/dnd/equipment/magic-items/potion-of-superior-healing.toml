@@ -1,18 +1,10 @@
 name = "Potion of Superior Healing"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Rare"
+tables = ["Implements", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 187"
-description = """
-You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, as shown in the Potions of Healing table. Whatever its potency, the potion's red liquid glimmers when agitated.
-
-||~ Potion of ... ||~ Rarity ||~ HP Regained ||
-|| Healing || Common || 2d4 + 2 ||
-|| Greater healing || Uncommon || 4d4 + 4 ||
-|| Superior healing || Rare || 8d4 + 8 ||
-|| Supreme healing || Very rare || 10d4 + 20 ||
-"""
+source = "Dungeon Master's Guide, p. 288"
+description = "You regain 8d4 + 8 [[glossary:Hit Points]] when you drink this potion. The potion's red liquid glimmers when agitated."

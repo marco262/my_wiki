@@ -1,12 +1,10 @@
 name = "Brooch of Shielding"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 156"
-description = """
-While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the _[magic missile](/dnd/spell/magic missile)_ spell.
-"""
+source = "Dungeon Master's Guide, p. 241"
+description = "While wearing this brooch, you have [[glossary:Resistance]] to Force damage, and you have [[glossary:Immunity]] to damage from the [[[spell:Magic Missile]]] spell."

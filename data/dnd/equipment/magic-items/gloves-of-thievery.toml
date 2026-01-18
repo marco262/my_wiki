@@ -1,12 +1,10 @@
 name = "Gloves of Thievery"
 type = "Wondrous Item"
-subtype = "gloves"
-rarity_type = "Major"
+subtype = ""
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 172"
-description = """
-These gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.
-"""
+source = "Dungeon Master's Guide, p. 265"
+description = "These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity ([[tooltip:Sleight of Hand]]) checks."

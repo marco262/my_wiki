@@ -1,0 +1,10 @@
+name = "Ring of Thunder Resistance"
+type = "Ring"
+subtype = ""
+rarity = "Rare"
+tables = ["Relics"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 294"
+description = "You have [[glossary:Resistance]] to thunder damage while wearing this ring. The ring is set with spinel."

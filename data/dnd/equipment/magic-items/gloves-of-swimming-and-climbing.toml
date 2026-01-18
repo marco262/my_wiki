@@ -1,12 +1,10 @@
 name = "Gloves of Swimming and Climbing"
 type = "Wondrous Item"
-subtype = "gloves"
-rarity_type = "Major"
+subtype = ""
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 172"
-description = """
-While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.
-"""
+source = "Dungeon Master's Guide, p. 265"
+description = "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength ([[tooltip:Athletics]]) checks made to climb or swim."

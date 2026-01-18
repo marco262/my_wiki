@@ -1,12 +1,10 @@
 name = "Spellguard Shield"
 type = "Armor"
-subtype = "shield"
-rarity_type = "Major"
+subtype = "Shield"
 rarity = "Very Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 201"
-description = """
-While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.
-"""
+source = "Dungeon Master's Guide, p. 305"
+description = "While holding this Shield, you have [[glossary:Advantage]] on saving throws against spells and other magical effects, and spell attack rolls have [[glossary:Disadvantage]] against you."

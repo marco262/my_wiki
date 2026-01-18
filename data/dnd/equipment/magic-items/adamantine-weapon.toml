@@ -1,0 +1,10 @@
+name = "Adamantine Weapon"
+type = "Weapon"
+subtype = "Ammunition or Melee"
+rarity = "Uncommon"
+tables = ["Armaments"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 227"
+description = "This weapon or piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this weapon or piece of ammunition hits an object, the hit is a [[glossary:Critical Hit]]."

@@ -1,16 +1,16 @@
 name = "Staff of the Adder"
 type = "Staff"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Arcana", "Relics"]
 attunement = true
-classes = ["cleric", "druid", "warlock"]
+classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 203"
+source = "Dungeon Master's Guide, p. 310"
 description = """
-You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.
+As a [[glossary:Bonus Action]], you can turn the head of this staff into that of an animate, venomous snake for 1 minute or revert the staff to its inanimate form.
 
-You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6 piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6 poison damage.
+When you take the [[glossary:Attack]] action, you can make one of the attack rolls using the animated snake head, which has a reach of 5 feet. Apply your [[glossary:Proficiency]] and Wisdom modifier to the attack roll. On a hit, the target takes 1d6 Piercing damage and 3d6 Poison damage.
 
-The snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its inanimate form.
+The snake head can be attacked while it is animate. It has AC 15, HP 20, and [[glossary:Immunity]] to Poison and Psychic damage. If the head drops to 0 [[glossary:Hit Points]], the staff is destroyed. As long as it's not destroyed, the staff regains all lost [[glossary:Hit Points]] when it reverts to its inanimate form.
 """

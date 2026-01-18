@@ -1,12 +1,10 @@
 name = "Armor of Gleaming"
 type = "Armor"
-subtype = "medium or heavy"
-rarity_type = "Minor"
+subtype = "Any Light, Medium, or Heavy"
 rarity = "Common"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 136"
-description = """
-This armor never gets dirty.
-"""
+source = "Dungeon Master's Guide, p. 230"
+description = "This armor never gets dirty."

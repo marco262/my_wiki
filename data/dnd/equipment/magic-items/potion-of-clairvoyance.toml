@@ -1,12 +1,14 @@
 name = "Potion of Clairvoyance"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Rare"
+tables = ["Arcana"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 187"
+source = "Dungeon Master's Guide, p. 287"
 description = """
-An eyeball bobs in this yellowish liquid but vanishes when the potion is opened. When you drink this potion, you gain the effect of the _[clairvoyance](/dnd/spell/clairvoyance)_ spell.
+When you drink this potion, you gain the effect of the [[[spell:Clairvoyance]]] spell (no [[glossary:Concentration]] required).
+
+An eyeball bobs in this potion's yellowish liquid but vanishes when the potion is opened.
 """

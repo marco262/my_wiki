@@ -1,0 +1,10 @@
+name = "Armor of Necrotic Resistance"
+type = "Armor"
+subtype = "Any Light, Medium, or Heavy"
+rarity = "Rare"
+tables = ["Armaments"]
+attunement = true
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 231"
+description = "You have [[glossary:Resistance]] to necrotic damage while you wear this armor."

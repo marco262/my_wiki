@@ -1,12 +1,10 @@
 name = "Armor, +3"
 type = "Armor"
-subtype = ""
-rarity_type = "Major"
+subtype = "Any Light, Medium, or Heavy"
 rarity = "Legendary"
+tables = ["Armaments", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 152"
-description = """
-You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.
-"""
+source = "Dungeon Master's Guide, p. 230"
+description = "You have a +3 bonus to AC while wearing this armor."

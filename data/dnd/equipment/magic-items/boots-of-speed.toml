@@ -1,14 +1,14 @@
 name = "Boots of Speed"
 type = "Wondrous Item"
-subtype = "boots"
-rarity_type = "Major"
+subtype = ""
 rarity = "Rare"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 155"
+source = "Dungeon Master's Guide, p. 240"
 description = """
-While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.
+While you wear these boots, you can take a [[glossary:Bonus Action]] to click the boots' heels together. If you do, the boots double your [[glossary:Speed]], and any creature that makes an [[glossary:Opportunity Attacks|Opportunity Attack]] against you has [[glossary:Disadvantage]] on the attack roll. If you click your heels together again, you end the effect.
 
-When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest.
+When you've used the boots' property for a total of 10 minutes, the magic ceases to function for you until you finish a [[glossary:Long Rest]].
 """

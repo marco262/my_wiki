@@ -1,0 +1,10 @@
+name = "Returning Weapon"
+type = "Weapon"
+subtype = "Any Simple or Martialwith the Thrown Property"
+rarity = "Uncommon"
+tables = ["Armaments"]
+attunement = false
+classes = []
+notes = ""
+source = "Eberron: Forge of the Artificer, p. 112"
+description = "This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after you use it to make a ranged attack roll."

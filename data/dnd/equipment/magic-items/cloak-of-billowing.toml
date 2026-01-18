@@ -1,12 +1,10 @@
 name = "Cloak of Billowing"
 type = "Wondrous Item"
-subtype = "cloak"
-rarity_type = "Minor"
+subtype = ""
 rarity = "Common"
+tables = ["Arcana"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 136"
-description = """
-While wearing this cloak, you can use a bonus action to make it billow dramatically.
-"""
+source = "Dungeon Master's Guide, p. 244"
+description = "While wearing this cloak, you can take a [[glossary:Bonus Action]] to make it billow dramatically for 1 minute."

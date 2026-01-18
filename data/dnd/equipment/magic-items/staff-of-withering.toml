@@ -1,14 +1,14 @@
 name = "Staff of Withering"
 type = "Staff"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Arcana", "Relics"]
 attunement = true
-classes = ["cleric", "druid", "warlock"]
+classes = ["Cleric", "Druid", "Warlock"]
 notes = ""
-source = "Dungeon Master's Guide, p. 205"
+source = "Dungeon Master's Guide, p. 312"
 description = """
 This staff has 3 charges and regains 1d3 expended charges daily at dawn.
 
-The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.
+The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff , and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has [[glossary:Disadvantage]] for 1 hour on any ability check or saving throw that uses Strength or Constitution.
 """

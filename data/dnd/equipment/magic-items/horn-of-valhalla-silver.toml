@@ -1,22 +1,14 @@
 name = "Horn of Valhalla, Silver"
 type = "Wondrous Item"
-subtype = ""
-rarity_type = "Major"
+subtype = "Horn"
 rarity = "Rare"
+tables = ["Armaments", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 175"
+source = "Dungeon Master's Guide, p. 270"
 description = """
-You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.
+You can take a [[glossary:Magic]] action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the [[[monster:Berserker]]] stat block and returns to Ysgard after 1 hour or when it drops to 0 [[glossary:Hit Points]]. The spirits look like living, breathing warriors, and they have [[glossary:Immunity]] to the [[glossary:Charmed]] and [[glossary:Frightened]] conditions. Once you use the horn, it can't be used again until 7 days have passed.
 
-Four types of _horn of Valhalla_ are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly.
-
-||~ d100 ||~ Horn Type ||~ Berserkers Summoned ||~ Requirement ||
-|| 01-40 || Silver || 2d4 + 2 || None ||
-|| 41-75 || Brass || 3d4 + 3 || Proficiency with all simple weapons ||
-|| 76-90 || Bronze || 4d4 + 4 || Proficiency with all medium armor ||
-|| 91-00 || Iron || 5d4 + 5 || Proficiency with all martial weapons ||
-
-If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.
+A silver horn summons 2 [[[monster:Berserker]]]. They are [[glossary:Friendly]] to you and your allies and follow your commands.
 """

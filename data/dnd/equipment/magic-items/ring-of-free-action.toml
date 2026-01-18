@@ -1,12 +1,10 @@
 name = "Ring of Free Action"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 191"
-description = """
-While you wear this ring, difficult terrain doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be [[[general:conditions#paralyzed|paralyzed]]] or [[[general:conditions#restrained|restrained]]].
-"""
+source = "Dungeon Master's Guide, p. 293"
+description = "While you wear this ring, [[glossary:Difficult Terrain]] doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the [[glossary:Paralyzed]] or [[glossary:Restrained]] condition."

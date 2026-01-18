@@ -1,12 +1,10 @@
-name = "Shield, +3"
+name = "Shield (*), +3"
 type = "Armor"
-subtype = "shield"
-rarity_type = "Major"
+subtype = "Shield"
 rarity = "Very Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 200"
-description = """
-While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.
-"""
+source = "Dungeon Master's Guide, p. 303"
+description = "While holding this Shield, you have a +3 bonus to [[glossary:Armor Class]], in addition to the Shield's normal bonus to AC."

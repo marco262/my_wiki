@@ -1,14 +1,14 @@
 name = "Keoghtom's Ointment"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Uncommon"
+tables = ["Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 179"
+source = "Dungeon Master's Guide, p. 275"
 description = """
 This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.
 
-As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be _[[[general:conditions#poisoned|poisoned]]]_, and is cured of any disease.
+As a [[glossary:Utilize]] action, you can swallow one dose of the ointment or apply it to a creature within 5 feet of yourself. The creature that receives it regains 2d8 + 2 [[glossary:Hit Points]] and ceases to have the [[glossary:Poisoned]] condition.
 """

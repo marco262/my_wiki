@@ -1,12 +1,10 @@
-name = "Amulet of Proof Against Detection and Location"
+name = "Amulet of Proof against Detection and Location"
 type = "Wondrous Item"
-subtype = "necklace"
-rarity_type = "Major"
+subtype = ""
 rarity = "Uncommon"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 150"
-description = """
-While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.
-"""
+source = "Dungeon Master's Guide, p. 228"
+description = "While wearing this amulet, you can't be targeted by Divination spells or perceived through magical scrying sensors unless you allow it."

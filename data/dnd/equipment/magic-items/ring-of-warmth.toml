@@ -1,12 +1,14 @@
 name = "Ring of Warmth"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 193"
+source = "Dungeon Master's Guide, p. 296"
 description = """
-While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.
+If you take Cold damage while wearing this ring, the ring reduces the damage you take by 2d8.
+
+In addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower.
 """

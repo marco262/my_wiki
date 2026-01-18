@@ -1,14 +1,10 @@
 name = "Sword of Wounding"
 type = "Weapon"
-subtype = "any sword"
-rarity_type = "Major"
+subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 207"
-description = """
-Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
-
-Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
-"""
+source = "Dungeon Master's Guide, p. 314"
+description = "When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain [[glossary:Hit Points]] for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success."

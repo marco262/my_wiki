@@ -1,0 +1,14 @@
+name = "Quaal's Feather Token, Anchor"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Uncommon"
+tables = ["Arcana", "Implements"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 290"
+description = """
+This object looks like a feather.
+
+You can take a [[glossary:Magic]] action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.
+"""

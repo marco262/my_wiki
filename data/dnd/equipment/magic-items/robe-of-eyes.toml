@@ -1,20 +1,17 @@
 name = "Robe of Eyes"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 193"
+source = "Dungeon Master's Guide, p. 297"
 description = """
 This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:
 
-* The robe lets you see in all directions, and you have advantage on Wisdom (Perception) checks that rely on sight.
-* You have darkvision out to a range of 120 feet.
-* You can see [[[general:conditions#invisible|invisible]]] creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet.
+ - **All-Around Vision.** The robe gives you [[glossary:Advantage]] on Wisdom ([[tooltip:Perception]]) checks that rely on sight.
+ - **Special Senses.** You have [[glossary:Darkvision]] and [[glossary:Truesight]], both with a range of 120 feet.
 
-The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.
-
-A _[light](/dnd5e/spell/light)_ spell cast on the robe or a _[daylight](/dnd5e/spell/daylight)_ spell cast within 5 feet of the robe causes you to be [[[general:conditions#blinded|blinded]]] for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for _[light](/dnd5e/spell/light)_ or DC 15 for _[daylight](/dnd5e/spell/daylight)_), ending the blindness on a success.
+**_Drawbacks._** A [[[spell:Light]]] spell cast on the robe or a [[[spell:Daylight]]] spell cast within 5 feet of the robe gives you the [[glossary:Blinded]] condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for Light or DC 15 for Daylight), ending the condition on yourself on a success.
 """

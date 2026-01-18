@@ -1,16 +1,18 @@
 name = "Sun Blade"
 type = "Weapon"
-subtype = "longsword"
-rarity_type = "Major"
+subtype = "Longsword"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 205"
+source = "Dungeon Master's Guide, p. 312"
 description = """
-This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the _sun blade_.
+This item appears to be a sword hilt.
 
-You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8 radiant damage.
+**_Blade of Radiance._** While grasping the hilt, you can take a [[glossary:Bonus Action]] to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with {@itemProperty F|XPHB|Finesse}. If you are proficient with Longswords or Shortswords, you are proficient with the Sun Blade.
 
-The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
+You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.
+
+**_Sunlight._** The sword's luminous blade emits [[glossary:Bright Light]] in a 15-foot radius and [[glossary:Dim Light]] for an additional 15 feet. The light is sunlight. While the blade persists, you can take a [[glossary:Magic]] action to expand or reduce its radius of [[glossary:Bright Light]] and [[glossary:Dim Light]] by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
 """

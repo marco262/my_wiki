@@ -1,16 +1,18 @@
 name = "Staff of Charming"
 type = "Staff"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Arcana", "Relics"]
 attunement = true
-classes = ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"]
+classes = ["Bard", "Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"]
 notes = ""
-source = "Dungeon Master's Guide, p. 201"
+source = "Dungeon Master's Guide, p. 307"
 description = """
-While holding this staff, you can use an action to expend 1 of its 10 charges to cast _[charm person](/dnd5e/spell/charm person)_, _[command](/dnd5e/spell/command)_, or _[comprehend languages](/dnd5e/spell/comprehend languages)_ from it using your spell save DC. The staff can also be used as a magic quarterstaff.
+This staff has 10 charges. While holding the staff, you can use any of its properties:
 
-If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
+ - **Cast Spell.** You can expend 1 of the staff's charges to cast [[[spell:Charm Person]]], [[[spell:Command]]], or [[[spell:Comprehend Languages]]] from it using your spell save DC.
+ - **Reflect Enchantment.** If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a [[glossary:Reaction]] to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
+ - **Resist Enchantment.** If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.
 
-The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.
+**_Regaining Charges._** The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
 """

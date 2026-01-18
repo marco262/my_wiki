@@ -1,12 +1,10 @@
 name = "Trident of Fish Command"
 type = "Weapon"
-subtype = "trident"
-rarity_type = "Major"
+subtype = "Trident"
 rarity = "Uncommon"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 209"
-description = """
-This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast _dominate beast_ (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.
-"""
+source = "Dungeon Master's Guide, p. 317"
+description = "This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast [[[spell:Dominate Beast]]] (save DC 15) from it on a Beast that has a [[glossary:Swim Speed]]."

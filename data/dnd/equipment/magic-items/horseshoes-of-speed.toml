@@ -1,12 +1,14 @@
 name = "Horseshoes of Speed"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Rare"
+tables = ["Arcana", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 175"
+source = "Dungeon Master's Guide, p. 270"
 description = """
-These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature's walking speed by 30 feet.
+These horseshoes come in a set of four. As a [[glossary:Magic]] action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a [[glossary:Magic]] action.
+
+While all four horseshoes are attached to the same creature, its [[glossary:Speed]] is increased by 30 feet.
 """

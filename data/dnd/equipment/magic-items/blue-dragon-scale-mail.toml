@@ -1,0 +1,16 @@
+name = "Blue Dragon Scale Mail"
+type = "Armor"
+subtype = "Scale Mail"
+rarity = "Very Rare"
+tables = ["Armaments"]
+attunement = true
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 254"
+description = """
+Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them. Other times, hunters carefully preserve the hide of a dead dragon. In either case, Dragon Scale Mail is highly valued.
+
+While wearing this armor, you gain a +1 bonus to [[glossary:Armor Class]], you have [[glossary:Advantage]] on saving throws against the breath weapons of Dragons, and you have [[glossary:Resistance]] to lightning damage.
+
+Additionally, you can focus your senses as a [[glossary:Magic]] action to discern the distance and direction to the closest blue dragon within 30 miles of yourself. This action can't be used again until the next dawn.
+"""

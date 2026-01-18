@@ -1,12 +1,14 @@
 name = "Periapt of Health"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Uncommon"
-attunement = false
+tables = ["Arcana", "Relics"]
+attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 184"
+source = "Dungeon Master's Guide, p. 284"
 description = """
-You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.
+While wearing this pendant, you can take a [[glossary:Magic]] action to regain 2d4 + 2 [[glossary:Hit Points]]. Once used, this property can't be used again until the next dawn.
+
+In addition, you have [[glossary:Advantage]] on saving throws to avoid or end the [[glossary:Poisoned]] condition while you wear this pendant.
 """

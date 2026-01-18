@@ -1,0 +1,14 @@
+name = "Scroll of Titan Summoning (Animal Lord)"
+type = "Scroll"
+subtype = ""
+rarity = "Legendary"
+tables = ["Arcana", "Relics"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 303"
+description = """
+When you take a [[glossary:Magic]] action to read this scroll, an [[[monster:Animal Lord]]] appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.
+
+The [[[monster:Animal Lord]]] is [[glossary:Hostile]] toward all other creatures and disappears when it drops to 0 [[glossary:Hit Points]]. If the [[[monster:Animal Lord]]] is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted.
+"""

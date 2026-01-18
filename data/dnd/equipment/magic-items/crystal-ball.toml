@@ -1,12 +1,10 @@
 name = "Crystal Ball"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Very Rare"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 159"
-description = """
-The typical _crystal ball_, a very rare item, is about 6 inches in diameter. While touching it, you can cast the _[scrying](/dnd/spell/scrying)_ spell (save DC 17) with it.
-"""
+source = "Dungeon Master's Guide, p. 245"
+description = "The typical crystal ball, a very rare item, is about 6 inches in diameter. While touching it, you can cast the [[[spell:Scrying]]] spell (save DC 17) with it."

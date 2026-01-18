@@ -1,16 +1,14 @@
 name = "Instrument of the Bards, Canaith Mandolin"
 type = "Wondrous Item"
-subtype = "instrument"
-rarity_type = "Major"
+subtype = ""
 rarity = "Rare"
+tables = ["Implements"]
 attunement = true
-classes = ["bard"]
+classes = ["Bard"]
 notes = ""
-source = "Dungeon Master's Guide, p. 176"
+source = "Dungeon Master's Guide, p. 272"
 description = """
-An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+An Instrument of the Bards is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.
 
-You can use an action to play the instrument and cast one of its spells: _[cure wounds](/dnd5e/spell/cure wounds)_ (3rd level), _[dispel magic](/dnd5e/spell/dispel magic)_, _[fly](/dnd5e/spell/fly)_, _[invisibility](/dnd5e/spell/invisibility)_, _[levitate](/dnd5e/spell/levitate)_, _[protection from energy](/dnd5e/spell/protection from energy)_ (lightning only), _[protection from evil and good](/dnd5e/spell/protection from evil and good)_. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
-
-When you use the instrument to cast a spell that causes targets to become charmed on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.
+You can play the Canaith Mandolin to cast one of the following spells: [[[spell:Fly]]], [[[spell:Invisibility]]], [[[spell:Levitate]]], [[[spell:Protection from Evil and Good]]], [[[spell:Cure Wounds]]] (level 3), [[[spell:Dispel Magic]]], and [[[spell:Protection from Energy]]] (Lightning damage only). Once the Canaith Mandolin has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
 """

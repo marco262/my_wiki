@@ -1,14 +1,14 @@
 name = "Dragon Slayer"
 type = "Weapon"
-subtype = "any sword"
-rarity_type = "Major"
+subtype = "Any Simple or Martial"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 166"
+source = "Dungeon Master's Guide, p. 254"
 description = """
-You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
 
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+The weapon deals an extra 3d6 damage of the weapon's type if the target is a Dragon.
 """

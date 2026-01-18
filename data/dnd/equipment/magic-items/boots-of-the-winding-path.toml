@@ -1,0 +1,10 @@
+name = "Boots of the Winding Path"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Uncommon"
+tables = ["Implements"]
+attunement = true
+classes = []
+notes = ""
+source = "Eberron: Forge of the Artificer, p. 112"
+description = "While wearing these boots, you can take a [[glossary:Bonus Action]] to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn."

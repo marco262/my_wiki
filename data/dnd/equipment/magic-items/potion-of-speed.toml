@@ -1,12 +1,14 @@
 name = "Potion of Speed"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Very Rare"
+tables = ["Arcana", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 188"
+source = "Dungeon Master's Guide, p. 289"
 description = """
-When you drink this potion, you gain the effect of the _[haste](/dnd5e/spell/haste)_ spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.
+When you drink this potion, you gain the effect of the [[[spell:Haste]]] spell for 1 minute (no [[glossary:Concentration]] required) without suffering the wave of lethargy that typically occurs when the effect ends.
+
+This potion's yellow fluid is streaked with black and swirls on its own.
 """

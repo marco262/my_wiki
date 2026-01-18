@@ -1,14 +1,14 @@
 name = "Horn of Blasting"
 type = "Wondrous Item"
-subtype = ""
-rarity_type = "Major"
+subtype = "Horn"
 rarity = "Rare"
+tables = ["Armaments", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 174"
+source = "Dungeon Master's Guide, p. 270"
 description = """
-You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is [[[general:conditions#deafened|deafened]]] for 1 minute. On a successful save, a creature takes half as much damage and isn't [[[general:conditions#deafened|deafened]]]. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.
+You can take a [[glossary:Magic]] action to blow the horn, which emits a thunderous blast in a 30-foot [[glossary:Cone]] that is audible out to 600 feet. Each creature in the [[glossary:Cone]] makes a DC 15 Constitution saving throw. On a failed save, a creature takes 5d8 Thunder damage and has the [[glossary:Deafened]] condition for 1 minute. On a successful save, a creature takes half as much damage only. Glass or crystal objects in the [[glossary:Cone]] that aren't being worn or carried take 10d8 Thunder damage.
 
-Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.
+Each use of the horn's magic has a {@chance 20} chance of causing the horn to explode. The explosion deals 10d6 Force damage to the user and destroys the horn.
 """

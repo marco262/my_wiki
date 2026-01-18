@@ -1,0 +1,10 @@
+name = "Ring of Lightning Resistance"
+type = "Ring"
+subtype = ""
+rarity = "Rare"
+tables = ["Relics"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 294"
+description = "You have [[glossary:Resistance]] to lightning damage while wearing this ring. The ring is set with citrine."

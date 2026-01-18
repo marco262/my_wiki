@@ -1,12 +1,10 @@
 name = "Heward's Handy Spice Pouch"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Common"
+tables = ["Arcana", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 137"
-description = """
-This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains 1d6 + 4 expended charges daily at dawn.
-"""
+source = "Dungeon Master's Guide, p. 269"
+description = "This belt pouch appears empty and has 10 charges. While holding the pouch, you can take a [[glossary:Magic]] action to expend 1 charge, name any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains 1d6 + 4 expended charges daily at dawn."

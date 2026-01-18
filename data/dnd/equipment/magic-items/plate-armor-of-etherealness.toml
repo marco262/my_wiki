@@ -1,12 +1,10 @@
-name = "Plate Armor of Etherealness"
+name = "Plate Armor of Etherealness (*)"
 type = "Armor"
-subtype = "plate"
-rarity_type = "Major"
+subtype = "Half Plate Armor or Plate Armor"
 rarity = "Legendary"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 185"
-description = """
-While you're wearing this armor, you can speak its command word as an action to gain the effect of the _[etherealness](/dnd/spell/etherealness)_ spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.
-"""
+source = "Dungeon Master's Guide, p. 286"
+description = "While you're wearing this armor, you can take a [[glossary:Magic]] action and use a command word to gain the effect of the [[[spell:Etherealness]]] spell. The spell ends immediately if you remove the armor or take a [[glossary:Magic]] action to repeat the command word. This property of the armor can't be used again until the next dawn."

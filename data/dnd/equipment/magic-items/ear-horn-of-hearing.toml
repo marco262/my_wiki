@@ -1,12 +1,10 @@
 name = "Ear Horn of Hearing"
 type = "Wondrous Item"
-subtype = "prosthetic"
-rarity_type = "Minor"
+subtype = ""
 rarity = "Common"
+tables = ["Implements", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 137"
-description = """
-While held up to your ear, this horn suppresses the effects of the deafened condition on you, allowing you to hear normally.
-"""
+source = "Dungeon Master's Guide, p. 256"
+description = "While held up to your ear, this horn suppresses the effects of the [[glossary:Deafened]] condition on you."

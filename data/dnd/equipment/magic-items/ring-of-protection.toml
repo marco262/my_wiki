@@ -1,12 +1,10 @@
 name = "Ring of Protection"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 191"
-description = """
-You gain a +1 bonus to AC and saving throws while wearing this ring.
-"""
+source = "Dungeon Master's Guide, p. 294"
+description = "You gain a +1 bonus to [[glossary:Armor Class]] and saving throws while wearing this ring."

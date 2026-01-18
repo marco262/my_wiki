@@ -1,12 +1,10 @@
-name = "Periapt of Proof Against Poison"
+name = "Periapt of Proof against Poison"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
-attunement = false
+tables = ["Relics"]
+attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 184"
-description = """
-This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the [[[general:conditions#poisoned|poisoned]]] condition and have immunity to poison damage.
-"""
+source = "Dungeon Master's Guide, p. 284"
+description = "This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have [[glossary:Immunity]] to the [[glossary:Poisoned]] condition and Poison damage"

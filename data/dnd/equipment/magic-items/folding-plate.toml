@@ -1,8 +1,8 @@
 name = "Folding Plate"
 type = "Armor"
-subtype = ""
-rarity_type = "Major"
+subtype = "Plate Armor"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""

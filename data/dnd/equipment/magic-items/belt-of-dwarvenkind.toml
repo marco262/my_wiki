@@ -1,23 +1,22 @@
 name = "Belt of Dwarvenkind"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 155"
+source = "Dungeon Master's Guide, p. 235"
 description = """
 While wearing this belt, you gain the following benefits:
 
-* Your Constitution score increases by 2, to a maximum of 20.
-* You have advantage on Charisma (Persuasion) checks made to interact with dwarves.
+ - **Dwarvish.** You know Dwarvish.
+ - **Friend of Dwarvenkind.** You have [[glossary:Advantage]] on Charisma ([[tooltip:Persuasion]]) checks made to interact with dwarves and duergar.
+ - **Toughness.** Your Constitution increases by 2, to a maximum of 20.
 
-In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.
+In addition, while attuned to the belt, you have a {@chance 50} chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.
 
-If you aren't a dwarf, you gain the following additional benefits while wearing the belt:
-
-* You have advantage on saving throws against poison, and you have resistance against poison damage.
-* You have darkvision out to a range of 60 feet.
-* You can speak, read, and write Dwarvish.
+If you aren't a dwarf or duergar, you gain the following additional benefits while wearing the belt:
+ - **Darkvision.** You have [[glossary:Darkvision]] with a range of 60 feet.
+ - **Resilience.** You have [[glossary:Resistance]] to Poison damage. You also have [[glossary:Advantage]] on saving throws you make to avoid or end the [[glossary:Poisoned]] condition.
 """

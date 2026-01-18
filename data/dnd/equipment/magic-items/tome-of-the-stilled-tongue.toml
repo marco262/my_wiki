@@ -1,16 +1,18 @@
 name = "Tome of the Stilled Tongue"
 type = "Wondrous Item"
-subtype = "spellbook"
-rarity_type = "Major"
+subtype = ""
 rarity = "Legendary"
+tables = ["Arcana"]
 attunement = true
-classes = ["wizard"]
+classes = ["Wizard"]
 notes = ""
 source = "Dungeon Master's Guide, p. 208"
 description = """
-This thick leather-bound volume has a desiccated tongue pinned to the front cover. Five of these tomes exist, and it's unknown which one is the original. The grisly cover decoration on the first tome of the stilled tongue once belonged to a treacherous former servant of the lich-god Vecna, keeper of secrets. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank and pristine.
+This book has a desiccated tongue pinned to its front cover. Five of these tomes exist, and it's unknown which one is the original. The tongue on the first Tome of the Stilled Tongue belonged to a treacherous former servant of the lich Vecna. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank.
 
-If you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can use a bonus action to cast a spell you have written in this tome, without expending a spell slot or using any verbal or somatic component. Once used, this property of the tome can't be used again until the next dawn.
+While attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a [[glossary:Bonus Action]] to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components. Once used, this property of the tome can't be used again until the next dawn.
 
-While attuned to the book, you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.
+Only you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.
+
+Vecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read.
 """

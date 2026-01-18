@@ -1,14 +1,14 @@
 name = "Potion of Poison"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Uncommon"
+tables = ["Arcana"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 188"
+source = "Dungeon Master's Guide, p. 288"
 description = """
-This concoction looks, smells, and tastes like a Potion of Healing or other beneficial potion. However, it is actually poison masked by illusion magic. An _[identify](/dnd5e/spell/identify)_ spell reveals its true nature.
+This concoction looks, smells, and tastes like a [[tooltip:Potion of Healing]] or another beneficial potion. However, it is actually poison masked by illusion magic. [[[spell:Identify]]] reveals its true nature.
 
-If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be [[[general:conditions#poisoned|poisoned]]]. At the start of each of your turns while you are [[[general:conditions#poisoned|poisoned]]] in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.
+If you drink this potion, you take 4d6 Poison damage and must succeed on a DC 13 Constitution saving throw or have the [[glossary:Poisoned]] condition for 1 hour.
 """

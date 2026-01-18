@@ -1,12 +1,14 @@
 name = "Potion of Vitality"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Very Rare"
+tables = ["Arcana", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 188"
+source = "Dungeon Master's Guide, p. 289"
 description = """
-When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.
+When you drink this potion, it removes any [[glossary:Exhaustion]] levels you have and ends the [[glossary:Poisoned]] condition on you. For the next 24 hours, you regain the maximum number of [[glossary:Hit Points]] for any [[glossary:Hit Point Dice]] you spend.
+
+This potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.
 """

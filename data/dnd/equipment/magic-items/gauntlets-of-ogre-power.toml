@@ -1,12 +1,10 @@
 name = "Gauntlets of Ogre Power"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 171"
-description = """
-Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.
-"""
+source = "Dungeon Master's Guide, p. 264"
+description = "Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them."

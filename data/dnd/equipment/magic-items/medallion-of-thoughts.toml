@@ -1,12 +1,10 @@
 name = "Medallion of Thoughts"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 181"
-description = """
-The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the _[detect thoughts](/dnd5e/spell/detect thoughts)_ spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.
-"""
+source = "Dungeon Master's Guide, p. 278"
+description = "The medallion has 5 charges. While wearing it, you can expend 1 charge to cast [[[spell:Detect Thoughts]]] (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn."

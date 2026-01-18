@@ -1,0 +1,14 @@
+name = "Potion of Comprehension"
+type = "Potion"
+subtype = ""
+rarity = "Common"
+tables = ["Arcana", "Implements"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 287"
+description = """
+When you drink this potion, you gain the effect of the [[[spell:Comprehend Languages]]] spell for 1 hour.
+
+This potion's liquid is a clear concoction with bits of salt and soot swirling in it.
+"""

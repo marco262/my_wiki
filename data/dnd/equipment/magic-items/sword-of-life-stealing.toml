@@ -1,12 +1,10 @@
 name = "Sword of Life Stealing"
 type = "Weapon"
-subtype = "any sword"
-rarity_type = "Major"
+subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 206"
-description = """
-When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 3d6 necrotic damage, provided that the target isn't a construct or an undead. You gain temporary hit points equal to the extra damage dealt.
-"""
+source = "Dungeon Master's Guide, p. 314"
+description = "When you attack a creature with this magic weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 15 Necrotic damage if it isn't a Construct or an Undead, and you gain [[glossary:Temporary Hit Points]] equal to the amount of Necrotic damage taken."

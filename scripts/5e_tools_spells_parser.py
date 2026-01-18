@@ -4,13 +4,8 @@ from json import load, dumps
 
 from src.common.utils import title_to_page_name
 
-SPELLS_PATH = "../../5etools-src/data/spells/spells-efa.json"
-CLASS_LIST_PATH = "../../5etools-src/data/spells/sources.json"
-MONSTERS_PATHS = [
-    "../../5etools-src/data/bestiary/bestiary-xphb.json",
-    "../../5etools-src/data/bestiary/bestiary-xdmg.json",
-    "../../5etools-src/data/bestiary/bestiary-xmm.json",
-]
+
+ITEM_CACHE = {}
 
 
 def clean_markdown(text: str) -> str:
@@ -20,7 +15,7 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"{@(skill|item) (.*?)( \[.*?])?\|(XPHB|XDMG)(\|.*?)?}", r"[[tooltip:\2]]", text)
     text = re.sub(r"{@creature (.*?)( \[.*?])?\|.*?}", r"[[[monster:\1]]]", text)
     text = re.sub(r"{@race (.*?)( \[.*?])?\|.*?}", r"[[[advancement:Races#\1]]]", text)
-    text = re.sub(r"{@spell (.*?)\|.*?}", r"_[[[spell:\1]]]_", text)
+    text = re.sub(r"{@spell (.*?)\|.*?}", r"[[[spell:\1]]]", text)
     text = re.sub(r"{@filter (.*?)\|.*?}", r"\1", text)
     text = re.sub(r"{@dice (.*?)}", r"\1", text)
     text = re.sub(r"{@dc (.*?)}", r"DC \1", text)
@@ -29,25 +24,48 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"{@book (.*?)\|.*?}", r"\1", text)
     text = re.sub(r"{@b (.*?)}", r"**\1**", text)
     text = re.sub(r"{@i (.*?)}", r"_\1_", text)
+    text = re.sub(r"{@hit (.*?)}", r"+\1", text)
     text = text.replace("—", " -- ")
     # Fix glossary misnomers
     text = text.replace("[[glossary:Opportunity Attack]]", "[[glossary:Opportunity Attacks|Opportunity Attack]]")
     return text
 
 
-def parse_entries(entries: list[str | dict]) -> str:
+def join_with_or(items: list) -> str:
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} or {items[1]}"
+    return f"{', '.join(items[:-1])}, or {items[-1]}"
+
+
+def parse_entries(entries: list[str | dict], entry_templates: dict = None, item: dict = None) -> str:
     text_list = []
     for e in entries:
         if isinstance(e, str):
-            text_list.append(e)
+            m = re.match(r"\{#itemEntry (.*?)\|.*?}", e)
+            if m:
+                matching_name = m.group(1)
+                desc = entry_templates[matching_name]
+                if "resist" in item:
+                    desc = desc.replace("{{getFullImmRes item.resist}}", item["resist"][0])
+                if "detail1" in item:
+                    desc = desc.replace("{{item.detail1}}", item["detail1"])
+                if "detail2" in item:
+                    desc = desc.replace("{{item.detail2}}", item["detail2"])
+                assert "{{" not in desc, desc
+                text_list.append(desc)
+            else:
+                text_list.append(e)
         elif e["type"] == "list":
             inner_list = []
             for item in e["items"]:
                 if isinstance(item, str):
                     inner_list.append(" - " + item)
                 elif item["type"] == "item":
-                    assert len(item["entries"]) == 1
-                    inner_list.append(f" - **{item['name']}.** {item['entries'][0]}")
+                    inner_list.append(f" - **{item['name']}.** {parse_entries(item['entries'])}")
                 else:
                     raise ValueError(e)
             text_list.append("\n".join(inner_list))
@@ -57,6 +75,10 @@ def parse_entries(entries: list[str | dict]) -> str:
             if "caption" in e:
                 text_list.append(f'**{e["caption"]}**')
             text_list.append(make_table(e))
+        elif e["type"] == "inset":
+            text_list.append("[[sidebar]]")
+            text_list.append(parse_entries(e["entries"]))
+            text_list.append("[[/sidebar]]")
         else:
             raise ValueError(e)
     text = "\n\n".join(text_list)
@@ -86,6 +108,9 @@ def make_table(table_data: dict) -> str:
 
 
 def parse_spells():
+    SPELLS_PATH = "../../5etools-src/data/spells/spells-efa.json"
+    CLASS_LIST_PATH = "../../5etools-src/data/spells/sources.json"
+
     with open(SPELLS_PATH) as f:
         spells = load(f)
 
@@ -240,12 +265,318 @@ material_component_consumed = {consumed}
 
 
 def parse_monsters():
+    MONSTERS_PATHS = [
+        "../../5etools-src/data/bestiary/bestiary-xphb.json",
+        "../../5etools-src/data/bestiary/bestiary-xdmg.json",
+        "../../5etools-src/data/bestiary/bestiary-xmm.json",
+    ]
     monsters = {}
     for path in MONSTERS_PATHS:
         with open(path) as f:
             monsters.update(load(f))
 
 
+def parse_magic_items():
+    MAGIC_ITEMS_PATH = "../../5etools-src/data/items-base.json"
+
+    with open(MAGIC_ITEMS_PATH) as f:
+        item_entries = load(f)
+
+    # Parse item entries
+    entry_templates = {}
+    for item in item_entries["itemEntry"]:
+        if item["source"] in ("XDMG", "EFA"):
+            entry_templates[item["name"]] = parse_entries(item["entriesTemplate"])
+
+    MAGIC_ITEMS_PATH = "../../5etools-src/data/items.json"
+
+    with open(MAGIC_ITEMS_PATH, "rb") as f:
+        magic_items = load(f)
+
+    for magic_item in magic_items["item"]:
+        if magic_item["source"] == "XDMG":
+            source = "Dungeon Master's Guide"
+        elif magic_item["source"] == "EFA":
+            source = "Eberron: Forge of the Artificer"
+        else:
+            continue
+        name = magic_item["name"]
+        if name.startswith("+"):
+            num, name = name.split(" ", 1)
+            name = name + ", " + num
+        subtype = ""
+        if magic_item.get("wondrous"):
+            type_ = "Wondrous Item"
+        elif magic_item.get("staff"):
+            type_ = "Staff"
+        elif "type" in magic_item:
+            type_, _ = magic_item["type"].split("|")
+            match type_:
+                case "M":
+                    type_ = "Weapon"
+                case "LA":
+                    type_ = "Armor"
+                case "MA":
+                    type_ = "Armor"
+                case "HA":
+                    type_ = "Armor"
+                case "S":
+                    type_ = "Armor"
+                case "P":
+                    type_ = "Potion"
+                case "SC":
+                    type_ = "Scroll"
+                case "RG":
+                    type_ = "Ring"
+                case "RD":
+                    type_ = "Rod"
+                case "WD":
+                    type_ = "Wand"
+                case "$A":
+                    # Skip art object
+                    continue
+                case "$G":
+                    # Skip gemstones
+                    continue
+                case "G":
+                    # Skip poison???
+                    continue
+                case "EXP":
+                    # Skip explosives
+                    continue
+                case "TB":
+                    # Skip trade bar?
+                    continue
+                case "TG":
+                    # Skip trade good
+                    continue
+                case _:
+                    raise ValueError(type_)
+        else:
+            raise ValueError(f"No type found for {name}")
+        if "baseItem" in magic_item:
+            item_name, _ = magic_item["baseItem"].split("|")
+            subtype = " ".join([w.title() for w in item_name.split(" ")])
+        rarity = magic_item["rarity"].title()
+        if "lootTables" in magic_item:
+            tables = [s.split("-")[0].strip() for s in magic_item["lootTables"]]
+            assert rarity != "Artifact"
+        elif rarity == "Artifact":
+            # Artifacts shouldn't be on the loot table
+            pass
+        elif source != "Dungeon Master's Guide":
+            # Non-DMG items don't show up in loot tables
+            pass
+        else:
+            # Exceptions to make my life easier
+            if "Bag of Tricks" in name:
+                tables = ["Arcana"]
+            elif "Carpet of Flying" in name:
+                tables = ["Arcana", "Implements"]
+            elif "Dragon Scale Mail" in name:
+                tables = ["Armaments"]
+            elif "Elemental Gem" in name:
+                tables = ["Arcana"]
+            elif name.startswith("Potion of ") and name.endswith(" Resistance"):
+                tables = ["Arcana", "Relics"]
+            elif name.startswith("Ring of ") and name.endswith(" Resistance"):
+                tables = ["Relics"]
+            elif "Scroll of Protection" in name:
+                tables = ["Arcana", "Relics"]
+            elif "Scroll of Titan Summoning" in name:
+                tables = ["Arcana", "Relics"]
+            else:
+                print(f"Missing loot tables: {name} ({rarity})")
+                tables = []
+        attunement = str(bool(magic_item.get("reqAttune"))).lower()
+        classes = []
+        for d in magic_item.get("reqAttuneTags", []):
+            if "class" in d:
+                classes.append(d["class"].title())
+            elif d == {"spellcasting": True}:
+                classes.append("spellcaster")
+        notes = ""
+        page_num = magic_item['page']
+
+        output = f"""name = "{name}"
+type = "{type_}"
+subtype = "{subtype}"
+rarity = "{rarity}"
+tables = {dumps(tables)}
+attunement = {attunement}
+classes = {dumps(classes)}
+notes = "{notes}"
+source = "{source}, p. {page_num}"
+"""
+
+        desc = parse_entries(magic_item["entries"], entry_templates, magic_item)
+        if "\n" not in desc:
+            output += f'description = "{desc}"\n'
+        else:
+            output += f'description = """\n{desc}\n"""\n'
+
+        filepath = f"../data/dnd/equipment/magic-items/{title_to_page_name(name)}.toml"
+        with open(filepath, "wb") as f:
+            f.write(output.encode())
+
+
+def parse_magic_item_variants():
+    MAGIC_ITEMS_PATH = "../../5etools-src/data/items-base.json"
+
+    with open(MAGIC_ITEMS_PATH) as f:
+        item_entries = load(f)
+
+    # Parse item entries
+    entry_templates = {}
+    for item in item_entries["itemEntry"]:
+        if item["source"] in ("XDMG", "EFA"):
+            entry_templates[item["name"]] = parse_entries(item["entriesTemplate"])
+
+    MAGIC_ITEMS_PATH = "../../5etools-src/data/magicvariants.json"
+
+    with open(MAGIC_ITEMS_PATH) as f:
+        magic_items = load(f)
+
+    for magic_item in magic_items["magicvariant"]:
+        name = magic_item["name"]
+        if name.startswith("+"):
+            num, name = name.split(" ", 1)
+            name = name + ", " + num
+
+        variant_item = magic_item["inherits"]
+        if variant_item["source"] == "XDMG":
+            source = "Dungeon Master's Guide"
+        elif variant_item["source"] == "EFA":
+            source = "Eberron: Forge of the Artificer"
+        else:
+            continue
+
+        type_, _ = magic_item["type"].split("|")
+        assert type_ == "GV"
+        subtype = ""
+        if "requires" in magic_item:
+            if magic_item["requires"] == [{"weapon": True}]:
+                type_ = "Weapon"
+                subtype = "Any Simple or Martial"
+            elif magic_item["requires"] == [{"sword": True}]:
+                type_ = "Weapon"
+                subtype = "Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+            else:
+                requires = []
+                add_any = False
+                property = ""
+                for req in magic_item["requires"]:
+                    if "type" in req:
+                        req_type = req["type"].split("|")[0]
+                        if req_type == "M":
+                            type_ = "Weapon"
+                            requires.append("Melee")
+                        elif req_type == "A":
+                            requires.append("Ammunition")
+                            type_ = "Weapon"
+                        elif req_type == "AF":
+                            pass
+                        elif req_type == "LA":
+                            type_ = "Armor"
+                            add_any = True
+                            requires.append("Light")
+                        elif req_type == "MA":
+                            type_ = "Armor"
+                            add_any = True
+                            requires.append("Medium")
+                        elif req_type == "HA":
+                            type_ = "Armor"
+                            add_any = True
+                            requires.append("Heavy")
+                        elif req_type == "S":
+                            type_ = "Armor"
+                            requires.append("Shield")
+                        else:
+                            raise ValueError(req)
+                    elif "name" in req:
+                        requires.append(req["name"])
+                        # Hack for missing data
+                        if req["name"] in ("Battleaxe", "Shortbow", "Greatsword", "Warhammer", "Dagger"):
+                            type_ = "Weapon"
+                        elif req["name"] in ("Half Plate Armor", "Chain Mail"):
+                            type_ = "Armor"
+                    elif "weaponCategory" in req:
+                        type_ = "Weapon"
+                        add_any = True
+                        requires.append(req["weaponCategory"].title())
+                        if "property" in req:
+                            if req["property"] == "A|XPHB":
+                                property = "Ammunition"
+                            elif req["property"] == "T|XPHB":
+                                property = "Thrown"
+                assert requires
+                if add_any:
+                    subtype += "Any "
+                subtype += join_with_or(requires)
+                if property:
+                    subtype += f"with the {property} Property"
+        if "excludes" in magic_item:
+            subtype += f", Except {magic_item['excludes']['name']}"
+
+        assert type_ != "GV", magic_item
+
+        rarity = variant_item["rarity"].title()
+        if "lootTables" in variant_item:
+            tables = [s.split("-")[0].strip() for s in variant_item["lootTables"]]
+            assert rarity != "Artifact"
+        elif rarity == "Artifact":
+            # Artifacts shouldn't be on the loot table
+            pass
+        elif source != "Dungeon Master's Guide":
+            # Non-DMG items don't show up in loot tables
+            pass
+        else:
+            # Exceptions to make my life easier
+            if re.match(r"Armor of \w+ Resistance", name):
+                tables = ["Armaments"]
+            elif r"Armor of Vulnerability" in name:
+                tables = ["Armaments"]
+            else:
+                print(f"Missing loot tables: {name} ({rarity})")
+                tables = []
+        attunement = str(bool(variant_item.get("reqAttune"))).lower()
+        classes = []
+        for d in variant_item.get("reqAttuneTags", []):
+            if "class" in d:
+                classes.append(d["class"].title())
+            elif d == {"spellcasting": True}:
+                classes.append("spellcaster")
+        notes = ""
+        page_num = variant_item['page']
+
+        output = f"""name = "{name}"
+type = "{type_}"
+subtype = "{subtype}"
+rarity = "{rarity}"
+tables = {dumps(tables)}
+attunement = {attunement}
+classes = {dumps(classes)}
+notes = "{notes}"
+source = "{source}, p. {page_num}"
+"""
+
+        desc = parse_entries(variant_item["entries"], entry_templates, variant_item)
+        if "{=bonusAc}" in desc:
+            desc = desc.replace("{=bonusAc}", variant_item["bonusAc"])
+        if "{=bonusWeapon}" in desc:
+            desc = desc.replace("{=bonusWeapon}", variant_item["bonusWeapon"])
+        if "\n" not in desc:
+            output += f'description = "{desc}"\n'
+        else:
+            output += f'description = """\n{desc}\n"""\n'
+
+        filepath = f"../data/dnd/equipment/magic-items/{title_to_page_name(name)}.toml"
+        with open(filepath, "w") as f:
+            f.write(output)
+
 
 if __name__ == '__main__':
-    parse_spells()
+    # parse_spells()
+    # parse_monsters()
+    parse_magic_items()
+    parse_magic_item_variants()

@@ -1,12 +1,14 @@
 name = "Potion of Animal Friendship"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Uncommon"
+tables = ["Arcana", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 187"
+source = "Dungeon Master's Guide, p. 287"
 description = """
-When you drink this potion, you can cast the _[animal friendship](/dnd5e/spell/animal friendship)_ spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.
+When you drink this potion, you can cast the level 3 version of the [[[spell:Animal Friendship]]] spell (save DC 13).
+
+Agitating this potion's muddy liquid brings little bits into view: a fish scale, a hummingbird feather, a cat claw, or a squirrel hair.
 """

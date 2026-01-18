@@ -1,12 +1,10 @@
 name = "Ring of Swimming"
 type = "Ring"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Uncommon"
+tables = ["Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 193"
-description = """
-You have a swimming speed of 40 feet while wearing this ring.
-"""
+source = "Dungeon Master's Guide, p. 295"
+description = "You have a [[glossary:Swim Speed]] of 40 feet while wearing this ring."

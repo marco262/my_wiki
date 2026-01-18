@@ -1,34 +1,44 @@
 name = "Demonomicon of Iggwilv"
 type = "Wondrous Item"
 subtype = ""
-rarity_type = "Major"
 rarity = "Artifact"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Tasha's Cauldron of Everything, p. 125"
+source = "Dungeon Master's Guide, p. 252"
 description = """
-An expansive treatise documenting the Abyss's infinite layers and inhabitants, the Demonomicon of Iggwilv is the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book's spine, the general chapters remain, ever revealing demonic secrets. And the book holds more than blasphemies. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.
+This treatise, composed by Iggwilv the archmage, documents the Abyss's layers and inhabitants and is widely regarded as the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book's spine, the general chapters remain, ever revealing demonic secrets. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.
 
-***Random Properties.*** The artifact has the follow random properties, which you can determine by rolling on the tables in the "Artifacts" section of the Dungeon Master's Guide:
+**_Abyssal Lore._** You can reference the Demonomicon whenever you make an Intelligence check to discern information about demons or a Wisdom ([[tooltip:Survival]]) check related to the Abyss. When you do so, you gain [[glossary:Advantage]] on the check.
 
-* 2 minor beneficial properties
-* 1 minor detrimental property
-* 1 major detrimental property
+**_Containment._** The first ten pages of the Demonomicon are blank. As a [[glossary:Magic]] action while holding the book, you can target a Fiend that you can see that is trapped within the area of a [[[spell:Magic Circle]]] spell. The Fiend must succeed on a DC 20 Charisma saving throw with [[glossary:Disadvantage]] or become trapped within one of the Demonomicon's blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.
 
-***Spells.*** The book has 8 charges. It regains 1d8 expended charges daily at dawn. While holding it, you can use an action to cast Tasha's hideous laughter from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: _[magic circle](/dnd/spell/magic circle)_ (1 charge), _[magic jar](/dnd/spell/magic jar)_ (3 charges), _[planar ally](/dnd/spell/planar ally)_ (3 charges), _[planar binding](/dnd/spell/planar binding)_ (2 charges), _[plane shift](/dnd/spell/plane shift)_ (to layers of the Abyss only; 3 charges), _[summon fiend](/dnd/spell/summon fiend)_ (3 charges).
+When you finish a [[glossary:Long Rest]], if you and the Demonomicon are on the same plane of existence, one trapped creature within the book can attempt to possess you. You make a DC 20 Charisma saving throw. On a failed save, you are possessed by the creature, which controls you like a puppet. As a [[glossary:Magic]] action, the possessing creature can release you and appear in the closest unoccupied space to you. On a successful save, the Fiend can't try to possess you again for 7 days (but another Fiend trapped in the book can certainly try).
 
-***Abyssal Reference.*** You can reference the Demonomicon whenever you make an Intelligence check to discern information about demons or a Wisdom (Survival) check related to the Abyss. When you do so, you can add double your proficiency bonus to the check.
+When the tome is discovered, it has 1d4 Fiends occupying its pages -- typically an assortment of demons.
 
-***Fiendish Scourging.*** Your magic causes pain to fiends. While carrying the book, when you make a damage roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.
+**_Ensnarement._** While carrying the book, whenever you cast [[[spell:Magic Circle]]] naming only Fiends or cast [[[spell:Planar Binding]]] targeting a Fiend, the spell is cast at level 9, regardless of what level spell slot you used, if any. Additionally, the Fiend has [[glossary:Disadvantage]] on its saving throw against the spell.
 
-***Ensnarement.*** While carrying the book, whenever you cast the _[magic circle](/dnd/spell/magic circle)_ spell naming only fiends, or the _[planar binding](/dnd/spell/planar binding)_ spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell.
+**_Fiendish Scourging._** While carrying the book, when you make a damage roll for a spell you cast against a Fiend, you use the maximum possible result instead of rolling.
 
-***Containment.*** The first 10 pages of the Demonomicon are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a _[magic circle](/dnd/spell/magic circle)_. The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the Demonomicon's empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.
+**_Random Properties._** The Artifact has the following random properties:
 
-When you finish a long rest, if you and the Demonomicon are on the same plane of existence, the trapped creature of the highest challenge rating within the book can attempt to possess you. You must make a DC 20 Charisma saving throw. On a failure, you are possessed by the creature, which controls you like a puppet. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, the fiend can't try to possess you again for 7 days.
+ - 2 {@table Artifact Properties; Minor Beneficial Properties|XDMG|minor beneficial} properties
+ - 1 {@table Artifact Properties; Minor Detrimental Properties|XDMG|minor detrimental} property
+ - 1 {@table Artifact Properties; Major Detrimental Properties|XDMG|major detrimental} property
 
-When the tome is discovered, it has 1d4 fiends occupying its pages, typically an assortment of demons.
+**_Spells._** The book has 8 charges and regains 1d8 expended charges daily at dawn. While holding the book, you can take a [[glossary:Magic]] action to cast one of the spells (save DC 20) on the following table. The table indicates how many charges you must expend to cast the spell.
 
-***Destroying the Demonomicon.*** To destroy the book, six different demon lords must each tear out a sixth of the book's pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book's remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semi-sentient domain lies a long-lost artifact, Fraz-Urb'luu's Staff. If the staff is dragged from the pocket plane, the tome is reduced to a mundane and quite out-of-date copy of the Tome of Zyx, the work that served as the foundation for the Demonomicon. Once the staff emerges, the demon lord Fraz-Urb'luu instantly knows.
+| Spell                                         | Charge Cost |
+|-----------------------------------------------|-------------|
+| [[[spell:Magic Circle]]]                    | 1           |
+| [[[spell:Magic Jar]]]                       | 3           |
+| [[[spell:Planar Ally]]]                     | 3           |
+| [[[spell:Planar Binding]]]                  | 2           |
+| [[[spell:Plane Shift]]] (to the Abyss only) | 3           |
+| [[[spell:Summon Fiend]]]                    | 3           |
+| [[[spell:Tasha's Hideous Laughter]]]        | 0           |
+
+**_Destroying the Demonomicon._** To destroy the book, six different demon lords must each tear out a sixth of the book's pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book's remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semi-sentient domain lies a long-lost Artifact, Fraz-Urb'luu's Staff. If the staff is dragged from the pocket plane, the tome is reduced to a mundane and out-of-date copy of the Tome of Zyx, the work that served as the foundation of the Demonomicon of Iggwilv. The Tome of Zyx can be destroyed like any ordinary book. Once the staff emerges, the demon lord Fraz-Urb'luu knows instantly.
 """

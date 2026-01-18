@@ -1,0 +1,14 @@
+name = "Sylvan Talon"
+type = "Weapon"
+subtype = "Dagger, Rapier, Scimitar, Shortsword, Sickle, or Spear"
+rarity = "Common"
+tables = ["Armaments", "Implements"]
+attunement = true
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 314"
+description = """
+While this weapon is on your person, you understand the non-written communication of all Fey, and they understand yours.
+
+**_Secret Message._** As a [[glossary:Magic]] action, you can use the weapon to cast [[[spell:Message]]]. Once this property is used, it can't be used again until the next dawn.
+"""

@@ -1,12 +1,10 @@
 name = "Ersatz Eye"
 type = "Wondrous Item"
-subtype = "prosthetic"
-rarity_type = "Minor"
+subtype = ""
 rarity = "Common"
-attunement = true
+tables = ["Arcana", "Implements"]
+attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 137"
-description = """
-This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.
-"""
+source = "Dungeon Master's Guide, p. 259"
+description = "This magical eye replaces a real one that was lost or removed. While the Ersatz Eye is embedded in your eye socket, you can see through the tiny orb as though it were your natural eye. You can insert or remove the Ersatz Eye as a [[glossary:Magic]] action, and it can't be removed against your will while you are alive."

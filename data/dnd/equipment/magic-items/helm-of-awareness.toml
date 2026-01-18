@@ -1,0 +1,10 @@
+name = "Helm of Awareness"
+type = "Wondrous Item"
+subtype = ""
+rarity = "Uncommon"
+tables = ["Arcana"]
+attunement = false
+classes = []
+notes = ""
+source = "Eberron: Forge of the Artificer, p. 112"
+description = "While wearing this helmet, you have [[glossary:Advantage]] on [[glossary:Initiative]] rolls."

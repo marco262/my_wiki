@@ -1,16 +1,23 @@
 name = "Staff of Swarming Insects"
 type = "Staff"
 subtype = ""
-rarity_type = "Major"
 rarity = "Rare"
+tables = ["Arcana", "Relics"]
 attunement = true
-classes = ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"]
+classes = ["Bard", "Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"]
 notes = ""
-source = "Dungeon Master's Guide, p. 203"
+source = "Dungeon Master's Guide, p. 309"
 description = """
-This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
+This staff has 10 charges.
 
-***Spells.*** While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: _[giant insect](/dnd5e/spell/giant insect)_ (4 charges) or _[insect plague](/dnd5e/spell/insect plague)_ (5 charges).
+**_Insect Cloud._** While holding the staff , you can take a [[glossary:Magic]] action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot [[glossary:Emanation]] originating from you. The insects remain for 10 minutes, making the area [[glossary:Heavily Obscured]] for creatures other than you. A strong wind (like that created by [[[spell:Gust of Wind]]]) disperses the swarm and ends the effect.
 
-***Insect Cloud.*** While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect.
+**_Spells._** While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.
+
+| Spell                       | Charge Cost |
+|-----------------------------|-------------|
+| [[[spell:Giant Insect]]]  | 4           |
+| [[[spell:Insect Plague]]] | 5           |
+
+**_Regaining Charges._** The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 """

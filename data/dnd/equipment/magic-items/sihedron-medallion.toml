@@ -1,8 +1,8 @@
 name = "Sihedron Medallion"
 type = "Wondrous Item"
-subtype = "necklace"
-rarity_type = "Minor"
+subtype = "Necklace"
 rarity = "Rare"
+tables = []
 attunement = true
 classes = []
 notes = ""

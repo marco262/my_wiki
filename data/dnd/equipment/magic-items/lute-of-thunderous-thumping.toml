@@ -1,0 +1,14 @@
+name = "Lute of Thunderous Thumping"
+type = "Weapon"
+subtype = "Club"
+rarity = "Very Rare"
+tables = ["Armaments", "Implements"]
+attunement = false
+classes = []
+notes = ""
+source = "Dungeon Master's Guide, p. 275"
+description = """
+This reinforced [[tooltip:lute]] can be wielded as a magic Club that deals an extra 2d8 Thunder damage on a hit.
+
+**_Sing and Swing._** If you're a Bard, you can use your Charisma modifier instead of your Strength modifier when making a melee attack roll with the [[tooltip:lute]], provided you sing or hum while making the attack.
+"""

@@ -1,12 +1,16 @@
 name = "Weapon of Warning"
 type = "Weapon"
-subtype = ""
-rarity_type = "Major"
+subtype = "Any Simple or Martial"
 rarity = "Uncommon"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 213"
+source = "Dungeon Master's Guide, p. 324"
 description = """
-This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.
+As long as this weapon is within your reach and you are attuned to it, you and allies within 30 feet of you gain the following benefits.
+
+**_Alarm._** The weapon magically awakens each subject who is sleeping naturally when combat begins. This benefit doesn't wake a subject from magically induced sleep.
+
+**_Supernatural Readiness._** Each subject has [[glossary:Advantage]] on its [[glossary:Initiative]] rolls.
 """

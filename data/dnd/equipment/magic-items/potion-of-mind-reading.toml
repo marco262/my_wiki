@@ -1,12 +1,14 @@
 name = "Potion of Mind Reading"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Rare"
+tables = ["Arcana"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 188"
+source = "Dungeon Master's Guide, p. 288"
 description = """
-When you drink this potion, you gain the effect of the _[detect thoughts](/dnd/spell/detect thoughts)_ spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
+When you drink this potion, you gain the effect of the [[[spell:Detect Thoughts]]] spell (save DC 13) for 10 minutes (no [[glossary:Concentration]] required).
+
+This potion's dense, purple liquid has an ovoid cloud of pink floating in it.
 """

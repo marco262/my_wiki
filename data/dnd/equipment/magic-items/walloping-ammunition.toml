@@ -1,12 +1,10 @@
 name = "Walloping Ammunition"
 type = "Weapon"
-subtype = "any ammunition"
-rarity_type = "Minor"
+subtype = "Ammunition"
 rarity = "Common"
+tables = ["Armaments", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 139"
-description = """
-This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.
-"""
+source = "Dungeon Master's Guide, p. 318"
+description = "A creature hit by this ammunition must succeed on a DC 10 Strength saving throw or have the [[glossary:Prone]] condition."

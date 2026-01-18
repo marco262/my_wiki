@@ -1,14 +1,14 @@
 name = "Rod of Resurrection"
 type = "Rod"
 subtype = ""
-rarity_type = "Major"
 rarity = "Legendary"
+tables = ["Relics"]
 attunement = true
-classes = ["cleric", "druid", "paladin"]
+classes = ["Cleric", "Druid", "Paladin"]
 notes = ""
-source = "Dungeon Master's Guide, p. 197"
+source = "Dungeon Master's Guide, p. 301"
 description = """
-The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: _[heal](/dnd5e/spell/heal)_ (expends 1 charge) or _[resurrection](/dnd5e/spell/resurrection)_ (expends 5 charges).
+The rod has 5 charges. While you hold it, you can cast one of the following spells from it: [[[spell:Heal]]] (expends 1 charge) or [[[spell:Resurrection]]] (expends 5 charges).
 
-The rod regains 1 expended charge daily at dawn. If the rod is reduced to 0 charges, roll a d20. On a 1, the rod disappears in a burst of radiance.
+The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll 1d20. On a 1, the rod disappears in a harmless burst of radiance.
 """

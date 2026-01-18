@@ -1,12 +1,10 @@
 name = "Cloak of Protection"
 type = "Wondrous Item"
-subtype = "cloak"
-rarity_type = "Major"
+subtype = ""
 rarity = "Uncommon"
+tables = ["Arcana", "Implements"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 159"
-description = """
-You gain a +1 bonus to AC and saving throws while you wear this cloak.
-"""
+source = "Dungeon Master's Guide, p. 245"
+description = "You gain a +1 bonus to [[glossary:Armor Class]] and saving throws while you wear this cloak."

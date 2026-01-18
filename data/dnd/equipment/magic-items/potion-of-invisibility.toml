@@ -1,12 +1,10 @@
 name = "Potion of Invisibility"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
-rarity = "Very Rare"
+rarity = "Rare"
+tables = ["Arcana"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 188"
-description = """
-This potion's container looks empty but feels as though it holds liquid.  When you drink it, you become [[[general:conditions#invisible|invisible]]] for 1 hour. Anything you wear or carry is [[[general:conditions#invisible|invisible]]] with you. The effect ends early if you attack or cast a spell.
-"""
+source = "Dungeon Master's Guide, p. 288"
+description = "This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the [[glossary:Invisible]] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell."

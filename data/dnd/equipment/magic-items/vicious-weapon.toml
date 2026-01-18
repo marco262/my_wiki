@@ -1,12 +1,10 @@
 name = "Vicious Weapon"
 type = "Weapon"
-subtype = ""
-rarity_type = "Major"
+subtype = "Any Simple or Martial"
 rarity = "Rare"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 209"
-description = """
-When you roll a 20 on your attack roll with this magic weapon, your critical hit deals an extra 2d6 damage of the weapon's type.
-"""
+source = "Dungeon Master's Guide, p. 318"
+description = "This magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage."

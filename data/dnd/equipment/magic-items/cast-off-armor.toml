@@ -1,12 +1,10 @@
 name = "Cast-Off Armor"
 type = "Armor"
-subtype = "light, medium, or heavy"
-rarity_type = "Minor"
+subtype = "Any Light, Medium, or Heavy"
 rarity = "Common"
+tables = ["Armaments"]
 attunement = false
 classes = []
 notes = ""
-source = "Xanathar's Guide to Everything, p. 136"
-description = """
-You can doff this armor as an action.
-"""
+source = "Dungeon Master's Guide, p. 243"
+description = "You can doff this armor as a [[glossary:Magic]] action."

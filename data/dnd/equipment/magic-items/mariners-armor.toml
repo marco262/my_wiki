@@ -1,12 +1,14 @@
 name = "Mariner's Armor"
 type = "Armor"
-subtype = "light, medium, or heavy"
-rarity_type = "Minor"
+subtype = "Any Light, Medium, or Heavy"
 rarity = "Uncommon"
+tables = ["Armaments", "Relics"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 181"
+source = "Dungeon Master's Guide, p. 278"
 description = """
-While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.
+While wearing this armor, you have a [[glossary:Swim Speed]] equal to your [[glossary:Speed]]. In addition, if you start your turn underwater with 0 [[glossary:Hit Points]], you immediately regain 1d4 [[glossary:Hit Points]]. The armor can't heal anyone again until the next dawn.
+
+The armor is decorated with fish and shell motifs.
 """

@@ -1,12 +1,10 @@
 name = "Cloak of Invisibility"
 type = "Wondrous Item"
-subtype = "cloak"
-rarity_type = "Major"
+subtype = ""
 rarity = "Legendary"
+tables = ["Arcana"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 158"
-description = """
-While wearing this cloak, you can pull its hood over your head to cause yourself to become invisible. While you are invisible, anything you are carrying or wearing is invisible with you. You become visible when you cease wearing the hood. Pulling the hood up or down requires an action.
-"""
+source = "Dungeon Master's Guide, p. 244"
+description = "This cloak has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the cloak, you can take a [[glossary:Magic]] action to pull its hood over your head and expend 1 charge to give yourself the [[glossary:Invisible]] condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the hood."

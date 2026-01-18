@@ -1,12 +1,14 @@
 name = "Potion of Gaseous Form"
 type = "Potion"
 subtype = ""
-rarity_type = "Minor"
 rarity = "Rare"
+tables = ["Arcana", "Implements"]
 attunement = false
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 187"
+source = "Dungeon Master's Guide, p. 287"
 description = """
-When you drink this potion, you gain the effect of the _[gaseous form](/dnd/spell/gaseous form)_ spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.
+When you drink this potion, you gain the effect of the [[[spell:Gaseous Form]]] spell for 1 hour (no [[glossary:Concentration]] required) or until you end the effect as a [[glossary:Bonus Action]].
+
+This potion's container seems to hold fog that moves and pours like water.
 """

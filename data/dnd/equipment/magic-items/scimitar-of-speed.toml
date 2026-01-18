@@ -1,12 +1,10 @@
 name = "Scimitar of Speed"
 type = "Weapon"
-subtype = "scimitar"
-rarity_type = "Major"
+subtype = "Scimitar"
 rarity = "Very Rare"
+tables = ["Armaments"]
 attunement = true
 classes = []
 notes = ""
-source = "Dungeon Master's Guide, p. 199"
-description = """
-You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.
-"""
+source = "Dungeon Master's Guide, p. 302"
+description = "You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a [[glossary:Bonus Action]] on each of your turns."
