@@ -1,6 +1,6 @@
 name = "Dancing Sword"
 type = "Weapon"
-subtype = "Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+subtype = { requires = ["Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"] }
 rarity = "Very Rare"
 tables = ["Arcana", "Armaments"]
 attunement = true

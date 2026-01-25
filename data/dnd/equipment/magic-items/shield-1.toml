@@ -1,6 +1,6 @@
 name = "Shield, +1"
 type = "Armor"
-subtype = "Shield"
+subtype = { requires = ["Shield"] }
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = false

@@ -1,6 +1,6 @@
 name = "Luck Blade"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Sickle", "Shortsword"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

@@ -1,16 +1,9 @@
 % rebase("common/base.tpl", title=name)
 <%
-subtype = f" ({subtype})" if subtype else ""
-if notes:
-    pass
-elif classes:
-    notes = f"requires attunement by a {', '.join(classes)}"
-elif attunement:
-    notes = "requires attunement"
-end
-notes = f" ({notes})" if notes else ""
+subtype_str = f" ({subtype_str})" if subtype_str else ""
+attunement_str = f" ({attunement_str})" if attunement_str else ""
 %> 
-<p><em>{{type.title()}}{{!subtype}}, {{rarity}}{{!notes}}</em></p>
+<p><em>{{type.title()}}{{!subtype_str}}, {{rarity}}{{!attunement_str}}</em></p>
 
 {{!description_md}}
 

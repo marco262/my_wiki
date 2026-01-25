@@ -1,6 +1,6 @@
 name = "Ammunition, +3"
 type = "Weapon"
-subtype = "Ammunition"
+subtype = { requires = ["Ammunition"] }
 rarity = "Very Rare"
 tables = ["Armaments", "Implements"]
 attunement = false

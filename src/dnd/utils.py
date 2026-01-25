@@ -19,6 +19,16 @@ file = {}
 [[/include]]"""
 
 
+def join_with_or(items: list) -> str:
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} or {items[1]}"
+    return f"{', '.join(items[:-1])}, or {items[-1]}"
+
+
 # Spells
 
 SPELLS: dict[str, dict] = {}
@@ -90,10 +100,21 @@ def add_to_enum_cache(cache_type: Literal["spell", "magic_item"], key: str, valu
             elif value.startswith("Up to"):
                 value = value.replace("Up to ", "")
     elif cache_type == "magic_item":
-        pass
+        if key == "subtype":
+            if isinstance(value, dict):
+                subtypes = set(value["requires"])
+                if "property" in value:
+                    subtypes.add(value["property"])
+                if "excludes" in value:
+                    subtypes.add(value["excludes"])
+                value = subtypes
     else:
         raise ValueError(f"Unknown cache_type {cache_type}")
-    ENUM_CACHE[cache_type][key].add(value)
+    if isinstance(value, set):
+        ENUM_CACHE[cache_type][key].update(value)
+    else:
+        ENUM_CACHE[cache_type][key].add(value)
+
 
 
 def sort_enum_cache():
@@ -244,8 +265,37 @@ def load_magic_items():
             d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)
             # Add values to enum cache
             add_to_enum_cache("magic_item", "source", d["source"])
+            if d["attunement"]:
+                d["attunement_str"] = "Requires Attunement"
+                if d["classes"]:
+                    d["attunement_str"] += f" by a {join_with_or(d['classes'])}"
+            else:
+                d["attunement_str"] = ""
             if d["subtype"]:
+                subtype = d["subtype"]
+                if isinstance(subtype, dict):
+                    requires = []
+                    add_any = False
+                    for r in subtype["requires"]:
+                        if r in ("Simple Weapon", "Martial Weapon", "Light Armor", "Medium Armor", "Heavy Armor"):
+                            add_any = True
+                            requires.append(r.split(" ")[0])
+                        else:
+                            if r == "Ammunition":
+                                add_any = True
+                            requires.append(r)
+                    subtype_str = "Any " if add_any else ""
+                    subtype_str += join_with_or(requires)
+                    if "property" in subtype:
+                        subtype_str += f" with the {subtype['property']} Property"
+                    if "excludes" in subtype:
+                        subtype_str += f", Except {subtype['excludes']}"
+                else:
+                    subtype_str = subtype
                 add_to_enum_cache("magic_item", "subtype", d["subtype"])
+            else:
+                subtype_str = ""
+            d["subtype_str"] = subtype_str
             # Write to dict
             magic_items[splitext(basename(path))[0]] = d
     except Exception:
@@ -259,6 +309,7 @@ def load_magic_items():
 
 def filter_magic_items(filters) -> dict[str, dict]:
     d = {}
+    filter_subtype_set = set(filters.get("subtype", []))
     magic_items = load_magic_items()
     for k, v in magic_items.items():
         if v.get("unlisted"):
@@ -274,13 +325,22 @@ def filter_magic_items(filters) -> dict[str, dict]:
             if (filters["attunement"] == "true" and not v["attunement"] or
                     filters["attunement"] == "false" and v["attunement"]):
                 continue
-        if "subtype" in filters:
-            if v["subtype"]:
-                if v["subtype"] not in filters["subtype"]:
-                    continue
-            else:
-                if "no-subtype" not in filters["subtype"]:
-                    continue
+        if filter_subtype_set:
+            subtype = v["subtype"]
+            if subtype:
+                if isinstance(subtype, dict):
+                    if not set(filter_subtype_set).intersection(subtype["requires"]):
+                        continue
+                    if subtype.get("excludes") in filter_subtype_set:
+                        continue
+                    if "property" in subtype:
+                        if subtype["property"] not in filter_subtype_set:
+                            continue
+                else:
+                    if v["subtype"] not in filter_subtype_set:
+                        continue
+            elif "no-subtype" not in filter_subtype_set:
+                continue
         if "classes" in filters:
             if v["classes"]:
                 if not set(v["classes"]).intersection(filters["classes"]):

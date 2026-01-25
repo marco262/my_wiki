@@ -1,6 +1,6 @@
 name = "Frost Brand"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true

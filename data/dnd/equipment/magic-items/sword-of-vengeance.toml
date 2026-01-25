@@ -1,6 +1,6 @@
 name = "Sword of Vengeance"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"] }
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = true

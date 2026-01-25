@@ -32,16 +32,6 @@ def clean_markdown(text: str) -> str:
     return text
 
 
-def join_with_or(items: list) -> str:
-    if not items:
-        return ""
-    if len(items) == 1:
-        return items[0]
-    if len(items) == 2:
-        return f"{items[0]} or {items[1]}"
-    return f"{', '.join(items[:-1])}, or {items[-1]}"
-
-
 def parse_entries(entries: list[str | dict], entry_templates: dict = None, item: dict = None) -> str:
     text_list = []
     for e in entries:
@@ -456,18 +446,21 @@ def parse_magic_item_variants():
 
         type_, _ = magic_item["type"].split("|")
         assert type_ == "GV"
-        subtype = ""
+        subtype = {}
         if "requires" in magic_item:
             if magic_item["requires"] == [{"weapon": True}]:
                 type_ = "Weapon"
-                subtype = "Any Simple or Martial"
+                subtype["requires"] = ["Simple Weapon", "Martial Weapon"]
             elif magic_item["requires"] == [{"sword": True}]:
                 type_ = "Weapon"
-                subtype = "Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+                if name == "Dancing Sword":
+                    subtype["requires"] = ["Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"]
+                elif name == "Moon-Touched Sword":
+                    subtype["requires"] = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"]
+                else:
+                    raise ValueError(name)
             else:
                 requires = []
-                add_any = False
-                property = ""
                 for req in magic_item["requires"]:
                     if "type" in req:
                         req_type = req["type"].split("|")[0]
@@ -477,21 +470,22 @@ def parse_magic_item_variants():
                             requires.append("Melee Weapon")
                         elif req_type == "A":
                             requires.append("Ammunition")
+                            add_any = True
                             type_ = "Weapon"
                         elif req_type == "AF":
                             pass
                         elif req_type == "LA":
                             type_ = "Armor"
                             add_any = True
-                            requires.append("Light")
+                            requires.append("Light Armor")
                         elif req_type == "MA":
                             type_ = "Armor"
                             add_any = True
-                            requires.append("Medium")
+                            requires.append("Medium Armor")
                         elif req_type == "HA":
                             type_ = "Armor"
                             add_any = True
-                            requires.append("Heavy")
+                            requires.append("Heavy Armor")
                         elif req_type == "S":
                             type_ = "Armor"
                             requires.append("Shield")
@@ -507,21 +501,32 @@ def parse_magic_item_variants():
                     elif "weaponCategory" in req:
                         type_ = "Weapon"
                         add_any = True
-                        requires.append(req["weaponCategory"].title())
+                        if req["weaponCategory"] == "simple":
+                            requires.append("Simple Weapon")
+                        elif req["weaponCategory"] == "martial":
+                            requires.append("Martial Weapon")
+                        else:
+                            raise ValueError(req["weaponCategory"])
                         if "property" in req:
                             if req["property"] == "A|XPHB":
-                                property = "Ammunition"
+                                subtype["property"] = "Ammunition"
                             elif req["property"] == "T|XPHB":
-                                property = "Thrown"
+                                subtype["property"] = "Thrown"
                 assert requires
-                if add_any:
-                    subtype += "Any "
-                subtype += join_with_or(requires)
-                if property:
-                    subtype += f" with the {property} Property"
+                subtype["requires"] = requires
         if "excludes" in magic_item:
-            subtype += f", Except {magic_item['excludes']['name']}"
+            subtype["excludes"] = magic_item["excludes"]["name"]
 
+        if subtype:
+            subtype_properties = []
+            for k, v in subtype.items():
+                v = repr(v).replace("'", '"')
+                subtype_properties.append(f"{k} = {v}")
+            subtype_str = "{ " + ", ".join(subtype_properties) + " }"
+        else:
+            subtype_str = ""
+
+        assert type_
         assert type_ != "GV", magic_item
 
         rarity = variant_item["rarity"].title()
@@ -555,7 +560,7 @@ def parse_magic_item_variants():
 
         output = f"""name = "{name}"
 type = "{type_}"
-subtype = "{subtype}"
+subtype = {subtype_str}
 rarity = "{rarity}"
 tables = {dumps(tables)}
 attunement = {attunement}

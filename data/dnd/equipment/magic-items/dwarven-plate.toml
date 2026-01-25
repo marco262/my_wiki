@@ -1,6 +1,6 @@
 name = "Dwarven Plate"
 type = "Armor"
-subtype = "Half Plate Armor or Plate Armor"
+subtype = { requires = ["Half Plate Armor", "Plate Armor"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = false

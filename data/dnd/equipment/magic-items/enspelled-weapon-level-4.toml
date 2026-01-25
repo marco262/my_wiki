@@ -1,6 +1,6 @@
 name = "Enspelled Weapon (Level 4)"
 type = "Weapon"
-subtype = "Any Simple or Martial"
+subtype = { requires = ["Simple Weapon", "Martial Weapon"] }
 rarity = "Very Rare"
 tables = ["Armaments", "Implements"]
 attunement = true

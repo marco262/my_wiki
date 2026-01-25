@@ -1,6 +1,6 @@
 name = "Mithral Armor"
 type = "Armor"
-subtype = "Any Medium or Heavy, Except Hide Armor"
+subtype = { requires = ["Medium Armor", "Heavy Armor"], excludes = "Hide Armor" }
 rarity = "Uncommon"
 tables = ["Arcana", "Armaments"]
 attunement = false

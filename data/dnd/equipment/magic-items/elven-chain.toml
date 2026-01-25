@@ -1,6 +1,6 @@
 name = "Elven Chain"
 type = "Armor"
-subtype = "Chain Mail or Chain Shirt"
+subtype = { requires = ["Chain Mail", "Chain Shirt"] }
 rarity = "Rare"
 tables = ["Armaments"]
 attunement = false

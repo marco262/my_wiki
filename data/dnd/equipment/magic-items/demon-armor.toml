@@ -1,6 +1,6 @@
 name = "Demon Armor"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true

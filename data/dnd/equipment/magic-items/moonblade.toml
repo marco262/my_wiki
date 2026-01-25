@@ -1,6 +1,6 @@
 name = "Moonblade"
 type = "Weapon"
-subtype = "Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+subtype = { requires = ["Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

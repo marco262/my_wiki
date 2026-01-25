@@ -1,6 +1,6 @@
 name = "Sword of Life Stealing"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Rapier", "Scimitar", "Shortsword"] }
 rarity = "Rare"
 tables = ["Armaments"]
 attunement = true

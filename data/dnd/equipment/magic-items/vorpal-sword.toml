@@ -1,6 +1,6 @@
 name = "Vorpal Sword"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, or Scimitar"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Scimitar"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

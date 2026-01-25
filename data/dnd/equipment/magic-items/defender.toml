@@ -1,6 +1,6 @@
 name = "Defender"
 type = "Weapon"
-subtype = "Any Melee Weapon"
+subtype = { requires = ["Melee Weapon"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

@@ -1,6 +1,6 @@
 name = "Efreeti Chain"
 type = "Armor"
-subtype = "Chain Mail or Chain Shirt"
+subtype = { requires = ["Chain Mail", "Chain Shirt"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

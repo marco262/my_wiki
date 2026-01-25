@@ -1,6 +1,6 @@
 name = "Enspelled Armor (Cantrip)"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = true

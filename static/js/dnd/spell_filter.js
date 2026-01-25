@@ -90,8 +90,9 @@ export function get_checkboxes(name) {
 
 export function set_checkboxes(name, to_set) {
     let list = document.getElementsByName("checkbox-" + name);
-    if (to_set)
-        list.forEach(n => n.checked = (to_set.includes(n.value) || to_set === "all"));
+    list.forEach(n => n.checked = (to_set.includes(n.value) || to_set === "all"));
+    if (to_set === "none")
+        document.querySelector(`[name="checkbox-all"][value="${name}"]`).checked = false;
 }
 
 export function get_radio_group_value(name) {

@@ -1,6 +1,6 @@
 name = "Sylvan Talon"
 type = "Weapon"
-subtype = "Dagger, Rapier, Scimitar, Shortsword, Sickle, or Spear"
+subtype = { requires = ["Dagger", "Rapier", "Scimitar", "Shortsword", "Sickle", "Spear"] }
 rarity = "Common"
 tables = ["Armaments", "Implements"]
 attunement = true

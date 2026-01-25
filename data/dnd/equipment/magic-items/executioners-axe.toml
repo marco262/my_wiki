@@ -1,6 +1,6 @@
 name = "Executioner's Axe"
 type = "Weapon"
-subtype = "Battleaxe, Greataxe, Halberd, or Handaxe"
+subtype = { requires = ["Battleaxe", "Greataxe", "Halberd", "Handaxe"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = false

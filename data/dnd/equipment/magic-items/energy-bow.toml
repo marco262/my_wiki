@@ -1,6 +1,6 @@
 name = "Energy Bow"
 type = "Weapon"
-subtype = "Longbow or Shortbow"
+subtype = { requires = ["Longbow", "Shortbow"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true

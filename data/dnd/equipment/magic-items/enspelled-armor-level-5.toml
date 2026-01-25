@@ -1,6 +1,6 @@
 name = "Enspelled Armor (Level 5)"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true

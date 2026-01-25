@@ -1,6 +1,6 @@
 name = "Nine Lives Stealer"
 type = "Weapon"
-subtype = "Any Simple or Martial"
+subtype = { requires = ["Simple Weapon", "Martial Weapon"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true

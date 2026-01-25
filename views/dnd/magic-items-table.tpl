@@ -14,7 +14,7 @@
         <td><a href="/dnd/equipment/magic-item/{{ filename }}">{{ magic_item["name"] }}</a></td>
         <td>{{ magic_item["type"] }}</td>
         <td>{{ "yes" if magic_item["attunement"] else "no" }}</td>
-        <td>{{ magic_item["subtype"] }}</td>
+        <td>{{ magic_item["subtype_str"] }}</td>
         <td>{{ ", ".join(magic_item["classes"]) }}</td>
         <td>
             % source = magic_item["source"].split(", p")[0]

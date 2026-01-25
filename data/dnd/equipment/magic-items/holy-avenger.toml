@@ -1,6 +1,6 @@
 name = "Holy Avenger"
 type = "Weapon"
-subtype = "Any Simple or Martial"
+subtype = { requires = ["Simple Weapon", "Martial Weapon"] }
 rarity = "Legendary"
 tables = ["Armaments", "Relics"]
 attunement = true

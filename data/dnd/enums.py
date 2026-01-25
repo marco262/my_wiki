@@ -184,10 +184,9 @@ magic_item_rarities = [
 
 magic_item_sources = [
     "Dungeon Master's Guide",
-    "Xanathar's Guide to Everything",
-    "Tasha's Cauldron of Everything",
+    "Eberron: Forge of the Artificer",
     "Waterdeep: Dragon Heist",
-    "Homebrew"
+    "Homebrew",
 ]
 
 custom_tooltips = {

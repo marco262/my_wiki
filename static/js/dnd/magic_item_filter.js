@@ -57,8 +57,10 @@ function set_ui_state(d) {
 }
 
 function reset_ui() {
-    let checkboxes = ["type", "rarity", "subtype", "classes", "source", "all"];
+    let checkboxes = ["type", "rarity", "classes", "source", "all"];
     checkboxes.forEach(checkbox => set_checkboxes(checkbox, "all"));
+    // Disable all subtype checkboxes by default
+    set_checkboxes("subtype", "none");
     // Disable some checkboxes by default
     let prosthetic_checkbox = document.querySelector('[name="checkbox-subtype"][value="prosthetic"]');
     if (prosthetic_checkbox)

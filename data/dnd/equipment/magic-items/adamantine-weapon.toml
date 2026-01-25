@@ -1,6 +1,6 @@
 name = "Adamantine Weapon"
 type = "Weapon"
-subtype = "Any Ammunition or Melee Weapon"
+subtype = { requires = ["Ammunition", "Melee Weapon"] }
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = false

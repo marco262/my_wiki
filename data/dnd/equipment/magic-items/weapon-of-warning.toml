@@ -1,6 +1,6 @@
 name = "Weapon of Warning"
 type = "Weapon"
-subtype = "Any Simple or Martial"
+subtype = { requires = ["Simple Weapon", "Martial Weapon"] }
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = true

@@ -1,6 +1,6 @@
 name = "Cast-Off Armor"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Common"
 tables = ["Armaments"]
 attunement = false

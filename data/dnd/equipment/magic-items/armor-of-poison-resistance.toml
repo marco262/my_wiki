@@ -1,6 +1,6 @@
 name = "Armor of Poison Resistance"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Rare"
 tables = ["Armaments"]
 attunement = true

@@ -1,6 +1,6 @@
 name = "Hammer of Thunderbolts"
 type = "Weapon"
-subtype = "Maul or Warhammer"
+subtype = { requires = ["Maul", "Warhammer"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

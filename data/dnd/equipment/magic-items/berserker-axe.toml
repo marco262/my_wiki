@@ -1,6 +1,6 @@
 name = "Berserker Axe"
 type = "Weapon"
-subtype = "Battleaxe, Greataxe, or Halberd"
+subtype = { requires = ["Battleaxe", "Greataxe", "Halberd"] }
 rarity = "Rare"
 tables = ["Armaments"]
 attunement = true

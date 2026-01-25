@@ -1,6 +1,6 @@
 name = "Armor of Gleaming"
 type = "Armor"
-subtype = "Any Light, Medium, or Heavy"
+subtype = { requires = ["Light Armor", "Medium Armor", "Heavy Armor"] }
 rarity = "Common"
 tables = ["Armaments"]
 attunement = false

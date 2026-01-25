@@ -1,6 +1,6 @@
 name = "Plate Armor of Etherealness"
 type = "Armor"
-subtype = "Half Plate Armor or Plate Armor"
+subtype = { requires = ["Half Plate Armor", "Plate Armor"] }
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true

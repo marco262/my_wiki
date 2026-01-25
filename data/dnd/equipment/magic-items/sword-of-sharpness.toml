@@ -1,6 +1,6 @@
 name = "Sword of Sharpness"
 type = "Weapon"
-subtype = "Glaive, Greatsword, Longsword, or Scimitar"
+subtype = { requires = ["Glaive", "Greatsword", "Longsword", "Scimitar"] }
 rarity = "Very Rare"
 tables = ["Armaments"]
 attunement = true
