@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 305"
 description = """
-This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with [[magic_item:Oil of Slipperiness]]. When found, a container contains 1d6 + 1 ounces.
+This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with [[tooltip:Oil of Slipperiness]]. When found, a container contains 1d6 + 1 ounces.
 
-One ounce of the glue can cover a 1-foot square surface. Applying an ounce of Sovereign Glue takes a [[glossary:Utilize]] action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of [[magic_item:Universal Solvent]] or [[magic_item:Oil of Etherealness]], or with a [[[spell:Wish]]] spell.
+One ounce of the glue can cover a 1-foot square surface. Applying an ounce of Sovereign Glue takes a [[glossary:Utilize]] action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of [[tooltip:Universal Solvent]] or [[tooltip:Oil of Etherealness]], or with a [[[spell:Wish]]] spell.
 """

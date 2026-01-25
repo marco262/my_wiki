@@ -12,7 +12,7 @@ Vecna was a mighty wizard who, through magic and conquest, forged a terrible emp
 
 A treacherous lieutenant named Kas brought Vecna's rule to an end in a terrible battle. Of Vecna, all that remained were one hand and one eye, grisly Artifacts that still seek to work Vecna's will in the world.
 
-The Eye of Vecna and the [[magic_item:Hand of Vecna]] are separate Artifacts that might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.
+The Eye of Vecna and the [[tooltip:Hand of Vecna]] are separate Artifacts that might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.
 
 **_Random Properties of the Eye and Hand._** The Eye of Vecna has the following random properties:
 
@@ -38,5 +38,5 @@ The Eye of Vecna and the [[magic_item:Hand of Vecna]] are separate Artifacts tha
 | [[[spell:Eyebite]]]          | 4           |
  - **X-ray Vision.** You can take a [[glossary:Magic]] action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through themselves. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.
 
-**_Destroying the Eye and Hand._** If the Eye of Vecna and the [[magic_item:Hand of Vecna]] are both attached to the same creature and that creature is slain by the [[magic_item:Sword of Kas]], both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.
+**_Destroying the Eye and Hand._** If the Eye of Vecna and the [[tooltip:Hand of Vecna]] are both attached to the same creature and that creature is slain by the [[tooltip:Sword of Kas]], both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.
 """

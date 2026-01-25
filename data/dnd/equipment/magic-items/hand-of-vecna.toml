@@ -12,7 +12,7 @@ Vecna was a mighty wizard who, through magic and conquest, forged a terrible emp
 
 A treacherous lieutenant named Kas brought Vecna's rule to an end in a terrible battle. Of Vecna, all that remained were one hand and one eye, grisly Artifacts that still seek to work Vecna's will in the world.
 
-The [[magic_item:Eye of Vecna]] and the Hand of Vecna are separate Artifacts that might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.
+The [[tooltip:Eye of Vecna]] and the Hand of Vecna are separate Artifacts that might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.
 
 **_Random Properties of the Eye and Hand._** The Hand of Vecna has the following random properties:
 
@@ -26,7 +26,7 @@ The [[magic_item:Eye of Vecna]] and the Hand of Vecna are separate Artifacts tha
 
  - **Great Strength.** Your Strength becomes 20 unless it is already 20 or higher.
  - **Icy Touch.** Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra 2d8 Cold damage on a hit.
- - **Spellcasting.** The hand has 8 charges and regains 1d4 + 4 expended charges daily at dawn. You can cast a spell on the [[magic_item:Hand of Vecna]] Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts [[[spell:Suggestion]]] on you (save DC 18; no [[glossary:Concentration]] required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.
+ - **Spellcasting.** The hand has 8 charges and regains 1d4 + 4 expended charges daily at dawn. You can cast a spell on the [[tooltip:Hand of Vecna]] Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts [[[spell:Suggestion]]] on you (save DC 18; no [[glossary:Concentration]] required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.
 
 **Hand of Vecna Spells**
 
@@ -37,5 +37,5 @@ The [[magic_item:Eye of Vecna]] and the Hand of Vecna are separate Artifacts tha
 | [[[spell:Slow]]]            | 2           |
 | [[[spell:Teleport]]]        | 3           |
 
-**_Destroying the Eye and Hand._** If the [[magic_item:Eye of Vecna]] and the Hand of Vecna are both attached to the same creature and that creature is slain by the [[magic_item:Sword of Kas]], both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.
+**_Destroying the Eye and Hand._** If the [[tooltip:Eye of Vecna]] and the Hand of Vecna are both attached to the same creature and that creature is slain by the [[tooltip:Sword of Kas]], both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.
 """

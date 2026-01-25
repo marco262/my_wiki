@@ -8,7 +8,7 @@ classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 255"
 description = """
-Found in a small container, this powder resembles [[magic_item:Dust of Disappearance]], and [[[spell:Identify]]] reveals it to be such. There is enough of it for one use.
+Found in a small container, this powder resembles [[tooltip:Dust of Disappearance]], and [[[spell:Identify]]] reveals it to be such. There is enough of it for one use.
 
 As a [[glossary:Utilize]] action, you can throw the dust into the air, forcing yourself and every creature in a 30-foot [[glossary:Emanation]] originating from you to make a DC 15 Constitution saving throw. Constructs, Elementals, Oozes, Plants, and Undead succeed on the save automatically.
 

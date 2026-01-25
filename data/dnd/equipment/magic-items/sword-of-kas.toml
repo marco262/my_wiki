@@ -41,7 +41,7 @@ The weapon communicates telepathically with its wielder and speaks Common.
 
 **_Personality._** The sword's purpose is to bring ruin to Vecna. Killing Vecna's worshipers, destroying the lich's works, and foiling his machinations all help to fulfill this goal.
 
-The Sword of Kas also seeks to destroy anyone corrupted by the [[magic_item:Eye and Hand of Vecna]].
+The Sword of Kas also seeks to destroy anyone corrupted by the [[tooltip:Eye and Hand of Vecna]].
 
-**_Destroying the Sword._** A creature attuned to both the [[magic_item:Eye of Vecna]] and the [[magic_item:Hand of Vecna]] can use the [[[spell:Wish]]] property of those combined Artifacts to unmake the Sword of Kas, provided the sword is within 30 feet of the spell's caster. Upon casting Wish, the creature makes a DC 18 Charisma saving throw. On a failed save, nothing happens, and the [[[spell:Wish]]] spell is wasted. On a successful save, the Sword of Kas is destroyed.
+**_Destroying the Sword._** A creature attuned to both the [[tooltip:Eye of Vecna]] and the [[tooltip:Hand of Vecna]] can use the [[[spell:Wish]]] property of those combined Artifacts to unmake the Sword of Kas, provided the sword is within 30 feet of the spell's caster. Upon casting Wish, the creature makes a DC 18 Charisma saving throw. On a failed save, nothing happens, and the [[[spell:Wish]]] spell is wasted. On a successful save, the Sword of Kas is destroyed.
 """
