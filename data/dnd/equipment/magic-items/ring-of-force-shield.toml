@@ -1,8 +1,8 @@
 name = "Ring of Force Shield"
 type = "Ring"
 subtype = ""
-rarity_type = "Major"
 rarity = "Uncommon"
+tables = ["Arcana", "Armaments"]
 attunement = false
 classes = []
 notes = ""

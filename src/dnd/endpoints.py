@@ -4,10 +4,12 @@ from time import perf_counter
 
 from bottle import Bottle, view, request, redirect, abort, template, HTTPError
 
+from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER
 from src.common.utils import md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import load_spells, open_monster_sheet,  load_magic_items, SORTED_ENUM_CACHE
 from src.dnd.utils import filter_magic_items
+from src.dnd.utils import load_spells, open_monster_sheet, load_magic_items, generate_magic_items, \
+    get_magic_item_subtypes
 
 SEARCH_OBJ = None
 
@@ -165,8 +167,7 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get("/equipment/magic_item_filter/")
     @view("dnd/magic_item_filter.tpl")
     def magic_item_filter():
-        load_magic_items()
-        return {"subtypes": SORTED_ENUM_CACHE["magic_item"].get("subtype", [])}
+        return {"subtypes": get_magic_item_subtypes()}
 
     @app.post('/equipment/magic_item_filter_results')
     @view("dnd/magic-items.tpl")
@@ -177,6 +178,26 @@ def load_wsgi_endpoints(app: Bottle):
         for k, v in filtered_magic_items.items():
             results[v["rarity"]].append((k, v))
         return {"magic_items": results}
+
+    @app.get("/equipment/magic_item_generator/")
+    @view("dnd/magic_item_generator.tpl")
+    def magic_item_generator():
+        return {"subtypes": get_magic_item_subtypes()}
+
+    @app.post("/equipment/magic_item_generator_results/")
+    def magic_item_generator_results():
+        filter_keys = loads(request.params["filter_keys"])
+        filter_keys["table_name"] = request.params["table_name"]
+        filter_keys["rarity"] = request.params["rarity"]
+        max_items = int(request.params["max_items"])
+        no_duplicates = request.params["no_duplicates"] == "true"
+        generated_magic_items = generate_magic_items(filter_keys, max_items, no_duplicates)
+        output = ""
+        for name, random_spell in generated_magic_items:
+            output += f"\n* [{name}](/dnd/equipment/magic-item/{name})"
+            if random_spell:
+                output += f" ([[[spell:{random_spell}]]])"
+        return DEFAULT_MARKDOWN_PARSER.parse_md(output, namespace="dnd")
 
     # Misc Functions
 

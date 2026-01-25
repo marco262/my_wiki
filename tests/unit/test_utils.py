@@ -1,8 +1,12 @@
 import unittest
+from unittest.mock import patch
 
 from src.common.utils import better_title, list_media_files, check_for_media_file
-from src.dnd.utils import split_rules_glossary
+from src.dnd.utils import split_rules_glossary, generate_magic_items
 from tests.unit import find_root_directory
+
+
+MUT = "src.dnd.utils."
 
 
 class TestUtils(unittest.TestCase):
@@ -58,4 +62,22 @@ class TestUtils(unittest.TestCase):
                            "<em>[more]</em></p>",
             },
             glossary["unconscious"],
+        )
+
+    @patch(MUT + "filter_magic_items", return_value={"spell-scroll-cantrip": {"name": "Spell Scroll (Cantrip)"}})
+    @patch(MUT + "load_spells_by_level", return_value={0: [("elementalism", {"title": "Elementalism"})]})
+    def test_generate_magic_items_spell_scroll(self, *_mocks):
+        filter_keys = {"table_name": "Arcana", "type": ["Scroll"], "rarity": ["Common"]}
+        self.assertEqual(
+            [("Spell Scroll (Cantrip)", "Elementalism")],
+            generate_magic_items(filter_keys, 1, False),
+        )
+
+    @patch(MUT + "filter_magic_items", return_value={"enspelled-staff-level-5": {"name": "Enspelled Staff (Level 5)"}})
+    @patch(MUT + "load_spells_by_level", return_value={5: [("yolande-s-regal-presence", {"title": "Yolande's Regal Presence"})]})
+    def test_generate_magic_items_enspelled_staff(self, *_mocks):
+        filter_keys = {"table_name": "Arcana", "type": ["Staff"], "rarity": ["Very Rare"]}
+        self.assertEqual(
+            [("Enspelled Staff (Level 5)", "Yolande's Regal Presence")],
+            generate_magic_items(filter_keys, 1, False),
         )

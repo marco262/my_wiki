@@ -1,3 +1,4 @@
+import random
 import re
 import tomllib
 from collections import defaultdict
@@ -20,8 +21,8 @@ file = {}
 
 # Spells
 
-SPELLS = None
-SPELLS_BY_LEVEL = None
+SPELLS: dict[str, dict] = {}
+SPELLS_BY_LEVEL: dict[int, list[dict]] = {}
 ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, set[str]]] = \
     {"spell": defaultdict(set), "magic_item": defaultdict(set)}
 SORTED_ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, list[str]]] = \
@@ -63,7 +64,7 @@ def load_spells():
             add_to_enum_cache("spell", "duration", d["duration"])
             add_to_enum_cache("spell", "source", d["source"])
             spells[k] = d
-            SPELLS_BY_LEVEL[d["level"]].append((k, d))
+            SPELLS_BY_LEVEL[int(d["level"])].append((k, d))
     except Exception as e:
         raise Exception(f"Error when trying to process {path}") from e
     print(" Done.", flush=True)
@@ -124,14 +125,19 @@ def sort_enum_cache():
             SORTED_ENUM_CACHE[cache_type][key] = sorted(values, key=sort_key)
 
 
-def get_enum_cache(cache_type: Literal["spell", "magic_item"]):
+def get_enum_cache(cache_type: Literal["spell", "magic_item"]) -> dict[str, list[str]]:
+    load_magic_items()
     try:
         return SORTED_ENUM_CACHE[cache_type]
     except KeyError:
         raise ValueError(f"Unknown cache_type {cache_type}")
 
 
-def load_spells_by_level():
+def get_magic_item_subtypes() -> list[str]:
+    return get_enum_cache("magic_item")["subtype"]
+
+
+def load_spells_by_level() -> dict[int, list[dict]]:
     load_spells()
     return SPELLS_BY_LEVEL
 
@@ -251,14 +257,18 @@ def load_magic_items():
     return MAGIC_ITEMS
 
 
-def filter_magic_items(filters):
+def filter_magic_items(filters) -> dict[str, dict]:
     d = {}
-    for k, v in load_magic_items().items():
+    magic_items = load_magic_items()
+    for k, v in magic_items.items():
         if v.get("unlisted"):
             continue
-        if "type" in filters and v["type"].lower() not in filters["type"]:
+        table_name = filters.get("table_name")
+        if table_name and table_name != "any" and table_name not in v["tables"]:
             continue
-        if "rarity" in filters and v["rarity"].lower() not in filters["rarity"]:
+        if "type" in filters and v["type"] not in filters["type"]:
+            continue
+        if "rarity" in filters and v["rarity"] not in filters["rarity"]:
             continue
         if "attunement" in filters:
             if (filters["attunement"] == "true" and not v["attunement"] or
@@ -286,6 +296,35 @@ def filter_magic_items(filters):
                 continue
         d[k] = v
     return d
+
+
+def generate_magic_items(filter_keys: dict, max_items: int, no_duplicates: bool) -> list[tuple[str, str]]:
+    magic_items = filter_magic_items(filter_keys)
+    magic_item_keys = list(magic_items.keys())
+    spells_by_level = load_spells_by_level()
+    generated_magic_items = []
+    for _ in range(max_items):
+        magic_item_key = random.choice(magic_item_keys)
+        magic_item = magic_items[magic_item_key]
+        generated_magic_item = [magic_item["name"], None]
+        # Add random spell to the end of the item name if necessary
+        m = re.search(r"(?:spell-scroll-|enspelled-[a-z]+-)(.+)$", magic_item_key)
+        if m:
+            if m.group(1) == "cantrip":
+                level = 0
+            else:
+                # E.g. "level-1" -> 1
+                level = int(m.group(1).split("-")[1])
+            _, random_spell = random.choice(spells_by_level[level])
+            generated_magic_item[1] = random_spell["title"]
+        else:
+            # If it's not a spell scroll, and we want to avoid duplicates, remove the chosen item from set
+            if no_duplicates:
+                magic_item_keys.remove(magic_item_key)
+                if len(magic_item_keys) == 0:
+                    break
+        generated_magic_items.append(tuple(generated_magic_item))
+    return generated_magic_items
 
 
 # Tooltips
