@@ -74,6 +74,8 @@
 * [[[general:equipment#Mounts and Vehicles]]]
 * [[[general:equipment#Services]]]
 * [[[general:equipment#Magic Items]]]
+    * [Magic Item Filter](/dnd/equipment/magic_item_filter/)
+    * [Magic Item Generator](/dnd/equipment/magic_item_generator/)
 * [[[general:equipment#Crafting Equipment]]]
 
 ## System Info

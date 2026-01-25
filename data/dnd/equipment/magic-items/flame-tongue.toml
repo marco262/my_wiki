@@ -1,6 +1,6 @@
 name = "Flame Tongue"
 type = "Weapon"
-subtype = "Melee"
+subtype = "Any Melee Weapon"
 rarity = "Rare"
 tables = ["Armaments"]
 attunement = true

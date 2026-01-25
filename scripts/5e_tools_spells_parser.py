@@ -473,7 +473,8 @@ def parse_magic_item_variants():
                         req_type = req["type"].split("|")[0]
                         if req_type == "M":
                             type_ = "Weapon"
-                            requires.append("Melee")
+                            add_any = True
+                            requires.append("Melee Weapon")
                         elif req_type == "A":
                             requires.append("Ammunition")
                             type_ = "Weapon"
@@ -517,7 +518,7 @@ def parse_magic_item_variants():
                     subtype += "Any "
                 subtype += join_with_or(requires)
                 if property:
-                    subtype += f"with the {property} Property"
+                    subtype += f" with the {property} Property"
         if "excludes" in magic_item:
             subtype += f", Except {magic_item['excludes']['name']}"
 

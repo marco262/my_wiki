@@ -1,6 +1,6 @@
 name = "Repeating Shot"
 type = "Weapon"
-subtype = "Any Simple or Martialwith the Ammunition Property"
+subtype = "Any Simple or Martial with the Ammunition Property"
 rarity = "Uncommon"
 tables = ["Armaments"]
 attunement = true

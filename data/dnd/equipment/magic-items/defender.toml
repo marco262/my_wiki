@@ -1,6 +1,6 @@
 name = "Defender"
 type = "Weapon"
-subtype = "Melee"
+subtype = "Any Melee Weapon"
 rarity = "Legendary"
 tables = ["Armaments"]
 attunement = true
