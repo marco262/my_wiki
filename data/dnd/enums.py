@@ -71,7 +71,6 @@ durations = [
     "10 minutes",
     "1 hour",
     "2 hours",
-    "6 hours",
     "8 hours",
     "24 hours",
     "1 day",
@@ -92,6 +91,7 @@ ranges = [
     "30 feet",
     "40 feet",
     "60 feet",
+    "60/120 feet",
     "90 feet",
     "100 feet",
     "120 feet",
@@ -99,11 +99,9 @@ ranges = [
     "300 feet",
     "500 feet",
     "1 mile",
-    "5 miles",
     "500 miles",
     "Sight",
     "Unlimited",
-    "Special"
 ]
 
 shapes = [

@@ -570,6 +570,17 @@ def truncate_html_by_visible_text(html: str) -> str:
     return str(soup)
 
 
+def ability_mod(score: str | int | float) -> str:
+    return to_mod((int(score) - 10) / 2)
+
+
+def to_mod(num):
+    mod = str(int(num))
+    if not mod.startswith("-"):
+        mod = "+" + mod
+    return mod
+
+
 def open_monster_sheet(name: str):
     try:
         return md_page(name, NAMESPACE, "monster", build_toc=False)
