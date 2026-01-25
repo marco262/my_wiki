@@ -12,7 +12,8 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"{@damage (.*?)}", r"\1", text)
     text = re.sub(r"{@(variantrule|action|condition|status|sense|hazard) (.*?)( \[.*?])?\|XPHB(\|.*?)?}", r"[[glossary:\2]]", text)
     text = re.sub(r"{@item Artisan's Tools\|XPHB}", r"[[[general:equipment#artisans-tools|Artisan's Tools]]]", text)
-    text = re.sub(r"{@(skill|item) (.*?)( \[.*?])?\|(XPHB|XDMG)(\|.*?)?}", r"[[tooltip:\2]]", text)
+    text = re.sub(r"{@skill (.*?)( \[.*?])?\|(XPHB|XDMG)(\|.*?)?}", r"[[tooltip:\1]]", text)
+    text = re.sub(r"{@item (.*?)( \[.*?])?\|(XPHB|XDMG)(\|.*?)?}", r"[[tooltip:\1]]", text)
     text = re.sub(r"{@creature (.*?)( \[.*?])?\|.*?}", r"[[[monster:\1]]]", text)
     text = re.sub(r"{@race (.*?)( \[.*?])?\|.*?}", r"[[[advancement:Races#\1]]]", text)
     text = re.sub(r"{@spell (.*?)\|.*?}", r"[[[spell:\1]]]", text)
@@ -410,7 +411,7 @@ source = "{source}, p. {page_num}"
 """
 
         desc = parse_entries(magic_item["entries"], entry_templates, magic_item)
-        if "\n" not in desc:
+        if "\n" not in desc and '"' not in desc:
             output += f'description = "{desc}"\n'
         else:
             output += f'description = """\n{desc}\n"""\n'
@@ -442,6 +443,8 @@ def parse_magic_item_variants():
         if name.startswith("+"):
             num, name = name.split(" ", 1)
             name = name + ", " + num
+        if " (*)" in name:
+            name = name.replace(" (*)", "")
 
         variant_item = magic_item["inherits"]
         if variant_item["source"] == "XDMG":
