@@ -123,8 +123,10 @@ sources = [
 
 source_acronyms = {
     "Player's Handbook": "PHB",
+    "Dungeon Master's Guide": "DMG",
     "Eberron: Forge of the Artificer": "EFotA",
     "Homebrew": "Home",
+    "Waterdeep: Dragon Heist": "W:DH",
     "Player's Handbook Playtest 7": "PHP7",
     "Champion's Ascension": "CA",
 }

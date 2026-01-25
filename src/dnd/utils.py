@@ -12,17 +12,20 @@ from markdown2 import Markdown
 
 from src.common.utils import title_to_page_name, str_to_list, md_page
 
+NAMESPACE = "dnd"
+INCLUDE_MD = """[[include dnd/monster-sheet.tpl]]
+file = {}
+[[/include]]"""
+
+
+# Spells
+
 SPELLS = None
 SPELLS_BY_LEVEL = None
 ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, set[str]]] = \
     {"spell": defaultdict(set), "magic_item": defaultdict(set)}
 SORTED_ENUM_CACHE: dict[Literal["spell", "magic_item"], dict[str, list[str]]] = \
     {"spell": {}, "magic_item": {}}
-TOOLTIP_MAX_LENGTH = 1000
-NAMESPACE = "dnd"
-INCLUDE_MD = """[[include dnd5e/monster-sheet.tpl]]
-file = {}
-[[/include]]"""
 
 
 def load_spells():
@@ -54,11 +57,17 @@ def load_spells():
                 )
             if "source_extended" in d:
                 d["source_extended"] = MD.parse_md(d["source_extended"], namespace="dnd", with_metadata=False)
+            # Add values to enum cache
+            add_to_enum_cache("spell", "casting_time", d["casting_time"])
+            add_to_enum_cache("spell", "range", d["range"])
+            add_to_enum_cache("spell", "duration", d["duration"])
+            add_to_enum_cache("spell", "source", d["source"])
             spells[k] = d
             SPELLS_BY_LEVEL[d["level"]].append((k, d))
     except Exception as e:
         raise Exception(f"Error when trying to process {path}") from e
     print(" Done.", flush=True)
+    sort_enum_cache()
     SPELLS = spells
     return SPELLS
 
@@ -207,11 +216,86 @@ def filter_spells(filters: dict):
     return results, results_by_level
 
 
+# Magic Items
+
+MAGIC_ITEMS = None
+
+def load_magic_items():
+    global MAGIC_ITEMS
+    if MAGIC_ITEMS:
+        return MAGIC_ITEMS
+    magic_items = {}
+    path = None
+    print("Loading magic items into memory", end='')
+    from src.common.markdown_parser import DEFAULT_MARKDOWN_PARSER as MD
+    try:
+        for path in sorted(glob(f"data/{NAMESPACE}/equipment/magic-items/*")):
+            print(".", end='', flush=True)
+            with open(path) as f:
+                d = tomllib.loads(f.read())
+            # Do some special handling
+            d["description"] = d["description"].strip()
+            d["description_md"] = MD.parse_md(d["description"], namespace=NAMESPACE, with_metadata=False)
+            # Add values to enum cache
+            add_to_enum_cache("magic_item", "source", d["source"])
+            if d["subtype"]:
+                add_to_enum_cache("magic_item", "subtype", d["subtype"])
+            # Write to dict
+            magic_items[splitext(basename(path))[0]] = d
+    except Exception:
+        print(f"\nError when trying to process {path}")
+        raise
+    print(" Done.", flush=True)
+    sort_enum_cache()
+    MAGIC_ITEMS = magic_items
+    return MAGIC_ITEMS
+
+
+def filter_magic_items(filters):
+    d = {}
+    for k, v in load_magic_items().items():
+        if v.get("unlisted"):
+            continue
+        if "type" in filters and v["type"].lower() not in filters["type"]:
+            continue
+        if "rarity" in filters and v["rarity"].lower() not in filters["rarity"]:
+            continue
+        if "attunement" in filters:
+            if (filters["attunement"] == "true" and not v["attunement"] or
+                    filters["attunement"] == "false" and v["attunement"]):
+                continue
+        if "subtype" in filters:
+            if v["subtype"]:
+                if v["subtype"] not in filters["subtype"]:
+                    continue
+            else:
+                if "no-subtype" not in filters["subtype"]:
+                    continue
+        if "classes" in filters:
+            if v["classes"]:
+                if not set(v["classes"]).intersection(filters["classes"]):
+                    continue
+            else:
+                if "no-restrictions" not in filters["classes"]:
+                    continue
+        if "source" in filters:
+            for s in filters["source"]:
+                if s.lower() in v["source"].lower():
+                    break
+            else:
+                continue
+        d[k] = v
+    return d
+
+
+# Tooltips
+
 class TooltipEntry(TypedDict):
     href: str
     content: str | list[str]
 
 TooltipDict = dict[str, TooltipEntry]
+TOOLTIP_MAX_LENGTH = 1000
 
 
 def split_rules_glossary() -> TooltipDict:

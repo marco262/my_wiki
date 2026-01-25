@@ -2,11 +2,12 @@ from collections import defaultdict
 from json import loads
 from time import perf_counter
 
-from bottle import Bottle, view, request, redirect, abort, template
+from bottle import Bottle, view, request, redirect, abort, template, HTTPError
 
 from src.common.utils import md_page, title_to_page_name
 from src.dnd.search import Search
-from src.dnd.utils import load_spells, open_monster_sheet
+from src.dnd.utils import load_spells, open_monster_sheet,  load_magic_items, SORTED_ENUM_CACHE
+from src.dnd.utils import filter_magic_items
 
 SEARCH_OBJ = None
 
@@ -37,6 +38,15 @@ def load_wsgi_endpoints(app: Bottle):
     @app.get('/dm/<name>')
     def dnd_class(name):
         return md_page(name, "dnd", "dm")
+
+    @app.get('/equipment/magic-item/<name>')
+    @view("dnd/magic-item.tpl")
+    def magic_item(name):
+        formatted_name = title_to_page_name(name)
+        loaded_magic_items = load_magic_items()
+        if formatted_name not in loaded_magic_items:
+            raise HTTPError(404, f"I couldn't find a magic item by the name of \"{name}\".")
+        return loaded_magic_items[formatted_name]
 
     @app.get('/general/<name>')
     def general(name):
@@ -152,10 +162,26 @@ def load_wsgi_endpoints(app: Bottle):
         }
         return d
 
+    @app.get("/equipment/magic_item_filter/")
+    @view("dnd/magic_item_filter.tpl")
+    def magic_item_filter():
+        load_magic_items()
+        return {"subtypes": SORTED_ENUM_CACHE["magic_item"].get("subtype", [])}
+
+    @app.post('/equipment/magic_item_filter_results')
+    @view("dnd/magic-items.tpl")
+    def magic_item_filter_results():
+        filter_keys = loads(request.params["filter_keys"])
+        filtered_magic_items = filter_magic_items(filter_keys)
+        results = defaultdict(list)
+        for k, v in filtered_magic_items.items():
+            results[v["rarity"]].append((k, v))
+        return {"magic_items": results}
+
     # Misc Functions
 
     @app.get('/site_search')
-    @view('dnd5e/site_search.tpl')
+    @view('dnd/site_search.tpl')
     def site_search():
         return {
             "title": "Search",
@@ -163,7 +189,7 @@ def load_wsgi_endpoints(app: Bottle):
         }
 
     @app.route('/site_search/<search_term>')
-    @view('dnd5e/site_search.tpl')
+    @view('dnd/site_search.tpl')
     def site_search_with_results(search_term):
         global SEARCH_OBJ
         t = perf_counter()
