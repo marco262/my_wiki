@@ -7,4 +7,4 @@ attunement = false
 classes = []
 notes = ""
 source = "Dungeon Master's Guide, p. 286"
-description = "This item functions as a Pole. While holding it, you can take a [[glossary:Magic]] action to cause it to transform into a fishing pole with a hook, a line, and a reel, or have the fishing pole revert to a Pole."
+description = "This item functions as a [[tooltip:Pole]]. While holding it, you can take a [[glossary:Magic]] action to cause it to transform into a fishing pole with a hook, a line, and a reel, or have the fishing pole revert to a [[tooltip:Pole]]."
