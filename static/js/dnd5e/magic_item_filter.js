@@ -32,7 +32,7 @@ export function init_events(v_cookie_name) {
 function filter() {
     let json = JSON.stringify(get_ui_state());
     setCookie("magic_item_filter_state", json);
-    ajax_call("/dnd/equipment/magic_item_filter_results", handle_filter_results, {"filter_keys": json});
+    ajax_call("/dnd5e/equipment/magic_item_filter_results", handle_filter_results, {"filter_keys": json});
 }
 
 function handle_filter_results(xhttp) {

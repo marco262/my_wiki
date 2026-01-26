@@ -1,6 +1,6 @@
 name = "Ersatz Eye"
 type = "Wondrous Item"
-subtype = ""
+subtype = "Prosthetic"
 rarity = "Common"
 tables = ["Arcana", "Implements"]
 attunement = false

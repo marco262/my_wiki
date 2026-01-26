@@ -341,6 +341,11 @@ def filter_magic_items(filters) -> dict[str, dict]:
                         continue
             elif "no-subtype" not in filter_subtype_set:
                 continue
+        else:
+            # If no subtype filters are set, exclude prosthetics automatically.
+            # They're useless to anyone who's not playing a disabled character.
+            if v["subtype"] == "Prosthetic":
+                continue
         if "classes" in filters:
             if v["classes"]:
                 if not set(v["classes"]).intersection(filters["classes"]):

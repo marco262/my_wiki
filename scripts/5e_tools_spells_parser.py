@@ -348,7 +348,12 @@ def parse_magic_items():
         if "baseItem" in magic_item:
             item_name, _ = magic_item["baseItem"].split("|")
             subtype = " ".join([w.title() for w in item_name.split(" ")])
+
+        if name in ("Ear Horn of Hearing", "Ersatz Eye", "Prosthetic Limb"):
+            subtype = "Prosthetic"
+
         rarity = magic_item["rarity"].title()
+
         if "lootTables" in magic_item:
             tables = [s.split("-")[0].strip() for s in magic_item["lootTables"]]
             assert rarity != "Artifact"

@@ -1,6 +1,6 @@
 name = "Ear Horn of Hearing"
 type = "Wondrous Item"
-subtype = ""
+subtype = "Prosthetic"
 rarity = "Common"
 tables = ["Implements", "Relics"]
 attunement = false

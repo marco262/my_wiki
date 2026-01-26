@@ -58,7 +58,7 @@
             <td>
                 <input type="checkbox" name="checkbox-all" value="subtype" checked><i>(All/None)</i><br>
                 <input type="checkbox" name="checkbox-subtype" value="no-subtype" checked>(no subtype)<br>
-                % subtypes = ["", ""] + subtypes  # Account for the (All/None) and (no subtype) checkboxes
+                % subtypes = ["", ""] + list(subtypes)  # Account for the (All/None) and (no subtype) checkboxes
                 % sublist_length = ceil(len(subtypes) / 3)
                 % for s in subtypes[2:sublist_length]:
                     <input type="checkbox" name="checkbox-subtype" value="{{s}}" checked>{{s}}<br>

@@ -8,16 +8,16 @@ Monsters have treasure preferences, as explained in the _Monster Manual_. These 
 
 For advice on how to include treasure in an adventure, see [[[dm:Creating Adventures#Adventure Rewards]]].
 
-To randomly determine a magic item found as treasure, use the [[[dm:Random Magic Items]]] tables.
+To randomly determine a magic item found as treasure, use the [Magic Item Generator](/dnd/equipment/magic_item_generator/).
 
 ## Treasure Themes
 
-| Theme                                                      | Appropriate Treasure                                                     |
-|------------------------------------------------------------|--------------------------------------------------------------------------|
-| [Arcana](/dnd/dm/Random Magic Items#Arcana Tables)         | Gemstones plus magic items of an eldritch or esoteric nature             |
-| [Armaments](/dnd/dm/Random Magic Items#Armaments Tables)   | Coins or trade bars plus magic items that are useful in battle           |
-| [Implements](/dnd/dm/Random Magic Items#Implements Tables) | Coins, trade bars, or trade goods plus magic items that focus on utility |
-| [Relics](/dnd/dm/Random Magic Items#Relics Tables)         | Art objects plus magic items that have religious origins or purposes     |
+| Theme      | Appropriate Treasure                                                     |
+|------------|--------------------------------------------------------------------------|
+| Arcana     | Gemstones plus magic items of an eldritch or esoteric nature             |
+| Armaments  | Coins or trade bars plus magic items that are useful in battle           |
+| Implements | Coins, trade bars, or trade goods plus magic items that focus on utility |
+| Relics     | Art objects plus magic items that have religious origins or purposes     |
 
 # Coins
 
@@ -232,7 +232,7 @@ If a treasure hoard includes art objects, you can use the following tables to ra
 
 **Magic Item Rules**
 
-Rules for [[[general:Equipment#Identifying a Magic Item|identifying]]], [[[general:Equipment#Attunement|attuning to]]], and [[[general:Equipment#Wearing and Wielding Items|using]]] magic items appear in [[[general:Equipment#Magic Items]]]. Additional rules are presented below.
+Rules for [[[general:Equipment#Identifying a Magic Item|identifying]]], [[[general:Equipment#Attunement|attuning to]]], and [[[general:Equipment#Wearing and Wielding Items|using]]] magic items appear in [[[general:Equipment#Magic Items|Equipment]]]. Additional rules are presented below.
 
 **_Attunement Prerequisites._** If a magic item has a class prerequisite, a creature must be a member of that class to attune to the item. If a creature must be a spellcaster to attune to an item, the creature qualifies if it can cast at least one spell using its traits or features, not by using a magic item or the like.
 
@@ -420,7 +420,14 @@ If you're starting a campaign for characters above level 1, [[[advancement:Creat
 
 **Player Choice:** Let the players choose whatever items they want, within the specified rarity.
 
-**Random Determination:** Use the tables at the end of this chapter to randomly determine starting items. Use the [[[dm:Random Magic Items#Arcana Tables]]] for Sorcerers, Warlocks, and Wizards. Use the [[[dm:Random Magic Items#Armaments Tables]]] for Barbarians, Fighters, Paladins, and Rangers. Use the [[[dm:Random Magic Items#Implements Tables]]] for Bards, Monks, and Rogues. Use the [[[dm:Random Magic Items#Relics Tables]]] for Clerics and Druids. Feel free to vary the tables you use to give each character a mix of useful items and to match character themes. For example, for a Fighter with the Eldritch Knight subclass, you might choose one item from the [[[dm:Random Magic Items#Arcana Tables]]] and the rest of the character's items from the [[[dm:Random Magic Items#Armaments Tables]]].
+**Random Determination:** Use the [Magic Item Generator](/dnd/equipment/magic_item_generator/) to randomly determine starting items.
+
+* Use the _Arcana Table_ for Sorcerers, Warlocks, and Wizards.
+* Use the _Armaments Table_ for Barbarians, Fighters, Paladins, and Rangers.
+* Use the _Implements Table_ for Bards, Monks, and Rogues.
+* Use the _Relics Table_ for Clerics and Druids.
+
+Feel free to vary the tables you use to give each character a mix of useful items and to match character themes. For example, for a Fighter with the Eldritch Knight subclass, you might choose one item from the _Arcana Table_ and the rest of the character's items from the _Armaments Table_.
 
 [[/sidebar]]
 
