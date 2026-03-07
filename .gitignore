@@ -1,6 +1,7 @@
 venv/
 .terraform/
 __pycache__/
+.idea/
 
 *.ini
 *.lock
