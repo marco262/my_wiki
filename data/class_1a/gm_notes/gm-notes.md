@@ -45,9 +45,9 @@ Enter another URL to set as Visual Aid here:
 
 #### Elleewick
 
-* [Dagger of Returning](/dnd/equipment/magic-item/weapon-of-returning) -- Minor Uncommon
+* [Dagger of Returning](/dnd/equipment/magic-item/returning-weapon) -- Minor Uncommon
 * [Mystery Key](/dnd/equipment/magic-item/mystery-key) -- Minor Common
-* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-1st-level) (Witch Bolt) -- Minor Common
+* [Spellwrought Tattoo](/dnd5e/equipment/magic-item/spellwrought-tattoo-1st-level) (Witch Bolt) -- Minor Common
 
 #### Timtom
 
@@ -55,7 +55,7 @@ Enter another URL to set as Visual Aid here:
 * [Clockwork Amulet](/dnd/equipment/magic-item/clockwork-amulet) -- Minor Common
 * [Cloak of Many Fashions](/dnd/equipment/magic-item/cloak-of-many-fashions) -- Minor Common
 * [Pipe of Smoke Monsters](/dnd/equipment/magic-item/pipe-of-smoke-monsters) -- Minor Common
-* [Spellwrought Tattoo](/dnd/equipment/magic-item/spellwrought-tattoo-1st-level) (Protection from Evil and Good) -- Minor Common
+* [Spellwrought Tattoo](/dnd5e/equipment/magic-item/spellwrought-tattoo-1st-level) (Protection from Evil and Good) -- Minor Common
 
 #### Gren
 
@@ -67,7 +67,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Flute of Illusions](/dnd/equipment/magic-item/instrument-of-illusions) -- Minor Common
 * [Cloak of Billowing](/dnd/equipment/magic-item/cloak-of-billowing) -- Minor Common
-* [Fire Elemental Gem](/dnd/equipment/magic-item/elemental-gem) -- Minor Uncommon
+* [Fire Elemental Gem](/dnd/equipment/magic-item/elemental-gem-red-corundum) -- Minor Uncommon
 
 #### Meli
 
