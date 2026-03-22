@@ -8,29 +8,61 @@
 
 ## Session dashboard
 
-### Quick flow (scenes)
+### Already covered
 
-1. **Arrive at the Dyn Singh Night Market** - establish vibes, let players browse.
-2. **Caught in the Middle (Onion Chase)** → Gammon vs Annaliese public scuffle; PCs can intervene.
-3. **Family Feud (Hiring Pitch)** → Kusa + Annaliese try to hire PCs to "prove" rival sabotage.
-4. **Around the Market (Kasem approaches)** - offers tour; tries to steer PCs away from politics/games.
-5. **Market Investigations** - check Kaputt mit Noodles/Xungoon stalls; find persimmon peels; vendors clam up.
-6. **Learning More** - Market Games -> renown -> vendors share gossip.
-7. **Revealing the Plot** - suspect Kasem -> investigate his tent / reveal wynlings.
-8. **Conclusion** → Kasem confession → market guards → reconcile Kusa/Annaliese → reward.
+* The class arrived at the Dyn Singh Night Market and got the first pass at the vibe, stalls, and event grounds.
+  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
+* The party got pulled into the Xungoon vs Kaputt mit Noodles conflict (Gammon, Kusa, and Annaliese blaming each other for sabotage).
+  * [Stolen Onions](^class_1a/salted_legacy/stolen_onions.png), [Kusa Xungoon](^class_1a/salted_legacy/kusa_xungoon.png), [Annaliese Nudelverkaeufer](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png)
+* PCs investigated early sabotage signs: torn-up food, persimmon traces at multiple stalls, and suspicious planted evidence (the wok at Xungoon).
+  * [Persimmon peels clue close-up](^class_1a/salted_legacy/persimmon_peels_clue.png), [Xungoon Family Seafood](^class_1a/salted_legacy/xungoon_family_seafood.png)
+* They scoped the event tents while setup was still in progress (Greet the Heat, Battle Prawn, and the creepy rocking-chair hide-and-seek setup).
+  * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_setup.png), [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_setup.png), [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_setup.png)
+* They met Madam Kulp and ended the session right before she offers the hide-and-seek challenge.
+  * [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png), [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png)
+* Field-trip flavor beats already established: Timtom used the rocking chair, and the tut-krogh caterpillars (Brunhilde, Wilhelm, etc.) were a hit.
+  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png), [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
+
+### Current situation
+
+* The mystery is active: someone is staging sabotage to deepen the family feud and damage reputations.
+  * [Kaputt mit Noodles vs Xungoon stall contrast shot](^class_1a/salted_legacy/stall_contrast.png)
+* The players' current theory is strong: evidence looks planted, and the rival families may be getting framed.
+  * [Powdered sugar trail clue](^class_1a/salted_legacy/powdered_sugar_trail.png), [Crooked burned stall leg](^class_1a/salted_legacy/crooked_stall_leg.png)
+* Persimmon clues should stay **suggestive** for now (including the boxes behind Spicy Brothers and one brother acting shady) until stronger proof appears.
+  * [Spicy Brothers](^class_1a/salted_legacy/spice_brothers.png), [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png)
+* Vendors are still guarded with outsiders; trust-building through games and helpful interactions is the clearest way forward.
+  * [Crowded market wide shot](^class_1a/salted_legacy/arrival_wide_shot.png)
+* Keep tone age-appropriate for grade schoolers: social stakes, festival pressure, and mystery tension over violence.
+  * [Central event tents close-up](^class_1a/salted_legacy/event_tents_closeup.png)
+
+### Roadmap to finish the adventure
+
+1. **Resume at Madam Kulp** with Hide-and-Seek now ready to run.
+   * [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png), [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png)
+2. **Open the event loop**: all three games are active now; intersperse games with short merchant interactions and clue checks.
+   * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_start.png), [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_start.png), [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png)
+3. **Build trust and renown** so vendors stop stonewalling and gossip starts pointing at Kasem's motive/behavior.
+   * [Trusty Leek](^class_1a/salted_legacy/trusty_leek.png), [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png)
+4. **Escalate gently if needed** with fresh wynling mischief incidents while keeping casualties and tone school-safe.
+   * [Wynling](^class_1a/salted_legacy/wynling_3.png), [Persimmon peels clue close-up](^class_1a/salted_legacy/persimmon_peels_clue.png)
+5. **Land hard evidence** (tent search, wynling reveal via persimmons, or witness gossip chain) before direct confrontation.
+   * [Kasem supply tent interior (cages + persimmons)](^class_1a/salted_legacy/kasem_tent_interior.png), [Wynling reveal on stall roof](^class_1a/salted_legacy/wynling_roof_reveal.png)
+6. **Resolve publicly**: confession, guards, reconciliation between Kusa/Annaliese, and a celebratory reward beat.
+   * [Public confession scene](^class_1a/salted_legacy/public_confession_scene.png), [Market guards escorting Kasem](^class_1a/salted_legacy/market_guards_escort.png), [Kusa and Annaliese reconciliation](^class_1a/salted_legacy/reconciliation_scene.png)
 
 ### Session reminders (track this)
 
 * **Each PC renown** starts at **0** (track separately).
 * PCs level up after the group **participates in all three games**.
 * If they skip games, level up when they **reveal Kasem**.
-* If the party stalls out: use **Rivals Explode** (public Kusa/Annaliese scrap → spot Kasem with persimmon).
+* If the party stalls out: use **Rivals Explode** (public Kusa/Annaliese scrap -> spot Kasem with persimmon).
 
 ### Key checks and DCs (one-glance)
 
 * **Break up Gammon vs Annaliese**: DC 12 Athletics *or* DC 12 Persuasion
 * **Kasem's Tour (he's deflecting you)**: DC 14 Insight
-* **Inspect Kaputt mit Noodles/Xungoon stall (5+ min)**: DC 14 Investigation -> persimmon peels; follow-up: "no one sells persimmons in the market"
+* **Inspect Kaputt mit Noodles/Xungoon stall (5+ min)**: DC 14 Investigation -> persimmon peels; follow-up: "no persimmons sold in the market"
 * **Get a vendor to say anything early**: DC 10 Persuasion -> "Market business isn't for outsiders..."
 * **Slip into Spicy Brothers private tent**: DC 12 Stealth
 * **Kasem is hiding something**: DC 10 Insight
@@ -40,87 +72,57 @@
   * DC 12 Insight to notice Kasem watching + persimmon vanishing
   * DC 14 Intimidation to make him confess
 
-## Scene cue sheet (run in order)
+## Scene cue sheet (consolidated)
 
-### 1) Arrival at the night market
+### 1) Arrival and inciting conflict
 
+* Start with market wonder, then pivot to the feud and immediate social tension.
 * Show now:
   * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
   * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_2.png)
   * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_3.png)
-* Optional extra placeholder(s):
-  * [TODO - Crowded market wide shot](^class_1a/salted_legacy/TODO_arrival_wide_shot.png)
-  * [TODO - Central event tents close-up](^class_1a/salted_legacy/TODO_event_tents_closeup.png)
-* Music: Night Market
-
-### 2) Onion chase and public argument
-
-* Show now:
   * [Stolen Onions](^class_1a/salted_legacy/stolen_onions.png)
   * [Kusa Xungoon](^class_1a/salted_legacy/kusa_xungoon.png)
   * [Annaliese Nudelverkaeufer](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png)
-* Optional extra placeholder(s):
-  * [TODO - Crowd gathering around fight](^class_1a/salted_legacy/TODO_crowd_argument_scene.png)
-* Music: Tense Vibes
+* Optional extra visuals:
+  * [Crowded market wide shot](^class_1a/salted_legacy/arrival_wide_shot.png)
+  * [Central event tents close-up](^class_1a/salted_legacy/event_tents_closeup.png)
+  * [Crowd gathering around fight](^class_1a/salted_legacy/crowd_argument_scene.png)
+* Music: [Night Market (Day)]($load|music|arr/BGM_EX4_Town_R_Day.mp3) or [Night Market (Night)]($load|music|arr/BGM_EX4_Town_R_Night.mp3), then [Tense Vibes 1]($load|music|arr/BGM_Dungeon_Uru_03.mp3) for the scuffle beat.
 
-### 3) Hiring pitch and rivalry setup
+### 2) Investigation and trust-building loop
 
+* Core loop: investigate sabotage -> get stonewalled -> join games -> gain renown -> unlock better clues.
 * Show now:
   * [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png)
-* Optional extra placeholder(s):
-  * [TODO - Kaputt mit Noodles vs Xungoon stall contrast shot](^class_1a/salted_legacy/TODO_stall_contrast.png)
-* Note: if players refuse hooks, one vendor re-approaches later under calmer conditions.
-
-### 4) Investigations and clue loop
-
-* Show now:
-  * [Kaputt mit Noodles](^class_1a/salted_legacy/annaliese_nudelverkaufer_4.png)
+  * [Kaputt mit Noodles](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png)
   * [Spicy Brothers](^class_1a/salted_legacy/spice_brothers.png)
   * [Xungoon Family Seafood](^class_1a/salted_legacy/xungoon_family_seafood.png)
-* Optional extra placeholder(s):
-  * [TODO - Persimmon peels clue close-up](^class_1a/salted_legacy/TODO_persimmon_peels_clue.png)
-  * [TODO - Powdered sugar trail clue](^class_1a/salted_legacy/TODO_powdered_sugar_trail.png)
-  * [TODO - Crooked burned stall leg](^class_1a/salted_legacy/TODO_crooked_stall_leg.png)
-* Music: Chill Vibes (investigation baseline)
+* Clue visuals:
+  * [Persimmon peels clue close-up](^class_1a/salted_legacy/persimmon_peels_clue.png)
+  * [Powdered sugar trail clue](^class_1a/salted_legacy/powdered_sugar_trail.png)
+  * [Crooked burned stall leg](^class_1a/salted_legacy/crooked_stall_leg.png)
+* Games (run in any order):
+  * **Greet the Heat**: [setup](^class_1a/salted_legacy/greet_the_heat_setup.png), [start](^class_1a/salted_legacy/greet_the_heat_start.png)
+  * **Battle Prawn Challenge**: [setup](^class_1a/salted_legacy/battle_prawn_challenge_setup.png), [start](^class_1a/salted_legacy/battle_prawn_challenge_start.png), [arena](^class_1a/salted_legacy/battle_prawn_challenge.png), [Jagged Koi Prawn](^class_1a/salted_legacy/jagged_koi_prawn.png)
+  * **Hide and Seek**: [setup](^class_1a/salted_legacy/hide_and_seek_setup.png), [start](^class_1a/salted_legacy/hide_and_seek_start_2.png), [room](^class_1a/salted_legacy/hide_and_seek_room.png), [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
+* Music: [Chill Vibes]($load|music|arr/BGM_EX4_Event_05.mp3) for investigation; [Cool Vibes]($load|music|arr/BGM_EX4_Event_19.mp3) for games; [Battle 1]($load|music|arr/BGM_Battle_Uru_01.mp3) for initiative scenes.
 
-### 5) Market games loop
+### 3) Reveal, confrontation, and resolution
 
-* Greet the Heat
-  * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_setup.png) (setup)
-  * [Greet the Heat](^class_1a/salted_legacy/greet_the_heat_start.png) (start)
-* Battle Prawn Challenge
-  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_setup.png) (setup)
-  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge_start.png) (start)
-  * [Battle Prawn Challenge](^class_1a/salted_legacy/battle_prawn_challenge.png)
-  * [Jagged Koi Prawn](^class_1a/salted_legacy/jagged_koi_prawn.png)
-* Hide and Seek
-  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_setup.png) (setup)
-  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png) (start)
-  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png) (room)
-  * [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
-* Optional extra placeholder(s):
-  * [TODO - Audience reaction shot for game wins](^class_1a/salted_legacy/TODO_games_audience_reaction.png)
-* Music: Cool Vibes for games; Battle for initiative scenes; Fanfare for wins
-
-### 6) Reveal and confrontation
-
+* Once the party has enough rumor hits or hard evidence, move directly to Kasem pressure and reveal.
 * Show now:
-  * [Wynling](^class_1a/salted_legacy/wynling.png) (cute)
-  * [Wynling](^class_1a/salted_legacy/wynling_2.png) (creepy)
+  * [Wynling](^class_1a/salted_legacy/wynling_3.png)
   * [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png)
-* Optional extra placeholder(s):
-  * [TODO - Kasem supply tent interior (cages + persimmons)](^class_1a/salted_legacy/TODO_kasem_tent_interior.png)
-  * [TODO - Wynling reveal on stall roof](^class_1a/salted_legacy/TODO_wynling_roof_reveal.png)
-  * [TODO - Public confession scene](^class_1a/salted_legacy/TODO_public_confession_scene.png)
-* Music: Tense Vibes -> Battle (if hostile) -> Chill Vibes when de-escalating
-
-### 7) Resolution and reward
-
-* Optional extra placeholder(s):
-  * [TODO - Kusa and Annaliese reconciliation](^class_1a/salted_legacy/TODO_reconciliation_scene.png)
-  * [TODO - Market guards escorting Kasem](^class_1a/salted_legacy/TODO_market_guards_escort.png)
-  * [TODO - Reward moment / shared meal](^class_1a/salted_legacy/TODO_reward_shared_meal.png)
-* Music: Fanfare, then Night Market
+* Evidence/reveal visuals:
+  * [Kasem supply tent interior (cages + persimmons)](^class_1a/salted_legacy/kasem_tent_interior.png)
+  * [Wynling reveal on stall roof](^class_1a/salted_legacy/wynling_roof_reveal.png)
+  * [Public confession scene](^class_1a/salted_legacy/public_confession_scene.png)
+* Closeout visuals:
+  * [Kusa and Annaliese reconciliation](^class_1a/salted_legacy/reconciliation_scene.png)
+  * [Market guards escorting Kasem](^class_1a/salted_legacy/market_guards_escort.png)
+  * [Reward moment / shared meal](^class_1a/salted_legacy/reward_shared_meal.png)
+* Music: [Tense Vibes]($load|music|arr/BGM_Dungeon_Uru_03.mp3) -> [Battle]($load|music|arr/BGM_Battle_Uru_01.mp3) if hostile -> [Fanfare]($load|music|arr/BGM_ChocoboRace_Fanfare.mp3) -> [Night Market]($load|music|arr/BGM_EX4_Town_R_Night.mp3).
 
 ## Encounters (initiative reminders)
 
@@ -157,35 +159,35 @@
 
 ## Investigation spine (what solves the mystery)
 
-### What you can find early
+### Step 1: Establish contradictions
 
-* **Persimmon peels** at either stall (DC 14 Investigation; 5 minutes)
-  * Follow-up: **no persimmons sold in the market** (key contradiction)
-* Early vendors won't talk (DC 10 Persuasion just gets "outsiders" fence)
+* **Persimmon peels** at either stall (DC 14 Investigation; 5 minutes).
+* Follow-up contradiction: **no persimmons sold in the market**.
+* Early vendors still fence outsiders (DC 10 Persuasion gets limited info only).
 
-### How to point at Kasem
+### Step 2: Build suspicion through social play
 
-* He tries to **steer PCs away** from politics/games (DC 14 Insight on tour).
-* Renown gossip points to:
+* Kasem tries to **steer PCs away** from politics/games (DC 14 Insight on tour).
+* Renown gossip should gradually point to motive and means:
   * Vi leaving -> Kasem desperate
   * buying a business -> motive
   * orange/persimmon stashing + "blue monkey" -> wynlings
 
-### Hard evidence options
+### Step 3: Secure hard proof
 
 1. **Sneak into Spicy Brothers supply tent** (DC 12 Stealth)
-   * Find: business records; cots; crate marked "peppers" with **3 small straw-lined cages**; **box of persimmons**.
+   * Find: business records, cots, crate marked "peppers" with **3 small straw-lined cages**, and a **box of persimmons**.
 2. **Reveal a wynling**
-   * Detect Evil and Good can ping fey near sabotaged stall
-   * Hold out a **persimmon** at Kaputt mit Noodles/Xungoon -> wynling shows to grab it
-   * Befriend: DC 10 Persuasion
-   * Wynling tells (Sylvan): Kasem brought them, they live in the Spicy Brothers tent, persimmon-paid errands, not malicious.
+   * Detect Evil and Good can ping fey near sabotaged stalls.
+   * Hold out a **persimmon** at Kaputt mit Noodles/Xungoon -> wynling appears to grab it.
+   * Befriend: DC 10 Persuasion.
+   * Wynling says (Sylvan): Kasem brought them, they stay in the Spicy Brothers tent, and they run persimmon-paid errands.
 
-### Confrontation options
+### Step 4: End the case
 
-* If you have **all three rumor hits**, Kasem confesses.
-* If you have **two rumor hits**: DC 12 Intimidation/Persuasion -> confession.
-* If PCs go violent: Kasem uses **Noble** stats + calls **3 wynlings** to assist.
+* **3 rumor hits** -> Kasem confesses.
+* **2 rumor hits** -> DC 12 Intimidation/Persuasion to force confession.
+* If PCs go violent: Kasem uses **Noble** stats and calls **3 wynlings**.
 
 ## Renown and gossip ladder
 
@@ -239,59 +241,39 @@ Use these as:
 * **time pressure** (things worsen if PCs delay)
 * **clue drops** (persimmon = fey bait + Kasem connection)
 
-## NPCs
+## Quick reference (live DM)
 
-* [Kusa Xungoon](^class_1a/salted_legacy/kusa_xungoon.png), female kobold, runs Xungoon Family Seafood
-  * Wants: protect family legacy + Gammon; prove Annaliese “did it”
-  * Stats: **Noble** (module)
-  * [Gammon Xungoon](^class_1a/salted_legacy/gammon_xungoon.png) (son)
-* [Annaliese Nudelverkaeufer](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png), female gnome, owner of _Kaputt mit Noodles_
-  * **Your name for:** Lamai Tyenmo / Tyenmo Noodles (module)
-  * Wants: clear her name; protect her family; does not want feud like the parents had
-  * Stats: **Commoner** (module)
-* [Kasem & Vi Aroon](^class_1a/salted_legacy/kasem_vi_aroon.png), male humans, the Spicy Brothers
-  * Vi: bombastic host; does not know the plan
-  * Kasem: reserved/calculating; **culprit** (wynlings + persimmon bribes)
-  * Stats: **Noble** (Kasem + Vi in module)
-* [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png), female gnome, runs Madam Kulp's Silk
-  * Wants: tut-krogh safe; blunt but fair; good odd-hint source
-  * Stats: **Noble** (module)
-* Sid Squid (Trusty Leek)
-  * Wants: good show + good food; gossipy; best "Kasem wants to buy a business" lead
-  * Stats: **Noble** (module)
-* Wynling
-  * [Wynling](^class_1a/salted_legacy/wynling.png) (cute)
-  * [Wynling](^class_1a/salted_legacy/wynling_2.png) (creepy)
-  * Notes: fey pranksters; invisible when spooked; **persimmons** make them reveal themselves
+### NPCs at a glance
 
-## Locations and stall visuals
+| Role            | Name                                                                                | Type                | Notes                                                                 |
+|-----------------|-------------------------------------------------------------------------------------|---------------------|-----------------------------------------------------------------------|
+| **Rival 1**     | [Kusa Xungoon](^class_1a/salted_legacy/kusa_xungoon.png)                            | Kobold (Noble)      | Seafood vendor; protective; wants proof of sabotage                   |
+| **Rival 2**     | [Annaliese Nudelverkaeufer](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png) | Gnome (Commoner)    | Noodle vendor (Tyenmo); wants to clear name; avoids parent-style feud |
+| **Culprit**     | [Kasem](^class_1a/salted_legacy/kasem_vi_aroon.png)                                 | Human (Noble)       | Spicy Brother; cold/calculating; hired wynlings with persimmons       |
+| **Dupe**        | Vi Aroon                                                                            | Human (Noble)       | Bombastic host; doesn't know Kasem's plan                             |
+| **Quest-giver** | [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png)                                | Gnome (Noble)       | Silk vendor; runs hide-and-seek; blunt hint source                    |
+| **Gossip**      | Sid Squid                                                                           | Unspecified (Noble) | Trusty Leek vendor; best source on "buying business" angle            |
+| **Pawns**       | [Wynling](^class_1a/salted_legacy/wynling_3.png)                                    | Fey (3x)            | Invisible mischief-makers; love persimmons; not malicious             |
 
-* Dyn Singh Night Market, in the Siabsungkoh Valley
-  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_1.png)
-  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_2.png)
-  * [Dyn Singh Night Market](^class_1a/salted_legacy/night_market_3.png)
-* [Stolen Onions](^class_1a/salted_legacy/stolen_onions.png)
+### Stall quick-map
 
-### Stalls
+* **Kaputt mit Noodles**: [Annaliese](^class_1a/salted_legacy/annaliese_nudelverkaufer_3.png) | Rival target
+* **Xungoon Family Seafood**: [Kusa](^class_1a/salted_legacy/kusa_xungoon.png) | Rival target
+* **Spicy Brothers**: [Kasem & Vi](^class_1a/salted_legacy/kasem_vi_aroon.png) | Culprit's base (supply tent has cages + persimmons)
+* **Madam Kulp's Silk**: [Kulp](^class_1a/salted_legacy/madam_kulp.png) + [caterpillars](^class_1a/salted_legacy/tut_krogh_caterpillar.png) | Hide-and-seek organizer
+* **Trusty Leek**: [Sid Squid](^class_1a/salted_legacy/trusty_leek.png) | Gossip source
+* **Others**: [Vada's](^class_1a/salted_legacy/vadas_otherworldly_goods.png), [Va's Amulets](^class_1a/salted_legacy/vas_lucky_amulets_3.png) | Neutral vendors
 
-* [Kaputt mit Noodles](^class_1a/salted_legacy/annaliese_nudelverkaufer_4.png)
-* [Madam Kulp's Silk](^class_1a/salted_legacy/madam_kulps_silk.png)
-  * [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
-* [Spicy Brothers](^class_1a/salted_legacy/spice_brothers.png)
-* [Trusty Leek](^class_1a/salted_legacy/trusty_leek.png)
-* [Vada's Otherworldly Goods](^class_1a/salted_legacy/vadas_otherworldly_goods.png)
-* [Va's Lucky Amulets](^class_1a/salted_legacy/vas_lucky_amulets_3.png)
-* [Xungoon Family Seafood](^class_1a/salted_legacy/xungoon_family_seafood.png)
+### Music triggers
 
+| Scene                | Track                                                      |
+|----------------------|------------------------------------------------------------|
+| Market baseline      | [Night Market]($load\|music\|arr/BGM_EX4_Town_R_Day.mp3)   |
+| Tension / conflict   | [Tense Vibes]($load\|music\|arr/BGM_Dungeon_Uru_03.mp3)    |
+| Investigation / calm | [Chill Vibes]($load\|music\|arr/BGM_EX4_Event_05.mp3)      |
+| Games / fun          | [Cool Vibes]($load\|music\|arr/BGM_EX4_Event_19.mp3)       |
+| Combat / rush        | [Battle]($load\|music\|arr/BGM_Battle_Uru_01.mp3)          |
+| Win / fanfare        | [Fanfare]($load\|music\|arr/BGM_ChocoboRace_Fanfare.mp3)   |
+| End state            | [Night Market]($load\|music\|arr/BGM_EX4_Town_R_Night.mp3) |
 
-## Music
-
-[Stop all sounds]($stop|all|none)
-
-* Night Market [1]($load|music|arr/BGM_EX4_Town_R_Day.mp3), [2]($load|music|arr/BGM_EX4_Town_R_Day2.mp3), [3]($load|music|arr/BGM_EX4_Town_R_Night.mp3)
-* Tense Vibes [1]($load|music|arr/BGM_Dungeon_Uru_03.mp3), [2]($load|music|arr/BGM_Dungeon_Uru_05.mp3)
-* [Chill Vibes]($load|music|arr/BGM_EX4_Event_05.mp3)
-* [Cool Vibes]($load|music|arr/BGM_EX4_Event_19.mp3)
-* Battle [1]($load|music|arr/BGM_Battle_Uru_01.mp3), [2]($load|music|arr/BGM_EX4_Event_06.mp3), [3]($load|music|arr/BGM_EX4_Event_17.mp3), [4]($load|music|arr/BGM_Dungeon_Uru_06.mp3)
-* [Fanfare]($load|music|arr/BGM_ChocoboRace_Fanfare.mp3), [Win 1st]($load|music|arr/BGM_ChocoboRace_Win1st.mp3), [Win 2nd]($load|music|arr/BGM_ChocoboRace_Win2nd.mp3), [Lose]($load|music|arr/BGM_ChocoboRace_Lose.mp3)
-* [Badass Theme]($load|music|arr/BGM_Con_Neal.mp3)
+**Stop all**: [$stop\|all\|none]($stop\|all\|none)
