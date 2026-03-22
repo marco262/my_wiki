@@ -147,6 +147,13 @@
 * Beans: object AC 10; hp 15; immune cold/poison/psychic; avoid acid/fire/lightning/necrotic/radiant (ruins)
 * Prawns: use **Giant Sea Horse** stat block; half cover vs attacks from outside tank; stop if someone drops to 0
 * Renown: +1 if success in <=6 rounds; otherwise 0
+* Opposing Team (Jagged Koi Prawns): Four 8-foot-long armored crustaceans with spiny shells, snapping claws, and thrashing tails. They look like giant, aggressive koi fish crossed with lobsters, darting through the water with surprising speed. Non-hostile at first but defend fiercely if attacked.
+* Other Cooking Team (NPC Participants): If fewer than 4 players join, Sid's assistants (use Commoner stat block) fill the team. These are 5 eager human chefs in yellow nautical outfits, with rope decor and brass accents. They're chaotic good, helpful, and shout encouragements like "Chop faster, matey!" or "Watch the claws!" They don't help with tasks unless specified, but add flavor to the event.
+* Opposing Cooking Team (Invented Rivals): To add competition, create a rival team of locals: 4 boisterous market regulars who join as opponents if multiple teams are allowed. Use Commoner stats. Descriptions:
+  - **Captain Krab**: A burly half-orc with a peg leg and eyepatch, wearing a tricorn hat. Loud and competitive, shouts "Arrr, ye landlubbers! I'll outcook ye all!" (Chaotic neutral, focuses on slaying prawns aggressively).
+  - **Sizzle Spice**: A flamboyant tiefling with fiery red hair and horns, dressed in colorful silks. Energetic and boastful, says "My spices will burn brighter than any flame!" (Neutral good, excels at chopping beans with flair).
+  - **Finny Finn**: A nimble halfling with fish-scale tattoos, in a wet suit-like apron. Quick-witted and sneaky, quips "I'll slip past those claws like a minnow!" (Chaotic good, dodges attacks cleverly).
+  - **Grillmaster Grok**: A stoic dwarf with a braided beard, in heavy leather gloves. Serious and methodical, grunts "Precision over speed, every time." (Lawful neutral, focuses on careful preparation).
 
 **Hide-and-Seek Challenge (Tut-krogh)**
 
