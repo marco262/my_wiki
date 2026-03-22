@@ -241,6 +241,23 @@ Use these as:
 * **time pressure** (things worsen if PCs delay)
 * **clue drops** (persimmon = fey bait + Kasem connection)
 
+### Recap Ideas for Stall Incidents
+Use these to refresh players on past events, tying to visuals for immersion.
+
+- **Onion Theft**: Gammon swipes onions from Annaliese, sparking the feud. Players intervened.
+- **Early Sabotage**: Torn food, persimmon peels, planted wok. Contradiction: no persimmons sold in market.
+- **Stall Damage**: Fire at Xungoon (crooked leg), stolen buns with sugar trail to Kaputt mit Noodles.
+- **Fruit Barrage**: Persimmons pelt a stall, leaving juice but no harm.
+
+### Small Update Ideas for Stall Incidents
+Sprinkle in gradually for tension and clues. Adapt to pacing.
+
+- **Stall Fire**: Small fire collapses Xungoon leg; persimmon peels nearby (DC 14 Investigation).
+- **Stolen Goods**: Buns missing from Vada's, trail to Kaputt mit Noodles; tiny footprints hint at creatures.
+- **Persimmon Rain**: Pelts a stall; detect fey or lure wynling with fruit.
+- **Planted Evidence**: Wok at Xungoon with gnawed handle (child-sized teeth).
+- **Customs**: Noisy disturbances, food contamination, vendor whispers about "blue monkeys."
+
 ## Quick reference (live DM)
 
 ### NPCs at a glance
