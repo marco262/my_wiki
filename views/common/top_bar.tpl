@@ -86,8 +86,8 @@
     <div class="dropdown">
         <p>Campaigns</p>
         <div class="dropdown-content" style="width: 13em;">
+            <a href="/class_1a/">Class 1-A</a>
             <a href="/arr/">A Realm Reborn</a>
-            <a href="/sandpoint/">The Heroes of Sandpoint</a>
         </div>
     </div>
 </div>

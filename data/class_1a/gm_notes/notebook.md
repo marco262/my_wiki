@@ -1,12 +1,5 @@
 [[breadcrumb /sandpoint/gm_notes/GM Notes|GM Notes]]
 
-### Last Session
-
-* Battle Prawn Challenge: 1st place!!
-* Persimmon blast on Kaputt mit Noodles
-* Spotted an invisible creature for a brief moment on the roof
-* Given lead to Madame Kulp to ask about magical animals
-
 ### Next Session
 
 * How are they treated by each other and the older students?

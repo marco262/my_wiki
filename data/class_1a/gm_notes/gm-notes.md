@@ -7,6 +7,7 @@
 </script>
 
 * [Notebook]()
+* [Last Session]()
 * [Soundboard]()
 * [Visual aid](/visual_aid)
 * [Timeline]()
@@ -34,7 +35,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Introduction]()
     * [Scavenger Hunt]()
-* [Salted Legacy]()
+* [Salted Legacy](salted-legacy/Salted Legacy)
 
 ## Places
 
