@@ -127,6 +127,13 @@ class MarkdownParser:
 
     @staticmethod
     def convert_popup_links(text):
+        def build_hover_panel(url):
+            return (
+                '<span class="visual-aid-hover">'
+                f'<img class="visual-aid-hover-img" data-src="{url}" alt="" loading="lazy">'
+                '</span>'
+            )
+
         # Convert visual aid links
         pattern = r"\[([^]]+?)]\(([\^\$])(.*?)\)"
         for m in re.finditer(pattern, text):
@@ -134,7 +141,7 @@ class MarkdownParser:
                 url = m.group(3)
                 if not url.startswith("http"):
                     url = "/media/img/visual_aids/" + url
-                hover_panel = f'<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="{url}"></span>'
+                hover_panel = build_hover_panel(url)
                 escaped_name = m.group(1).replace('"', "%22")
                 replace = f'<span class="visual-aid-link" title="visual_aid|{m.group(3)}|{escaped_name}">{m.group(1)}{hover_panel}</span>'
             elif m.group(2) == "$":
@@ -148,7 +155,7 @@ class MarkdownParser:
             url = m.group(3)
             if not url.startswith("http"):
                 url = "/media/img/visual_aids/" + url
-            hover_panel = f'<span class="visual-aid-hover"><img class="visual-aid-hover-img" src="{url}"></span>'
+            hover_panel = build_hover_panel(url)
             replace = f'<a href="{url}" class="popup-link" target="_blank">{m.group(1)}{hover_panel}</a>'
             text = text.replace(m.group(0), replace)
         return text

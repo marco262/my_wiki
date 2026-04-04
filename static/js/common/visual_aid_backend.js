@@ -9,12 +9,63 @@ export function set_player_soundboard() {
 }
 
 export function init_links() {
+    init_hover_previews();
     let visual_aid_buttons = document.getElementsByClassName("visual-aid-link");
     Array.prototype.forEach.call(visual_aid_buttons, function (link) {
         link.onclick = function (event) {
             set_visual_aid(event, link.title);
         };
     })
+}
+
+function init_hover_previews() {
+    const previewLinks = document.querySelectorAll(".visual-aid-link, .popup-link");
+    const loadPreview = (link) => {
+        const image = link.querySelector(".visual-aid-hover-img[data-src]");
+        if (!image) {
+            return;
+        }
+        image.src = image.dataset.src;
+        image.removeAttribute("data-src");
+    };
+
+    Array.prototype.forEach.call(previewLinks, function (link) {
+        if (link.dataset.hoverPreviewInitialized === "true") {
+            return;
+        }
+        link.dataset.hoverPreviewInitialized = "true";
+        link.addEventListener("mouseenter", function () {
+            loadPreview(link);
+        }, { once: true });
+        link.addEventListener("focus", function () {
+            loadPreview(link);
+        }, { once: true });
+    });
+
+    if (!("IntersectionObserver" in window)) {
+        Array.prototype.forEach.call(previewLinks, function (link) {
+            loadPreview(link);
+        });
+        return;
+    }
+
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (!entry.isIntersecting) {
+                return;
+            }
+            loadPreview(entry.target);
+            observer.unobserve(entry.target);
+        });
+    }, {
+        rootMargin: "200px 0px"
+    });
+
+    Array.prototype.forEach.call(previewLinks, function (link) {
+        if (link.querySelector(".visual-aid-hover-img[data-src]")) {
+            observer.observe(link);
+        }
+    });
 }
 
 export function init_visual_aid() {
