@@ -8,6 +8,8 @@
 * Get bigger map on Owlbear (smaller than 25 MB)
 * Make visual aids for
   * Music for the Battle Prawns
+* Make picture and item card of the bubble necklace
+* Make picture of Blorbo the octopus in a water hamster ball
 
 ### Player Plans
 
@@ -18,7 +20,7 @@
     * Potion of Healing rules
     * Spell changing on long rests
 * Have everyone go over their abilities!
-* Ask for party leader!
+* Ask for party leader
 * Recap
 
 ### Todo
@@ -44,12 +46,12 @@
 
 | Name      | Per | Ins |  # | HP |
 |-----------|----:|----:|---:|----|
-| Timtom    |  13 |  15 | 18 |    |
-| Elleewick |  12 |  14 | 13 |    |
-| Alyse     |  14 |  11 |  9 |    |
-| Mimic     |  12 |  14 |  8 | 82 |
-| Meli      |  11 |  11 |  4 |    |
-| Gren      |  15 |  13 |  3 |    |
+| Alyse     |  14 |  11 | 19 |    |
+| Elleewick |  12 |  14 | 18 |    |
+| Gren      |  15 |  13 | 17 |    |
+| Meli      |  11 |  11 |  2 |    |
+| Mimic     |  12 |  14 |    |    |
+| Timtom    |  13 |  15 |    |    |
 
 
 3 damage to student
