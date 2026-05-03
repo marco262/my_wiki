@@ -21,7 +21,7 @@
 * They met Madam Kulp and ended the session right before she offers the hide-and-seek challenge.
   * [Madam Kulp](^class_1a/salted_legacy/madam_kulp.png), [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_start_2.png)
 * Field-trip flavor beats already established: Timtom used the rocking chair, and the tut-krogh caterpillars (Brunhilde, Wilhelm, etc.) were a hit.
-  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png), [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png)
+  * [Hide and Seek](^class_1a/salted_legacy/hide_and_seek_room.png), [Tut-Krogh Caterpillar](^class_1a/salted_legacy/tut_krogh_caterpillar.png), [Croqueted Caterpillar](^class_1a/salted_legacy/croqueted_caterpillar.png)
 
 ### Current situation
 
