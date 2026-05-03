@@ -43,3 +43,7 @@ Rowdy Tavern.mp3
 
 ## Video
 *.mp4
+
+# Local-only visual aids (kept on disk, intentionally not tracked)
+/media/img/visual_aids/arr/Image - Alwonne Draholair.bmp
+/media/img/visual_aids/arr/Image - W'yex Tia.bmp
