@@ -97,10 +97,12 @@ def load_wsgi_endpoints(app: Bottle):
 
     @app.get("/media/<path:path>", name="media")
     def media(path):
+        local_media_path = os.path.join("media", path)
+        if os.path.isfile(local_media_path):
+            return static_file(path, root="media")
         if utils.MEDIA_BUCKET:
             redirect(urljoin(f"https://storage.googleapis.com/{utils.MEDIA_BUCKET}/media/", path))
-        else:
-            return static_file(path, root="media")
+        return static_file(path, root="media")
 
     @app.get("/favicon.ico", name="favicon")
     def favicon():
