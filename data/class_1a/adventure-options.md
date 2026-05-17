@@ -2,8 +2,6 @@
 toc: false
 ---
 
-# Next Adventure Options
-
 - **The Murkmire Malevolence**  
   Your class attends a special exhibition at a museum of natural history, where a strange archaeological discovery is about to be unveiled. But one disgraced academic believes the prized "stone" is something far more dangerous, and if she is right, the class may need to pull off an urgent after-hours recovery before the museum's newest attraction becomes a disaster.  
   **Tags:** Short (1 level), museum heist, eldritch threat, academic mystery, ticking clock
