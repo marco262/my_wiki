@@ -1,3 +1,7 @@
+---
+toc: false
+---
+
 # Next Adventure Options
 
 - **The Murkmire Malevolence**  
