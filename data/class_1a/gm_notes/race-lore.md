@@ -9,6 +9,8 @@
     * Historically stone
     * The most important religious doctrine is engraved in gold
 * Dwarves very commonly stay in the "family business"
+* Dwarves never do anything for free. They never do any favors, they never volunteer, they don't do charity.
+    * Every good or service provided always comes with payment. Their version of social net support is to always be providing options for other dwarves who are down on their luck, so they're able to do menial tasks in return for payment. So if even if someone can't hold down a steady job, they will still have things that they can do to earn money.
 
 ## Hill Dwarves
 
