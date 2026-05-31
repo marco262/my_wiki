@@ -36,10 +36,16 @@ Enter another URL to set as Visual Aid here:
 * [Introduction]()
     * [Scavenger Hunt]()
 * [Salted Legacy](salted-legacy/Salted Legacy)
+* [The Murkmire Malevolence](murkmire-malevolence/The Murkmire Malevolence)
 
 ## Places
 
 * [Professor David's School for Precocious Heroes]()
+
+## General Notes
+
+* [Setting Notes]()
+* [Race Lore]()
 
 [[magic-item-tracker]]
 ## Starting Magic Items

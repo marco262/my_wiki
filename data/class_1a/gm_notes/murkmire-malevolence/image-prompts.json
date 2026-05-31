@@ -1,0 +1,192 @@
+[
+  {
+    "id": "museum-exterior",
+    "filename": "museum-exterior.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/museum-exterior.png",
+    "scene": "Arrival in Varkenbluff",
+    "purpose": "Establish the museum as prestigious, public, and safe-looking before the danger appears.",
+    "aspect_ratio": "16:9",
+    "prompt": "Wide establishing shot of a grand fantasy natural history museum in a cosmopolitan high-magic city, marble columns, broad steps, banners advertising a special Murkmire Stone exhibition, elegant visitors arriving in early evening light, a school field trip gathering near the entrance, bright adventurous tone with subtle mystery, painterly fantasy realism, no text or logos.",
+    "notes": "Use at the start of the field trip."
+  },
+  {
+    "id": "class-field-trip",
+    "filename": "class-field-trip.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/class-field-trip.png",
+    "scene": "Arrival in Varkenbluff",
+    "purpose": "Show the class as visitors, not burglars, before the heist premise starts.",
+    "aspect_ratio": "16:9",
+    "prompt": "A small group of fantasy magical-school students and a gnome teacher entering a natural history museum on a field trip, diverse young adventurers in neat travel clothes with subtle class hints, excited and curious expressions, museum banners, polished stone floors, families and donors in the background, warm optimistic lighting, painterly fantasy realism, no text.",
+    "notes": "Do not try to exactly reproduce PC portraits unless using existing character references."
+  },
+  {
+    "id": "grand-entrance",
+    "filename": "grand-entrance.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/grand-entrance.png",
+    "scene": "Museum Exploration",
+    "purpose": "General museum interior and later after-hours navigation.",
+    "aspect_ratio": "16:9",
+    "prompt": "Grand entrance hall of a fantasy natural history museum, tall marble column, information desk, broad carpeted staircase, two robed stone statues flanking the desk, high ceiling, tiled floor, continual-flame sconces, elegant but slightly imposing, painterly fantasy realism, no text.",
+    "notes": "The statues become animated armor after hours."
+  },
+  {
+    "id": "dr-cassee-dannell",
+    "filename": "dr-cassee-dannell.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/dr-cassee-dannell.png",
+    "scene": "Dannell's Warning",
+    "purpose": "Portrait for the desperate academic quest giver.",
+    "aspect_ratio": "3:4",
+    "prompt": "Portrait of Dr. Cassee Dannell, a brilliant human anthropologist in a purple hooded robe, tired eyes, worried but determined expression, carrying a leather satchel stuffed with occult notes and archaeological sketches, candlelit academic tavern background, fantasy realism, no text.",
+    "notes": "Keep her sympathetic and credible, not wild-eyed."
+  },
+  {
+    "id": "murkmire-stone-closeup",
+    "filename": "murkmire-stone-closeup.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/murkmire-stone-closeup.png",
+    "scene": "Dannell's Warning",
+    "purpose": "Object close-up before the party sees it in the gala.",
+    "aspect_ratio": "1:1",
+    "prompt": "Close-up of an opaque light-green ovoid stone with gemstone sheen and strange abstract furrows, resting on dark velvet, faint unnatural warmth and subtle internal shadow, eldritch but still plausible as a museum artifact, highly detailed fantasy realism, no text.",
+    "notes": "Use as Dannell's sketch or a memory/handout-style image."
+  },
+  {
+    "id": "gemstone-wing-gala",
+    "filename": "gemstone-wing-gala.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/gemstone-wing-gala.png",
+    "scene": "The Gemstone Wing Gala",
+    "purpose": "Main gala scene with social pressure and target visible.",
+    "aspect_ratio": "16:9",
+    "prompt": "Luxurious gemstone wing of a fantasy museum during a private gala, crimson tablecloths, silver and crystal tableware, chandeliers, display cabinets of gems, wealthy donors in formal wear, at the center a marble pedestal holding a peculiar light-green ovoid stone, elegant but tense atmosphere, painterly fantasy realism, no text.",
+    "notes": "Best first visual for the heist target."
+  },
+  {
+    "id": "murkmire-stone-display",
+    "filename": "murkmire-stone-display.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/murkmire-stone-display.png",
+    "scene": "The Stone Swap",
+    "purpose": "Detailed visual for pedestal security and heist planning.",
+    "aspect_ratio": "16:9",
+    "prompt": "A marble museum pedestal in a gemstone gallery, bearing a light-green ovoid artifact with strange furrows, tiny arcane glyphs carved around the pedestal base, glass cabinets and dark polished floor around it, two distant guard silhouettes, tense after-hours lighting, fantasy realism, no text.",
+    "notes": "Use when discussing the rigged pedestal."
+  },
+  {
+    "id": "alda-arkin",
+    "filename": "alda-arkin.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/alda-arkin.png",
+    "scene": "The Gemstone Wing Gala",
+    "purpose": "Portrait for the curator and social antagonist.",
+    "aspect_ratio": "3:4",
+    "prompt": "Portrait of Alda Arkin, an elegant elf museum curator in formal gala attire, polished smile, calculating eyes, one hand holding a fancy clutch behind her back, gemstone gallery background, refined and condescending, fantasy realism, no text.",
+    "notes": "Make her respectable, not openly villainous."
+  },
+  {
+    "id": "maryam-bikram",
+    "filename": "maryam-bikram.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/maryam-bikram.png",
+    "scene": "The Gemstone Wing Gala",
+    "purpose": "Portrait for the security captain.",
+    "aspect_ratio": "3:4",
+    "prompt": "Portrait of Maryam Bikram, human museum security captain and former city watch veteran, formal dark guard uniform, practical short sword at her side, stern professional expression, museum gala doorway in the background, fantasy realism, no text.",
+    "notes": "She should look strict but not cruel."
+  },
+  {
+    "id": "after-hours-hallway",
+    "filename": "after-hours-hallway.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/after-hours-hallway.png",
+    "scene": "After-Hours Heist",
+    "purpose": "General stealth mood once the museum closes.",
+    "aspect_ratio": "16:9",
+    "prompt": "After-hours fantasy museum hallway lit by dim continual-flame sconces, glass cases of ancient artifacts, polished tile floor, long shadows, a distant guard lantern glow around a corner, quiet tense stealth atmosphere, painterly fantasy realism, no text.",
+    "notes": "Use for stealth movement between exhibits."
+  },
+  {
+    "id": "curators-office",
+    "filename": "curators-office.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/curators-office.png",
+    "scene": "Office Wing and Security Intel",
+    "purpose": "V5, where the party can find guard routes and trigger Marigold.",
+    "aspect_ratio": "16:9",
+    "prompt": "Curator's office in a fantasy natural history museum, solid oak desk on a plush carpet, loose papers and guard route maps, dark shelves of artifacts, in the corner a human-sized vintage doll in an elaborate silk dress, unsettling after-hours lighting, no text.",
+    "notes": "This can double as the Marigold setup."
+  },
+  {
+    "id": "security-records",
+    "filename": "security-records.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/security-records.png",
+    "scene": "Office Wing and Security Intel",
+    "purpose": "V6 records room clue visual.",
+    "aspect_ratio": "16:9",
+    "prompt": "Fantasy museum records room with filing cabinets, stacked exhibit ledgers, a desk covered in security diagrams and alarm spell invoices, faint blue magical annotations on a floor plan, dim lantern light, investigative mood, no readable text.",
+    "notes": "Use when players find alarm placements."
+  },
+  {
+    "id": "marigold-doll",
+    "filename": "marigold-doll.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/marigold-doll.png",
+    "scene": "Office Wing and Security Intel",
+    "purpose": "Creepy office defense visual.",
+    "aspect_ratio": "3:4",
+    "prompt": "A five-foot-tall vintage doll in an elaborate silk dress standing in a shadowy museum curator's office, stitched name tag reading Marigold implied but no legible text, porcelain-like face, glassy eyes, one hand slightly raised as if about to move, eerie fantasy realism.",
+    "notes": "Avoid gore; this should be unsettling and table-safe."
+  },
+  {
+    "id": "prehistoric-predators",
+    "filename": "prehistoric-predators.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/prehistoric-predators.png",
+    "scene": "Exhibit-Level Heist Route",
+    "purpose": "V12 route, allosaurus distraction, and tense exhibit space.",
+    "aspect_ratio": "16:9",
+    "prompt": "Prehistoric predators exhibit in a fantasy natural history museum, huge preserved allosaurus display with leathery skin, fossil cases along the walls, a winged satyr statue near stairs, dim lantern light after hours, ominous shadows, painterly fantasy realism, no text.",
+    "notes": "Use before or during the allosaurus chaos option."
+  },
+  {
+    "id": "stone-pulse",
+    "filename": "stone-pulse.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/stone-pulse.png",
+    "scene": "Countdown and Extraction",
+    "purpose": "The 10:30 p.m. escalation when the Stone visibly becomes dangerous.",
+    "aspect_ratio": "16:9",
+    "prompt": "The Murkmire Stone glowing translucent on a marble pedestal, revealing the silhouette of an alien creature curled inside, ripples of green eldritch energy pulsing outward through a dark gemstone gallery, nearby silverware trembling, horror mood without gore, cinematic fantasy realism, no text.",
+    "notes": "Use when the countdown becomes visible."
+  },
+  {
+    "id": "basement-exit",
+    "filename": "basement-exit.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/basement-exit.png",
+    "scene": "Escape and Containment",
+    "purpose": "Secret tunnel or loading-dock escape visual.",
+    "aspect_ratio": "16:9",
+    "prompt": "Museum basement storage area filled with crates and covered exhibits, heavy loading doors, a hidden stone tunnel opening behind stacked boxes, moonlight leaking in from outside, tense escape atmosphere, fantasy realism, no text.",
+    "notes": "Can represent V16 and the secret tunnel."
+  },
+  {
+    "id": "crystal-box-containment",
+    "filename": "crystal-box-containment.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/crystal-box-containment.png",
+    "scene": "Escape and Containment",
+    "purpose": "Success moment with Dannell neutralizing the egg.",
+    "aspect_ratio": "16:9",
+    "prompt": "A desperate scholar sealing a glowing light-green eldritch egg inside a clear crystal box in a dark alley beside a museum, magical energy fading as the crystal locks into place, young adventurers nearby watching in relief, cinematic fantasy realism, no text.",
+    "notes": "Use after the Stone is delivered."
+  },
+  {
+    "id": "school-vault-handoff",
+    "filename": "school-vault-handoff.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/school-vault-handoff.png",
+    "scene": "Aftermath",
+    "purpose": "Campaign continuity image for the headmaster taking custody.",
+    "aspect_ratio": "16:9",
+    "prompt": "A magical school vault or secure archive chamber, an elegant headmaster and a gnome teacher overseeing a sealed crystal box containing a faint green ovoid Stone, students in the background, warding circles and locked cabinets of strange artifacts, responsible and slightly ominous mood, fantasy realism, no text.",
+    "notes": "Use only if the Stone is brought back to school for safekeeping."
+  },
+  {
+    "id": "eldritch-horror-hatchling",
+    "filename": "eldritch-horror-hatchling.png",
+    "visual_aid_path": "class_1a/murkmire_malevolence/eldritch-horror-hatchling.png",
+    "scene": "Failure Route",
+    "purpose": "Visual for what happens if the egg hatches or as a future hook.",
+    "aspect_ratio": "16:9",
+    "prompt": "A newly hatched eldritch horror in a dark natural history museum, eight-foot-long alien insectoid body with slick chitin, too many subtle eyes, acidic slime, broken crystal and toppled display cases around it, hungry and unnatural but not gory, cinematic fantasy realism, no text.",
+    "notes": "Keep as a contingency visual."
+  }
+]
