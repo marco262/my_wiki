@@ -4,16 +4,16 @@
 
 ## Quick Reference
 
-**Source:** [The Murkmire Malevolence](https://5e.tools/adventure.html#kftgv,1,the%20murkmire%20malevolence), from *Keys from the Golden Vault*  
-**Adventure Type:** Field trip, museum heist, occult containment  
-**Intended Level Range:** Published for level 1  
-**Party Level:** Four level 4 students plus Miss Elleewick  
-**Expected Length:** Short to Medium, probably 2-4 sessions depending on heist planning  
-**Tone:** Public museum wonder turning into late-night danger  
-**Premise:** The class visits the Varkenbluff Museum of Natural History on the night before a major exhibit opens. The famous Murkmire Stone is actually an eldritch egg due to hatch at midnight.  
-**Main Stakes:** Recover and contain the Stone before it hatches, while avoiding panic, public scandal, and the museum's security.  
-**Failure Consequence:** The Stone hatches into an eldritch horror that starts feeding in the museum and grows rapidly.  
-**Field Trip Hook:** The class is already on site for a special museum preview. Dr. Cassee Dannell quietly begs them for help after official adults dismiss her.
+* **Source:** [The Murkmire Malevolence](https://5e.tools/adventure.html#kftgv,1,the%20murkmire%20malevolence), from *Keys from the Golden Vault*
+* **Adventure Type:** Field trip, museum heist, occult containment
+* **Intended Level Range:** Published for level 1
+* **Party Level:** Four level 4 students plus Miss Elleewick
+* **Expected Length:** Short to Medium, probably 2-4 sessions depending on heist planning
+* **Tone:** Public museum wonder turning into late-night danger
+* **Premise:** The class visits the Varkenbluff Museum of Natural History on the night before a major exhibit opens. The famous Murkmire Stone is actually an eldritch egg due to hatch at midnight.
+* **Main Stakes:** Recover and contain the Stone before it hatches, while avoiding panic, public scandal, and the museum's security.
+* **Failure Consequence:** The Stone hatches into an eldritch horror that starts feeding in the museum and grows rapidly.
+* **Field Trip Hook:** The class is already on site for a special museum preview. Dr. Cassee Dannell quietly begs them for help after official adults dismiss her.
 
 ## Session Dashboard
 
@@ -61,8 +61,10 @@ A respectable school museum field trip becomes a secret race against the clock w
 
 ### Maps
 
-* [Players' Map](https://5e.tools/adventure.html#kftgv,1,dr.%20dannell's%20tools)
-* [DM's Map / Museum Locations](https://5e.tools/adventure.html#kftgv,1,museum%20locations)
+* [Dannell's Sketch Map](@class_1a/murkmire_malevolence/dannells-sketch-map.png)
+* [Museum Map - Player Version](@class_1a/murkmire_malevolence/museum-map-player.png)
+* [Museum Map - DM Version](@class_1a/murkmire_malevolence/museum-map-dm.png)
+* Source: [Players' Map](https://5e.tools/adventure.html#kftgv,1,dr.%20dannell's%20tools), [DM's Map / Museum Locations](https://5e.tools/adventure.html#kftgv,1,museum%20locations)
 
 ### Source Links
 
