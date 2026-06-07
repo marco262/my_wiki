@@ -46,6 +46,7 @@ Enter another URL to set as Visual Aid here:
 
 * [Setting Notes]()
 * [Race Lore]()
+* [Long-Term David Plotting]()
 
 [[magic-item-tracker]]
 ## Starting Magic Items
@@ -55,6 +56,8 @@ Enter another URL to set as Visual Aid here:
 * [Dagger of Returning](/dnd/equipment/magic-item/returning-weapon) -- Minor Uncommon
 * [Mystery Key](/dnd/equipment/magic-item/mystery-key) -- Minor Common
 * [Spellwrought Tattoo](/dnd5e/equipment/magic-item/spellwrought-tattoo-1st-level) (Witch Bolt) -- Minor Common
+* [Bag of Holding](/dnd5e/equipment/magic-item/Bag of Holding) -- Minor Uncommon
+* [Paper Bird](/dnd5e/equipment/magic-item/Paper Bird) -- Minor Common
 
 #### Timtom
 

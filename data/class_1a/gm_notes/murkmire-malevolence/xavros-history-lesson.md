@@ -10,7 +10,8 @@ Use this as an optional cold open before the museum trip. It gives the players a
 **Class Type:** History, with a practical adventuring focus  
 **Tone:** Calm, serious, and just a little theatrical  
 **Suggested Length:** 5–10 minutes of table time  
-**Best Use:** The day before the students depart for the museum
+**Best Use:** The day before the students depart for the museum  
+**Visual Aid:** [Professor Xavros's Lesson](^class_1a/murkmire_malevolence/xavros-history-lesson.png)
 
 ## Teaching Goal
 
@@ -52,17 +53,19 @@ Then he faces the class again.
 
 ## The Story
 
-> "Three hundred and twelve years ago, an adventuring company called the Company of the Hollow Dawn crossed the ash valleys east of ruined Tel Avaris."
+> "Three hundred and twelve years ago, the Company of the Iron Will crossed the ash valleys east of ruined Tel Avaris."
 >
 > "They were competent. Experienced. Famous, in their day. Their company leader was Sir Caldrin Vale, a knight-errant of some repute. With him traveled the mage Irieth Sableglass, the scout Toma Fen, the dwarf antiquarian Brunna Coalvein, and a young temple warden named Sister Halden."
 >
 > "In a collapsed observatory beneath the ruins, they found an object now called the Black Reliquary Mask of Tel Avaris."
 
+[Professor Xavros and the Black Reliquary Mask](^class_1a/murkmire_malevolence/xavros-history-lesson.png)  
+
 Pause, then continue:
 
-> "Despite the name, it was not a mask anyone could wear."
+> "It resembled a ceremonial mask more than a useful one: a face-sized black plate of glass or polished stone, worked into the likeness of a still human face. It appeared to be a relic meant to be mounted or displayed rather than worn in any practical way."
 >
-> "It was a face-sized plate of black glass or polished stone, shaped in the likeness of a calm human face with closed eyes and no mouth. Silver filaments ran through it like trapped lightning. It was cool to the touch, but frost gathered on the pedestal beneath it. When moonlight struck it, the silver lines brightened and nearby whispers seemed to echo twice. Animals refused to go near it. The dead ivy in the ruin had begun whitening and going brittle around its stand."
+> "Silver filaments ran through it like trapped lightning. It was cool to the touch, but frost gathered on the pedestal beneath it. When moonlight struck it, the silver lines brightened and nearby whispers seemed to echo twice. Animals refused to go near it. The dead ivy in the ruin had begun whitening and going brittle around its stand."
 
 ### Question 1
 

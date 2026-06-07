@@ -31,6 +31,16 @@ For the prompts below that mention named PCs, attach your approved class field-t
 
 Each prompt below is self-contained for ChatGPT web UI use and already includes the reference-image instruction, aspect ratio, and other generator-facing guidance inside the text block.
 
+## `xavros-history-lesson.png`
+
+**Scene:** Professor Xavros's Lesson  
+**Purpose:** Cold-open classroom visual tying the lesson directly to the Murkmire field trip.  
+**Aspect Ratio:** `16:9`
+
+```text
+Generate an image using the following prompt and the attached character sheet for reference. Maintain the exact relative heights shown in the reference sheet. Aspect ratio: 16:9 horizontal. Use painterly fantasy realism with clean classroom staging, readable silhouettes, and a grounded magical-academy atmosphere. Show Professor Xavros at the front of a magical school classroom, seen from the perspective of the seated class. Xavros stands beside a projector screen or lantern-projector canvas in 3/4 front view, one foot forward and torso turned toward the students, one hand lifted in an instructive open-palmed gesture while the other points with a long wooden pointer at a projected image of the Black Reliquary Mask of Tel Avaris. The projected image should look like a monochrome photocopied transparency or old copied lecture slide: slightly washed out, high-contrast inked sketch lines on a pale translucent sheet, with the mask's shape and details clearly visible but obviously reproduced from an old academic handout rather than painted in full color. Xavros should read as a serious but engaging history professor: middle-aged or older, scholarly robes or well-kept academic clothing, calm authority, expressive posture, and the demeanor of someone guiding students through a difficult historical case rather than merely reciting facts. Frame the shot from several rows back so the projector screen and Xavros dominate the front of the room, while the foreground includes the backs and partial profiles of students at desks. Include glimpses of a few named students from behind or in partial side-back view: Alyse's white hair and drow ears slightly angled as she leans her head to one side in attentive skepticism; Gren's broad goliath shoulders and messy dark green hair with the yellow flower visible as she sits upright, steady and focused; Timtom's pointed hat and bright red hair as he leans a little too far forward over his desk with eager restless curiosity. Mix these with several other student heads and shoulders of varied fantasy races, ages, and hairstyles so the room feels like a real class rather than a staged portrait. Classroom details should include desks, papers, maybe a few satchels, and warm lamplight mixed with the projected glow. No readable text on the slide, no logos, no watermarks, no borders, and no modern electronics.
+```
+
 ## `varkenbluff-arrival.png`
 
 **Scene:** Arrival in Varkenbluff  
@@ -75,6 +85,16 @@ Generate an image using the following prompt and the attached character sheet fo
 
 **Note:** The statues become animated armor after hours.
 
+## `stone-distant-preview.png`
+
+**Scene:** Museum Introduction  
+**Purpose:** Show the class and public getting only a controlled, distant first look at the Murkmire Stone before Dannell reveals the real stakes.  
+**Aspect Ratio:** `16:9`
+
+```text
+Generate an image using the following prompt and the attached character sheet for reference. Maintain the exact relative heights shown in the reference sheet. Aspect ratio: 16:9 horizontal. Use painterly fantasy realism with a clear museum-floor composition and readable crowd staging. Show a public museum introduction scene in which visitors are viewing the Murkmire Stone only from a distance. The Stone should sit behind glass or another obvious protective barrier inside or just beyond the entrance to the closed Gemstone Wing, with velvet ropes or brass stanchions keeping the crowd well back. Two guards in visible armor with swords on their hips stand near the display in firm but nonthreatening protective poses, making it clear this is a high-profile artifact to be appreciated from afar, not approached closely. Include an older teen museum guide or junior docent near the ropes in 3/4 front view, one hand raised in a practiced explanatory gesture while the other indicates the distant Stone, giving a polished canned speech to the visitors. Frame the scene from inside the crowd at average standing eye height so the audience feels like one of the students listening. Include glimpses of the class mixed into the visitors rather than fully spotlighting them: Alyse's white hair and pointed drow ear visible in partial back view as she tilts her head skeptically toward the docent; Timtom's pointed hat and bright red hair visible a little farther forward as he leans between taller adults for a better look; Gren's broad goliath shoulders and messy dark green hair with the yellow flower visible from behind as she stands solidly and watches with calm focused curiosity. Mix in other students and visitors of varied fantasy races and builds so the moment feels like a real museum crowd. The Stone itself should be visible but still feel tantalizingly far away and a little obscured by distance, glass, and crowd separation, so the later gala access will clearly feel more intimate and important. No readable text, logos, watermarks, borders, or modern electronics.
+```
+
 ## `dr-casey-dannell.png`
 
 **Scene:** Dannell's Warning  
@@ -87,6 +107,28 @@ Generate an image using the following prompt and the attached character sheet fo
 ```
 
 **Note:** Keep him sympathetic and intense, not cartoonishly deranged. The old `dr-cassee-dannell.png` image can remain as a legacy asset, but new portraits should use this filename and characterization.
+
+## `dannell-storage-room.png`
+
+**Scene:** Dannell's Warning  
+**Purpose:** Group conversation visual for Casey pulling Miss Ellee and the students aside inside the museum.  
+**Aspect Ratio:** `16:9`
+
+```text
+Generate an image using the following prompt and the attached character sheet for reference. Maintain the exact relative heights shown in the reference sheet. Aspect ratio: 16:9 horizontal. Use painterly fantasy realism with strong character readability, natural anatomy, and a grounded intimate composition. Show a cramped museum storage room just off the public galleries: shelves of labeled crates and packing straw, draped exhibit shapes under canvas, spare pedestals, folded stands, rolled rugs, and a few half-packed natural-history odds and ends, all lit by warm lamplight leaking in from the hall and one small interior lantern. The camera should be at average adult standing height from one corner of the room, wide enough to show the whole group gathered in a secret hurried conversation. Dr. Casey Dannell, a human man in his 30s or early 40s with warm brown skin, tired dark eyes, unruly dark curly hair, and an unshaven jaw, should be the emotional center. He should look haggard, tense, and burdened, shoulders slouched as if carrying a heavy weight, one hip resting against a crate or shelf because he is too exhausted to stand straight for long. Dress him in rumpled scholar-travel clothing in plum, charcoal, faded violet, and worn leather. One hand should clutch a packet of notes and letters too tightly against his thigh while the other is raised in a precise but strained explanatory gesture. His face should show sleepless urgency, embarrassment, and determination.
+
+Miss Ellee, a very small elderly gnome woman with gray hair, lively kind features, and practical teacherly clothing, should be nearest him in 3/4 front view, perched on a low crate or short stool so she can listen without craning upward. Her posture should be compact and controlled, one hand folded over the other or resting on her knee, expression intent, cautious, and measuring Casey rather than immediately trusting him.
+
+Meli, a tall 13-year-old high elf girl with long blue hair, lightly tanned peach skin, and calm blue-lavender eyes, should stand slightly behind and to one side of Miss Ellee in partial side profile, one shoulder resting lightly against a shelf or one hand braced on it, stance balanced and protective, expression serious and analytical as she watches Casey closely.
+
+Gren, a broad sturdy 11-year-old goliath girl with gray-green skin, messy dark green hair, large green eyes, a yellow flower in her hair, and a wooden staff with a stone charm and feathers, should be seated sideways on a stout crate or low packing chest in 3/4 view, feet planted wide, staff leaned against her leg, one hand resting on the crate and the other loosely around the staff or her wrist. Her expression should be open, worried, and curious, trying to understand while taking Casey's distress seriously.
+
+Alyse, a slim 12-year-old drow girl with purple-gray skin, white hair, sharp features, and purple eyes, should be leaning against a shelf or stacked crate in partial side view, one ankle crossed over the other, one arm folded across her middle while the other hand lightly touches her chin or lower lip. She should look skeptical, alert, and intensely focused, like she is already testing Casey's story for weaknesses.
+
+Timtom, a small 13-year-old gnome boy with bright red hair, yellow eyes, orange-tinted tan skin, and a pointed hat, should be in 3/4 profile near some odd museum storage pieces, crouched or half-perched on his heels beside a covered object or open crate while still listening in. One hand should rest on the crate edge and the other hold his hat brim or hover near some curious artifact he is resisting the urge to touch. His expression should mix fascinated curiosity with anxious excitement, clearly distracted by the room and the story at the same time.
+
+The group should feel like they have been hurriedly pulled aside during a field trip: no one fully comfortable, everyone listening in a different way, and Casey looking like a man ashamed of the request he is making but too frightened to stop. No readable text, logos, watermarks, borders, modern props, or melodramatic combat posing.
+```
 
 ## `murkmire-stone-closeup.png`
 
