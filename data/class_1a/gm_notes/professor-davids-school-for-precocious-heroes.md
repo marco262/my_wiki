@@ -7,34 +7,34 @@
 
 # Staff
 
-* [Headmaster David](^class_1a/Professor_David.png)
-* [Miss Elleewick](^class_1a/Elleewick_ID.png)
-* [Professor Magnus Goldgraver](^class_1a/professor_goldgraver.jfif)
+* [Headmaster David](^class_1a/characters/Professor_David.png)
+* [Miss Elleewick](^class_1a/characters/Class_1A_-_Elleewick.png)
+* [Professor Magnus Goldgraver](^class_1a/characters/professor_goldgraver.jfif)
     * Hill Dwarf, Knowledge Cleric
     * Mentor to Timtom
     * Religious/Divine Studies
     * Very interested in Timtom's god and is trying to dig up more information about him to "teach" Timtom.
-* [Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea](^class_1a/xavros.jfif)
-    * [Ancient Gold Dragon](^class_1a/xavros_dragon.jfif)
+* [Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea](^class_1a/characters/xavros.jfif)
+    * [Ancient Gold Dragon](^class_1a/characters/xavros_dragon.jfif)
         * _Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons._
     * Mentor to Meli
     * History Professor
     * Will focus first on teaching her the importance of duty
-* [Liriwyn Silverstrings](^class_1a/professor_silverstrings2.jfif)
+* [Liriwyn Silverstrings](^class_1a/characters/professor_silverstrings2.jfif)
     * Lightfoot Halfling, Lore Bard
     * Mentor to Alyse
     * Literature Professor
 * Seraphina and Hamakorrlachek
     * Mentors to Gren
-    * [Seraphina Broussard](^class_1a/seraphina_broussard.png)
+    * [Seraphina Broussard](^class_1a/characters/seraphina_broussard.png)
         * "Nanan" to her students
         * Wood Elf Ranger
         * Survivalist/Dungeon Ec
-    * [Hamakorrlachek](^class_1a/hamakorrlachek.jfif)
+    * [Hamakorrlachek](^class_1a/characters/hamakorrlachek.jfif)
         * Awakened Tortoise
         * Very long-lived, was Awakened by the last known druid whose name has been lost to time
         * Groundskeeper and Monster Lore
-* [Fenwick "Sweeps" Brambleburrow](^class_1a/sweeps.jpg)
+* [Fenwick "Sweeps" Brambleburrow](^class_1a/characters/sweeps.jpg)
     * Forest Gnome, Thief Rogue
     * Janitor
     * Boston accent

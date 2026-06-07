@@ -23,7 +23,7 @@
 > Find the place where minds reach for the sky
 
 * [Lecture Hall](^class_1a/intro/main_lecture_hall.jfif)
-* [Professor Xavros](^class_1a/xavros.jfif) ([dragon](^class_1a/xavros_dragon.jfif))
+* [Professor Xavros](^class_1a/characters/xavros.jfif) ([dragon](^class_1a/characters/xavros_dragon.jfif))
 
 ## Biblioplex
 
@@ -31,7 +31,7 @@
 > Find the haven of knowledge, lore evermore.
 
 * [Biblioplex](^class_1a/intro/library.jfif)
-* [Professor Silverstrings](^class_1a/professor_silverstrings2.jfif)
+* [Professor Silverstrings](^class_1a/characters/professor_silverstrings2.jfif)
 
 ## Godsbrow Temple
 
@@ -39,7 +39,7 @@
 > Seek the building where radiance dwells
 
 * [Godsbrow Temple](^class_1a/intro/temple.jfif)
-* [Professor Goldgraver](^class_1a/professor_goldgraver.jfif)
+* [Professor Goldgraver](^class_1a/characters/professor_goldgraver.jfif)
 
 ## The Grand Arbor
 
@@ -47,8 +47,8 @@
 > Seek the arbor where students learn best.
 
 * [The Grand Arbor](^class_1a/intro/campgrounds.jfif)
-* [Professor Broussard](^class_1a/seraphina_broussard.png), "Nanan" to her students
-* [Hamakorrlachek](^class_1a/hamakorrlachek.jfif), "Haman" for short
+* [Professor Broussard](^class_1a/characters/seraphina_broussard.png), "Nanan" to her students
+* [Hamakorrlachek](^class_1a/characters/hamakorrlachek.jfif), "Haman" for short
 
 ## Prismatic Hall
 
@@ -56,7 +56,7 @@
 > Find the hall where creativity takes flight.
 
 * [Artisan's Hall](^class_1a/intro/artisans_hall.jfif)
-* Fenwick "[Sweeps](^class_1a/sweeps.jpg)" Brambleburrow
+* Fenwick "[Sweeps](^class_1a/characters/sweeps.jpg)" Brambleburrow
 
 # Mimic Attack!
 

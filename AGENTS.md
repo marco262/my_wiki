@@ -9,6 +9,7 @@ This repo is a campaign/wiki site with multiple namespaces under `data`.
 - Routing and namespace conventions: `docs/routing-and-namespaces.md`
 - Adventure note writing guidance: `docs/adventure-notes.md`
 - Reusable GM adventure note template: `docs/adventure-note-template.md`
+- Character image prompt guidance: `docs/character-image-prompts.md`
 
 ## Critical Content Boundary
 
@@ -25,6 +26,7 @@ This repo is a campaign/wiki site with multiple namespaces under `data`.
 - For app structure, deployment, and test layout, consult `docs/architecture.md`.
 - For routing, namespace setup, GM insert routes, and missing-page debugging, consult `docs/routing-and-namespaces.md`.
 - For new GM-facing adventure notes, consult `docs/adventure-notes.md` and use the adventure note template unless the user asks for a different format.
+- For image prompt sheets or any generated art prompts involving recurring characters, consult `docs/character-image-prompts.md` and use that guidance by default.
 
 ## AI Guardrails
 

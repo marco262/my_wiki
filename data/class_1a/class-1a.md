@@ -6,17 +6,17 @@
 
 [School Splashpage](@class_1a/School_Splashpage.png)
 
-[Class 1A](@class_1a/Class_1A.png)
+[Class 1A](@class_1a/characters/Class_1A.png)
 
-* [Alyse U. Divlatsia](@class_1a/Alyse_ID.png), Drow Bard
-* [Gren Barleybranch](@class_1a/Gren_ID.png), Goliath Druid
-* [Meli Solwynn](@class_1a/Meli_ID.png), Elven Paladin
-* [Timothy Tomothy "Timtom" Timbers the Tenth](@class_1a/Timtom_ID.png), Gnome Cleric
-* [Miss Elleewick](@class_1a/Elleewick_ID.png), Gnome Rogue
+* [Alyse U. Divlatsia](@class_1a/characters/Alyse_ID.png), Drow Bard
+* [Gren Barleybranch](@class_1a/characters/Gren_ID.png), Goliath Druid
+* [Meli Solwynn](@class_1a/characters/Meli_ID.png), Elven Paladin
+* [Timothy Tomothy "Timtom" Timbers the Tenth](@class_1a/characters/Timtom_ID.png), Gnome Cleric
+* [Miss Elleewick](@class_1a/characters/Elleewick_ID.png), Gnome Rogue
 
 # NPCs
 
-* [Headmaster David](@class_1a/Professor_David.png)
+* [Headmaster David](@class_1a/characters/Professor_David.png)
 
 [Player Soundboard](/Player Soundboard)
 

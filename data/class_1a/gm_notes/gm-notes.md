@@ -21,13 +21,13 @@ Enter another URL to set as Visual Aid here:
 
 [School Splashpage](^class_1a/School_Splashpage.png)
 
-[Class 1A](^class_1a/Class_1A.png)
+[Class 1A](^class_1a/characters/Class_1A.png)
 
-* [Alyse U. Divlatsia](^class_1a/Alyse_ID.png), drow bard
-* [Gren Barleybranch](^class_1a/Gren_ID.png), goliath druid
-* [Meli Solwynn](^class_1a/Meli_ID.png), elven paladin
-* [Timothy Tomothy "Timtom" Timbers the Tenth](^class_1a/Timtom_ID.png), gnome cleric
-* [Miss Elleewick](^class_1a/Elleewick_ID.png), gnome rogue
+* [Alyse U. Divlatsia](^class_1a/characters/Alyse_ID.png), drow bard
+* [Gren Barleybranch](^class_1a/characters/Gren_ID.png), goliath druid
+* [Meli Solwynn](^class_1a/characters/Meli_ID.png), elven paladin
+* [Timothy Tomothy "Timtom" Timbers the Tenth](^class_1a/characters/Timtom_ID.png), gnome cleric
+* [Miss Elleewick](^class_1a/characters/Elleewick_ID.png), gnome rogue
 
 [Pre-session music]($load|music|arr/BGM_Event_Crystal.mp3)
 

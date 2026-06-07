@@ -25,8 +25,8 @@ EXTRAS = [
 
 
 class MarkdownParser:
-    namespace = ""
-    accordion_text = False
+    namespace: str = ""
+    accordion_text: bool = False
     rules_glossary: Dict[str, TooltipEntry] = None
     tooltips: Dict[str, TooltipEntry] = None
 
@@ -323,11 +323,12 @@ class MarkdownParser:
 
     def parse_accordions(self, text):
         self.accordion_text = False
-        for m in re.finditer(r".*\[\[accordion (.*?)]].*", text):
+        for m in re.finditer(r".*\[\[accordion(.*?)]].*", text):
             self.accordion_text = True
+            summary = m.group(1).strip(" ") if m.group(1) else "Click to expand"
             text = text.replace(
                 m.group(0),
-                f'<button class="accordion-button">{m.group(1)}</button>\n<div class="accordion-panel">'
+                f'<button class="accordion-button">{summary}</button>\n<div class="accordion-panel">'
             )
         text = re.sub(r".*\[\[/accordion]].*", "</div>", text)
         return text

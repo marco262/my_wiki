@@ -56,7 +56,7 @@ def build_enum_dict(enum_type: str):
     d = {}
     # Find npc folder relative to this file, so we don't have to care about the current working directory
     p = Path(__file__)
-    p = p.parent / "../../data/dnd5e/npc"
+    p = p.parent / "../../data/dnd/npc"
     p = p.resolve()
     for filepath in sorted(p.glob(f"npc_{enum_type}_*.json")):
         print(f"Loading {filepath} into NPC {enum_type} enum...")

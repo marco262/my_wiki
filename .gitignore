@@ -1,4 +1,4 @@
-.env
+.env.json
 venv/
 .terraform/
 __pycache__/
