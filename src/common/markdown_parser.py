@@ -328,9 +328,9 @@ class MarkdownParser:
             summary = m.group(1).strip(" ") if m.group(1) else "Click to expand"
             text = text.replace(
                 m.group(0),
-                f'<button class="accordion-button">{summary}</button>\n<div class="accordion-panel">'
+                f'<details>\n<summary>{summary}</summary>\n<div>'
             )
-        text = re.sub(r".*\[\[/accordion]].*", "</div>", text)
+        text = re.sub(r".*\[\[/accordion]].*", "</div>\n</details>", text)
         return text
 
     @staticmethod

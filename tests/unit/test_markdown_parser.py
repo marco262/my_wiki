@@ -93,8 +93,9 @@ Text block
 
 [[/accordion]]
 """
-        expected = """<button class="accordion-button">Test Title</button>
-<div class="accordion-panel">
+        expected = """<details>
+<summary>Test Title</summary>
+<div>
 
 <h1 id="header">Header<a href="#header" class="header-link">¶</a></h1>
 
@@ -107,6 +108,24 @@ Text block
 <p>Text block</p>
 
 </div>
+</details>
+"""
+        md = MarkdownParser()
+        actual = md.parse_md(pre_markdown)
+        self.assertEqual(expected, actual)
+
+    def test_parse_accordion_without_summary(self):
+        pre_markdown = """
+[[accordion]]
+Body text
+[[/accordion]]
+"""
+        expected = """<details>
+<summary>Click to expand</summary>
+<div>
+Body text
+</div>
+</details>
 """
         md = MarkdownParser()
         actual = md.parse_md(pre_markdown)

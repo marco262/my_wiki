@@ -402,44 +402,31 @@ div#show-advanced-block, div#hide-advanced-block, div#show-subtypes, div#hide-su
     visibility: visible;
 }
 
-button.accordion-button {
+details {
+    margin-top: 5px;
+    background-color: antiquewhite;
+}
+
+details > summary {
     background-color: #A4121A;
     color: white;
     cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
+    padding: 0.5em;
     font-family: 'Bree Serif', serif;
     font-size: 12pt;
-    transition: 0.4s;
-    margin-top: 5px;
 }
 
-.accordion-active, button.accordion-button:hover {
+details > summary:hover,
+details[open] > summary {
     background-color: #730c12;
 }
 
-button.accordion-button:before {
-    content: "\002B";
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+details > div {
+    padding: 0 1em 0.4em 1em;
 }
 
-button.accordion-active:before {
-    content: "\2212";
-}
-
-div.accordion-panel {
-    text-align: left;
-    padding: 0 18px;
-    background-color: antiquewhite;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+details ul {
+    padding-left: 2em;
 }
 
 blockquote {
