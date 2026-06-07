@@ -283,6 +283,10 @@ h6:hover > .header-link {
     visibility: visible;
 }
 
+ul {
+    padding-left: 2em;
+}
+
 div.phb-sidebar, div.phb-sidebar-no-float, div.errata, div.errata-no-float {
     padding: 0 1em;
     margin-left: 10px;

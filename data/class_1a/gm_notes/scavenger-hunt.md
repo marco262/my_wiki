@@ -23,7 +23,7 @@
 > Find the place where minds reach for the sky
 
 * [Lecture Hall](^class_1a/intro/main_lecture_hall.jfif)
-* [Professor Xavros](^class_1a/characters/xavros.jfif) ([dragon](^class_1a/characters/xavros_dragon.jfif))
+* [Professor Xavros](^class_1a/characters/xavros.png) ([dragon](^class_1a/characters/xavros_dragon.jfif))
 
 ## Biblioplex
 

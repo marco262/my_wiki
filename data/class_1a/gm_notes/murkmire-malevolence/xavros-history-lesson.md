@@ -6,7 +6,7 @@ Use this as an optional cold open before the museum trip. It gives the players a
 
 ## Framing
 
-**Teacher:** [Professor Xavros](^class_1a/characters/xavros.jfif)  
+**Teacher:** [Professor Xavros](^class_1a/characters/xavros.png)  
 **Class Type:** History, with a practical adventuring focus  
 **Tone:** Calm, serious, and just a little theatrical  
 **Suggested Length:** 5–10 minutes of table time  

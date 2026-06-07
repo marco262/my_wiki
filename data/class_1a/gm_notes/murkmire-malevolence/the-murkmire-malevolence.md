@@ -15,15 +15,13 @@
 
 ## Session Dashboard
 
-**Optional Cold Open:** [Xavros History Lesson](xavros-history-lesson.md)
+**Optional Cold Open:** [Xavro's History Lesson]()
 
 ### One-Sentence Pitch
 
 A respectable school museum field trip becomes a secret race against the clock when the students learn the star exhibit is a monster egg that will hatch before any outside help can arrive.
 
-### Why the Students Act
-
-[[accordion]]
+[[accordion Why the Students Act]]
 
 * **Time pressure:** The Stone starts pulsing at 10:30 p.m. and hatches at midnight. The school is a full day away by normal travel.
 * **Teleportation limits:** The school has access to teleportation circles, but the nearest usable circle is not casually available at the museum. Getting a message to the right adult, locating a mage who can cast *teleportation circle*, and authorizing the circle use would take longer than the remaining window.
@@ -35,9 +33,7 @@ A respectable school museum field trip becomes a secret race against the clock w
 
 [[/accordion]]
 
-### Run This As
-
-[[accordion]]
+[[accordion Run This As]]
 
 1. **Arrival and wonder:** Show the museum as a big cosmopolitan place with dinosaurs, ancient cultures, donors, and school-field-trip energy.
    * Optional lead-in: [Professor Xavros History Lesson](xavros-history-lesson.md)
@@ -196,6 +192,7 @@ A respectable school museum field trip becomes a secret race against the clock w
 * Fail-forward: even on a failed check, the Stone pulse later proves he was right.
 
 [[accordion If the Students Ask Casey Xavros's Questions]]
+
 **What do you know?**
 
 * The Stone does not fit known regional material culture.
@@ -224,6 +221,7 @@ A respectable school museum field trip becomes a secret race against the clock w
   * "Because too many things are wrong in the same direction."
   * "It does not behave like a relic. It only resembles one."
   * "You have no proof it is safe. You only have proof that it has not hurt you yet."
+
 [[/accordion]]
 
 **If Things Stall:** Dannell stresses that school adults cannot arrive before midnight. The choice is not "children versus qualified adults"; it is "the people already here versus no one in time."
@@ -261,6 +259,7 @@ A respectable school museum field trip becomes a secret race against the clock w
 * DC 12 Arcana on the pedestal confirms removing the Stone will lock every door into the room.
 
 [[accordion If the Students Ask the Museum / Archaeologists Xavros's Questions]]
+
 Use these answers from Alda, museum staff, or affiliated archaeologists. They should sound professional, reasonable, and incomplete, not foolish.
 
 **What do you know?**
@@ -288,6 +287,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 * The museum followed its own procedures for unusual finds, including isolation and expert review.
 * The staff believe the real risks are theft, mishandling, and public embarrassment, not imminent supernatural danger.
 * By the time Casey raised stronger objections, the institution already had professional consensus and exhibition momentum behind the display.
+
 [[/accordion]]
 
 **Mechanics:**
@@ -310,6 +310,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 **Music / Ambience:** [Low Drones]($load|ambience|Industrial_Ambient_Drones_06.mp3), [Squeaking Door]($load|effect|Sqeaking_door-Sarasprella-1653672487.mp3)
 
 [[accordion Office Wing Reference]]
+
 **Key Rooms:**
 
 * V5 Curator's Office: patrol routes, Alda information, Marigold doll hazard.
@@ -324,6 +325,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 * Marigold uses the scarecrow stat block. For level 4, use it as a jump scare and alarm risk, not a major fight.
 
 **Fail-Forward:** If they never get the office clues, let the party discover the V9 fake Stone and V12 vent by exploration. They can still solve the heist with improvisation.
+
 [[/accordion]]
 
 ### Scene: Exhibit-Level Heist Route
@@ -334,6 +336,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 **Music / Ambience:** [Low Drones]($load|ambience|Industrial_Ambient_Drones_06.mp3)
 
 [[accordion Route and Obstacle Reference]]
+
 **Best Route to Surface:**
 
 * V9 has a jade fake similar in size and weight to the Murkmire Stone.
@@ -350,6 +353,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 * Mimic in the basement: optional dangerous complication.
 
 **Level 4 Adjustment:** Keep guards mostly normal. The danger is not that each guard can kill a student; the danger is alarms, numbers, detention, and losing the clock. Upgrade only named/security-centerpiece threats if the table wants combat.
+
 [[/accordion]]
 
 ### Scene: The Stone Swap
@@ -423,6 +427,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 **Visual / Stat Block:** [Portrait](^class_1a/murkmire_malevolence/dr-casey-dannell.png), [5e.tools stat block](https://5e.tools/bestiary.html#dr.%20cassee%20dannell_kftgv)
 
 [[accordion Casey's Full Reasoning If Pressed]]
+
 **What Casey admits he actually knows:**
 
 * The Stone does not fit known regional material culture.
@@ -443,6 +448,7 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 * He believes the evidence is weak in the academic sense but overwhelming in the practical sense.
 * He sees this as a field judgment under uncertainty, not a thesis defense.
 * In his mind, the cost of being wrong is tiny compared with the cost of doing nothing if he is right.
+
 [[/accordion]]
 
 ### Alda Arkin
@@ -583,28 +589,34 @@ Use these answers from Alda, museum staff, or affiliated archaeologists. They sh
 * Consider the school providing formal commendation, a fieldwork credit, or a small magic item rather than cash.
 
 [[accordion Optional Rewards]]
+
 **Optional Rewards:**
 
 * One uncommon magic item from Headmaster David as "recognition for discretion."
 * Dannell as a future academic contact.
 * Access to Varkenbluff University or museum archives after Dannell is vindicated.
+
 [[/accordion]]
 
 [[accordion School Consequences]]
+
 **School Consequences:**
 
 * Miss Elleewick must explain why she let the students act.
 * Headmaster David publicly praises the class's courage and judgment.
 * Privately, he is very interested in the crystal-sealed Murkmire Stone.
+
 [[/accordion]]
 
 [[accordion Future Hooks]]
+
 **Future Hooks:**
 
 * Another Stone is found in the Murkmire.
 * A hatchling appears at the Varkenbluff Zoo.
 * Alda's illicit artifact network becomes a future investigation.
 * Dannell asks for help restoring her academic reputation.
+
 [[/accordion]]
 
 ## Campaign Adaptation Notes

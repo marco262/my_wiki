@@ -14,7 +14,7 @@
     * Mentor to Timtom
     * Religious/Divine Studies
     * Very interested in Timtom's god and is trying to dig up more information about him to "teach" Timtom.
-* [Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea](^class_1a/characters/xavros.jfif)
+* [Xavros of Tenacious Wit, Keeper of Magic, Son of Justicias and Mercea](^class_1a/characters/xavros.png)
     * [Ancient Gold Dragon](^class_1a/characters/xavros_dragon.jfif)
         * _Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons._
     * Mentor to Meli
