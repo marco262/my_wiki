@@ -13,6 +13,7 @@ git branch --set-upstream-to=origin/master master
 
 git sparse-checkout set \
   "data/" \
+  "media/" \
   "src/" \
   "static/" \
   "views/" \

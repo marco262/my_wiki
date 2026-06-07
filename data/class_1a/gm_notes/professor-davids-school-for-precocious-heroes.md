@@ -5,6 +5,8 @@
 * If someone dies on school grounds, his soul is chained to his body. This allows him to be resurrected via Revivify at any point without spending material components.
 * The infirmary has materials on hand for lesser/greater restoration, and high-level staff can cast a handful of Regenerate per day.
 
+[School Splashpage](^class_1a/School_Splashpage.png)
+
 # Staff
 
 * [Headmaster David](^class_1a/characters/Professor_David.png)

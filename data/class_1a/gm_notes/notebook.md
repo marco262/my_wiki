@@ -10,6 +10,7 @@
   * Music for the Battle Prawns
 * Make picture and item card of the bubble necklace
 * Make picture of Blorbo the octopus in a water hamster ball
+* Make a picture of Chef Thornwick, Elleewick's crush
 
 ### Player Plans
 
@@ -69,3 +70,8 @@ Elleewick:
 The Ewer Brimmeth -- music/ex4/BGM_EX4_Town_O_Day.scd
 The Nautilus Knoweth -- music/ex4/BGM_EX4_Town_O_Night.scd
 The Day Will Come (Endwalker) -- music/ex4/BGM_EX4_Town_O_Room.scd
+
+
+
+
+New chef: Chef Thornwick
