@@ -40,6 +40,9 @@
 
 ### Global Music and Ambience
 
+* Travel to Varkenbluff (calm): [Open Road]($load|music|arr/BGM_Field_Safe1.mp3)
+* Travel to Varkenbluff (adventurous): [Road Through the Wilds]($load|music|arr/BGM_Field_Gri_02.mp3)
+* Arrival in city streets: [City Arrival]($load|music|arr/BGM_EX4_Town_R_Day.mp3)
 * Field trip crowd: [Museum Crowd]($load|ambience|Restaurant Walla Track-SoundBible.com-479263734.ogg)
 * Gala murmur: [Gala Murmur]($load|ambience|crown_murmur_male.mp3)
 * After-hours museum: [Low Drones]($load|ambience|Industrial_Ambient_Drones_06.mp3)
@@ -108,7 +111,7 @@ A respectable school museum field trip becomes a secret race against the clock w
      * [Museum Exterior](^class_1a/murkmire_malevolence/museum-exterior.png)
      * [Class Field Trip](^class_1a/murkmire_malevolence/class-field-trip.png)
      * [Grand Entrance](^class_1a/murkmire_malevolence/grand-entrance.png)
-   * Music: [Museum Crowd]($load|ambience|Restaurant Walla Track-SoundBible.com-479263734.ogg)
+   * Music: Start with [Open Road]($load|music|arr/BGM_Field_Safe1.mp3) or [Road Through the Wilds]($load|music|arr/BGM_Field_Gri_02.mp3), then transition to [Museum Crowd]($load|ambience|Restaurant Walla Track-SoundBible.com-479263734.ogg).
 
 2. **Museum Introduction Tour**
    * A young docent gives the public-facing story of the Murkmire Stone while the class gets only a distant look through glass and ropes.
@@ -169,7 +172,7 @@ A respectable school museum field trip becomes a secret race against the clock w
  * [Museum Exterior](^class_1a/murkmire_malevolence/museum-exterior.png)
  * [Class Field Trip](^class_1a/murkmire_malevolence/class-field-trip.png)
 
-**Music / Ambience:** [Museum Crowd]($load|ambience|Museum Soundscape Rijksmuseum Binaural.mp3)
+**Music / Ambience:** Start with [Open Road]($load|music|arr/BGM_Field_Safe1.mp3) or [Road Through the Wilds]($load|music|arr/BGM_Field_Gri_02.mp3), then transition to [Museum Crowd]($load|ambience|Museum Soundscape Rijksmuseum Binaural.mp3)
 
 **Setup:** The class has traveled for the day to Varkenbluff. The field trip is safe on paper: museum exhibits, a chaperoned educational event, and a special preview specifically organized around the newly unearthed Murkmire Stone. The Stone is being promoted as a rare intact Murkmire find: beautiful, mysterious, unlike known local materials, and important enough that scholars still disagree about what it was for.
 
